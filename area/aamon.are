@@ -1,0 +1,877 @@
+#AREADATA
+Name Aamons Area~
+Builders aamon~
+VNUMs 100830 100860
+Credits aamon~
+Security 1
+LevelRange 0 0
+Flags closed noquest~
+End
+
+#MOBILES
+#100830
+da001 vala valiant crusader of light~
+Vala {Wthe {YV{ya{Yl{yi{Ya{yn{Yt{x, {cCrusader {Wof Light{x~
+Vala {Wthe {YV{ya{Yl{yi{Ya{yn{Yt{x is here, searching for evils to purge.
+~
+A tall human paladin with a determined look in his eyes and perfectly
+tended {Ygolden{x hair.  His eyes are {bdark blue{x and quite mysterious.  His body
+seems to be the size of the average human but he is very well fit.  
+~
+human~
+ABQ DFJZw 1000 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+ACDK AB 0 0
+stand stand male 2201
+0 0 medium flesh~
+~
+#100831
+nic'lo necromancer~
+the undead body of Nic'Lo, the troll Necromancer~
+The {Dund{xea{Dd{x body of Nic'Lo {Dthe {Yho{yr{Yri{yb{Yle{x is here, drowling on itself.
+~
+The troll standing before you is quite a disgusting sight.  He looks very
+un-inteligent standing there sniffing into the air with his drowl running
+down his face.  He has large tusks sticking out of his jaw and he seems to
+be missing an eye.  
+~
+troll~
+ABRce 0 -1000 0
+64 64 289d64+0 640d11+95 22d2+50 none
+-36 -36 -36 -23
+0 ABE CDFGN 0
+stand stand female 0
+0 0 medium flesh~
+~
+#100835
+shar demon clan cleric~
+Shar, The Demon Clan Cleric~
+A demon clan cleric is standing at the altar, chanting in a strange language.
+~
+He is a member of the demon clan of the Underdark and he is dressed in
+their red and black robes.  His face is pale as milk as he probably spends
+his entire life in the depths of the underdark.  
+~
+human~
+ABQe DFJOTZlu -1000 0
+102 102 538d102+0 1020d11+95 35d2+75 none
+-63 -63 -63 -43
+FHKN AB I 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 100830 100~
+M speech 100835 heal me~
+#100836
+aeriel~
+Aeriel~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#100837
+demon babau humanoid~
+a {Rbabau demon{x~
+{DA gaunt humanoid is here, reeking of decay{x.
+~
+It is covered in a black leathery skin and it has pointy ears.  Behind
+the ears a large pointy horn rises out of its skull.  Half of its face is
+covered by a huge mouth filled with jagged teeth.  
+~
+unique~
+AGTc DFGJTVZalt -1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CFHK ABH 0 N
+stand stand male 0
+HMV LW large flesh~
+~
+#100838
+demonic scout da002~
+a demonic scout~
+A {Rdemonic{x scout is here, investigating the area.
+~
+It is a large humaniod creature with a set of gigantic wings shooting of
+of its back.  Its skin is burning and its breath is heavy and loud.  Horns
+shoot out of the front of it's head and trails of blood run from its lips.  
+~
+unique~
+ABTce DFGJPQTVZalt -1000 0
+91 91 465d91+0 910d11+95 32d3+200 none
+-56 -56 -56 -37
+CFHK ABH 0 N
+stand stand male 0
+HMV LPW large flesh~
+~
+#100839
+old man~
+an old man~
+An old man is here, looking very confused.
+~
+It's a very old human.  He is basicly just a wandering wrinkle and he is
+having some trouble supporting his own weight.  Every now and then he
+fumbles his hands in front of himself as if he was blind.  
+~
+human~
+ABR 0 0 0
+4 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100840
+adult green dragon~
+an adult {gg{Gre{gen {Gd{gra{Ggo{gn{x~
+A HUGE adult {gg{Gre{gen {Gd{gra{Ggo{gn{x is here, roaming about.
+~
+The dragon has a toothy, curving jawline and rows of hornlets over its
+eyes and a cluster of hornlets at the chin.  A crest begins just behind the
+eyes and runs the length of its body, rising to full height behind the
+skull.  An odor of chlorine clings to the dragon whose scales radiate with a
+glowing {gem{Ge{Wr{Ga{gld{x shine.  Gems are jammed into its skin every here and there. 
+~
+green dragon~
+ABQRTe CDEFGOZltu -1000 0
+91 91 465d91+100 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFKMO ABEK CFGHJ 0
+stand stand none 3856
+0 0 gargantuan flesh~
+~
+F vul F
+#100841
+death bringer~
+a mpcode monster~
+A nasty looking wizi monster is here, waiting to release its fearsome mpcodes.
+~
+~
+human~
+A DFJZl 0 0
+92 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M act 100834 death cry.~
+#100842
+kulde the frigid guardian giant frost~
+Kulde, the frigid guardian~
+A gigantic {Ci{Wce{C gi{Wan{Ct{x quietly wanders the tundra.
+~
+With eyes as cold as a winternight, this frozen colossus seems to stare
+right through you.  He's atleast twice as tall as any giant known to man and
+his breath hangs as a dim, frozen cloud infront of his bulky head, slowly
+falling to the ground as snow.  His skin is covered with snow and ice, and
+large icicles hang from his elbows, as gigantic spikes on a bizarre suit of
+frozen armor.  
+~
+frost giant~
+ABTe JNOZ 0 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+KW ABE 0 0
+stand stand none 0
+0 0 gargantuan flesh~
+~
+F attr+ AB
+M death 100836 100~
+#100849
+xyzxel the githyanki necromancer~
+{yXy{Yzx{yel{x~
+{yXy{Yzx{yel{D, the Githyanki Necromancer is here.{x
+~
+It's a horribly, skinny, almost skeleton-like, Githyanki.  His skin is
+pale yellow and sits so tight on his bones, that he could easily be mistaken
+for one of his undead minions.  His lowerlip is covered by the rust-coloured
+fangs, sticking out upper jaw.  Deep into his sunken eye-sockets, a pair of
+very small, red, eyes seem to look straight into your very soul.  
+~
+githyanki~
+ABRe DUZu -1000 0
+65 65 296d65+0 650d45+12000 22d2+50 none
+-37 -37 -37 -24
+FK AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff J
+#0
+
+#OBJECTS
+#100830
+couch~
+the couch~
+{DA l{Warg{De cow {Wski{Dn co{Wuc{Dh{x is standing unharmed in the midst of the fire.~
+leather~
+~
+furniture RTYj 0
+CD 0 EHK 0 0 CD 0
+92 0 0 P
+G none
+G none
+G none
+G none
+#100831
+mark aamo~
+{RThe mark of Aamon{x~
+Aamon's mark has been left behind by one of his servants.~
+unknown~
+~
+jewelry CRTYj AC
+0 0 0 0 0 0 0
+1 10 0 P
+F
+A 8 0 L
+E
+mark~
+Without glorious pain, nothing matters.
+Aamon above all.
+~
+G none
+G none
+G none
+G none
+#100832
+light burning soul~
+{ra bu{Rrn{rin{Rg s{roul{x~
+A ball of fire is constantly exploding on the ground.~
+fire~
+~
+light APRTYajk AP
+4
+108 0 0 P
+G none
+G none
+G none
+G none
+#100833
+gigantic frozen log~
+a {WGIGANTIC{x {Cfr{Woz{Ce{Wn{y log{x~
+A gigantic wooden log has been dropped here.~
+wood~
+~
+weapon MPY AN
+mace 5 31 frbite BF
+106 107 1599273 P
+A
+19 25
+A
+2 -2
+G none
+G none
+G none
+G none
+#100834
+gigantic frozen log~
+a {WGIGANTIC{x {Cfr{Woz{Ce{Wn{y log{x~
+A gigantic wooden log has been dropped here.~
+wood~
+~
+weapon MYi AN
+mace 5 31 frbite BF
+106 107 700349 P
+A
+19 25
+A
+2 -2
+G none
+G none
+G none
+G none
+#100835
+demonic breastplate~
+{DDemonic Breastplate of {RRAGE{x~
+the breastplate of a god is hovering in the air.~
+energy~
+~
+armor CERTij AD
+0 0 0 0 'none' 0
+107 0 8403549 P
+F
+A 8 8 w
+F
+A 17 -2000 x
+F
+A 18 200 N
+F
+A 19 -50 O
+F
+A 12 50000 H
+F
+A 13 50000 u
+G none
+G none
+G none
+G none
+#100836
+leggings draconic chain chainleggings of wrath~
+{gDra{Gc{Wo{gnic c{Gh{gainle{Gg{ggin{Gg{Ws{g of {Wwrath{x~
+The leggings of a god is hovering in the air.~
+energy~
+~
+armor CERTij AFP
+0 0 0 0 'none' 0
+107 0 13391601 P
+F
+A 12 50000 u
+F
+A 13 50000 H
+G none
+G none
+G none
+G none
+#100837
+demonic boots~
+{DDemonic plate boots of {RRAGE{x~
+The boots of a god is hovering in the air.~
+energy~
+~
+armor CERTij AG
+0 0 0 0 'none' 0
+107 0 0 P
+G none
+G none
+G none
+G none
+#100838
+demonic longsword~
+{DDemonic longsword of {RRAGE{x~
+The longsword of a god is hovering here.~
+unknown~
+~
+weapon CENRTYj AN
+longsword 6 22 flame AD
+107 108 1891350 P
+G none
+G none
+G none
+G none
+#100839
+corpse woman~
+the corpse of a young woman~
+The corpse of a young human woman is lying here.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+corpse~
+It's the corpse of a young human woman.  Atleast it seems to be.  It is
+hard to tell what she looked like as she is burned to a crisp.  
+~
+G none
+G none
+G none
+G none
+#100840
+flail divine rage~
+{WAamon's {Rfuming Rage{x~
+A marvelous flail is hovering above the ground, pulsating with power.~
+energy~
+~
+weapon 0 AN
+flail 6 20 wrath A
+106 107 765418 P
+E
+flail~
+Inscribed on its' handle:
+Created in the fires of hell for Shyril, Disciple of Aamon.
+~
+G none
+G none
+G none
+G none
+#100841
+pendant enlightenment~
+{genl{Gigh{Wt{Genm{gent{x~
+An odd looking {gem{Ge{Wr{Ga{gld{x pendant has been left behind.~
+emerald~
+~
+jewelry AGRYik AC
+0 0 0 0 0 0 0
+64 4 15000 P
+A
+12 50
+A
+3 4
+E
+enlightenment~
+An inscription on the back of this remarkable pendant reads: "Purchased
+by Nic'Lo from the demon warlord in return for eternal service" 
+~
+E
+pendant~
+An inscription on the back of this remarkable pendant reads: "Purchased
+by Nic'Lo from the demon warlord in return for eternal service" 
+~
+G none
+G none
+G none
+G none
+#100842
+block of ice~
+the huge block of ice~
+{CA hu{Wge bl{Coc{Wk of {Cice h{Was {Cbe{Wen p{Clac{Wed h{Cere{x.~
+shell~
+~
+treasure RTYj AP
+0 0 0 0 0
+100 20000 0 P
+E
+ice~
+It's a huge block of ice.  There's no way nature could have created it. 
+Someone must have placed it here, out of most peoples reach.  Looking
+further upon the dim ice, it appears as if there's a dark shape inside it.  
+~
+E
+block~
+It's a huge block of ice.  There's no way nature could have created it. 
+Someone must have placed it here, out of most peoples reach.  Looking
+further upon the dim ice, it appears as if there's a dark shape inside it.  
+~
+G none
+G none
+G none
+G none
+#100843
+dragonscale scale~
+some {Gg{gre{Gen{x dragonscale~
+Some {Gg{gre{Gen{x dragonscale is steaming on the ground.~
+unknown~
+scale~
+armor CSYhi A
+0 0 0 0 'none' 0
+106 10 0 P
+G none
+G none
+G none
+G none
+#100844
+dragon head~
+the head of a {gg{Gre{gen{x dragon~
+The head of a {gg{Gre{gen{x dragon is lying here, waiting to be returned to a questmaster.~
+unknown~
+~
+treasure c A
+0 0 0 0 0
+106 0 25 P
+E
+head~
+This head have been cut clear off a dragons neck.  Acid seems to run from
+its mouth and it stinks of chlorine.  Maybe it could be returned to a
+questor with "quest return head" ?  
+~
+G none
+G none
+G none
+G none
+#100845
+acidic flame~
+{Ga{gn ac{Gid{gi{Gc {gfl{Ga{gme{x~
+A {ggr{Gee{gn{x flame is burning its way through the ground.~
+acid~
+~
+light AETYa A
+750
+106 20 36706 P
+A
+13 100
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100846
+token grim reaper~
+{CToken of the Grim Reaper{x~
+Someone has left their {Ctoken of the grim reaper{x behind.~
+unknown~
+rock~
+treasure PYjk AP
+0 0 0 0 0
+50 1 0 P
+E
+token~
+It's a small medal of human skull made from pitch black rock.  The back
+of the token says: "{RThis token belong(ed) to a participant of the league of
+the Grim Reaper{x" 
+~
+G none
+G none
+G none
+G none
+#100847
+elemental blade~
+{YE{Wlem{Cent{Wal B{Clad{Ye{x~
+A grand sword is hovering in thin air, engulfed in flames and lightning and with ice dripping off it.~
+unknown~
+~
+weapon CNRSTYa ANP
+longsword 200 1 none ABCDGH
+107 0 5 P
+F
+I 12 50000 D
+F
+I 13 50000 C
+F
+A 19 200 V
+G none
+G none
+G none
+G none
+#100848
+ball fire exploding flame forever~
+the {rfore{Rver-{Yexp{Wl{Yodi{Rng f{rlame{x~
+A ball of fire is constantly exploding on the ground.~
+fire~
+~
+light ARTYajk AP
+4
+50 0 99774 P
+F
+A 8 -5 L
+G none
+G none
+G none
+G none
+#100849
+huge icicle~
+{wa h{Wug{Ce ic{Wicl{we{x~
+An icicle, the size of a dwarf, have been carelessly left behind.~
+ice~
+~
+weapon MSY AN
+spear 4 40 frbite BF
+106 107 955051 P
+A
+19 13
+A
+13 75
+G none
+G none
+G none
+G none
+#100850
+fragment of magical ice~
+{WA fragment of {Ym{ya{Yg{yi{Yc{ya{Yl {Wi{Cc{We{x~
+A large piece of ice is lying on the ground.~
+ice~
+~
+armor GSY AJ
+45 45 45 45 'none' 0
+106 107 518843 P
+A
+1 2
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#100851
+test axe~
+test axe~
+test axe~
+unknown~
+~
+weapon Mh AN
+axe 65 2 wrath CFK
+106 107 1187015 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100830
+{DA {rf{Ri{Ye{Rr{ry{R h{Ye{rll{x~
+You are in what seems like an endless room engulfed in flames.  There are
+flames as far as the eye can see in all directions and no sign of
+structures.  Due to the flames there is no humidity and the temperature
+seems extremely high.  The ground beneath you is scorched and cracked, yet
+burning better then a dry forest, while the sky above you is dark and filled
+with the blackest smoke, effeciently blocking out any source of light. 
+Every now and then a patch of air shimmers in and out of existance.  
+~
+0 DNTXZ inside
+S
+#100831
+A narrow stairway~
+You are at an extremely narrow stairway that has been carved into the
+rocky ground beneath you.  Complete darkness fills the stairway and it is
+imposible to see what hides within it.  A low voice can be heard from within
+the darkness but its words are incomprehensible.  
+~
+0 ADNX inside
+D4
+~
+~
+Z 0 16483
+0 0
+D5
+~
+~
+Z 0 100832
+0 0
+S
+#100832
+{Dinto the darkness{x~
+You are walking down the stairway and into the darkness.  Everywhere
+around you darkness shield your surroundings but you feel the roughly carved
+rock walls against your shoulders.  The air is moist, heavy and filled with
+dust, making it hard to breathe.  From deep beneath you a low voice is
+heard, mumbling words too silent to make out.  
+~
+0 ADNX inside
+D4
+~
+~
+Z 0 100831
+0 0
+D5
+~
+~
+Z 0 100833
+0 0
+S
+#100833
+{Dinto the darkness{x~
+You are walking down the stairway and into the darkness.  Everywhere
+around you darkness shield your surroundings but you can feel the roughly
+carved rock walls against your shoulders.  The air is moist, dense and
+filled with dust, making it hard to breathe.  From beneath you a voice is
+heard, mumbling words of a strange origin.  
+~
+0 ADNX inside
+D4
+~
+~
+Z 0 100832
+0 0
+D5
+~
+~
+Z 0 100834
+0 0
+S
+#100834
+{Dinto the darkness{x~
+You are at what appears to be the bottom of the stairway.  Everywhere
+around you it is pitch black and imposible to make anything out of the
+darkness.  A low voice can be heard chanting from the north.  
+~
+0 ADNX inside
+D0
+~
+~
+Z 0 100835
+0 0
+D4
+~
+~
+Z 0 100833
+0 0
+S
+#100835
+{DAt a dark shrine{x~
+You are standing in a large room.  The room has been carved into the
+rocks in a dome shape, and braziers lined up in a circle burns with strange
+flames, keeping the room dimly lit.  In the center of the brazier's circle
+an obsidian altar stands with strange runes carved into it.  Behind the
+altar, stands a large marble block that seems to be the beginning of a
+statue.  
+~
+0 DNX inside
+E
+braziers~
+A bright {bbl{Bue {Cf{Bla{bme{x burns in each of the braziers.  The flames seem to be
+extremely cold.  
+~
+E
+statue~
+Not much have been carved yet but judging from the overall shape it could
+turn into a humanoid.  
+~
+E
+block~
+Not much have been carved yet but judging from the overall shape it could
+turn into a humanoid.  
+~
+E
+marble~
+Not much have been carved yet but judging from the overall shape it could
+turn into a humanoid.  
+~
+D2
+~
+~
+Z 0 100834
+0 0
+S
+#100836
+a dim pathway~
+You are at a dimly lit pathway.  Dried out grass is lying dead on both
+sides of the path and small wooden sticks poke up from where bushes once
+stood.  A couple of burned flowers are lying scattered around and no animals
+are seen or heard.  
+~
+0 NX inside
+D0
+~
+~
+Z 0 17306
+0 0
+D2
+~
+~
+Z 0 100837
+0 0
+S
+#100837
+a dim pathway~
+You are at a dimly lit pathway.  Dried out grass is lying dead on both
+sides of the path and small wooden sticks poke up from where bushes once
+stood.  A couple of burned flowers are lying scattered around and no animals
+are seen or heard.  
+~
+0 NX inside
+D0
+~
+~
+Z 0 100836
+0 0
+D2
+~
+~
+Z 0 100838
+0 0
+S
+#100838
+At a ruined shrine~
+You are standing in a large circular clearing in the woods.  The clearing
+is surrounded by a thin wall of died out branches, reaching a few feet in
+height.  The surface of the clearing is barren and scorched and no plants
+grow on it.  In the center of the circle, a small marble altar stands,
+cracked down the middle.  
+~
+0 NX inside
+D0
+~
+~
+Z 0 100837
+0 0
+S
+#0
+
+#SPECIALS
+M 100831 spec_breath_gas	* the undead body of Nic'Lo, the troll Necromancer
+M 100835 spec_breath_frost	* Shar, The Demon Clan Cleric
+M 100840 spec_breath_acid	* an adult {gg{Gre{gen {Gd{gra{Ggo{gn{x
+S
+
+#RESETS
+O 0 100830 0 100830	* the couch ({DA {rf{Ri{Ye{Rr{ry{R h{Ye{rll{x)
+M 0 100835 1 100835 1	* Shar, The Demon Clan Cleric ({DAt a dark shrine{x)
+O 0 100839 0 100838	* the corpse of a young woman (At a ruined shrine)
+S
+
+#OLIMITS
+O 100832 0	* {ra bu{Rrn{rin{Rg s{roul{x
+O 100833 1	* a {WGIGANTIC{x {Cfr{Woz{Ce{Wn{y log{x
+O 100834 0	* a {WGIGANTIC{x {Cfr{Woz{Ce{Wn{y log{x
+O 100840 1	* {WAamon's {Rfuming Rage{x
+O 100844 1	* the head of a {gg{Gre{gen{x dragon
+O 100845 1	* {Ga{gn ac{Gid{gi{Gc {gfl{Ga{gme{x
+O 100848 1	* the {rfore{Rver-{Yexp{Wl{Yodi{Rng f{rlame{x
+O 100849 0	* {wa h{Wug{Ce ic{Wicl{we{x
+O 100850 0	* {WA fragment of {Ym{ya{Yg{yi{Yc{ya{Yl {Wi{Cc{We{x
+S
+
+#MOBPROGS
+#100830
+mob echoat $n $I says '{GWelcome to the shrine of Aamon.{x'
+~
+#100831
+mob echoat $n $I says '{GWelcome to the shrine of Aeriel. May the light shine upon you.{x'
+~
+#100832
+if carries $i 100834
+mob junk soul
+say Excellent sacrifice! This will strengthen Aamon greatly!
+mob echo $I places the {WBright and pure soul{x on the altar and mumbles some foreign words as the light from the soul fades.
+say AAAH i can feel the power of Aamon run through my body!
+say Take this in return and guard it with your life. The more the better.
+wink $n
+mob oload 100831
+give favor $n
+end
+else
+say Aamon has no use of this.
+give $o $n
+end
+~
+#100833
+if carries $i 100833
+mob junk soul
+say Hidious thing you've got there. I know just what to do with this.
+mob echo $I places the {Ddark and sinister soul{x on the altar and mumbles some foreign words as the darkness from the soul fades.
+say It is so nice to see the power of light united.
+say Take this in return and guard it with your life. The more the better.
+smile $n
+mob oload 100832
+give favor $n
+end
+else
+say You could probably use this more then Aeriel.
+give $o $n
+end
+~
+#100834
+mob transfer $n
+~
+#100835
+if name $n Aamon
+say Yes milord.
+emote closes his eyes and raises his hands.
+say dit helbred er nu godt
+mob echoaround $n $n starts pulsating as his wounds close.
+mob echoat $n You start pulsating as your wounds close.
+mob damage $n -40000 -40000 0
+bow $n
+end
+else
+eye $n
+say And what have you done to deserve my aid?
+end
+end if
+~
+#100836
+mob echo As the final blow has been delivered, the giant ice-abomination sinks to his knees, and drops several items.
+mob oload 100848 room
+mob oload 100834 room
+mob oload 100849 room
+~
+#0
+
+#$

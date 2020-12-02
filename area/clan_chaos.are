@@ -1,0 +1,4915 @@
+#AREADATA
+Name Chaos Clanhall~
+Builders shaelindra aamon~
+VNUMs 95500 95599
+Credits Aamon~
+Security 9
+LevelRange 10 91
+ResetMessage Someone yells, '{MAAAAAAAAAAAAAAAAAAAAAARGH!!{x'~
+Flags closed noquest nosummon clanhall~
+Clan Chaos~
+End
+
+#MOBILES
+#95500
+clan cleric dulagraen priest healer skeletal tall figure chaoscleric~
+Dulagraen, High Priest of Chaos~
+A tall skeletal figure stands before you, cackling insanely.
+~
+The flesh has mostly decayed off the bones of this foul creature.  Eyes
+cast to the stone ceiling, he appears to be in the middle of a ritual of
+some kind, unaware of your presence.  
+~
+human~
+ABKQaef DFHVlm 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M give 95520 all~
+M speech 95535 give me the warlock item~
+M speech 95536 give me the shadow item~
+M speech 95537 give me the scion item~
+M speech 95538 give me the sylvan item~
+M speech 95539 give me the barbarian item~
+M speech 95540 give me the knight item~
+M speech 95541 give me the ruler item~
+M speech 95542 give me the sentinel item~
+C Chaos~
+#95501
+clan guard gulshtukh guardian dwarf duergar chaosguard~
+Gulshtukh~
+Gulshtukh, Baron of Chaos, guards the entrance to the Realms.
+~
+A stocky grey-skinned dwarf stands here clad in a black, shiny suit of
+full platemail.  The silk cape flapping about his shoulders is covered with
+strange and horrible symbols, the markings a distinction of his rank as a
+dark baron of the Chaos realms.  Tread lightly around this powerful one, for
+he is unpredictable, and may take your life on a whim.  
+~
+duergar~
+ABTef DFHclm 0 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+AEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F res LQ
+F vul R
+M grall 95500 100~
+M kill 95503 100~
+M speech 95519 let me in~
+M speech 95530 Move.~
+M delay 95531 100~
+M exall 95502 1~
+C Chaos~
+#95502
+mpcode monster~
+the mpcode monster~
+The hideous MPCode monster is here, waiting to release its codes on people trapped in this room!
+~
+Used to trigger a transfer mpcode so people can move out of this room 
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABDEF
+M random 95521 100~
+I 61
+#95503
+mpcode mob~
+mpcode mob ~
+mpcode mob his here doing what hes told.
+~
+~
+lich~
+ABe DFJZlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-100 -100 -100 -100
+0 CDHN 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F vul N
+M exit 95506 1~
+M exit 95506 Ugg~
+I 100
+#95509
+prankster old ghost trainer~
+the old {Mp{Rr{BA{Mn{Rk{Bs{MT{Re{BR{x~
+The {cg{Chost{x of an old {Mp{Rr{BA{Mn{Rk{Bs{MT{Re{BR{x is here trying to teach you a new trick.
+~
+Back when {Mc{RH{Ba{Mo{RS{x organized, this old gnome went around tricking the tricksers
+just to keep them honest.  The greatest prankster of the realm in his time,
+his name was feared and known to insite belly laughs at even its whisper.
+All that came to an end, when the Arch-Mage Eb'owa found his familiar
+tarred and feathered.  The Arch-Mage used all his power to slay this
+prankster and purge his name from the realm.  Not even the ghost knows
+it.  But instead of retiring to the underworld he's come back as a 
+poltergeist to haunt these halls and teach new members his old tricks.
+If you have any questions, ask him to {Gtell you about{x his chops.
+~
+ghost~
+AGKSe DFJOUVZlu 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+EFHJKV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95524 about dop~
+M speech 95525 about rand~
+M speech 95526 about chaos blade~
+M speech 95527 about mirror~
+M speech 95528 about disper~
+M speech 95529 about disgrac~
+M speech 95533 about garb~
+M speech 95534 about confu~
+#95510
+treasurer gornik banker book keeper bookkeep~
+Gornik {Dthe guardian{x~
+Gornik {Dthe guardian{x is here, guarding the Chaos treasures.
+~
+A sick looking, ghostly person who seems to walk around in a daze. 
+Continuesly checking his ledger and muttering incoherent phrases about
+prices on people's heads.  Atleast, that's what i sounded like?  
+~
+ghost~
+ABdh DFJZlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand male 5482
+0 0 medium flesh~
+~
+M grall 95507 100~
+C Chaos~
+#95511
+chaos sheera maiden~
+{YSheera {rMaiden {wof {mcHAoS{x~
+{YSheera {rMaiden {wof {mcHAoS{x is waiting here patiently.
+~
+Before you stands {YSheera {rMaiden {wof {mcHAos{x.  She seems rather
+small but for a doll she's quite large.  She has a very shapely body and a
+dark complection.  Grinning at you with a mischievious smirk she sizes you
+up..  Frowns and bows her head..  Still her eyes seems to twinkle with a
+very tricksy light..  
+~
+doll~
+ABCe DFJOTVZclm -10 0
+91 91 344d91+0 91d9+60 28d3+45 none
+-49 -49 -49 -30
+AEHJKO 0 0 0
+stand stand none 4459
+0 0 large flesh~
+~
+M speech 95511 i need blood~
+M grall 95513 100~
+C Chaos~
+#95512
+food ruler wannabe~
+A wannabe {CRuler{x~
+A wannabe {CRuler{x is here pleading for his life.
+~
+A very very large storm giant who is about to pee himself for the amount
+of fear he is feeling being in the chaos pantry noless.  Guess this one wont
+make it to be a {CRuler{x Aye.  {rMwahahahahhahahhaha{x 
+~
+storm giant~
+AQ AKLMYdhk 1000 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 BCDFGM
+sleep sleep male 0
+0 0 gargantuan flesh~
+~
+F res J
+F vul P
+C Chaos~
+#95513
+cuortos death sage~
+{rCuortos{z {wthe {DDeath {mSage{x~
+{rCuortos{x is here picking his teeth with a slim dagger.
+~
+~
+githyanki~
+ABeh DZlmu -1000 0
+92 92 472d92+0 920d11+95 31d2+68 none
+-57 -57 -57 -38
+CDEHJK AB CD 0
+stand stand male 100
+0 0 large flesh~
+~
+C Chaos~
+V 95513
+#95514
+undead insanity corpse chaos rotting~
+a {grotting {rfleshy {mcorpse{x~
+A rotting corpse of undead flesh is here acting insane.
+~
+Smelling strongly of decay this corpse seems able to walk around on its
+own..  Which makes it clearly undead.  However this undead seems to be
+rather strange..  Almost as if its completetly insane..  Woh and does it
+smell.......  
+~
+undead~
+ABIO 0 -1000 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+IL 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F aff U
+F res O
+C Chaos~
+#95515
+enslaved beholder behold chaos~
+An {DEnslaved {RBeholder{x~
+An {DEnslaved {RBeholder{x is here seeming none to happy.
+~
+Apparently this beholder isnt to happy being enlaved...  But who would
+be..  With his many eyes and very large round body it makes for quite the
+imposing figure...  And with all talk about the deeds beholders are infamous
+for perhaps you should tread lightly.  
+~
+beholder~
+ABIJh 0 -1000 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+L P 0 HJ
+stand stand either 0
+0 0 large flesh~
+~
+C Chaos~
+#95516
+death knight grimmer chaos~
+{rGrimmer {mthe {DDeath Knight{x~
+{rGrimmer {mthe {DDeath Knight{x is here awaiting his orders.
+~
+A powerfull undead knight stands before you awaiting the word of his
+master.  
+~
+death knight~
+ABIU 0 -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+L 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+C Chaos~
+#95517
+gnoll large chaos~
+A large {ggnoll{x~
+A powerful {GGnoll{x is here awaiting word from its master.
+~
+A filthy none to intelligent ugly gnoll..  Well could be worse.  
+~
+gnoll~
+ABI U 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+L 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+C Chaos~
+#95518
+aerial slave chaos~
+an {caerial{x {Dslave{x~
+An {caerial {Dslave {xis here looking grim.
+~
+Summoned from the elemental plane of air, the slave is bound to follow
+its master's orders until it is killed or freed.  
+~
+arial~
+A 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+IL 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+C Chaos~
+#95519
+chaosbeast beast~
+a {Rc{rH{mA{ro{RS {DBeast{x~
+{wA {Rc{rH{mA{ro{RS {DBeast{x {wis here awaiting orders from its master.{x
+~
+A large stealthy troll stands before you wearing nothing but an evil grin.  
+~
+troll~
+AIT 0 -1000 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+EFKLO 0 0 0
+stand stand either 0
+0 0 gargantuan flesh~
+~
+F res E
+C Chaos~
+#95520
+trashman~
+{DA {Dt{gr{Da{gs{Dh{gc{Da{gn{x~
+{DA large piece of a {Dt{gr{Da{gs{Dh{gc{Da{gn{D is here hovering.{x
+~
+A trashcan which seems to be hovering...how about you put something in it?
+~
+ghost~
+ABdh DJP 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95518 empty it~
+C Chaos~
+I 100
+#95521
+chaos angel~
+the {DAngel{z of {Rc{z{rHA{z{mo{z{Rs{z~
+A dark-winged angel is here, following her master.
+~
+An angel of chaos stands before you.
+~
+arial~
+ABIJ 0 1000 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+CEHKLN 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+C Chaos~
+#95522
+insanity~
+Insanity~
+~
+~
+ghost~
+ABef DFJlm 0 0
+130 130 719d130+0 1300d11+95 44d2+94 none
+-84 -84 -84 -57
+DN 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M exit 95510 2~
+M speech 95522 I'm doppeled!~
+M delay 95523 100~
+I 92
+#95523
+a giant bouncer~
+the bouncer~
+A gigantic bouncer is here, keeping unwanted guests out of the club.
+~
+It's a huge giant, in a fancy outfit.  He looks deadly though, with his
+cold empty eyes and that big fist of his.  He has some magical rune tattoos,
+and claims they make him immortal.  
+~
+giant~
+ABRce DFJNOZcltu 0 0
+91 91 465d91+0 910d11+95 31d2+68 pound
+-56 -56 -56 -37
+DFHKV ABCDEHMNQU 0 0
+stand stand none 0
+0 0 unknown flesh~
+~
+F attr+ AB
+M exall 95522 3~
+#95524
+mpcode monster~
+the mpcode monster~
+The hideous MPCode monster is here, waiting to release its codes on people trapped in this room!
+~
+Used to transfer people down the collapsed floor.
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABDEF
+M grall 95523 100~
+I 61
+#95525
+mpcode monster~
+the mpcode monster~
+The hideous MPCode monster is here, waiting to release its codes on people trapped in this room!
+~
+used to fake a zdreni backstab
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M grall 95543 10~
+I 61
+#95526
+mpcode monster~
+the mpcode monster~
+The hideous MPCode monster is here, waiting to release its codes on people trapped in this room!
+~
+used to fake a zdreni backstab
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M act 95544 opens~
+I 61
+#95527
+mpcode monster~
+the mpcode monster~
+The trickster mpcode monster is here, waiting to fool someone with his fake tells.
+~
+used to fake questus tells
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M random 95545 5~
+I 61
+#95528
+mpcode monster~
+the mpcode monster~
+The evil drowning mob is here, ready to drown people in this room.
+~
+Used to give drowning damage to people in the room.  
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M random 95547 50~
+I 61
+#95529
+mpcode monster~
+the mpcode monster~
+the mpcode monster is here, dropping mushroom spores.
+~
+used to randomly drop (rare) shroom spores.
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M random 95548 10~
+M random 95549 25~
+I 61
+#95530
+mpcode monster~
+the mpcode monster~
+The mpcode monster is here, whispering ghost texts to the players
+~
+used for random whispers
+~
+ghost~
+ABVe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M random 95550 10~
+I 61
+#95531
+mpcode monster~
+the mpcode monster~
+The evil mpcode monster is here, tricking people with fake says.
+~
+used for pretend-tells to mess with group members heads.
+~
+ghost~
+AGVYe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M entry 95551 25~
+M grall 95551 25~
+I 61
+#95532
+mpcode monster~
+the mpcode monster~
+The meanie mpcode monster is roaming this area, looking for people to trick with his tells.
+~
+Used to make fake tells to mess with people's heads.  
+~
+ghost~
+AGVYe DFJPZlmt -1000 0
+91 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand none 0
+K 0 medium flesh~
+~
+F attr+ AB
+F act O
+F imm LMQ
+F res D
+F for AMV
+F par ABCDEFGHIJK
+M entry 95552 50~
+M random 95552 5~
+I 61
+#95533
+fido dog chaos beast~
+the beastly fido~
+A beastly fido is here.
+~
+Fido is a small dog that has a foul smell and pieces of rotted meat hanging
+around its teeth.
+~
+fido~
+AGHU 0 -200 0
+0 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+M random 95553 20~
+#95534
+White Dragon chaos beast~
+a {Wwhite{x dragon~
+The {WWhite{x Dragon of {CIce{x stands before you.
+~
+A intimidating Dragon stands before you.  The icy glare blinds you long enough
+for the Ice Dragon to devour you.
+~
+white dragon~
+AGHT DFZu -350 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+CFM AB 0 I
+stand stand male 1464
+0 0 gargantuan flesh~
+~
+M random 95553 20~
+#95535
+zdreni blademaster assassin chaos beast~
+the Zdreni blademaster~
+An assassin stalks here with deadly grace.
+~
+The blademaster has been honed mind and body to the sharpness of
+a living weapon.  Crisscrossed scars mar the dark skin, tokens
+of the power and difficulty of this rank.
+~
+elf~
+ACG Q -500 11700
+75 1 100d10+11250 1d10+900 7d10+35 none
+-48 -48 -48 -44
+DEFJ 0 0 0
+stand stand either 3544
+0 0 medium flesh~
+~
+M random 95553 20~
+#95536
+dracolich chaos beast~
+the great Dracolich~
+A huge skeletal form raises from shadows.
+~
+Horrible skeletal form look at you and green evilly.
+~
+unique~
+AGT DFJZu -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+EFKN AB 0 0
+stand stand none 3596
+BCDI 0 medium flesh~
+~
+M random 95553 20~
+#95537
+baron vampire chaos beast~
+a baron vampire~
+The Baron vampire rises from the sarcophagus, bares its fangs and attacks!
+~
+The Evil Baron and his two brothers were vampires imprisoned here by Xanan
+centuries ago, who had not the power to slay them utterly, and now thanks
+to your disturbance they have risen again!
+~
+undead~
+AGO 0 -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+EFNQ B 0 X
+stand stand none 2384
+I 0 medium flesh~
+~
+M random 95553 20~
+#95538
+oldstyle ramses mummy chaos beast~
+Ramses the Damned~
+You have awakened the mighty servant to the pharoahs, Ramses.
+~
+As your light spills over his face and body, you can see his features begin
+to fill out, swell, and harden, until an apparently healthy man stands before
+you, clad only in the raiments he was left in when he last slept.  His hair is
+a soft black, his skin a deep chocolate, and his tall frame is totally still, 
+his chest not even moving to breathe.
+~
+undead~
+AQ EHN 150 0
+38 38 120d38+0 380d11+95 13d2+32 none
+-18 -18 -18 -10
+EIKU 0 0 0
+stand stand male 1882
+0 0 medium flesh~
+~
+M random 95553 20~
+#95539
+shadowking king chaos beast~
+the ShadowKing~
+Your flesh crawls as you sense this horrible presence.
+~
+Long tattered robes hang from the gaunt figure that towers before you. 
+Twin orbs of blue fire stare down at you in hatred.  
+~
+lich~
+AL DFJ -1000 0
+24 24 48d24+0 240d11+95 9d2+23 none
+-8 -8 -8 -3
+ENU M 0 H
+stand stand none 1000
+0 0 gargantuan flesh~
+~
+F imm J
+F res H
+M random 95553 20~
+#95540
+darken rahl~
+Darken Rahl~
+Standing before you, prepared to destroy you is Darken Rahl, your worst nightmare.
+~
+One of the vilest human beings you have ever seen crouches before you,
+face contorted in devilish glee.  He rubs his seemingly frail hands together
+and begins to advance towards you uttering the first words of a spell.  
+Another soul to capture, another spirit to torment.
+~
+human~
+ACGORe GJOiu -1000 0
+125 0 50d10+28000 103d50+35000 20d15+95 none
+-77 -77 -70 -40
+CEFIKNO MP LQ JN
+stand stand male 32012
+0 0 large flesh~
+~
+M random 95553 20~
+#95541
+oldstyle duke eckthar~
+Duke Eckthar~
+Duke Eckthar greedily reaches for your soul!
+~
+~
+unique~
+AR Vu -800 0
+54 54 224d54+0 540d11+95 19d2+43 none
+-29 -29 -29 -19
+0 0 0 0
+stand stand male 2462
+0 0 medium flesh~
+~
+M random 95553 20~
+#95542
+mage eurandus~
+{!Eurandus{x~
+{!Eurandus{x stands before you in all his might.
+~
+Before you stand a figure who is very impressive.  He looks to be as strong
+as the stronger fighter and as quick as any thief.  He has jet black hair
+which he holds back in braids.  He is very handsome, but his eyes give
+away his insanity.
+~
+human~
+AGR Ju -1000 0
+47 47 156d47+0 235d10+85 15d3+28 none
+-22 -22 -22 -12
+EIK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 95553 20~
+#95543
+naga Lethrak~
+{rL{Re{rthr{Ra{rk{x~
+A {rmassive {Rn{ra{Rg{ra{x is here surveying the dying forest.
+~
+Lethrak, Lord of the Forest Nagas, has come to oversee the final stages of
+the forest's death. For this demon the sight of nature being corrupted and
+ruined is the most satisfying thing imaginable.
+~
+snake~
+AGT CEJT -1000 0
+59 90 50d10+9000 1d1+100 8d6+28 acbite
+-29 -27 -28 -10
+CDEFKM 0 BEH F
+stand stand none 0
+HZ BCGHJ unknown flesh~
+~
+M random 95553 20~
+#95544
+Jher chaos beast~
+Jher~
+Jher looks into your eyes, and freezes you with his stare.
+~
+You feel incredibly overwhelmed by the power in this evil man's eyes.
+~
+human~
+ACDG DFHJN 0 0
+53 53 218d53+0 530d11+95 18d2+42 none
+-29 -29 -29 -18
+EFIJK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 95553 20~
+#95545
+abaddon king angel chaos beast~
+Abaddon~
+The angel of the bottomless pit is here, bound in a chain.
+~
+Abaddon pleads with you to release him from his binding.
+He claims the chain is the source of all his suffering.
+He promises you great power and position in the world to
+come. His appearance is to your liking, whatever that may be,
+and you find his voice pleasant and reasonable.
+~
+unique~
+AT ABIJTX -1000 0
+63 63 284d63+0 630d11+95 22d2+49 none
+-36 -36 -36 -23
+FV BN HIM MN
+stand stand male 900
+AHMVXd ABCDEFGHIJKP medium flesh~
+~
+M random 95553 20~
+#0
+
+#OBJECTS
+#95500
+dagger sacrificial clankey chaos key chaos_altar_key~
+{ra sacrificial {Wdagger{x~
+A long, curved sacrificial dagger lies here.~
+iron~
+~
+key CUf AO
+0 0 0 0 0 0 0
+60 45 0 P
+G none
+G none
+G none
+G none
+#95501
+altar~
+the altar~
+A huge white marble sacrificial altar stands here.~
+marble~
+~
+container OY P
+1000 ABCD 95500 15 100 0
+60 0 20 P
+E
+white marble altar sacrificial~
+Through the cracks running up the side of the altar, emanates a powerful glow.
+~
+C Chaos~
+G none
+G none
+G none
+G none
+#95502
+skull black chaos clanitem jester hat~
+a {Rj{Ce{Gs{Yt{De{Rr{W'{Gs{x hat~
+A {Rj{Ce{Gs{Yt{De{Rr{W'{Gs{x hat is glowing here.~
+bone~
+~
+treasure AORYaef AOP
+0 0 0 0 0
+60 45 100000 P
+E
+skull black~
+The pale ebony colored surface glows with an unnatural light.
+~
+C Chaos~
+G none
+G none
+G none
+G none
+#95503
+chaos blade~
+a chaos blade~
+A shiny gold dagger is on the ground.~
+gold~
+~
+weapon AIPTW AN
+dagger 3 5 pierce D
+20 200 1106 P
+G none
+G none
+G none
+G none
+#95504
+aura madness chaos symbol~
+{man aura of {Mm{Ra{Bd{Mn{Re{Bs{Ms{x~
+{mYour head reels and your sanity drains from you as you approach the symbol lying here.{x~
+energy~
+~
+clothing ABCGMORTYZa AS
+0 0 0 0 0 0 0
+15 0 71076 P
+A
+20 -5
+A
+14 25
+A
+13 15
+A
+12 35
+A
+19 6
+A
+18 4
+A
+3 2
+G none
+G none
+G none
+G none
+#95505
+portal chaos clanhall~
+{Ma portal to the CHAOS clanhall{x~
+A portal leading to the CHAOS clanhall lies here.~
+energy~
+~
+portal ABCa AP
+0 D AC 95500 0
+20 0 0 P
+G none
+G none
+G none
+G none
+#95506
+winds chance tunnel~
+the winds of chance~
+~
+unknown~
+~
+portal 0 0
+0 0 E 0 0
+100 0 0 P
+E
+winds chance void nothingness~
+The wind howls as it gusts into the tunnel to disseminate over the lands.
+~
+C Chaos~
+G none
+G none
+G none
+G none
+#95507
+eye world glass~
+the eye of the world~
+~
+unknown~
+~
+portal AGO 0
+0 D AB 3014 0
+100 0 0 P
+E
+eye world glass~
+Peering into the eye, you are amazed that you can see the city of
+Midgaard and many of the surrounding lands.  The eye appears to be focused
+on a busy square in the middle of Midgaard now.  
+~
+C Chaos~
+G none
+G none
+G none
+G none
+#95508
+undead crown helmet~
+The Undead Crown~
+Here sits the crown of a undead king.~
+steel~
+~
+armor ABJRTU AE
+28 28 28 28 'none' 0
+60 61 580471 P
+A
+12 60
+A
+18 6
+A
+19 6
+A
+13 60
+C Chaos~
+G none
+G none
+G none
+G none
+#95510
+sign~
+A sign~
+a sign~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+15 0 0 P
+E
+sign~
+Undead Crown (helmet)---1600 quest points
+~
+G none
+G none
+G none
+G none
+#95511
+hole~
+a hole~
+~
+unknown~
+screaming voices of insanity~
+portal RS P
+0 0 0 95577 0
+0 1000 0 P
+E
+hole~
+There's a man-sized hole hidden underneath the carpet.  
+~
+G none
+G none
+G none
+G none
+#95512
+beanbag centrion's~
+{MA {rbean{bbag{x {Mof {mm{ra{bd{mn{re{bs{ms{x~
+{gA giant {bbeen{rbag {gfilled with {mrandomness {glays here waiting for {yCentrion.{x~
+unknown~
+beans~
+furniture AGIRS 0
+A EIJKN EHK BDEFGH BDEFGH A EIJKN
+0 1000 0 P
+G none
+G none
+G none
+G none
+#95513
+alucard's armchair~
+{wA {rvelvet{w armchair{x~
+{wAlucard's huge, {rVelvet {Warmchair sits here, smelling faintly of {RD{re{wa{Rt{rh {wand {ycheetos.{x ~
+unknown~
+vevlet cheetos~
+furniture CEGJLRS 0
+B EIJKN EHL BDEFGH BDEFGH B EIJKN
+0 1000 0 P
+G none
+G none
+G none
+G none
+#95514
+am cuthulo's sitter~
+~
+(null)~
+unknown~
+~
+furniture R 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95515
+throne chaos~
+the {rth{Rr{ron{Re {rof {Rc{rha{Ro{rs{x~
+{DThe {rth{Rr{ron{Re {rof {Rc{rha{Ro{rs{D is here, radiating POWER.{x~
+unknown~
+human~
+furniture CGRSY P
+A EIJKN EHL BDEFGH BDEFGH A EIJKN
+0 1000 0 P
+E
+throne~
+This is a very tall throne, encrusted in blood red emeralds.  It is
+shaped like twisting bodyparts and it is enclosed in a semi-transparent,
+dark mist, making it slighty blurred.  It almost looks as if the bodyparts
+are moving around.  At the top of the extremely tall chair, three wooden
+heads are set atop of eachother, staring into the darkness.  
+~
+G none
+G none
+G none
+G none
+#95516
+water chaos keg~
+A {mcHAoS{x {Dkeg{x~
+The {mcHAoS{x {DKeg{x of unemptyness is here waiting to be drunk from.~
+quartz~
+~
+fountain AGIR 0
+100000 100000 'cranberry juice' 0
+0 0 0 P
+E
+keg~
+A large grayish keg with the name "{mcHAoS{x" engraved on the sides.  
+~
+C Chaos~
+G none
+G none
+G none
+G none
+#95517
+chaos surprise~
+{mc{MHA{mo{MS {DSurprise{x~
+A large helping of {mc{MHA{mo{MS {DSurprise{x sits here, waiting to be devoured.~
+food~
+~
+food CU A
+DE DE 0 0 0 DE DE
+0 200 258 P
+C Chaos~
+G none
+G none
+G none
+G none
+#95518
+food shelf foodshelf pit~
+A large pantry shelf.~
+A large pantry shelf is here resting against a wall.~
+unknown~
+void~
+container ORg 0
+100000 0 0 100000 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95519
+vortex chaos swirling pit~
+{wA {cs{ww{ci{wr{cl{wi{cn{wg{x {Dvortex{x {wof {mcHAoS{x~
+{wA {cs{ww{ci{wr{cl{wi{cn{wg{x {Dvortex{x {wof {mcHAoS{x {wis here waiting for your donations.{x~
+unknown~
+none~
+container ORg 0
+10000 A 95520 1000 100 0
+0 0 0 P
+A
+19 4
+A
+18 4
+E
+pit~
+This is where you put money and items to help Doz expand this shrine,
+~
+G none
+G none
+G none
+G none
+#95520
+vortex key~
+{wThe {DVortex {yKey{x~
+{wThe {DVortex {yKey{x {wrests here waiting for its master.{x~
+unknown~
+chaos stuff~
+key CHR AO
+0 0 0 0 0 0 0
+0 10 0 P
+G none
+G none
+G none
+G none
+#95521
+sign undead crown~
+{wA {Yglowing {WBlack {Gsign{x~
+{wA {Yglowing {WBlack {Gsign{D is here waiting to be read.{x~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+sign~
+{WThe chaos clan item is currently under reconstruction, any
+member who has purchased the original version may return it
+for the exact amount they bought it for. As well any ideas
+for the new crown should be noted to the clan and the gods 
+for approvel. Further more, any ideas or suggestions for 
+the clan should be discussed amoung yourselves then brought
+to the intention of the gods once you all have decided on
+whatever the idea or change might be.{x 
+  
+{GSigned{x
+  
+{DDaphais {wwith {MLove{x
+ 
+~
+G none
+G none
+G none
+G none
+#95522
+pit hero trashcan~
+{DA {mcHAoS {DT{Gr{Da{Gs{Dh {GC{Da{Gn{x~
+{DA {mcHAoS {DT{Gr{Da{Gs{Dh {GC{Da{Gn{D is here waiting to be emptied.{x~
+unknown~
+chaotic trash~
+container R 0
+10000 0 0 1000 100 0
+91 0 0 P
+E
+trashcan~
+A very normal looking trashcan for you to throw away any unwanted stuff. 
+There is one strange thing about it though.  It kinda seems to be
+hovering...  
+~
+G none
+G none
+G none
+G none
+#95523
+trashcan~
+a {Dt{Gr{Da{Gs{Dh{Gc{Da{Gn{x~
+~
+unknown~
+none~
+container O 0
+10000 0 0 1000 100 0
+0 0 0 P
+A
+19 4
+A
+18 4
+E
+pit~
+This is where you put money and items to help Doz expand this shrine,
+~
+G none
+G none
+G none
+G none
+#95524
+black fur rug~
+{wA soft {Dblack fur {wrug{x~
+{wA soft {Dblack fur {wrug{w is here covering the floor.{x~
+unknown~
+~
+furniture R 0
+ADE EIJKN BEHKN BDEFGH BDEFGH ADE EIJKN
+0 1000 0 P
+C Chaos~
+G none
+G none
+G none
+G none
+#95525
+hansone's deep infinity~
+{bA {rDeep {DInfinity{x~
+{bHansone's {rDeep {DInfinity {brests here calling for it's {bmaster{x~
+unknown~
+~
+furniture CRT 0
+B EIJKN BFIL BDEFGH BDEFGH B EIJKN
+0 0 0 P
+C Chaos~
+G none
+G none
+G none
+G none
+#95526
+window~
+A large Window~
+~
+unknown~
+~
+portal R 0
+0 AB 0 9729 0
+0 0 0 P
+E
+glass~
+Seems to be glass...  Though a glass you cant break....  Putting your
+hand to it you realise that it isnt glass at all but a black waterfall of
+nothingness.  Wow kinda chaotic huh.  
+~
+E
+window~
+You try to peer through the window but the...  Glass....  Seems to be
+painted black.  
+~
+C Chaos~
+G none
+G none
+G none
+G none
+#95527
+hishimu's dojo mat~
+{wan {revil {DDOJO {ymat{x~
+{RH{ri{Rs{rh{Ri{rm{Ru{r'{Rs {revil {DDOJO {ymat{R is here s{rc{Rr{re{Ra{rm{Ri{rn{Rg for it's master.{x~
+unknown~
+~
+furniture BCE 0
+B EIJKN BEHK BDEFGH BDEFGH B EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95528
+sintis storm cloud~
+{wA dark {DStorm {wCloud.{X~
+{wA dark {DStorm {wCloud floats here whispering of {RA{rn{Ra{rr{Rc{rh{Ry {was it waits for {DSintis.{x~
+unknown~
+~
+furniture R 0
+B EIJKN BEHK BDEFGH BDEFGH B EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95530
+idea colorless~
+an {ci{Cd{ce{Ca{x~
+Zil's {Yc{Bo{Rl{Go{Mr{Dless{x {gg{Gr{ge{Ge{gn{x {ci{Cd{ce{Ca{x {ms{Ml{me{Me{mp{Ms{x here {rf{RU{rr{RI{rO{Ru{rS{Rl{rY{x~
+metal~
+~
+furniture R 0
+B GJOQRST CFIL BDEFGH BDEFGH B GJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#95531
+xile's infinity~
+{wa {rf{Ro{rr{Rb{ri{Rd{rd{Re{rn {DI{dn{Df{di{Dn{di{Dt{dy{x~
+{wThe {rforbidden {Dinfinity {wof a lost {cs{Co{cu{Cl {wlies here{x.~
+unknown~
+~
+furniture 0 0
+B 0 BEHK BDEFGH BDEFGH B 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95532
+screaming armchair~
+{rV{Ra{rd{Ra{rs{Rh'{rs{R smoldering{r red armchair{x ~
+{rV{Ra{rd{Ra{rs{Rh'{rs{R smoldering{r red armchair{x sits here simply screaming of{r power{w, {RA{rn{Ra{rr{Rc{rh{Ry and {MC{RH{BA{MO{RS{x!!!~
+unknown~
+~
+furniture 0 0
+A CFG CFIL BDEFGH BDEFGH A CFG
+0 0 0 P
+G none
+G none
+G none
+G none
+#95533
+heap gold coins wealth shining~
+{DA {Bheap {Dof {YG{yo{Yl{yd {Yc{yo{Yi{yn{Ys{x~
+{DA {Mhuge {Bheap {Dof {wShi{Cn{wing {YG{yo{Yl{yd {Yc{yo{Yi{yn{Ys {bt{ci{bn{ck{bl{ce{bs {Dwith {rTalian's {Rw{re{Ra{rl{Rt{rh{x~
+unknown~
+~
+furniture 0 0
+A CFG CFIL BDEFGH BDEFGH A CFG
+0 0 0 P
+G none
+G none
+G none
+G none
+#95534
+pranyx bar stool despair~
+the bar stool~
+{RPranyx{Y{R's{x {De{rv{Di{rl {ybar stool{x {Dof {DD{we{Ds{wp{Da{wi{Dr{x ~
+unknown~
+~
+furniture CEOR 0
+A ABCDEHJKPQ BEHK BDEFGH BDEFGH A ABCDEHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#95536
+portal out front entrance~
+a portal to the entrance~
+~
+unknown~
+~
+portal 0 0
+0 0 A 95500 0
+0 0 0 P
+C Chaos~
+G none
+G none
+G none
+G none
+#95550
+dagger sacrificial a old dirty key~
+a dirty old key~
+A dirty old key sits here on the floor.~
+iron~
+~
+key Cf AO
+0 0 0 0 0 0 0
+60 45 0 P
+G none
+G none
+G none
+G none
+#95551
+clan cleric dulagraen priest healer skeletal tall figure chaoscleric~
+~
+A tall skeletal figure stands before you, cackling insanely.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+cleric~
+The flesh has mostly decayed off the bones of this foul creature.  Eyes
+cast to the stone ceiling, he appears to be in the middle of a ritual of
+some kind, unaware of your presence.
+~
+E
+clan~
+The flesh has mostly decayed off the bones of this foul creature.  Eyes
+cast to the stone ceiling, he appears to be in the middle of a ritual of
+some kind, unaware of your presence.
+~
+E
+dulagraen~
+The flesh has mostly decayed off the bones of this foul creature.  Eyes
+cast to the stone ceiling, he appears to be in the middle of a ritual of
+some kind, unaware of your presence.
+~
+G none
+G none
+G none
+G none
+#95552
+sewer~
+the sewer~
+~
+unknown~
+~
+portal RSY P
+0 0 0 95583 0
+0 0 0 P
+E
+sewer~
+There's a man sized sewer in the middle of the street.  Possibly to drain
+water from the street, during rainfall.  
+~
+G none
+G none
+G none
+G none
+#95553
+sewer~
+the sewer~
+~
+unknown~
+~
+portal R P
+0 0 0 95580 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95554
+sewer~
+the sewer~
+~
+unknown~
+~
+portal R P
+0 0 0 95586 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95555
+sewer~
+the sewer~
+~
+unknown~
+~
+portal R P
+0 0 0 95580 0
+0 0 0 P
+E
+sewer~
+There's a man sized sewer in the middle of the street.  Possibly to drain
+water from the street, during rainfall. 
+~
+G none
+G none
+G none
+G none
+#95556
+keyhole~
+the keyhole~
+~
+unknown~
+~
+portal R P
+0 0 0 95543 0
+0 0 0 P
+E
+keyhole~
+That keyhole is unnaturally big.  Infact, it seems big enough to hold you
+inside it.  
+~
+G none
+G none
+G none
+G none
+#95557
+crack~
+the crack~
+~
+unknown~
+~
+portal R P
+0 0 0 95589 0
+0 0 0 P
+E
+crack~
+The crack is pretty small, compared to the ball.  Compared to you, it
+seems perfect.  Abit narrow, perhaps, but you could probably fit in there.  
+~
+G none
+G none
+G none
+G none
+#95558
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+food PSTVk A
+B A 0 0 0 B A
+0 0 0 P
+G none
+G none
+G none
+G none
+#95559
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+food PSTVk A
+B A 0 A 0 B A
+0 0 0 P
+G none
+G none
+G none
+G none
+#95560
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+pill PSTVk A
+50 'blindness' 'reserved' 'reserved' 'reserved'
+0 0 0 P
+G none
+G none
+G none
+G none
+#95561
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+pill PSTVk A
+70 'faerie fire' 'reserved' 'reserved' 'reserved'
+0 0 0 P
+G none
+G none
+G none
+G none
+#95562
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+pill PSTVk A
+40 'corruption' 'reserved' 'reserved' 'reserved'
+0 0 0 P
+G none
+G none
+G none
+G none
+#95563
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+pill PSTVk A
+50 'curse' 'reserved' 'reserved' 'reserved'
+0 0 0 P
+G none
+G none
+G none
+G none
+#95564
+mushroom spore~
+a mushroom spore~
+{GA fist siz{ged m{Gushroo{gm {Gspo{gre is h{Gere{x.~
+unknown~
+~
+pill PSTVk A
+55 'fear' 'reserved' 'reserved' 'reserved'
+0 0 0 P
+G none
+G none
+G none
+G none
+#95565
+ruby pile~
+the ruby pile~
+A gigantic pile of glimmering {rru{Rb{ry{Rs{x is stacked in the corner.~
+unknown~
+~
+trash RT P
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95566
+pile emerald~
+the emerald pile~
+A huge pile of {gem{Ger{gald{Gs{x is here.~
+unknown~
+~
+trash RT P
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95567
+pile gold~
+the gold pile~
+A ton of {yg{Yo{yl{Yd{x is stashed away here.~
+unknown~
+~
+trash RT P
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95568
+quest crown~
+{ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x~
+{ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x is lying here on the ground!~
+wood~
+~
+trash ARTY P
+0 0 0 0 0 0 0
+1 115 60000 P
+E
+quest crown~
+%s was sent to locate and retrieve this crown.
+~
+G none
+G none
+G none
+G none
+#95569
+quest goblet gilded~
+{Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x~
+{YA gui{yd{Yed {Rru{rb{Ry {Yg{yo{Yblet{x lies here awaiting discovery.~
+wood~
+~
+trash ARTY P
+0 0 0 0 0 0 0
+1 15 35000 P
+E
+quest goblet gilded~
+%s was sent to locate and retrieve this goblet.
+~
+G none
+G none
+G none
+G none
+#95570
+sceptre diamond quest~
+{ya {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x~
+{yA {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x has been left here.~
+wood~
+~
+trash ARTY P
+0 0 0 0 0 0 0
+1 35 50000 P
+E
+sceptre diamond quest~
+%s was sent to locate and retrieve this sceptre.
+~
+G none
+G none
+G none
+G none
+#95571
+portal enter me~
+portal~
+A large portal is here, telling you to enter it.~
+unknown~
+~
+portal R P
+0 0 0 95502 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#95500
+The Entrance to a Cavern~
+The water-filled tunnel ends abruptly and widens into a large cave to the
+east.  The rocky floor of the cavern is damp and slick with moss, and
+footing treacherous.  A shadow rises up from the floor and approaches you at
+a rapid pace.  Chuckling, you dismiss it as your imagination.
+
+  MWUAHAHAHA!!
+ 
+A pair of glowing red eyes appear out of the darkness.  This is no imagination!
+~
+0 ADNXcd inside
+D1
+~
+~
+DMZ 95550 95501
+0 0
+D3
+~
+~
+Z 0 9729
+0 0
+S
+#95501
+At the Back of the Cavern~
+You are standing at the back of a large, unlit cavern.  Walking to the
+edge to peer down, your foot kicks a small rock and sends it spinning into
+space.  You hear it bounce off the walls of the chasm several times, and it
+falls for what seems like an eternity before clattering noisily onto the
+ground below.  To the left wall of the cavern you think you make out a large
+window...  
+~
+0 ADNXd inside
+E
+left wall~
+Hmm appears to be a window of some sort on the wall here.  
+~
+D3
+~
+~
+DMZ 0 95500
+0 0
+D5
+~
+~
+Z 0 95509
+0 0
+S
+#95502
+{GM{garket {GS{gquare{x~
+You are standing in market square, the largest square in Midgaard.  A
+rather peculiar looking {ystatue{x has been placed in the middle of it.
+Roads lead in every direction.  They run north to the temple square, south
+to the common square, and from east to west main street.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95519
+0 0
+D1
+~
+~
+Z 0 95544
+0 0
+D2
+~
+~
+Z 0 95525
+0 0
+D3
+~
+~
+Z 0 95503
+0 0
+S
+#95503
+{YM{yain {YS{ytreet{x~
+You are on the main street passing through the City of Midgaard.  South
+of here is the entrance to the armory, and the bakery is to the north.  East
+of here is the market square.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95511
+0 0
+D1
+~
+~
+Z 0 95502
+0 0
+D2
+~
+~
+Z 0 95507
+0 0
+D3
+~
+~
+Z 0 95516
+0 0
+S
+#95504
+The Altar of Chaos~
+You have entered the unholy altar room of the Chaos Realms.  The floor,
+walls and ceiling are constructed of polished jet-black marble.  In the
+center of the room, on a raised dias, stands a huge altar of the purest
+white marble.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95548
+0 0
+M 135 H 135
+S
+#95505
+The Eye of the World~
+You have entered a brightly lit room.  The very walls are glowing and
+pulsing with a magical flux of energy.  Sitting in the middle of the room
+you see a huge glass eye, the surface is wet, and it blinks when you touch
+it.  
+~
+0 DTXd inside
+D3
+~
+~
+Z 0 95567
+0 0
+S
+#95506
+A Narrow Tunnel~
+You have entered the dark, narrow tunnel connected to the ballroom.  Both
+the walls and floor are made of white polished marble.  You think you can
+hear the sound of chanting coming from the west.  
+~
+0 ADXd inside
+D0
+~
+~
+Z 0 95503
+0 0
+D3
+~
+~
+Z 0 95508
+0 0
+S
+#95507
+The Winds of Chance~
+The light coming from the ballroom to the east fades slowly away as you
+enter this small room.  The room is perfectly cylindrical in shape, and you
+notice a number of paintings placed haphazardly on the walls, ceiling and
+floor.  The back wall has been blasted away by a powerful force, beyond it
+looms a black void of nothingness.  
+~
+0 ADTXd inside
+D0
+~
+~
+Z 0 95503
+0 0
+S
+#95508
+A Narrow Tunnel~
+The tunnel widens slightly as you travel west, and the marble floor is
+now gray with faint white streaks, slowly darkening towards the west.  You
+hear the sounds of chanting, intermingled with moans coming from the west. 
+
+~
+0 ADXd inside
+D1
+~
+~
+Z 0 95506
+0 0
+S
+#95509
+Floating in the Chasm~
+Grateful for your ability to fly, you are able to ascend safely down the
+rocky chasm.  A cold breeze gusts upwards from below, blowing dirty and
+spiderwebs off the rocky walls into your face and mouth.  You claw at the
+grit in your eyes, and succeed in banging your head against a rocky outcrop.
+You absentmindedly wonder what kind of mind it takes to create a sanctuary
+of refuge in such a ridiculous place as this.  
+~
+0 ACDXd inside
+D4
+~
+~
+Z 0 95501
+0 0
+D5
+~
+~
+Z 0 95521
+0 0
+S
+#95510
+{WThe Padded Room{x~
+{W You are in the drabbest, most painfully white room you've ever set foot
+in.  Every little nuance of light permeating the room seems to reflect off
+the rubber walls and directly into your eyes.  Everything is monochrome,
+everything is static, and everything is neatly symmetrical and painfully
+non-chaotic...  It makes your head {reXpLOdE{W!!!{x
+~
+0 AXd inside
+S
+#95511
+Pantry room~
+This room seems pertty plain upon first expection though if you
+consintrate you can hear a faint sound of crying.  There also seems to be a
+pretty faint smell of death..  But what do you expect your in the Chaos clan
+hall.  The most abnormal thing you see is that there are no shelfs for
+food..  And this is a pantry is it not...  Pondering you look around for
+anything else strange, hmm nope all seems normal...  WOH a person.  
+~
+0 AXd inside
+D2
+~
+~
+Z 0 95503
+0 0
+S
+#95512
+cHAoS pET ShOPpE~
+You have entered into a musty anti chamber of the chaos clan hall cave. 
+There isn't much in here besides an old broken desk and a pet store clerk
+that seems kinda mean.  Looking around you notice he has a few pets for sell
+that seem quite odd...  Hmm what should you expect anyway it is the chaos
+clan hall.  
+~
+0 DMTd inside
+D2
+~
+~
+Z 0 95529
+0 0
+C Chaos~
+S
+#95513
+~
+~
+0 P unused
+S
+#95514
+cHAos TreASuRer~
+You have entered the treasure vault of clan chaos.  Stacks of {Yg{yo{Yl{yd{x is
+piled all over the place, and {Wg{Be{Wm{Bs{x of all colours are littered across the
+floor.  Big racks are lined up with gem-encrusted goblets scepters and
+crowns.  Obviously, this is where all the Chaos plunders end up.  
+~
+0 DTXd inside
+D2
+~
+~
+Z 0 95524
+0 0
+C Chaos~
+S
+#95515
+{DPitch black darkness{x~
+You are standing in what appears to be an infinite hallway, clad
+completely in darkness.  A dim light shines through from the west, but east
+is darker then a trolls heart.  Staring into the darkness, you can almost
+feel your will to live, slip away.  The hallway has no furniture or anything
+of notice, only darkness.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95518
+0 0
+D3
+~
+gate~
+ABZ 0 95571
+0 0
+C Chaos~
+S
+#95516
+{YM{yain {YS{ytreet{x~
+You are at the end of the main street of Midgaard.  South of here is the
+entrance to the Guild of Magic Users.  The street continues east towards the
+market square.  The magic shop is to the north and to the west is the city
+gate.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95559
+0 0
+D1
+~
+~
+Z 0 95503
+0 0
+D2
+~
+~
+Z 0 95560
+0 0
+D3
+~
+~
+Z 0 95517
+0 0
+C Chaos~
+S
+#95517
+{YI{ynside {Yt{yhe {gWest Gate {Yo{yf {YM{yidgaard{x~
+You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  Main Street leads
+east and Wall Road leads both north and south from here.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95545
+0 0
+D1
+~
+~
+Z 0 95516
+0 0
+D2
+~
+~
+Z 0 95536
+0 0
+D3
+~
+gate~
+ABCFGZ 0 95535
+0 0
+C Chaos~
+S
+#95518
+{rTH{RE {rTHRO{RN{rE O{RF{r C{RH{rA{RO{rS{x~
+You are standing in the chaos throneroom.  A light mist twists and
+bounces the light in the most chaotic patterns and water particles sparkle
+in the air.  It appears the ceiling and walls are nonexistant, and only
+never ending darkness exist where the walls should stand.  Beneath your
+feet, a long red carpet runs to a two-step pedestal.  On top of the pedestal
+a large throne stands, enclosed in a semi-transparent dark twirling mist. 
+On each side of the carpet, two statues of metal armored soldiers stand in
+guard position.  
+~
+0 DXd inside
+E
+carpet~
+It's a long dark-red velvet carpet that runs from the entrance to the
+throne.  It appears there's a hole hidden underneath it, on the opposite
+side of the throne.  
+~
+D3
+~
+~
+Z 0 95515
+0 0
+S
+#95519
+{GThe Temple Square{x~
+You are standing on the temple square.  Huge marble steps lead up to the
+temple gate.  The entrance to the clerics guild is to the west, and the old
+Grunting Boar Inn to the east.  Just south of here you see market square,
+the center of Midgaard.
+     A small white fountain gushes forth here.
+A cityguard stands here.
+~
+0 CDWXd inside
+E
+cityguard~
+A big, strong, helpful, trustworthy guard.
+(Human) (Female) The cityguard {Cis in perfect health{x.
+ 
+The cityguard is using:
+<used as light>     [{y.{D.{R.{B.{M.{WG{Y.{x] a war banner
+<worn around neck>  a standard issue cloak
+<worn on torso>     a standard issue vest
+<worn on finger>    a city guard signet ring
+<wielded>           a standard issue sword
+~
+E
+guard~
+A big, strong, helpful, trustworthy guard.
+(Human) (Female) The cityguard {Cis in perfect health{x.
+ 
+The cityguard is using:
+<used as light>     [{y.{D.{R.{B.{M.{WG{Y.{x] a war banner
+<worn around neck>  a standard issue cloak
+<worn on torso>     a standard issue vest
+<worn on finger>    a city guard signet ring
+<wielded>           a standard issue sword
+~
+D0
+~
+~
+Z 0 95523
+0 0
+D1
+~
+~
+Z 0 95524
+0 0
+D2
+~
+~
+Z 0 95502
+0 0
+D3
+~
+~
+Z 0 95519
+0 0
+C Chaos~
+S
+#95520
+{CAdventurer's {YGuild{x~
+This is the grand hall of the Adventures Guild.  Tapestries line the wall
+of many brave heroes who have performed brave tasks for the guild and the
+city.  Here, the Quest master sends stalwart champions on missions of great
+importance in return for rewards from the Adventures Vault.  Just go to the
+sign up counter where Questus is for a dangerous mission of skill and
+daring.
+{CQuestus{x patiently awaits inquiries concerning Questing.
+~
+0 CDXd inside
+E
+questus~
+Questus Perfectus is a storm giant, the largest of giants, and
+consequently one of the largest giants you have ever seen.  He stands 20
+feet tall, and every inch of it muscle.  His knowledge of the realms is
+unparalleled, his role as Questmaster unchallenged.  If you ask him nicely,
+he may give you a quest.
+               Read the helpfile on questing for further information:
+                             {RHELP AUTOQUEST{x
+(Giant) (Male) {CQuestus Perfectus is in perfect health.{x
+~
+D3
+~
+~
+Z 0 95523
+0 0
+C Chaos~
+S
+#95521
+{WBy {xthe {MT{me{Bm{Cp{Ml{me {MA{ml{Bt{Ca{Mr{x~
+You are by the temple altar in the {GTemple of Midgaard{x.  A huge altar made
+from white polished marble is standing in front of you.  A ten foot tall
+ebony statue of Odin, the King of the Gods is seated on a throne.  The back
+of the altar opens into a large atrium, above which can be seen a beautiful
+{Rr{ra{Yi{Gn{Bb{Mo{mw{x.
+     A {Ypit{x for sacrifices is in front of the altar.
+[{y.{D.{r.{g.{M.{D.{G.{b.{R.{Y.{WS{y.{G.{x] The famed {Whealer{x, {MA{me{Bd{Ca{Mr{x, stands here healing those in need.
+~
+0 DXd inside
+E
+pit~
+The {Ydonation pit{x holds:
+     [{y.{D.{R.{B.{M.{WG{Y.{x] a {WUnicorn Pendant{x.
+~
+D0
+~
+~
+Z 0 95522
+0 0
+D2
+~
+~
+Z 0 95523
+0 0
+D4
+~
+~
+Z 0 95509
+0 0
+C Chaos~
+S
+#95522
+{WRoom of {YTempleman{x~
+You have entered the small chamber behind the statue of Odin.  Lining the
+back wall you notice thousands of leatherbound books neatly shelved in long
+rows.  The templeman rises from a kneeling position and approaches you, a
+broad smile lighting his face.  He seems to know why you are here, and waits
+expectantly for you to tell him the name of the god whom you wish to follow.
+  Tell him {YOUTLOUD{x the name of the god you have chosen.
+~
+0 DXd inside
+D2
+~
+~
+Z 0 95521
+0 0
+C Chaos~
+S
+#95523
+{GThe Temple Of Midgaard{x~
+You are in the southern portion of the temple hall in Midgaard.  The
+temple has been constructed from giant marble blocks, eternal in appearance.
+Many of the walls are covered by highly detailed wall paintings picturing
+ancient gods, giants, and peasants.  Large steps lead down through the grand
+temple gate, descending the huge mound upon which the temple is built and
+ending on the temple square below.  A smaller set of marble steps off to the
+left leads {WUP{x through a doorway into the entrance to the {CTRAINING ACADEMY{x.
+To the east lies an open door leading to the {YQuest{x master of Midgaard.
+A small plaque is on the wall.
+~
+0 DXd inside
+E
+plaque~
+{WChAOs RuLEs!!!{x
+{DAamon was here.{x
+~
+D0
+~
+~
+Z 0 95521
+0 0
+D1
+~
+~
+Z 0 95520
+0 0
+D2
+~
+~
+Z 0 95519
+0 0
+C Chaos~
+S
+#95524
+{WBefore the Bank of Midgaard{x~
+This side street is small, barely large enough for a wagon to fit
+through, but it seems to be quite busy, with crowds of people moving back
+and forth and going about their business.  The bank of Midgaard lies to the
+north, the quaint wooden structure hardly big enough to support the business
+of such a booming city.  To the west the street meets the Temple Square.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95514
+0 0
+D1
+~
+~
+Z 0 95568
+0 0
+D3
+~
+~
+Z 0 95519
+0 0
+C Chaos~
+S
+#95525
+{bH{Bi{bgh R{Bo{bad{x~
+You are standing at the northern end of the High Road, close to the
+Market Square, in fact, it lies directly north of you.  The Butcher's shop
+lies east of here.  You hear the sounds of meat being chopped on his wooden
+block, and the sound of him talking as he chats with a customer who awaits
+their order to be filled.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95502
+0 0
+D1
+~
+door~
+ABDGJZ 0 95565
+0 0
+D2
+~
+~
+Z 0 95526
+0 0
+C Chaos~
+S
+#95526
+{bH{Bi{bgh R{Bo{bad{x~
+You are at the southern part of the road, closer to the Common Square.
+This part is rather less active than the north part of the city.  To the 
+west is a building with a sign hanging over its door.  The road continues
+to the north, and the Common Square is south of here.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95525
+0 0
+D2
+~
+~
+Z 0 95527
+0 0
+D3
+~
+~
+Z 0 95566
+0 0
+C Chaos~
+S
+#95527
+{WThe {mC{Mo{mmmon {WSquare{x~
+The common square, people pass you, talking to each other.  To the west is
+the poor alley and to the east is the dark alley.  To the north, this square
+is connected to the market square by a road.  From the south you notice a 
+nasty smell.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95526
+0 0
+D1
+~
+~
+Z 0 95528
+0 0
+D2
+~
+~
+Z 0 95530
+0 0
+D3
+~
+~
+Z 0 95539
+0 0
+C Chaos~
+S
+#95528
+{WThe Dark Alley{x~
+You are standing in a dark alley.  To the west is the common square, to
+the east the alley continues.  North of you is Grebe's Tavern, the famous
+sailor's dive, while to the south is the thieves guild.  {RDO NOT{x go
+south, unless you are fairly high level, or unless this is your guild, or
+you run the risk of being assassinated.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95572
+0 0
+D1
+~
+~
+Z 0 95529
+0 0
+D2
+~
+~
+Z 0 95573
+0 0
+D3
+~
+~
+Z 0 95527
+0 0
+C Chaos~
+S
+#95529
+{WAlley{x at the {BL{bevee{x~
+You are standing in the alley which continues east and west.  South of
+here you see the levee.  North is the Pet Shop.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95512
+0 0
+D1
+~
+~
+Z 0 95540
+0 0
+D2
+~
+~
+Z 0 95558
+0 0
+D3
+~
+~
+Z 0 95528
+0 0
+C Chaos~
+S
+#95530
+{WThe {yDump{x~
+The dump, where the people from the city drop their garbage.  Through the
+garbage you can see a large junction of pipes, looks like the entrance to the
+sewer system.  South of here you see the river and to the north is the common
+square.  A rickety old bridge leads south to the promenade.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95527
+0 0
+D2
+~
+~
+Z 0 95531
+0 0
+C Chaos~
+S
+#95531
+{GThe South Bridge{x~
+You are standing on a small, rickety bridge leading from the Midgaard
+City Dump to the much more attractive promenade of the southern parts of 
+Midgaard.  You can smell the stench of the dump to the north, the fresher
+air of the promenade seems preferable.  Below you are the swift-moving 
+currents of the Midgaard river.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95530
+0 0
+D2
+~
+~
+Z 0 95532
+0 0
+C Chaos~
+S
+#95532
+{GThe South Bridge{x~
+You are standing on a small, rickety bridge leading from the Midgaard
+City Dump to the much more attractive promenade of the southern parts of 
+Midgaard.  You can smell the stench of the dump to the north, the fresher
+air of the promenade seems preferable.  Below you are the swift-moving 
+currents of the Midgaard river.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95531
+0 0
+D2
+~
+~
+Z 0 95533
+0 0
+C Chaos~
+S
+#95533
+{GThe South Bridge{x~
+You are standing on a small, rickety bridge leading from the Midgaard
+City Dump to the much more attractive promenade of the southern parts of 
+Midgaard.  You can smell the stench of the dump to the north, the fresher
+air of the promenade seems preferable.  Below you are the swift-moving 
+currents of the Midgaard river.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95532
+0 0
+D2
+~
+~
+Z 0 95534
+0 0
+C Chaos~
+S
+#95534
+{GThe South Bridge{x~
+You are standing on a small, rickety bridge leading from the Midgaard
+City Dump to the much more attractive promenade of the southern parts of 
+Midgaard.  You can smell the stench of the dump to the north, the fresher
+air of the promenade seems preferable.  Below you are the swift-moving 
+currents of the Midgaard river.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95533
+0 0
+D2
+~
+~
+Z 0 95534
+0 0
+C Chaos~
+S
+#95535
+~
+~
+0 0 inside
+D0
+~
+~
+ABCFGZ 0 95552
+0 0
+D1
+~
+~
+ABCFGZ 0 95517
+0 0
+D3
+~
+~
+ABCFGZ 0 95542
+0 0
+S
+#95536
+{WWall Road{x~
+You are walking next to the western city wall.  A rather strange building 
+is to the east.  The road continues further south and the city gate is just 
+north of here.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95517
+0 0
+D1
+~
+~
+Z 0 95534
+0 0
+D2
+~
+~
+Z 0 95537
+0 0
+C Chaos~
+S
+#95537
+{WWall Road{x~
+You are walking next to the western city wall.  Wall Road continues further
+north and south.  A small, poor alley leads east.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95536
+0 0
+D1
+~
+~
+Z 0 95538
+0 0
+D2
+~
+~
+Z 0 95555
+0 0
+C Chaos~
+S
+#95538
+{WPoor Alley{x~
+You are in narrow and dirty alley leading east and west.  The leather shop
+is to the north.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95562
+0 0
+D1
+~
+~
+Z 0 95539
+0 0
+D2
+~
+~
+Z 0 95561
+0 0
+D3
+~
+~
+Z 0 95537
+0 0
+C Chaos~
+S
+#95539
+{WEastern End of Poor Alley{x~
+You are at the poor alley. South of here is the Grubby Inn and to the
+east you see common square. Melancholy's map shop is north. The alley continues 
+further west.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95563
+0 0
+D1
+~
+~
+Z 0 95527
+0 0
+D2
+~
+~
+Z 0 95552
+0 0
+D3
+~
+~
+Z 0 95538
+0 0
+C Chaos~
+S
+#95540
+{WEastern end of Alley{x~
+You are standing at the eastern end of the alley,  near the city walls.  
+Wall road loops around the city to your east, and you can see an old 
+three-story warehouse to the south.  The Fountain of Youth Apothecary is 
+north.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95549
+0 0
+D1
+~
+~
+Z 0 95554
+0 0
+D2
+~
+~
+Z 0 95557
+0 0
+D3
+~
+~
+Z 0 95529
+0 0
+C Chaos~
+S
+#95541
+{WWall Road{x~
+Wall road extends north and south along the eastern walls of the city.
+The east gate is north of you, south is an intersection with a dark alley. You
+check to make sure you still have your wallet.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95542
+0 0
+D2
+~
+~
+Z 0 95554
+0 0
+C Chaos~
+S
+#95542
+{YI{ynside {Yt{yhe {gEast Gate {Yo{yf {YM{yidgaard{x~
+You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  Main Street leads
+west from here.  Wall road crosses the street, heading north and south along
+the city wall.
+~
+0 0 inside
+D0
+~
+~
+Z 0 95556
+0 0
+D1
+~
+gate~
+ABCFGZ 0 95535
+0 0
+D2
+~
+~
+Z 0 95541
+0 0
+D3
+~
+~
+Z 0 95543
+0 0
+S
+#95543
+{YM{yain {YS{ytreet{x~
+The main street, to the north is the weapon shop and to the south is the
+Guild of Swordsmen.  To the east you leave town and to the west the street
+leads to the market square.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95564
+0 0
+D1
+~
+~
+Z 0 95542
+0 0
+D2
+~
+~
+Z 0 95527
+0 0
+D3
+~
+~
+Z 0 95544
+0 0
+C Chaos~
+S
+#95544
+{YM{yain {YS{ytreet{x~
+You are on Main Street crossing through town.  To the north is the Holy 
+Temple, and the main street continues east.  To the west you see and hear the
+market place and to the south is the Jeweller's Shop.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95567
+0 0
+D1
+~
+~
+Z 0 95543
+0 0
+D2
+~
+~
+Z 0 95549
+0 0
+D3
+~
+~
+Z 0 95502
+0 0
+C Chaos~
+S
+#95545
+{WWall Road{x~
+You are walking along wall road, just north of the west gate of Midgaard.  
+The road continues along the western wall to the north, towards an intersection
+with a busy Clan street.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95546
+0 0
+D2
+~
+~
+Z 0 95517
+0 0
+C Chaos~
+S
+#95546
+{WWall Road{x~
+Wall road intersects with a crowded Clan Road here, filled with shops and
+artisans.  The street stretches off to the east, towards the far wall of the
+city.  Wall road continues to the north and south.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95554
+0 0
+D1
+~
+~
+Z 0 95547
+0 0
+D2
+~
+~
+Z 0 95545
+0 0
+C Chaos~
+S
+#95547
+{WClan Road{x~
+You are standing on the western end of Clan Road.  The traffic here  
+is light.  This is a quieter section of Midgaard.  You can hear the sound of
+haggling coming from the east.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95548
+0 0
+D3
+~
+~
+Z 0 95546
+0 0
+C Chaos~
+S
+#95548
+{WClan Road{x~
+You are walking along Clan Road.  To the south of you is the money changer.  
+Clan Road continues on to the east and the west.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95550
+0 0
+D2
+~
+~
+Z 0 95504
+0 0
+D3
+~
+~
+Z 0 95547
+0 0
+S
+#95549
+{WThe {CFountain {xof {WYouth {MApothecary{x~
+An old man putters around behind the counter, making strange love potions
+and curative philtres.  He turns as you enter, and looks on with avarice.
+Judging from the furnishings, he's been made very wealthy by his trade.
+[{y.{D.{r.{g.{M.{y.{G.{b.{R.{Y.{WS{y.{G.{x] An old man eyes you greedily.
+~
+0 DXd inside
+E
+man~
+He looks very dangerous.  I wouldn't try to rob him.
+(Human) (Male) An old man {Cis in perfect health{x.
+~
+E
+old~
+He looks very dangerous.  I wouldn't try to rob him.
+(Human) (Male) An old man {Cis in perfect health{x.
+~
+D2
+~
+~
+Z 0 95540
+0 0
+C Chaos~
+S
+#95550
+{WClan Road{x~
+The shops on this stretch of Clan road are long-closed and boarded up.
+Not much traffic passes through this part, as there is nothing to buy.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95551
+0 0
+D3
+~
+~
+Z 0 95548
+0 0
+S
+#95551
+{WClan Road{x~
+Noise and light abound on this part of Clan Road.  Clan road continues off
+to the east and west.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95552
+0 0
+D3
+~
+~
+Z 0 95550
+0 0
+S
+#95552
+{WClan Road{x~
+Clan Road seems to widen here slightly, allowing more traffic to 
+travel through the area.  To the south is another entrance to the busy
+pub.  This door is also open wide and spilling forth the sounds of
+happy patrons.  Clan Road continues to the east and west.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95553
+0 0
+D2
+~
+barrier~
+ABCFGZ 0 95535
+0 0
+D3
+~
+~
+Z 0 95551
+0 0
+S
+#95553
+{WClan Road{x~
+You are at the eastern end of Clan Road.  To the east of you, the  
+tall wall around the city looms up before you and casts its shadow on
+you.  Clan Road continues to the west.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95555
+0 0
+D3
+~
+~
+Z 0 95552
+0 0
+S
+#95554
+{WWall Road{x~
+You are walking along the eastern wall of the city, on a road extending 
+between the east gate and a bridge to the south.  A dark, dirty alley lies west 
+of here.  You step carefully around a pool of liquid...who knows what it could 
+be in a place this foul...
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95541
+0 0
+D2
+~
+~
+Z 0 95546
+0 0
+D3
+~
+~
+Z 0 95540
+0 0
+C Chaos~
+S
+#95555
+{WWall Road{x~
+Here, wall road meets up with a busy clan street heading off towards the 
+west, and the far wall of the city.  You can smell spices, perfume, freshly
+cured hide, and other strange scents, all mingle together in one heady aroma.
+Wall road continues to the north and south.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95537
+0 0
+D2
+~
+~
+Z 0 95556
+0 0
+D3
+~
+~
+Z 0 95553
+0 0
+S
+#95556
+{WWall Road{x~
+You are near the center of wall road, just north of the east gate of the city.
+To the north, you can see an intersection with a crowded clan street.
+The guards at the gate eye you suspiciously from afar.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95555
+0 0
+D2
+~
+~
+Z 0 95542
+0 0
+S
+#95557
+{WAn ENORMOUS {mMidnight  {Wcolored room{x~
+This room looks like it takes up the entire inside of the mountain.  The
+cieling is so high you almost can not see it.  The room reachs a width of
+nearly one hundred and fifty men across All around the room you see
+mountains of gold coins, silver coins and jewels some extremly rare, some
+magical and some are uncut and un polished.  You can see armor from many
+lands along with weapons beside the armor, inside the armor you can see the
+skeletons of those that used it previously.  In the center of the room on
+top of the largest pile of treasure you can barely make out an enormous
+shadowy form.  As you slowly approach the large pile of treasure, the
+shadowy figure lifts its head and roars so loud that large rocks rain down
+upon your nearly smashing you to death.  You notice the shadowy figure is
+The Dragon Lord, oldest of the dragon race and the largest.  He lunges
+toward you and.................  
+[{y.{D.{r.{cT{M.{y.{G.{b.{R.{Y.{DB{y.{G.{x] A huge {mMidnight {DDragon{x is here waiting to eat his next victim
+~
+0 DTXd inside
+E
+midnight~
+In the center of the room you see a shiny huge mass of blackness.  You
+notice that this huge shiny mass is the oldest living dragon alive.  He is
+the {RAncient {mMidnight {DDragon{x.  This is the biggest dragon you
+have ever seen.  His tail wraps around large piles of gold and magical
+weapons and armor.....  And corpses.  He breaths and the air burns your eyes
+and stings your skin.  His scales seem to reflect a deep purple light that
+is eerie looking.  You wonder if he would wake up and notice you trying to
+plunder his treasure.  
+(Black dragon) (Male) A huge {mMidnight {DDragon{C is in perfect health{x.
+ 
+A huge {mMidnight {DDragon{x is using:
+<worn around neck>  {DCape of {mMidnight {RDragon {YScales{x
+~
+E
+dragon~
+In the center of the room you see a shiny huge mass of blackness.  You
+notice that this huge shiny mass is the oldest living dragon alive.  He is
+the {RAncient {mMidnight {DDragon{x.  This is the biggest dragon you
+have ever seen.  His tail wraps around large piles of gold and magical
+weapons and armor.....  And corpses.  He breaths and the air burns your eyes
+and stings your skin.  His scales seem to reflect a deep purple light that
+is eerie looking.  You wonder if he would wake up and notice you trying to
+plunder his treasure.  
+(Black dragon) (Male) A huge {mMidnight {DDragon{C is in perfect health{x.
+ 
+A huge {mMidnight {DDragon{x is using:
+<worn around neck>  {DCape of {mMidnight {RDragon {YScales{x
+~
+D0
+~
+~
+Z 0 95540
+0 0
+C Chaos~
+S
+#95558
+{WA small path through the light forest{x~
+You are on a small path leading through the forest.  The trees are tall and
+slender.  Paths lead north and south.
+~
+0 DTXd inside
+D0
+~
+~
+Z 0 95529
+0 0
+D2
+~
+~
+Z 0 95558
+0 0
+C Chaos~
+S
+#95559
+At the foot of a gigantic mushroom~
+You are standing at the foot of a gigantic mushroom.  High above you, the
+cap forms a big round roof, and you can see large spores in the deep gills
+underneath it.  The trunk of the mushroom is thicker then any treetrunk, and
+it grows thicker at the bottom.  The air is dense from spores and powder
+dropping from the mushroom.  
+~
+0 DTXd inside
+D2
+~
+~
+Z 0 95516
+0 0
+C Chaos~
+S
+#95560
+{DIn the mirror{x~
+{wYou are standing inside a mirror.  You have no depth!  It is like you,
+and everything you wear, is paper-thin.  Even the room is paper-thin.  You
+can't move anywhere but to the side, as no depth exist in this room.  To the
+north is a square black hole which may lead out of this fiendish room.  {x 
+~
+0 DTXd inside
+D0
+~
+~
+Z 0 95516
+0 0
+C Chaos~
+S
+#95561
+In a large tube~
+You are standing inside a long tube.  To the north, light comes in and to
+the south a large metal ball lies.  The materials around you are cold and
+feels like iron, and the scent of gunpowder is in the air.  
+~
+0 DTXd inside
+E
+ball~
+It's a gigantic metal ball.  Cast iron would be a good guess.  It has a
+small crack on the bottom.  
+~
+D0
+~
+~
+Z 0 95538
+0 0
+C Chaos~
+S
+#95562
+In a slaughterhouse~
+{rBLOOD!  {x The walls are covered in {rblood{x.  The floor is flooded in {rblood{x,
+and the ceiling is dripping with {rblood{x.  There's {rblood{x EVERYWHERE!  The room
+has a dim red light, and carcases from a variety of creatures are left all
+over the room, dripping {rblood{x.  There is no apperent use of this room, and
+the only exit is to the south.  
+~
+0 DTXd inside
+D2
+~
+~
+Z 0 95538
+0 0
+C Chaos~
+S
+#95563
+{YM{ye{gl{Ga{yn{Yc{gh{Go{yl{Yy{g'{Gs {yM{Ya{gp{Gs{x~
+{BEVERYTHING IS BLUE!  YOU CAN'T SEE A THING, BUT THE {WBRIGHT LIGHT{B COMMING
+FROM THE SOUTH.  {x {BYou suddenly realise that you are under water!  {x 
+~
+0 0 inside
+D2
+~
+~
+Z 0 95539
+0 0
+S
+#95564
+{DIn a cage{x~
+You are in a cage and there's no way out!  The cage is placed on a large
+table and it is almost as if you are now the size of a mouse.  Infact,
+there's a gigantic mouse staring at you in the corner!  There is a large
+gate in the west side of the cage, but it is kept shut by a gigantic hanging
+lock.  The stench of cheese is thick in the air.  
+~
+0 CDTXd inside
+E
+keyhole~
+That keyhole is unnaturally big.  Infact, it seems big enough to hold you
+inside it.  
+~
+E
+lock~
+The lock is huge.  It is hard to imagine what creature is big enough to
+actually use that lock.  It has a gigantic keyhole on the side.  
+~
+E
+gate~
+It's a big gate, like the ones in birdcages.  Hmm, maybe this is a
+birdcage?  Maybe you really have shrunk!  There's no way to open it aslong
+as that gigantic hanging lock is in it's place.  
+~
+C Chaos~
+S
+#95565
+{YBRIGHT LIGHT{x~
+Noone will ever walk in this bright light.  
+~
+0 DTXd inside
+D3
+~
+~
+ABDGJZ 0 95525
+0 0
+C Chaos~
+S
+#95566
+{gIn the woods{x~
+You are standing at the entrance of a large and lush forrest.  Thick
+tree-trunks rocket into the air and the treetops form a lush ceiling, which
+blocks out all light.  The trees stand so close they, combined with the
+underforest, form a natural wall, imposible to breach.  A large variety of
+animal calls and howls are heard from within the forest.  
+~
+0 DTXd inside
+D1
+~
+~
+Z 0 95526
+0 0
+C Chaos~
+S
+#95567
+{WThe {Yholy{W temple of {Mc{BH{Ra{Mo{BS{x~
+You have entered a large obsidian room dome-shaped room.  The room is
+completely naked, with the exception of a twisted iron brazier in the middle
+of the room, radiating a dim light, from burning coal.  There's a large
+carving into the east side of the room.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95505
+0 0
+D2
+~
+~
+Z 0 95544
+0 0
+C Chaos~
+S
+#95568
+Down the Side Street~
+The side street continues, the narrow road bustling with activity, making
+it difficult for some to thread their way through the crowd.  A small
+alleyway branches off to the north, a dirt path leading up to the back
+entrance of the White Star Inn.  To the south a large building houses the
+Samurai guild of Midgaard, where some of the best warriors of the city go to
+train in an ancient and deadly style of fighting.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95569
+0 0
+D2
+~
+~
+Z 0 95575
+0 0
+D3
+~
+~
+Z 0 95524
+0 0
+C Chaos~
+S
+#95569
+Down the Side Street~
+A fair-sized crowd moves down the side street, heading in and out of
+shops, their voices blending to create a steady din.  The White Star Inn
+stands to the north, two stories high, it's red tile roof glittering as
+light strikes it.  The Grunting Boar Inn can be seen at the street's end to
+the east, while to the west glimpses can be seen of the temple square
+through the crowd.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95570
+0 0
+D3
+~
+~
+Z 0 95568
+0 0
+S
+#95570
+Before the White Star Inn~
+Wide stone steps lead up to the entrance of the White Star Inn, a tall
+brick building several stories tall, with a roof of glittering red tiles the
+likes of which cannot be seen anywhere else in the city.  Windows allow a
+glimpse into the cozy, warm-looking interior of the inn, where locals and
+travelers alike seem to be enjoying each other's company.  The street
+continues westward, where it meets the Temple Square, while to the east lies
+the Grunting Boar Inn.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95524
+0 0
+D1
+~
+~
+Z 0 95571
+0 0
+D3
+~
+~
+Z 0 95569
+0 0
+S
+#95571
+Before the Grunting Boar Inn~
+The street here is somewhat calmer than to the west, though there are
+still a few people moving about, most of them heading back down the street. 
+The Grunting Boar Inn stands to the east, an old establishment that has been
+there for as long as anyone can remember.  
+~
+0 DXd inside
+D1
+~
+gate~
+ABZ 0 95515
+0 0
+D3
+~
+~
+Z 0 95570
+0 0
+C Chaos~
+S
+#95572
+The Altar of Chaos~
+You have entered the unholy altar room of the Chaos Realms.  The floor,
+walls and ceiling are constructed of polished jet-black marble.  In the
+center of the room, on a raised dias, stands a huge altar of the purest
+white marble.
+     A huge white marble sacrificial altar stands here.
+[{y.{D.{r.{g.{M.{D.{G.{B.{R.{Y.{WS{y.{G.{x] A tall skeletal figure stands before you, cackling insanely.
+~
+0 DXd inside
+D2
+~
+~
+Z 0 95528
+0 0
+C Chaos~
+S
+#95573
+Entrance Hall to the Guild of Thieves~
+You are standing in the entrance hall to the thieves' guild.  A place
+where you can lose both your money and your life if you are not careful. 
+The room is dimly lit, but richly furnished.  The persian rug underfoot must
+be worth thousands of gold pieces, and the paintings on the walls worth more
+yet.  To the north lies a dark alleyway, and to the east the thieves' bar.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95528
+0 0
+D1
+~
+~
+Z 0 95509
+0 0
+C Chaos~
+S
+#95574
+{DIn a hole{x~
+You've walked into a small room and SUDDENLY!  The floor gives in
+underneath you!  
+~
+0 DXd inside
+D3
+~
+~
+Z 0 95573
+0 0
+C Chaos~
+S
+#95575
+The entrance to {MThe Dancing Sword{z stripclub~
+You are standing at the entrance to {MThe Dancing Sword{x stripclub.  A
+poster on the wall mentions women of all races inside, and proposes you get
+to do whatever you please with them, if you bring enough gold.  A velvet rug
+in the doorway, conceals most of what's going on inside, but catch the
+glimpse of some very underdressed females within.  
+~
+0 DWXd inside
+D0
+~
+~
+Z 0 95568
+0 0
+D3
+~
+~
+Z 0 95576
+0 0
+C Chaos~
+S
+#95576
+{MInside The Dancing Sword{x~
+Amazing place, tons of women, and all naked.  Wow what a sight.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 95575
+0 0
+C Chaos~
+S
+#95577
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.  
+~
+0 ADTXd inside
+D0
+~
+~
+Z 0 95584
+0 0
+D2
+~
+~
+Z 0 95578
+0 0
+D3
+~
+~
+Z 0 95581
+0 0
+D4
+~
+~
+Z 0 95518
+0 0
+C Chaos~
+S
+#95578
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D0
+~
+~
+Z 0 95577
+0 0
+D2
+~
+~
+Z 0 95579
+0 0
+C Chaos~
+S
+#95579
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere. 
+~
+0 ADTXd inside
+D0
+~
+~
+Z 0 95578
+0 0
+D1
+~
+~
+Z 0 95580
+0 0
+D3
+~
+~
+Z 0 95588
+0 0
+C Chaos~
+S
+#95580
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D3
+~
+~
+Z 0 95579
+0 0
+D4
+~
+~
+Z 0 95529
+0 0
+C Chaos~
+S
+#95581
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D1
+~
+~
+Z 0 95577
+0 0
+D3
+~
+~
+Z 0 95582
+0 0
+C Chaos~
+S
+#95582
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D1
+~
+~
+Z 0 95581
+0 0
+D3
+~
+~
+Z 0 95583
+0 0
+C Chaos~
+S
+#95583
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D1
+~
+~
+Z 0 95582
+0 0
+D4
+~
+~
+Z 0 95517
+0 0
+C Chaos~
+S
+#95584
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D0
+~
+~
+Z 0 95585
+0 0
+D2
+~
+~
+Z 0 95577
+0 0
+C Chaos~
+S
+#95585
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D2
+~
+~
+Z 0 95584
+0 0
+D3
+~
+~
+Z 0 95586
+0 0
+C Chaos~
+S
+#95586
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D1
+~
+~
+Z 0 95585
+0 0
+D4
+~
+~
+Z 0 95521
+0 0
+C Chaos~
+S
+#95587
+Falling...~
+You are falling into the darkness.  All around you there is nothingness
+and the bottom of this pit is nowhere to be seen.  
+~
+0 DTXd inside
+C Chaos~
+S
+#95588
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D1
+~
+~
+Z 0 95579
+0 0
+D3
+~
+~
+Z 0 95589
+0 0
+S
+#95589
+In a tunnel~
+You are in a very moist underground tunnel.  It is very claustrophobic,
+as the tunnel is very narrow, and almost completely dark.  The walls are cut
+very roughly, as if someone was in a hurry, and there are sharp edges
+everywhere.
+~
+0 ADTXd inside
+D1
+~
+~
+Z 0 95588
+0 0
+D4
+~
+~
+Z 0 95561
+0 0
+C Chaos~
+S
+#0
+
+#SPECIALS
+M 95533 spec_fido	* the beastly fido
+M 95534 spec_breath_frost	* a {Wwhite{x dragon
+M 95538 spec_cast_cleric	* Ramses the Damned
+M 95539 spec_breath_any	* the ShadowKing
+M 95540 spec_cast_undead	* Darken Rahl
+M 95541 spec_cast_mage	* Duke Eckthar
+M 95542 spec_cast_mage	* {!Eurandus{x
+M 95543 spec_breath_gas	* {rL{Re{rthr{Ra{rk{x
+M 95544 spec_breath_lightning	* Jher
+S
+
+#RESETS
+D 0 95515 3 1	* {DPitch black darkness{x: door to the west: closed
+D 0 95517 3 2	* {YI{ynside {Yt{yhe {gWest Gate {Yo{yf {YM{yidgaard{x: door to the west: closed and locked
+D 0 95525 1 1	* {bH{Bi{bgh R{Bo{bad{x: door to the east: closed
+D 0 95535 0 2	* : door to the north: closed and locked
+D 0 95535 1 2	* : door to the east: closed and locked
+D 0 95535 3 2	* : door to the west: closed and locked
+D 0 95542 1 2	* {YI{ynside {Yt{yhe {gEast Gate {Yo{yf {YM{yidgaard{x: door to the east: closed and locked
+D 0 95552 2 2	* {WClan Road{x: door to the south: closed and locked
+D 0 95565 3 1	* {YBRIGHT LIGHT{x: door to the west: closed
+D 0 95571 1 1	* Before the Grunting Boar Inn: door to the east: closed
+M 0 95501 1 95500 1	* Gulshtukh (The Entrance to a Cavern)
+E 0 95550 0 17		*	a dirty old key: held in the hands
+O 0 95536 0 95501	* a portal to the entrance (At the Back of the Cavern)
+O 0 95526 0 95501	* A large Window (At the Back of the Cavern)
+M 0 95531 5 95502 1	* the mpcode monster ({GM{garket {GS{gquare{x)
+M 0 95533 1 95502 1	* the beastly fido ({GM{garket {GS{gquare{x)
+M 0 95530 5 95502 1	* the mpcode monster ({GM{garket {GS{gquare{x)
+M 0 95509 1 95503 1	* the old {Mp{Rr{BA{Mn{Rk{Bs{MT{Re{BR{x ({YM{yain {YS{ytreet{x)
+M 0 95530 10 95503 1	* the mpcode monster ({YM{yain {YS{ytreet{x)
+O 0 95501 0 95504	* the altar (The Altar of Chaos)
+P 0 95502 1 95501 1	* the altar: a {Rj{Ce{Gs{Yt{De{Rr{W'{Gs{x hat
+M 0 95500 1 95504 1	* Dulagraen, High Priest of Chaos (The Altar of Chaos)
+E 0 95500 0 17		*	{ra sacrificial {Wdagger{x: held in the hands
+O 0 95507 0 95505	* the eye of the world (The Eye of the World)
+O 0 95506 0 95507	* the winds of chance (The Winds of Chance)
+O 0 95524 0 95510	* {wA soft {Dblack fur {wrug{x ({WThe Padded Room{x)
+M 0 95513 1 95512 1	* {rCuortos{z {wthe {DDeath {mSage{x (cHAoS pET ShOPpE)
+M 0 95510 1 95514 1	* Gornik {Dthe guardian{x (cHAos TreASuRer)
+O 0 95566 0 95514	* the emerald pile (cHAos TreASuRer)
+O 0 95565 0 95514	* the ruby pile (cHAos TreASuRer)
+O 0 95567 0 95514	* the gold pile (cHAos TreASuRer)
+O 0 95568 0 95514	* {ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x (cHAos TreASuRer)
+O 0 95569 0 95514	* {Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x (cHAos TreASuRer)
+O 0 95570 0 95514	* {ya {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x (cHAos TreASuRer)
+O 0 95570 0 95514	* {ya {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x (cHAos TreASuRer)
+O 0 95570 0 95514	* {ya {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x (cHAos TreASuRer)
+O 0 95568 0 95514	* {ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x (cHAos TreASuRer)
+O 0 95568 0 95514	* {ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x (cHAos TreASuRer)
+O 0 95569 0 95514	* {Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x (cHAos TreASuRer)
+O 0 95569 0 95514	* {Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x (cHAos TreASuRer)
+O 0 95569 0 95514	* {Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x (cHAos TreASuRer)
+O 0 95569 0 95514	* {Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x (cHAos TreASuRer)
+M 0 95530 10 95516 1	* the mpcode monster ({YM{yain {YS{ytreet{x)
+O 0 95552 0 95517	* the sewer ({YI{ynside {Yt{yhe {gWest Gate {Yo{yf {YM{yidgaard{x)
+M 0 95531 5 95517 1	* the mpcode monster ({YI{ynside {Yt{yhe {gWest Gate {Yo{yf {YM{yidgaard{x)
+M 0 95532 7 95517 1	* the mpcode monster ({YI{ynside {Yt{yhe {gWest Gate {Yo{yf {YM{yidgaard{x)
+O 0 95515 0 95518	* the {rth{Rr{ron{Re {rof {Rc{rha{Ro{rs{x ({rTH{RE {rTHRO{RN{rE O{RF{r C{RH{rA{RO{rS{x)
+O 0 95511 0 95518	* a hole ({rTH{RE {rTHRO{RN{rE O{RF{r C{RH{rA{RO{rS{x)
+M 0 95530 10 95519 1	* the mpcode monster ({GThe Temple Square{x)
+M 0 95527 1 95520 1	* the mpcode monster ({CAdventurer's {YGuild{x)
+O 0 95554 0 95521	* the sewer ({WBy {xthe {MT{me{Bm{Cp{Ml{me {MA{ml{Bt{Ca{Mr{x)
+M 0 95531 5 95521 1	* the mpcode monster ({WBy {xthe {MT{me{Bm{Cp{Ml{me {MA{ml{Bt{Ca{Mr{x)
+M 0 95530 10 95521 1	* the mpcode monster ({WBy {xthe {MT{me{Bm{Cp{Ml{me {MA{ml{Bt{Ca{Mr{x)
+M 0 95532 10 95521 1	* the mpcode monster ({WBy {xthe {MT{me{Bm{Cp{Ml{me {MA{ml{Bt{Ca{Mr{x)
+M 0 95530 10 95523 1	* the mpcode monster ({GThe Temple Of Midgaard{x)
+M 0 95530 10 95525 1	* the mpcode monster ({bH{Bi{bgh R{Bo{bad{x)
+M 0 95530 10 95526 1	* the mpcode monster ({bH{Bi{bgh R{Bo{bad{x)
+M 0 95530 7 95526 1	* the mpcode monster ({bH{Bi{bgh R{Bo{bad{x)
+M 0 95531 5 95527 1	* the mpcode monster ({WThe {mC{Mo{mmmon {WSquare{x)
+O 0 95553 0 95527	* the sewer ({WThe {mC{Mo{mmmon {WSquare{x)
+M 0 95532 6 95527 1	* the mpcode monster ({WThe {mC{Mo{mmmon {WSquare{x)
+M 0 95530 10 95528 1	* the mpcode monster ({WThe Dark Alley{x)
+O 0 95555 0 95529	* the sewer ({WAlley{x at the {BL{bevee{x)
+M 0 95530 10 95529 1	* the mpcode monster ({WAlley{x at the {BL{bevee{x)
+M 0 95531 5 95542 1	* the mpcode monster ({YI{ynside {Yt{yhe {gEast Gate {Yo{yf {YM{yidgaard{x)
+M 0 95532 7 95542 1	* the mpcode monster ({YI{ynside {Yt{yhe {gEast Gate {Yo{yf {YM{yidgaard{x)
+M 0 95530 10 95543 1	* the mpcode monster ({YM{yain {YS{ytreet{x)
+M 0 95530 10 95544 1	* the mpcode monster ({YM{yain {YS{ytreet{x)
+M 0 95529 1 95559 1	* the mpcode monster (At the foot of a gigantic mushroom)
+O 0 95557 0 95561	* the crack (In a large tube)
+M 0 95528 1 95563 1	* the mpcode monster ({YM{ye{gl{Ga{yn{Yc{gh{Go{yl{Yy{g'{Gs {yM{Ya{gp{Gs{x)
+O 0 95556 0 95564	* the keyhole ({DIn a cage{x)
+M 0 95526 1 95565 1	* the mpcode monster ({YBRIGHT LIGHT{x)
+O 0 95571 0 95565	* portal ({YBRIGHT LIGHT{x)
+M 0 95525 1 95573 1	* the mpcode monster (Entrance Hall to the Guild of Thieves)
+M 0 95523 1 95575 1	* the bouncer (The entrance to {MThe Dancing Sword{z stripclub)
+M 0 95502 1 95587 1	* the mpcode monster (Falling...)
+S
+
+#SHOPS
+95513 0 0 0 0 0 100 19 0 23
+0
+
+#OLIMITS
+O 95508 400	* The Undead Crown
+S
+
+#MOBPROGS
+#95500
+if clan $N Chaos
+'Welcome to the Realms of Chaos, may you find your stay...unpredictable.
+wink
+end
+endif
+if isimmort $N
+bow $N
+end
+endif
+emote snarls and says '{gThe Realms of Chaos are no place for one such as you!{x'
+clan {DBrothers attend our hall, {r$n{z stands 'fore us now!!!!{x
+MOB AT 95514 MOB FORCE gornik lock swirl
+pmote screams '{mLeave now, 'ere I slay thee {r$n{x'
+end
+ 
+~
+#95501
+if clan $N chaos
+mob cast fly $n
+endif
+ 
+~
+#95502
+if clan $n Chaos
+and ischarm $n
+say I cannot let you in. Come back when you're in full control of yourself!
+else
+if clan $n Chaos
+or isimmort $n
+mob echoat $n Gulshtukh steps aside, allowing you to pass.
+mob echoaround $n Gulshtukh watches intently as $n proceeds east.
+mob gtransfer $n 95501
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95500
+endif
+mob echoaround $n Gulshtukh laughs scornfully and bars $n's entry.
+mob echoat $n A horribly hollow rattling laugh issues from Gulshtukh as he bars your entry.
+endif
+end
+~
+#95503
+clan  Brothers, join me in battle, for we are {RATTACKED{x by {R$n{x!!!!!!
+clan {DWe are attacked by {r$n{z, rally forth {rNOW{z!!!!{x
+~
+#95504
+if affected $k 'haste'
+say I am hasted
+~
+#95505
+if clan $n Chaos
+cast fly $n
+endif
+~
+#95506
+mob gtransfer $n 95500
+~
+#95507
+say YOU OUT GET NOW! VAULT NO ACCESS TO ANYONE!
+yell $n is trying to grab my jewels!
+mob gtransfer $n 95524
+tell $n AND STAY OUT!
+~
+#95508
+cast 'garble'
+~
+#95510
+if clan $n chaos
+mob transfer $n 95512
+else
+say The store is closed.
+say Come back in a few hours.
+endif
+end
+if carries insanity
+Say Uhhh..Im confused..going to get a drink...be back in 20?
+goto sheera
+mob delay 5
+endif
+end
+~
+#95511
+if clan $n chaos
+say As you command.
+bow $n
+mob mload 95512
+mob mload 95512
+mob mload 95512
+mob mload 95512
+mob mload 95512
+else
+say Aye?
+say I could certainly appease your hunger...
+grin $n
+mob mload 17600
+mob force rane murder $n
+endif
+~
+#95512
+if name $n elial
+say Greetings my king...err umm why is it you are here...well you are king..err my king.
+emote swiftly preforms a perfect curtsey.
+endif
+~
+#95513
+if name $n mierin
+if rand 80
+say Hello there.
+smile $n
+say Daphais bid me tell you that he sends his love with this gift. That is, if you're hungry.
+say You ARE hungry, are you not?
+say Of course you are. You're... well, even if you aren't hungry, you soon shall be.
+cackle
+grin
+bow $n
+endif
+else
+Say Greetings $n.
+end
+~
+#95514
+close swirling
+lock swirling
+~
+#95515
+if clan $n chaos
+emote whispers '{DHunt well my friend, and may chaos be with you.{x'
+wink $n
+mob transfer $n 9729
+end 
+endif
+if mobhere chaos
+mob transfer chaos 9729
+end
+endif
+if isimmort
+mob transfer $n 9729
+else
+mob echoat $n Gulshtukh watches you leave and mutters something incoherent.
+mob transfer $n 9729
+clan {r$n{x {Dhas just left out clan entrance...smart one that one.{x
+end
+endif
+~
+#95516
+unlock swirling 
+open swirling
+end
+~
+#95517
+if rand 50
+say 10 to 20
+else
+say Rand is broken...
+endif
+end
+~
+#95518
+mob oload 95520
+get all trash
+get all
+mob echo {DA large peace of the t{Gr{Da{Gs{Dh{Gc{Da{Gn{D detaches itself and hovers off.{x
+mob goto 95514
+unlock swirl
+open swirl
+put all swirl
+drop all
+mob goto 95518
+mob echo {DThe large piece of the t{Gr{Da{Gs{Dh{Gc{Da{Gn{D returns and reattaches itself.{x
+mob junk all
+end
+endif
+~
+#95519
+if clan $n chaos
+say $n...is that really you?
+say Well..I 'pose tis you, $n. Come on in.
+mob transfer $n voices
+endif
+~
+#95520
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#95521
+mob gtransfer $n 95502
+mob echoat $n With a blunt {WTHUMP!{x you land in the middle of Market Square.
+mob echoaround $n From out of nowhere, $n suddenly drops from the sky.
+~
+#95522
+if race $n human
+say No humans allowed!
+end
+endif
+if race $n felar
+say No felars allowed!
+end
+endif
+if race $n arial
+say No arials allowed!
+end
+endif
+if race $n half-orc
+say No crossbreeds allowed!
+end
+endif
+if race $n half-elf
+say No crossbreeds allowed!
+end
+endif
+if race $n elf
+say No elves allowed!
+end
+endif
+if race $n wood-elf
+say No elves allowed!
+end
+endif
+if race $n rockseer
+say No rockies allowed!
+end
+endif
+if race $n dark-elf
+say No darkies allowed!
+end
+endif
+if race $n halfling
+say No halflings allowed!
+end
+endif
+if race $n dwarf
+say No dwarves allowed!
+end
+endif
+if race $n duergar
+say No dwarves allowed!
+end
+endif
+if race $n gnome
+say No gnomes allowed!
+end
+endif
+if race $n svirfnebli
+say No svirfs allowed!
+end
+endif
+if race $n satyr
+say No satyrs allowed!
+end
+endif
+if race $n 'storm giant'
+say No giants allowed!
+end
+endif
+if race $n storm giant
+say No giants allowed!
+end
+endif
+if race $n 'cloud giant'
+say No giants allowed!
+end
+endif
+if race $n cloud giant
+say No giants allowed!
+end
+endif
+if race $n fire giant
+say No giants allowed!
+end
+endif
+if race $n 'fire giant'
+say No giants allowed!
+end
+endif
+if race $n 'frost giant'
+say No giants allowed!
+end
+endif
+if race $n frost giant
+say No giants allowed!
+end
+endif
+if race $n githyanki
+say No giths allowed!
+end
+endif
+if race $n troll
+say No trolls allowed!
+end
+endif
+if race $n orc
+say No orcs allowed!
+end
+endif
+say No vagabonds allowed!
+end
+~
+#95523
+mob gtransfer $n 95587
+mob goto 95578
+mob delay 3
+mob gtransfer $n 95502
+mob echoat $n With a blunt {WTHUMP!{x you land in the middle of Market Square.
+mob echoaround $n From out of nowhere, $n suddenly drops from the sky.
+mob goto 95574
+~
+#95524
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a duplicitous look in $l eye and whispers something about impersonation in $n's ear.
+mob echoat $n $I gets a duplicitous look in $l eye and whispers:
+mob echoat $n {rThe ole double-walker trick, this gets'em every time.  Back in my day we had to
+mob echoat $n carry around bags of makeup to do this bit, but now you just look at yer mark
+mob echoat $n and cast the spell.  After that, not even their mother can tell the difference.
+mob echoat $n Of course, it's harder to assume the guise of someone stronger than you, but
+mob echoat $n I'm working on inflatible muscles for that.{x
+else
+glare $n
+endif
+~
+#95525
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a lost look in $l eye and whispers something about random in $n's ear.
+mob echoat $n $I gets a lost look in $l eye and whispers:
+mob echoat $n {rOh, this one has 'em running around in circles.  When you randomize a room
+mob echoat $n it takes all the exits and switches 'em around.  They try to go east, and they
+mob echoat $n go south, they try to go south and they go north.  It's hilarious fun.  But
+mob echoat $n it doesn't work where the those spoilers, the Rulers, are in charge.{x
+else
+glare $n
+endif
+~
+#95526
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a sharp look in $l eye and whispers something about sharp in $n's ear.
+mob echoat $n $I gets a sharp look in $l eye and whispers:
+mob echoat $n {rBy channeling the random powers of Chaos into a single point you can create
+mob echoat $n this weapon of havok.  Not only does this dagger increase in power as you do,
+mob echoat $n but it also randomly does some tricks of its own in combat.  It's final act,
+mob echoat $n though, is to vanish into a zepher of smoke after a while.{x
+else
+glare $n
+endif
+~
+#95527
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a reflective look in $l eye and whispers something about mirrors in $n's ear.
+mob echoat $n $I gets a reflective look in $l eye and whispers:
+mob echoat $n {rYer own traveling hall of mirrors!  This crafty spell takes your beautiful face
+mob echoat $n and mulitplies it several times.  You can do it when yer lonely, so you can
+mob echoat $n talk to your equal in conversation.  But it also confuses archerers, who
+mob echoat $n often mistake your mirrors for yourself.  And just as mirrors, they don't take
+mob echoat $n much of a beating.{x
+else
+glare $n
+endif
+~
+#95528
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a vacant look in $l eye and whispers something about scattered in $n's ear.
+mob echoat $n $I gets a vacant look in $l eye and whispers:
+mob echoat $n {rSooner or later, people are going to gang up on you after playing so many
+mob echoat $n pranks on them.  You can even the odds by casting large groups to the winds.
+mob echoat $n It works especially good on pets, who end up in random locations of the realm
+mob echoat $n without their master's, completely lost.{x
+else
+glare $n
+endif
+~
+#95529
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a disgraceful look in $l eye and whispers something about disgraceful in $n's ear.
+mob echoat $n $I gets a disgraceful look in $l eye and whispers:
+mob echoat $n {rA pie in the face, this is.  If you want to disgrace your mark in public then
+mob echoat $n just play this little trick on them.  It'll make them a little less perusuasive
+mob echoat $n with that custered in their face.{x
+else
+glare $n
+endif
+~
+#95530
+if clan $n chaos
+mob oload 95550
+unlock east
+open east
+say Hmm bit of a thirst I got...Pose I should move..get something to drink atleast..
+mob goto 95519
+mob delay 1
+endif
+end
+~
+#95531
+mob goto 95500
+close east
+lock east
+mob junk sac
+say Ahhhhh that keg is a won'erful thing a'nt it.
+~
+#95532
+mob oload 95550
+~
+#95533
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a muddy look in $l eye and whispers something about incomprehensible in $n's ear.
+mob echoat $n $I gets a muddy look in $l eye and whispers:
+mob echoat $n {rYou always suspected those Rulers talker gibberish, didn't ya?  Well, if you
+mob echoat $n can pull this trick off, that's exactly what they'll be uttering.  Mages can't
+mob echoat $n mumble their encantations, paladins can't call their friends for help.  Drives
+mob echoat $n people nuts.{x
+else
+glare $n
+endif
+~
+#95534
+if clan $n chaos
+or isimmort $n
+mob echoaround $n $I gets a confused look in $l eye and whispers something about confusing in $n's ear.
+mob echoat $n $I gets a confused look in $l eye and whispers:
+mob echoat $n {rBedlam, pure bedlam, that's what this prank is all about.  If you play it on
+mob echoat $n a monster he'll attack a random fellow in the room.  But be warned, you're not
+mob echoat $n safe from his range, so best to do this in a room full of people.  It makes
+mob echoat $n one big mess.{x
+else
+glare $n
+endif
+~
+#95535
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get warlock altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give warlock $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95536
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95537
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95538
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95539
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95540
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95541
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95542
+if clan $n chaos
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95543
+mob echoaround $n A Zdreni Avenger steps out of shadows.
+mob echoaround $n A Zdreni Avenger's backstab {R-==> SKELETONIZES <==-{z $n.
+mob echoaround $n A Zdreni Avenger's second backstab {R>>> ERADICATES <<<{z $n.
+mob echoaround $n $n yells, '{MDie, a Zdreni Avenger! You are backstabbing scum!{x'
+mob echoaround $n A Zdreni Avenger has fled!
+~
+#95544
+close west
+~
+#95545
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {W$r{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {W$r{G out in the vicinity of {WAdventurer's Guild{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WMidgaard{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W26{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {WZsuzsu{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {WZsuzsu{G out in the vicinity of {WZsuzsu's workshop{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WAsgaard{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W95{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {WThe Mayor{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {Wthe Mayor{G out in the vicinity of {WMayor's office{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WMidgaard{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W2{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {WThe Midnight Dragon{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {Wthe Midnight Dragon{G out in the vicinity of {WAn ENORMOUS Midnight  colored room{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WDrako Village{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W0{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {Wa fido{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {Wa fido{G out in the vicinity of {WMain street{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WMidgaard{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W15{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {WQuester Ferentos{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {WQuester Ferentos{G out in the vicinity of {WThe Palace Gates{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WNew Thalos{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W25{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {WAedar{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {WAedar{G out in the vicinity of {WBy the Temple Altar{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {WMidgaard{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W5{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+if rand 80
+mob remember $r
+mob echoat $q {CQuestus Perfectus{x tells you '{GThank you, brave {W$r{G!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GAn enemy of mine, {WGulshtukh{G, is making vile threats against the crown.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThis threat must be eliminated!{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GSeek {WGulshtukh{G out in the vicinity of {WThe Entrance to a Cavern{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GThat location is in general area of {Wthe Chaos Clanhall{G.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GYou have {W800{G minutes to complete this quest.{x'
+mob echoat $q {CQuestus Perfectus{x tells you '{GMay the gods go with you!{x'
+end
+endif
+~
+#95546
+if rand 50
+say 50+
+else
+say 50-
+endif
+end
+~
+#95547
+mob remember $r
+if rand 50
+mob echoat $q Your drowning {cscratches{x you.
+mob echoaround $q $q's drowning {cscratches{c $q.
+mob damage qr 2 5 1
+else
+mob echoaround $q $q's drowning {cgrazes{x $q.
+mob echoat $q Your drowning {cgrazes{x you.
+mob damage $q 5 8 1
+endif
+end
+~
+#95548
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95558 room
+mob junk all
+end
+endif
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95559 room
+mob junk all
+end
+endif
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95560 room
+mob junk all
+end
+endif
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95561 room
+mob junk all
+end
+endif
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95562 room
+mob junk all
+end
+endif
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95563 room
+mob junk all
+end
+endif
+if rand 90
+mob echo A mushroom spore drops from the shroom and lands next to you.
+mob oload 95564 room
+mob junk all
+end
+endif
+~
+#95549
+mob echo {WBLOP!{x
+get spore
+mob junk all
+~
+#95550
+if rand 90
+whisper What are YOU doing here?
+end
+endif
+if rand 90
+whisper GET OUT OF HERE!
+end
+endif
+if rand 90
+whisper Don't touch that.
+end
+endif
+if rand 90
+whisper You're not supposed to be in here!
+end
+endif
+if rand 90
+whisper I'll scratch your eyes out and feed them to the beast.
+end
+endif
+if rand 90
+whisper I'll kill your mother and i'll make sure she suffers.
+end
+endif
+if rand 90
+whisper Begone pest!
+end
+endif
+if rand 90
+whisper They are all dead.
+end
+endif
+if rand 90
+whisper I burned them. All of them
+end
+endif
+if rand 90
+whisper Why did you do this to me?
+end
+endif
+if rand 90
+whisper I will NOT!
+end
+endif
+if rand 90
+whisper Please, don't hurt me
+end
+endif
+~
+#95551
+if rand 90
+mob echoaround $r $r says '{GI hate you{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GI'm going to kill you{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GLet's get out of here.{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GWhy are you such an horses ass?{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GYou are good for nothing{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GAny loot we find in here, belongs to me.{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GI'm scared.{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GI don't even know why i came with you.{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GI probably shouldn't say, but i've never really liked you.{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GSo, do you have a sister i can get with?{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GI killed all my pets as a child{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GYou are messed up man{x'
+end
+endif
+if rand 90
+mob echoaround $r $r says '{GHow many times do i have to tell you? Be QUIET!{x'
+end
+endif
+~
+#95552
+if rand 90
+mob echoat $r Someone tells you '{GGet out of there so i can kill you{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GStop hiding, punk.{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GYou owe me some money{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GTHIEF! You looted my gear!{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GI wouldn't have said that, now you'll have to pay.{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GYou're alittle fat, aren't you?{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GBy the gods, you are one ugly bastard{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GJust thought you should know, noone likes you.{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GNoone sings as beautiful as you{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GI think i'm in love with you{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GLet's get married{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GI bought you something. It's pretty.{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GWow, you are very pretty. I can't stop thinking about you.{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GHow much will you charge me for a kiss?{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GOoooooh, the things i would do to you if you let me.{x'
+end
+endif
+if rand 90
+mob echoat $r Someone tells you '{GMEOW!{x'
+end
+~
+#95553
+if rand 90
+mob mload 95533
+mob purge self
+end
+endif
+if rand 90
+mob mload 95534
+mob purge self
+end
+endif
+if rand 90
+mob mload 95535
+mob purge self
+end
+endif
+if rand 90
+mob mload 95536
+mob purge self
+end
+endif
+if rand 90
+mob mload 95537
+mob purge self
+end
+endif
+if rand 90
+mob mload 95538
+mob purge self
+end
+endif
+if rand 90
+mob mload 95539
+mob purge self
+end
+endif
+if rand 90
+mob mload 95540
+mob purge self
+end
+endif
+if rand 90
+mob mload 95541
+mob purge self
+end
+endif
+if rand 90
+mob mload 95542
+mob purge self
+end
+endif
+if rand 90
+mob mload 95543
+mob purge self
+end
+endif
+if rand 90
+mob mload 95544
+mob purge self
+end
+endif
+if rand 90
+mob mload 95545
+mob purge self
+end
+endif
+if rand 99
+mob purge self
+end
+endif
+~
+#95559
+~
+#0
+
+#PRACTICERS
+M 95500 clan~	* Dulagraen, High Priest of Chaos
+S
+
+#$

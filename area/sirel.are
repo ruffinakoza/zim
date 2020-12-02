@@ -1,0 +1,4028 @@
+#AREADATA
+Name The Village of Sirel~
+VNUMs 19751 19850
+Credits Nalaeya~
+Security 9
+LevelRange 25 35
+ResetMessage A strong wind blows through the village, bringing a chill from the mountains.~
+End
+
+#MOBILES
+#19751
+blacksmith man~
+the blacksmith~
+A heavily muscled man hammers a horseshoe into shape.
+~
+Bare to the waist but for a blacksmith's apron, this man is rather short,
+but has arms the size of most men's legs, and looks like he could snap
+someone in two.  A pale scar runs across his cheek, though he has a warm
+smile, and bright blue eyes that give him an innocent appearance.  
+~
+human~
+AB 0 1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+M random 19751 5~
+#19752
+shopkeeper woman~
+the shopkeeper~
+A grandmotherly woman stands behind the counter, helping a customer.
+~
+With her hair done up in a bun, and her brown wool dress, this shopkeeper
+has a grandmotherly look about her.  She smiles as she helps a customer with
+their choice, talking enthusiastically about their choices.  
+~
+human~
+ABe 0 1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 AB 0 0
+stand stand female 1271
+0 0 medium flesh~
+~
+M greet 19752 ~
+#19753
+village housewife woman~
+a village housewife~
+A woman peers out the window, watching her children play by the road.
+~
+She appears fairly young, but has a motherly face and a stern eye. 
+Wearing a brown wool dress, with a white apron tied around her back, she
+seems to be taking a break from her chores to watch the village children
+play.  
+~
+human~
+AB 0 1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+Q 0 0 0
+stand stand female 150
+0 0 medium flesh~
+~
+#19754
+young housewife~
+a young housewife~
+A young housewife is here, covered in flour up to her elbows.
+~
+Although she doesn't appear to be very old, several of the children
+playing on the streets outside belong to her.  She has a kind smile, and a
+pretty face, and seems to share the friendly nature of the other villagers. 
+
+~
+human~
+AB 0 1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+Q 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M act 19753 gets a freshly baked apple pie~
+M give 19754 19755~
+M delay 19755 100~
+#19755
+mayor wife woman~
+the mayor's wife~
+A plump, middle-aged woman sings to herself with a smile on her face.
+~
+The mayor's wife is a handsome woman, just into her middle years.  She
+wears her graying hair up in a bun, held back with silver hairpins.  She is
+dressed in the typical clothing of a village woman, in well-cut
+brightly-coloured wool.  
+~
+human~
+AW 0 1000 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+I 0 0 0
+stand stand female 250
+0 0 medium flesh~
+~
+#19756
+mayor man~
+the mayor~
+A round, balding man sits at his desk scribbling some notes.
+~
+The mayor is in his middle-years, what little hair is left on his head
+slowly turning gray.  He appears to be quite cheerful, though fine lines
+along his eyes and mouth show that his position has aged him early.  
+~
+human~
+AB 0 1000 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+0 0 0 0
+stand stand male 200
+0 0 medium flesh~
+~
+#19757
+young mother woman~
+a young mother~
+A young mother is bent over the stove, gently stirring a pot of soup.
+~
+She appears to be fairly young, perhaps in her mid-twenties.  Her dark
+hair is done up in a bun, kept out of her face.  She is dressed in a simple
+but lovely wool dress, and wears a smile bright enough to light up the room.
+
+~
+human~
+AB 0 1000 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+I 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+#19758
+young infant~
+a young infant~
+Sitting in his high chair, a young infant drools and bangs his spoon on the table before him.
+~
+Pale, soft hair covers the infants head.  It appears to be a boy, though
+it is difficult to tell for sure.  He gurgles and laughs as he slams his
+spoon down across the table, trying his best to create a mess.  
+~
+human~
+AB 0 1000 0
+26 26 45d26+0 130d10+85 8d3+18 none
+-7 -7 -7 -2
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19759
+little boy~
+a little boy~
+Trying to hide behind his mother, a little boy sucks his thumb and watches you.
+~
+He appears to be three or four years old, and quite shy.  He hides behind
+his mother's skirts, peeking out at you whenever he thinks you aren't
+looking.  
+~
+human~
+AB 0 1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19760
+little girl~
+a little girl~
+A little girl sits in the corner, playing with her toys.
+~
+She appears to be around five years old, and seems to be absorbed in a
+very deep conversation with one of her dolls.  She wears a lovely blue
+dress, though there are grass stains along its back and arms.  
+~
+human~
+AB 0 1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#19761
+mob~
+the swing mob~
+A mob is here, giving people a message when they sit on the swing.
+~
+A function mob.
+~
+human~
+ABe 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M act 19757 sits down on the wooden swing.~
+M delay 19756 100~
+I 92
+#19762
+faery well small~
+{mthe well faery{x~
+A small faery rests in the alcove, wings fluttering as she watches you.
+~
+The faery seems to glow softly, providing her own light even in this deep
+darkness.  Her wings flutter nervously as she watches you, and she seems
+ready to flee at any moment.  There is a deep, mystical beauty to her, and
+the air around her crackles with unseen power.  
+~
+sprite~
+ABCR BDN 1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+AFH A I 0
+stand stand female 1642
+0 0 medium flesh~
+~
+F attr+ AB
+F vul DI
+#19763
+chicken~
+the chicken~
+A chicken pecks at the ground here, moving away whenever you come too close.
+~
+It looks like a regular, egg-laying hen, though it appears to be quite
+fat.  
+~
+unique~
+AB 0 0 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand either 0
+A ABCDEFHIJKP medium flesh~
+~
+#19764
+cow~
+a cow~
+A cow grazes on the grass, swishing its tail lazily.
+~
+It looks like a regular milk cow, though well-fed.
+~
+unique~
+AB 0 0 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+0 0 0 0
+stand stand either 0
+AV ABCDEFGHIJK medium flesh~
+~
+#19765
+young woman laughing~
+a laughing young woman~
+A young woman laughs as she helps the others raise the pole.
+~
+The young woman before you appears to be around fifteen years of age. 
+Though she hasn't finished growing, it is obvious that she will turn out to
+be a great beauty.  She wears a simple country dress, it's cream colour
+contrasting nicely with the fine red cloak she wears over it.  
+~
+human~
+AB N 1000 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+0 0 0 0
+stand stand female 200
+0 0 medium flesh~
+~
+#19766
+elderly woman~
+an elderly woman~
+An elderly woman rests in the grass, smiling as she watches the younger ones.
+~
+Although her hair is completely white, and she is hunched over, she wears
+a bright smile, and her eyes are alert.  She laughs and sings along with the
+younger women, telling them stories of her own time as a youth.  
+~
+human~
+AB 0 1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+#19767
+village child~
+a village child~
+A village child runs around, playing a game of tag.
+~
+With big wide eyes and tousled hair, this child is the very picture of
+joy and innocence.  
+~
+human~
+ABC 0 1000 0
+26 26 45d26+0 130d10+85 8d3+18 none
+-7 -7 -7 -2
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#19768
+village woman~
+a village woman~
+A woman walks down the road, carrying a basket.
+~
+Dressed in the plain, country clothes worn by most of the other
+villagers, the woman greets you with an open smile, though you see that she
+also keeps an eye on you, making sure you don't try to harm the children.  
+~
+human~
+AB 0 1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+Q 0 0 0
+stand stand female 150
+0 0 medium flesh~
+~
+#19769
+village man~
+a village man~
+Wiping sweat from his brow, a village man watches the children with a smile.
+~
+His plain clothes are dirty with the day's sweat and toil, but a smile
+rests on his sun-darkened face nonetheless.  He nods at you as he passes
+you, though you notice he watches you closely.  
+~
+human~
+AB 0 1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+Q 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+#19770
+silver scaled fish~
+a silver-scaled fish~
+A silver-scaled fish swims rapidly through the water.
+~
+Darting back and forth, you'd hardly be able to see it if it wasn't for
+the sun glinting off its silver scales.  It doesn't appear to be very big,
+but it moves fast.  
+~
+fish~
+AB 0 0 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#19771
+catfish fish~
+a catfish~
+A catfish tries to disguise itself against the rocks.
+~
+This catfish is rather small, though it moves quickly and is difficult to
+keep an eye on.  
+~
+fish~
+AB 0 0 0
+29 29 48d29+0 145d10+85 9d3+19 none
+-9 -9 -9 -3
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19758 5~
+#19772
+faery night~
+{ma ni{Dght fa{mery{x~
+A beautiful, dark-haired woman stands beneath the waterfall, watching you.
+~
+The faery appears as a beautiful woman, dark of hair and eye, wearing not
+a stitch of clothing.  The moonlight falls upon her glistening skin, and she
+almost seems to glow in the faint light.  
+~
+elf~
+ABe B 0 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 A 0 C
+stand stand female 1548
+0 0 medium flesh~
+~
+F attr+ AB
+M random 19761 100~
+#19773
+function mob~
+a faery summoning mob~
+A functional mob is here, summoning and dismissing the faery.
+~
+Summons the fairy when it sees the night message.
+~
+human~
+ABe DFl 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCD 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M act 19761 The sun slowly disappears in the west.~
+M act 19762 The sun rises in the east.~
+I 92
+#19774
+mysterious wanderer man~
+the mysterious wanderer~
+A man stands here with a crooked smile, gazing at you contemptuously.
+~
+Clad in dark clothing in a fashion you've never seen before, this man is
+obviously not from the area.  His features are pleasant enough, save for a
+long dark scar that runs down his forehead to end just above his left ear. 
+He wears a crooked grin as he looks you over, and you cannot help but feel
+that there is a deep contempt in his gaze.  
+~
+human~
+ABTe O -1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+E AB 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+M random 19760 2~
+#19775
+weary traveler~
+a weary traveler~
+A weary traveler rests on the bed, staring up at the ceiling.
+~
+His clothes are somewhat worn but have recently been cleaned, removing
+the dust and grime from weeks of travel on the road.  His face is weary but
+he still wears a cheerful grin, happy to finally have the chance to rest in
+a soft, comfortable bed and have a hot meal.  
+~
+human~
+AB 0 1000 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+#19776
+drunken halfling~
+a drunken halfling~
+A drunken halfling stumbles across the room, singing a cheerful song.
+~
+With a bottle in his hand, and a smile on his face, this halfling looks
+quite happy and very, very drunk.  He stumbles about, barely able to stand,
+and doesn't appear to be willing to set down his bottle anytime soon.  
+~
+halfling~
+AB 0 1000 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand male 15
+0 0 medium flesh~
+~
+#19777
+young man~
+a young man~
+A young man is here, a silly grin on his face as he thinks of his lover.
+~
+He appears to be fairly young, with a look in his eyes that says he is in
+love.  He is dressed in the simple clothing of the villagers, suggesting
+that he has taken a room at the inn to be able to spend a little time alone
+with his girl.  
+~
+human~
+AB 0 1000 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+Q 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19778
+young woman~
+a young woman~
+Humming softly to herself, a young woman appears to be daydreaming about someone.
+~
+Young and pretty, she wears a bright smile on her face.  Her dress is
+simple, the kind worn by the other women in the village, suggesting that she
+does not live far from here.  Her blue eyes are bright and cheerful, though
+she appears to be lost in a daydream at the moment.  
+~
+human~
+AB 0 1000 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#19779
+merchant man wealthy~
+a wealthy merchant~
+A plump, richly-clad merchant looks out the window.
+~
+Dressed in fine clothing meant to display his wealth, this merchant
+appears to be quite successful.  He gazes out the window with a look of
+boredom and apathy, as if he'd rather be anywhere but here in this quiet
+village.  
+~
+human~
+AB 0 1000 0
+34 34 82d34+0 170d10+85 11d3+22 none
+-13 -13 -13 -6
+0 0 0 0
+stand stand male 627
+0 0 medium flesh~
+~
+#19780
+daugher girl child~
+the innkeeper's daughter~
+A young girl sits on the floor, holding up a doll to the light.
+~
+She couldn't be more than four or five years old, her small chubby face
+wearing a bright smile as she converses with her favorite doll.  Her blond
+curls fall to rest lightly on her shoulders, almost shining in the sunlight.
+
+~
+human~
+AB N 1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#19781
+innkeeper wife woman~
+the innkeeper's wife~
+A plump, motherly woman stands over a cooking pot, stirring its contents with a spoon.
+~
+With her graying hair done up in a bun, her simple country dress, and her
+kind, motherly smile, the innkeeper's wife looks to be quite friendly and
+down to earth.  Slightly heavy in shape, her twinkling green eyes give her a
+kind of timeless beauty that old age will never take away.  
+~
+human~
+AB 0 1000 0
+29 29 48d29+0 145d10+85 9d3+19 none
+-9 -9 -9 -3
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#19782
+daughter eldest~
+the inkeeper's eldest daughter~
+Weaving her way among the tables, a young woman serves the customers.
+~
+She appears to be about twenty years of age, with short blond hair that
+doesn't reach her shoulders.  Her blue eyes sparkle with an inner light, and
+she wears a lopsided grin as she moves about, speaking with the customers.  
+~
+human~
+A 0 1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#19783
+innkeeper man~
+Farihd the innkeeper~
+The innkeeper stands by a table, wiping a mug with some cloth.
+~
+Plump and going bald, with large, bushy eyebrows that hang over his eyes,
+the innkeeper is nonetheless quite a cheerful figure.  Wearing a large smile
+on his face, he moves around the inn, stopping at a table every now and then
+to converse with one of his customers.  
+~
+human~
+ABe 0 1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19784
+felar traveler~
+a felar traveler~
+A felar traveler sits at a table, head bent over a mug of ale.
+~
+This felar looks as if he has been through a rough battle.  Some of his
+fur appears to be charred, and there are several bare patches across his
+body.  Nevertheless, he seems alert and healthy, and judging by his muscular
+frame he has quite a bit of strength.  He sits somewhat apart from the other
+customers, though he doesn't necessarily appear to be unfriendly.  
+~
+felar~
+AB 0 0 0
+31 31 65d31+0 155d10+85 10d3+20 none
+-11 -11 -11 -4
+E 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19785
+villager old man~
+an old villager~
+An old man sits in a chair by the fire.
+~
+Dressed in farmer's clothes, this old man doesn't look as if he's strong
+enough to withstand the sun's heat and work in the fields any longer. 
+Though he occasionally nods off into sleep, when his eyes are opened, they
+show wisdom and the experience of years.  
+~
+human~
+AB d 1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+#19786
+storm giant warrior~
+the storm giant warrior~
+A storm giant sits uncomfortably in a chair that's much to small for him.
+~
+At almost seventeen feet tall, he's had to bend himself over almost
+double simply to enter the inn.  Though there are no rooms that would fit
+him, the allure of ale and a warm meal has apparently been enough to bring
+him here despite how uncomfortable he seems to be feeling now.  He is
+dressed in warrior's attire, leather armor covering him from his feet to his
+neck.  By his side rests an enormous bastard sword, though in his hands it
+looks more like a shortsword.  
+~
+storm giant~
+ABT 0 1000 0
+31 31 65d31+0 155d10+85 10d3+20 none
+-11 -11 -11 -4
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19787
+handsome young traveler~
+the handsome young traveler~
+A young traveler rests among the ruins, taking in the scenery.
+~
+He is a young man, no older than thirty, though his clothes and
+possessions make it clear that he is a traveler.  His face is lit up by
+startling blue eyes and a warm cheerful smile, and even the long white scar
+across his left cheek does little to diminish his handsome features.  His
+clothes are bright and colourful, though a bit dusty and worn, in a style
+uncommon to this area, suggesting that he has traveled a long way.  
+~
+human~
+ABe 0 1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 19763 5~
+#0
+
+#OBJECTS
+#19751
+blacksmith's apron~
+{ya blacksmith's apron{x~
+A blacksmith's apron lies in a heap on the ground.~
+unknown~
+~
+clothing 0 AD
+0 0 0 0 0 0 0
+30 0 37671 P
+A
+19 1
+A
+18 3
+A
+1 1
+E
+blacksmith apron~
+The once-white apron is somewhat stained now, and more of a gray colour,
+but it is still in good condition.  
+~
+G male
+G none
+G none
+G none
+#19752
+axe moon carved handle beautiful~
+{wan {Waxe{x with a {Cmoon-carved{w handle{x~
+A beautiful axe lies here on the ground.~
+metal~
+~
+weapon 0 AN
+axe 2 22 cleave 0
+35 36 38303 P
+A
+18 1
+A
+19 5
+E
+axe moon carved handle beautiful~
+This axe is newly-forged, and gleams brightly.  The handle has been
+elaborately carved with moons in various phases, creating a lovely if odd
+effect on the axe.  
+~
+G none
+G none
+G none
+G none
+#19753
+silk head scarf lovely~
+{ca {Csilk {bhead-{cscarf{x~
+A lovely silk head-scarf has been left here on the ground.~
+silk~
+~
+clothing 0 AE
+0 0 0 0 0 0 0
+31 10 18489 P
+A
+19 3
+A
+18 1
+A
+6 1
+E
+silk head scarf lovely~
+The blue headscarf is made of very fine silk, woven flawlessly with a
+beautiful shimmer whenever it falls under light.  
+~
+G female
+G none
+G none
+G none
+#19754
+pair fine cloth boots~
+{ya pair of fine {Wcloth{y boots{x~
+A pair of cloth boots have been abandoned here.~
+unknown~
+cloth~
+armor 0 AG
+12 12 12 11 'none' 0
+33 30 28542 P
+A
+18 3
+A
+19 1
+A
+2 1
+E
+pair fine cloth boots~
+The boots are made of a thick cloth treated with a special solution to
+make them almost as touch as leather.  They seem to mold themselves to any
+form, making it feel almost as if they aren't even being worn.  
+~
+G none
+G none
+G none
+G none
+#19755
+apple pie~
+a freshly baked {Gapple{x pie~
+A freshly baked apple pie rests here on the counter.~
+food~
+~
+food 0 A
+BD BD 0 0 0 BD BD
+1 5 100 P
+E
+apple pie~
+The pie is still hot, and fills the air with a mouth-watering aroma.
+~
+G none
+G none
+G none
+G none
+#19756
+pie apple slice~
+a slice of freshly baked {Gapple{x pie~
+A slice of delicious-looking apple pie has been dropped here.~
+food~
+~
+food 0 A
+CD CE 0 0 0 CD CE
+1 3 113 P
+E
+slice apple pie~
+The apple pie is freshly baked, and smells delicious.
+~
+G none
+G none
+G none
+G none
+#19757
+blacksmith hammer~
+{ya blacksmith's hammer{x~
+A large, heavy-looking hammer rests on the ground.~
+metal~
+~
+weapon 0 AN
+hammer 3 15 pound FK
+30 50 39733 G
+A
+18 1
+E
+blacksmith hammer~
+The hammer appears to have seen quite a lot of use in its time, with
+several noticeable dents in the metal.  It is still quite sturdy, however,
+and looks like it could do a lot of damage.  
+~
+G none
+G none
+G none
+G none
+#19758
+guest bed~
+the bed~
+A large bed with soft white sheets lies directly beneath the window.~
+feathers~
+~
+furniture R 0
+B EIJKN EHK BCEH DGH B EIJKN
+0 0 0 P
+E
+guest bed~
+The bed is large enough for two people, and very soft.
+~
+G none
+G none
+G none
+G none
+#19759
+jewelry box~
+the jewelry box~
+~
+wood~
+~
+container R 0
+1000 0 0 100 100 0
+0 0 0 P
+E
+jewelry box~
+The jewelry box is fairly small, though made of a dark, strong-looking
+wood covered with intricated designs.  It has been left open, revealing its
+contents.  
+~
+G none
+G none
+G none
+G none
+#19760
+bed~
+the mayor's bed~
+The bed placed by the eastern wall looks quite comfortable.~
+feathers~
+~
+furniture R 0
+B EIJKN EHK DGH BCEH B EIJKN
+0 0 0 P
+E
+bed~
+The bed is very soft, the mattress sinking in at the slightest touch,
+though still firm enough to be comfortable.  
+~
+G none
+G none
+G none
+G none
+#19761
+emerald necklace~
+{Ga tig{ght-fit{Gting {gem{Gera{gld {Gne{gckla{Gce{x~
+A beautiful, tight-fitting necklace has been carelessly forgotten here.~
+unknown~
+emeralds~
+jewelry W AC
+0 0 0 0 0 0 0
+33 10 1000 P
+A
+19 5
+A
+6 1
+E
+tight-fitting emerald necklace~
+The necklace is quite lovely, with dozens of fine quality emeralds
+dangling from it like teardrops.  
+~
+G none
+G none
+G none
+G none
+#19762
+silver hairpin~
+{Wa silver hairpin{x~
+A delicate-looking silver hairpin has been left on the ground.~
+silver~
+~
+jewelry 0 AE
+0 0 0 0 0 0 0
+35 3 100 P
+A
+19 2
+A
+18 1
+A
+20 -2
+E
+silver hairpin~
+The hairpin is a lovely, delicate-looking piece.  It is only a few inches
+long, but is perfect for holding up hair.  
+~
+G female
+G none
+G none
+G none
+#19763
+small spoon~
+a small spoon~
+A small spoon has been dropped here.~
+metal~
+~
+trash HM AO
+0 0 0 0 0 0 0
+27 20 0 P
+A
+6 -2
+A
+3 -2
+A
+4 -1
+A
+5 -1
+A
+1 -1
+A
+18 6
+E
+spoon~
+Covered in drool, it doesn't look like something you would want to use.
+~
+G none
+G none
+G none
+G none
+#19764
+old doll~
+an old doll~
+A much-loved old doll has been left here.~
+unknown~
+~
+treasure M AO
+0 0 0 0 0
+27 5 0 W
+A
+6 -4
+A
+14 -25
+A
+18 3
+A
+19 3
+A
+1 -1
+A
+5 -2
+E
+old doll~
+This doll is fairly old, and has been stiched up several times, though
+she seems in danger of falling apart again.  
+~
+G none
+G none
+G none
+G none
+#19765
+blue bell-flower flower~
+{Ca {bblue {Cbell-flower{x~
+{bBlue {Cbell-flowers grow along the grass here.{x~
+unknown~
+flower~
+pill 0 A
+5 'haste' 'blindness' 'reserved' 'reserved'
+25 5 109 P
+E
+blue bell-flower flower~
+The flower is a lovely shade of blue, and its fragrant scent is sweet.  
+~
+G none
+G none
+G none
+G none
+#19766
+grass~
+the grass~
+~
+unknown~
+grass~
+furniture R 0
+ABCGH ABCDEHJKPQ EHK BCDFG BCDFG ABCGH ABCDEHJKPQ
+0 0 0 P
+E
+grass~
+The grass is soft and inviting, right under the shade of the oak tree.  
+~
+G none
+G none
+G none
+G none
+#19767
+wooden swing~
+the wooden swing~
+A wooden swing hangs from one of the branches.~
+wood~
+~
+furniture R 0
+A EIJKN E ABEFG ABEFG A EIJKN
+0 0 0 P
+E
+wooden swing~
+The swing is merely a slab of wood with holes through which rope has been
+knotted and then tied up on a low-hanging branch.  
+~
+G none
+G none
+G none
+G none
+#19768
+well stone~
+the well~
+The village well stands here, its ancient stones gleaming wetly.~
+unknown~
+~
+portal 0 0
+0 0 A 19785 0
+0 0 0 P
+E
+well stone~
+The stone well appears to be hundreds of years old, but it is still in
+remarkably good condition, obviously regularly upkept.  The very bottom of
+the well is too far down to make out, but looking inside, something seems to
+glitter brightly, though it is impossible to tell what it is without getting
+in for a closer look.  
+~
+G none
+G none
+G none
+G none
+#19769
+wings faery~
+{cf{Cae{cry wi{Cngs{x~
+A pair of delicate, glittering wings lies on the ground.~
+unknown~
+faerie~
+armor AFGI AI
+13 13 13 12 'none' 0
+35 10 59286 P
+A
+14 30
+A
+19 4
+A
+18 3
+E
+faerie wings~
+The wings are as soft as silk, seeming to glow with their own light. 
+They appear to be quite delicate, and easily destroyed.  
+~
+G none
+G none
+G none
+G none
+#19770
+amethyst stone~
+{Man amethyst stone{x~
+A beautiful gem glitters on the ground here.~
+unknown~
+amethyst~
+wand G AO
+35 6 5 'stone skin'
+35 5 1000 P
+A
+12 30
+E
+amethyst stone gem~
+The stone is small, about the size of a silver coin, and its colour is so
+pale as to be almost transparant.  Beyond the purple haze, however, a bright
+blue flame seems to burn inside the stone, filled with magical power.  
+~
+G none
+G none
+G none
+G none
+#19771
+alcove~
+the alcove~
+~
+unknown~
+~
+container R 0
+200 0 0 200 100 0
+0 0 0 P
+E
+alcove~
+It appears as though stones have been pulled out from the well, and
+something has burrowed into the wall there, creating a small space for
+itself through the earth.  Gems and gold glitter in a pile there.  
+~
+G none
+G none
+G none
+G none
+#19772
+glittering pile coins gems~
+a glittering pile of coins and gems~
+A glittering pile of coins and gems lies here, unclaimed.~
+unknown~
+~
+money 0 A
+1000 10
+1 5 0 P
+E
+glittering pile coins gems~
+The faery has acquired--and just lost--a small fortune in gold coins and gems.
+~
+G none
+G none
+G none
+G none
+#19773
+fine red cloak~
+{ra fine red cloak{x~
+A beautiful cloak of red silk has been carelessly forgotten here.~
+silk~
+~
+clothing 0 AK
+0 0 0 0 0 0 0
+28 10 13950 P
+A
+1 -1
+A
+13 30
+A
+12 -50
+E
+fine red cloak~
+The material is of fine silk, the kind to be worn by a noble.  It's dye
+is a dark, rich red, of fine quality and resistant to water.  
+~
+G none
+G none
+G none
+G none
+#19774
+ivory carving~
+{Wa small ivory carving{x~
+A small ivory carving has been dropped on the ground.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+30 15 3000 P
+A
+13 10
+A
+20 -1
+A
+4 1
+E
+ivory carving~
+The piece is small, only a few inches tall, but exquisitely carved.  It
+depicts a strange animal, with large ears, an enormous trunk, and horns
+jutting out from its forhead.  The ivory has darkened slightly with age, but
+it is still a beautiful work.  
+~
+G none
+G none
+G none
+G none
+#19775
+ancient ring silver tarnished~
+an ancient silver ring~
+A tarnished silver ring lies forgotten here.~
+silver~
+~
+jewelry IYh AB
+0 0 0 0 0 0 0
+29 10 500 P
+A
+13 10
+A
+19 2
+A
+18 2
+A
+2 1
+A
+20 -1
+E
+ancient tarnished silver ring~
+The luster of the ring is long gone, and the intricate carvings inscribed
+upon it are distorted and beginning to fade, but it is still a lovely piece
+nonetheless, with its own sort of charm.  
+~
+G none
+G none
+G none
+G none
+#19776
+item strand captured moonlight~
+{Ca {cstr{Cand {gof cap{Ctured {cmoon{Clight{x~
+A strange item glows and pulsates on the ground.~
+unknown~
+~
+armor ABFG AL
+13 13 13 12 'none' 0
+35 1 46101 P
+A
+18 3
+A
+19 6
+E
+strand item captured moonlight~
+A strand of moonlight, someone captured and formed into a beautiful,
+magic-filled belt.  
+~
+G none
+G none
+G none
+G none
+#19777
+table chairs~
+a chair by the table~
+Light dances upon the surface of the table by the window.~
+wood~
+~
+furniture R 0
+CE FHJKPQ EHK DEFG DEFG CE FHJKPQ
+0 0 0 P
+E
+chairs table~
+The chairs are sturdy, and quite comfortable, even without a cushion.
+~
+G none
+G none
+G none
+G none
+#19778
+chairs group~
+a chair by the fireplace~
+A group of chairs has been arranged by the fireplace.~
+wood~
+~
+furniture R 0
+CE FHJKPQ EHK BCDFG CDH CE FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#19779
+bed~
+the bed~
+A bed is pushed up against the wall, the sheets freshly cleaned and arranged.~
+wood~
+~
+furniture R 0
+B FHJKPQ EHK ADFG ADFG B FHJKPQ
+0 0 0 P
+E
+bed~
+Just large enough for two people, the bed looks quite comfortable.
+~
+G none
+G none
+G none
+G none
+#19780
+chest~
+the chest~
+~
+wood~
+~
+container R 0
+1000 AC 0 1000 100 0
+0 0 0 P
+E
+chest~
+The chest is small, but more than adequate to hold the clothes and
+supplies of whoever stays here.  
+~
+G none
+G none
+G none
+G none
+#19781
+flowing white shirt~
+a flowing white shirt~
+A white, loose-fitting shirt has been left on the ground.~
+unknown~
+cloth~
+clothing 0 AD
+0 0 0 0 0 0 0
+30 10 28925 P
+A
+6 2
+A
+2 -1
+E
+white flowing shirt~
+This shirt has been made for a man, and made to fit loosely, the arms
+wide and flowing, somewhat impractical for wielding a weapon, but quite
+stylish.  
+~
+G male
+G none
+G none
+G none
+#19782
+closet~
+the closet~
+~
+unknown~
+~
+container R 0
+100 0 0 500 100 0
+0 0 0 P
+E
+closet~
+The closet is small, with just room enough to hang a few pieces of
+clothing.  
+~
+G none
+G none
+G none
+G none
+#19783
+beautiful white gown lovely~
+a beautiful white gown~
+A lovely gown lies in a pile.~
+unknown~
+cotton~
+clothing 0 AD
+0 0 0 0 0 0 0
+30 10 64852 P
+A
+3 -1
+A
+13 50
+A
+2 -2
+E
+lovely beautiful white gown~
+The gown is elegant and delicate, the fabric soft and shimmering, flowing
+down to trail along the ground.  
+~
+G female
+G none
+G none
+G none
+#19784
+plain whip~
+a plain whip~
+A plain-looking whip lies here in a coil.~
+unknown~
+~
+weapon 0 AN
+whip 2 12 whip 0
+33 34 4610 P
+A
+13 10
+A
+12 30
+E
+plain whip~
+This whip is serviceable, though it doesn't appear to be of the best quality.
+~
+G none
+G none
+G none
+G none
+#19785
+bottle~
+a bottle~
+A bottle has been left here, slightly dented and covered in what appears to be blood.~
+glass~
+~
+weapon 0 AN
+exotic 1 35 smash K
+33 10 15440 P
+A
+19 2
+E
+bottle~
+It once held some kind of alcohol, but is now empty, and seems to have
+been used as a weapon.  
+~
+G none
+G none
+G none
+G none
+#19786
+mace iron~
+an iron mace~
+A heavy mace has been dropped to the ground.~
+unknown~
+~
+weapon 0 AN
+mace 3 12 crush 0
+34 35 18966 P
+A
+19 3
+A
+1 1
+E
+mace iron~
+The mace is rather poorly made, though from the looks of it it serves its
+purpose quite well in any case.  
+~
+G none
+G none
+G none
+G none
+#19787
+pretty doll~
+{Ca {cpr{Cet{ct{Cy{c do{Cll{x~
+A pretty doll has been abandoned here.~
+unknown~
+~
+treasure 0 AO
+0 0 0 0 0
+30 3 0 P
+A
+18 1
+A
+19 3
+A
+5 1
+A
+9 -5
+A
+6 -1
+E
+pretty doll~
+This child's doll is quite lovely, with hand-stitched clothing and a
+chubby little face that is painted so well there is almost a life-like
+quality to it.  
+~
+G none
+G none
+G none
+G none
+#19788
+stirring spoon~
+a stirring spoon~
+A spoon has been dropped to the ground.~
+unknown~
+~
+weapon 0 AN
+exotic 1 30 pound 0
+29 5 7982 P
+A
+18 3
+A
+19 -1
+A
+6 -1
+E
+stirring spoon~
+A simple wooden spoon, made for stirring and not very noteworthy.
+~
+G none
+G none
+G none
+G none
+#19789
+glass red wine~
+a glass of red wine~
+A glass of wine stands upright on the ground.~
+unknown~
+~
+drink 0 A
+10 10 'red wine' 0
+0 10 841 P
+E
+glass red wine~
+It's difficult to tell where this wine came from.  From the taste, it
+would seem to be from the vineyards near Caerlon.  Though not of the best
+quality, it tastes good enough.  
+~
+G none
+G none
+G none
+G none
+#19790
+mug ale~
+a mug of ale~
+A mug of ale lies on the ground, half spilled over.~
+unknown~
+ale~
+drink 0 A
+15 15 'ale' 0
+0 5 1032 P
+E
+mug ale~
+The ale is nothing special, similar to any found in taverns across the land.
+~
+G none
+G none
+G none
+G none
+#19791
+sirel special brew~
+Sirel's Special Brew~
+A bottle filled with a pale blue liquid has been left here.~
+unknown~
+something special~
+potion 0 A
+30 'frenzy' 'reserved' 'reserved' 'reserved'
+30 10 500 P
+G none
+G none
+G none
+G none
+#19792
+staff leather grips~
+a staff with leather grips~
+A long staff lies abandoned here.~
+wood~
+~
+weapon 0 AN
+staff 2 16 crush K
+31 20 10406 P
+A
+19 2
+A
+18 2
+E
+staff leather grips~
+The staff is of plain, sturdy wood, about five feet in length.  Leather
+strips have been tightly tied to either end, allowing for a better grip.  
+~
+G none
+G none
+G none
+G none
+#19793
+battered bracers pair~
+a pair of battered bracers~
+A pair of tough but battered-looking bracers have been left here.~
+unknown~
+~
+armor 0 AI
+12 12 12 11 'none' 0
+31 15 33751 A
+A
+19 3
+A
+18 1
+A
+24 -1
+E
+battered bracers~
+Though they still seem strong enough to serve their purpose, these
+bracers have seen better days.  They don't quite look ready to fall apart,
+but they aren't far from it.  
+~
+G none
+G none
+G none
+G none
+#19794
+enormous silver bastard sword~
+{wan enormous {Wsilver{w bastard sword{x~
+The blade of an enormous sword glints in the light.~
+silver~
+~
+weapon IK AN
+bastardsword 2 22 cleave F
+31 75 35375 P
+A
+19 5
+E
+enormous silver bastard sword~
+At seven feet in length, with a blade as wide as a man's face, only the
+strongest of warriors can wield this sword with any skill.  The blade has
+been recently polished, glinting as if new, and sharp enough to cut a man in
+half with a well placed blow.  
+~
+G none
+G none
+G none
+G none
+#19795
+traveler's cloak plain brown~
+a traveler's cloak~
+A plain brown cloak has been left here by someone.~
+unknown~
+cloth~
+trash 0 AK
+0 0 0 0 0 0 0
+33 13 100 P
+A
+24 -2
+E
+travelers cloak~
+A simple brown cloak, whose main purpose is to protect its wearer from
+the wind and sun, as well as provide a bit of warmth on cold nights.  
+~
+G none
+G none
+G none
+G none
+#19796
+safe behind~
+the safe behind the painting~
+~
+metal~
+~
+container R 0
+100 ABCD 19797 100 100 0
+0 0 0 P
+E
+safe behind~
+The safe is well-hidden behind the painting, with a strong lock that
+appears to be pick proof.  
+~
+G none
+G none
+G none
+G none
+#19797
+key~
+the key to the safe~
+A small metal key has been left here.~
+unknown~
+~
+key 0 A
+0 0 0 0 0 0 0
+1 5 0 P
+E
+key~
+The key is rather small, and obviously not meant to open a door by its
+strange shape.  
+~
+G none
+G none
+G none
+G none
+#19798
+diamond ring~
+a diamond-encrusted ring~
+A very expensive-looking ring has been carelessly left behind.~
+unknown~
+diamonds~
+jewelry 0 AB
+0 0 0 0 0 0 0
+20 5 14991 P
+A
+6 2
+E
+diamond ring~
+The ring looks quite expensive, the gold band encrusted with several
+rather large diamonds.  It appears to be quite old, possibly a family
+heirloom.  
+~
+G none
+G none
+G none
+G none
+#19799
+altar~
+the altar~
+~
+unknown~
+~
+container R 0
+10 E 0 10 100 0
+0 0 0 P
+E
+altar~
+Made of marble, with simple carving along the edges, this altar must have
+once been a lovely sight.  Years of being exposed to the elements has
+damaged it slightly, reducing its fine finish, but it has survived the
+passage of time remarkably intact.  
+ 
+Several wildflowers have been placed upon the altar as an offering.
+~
+G none
+G none
+G none
+G none
+#19800
+alodil's tears wildflowers flowers bouquet~
+{ga small bouquet of {CAlodil's Tears{x~
+A bouquet of lovely flowers has been left here.~
+unknown~
+plant~
+treasure 0 A
+0 0 0 0 0
+1 3 0 P
+E
+alodil tears bouquet wildflowers flowers~
+These flowers are quite lovely, with vibrant blue petals that contrast
+nicely with their dark green, smooth stems.  A faint scent similar to
+vanilla emanates from them.  
+~
+G none
+G none
+G none
+G none
+#19801
+mirror reflection image~
+{Cthe mirror's {creflection{x~
+{CThe {cmirror's {Cstrange{c reflection{C beckons you closer.{x~
+unknown~
+~
+portal R 0
+0 0 A 19853 0
+0 0 0 P
+E
+mirror reflection~
+The mirror shows your reflection with exceptional clarity, not a single
+bubble or streak marring its surface.  The room behind you, however, is
+strangely different.  It appears dark, and it is difficult to make out any
+shapes or forms.  The reflection is unsettling, but so clear that you almost
+feel as if you could walk through and enter the image before you.  
+~
+G none
+G none
+G none
+G none
+#19802
+dark skull-shaped amulet~
+{Da dark amulet{x~
+A dark, skull-shaped amulet lies on the ground.~
+unknown~
+~
+jewelry CEJLMY AC
+0 0 0 0 0 0 0
+35 5 100 P
+A
+18 1
+A
+19 5
+A
+13 5
+E
+amulet dark skull-shaped~
+This black amulet is made of an unknown material, warm to the touch.  It
+is shaped like a skull, though not one belonging to any creature you've
+encountered.  An elongated jaw is opened wide to reveal a set of sharp,
+deadly-looking teeth.  Tiny red gems have been placed where the eyes should
+be, glowing with a strange inner fire.  
+~
+G none
+G none
+G none
+G none
+#19803
+enormous silver shield heavy-looking~
+{wan enormous {Wsilver{w shield{x~
+A heavy-looking shield has been left on the ground.~
+silver~
+~
+armor IK AJ
+12 12 12 11 'none' 0
+31 75 71022 P
+A
+17 -10
+A
+2 -2
+A
+19 3
+A
+18 3
+A
+5 1
+A
+13 10
+E
+enormous silver shield heavy~
+The shield is enormous, clearly made for someone who is quite large.  Its
+weight and size make it difficult to move around with, while at the same
+time making it especially good for defense.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#19751
+Through the Mountain Pass~
+The cobblestone road continues through the mountain pass, sharp peaks
+blocking out the sun above.  Some of the road's ancient stones are sunken in
+a little towards the edges, while others are cracked or sticking slightly up
+in places, but aside from that it seems to be in relatively good condition. 
+Tall boulders are lined up against the mountain wall to the east, as if they
+have recently been cleared off the road.  To the north, the pass curves
+slightly, blocking any view of what lies there, while to the south it leads
+down back towards the city of Caerlon, its gleaming walls visible in the
+distance.  
+~
+0 C road
+D0
+A curve in the pass makes it difficult to make out where the road leads.
+~
+~
+Z 0 19752
+0 0
+D2
+~
+~
+Z 0 10900
+0 0
+S
+#19752
+By the Village Gates~
+A small wooden gate stands at the mouth of the mountain pass, guarding
+the entrance to the quaint little village to the north, though in truth with
+Caerlon so close by, the villagers have little need of it.  The cobblestone
+road here is better kept than it is to the south, a sign of its frequent
+use.  The gates are open, and just wide enough for a wagon or cart to pass
+through.  To the north the road continues, making its way past the modest
+homes of the villagers, all the way up to a larger building whose tiles
+glitter in the light.  
+~
+0 0 city
+D0
+~
+~
+Z 0 19753
+0 0
+D2
+Tall mountains rise up to the south, obscuring the view of the grand city
+of Caerlon that lies beyond them.  
+~
+~
+Z 0 19751
+0 0
+S
+#19753
+Down the Village Road~
+The steady sound of metal striking metal fills the street here, coming
+from the smithy to the west.  To the east stands a modest shop, the only
+such place in the entire village.  A merchant's wagon is stopped before the
+shop, half-loaded with goods brought to the village for trade.  Men and
+women occassionaly walk past you down the road, heading towards their fields
+to do farm work or going out to gather firewood.  The village's atmosphere
+is calm and peaceful, and every passing villager greets you with an open
+smile.  
+~
+0 0 city
+E
+wagon merchant~
+The owner of the wagon is out of sight.  The wagon is half-filled with
+goods brought for trade with the villagers, in exchange for crops and
+pottery.  
+~
+E
+villagers~
+The villagers wear plainly cut but bright clothing, wiping sweaty brows
+with their hands and offering you a smile whenever they pass by you.  
+~
+E
+smithy~
+The steady clang of metal striking an anvil comes from the west, where
+the village blacksmith does his work.  
+~
+D0
+The village road continues to the north, running between two houses.
+~
+~
+Z 0 19756
+0 0
+D1
+The village's only store lies to the east, its doors wide open.  
+~
+~
+Z 0 19755
+0 0
+D2
+The village gates lie to the south, left open and unguarded.
+~
+~
+Z 0 19752
+0 0
+D3
+The steady clang of metal striking an anvil comes from the west, where
+the village blacksmith does his work.  
+~
+~
+Z 0 19754
+0 0
+S
+#19754
+The Smithy~
+The smithy really only consists of one long stone wall which holds a
+forge and hooks for the blacksmith's implements.  A roof supported by
+several columns stands over it all, blocking out the sun and keeping the
+smithy safe from the elements.  Several barrels filled with treated water
+are placed by the anvil, and several finished works have been left on a
+wooden bench off to the side.  
+~
+0 C city
+E
+finished works~
+Most of the work done by the blacksmith appear to be for horseshoes, or
+regular tools used by the villagers.  
+~
+D1
+Villagers pass down the road, most of them heading back out to their
+fields.  
+~
+~
+Z 0 19753
+0 0
+S
+#19755
+The Village Shop~
+The general store is quite small, though it seems to be filled with goods
+for trade almost to the point of bursting.  Shelves line each wall, every
+inch of space used to display the merchandise the shopkeeper has for sale. 
+A small door set into the eastern wall leads into a tiny room, where the
+store owner does his calculations.  The shopkeeper is normally found behind
+the counter placed by the back door, ready to do business with the villagers
+and the merchants who come to Sirel to trade.  
+~
+0 CD inside
+D3
+~
+~
+Z 0 19753
+0 0
+S
+#19756
+Down the Village Road~
+The village road runs to the north and south here, small paths branching
+off to the east and west leading to modest homes.  The village is alive with
+activity, men and women walking along the road going about their daily
+business while children run between them chasing a ball.  Tall maple trees
+growing by the road leave parts of it in the shade, the sunlight from above
+dancing down across the grass and cobblestones.  
+~
+0 0 city
+E
+children~
+The children run across the road, laughing gaily without a care in the
+world.  
+~
+E
+women~
+The women walk down the road, occasionaly stopping to speak with each
+other, but more often chasing after a stray child.  
+~
+E
+men~
+The men look weary but cheerful, most of them covered with dirt and
+stains from a hard day's work out in the fields.  
+~
+D0
+The village road continues north, running between homes.
+~
+~
+Z 0 19759
+0 0
+D1
+Tempting aromas drift over from the house to the east.
+~
+~
+ABZ 0 19758
+0 0
+D2
+The village road continues to run southward, leading towards the village
+gates.  
+~
+~
+Z 0 19753
+0 0
+D3
+A modest but well-tended house stands to the west.
+~
+~
+ABZ 0 19757
+0 0
+S
+#19757
+Inside a Modest Home~
+This home does not appear to be very large, but its owners obviously work
+hard to keep it spotless and bright.  Pale curtains hang by the windows,
+spread open, allowing the sunlight to stream through across the living room
+floor.  A narrow hallway leads down towards several bedrooms, their doors
+closed.  The kitchen is small, but wide enough to fit a decent-sized oak
+table.  The house has a sense of being lived in, and likely has housed
+several generations since it was first built.  
+~
+0 D inside
+D1
+A cobblestone road cuts through the village.
+~
+~
+ABZ 0 19756
+0 0
+S
+#19758
+Inside the Kitchen of a Modest Home~
+The kitchen of this small house is filled with the thick scent of freshly
+baked apple pie.  Sunlight filters through the curtains in the window to
+fall upon a wooden counter set into the middle of the room, covered in
+flour, sugar and apple peels.  The size of the kitchen table hints that a
+rather large family resides here.  
+~
+0 CD inside
+D3
+The kitchen door leads back out onto the village's main road.
+~
+~
+ABZ 0 19756
+0 0
+S
+#19759
+A Small Crossroad~
+The road here runs between several of the village's modest homes, small
+paths branching off to the east and west leading down towards them. 
+Children laugh and play along the road, dodging around their elders as they
+chase each other across the grass.  The day is bright and warm, with a
+pleasant breeze shifting through the trees, and the villagers seem to be
+going on with their lives as usual.  
+~
+0 0 city
+E
+children elders~
+The elders look down upon the children with smiles on their faces,
+shaking their heads and recalling the days of their own youth.  
+~
+D0
+The road continues northward, heading towards the village green.
+~
+~
+Z 0 19764
+0 0
+D1
+A small path branches off, leading to a two-story house.
+~
+~
+Z 0 19765
+0 0
+D2
+Children dance along the road to the south.
+~
+~
+Z 0 19756
+0 0
+D3
+A path branches off from the road, leading down to some modest but
+brightly painted homes.  
+~
+~
+Z 0 19760
+0 0
+S
+#19760
+A Path Between the Houses~
+The homes here are modest, few more than one story tall, with thatched
+roofs rather than tiled ones.  Colourful clothes put out to dry hang from
+lines tied to trees and connected to the kitchen windows of the homes. 
+Voices can be heard coming from inside several of the houses, mothers
+talking to their husbands or playfully scolding one of their children. 
+Immediately to the north and west lie two small homes, their doors wide open
+to allow the breeze to run through.  
+~
+0 0 city
+D0
+The house to the north seems to have had several new rooms added to it
+over the years.  
+~
+~
+ABZ 0 19761
+0 0
+D1
+The path leads back down towards the main village road.
+~
+~
+Z 0 19759
+0 0
+D3
+A lovely blue-painted home stands to the west.
+~
+~
+ABZ 0 19762
+0 0
+S
+#19761
+Inside an Old Home~
+This house appears to be quite old.  Several rooms appear to have been
+added over the years, the paint fresher and the walls appearing to be made
+of a different type of wood, though the whole structure is still lovely to
+look upon.  The family that lives here appears to be quite large, judging by
+the number of rooms and beds placed throughout the house.  
+~
+0 D inside
+D2
+The open door leads back out to the house's front yard.
+~
+~
+ABZ 0 19760
+0 0
+S
+#19762
+A Brightly-Lit Home~
+Pale curtains pulled open before the windows allows light to stream
+through across the main living area of this home.  A large wooden cabinet on
+the far wall, freshly polished and heavily carved appears to be this
+family's most valuable possession, though the rest of the house's furniture
+is still quite lovely.  A pile of toys lies in a corner of the room, dolls
+and little wooden wagons that have been left here while the children play
+outside.  
+~
+0 D inside
+E
+toys dolls wagons~
+Toys are scattered in a corner of the room, obviously the treasured
+possessions of the household's children.  
+~
+E
+cabinet~
+The cabinet is made of a dark, highly polished wood, with carvings along
+the edges and down its entire front.  
+~
+D1
+The narrow path leads back down towards the main road running through the
+village.  
+~
+~
+ABZ 0 19760
+0 0
+S
+#19763
+The Mayor's Bedroom~
+The mayor's bedroom is fairly large, and brightly lit by the open window
+on the northern wall.  A large bed with pale red covers is placed against
+the eastern end of the room, rising high above the floor.  A large wardrobe,
+along with several chests around the room hold various articles of clothing,
+none of which appear to be particularly valuable.  An intricately carved
+jewelry box is placed on a desk by the bed, easily the finest object in the
+room.  
+~
+0 D inside
+E
+wardrobe chests~
+The wardrobe and chests are filled with expensive but useless clothes,
+the kind that would impress a villager but is too commonplace in larger
+towns and cities to be worth much.  
+~
+D2
+~
+~
+Z 0 19774
+0 0
+S
+#19764
+Down the Village Road~
+The path continues through the village, going north and south.  Off to
+one side of the path stands a huge tree with low-hanging branches.  Giant
+roots dig deep into the ground, and the size of the tree hints that it is
+truly ancient, and has likely stood here even longer than the village
+itself.  A wagon lies off to the side, its broken wheel waiting to be
+repaired.  Several children can be seen running around it, playing a game of
+tag.  
+~
+0 0 city
+E
+children~
+Young and joyful, they look as if they haven't got a care in the world.  
+~
+D0
+The main road continues on towards the village green.
+~
+~
+Z 0 19775
+0 0
+D2
+The main road cuts through the village, running north and south.
+~
+~
+Z 0 19759
+0 0
+S
+#19765
+The Path to the Mayor's House~
+Children run across the grass to either side of the road here, laughing
+and calling out to each other.  Weary but joyful-looking men and women look
+on and watch fondly, wiping sweat from their brows and heading back to work.
+A modest home stands to the north, its door and windows open to allow a
+fresh breeze to flow through it.  To the east, a tall, two-story house
+stands, its brown tiles glittering under the sunlight.  
+~
+0 0 city
+E
+men women~
+The men and women watch the children carefully as they go about their
+work, smiling at the children's joy and enthusiasm.  
+~
+E
+children~
+The children run around playing games, without a care in the world.  
+~
+D0
+The door has been left open, and smells of baking bread waft through it.  
+~
+~
+ABZ 0 19766
+0 0
+D1
+The mayor's house stands taller than any other building in the village
+but the inn.  
+~
+~
+ABZ 0 19767
+0 0
+D3
+The main road cuts through the village to the east.
+~
+~
+Z 0 19759
+0 0
+S
+#19766
+Inside a Quiet Home~
+The home here appears to be quite modest, with only a living area,
+kitchen, and two bedrooms making it up.  The furniture appears to be sturdy
+and of good quality, but the craftsmenship is simple, purely functional. 
+Sunlight filters in through the open windows, lighting up the floor and
+walls with its beams.  The house appears to be empty at the moment, though a
+woman can be glimpsed through the back window taking down clothes from a
+line in the yard.  
+~
+0 D inside
+E
+woman~
+She appears to be quite young, dressed in the ordinary clothes of the
+villagers.  
+~
+D2
+The open door leads back out onto the path that runs between several
+houses.  
+~
+~
+ABZ 0 19765
+0 0
+S
+#19767
+The Entrance to the Mayor's House~
+The mayor's house is the largest home in the entire building, second only
+in size to the inn at the village's northern end.  The furniture here is of
+higher quality than what's found in the surrounding homes, with more
+elaborate carving and darker, polished wood, though it is not much finer
+than could be expected in a village this size.  Two wide double doors lead
+back out to the village road, while a large, white-painted staircase leads
+up to a hallway on the second floor.  To the north and south doors lead to
+the kitchen and library respectively.  
+~
+0 D inside
+D0
+A wooden door to the north leads towards the kitchen.
+~
+~
+ABZ 0 19768
+0 0
+D2
+A wide open arch to the south leads to the mayor's personal library, the
+largest collection of books in the village.  
+~
+~
+ABZ 0 19769
+0 0
+D3
+Beyond the wide double doors lies the more modest homes of the village.  
+~
+~
+ABZ 0 19765
+0 0
+D4
+The staircase leads up to a hallway on the second floor.
+~
+~
+Z 0 19771
+0 0
+S
+#19768
+The Kitchen of the Mayor's House~
+The kitchen is very clean, not a speck of dust to be seen on the counter
+or the wide dinner table at the far end of the room.  The floors glitter
+brightly in the light, as beautiful as if the house has just been built. 
+Cabinets built into the wall are stocked with food, and a bowl of fresh
+fruit lies by the end of the counter.  It doesn't appear as though anything
+is being cooked at the moment, though the large oven near the center of the
+room looks as though it has seen a lot of use.  
+~
+0 D inside
+E
+fresh fruit bowl~
+Several apricots and apples have been left in a bowl on the counter.  
+~
+E
+cabinets~
+The cabinets are filled with dried fruits and vegetables, as well as a
+variety of nuts, some of which have obviously come from outside the village.
+
+~
+D1
+The dining room lies beyond the doorway.
+~
+~
+Z 0 19770
+0 0
+D2
+The main living area of the mayor's home lies beyond the door.
+~
+~
+ABZ 0 19767
+0 0
+S
+#19769
+The Mayor's Personal Library~
+The mayor's library is rather humble, though it houses more books than
+all the homes of the villagers combined.  Most appear to be adventure
+stories, along with a few religious texts, though those are for the most
+part restricted to tales of the miraculous deeds of gods and priests.  A
+leather armchair is placed against the southern wall, just beneath a wide
+window that allows a lovely view of the trees and flowers in the fields just
+outside.  A weathered book has been left on the chair, the cover so worn
+with age that the title has been lost.  
+~
+0 D inside
+E
+book weathered~
+{WThe book has been left open at what appears from the various notes in the
+margins to be a page that has some significance to its owner.  {x 
+ 
+{DThe Order of Talath lost its main temple in the town of Sirel when it
+was overrun by orcs in the Month of Winter, ca. 566 by the Shalin Calendar.
+Although some of the townsfolk stayed to rebuild their homes amidst the
+devestation, the majority of the town's inhabitants settled in the village
+of Caerlon, which had begun construction of stone walls to defend against
+further attacks.
+ 
+The Order lost a great number of its Knights in the attack, and was never
+able to fully recover. The temple at Sirel was never rebuilt, and its
+former champions found themselves scattered and isolated across the realm,
+fighting desperately to turn the tide of the war. Although the orcs were
+soon defeated, the Order of Talath had been dealt a mortal blow and lost
+its influence over the land, eventually disappearing altogether.
+ 
+What became of the mysterious leader of the horde as well as the
+treasures presumably looted from the temple has never been discovered,
+though many theories abound.
+~
+D0
+A tall archway leads back north towards the entrance to the house.  
+~
+~
+ABZ 0 19767
+0 0
+S
+#19770
+The Dining Room~
+The dining room is fairly large, though much of the space within it is
+taken up by the mohagany table at its center.  A dozen chairs are placed
+around it, and dishes have been set in preparation for the next meal.  The
+window by the northern wall allows plenty of light to fall across the room,
+though there are stand lamps at every corner to be lit when daylight fails. 
+
+~
+0 D inside
+E
+chairs~
+Half a dozen of the chairs match the table, made of the same wood.  The
+rest appear to be of similar quality, but they vary in the darkness of their
+wood.  
+~
+E
+dining table~
+The bit of carving along the edges makes it appear more delicate than it
+otherwise would for its size.  It appears to be a decent table, nowhere near
+fine enough for a lord's mansion but surely the finest of its kind in the
+village.  
+~
+D3
+The door leads back to the kitchen.
+~
+~
+Z 0 19768
+0 0
+S
+#19771
+In the Hallway~
+A fine if somewhat old carpet runs across the hallway, a dark, rich blue
+where countless feet haven't worn it down.  A potted plant stands by the top
+of the stairs, thriving and adding to the bright cheerfulness of the
+hallway's decoration.  Doors stand to the north and south, leading to the
+guest room and the mayor's study.  The hallway continues to the east, where
+a wide window lets light spill across the floor.  
+~
+0 D inside
+D0
+A wooden door leads to the guest room.
+~
+~
+ABZ 0 19772
+0 0
+D1
+~
+~
+Z 0 19774
+0 0
+D2
+The mayor's study lies beyond the door.
+~
+~
+ABZ 0 19773
+0 0
+D5
+The stairway leads back down to the entrance of the mayor's home.
+~
+~
+Z 0 19767
+0 0
+S
+#19772
+The Guest Room~
+The guest room is rather small, though there is still plenty of room to
+walk around.  A large bed stands by the northern wall, beneath a wide window
+left open to allow a fresh breeze to flow inside.  Paintings have been hung
+on the walls, depicting landscapes and scenes of daily village life.  The
+entire room smells fresh and feels pleasantly cool, kept spotlessly clean
+even though no one appears to be staying here at the time.  
+~
+0 D inside
+D2
+The doorway leads back out into the hallway.
+~
+~
+ABZ 0 19771
+0 0
+S
+#19773
+The Mayor's Study~
+The mayor's study is rather plain, with quiet, soft colours and few
+decorations to distract the mayor while he works.  A single bookshelf is
+placed against the eastern wall, filled with ledgers and old records from
+the mayor's time in office.  A simple wooden desk accompanied by a cushioned
+wooden chair is the only other furniture in the room.  The desk is
+practically overflowing with papers, stacked so high that a single errant
+breeze would be enough to send them toppling.  
+~
+0 D inside
+E
+ledgers records~
+Simple records of trade within the village, licenses handed out, birth
+and immigration, marriages and deaths.  It seems the mayor keeps track of
+everything that goes on in the village.  
+~
+E
+desk stacks papers~
+The desk is filled with papers, most of them dealing with issues brought
+forth before the village council that require the mayor's final approval.  
+~
+E
+chair~
+The chair appears to be quite sturdy, though the cushions don't seem like
+they would be enough to provide comfort on a long day.  
+~
+D0
+The door leads back out into the hallway.
+~
+~
+ABZ 0 19771
+0 0
+S
+#19774
+In the Hallway~
+The wide open window allows light to flow through to light up the entire
+hallway, though several lamps placed in brackets on the walls are there to
+provide illumination when night falls or the sky is dark with storm clouds. 
+A single door stands to the north, leading to the mayor's bedroom.  A
+painting hung on the southern wall in bright, eye-catching colours attracts
+attention.  
+~
+0 D inside
+E
+painting~
+The painting is of a temple on a tiny island.  It is bustling with
+activity, with men in plate armor kneeling before an outdoor altar to offer
+prayers before hopping onto their horses waiting nearby.  A village can be
+seen in the distance, before tall mountain peaks.  There is something
+strikingly familiar about the whole scene, though you can't say you have
+ever been to that temple before.  
+~
+D0
+~
+~
+Z 0 19763
+0 0
+D3
+~
+~
+Z 0 19771
+0 0
+S
+#19775
+A Crossroad in the Village~
+The streets in the village are teeming with life.  Villagers walk past
+you, tending to their business, shouting greetings to each other and
+stopping every now and then to talk.  Children play in the streets, laughing
+wildly, and women can be seen leaning out of their windows placing their
+laundry out to dry.  The road continues, running between the thatch-roofed
+houses of the villagers, while a smaller path branches off westward, leading
+down towards the sound of running water.  The sounds of chickens and geese
+can be heard coming from the north.  
+~
+0 C city
+E
+children~
+They chase each other, weaving between adults who wag their fingers at
+them and then shake their heads, smiling.  
+~
+D0
+Animals graze along the village green.
+~
+~
+Z 0 19776
+0 0
+D2
+The road continues towards the south, running town until it reaches the
+village gates.  
+~
+~
+Z 0 19764
+0 0
+D3
+~
+~
+Z 0 19788
+0 0
+S
+#19776
+The Village Green~
+On either side of the road here lies the village's common area, which the
+villagers can use to allow their animals a little extra space to graze. 
+Chickens pick their way across the grass beside you, pecking at the ground,
+and several cows are grazing nearby.  To the north the road continues
+through the green, gently climbing the sloping hill.  
+~
+0 0 city
+D0
+The road cuts through the village green, leading up towards the village
+inn.  
+~
+~
+Z 0 19779
+0 0
+D1
+Chickens peck at the grass beneath them.
+~
+~
+Z 0 19778
+0 0
+D2
+The road continues south, running between thatch-roofed houses.
+~
+~
+Z 0 19775
+0 0
+D3
+Animals graze along the village green.
+~
+~
+Z 0 19777
+0 0
+S
+#19777
+The Village Green~
+The grass here is soft, and is coloured a bright, vibrant green.  Sounds
+of talk and laughter drift across the field from the villagers walking
+nearby.  Chickens and cattle move along the grass, some searching for food,
+others resting lazily in the sun.  The sky is a clear blue, with only a few
+light wisps of white clouds.  
+~
+0 0 field
+D0
+A large oak tree spreads its branches across the field.
+~
+~
+Z 0 19781
+0 0
+D1
+The village road cuts through the green, running to the north and south.
+~
+~
+Z 0 19776
+0 0
+S
+#19778
+The Village Green~
+The grass here is strong and healthy, a vibrant green that seems to glow
+with life.  Small wildflowers dot the field here and there, bright spots of
+blue and red and yellow, and a dozen colours in between.  Several cows and a
+calf graze at the edge of the green, occasionally looking up at you
+unconcerned.  The sounds of laughter and chatter drift down from a small
+hill to the north, where villagers seem to be erecting some kind of pole.  
+~
+0 0 field
+D0
+Village girls are erecting a pole at the top of a small hill.
+~
+~
+Z 0 19782
+0 0
+D3
+The village road cuts through the green, running to the north and south.
+~
+~
+Z 0 19776
+0 0
+S
+#19779
+The Village Green~
+The road slopes gently upward here, leading up to the very top of the
+hill.  This being the highest point in the village, there is a great view of
+its houses and shops, as well as the trees and fields that lie beyond them. 
+The stream to the west of the village can be glimpsed through the trees, its
+water rushing softly.  The road continues north and south through the
+village green.  
+~
+0 0 city
+D0
+The road continues northward, leading towards a small wooden bridge.
+~
+~
+Z 0 19780
+0 0
+D1
+Village girls are erecting a pole at the top of a small hill.
+~
+~
+Z 0 19782
+0 0
+D2
+The village road runs southward, heading towards the village gates.
+~
+~
+Z 0 19776
+0 0
+D3
+A large oak tree spreads its branches across the field.
+~
+~
+Z 0 19781
+0 0
+S
+#19780
+The Village Green~
+Chickens peck at the ground beside the road, running away whenever you
+approach too closely, then cautiously returning to their spots after a few
+moments.  Several villagers are on the road, carrying buckets of water to
+and from the well that can be seen to the west.  The road runs northward,
+towards a wooden bridge that crosses over a large stream running across the
+village.  To the south, the road cuts through the village green, making its
+way further into the village.  
+~
+0 0 city
+D0
+A wooden bridge leads over the stream towards the village inn.
+~
+~
+Z 0 19786
+0 0
+D1
+Patches of lovely blue flowers grow across the field to the east.
+~
+~
+Z 0 19784
+0 0
+D2
+The village road cuts across the green.
+~
+~
+Z 0 19779
+0 0
+D3
+The village well stands to the west, tall and ancient with a stone foundation.
+~
+~
+Z 0 19783
+0 0
+S
+#19781
+The Village Green~
+A tall oak tree spreads its branches across the field here, providing
+plenty of cool shade and a pleasant place to rest on the soft grass beneath
+it.  A wooden swing hangs from one of the lower branches, swaying back and
+forth slightly in the breeze.  Soft rustles can be heard from the leaves
+above as birds and squirrels hidden from view make their way from branch to
+branch.  
+~
+0 0 field
+E
+oak tree~
+The oak tree looks ancient, with its enormous branches spreading out
+widely in every direction.  
+~
+D0
+The village well stands to the north, tall and ancient with a stone foundation.
+~
+~
+Z 0 19783
+0 0
+D1
+The village road cuts through the green, running to the north and south.
+~
+~
+Z 0 19779
+0 0
+D2
+Animals graze along the village green.
+~
+~
+Z 0 19777
+0 0
+S
+#19782
+The Village Green~
+A small hill rises here, at the top of which several young women are busy
+erecting a large wooden pole in preparation for a village festival.  Their
+voices rise in song, occasionally broken by laughter and chatter, and their
+excitement over the coming celebrations is almost contagious.  Several older
+women sit on the grass, smiling as they watch the younger ones and talking
+among themselves.  
+~
+0 0 field
+E
+pole~
+The pole appears to be made of oak, and is about ten feet in height.  The
+women are busy tying red ribbons to the pole, which stream with every light
+breeze.  
+~
+E
+women~
+The young women sing loudly, breaking into laughter as they go about
+their work.  The older women smile and watch them, sometimes encouraging
+them to dance or singing the words to their songs along with them.  
+~
+E
+young women~
+They are all too absorbed in their own talk and laughter to notice your
+presence.  
+~
+D0
+Patches of lovely blue flowers grow across the field to the north.
+~
+~
+Z 0 19784
+0 0
+D2
+Chickens peck at the grass beneath them.
+~
+~
+Z 0 19778
+0 0
+D3
+The village road cuts through the green, running to the north and south.
+~
+~
+Z 0 19779
+0 0
+S
+#19783
+By the Well~
+The village well stands here, a stone structure with a wooden roof and a
+large pail attached to a rope and pulley.  The stones are slick with water,
+fresh and cool from a deep underground source.  This ancient well provides
+pure, clean water for the villagers, of which they are blessed with an
+abundance.  The bottom of the well seems to be just out of sight, though
+something glitters at the bottom.  
+~
+0 0 field
+D1
+The village road cuts through the green, running to the north and south.
+~
+~
+Z 0 19780
+0 0
+D2
+A large oak tree spreads its branches across the field.
+~
+~
+Z 0 19781
+0 0
+S
+#19784
+The Village Green~
+A large patch of blue bell-flowers grows here, adding their sweet
+fragrance to the air.  A soft breeze ripples across the grass, causing it to
+sway back and forth gently.  The sounds of the village seem far off here,
+and a sense of peace and tranquility seems to have settled here.  The faint
+sounds of rushing water can be heard coming from the north, where a small
+stream rushes by beneath a bridge leading up to the inn.  
+~
+0 0 field
+D2
+Village girls are erecting a pole at the top of a small hill.
+~
+~
+Z 0 19782
+0 0
+D3
+The village road cuts through the green, running to the north and south.
+~
+~
+Z 0 19780
+0 0
+S
+#19785
+At the Bottom of the Well~
+The air here at the floor of the well is winter cold, and it's not helped
+by the icey water at its bottom.  You stand along the edge of the well,
+where the water is only three feet deep.  Towards the center, the stone
+ground suddenly gives way and there's no telling how deep the black depths
+of the water lie.  The large metal pail that the villagers use to pull up
+water is completely submerged, though you can see the rope connected to it
+rise up out of the water towards the opening of the well and the bright sky
+above.  At the eastern edge of the wall, a small alcove seems to have been
+dug into the wall, the stones removed and the dark hard earth burrowed into.
+Gold coins and gems glitter as your light hits them, stashed into the small
+space.  
+~
+0 0 inside
+E
+gold coins gems~
+Someone seems to have acquired a small hoard of treasure and placed it
+here at the bottom of the well.  For whatever reason.  
+~
+E
+alcove~
+It appears as though stones have been pulled out from the well, and
+something has burrowed into the wall there, creating a small space for
+itself through the earth.  Gems and gold glitter in a pile there.  
+~
+D4
+Skylight fails to reach more than halfway down the well, but it is still
+apparent from here how far up the exit lies.  
+~
+~
+Z 0 19783
+0 0
+S
+#19786
+Over the Wooden Bridge~
+The wooden bridge appears to be fairly old, though it has obviously
+undergone repairs recently.  The wood creaks as you pass over it, though it
+seems sturdy enough.  It is just wide enough for a wagon to roll over with a
+foot to spare on either side.  The stream runs calmly beneath, fed by a
+waterfall pouring out of the mountains to the east.  To the north stands the
+largest structure in Sirel, the village inn.  
+~
+0 C city
+E
+waterfall~
+You can hear the soft roar of the falls if you strain your ears, though
+you can see even from here that the falls aren't very large.  
+~
+D0
+The village inn lies directly north, at the end of the road.
+~
+~
+Z 0 19787
+0 0
+D2
+The road leads down towards the village green.
+~
+~
+Z 0 19780
+0 0
+S
+#19787
+Before the Inn~
+At two stories high, and not very wide besides, this inn would be lost
+and forgotten in any city, but in Sirel it is the largest building to be
+seen.  A faded wooden sign hanging above the doors swings and creaks in the
+wind, the words '{rThe Wayfarer's Retreat{x' inscribed upon it, beneath a
+drawing of a weary-looking traveler carrying a pack on his shoulder.  The
+door is propped open, giving you a clear view of the inn's cozy interior.  
+~
+0 C city
+D0
+The door is propped open, inviting you into the inn's cheerful interior.  
+~
+~
+Z 0 19803
+0 0
+D2
+A small wooden bridge stands above the stream.
+~
+~
+Z 0 19786
+0 0
+S
+#19788
+A Path by the Stream~
+This quiet, tree-shaded path runs between several of the village houses,
+heading eastward back towards the main road, and westward towards a small
+stream, where a small, crudely-constructed dock can be seen.  Several
+wildflowers grow by the path, gathered in clusters in the grass.  Birds
+flitter from tree to tree, filling the air with their songs, and
+occassionaly leaves can be heard to rustle as squirrels jump from branch to
+branch.  
+~
+0 C inside
+D1
+~
+~
+Z 0 19775
+0 0
+D3
+~
+~
+Z 0 19789
+0 0
+S
+#19789
+At the Stream's Edge~
+The small, tree-shaded path from the east stops right at the foot of the
+stream, next to a small, crudely constructed dock by its edge.  The stream's
+water is clean and pure beneath the slight current that drags it southward,
+allowing a clear view of the rocks and plants beneath its surface.  Fish can
+be seen darting back and forth between the rocks, only the sunlight glinting
+off their scales revealing their position.  
+~
+0 0 noswim
+D0
+The stream's water is clear and pristine.
+~
+~
+Z 0 19795
+0 0
+D1
+A tree-shaded path leads back towards the village.
+~
+~
+Z 0 19788
+0 0
+D2
+The stream's water is clear and pristine.
+~
+~
+Z 0 19790
+0 0
+S
+#19790
+A Quiet Stream~
+The stream here curves gently around a small hill, covered in wildflowers
+and tall grasses.  Tiny fish can be seen swimming back and forth just
+beneath the surface, flashes of silver and gold that reveals themselves
+whenever they are hit by the sun's rays.  The bottom appears to be
+relatively deep, the rocks and weeds at its floor only visible because of
+the exceptional clarity of the water.  
+~
+0 0 noswim
+D0
+The stream's water is clear and pristine.
+~
+~
+Z 0 19789
+0 0
+D3
+The stream's water is clear and pristine.
+~
+~
+Z 0 19791
+0 0
+S
+#19791
+A Quiet Stream~
+The stream here curves gently around a small hill, covered in wildflowers
+and tall grasses.  Tiny fish can be seen swimming back and forth just
+beneath the surface, flashes of silver and gold that reveals themselves
+whenever they are hit by the sun's rays.  The bottom appears to be
+relatively deep, the rocks and weeds at its floor only visible because of
+the exceptional clarity of the water.  The water flows towards the south,
+though the current can barely be felt here.  
+~
+0 0 noswim
+D1
+The stream's water is clear and pristine.
+~
+~
+Z 0 19790
+0 0
+D2
+The stream's water is clear and pristine.
+~
+~
+Z 0 19792
+0 0
+S
+#19792
+At the Stream's Edge~
+The stream gradually becomes more shallow as it flows towards the south,
+at some points almost enough to allow you to wade through, though there
+remain several places where you would find yourself submerged completely.  A
+small forested island stands to the south, tall trees growing close together
+and preventing you from making out what lies beyond them.  
+~
+0 0 noswim
+D0
+The stream's water is clear and pristine.
+~
+~
+Z 0 19791
+0 0
+D2
+A heavily forested island lies directly to the south.
+~
+~
+Z 0 19793
+0 0
+S
+#19793
+A Forest on the Island~
+Trees grow thickly on this island, making it difficult to progress
+forward.  The forest floor is covered with ferns and wildflowers, as well as
+the great roots of the trees, though even these are not enough to hide the
+weathered stone that often juts out from it.  Though there's no telling what
+the ruins once were, it is quite obvious that at one time in its history
+this island was not so overgrown.  The sounds of the stream can be heard
+coming from the north, a reassuring presence that helps assuage any fears of
+getting lost in the forest's maze.  
+~
+0 0 forest
+D0
+The sounds of the stream can be heard to the north, though trees block
+your view.  
+~
+~
+Z 0 19792
+0 0
+D2
+It's impossible to see anything clearly through the trees.
+~
+~
+Z 0 19794
+0 0
+S
+#19794
+A Shrine Amidst the Ruins~
+The ruins of what was once obviously a great structure lie scattered
+across this forest clearing, much of the stone buried deep into the earth,
+or crushed to pieces and battered by the elements.  Vines and weeds grow
+among the ruins, climbing the broken statues and threatening to pull down
+the few scattered walls that remain standing.  The forest itself seems to be
+slowly but surely encroaching on the ruins, threatening to swallow them up
+completely.  Somehow, miraculously, a small altar rests among the ruins,
+untouched.  Several fresh wildflowers have been left upon the altar, an
+offering to unknown gods or spirits.  
+~
+0 0 field
+E
+wildflowers~
+Several wildflowers have been placed on the altar as an offering.  They
+are quite lovely, with blue petals contrasting nicely to the dark green
+stem.  Their scent is sweet, almost like vanilla.  More of the flowers seem
+to grow around the ruins, adding to the area's beauty.  
+~
+D0
+The clearing ends, and thick trees rise up, blocking what lies beyond.
+~
+~
+Z 0 19793
+0 0
+S
+#19795
+A Quiet Stream~
+The stream flows gently towards the south, water rushing softly and
+combining with the wind and calls of birds to create a sense of peace and
+tranquility.  Tiny fish can be seen swimming back and forth just beneath the
+surface, flashes of silver and gold that reveals themselves whenever they
+are hit by the sun's rays.  The bottom appears to be relatively deep, the
+rocks and weeds at its floor only visible because of the exceptional clarity
+of the water.  
+~
+0 0 noswim
+D0
+The stream's water is clear and pristine.
+~
+~
+Z 0 19796
+0 0
+D2
+A crudely constructed dock stands by the stream's edge.
+~
+~
+Z 0 19789
+0 0
+S
+#19796
+A Quiet Stream~
+The stream flows gently towards the south, water rushing softly and
+combining with the wind and calls of birds to create a sense of peace and
+tranquility.  Tiny fish can be seen swimming back and forth just beneath the
+surface, flashes of silver and gold that reveals themselves whenever they
+are hit by the sun's rays.  The bottom appears to be relatively deep, the
+rocks and weeds at its floor only visible because of the exceptional clarity
+of the water.  
+~
+0 0 noswim
+D0
+The stream's water is clear and pristine.
+~
+~
+Z 0 19797
+0 0
+D2
+A soft current drags the water southward.
+~
+~
+Z 0 19795
+0 0
+S
+#19797
+A Quiet Stream~
+A tall tree stands by the western edge of the stream, its heavily
+flowered branches hanging low over the water.  Every now and then, a gust of
+wind shakes the branches, loosening several blossoms that then drift down
+into the water to be carried away by the current.  Their fresh scent fills
+the air, combining with the gentle breeze and the sun's warmth to create a
+deep sense of tranquility.  
+~
+0 0 noswim
+D0
+The stream's water is clear and pristine.
+~
+~
+Z 0 19798
+0 0
+D2
+A soft current drags the water southward.
+~
+~
+Z 0 19796
+0 0
+S
+#19798
+A Quiet Stream~
+The stream takes an abrupt turn here, the water smashing up against a
+stone cliff to the west, then diverting towards the south, where the current
+seems gentler.  Tiny fish can be seen swimming back and forth just beneath
+the surface, flashes of silver and gold that reveals themselves whenever
+they are hit by the sun's rays.  The bottom appears to be relatively deep,
+the rocks and weeds at its floor only visible because of the exceptional
+clarity of the water.  
+~
+0 0 noswim
+D1
+The stream's water is clear and pristine.
+~
+~
+Z 0 19799
+0 0
+D2
+A soft current drags the water southward.
+~
+~
+Z 0 19797
+0 0
+S
+#19799
+A Quiet Stream~
+The stream flows westward, water rushing softly and combining with the
+wind and calls of birds to create a sense of peace and tranquility.  Tiny
+fish can be seen swimming back and forth just beneath the surface, flashes
+of silver and gold that reveals themselves whenever they are hit by the
+sun's rays.  The bottom appears to be relatively deep, the rocks and weeds
+at its floor only visible because of the exceptional clarity of the water.  
+~
+0 0 noswim
+D1
+The stream's water is clear and pristine.
+~
+~
+Z 0 19800
+0 0
+D3
+A soft current drags the water westward.
+~
+~
+Z 0 19798
+0 0
+S
+#19800
+Beneath the Wooden Bridge~
+The wooden bridge above casts the stream beneath it in shadow, except for
+a few strands of sunlight that manage to find their way through the cracks. 
+Without the sun to warm your skin, the water is quite cold, filled with a
+chill from its deep mountain source.  The stream below appears to be growing
+deeper the further west it flows, though at this point rocks and weeds are
+still visible beneath its surface.  
+~
+0 0 noswim
+D1
+A waterfall can be seen in the distance.
+~
+~
+Z 0 19801
+0 0
+D3
+A soft current drags the water westward.
+~
+~
+Z 0 19799
+0 0
+S
+#19801
+A Quiet Stream~
+The stream's water is pure and pristine, allowing a clear view to its
+bottom, although the water here doesn't appear to be very deep.  A beautiful
+waterfall flows down from the mountains to the east, creating a small
+current that pushes towards the west.  Small fish swim between the rocks,
+darting back and forth quickly, flashes of silver revealing their positions.
+
+~
+0 0 noswim
+D1
+Water can be seen pouring out of the mountains.
+~
+~
+Z 0 19802
+0 0
+D3
+The stream lies in shade beneath the wooden bridge.
+~
+~
+Z 0 19800
+0 0
+S
+#19802
+The Waterfall~
+Water gushes out from the mountain wall, pouring down into the stream
+below.  Even the warm sun above can do little to warm the chilly water whose
+source lies buried deep beneath the mountains surrounding the village. 
+Although the stream isn't very deep, the strength of the waterfall makes it
+difficult to maintain a stable footing on the shifting rocks at the stream's
+bottom.  
+~
+0 0 noswim
+D3
+A soft current drags the water westward.
+~
+~
+Z 0 19801
+0 0
+S
+#19803
+The Wayfarer's Retreat~
+The Wayfarer's Retreat is a humble inn, no taller than two stories and
+not very large besides, but what it lacks in grandness it makes up for with
+its warm, comfortable atmosphere.  Paintings are hung on the wooden walls,
+depicting landscapes and scenes of daily life, all in bright, vivid colours.
+Matching tables and chairs of deep, red wood are placed about the common
+room, their tall backs sturdy despite their apparent age.  Most of the
+tables are unoccupied during the day, as the hard-working villagers make up
+the majority of the inn's clientele, apart from the few merchants and
+travelers who rent rooms upstairs.  
+~
+0 0 inside
+D0
+The door to the kitchen can be seen on the northern wall.
+~
+~
+Z 0 19806
+0 0
+D1
+A fresh breeze blows in through the open window to the east.
+~
+~
+Z 0 19804
+0 0
+D2
+A wooden door leads back outside.
+~
+~
+Z 0 19787
+0 0
+S
+#19804
+A Table by the Window~
+Light falls across the table placed beneath a large open window.  A fresh
+breeze enters from outside, causing the curtains to sway.  The table is
+large enough for a fair-sized party to use with room to spare, though the
+inn isn't very busy at the moment.  
+~
+0 0 inside
+D0
+A large fireplace lies to the north, though no fire is lit.
+~
+~
+Z 0 19805
+0 0
+D3
+The entrance to the inn lies to the west.
+~
+~
+Z 0 19803
+0 0
+S
+#19805
+A Spot by the Fireplace~
+The fireplace is fairly wide, taking up half the northern wall.  Although
+it is cold at the moment, logs are piled up next to it, and it looks ready
+to be lit should the need arise.  Chairs have been arranged by the fire in a
+semi-circle, set out for the patrons to gather and tell tales by the flames,
+though no stories are being told at this time of day.  
+~
+0 0 inside
+E
+fireplace~
+Nothing burns in the fireplace now, and it appears to have recently been
+cleaned, the ashes cleared out.  
+~
+D2
+Several tables are pushed up against the wall, beneath a large open
+window.  
+~
+~
+Z 0 19804
+0 0
+D3
+A modest collection of books have been placed on a bookshelf.  
+~
+~
+Z 0 19806
+0 0
+S
+#19806
+By the Bookcase~
+A small bookshelf stands by the western wall, filled with a modest
+collection of books.  The books here seem for the most part to be works of
+fiction, telling tales of heroes and travelers, lords and kings, tales that
+the villagers love to hear, though the settings are far removed from their
+own lives.  A single leather-bound book on the medicinal properties of herbs
+catches your eye, strangely out of place among the rest.  To the north, a
+door stands open, and sweet smells of roasting meat and vegetables drift
+through from the kitchen.  
+~
+0 0 inside
+E
+book medicinal herbs~
+{gThe book appears to be fairly old, and is worn from years of being
+handled by the inn's customers.  Though not very thick, it appears to have
+been written by someone who has spent a great deal of time in Sirel.  Almost
+every variety of plant that can be found near the village has been recorded.
+
+ 
+{WAlodil's Tears{x
+{GThis lovely blue flower is found only in Sirel. It must be in close
+proximity to water to thrive, and does especially well in forests. The
+locals claim it has special curative properties, specifically in regards
+to poison, but my experiments have not found them effective against the
+more common varieties of poison, and I have been unable to confirm their
+claims. The flower has traditionally been used as an offering to
+the gods, and is often present in religious ceremonies.
+ 
+The flower has blue petals, with a strong, thornless stem, which typically
+grows up to five leaves in addition to the petals. The scent is pleasant
+but weak, somewhat similar to vanilla.
+ 
+{WBlue Bell-Flowers{G
+This variety of the bell-flower, common to mountain regions, grows to
+approximately six inches in height. It is known for its sweet scent
+and vibrant blue colour, and it is traditionally woven into a garland
+to be worn in a bride's hair in traditional village weddings.
+ 
+When ingested, the flower has been known to give a boost of energy,
+though the blindness that often accompanies it has long dissuaded the
+curious from experimenting with these properties.
+{x
+{gThe book continues on, running through every plant, flower and herb
+alphabetically, though there seems to be little enough of interest to
+justify reading the entire thing.{x
+~
+D0
+A staircase can be seen at the end of a narrow hallway.
+~
+~
+Z 0 19807
+0 0
+D1
+Several chairs have been arranged in a semi-circle before the fireplace.  
+~
+~
+Z 0 19805
+0 0
+D2
+The entrance to the inn lies to the south, beyond some tables.
+~
+~
+Z 0 19803
+0 0
+S
+#19807
+The Narrow Hallway~
+The hallway is rather narrow, the wooden walls so close together that two
+men standing side by side would find their shoulders brushing against each
+side.  To the west, a tall door leads down towards the cellar, cool air
+escaping through its cracks, while to the east the kitchen door stands open,
+mouth-watering aromas escaping through into the hallway.  A staircase set
+into the northern wall leads up to the second floor, where the guest rooms
+are located.  
+~
+0 C inside
+D1
+Pleasant smells drift out from the kitchen.
+~
+~
+Z 0 19810
+0 0
+D2
+The common room lies directly to the south, and the entrance to the inn
+can be seen still further.  
+~
+~
+Z 0 19806
+0 0
+D3
+A narrow hallway lies just outside the kitchen door.
+~
+~
+Z 0 19808
+0 0
+D4
+~
+~
+Z 0 19811
+0 0
+S
+#19808
+Before the Cellar~
+Cool air drifts up from the cellar, and what lies down the stairs is
+shrouded in pitch darkness.  The voices of the inn's patrons can still be
+heard here, laughing and calling out for more food.  Delicious smells of
+meat and vegetables drift down the hallway through the kitchen's open door,
+attesting the the cook's skill.  
+~
+0 0 inside
+D1
+A narrow hallway runs between the kitchen and the cellar.
+~
+~
+Z 0 19807
+0 0
+D5
+A staircase leads down into the cellar, darkness awaiting at its bottom.  
+~
+~
+Z 0 19809
+0 0
+S
+#19809
+The Cellar~
+Wine casks and barrels of ale are lined up against the walls, the
+markings they bear announcing they have been imported from Caerlon.  Several
+shelves are stocked with dried meats and vegetables, carefully wrapped and
+covered to preserve them.  The air here is quite cool, and though there are
+several lamps placed about the cellar, none are lit and there is no light
+here save your own.  
+~
+0 0 inside
+D4
+A staircase leads back up to the well-lit hallway.
+~
+~
+Z 0 19808
+0 0
+S
+#19810
+The Kitchen~
+With only the innkeeper's wife and daughters to cook the meals at this
+time of day, the kitchen is not the scene of chaos found in city inns,
+though things do seem to be a bit hectic as they move about trying to get
+the mid-day meals prepared.  A large oven is set against the southern wall,
+smells of fresh baking bread filling the kitchen with a sweet scent. 
+Several dishes on a table by the door appear ready to serve, fresh
+vegetables piled on thick cuts of meat, all looking very appealing.  
+~
+0 0 inside
+E
+dishes~
+Expertly prepared by a fine cook, they all look quite delicious.
+~
+E
+oven~
+Bread can be seen baking inside, filling the kitchen with a pleasant
+aroma.  
+~
+D3
+~
+~
+Z 0 19807
+0 0
+S
+#19811
+The Second Floor Hallway~
+The hallway here is a little wider than the one downstairs, with room
+enough for small tables to be placed along its length, holding vases and
+flowers to add a little colour to the surroundings.  Doors stand on either
+side of the hallway, room numbers painted onto the wood.  At the far end of
+the hallway, an open window spills light across the floor, illuminating the
+simple blue carpet that covers it.  The staircase leads back down to the
+first floor of the inn.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 19814
+0 0
+D1
+~
+~
+Z 0 19812
+0 0
+D2
+~
+~
+Z 0 19815
+0 0
+D5
+~
+~
+Z 0 19807
+0 0
+S
+#19812
+The Second Floor Hallway~
+The hallway here is a little wider than the one downstairs, with room
+enough for small tables to be placed along its length, holding vases and
+flowers to add a little colour to the surroundings.  Doors stand on either
+side of the hallway, room numbers painted onto the wood.  At the far end of
+the hallway, an open window spills light across the floor, illuminating the
+simple blue carpet that covers it.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 19817
+0 0
+D1
+~
+~
+Z 0 19813
+0 0
+D2
+~
+~
+Z 0 19816
+0 0
+D3
+~
+~
+Z 0 19811
+0 0
+S
+#19813
+The Second Floor Hallway~
+The hallway here is a little wider than the one downstairs, with room
+enough for small tables to be placed along its length, holding vases and
+flowers to add a little colour to the surroundings.  Doors stand on either
+side of the hallway, room numbers painted onto the wood.  At the end of the
+hallway, an open window spills light across the floor, illuminating the
+simple blue carpet that covers it.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 19818
+0 0
+D2
+~
+~
+Z 0 19819
+0 0
+D3
+~
+~
+Z 0 19812
+0 0
+S
+#19814
+A Room at the Inn~
+Sunlight falls upon the pale wooden floor, rays dancing as a soft breeze
+sways the curtains back and forth.  The room is simply decorated, with a bed
+pushed up against the wall, a wash basin with a mirror by the door, and a
+small closet to stash belongings.  Soft muffled voices can barely be heard
+coming from the common room below, though occasionally an outburst of
+laughter rings clearly in your ears.  
+~
+0 0 inside
+D2
+The door leads back out into the hallway.
+~
+~
+Z 0 19811
+0 0
+S
+#19815
+A Room at the Inn~
+The room here looks to be occupied, the closet filled with clothing sized
+for someone of very small stature, possibly a child.  The bed is unmade, the
+covers half trailing over the edge of the bed onto the floor.  The window is
+open, though the breeze that flows through it does little to dispel the
+strong smell of alcohol that permeates the room.  
+~
+0 0 inside
+E
+bed~
+The bed cover has a large, mysterious stain on it.  It's probably not the
+best idea to rest here.  
+~
+D0
+The door leads back out into the hallway.
+~
+~
+Z 0 19811
+0 0
+S
+#19816
+A Room at the Inn~
+Sunlight spills across the floor, illuminating the recently polished pale
+wood.  The furnishings here are simple, with only a bed, wash basin, and a
+small chest for clothes.  The room appears to be occupied, though whoever is
+staying here has been keeping it quite tidy, with all their belongings
+packed neatly into the chest.  
+~
+0 0 inside
+D0
+The door leads back out into the hallway.
+~
+~
+Z 0 19812
+0 0
+S
+#19817
+A Room at the Inn~
+The room is small, but its brightness and cozy furnishings make it feel
+bigger than it is.  The window on the northern wall is open, and the slight
+breeze that flows in keeps the room fresh and cool.  The floor creaks
+slightly as you step over it, and the door hinges squeak a little whenever
+it is opened or closed, but aside from that, this room seems to be well
+kept.  
+~
+0 0 inside
+D2
+The door leads back out into the hallway.
+~
+~
+Z 0 19812
+0 0
+S
+#19818
+The Innkeeper's Daughter's Room~
+Sunlight spills through the window, golden rays illuminating a floor
+littered with toys and dolls.  A small bed is pushed up against the wall
+beneath the window, sized for a child.  A shelf on the western wall holds
+still more dolls, carefully arranged to face outward, as if keeping watch
+over the room.  A tall mirror stands opposite the shelf on the eastern wall,
+catching your eye.  
+~
+0 0 inside
+D2
+The door leads back out into the hallway.
+~
+~
+Z 0 19813
+0 0
+S
+#19819
+The Wanderer's Room~
+The windows here are shut tight, the curtains drawn closed so that hardly
+any natural light falls across the room.  Red candles do little to dispel
+the oppressive atmosphere of the room, their flames barely able to dispel
+the shadows that almost seem to have a life of their own.  The bed has been
+pushed up against the wall in a corner of the room, the floorboards where it
+used to be placed a lighter shade than the rest.  In the very center of the
+room, a large circle has been drawn in powder on the floor, covered with
+strange mystical symbols that seem to hum and pulse with power.  
+~
+0 A inside
+E
+bed~
+The bed looks rather comfortable, but the thought of sleeping in this
+room sends a shiver up your spine.  
+~
+E
+circle mystical symbols~
+The circle is drawn in a strange dark powder, perfectly round and
+accurate.  The symbols inside seem to have a life of their own, and you
+immediately sense a great deal of power emanating from them, though it is
+difficult to tell if their purpose is for good or evil.  
+~
+D0
+The door leads back out into the hallway.
+~
+~
+Z 0 19813
+0 0
+S
+#19820
+A Special Function Room~
+The Night Faery comes here to wear all her things.  And some mobs come
+here from the darkside to die and not leave corpses behind.  
+~
+0 LTX inside
+S
+#0
+
+#SPECIALS
+M 19762 spec_cast_mage	* {mthe well faery{x
+S
+
+#RESETS
+D 0 19756 1 1	* Down the Village Road: door to the east: closed
+D 0 19756 3 1	* Down the Village Road: door to the west: closed
+D 0 19757 1 1	* Inside a Modest Home: door to the east: closed
+D 0 19758 3 1	* Inside the Kitchen of a Modest Home: door to the west: closed
+D 0 19760 0 1	* A Path Between the Houses: door to the north: closed
+D 0 19760 3 1	* A Path Between the Houses: door to the west: closed
+D 0 19761 2 1	* Inside an Old Home: door to the south: closed
+D 0 19762 1 1	* A Brightly-Lit Home: door to the east: closed
+D 0 19765 0 1	* The Path to the Mayor's House: door to the north: closed
+D 0 19765 1 1	* The Path to the Mayor's House: door to the east: closed
+D 0 19766 2 1	* Inside a Quiet Home: door to the south: closed
+D 0 19767 0 1	* The Entrance to the Mayor's House: door to the north: closed
+D 0 19767 2 1	* The Entrance to the Mayor's House: door to the south: closed
+D 0 19767 3 1	* The Entrance to the Mayor's House: door to the west: closed
+D 0 19768 2 1	* The Kitchen of the Mayor's House: door to the south: closed
+D 0 19769 0 1	* The Mayor's Personal Library: door to the north: closed
+D 0 19771 0 1	* In the Hallway: door to the north: closed
+D 0 19771 2 1	* In the Hallway: door to the south: closed
+D 0 19772 2 1	* The Guest Room: door to the south: closed
+D 0 19773 0 1	* The Mayor's Study: door to the north: closed
+M 0 19769 4 19752 1	* a village man (By the Village Gates)
+M 0 19768 4 19752 1	* a village woman (By the Village Gates)
+M 0 19767 5 19753 1	* a village child (Down the Village Road)
+M 0 19751 1 19754 1	* the blacksmith (The Smithy)
+E 0 19751 0 5		*	{ya blacksmith's apron{x: on the body
+E 0 19757 0 16		*	{ya blacksmith's hammer{x: wielded
+M 0 19752 1 19755 1	* the shopkeeper (The Village Shop)
+G 0 19753 0		*	{ca {Csilk {bhead-{cscarf{x
+G 0 19752 0		*	{wan {Waxe{x with a {Cmoon-carved{w handle{x
+G 0 19754 0		*	{ya pair of fine {Wcloth{y boots{x
+M 0 19769 4 19756 1	* a village man (Down the Village Road)
+M 0 19768 4 19756 1	* a village woman (Down the Village Road)
+M 0 19767 5 19756 1	* a village child (Down the Village Road)
+M 0 19753 1 19757 1	* a village housewife (Inside a Modest Home)
+M 0 19754 1 19758 1	* a young housewife (Inside the Kitchen of a Modest Home)
+O 0 19755 0 19758	* a freshly baked {Gapple{x pie (Inside the Kitchen of a Modest Home)
+M 0 19769 4 19759 1	* a village man (A Small Crossroad)
+M 0 19767 5 19759 1	* a village child (A Small Crossroad)
+M 0 19768 4 19760 1	* a village woman (A Path Between the Houses)
+M 0 19758 1 19761 1	* a young infant (Inside an Old Home)
+E 0 19763 0 17		*	a small spoon: held in the hands
+M 0 19757 1 19761 1	* a young mother (Inside an Old Home)
+M 0 19759 1 19761 1	* a little boy (Inside an Old Home)
+M 0 19760 1 19762 1	* a little girl (A Brightly-Lit Home)
+E 0 19764 0 17		*	an old doll: held in the hands
+O 0 19759 0 19763	* the jewelry box (The Mayor's Bedroom)
+O 0 19760 0 19763	* the mayor's bed (The Mayor's Bedroom)
+P 0 19761 1 19759 1	* the jewelry box: {Ga tig{ght-fit{Gting {gem{Gera{gld {Gne{gckla{Gce{x
+M 0 19769 4 19764 1	* a village man (Down the Village Road)
+M 0 19767 5 19764 1	* a village child (Down the Village Road)
+M 0 19768 4 19765 1	* a village woman (The Path to the Mayor's House)
+M 0 19767 5 19765 1	* a village child (The Path to the Mayor's House)
+M 0 19755 1 19768 1	* the mayor's wife (The Kitchen of the Mayor's House)
+O 0 19758 0 19772	* the bed (The Guest Room)
+M 0 19756 1 19773 1	* the mayor (The Mayor's Study)
+G 0 19797 0		*	the key to the safe
+O 0 19796 0 19774	* the safe behind the painting (In the Hallway)
+P 0 19798 0 19796 1	* the safe behind the painting: a diamond-encrusted ring
+M 0 19764 4 19777 1	* a cow (The Village Green)
+M 0 19763 4 19777 1	* the chicken (The Village Green)
+M 0 19764 4 19778 1	* a cow (The Village Green)
+M 0 19763 4 19778 1	* the chicken (The Village Green)
+M 0 19763 4 19780 1	* the chicken (The Village Green)
+M 0 19761 1 19781 1	* the swing mob (The Village Green)
+O 0 19766 0 19781	* the grass (The Village Green)
+O 0 19767 0 19781	* the wooden swing (The Village Green)
+M 0 19765 1 19782 1	* a laughing young woman (The Village Green)
+E 0 19773 0 12		*	{ra fine red cloak{x: about the shoulders
+M 0 19766 1 19782 1	* an elderly woman (The Village Green)
+E 0 19774 0 17		*	{Wa small ivory carving{x: held in the hands
+M 0 19764 4 19783 1	* a cow (By the Well)
+M 0 19763 4 19783 1	* the chicken (By the Well)
+O 0 19768 0 19783	* the well (By the Well)
+M 0 19764 4 19784 1	* a cow (The Village Green)
+O 0 19765 0 19784	* {Ca {bblue {Cbell-flower{x (The Village Green)
+M 0 19762 1 19785 1	* {mthe well faery{x (At the Bottom of the Well)
+E 0 19769 0 10		*	{cf{Cae{cry wi{Cngs{x: on the arms
+E 0 19770 0 17		*	{Man amethyst stone{x: held in the hands
+O 0 19771 0 19785	* the alcove (At the Bottom of the Well)
+P 0 19772 1 19771 1	* the alcove: a glittering pile of coins and gems
+M 0 19770 5 19789 1	* a silver-scaled fish (At the Stream's Edge)
+M 0 19771 4 19791 1	* a catfish (A Quiet Stream)
+M 0 19787 1 19793 1	* the handsome young traveler (A Forest on the Island)
+O 0 19799 0 19794	* the altar (A Shrine Amidst the Ruins)
+P 0 19800 0 19799 1	* the altar: {ga small bouquet of {CAlodil's Tears{x
+M 0 19771 4 19795 1	* a catfish (A Quiet Stream)
+M 0 19770 5 19796 1	* a silver-scaled fish (A Quiet Stream)
+M 0 19771 4 19797 1	* a catfish (A Quiet Stream)
+M 0 19770 5 19798 1	* a silver-scaled fish (A Quiet Stream)
+M 0 19770 5 19799 1	* a silver-scaled fish (A Quiet Stream)
+M 0 19771 4 19800 1	* a catfish (Beneath the Wooden Bridge)
+M 0 19770 5 19801 1	* a silver-scaled fish (A Quiet Stream)
+M 0 19783 1 19803 1	* Farihd the innkeeper (The Wayfarer's Retreat)
+G 0 19789 0		*	a glass of red wine
+G 0 19791 0		*	Sirel's Special Brew
+G 0 19790 0		*	a mug of ale
+O 0 19777 0 19804	* a chair by the table (A Table by the Window)
+M 0 19782 1 19804 1	* the inkeeper's eldest daughter (A Table by the Window)
+M 0 19784 1 19804 1	* a felar traveler (A Table by the Window)
+E 0 19792 0 16		*	a staff with leather grips: wielded
+E 0 19793 0 10		*	a pair of battered bracers: on the arms
+O 0 19778 0 19805	* a chair by the fireplace (A Spot by the Fireplace)
+M 0 19785 1 19805 1	* an old villager (A Spot by the Fireplace)
+M 0 19786 1 19806 1	* the storm giant warrior (By the Bookcase)
+E 0 19794 0 16		*	{wan enormous {Wsilver{w bastard sword{x: wielded
+E 0 19803 0 11		*	{wan enormous {Wsilver{w shield{x: as a shield
+M 0 19781 1 19810 1	* the innkeeper's wife (The Kitchen)
+E 0 19788 0 16		*	a stirring spoon: wielded
+O 0 19779 0 19814	* the bed (A Room at the Inn)
+O 0 19782 0 19814	* the closet (A Room at the Inn)
+P 0 19783 1 19782 1	* the closet: a beautiful white gown
+M 0 19777 1 19814 1	* a young man (A Room at the Inn)
+M 0 19778 1 19814 1	* a young woman (A Room at the Inn)
+M 0 19776 1 19815 1	* a drunken halfling (A Room at the Inn)
+E 0 19785 0 16		*	a bottle: wielded
+O 0 19779 0 19816	* the bed (A Room at the Inn)
+P 0 19781 1 19780 1	* the chest: a flowing white shirt
+O 0 19780 0 19816	* the chest (A Room at the Inn)
+M 0 19775 1 19816 1	* a weary traveler (A Room at the Inn)
+E 0 19795 0 12		*	a traveler's cloak: about the shoulders
+E 0 19784 0 16		*	a plain whip: wielded
+O 0 19779 0 19817	* the bed (A Room at the Inn)
+M 0 19779 1 19817 1	* a wealthy merchant (A Room at the Inn)
+E 0 19786 0 16		*	an iron mace: wielded
+M 0 19780 1 19818 1	* the innkeeper's daughter (The Innkeeper's Daughter's Room)
+E 0 19787 0 17		*	{Ca {cpr{Cet{ct{Cy{c do{Cll{x: held in the hands
+O 0 19801 0 19818	* {Cthe mirror's {creflection{x (The Innkeeper's Daughter's Room)
+M 0 19774 1 19819 1	* the mysterious wanderer (The Wanderer's Room)
+E 0 19802 0 3		*	{Da dark amulet{x: around the neck (1)
+M 0 19772 1 19820 1	* {ma ni{Dght fa{mery{x (A Special Function Room)
+E 0 19776 0 13		*	{Ca {cstr{Cand {gof cap{Ctured {cmoon{Clight{x: around the waist
+S
+
+#SHOPS
+19752 0 11 9 5 0 100 16 0 23
+19783 0 17 10 0 0 100 20 0 23
+0
+
+#MOBPROGS
+#19751
+if rand 70
+mob echo The blacksmith strikes the horseshoe with a small hammer, bending it into shape.
+else
+if rand 50
+mob echo The blacksmith holds the horseshoe up to the light, examining it closely.
+else
+mob echo The blacksmith uses tongs to place the horseshoe in one of the barrels of water, the hot metal hissing as it sinks in.
+endif
+endif
+~
+#19752
+mob echo The shopkeeper looks up at you as you enter and smiles.
+say Hello there. How can I help you? Please, take a look around.
+~
+#19753
+say Now now! That pie isn't for you!
+mob echo The housewife holds her hands out, waiting for you to give her back the pie.
+~
+#19754
+say Thank you.
+mob echo The young housewife sets the pie on the window sill, out of your reach.
+mob remember $n
+mob purge apple
+mob delay 2
+~
+#19755
+mob echoat $q The housewife looks up at you and purses her lips.
+mob echoaround $q The housewife looks up at $q and purses her lips.
+say Well, I suppose it wouldn't hurt to give you just a slice.
+mob echoat $q Leaning over and grabbing a small kitchen knife, the young woman cuts a small slice of pie for you and smiles.
+mob echoaround $q Leaning over and grabbing a small kitchen knife, the young woman cuts a small slice of pie for $q and smiles.
+mob oload 19756
+give slice $q
+mob forget
+~
+#19756
+mob echoat $q For a moment you forget all your troubles and lose yourself in the pleasure of swinging back and forth.
+mob echoaround $q A look of joy crosses $q's face as $X begins to swing back and forth.
+~
+#19757
+mob remember $n
+mob delay 1
+~
+#19758
+mob echo You notice something glinting just inside the catfish's mouth.
+mob oload 19775
+~
+#19759
+~
+#19760
+if rand 50
+say Is there any particular reason you've barged into my room? Shall I call for the innkeeper, then?
+else
+emote smirks at you, and mutters something quietly to himself.
+endif
+~
+#19761
+if players > 0
+else
+if hour == 21
+if room $i == 19802
+else
+mob goto 19802
+mob zecho As the sun disappears behind the mountains, a cool wind begins to blow, carrying with it the faint sound of a woman singing.
+mob echo Light dances and shimmers beneath the waterfall, suddenly coming together to fall upon a being of exquisite beauty.
+endif
+endif
+if hour == 5
+if room $i == 19820
+else
+mob zecho The beautiful singing begins to fade as the sun's first rays light up the mountainside.
+mob goto 19820
+endif
+if hour == 6
+mob goto 19820
+endif
+if hour == 7
+mob goto 19820
+endif
+if hour == 8
+mob goto 19820
+endif
+if hour == 9
+mob goto 19820
+endif
+if hour == 10
+mob goto 19820
+endif
+if hour == 11
+mob goto 19820
+endif
+if hour == 12
+mob goto 19820
+endif
+if hour == 13
+mob goto 19820
+endif
+if hour == 14
+mob goto 19820
+endif
+if hour == 15
+mob goto 19820
+endif
+if hour == 16
+mob goto 19820
+endif
+if hour == 17
+mob goto 19820
+endif
+if hour == 18
+mob goto 19820
+endif
+if hour == 19
+mob goto 19820
+endif
+if hour == 20
+mob goto 19820
+endif
+endif
+~
+#19762
+if players > 0
+else
+if mobhere 19772
+mob purge faery
+mob zecho The beautiful singing begins to fade as the sun's first rays light up the mountainside.
+endif
+~
+#19763
+if rand 70
+mob echo The traveler smiles at you and says '{GBeautiful day, isn't it? I was just enjoying a walk through these ruins. They are quite beautiful, don't you think?{x'
+else
+if rand 50
+say Why not take a look at the ruins of the temple just south of here? It is quite a sight. 'Tis such a shame that the Order died out; they built fine architecture.
+else
+mob echo Breathing deeply, the young man smiles. '{GIt is so wonderful to be amongst such beauty. All these plants and trees, some of them found nowhere else in the world. I found a beautiful flower I've never before seen just a few feet from where you stand.{x'
+~
+#0
+
+#$

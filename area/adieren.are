@@ -1,0 +1,198 @@
+#AREADATA
+Name Planes of Hell~
+Builders adieren~
+VNUMs 33000 33099
+Security 1
+LevelRange 0 0
+Flags closed~
+End
+
+#MOBILES
+#33000
+bel pretender pit fiend devil~
+{DBel, {rL{Ror{rd o{Rf {rthe {RF{rir{Rst{x~
+A huge pit fiend swings his blade and charges into a ferocious attack!
+~
+Before you stands an archdevil, Bel, Lord of the First, the Pretender and
+the general of the Blood War.  Fearsome, powerful and cruel he rules from
+here with great fortitude and will his Bronze Citadel.  His huge body is
+covered in red scales and thorns and he has two black bat wings that spring
+from his back.  He also has a powerful spiked tail with which to crush his
+enemies.  He is wielding his Blood War Legacy, the oddly curved greatsword
+that has killed literally thousands of demons and he seems very pleased that
+you breached into his Citadel, because he will now find great pleasure
+defeating you for it.  
+~
+fire giant~
+ABFHLTY DJOVaclsu -1000 0
+106 106 563d106+16000 1060d11+95 150d2+50 claw
+-66 -66 -66 -45
+ACDEFHIJKMNOW HL IK 0
+stand stand none 200000
+0 0 gargantuan flesh~
+~
+F vul IJP
+M fight 33000 50~
+#33002
+dispater lord second iron duke~
+{DDispater,{x {cT{yh{re {rIr{yo{cn Du{rke{x~
+A tall, charismatic human wielding a rod of rulership stands here, with a cruel grin in his face.
+~
+Dispater the Iron Duke, the archdevil who rules upon Dis, the second
+layer of Baator is standing here in the unwelcoming sanctuary of his Iron
+Tower.  He looks like a human of supernatural height, with dark hair and
+tiny horns.  He is leaning a bit on his rod of rulership, but as soon as he
+notices you, he takes a defensive stance and rushes forward to finish you!  
+~
+human~
+ABFHRTY BDFJOVZaclu -1000 0
+120 250 655d120+15000 1200d11+95 170d2+75 scratch
+-250 -250 -250 -250
+ACDEFHIJKNOW HL IK 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+F for AMV
+F par ABCDEFGHIJK
+#33003
+mammon lord third viscount devil~
+{DMammon, {mThe Viscount{x~
+A huge and hideous half-man half-snake slithers towards you and attacks!
+~
+Dispater the Iron Duke, the archdevil who rules upon Dis, the second
+layer of Baator is standing here in the unwelcoming sanctuary of his Iron
+Tower.  He looks like a human of supernatural height, with dark hair and
+tiny horns.  He is leaning a bit on his rod of rulership, but as soon as he
+notices you, he takes a defensive stance and rushes forward to finish you!  
+~
+human~
+ABFHRTY BDFJOVZaclu -1000 0
+120 250 655d120+15000 1200d11+95 170d2+75 scratch
+-250 -250 -250 -250
+ACDEFHIJKNOW HL IK 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+F for AMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#33000
+huge flaming greatsword~
+A huge flaming greatsword~
+A huge curved sword lies in a pool of demon blood.~
+iron~
+~
+weapon A AN
+bastardsword 13 12 slash AF
+106 107 486631 P
+G none
+G none
+G none
+G none
+#33001
+axe soul cleaver~
+an axe named {W"{x{bS{Dou{bl{Dclea{bve{Dr{W"{x~
+A huge bloody axe, with the blade made from the spirits it has taken, is stuck here to the ground screaming "DESTRUCTION!"~
+unknown~
+~
+weapon M AN
+axe 150 200 cleave DEI
+107 0 5782990 P
+G none
+G none
+G none
+G none
+#33002
+dispater heavy mace rod rulership~
+Dispater's rod of rulership~
+Still glowing with power, Dispater's rod of rulership lies here.~
+metal~
+~
+weapon JL AN
+mace 8 17 divine C
+106 107 796668 P
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#33000
+{DVoid{x~
+You feel empty and void of any feelings... As this place is.
+~
+0 ADNX inside
+D0
+~
+~
+Z 0 33000
+0 0
+D1
+~
+~
+Z 0 33000
+0 0
+D2
+~
+~
+Z 0 33000
+0 0
+D3
+~
+~
+Z 0 33000
+0 0
+S
+#33001
+~
+You feel empty and void of any feelings... As this place is.
+~
+0 0 inside
+S
+#33002
+~
+You feel empty and void of any feelings... As this place is.
+~
+0 0 inside
+S
+#33003
+~
+~
+0 0 inside
+S
+#0
+
+#SPECIALS
+M 33000 spec_cast_cleric	* {DBel, {rL{Ror{rd o{Rf {rthe {RF{rir{Rst{x
+M 33002 spec_cast_cleric	* {DDispater,{x {cT{yh{re {rIr{yo{cn Du{rke{x
+M 33003 spec_cast_cleric	* {DMammon, {mThe Viscount{x
+S
+
+#RESETS
+O 0 33001 0 33000	* an axe named {W"{x{bS{Dou{bl{Dclea{bve{Dr{W"{x ({DVoid{x)
+M 0 33002 1 33000 1	* {DDispater,{x {cT{yh{re {rIr{yo{cn Du{rke{x ({DVoid{x)
+E 0 33002 0 16		*	Dispater's rod of rulership: wielded
+M 0 33000 1 33000 1	* {DBel, {rL{Ror{rd o{Rf {rthe {RF{rir{Rst{x ({DVoid{x)
+E 0 33000 0 16		*	A huge flaming greatsword: wielded
+S
+
+#OLIMITS
+O 33000 0	* A huge flaming greatsword
+O 33001 1	* an axe named {W"{x{bS{Dou{bl{Dclea{bve{Dr{W"{x
+O 33002 1	* Dispater's rod of rulership
+S
+
+#MOBPROGS
+#33000
+echoat $t Bel's grappling attack CRUSHES you!
+~
+#0
+
+#$

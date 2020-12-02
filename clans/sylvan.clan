@@ -1,0 +1,44 @@
+#CLAN
+Name Sylvan~
+Recall 7710
+Item 7700
+Mark 7701
+Altar 7721
+Donate 7710
+#Skill 'bush sense' 60 70
+#Skill 'clairvoyance' 30 70
+#Skill 'path find' 25 70
+#Skill 'pollen' 50 70
+#Skill 'tiger power' 55 70
+#Skill 'wolf' 40 70
+Title 13 male Patron~
+Title 13 female Patron~
+Title 12 male Leader~
+Title 12 female Leader~
+Title 11 male Elder~
+Title 11 female Elder~
+Title 10 male Watch Commander~
+Title 10 female Watch Commander~
+Title 9 male Recruitment Officer~
+Title 9 female Recruitment Officer~
+Title 8 male Black Watch~
+Title 8 female Black Watch~
+Title 7 male Overseer~
+Title 7 female Overseer~
+Title 6 male Bush Master~
+Title 6 female Bush Mistress~
+Title 5 male Guardian~
+Title 5 female Guardian~
+Title 4 male Warden~
+Title 4 female Warden~
+Title 3 male Lookout~
+Title 3 female Lookout~
+Title 2 male Grasshopper~
+Title 2 female Grasshopper~
+Title 1 male Probation~
+Title 1 female Probation~
+Title 0 male Outcast~
+Title 0 female Outcast~
+End
+
+#$

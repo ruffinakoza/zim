@@ -1,0 +1,34 @@
+#RACE
+Name rockseer~
+Aff infrared sneak pass_door~
+Res charm~
+Vuln wood~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Rocks~
+Points 500
+AgeModifier 50
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 100
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 100
+Class 'witch' 100
+Class 'warrior' 100
+Skill 'meld into stone' 20
+Stats 40 60 50 60 40 50 50
+MaxStats 18 24 21 22 16 25 25
+Size medium
+HPBonus -10
+ManaBonus 20
+RestrictAlign neutral~
+Slang elvish
+End
+
+#$

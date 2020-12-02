@@ -1,0 +1,1261 @@
+#AREADATA
+Name Mystic Plains~
+Builders thornan~
+VNUMs 3800 3899
+Credits Thornan~
+Security 9
+LevelRange 35 45
+ResetMessage {WYour vision suddenly blurs beyond comprehension and then clears as quickly as it blurred{x~
+Flags closed noquest~
+End
+
+#MOBILES
+#3800
+gopher phase phasing~
+A Phasing Gopher~
+A gopher sits here phasing in and out of the physical realm
+~
+~
+gopher~
+A 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 bite
+-17 -17 -17 -9
+0 0 0 0
+stand stand none 0
+K 0 small unknown
+#3801
+blink dog phase phasing~
+A Blink Dog~
+A dog type creature is here blinking in and out of reality
+~
+~
+blink dog~
+AG JU 0 0
+40 40 116d40+0 200d10+85 13d3+25 bite
+-17 -17 -17 -9
+0 0 0 0
+stand stand either 0
+0 0 medium unknown
+#3802
+guardian guard ghost ghostly micheal angel arch~
+Guardian of the Ancients~
+{CThe {wghost{C of the {WArch Angel Micheal{C stands here guarding the entrance to the {YKeep of the Ancients{x
+~
+A ghostly figure of the former Arch Angel Micheal stands here.  His eyes
+are bathed in a holy fire and his body radiates an holy aura that would make
+even the strongest tremble in fear.  
+~
+ghost~
+A DFHJNUVlt 1000 0
+70 70 328d70+0 700d11+95 24d2+54 drain
+-41 -41 -41 -26
+0 AB N P
+stand stand none 0
+0 0 medium unknown
+F vul N
+#0
+
+#OBJECTS
+#3800
+holy hammer mithril warhammer war~
+{WWarhammer of the Ancients{x~
+{CA mighty hammer lies here radiating an {Wholy{C aura{x~
+Mithril~
+weapon ABGIKLahik AN
+hammer 5 19 divine I
+85 86 4550 P
+A
+24 -5
+A
+1 2
+A
+19 5
+A
+18 5
+G male
+G none
+G paladin
+#3801
+key rod~
+{CA small rod made of pure energy{x~
+{CThe key to the {YKeep of the Ancients{C lies here{x~
+Energy~
+key AB AO
+0 0 0 0 0
+0 5 0 P
+G none
+G none
+G none
+#0
+
+#ROOMS
+#3800
+A {Ggrassy {yfield{x~
+A path through the plains leads to the east.  Back to the north from
+whence you came you cannot seem to make out the surroundings 
+~
+0 W field
+D1
+~
+~
+Z 0 3801
+0 0
+S
+#3801
+A {Ggrassy {yfield{x~
+The path continues to the east here and back to the west.  Looking around
+you notice the field seems to go on forever with flowing greens and yellows
+and browns as the grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D1
+~
+~
+Z 0 3802
+0 0
+D3
+~
+~
+Z 0 3800
+0 0
+S
+#3802
+A {Ggrassy {yfield{x~
+The path continues to the east here and back to the west.  Looking around
+you notice the field seems to go on forever with flowing greens and yellows
+and browns as the grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D1
+~
+~
+Z 0 3803
+0 0
+D3
+~
+~
+Z 0 3801
+0 0
+S
+#3803
+A {Ggrassy {yfield{x~
+The path turns and continues south here and back to the west the way you
+came.  Looking around you notice the field seems to go on forever with
+flowing greens and yellows and browns as the grasses, plants and trees blow
+in the gentle winds.  
+~
+0 W field
+D2
+~
+~
+Z 0 3804
+0 0
+D3
+~
+~
+Z 0 3802
+0 0
+S
+#3804
+A {Ggrassy {yfield{x~
+The path continues to the east here and back to the north the way you
+came.  Looking around, you notice the field seems to go on forever with
+flowing greens and yellows and browns as the grasses, plants and trees blow
+in the gentle winds.  
+~
+0 W field
+D0
+~
+~
+Z 0 3803
+0 0
+D1
+~
+~
+Z 0 3805
+0 0
+S
+#3805
+A {Ggrassy {yfield{x~
+The path continues to the east and back to the west here.  Looking
+around, you notice the field seems to go on forever with flowing greens and
+yellows and browns as the grasses, plants and trees blow in the gentle
+winds.
+~
+0 W field
+D1
+~
+~
+Z 0 3806
+0 0
+D3
+~
+~
+Z 0 3804
+0 0
+S
+#3806
+A {Ggrassy {yfield{x~
+The path continues to the north and back to the west the way you came. 
+Looking around, you notice the field seems to go on forever with flowing
+greens and yellows and browns as the grasses, plants and trees blow in the
+gentle winds.  
+~
+0 W field
+D0
+~
+~
+Z 0 3807
+0 0
+D3
+~
+~
+Z 0 3805
+0 0
+S
+#3807
+A {Ggrassy {yfield{x~
+The path continues east and south back the way you came.  Looking around,
+you notice the field seems to go on forever with flowing greens and yellows
+and browns as the grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D1
+~
+~
+Z 0 3808
+0 0
+D2
+~
+~
+Z 0 3806
+0 0
+S
+#3808
+A {Ggrassy {yfield{x~
+The path continues east and west back the way you came.  Looking around,
+you notice the field seems to go on forever with flowing greens and yellows
+and browns as the grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D1
+~
+~
+Z 0 3809
+0 0
+D3
+~
+~
+Z 0 3807
+0 0
+S
+#3809
+A {Ggrassy {yfield{x~
+The path continues south and west back the way you came.  Looking around,
+you notice the field seems to go on forever with flowing greens and yellows
+and browns as the grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D2
+~
+~
+Z 0 3810
+0 0
+D3
+~
+~
+Z 0 3808
+0 0
+S
+#3810
+A {Ggrassy {yfield{x~
+The path continues east and north back the way you came.  Looking around,
+you notice the field seems to go on forever with flowing greens and yellows
+and browns as the grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D0
+~
+~
+Z 0 3809
+0 0
+D1
+~
+~
+Z 0 3811
+0 0
+S
+#3811
+A {Ggrassy {yfield{x~
+The path continues east and west back the way you came.  You begin to
+wonder if your wandering around in circles from the lack of change in
+scenery.  Looking around, you notice the field seems to go on forever with
+flowing greens and yellows and browns as the grasses, plants and trees blow
+in the gentle winds.  
+~
+0 W field
+D1
+~
+~
+Z 0 3812
+0 0
+D3
+~
+~
+Z 0 3810
+0 0
+S
+#3812
+A {Ggrassy {yfield{x~
+The path turns to the north here and continues back the way you came to
+the west.  You start to think your wandering in circles when in the distance
+just on the edge of the horizon you think you can make out a building of
+somekind or perhaps a very large wall.  Looking around, you notice the field
+seems to go on forever with flowing greens and yellows and browns as the
+grasses, plants and trees blow in the gentle winds.  
+~
+0 W field
+D0
+~
+~
+Z 0 3813
+0 0
+D3
+~
+~
+Z 0 3811
+0 0
+S
+#3813
+A {Ggrassy {yfield{x~
+The path continues north toward the massive structure in the distance and
+back south the way you came.  The grasses and plants seem to be moving more
+slowly here as if they are stuck in a time warp that is moving more slowly
+than you are.  
+~
+0 W field
+D0
+~
+~
+Z 0 3814
+0 0
+D2
+~
+~
+Z 0 3812
+0 0
+S
+#3814
+{WBefore the gates of the Ancients{x~
+You walk up to the overly massive gates on this ancient castle.  The
+walls surrounding the castle are so tall you can't make out the tops of the
+walls.  You wonder how it is possible for the walls to stand without
+tumbling over.  The walls and gates are a blazing white and burn with a holy
+fire that produces neither heat nor ash.  You can follow the path back to
+the south the way you came or you can continue through the gates to the
+north.  
+~
+0 CW field
+D0
+~
+~
+ABCIZ 3801 3815
+0 0
+D2
+~
+~
+Z 0 3813
+0 0
+S
+#3815
+{WEntrance hall{x~
+The entrance hall stretches a couple more rooms to the north where you
+see the hall connects to, two side halls leading east and west.  The walls
+of the entrance hall have murals carved into the stone that seem to come
+alive and shift patterns and move.  
+~
+0 D inside
+D0
+~
+~
+Z 0 3816
+0 0
+D2
+~
+~
+ABCIZ 0 3814
+0 0
+S
+#3816
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3829
+0 0
+D1
+~
+~
+Z 0 3817
+0 0
+D2
+~
+~
+Z 0 3815
+0 0
+S
+#3817
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3818
+0 0
+D3
+~
+~
+Z 0 3816
+0 0
+S
+#3818
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3819
+0 0
+D3
+~
+~
+Z 0 3817
+0 0
+S
+#3819
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3820
+0 0
+D3
+~
+~
+Z 0 3818
+0 0
+S
+#3820
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3821
+0 0
+D3
+~
+~
+Z 0 3819
+0 0
+S
+#3821
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3822
+0 0
+D3
+~
+~
+Z 0 3820
+0 0
+S
+#3822
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3823
+0 0
+D3
+~
+~
+Z 0 3821
+0 0
+S
+#3823
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3824
+0 0
+D3
+~
+~
+Z 0 3822
+0 0
+S
+#3824
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3825
+0 0
+D3
+~
+~
+Z 0 3823
+0 0
+S
+#3825
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3826
+0 0
+D3
+~
+~
+Z 0 3824
+0 0
+S
+#3826
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3827
+0 0
+D3
+~
+~
+Z 0 3825
+0 0
+S
+#3827
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3828
+0 0
+D3
+~
+~
+Z 0 3826
+0 0
+S
+#3828
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 3827
+0 0
+S
+#3829
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3841
+0 0
+D2
+~
+~
+Z 0 3816
+0 0
+D3
+~
+~
+Z 0 3830
+0 0
+S
+#3830
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3829
+0 0
+D2
+~
+~
+Z 0 3831
+0 0
+S
+#3831
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3830
+0 0
+D3
+~
+~
+Z 0 3832
+0 0
+S
+#3832
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3831
+0 0
+D3
+~
+~
+Z 0 3833
+0 0
+S
+#3833
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3834
+0 0
+D1
+~
+~
+Z 0 3832
+0 0
+S
+#3834
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 3833
+0 0
+D3
+~
+~
+Z 0 3835
+0 0
+S
+#3835
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3834
+0 0
+D3
+~
+~
+Z 0 3836
+0 0
+S
+#3836
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3837
+0 0
+D1
+~
+~
+Z 0 3835
+0 0
+S
+#3837
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3838
+0 0
+D2
+~
+~
+Z 0 3836
+0 0
+S
+#3838
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3839
+0 0
+D3
+~
+~
+Z 0 3837
+0 0
+S
+#3839
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3840
+0 0
+D2
+~
+~
+Z 0 3838
+0 0
+S
+#3840
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 3839
+0 0
+S
+#3841
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3868
+0 0
+D1
+~
+~
+Z 0 3842
+0 0
+D2
+~
+~
+Z 0 3829
+0 0
+S
+#3842
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3843
+0 0
+D3
+~
+~
+Z 0 3841
+0 0
+S
+#3843
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3844
+0 0
+D3
+~
+~
+Z 0 3842
+0 0
+S
+#3844
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3845
+0 0
+D3
+~
+~
+Z 0 3843
+0 0
+S
+#3845
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3846
+0 0
+D3
+~
+~
+Z 0 3844
+0 0
+S
+#3846
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3847
+0 0
+D3
+~
+~
+Z 0 3845
+0 0
+S
+#3847
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3848
+0 0
+D3
+~
+~
+Z 0 3846
+0 0
+S
+#3848
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3849
+0 0
+D3
+~
+~
+Z 0 3847
+0 0
+S
+#3849
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3850
+0 0
+D3
+~
+~
+Z 0 3848
+0 0
+S
+#3850
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3851
+0 0
+D3
+~
+~
+Z 0 3849
+0 0
+S
+#3851
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3852
+0 0
+D3
+~
+~
+Z 0 3850
+0 0
+S
+#3852
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3853
+0 0
+D3
+~
+~
+Z 0 3851
+0 0
+S
+#3853
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3854
+0 0
+D3
+~
+~
+Z 0 3852
+0 0
+S
+#3854
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3855
+0 0
+D3
+~
+~
+Z 0 3853
+0 0
+S
+#3855
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 3856
+0 0
+D3
+~
+~
+Z 0 3854
+0 0
+S
+#3856
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3855
+0 0
+D3
+~
+~
+Z 0 3857
+0 0
+S
+#3857
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3856
+0 0
+D3
+~
+~
+Z 0 3858
+0 0
+S
+#3858
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3857
+0 0
+D3
+~
+~
+Z 0 3859
+0 0
+S
+#3859
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3858
+0 0
+D3
+~
+~
+Z 0 3860
+0 0
+S
+#3860
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3859
+0 0
+D3
+~
+~
+Z 0 3861
+0 0
+S
+#3861
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3860
+0 0
+D3
+~
+~
+Z 0 3862
+0 0
+S
+#3862
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3861
+0 0
+D3
+~
+~
+Z 0 3863
+0 0
+S
+#3863
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3862
+0 0
+D3
+~
+~
+Z 0 3864
+0 0
+S
+#3864
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3863
+0 0
+D3
+~
+~
+Z 0 3865
+0 0
+S
+#3865
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3864
+0 0
+D3
+~
+~
+Z 0 3866
+0 0
+S
+#3866
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3865
+0 0
+D3
+~
+~
+Z 0 3867
+0 0
+S
+#3867
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 3866
+0 0
+S
+#3868
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3869
+0 0
+D2
+~
+~
+Z 0 3841
+0 0
+S
+#3869
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 3870
+0 0
+D2
+~
+~
+Z 0 3868
+0 0
+S
+#3870
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 3869
+0 0
+S
+#0
+
+#SPECIALS
+M 3800 spec_troll_member	* A Phasing Gopher
+M 3801 spec_ogre_member	* A Blink Dog
+S
+
+#RESETS
+D 0 3814 0 2	* {WBefore the gates of the Ancients{x: door to the north: closed and locked
+D 0 3815 2 2	* {WEntrance hall{x: door to the south: closed and locked
+M 0 3800 1 3800 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3800 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3801 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3801 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3802 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3802 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3803 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3803 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3804 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3804 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3805 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3805 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3806 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3806 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3807 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3807 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3808 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3808 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3809 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3809 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3810 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3810 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3811 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3811 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3812 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3812 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3800 1 3813 1	* A Phasing Gopher (A {Ggrassy {yfield{x)
+M 0 3801 1 3813 1	* A Blink Dog (A {Ggrassy {yfield{x)
+M 0 3802 1 3814 1	* Guardian of the Ancients ({WBefore the gates of the Ancients{x)
+E 0 3800 0 16		*	{WWarhammer of the Ancients{x: wielded
+G 0 3801 0		*	{CA small rod made of pure energy{x
+S
+
+#OLIMITS
+O 3800 1	* {WWarhammer of the Ancients{x
+S
+
+#MOBPROGS
+#3800
+~
+#0
+
+#$

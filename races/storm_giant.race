@@ -1,0 +1,35 @@
+#RACE
+Name storm giant~
+Aff flying~
+Res lightning~
+Vuln fire cold mental~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+Flags noch~
+End
+
+#PCRACE
+Shortname StGia~
+Points 500
+AgeModifier 100
+Class 'cleric' 110
+Class 'dark-knight' 100
+Class 'necromancer' 150
+Class 'ninja' 150
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 150
+Class 'witch' 150
+Class 'warrior' 100
+BonusSkills 'bash' 'enhanced damage' 'sword'~
+Stats 75 40 40 20 65 50 50
+MaxStats 24 17 17 17 21 25 25
+Size huge
+HPBonus 20
+ManaBonus -20
+RestrictAlign good~
+Slang giant
+End
+
+#$

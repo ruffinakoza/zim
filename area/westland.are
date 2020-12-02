@@ -1,0 +1,2349 @@
+#AREADATA
+Name Westland~
+VNUMs 10000 10099
+Credits Xavier~
+Security 9
+LevelRange 40 90
+End
+
+#MOBILES
+#10001
+gar long tail~
+A long-tailed gar~
+A long-tailed Gar stalks you deep in the woods.
+~
+You see a giant flesh-eating beast that hunts by the sense of
+smell. Your blood must be sweet because it has spotted you and is
+running in your direction. YOU'D BETTER ACT FAST!
+~
+dragon~
+ABFT Vb -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+CDEFIKMN AB IJKO HQY
+stand stand male 300
+c L gargantuan flesh~
+~
+#10002
+gar long tail~
+a long-tailed gar~
+A long-tailed Gar stalks you deep in the woods.
+~
+You see a giant flesh-eating beast that hunts by the sense of
+smell. Your blood must be sweet because it has spotted you and is
+running in your direction. YOU'D BETTER ACT FAST!
+~
+dragon~
+ABFT Vb -1000 0
+46 46 172d46+0 460d11+95 16d2+38 none
+-24 -24 -24 -14
+BCDEFIKMN AB IJKO HQY
+stand stand male 300
+c L gargantuan flesh~
+~
+#10003
+gar long tail~
+a long-tailed gar~
+A long-tailed Gar stalks you deep in the woods.
+~
+You see a giant flesh-eating beast that hunts by the sense of
+smell. Your blood must be sweet because it has spotted you and is
+running in your direction. YOU'D BETTER ACT FAST!
+~
+dragon~
+ABF Vb -947 0
+46 46 172d46+0 460d11+95 16d2+38 none
+-24 -24 -24 -14
+BCDEFIKMN AB IJKO HQY
+stand stand male 300
+c L gargantuan flesh~
+~
+#10004
+fly blood~
+a blood fly~
+A little annoying insect is waiting to suck your blood.
+~
+You see a deformed little bug that has large sharp teeth for biting into
+flesh.  It looks thirsty for your blood.  
+~
+unique~
+ABFL BGJTVb -200 0
+40 40 133d40+0 400d11+95 14d2+34 none
+-20 -20 -20 -11
+CEFKO EJL J KM
+stand stand male 300
+0 0 medium flesh~
+~
+#10005
+quad assassin~
+a quad assassin~
+A member of the quad assassins sneaks about.
+~
+A slim man stands before you, his demeanour confident and self-assured. 
+A variety of strange weapons, tools, flasks and vials adorn his black
+leather outfit.  He stares back at you assessing you, and a shiver creeps up
+your spine.  
+~
+human~
+ABL Vb -1000 0
+55 55 231d55+0 550d11+95 19d2+44 none
+-30 -30 -30 -19
+BCDEFGHIKNV AH BL J
+stand stand male 300
+0 0 medium flesh~
+~
+#10006
+quad assassin~
+a quad assassin~
+A member of the quad assassins stands here confidently.
+~
+A slim man stands before you, his demeanour confident and self-assured. 
+A variety of strange weapons, tools, flasks and vials cover his black
+leather outfit.  He stares at you, assessing you, and a shiver creeps up
+your spine.  
+~
+human~
+ABL Vb -1000 0
+56 56 238d56+0 560d11+95 19d2+44 none
+-31 -31 -31 -20
+BCDEFGHIKNV AH BL J
+stand stand male 300
+0 0 medium flesh~
+~
+#10007
+young lady~
+a young lady~
+A pretty young woman stands here picking flowers from her garden.
+~
+A beautiful young woman stands here picking flowers from her garden. 
+Noticing your gaze she smiles and waves to you.  
+~
+human~
+ABe Nb 850 0
+46 46 172d46+0 460d11+95 16d2+38 none
+-24 -24 -24 -14
+BCDEFGHIK AI 0 0
+stand stand female 300
+0 0 medium flesh~
+~
+#10008
+fisherman man~
+a fisherman~
+You see a clam fisherman waiting for his catch of the day.
+~
+He is a tall man who seems to enjoy fishing. It looks like he
+would like to catch some fish to take home.
+~
+human~
+ABG Nb 1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+BCDEFGHIK AI 0 0
+stand stand male 300
+0 0 medium flesh~
+~
+#10009
+little boy~
+a little boy~
+A little boy plays contentedly on the sandy beach.
+~
+You see a little boy building sand-castles in the sand. The sand
+is perfect for his castles and you feel like you want to join
+him.
+~
+human~
+ABGe Nb 1000 0
+43 43 152d43+0 430d11+95 15d2+36 none
+-22 -22 -22 -13
+CDEFHIK AI R 0
+stand stand male 300
+0 0 large flesh~
+~
+#10010
+heart hound~
+a heart hound~
+There is a deadly heart hound drooling all over himself.
+~
+This is one of the deadly beasts that have escaped from the other side of
+the boundary.  Be careful, for you know not what powers it commands.  Some
+say they are called heart hounds because they tear out your heart when they
+attack.  Others believe it's because they hunt you down by the sound of your
+beating heart.
+~
+unique~
+AGj VZbs -1000 0
+55 55 231d55+0 550d11+95 19d2+44 none
+-30 -30 -30 -19
+BCDEFGHIKNO K 0 T
+stand stand male 300
+0 0 gargantuan flesh~
+~
+#10011
+speaker~
+a speaker~
+A speaker stands here delivering a speech to a large crowd eager listeners.
+~
+He is a tall man who appears to have great authority in the village.  He
+is delivering a moving speech about fire and the deadly losses of it.  You
+can tell that he is very concerned for the safety of those in his village.  
+~
+human~
+AGHU UVZb 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+CDEFGHIKNO A 0 0
+stand stand male 300
+0 0 medium flesh~
+~
+#10012
+happy villager~
+a happy villager~
+There is a really happy villager here.
+~
+As you pass by this villager he says "Hello!"  And gives you a big kiss. 
+You wonder if he is drunk, or just plain out of his mind.  
+~
+human~
+AG UVZb 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+BCDEFGHIKN A 0 0
+stand stand male 300
+0 0 medium flesh~
+~
+#10013
+healer~
+a healer~
+The town healer is here.
+~
+She is a tall women who seems to enjoy healing people. She has
+beautiful long hair and is wearing a white dress that reaches
+down to the floor. Her head is held up high and she has a nice
+smile on her face.
+~
+human~
+ABQa FH 1000 0
+106 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+KN ABINS BPQR 0
+stand stand female 0
+0 0 medium flesh~
+~
+#10014
+boundary warden~
+a boundary warden~
+A strong, powerful boundary warden is here.
+~
+You see one of the toughest, strongest, and tallest man you have ever
+seen.  He is about 7'6 inches and looks much heavier than you.  He is clad
+with weapons and armor and looks prepared for battle.  It is a good thing
+that he has a friendly character.  
+~
+human~
+AGLT DFJUVbs 1000 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+CDEFHIJKN ABE BHR C
+stand stand male 300
+0 0 large flesh~
+~
+#10015
+thief~
+a thief~
+A small thief is here trying to steal your money.
+~
+You see a little thief that is all dressed in black ready to steal your
+money when your not looking.  He is wearing black pants and boots and is
+barely noticeable in the shadows of the buildings.  
+~
+human~
+ACS CDGPQVd -902 0
+40 40 133d40+0 400d11+95 14d2+34 none
+-20 -20 -20 -11
+BCDEFGHIJKN 0 0 0
+stand stand male 300
+0 0 large flesh~
+~
+#10016
+beggar~
+a beggar~
+An ugly beggar crawls to you on hands and knees pleading for some money.
+~
+*sigh* If there aren't thieves trying to steal your money there are
+beggars asking for it.  You feel sorry for this poor fellow, it's a shame
+that it will soon be winter and he has no place to go.  Oh well, life goes
+on huh?  
+~
+human~
+ABCH DVb 100 0
+46 46 150d46+0 230d10+85 15d3+28 none
+-21 -21 -21 -12
+CDEFGHIJKN AQ 0 B
+stand stand male 300
+0 0 large flesh~
+~
+#10017
+bone woman~
+the Bone Woman~
+An interesting women hunches over a the ground tossing white bones in a bowl.
+~
+The woman's eyes are milky white and you wonder if she can see you at
+all.  She looks up at you, though, and asks you to stay for a while and
+visit.  Around her neck hangs a beautiful stone necklace, but as you gaze at
+it you hear in your mind "I must have that necklace!"  She will not give it
+to you, of that you are sure, you would have to fight her for it.  
+~
+human~
+ABQ CDEFHJV 1000 0
+109 0 1d1+29999 1d1+9382 5d50+90 none
+-93 -93 -90 -43
+EFHIKN IP E JK
+stand stand female 1509
+0 0 medium flesh~
+~
+#10018
+gripper~
+a nasty gripper~
+There is a nasty, little gripper waiting to attack you.
+~
+You see a nasty looking beast with long, razor sharp teeth.  His body is
+covered with armorlike plates and he looks pretty tough.  Clods of dirt and
+grass cover his hide and you wonder if he was responsible for excavating the
+large hole in the ground behind him.  He is moving very slowly, but
+purposefully towards you, an evil look in his eyes.  
+~
+human~
+ACFG Jcd -986 0
+92 92 472d92+0 920d11+95 25d5+25 none
+-57 -57 -57 -38
+CDEFIKN IP DE J
+stand stand male 300
+0 0 gargantuan flesh~
+~
+#10019
+shadow thing~
+the {MSCaRy Shadow THing{x~
+A {MSCaRy Shadow THing{x floats here waiting to kill you.
+~
+An ethereal ghost hovers in the air before you ready to kill you.  This
+ghost has been in existence for thousands of years, long before he was sent
+by Panis Rahl in the last war.  He doesn't attack but watches you
+expectantly, ready to turn you to ashes if you move closer to him.  
+~
+ghost~
+ABCGR JUV -1000 0
+99 0 50d10+29000 10d100+20438 4d50+80 none
+-69 -69 -69 -30
+CDEFHIKN P I JK
+stand stand none 0
+0 0 medium flesh~
+~
+#10020
+spirit king~
+the Spirit King~
+The mighty Spirit King hovers here blocking your passage.
+~
+This ghostly king is incredibly powerful, sent by Darken Rahl himself to
+act as a guardian.  You feel that you should retrace your steps immediately
+since he will attack if you try to walk past him.  He is a master of the
+black arts and commands the powers of the underworld.  You have no doubt
+that he is fully capable of destroying you.  
+~
+ghost~
+ABCG JOVu -1000 0
+119 0 50d10+29000 10d10+33090 20d15+100 none
+-77 -77 -70 -40
+CDEFIKN P I JK
+stand stand male 0
+0 0 large flesh~
+~
+#10021
+red dragon great~
+{WDarken Rahl's {Rred dragon{x~
+Darken Rahl's red dragon crouches over a freshly slain corpse, devouring the flesh
+~
+A dragon of titanic proportions towers over you, talons embedded in the
+flesh of a bloody corpse.  Reptilian eyes glare down upon you as he regards
+you with an impassive gaze.  This dragon is larger than any that you have
+ever seen, and you fear that it will still be hungry after it has finished
+the corpse that it was feeding on.  Better move on...  QUICK!!!  
+~
+dragon~
+ABCGLRZ GNO -1000 0
+119 0 50d10+29000 10d10+10203 20d15+100 none
+-77 -77 -70 -40
+BCEFIKN IP GIJK JK
+stand stand male 14023
+c L gargantuan flesh~
+~
+#10022
+shadow people~
+an evil shadow person~
+An wavy distortion hovers in front of you, blocking out the light behind it.
+~
+The apparition floating before you has no features.  The ghost of a long
+dead being, its very touch is poison.  It hungers for soul, and moves
+towards you to take it.  
+~
+ghost~
+ACG GJOU -1000 0
+110 0 50d10+28000 10d10+10203 20d15+95 none
+-77 -77 -70 -40
+CDFIKN IP 0 JK
+stand stand male 300
+0 0 medium flesh~
+~
+#10023
+bar tender~
+a bar tender~
+A fat little bartender hastens from table to table serving drinks.
+~
+A short fat man with a thick brown beard runs from table to table
+replacing empty pitchers and refilling mugs with beer.  He looks rather
+stupid, his pants torn and dirty, his shirt covered in grease spots, shoes
+on the wrong feet, but the customers seem happy enough.  
+~
+human~
+ABCGHe GJ 1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+BCDEFIN 0 0 JK
+stand stand male 300
+0 0 medium flesh~
+~
+#10024
+drunken villager~
+a drunken villager~
+A drunken villager slouches over a bar stool, motioning to the bartender for a refill.
+~
+This villager looks like he is about to pass out from the alcohol he has
+consumed, but he keeps guzzling it down.  The fumes from his breath are so
+overwhelming you feel like YOU are about to pass out too.  
+Whew!!!
+~
+human~
+ABCG GJ 550 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+CDEFIKN 0 0 K
+sit sit male 300
+0 0 medium flesh~
+~
+#10025
+dark thief~
+A little thief~
+A thief sneaks about in the shadows, peering at you intently.
+~
+He is a darkly clad thief with a wicked intent. He rests in the
+darkness of the night waiting to prance upon a poor soul like
+you.
+~
+human~
+ABCFGSe DFGNOPQVls -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+BCDEFGHJKN IP D 0
+stand stand male 2841
+0 0 large flesh~
+~
+#10026
+snake~
+A yellow snake~
+A yellow snake is swimming in the cold water.
+~
+A banded yellow snake is swimming in a pool of cold dark water.  He
+doesn't look very threatening, but with snakes you can never be sure...  
+~
+snake~
+ABGL GJ -1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+EFIKN P I E
+stand stand male 0
+0 0 large flesh~
+~
+F vul I
+#10027
+underworld beast~
+An underworld beast~
+There is a underworld beast, looking lost here.
+~
+He has no features at all. Just a plain puff of smoke striking
+people dead as they walk by.
+~
+unique~
+ACGT GJ -1000 0
+69 69 281d69+0 345d10+85 23d3+39 none
+-36 -36 -36 -22
+CDEFIKN IP 0 0
+stand stand none 300
+0 0 large flesh~
+~
+#10028
+cat dopey~
+A dopey little cat~
+A dopey little cat is rummaging through a pile of trash looking for something to eat.
+~
+This poor little beast is hunting through the trash trying to find any
+scraps of food.  He looks cold and wet, but you don't have the time or
+energy to care for him.  
+~
+cat~
+ACGL GJ 1000 0
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+CDEIKN IJP 0 0
+stand stand none 0
+0 0 large flesh~
+~
+#10029
+mord sith~
+an evil Mord-Sith~
+This Mord-Sith grins evilly as she prepares to take you as her pet.
+~
+This Mord-Sith is not the least bit afraid of you, very few things can
+harm this servant of evil.  She approaches you, arms raised in a casting
+stance, her mouth working the beginnings of a powerful spell.  
+~
+human~
+ABGLR GJO -1000 0
+120 0 50d10+28000 10d10+10203 20d15+95 none
+-77 -77 -70 -40
+CDEFIKN MP DHI N
+stand stand female 1275
+0 0 large flesh~
+~
+#10030
+devoter~
+a devoter of Darken Rahl~
+A devoter stands here chanting quietly, words which you are unable to understand.
+~
+A devoter sways slowly as he chants words of praise and worship to his
+king Darken Rahl.  He firmly believes that Darken Rahl is the saviour of the
+land and is here only to guide people to the truth.  A truly deluded
+individual.  
+~
+human~
+ABCGT GJu -1000 0
+110 0 50d10+28000 10d10+10203 20d15+95 none
+-77 -77 -70 -40
+BCDEFIKN 0 I JNP
+stand stand male 1023
+0 0 medium flesh~
+~
+#10031
+darken rahl~
+Darken Rahl~
+Standing before you, prepared to destroy you is Darken Rahl, your worst nightmare.
+~
+One of the vilest human beings you have ever seen crouches before you,
+face contorted in devilish glee.  He rubs his seemingly frail hands together
+and begins to advance towards you uttering the first words of a spell.  
+Another soul to capture, another spirit to torment.
+~
+human~
+ABCFGORe GJOiu -1000 0
+125 0 50d10+28000 103d50+35000 20d15+95 none
+-77 -77 -70 -40
+CEFIKNO MP LQ JN
+stand stand male 32012
+0 0 large flesh~
+~
+#0
+
+#OBJECTS
+#10001
+mace wardens~
+a boundary warden's mace~
+A large, heavy stone mace is lying on the ground.~
+stone~
+~
+weapon A AN
+mace 4 18 blast 0
+70 71 87805 P
+A
+19 6
+A
+18 6
+A
+13 20
+A
+2 -1
+E
+warden mace~
+It is a giant mace clad with sharp deadly teeth. It was made for
+the use of killing. This truly is a strong weapon.
+~
+G none
+G none
+G none
+G none
+#10002
+bone necklace~
+the bone woman's necklace~
+A beautiful colorful stone necklace lies on the ground.~
+stone~
+~
+armor AB AC
+33 33 33 32 'none' 0
+90 91 229906 P
+A
+12 35
+A
+2 1
+A
+3 1
+A
+13 55
+E
+bone necklace~
+This is a magical necklace that the bone woman HAD around her
+neck. It must be very powerful since the kill took awhile.
+~
+G none
+G none
+G none
+G none
+#10003
+grippers tooth choker necklace teeth~
+a {rgr{Ri{rpper's {Wtooth{x choker~
+A choker made from the teeth of the terrible Gripper lie here.~
+stone~
+~
+armor ABCEM AC
+29 29 29 28 'none' 0
+80 81 207137 P
+A
+17 -16
+A
+23 -6
+A
+19 8
+A
+1 1
+G none
+G none
+G none
+G none
+#10004
+jug beer~
+a jug 'o beer~
+There is a jug of beer on the ground here.~
+glass~
+~
+drink BC A
+25 20 'beer' 0
+1 80 1564 P
+G none
+G none
+G none
+G none
+#10005
+boots black~
+a pair of {Dblack boots{x~
+A dark pair of boots lie here soaking up the sunlight.~
+leather~
+~
+armor BC AG
+22 22 22 21 'none' 0
+60 61 111196 P
+A
+14 40
+A
+2 2
+A
+13 -10
+A
+12 30
+G none
+G none
+G none
+G none
+#10006
+warden gloves~
+a {gwarden's {ygloves{x~
+A pair of leather gloves have been left here, waiting to be picked up.~
+leather~
+~
+armor C AH
+24 24 24 23 'none' 0
+65 66 144506 P
+A
+2 1
+A
+24 -2
+A
+18 8
+G none
+G none
+G none
+G none
+#10007
+warden boots~
+wardens boots~
+A muddy pair of boots have been left here, the leather worn, but well cared for.~
+leather~
+~
+armor C AG
+24 24 24 23 'none' 0
+65 66 168005 P
+A
+22 -3
+A
+19 6
+A
+18 5
+G none
+G none
+G none
+G none
+#10008
+warden sleeves~
+wardens sleeves~
+A pair of rough leather sleeves have been tossed carelessly on the floor.~
+unknown~
+~
+armor BC AI
+24 24 24 23 'none' 0
+65 66 178325 P
+A
+17 -13
+A
+13 60
+A
+1 1
+G none
+G none
+G none
+G none
+#10009
+warden shield~
+a wardens shield~
+A shield made from the finest metal has been left here.~
+mithril~
+~
+armor BC AJ
+24 24 24 23 'none' 0
+65 66 234227 P
+A
+17 -13
+A
+23 -5
+A
+13 40
+G none
+G none
+G none
+G none
+#10010
+warden tunic~
+a wardens tunic~
+The soft, supple leather of this tunic looks warm and comfortable.~
+leather~
+~
+clothing CI AK
+BCE BCE BCE ACE 0 BCE BCE
+60 61 73272 P
+A
+17 -12
+A
+23 -5
+G none
+G none
+G none
+G none
+#10011
+warden helmet~
+a {gwarden's {yhelmet{x~
+The burnished bronze of this sturdy helmet gleams dully in the light.~
+bronze~
+~
+armor C AE
+24 24 24 23 'none' 0
+65 66 110352 P
+A
+18 7
+A
+23 -3
+G none
+G none
+G none
+G none
+#10012
+warden signet ring~
+a wardens signet ring~
+A bright silver ring has been left in the dust.~
+silver~
+~
+treasure CI AB
+0 0 0 0 0
+60 10 9898 P
+A
+13 60
+A
+12 55
+G none
+G none
+G none
+G none
+#10013
+warden leggings~
+a {gwarden's {yleggings{x~
+A pair of worn leather leggings have been left here.~
+leather~
+~
+armor C AF
+22 22 22 21 'none' 0
+60 61 211604 P
+A
+17 -12
+A
+21 -3
+A
+14 100
+G none
+G none
+G none
+G none
+#10014
+robe dark~
+a dark robe~
+A robe has been left in the shade of a tree here.~
+unknown~
+cloth~
+armor CE AD
+26 26 26 25 'none' 0
+70 71 230439 P
+A
+6 -2
+A
+13 25
+A
+12 50
+G none
+G none
+G none
+G none
+#10015
+collar heart hound~
+a heart hounds collar~
+A studded leather collar lies here gathering dust.~
+leather~
+~
+armor BC AC
+24 24 24 23 'none' 0
+65 66 157729 P
+A
+18 5
+A
+19 4
+A
+1 3
+A
+6 -5
+A
+17 -8
+A
+12 50
+G none
+G none
+G none
+G none
+#10016
+rune pouch~
+a rune covered pouch~
+A magical leather pouch floats lightly above the ground.~
+leather~
+~
+container BCY AQ
+700 A 0 350 80 0
+65 50 50962 P
+G none
+G none
+G none
+G none
+#10017
+cookie shortbread~
+a shortbread cookie~
+A delicious shortbread cookie has been dropped on the ground, what a shame.~
+food~
+~
+food I A
+DF DF 0 0 0 DF DF
+8 10 404 P
+G none
+G none
+G none
+G none
+#10018
+cake slice~
+a BIG piece of cake~
+A huge slice of cake has been dropped on the ground...sigh.~
+unknown~
+~
+food I A
+CDEF AG 0 0 0 CDEF AG
+1 10 619 P
+G none
+G none
+G none
+G none
+#10019
+sword wardens~
+a boundary wardens sword~
+A wonderfully crafted sword lies here awaiting an owner.~
+unknown~
+~
+weapon AC AN
+longsword 3 20 slash 0
+50 100 63021 P
+A
+19 4
+A
+18 4
+E
+boundary sword warden~
+This is a boundary warden sword that is made just for their use.
+~
+G none
+G none
+G none
+G none
+#10020
+flail wardens~
+a boundary warden's flail~
+A long wooden flail has been discarded.~
+wood~
+~
+weapon A AN
+flail 3 17 pound 0
+50 50 38079 P
+A
+19 3
+A
+18 4
+G none
+G none
+G none
+G none
+#10021
+club wardens~
+a boundary wardens club~
+A knobbly wooden club lies here gathering dust.~
+unknown~
+~
+weapon AI AN
+mace 2 32 pound F
+50 50 65218 P
+A
+2 -3
+A
+19 8
+A
+18 -5
+G none
+G none
+G none
+G none
+#10022
+dagger wardens~
+a wardens dagger~
+A long bladed steel knife lies stuck into the ground.~
+steel~
+~
+weapon AI AN
+dagger 4 10 pierce 0
+50 51 36586 P
+A
+18 9
+A
+19 4
+G none
+G none
+G none
+G none
+#10023
+agiel sword~
+a Mord-Sith's agiel~
+A blue-steel sword lies here pulsing with power.~
+unknown~
+sword~
+weapon ABCEGJLM AN
+longsword 5 22 magic G
+90 91 343088 P
+A
+12 35
+A
+24 -3
+A
+18 6
+A
+19 6
+G none
+G none
+G none
+G none
+#10024
+bracer power~
+a bracer of power~
+A rune covered metal bracer glows with an unholy light.~
+energy~
+~
+armor ACEJ AM
+33 33 33 32 'none' 0
+90 91 285370 P
+A
+20 -4
+A
+19 9
+A
+18 9
+G none
+G none
+G none
+G none
+#10025
+westland ~
+a sign~
+There is a sign that contains the map of Westlands here.~
+wood~
+~
+furniture A 0
+0 0 0 0 0 0 0
+91 90 90 P
+E
+west land westland~
+****************************************************************
+*^\^\        /^/^\^\^\^\      /^\^/^/^/^/^/^\^\^\^\^\^\^\^\^\  * 
+*^\      /^\^/^/^/^\^/^\   N      /^\^\^/^\^\^\^\^/^\^\^\^\    * 
+*     /^\^/^\^/^/^/^/^\    |         /^/^/^/^/^/^\^/^\^\^\^\^\ * 
+*      /^\^\^\^\       W---|---E /^/^/^/^\^\^/^\^\^\^/^\       * 
+* /^/^/^/^\^\^\^\^\^\      |        /^\^\^\^\^\^/^\^/^/^/^/^/^/*
+*^\^/^/^/^/^/^/^/^/^\      S           /^/^/^/^\ T /^/^/^/^/^\ * 
+*^/^/^\^\^/^\^/^/^\        /^/^\^\   /^/^/^\^\^/^\H/^/^/^/^\   * 
+*^\^/^/^/^\^/^/^\                        /^/^/^/^\ E /^\^/^/^/^* 
+*^\^\^/^\^/^\          /^/^\^\        /^/^/^/^B /^/^\^/^\^\^\^/* 
+*^/^/^/^/^/^/^/^\                       /^/^/^\O/^/^/^\^\^/^/^\* 
+*^/^/^\^/^/^/^\   *******************       /^/^U/^/^/^/^/^\^\ * 
+*^/^/^/^/^\       * W E S T L A N D *      /^/^/^N /^\^/^/^\^\^* 
+*^/^/^/^\^/^\     *******************         /^\^D/^\^/^/^/^/^* 
+*^/^\^/^\         /^/^/^\^\           /^\   /^\^/^\A/^\^/^\^\^\* 
+*^/^/^\        /^/^/^/^/^\^\^\      U          /^/^\R /^\^\^\^/* 
+*^/^\      /^/^/^\^\^/^/^\ = /^\^/^\P/^\^\   /^\^/^/^Y /^\^/^\^* 
+*^\      /^/^/^/^\^/^/^/^\===/^/^/^\P/^\^/^\   /^\^\^\^/^\^\^\ * 
+*^\^\           /^/^\^\^\ ==== /^\^\E            /^/^/^/^/^\^\^* 
+*^\^\              /^/^\^\^\ =====  R /^\^\   /^\^\^\^/^/^\^\^\* 
+*/^\    HARTLAND          ======/^\    *         /^/^/^/^/^/^/^* 
+*^/^/^\    *                /^\^/^\ V       /^/^/^/^/^/^\^\^/^\* 
+*^\^\     TRUNT LAKE    /^\^\^\^\^/^E/^\      /^/^\^\^/^\^\    * 
+*^/^\^/^\      *            /^\^/^/^N/^\^\ /^\^/^\^\^\^\^\^\^\^* 
+*^/^\^/^\^/^\                  /^\^/^/^\     /^/^/^/^/^/^/^\   * 
+*^\^/^\       /^\^\^\^/^\        /^\^\^\^\      /^/^\^/^\^/^\  * 
+*^\^/^\         /^/^\^\        /^/^/^\      /^/^\^\^\^\^/^\^\  * 
+*^/^/^/^\            SOUTHAVEN  /^/^\^\       /^/^/^/^/^/^\^\^\* 
+*^/^\^/^\^/^\     /^\    *           /^/^/^\    /^\THE ^/^/^/^\* 
+*^/^/^/^\                                        /^\*NARROWS*^\* 
+*^/^/^\^/^\^\             /^\                       ###########* 
+*^/^\^/^\^\^\^\^\                 /^/^\^\     /^\^/^/^\^/^\^/^\* 
+*^/^/^/^/^/^\^\^\^/^\   /^^\  /^/^/^/^\^/^\    /^\^\^\^\^\^\^\^* 
+**************************************************************** 
+
+Welcome to Westland. This is one of the two lands that are in
+this world. There is a great wizard named Darken Rahl who
+wishes to rule the two lands. D'Hara is the more powerful of the
+two lands. One reasons is, that several million years ago, the
+greatest wizards of all had created two lands. The Westlands was
+the only land that had no magic what-so-ever. He also divided the
+two lands with a magical Boundry. This boundry was created to
+stop all magic from  going into the other land.
+~
+G none
+G none
+G none
+G none
+#10026
+sign~
+a little sign~
+There is a little sign here showing a map of D'Hara.~
+wood~
+~
+furniture A 0
+0 0 0 0 0 0 0
+91 90 90 P
+E
+sign d'hara hara~
+**************************************************************** 
+*/^/^/^\^\^\^\^/^\^\^\^\^\^\^\^\^/^\ ***********=-=-=- =-=-=-= * 
+*/^\^\^/^\^\^/^\^\^\^\^\^\^\^/^\ -=- *D'H A R A*=-=- =-=-=- =  * 
+*^\^/^/^\^\^/^\^/^\^\^\^\^\ -=- =-=-=***********=-=-=-=- =-=-= * 
+*/^/^/^\^T/^/^\^\^\^\ -=- =-=-=-=-=-=-=-=- =-=-=-=-=- =-=-=-   * 
+*/^/^/^/^\H\^\^\^\   -=-=-=-=-=-=- =-=-=-=-=-=-=-=-=-=-=-=-=-  * 
+*/^/^\^\^\^E/^/^\  -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  * 
+*^\^\^\^B/^/^\^\  =-=-=-=  -=-=-=- =-=-=-=-=- =-=-=-=-=-=-- =- * 
+*/^/^\^\^O/^/^\^\^\ -=  *============================*  -=-=-  * 
+*/^/^/^/^/U/^/^\   =-=  |     /^/^/^/^/^/^/^/^\^\    |  -=-=-= * 
+*/^/^/^/^\^N/^/^\^\ -=  | /^\^\^\^/^/PEOPLE'S/^/^\^\ |   =-= - * 
+*^/^/^/^\^\^D/^\   -=-  | /^\   /^/^\  ***  /^/^\^\^\|  =- =-  * 
+*/^/^/^/^/^\^A/^/^/^\^\ |    /^/^\^\   ***  /^/^\^\^\|   -=-=- * 
+*/^/^\^\^\^\^/R/^/^\ -  | /^/^/^/^/--/PALACE /^/^\^\ |  -=- =  * 
+*/^/^/^/^\^\^\^Y/^/^/^\ |    /^/^|--|^/^/^/^\^\^\    |   =-=-  * 
+*/^/^\^\^\^\^\^\^\^\ -  | /^/^/^\^\--\^\^\^\^\^\     |  -=-=-  * 
+*/^/^\^\^\^\^\^\  =-=-  |   /^/^\^\|--|/^/^\^\^\^\   |  =-=-=- * 
+*/^/^\^\^\^\^\  =-=-=-  *==========*---*=============*   =-    * 
+*/^/^\^\^\    -=-=--=-=-=-=-=-=-=-= |_ | -=- =-=-=-=-=- =-=-=- * 
+*/^/^/^/^\^\^\   =-=-=-=-=-=-=-=-= /_ / -=-=-=-=-=-=-=-=-=- =  * 
+*/^/^/^/^/^\   -=-=-=-=-=-=-=-=-= |__| ==-=-=-=-=-=-=-=-=- =-= * 
+*/^/^/^/^/^/^/^\  =-=-=-=-= =-=-=      =-=-=-=- =-=-=-=-=-=-=- * 
+*/^/^\^\^\^\   =-=-=-=-=-= =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-  * 
+*/^/^\-=-/^\^\^\  =-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=- =-=-=- =-  * 
+*^\^\^\^\^/^\   -==-=-=-=- =-=-=-=-=-=-=- =-=-=-=-=-=- =-=-  /^* 
+*^\^\^/^\^/^\^\  =-=-=-=-=-=-=- =-=-=-=-=-=-=- =-=-=-=-  /^/^/^* 
+*\^\^\^/^  -=-=-=-=- AZRITH =-=-=-=-=-=-=-=-=-=-=-=-=-=   /^/^/* 
+*/^/^/^\ -=-=-=--=-=- PLAINS -=-=-=-=-=-=-=-=-=-=-   /^/^/^/^\^* 
+* THE      -=-=-=-=-=-=-=-=-=-=-=-=-=- =-=-=-=-=-=   /^/^/^\^\^* 
+*########     =-=-=-=-=-=-=-=-=-=-=-=-=-=-=   /^/^/^\^\^/^/^\^\* 
+* NARROWS/^/^\  =-=-=-=-=-=-=-=-=-=-=--  /^/^/^/^\^\^\^\^\^\^\^* 
+*          /^/^\ =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  /^\^\^\^\^\^/* 
+* /^\^\^\^\^/^/^/^/^\^\=-=/^/^\=--=-/^/^\^\^\^/^\^/^\^/^\^\^\^\* 
+* /^/^/^\=-/^/^/^/^\^/^/^/^\^\=-/^/^\^\^\^/^/^/^\^/^\^/^\^\^\^/* 
+*/^/^/^\=-=-=-=-=-/^\ =-=-= /^\^/^\^\^\^\^/^\^\^/^\^\^\^\^/^/^\* 
+*/^/^\^\^/^\^\^\-=-=-=-/^\^\^\^/^/^/^/^/^\^\^\^/^/^\^/^\^\^/^\^*
+**************************************************************** 
+
+D'Hara.  This is Darken Rahl's home land and he is most powerful
+here. Even though he is powerful you might still be able to
+defeat him. Beware of the Azrith Plains for they are huge and go
+from north to west to east and to south. It is very easy to get
+lost in the Plains so try to find the way to Darken Rahl and the
+People's Palace before it is too late or you get lost! You really
+must hurry for Darken Rahl has almost won the battle and will
+control the lands!
+~
+G none
+G none
+G none
+G none
+#10027
+dirk thieves~
+a thieves dirk~
+A wicked looking dirk lies here, the razor sharp blade gleaming dully with a black substance.~
+steel~
+~
+weapon CEGJ AN
+dagger 5 9 pierce DH
+60 61 20134 P
+G none
+G none
+G none
+G none
+#10028
+chest~
+a wooden chest~
+An old wooden chest full of treasure sits in the corner.~
+wood~
+~
+container EORT 0
+100 AC 0 10 100 0
+50 1000 153 P
+G none
+G none
+G none
+G none
+#10029
+gold loot~
+{Ya king's ransom in gold{x~
+{YA king's ransom in gold coins is lying here on the ground.{x~
+unknown~
+~
+money A A
+0 100
+0 23000 0 P
+G none
+G none
+G none
+G none
+#10030
+dragon darken rahl tooth~
+{Rthe{z {Wtooth{z {Rof{z {WDarken Rahl's{z {Rred dragon{z~
+A sinister claw of a very large beast is here.~
+bone~
+~
+weapon EFGJLMSTYZa AN
+exotic 7 20 drain CH
+91 92 1522142 P
+A
+18 10
+F
+A 19 10 M
+G none
+G none
+G none
+G none
+#10031
+lost ring anelzito~
+the lost {YRing{x of the {gDr{Ga{ggon {YKing{x~
+A shiny ring is here on the floor, it has the symbol of the Dragon King on it.~
+gold~
+~
+jewelry ABGIKLMTYaf AB
+BCF BCF BCF ACF 0 BCF BCF
+106 107 110 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#10001
+Path By a Lake.~
+You are walking beside a beautiful lake that is crystal
+clear. There is a fresh breeze in the air and the trees are
+rocking freely. You feel as though you are entering a new world
+but you're still in Icey.  The lake to your right is crystal
+clear and calm. There are a family of ducks floating by seeming
+not to notice you. The woods around you are flled with deer,
+birds, and other animals. The trees are tall and lush, leaving
+not much room for the sun to enter into these sacred lands. The
+path continues to the north and, of course, where you came from,
+the south.
+~
+0 0 forest
+D0
+To the thick forest.
+~
+~
+Z 0 10002
+0 0
+D2
+~
+~
+Z 0 6152
+0 0
+D4
+~
+~
+Z 0 18001
+0 0
+S
+#10002
+A Clearing in the Woods.~
+As you come out of the forest you enter a clearing in the
+woods. This clearing isn't very big but it sure is good to see
+the sun again. There are two large signs nailed on a tree leading
+back into another forest. You wonder what the sign says and go to
+take a closer look. There are two exits here by the lake. One
+goes south to the path and the other goes north into the woods
+again.
+~
+0 0 forest
+D0
+The entrance to the woods.
+~
+~
+Z 0 10003
+0 0
+D2
+Back to the woods.
+~
+~
+Z 0 10001
+0 0
+S
+#10003
+Welcome to Westlands~
+Welcome! Here you are in the middle of a forest beside Trout
+Lake. The road you are walking on goes to the north and back to
+the south if you wish to leave. There are fish jumping in the
+lake, people playing in the sand and picking flowers. This place
+sure is wonderful.
+~
+0 0 forest
+D0
+Path down the road.
+~
+~
+Z 0 10004
+0 0
+D2
+Back to the clearing.
+~
+~
+Z 0 10002
+0 0
+S
+#10004
+A Path Down The Road.~
+You are walking along side next to Trout Lake on a dusty old
+road. The trees here are very tall and large. The sun is out
+shining upon you and you start to feel hot. The road continues
+north and south.
+~
+0 0 forest
+D0
+Turn in the road.
+~
+~
+Z 0 10005
+0 0
+D2
+The road south.
+~
+~
+Z 0 10003
+0 0
+S
+#10005
+A Turn in the Road.~
+As you walk down the road you come across a path leading up into the
+mountains.  Since going north will lead right into the lake you must go west
+up into the mountains.  There is a little rabbit drinking from a small pond
+infront of you.  You wonder where such a beautiful creature came from.  You
+could still go back south to the turn in the road.  
+~
+0 0 forest
+D2
+The road south.
+~
+~
+Z 0 10004
+0 0
+D3
+The path to the mountains.
+~
+~
+Z 0 10006
+0 0
+S
+#10006
+A Path to the Mountains.~
+As you approach the mountains, you leave the forest behind to open air
+space.  The wind here is blowing more swiftly and the sun is even hotter. 
+You notice the giant wayward pines that loom overhead.  You wonder where
+such wonderous trees came from.  The path up the mountain looks like a nice
+and easy one to take.  You could retrun to the east or go up the mountain.  
+~
+0 0 mountain
+D1
+The path to the forest.
+~
+~
+Z 0 10005
+0 0
+D4
+The trail up the mountain.
+~
+~
+Z 0 10007
+0 0
+S
+#10007
+The Trail up the Mountain.~
+The trail is an easy one to climb and you enjoy the lovely walk.  As you
+come to the top of the trail you realize that you are now in Upper Ven. 
+Upper Ven is the mountain before the city.  The path look quite clear and
+easy to pass.  The rocks are warm in the sun's rays and are gleaming with a
+mirage from the heat.  You may go north or down.  
+~
+0 0 mountain
+D0
+The path along the cliff.
+~
+~
+Z 0 10008
+0 0
+D5
+Back down the mountain.
+~
+~
+Z 0 10006
+0 0
+S
+#10008
+The Edge of Upper Ven.~
+You reach the end of the mountain and have to go down again.  The path
+leads back into another forest and seems appealing to you to get out of the
+sun.  The forest is filled with trees and shrubs all are changing color,
+heralding the approaching cold of the winter season.  The gold and bronze
+colors of the leaves are quite beautiful and look as if they are each worth
+more than life itself.  The mountain air is fresh and cool, and it makes you
+feel like sitting down to take a rest.  You may go down or south.  
+~
+0 0 mountain
+D2
+The southern trail.
+~
+~
+Z 0 10007
+0 0
+D5
+The trail into the forest.
+~
+~
+Z 0 10009
+0 0
+S
+#10009
+The Trail in the Forest.~
+You have entered the forest near the town of Hartland.  The path is
+outlined with bright yellow flowers and little purple plants.  There is a
+little shack far off to the north east that, for some reason, doesn't look
+very welcoming.  The forest isn't very thick and you can see all around you.
+There are wild ferns and other plants that you have never seen before. 
+There is one plant that you've never seen before, but think that you
+recognize it from a book that you read.  This forest is a sanctuary from the
+heat of the sun.  A trail leads north to the outskirts of Hartland and back
+up into the mountains.  
+~
+0 0 forest
+D0
+The out-skirts of Hartland.
+~
+~
+Z 0 10010
+0 0
+D4
+The trail up the mountain.
+~
+~
+Z 0 10008
+0 0
+S
+#10010
+The Out-Skirts of Hartland.~
+You are standing at the outskirts of the little town, Hartland.  The road
+you walk on is dry and dust covered.  Its seems like it hasn't rained for
+quite sometime.  Up ahead you can see the town beginning to take shape. 
+Many people have gathered together out in the streets, crowding around a
+tall, white-robed man.  The town is full of life, and the people look happy
+with their lot in life.  
+~
+0 0 forest
+D0
+The town of Hartland.
+~
+~
+Z 0 10011
+0 0
+D2
+Back to the woods.
+~
+~
+Z 0 10009
+0 0
+S
+#10011
+The Town of Hartland.~
+You have entered the town of Hartland.  Everyone here and joyful.  The
+are listening to a speech about fire, which doesn't interest you overly,
+thought the speaker is rather dynamic.  You are surprised at the powerful
+influence this man has over his audience, and they listen, enraptured, to
+his every word.  There are a number of plain houses on either side of you,
+but they don't look particularly interesting to you.  You can go north
+through a path in the fields, or south back to the woods.  
+~
+0 0 city
+D0
+The fields out-side of town.
+~
+~
+Z 0 10012
+0 0
+D2
+Back to the out-skirts of Hartland.
+~
+~
+Z 0 10010
+0 0
+S
+#10012
+The Fields of Hartland.~
+You have entered the fields outside of the town and are on your way to
+South Haven.  Near South Haven is where the Narrows are.  In order to get to
+South Haven you must cross the swamps on the way.  The air is surprisingly
+still and peaceful.  There are few trees around and even fewer animals.  The
+trail leads north into a swamp, whose foul stench steals your breath away,
+the path south leads back to the town of Hartland.  North back to the town
+you came from.  
+~
+0 0 field
+D0
+The path to the swamp.
+~
+~
+Z 0 10013
+0 0
+D2
+Back to the town.
+~
+~
+Z 0 10011
+0 0
+S
+#10013
+The Path to the Swamps.~
+As you walk along the trail the forest begins to get thicker and thicker.
+The trail becomes more and more hidden and a mist hangs thickly in the air. 
+The trees are bunched closely together and the sun is no longer visible. 
+The air is very musty and is beginning to get colder.  In the distance you
+hear the baying of the heart hounds as they join the hunt.  
+~
+0 0 forest
+D0
+Closer to the Swamp.
+~
+~
+Z 0 10014
+0 0
+D2
+Back to the fields.
+~
+~
+Z 0 10012
+0 0
+S
+#10014
+Closer to the Swamps.~
+You are getting closer to the swamp, the mist is very thick in the air
+and you have difficulty seeing anything.  The trees are beginning to look
+old and dry and the ground is getting muddier.  The baying of the heart
+hounds is getting closer by the minute and you begin to panic.  
+~
+0 0 forest
+D1
+Path at the swamp.
+~
+~
+Z 0 10015
+0 0
+D2
+Back to the trail.
+~
+~
+Z 0 10013
+0 0
+S
+#10015
+The Path at the swamp.~
+You have arrived at the swamp at the same time as the heart hounds.  The
+heart hound will not enter the swamp so it must be your only choice...  Or
+fight.  The swamp looks uninviting and you don't know what sort of creatures
+live under the murky waters.  There is a small island in the center of the
+swamp that seems deserted.  The waters in the swamp are shallow enough to
+pass by foot.  You had better decide quickly, fight the hounds, or wade to
+the island.  The exits are back east or west.  
+~
+0 0 swim
+D1
+Over the waters.
+~
+~
+Z 0 10016
+0 0
+D3
+Back through the woods.
+~
+~
+Z 0 10014
+0 0
+S
+#10016
+Over the Swamp Waters.~
+As you are crossing the waters you notice that the hounds don't follow
+you.  The water is refreshing and cool.  The island is just up ahead and you
+can't wait to get there.  You notice the water starts to move and then you
+see them.  Snakes.  Little yellow deadly snakes.  All over the place.  You
+start to run as fast as you can towards the island.  You could go east to
+the island or back west.  
+~
+0 0 swim
+D1
+On the island.
+~
+~
+Z 0 10017
+0 0
+D3
+Back to the path.
+~
+~
+Z 0 10015
+0 0
+S
+#10017
+On the Island.~
+As you climb up on on the island you realize that the snakes don't follow
+you on to dry land.  The hounds are still back on the other shore and will
+not enter the waters.  The hounds let out yelps of frustration.  The island
+doesn't have any trees or plants.  Looking to the east you see the new path
+to SouthHaven.  You wonder when you should attempt to cross the waters
+again.  The exits are to the east, and to the west.  
+~
+0 0 hills
+D1
+Over the waters heading south.
+~
+~
+Z 0 10018
+0 0
+D3
+Back on the waters.
+~
+~
+Z 0 10016
+0 0
+S
+#10018
+Over The Waters.~
+As you set out again through the swamp, you notice that the sun is coming
+out and the mist is clearing.  The snakes haven't bothered you yet and the
+hounds have returned back to their home, in the boundary.  The swamp gets
+shallower as you approach the land again and the sky goes clear.  The exits
+are east the shore or back west to the island.  
+~
+0 0 swim
+D1
+On The Shore.
+~
+~
+Z 0 10019
+0 0
+D2
+~
+~
+Z 0 10936
+0 0
+D3
+Back to the Island.
+~
+~
+Z 0 10017
+0 0
+S
+#10019
+On The Shore Again.~
+Now that you have reached the shore you breath a sigh of
+reliefe that the hounds have gone away. You look down to the
+south towards SouthHaven and you can hear the faint sounds of the
+city life. You continue your hike to SouthHaven. You may go back
+to the swamps to the west or continue east.
+~
+0 0 forest
+D1
+Trail through the woods.
+~
+~
+Z 0 10020
+0 0
+D3
+Back on the waters.
+~
+~
+Z 0 10018
+0 0
+S
+#10020
+The Trail Through the Woods.~
+The woods seem to have come alive since you last saw them.  The trees
+here are big and full of colorful leaves, the road is dry again and there
+are plants growing in the woods.  The trip to South Haven isn't as bad as
+you thought.  You can see the village up ahead.  The exits are west to the
+shoreline or east to the village.  
+~
+0 0 forest
+D1
+The entrance to the village.
+~
+~
+Z 0 10021
+0 0
+D3
+Back to the waters.
+~
+~
+Z 0 10019
+0 0
+S
+#10021
+The Village Gates.~
+As you approach this village the giant gates open up to welcome you.  The
+city is alive with action in the streets.  There are children everywhere and
+people at the stores.  The village road continues on to the east where you
+notice a pub.  Perhaps you'll stop in and have a cup of ale.  The road leads
+into the village to the east or to the forest back west.  
+~
+0 0 city
+D1
+The Road in the Village.
+~
+~
+Z 0 10022
+0 0
+D3
+Back to the Forest.
+~
+~
+Z 0 10020
+0 0
+S
+#10022
+The Road Along the Village.~
+As you walk down the street you notice a nice bar to the
+east. It looks quite welcoming and you sure are thirsty. There is
+faint singing comming from the bar..drunken men you suppose. You
+hear some people talking about their weekends and what they want
+to do. There is a fresh cool breeze floating through the city.
+The exits are north to the gates, east to the bar, or south to
+the path to the Narrows.
+~
+0 0 city
+D0
+Entrance to the bar.
+~
+~
+Z 0 10023
+0 0
+D1
+Path to the narrows.
+~
+~
+Z 0 10024
+0 0
+D3
+Back to the gates.
+~
+~
+Z 0 10021
+0 0
+S
+#10023
+The Bar.~
+You enter a small smoke filled room just filled with people
+all drinking and enjoying themselves. There is a bartender
+selling drinks and a lady on stage singing her favorite little
+number. The drunken men are big and strong but, are covered with
+ale stains on their shirts. The exit is back out to the west onto
+the road again.
+~
+0 0 inside
+D1
+You see the faint outline of a hidden door against the back wall of the tavern.
+~
+secret~
+ABZ 0 10043
+0 0
+D2
+Back to the road.
+~
+~
+Z 0 10022
+0 0
+S
+#10024
+The Trail to The Narrows.~
+This is a long trail that leads up to the narrows where you
+will need to cross into D'Hara. The path is wide and quite
+visable. There are little animals running around in the woods all
+about. You notice that the trees are thicker and a lot greener.
+The humidity begins to rise and it starts to feel hotter. Your
+legs start to get tired when you see the Bone Woman's shack up
+ahead. It would be good to visit her. Her shack is about oh..
+twenty or so yards ahead and will take no time to reach it. You
+spot the Narrows up ahead. The exits are north to the village or
+south to the Bone Woman.
+~
+0 0 forest
+D1
+The path to the Bone Womens.
+~
+~
+Z 0 10025
+0 0
+D3
+The path to the village.
+~
+~
+Z 0 10022
+0 0
+S
+#10025
+The Path to the Bone Woman's Shack.~
+You walk out into a clearing in the woods and notice that
+the sky is starting to become over cast again. The woods look
+ready for rain and the trees have their leaves turned upwards.
+There is a shack to the west of you which must belong to the Bone
+Woman. The shack looks nice and cosy. It would be nice to stay and have
+a visit with the old Bone Woman. The exits are north to the
+forest, west to the bone Woman, and south to the Narrows.
+~
+0 0 forest
+D0
+The Bone Womans house.
+~
+~
+Z 0 10026
+0 0
+D1
+The path to the Narrows.
+~
+~
+Z 0 10027
+0 0
+D3
+Back to the forest.
+~
+~
+Z 0 10024
+0 0
+S
+#10026
+The Bone Woman's Shack.~
+You enter a room that has bones all over the walls. There is
+a nice warm fireplace sitting in the corner giving off heat and
+light. A oil lamp is hanging from a beam in the roof and gives
+the room an eerie glow. There are bones in little piles on the
+floors and an old lady stands in the center of the room. She has
+a big smile on her face and offerse you to stay in her home for
+as long as you wish. The exit is back to the east, out on the
+trail.
+~
+0 0 inside
+D2
+Back to the road.
+~
+~
+Z 0 10025
+0 0
+S
+#10027
+The Narrows.~
+You have reached the Narrows. This is a very dangerous place
+to be in. There are many underworld beasts that live in the
+narrows. You should stay on guard and not fall asleep. The exits
+are west to continue into the narrows, or north to return to the
+bone woman for a cup of tea.
+~
+0 0 desert
+D1
+The path through the narrows.
+~
+~
+Z 0 10028
+0 0
+D3
+Back to the bone woman's for a cup of tea.
+~
+~
+Z 0 10025
+0 0
+S
+#10028
+The Path Through The Narrows.~
+The trail you are following is an easy on to follow. There
+is no sound which frightens you a little but then the fear
+passes. As you continue west you can see the center of the
+narrows approaching. Apparently they are the most dangerous part
+of the whole narrows. The exits are west to the center or east to
+the entrance of the narrows.
+~
+0 0 desert
+D1
+The center of the Narrows.
+~
+~
+Z 0 10029
+0 0
+D3
+Back to the enterance of the Narrows.
+~
+~
+Z 0 10027
+0 0
+S
+#10029
+The Center of the Narrows.~
+You approach the center of the Narrows when you spot it. A
+shadow person. They have a poisonous touch and are the
+undertakers of the dead. You try to get past it without making
+him attack. The sky is getting dark and you still have a little
+ways to go. The exits are in an east-west direction, west being
+the way you want to go.
+~
+0 0 desert
+D1
+The path to the end of the Narrows.
+~
+~
+Z 0 10030
+0 0
+D3
+The way you came.
+~
+~
+Z 0 10028
+0 0
+S
+#10030
+Near The End of the Narrows.~
+You are approaching the end of the narrows. You give a sigh
+of relief that you are almost out of this dreaded place. The sun
+is setting out ahead of you making it hard to see your way. The
+air starts to cool down as the sun sets in the west. You try to
+hurry your way out of the narrows before dark. The exits are of
+course; east and west.
+~
+0 0 desert
+D1
+The end of the narrows.
+~
+~
+Z 0 10031
+0 0
+D3
+The way you came..of course.
+~
+~
+Z 0 10029
+0 0
+S
+#10031
+The End of The Narrows.~
+You have reached the end!!! Yay!..... Uh Oh!!! The sun has
+set and right before your eyes materializes The Spirit King. He
+is not going to let you pass. You must fend off this naughty
+beast and get to Darken Rahl. The exits are to the west and to
+the east.
+~
+0 0 desert
+D1
+The Azrith Plains.
+~
+~
+Z 0 10032
+0 0
+D3
+The Narrows.
+~
+~
+Z 0 10030
+0 0
+S
+#10032
+The Azrith Plains.~
+Welcome to D'Hara! You have successfully passed through the
+narrows and are standing infront of the Azrith Plains. The plains
+are quite massive and reach as far as your eyes can see. In the
+distance, you see the home of Darken Rahl, the Peoples Palace.
+You have to cross the Azrith Plains in order to get to Darken
+Rahl in his massive palace.
+The exits are north and east.
+~
+0 0 field
+D0
+The Azrith Plains.
+~
+~
+Z 0 10033
+0 0
+D3
+The Narrows end.
+~
+~
+Z 0 10031
+0 0
+S
+#10033
+The Path Through the Plains.~
+You have found a path that is quite long but leads to Darken
+Rahl's Palace. The path is covered with stones and there is an
+occassional tree here and there. The sky is bright and clear and
+it is a hot day. You start to be thirsty and you feel sort of
+tired. Your only choice is to go ahead onto the Peoples Palace
+and stop Darken Ralh then steel a drink and a bite to eat. The
+way back through the Narrows doesn't seem appealing. The exits
+are north and south.
+~
+0 0 field
+D0
+The Azrith Plains.
+~
+~
+Z 0 10034
+0 0
+D2
+The path back where you came from.
+~
+~
+Z 0 10032
+0 0
+S
+#10034
+The Azrith Plains.~
+You notice that you have traveled quite far and are almost
+at the Palace. You feel a sudden urge to stop and go back but
+then it passes. You see ahead of you a giant Dragon blocking your
+trail. Maybe she will listen to you and move out of the way.
+Maybe she will eat you up for breakfast... Hmmmmmm...Breakfast
+sure would be nice. The exits are north and south.
+~
+0 0 field
+D0
+To the BIG scary DRaGoN.
+~
+~
+Z 0 10035
+0 0
+D2
+Back through the boring old plains.
+~
+~
+Z 0 10033
+0 0
+S
+#10035
+The Dwelling of Rahl's {!Red Dragon{x~
+You approach the dragon and notice that she is the biggest,
+most frightening beast you have ever seen. The dragon takes
+little notice of you as you attempt to get by. Try to kill
+her. That way she won't be a hassle on the way out of the
+area.
+~
+0 0 field
+D0
+The entrance to the Peoples Palace.
+~
+~
+Z 0 10036
+0 0
+D2
+Back the way you came.
+~
+~
+Z 0 10034
+0 0
+S
+#10036
+The Peoples Palace.~
+Finally you're at the Peoples Palace. This palace sure is
+big. Bigger then anything you have ever seen. The doors are ten
+times as big as you, yet they stand open..as if you're being
+expected. The stairs are made from white marble and are spotless.
+The exits are north into the palace or south to the BIG scary
+DRaGoN.
+~
+0 0 field
+D0
+The Palace.
+~
+~
+Z 0 10038
+0 0
+D2
+The big scary DRaGoN.
+~
+~
+Z 0 10035
+0 0
+S
+#10038
+The Long Hallway.~
+You enter the Palace and head down a long hallway. There are
+many people wandering about this castle and others are praying or
+chanting about Darken Ralh. You pass one Devotion Room afilled
+with these people. You decide not to stop and keep on going. The
+exits are to the north, south and to the east there is a room
+filled with devoters.
+~
+0 0 inside
+D0
+The longer hallway.
+~
+~
+Z 0 10041
+0 0
+D1
+The devotion room.
+~
+~
+Z 0 10039
+0 0
+D2
+Back to the gates.
+~
+~
+Z 0 10036
+0 0
+S
+#10039
+The Devotion Room.~
+This room is filled with people, heads bowed to the floor
+chanting a harmonic tune. There is a giant pool in the center of
+the room filled with water. The place looks like an indoor
+garden. You get shivers up your spine just at the sight of all
+these people devoted to Darken Rahl. The exits are north and back
+west.
+~
+0 0 inside
+D0
+To the Mord-Sith room.
+~
+~
+Z 0 10040
+0 0
+D3
+Back to the hallway.
+~
+~
+Z 0 10038
+0 0
+S
+#10040
+The Room of the Mord-Siths.~
+This room is filled with the horid smell of blood and sweat
+combined. There are people chained to beams and women dressed in
+red leather torturing them. The floors are covered in blood. The
+moment you enter this room you regret it. The Mord-Siths have
+spotted you and are heading in your direction. Better run FAST!
+~
+0 0 inside
+D2
+Back to the Devotion room.
+~
+~
+Z 0 10039
+0 0
+S
+#10041
+The End of The Hallway.~
+You have reached the end of the hallway..on this floor.
+Before you are giant doors with gold doorknobs. There is the
+sound of birds tweeting from within. You feel the the magic
+surrounding this room...
+
+You have found Darken Rahl! The door opens automatically before
+you. You may enter or go back to the Mord-Siths.
+~
+0 0 inside
+D0
+The Garden of Life.
+~
+~
+Z 0 10042
+0 0
+D2
+The long hallway.
+~
+~
+Z 0 10038
+0 0
+S
+#10042
+The Garden of Life.~
+This is a cavernous room filled with wonders sorts of
+magical plants. Leaded windows high overhead let in the light for
+the lush plants. Around the outside of the room are flowers set
+in beds, with walkways winding through. Beyond the flowers are
+small trees, short stone walls with vines covering them, and
+well-tended plants completing the landscaping. Except for the
+windows overhead, this room mimics an outdoor garden. In the
+centre of this expansive room is an area of lawn that sweeps
+around almost into a circle, the grass ring broken by a wedge of
+white stone, upon which sits a slab of granite, smooth but for
+grooves carved near the edge of the top, leading to a small well
+in one corner. It is held up by two short fluted pedestals.
+Beyond the slab stands a polished stone block set next to a fire
+pit.  In the centre of the lawn lies a round area of white
+sorcerer's sand, ringed with torches that burn with fluid flames.
+
+The only exit is south.
+~
+0 0 inside
+D2
+~
+~
+Z 0 10041
+0 0
+S
+#10043
+The Thieves Hideout~
+You have made a grave mistake and have blundered into a thieves hideout. 
+Gold and jewels tumble from chests lining the walls, a treasure fit for a
+king.  Unfortunately you probably won't live to take any of it...  
+~
+0 AD inside
+D3
+~
+~
+ABZ 0 10023
+0 0
+S
+#10057
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100506
+0 0
+D3
+~
+~
+Z 0 10058
+0 0
+S
+#10058
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 10057
+0 0
+D3
+~
+~
+Z 0 10059
+0 0
+S
+#10059
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 10058
+0 0
+S
+#0
+
+#SPECIALS
+M 10005 spec_assassinater	* a quad assassin
+M 10006 spec_assassinater	* a quad assassin
+M 10010 spec_nasty	* a heart hound
+M 10014 spec_special_guard	* a boundary warden
+M 10015 spec_thief	* a thief
+M 10017 spec_cast_cleric	* the Bone Woman
+M 10018 spec_fido	* a nasty gripper
+M 10019 spec_cast_seneschal	* the {MSCaRy Shadow THing{x
+M 10020 spec_cast_undead	* the Spirit King
+M 10021 spec_breath_fire	* {WDarken Rahl's {Rred dragon{x
+M 10022 spec_poison	* an evil shadow person
+M 10025 spec_assassinater	* A little thief
+M 10028 spec_fido	* A dopey little cat
+M 10029 spec_cast_mage	* an evil Mord-Sith
+M 10031 spec_cast_undead	* Darken Rahl
+S
+
+#RESETS
+D 0 10023 1 1	* The Bar.: door to the east: closed
+D 0 10043 3 1	* The Thieves Hideout: door to the west: closed
+O 0 10025 0 10001	* a sign (Path By a Lake.)
+O 0 10026 0 10001	* a little sign (Path By a Lake.)
+M 0 10007 1 10003 1	* a young lady (Welcome to Westlands)
+M 0 10008 1 10003 1	* a fisherman (Welcome to Westlands)
+M 0 10009 1 10003 1	* a little boy (Welcome to Westlands)
+M 0 10005 4 10005 1	* a quad assassin (A Turn in the Road.)
+M 0 10005 4 10005 1	* a quad assassin (A Turn in the Road.)
+M 0 10005 4 10005 1	* a quad assassin (A Turn in the Road.)
+M 0 10005 4 10005 1	* a quad assassin (A Turn in the Road.)
+M 0 10014 2 10006 1	* a boundary warden (A Path to the Mountains.)
+E 0 10012 0 1		*	a wardens signet ring: on the left finger
+E 0 10012 0 2		*	a wardens signet ring: on the right finger
+E 0 10013 0 7		*	a {gwarden's {yleggings{x: on the legs
+M 0 10010 4 10008 1	* a heart hound (The Edge of Upper Ven.)
+M 0 10010 4 10008 1	* a heart hound (The Edge of Upper Ven.)
+M 0 10001 2 10009 1	* A long-tailed gar (The Trail in the Forest.)
+M 0 10002 2 10009 1	* a long-tailed gar (The Trail in the Forest.)
+M 0 10004 4 10009 1	* a blood fly (The Trail in the Forest.)
+M 0 10004 4 10009 1	* a blood fly (The Trail in the Forest.)
+M 0 10015 1 10010 1	* a thief (The Out-Skirts of Hartland.)
+M 0 10011 1 10011 1	* a speaker (The Town of Hartland.)
+M 0 10012 2 10011 1	* a happy villager (The Town of Hartland.)
+M 0 10012 2 10011 1	* a happy villager (The Town of Hartland.)
+M 0 10013 1 10011 1	* a healer (The Town of Hartland.)
+M 0 10003 1 10012 1	* a long-tailed gar (The Fields of Hartland.)
+M 0 10004 4 10012 1	* a blood fly (The Fields of Hartland.)
+M 0 10016 2 10012 1	* a beggar (The Fields of Hartland.)
+M 0 10016 2 10012 1	* a beggar (The Fields of Hartland.)
+M 0 10001 2 10015 1	* A long-tailed gar (The Path at the swamp.)
+M 0 10002 2 10015 1	* a long-tailed gar (The Path at the swamp.)
+M 0 10004 4 10015 1	* a blood fly (The Path at the swamp.)
+M 0 10010 4 10015 1	* a heart hound (The Path at the swamp.)
+M 0 10010 4 10015 1	* a heart hound (The Path at the swamp.)
+E 0 10015 0 1		*	a heart hounds collar: on the left finger
+M 0 10026 4 10016 1	* A yellow snake (Over the Swamp Waters.)
+M 0 10026 4 10016 1	* A yellow snake (Over the Swamp Waters.)
+M 0 10026 4 10016 1	* A yellow snake (Over the Swamp Waters.)
+M 0 10026 4 10016 1	* A yellow snake (Over the Swamp Waters.)
+M 0 10014 2 10020 1	* a boundary warden (The Trail Through the Woods.)
+E 0 10001 0 16		*	a boundary warden's mace: wielded
+E 0 10006 0 9		*	a {gwarden's {ygloves{x: on the hands
+E 0 10007 0 8		*	wardens boots: on the feet
+E 0 10008 0 10		*	wardens sleeves: on the arms
+E 0 10009 0 11		*	a wardens shield: as a shield
+E 0 10010 0 5		*	a wardens tunic: on the body
+E 0 10011 0 6		*	a {gwarden's {yhelmet{x: over the head
+G 0 10020 0		*	a boundary warden's flail
+G 0 10021 0		*	a boundary wardens club
+G 0 10022 0		*	a wardens dagger
+G 0 10019 0		*	a boundary wardens sword
+M 0 10028 1 10022 1	* A dopey little cat (The Road Along the Village.)
+G 0 10017 0		*	a shortbread cookie
+M 0 10023 1 10023 1	* a bar tender (The Bar.)
+G 0 10004 0		*	a jug 'o beer
+G 0 10016 0		*	a rune covered pouch
+M 0 10024 4 10023 1	* a drunken villager (The Bar.)
+G 0 10004 0		*	a jug 'o beer
+M 0 10024 4 10023 1	* a drunken villager (The Bar.)
+M 0 10024 4 10023 1	* a drunken villager (The Bar.)
+M 0 10024 4 10023 1	* a drunken villager (The Bar.)
+M 0 10006 4 10025 1	* a quad assassin (The Path to the Bone Woman's Shack.)
+M 0 10006 4 10025 1	* a quad assassin (The Path to the Bone Woman's Shack.)
+M 0 10006 4 10025 1	* a quad assassin (The Path to the Bone Woman's Shack.)
+M 0 10006 4 10025 1	* a quad assassin (The Path to the Bone Woman's Shack.)
+M 0 10017 1 10026 1	* the Bone Woman (The Bone Woman's Shack.)
+E 0 10002 0 4		*	the bone woman's necklace: around the neck (2)
+M 0 10018 3 10028 1	* a nasty gripper (The Path Through The Narrows.)
+G 0 10003 0		*	a {rgr{Ri{rpper's {Wtooth{x choker
+M 0 10018 3 10028 1	* a nasty gripper (The Path Through The Narrows.)
+M 0 10018 3 10029 1	* a nasty gripper (The Center of the Narrows.)
+M 0 10019 2 10029 1	* the {MSCaRy Shadow THing{x (The Center of the Narrows.)
+M 0 10030 2 10029 1	* a devoter of Darken Rahl (The Center of the Narrows.)
+M 0 10019 2 10030 1	* the {MSCaRy Shadow THing{x (Near The End of the Narrows.)
+M 0 10020 1 10031 1	* the Spirit King (The End of The Narrows.)
+M 0 10022 4 10032 1	* an evil shadow person (The Azrith Plains.)
+M 0 10027 2 10032 1	* An underworld beast (The Azrith Plains.)
+G 0 10018 0		*	a BIG piece of cake
+M 0 10027 2 10032 1	* An underworld beast (The Azrith Plains.)
+M 0 10022 4 10034 1	* an evil shadow person (The Azrith Plains.)
+M 0 10022 4 10034 1	* an evil shadow person (The Azrith Plains.)
+M 0 10021 1 10035 1	* {WDarken Rahl's {Rred dragon{x (The Dwelling of Rahl's {!Red Dragon{x)
+E 0 10030 0 16		*	{Rthe{z {Wtooth{z {Rof{z {WDarken Rahl's{z {Rred dragon{z: wielded
+M 0 10029 2 10038 1	* an evil Mord-Sith (The Long Hallway.)
+E 0 10023 0 16		*	a Mord-Sith's agiel: wielded
+M 0 10029 2 10040 1	* an evil Mord-Sith (The Room of the Mord-Siths.)
+M 0 10030 2 10041 1	* a devoter of Darken Rahl (The End of The Hallway.)
+M 0 10031 1 10042 1	* Darken Rahl (The Garden of Life.)
+E 0 10024 0 14		*	a bracer of power: on the left wrist
+G 0 10031 0		*	the lost {YRing{x of the {gDr{Ga{ggon {YKing{x
+M 0 10025 1 10043 1	* A little thief (The Thieves Hideout)
+E 0 10014 0 5		*	a dark robe: on the body
+E 0 10027 0 16		*	a thieves dirk: wielded
+O 0 10028 0 10043	* a wooden chest (The Thieves Hideout)
+E 0 10005 0 8		*	a pair of {Dblack boots{x: on the feet
+P 0 10029 1 10028 1	* a wooden chest: {Ya king's ransom in gold{x
+S
+
+#SHOPS
+10023 0 0 0 0 0 100 20 0 23
+0
+
+#OLIMITS
+O 10030 1	* {Rthe{z {Wtooth{z {Rof{z {WDarken Rahl's{z {Rred dragon{z
+O 10031 2	* the lost {YRing{x of the {gDr{Ga{ggon {YKing{x
+S
+
+#$

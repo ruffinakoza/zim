@@ -1,0 +1,42 @@
+
+{Rsharpness{x: at "skill with the weapon"/8 percent of the time (9-12%)
+           The weapon does approximinately 250% of its normal damage.
+	   +10% to damage equipment in combat
+.
+     {Rholy{x: if the wielder is good, and the victim evil, 30% of the time
+           it does 220% normal damage
+.
+   {Rvorpal{x: skill + strength *4 / 200,000 chance of beheading (0.1%)
+.
+   {Rpoison{x: victim saves against 1/2 weapon level
+           poison level is 3/4th weapon level
+	   poison duration is 1/2 weapon level
+	   -1 to STR
+	   all affects non-cumulative
+.
+ {Rvampiric{x: damage "weapon's level" / 5 + 1 to 1 (at hero 1d19)
+           wielder receives 1/2 the damage added to hitpoints
+	   protection negative refutes the attack
+.
+  {Rflaming{x: damge "weapon's level" /4 + 1 to 1 (at hero 1d24)
+           fireblind unless save vs weapon's level / 2
+.
+    {Rfrost{x: damge "weapon's level" /6 + 2 to 1 (at hero 1d18)
+           coldeffect unless save vs weapon's level / 2
+.
+    {Rshock{x: damge "weapon's level" /5 + 2 to 1 (at hero 1d19)
+           shock (lag) unless save vs weapon's level / 2
+.
+  {Rhumming{x: does nothing
+.
+  {Rglowing{x:  -5% chance to mend the item
+.
+    {Rmagic{x:  +5% chance to mend the item
+           -20% chance to be damaged in combat
+.
+    {Rbless{x: -10% chance to be damaged in combat
+            -5% chance to be damaged by acid
+.    
+      {Raxe{x: wielder gets a +20% chance to succeed in the "cleave" skill
+           +10% to damage equipment in combat
+.           

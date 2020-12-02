@@ -1,0 +1,12 @@
+#RACE
+Name bugbear~
+Dodge 30
+Align -500
+Sex either
+Size medium
+Act warrior~
+Form sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye claws tusks~
+End
+
+#$

@@ -1,0 +1,163 @@
+#PLAYER
+Name Nalaeya~
+Passwd NaGfMUCEH.Fkk~
+Born 1164603443
+LogO 1169009643
+Level 69
+Race half-elf~
+Sex  2
+Class paladin~
+Ethos none
+Hometown Fayten Keep~
+Prom {W[%r]{C[%R]{B[%z]{c[%e]{x ~
+Room 1570
+Gold 13
+Silv 413
+Exp 546480
+ExpTL 0
+Drain_level 0
+Conf holylight nosummon holylight~
+Comm prompt long combine color~
+AffectedBy infrared~
+Invi 61
+Inco 61
+Pos  8
+Prac 5
+Alig  1000
+Hit   6
+ACs 83 83 83 87
+Relig 0
+Attr 41 68 46 59 41 52 48
+AttrTrend 2788 4624 3128 4012 2788 3536 3264
+AttrAvgTot 41 69 46 59 41 52 48
+AttrAvgNum 1 1 1 1 1 1 1
+AMod 0 1 0 0 0 0 0
+HMV  587 587 1129 1129 1038 1038
+Scro 38
+ShD Nalaeya~
+HMVDNP 587 1129 1014 68 105
+CndC  0 48 48 48 48 48
+Wizn ACSX
+Plyd 37545
+Not  1168813121 1169009320 1165958921 1167686299 1166815002 
+NoteCrime 0
+NoteEvent 1168910967
+Sec 9
+Title , {WDivine {CHand of Justice{x~
+Pnts 200
+TrueSex 2
+LastLevel 2
+Lang 0
+StalkersSaved 0
+PK_Kills 0
+PK_Deaths 0
+GoodKilled 0
+NeutKilled 4
+EvilKilled 0
+NoAlignKilled 0
+Dead 0
+GoodStanding 0
+NeutStanding 0
+EvilStanding 0
+Granted music affrooms force goto herotitle holylight imotd immtalk : incognito inform invis mpstat noaffect peace penalty penalties poofin poofout questtalk qt rename smote teleport transfer wizcom wizinvis wiznet clone dmtalk load mwhere pecho purge osockets scatter silence sockets stat alist asave ashow create edit resets at echo owhere prefi prefix smite switch warena addlag anoncolor award noexp notitle string version gecho > vnum zecho freeze set disconnect memory msgstat ofind popularity strstat aschar ban matchup newlock protect reclaim restore sla slay advance~
+Usage 1541 0 0 0 0 0 0 0 0 4755 143 0 943 0 205 1170 588 0 0 0 6447 0 0 4125 0 0 0 0 0 606 105 4269 0 0 2191 117 9010 454 0 0 0 0 0 0 0 0 0 0 0 0 0 79~
+Sk 1 'anathema'
+Sk 1 'armor'
+Sk 1 'bless'
+Sk 1 'bless weapon'
+Sk 1 'calm'
+Sk 1 'create food'
+Sk 1 'create water'
+Sk 1 'cure blindness'
+Sk 1 'cure critical'
+Sk 1 'cure disease'
+Sk 1 'cure light'
+Sk 1 'cure poison'
+Sk 1 'cure serious'
+Sk 1 'detect invis'
+Sk 1 'dispel evil'
+Sk 1 'flamestrike'
+Sk 1 'group heal'
+Sk 1 'heal'
+Sk 1 'holy word'
+Sk 1 'know alignment'
+Sk 1 'minor sanctuary'
+Sk 1 'protection evil'
+Sk 1 'ray of hope'
+Sk 1 'remove curse'
+Sk 1 'remove fear'
+Sk 1 'resilience'
+Sk 1 'sanctify lands'
+Sk 1 'sobriety'
+Sk 1 'summon'
+Sk 1 'superior heal'
+Sk 1 'turn'
+Sk 1 'wrath'
+Sk 1 'bastardsword'
+Sk 1 'dagger'
+Sk 1 'hammer'
+Sk 1 'hand to hand'
+Sk 40 'longsword'
+Sk 1 'mace'
+Sk 1 'shortsword'
+Sk 1 'second attack'
+Sk 1 'third attack'
+Sk 1 'fourth attack'
+Sk 1 'scrolls'
+Sk 1 'staves'
+Sk 1 'wands'
+Sk 1 'bash'
+Sk 1 'bash door'
+Sk 1 'blind fighting'
+Sk 1 'counter'
+Sk 1 'disarm'
+Sk 1 'enhanced damage'
+Sk 1 'fast healing'
+Sk 1 'improved benediction'
+Sk 1 'lay hands'
+Sk 1 'meditation'
+Sk 1 'parry'
+Sk 1 'rescue'
+Sk 1 'scalp'
+Sk 1 'shield block'
+Sk 1 'shield cleave'
+Sk 1 'weapon cleave'
+End
+
+#O
+Vnum 17617
+Cond 100
+Nest 0
+Owner ~
+Wear 0
+Cost 0
+End
+
+#O
+Vnum 17648
+Cond 100
+Nest 0
+Owner ~
+Wear 5
+Cost 0
+End
+
+#O
+Vnum 17614
+Cond 100
+Nest 0
+Owner ~
+Wear 16
+Cost 680
+End
+
+#O
+Vnum 17647
+Cond 100
+Nest 0
+Owner ~
+Wear 11
+Cost 0
+End
+
+#END

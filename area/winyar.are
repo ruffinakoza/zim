@@ -1,0 +1,2086 @@
+#AREADATA
+Name Winyar Woods~
+Builders Aamon~
+VNUMs 30100 30399
+Credits Aamon~
+Security 9
+LevelRange 0 0
+ResetMessage You hear an owl hooting somewhere deep in the woods.~
+Flags closed noquest~
+End
+
+#MOBILES
+#30100
+mprog waterfall monster~
+~
+The evil waterfall monster is here waiting to trigger it's mpcodes on un-suspecting adventurerers!
+~
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 30100 10~
+I 10001
+#30101
+old man~
+an old man~
+An old man is here looking for something.
+~
+It's an old human man.  He's fat and bald and he's looking somewhat confused.  He smells funny.  
+~
+human~
+ABG 0 0 0
+10 5 28d10+0 25d11+95 4d2+14 none
+-55 -55 -55 -55
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 30101 100~
+M give 30102 all~
+#30102
+red-headed finch bird dire~
+a GIGANTIC red-headed finch~
+A {Rred-headed{x bird is here, chirping at the sky.
+~
+It should be a very small bird but it is HUGE!  Obviously foul play is at
+work here.  No finch should be larger then a pig.  
+~
+song bird~
+AWe 0 0 0
+40 40 98d40+0 40d9+60 12d3+21 none
+-16 -16 -16 -7
+0 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+M death 30104 5~
+#30103
+bird multicoloured coloured cardinal~
+a {Rr{Ga{Yi{Bn{Rb{Go{Yw{x cardinal~
+A {Rmu{Glt{Yic{Bol{Rou{Gre{Yd{x bird is here hunting for flies.
+~
+This beautiful cardinal is an array of colours that shimmer in the light.
+It seems to use its many colours to attract bugs which it then circles
+around and quickly grabs with its curved beak.  As you look further at the
+bird you notice its unreal size.  It is almost as large as a cow!!  What is
+going on here?  
+~
+song bird~
+AWe 0 0 0
+43 43 113d43+0 43d9+60 13d3+22 none
+-18 -18 -18 -9
+0 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+M death 30105 5~
+#30104
+chipmunk~
+a GIGANTIC chipmunk~
+A GIGANTIC {ychi{Wpm{ymunk{x is here, grooming its white-striped fur.
+~
+This ought to be a very small rodent but for some reason it is HUGE!  It
+is taller then most dwarves and it just sits there, staring at you with its
+puppy eyes while it grooms its fur.  
+~
+unique~
+AHWe 0 0 0
+45 45 122d45+0 45d9+60 14d3+23 none
+-19 -19 -19 -9
+0 0 0 H
+stand stand either 0
+GV CD large flesh~
+~
+M death 30106 5~
+#30105
+giant winyar spider~
+a giant winyar spider~
+A giant spider is prowling the path.
+~
+It looks like the common spider only ALOT bigger.  It is doubtful that a
+diet of bugs and other insects can keep such a large spider alive.  
+~
+unique~
+AWe JM 0 0
+45 45 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+K 0 0 0
+stand stand none 0
+BP KV medium flesh~
+~
+M death 30107 5~
+#30106
+panda bear~
+a {Dpa{Wn{Dda {Wb{Dea{Wr{x~
+A large {Dpa{Wn{Dda {Wb{Dea{Wr{x is here, chewing on some leaves.
+~
+This adorable bear looks quite clumsy as it tries to stuff its mouth with
+large quantities of leaves.  It has been said that they sometime eat rocks
+to help their stomach grind the growth they eat.  Who knows.  
+~
+bear~
+A 0 0 0
+44 44 139d44+0 220d10+85 14d3+27 none
+-20 -20 -20 -11
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 30108 5~
+#30107
+lilac gorilla nrok~
+{mNrok the {ml{Mi{Wl{Ma{mc gorilla{x~
+A {ml{Mi{Wl{Ma{mc{x gorilla is moving slowly around the bushes.{*
+~
+A rather large gorilla in quite unusualy colours.  Its fur is a very
+light purple colour making it quite imposible for the creature to hide in
+the bushes.  It doesn't seem to care much about hiding anyway.  A rare sight
+if anything.  
+~
+unique~
+ACLT Jci -1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+ADO A E H
+stand stand male 0
+GMV DE medium flesh~
+~
+F attr+ BE
+M death 30109 100~
+#30108
+mpcode mob spawner~
+mpcode monster~
+An obscure figure is here, ready to spawn Nrok in rare occasions.
+~
+If you are a mortal player and can see me please report it to Aamon!  
+Thank you!
+~
+human~
+AB JZ 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 30110 5~
+I 92
+#30109
+winyar boa snake~
+a {yWin{Yya{yr B{Yo{ya{x~
+A large snake is here, blending perfectly into the background.
+~
+This 13 feet snake is coloured in bright yellow and dark brown, perfectly
+concealing it in the bushes.  It looks quite hungry and seems to be waiting
+for prey to come by.  
+~
+snake~
+AFLW Je -500 0
+46 46 150d46+0 230d10+85 15d3+28 none
+-21 -21 -21 -12
+R 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+#0
+
+#OBJECTS
+#30100
+grass~
+the grass~
+~
+unknown~
+grass~
+container ORTY 0
+10 0 0 10 0 0
+1 0 0 P
+E
+grass~
+You could easily loose things in the tall grass standing here.
+~
+G none
+G arial
+G none
+G none
+#30101
+waterfall~
+the waterfall~
+A roaring {bwa{Bte{Wr{bf{Ba{bl{Bl{x drops into the river here.~
+water~
+~
+portal ORY 0
+0 D 0 0 0
+1 0 0 P
+E
+waterfall~
+The waterfall roars so loud there has to be ALOT of power behind it.
+~
+G none
+G arial
+G none
+G none
+#30102
+stump~
+a wooden stump~
+A wooden stump stands here.~
+wood~
+~
+furniture R 0
+A 0 E 0 0 A 0
+1 0 0 P
+G none
+G arial
+G none
+G none
+#30103
+creek~
+the creek~
+A little creek runs through here.~
+water~
+~
+fountain Y 0
+0 0 'water' 0
+1 0 0 P
+G none
+G arial
+G none
+G none
+#30104
+beak~
+a pointy beak~
+A pointy beak is here, missing the bird it was attached to.~
+unknown~
+beak~
+trash 0 A
+0 0 0 0 0 0 0
+5 0 0 P
+G none
+G none
+G none
+G none
+#30105
+building~
+building~
+{WA large stone building is here.{x~
+unknown~
+~
+portal EOR 0
+0 ABCDFGJ 0 0 0
+15 0 0 P
+E
+building~
+It's a large white stone building.  Well it used to be white, now most of the color has faded and the paint has chipped.  It looks like a large mausoleum.  
+~
+G none
+G arial
+G none
+G none
+#30106
+ring~
+{D|{Ya r{yi{Yng{D|{x~
+a {Ygolden ring{x has been left behind.~
+energy~
+~
+jewelry CGTZ AB
+0 0 0 0 0 0 0
+1 0 0 P
+G none
+G arial
+G none
+G none
+#30107
+jade talisman 10052005~
+{gA jade talisman{x~
+A small green figurine has been carelessly left behind.~
+unknown~
+jade~
+treasure A AO
+0 0 0 0 0
+1 0 0 P
+E
+jade~
+It's a small figurine carved in jade.  It shows a man dressed in robes, who is kneeling in what could be prayer.  The surface of the talisman is completely smooth.  
+~
+E
+talisman~
+It's a small figurine carved in jade.  It shows a man dressed in robes, who is kneeling in what could be prayer.  The surface of the talisman is completely smooth.  
+~
+G none
+G arial
+G none
+G none
+#30108
+black talon~
+a {Dblack{x talon~
+The {Dblack{x talon of a small bird is lying here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+5 0 0 P
+G none
+G none
+G none
+G none
+#30109
+chipmunk tail~
+a {ychi{Wpm{yunk{x tail~
+A fluffy brown tail has been left behind.~
+fur~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#30110
+spider silk~
+{wspi{Wde{wr sil{Wk{x~
+A bundle of spider silk is lying infront of you.~
+unknown~
+~
+trash 0 AE
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#30111
+flint rock stone~
+{Wa {wpie{Dc{we {Wo{wf fl{Di{wn{Wt{x~
+A large piece of rock is lying here.~
+unknown~
+rock~
+trash 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#30112
+lilac fur purple pile~
+some {ml{Mi{Wl{Ma{mc{x fur~
+A pile of purple fur is lying here.~
+fur~
+~
+trash 0 AE
+0 0 0 0 0 0 0
+20 0 0 P
+G none
+G none
+G none
+G none
+#30113
+large lilac fist~
+a large {ml{Mi{Wl{Ma{mc{x fist~
+A large purple fist has been recklessly left behind.~
+flesh~
+~
+weapon Y AN
+exotic 45 1 beating K
+65 66 492893 P
+A
+19 8
+E
+fist~
+It's a large humanoid fist covered with purple fur.  Must have come from
+a quite unusual creature.  
+~
+G none
+G none
+G none
+G none
+#30114
+beak necklace~
+{DA beak {Mne{mc{Mkl{ma{Mce{x~
+A black beak is lying here, tied onto a purple pearl necklace.~
+unknown~
+beak~
+jewelry S AC
+0 0 0 0 0 0 0
+55 1 0 P
+A
+13 50
+A
+3 1
+G none
+G none
+G none
+G none
+#30115
+black talon ring circlet~
+A {Dblack{x talon {Wcirclet{x~
+A black talon has been shaped into a circlet and left behind.~
+unknown~
+~
+jewelry S AB
+0 0 0 0 0 0 0
+60 1 0 P
+A
+19 8
+G none
+G none
+G none
+G none
+#30116
+flame engulfed talon circlet ring~
+A {Df{rla{Rm{Ye {Wen{Ygu{Rl{rfe{Dd{x talon {Wcirclet{x~
+A flaming talon shaped into a circlet has been left behind by its owner.~
+unknown~
+~
+jewelry GS AB
+0 0 0 0 0 0 0
+60 1 0 P
+F
+R 18 -5 H
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#30100
+{yOn a dirt path{x~
+You are on a dirt path in the Winyar Woods.  The path continues into the
+forest to the north and connects to the eastern road just south of here. 
+Thick trees rise into the sky in the east and west and the air is filled
+with the sound of birds chirping and singing.  
+~
+0 0 city
+E
+tree~
+Carved into one of the tree trunks with golden letters are: 
+*******************************
+* This part of the world      *
+* has emerged from the        *
+* vision of the mighty Aamon. *
+*******************************
+~
+D0
+~
+~
+Z 0 30101
+0 0
+S
+#30101
+{yOn a dirt path{x~
+You are on a dirt path in the Winyar Woods.  The path continues to the
+north and south while thick trees reach high into the sky to the east and
+west.  The large treetops almost cover the entire sky above the path and
+only few rays of light are seen within the trees.  The air is cool and
+filled with the joyful sound of birds singing.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30102
+0 0
+D2
+~
+~
+Z 0 30100
+0 0
+S
+#30102
+{yOn a dirt path{x~
+You are on a dirt path in the Winyar Woods.  The path continues to the
+east and south while some really thick trees stand tall all around the path.
+A couple of feet just north of the path a small river seems to run and you
+can hear the soothing sound of running water.  The air is very moist here
+and birds are singing everywhere around you.  
+~
+0 0 city
+D1
+~
+~
+Z 0 30103
+0 0
+D2
+~
+~
+Z 0 30101
+0 0
+S
+#30103
+{yOn a dirt path{x~
+You are on a dirt path in the Winyar Woods.  The path continues to the
+east and west while gigantic trees rise into the sky all around it.  A
+soothing sound of running water is heard from the north and birds are
+chipping all around you.  The air is filled with water and the temperatur is
+abit cool.  
+~
+0 0 city
+D1
+~
+~
+Z 0 30104
+0 0
+D3
+~
+~
+Z 0 30102
+0 0
+S
+#30104
+{yOn a dirt path{x~
+You are on a dirt path in the Winyar Woods.  The path continues to the
+north and west while amazingly thick trees shoot into the air all around it.
+The trees stand so close it seems imposible for any creature to get through
+here and the treetops seem to cover most of the sky in there too.  The air
+is cool and moist and birds are chirping all around you. 
+~
+0 0 city
+D0
+~
+~
+Z 0 30105
+0 0
+D3
+~
+~
+Z 0 30103
+0 0
+S
+#30105
+{yOn a wooden bridge{x~
+You are on a wooden bridge in the Winyar woods.  Below you run a small
+creek from east to west and you can see fish swimming playfully around down
+there.  The running water makes a soothing sound and fills the air with cool
+water droplets.  Birds are chipping in the trees all around you and it seems
+like a few is even playing in the creek.  A dirt path continues north and
+south of the bridge.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30106
+0 0
+D2
+~
+~
+Z 0 30104
+0 0
+S
+#30106
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path continues north while a
+wooden bridge lies just south of here crossing a small creek.  The creek
+fills the air with cool water droplets making the air cool and refreshing. 
+All around the path thick trees rise into the air and birds are singing.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30107
+0 0
+D2
+~
+~
+Z 0 30105
+0 0
+S
+#30107
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path continues north and
+south while huge trees are blocking all other directions.  Thick darkness is
+all you can see inbetween the gigantic trees though every now and then a
+beam of light shines through the dense treetops.  Birds are singing and
+playing in the treetops and every now and then a shadow, from one of the
+birds flying far above you, hits you.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30108
+0 0
+D2
+~
+~
+Z 0 30106
+0 0
+S
+#30108
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path continues east and
+south while huge trees block the way around the path.  The trees shoot high
+up into the sky and they seem to be the home of many birds and other flying
+creatures.  The birds playing in the treetops are chipping wonderful tunes
+all around you and the air is cool.  
+~
+0 0 city
+D1
+~
+~
+Z 0 30109
+0 0
+D2
+~
+~
+Z 0 30107
+0 0
+S
+#30109
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path goes east and west and
+the trees stand so close it is imposible to take a step outside the path. 
+The air is cool and fresh and birds are singing all around you.  The
+treetops rise high into the sky and they almost form a roof above the path. 
+~
+0 0 city
+D1
+~
+~
+Z 0 30110
+0 0
+D3
+~
+~
+Z 0 30108
+0 0
+S
+#30110
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path continues east and west
+and there is a large house to the north with the word "INN" above the door,
+and tall trees grow so close they actually touch the walls.  Everywhere
+around you the sound of birds chipping and singing can be heard.  
+~
+0 0 city
+D0
+~
+door~
+ABZ 0 30111
+0 0
+D1
+~
+~
+Z 0 30116
+0 0
+D3
+~
+~
+Z 0 30109
+0 0
+S
+#30111
+Winyar Inn~
+You are in a small room with cracked wooden planks as a floor.  The walls
+are made from timber and some places the trees from outside grow through the
+wall.  A fireplace is burning to the north and a set of stairs is leading
+upstairs to the rooms.  
+~
+0 D inside
+D0
+~
+~
+Z 0 30112
+0 0
+D2
+~
+~
+ABZ 0 30110
+0 0
+D4
+~
+~
+Z 0 30113
+0 0
+S
+#30112
+Winyar Inn~
+You are in the common room of Winyar Inn.  A large fireplace is built
+into the northern wall and every here and there you see trees growing
+through the walls from the outside.  The light is very dim in here and the
+air is dense with dust.  
+~
+0 D inside
+E
+fireplace~
+Thick pieces of chopped wood is burning in there.
+~
+D2
+~
+~
+Z 0 30111
+0 0
+S
+#30113
+In a hallway~
+You are in a dark hallway.  The only light is comming from the many
+cracks in the walls where branches from the trees outside grow through.  The
+wooden floor is covered with a red carpet and there is a door to the east
+and one to the west.  
+~
+0 D inside
+D1
+~
+door~
+ABZ 0 30114
+0 0
+D3
+~
+door~
+ABZ 0 30115
+0 0
+D5
+~
+~
+Z 0 30111
+0 0
+S
+#30114
+In a small room~
+You are standing in a small room.  Half of the ceiling is missing, and
+you can see straight up into the treetops, and the walls are cracked with
+branches growing through.  The floor is covered in dirt and the air is dense
+with dust.  It doesn't look like anyone has cleaned this place for years.  
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 30113
+0 0
+S
+#30115
+In a small room~
+You are in a small filthy room.  The walls are cracked and the trees from
+outside actually grow in through the walls.  There is a thick layer of dirt
+covering the entire floor and spider web all over the place.  There is a
+door in the east wall and a broken window in the west.  
+~
+0 D inside
+E
+window~
+Something glimmer in the tall grass beneath the window.
+~
+D1
+~
+~
+ABZ 0 30113
+0 0
+S
+#30116
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path runs north and west and
+the tall trees around it form an unpassable wall.  High above you the
+treetops sway in the wind and you can hear the crunching sound of the trees
+swaying in the wind.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30117
+0 0
+D3
+~
+~
+Z 0 30110
+0 0
+S
+#30117
+{yOn a dirt path{x~
+You are on a dirt path in Winyar woods.  The path goes north and south
+and there is an old building just west of here.  It looks like it is ready
+to collapse.  The trees, which grow incredibly tall and thick here, grow
+close enough to the house to touch the walls and in some places they
+actually grow into the walls.  All around you can hear the sound of birds
+singing.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30118
+0 0
+D2
+~
+~
+Z 0 30116
+0 0
+S
+#30118
+{yAt the end of a dirt path{x~
+You are standing on a dirt path in Winyar woods.  The path either ends or
+starts here and continues down south.  The trees stand so tall and close
+around you they form huge unpassable walls.  You can see some large birdlike
+creatures fly around the treetops high above you and all around you the
+sound of birds chipping can be heard.  
+~
+0 0 city
+D0
+~
+~
+Z 0 30119
+0 0
+D2
+~
+~
+Z 0 30117
+0 0
+S
+#30119
+{gIn the woods{x~
+You are in the woods.  The trees stand so close around you that passing
+through them is impossible.  A dirt path can be seen to the south and the
+trees stands alittle further apart to the north making it possible to pass
+through.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30120
+0 0
+D2
+~
+~
+Z 0 30118
+0 0
+S
+#30120
+{gIn the woods{x~
+You are in an amazing forest.  The trees grow so thick it would take
+atleast 10 humans to reach around them and so dense they form walls.  The
+trees grow alittle further apart towards the north and south and you can see
+a trail of smoke rise up north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30121
+0 0
+D2
+~
+~
+Z 0 30119
+0 0
+S
+#30121
+{gIn the woods{x~
+You are in an amazing forest.  Thick trees rise into the sky and you can
+see their tops sway in the wind high above you.  Colorful birds in all sizes
+are flying around amongst the treetops in playful dances and the ground is
+covered in green growth.  You can see smoke rise up north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30122
+0 0
+D2
+~
+~
+Z 0 30120
+0 0
+S
+#30122
+Outside a tippie~
+You are standing outside a tippie made from animal skins.  Smoke arise
+from the opening at the top of the tippie and you can hear someone humming
+inside.  All around the tippie a wall of thick trees rise high into the sky
+and there is birds to be heard all around.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30123
+0 0
+D1
+~
+~
+Z 0 30124
+0 0
+D2
+~
+~
+Z 0 30121
+0 0
+D3
+~
+~
+Z 0 30141
+0 0
+S
+#30123
+Inside a tippie~
+You are inside a tippie.  The ground below is carpeted in some sort of
+animal pelt which makes it extremely comfortable to stand on as are the
+sides of the tent.  In the middle of the tippie is a small fireplace where
+large rocks are glowing red from heat.  High above you the sides of the tent
+meets and a small whole is made where fresh air can come in and smoke and
+heat can escape.  An object made of wood and strings is hanging just above
+what seems to be a bed.  
+~
+0 Dc inside
+D2
+~
+~
+Z 0 30122
+0 0
+S
+#30124
+{gIn the woods{x~
+You are in a gorgeous forest.  The trees stand so dense they form walls
+and the trunks are so thick it would require several human men to reach
+around them.  High above you the treetops meet and almost block out the sky
+while the ground below you is covered in green growth and leaves.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 30125
+0 0
+D3
+~
+~
+Z 0 30122
+0 0
+S
+#30125
+{gIn the woods{x~
+You find yourself in a the middle of the woods.  The trees surounding you
+are as thick as a giant's chest and rise high enough to make the largest
+giant feel small.  Colorful birds are playing in the treetops which almost
+meet above the path turning into a natural ceiling and the ground beneath
+you is covered in green growth making it is very soft to walk on.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 30126
+0 0
+D3
+~
+~
+Z 0 30124
+0 0
+S
+#30126
+{gIn the woods{x~
+You are in the middle of the woods.  Tall trees form walls around you
+which raise higher into the sky then any normal tree.  The treetops swaying
+high above you seem to be housing for abundant wildlife in all forms and
+sizes.  Below you wildlife seems to flurish aswell with small beetles and
+bugs crawling around among the green growth which covers the entire forest
+floor.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30125
+0 0
+D1
+~
+~
+Z 0 30127
+0 0
+S
+#30127
+{gIn the woods{x~
+You are in Winyar woods.  The trees stand so close it is imposible to see
+what goes on behind them except for the hallway they seem to form where you
+stand.  The ground is covered in green growth and it also seems to grow up
+some of the treetrunks.  Every here and there a flower peeks out from the
+growth and a couple of birds are flying around above you.  The air is fresh
+and clean and carry refreshing water droplets.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 30128
+0 0
+D3
+~
+~
+Z 0 30126
+0 0
+S
+#30128
+{gIn the woods{x~
+You are surounded by huge trees.  The trees stand so close they actually
+form walls all around you, restricting you to the hallway-like path they
+grow around.  High above you the treetops almost grow into eachother forming
+a natural ceiling where birds and other flying creatures seem to seek
+shelter.  Some odd looking plants are crawling up the trunks of the trees
+while the ground beneath you is covered in green growth and a few plants
+here and there.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30127
+0 0
+D1
+~
+~
+Z 0 30129
+0 0
+D2
+~
+~
+Z 0 30133
+0 0
+S
+#30129
+{gIn the woods{x~
+You are in the middle of Winyar woods.  The trees stand so tall they
+block sight in all directions except for the hallway-like path they form. 
+Even directly above you the trees seem to block sight by treetops growing
+into eachother to form a large green living ceiling which seems to house a
+great variety of wildlife.  The ground below you is covered in green growth
+and some large plants are crawling up the trunks of some of the trees.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 30130
+0 0
+D3
+~
+~
+Z 0 30128
+0 0
+S
+#30130
+{gIn the woods{x~
+You are standing deep within winyar woods.  Everywhere around you trees
+grow high into the sky forming a natural wall which seems imposible to
+penetrate.  Flying creatures of all sizes are flying around below the
+treetops high above you.  The ground beneath you is covered in growth and
+plants and even some flowers here and there.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30129
+0 0
+D1
+~
+~
+Z 0 30131
+0 0
+S
+#30131
+{gIn the woods{x~
+You are standing in the middle of the woods.  The trees around you stand
+so close they form a natural wall blocking sight and path in all directions
+but the hallway-like path where no trees seem to grow.  The ground is
+covered in green growth and it looks like there is a clearing just east of
+here.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 30132
+0 0
+D3
+~
+~
+Z 0 30130
+0 0
+S
+#30132
+{gA clearing in the woods{x~
+You are standing in what appears to be an enchanted clearing in the
+middle of Winyar woods.  Beams of light emerge from the trees and the grass
+is shimmering in the light.  The air is warm and the ground is soft.  The
+tall trees surounding the clearing actually form a wall all around it except
+for the west.  
+~
+0 D forest
+D3
+~
+~
+Z 0 30131
+0 0
+M 200 H 200
+S
+#30133
+{gIn the woods{x~
+You are standing in the middle of an old forest.  The trees rise high
+into the sky and they are so thick not even a giant could reach around them.
+Green growth covers the ground and every now and then a plant crawls up the
+trunk of a tree.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30128
+0 0
+D2
+~
+~
+Z 0 30134
+0 0
+S
+#30134
+{gIn the woods{x~
+You are standing in an ancient forest.  The trees stand tall and close
+forming natural walls all around you.  Far above you the treetops meet and
+turn into a green ceiling where all types of creatures crawl.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30133
+0 0
+D2
+~
+~
+Z 0 30135
+0 0
+S
+#30135
+{gIn the woods{x~
+You are in an the middle of Winyar woods.  The trees stand so close they
+actually form walls around you.  The wall of trees rise so high into the sky
+that no giant can reach the tops.  There is an odd looking plant crawling up
+the trunk of a few of the trees.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30134
+0 0
+D2
+~
+~
+Z 0 30136
+0 0
+S
+#30136
+{gIn the woods{x~
+You are standing in the middle of Winyar woods.  The trees are incredible
+tall here and they are far to thick for any human to reach around.  The
+trees even stand so close most of them touch eachother and form unpassable
+walls all around you.  The forest bottom is covered in green growth and
+small flowers giving the illusion of a carpet covering the ground.  Small
+critters are crawling up and down the trees on regular bases and a huge
+variety of birds are flying around all over.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30135
+0 0
+D2
+~
+~
+Z 0 30137
+0 0
+S
+#30137
+{gAt a forest stream{x~
+You are standing in the middle of Winyar woods.  A small stream emerge
+from some roots here and runs west.  The stream isn't deeper then a foot or
+two and it doesn't seem like any fish can be caught here.  The ground
+however is covered in footprints from the many animals who probably come
+here to drink.  Some small blue birds are flying around just above the water
+surface at high speed.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30136
+0 0
+D3
+~
+~
+Z 0 30138
+0 0
+S
+#30138
+{gAt a forest stream{x~
+You are standing at a small stream running through Winyar woods.  The
+water in the stream is clear and shallow and a few pretty birds are sitting
+by the water edge.  The stream continues east and west and blueish birds are
+making swift dives into the water further east.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 30137
+0 0
+D3
+~
+~
+Z 0 30139
+0 0
+S
+#30139
+{gAt a forest stream{x~
+You are standing at a small stream running through Winyar woods.  The
+shallow water in the stream is pure as the soul of an elvish virgin and it
+looks very refreshing.  Just north of here there is a small clearing in the
+trees that stand so close, no man can pass through them.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30140
+0 0
+D1
+~
+~
+Z 0 30138
+0 0
+S
+#30140
+{gAt a forest clearing{x~
+You are standing in a small clearing in the Winyar woods.  A few feet
+away from you the trees form their everlasting wall in a perfect circle. 
+The circle seems far too perfect to be made by nature but no trees has been
+cut down to form it either.  There is no wild growth on the ground here
+except for a carpet of green grass, each straw cut the same lenght.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 30139
+0 0
+S
+#30141
+{gIn the woods{x~
+You are in the Winyar woods.  The air is warm and the trees stand close
+and tall.  Droplets of water hangs from the leaves on the trees and you can
+hear birds chipping high above you.  Every now and then a shadow sails
+across the ground as some creature flies from one treetop to the other.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 30122
+0 0
+D3
+~
+~
+Z 0 30142
+0 0
+S
+#30142
+{gIn the woods{x~
+The tall and thick trees standing incredibly close all around you must
+mean you are in the Winyar woods.  The air is fresh and warm and drops of
+dew cover most of the lower growth here.  High above you some strange
+creatures are flying about singing their high-pitch songs.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 30141
+0 0
+D2
+~
+~
+Z 0 30143
+0 0
+D3
+~
+~
+Z 0 30149
+0 0
+S
+#30143
+{gIn the woods{x~
+You are in the midst of the Winyar woods.  The trees here stand so tall
+that no giant can even compare in height.  Far above you the treetops meet
+and form a natural ceiling where alot movement seems to be going on.  The
+ground beneath you is covered in moss-like growth and bushes grow close
+between the trees.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30142
+0 0
+D2
+~
+~
+Z 0 30144
+0 0
+S
+#30144
+{gIn the woods{x~
+You are standing on moss covered grounds in the Winyar woods.  Trees form
+walls around you which shoot high into the sky.  Far above you the treetops
+meet and the sky is only visible in small holes in the treetop ceiling.  The
+moss on the ground is shimmering as light hits the dew and the air is nice
+and cool.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30143
+0 0
+D1
+~
+~
+Z 0 30145
+0 0
+D2
+~
+~
+Z 0 30147
+0 0
+S
+#30145
+{gIn the woods{x~
+You are in the middle of the Winyar woods.  The air is fresh and cool and
+droplets of dew shimmer all around you.  The trees standing around you stand
+tall and thick and the few places one might pass them bushes block the way. 
+A few animal tracks can be seen on the ground and to the east some sort of
+building stand.  
+~
+0 0 forest
+E
+tracks~
+Seems like a small animal have been walking through here.  
+~
+D1
+~
+~
+Z 0 30146
+0 0
+D3
+~
+~
+Z 0 30144
+0 0
+S
+#30146
+Behind the inn~
+You are standing behind the Winyar Inn.  High above you there's a window
+which probably leads into one of the rooms and you can see some thick
+branches grow through the walls here and there.  The ground here is covered
+in high grass and a few lumps of moss here and there.  
+~
+0 0 forest
+D3
+~
+~
+Z 0 30145
+0 0
+S
+#30147
+{gIn the woods{x~
+You are standing in the middle of Winyar woods.  Tall trees stand all
+around you and every now and then some perculiar animals peek out from the
+growth that cover the ground.  The air is cool and clean and fillled with
+droplets of water and a roaring sound is comming from the south.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30144
+0 0
+D2
+~
+~
+Z 0 30148
+0 0
+S
+#30148
+At the waterfall~
+You are at a huge waterfall in the midst of the Winyar woods.  The water
+falls from a tall rocky mountain into a river going east and the noise is as
+loud as a dragons roar.  The air is filled with droplets from the waterfall
+making it pretty cold and soaking you through.  A few tall and pointy rocks
+stand in the river where the water falls and a few wooden planks are jammed
+in between them.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30147
+0 0
+S
+#30149
+{gIn the woods{x~
+You are in the Winyar woods.  Thick trees stand all around you forming
+un-passable walls and the ground is covered in moss and grass.  The air is
+cool and thin and it has a fresh smell to it.  Some colorful birds are
+flying around among the treetops and a few nests can be seen here and there.
+~
+0 0 forest
+D1
+~
+~
+Z 0 30142
+0 0
+D3
+~
+~
+Z 0 30150
+0 0
+S
+#30150
+{gIn the woods{x~
+You are in the Winyar woods.  The air is cool and wet and you can see
+droplets of water glimmer in the air.  Some gigantic trees reach far into
+the sky and high above your head they meet in a ceiling of leaves.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 30149
+0 0
+D2
+~
+~
+Z 0 30153
+0 0
+D3
+~
+~
+Z 0 30151
+0 0
+S
+#30151
+{gIn the woods{x~
+You are in the Winyar woods.  The air has a nice temperature here and some
+{Rco{Ylor{Gfu{Rl{x flowers grow here.  The ground is covered in a thick layer of moss
+and some high grass here and there.  A large bush also grows here with long
+branches extended across the small path you can actually walk on.  
+~
+0 0 forest
+E
+bush~
+It's a pretty large bush with some long branches.  It is covered with stingy thorns and some of the branches have been broken off as if someone has recklessly passed by.  
+~
+D1
+~
+~
+Z 0 30150
+0 0
+D3
+~
+~
+Z 0 30152
+0 0
+S
+#30152
+{WIn a sunlit clearing{x~
+You are in a clearing.  The grass is finely cut here and a layer of soft
+moss grows underneath it as a giant natural blanket.  The air is warm and a
+magical eternal sunshine lights it up and makes everything glimmer.  
+~
+0 c forest
+D1
+~
+~
+Z 0 30151
+0 0
+S
+#30153
+{gIn the woods{x~
+You are in the Winyar woods.  The grass is green and soft and covers most
+of the ground here.  Some large plants crawl up the gigantic trees like
+oversized snakes as if they attempt to reach the bird-like creatures flying
+high above your head.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30150
+0 0
+D2
+~
+~
+Z 0 30154
+0 0
+S
+#30154
+{gIn the woods{x~
+You are in the Winyar woods.  The air is cool and filled with water and a
+smell of rotten plants fill it.  The trees are gigantic and look quite old. 
+The trees also seem to house an abundance of wildlife up by their tops high
+above you.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30153
+0 0
+D2
+~
+~
+Z 0 30155
+0 0
+S
+#30155
+{gIn the woods{x~
+You are in the Winyar woods.  The air is cool and thin and a scent of
+rotting plants is all around you.  The ground beneath you is covered in
+green dew-covered grass and moss and when you look long enough you can make
+out the thousands of little insects crawling around beneath it.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30154
+0 0
+D2
+~
+~
+Z 0 30156
+0 0
+S
+#30156
+{gIn the woods{x~
+You are in the Winyar woods.  The grass is tall and as wet as the very
+humid air.  Looking to the east you see the air is filled with even more
+water almost as if a faint wall of water is there.  A high pitch sound
+breaks the silence high above you where some birdlike creatures playfully
+fly around.  
+~
+0 C forest
+D0
+~
+~
+Z 0 30155
+0 0
+D1
+~
+~
+Z 0 30162
+0 0
+D2
+~
+~
+Z 0 30157
+0 0
+S
+#30157
+{gIn the woods{x~
+You are in the Winyar woods.  The grass is green and the air is cool. 
+Fat tree-trunks stand all around you and rocket into the sky where their big
+green tops meet as a living ceiling.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30156
+0 0
+D2
+~
+~
+Z 0 30158
+0 0
+S
+#30158
+{gIn the woods{x~
+You are in the Winyar woods.  Trees stand close and tall here.  Their
+trunks are thicker then a giants waist and taller then any dragon.  Each
+tree must be several thousand years old if not more.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30157
+0 0
+D2
+~
+~
+Z 0 30159
+0 0
+S
+#30159
+{gIn the woods{x~
+You are in the Winyar woods.  The grass grows quite high here and it is
+all covered in fresh dew.  The air here is filled with a fresh and cool
+scent making it all very peaceful.  Rays of light penetrates the thick bush
+ceiling, created by the tall trees, only a few places, creating shadows in a
+wide variety of forms.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30158
+0 0
+D1
+~
+~
+Z 0 30161
+0 0
+D2
+~
+~
+Z 0 30160
+0 0
+S
+#30160
+At a small willow hut~
+You are standing at a small clearing in the woods.  There's a very small
+willow hut just south of here.  Judging by its size it can only have one
+room.  Outside the house someone has created what could be a camp.  The
+grass has been worn down revealing the earth below and several pieces of
+scrap metal lies scattered around.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 30159
+0 0
+D2
+~
+~
+ABCFGZ 0 30175
+0 0
+S
+#30161
+{yAt a dwelling{x~
+You are in Winyar woods.  The trees are as tall as everywhere but between
+a pair of them there's a pile of dirt with a hole in it.  It is clear that
+someone or something dug the hole.  Tracks infront of the hole suggest that
+something might live deep within it's darkness.  
+~
+0 0 forest
+E
+hole~
+The hole goes deep into the ground.  A few low sounds can actually be heard from within it.  
+~
+D3
+~
+~
+Z 0 30159
+0 0
+S
+#30162
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods but there is no life here.  The tall trees
+that seems to be common in theese woods are all dead and half rotten, and
+the ground is covered in withered grass and other plants and the air is dark
+and dry.  Unlike the rest of the woods there is no sign or sounds of animals
+anywhere near.  
+~
+0 A forest
+D1
+~
+~
+Z 0 30163
+0 0
+D3
+~
+~
+Z 0 30156
+0 0
+S
+#30163
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods but everything is dead here.  The path is
+overgrown with what seems to be half-withered spiked plants and the large
+tree trunks are all scorched and rotten.  The ground is completely dried out
+beneath the crisp plants and the sky is black as night.  
+~
+0 A forest
+D1
+~
+~
+Z 0 30164
+0 0
+D3
+~
+~
+Z 0 30162
+0 0
+S
+#30164
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods and all around you death and destruction has
+placed it mark.  The trees that have been growing here for years are now all
+rotten and dried out as is the dense undergrowth.  Spiked dried out plants
+lay all over the path and the ground is cracked and crisp.  Clearly nothing
+can live here.  
+~
+0 A forest
+D0
+~
+~
+Z 0 30165
+0 0
+D3
+~
+~
+Z 0 30163
+0 0
+S
+#30165
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods and all around you the growth is dead. 
+Gigantic trees lie half rotten and the ground beneath them is cracked and
+dry.  Withered plants stretch over the path, the air is dry and filled with
+the stench of rotten wood and flesh.  
+~
+0 A forest
+D0
+~
+~
+Z 0 30166
+0 0
+D2
+~
+~
+Z 0 30164
+0 0
+S
+#30166
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  All around you trees are rotting and filled
+with cracks.  The ground beneath you is muddy and covered with dead
+decomposing growth.  No birds chirp in what is left of the trees and no
+squirrels play anywhere.  The stench of death fills the cold dense air.  
+~
+0 A forest
+D0
+~
+~
+Z 0 30167
+0 0
+D2
+~
+~
+Z 0 30165
+0 0
+S
+#30167
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  All around you trees have fallen and
+something has scorched the growth.  Mud covers the ground and mixes with
+decomposing corpses and plants.  The air is dense and has a rotting smell to
+it.  
+~
+0 A forest
+D2
+~
+~
+Z 0 30166
+0 0
+D3
+~
+~
+Z 0 30168
+0 0
+S
+#30168
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  The ground beneath you is muddy and cold
+and so is the air.  Rotting trees and plants are lying scattered in all
+directions and the steench of death fills the air.  
+~
+0 A forest
+D1
+~
+~
+Z 0 30167
+0 0
+D3
+~
+~
+Z 0 30169
+0 0
+S
+#30169
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  Wrecked trees lie all over the place and
+the smell of rotting flesh is like a thick fog.  The sky above you is
+covered with the darkest of clouds, completely unpenetrated by light.  Half
+decomposed plants cover the muddy grounds beneath you and fat worms seems to
+thrive in the corpses of small animals.  
+~
+0 A forest
+D1
+~
+~
+Z 0 30168
+0 0
+D2
+~
+~
+Z 0 30170
+0 0
+S
+#30170
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  The forest is dark and dead here.  Cracked
+trees, decomposed corpses and rotting plants fill the air with a bitter
+scent.  The pitch black sky is blocking out all natural light, making the
+area perfect for nocturnal predators.  
+~
+0 A forest
+D0
+~
+~
+Z 0 30169
+0 0
+D2
+~
+~
+Z 0 30171
+0 0
+S
+#30171
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  Everything is dead and scorched here.  The
+trees that used to stand tall are now lying in half-rotten piles and only
+house creatures of the night.  The colorful plants that used to grow are now
+lying burried in the mud, feeding the worms.  Nothing grows here anymore and
+no sunlight ever reach the ground.  
+~
+0 A forest
+D0
+~
+~
+Z 0 30170
+0 0
+D1
+~
+~
+Z 0 30172
+0 0
+S
+#30172
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  All around you trees are rotting and filled
+with cracks.  The ground beneath you is muddy and covered with dead
+decomposing growth.  No birds chirp in what is left of the trees and no
+squirrels play anywhere.  The stench of death fills the cold dense air.  
+~
+0 A forest
+D0
+~
+~
+Z 0 30173
+0 0
+D3
+~
+~
+Z 0 30171
+0 0
+S
+#30173
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods and all around you the growth is dead. 
+Gigantic trees lie half rotten and the ground beneath them is cracked and
+dry.  Withered plants stretch over the path, the air is dry and filled with
+the stench of rotten wood and flesh.  A large building can be seen just west
+of here.  
+~
+0 A forest
+D2
+~
+~
+Z 0 30172
+0 0
+D3
+~
+~
+Z 0 30174
+0 0
+S
+#30174
+{gIn the {Ddead{g woods{x~
+You are in the Winyar woods.  The forest is dark and dead here.  Nothing
+grows here anymore.  Mud covers the ground and mixes with decomposing
+corpses and plants.  The air is dense and has a cold rotting smell to it.  
+~
+0 A forest
+D1
+~
+~
+Z 0 30173
+0 0
+S
+#30175
+curiosity killed the cat~
+Noone should ever enter this room.  If they do i made a mistake...  Door is simply to keep players wondering what's in there..  
+~
+0 CHJLNTWX inside
+D0
+~
+~
+ABCFGZ 0 30160
+0 0
+S
+#0
+
+#RESETS
+D 0 30110 0 1	* {yOn a dirt path{x: door to the north: closed
+D 0 30111 2 1	* Winyar Inn: door to the south: closed
+D 0 30113 1 1	* In a hallway: door to the east: closed
+D 0 30113 3 1	* In a hallway: door to the west: closed
+D 0 30114 3 1	* In a small room: door to the west: closed
+D 0 30115 1 1	* In a small room: door to the east: closed
+D 0 30160 2 2	* At a small willow hut: door to the south: closed and locked
+D 0 30175 0 2	* curiosity killed the cat: door to the north: closed and locked
+M 0 30108 1 30100 1	* mpcode monster ({yOn a dirt path{x)
+M 0 30101 1 30115 1	* an old man (In a small room)
+O 0 30100 0 30146	* the grass (Behind the inn)
+P 0 30106 1 30100 1	* the grass: {D|{Ya r{yi{Yng{D|{x
+O 0 30101 0 30148	* the waterfall (At the waterfall)
+M 0 30100 1 30148 1	*  (At the waterfall)
+O 0 30102 0 30152	* a wooden stump ({WIn a sunlit clearing{x)
+O 0 30103 0 30152	* the creek ({WIn a sunlit clearing{x)
+O 0 30105 0 30174	* building ({gIn the {Ddead{g woods{x)
+S
+
+#OLIMITS
+O 30113 3	* a large {ml{Mi{Wl{Ma{mc{x fist
+S
+
+#MOBPROGS
+#30100
+if isimmort $n
+end
+endif
+mob echoaround $n SUDDENLY $n looses his position and is flushed down the river!
+mob echoat $n SUDDENLY you loose your position and the power of the water flushes you down the river!
+mob transfer $n 30139
+~
+#30101
+if carries $n 30106
+look $n
+say Have you found my ring?
+end
+endif
+if wears $n 30106
+mob echoat $n $I looks at you.
+mob echoaround $n $I looks at $n.
+say Have you fou... Wait a minute.. That is my ring!
+say You shouldn't put someone elses ring on! Well i guess you're stuck with it now.
+chuckle
+say Good luck with it!
+mob echo $I wanders home.
+mob purge self
+end
+endif
+if carries $n 30107
+smile $n
+end
+endif
+mob echo $I looks troubled.
+say Oh my i seem to have misplaced my ring. I could have sworn it was lying in the window.
+say If you could recover my ring for me I would give you this artifact I have.
+say The ring in itself is worthless but it has a high sentimental value to me.
+say Whatever you do with it DON'T put it on.
+end
+~
+#30102
+if carries $n 30107
+smile $n
+mob junk ring
+say Thank you kind sir!
+end
+endif
+if carries $I 30106
+mob echo $I looks at the ring.
+say Aaaah there it is! Thank you so much stranger.
+say As a token of my gratitude, please take this.
+mob oload 30107
+give talisman $n
+gossip That $n is such a nice fellow! If only there were more like $m here in Winyar woods.
+mob echo $I wanders home.
+mob purge self
+end
+else
+say Hm what should i do with this?
+give $o $n
+end
+endif
+~
+#30103
+~
+#30104
+mob oload 30104
+~
+#30105
+mob oload 30108
+~
+#30106
+mob oload 30109
+~
+#30107
+mob oload 30110
+~
+#30108
+mob oload 30111
+~
+#30109
+mob oload 30112
+~
+#30110
+if rand 50
+if mobexists Nrok
+end
+else
+mob goto 30132
+mob mload 30107
+mob oload 30113
+give fist nrok
+mob force nrok wear fist
+mob goto 30100
+end
+end if
+else
+end
+end if
+~
+#30111
+ambush $n
+~
+#0
+
+#$

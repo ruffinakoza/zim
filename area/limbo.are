@@ -1,0 +1,2847 @@
+#AREADATA
+Name Limbo~
+VNUMs 1 199
+Credits Diku~
+Security 5
+LevelRange 99 100
+Flags closed~
+End
+
+#MOBILES
+#3
+supermob~
+supermob~
+Supermob is here.
+~
+You see nothing.
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 100
+#10
+shadow %s~
+the shadow of %s~
+%s's shadow is here.
+~
+This dark form seems like it wants to get back at %s for keeping it
+below them for so long....better not get in its way!
+~
+human~
+AWg JPVZf 0 0
+0 0 0d0+0 0d0+0 5d3+15 none
+0 0 0 0
+EF KL H IN
+stand stand male 0
+0 0 medium flesh~
+~
+#11
+guard man ruler bodyguard~
+a bodyguard~
+A powerful, heavyset man clad in gleaming silver armor stands nearby.
+~
+From the tips of his sabbatons to the peak of the full ventail helm resting
+upon his chest, he is covered in thick platinum armor.  A pair of sharp eyes
+peer out from the slit in his helm, scanning the faces of passersby for
+known criminals.  He wields a long, sharp lance, and looks ready to put it
+to deadly use.  The hammer in fist insignia of the Ruler clan is boldly
+emblazoned upon his breastplate.  
+~
+human~
+AITcg DFJNVl 1000 0
+20 3 16d15+320 1d1+141 5d5+10 none
+0 0 0 0
+ADEFIKLT AB 0 M
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ CE
+C Ruler~
+#12
+bear~
+a {ybear{x~
+A {Dstrong{x looking {ybear{x is here.
+~
+You see nothing special about it.
+~
+bear~
+Acg t 0 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+CL 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ E
+F par ABCHU
+#13
+fiery red demon~
+a fiery demon~
+A {rred{, {rf{Ri{Ye{Rr{ry{x demon is looking around, full of rage.
+~
+A big red demon, you feel like it is flaming.
+~
+unique~
+ABIg JZ -1000 0
+40 0 1d1+1 1d1+1 2d4+20 none
+-15 -15 -15 -15
+FHI 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+C ElidoDi~
+#14
+nightwalker~
+a {DN{Ri{Dg{Rh{Dt{Rw{Da{Rl{Dk{Re{Dr{x~
+A shadowy creature lurks nearby, {Rred{x eyes glowing as it watches . . .
+~
+You perceive the faintest shadowy outline, from within which, red, evil
+eyes glare back at you malevolently.  A tangible aura of pure, unadulterated
+evilness emanates from the creature.  
+~
+gargoyle~
+AILOTcg DFJPS -1000 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+EFKL M AB 0
+stand stand male 0
+0 0 medium flesh~
+~
+F act F
+F res D
+C Scion~
+#15
+phantom judge executioner ghost wraith~
+a phantom judge~
+{DThe phantasmal form of a Judge holding an executioner's axe wafts in the wind here, scanning for his prey.{x
+~
+Hollow eye sockets peer out from under the dark and eerie cowl that rests
+upon this Judge of Executions head.  
+~
+modron~
+ALOTc FNOPTUVZcflmt 0 0
+20 20 42d20+0 200d11+95 7d2+20 none
+-5 -5 -5 -1
+CDEFGHIJKV AR MNOQRTXYZa 0
+stand stand male 0
+D 0 unknown flesh~
+~
+F aff J
+F res HIK
+F par ABC
+C Ruler~
+#16
+squire~
+a {Cs{cq{Cuire{x of {Wnobility{x~
+A {Cs{cq{Cuire{x stands here, with a pleasant smile on his face.
+~
+This noble squire is serving his apprenticeship in the ways of honor
+and chivalry under his master.
+~
+human~
+AITcg DJSw 1000 0
+20 3 16d15+160 1d1+149 3d10+12 none
+0 0 0 0
+EKL 0 B M
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ CE
+C Knight~
+#17
+mirror~
+the mirror~
+%s%s is here.
+~
+You see nothing special about it.
+~
+human~
+ABg 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 LQR H IN
+stand stand male 0
+0 0 medium flesh~
+~
+C Chaos~
+#18
+undead~
+the {Dund{wea{Dd {xbody of %s~
+The {Dund{wea{Dd {xbody of %s slowly staggers around.
+~
+It looks like a shadow of its former self.
+~
+undead~
+AOg S -1000 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+L 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ DE
+F aff F
+#19
+lion~
+a {Yli{yo{Yn{x~
+An honored {Yli{yo{Yn{x paces here.
+~
+The lion's mane is well brushed.  It looks like someone maintains his
+appearance.
+~
+lion~
+Acg 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#20
+wolf snarling huge~
+a {Dwolf{x~
+A {Dblack-furred wolf{x stands here, ever vigilant.
+~
+This wolf is not your average timber wolf, it is far more intelligent. 
+It is also much larger than an ordinary wolf, standing some 3 feet off the
+ground at shoulder height.  It would be rather unwise to antagonize this
+creature, for it would undoubtedly do you great harm were you to anger it.  
+~
+wolf~
+ACLTZcg DFJNPSZcet 0 0
+0 1 1d1+1 1d1+99 3d10+12 bite
+0 0 0 0
+DKL UXYZ CDILMNQ H
+stand stand male 0
+BHKL 0 large flesh~
+~
+F for AGV
+#21
+голем skeleton mage skeletal~
+a {Wsk{we{Wleton {mm{Ma{mge{x~
+A tall, wiry {Wsk{we{Wleton {mm{Ma{mge{x stands here.
+~
+A tall figure built of bone and drapped in a tattered purple robe.
+~
+undead~
+AORg S -1000 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+FL 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F aff F
+#22
+голем skeleton warrior skeletal~
+a {Wsk{we{Wleton {wwarrior{x~
+A tall skeleton with swords stands here with an evil aura about him
+~
+The remenents of a power warrior stand poised for battle.  The bleached
+skull, with specks of blood on it, seems to be forever smiling at you.
+~
+undead~
+AOTg S -1000 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+HL 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ DE
+#23
+golem flesh fleshy~
+a {RF{yl{Re{ys{Rh {yG{Do{ylem{x~
+An enormous pile of {Rf{yl{Re{ys{Rh{x is here in the shape of a golem.
+~
+~
+golem~
+AOTg S -1000 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+KL 0 I 0
+stand stand none 0
+0 0 large flesh~
+~
+F res D
+F vul P
+#24
+golem blood~
+a {rBl{Roo{rd {yG{Do{ylem{x~
+A tall {rBl{Roo{rd {yG{Do{ylem{x stands here looking very dangerous.
+~
+~
+golem~
+AOg S -1000 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+LO 0 0 0
+stand stand none 0
+0 0 large flesh~
+~
+F res D
+#25
+lion~
+a {Yl{yi{Yon{x~
+A {Yl{yi{Yon{x is here hunting his prey.
+~
+The pride left behind, this lone hunter stalks his prey.
+~
+lion~
+AILcg 0 0 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+DEL 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#26
+shadow~
+a summoned {Dshadow{x~
+A dark summoned {Dshadow{x stands here listless.
+~
+You see nothingness.
+~
+ghoul~
+ABOg S -1000 0
+0 1 1d1+1 1d1+1 3d10+12 none
+0 0 0 0
+FL M A JN
+stand stand male 0
+0 0 medium flesh~
+~
+F imm Q
+F res B
+F vul C
+#27
+shadow phantom phantasm~
+a {Dshad{Bo{Dw{x~
+A {Bblue {Dshadow{x seems to twist and contort in the corner.
+~
+A dark shadow hangs here ominously.
+~
+ghost~
+AILTUcg DFPSU 0 0
+20 35 42d20+500 200d11+95 7d2+20 none
+-5 -5 -5 -1
+CFL 0 M 0
+stand stand none 0
+0 0 medium flesh~
+~
+F attr+ E
+F imm M
+C Shadow~
+#28
+zombie withered~
+a withered {Dz{Wo{wm{Dbie{x~
+A figure of wrapped bandages staggers along.
+~
+The stench of the old bandages curls your nose as the mindless corpse
+limps by.
+~
+zombie~
+AOg DS 0 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 P C 0
+stand stand none 0
+0 0 medium flesh~
+~
+F imm C
+#29
+bouncer~
+a bouncer~
+A merchant guild bouncer stands here, keeping watch for thieves.
+~
+A bouncer from the merchant guild shifts weight uneasily from foot to
+foot.
+~
+human~
+AITUcg J 0 0
+20 3 16d15+320 1d1+141 5d5+10 pound
+0 0 0 0
+EIKTU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ CE
+#49
+deathtrap~
+deathtrap~
+A deathtrap waits here to claim another victim.
+~
+Though not a true deathtrap, functionally, it serves to "kill" players
+without the loss of all gear and life.  
+~
+human~
+ABV DFJclmpqt 0 0
+92 1000 1d1+9999 0d0+0 1d1+999 none
+0 0 0 0
+0 BCDLQ 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 49 100~
+I 92
+#50
+being celestial angel man creature~
+{YA C{Celes{Wti{Cal Bei{Yng{x~
+{WThe {Ddarkness{W vanishes in the presence of this beautiful creature.{x
+~
+The light that emanates from this creature is so intense that you can
+barely see the outline of his form.  But through careful scrutiny past the
+intense glare, you are able to discern that he looks much like a man, a VERY
+large man, with wings.  It would be the epitome of foolishness to attack
+this holy creature.  
+~
+unique~
+Ae DFHJNOTYclmt 1000 0
+150 150 851d150+25000 1500d11+95 25d35+750 none
+-98 -98 -98 -67
+ACEFHIKO ABCLMNQ D 0
+stand stand male 0
+DHM ABCDEFGHIJKP gargantuan flesh~
+~
+#99
+dark glowing statue tall~
+a {YGlowing{x {DStatue{x~
+A tall {YGlowing {DStatue{x is here floating in front of you.
+~
+A statue of a gnome stands here, carved intricate detail.  His skin is so
+{Wgr{we{Wy{x it looks like it's made of stone.  Standing at 5 foot 6, he's rather
+unusually tall for a gnome.  His face, though clam and inviting is cleaved
+from smile to eyebrow by an ugly {rscar{x that never healed right.  A {mp{Murple{x
+blemish can be just made out on his neck, covered by his collar.  Maybe it's
+just the {Dshadow{x cast from his bulbous nose.  No, not a birthmark, nor shadow,
+but a tattoo of Teshub, the god of Chaotic Neutrality.                          
+Around his left hand hanging on a wand is a {csign{x maybe you should {rread{x it.
+~
+gnome~
+A 0 0 0
+5 5 17d5+0 50d11+95 2d2+10 none
+5 5 5 6
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#1
+coin silver gcash монета серебряная монетка серебряный~
+@eng a silver coin@rus ~~серебряная~~ ~~монетка~~~
+@eng One miserable silver coin.@rus Маленькая серебряная монетка (coin).~
+silver~
+~
+money 0 A
+0 1
+0 0 0 P
+G none
+G none
+G none
+G none
+#2
+gold gcash золотая золотой монета coin~
+@eng a gold coin@rus ~~золотая~~ ~~монета~~~
+@eng One valuable gold coin.@rus Ценная золотая монета (gold).~
+gold~
+~
+money 0 A
+1 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#3
+gold gcash coins золотые монеты золотой~
+@eng %d %s@rus %d ~~%s~~~
+@eng A pile of gold coins.@rus Несколько золотых монет (gold).~
+gold~
+~
+money 0 A
+0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#4
+coins silver gcash серебряные монеты серебряный~
+@eng %d %s@rus %d ~~%s~~~
+@eng A pile of silver coins.@rus Несколько серебряных монет (coins).~
+silver~
+~
+money 0 A
+0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#5
+coins silver gold gcash~
+@eng %d %s and %d %s@rus %d ~~%s~~ и %d ~~%s~~~
+@eng A pile of coins.@rus Кучка монет (coins).~
+gold~
+~
+money 0 A
+0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#6
+arrow деревянная wooden стрела~
+{ya wooden arrow{x~
+{yA wooden arrow is lying here on the ground.{x~
+wood~
+~
+weapon 0 AO
+arrow 1 2 pierce 0
+1 5 0 P
+G none
+G none
+G none
+G none
+#7
+wooden bow longbow~
+{ya wooden longbow{x~
+{yAn roughly carved, but solid, wooden longbow lies here.{x~
+wood~
+~
+weapon 0 AN
+bow 1 2 blast F
+1 25 0 P
+G none
+G none
+G none
+G none
+#8
+cross~
+A cross of %s~
+Torn remains of %s are here on the cross.~
+flesh~
+~
+trash CET 0
+0 0 0 0 0 0 0
+0 100 0 P
+G none
+G none
+G none
+G none
+#9
+elka christmas tree~
+@eng a {rChristmas {gTree{x@rus Ёлка~
+@eng An {gevergreen{x, adorned with {Wcan{Yd{Wles{x, and strings of {Wp{Yo{yp{Yc{Worn{x, stands here frosted in {Wsnow{x.@rus {gНовогодняя ёлка стоит здесь, вся в украшениях.{x~
+wood~
+~
+container ABRSY 0
+1000000 0 0 100000 5 0
+0 10000 0 P
+E
+elka christmas tree~
+{W     .      .        .    {R    .    {W     .        .
+    .         .        .    {R .+. {W   .      .           .
+        .        .      .   {g  # {W      .            .
+             .      .      {g  ### {W           .              .
+      .                {g "{BO{g. ##"## .{CO{g"{W    .     .       .
+             .          {g "##"###"##" {W
+          .      .  {g "{YO{g:. .:##"#{YO{g:. .:{RO{g"{W  .      .   .    .
+     .               . {g"####"###"####"{W  
+           .      {g"{RO{g:.   .:{MO{g"###"#:.   .:{BO{g"{W  .        .       .
+      .            {g "#########"#########" {W        .        .
+            .   {g"{BO{g:.   "{YO{g###"###"{CO{g###"   .:{YO{g"{W   .       .
+       .       . {g "#######""##"##""#######"{W                  .
+                  {g  ."##"#####"#####"#{BO{g".{W           .      .
+     .     {g  "{YO{g:..".  .:{RO{g#"###"###"##:.  ."..:{MO{g"{W     .
+          .    {g "#######"##"#####"{YO{g#"#######"{W      .     .
+      .      .    {g "{MO{g####""#######""####{CO{g"{W    .      .
+                .    {g " {y     ###  {g    "{W    .     .
+           .         .   . {y  ### {W    .        .       .
+    .. .. ..................{y#####{W................... ...... ...{x
+~
+G none
+G none
+G none
+G none
+#10
+corpse труп corpsenpc~
+@eng the corpse of %s@rus ~~труп~~ %s~
+@eng The corpse of %s is lying here.@rus Ты видишь труп (corpse) %s.~
+flesh~
+~
+npc_corpse 0 A
+0 0 0 A 0 0 0
+0 1000 0 D
+G none
+G none
+G none
+G none
+#11
+corpse труп corpsepc~
+@eng the corpse of %s@rus ~~труп~~ %s~
+@eng The corpse of %s is lying here.@rus Ты видишь труп (corpse) %s.~
+flesh~
+~
+pc_corpse O A
+0 0 0 A 0 0 0
+0 1000000 0 D
+G none
+G none
+G none
+G none
+#12
+head голова~
+@eng the head of %s@rus ~~голова~~ %s~
+@eng The severed head of %s is lying here.@rus Отрубленная голова (head) %s лежит в луже крови.~
+meat~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+16 50 0 D
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#13
+heart сердце~
+@eng the heart of %s@rus ~~сердце~~ %s~
+@eng The torn-out heart of %s is lying here.@rus Вырванное сердце (heart) %s еще бьется на земле.~
+meat~
+~
+food 0 A
+E E 0 0 0 E E
+0 20 0 D
+G none
+G none
+G none
+G none
+#14
+arm рука~
+@eng the arm of %s@rus ~~рука~~ %s~
+@eng The sliced-off arm of %s is lying here.@rus Отрезанная рука (arm) %s сжимает что-то предсмертной хваткой.~
+meat~
+~
+food a AN
+AB AC 0 0 0 AB AC
+16 17 1070 D
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#15
+leg нога~
+@eng the leg of %s@rus ~~нога~~ %s~
+@eng The sliced-off leg of %s is lying here.@rus Отсеченная нога (leg) %s дергается в конвульсиях.~
+meat~
+~
+food a A
+AC B 0 0 0 AC B
+16 17 1070 D
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#16
+guts entrails внутренности кишки~
+@eng the guts of %s@rus ~~внутренности~~ %s~
+@eng A steaming pile of %s's entrails is lying here.@rus Еще теплые внутренности (guts) %s лежат в грязи.~
+meat~
+~
+food 0 A
+AC AC 0 A 0 AC AC
+0 20 0 D
+G none
+G none
+G none
+G none
+#17
+brains brain мозги~
+@eng the brains of %s@rus ~~мозги~~ %s~
+@eng The splattered brains of %s are lying here.@rus Выбитые мозги (brains) %s лежат на земле.~
+meat~
+~
+food 0 A
+BD BD 0 0 0 BD BD
+0 20 0 D
+G none
+G none
+G none
+G none
+#18
+bloody scalp left ear~
+the {rle{Rf{rt {Re{rar{x of {D%s{x~
+A {rbl{Roo{rdy {Re{rar{x is rotting on the ground.~
+unknown~
+skin~
+medal Y AO
+0 0 0 0 0 0 0
+1 1 100 P
+G none
+G none
+G none
+G none
+#20
+mushroom грибок salubrious mana~
+@eng a {Cs{cal{Cu{cbrious {Gm{yu{gshr{woo{gm{x@rus Волшебный Мухомор~
+@eng A {Cs{cal{Cu{cbrious {Gm{yu{gshr{woo{gm{x is here.@rus Вкусный Волшебный Мухомор (mushroom) растет тут.~
+food~
+~
+food 0 A
+CE CE 0 0 0 CE CE
+0 10 0 P
+E
+salubrious mushroom~
+It's plump. And juicy. Looks good enough to eat!
+~
+G none
+G none
+G none
+G none
+#21
+ball light~
+a {Cbright{x ball of {Wlight{x~
+@eng A {Cbright{x ball of {Wlight{x shimmers in the air.@rus Ярко светящийся шар (ball) мерцает в воздухе.~
+energy~
+~
+light A A
+-1
+0 0 0 P
+G none
+G none
+G none
+G none
+#22
+spring water mystical~
+a {mm{My{mst{Mi{mcal {Bs{cpr{Ci{cn{Bg{x~
+A {mm{My{mst{Mi{mcal {Bs{cpr{Ci{cn{Bg{x flows from the ground here.~
+water~
+~
+fountain A 0
+100000 100000 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#23
+disc disk floating black~
+a floating disc~
+@eng A floating black disc hangs in the air.@rus Черный диск (disc) парит в воздухе.~
+energy~
+~
+container GMPUYZ AQ
+0 E 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#24
+chaos blade dagger~
+a {Mc{Rh{Ba{Mo{Rs{x dagger~
+A blade created from pure {Mc{Rh{Ba{Mo{Rs{x, colors pulsating crazily, is here.~
+unknown~
+chaos~
+weapon AIPTW AN
+dagger 3 5 pierce D
+20 50 0 P
+A
+6 2
+C Chaos~
+G none
+G none
+G none
+G none
+#25
+gate portal~
+a {cs{Ch{wi{Wm{Dme{Wr{wi{Cn{cg{x {Dgate{x~
+@eng A {cs{Ch{wi{Wm{Dme{Wr{wi{Cn{cg{x {Dgate{x rises from the ground, leading to parts unknown.@rus Мерцающие черные врата (gate) ведут в неизвестность.~
+energy~
+~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#26
+poncho~
+a {yp{Do{yncho{x from the {Rc{ra{Rrc{ra{Rss{x of %s~
+@eng A {yp{Do{yncho{x from the {Rc{ra{Rrc{ra{Rss{x of %s is crumbled on the ground.@rus Пончо, сделанное из трупа %s, лежит тут.~
+flesh~
+~
+armor 0 AK
+0 0 0 0 'none' 0
+0 60 0 P
+A
+13 35
+A
+6 1
+C Barbarian~
+G none
+G none
+G none
+G none
+#27
+steak бифштекс~
+@eng a {rstea{Rk{x from %s@rus ~~бифштекс~~ из %s~
+@eng A {rstea{Rk{x from %s@rus Бифштекс (steak) из %s.~
+meat~
+~
+food V A
+ADE ADE 0 0 0 ADE ADE
+0 3 0 P
+G none
+G none
+G none
+G none
+#28
+ranger staff~
+a {gr{Ga{gng{Ge{gr{G'{gs {ystaff{x~
+@eng There is a {gR{Ga{gng{Ge{gr{G'{gs {yStaff{x here on the ground. @rus Лесник забыл свой посох (staff) тут.~
+wood~
+~
+weapon 0 AN
+staff 1 1 smash FHK
+0 15 0 P
+G none
+G none
+G none
+G none
+#29
+chaos blade axe~
+a {Mc{Rh{Ba{Mo{Rs{x axe~
+An axe created from pure {Mc{Rh{Ba{Mo{Rs{x, colors rippling crazily, is here.~
+unknown~
+chaos~
+weapon AIPTW AN
+axe 2 12 cleave D
+20 50 0 P
+A
+6 2
+C Chaos~
+G none
+G none
+G none
+G none
+#30
+dummy object~
+a dummy object~
+Dummy object used for loading non-existent objects~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#31
+sword questsword swordquest longsword~
+the %s Sword of {W%s{x~
+An amazingly beautiful, ebony handled longsword pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+longsword 3 20 slash D
+50 51 3000 P
+A
+14 100
+A
+1 2
+A
+18 10
+A
+19 10
+A
+13 100
+E
+sword questsword~
+The ebony handle of this marvelous weapon is covered with numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 3 foot length.  
+   Boldly engraved below the guard you read:
+      This quest sword belongs to {Y<<++{B %s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#32
+dagger questdagger daggerquest~
+the %s Dagger of {W%s{x~
+An amazingly beautiful, ebony handled dagger pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+dagger 4 10 pierce D
+50 51 2250 P
+A
+1 2
+A
+18 10
+A
+19 10
+A
+13 75
+A
+12 300
+E
+dagger questdagger~
+The ebony handle of this marvelous weapon is covered with numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, razor-sharp, double edged length.  
+   Boldly engraved below the guard you read:
+      This quest dagger belongs to {Y<<++{B %s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#33
+mace questmace macequest~
+the %s Mace of {W%s{x~
+An amazingly beautiful, ebony handled mace pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+mace 3 17 crush K
+50 51 2700 P
+A
+1 2
+A
+18 10
+A
+19 8
+A
+13 85
+A
+12 300
+E
+mace questmace~
+The ebony handle of this marvelous weapon is covered with numerous
+glowing runes.  The gleaming spikes on the head sparkle with tiny motes of
+crackling energy.  
+   Boldly engraved upon the handle you read:
+      This quest mace belongs to {Y<<++{B %s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#34
+arrow green стрела зеленая~
+{ga green arrow{x~
+{gA green arrow lies here on the ground.{x~
+wood~
+~
+weapon 0 AO
+arrow 1 2 pierce H
+1 5 0 P
+G none
+G none
+G none
+G none
+#35
+arrow red стрела багровая~
+{ra red arrow{x~
+{rA red arrow lies here on the ground.{x~
+wood~
+~
+weapon 0 AO
+arrow 1 2 pierce AD
+1 5 0 P
+G none
+G none
+G none
+G none
+#36
+arrow white стрела белая~
+a {Wwhite arrow{x~
+A {Wwhite arrow{x lies here on the ground.~
+wood~
+~
+weapon 0 AO
+arrow 1 2 pierce BD
+1 5 0 P
+G none
+G none
+G none
+G none
+#37
+arrow стрела blue голубая~
+{ba blue arrow{x~
+{bA blue arrow lies here on the ground.{x~
+wood~
+~
+weapon 0 AO
+arrow 1 2 pierce DG
+1 5 0 P
+G none
+G none
+G none
+G none
+#38
+chaos mace~
+a {Mc{Rh{Ba{Mo{Rs{x mace~
+A mace made of pure {Mc{Rh{Ba{Mo{Rs{x, colors whirling crazily, is here.~
+unknown~
+chaos~
+weapon AIPTW AN
+mace 2 10 smash 0
+20 50 0 P
+A
+6 2
+C Chaos~
+G none
+G none
+G none
+G none
+#39
+chaos blade staff~
+a {Mc{Rh{Ba{Mo{Rs{x~
+A staff created from pure {Mc{Rh{Ba{Mo{Rs{x, colors rippling crazily, is here.~
+unknown~
+chaos~
+weapon AIPTW AN
+staff 2 10 smash K
+20 50 0 P
+A
+6 2
+G none
+G none
+G none
+G none
+#40
+song songquest questsong~
+the %s Song of {W%s{x~
+You hear the Song of a Real Hero filling the room with its melody.~
+ionium~
+~
+container ORTYc APQ
+10000 0 0 1000 20 0
+20 5 1000 P
+A
+20 -10
+A
+6 2
+A
+13 100
+A
+12 150
+A
+14 100
+E
+songquest questsong~
+The rousing melody of this magical song fills the air and inspires confidence.
+  You get the feeling that this song belongs to:
+{Y<<++{B%s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#41
+awareness pill~
+{DA{Gwarenes{Ds{x~
+{xAn opaque, cylindrical pill lies here bathed in a {Gbrilliant green{x glow!~
+energy~
+~
+pill ABHIYZ A
+150 'detect invis' 'detect hidden' 'improved detect' 'acute vision'
+10 5 50000 P
+G none
+G none
+G none
+G none
+#42
+vial potion~
+@eng a potion vial@rus ~~пустой~~ ~~пузырек~~~
+@eng A vial of a potion is left here.@rus Пустой бутылек (vial) выброшен кем-то.~
+glass~
+~
+drink 0 AO
+5 0 'water' 0
+0 10 10 P
+E
+vial~
+It's a glass vial used to hold magical potions. It looks fragile.
+~
+G none
+G none
+G none
+G none
+#43
+potion silver~
+a {Ws{wi{Wl{wv{We{wr{x potion~
+@eng A small silvery potion has carelessly been left here.@rus Маленькая бутылочка серебристой жидкости (potion) забыта тут.~
+glass~
+~
+potion G AO
+1 'detect invis' '' '' ''
+0 10 0 P
+G none
+G none
+G none
+G none
+#44
+potion golden зелье золотое~
+@eng a {Ygold{ye{Yn{x potion@rus золотое зелье~
+@eng A golden vial shines on the ground.@rus Золотистая (golden) бутылочка сверкает в грязи.~
+glass~
+~
+potion G AO
+1 'frenzy' '' '' ''
+0 10 0 P
+C ElidoDi~
+G none
+G none
+G none
+G none
+#45
+potion swirling~
+a {Ms{mw{Mi{mrl{Mi{mng {xpotion~
+@eng Some swirling liquid in a vial catches your attention.@rus Бурлящая (swirling) жидкость в бутылочке привлекает твое внимание.~
+glass~
+~
+potion G AO
+1 'bless' '' '' ''
+0 10 0 P
+G none
+G none
+G none
+G none
+#49
+bracer bracerquest questbracer~
+the %s Bracer of {W%s{x~
+A gleaming bracer of pure ionium shimmers and crackles with incredible power.~
+ionium~
+~
+armor OTYc AMP
+18 18 18 17 'none' 0
+40 51 54 P
+A
+14 100
+A
+20 -5
+A
+1 2
+A
+19 10
+A
+18 10
+A
+17 -35
+A
+13 75
+G none
+G none
+G none
+G none
+#50
+rug carpet magic~
+{Ca carpet of {Mf{cly{Ming{C spider silk{x~
+{CA beautiful {Rmu{Ylt{Bi-{Gco{Mlo{Cre{Rd{C carpet hovers slightly above the ground.{x~
+energy~
+~
+furniture ORTYa APQ
+C EIJKN EHK CEFGHI CEFGHI C EIJKN
+10 10 0 P
+A
+3 5
+A
+20 -10
+F
+A 12 200 T
+G none
+G none
+G none
+G none
+#51
+tattoo atum ra~
+the  {Yl{Ca{cwf{Cu{Yl {Cgood{w tattoo{x of {WAtum-Ra{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#52
+tattoo zeus~
+the {Dne{wutr{Wal {Cgood {wtattoo{x of {WZeus{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#53
+tattoo siebele~
+the {Dt{wru{We {Dne{wutr{Wal{w tattoo of {WSiebele{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#54
+tattoo shamash~
+the {wtattoo{x of {WShamash{x, God of {CJ{cu{Cs{ct{Ci{cc{Ce{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#55
+tattoo ahura mazda~
+the {Rc{Ch{Ga{Yo{xt{Wi{Rc {Cgood {wtattoo {xof {WAhuramazda{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#56
+tattoo ehrumen~
+the {Rc{Ch{Ga{Yo{Dt{Wi{Rc {revil{x tattoo of {WEhrumen{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#57
+tattoo deimos~
+the {yl{Dawfu{yl {revil{w tattoo{x of {WDeimos{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#58
+tattoo phobos~
+the {Dne{wutr{Wal {revil{w tattoo{x of {WPhobos{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#59
+tattoo odin~
+the {Yl{yawfu{Yl{x {Dne{wutr{Wal {wtattoo{x of {WOdin{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#60
+tattoo teshub~
+the {Rc{Ch{Ga{Yo{Dt{Wi{Rc {Dne{wutr{Wal{x {wtattoo{x of {WTeshub{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#61
+tattoo ares~
+the {wtattoo{x of {WAres{x, God of {yW{Da{yr{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo TUY AR
+0 0 -1 0 0
+0 0 0 P
+A
+5 2
+A
+1 2
+A
+19 4
+A
+18 3
+G none
+G none
+G none
+G none
+#62
+tattoo goktengri татуировка гоктенгри~
+@eng the {wtattoo{x of {WGoktengri{x, God of {YH{yo{Yn{yo{Yr{x@rus татуировка Гоктенгри, бога чести~
+@eng A tattoo flying in the air.@rus Татуировка (tattoo) летает по воздуху.~
+energy~
+~
+tattoo TUY AR
+0 0 -1 0 0
+0 0 0 P
+A
+5 2
+A
+1 2
+A
+19 4
+A
+18 3
+G none
+G none
+G none
+G none
+#63
+tattoo hera~
+the {wtattoo{x of {WHera{x, Goddess of {RH{rat{Re{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#64
+tattoo venus~
+the {wtattoo{x of {WVenus{x, Goddess of {MB{mea{Mu{mt{My{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#65
+tattoo seth~
+the {wtattoo{x of {WSeth{x, God of {rAnger{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#66
+tattoo enki~
+the {wtattoo{x of {WEnki{x, God of {DK{mno{wwle{mdg{De{x~
+A tattoo flying in the air.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#67
+tattoo eros татуировка эрос~
+@eng the {wtattoo{x of {WEros{x, God of {RLove{x@rus татуировка Эроса, бога любви~
+@eng A tattoo flying in the air.@rus Татуировка Эроса (tattoo) летает по воздуху.~
+energy~
+~
+tattoo ATUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#68
+tattoo sirala twilight~
+the {wtattoo{x of {WSirala{x, Goddess of {DTwi{wli{Wght{x~
+A tattoo half buried in the sand~
+energy~
+~
+tattoo ACJKTUY AR
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#69
+shuriken dark~
+{Da dark shuriken{x~
+A round metal ninja-star is here, encircled with razor-sharp blades.~
+steel~
+~
+weapon Ca AO
+shuriken 1 2 slice H
+1 2 0 P
+G none
+G none
+G none
+G none
+#70
+badge~
+the {Ws{wi{Wlv{we{Wr {Wbadge{x of the {YR{Bu{Yl{Be{Yr{Bs{x~
+A silver badge shines brightly from the ground.~
+silver~
+~
+treasure MOPTWZ A
+0 0 0 0 0
+50 4 0 P
+F
+A 17 -5 n
+F
+A 24 -5 s
+F
+A 23 -5 l
+F
+A 20 -5 D
+F
+A 21 -5 F
+F
+I 22 -5 A
+F
+I 20 -5 B
+E
+badge~
+The hammer in fist symbol of Rulers is at the center of the badge.
+~
+C Ruler~
+G none
+G none
+G none
+G none
+#71
+buckler shield~
+{WBuckler{x of the {YR{Bu{Yl{Be{Yr{Bs{x~
+A buckler shield of the Rulers is on the ground here.~
+steel~
+~
+armor GYa AJ
+8 8 8 3 'none' 0
+0 200 10000 P
+A
+13 20
+C Ruler~
+G none
+G none
+G none
+G none
+#72
+shield target~
+a {YR{Bu{Yl{Be{Yr{B'{Ys {WTarget Shield{x~
+A round, medium sized shield bearing the Ruler's crest lies here.~
+steel~
+~
+armor GYa AJ
+20 20 20 10 'none' 0
+0 300 15000 P
+A
+13 50
+C Ruler~
+G none
+G none
+G none
+G none
+#73
+kite shield~
+a {YR{Bu{Yl{Be{Yr{B'{Ys{x {WKite Shield{x~
+A large kite shield bearing the insignia of Rulers lies on the ground.~
+steel~
+~
+armor GYa AJ
+20 20 20 10 'none' 0
+0 310 20000 P
+A
+18 3
+A
+19 2
+A
+13 100
+C Ruler~
+G none
+G none
+G none
+G none
+#74
+tower shield~
+a {YR{Bu{Yl{Be{Yr{B'{Ys {WTower Shield{x~
+A huge tower shield bearing the crest of Rulers lies here.~
+steel~
+~
+armor GYa AJ
+30 30 30 20 'none' 0
+0 240 20000 P
+A
+18 5
+A
+19 4
+A
+13 175
+C Ruler~
+G none
+G none
+G none
+G none
+#79
+bone dagger~
+a Sacrificial {RBloody{x {DBone{x Dagger~
+Someone's Sacrificial {RBloody{x {DBone{x Dagger sits here waiting for another Sacrifice.~
+bone~
+~
+weapon APTW AN
+dagger 3 5 stab D
+20 80 0 P
+G none
+G none
+G none
+G none
+#80
+golden dagger~
+a {Ygold{ye{Yn{x dagger~
+@eng There is a shiny {Ygold{ye{Yn{x dagger on the ground.@rus Блестящий золотистый кинжал (dagger) лежит на земле.~
+gold~
+~
+weapon AIPTW AN
+dagger 3 5 pierce D
+20 80 0 P
+C Knight~
+G none
+G none
+G none
+G none
+#81
+golden mace~
+a {Ygold{ye{Yn{x mace~
+@eng A shiny {Ygold{ye{Yn{x mace is on the ground.@rus Блестящая золотистая булава (mace) лежит на земле.~
+gold~
+~
+weapon AIPTW AN
+mace 2 10 crush 0
+20 200 0 P
+C Knight~
+G none
+G none
+G none
+G none
+#82
+golden dragonplate plate~
+{cDr{Ca{cg{Co{cnpl{Ca{ct{Ce{x~
+@eng A suit of {cdr{Ca{cg{Co{cnpl{Ca{ct{Ce{x was left here.@rus Золотая броня (plate) с нарисованным Драконом оставлена тут.~
+gold~
+~
+armor GIKLY AD
+30 30 30 30 'none' 0
+0 250 10000 P
+A
+13 60
+A
+6 2
+A
+19 5
+A
+18 5
+C Knight~
+G none
+G none
+G none
+G none
+#83
+golden sword~
+a {Ygold{ye{Yn{x sword~
+@eng There is a shiny {Ygold{ye{Yn{x sword on the ground.@rus Блестящий золотистый меч (sword) лежит на земле.~
+gold~
+~
+weapon AIPTW AN
+longsword 2 12 slash D
+20 80 0 P
+C Knight~
+G none
+G none
+G none
+G none
+#84
+quest robe ermine~
+{yan {Wer{Dm{Win{De {Wtri{Dm{Wme{Dd{y robe{x~
+A beautiful {Wer{Dm{Win{De {Wtri{Dm{Wme{Dd {yrobe{x is lying here forgotten.~
+wood~
+~
+unknown ATY AK
+0 0 0 0 0 0 0
+1 0 22500 P
+E
+quest robe ermine~
+%s was sent to locate and retrieve this robe.
+~
+G none
+G none
+G none
+G none
+#85
+sceptre diamond quest~
+{ya {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x~
+{yA {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x has been left here.~
+wood~
+~
+unknown ATY AO
+0 0 0 0 0 0 0
+1 35 50000 P
+E
+sceptre diamond quest~
+%s was sent to locate and retrieve this sceptre.
+~
+G none
+G none
+G none
+G none
+#86
+quest crown~
+{ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x~
+{ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x is lying here on the ground!~
+wood~
+~
+unknown ATY AE
+0 0 0 0 0 0 0
+1 115 60000 P
+E
+quest crown~
+%s was sent to locate and retrieve this crown.
+~
+G none
+G none
+G none
+G none
+#87
+quest goblet gilded~
+{Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x~
+{YA gui{yd{Yed {Rru{rb{Ry {Yg{yo{Yblet{x lies here awaiting discovery.~
+wood~
+~
+unknown ATY A
+0 0 0 0 0 0 0
+1 15 35000 P
+E
+quest goblet gilded~
+%s was sent to locate and retrieve this goblet.
+~
+G none
+G none
+G none
+G none
+#89
+kassandra~
+{gk{Ga{gss{Ga{gndr{Ga{x~
+A mystical {ggr{Gee{gn{x {Ds{wton{De{x is here, flying in the {Cair{x.~
+stone~
+~
+treasure ATUY AO
+0 0 -1 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#90
+keeper dress~
+a spike-studded dress~
+A pink, frilly dress sits over in the corner, with spikes jutting out, everywhere.~
+unknown~
+cloth~
+clothing A AD
+0 0 0 0 0 0 0
+1 5 0 P
+G none
+G none
+G none
+G none
+#91
+turkish rug~
+a rug with Turkish patterns~
+A small rug with Turkish patterns is lying here.~
+wool~
+~
+treasure 0 AO
+0 0 0 0 0
+18 10 1000 G
+G none
+G none
+G none
+G none
+#92
+shield fire~
+fire shield~
+An energy shield is left here.~
+energy~
+~
+armor GPUY AJ
+20 20 20 20 'light' 0
+0 250 10000 P
+E
+shield energy~
+This shield is resistive to %s.
+~
+G none
+G none
+G none
+G none
+#93
+%s spirit~
+the spirit of %s~
+The vial containing spirit of %s is lying here.~
+glass~
+~
+treasure TY AO
+0 0 0 A 0
+0 0 0 D
+E
+spirit~
+The spirit of %s is in this vial.
+~
+G none
+G none
+G none
+G none
+#94
+amulet amuletquest questamulet~
+the %s Amulet of {W%s{x~
+A pulsating power emenates from this amulet.~
+ionium~
+~
+jewelry OTYc ACP
+0 0 0 0 0 0 0
+30 5 44 P
+A
+5 2
+A
+18 10
+A
+19 10
+A
+17 -30
+A
+13 150
+A
+14 150
+E
+quest amulet~
+Pulsing wildly as though made from pure energy, this talisman glimmers
+and molds itself from between your fingers, into virtually any shape
+possible.
+   Glowing runes indicate:
+This quest amulet belongs to {Y<<++{B%s{Y++>>
+{x
+~
+G none
+G none
+G none
+G none
+#95
+ring ringquest questring questringone~
+the %s Ring of {W%s{x~
+A gleaming ring of pure ionium shimmers and crackles with incredible power.~
+ionium~
+~
+armor OTYc ABP
+22 22 22 21 'none' 0
+60 61 56 P
+A
+19 10
+A
+18 10
+A
+3 2
+A
+4 2
+A
+23 -5
+A
+17 -30
+A
+13 75
+A
+12 150
+E
+ringquest questring~
+The ring glimmers and crackles as tiny tendrils of multicolored energy
+flicker across its opalescent surface.  
+   Gleaming runes reveal to you:
+{xThis quest ring belongs to: {Y<<++{B%s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#97
+chaos blade sword~
+a {Mc{Rh{Ba{Mo{Rs{x sword~
+A blade create from pure {Mc{Rh{Ba{Mo{Rs{x, colors rippling crazily, is here.~
+unknown~
+chaos~
+weapon AIPTW AN
+longsword 2 12 thrust D
+20 50 0 P
+A
+6 2
+C Chaos~
+G none
+G none
+G none
+G none
+#98
+sword katana~
+a {WLegendary Katana{x~
+A {Wkatana{x with ancient markings lies here forgotten.~
+iron~
+~
+weapon a AN
+katana 2 2 slash D
+15 60 0 P
+E
+katana~
+The letters '%s' are carved onto the ivory handle.
+~
+G none
+G none
+G none
+G none
+#99
+golden lance~
+a {Ygold{ye{Yn{x lance~
+There is a shiny {Ygold{ye{Yn{x lance on the ground.~
+gold~
+~
+weapon AIPTW AN
+lance 2 13 thrust D
+20 80 0 P
+C Knight~
+G none
+G none
+G none
+G none
+#100
+santa christmas gift potion good~
+a potion for {Ygood{x little {Mgirls{x and {cboys{x~
+A potion for {Ygood{x little {Mgirls{x and {cboys{x is here next to some cookie crumbs.~
+unknown~
+~
+potion AMYf AO
+10 'sanctuary' 'detect hide' 'improved invis' 'pass door'
+0 0 0 P
+G none
+G none
+G none
+G none
+#101
+bastardsword questbastardsword claymore questclaymore claymorequest~
+the %s Claymore of {W%s{x~
+An amazingly beautiful, ebony handled bastard sword pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+bastardsword 2 36 slash DF
+50 301 3700 P
+A
+1 2
+A
+18 15
+A
+19 15
+A
+13 175
+E
+sword questsword~
+The ebony handle of this marvelous weapon is covered with numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 3 foot length.  
+   Boldly engraved below the guard you read:
+      This quest sword belongs to {Y<<++{B %s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#103
+battleaxe questbattleaxe~
+the %s Battle Axe of {W%s{x~
+An amazingly beautiful, ebony shafted axe pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+axe 2 36 cleave DF
+50 350 3700 P
+A
+1 2
+A
+18 10
+A
+19 20
+A
+13 175
+E
+axe~
+[The rosewood handle of this marvelous weapon is covered with 
+    numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 3 foot length.  
+   Boldly engraved below the guard you read:
+      This quest axe belongs to {Y<< {B%s {Y>>{x.
+~
+G none
+G none
+G none
+G none
+#104
+shortsword shortswordquest questshortsword blade questblade~
+the %s Blade of {W%s{x~
+An amazingly beautiful, ebony handled shortsword pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+shortsword 4 11 thrust D
+50 51 2375 P
+A
+14 100
+A
+1 2
+A
+18 12
+A
+19 8
+A
+13 100
+E
+sword questsword~
+The ebony handle of this marvelous weapon is covered with numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 2 foot length.  
+   Boldly engraved below the guard you read:
+      This quest sword belongs to {Y<<++{B %s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#105
+halberd halberdquest polearm questhalberd~
+the %s Halberd of {W%s{x~
+An amazingly beautiful, ebony handled polearm pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+polearm 1 79 cleave DF
+50 51 4950 P
+A
+1 2
+A
+18 5
+A
+19 22
+A
+13 200
+G none
+G none
+G none
+G none
+#106
+spear spearquest questspear~
+the %s Spear of {W%s{x~
+An amazingly beautiful, ebony shafted spear pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+spear 2 33 pierce DF
+50 100 3475 P
+A
+14 50
+A
+1 2
+A
+18 12
+A
+19 10
+A
+13 150
+G none
+G none
+G none
+G none
+#107
+flail flailquest questflail~
+the %s Flail of {W%s{x~
+An amazingly beautiful, ebony handled flail pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+flail 4 18 sting D
+50 100 1600 P
+A
+1 2
+A
+18 8
+A
+19 8
+A
+13 100
+A
+12 200
+G none
+G none
+G none
+G none
+#108
+whip whipquest questwhip~
+the %s Whip of {W%s{x~
+An amazingly beautiful, leather whip pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+whip 3 12 whip D
+50 51 2200 P
+A
+14 200
+A
+1 2
+A
+18 15
+A
+19 5
+A
+13 75
+G none
+G none
+G none
+G none
+#109
+staff staffquest queststaff~
+the %s Staff of {W%s{x~
+An amazingly beautiful, ebony staff pines here for its owner.~
+ionium~
+~
+weapon OTYc ANP
+staff 2 32 smash FK
+50 51 3400 P
+A
+14 50
+A
+1 2
+A
+18 12
+A
+19 10
+A
+13 150
+G none
+G none
+G none
+G none
+#110
+bow bowquest questbow~
+the %s Bow of {W%s{x~
+An amazingly beautiful, ashwood bow pines here for its owner.~
+ionium~
+~
+weapon OTYc ANP
+bow 2 31 beating F
+50 51 3325 P
+A
+14 200
+A
+1 2
+A
+18 20
+A
+19 15
+A
+13 50
+G none
+G none
+G none
+G none
+#111
+lance lancequest questlance~
+the %s Lance of {W%s{x~
+An amazingly beautiful, ebony handled lance pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+lance 3 22 charge D
+50 51 3200 P
+A
+1 2
+A
+18 10
+A
+19 10
+A
+13 120
+A
+12 50
+G none
+G none
+G none
+G none
+#112
+warhammer questwarhammer~
+the %s Warhammer of {W%s{x~
+An amazingly beautiful, ebony shafted hammer pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+hammer 2 33 smash FK
+50 51 3475 P
+A
+1 2
+A
+18 12
+A
+19 18
+A
+13 175
+E
+axe~
+[The rosewood handle of this marvelous weapon is covered with 
+    numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 3 foot length.  
+   Boldly engraved below the guard you read:
+      This quest axe belongs to {Y<< {B%s {Y>>{x.
+~
+G none
+G none
+G none
+G none
+#113
+axe questaxe axequest~
+the %s Axe of {W%s{x~
+An amazingly beautiful, ebony shafted axe pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+axe 3 20 chop D
+50 51 3000 P
+A
+14 50
+A
+1 2
+A
+18 7
+A
+19 13
+A
+13 100
+E
+axe~
+[The rosewood handle of this marvelous weapon is covered with 
+    numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 3 foot length.  
+   Boldly engraved below the guard you read:
+      This quest axe belongs to {Y<< {B%s {Y>>{x.
+~
+G none
+G none
+G none
+G none
+#114
+hammer questhammer hammerquest~
+the %s Hammer of {W%s{x~
+An amazingly beautiful, ebony shafted hammer pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+hammer 3 19 pound K
+50 200 2800 P
+A
+12 100
+A
+14 50
+A
+1 2
+A
+18 9
+A
+19 11
+A
+13 75
+E
+axe~
+[The rosewood handle of this marvelous weapon is covered with 
+    numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, 3 foot length.  
+   Boldly engraved below the guard you read:
+      This quest axe belongs to {Y<< {B%s {Y>>{x.
+~
+G none
+G none
+G none
+G none
+#115
+dagger questdagger daggerquest stiletto queststiletto~
+the %s Stiletto of {W%s{x~
+An amazingly beautiful, ebony handled dagger pines for its owner.~
+ionium~
+~
+weapon OTYc ANP
+dagger 4 14 pierce D
+50 51 2250 P
+A
+14 200
+A
+1 2
+A
+18 5
+A
+19 15
+A
+13 75
+E
+dagger questdagger~
+The ebony handle of this marvelous weapon is covered with numerous
+glowing runes.  The blade hums and pulses as waves of pure energy twist and
+leap over its gleaming, razor-sharp, double edged length.  
+   Boldly engraved below the guard you read:
+      This quest dagger belongs to {Y<<++{B %s{Y++>>{x
+~
+G none
+G none
+G none
+G none
+#130
+purloin letter artifactrepo~
+a {mp{Mur{mlo{Mi{mn {Yletter{x~
+A {msc{Me{mn{Mt{med {Yletter{x has been {Ddiscretely{x left here.~
+paper~
+~
+parchment PUak AO
+0 A 0 0 0 0 A
+0 1 10 B
+E
+letter~
+{Y-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-{x
+Dear unfortunate soul,
+
+   While you were daydreaming of the astral plane, I nicked that little
+artifact you weren't using.  I hope you don't mind.  It'll fetch a nice
+price on the blackmarket.  And I kinda need the cash.  No hard feelings.
+ 
+<it seems signed with tiny kiss of {Dblack{x lipstick>
+ 
+{D   ,;',';,
+    ,, ,,
+     '''
+{x
+{Y-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-{x
+~
+G none
+G none
+G none
+G none
+#150
+medal roleplay performance renowned~
+{Da {YR{yenowned {YP{yerformance {CM{cedal{x~
+A sparkling {Cm{cedal{x has been left in the dust.~
+energy~
+~
+award T AO
+A A 0 0 0 A A
+0 0 30 P
+G none
+G none
+G none
+G none
+#151
+medal roleplay blazing sun~
+{Dthe {yB{Yla{Wz{Yin{yg {YSun{x~
+A sparkling {Cm{cedal{x has been left in the dust.~
+gold~
+~
+award AT AO
+A AB 0 0 0 A AB
+0 0 30 P
+G none
+G none
+G none
+G none
+#152
+medal roleplay blue moon~
+{Dthe {BBlue {xM{Woo{xn~
+A sparkling {Cm{cedal{x has been left in the dust.~
+silver~
+~
+award AT AO
+A BD 0 0 0 A BD
+0 0 30 P
+G none
+G none
+G none
+G none
+#153
+medal roleplay platinum cluster~
+{Dthe {WPlatinum {cC{Cl{wu{Ws{wt{Ce{cr{x~
+A sparkling {Cm{cedal{x has been left in the dust.~
+platinum~
+~
+award AT AO
+A ABCD 0 0 0 A ABCD
+0 0 30 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#1
+The Void~
+You are floating in nothing.
+~
+0 CD city
+D4
+~
+~
+Z 0 3014
+0 0
+S
+#2
+Limbo~
+You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+0 ADKNTX city
+D4
+~
+~
+Z -1 3001
+0 0
+S
+#3
+Supermob office~
+Supermob lives here. Don't bother him.
+~
+0 ACHLNOX inside
+S
+#4
+The Room of death~
+Your world has gone wild.  Something is really mad at you for being here.
+OH NO>>> 
+~
+0 AHNSTW inside
+S
+#5
+Immortal Meeting Chambers~
+In this room there are many parchments, maps, boards with writing, and
+posters seemingly hanging on nothing at all, they are just suspended in mid
+air all around you.  Beyond these things there seem to be no walls at all
+just a gigantic open area, everything is black with small specks and bigger
+specks every so often, They seem to be stars and planets of the galaxy.  
+~
+0 HKNTWX unused
+S
+#6
+{DUnused{x~
+~
+0 0 inside
+S
+#7
+Lost~
+If you're in this room, it means an immortal needs to talk with you.  Sit
+tight, and an immortal will deal with you shortly.  
+~
+0 KNTX inside
+D0
+~
+~
+Z 0 7
+0 0
+D1
+~
+~
+Z 0 7
+0 0
+D2
+~
+~
+Z 0 7
+0 0
+D3
+~
+~
+Z 0 7
+0 0
+D4
+~
+~
+Z 0 7
+0 0
+D5
+~
+~
+Z 0 7
+0 0
+S
+#10
+The Realm of Identity~
+You are standing in what seems to be a void.  Everything around you is
+shaded even your self.  All you can see is what is in front of you.  For not
+even you have been granted to see yourself for you are nothing but a soul
+with out an appearance.  There are no walls no floor just a statue standing
+still.  You then notice a sign hanging from the hand of statue and that he
+has a appearance.  
+~
+0 NTWX inside
+E
+sign~
+The sign says:
+
+ You might be asking a question why are you here.  This is
+a simple answer.  You either have no description or has one that doesn't
+meet the guide lines.  If you need help just say description help and a
+immortal will be with you as soon as possible.  If you are done just say i
+am done my discription and a immortal will be with you as soon as possible. 
+
+Please see HELP DESCRIPTION for information on how to do your description.
+
+ 
+sign:
+ 
+The Immortals
+~
+S
+#50
+The Web of Lives~
+Pale blue strands apparently made of pure energy drift all around you,
+loose yet drifting in a way that gives you the impression of a great web. 
+Some of the strands, while physically no different from the rest, seem
+vaguely familiar and the urge to touch them is strong.  These threads pulse
+with a strange beat that is reminiscent of the very beating of a heart.  In
+fact, one that is achingly familiar and fills you with an urge to touch it
+seems to be beating in time with your heart...  
+~
+0 HKNTX inside
+S
+#0
+
+#SPECIALS
+M 11 spec_special_guard	* a bodyguard
+M 13 spec_cast_mage	* a fiery demon
+M 15 spec_assassinater	* a phantom judge
+M 21 spec_cast_mage	* a {Wsk{we{Wleton {mm{Ma{mge{x
+M 23 spec_breath_fire	* a {RF{yl{Re{ys{Rh {yG{Do{ylem{x
+M 50 spec_breath_any	* {YA C{Celes{Wti{Cal Bei{Yng{x
+S
+
+#RESETS
+M 0 49 50 1 1	* deathtrap (The Void)
+M 0 99 1 10 1	* a {YGlowing{x {DStatue{x (The Realm of Identity)
+S
+
+#SHOPS
+50 0 26 0 0 0 100 18 0 23
+0
+
+#MOBPROGS
+#1
+if affected $n 'sanctuary'
+or affected $n 'black shroud' 
+cast nowait 'dispel magic' 
+end
+endif
+if rand 25
+if rand 10 
+cast nowait 'plague' 
+end
+endif
+if rand 11
+cast nowait 'poison' 
+end 
+endif
+if affected $n 'blindness'
+else
+cast nowait 'blindness' 
+end
+endif
+endif
+if rand 16
+if affected $n 'weaken'
+else
+cast nowait 'weaken' 
+end
+endif
+endif
+if affected $n 'slow'
+else
+cast nowait 'slow' 
+endif
+endif
+if rand 18
+if affected $n 'curse' 
+else
+cast nowait 'curse' 
+end
+endif
+endif
+if rand 18
+if affected $n 'corruption' 
+else
+cast nowait 'corruption' 
+end
+endif
+endif
+if rand 18
+if affected $n 'faerie fire' 
+else
+cast nowait 'faerie fire' 
+end
+endif
+endif
+endif
+if rand 25 
+cast nowait 'acid blast' 
+end
+endif
+if rand 25 
+cast nowait 'fireball' 
+end
+endif
+if rand 25
+cast nowait 'frost breath' 
+end
+endif
+if rand 30 
+cast nowait 'heat metal' 
+end
+endif
+cast nowait 'lightning breath' 
+~
+#2
+clan yes, sir?
+~
+#3
+~
+#11
+if pos $n fight
+if level $n == 91
+~
+#21
+mob cast 'frost breath' $n
+~
+#22
+mob cast 'acid breath' $n
+~
+#23
+~
+#24
+mob cast 'superior heal' $n
+~
+#27
+if rand 25
+cast 'acid arrow' $n
+end
+endif
+if rand 25
+cast 'acid breath' $n
+end
+endif
+cast 'acid blast' $n
+~
+#49
+mob damage $n 30000 30001
+mob transfer $n 3054
+~
+#0
+
+#OMPROGS
+O 28 wear_prog wear_prog_ranger_staff	* `a {gr{Ga{gng{Ge{gr{G'{gs {ystaff{x'
+O 28 fight_prog fight_prog_ranger_staff	* `a {gr{Ga{gng{Ge{gr{G'{gs {ystaff{x'
+O 31 wear_prog wear_prog_quest_weapon	* `the %s Sword of {W%s{x'
+O 31 get_prog get_prog_quest_reward	* `the %s Sword of {W%s{x'
+O 32 wear_prog wear_prog_quest_weapon	* `the %s Dagger of {W%s{x'
+O 32 get_prog get_prog_quest_reward	* `the %s Dagger of {W%s{x'
+O 33 wear_prog wear_prog_quest_weapon	* `the %s Mace of {W%s{x'
+O 33 get_prog get_prog_quest_reward	* `the %s Mace of {W%s{x'
+O 40 get_prog get_prog_quest_reward	* `the %s Song of {W%s{x'
+O 49 get_prog get_prog_quest_reward	* `the %s Bracer of {W%s{x'
+O 51 fight_prog fight_prog_tattoo_atum_ra	* `the  {Yl{Ca{cwf{Cu{Yl {Cgood{w tattoo{x of {WAtum-Ra{x'
+O 52 fight_prog fight_prog_tattoo_zeus	* `the {Dne{wutr{Wal {Cgood {wtattoo{x of {WZeus{x'
+O 53 fight_prog fight_prog_tattoo_siebele	* `the {Dt{wru{We {Dne{wutr{Wal{w tattoo of {WSiebele{x'
+O 54 fight_prog fight_prog_tattoo_shamash	* `the {wtattoo{x of {WShamash{x, God of {CJ{cu{Cs{ct{Ci{cc{Ce{x'
+O 55 fight_prog fight_prog_tattoo_ahuramazda	* `the {Rc{Ch{Ga{Yo{xt{Wi{Rc {Cgood {wtattoo {xof {WAhuramazda{x'
+O 56 fight_prog fight_prog_tattoo_ehrumen	* `the {Rc{Ch{Ga{Yo{Dt{Wi{Rc {revil{x tattoo of {WEhrumen{x'
+O 57 fight_prog fight_prog_tattoo_deimos	* `the {yl{Dawfu{yl {revil{w tattoo{x of {WDeimos{x'
+O 58 fight_prog fight_prog_tattoo_phobos	* `the {Dne{wutr{Wal {revil{w tattoo{x of {WPhobos{x'
+O 59 fight_prog fight_prog_tattoo_odin	* `the {Yl{yawfu{Yl{x {Dne{wutr{Wal {wtattoo{x of {WOdin{x'
+O 60 fight_prog fight_prog_tattoo_teshub	* `the {Rc{Ch{Ga{Yo{Dt{Wi{Rc {Dne{wutr{Wal{x {wtattoo{x of {WTeshub{x'
+O 61 fight_prog fight_prog_tattoo_ares	* `the {wtattoo{x of {WAres{x, God of {yW{Da{yr{x'
+O 62 fight_prog fight_prog_tattoo_goktengri	* `the {wtattoo{x of {WGoktengri{x, God of {YH{yo{Yn{yo{Yr{x'
+O 63 fight_prog fight_prog_tattoo_hera	* `the {wtattoo{x of {WHera{x, Goddess of {RH{rat{Re{x'
+O 64 fight_prog fight_prog_tattoo_venus	* `the {wtattoo{x of {WVenus{x, Goddess of {MB{mea{Mu{mt{My{x'
+O 65 fight_prog fight_prog_tattoo_seth	* `the {wtattoo{x of {WSeth{x, God of {rAnger{x'
+O 66 fight_prog fight_prog_tattoo_enki	* `the {wtattoo{x of {WEnki{x, God of {DK{mno{wwle{mdg{De{x'
+O 67 fight_prog fight_prog_tattoo_eros	* `the {wtattoo{x of {WEros{x, God of {RLove{x'
+O 68 fight_prog fight_prog_tattoo_sirala	* `the {wtattoo{x of {WSirala{x, Goddess of {DTwi{wli{Wght{x'
+O 71 wear_prog wear_prog_ruler_shield	* `{WBuckler{x of the {YR{Bu{Yl{Be{Yr{Bs{x'
+O 72 wear_prog wear_prog_ruler_shield	* `a {YR{Bu{Yl{Be{Yr{B'{Ys {WTarget Shield{x'
+O 73 wear_prog wear_prog_ruler_shield	* `a {YR{Bu{Yl{Be{Yr{B'{Ys{x {WKite Shield{x'
+O 74 wear_prog wear_prog_ruler_shield	* `a {YR{Bu{Yl{Be{Yr{B'{Ys {WTower Shield{x'
+O 80 fight_prog fight_prog_golden_weapon	* `a {Ygold{ye{Yn{x dagger'
+O 80 death_prog death_prog_golden_weapon	* `a {Ygold{ye{Yn{x dagger'
+O 81 fight_prog fight_prog_golden_weapon	* `a {Ygold{ye{Yn{x mace'
+O 81 death_prog death_prog_golden_weapon	* `a {Ygold{ye{Yn{x mace'
+O 83 fight_prog fight_prog_golden_weapon	* `a {Ygold{ye{Yn{x sword'
+O 83 death_prog death_prog_golden_weapon	* `a {Ygold{ye{Yn{x sword'
+O 84 get_prog get_prog_quest_obj	* `{yan {Wer{Dm{Win{De {Wtri{Dm{Wme{Dd{y robe{x'
+O 85 get_prog get_prog_quest_obj	* `{ya {Wdia{Cm{Mo{Wnd stu{Cd{Md{Wed {ysceptre{x'
+O 86 get_prog get_prog_quest_obj	* `{ya {Rj{Me{Cw{Be{Gl {yencrusted crown{x'
+O 87 get_prog get_prog_quest_obj	* `{Ya gil{yd{Yed {Rru{rb{Ry{Y g{yo{Yblet{x'
+O 89 speech_prog speech_prog_kassandra	* `{gk{Ga{gss{Ga{gndr{Ga{x'
+O 92 wear_prog wear_prog_fire_shield	* `fire shield'
+O 92 remove_prog remove_prog_fire_shield	* `fire shield'
+O 94 get_prog get_prog_quest_reward	* `the %s Amulet of {W%s{x'
+O 95 get_prog get_prog_quest_reward	* `the %s Ring of {W%s{x'
+O 97 fight_prog fight_prog_chaos_blade	* `a {Mc{Rh{Ba{Mo{Rs{x sword'
+O 98 wear_prog wear_prog_katana_sword	* `a {WLegendary Katana{x'
+O 99 death_prog death_prog_golden_weapon	* `a {Ygold{ye{Yn{x lance'
+O 101 wear_prog wear_prog_quest_weapon	* `the %s Claymore of {W%s{x'
+O 101 get_prog get_prog_quest_reward	* `the %s Claymore of {W%s{x'
+O 103 wear_prog wear_prog_quest_weapon	* `the %s Battle Axe of {W%s{x'
+O 103 get_prog get_prog_quest_reward	* `the %s Battle Axe of {W%s{x'
+O 104 wear_prog wear_prog_quest_weapon	* `the %s Blade of {W%s{x'
+O 104 get_prog get_prog_quest_reward	* `the %s Blade of {W%s{x'
+O 105 wear_prog wear_prog_quest_weapon	* `the %s Halberd of {W%s{x'
+O 105 get_prog get_prog_quest_reward	* `the %s Halberd of {W%s{x'
+O 106 wear_prog wear_prog_quest_weapon	* `the %s Spear of {W%s{x'
+O 106 get_prog get_prog_quest_reward	* `the %s Spear of {W%s{x'
+O 107 wear_prog wear_prog_quest_weapon	* `the %s Flail of {W%s{x'
+O 107 get_prog get_prog_quest_reward	* `the %s Flail of {W%s{x'
+O 108 wear_prog wear_prog_quest_weapon	* `the %s Whip of {W%s{x'
+O 109 wear_prog wear_prog_quest_weapon	* `the %s Staff of {W%s{x'
+O 109 get_prog get_prog_quest_reward	* `the %s Staff of {W%s{x'
+O 110 wear_prog wear_prog_quest_weapon	* `the %s Bow of {W%s{x'
+O 110 get_prog get_prog_quest_reward	* `the %s Bow of {W%s{x'
+O 111 wear_prog wear_prog_quest_weapon	* `the %s Lance of {W%s{x'
+O 111 get_prog get_prog_quest_reward	* `the %s Lance of {W%s{x'
+O 112 wear_prog wear_prog_quest_weapon	* `the %s Warhammer of {W%s{x'
+O 112 get_prog get_prog_quest_reward	* `the %s Warhammer of {W%s{x'
+O 113 wear_prog wear_prog_quest_weapon	* `the %s Axe of {W%s{x'
+O 113 get_prog get_prog_quest_reward	* `the %s Axe of {W%s{x'
+O 114 wear_prog wear_prog_quest_weapon	* `the %s Hammer of {W%s{x'
+O 114 get_prog get_prog_quest_reward	* `the %s Hammer of {W%s{x'
+O 115 wear_prog wear_prog_quest_weapon	* `the %s Stiletto of {W%s{x'
+O 115 get_prog get_prog_quest_reward	* `the %s Stiletto of {W%s{x'
+S
+
+#HELPS
+92 0 punishments~
+{MPunishment Guidelines:
+
+The most common rules broken are listed below.  For these, simple punishments may be taken into effect.  Daphais started a system here that shall be continued.  It was a three strikes system.  The first offense resulted in a warning.  The second offense, whether its a repeat of the first offense or not, results in punishment.  The third offense results in Kicking-the-kids-ass.  This new version of the three strikes system is similar to that, but bears a couple changes.  As it stands currently, we are VERY lenient with rule breaking.  Its this leniency that spawns more rule-breaking.  Cure? Harsher Punishments.  Now, this file documents all of the different cases of rule-breaking and then follows them with their First, Second, and Third level Punishments.
+
+ 
+{RMulti-play: {WThe act of logging multiple characters from the same IP
+
+{WFirst Offense: {DWarning, Informing that continual abuse will result in deletion.
+{WSecond Offense: {DDeletion of Both Characters{x
+{WThird Offense:{D  Permanent Ban (perpetual)
+ 
+ 
+{RAbusing Channels:{W Misusing a channel to spam, sexually harass, or use inappropriate language in an OOC sense
+
+{WFirst Offense:{D  Warning, Informing that Continued Abuse will result in Nochanning
+{WSecond Offense: {DNochan for the rest of the day, warn of next punishment.{x
+{WThird Offense:  {DPermban in the case of sexual harrassment, Nochan for 1 week for other offenses
+ 
+ 
+{RPoor Roleplay After Level 20:{W Behaving in an OOC in an excess (or not RPing at all)
+ 
+{WFirst Offense:{D  Warning, Informing that Continued Poor Roleplay will result in getting Slain and Eaten
+{WSecond Offense and on: {DEither dock quest points or knock off a few hp{x
+ 
+ 
+{RBlatant Disrespect of an Imm:{W Use of Foul Language, Deliberately Disobeying an Imm, etc.
+
+{WFirst Offense:{D  Warning, Informing that Continued Abuse will result in getting Slain and Eaten
+{WSecond Offense:{D Slay (Not KILL) and Eat Corpse, Warning that Next Offense will result in Permanent Ban
+{WThird Offense:{D  Permanent Ban (perpetual)
+ 
+ 
+{RAbusing Loopholes:{W Repeated Abuse of loopholes
+
+{WFirst Offense:{D  Warning, Informing that Continued Abuse will result in getting Slain and Eaten
+{WSecond Offense: {DSlay (Not KILL) and Eat corpse, Warn that next offense will result in deletion
+{WThird Offense:  {DDeletion of character{x
+ 
+ 
+{RDescription-less When Level 20+:{W Not having an Adequate Description While level 20+
+
+{WFirst Offense:{D  Not really a punishment, simply transfer to your Room, (Or mine, vnum is 989001)
+    And keep them there until they create an acceptable description.
+ 
+ 
+{RMulti-Killing:{W Repeated Killing, in the same day, without valid roleplayed Reasoning
+
+{WFirst Offense:{D  Warning, Informing that Continued Multi-Killing will result in Character Deletion
+{WSecond Offense:{D Slay and Eat character, Inform that next offense is deletion
+{WThird Offense:  {DDelete character
+ 
+ 
+{RPlayer Killing During a Reboot:{W Beginning a PK attempt while a REBOOT IN XX MINUTES Flag is up
+ 
+{WFirst Offense:  {DSlay (Not KILL) and Eat corpse, warn about next offense{x
+{WSecond Offense: {DDeletion of character, warn about next offense.{x
+{WThird Offense:  {DTemporary Ban (1 week)
+ 
+ 
+{REquipment Passing:{W Passing Equipment (Quest included) from One character to another
+ 
+{WFirst Offense:{D  Slay Eat both Characters, Warning that Next Offense will result in Deletion of Both Characters
+{WSecond Offense:{D Deletion of Both Characters, Warning that Next Offense will result in Permanent Banning
+{WThird Offense: {D Temporary Ban (1 week){x
+ 
+{RAdvertising Other Muds:{W Directing Others to Play other muds, or simply Advertising other muds
+ 
+{WFirst Offense:{D  Warning, Informing that continued Advertisement will result in being permanently banned
+{WSecond Offense:{D Permanent Ban (perpetual)
+    {RNOTE:{D If you can, pay a visit to the mud they were advertising and have a few words with
+      their supereriors
+ 
+ 
+{WWhen to execute these punishments:{w Only execute these punishments after you are certain an infraction has occurred. This largely applies to those cases where it appears to be rule-breaking, but is simply a misunderstanding.  Investigate the crime first, decide if it really is breaking the rules, and then punish accordingly.
+ 
+ 
+{YYou might be thinking that some of these punishments are harsher than others.  Yes, that is simply because some of the crimes have greater consequences than others.  Killing during Reboot Flag can cause grief for other players, while simple language difficulties affect only the parties involved.
+ 
+ 
+If someone is continually abusing the rules among multiple alts of theirs, and they become a problem to the mud, it is probably best to permban them. Permbanning is like the death penalty, so there needs to be just cause to use it, such as when someone is threatening our playerbase, harrassing others, or repeatedly breaking rules. Now we're not going to permban someone because they roleplay poorly 30 times, they're not a hazard to the mud because they can't rp :-P. You get the idea.
+ 
+ 
+{MA final note on Punishments:{W If you are uncertain as to whether or not a player merits punishment, do NOT act.  Wait for another imm to sign on, and ask for help.  But I repeat, if you are uncertain as to whether or not a player needs to be punished, simply Do Not Act.  Note the rest of the Immstaff, informing of the situation.{x
+~
+92 0 penalty punish infraction offenses~
+In this file, every player that has had an offense is to have their IP address listed here.  This will allow us to easily monitor repeat offenses.  Repeat offenses are to be indicated with a * prior to their IP address.  For example:
+
+** c-24-6-240-119.client.comcast.net  ALCERION
+ 
+This would mean that Alcerion, on IP c-24-6-240-119.client.comcast.net has 2 offenses.  This log is to be kept exactly like the example.  Any stars on the IP, the IP itself (you all have Sockets, use it), followed by the Character Name.  In the event of an offense, check this file before punishing to see whether or not the player has an offense or two, then act accordingly.  Also, when you punish someone for the first time, Add them to this list.
+ 
+Froggle/Fraz = Passing equipment c68.117.105.134.ash.wi.charter.com  8/27/04
+*user-0cal466.cable.mindspring.com  Renamed Splintor->Azhul (Tania 8/29/04)
+*194.54.33.115 Xardas Multi-killing (Alcerion 9/14/04)
+
+Nouflic/Alphal - Disconnecting Nouflic to log onto Alphal to "watch Nouflics con-deletion"
+(Punishment posted 10/3/04)
+Elial - Warned for illegitamitely enforcing rules against Nouflic for said action.
+(Punishment posted 10/3/04)
+Nouflic/Alphal - Same circumstances, except taking equipment from his con-deleted char's corpse
+(Punishment posted 10/3/04)
+Note: These two aren't known to be repeat offenders
+ 
+2004-11-07 Adakis - multikilling Rhajaat w/o sufficient RP reason.
+           (handled by Zsuzsu)
+~
+0 0 traps ranger net blind dismantle~
+{CSyntax: trap
+        trap net
+        trap blind
+{x
+Trap is a ranger ability that allows them to lay three different types
+of traps in the forest--regular, net, and blind. Trap with no argument
+will lay a trap that will deal damage to any unfortunate enough to step
+on it. Trap net will lay a trap that will hoist anyone who enters the
+room high up in the air in a net, rendering them nearly incapacitated.
+Trap blind will deliver a bright flash of light to whomever springs
+the trap, effectively blinding him or her.
+ 
+Traps inform whoever set them when they have gone off, so a ranger
+will know when his or her prey has fallen into the trap.
+ 
+Also, rangers can detect traps, a passive abilities that lets them
+bypass all traps in the room depending on their skill with detecting
+traps, and the level of the ranger compared to the level of whoever
+set the trap.
+ 
+Skilled rangers can also dismantle traps, whether they were made by
+the ranger him or herself, or another.
+~
+0 0 lash~
+{CSyntax: Lash <target, or blank>{x
+ 
+Lash is a combat technique learned by Warriors, Thieves and Rangers that
+allows them to use their wielded whip to catch a flying foe about the ankles
+and slam them to the ground.
+ 
+Note: Lash does NOT strip the flying affect, however it effectively forces
+the victim to "fly down".
+~
+-1 $~
+
+#$

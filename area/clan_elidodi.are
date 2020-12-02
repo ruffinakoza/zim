@@ -1,0 +1,3145 @@
+#AREADATA
+Name ElidoDi High Tower~
+Builders loren shaelindra~
+VNUMs 100600 100700
+Credits loren~
+Security 9
+LevelRange 1 100
+ResetMessage You hear a rumbling noise, while time seems to shift back...~
+Flags closed noquest nosummon clanhall~
+Clan ElidoDi~
+End
+
+#MOBILES
+#100601
+guardian knight light~
+The Knight Guardian~
+A knight guardian clad in shining armor.
+~
+A knight, clad in shining armor and surrounded in a white protective
+aura, stands here, in aid of the pure hearted mages of the Golden Tower.  
+~
+storm giant~
+ABef DFHNZlmt 1000 0
+100 30 2d500+25000 1d1+3999 10d25+90 none
+-79 -79 -79 -40
+AFKLNO ABN 0 Z
+stand stand male 5000
+0 0 unknown flesh~
+~
+F vul HIP
+M greet 100604 100~
+M exit 100605 ~
+M death 100607 100~
+M fight 100618 50~
+C ElidoDi~
+#100602
+mob rotting~
+The rotting mob~
+A rotting mob wanders here.
+~
+~
+human~
+ABSYe HX 0 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+IKN 0 0 0
+stand stand none 1000
+0 0 gargantuan flesh~
+~
+F for M
+F par DEFGHIJK
+#100610
+ergahl food vendor~
+Ergahl the Food Vendor~
+Ergahl slides open his glass case in anticipation to sell you something.
+~
+In accordance of being immaculately clean, Ergahl wears a pristine white
+cooks outfit, complete with a chef's hat.  He smiles at your entrance to his
+quaint shop, built for this clanhall.  He wipes down his glass case for
+perhaps the tenth time in twice as many minutes.  
+~
+human~
+ABe DFlmt 0 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+0 ABDEFGHIJKLMNOPQRTUXYZa 0 C
+stand stand male 1000
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 100630 100~
+#100620
+janilya serving witch~
+Janilya the Serving Witch~
+Janilya gives you a wink and easy smile.
+~
+Janilya offers an easy smile as she polishes a shotglass undoubtedly used
+by a previous customer.  She serves only the finest beverages suited for the
+denizens of this clanhall.  
+~
+human~
+AB DFlmt 0 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+0 ABDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 100631 100~
+M speech 100640 test~
+#100621
+marimoor magnificent~
+Marimoor the Magnificent~
+A drunk dressed in gaudy mages robes is slung over the bar.
+~
+Marimoor the "Magnificent" must be one of those has-been mages who had his head
+hit a few times by a few {yBarbarians{x. You look at him in his drunken stupor and
+think that you shouldn't let the same happen to you.
+~
+human~
+AB 0 0 0
+50 50 173d50+1000 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 100632 ~
+#100630
+money changer moneychanger othel~
+Othel, Otho's brother~
+Othel the Money Changer, Otho's brother, stands here, waiting for your coins.
+~
+Try to handle the command IDENTIFY!...
+	Try to change money!....(give some silver, get some gold)
+
+Otho is grotesquely fat man dressed in rich clothes.  Apparently the money
+changing business pays quite well in this busy city, or possibly the rumors
+of his fencing services are true...
+~
+human~
+ABVd DF 900 0
+200 200 1023d200+0 1000d10+85 100d100+1000 none
+-126 -126 -126 -84
+FG ABU CD 0
+stand stand male 1000
+0 0 medium flesh~
+~
+#100631
+alaeryn flower girl~
+Alaeryn the flower girl~
+A young girl tries to sell you a flower.
+~
+~
+human~
+A 0 0 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#100632
+cleric light mage~
+The cleric of light~
+A mage surrounded in a {Ygolden{x aura stands here helping all in need.
+~
+He seems a force to be reckoned.  So if you decide to go against him, be
+sure you know how to help yourself.  
+~
+human~
+ABJKQVae DFHlmt 5000 0
+100 100 524d100+30000 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+EFHIJK ABLQ N M
+stand stand male 1000
+0 0 medium flesh~
+~
+C ElidoDi~
+#100660
+librarian~
+the librarian~
+An elven spirit peers at you as you interrupt her reading.
+~
+She hovers at a podium that seems to be just shy of buckling under the weight
+of a tome that's the size of a tombstone. She seems to be young, as far as
+ghosts go, at any rate.  If you'd like to request a book from the library
+just ask to see {Ga book on{x whatever topic you are interested in.
+~
+ghost~
+ABKUe DFl 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M greet 100660 100~
+M speech 100670 book on tes~
+M speech 100671 book on brew~
+M speech 100672 book on mental~
+M speech 100673 book on demon~
+M speech 100674 book on trans~
+M speech 100675 book on master~
+M speech 100676 book on scourge~
+#100686
+gatekeeper tower white~
+white tower gatekeeper~
+The gatekeeper of the white tower moves people out of the room when necessary.
+~
+~
+human~
+ABe DFlt 0 0
+100 100 456d100+0 500d10+85 1d1+0 none
+-58 -58 -58 -37
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 100686 2~
+I 92
+#100687
+gatekeeper tower grey~
+grey tower gatekeeper~
+The gatekeeper of the grey tower mvoes people out of the room when necessary.
+~
+~
+human~
+ABe DFlt 0 0
+100 100 456d100+0 500d10+85 1d1+0 none
+-58 -58 -58 -37
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 100687 2~
+I 92
+#100688
+gatekeeper black tower~
+black tower gatekeeper~
+The gatekeeper of the black tower moves people out of the room when necessary.
+~
+~
+human~
+ABe DFlt 0 0
+100 100 456d100+0 500d10+85 1d1+0 none
+-58 -58 -58 -37
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 100688 2~
+I 92
+#100689
+cleric invader incader neutrality~
+the Grey Cleric~
+The cleric of the Tower of Neutrality is ready to deliver his spells to his brethren.
+~
+He seems a force to be reckoned.  So if you decide to go against him, be
+sure you know how to help yourself.  
+~
+human~
+ABJKQVae DFlmtu -1000 0
+100 100 524d100+30000 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+EFHIJK ABC D N
+stand stand male 1000
+0 0 medium flesh~
+~
+C ElidoDi~
+#100690
+gate keeper~
+a gatekeeper~
+A gatekeeper stands here, sending everyone back to where they belong.
+~
+~
+human~
+ABe DFlm 0 0
+150 150 740d150+0 750d10+85 1d1+0 none
+-91 -91 -91 -60
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 100616 5 100~
+M random 100619 5~
+I 92
+#100691
+runic guardian~
+a runic guardian~
+A Runic Guardian hovers before the portal leading to the Council Room.
+~
+Magical Runes twist every which way along the carapace of this construct.
+He appears not to notice you, but better not get too close, unless you
+belong in the Council Room.  
+~
+golem~
+ABGf DFcltu 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 0 0 K
+stand stand none 0
+0 0 medium flesh~
+~
+M exit 100620 Ugg~
+#100692
+meat grinder~
+meat grinder~
+~
+~
+golem~
+Aef DFlt 0 0
+100 10000 456d100+0 500d10+85 100d100+100 none
+-58 -58 -58 -37
+A ABCDEFGHIJKMNOPRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F res D
+F vul CP
+M grall 100652 100~
+M speech 100654 yes~
+M speech 100654 Yes~
+M speech 100654 !~
+#100693
+petkeeper~
+the petkeeper~
+The petkeeper raises an eyebrow at you looking at him.
+~
+The petkeeper performs these functions:
+1) kicks out non-elidodis if ithell is alive
+2) prevents pets from going west
+~
+human~
+ABe DFlmt 0 0
+150 150 740d150+0 750d10+85 1d1+0 none
+-91 -91 -91 -60
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 100651 100~
+M exit 100653 3 100~
+I 92
+#100694
+elidodipetguard ithell pet keeper~
+Ithell, the stable boy~
+A boy is here, making space for ElidoDi pets.
+~
+Covered with a thin sheen of sweat, this strapping 23 year old lad works
+hard for the clan of ElidoDi, keeping their pets healthy and safe.
+~
+human~
+ABGR DFHlt 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 100650 100~
+#100695
+gatekeeper~
+a gate keeper~
+A gate keeper ensures anyone who enters this clanhall can leave.
+~
+~
+human~
+ABe DFlmt 0 0
+150 150 740d150+0 750d10+85 1d1+0 none
+-91 -91 -91 -60
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 100617 5 100~
+I 92
+#100696
+guardian stone golem~
+The Guardian Golem~
+A stone golem stands here, defending the Tower of Balance.
+~
+A mass of stone, melded into a being-like shape, looks at you with his
+glowing white eyes and waits for you to do another step forward.  
+~
+golem~
+ABef DFHNOVZalmt 0 0
+99 30 2d500+25000 1d1+3999 10d25+90 none
+-79 -79 -79 -40
+AFKLNO AB 0 0
+stand stand male 2136
+0 0 unknown flesh~
+~
+M death 100615 100~
+M exit 100613 0 100~
+M fight 100618 50~
+M greet 100612 100~
+C ElidoDi~
+#100697
+clan cleric elidodi mage elidodicleric~
+the mage of light~
+A mage surrounded by a {Ygolden{x aura stands here helping all in need.
+~
+Wearing thick robes of dark yellow, he bears an aura of power about him,
+confident in his ability to repel any threat to the clan.  
+~
+human~
+ABKQaef DFHVlm 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ C 0
+stand stand female 0
+0 0 medium flesh~
+~
+M give 100625 all~
+M speech 100641 give me the ruler item~
+M speech 100642 give me the shadow item~
+M speech 100643 give me the scion item~
+M speech 100644 give me the chaos item~
+M speech 100645 give me the barbarian item~
+M speech 100646 give me the knight item~
+M speech 100647 give me the sylvan item~
+M speech 100648 give me the sentinel item~
+C ElidoDi~
+#100698
+evil cleric cabal invader priestess~
+The Evil cleric~
+The cleric of the Evil Tower is ready to deliver his spells to his brethren.
+~
+He seems a force to be reckoned.  So if you decide to go against him, be
+sure you know how to help yourself.  
+~
+human~
+ABJKQVae DFlmtu -1000 0
+100 100 524d100+30000 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+EFHIJK AB 0 N
+stand stand male 1000
+0 0 medium flesh~
+~
+C ElidoDi~
+#100699
+clan guard seneschal elidodiguard~
+the {mSeneschal{x~
+The {mSeneschal{x of magic hovers here, wreathed in flames.
+~
+A ghostly figure floats above you, ready to unleash magical death on all
+that are against his lords.  The creature is formed entirely of flames and
+some other magical materials.  
+~
+human~
+ABTef DFclmu -1000 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 100602 100~
+M kill 100618 100~
+M exit 100601 Ugg~
+C ElidoDi~
+#100700
+dark guardian obsidian~
+The Dark Guardian~
+The dark guardian of the bridge, wrapped in a black mist.
+~
+The dark figure of a guard of the Obsidian Order makes you feel your
+courage drain.  He rises up his head as soon as you approach him and sees
+through your heart to decide if he'll let you pass or slay you for having
+come this far.  
+~
+fire giant~
+ABef DFOlmtu -1000 0
+100 30 2d500+25000 1d1+3999 10d25+90 none
+-79 -79 -79 -40
+AFKNO AB 0 N
+stand stand male 5000
+0 0 unknown flesh~
+~
+F res H
+F vul IJP
+M death 100610 100~
+M exit 100608 0 100~
+M greet 100603 100~
+M fight 100618 50~
+C ElidoDi~
+#0
+
+#OBJECTS
+#100600
+mark elidodi ascension~
+the Mark of {mA{Msc{we{Wn{ws{Mio{mn{x~
+{YRaw energy crackles from this symbol as it pulses rythmically.{x~
+energy~
+~
+treasure ABGMORTYZa AS
+0 0 0 0 0
+15 5 1 P
+A
+12 100
+A
+3 2
+G none
+G none
+G none
+G none
+#100610
+barbarian pie pot potpie~
+a {yBarbarian{x pot pie~
+A {ypotpie{x rests on the ground here, tantilizing your nostrils.~
+unknown~
+~
+food 0 AO
+CE CE 0 0 0 CE CE
+0 0 209 P
+G none
+G none
+G none
+G none
+#100611
+scion scone~
+a {rS{Rc{ri{Ro{rn{x scone~
+A {rstrawberry{x scone sits here on the ground, carelessly tossed away.~
+unknown~
+~
+food 0 AO
+AB AB 0 0 0 AB AB
+0 0 29 P
+G none
+G none
+G none
+G none
+#100612
+display case glass~
+The glass display case~
+A glass display case sits here, tantilizing you with the treats held inside.~
+glass~
+~
+container R 0
+10000 0 0 0 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100613
+chair~
+a simple chair~
+An empty chair at the table awaits you.~
+unknown~
+~
+furniture R 0
+BD DHIJM FI CFG CFG BD DHIJM
+0 0 0 P
+G none
+G none
+G none
+G none
+#100614
+display barbarian potpie pie~
+a {yBarbarian{x potpie~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100615
+display scion scone~
+a {rS{Rc{ri{Ro{rn{x scone~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100620
+crystal rose~
+a {Ccrystal {Rrose{x~
+A {Ccrystalline{x {Rrose{x lies at your feat.~
+unknown~
+~
+trash k AO
+0 0 0 0 0 0 0
+0 0 50 P
+G none
+G none
+G none
+G none
+#100621
+amethyst violet~
+an {mamethyst {Mviolet{x~
+an amethyst violet~
+unknown~
+~
+trash k AO
+0 0 0 0 0 0 0
+0 0 50 P
+G none
+G none
+G none
+G none
+#100622
+diamond jasmine~
+a {wjasmine{x made from {Wdi{wa{Wm{wo{Wnd{x~
+You almost break the {wjasmine{x carved from {Wdi{wa{Wm{wo{Wnd{x sitting on the ground.~
+unknown~
+~
+trash k AO
+0 0 0 0 0 0 0
+0 0 50 P
+G none
+G none
+G none
+G none
+#100630
+glass witch wine~
+a {Cglass{x of {mwitch's{x wine~
+A glass of sparkling witch's wine catches your eye with a glisten in the light.~
+unknown~
+~
+drink 0 AO
+10 10 'icewine' 0
+0 0 863 P
+G none
+G none
+G none
+G none
+#100631
+goblet elidodi brew~
+a {cgoblet{x of {mw{Ma{wr{Wl{wo{Mc{mk {ybrew{x~
+A goblet of elidodi brew quietly foams over.~
+unknown~
+~
+drink 0 AO
+10 10 'dark ale' 0
+0 0 757 P
+G none
+G none
+G none
+G none
+#100632
+shot necromancer spirits~
+a {wshot{x of {Dnecromancer{m spirits{x~
+A shot of the darkest concoction assails your nostrils. Smells like formaldehyde.~
+unknown~
+~
+drink 0 AO
+5 5 'vodka' 0
+0 0 731 P
+G none
+G none
+G none
+G none
+#100633
+holy elixir~
+a quart of {Wholy {me{Clixi{mr{x~
+A very tall mug of faintly glowing liquid calls out to you.~
+unknown~
+~
+drink 0 AO
+15 15 'benedictine wine' 0
+0 0 1258 P
+G none
+G none
+G none
+G none
+#100639
+chair lounge lounging~
+a lounge chair~
+~
+unknown~
+~
+furniture R 0
+DFGHIJ EIJKN FIL CFG CFG DFGHIJ EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#100650
+spider altar~
+a huge violet altar carved as a spider~
+A huge spider-shaped altar stands atop an elaborate fountain.~
+ivory~
+~
+container AORY P
+10 ABCD 100696 15 100 0
+60 1 20 P
+E
+altar~
+{wM{m       /|             |\                                    {wM
+{wM{m      / |             | \                                   {wM
+{wM{m    /|| |             | ||\                                 {wM
+{wM{m   / || |             | || \                                {wM
+{wM{m   | || |             | || |                                {wM
+{wM{m   | || |             | || |                                {wM
+{wM{m   | || |             | || |    {xAn amethyst spider-shaped   {wM
+{wM{m   | || |             | || |    {xaltar gazes back at you     {wM
+{wM{m   \ \\ \    /| |\    / // /    {xwith its glittering emerald {wM
+{wM{m    \ \\ \  ( \_/ )  / // /     {xeyes from atop its perch on {wM
+{wM{m     \ \\ \ /{G o o{m \ / // /      {xthe water fountain. A great {wM
+{wM{m      \ \\ \\{G0ooo0{m// // /       {xpower emanates from the     {wM
+{wM{m       \ \\ \\   // // /        {xcore of the altar, centered {wM
+{wM{m        \ \\ V   V // /         {xabout its hourglass figure. {wM
+{wM{m         \ V       V /          {xYou notice in the center of {wM
+{wM{m         / _       _ \          {xthe hour glass, a keyhole   {wM
+{wM{m        / /_\     /_\ \         {xawaits a key.               {wM
+{wM{m       / // __   __ \\ \                                    {wM
+{wM{m      / // /_/   \_\ \\ \                                   {wM
+{wM{m     / // //  {R___{m  \\ \\ \                                  {wM
+{wM{m    / // //   {R\ /{m   \\ \\ \                                 {wM
+{wM{m   / // / \   {R/_\{m   / \ \\ \          {R ________             {wM
+{wM{m   | || |  \       /   \ \\ \         {R \      /             {wM
+{wM{m   | || |   \     /    | || |         {R  \    /              {wM
+{wM{m   | || |    \   /     | || |         {R   \()/               {wM
+{wM{m   | || |     \ /      | || |         {R   /][\               {wM
+{wM{m   \ || |      V       | || /         {R  /    \              {wM
+{wM{m    \|| |              | ||/          {R /______\             {wM
+{wM{m      \ |{x______________{m| /                                  {wM
+{wM{x     //{m\|              |/{x\\                                 {wM
+{wM{x    |\\                  //|                                {wM
+{wM{x    | \\________________// |                                {wM
+{wM{x    | ||                || |                                {wM
+{wM{x    | ||________________|| |                                {wM
+{wM{x    \ \\ {C~~~~~~~~~~~~~~~~~~~~~~~~~~~~{x // /                                {wM
+{wM{x     \ \\______________// /                                 {wM
+{wM{x      \__________________/                                  {wM
+{wM{x      |                  |                                  {wM
+~
+C ElidoDi~
+G none
+G none
+G none
+G none
+#100651
+fountain~
+an elaborate fountain~
+~
+unknown~
+~
+fountain R 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100652
+orb elidodi clanitem magic~
+{COrb{x of {MM{wa{Wg{wi{Mc{x~
+The {COrb{x of {mM{wa{Wg{wi{mc{x hovers here, emanating power.~
+unknown~
+Source~
+light AGRYaef AO
+457
+60 1 100000 P
+E
+orb~
+Radiating with power, the transparent orb seems to contain a field of
+swirling stars, endlessly turning in a lazy fashion.
+~
+C ElidoDi~
+G none
+G none
+G none
+G none
+#100653
+key elidodi clankey clanhall~
+a {mE{Ml{wi{Wd{wo{MD{mi{x clanhall {Wkey{x~
+The {mE{Ml{wi{Wd{wo{MD{mi{x clanhall {Wkey{x is here in the dust.~
+unknown~
+magic~
+key AGV AO
+0 0 0 0 0 0 0
+60 0 0 P
+G none
+G none
+G none
+G none
+#100660
+donation pit~
+donation pit~
+A magical donation pit made of stone is carved from the wall.~
+unknown~
+~
+container ORg 0
+10000 0 0 100000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100661
+shelf bookshelf~
+the bookshelf~
+~
+unknown~
+~
+container R 0
+10000 0 0 100000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100670
+stable~
+a stable~
+~
+unknown~
+~
+furniture R 0
+BD FHJKPQ CFIL BDEFGH CFG BD FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#100671
+necronomicus book~
+The {WN{we{Dc{xr{Do{wn{Wo{wm{Di{xc{Du{ws{x~
+A compendium hovers here, with "{WN{we{Dc{xr{Do{wn{Wo{wm{Di{xc{Du{ws{x" inscribed on its cover.~
+unknown~
+~
+treasure 0 A
+0 0 0 0 0
+0 10 0 P
+E
+necronomicus book~
+You can read page1, page2, page3, or page4.
+~
+E
+page4~
+The Necronomicus Volume 3
+From the dissection table of Jorian:
+Subject: Elf
+Sex: Male
+Subtype: Drow
+
+Subject was found dwelling in the UnderDark. Subject was found to be a
+lowly male subjugate of a minor house of the matriarchy that which the Drow
+favor, presumably to their patron female deity, Lloth.
+
+Superficial attributes:
+Subject possesses typical elven attributes. His body possesses a sharp
+leanness to it, making it a better climber and runner than most other
+races that might live in an environment where spelunking would be an
+everyday occurance. Subject possesses large, pointed ears - possibly
+enhances hearing to some minor degree, or perhaps more likely, better
+enables the discernation of echoing sounds within the caverns that
+which exist under the surface of Thera. In addition, the drow's eyes
+are larger, as well as more side-oriented than a humans, providing
+a wider field of vision, as well as encompassing a lower frequency of
+light. Of course, the drow possesses, strangely, a large amount of
+melanin, which would insinuate that it's solely for camouflaging
+purposes in the darkness, rather than light absorption.
+
+Further analysis:
+The most interesting ability of the drow that comes to mind is its
+What is common to all elves, is the ability to detect heat signatures,
+which is merely the act of seeing a lower spectrum of light that
+humans cannot. Even more astounding is that within the drow eye, there
+are 5 lenses. One that is stationary, like a human's but 4 more, that
+move into place, so that a drow can adjust his vision from "normal"
+vision, to the most acute, which would allow the magnification of light
+given off in the form of heat, to an clarified image. It would seem,
+though, that these lenses are rather sensitive to light - anything
+more than the starlight on a cloudy night would utterly damage these
+lenses irreparably, leaving behind a night-blindness, as it were.
+
+Subject remains were sold to a giant. He mumbled something about
+making a pair of black gloves.
+
+Jorian of the Necronomicus
+~
+E
+page3~
+the Necronomicus Volume 1-b
+From the dissection table of Jorian:
+ 
+Subject: Felar 2
+Sex: Female
+Subtype: Tigris
+ 
+Subject was found alone on an uninhabited islet in the pirate isles. The
+islet was populated by a small supersticious tribe that thought it was a
+demon. Subject was trapped and stoned to death. The natives thought I was
+a shaman, of sorts. I "banished" the demon from their island.
+ 
+Superficial attributes:
+Subject covered in a multicolored, striped coat. The colors range from a
+white, to orange, to black, where white is predominantly on chest,
+abdomen, and face, while the rest is predominantly orange, with thinner
+black stripes. Presumably, this is to aid in a rudimentary camouflage
+amongst tall grass. A small mane does exist, but nowhere to the degree
+of the Leo subtype (See the Necronomicus V. 1-a).
+ 
+Further analysis:
+The creature, although female, is even bigger than the Felar Leo male. As
+as result, it is presumed that this kind of felar is more of a stalker of
+prey. Dramatically large feet support this theory. Abnormally strong legs
+would cause reason to believe the subject would pounce on its prey, bearing
+down upon it with its body-weight. Upon pouncing, the felar tigris would
+bite the creature's neck. If it were not to break the creature's neck, or
+crush its windpipe, the felar tigris would still be able to rake with its
+profound lower body strength.
+ 
+Speculation on the behaviour:
+This creature hunted alone. Any more than one or two, and they couldn't be
+stealthy enough to catch their prey by surprise.
+ 
+Subjects remains were discarded due to the amount of damage caused by
+its stoning. Many of the bones were crushed, and the fur was damaged.
+ 
+Jorian of the Necronomicus
+~
+E
+page2~
+The Necronomicus, Volume 2-a
+
+From the dissection table of Jorian: 
+Subject: Troll 
+Sex: Indeterminate 
+Subtype: Cavern 
+
+Subject was found in the catacombs under the almost-abandoned chapel 
+in Midgaard. Subject was starving, as its limited mental capacitance 
+could not wrap around the fact that the creatures he kept "killing" 
+were insubstantial and therefore inedible. After providing a flesh 
+golem of my own creation a few holes, subject demonstrated remarkable 
+abilities to heal grievous wounds, reattach severed limbs, and even 
+growing new ones. Subject was captured by magical anesthetization. 
+
+Superficial Attributes: 
+An intolerable stench, common to all trolls. Magical and physical 
+protection for the eyes, nose, and mouth were required. 
+
+*Personal note: Reinstate Olfactory senses to ensure hands are 
+truly clean before eating. 
+
+Skin of subject was suspiciously grayer than the more common mountain- 
+ous trolls, but was certainly still quite green. 
+
+Further Analysis: 
+To not impede with the normal inner workings of the subject, magical 
+stasis was required for its brain. Even without an operating brain 
+stem, the creatures body reacted. Fortunantly, without a brain it 
+could not realize its restraints and break free from them. The 
+innards of the specimen refused to lead to any conclusion why the 
+subject experienced great regenerative capabilities. Magical detect- 
+ing spells were likewise fruitless. Apparently, the answer to the 
+creature's regenerative powers lie deeper within its being, and ex- 
+ists on a much smaller, basic level. 
+
+Until further advances in studying in minute detail are uncovered in 
+other branches of science, the exact answer shall remain unknown. 
+As this dissection was frustratingly inconclusive, tissue samples 
+were collected, and stored away (in magical stassis jars, so that 
+replicated trolls do not result), and the troll was placed in the 
+caverns under an abandoned estate for further analysis. 
+
+He is apparently content with his new hunting grounds.
+
+Jorian of the Necronomicus
+~
+E
+page1~
+the {WN{we{Dc{xr{Do{wn{Wo{wm{Di{xc{Du{ws{x Volume 1-a
+From the dissection table of Jorian:
+ 
+Subject: Felar 1
+Sex:     Male
+Subtype: Leo
+ 
+Subject was found along the roadway, east of Midgaard, west of
+New Thalos. Trauma to the left side of the torso suggests being
+hit by a large, fast moving object of unknown origin.
+ 
+Superficial Attributes:
+Covered in coarse, yellow fur. Type of species causes difficulty
+in age estimation, but the mane surrounding the head suggests
+early adulthood. Tail ends with small tuft of fur. Both mane and
+tuft are of a darker, ruddy hue.
+ 
+Further analysis:
+This specimen proved to have a bulkier, stockier build than most
+common felar. In life, it must have had a natural aptitude for
+strength, for which evolution traded dexterity. Analysis on his
+tail suggests it to be incapable to be used in battle. Also, the
+subject's vocal chords were unlike any other I've seen. His vocal
+chord had hardened to bone by evolution, suggesting inability to
+purr, but instead to provide a mighty roar. It's quite possible
+that he used it to intimidate his prey.
+ 
+Speculation on the behavior:
+As he was carnivorous, but not built for speed, the hunter must
+have used advanced tactics to obtain his food, or even hunted in
+groups. Being able to roar loudly might have been a sort of com-
+munication tool over long distances.
+ 
+Subject's remains are in cold storage for future study. It is
+possible that more may surface, and comparison may be warranted.
+ 
+Jorian of the Necronomicus
+~
+E
+book~
+The Complete Works of Jorian, the Wanderer
+ 
+ 
+ 
+ 
+ 
+        The {WOmni{D-{WN{we{Dc{xr{Do{wn{Wo{wm{Di{xc{Du{ws{x
+ 
+ 
+ 
+ 
+ 
+(Type look page1, page2, page3, etc)
+ 
+~
+G none
+G none
+G none
+G none
+#100690
+giant pillow enormous purple golden~
+a giant {Dblack{x pillow with {Ygolden{x trim~
+An enourmous satin pillow of the deepest {Dblack{x rests here.~
+unknown~
+~
+furniture GIR 0
+BD FHJKPQ BEHK BDEFGH BDEFGH BD FHJKPQ
+0 1010101 0 P
+G none
+G none
+G none
+G none
+#100691
+giant pillow enormous purple golden~
+a giant {mpurple{z pillow with {Ygolden{z trim~
+An enormous velvet pillow of the deepest {mpurple{z rests here.~
+unknown~
+~
+furniture GIR 0
+BD FHJKPQ BEHK BDEFGH BDEFGH BD FHJKPQ
+0 1010101 0 P
+G none
+G none
+G none
+G none
+#100692
+giant pillow enormous purple golden~
+a giant {Wwhite{x pillow with {Ygolden{x trim~
+An enourmous silk pillow of the brightest {Wwhite{x resets here.~
+unknown~
+~
+furniture GIR 0
+BD FHJKPQ BEHK BDEFGH BDEFGH BD FHJKPQ
+0 1010101 0 P
+G none
+G none
+G none
+G none
+#100693
+gray key neutrality~
+gray key of neutrality~
+A small gray key sits on the ground here.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100694
+portal meat grinder~
+The portal to the Meat Grinder~
+A fiery portal drips blood and bits of bone onto the floor here.~
+unknown~
+~
+portal R 0
+0 0 0 100620 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100695
+key~
+A dark wicked key~
+A wicked, dark key sits on the ground.~
+steel~
+~
+key CORY AO
+0 0 0 0 0 0 0
+40 4 0 P
+G none
+G none
+G none
+G none
+#100696
+amethyst diamond fused elidodi key spider clankey elidodi_altar_key~
+the {ms{Mp{wid{Me{mr's {Wkey{x~
+A key formed from the fusion of {Wdiamond{x and {mamethyst{x sits here.~
+unknown~
+diamond amethyst~
+key Uf AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100697
+key~
+A golden key~
+A golden key rests on the ground.~
+steel~
+~
+key AORY AO
+0 0 0 0 0 0 0
+40 4 0 P
+G none
+G none
+G none
+G none
+#100698
+portal evil gate flickering dark~
+An {REvil{x portal.~
+A {Wfl{Dick{We{Dri{Wng{x {Ddark{x portal lights this dark room.~
+darkness~
+dark~
+portal BC 0
+0 0 0 5381 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100699
+gray portal glowing gate~
+The neutral elidodi portal.~
+A {DGray {Wglowing {xportal rises tall and inviting.~
+stone~
+~
+portal 0 0
+0 0 0 3502 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100700
+portal golden glitter gate~
+the {Yg{yold{Yen{x portal~
+A {Yg{yold{Yen {xgate {Yg{yl{Yi{yt{Yt{ye{Yr{ys {xhere radiating powerful magic.~
+gold~
+~
+portal AB 0
+0 0 0 3014 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100600
+At the Base of Three HUGE Towers~
+You stand before a set of stairs that lead up to the towers of where the
+{RElidoDi of the Five Magics{x are known to reside.  The area has a strange
+illumination all to itself.  At the top of the stairs are the large double
+doors, which you can only imagine enter into a very large main hall.  
+~
+0 DSXd inside
+D2
+~
+~
+Z 0 100640
+0 0
+D4
+~
+~
+DMZ 100653 100601
+0 0
+S
+#100601
+Main Foyer~
+As you enter a grand entry hall, the polished marble walls shine your
+reflection back at you.  A large chandelier made from various gemstones
+(from neighboring dimensions you hear!)  , all having varying shades of
+{mamethyst{x, where the lights appear as glowing {wdiamonds{x.  Paintings adorn the
+walls here, entitled with inscriptions.  Up ahead, you see the hall's end
+opens up to a larger room.  A much larger room.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100602
+0 0
+D5
+~
+~
+DMZ 100653 100600
+0 0
+S
+#100602
+Beyond the Foyer~
+You continue to walk through the entry hallway, you see that the
+chandelier has a twin that hangs motionlessly in the air.  To the north, you
+can make out a faceted statue of a spider.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100603
+0 0
+D2
+~
+~
+Z 0 100601
+0 0
+S
+#100603
+Near the main hall~
+Standing just outside the main hall, you can see the statue more clearly,
+and see that it sits upon an elaborate fountain that continuously spouts
+water in arcs at regular intervals all around the base of the statue.  Off
+beyond the left of the statue, you see a man standing around, with a large
+bag full of money, and off to the right of the statue, you see a ghostly
+woman pulling a book off an immense shelf.  
+ 
+To the South is the entrance.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100604
+0 0
+D2
+~
+~
+Z 0 100602
+0 0
+S
+#100604
+Just inside the main hall~
+The ceiling of the hall towers high above you, making you feel very
+insignificant.  Before you, you see the statue much more clearly.  It is
+apparently the ElidoDi altar.  To your east, you see a woman standing behind
+a counter, polishing a small glass.  To your west, you see a man wearing a
+chef's uniform, pulling something out of his oven, and placing it within a
+display case.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100608
+0 0
+D1
+~
+~
+Z 0 100605
+0 0
+D2
+~
+~
+Z 0 100603
+0 0
+D3
+~
+~
+Z 0 100606
+0 0
+S
+#100605
+The Wandering Warlock~
+An array of goblets, shotglasses, and regular glasses line the shelves
+containing various bottled liquids.  All those various liquids to create the
+three house specialties.  There seems to be in lieu of barstools, a series
+of lounging chairs to rest in while enjoying a drink.  
+~
+0 CDXd inside
+D0
+~
+~
+Z 0 100607
+0 0
+D3
+~
+~
+Z 0 100604
+0 0
+S
+#100606
+A Food Shop~
+This simple food shop consists simply of an oven and display counter.  It
+makes up for its simplicity, however, with its cleanliness.  It also has a
+nice table to sit at, and there's always a free chair, too.  And something
+smells exquisitely scrumptious, fresh from the oven.  
+~
+0 CDXd inside
+D0
+~
+~
+Z 0 100609
+0 0
+D1
+~
+~
+Z 0 100604
+0 0
+S
+#100607
+The way to the Golden Tower~
+To the east, you can spot the double doors that lead to the {YGolden{x
+tower.  To the north, you see the Library, and to the south, you see the
+ElidoDi pub, The Wandering Warlock.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100610
+0 0
+D1
+~
+~
+Z 0 100624
+0 0
+D2
+~
+~
+Z 0 100605
+0 0
+D3
+~
+~
+Z 0 100608
+0 0
+S
+#100608
+The center of the great hall~
+You stand in the very center of the Great Hall, where the skylight looms
+above you.  A great {mamethyst{x spider-shaped altar is here, atop an elaborate
+{Cfountain{x that bubbles serenely, drawing your attention to the center of the
+room, towards the altar.  Next to the altar is a small podium with a {wmap{x on
+it.  
+~
+0 DXd inside
+E
+map~
+{wMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM{x
+{wM{x                                                    {wM{x
+{wM{x                Tower of Neutrality                 {wM{x
+{wM{x                                                    {wM{x
+{wM{x                                                    {wM{x
+{wM{x                                                    {wM{x
+{wM{x              Bank            Library               {wM{x
+{wM{x                                                    {wM{x
+{wM{x                      {Y_{M/\{Y_                          {wM{x
+{wM{x                     {Y|    |                         {wM{x
+{wM{x The Dark Tower     {M<      >{x       The Golden Tower {wM{x
+{wM{x                     {Y|_  _|                         {wM{x
+{wM{x                       {M\/                           {wM{x
+{wM{x                                                    {wM{x
+{wM{x       Food Shop              The Wandering Warlock {wM{x
+{wM{x                                                    {wM{x
+{wM{x                                                    {wM{x
+{wM{x                    Entrance                        {wM{x
+{wM{x                                                    {wM{x
+{wMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM{x
+~
+D0
+~
+~
+Z 0 100611
+0 0
+D1
+~
+~
+Z 0 100607
+0 0
+D2
+~
+~
+Z 0 100604
+0 0
+D3
+~
+~
+Z 0 100609
+0 0
+S
+#100609
+The way to the Evil Tower~
+As you approach this side of the main hallway, you feel the atmosphere
+somehow becomes darker.  Your pulse quickens, and you start breathing
+shorter, ragged breaths.  West from here is an individual shrouded in black
+mist.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100612
+0 0
+D1
+~
+~
+Z 0 100608
+0 0
+D2
+~
+~
+Z 0 100606
+0 0
+D3
+~
+~
+Z 0 100629
+0 0
+S
+#100610
+Library~
+Books, books, books.  Despite the fact that there aren't many shelves,
+their height more than makes up for their width, as they seem to reach
+towards the ceiling.  Very large, heavy books line the bottom shelves.  They
+look like they were used by giants, as you can't recall too many humans
+that'd care to have their books and book covers made from stone plates,
+which is typically the only substance that wouldn't be utterly destroyed by
+the less-than-ginger touch of a giant.  You feel like grabbing something
+from the bookcase for light reading...  
+~
+0 DXd inside
+D2
+~
+~
+Z 0 100607
+0 0
+D3
+~
+~
+Z 0 100611
+0 0
+S
+#100611
+The Way to the Grey Tower~
+You stand before the portal leading to the central tower.  From the looks
+of it, the interior is built with granite walls, but is punctuated with
+interspersed glowing crystals imbedded into the walls.  
+ 
+The bank lies to your west, and the library makes residence to the east.
+The altar is to your south.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100615
+0 0
+D1
+~
+~
+Z 0 100610
+0 0
+D2
+~
+~
+Z 0 100608
+0 0
+D3
+~
+~
+Z 0 100612
+0 0
+S
+#100612
+The ElidoDi Bank~
+A simple pedestal sits here that positively glows with translocational
+magics.  Apparently it's used in the withdrawl and depositing of gold and
+silver.  It even seems to have a function to let you check to see how much
+money you have in the bank!  But it seems that the mage that crafted the
+device seems to have implemented a charge for its usage, sending the cost of
+withdrawl to his own account!  "That greedy bum!"  You think to yourself,
+glumly, as you do your typical bank transaction.  
+~
+0 DUXd inside
+D1
+~
+~
+Z 0 100611
+0 0
+D2
+~
+~
+Z 0 100609
+0 0
+S
+#100613
+the room of no purpose~
+~
+0 DX inside
+S
+#100614
+Common Summoning Room~
+~
+0 DX inside
+S
+#100615
+Before the Gray Double Doors~
+A cool breeze greets you from the cracks in the gray door, bringing the
+sweet scent of various flowers into the main hall.  A feeling of serenity
+overwhelms you, and you feel all is right with the world.  
+~
+0 DXd city
+D0
+~
+~
+ABCDFZ 100693 100616
+0 0
+D2
+~
+~
+Z 0 100611
+0 0
+S
+#100616
+A Granite Pathway~
+The pathway beneath your feet feels rough, yet comforting.  Flowers of
+all kinds border both sides of the pathway, and trees dot the landscape as
+far as you can see.  The tranquility puts your mind at ease.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100617
+0 0
+D2
+~
+~
+ABCDFZ 0 100615
+0 0
+S
+#100617
+Before the Grey Tower~
+The granite stairs spiral their way upwards into the interior of the
+slate gray tower that looms above you.  Lantern-shaped crystals hang
+motionlessly on either side of the door, providing a soft luminescence to
+the entrance to the Tower of Neutrality.  
+~
+0 DXd inside
+D2
+~
+~
+Z 0 100616
+0 0
+D4
+~
+~
+Z 0 100618
+0 0
+S
+#100618
+Stone Stairs~
+The breeze from outside makes the stone stairs and walls cool to the
+touch but not uncomfortably so.  As you make your way upwards, the walls
+make way to a much smoother, polished stone.  
+~
+0 DXd inside
+D4
+~
+~
+Z 0 100619
+0 0
+D5
+~
+~
+Z 0 100617
+0 0
+S
+#100619
+Meeting Room of the Tower of Balance~
+{mPurple{x veins meander their way throughout the gray marble walls that
+compose the tower.  To the south, three portals make their home along the
+walls.  To the north, a resting place for the weary.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100623
+0 0
+D2
+~
+~
+Z 0 100622
+0 0
+D4
+~
+~
+Z 0 100621
+0 0
+D5
+~
+~
+Z 0 100618
+0 0
+S
+#100620
+The Meat Grinder~
+~
+0 DX inside
+S
+#100621
+Council Room~
+"Room" doesn't aptly describe this strange rift in space and time, as
+you seem to be travelling among the stars and cosmos, themselves.
+The "floor" beneath your feet seems tangible enough, even if you can't
+see it. You somehow feel you can go back down to go back to where
+you belong.
+~
+0 DXd inside
+D5
+~
+~
+Z 0 100634
+0 0
+S
+#100622
+Portal Room of the Grey~
+Three portals provide luminescence to this room, with the prominent
+portal resting in the center of the other two.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100619
+0 0
+S
+#100623
+The healer of balance~
+You hear your echoing footsteps fade to nothingness once you step onto a
+nice, soft, furry {wwhite{x carpet.  You suddenly feel as if you could use a
+few hours on the nice, soft pillow...  
+~
+0 DXd inside
+D2
+~
+~
+Z 0 100619
+0 0
+S
+#100624
+Before the White Double Doors~
+A faint golden light shines through the cracks of the double doors,
+giving everything in the general area a yellowish tint.  Golden lines arc,
+swirl, and twist, forming a border around the double doors.  You feel at
+peace in such an area, and get the distinctive urge to do something
+benevolent to a stranger.  
+~
+0 Xd city
+D0
+~
+~
+ABCDFZ 100697 100625
+0 0
+D3
+~
+~
+Z 0 100607
+0 0
+S
+#100625
+On a golden pebbled path~
+Treading on a straight path, golden pebbles crunch under your feet.  A
+clear blue sky smiles down upon you, sending vigor into your soul.  Just
+north from here is the entrance to the {Ygolden{x tower.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100626
+0 0
+D2
+~
+~
+ABCDFZ 100697 100624
+0 0
+S
+#100626
+At the base of the Golden Tower~
+You stand at the base of a great {YGolden{x Tower.  Tall oak trees surround
+you and with the birds chirping on them, makes a great and welcoming
+atmosphere.  You can go up and enter the tower or back to the pebbled path. 
+~
+0 DXd inside
+D2
+~
+~
+Z 0 100625
+0 0
+D4
+~
+~
+Z 0 100627
+0 0
+S
+#100627
+White marble staircase~
+From the windows here you can enjoy a great sight of the forest that lies
+around the Tower.  Far away you can see some mountains surrounded in mist
+shrouds and all of it makes a great and beautiful landscape.  Down from here
+is the base of this Tower and up is the common room where the mages commune.
+
+~
+0 DXd inside
+D4
+~
+~
+Z 0 100628
+0 0
+D5
+~
+~
+Z 0 100626
+0 0
+S
+#100628
+In the Meeting Room of the Pure~
+Little purple veins squiggle to and fro along the otherwise polished
+white marble that create the walls of this tower.  To the west, the room
+extends to where you see some portals.  To the east, you see a resting room.
+~
+0 DXd inside
+D1
+~
+~
+Z 0 100637
+0 0
+D3
+~
+~
+Z 0 100645
+0 0
+D4
+~
+~
+Z 0 100621
+0 0
+D5
+~
+~
+Z 0 100627
+0 0
+S
+#100629
+Before the Black Double Doors~
+From the edges of the doors, red light permeates, with an acrid,
+sulfurous smog making its way to the ceiling, proving to be the source of
+darkness.  An overbearing prescence of heat comes from the double doors,
+making you wonder what kind of hell must be behind it.  
+~
+0 Xd city
+D0
+~
+~
+ABCDFZ 100695 100630
+0 0
+D1
+~
+~
+Z 0 100609
+0 0
+S
+#100630
+On a Swaying Rope Bridge~
+You stand in the middle of a rope bridge that sways unsteadily beneath
+your feet.  You venture to look down...  You wish you hadn't, and fiercely 
+grip the rope so tightly that your knuckles turn white, for far below you
+lazily churns a river of molten {Rl{Ya{rv{Ya{x.
+~
+0 Xd city
+D0
+~
+~
+Z 0 100631
+0 0
+D2
+~
+~
+ABCDFZ 0 100629
+0 0
+S
+#100631
+At the Entrance of the {xDark{W, {REvil {WTower~
+You stand at the base of an ominous tower, turned the blackest shade of
+darkness by layers upon layers of soot from volcanic ash.  You debate which
+would be better: Going inside and greeting the darkest demons that live
+inside, or staying out here, in the sweltering heat of a lava flow.  
+~
+0 DXd inside
+D2
+~
+~
+Z 0 100630
+0 0
+D4
+~
+~
+Z 0 100633
+0 0
+S
+#100632
+Meeting Room of the {xDark Tower{W~
+{mPurple{x veins zigzag all throught the black, polished marble walls that
+manifest throughout the {DDark Tower{x.  To your east, you see three portals,
+and to your west, a nice resting area.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 100635
+0 0
+D3
+~
+~
+Z 0 100636
+0 0
+D4
+~
+~
+Z 0 100621
+0 0
+D5
+~
+~
+Z 0 100633
+0 0
+S
+#100633
+Ascending the {DDark {WStairs~
+As you climb the stairs, you notice that they've been created from the
+lava from below, shaped and chilled into their present form.  It formed some
+sort of purple crystals in spots, here and there, that refract the light of
+your passing into dozens of directions, providing light to the otherwise
+dark spiral stairwell.  
+~
+0 DXd inside
+D4
+~
+~
+Z 0 100632
+0 0
+D5
+~
+~
+Z 0 100631
+0 0
+S
+#100634
+Back to your Meeting Room~
+~
+0 DXd inside
+D4
+~
+~
+Z 0 100621
+0 0
+O Loren~
+S
+#100635
+Portal Room of the {WDark~
+This dark room possesses three portals, the most prominent of which
+being of a dark, flickering border, with a continuously spinning
+black and purple vortex in the center.
+~
+0 DXd inside
+D3
+~
+~
+Z 0 100632
+0 0
+S
+#100636
+Common Room~
+This place of rest is no better than the river you went past.  The only
+thing that may look welcoming here is the brother of the Dark Hearted mages
+who stands here to help his clanmates in battle.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 100632
+0 0
+S
+#100637
+A place of peace~
+The sound of your footsteps immediately fall into silence, as you step
+onto a {wwhite{x fur rug that somehow manages to stay clean, despite the amount
+of traffic that it sees.  A tranquil sense of solitude overcomes you, and
+you feel surprisingly tired.  A pillow awaits you...  
+~
+0 DXd inside
+D3
+~
+~
+Z 0 100628
+0 0
+S
+#100638
+A well-lit room~
+~
+0 X inside
+D1
+~
+~
+Z 0 100628
+0 0
+S
+#100639
+Common room of Recouncile~
+Here in this great place, floating above the tower, the Leaders and
+Secondaries of the ElidoDi clan, meet and discuss for the past, present and
+future.  
+~
+0 X inside
+S
+#100640
+On the Mystical Path~
+As you walk forth, the stables appear far to your south, even
+though you know it to be a few steps away. To your north, you see
+the {mE{Ml{wi{Wd{wo{MD{mi{x High Towers, a trident piercing the sky. At the base
+the towers coalesce into a large keep at the base. Ahead, you see
+a being of magical energy standing in front of a set of stairs,
+leading to the entrance.
+~
+0 DXd inside
+D0
+~
+~
+Z 0 100600
+0 0
+D2
+~
+~
+Z 0 100641
+0 0
+S
+#100641
+On the Mystical Path~
+Woah!  Startled at the fact that you just travelled a few miles in just a
+few steps, you awe in what seems that the walls and motes of light sped past
+you while the floor seemed to stand still!  You take a few experimental
+steps and realize that the enchantment works both ways.  In a few dozen
+steps, the hallway itself ends, and you come to a wide, open space.  To the
+east, you see the {mE{Ml{wi{Wd{wo{Md{mi{x Stables.
+~
+0 DX inside
+D0
+~
+~
+Z 0 100640
+0 0
+D1
+~
+~
+Z 0 100643
+0 0
+D2
+~
+~
+Z 0 100642
+0 0
+S
+#100642
+On the Mystical Path~
+You enter a tall corridor lit by bright motes of light that lazily
+meander throughout the corridor, sending shadows into a slow dance.  The
+corridor seems impossibly long, as you cannot see an end to this path off to
+the north.  However, you can still leave by going south.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 100641
+0 0
+D2
+~
+~
+Z 0 1480
+0 0
+S
+#100643
+Before the Mystical Stables~
+Upon entry to the barn, you notice that it is impeccably cared for. 
+Although the ground below you is covered with hay, the hay seems to have
+been placed in such a way as to neatly provide a carpet to tread upon.  You
+see the actual stables for storing the animals to the north.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 100644
+0 0
+D3
+~
+~
+Z 0 100641
+0 0
+S
+#100644
+At the Mystical Stables~
+You stand before the stables.  You wonder why they're called the mystical
+stables.  And then you notice the walls of the stables sliding to various
+positions, to provide the appropriate dimensions to house your pets.
+~
+0 DX inside
+D2
+~
+~
+Z 0 100643
+0 0
+D3
+~
+~
+Z 0 100641
+0 0
+S
+#100645
+Portal Room of the Pure~
+Three portals decorate this room, one on each of the three walls.  The
+{Yg{yold{Yen{x portal is the most prominent, with an elaborate border which displays
+mages blasting various demons, devils, and evil dragons.  
+~
+0 DXd inside
+D1
+~
+~
+Z 0 100628
+0 0
+S
+#0
+
+#SPECIALS
+M 100601 spec_cast_seneschal	* The Knight Guardian
+M 100632 spec_cast_clan_cleric	* The cleric of light
+M 100689 spec_cast_clan_cleric	* the Grey Cleric
+M 100692 spec_breath_any	* meat grinder
+M 100696 spec_cast_seneschal	* The Guardian Golem
+M 100698 spec_cast_clan_cleric	* The Evil cleric
+M 100700 spec_cast_seneschal	* The Dark Guardian
+S
+
+#RESETS
+D 0 100615 0 2	* Before the Gray Double Doors: door to the north: closed and locked
+D 0 100616 2 2	* A Granite Pathway: door to the south: closed and locked
+D 0 100624 0 2	* Before the White Double Doors: door to the north: closed and locked
+D 0 100625 2 2	* On a golden pebbled path: door to the south: closed and locked
+D 0 100629 0 2	* Before the Black Double Doors: door to the north: closed and locked
+D 0 100630 2 2	* On a Swaying Rope Bridge: door to the south: closed and locked
+M 0 100699 1 100600 1	* the {mSeneschal{x (At the Base of Three HUGE Towers)
+E 0 100653 0 17		*	a {mE{Ml{wi{Wd{wo{MD{mi{x clanhall {Wkey{x: held in the hands
+M 0 100620 1 100605 1	* Janilya the Serving Witch (The Wandering Warlock)
+G 0 100632 0		*	a {wshot{x of {Dnecromancer{m spirits{x
+G 0 100631 0		*	a {cgoblet{x of {mw{Ma{wr{Wl{wo{Mc{mk {ybrew{x
+G 0 100630 0		*	a {Cglass{x of {mwitch's{x wine
+G 0 100633 0		*	a quart of {Wholy {me{Clixi{mr{x
+O 0 100639 0 100605	* a lounge chair (The Wandering Warlock)
+M 0 100621 1 100605 1	* Marimoor the Magnificent (The Wandering Warlock)
+M 0 100610 1 100606 1	* Ergahl the Food Vendor (A Food Shop)
+O 0 100612 0 100606	* The glass display case (A Food Shop)
+O 0 100613 0 100606	* a simple chair (A Food Shop)
+P 0 100610 10 100612 10	* The glass display case: a {yBarbarian{x pot pie
+P 0 100614 10 100612 10	* The glass display case: a {yBarbarian{x potpie
+O 0 100651 0 100608	* an elaborate fountain (The center of the great hall)
+O 0 100650 0 100608	* a huge violet altar carved as a spider (The center of the great hall)
+P 0 100652 1 100650 1	* a huge violet altar carved as a spider: {COrb{x of {MM{wa{Wg{wi{Mc{x
+M 0 100697 1 100608 1	* the mage of light (The center of the great hall)
+E 0 100696 0 17		*	the {ms{Mp{wid{Me{mr's {Wkey{x: held in the hands
+O 0 100660 0 100610	* donation pit (Library)
+O 0 100661 0 100610	* the bookshelf (Library)
+P 0 100671 0 100661 1	* the bookshelf: The {WN{we{Dc{xr{Do{wn{Wo{wm{Di{xc{Du{ws{x
+M 0 100660 1 100610 1	* the librarian (Library)
+M 0 100630 1 100612 1	* Othel, Otho's brother (The ElidoDi Bank)
+M 0 100631 1 100612 1	* Alaeryn the flower girl (The ElidoDi Bank)
+G 0 100620 0		*	a {Ccrystal {Rrose{x
+G 0 100622 0		*	a {wjasmine{x made from {Wdi{wa{Wm{wo{Wnd{x
+G 0 100621 0		*	an {mamethyst {Mviolet{x
+M 0 100696 1 100615 1	* The Guardian Golem (Before the Gray Double Doors)
+M 0 100687 1 100616 1	* grey tower gatekeeper (A Granite Pathway)
+M 0 100691 3 100619 1	* a runic guardian (Meeting Room of the Tower of Balance)
+M 0 100692 1 100620 1	* meat grinder (The Meat Grinder)
+M 0 100690 1 100621 1	* a gatekeeper (Council Room)
+O 0 100700 0 100622	* the {Yg{yold{Yen{x portal (Portal Room of the Grey)
+O 0 100698 0 100622	* An {REvil{x portal. (Portal Room of the Grey)
+O 0 100699 0 100622	* The neutral elidodi portal. (Portal Room of the Grey)
+O 0 100691 0 100623	* a giant {mpurple{z pillow with {Ygolden{z trim (The healer of balance)
+M 0 100689 1 100623 1	* the Grey Cleric (The healer of balance)
+M 0 100601 1 100624 1	* The Knight Guardian (Before the White Double Doors)
+M 0 100686 1 100625 1	* white tower gatekeeper (On a golden pebbled path)
+M 0 100691 3 100628 1	* a runic guardian (In the Meeting Room of the Pure)
+M 0 100700 1 100629 1	* The Dark Guardian (Before the Black Double Doors)
+M 0 100688 1 100630 1	* black tower gatekeeper (On a Swaying Rope Bridge)
+M 0 100691 3 100632 1	* a runic guardian (Meeting Room of the {xDark Tower{W)
+O 0 100700 0 100635	* the {Yg{yold{Yen{x portal (Portal Room of the {WDark)
+O 0 100699 0 100635	* The neutral elidodi portal. (Portal Room of the {WDark)
+O 0 100698 0 100635	* An {REvil{x portal. (Portal Room of the {WDark)
+M 0 100698 1 100636 1	* The Evil cleric (Common Room)
+O 0 100690 0 100636	* a giant {Dblack{x pillow with {Ygolden{x trim (Common Room)
+O 0 100692 0 100637	* a giant {Wwhite{x pillow with {Ygolden{x trim (A place of peace)
+M 0 100632 1 100637 1	* The cleric of light (A place of peace)
+M 0 100694 1 100643 1	* Ithell, the stable boy (Before the Mystical Stables)
+M 0 100693 1 100644 1	* the petkeeper (At the Mystical Stables)
+O 0 100670 0 100644	* a stable (At the Mystical Stables)
+O 0 100694 0 100644	* The portal to the Meat Grinder (At the Mystical Stables)
+O 0 100698 0 100645	* An {REvil{x portal. (Portal Room of the Pure)
+O 0 100699 0 100645	* The neutral elidodi portal. (Portal Room of the Pure)
+O 0 100700 0 100645	* the {Yg{yold{Yen{x portal (Portal Room of the Pure)
+S
+
+#SHOPS
+100610 0 0 0 0 19 100 20 0 23
+100620 0 0 0 0 17 100 17 0 23
+100631 0 0 0 0 0 100 18 0 23
+0
+
+#MOBPROGS
+#100601
+if clan $n ElidoDi 
+if ischarm $n
+say I would let you in, master, but I fear you know not what you do.
+else
+mob echoat $n The Seneschal glides aside, allowing you to pass.
+mob echoaround $n The Seneschal glides aside, allowing $n to pass.
+mob gtransfer $n 100601
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100600
+end
+endif
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n The Seneschal steps aside as $n sweeps swiftly past them.
+mob gtransfer $n 100601
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100600
+end
+endif
+mob echoat $n The Seneschal repels your attempt to pass with a simple gesture.
+mob echoaround $n $n is knocked violently backwards as $e tries to walk past the Seneschal.
+end
+~
+#100602
+if clan $n ElidoDi
+'Welcome to the tower of enlightenment, Wielder of the Source.
+nod $n
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+'You are not welcome past this point.
+clan Let it be known that $n waits at the entrance to the Tower!!!!!
+end
+~
+#100603
+if isimmort $n
+bow $n
+else
+if clan $n ElidoDi
+if isevil $n
+'Welcome home $n.
+else
+'Turn back $n, for you are not welcome past this point!
+endif
+else
+'You shall die for coming here!
+kill $n
+clan ElidoDi! $n is attacking the Evil Tower! Help me bolster our defense!
+end
+~
+#100604
+if isimmort $n
+bow $n
+else
+if clan $n ElidoDi
+if isgood $n
+'Welcome back $n.
+else
+'Turn back $n, for you are not welcome past this point!
+endif
+else
+if isevil $n
+'You shall die for coming here!
+clan ElidoDi! $n is attacking the Tower of Light! Assist me!
+kill $n
+else
+'Do not come past this point, or you may find the end to your life there.
+end
+~
+#100605
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n The Guardian steps aside as $n sweeps swiftly past them.
+mob trans $n 100625
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100624
+end
+endif
+if clan $n ElidoDi
+if isgood $n
+mob echoat $n The Knight Guardian opens the door, allowing you inside.
+mob echoaround $n The Knight Guardian opens the door, allowing $n inside.
+mob trans $n 100625
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100624
+end
+endif
+if clanleader $n
+'Proceed within, Leader of the ElidoDi.
+mob echoat $n The Knight Guardian opens the door, allowing you inside.
+mob echoaround $n The Knight Guardian opens the door, allowing $n inside.
+mob trans $n 100625
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100624
+end
+endif
+if clansecond $n
+'Proceed within, Second of the ElidoDi.
+mob echoat $n The Knight Guardian opens the door, allowing you inside.
+mob echoaround $n The Knight Guardian opens the door, allowing $n inside.
+mob trans $n 100625
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100624
+end
+endif
+'Only those pure of heart are allowed inside the Golden Tower, $n.
+mob echoat $n The Knight Guardian stands tall before you, not allowing you to pass.
+mob echoaround $n The Knight stands tall before $n, not allowing $m to pass.
+end
+endif
+mob echoat $n The Knight Guardian stands tall before you, not allowing you to pass.
+mob echoaround $n The Knight stands tall before $n, not allowing $m to pass.
+end
+~
+#100606
+clan {R$n{x is attacking the Golden Tower! ElidoDi, aid me NOW!
+~
+#100607
+mob oload 100697
+~
+#100608
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n The Guard steps aside as $n sweeps swiftly past them.
+mob trans $n 100630
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100629
+end
+endif
+if clan $n ElidoDi
+if isevil $n
+mob echoat $n The Dark Guard opens the door, allowing you inside.
+mob echoaround $n The Dark Guard opens the door, allowing $n inside.
+mob trans $n 100630
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100629
+end
+endif
+if clanleader $n
+'Proceed within, Leader of the ElidoDi.
+mob echoat $n The Dark Guard opens the door, allowing you inside.
+mob echoaround $n The Dark Guard opens the door, allowing $n inside.
+mob trans $n 100630
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100629
+end
+endif
+if clansecond $n
+'Proceed within, Second of the ElidoDi.
+mob echoat $n The Dark Guard opens the door, allowing you inside.
+mob echoaround $n The Dark Guard opens the door, allowing $n inside.
+mob trans $n 100630
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100629
+end
+endif
+'You have not enough darkness in your heart to go past this door, $n.
+mob echoat $n The Dark Guard moves quickly in front of you, protecting the door.
+mob echoaround $n The Dark Guard moves quickly in front of $n, protecting the door.
+end
+endif
+mob echoat $n The Dark Guard moves quickly in front of you, protecting the door.
+mob echoaround $n The Dark Guard moves quickly in front of $n, protecting the door.
+end
+~
+#100609
+clan ElidoDi, {R$n{x is attacking the Evil Tower! I need your help, NOW!
+~
+#100610
+mob oload 100695
+~
+#100611
+if clan $n ElidoDi
+mob echoat $n You will not disgrace yourself by attacking me to rid yourself of your crimes!
+mob echoaround $n The Seneschal shakes his head in shame at $n!
+mob trans $n 3014
+mob goto $n
+mob echoat $n You shame your brothers and sisters by doing such a thing.
+mob goto 100600
+end
+endif
+~
+#100612
+if isimmort $n
+bow $n
+else
+if clan $n ElidoDi
+if isneutral $n
+'Welcome home $n.
+else
+'Turn back $n, for you are not welcome past this point!
+endif
+else
+'You shall die for coming here!
+kill $n
+clan ElidoDi! $N is attacking the Tower of Neutrality! Assist me, I ask of you!
+end
+~
+#100613
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n The Stone Golem steps aside as $n sweeps swiftly past them.
+mob trans $n 100616
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100615
+end
+endif
+if clan $n ElidoDi
+if isneutral $n
+mob echoat $n The Stone Golem opens the door, allowing you inside.
+mob echoaround $n The Stone Golem opens the door, allowing $n inside.
+mob trans $n 100616
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100615
+end
+endif
+if clanleader $n
+'Proceed within, Leader of the ElidoDi.
+mob echoat $n The Stone Golem opens the door, allowing you inside.
+mob echoaround $n The Stone Golem opens the door, allowing $n inside.
+mob trans $n 100616
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100615
+end
+endif
+if clansecond $n
+'Proceed within, Second of the ElidoDi.
+mob echoat $n The Stone Golem opens the door, allowing you inside.
+mob echoaround $n The Stone Golem opens the door, allowing $n inside.
+mob trans $n 100616
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100615
+end
+endif
+'Only those who desire balance within the Realms may enter, $N.
+mob echoat $n The Stone Golem stands tall before you, not allowing you to pass.
+mob echoaround $n The Stone Golem stands tall before $n, not allowing $m to pass.
+end
+endif
+mob echoat $n The Stone Golem stands tall before you, not allowing you to pass.
+mob echoaround $n The Stone Golem stands tall before $n, not allowing $m to pass.
+end
+~
+#100614
+clan ElidoDi! $N is attacking me! Send help to the Tower of Neutrality!
+~
+#100615
+mob oload 100693
+~
+#100616
+if clan $n ElidoDi
+if isneutral $n
+mob transfer $n 100619
+goto 100619
+echoaround $n $n has arrived.
+goto 100621
+end
+endif
+if isevil $n
+mob transfer $n 100632
+goto 100632
+echoaround $n $n has arrived.
+goto 100621
+end
+endif
+if isgood $n
+mob transfer $n 100628
+goto 100628
+echoaround $n $n has arrived.
+goto 100621
+end
+endif
+end
+endif
+if isimmort $n
+mob transfer $n 100619
+end
+endif
+mob transfer $n 3054
+~
+#100617
+mob echoaround $n $N goes down.
+mob gtransfer $n 100600
+goto 100600
+mob echoaround $n $N has arrived.
+goto 100601
+~
+#100618
+clan {mMasters, we are under {RATTACK{x!!!!
+clan {mVile {R$n{m attacks the tower, come to my aid{x!
+~
+#100619
+if rand 90
+mob echo A fiery meteor streaks through the room {R{*[*] POWER HITTING [*]{x everything! ... Or not.
+mob echo A fiery meteor passes harmlessly through everything.
+else
+if rand 25
+mob echo The stars and cosmos flying past you change direction...
+else
+if rand 50
+mob echo The stars and cosmos flying past you slow down...
+else
+if rand 50
+mob echo The stars and cosmos flying past you speed up.
+endif
+endif
+endif
+endif
+~
+#100620
+if isimmort $n
+say Of course, Great One.
+mob transfer $n 100621
+else
+if level $n == 91
+say Yes, Hero.
+mob transfer $n 100621
+else
+if clan $n ElidoDi
+if clanleader $n
+say Yes, Leader of {mW{Ma{wr{Wl{wo{Mc{mk{x.
+mob transfer $n 100621
+else
+if clansecond $n
+say Yes, Second in command of {mW{Ma{wr{Wl{wo{Mc{mk{x.
+mob transfer $n 100621
+else
+say Only official members and heroes of ElidoDi allowed.
+endif
+~
+#100621
+mob oload 100696
+~
+#100625
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#100630
+if clan $n ElidoDi
+if sex $n == 1
+say How might I serve the great sorceror, $N?
+else
+say How might I serve the great sorceress, $N?
+endif
+bow $n
+else
+yell Help! $N is over here! In the Food Shop!
+growl $n
+say Get OUT!
+end
+endif
+~
+#100631
+if clan $n ElidoDi
+if sex $n == 1
+say How may I serve you, the great wizard $N?
+else
+say How may I serve the great wizardress, $N?
+endif
+wink $n
+smile $n
+else
+yell Help! $N is over here! In the Wandering Warlock!
+growl $n
+say Get OUT!
+end
+endif
+~
+#100632
+emote gets up from the bar and swaggers over to you.
+emote drunkenly slurs, '{GMah name is Marimurr the Magniffishent{x'
+emote drunkenly slurts, '{GAh'm a powerfful wizhard. Watch this!{x'
+emote starts to cast a spell...
+if rand 75
+c 'armor'
+say See?
+emote proudly struts over to the bar to order another drink.
+else
+if rand 75
+c 'burning' marimoor
+say It burns!
+mob echo marimoor Marimoor's robes burst into flame!
+emote stamps out the flame!
+emote sighs piteously and sullenly staggers to the bar to order another drink.
+else
+if rand 50
+c 'chill touch' marimoor
+say Ow!
+emote sighs pitifully and sullenly staggers to the bar to order another drink.
+else
+c 'magic missile' marimoor
+say Ow! Ow! Ow! Ow! Ow!
+emote sigh pitifully and sullenly staggers to the bar to order another drink.
+end
+endif
+ 
+~
+#100640
+say This is a gender test.
+if sex $n == 0
+say You are a 0.
+endif
+if sex $n == 1
+say You are a 1, which is male.
+endif
+if sex $n == 2
+say You are a 2, which is female.
+endif
+if sex $n == 4
+say You are a 4.
+endif
+~
+#100641
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100642
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100643
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100644
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100645
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100646
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100647
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100648
+if clan $n elidodi
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100650
+if clan $n ElidoDi 
+say Greetings! Just bring your pets through the door to the north, and tell them to {wsleep in the stables{G.{x
+else
+say Hey, you! You aren't supposed to be here!
+yell $N is over here! In the stables! Bring help!
+say If you want to get at the minions of {mE{Ml{wi{Wd{wo {MD{mi{G you have to get through me, first!
+endif
+~
+#100651
+if clan $n ElidoDi 
+
+else
+if mobexists elidodipetguard
+mob goto 100643
+mob remember ithell
+if pos $q stand
+mob goto 100644
+mob echo Ithell has arrived.
+mob echo Ithell says, '{GI said you'd have to kill me, first!{x'
+mob echoat $n Ithell yanks you out of the storeroom.
+mob echoaround $n Ithell yanks $N out of the storeroom.
+mob gtransfer $n 100643
+endif
+endif
+endif
+mob goto 100644
+~
+#100652
+say Ready for pet destruction?
+~
+#100653
+mob transfer $n 100640
+mob echo $N leaves west.
+~
+#100654
+mob transfer $n 100644
+if mobhere 15
+mob zecho A low, grinding noise echoes from the Meat Grinder pocket dimension, announcing a malfunction.
+else
+if players == 0
+cast 'iceball'
+mob zecho You hear the crunching of bodyparts being converted into paste.
+else
+say Error! There is at least one operator present. Say "!" to leave.
+endif
+end
+~
+#100660
+if clan $n ElidoDi
+whisper Welcome to the Library.
+whisper If you want to read a book, please return it to the {Wshelf{r when you're done.
+whisper That way, others can read it too.{x
+else
+yell $N is in the library! Hurry! Send help!
+endif
+~
+#100661
+mob delay 1
+say 1
+mob delay 10
+say 10
+mob delay 100
+say 100
+mob delay 1000
+say 1000
+mob delay 10000
+say 10000
+~
+#100670
+if clan $n elidodi
+or isimmort $n
+mob echoaround $n $I absently takes a book on tesseract off the shelf and hands it to $n.
+mob echoat $n $I hands you an etheral tome which reads:
+mob echoat $n {yBringing allies to into battle not only grants the mage greater safety but
+mob echoat $n also insures swift victory over foes.  By bending space upon itself the mage
+mob echoat $n is able to transport the entire party to the intended location.  Any monster
+mob echoat $n in the realm can be used as a focal point of transport.  Though monsters
+mob echoat $n with willpower greater than the mages will be able to repel this invasion
+mob echoat $n of their privacy.{x
+else
+glare $n
+endif
+~
+#100671
+if clan $n ElidoDi
+or isimmort $n
+mob echoaround $n $I absently takes a book on alchemy off the shelf and hands it to $n.
+mob echoat $n $I hands you a murky tome which reads:
+mob echoat $n {yIn ancient times the elders of the ElidoDi clan discovered how to channel
+mob echoat $n The Source into empty vials to store the power for later use.  This alchemy
+mob echoat $n is still practiced today, though some of the some of the more complex recipes
+mob echoat $n have been lost or corrupted over the ages.  In order to brew a potion you'll
+mob echoat $n need to possess an empty vial and the primary ingredient.  The spell itself
+mob echoat $n is cast on the ingredient and results seem to vary with the temperment of
+mob echoat $n The Source.  What ingredients work best, is left for the alchemist to discover
+mob echoat $n but flowers are a good start.{x
+else
+glare $n
+endif
+~
+#100672
+if clan $n ElidoDi
+or isimmort $n
+mob echoaround $n $I absently takes a book on the mind off the shelf and hands it to $n.
+mob echoat $n $I hands you a thin tome which reads:
+mob echoat $n {yWith this spell the ElidoDi hones The Source into a fine blade that when 
+mob echoat $n focused on an opponent ravages his mind.  Not only does it cause severe pain, 
+mob echoat $n but also can make the victim more susceptible to power of The Source.{x
+else
+glare $n
+endif
+~
+#100673
+if clan $n elidodi
+or isimmort $n
+mob echoaround $n $I absently takes a book on demons off the shelf and hands it to $n.
+mob echoat $n $I hands you a demonic tome which reads:
+mob echoat $n {yFrom the higher pits of Hell a fiery demon can be summoned to do your bidding
+mob echoat $n and stand by your side in combat.  But be warned, these demons are hard to
+mob echoat $n control.  Even the heroic are occationally unable to dominate their fiery will.{x
+else
+glare $n
+endif
+~
+#100674
+if clan $n elidodi
+or isimmort $n
+mob echoaround $n $I absently takes a book on tranform off the shelf and hands it to $n.
+mob echoat $n $I hands you a sturdy tome which reads:
+mob echoat $n {yThe mage's fraile form, the cost of many hours laboring over arcane tomes as
+mob echoat $n the body withers neglected, has long been the bane of this profession.  But
+mob echoat $n after being decimated in the Battle of Aer'nigal the ElidoDi elders discovered
+mob echoat $n a way to bind The Source to their constitution, and thus increase the physical
+mob echoat $n punishment they can take in combat.{x
+else
+glare $n
+endif
+~
+#100675
+if clan $n elidodi
+or isimmort $n
+mob echoaround $n $I absently takes a book on mastery off the shelf and hands it to $n.
+mob echoat $n $I hands you a well-used tome which reads:
+mob echoat $n {yBy dedicating their life to the wielding The Source, ElidoDi have divined
+mob echoat $n ways to maximize the power they channel.{x
+else
+glare $n
+endif
+~
+#100676
+if clan $n elidodi
+or isimmort $n
+mob echoaround $n $I absently takes a book on scourge off the shelf and hands it to $n.
+mob echoat $n $I hands you a mottled tome which reads:
+mob echoat $n {yThis is the most devistating spell in any mage's grimoire.  The room is filled
+mob echoat $n plague, pain and poison, which often causes blindness to those caught in its
+mob echoat $n wake.  Everyone not protected by the gods or in the mage's party will be
+mob echoat $n affected by this devistating spell, so use it carefully.{x
+else
+glare $n
+endif
+~
+#100686
+if clan $n elidodi
+mob goto 100624
+if mobhere 100601
+mob echo The Knight Guardian opens the doors.
+mob goto 100625
+mob echoat $n The Knight Guardian senses you coming, and opens the doors.
+mob echo The doors open.
+mob transfer $n 100624
+mob echo $n leaves south.
+mob goto 100624
+mob echoaround $n $N has arrived.
+mob echo The Knight Guardian closes the doors.
+mob goto 100625
+else
+mob goto 100625
+mob transfer $n 100624
+mob echo $n leaves south.
+mob goto 100624
+mob echoaround $n $N has arrived.
+mob goto 100625
+endif
+else
+mob goto 100624
+if mobhere 100601
+mob echo The Knight Guardian growls.
+mob echo The Knight Guardian opens the doors.
+mob echo The Knight Guardian leaves north.
+mob goto 100625
+mob echo The doors open.
+mob echo The Knight Guardian arrives.
+mob echoat $n The Knight Guardian grabs you, and drags you south, kicking and screaming.
+mob echoaround $n The Knight Guardian grabs $N, and drags $m south, kicking and screaming.
+mob echo The Knight Guardian leaves south.
+mob transfer $n 100624
+mob goto 100624
+mob echoaround $n The Knight Guardian arrives, dragging $N, who's kicking and screaming.
+mob echoat $n The Knight Guardian drops you on your rear.
+mob echoaround $n The Knight Guardian drops $N on $s rear.
+mob echo The Knight Guardian says, '{GAnd STAY out.{x'
+mob echo The Knight Guardian closes the doors.
+mob goto 100625
+else
+mob transfer $n 100624
+mob echo $n leaves south.
+mob goto 100624
+mob echoaround $n $N has arrived.
+mob goto 100625
+endif
+endif
+~
+#100687
+if clan $n elidodi
+mob goto 100615
+if mobhere 100696
+mob echo The Stone Golem opens the doors.
+mob goto 100616
+mob echoat $n The Stone Golem senses you coming, and opens the doors.
+mob echo The doors open.
+mob transfer $n 100615
+mob echo $n leaves south.
+mob goto 100615
+mob echoaround $n $N has arrived.
+mob echo The Stone Golem closes the doors.
+mob goto 100616
+else
+mob goto 100616
+mob transfer $n 100615
+mob echo $n leaves south.
+mob goto 100615
+mob echoaround $n $N has arrived.
+mob goto 100616
+endif
+else
+mob goto 100615
+if mobhere 100696
+mob echo The Stone Golem growls.
+mob echo The Stone Golem opens the doors.
+mob echo The Stone Golem leaves north.
+mob goto 100616
+mob echo The doors open.
+mob echo The Stone Golem arrives.
+mob echoat $n The Stone Golem grabs you, and drags you south, kicking and screaming.
+mob echoaround $n The Stone Golem grabs $N, and drags $m south, kicking and screaming.
+mob echo The Stone Golem leaves south.
+mob transfer $n 100615
+mob goto 100615
+mob echoaround $n The Stone Golem arrives, dragging $N, who's kicking and screaming.
+mob echoat $n The Stone Golem drops you on your rear.
+mob echoaround $n The Stone Golem drops $N on $s rear.
+mob echo The Stone Golem says, '{GAnd STAY out.{x'
+mob echo The Stone Golem closes the doors.
+mob goto 100616
+else
+mob transfer $n 100615
+mob echo $n leaves south.
+mob goto 100615
+mob echoaround $n $N has arrived.
+mob goto 100616
+endif
+endif
+~
+#100688
+if clan $n elidodi
+mob goto 100629
+if mobhere 100700
+mob echo The Dark Guardian opens the doors.
+mob goto 100630
+mob echoat $n The Dark Guardian senses you coming, and opens the doors.
+mob echo The doors open.
+mob transfer $n 100629
+mob echo $n leaves south.
+mob goto 100629
+mob echoaround $n $N has arrived.
+mob echo The Dark Guardian closes the doors.
+mob goto 100630
+else
+mob goto 100630
+mob transfer $n 100629
+mob echo $n leaves south.
+mob goto 100629
+mob echoaround $n $N has arrived.
+mob goto 100630
+endif
+else
+mob goto 100629
+if mobhere 100700
+mob echo The Dark Guardian growls.
+mob echo The Dark Guardian opens the doors.
+mob echo The Dark Guardian leaves north.
+mob goto 100630
+mob echo The doors open.
+mob echo The Dark Guardian arrives.
+mob echoat $n The Dark Guardian grabs you, and drags you south, kicking and screaming.
+mob echoaround $n The Dark Guardian grabs $N, and drags $m south, kicking and screaming.
+mob echo The Dark Guardian leaves south.
+mob transfer $n 100629
+mob goto 100629
+mob echoaround $n The Dark Guardian arrives, dragging $N, who's kicking and screaming.
+mob echoat $n The Dark Guardian drops you on your rear.
+mob echoaround $n The Dark Guardian drops $N on $s rear.
+mob echo The Dark Guardian says, '{GAnd STAY out.{x'
+mob echo The Dark Guardian closes the doors.
+mob goto 100630
+else
+mob transfer $n 100629
+mob echo $n leaves south.
+mob goto 100629
+mob echoaround $n $N has arrived.
+mob goto 100630
+endif
+endif
+~
+#0
+
+#PRACTICERS
+M 100632 clan~	* The cleric of light
+M 100689 clan~	* the Grey Cleric
+M 100697 clan~	* the mage of light
+M 100698 clan~	* The Evil cleric
+S
+
+#$

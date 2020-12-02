@@ -1,0 +1,14 @@
+#RACE
+Name aboleth~
+Dodge 40
+Align -500
+Size huge
+DamType whip
+Act stay_area notrack~
+Aff acute_vision detect_hidden detect_invis detect_imp_invis swim~
+Off fast crush~
+Form none~
+Parts head heart brains guts eye tentacles tail~
+End
+
+#$

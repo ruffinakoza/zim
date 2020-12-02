@@ -1,0 +1,3679 @@
+#AREADATA
+Name Coliseum of Midgaard~
+VNUMs 9400 9499
+Credits Erebus~
+Security 9
+LevelRange 7 22
+ResetMessage The roars of the crowd momentarily grow louder...~
+End
+
+#MOBILES
+#9400
+dungeonkeeper keeper duergar dwarf~
+the Dungeonkeeper~
+The Dungeonkeeper is leaning against the table, snoozing lightly.
+~
+The Dungeonkeeper, a grey-skinned dwarf, is sprawled across the table,
+half asleep.  His left hand tightly clutches a half filled mug of strong,
+dark ale protectively.  
+~
+duergar~
+ABGL DFP -850 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+CDEFK 0 0 0
+rest stand male 287
+0 0 medium flesh~
+~
+M act 9408 gets a large keyring from a row of iron hooks.~
+#9401
+eye deep beholder~
+{Rthe Eye of the Deep{x~
+A huge red bulbous eye with pincers floats toward you.
+~
+The bulbous body of this beholder is covered with shrivelled, red skin. 
+Two large crab-like pincers extend from beneath a gaping mouth, lined with
+rows of sharp teeth.  Pincers clicking ominously as it floats near you,
+watching your every move.  It hasn't moved to attack you...  Yet.  
+~
+beholder~
+ABGLYe DEFJNOPVZblmpqstu -450 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+AEFGHK ABPR EIJ FGT
+stand stand none 0
+BG DFV medium flesh~
+~
+F for MV
+F par A
+M act 9400 opens an obsidian casket.~
+M act 9401 gets the Mask of Charon from an obsidian casket.~
+#9402
+gatekeeper guard minotaur~
+the minotaur Gatekeeper~
+A monstrous minotaur stands guard in front of the gates.
+~
+The Gatekeeper is responsible for making sure that everyone pays their
+fare before entering the spectator stands.  He is also here to insure that
+no-one enters the arena during a Death Match.  
+~
+minotaur~
+ABGe DFJcs -325 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+ADEFN B E JPQ
+stand stand male 350
+0 0 large flesh~
+~
+M bribe 9403 500~
+M exit 9404 1~
+M exit 9402 Ugg~
+#9403
+vendor gnome~
+a gnomish vendor~
+An annoying little gnome is haggling with the gatekeeper.
+~
+This little gnome just won't give up.  In her most irritating sales
+pitch, she's trying to convince the gatekeeper to buy a dozen bags of
+peanuts.  He looks rather irate and surely wouldn't complain if someone were
+to dispose of her.  
+~
+gnome~
+ABCG 0 -100 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+FN 0 0 0
+stand stand female 375
+0 0 medium flesh~
+~
+#9404
+drunk~
+the drunk~
+A filthy drunk staggers around blindly.
+~
+This guy reeks of alcohol.  Judging from the way he is walking, he
+probably has more alcohol than blood in his system now.  
+~
+human~
+ACH 0 50 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+ENU 0 0 C
+stand stand male 125
+0 0 medium flesh~
+~
+#9405
+woman fat~
+a fat woman~
+A fat woman is screaming for her champion.
+~
+A very fat woman is on her feet jumping up and down, cheering her
+favorite Retiarus to impale his opponent.  
+~
+human~
+ABC 0 -700 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+N 0 0 0
+stand stand female 370
+0 0 medium flesh~
+~
+#9406
+man lanky~
+a lanky man~
+A tall, lanky man howls with glee when another warrior falls.
+~
+This guy screams like a demon every time another warrior goes down.
+What an ass he is.
+~
+human~
+AB 0 -650 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+FN 0 0 I
+stand stand male 410
+0 0 medium flesh~
+~
+#9407
+girl mean kid~
+a mean girl~
+A mean little girl is throwing rocks at the gladiators.
+~
+This mean little girl is throwing rocks at the gladiators in the arena. 
+Someone oughta teach her a lesson!  
+~
+human~
+ABH 0 -720 0
+9 9 23d9+0 45d10+85 3d3+9 none
+3 3 3 5
+NU 0 0 E
+stand stand female 125
+0 0 large flesh~
+~
+#9408
+urchin streeturchin boy pick-pocket pickpocket~
+a street urchin~
+A street urchin is sneaking around picking pockets.
+~
+He's so small that you almost miss him.  Sneaking about in the shadows,
+this little boy is picking the pockets of the spectators!  
+~
+human~
+ACHSU JPQ -950 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+FHJN U 0 0
+stand stand male 298
+0 0 large flesh~
+~
+#9409
+woman nude~
+a nude woman~
+You catch a glimpse of brown skin through the steam.
+~
+As the steam clears momentarily, you catch a glimpse of a tanned woman,
+with gorgeous long dark hair.  Giggling with her friends, she is TOTALLY
+naked!  Oh boy...  *gulp* 
+~
+human~
+ABHe Q 800 0
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+FNR 0 H BI
+stand stand female 0
+0 0 medium flesh~
+~
+#9410
+harem girl woman~
+a harem girl~
+A beautiful, scantily clad woman bats her eyelashes at you.
+~
+This dazzling young woman is reclining on a pile of silk pillows. 
+Noticing your gaze, she bats her eyelashes and pats a pillow beside her
+invitingly.  
+~
+human~
+ABGH E 700 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+FJNR 0 C BI
+rest rest female 489
+0 0 medium flesh~
+~
+#9411
+giant storm stormgiant guard eunuch dalkreesis~
+a stormgiant eunuch~
+A humongous giant guards the victor's suite, naked blade in hand.
+~
+Before you stands one of the largest giants that you have ever seen.
+He regards you impassively, as he stands guard in front of the victor's
+suite.  The broadsword he wields is six feet long, and probably weighs over
+fifty pounds, but it looks like a dagger in his huge hand.  
+~
+storm giant~
+ABUe DF 750 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+CDIKO AB 0 0
+stand stand none 264
+0 0 unknown flesh~
+~
+M exit 9406 1~
+M bribe 9407 1~
+#9412
+man old fat~
+a fat old man~
+A fat old man is swimming lazily in the cold water.
+~
+A fat old man is swimming slowly around in the cold bathing pool.  His
+skin is all shrivelled and wrinkled.  Thank god he's wearing a bathing suit.
+
+~
+human~
+ABe bd 100 0
+17 17 33d17+0 85d10+85 5d3+13 none
+-2 -2 -2 1
+DK 0 I 0
+stand stand male 521
+0 0 medium flesh~
+~
+#9413
+svirfneblin gnome masseur~
+a gnomish masseur~
+A short, dark-skinned gnome is waiting here to give you a massage.
+~
+This short gnome is an expert at relieving minor muscle aches and pains. 
+He's also fairly skilled at healing, and is responsible for tending to the
+injured gladiators.  
+~
+svirfnebli~
+ABHe 0 185 0
+16 16 32d16+0 80d10+85 5d3+13 none
+-1 -1 -1 1
+FHN 0 0 0
+stand stand male 345
+0 0 large flesh~
+~
+#9414
+lion scrawny~
+a scrawny lion~
+A scrawny lion pads around hoping for some fresh meat.
+~
+This scrawny beast hasn't been fed in a long time.  He's ravenously
+hungry, and eyes you up like he would a cut of prime beef.  
+~
+lion~
+AFGL J 215 0
+17 17 33d17+0 85d10+85 5d3+13 none
+-2 -2 -2 1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F act B
+#9415
+bear cavebear~
+a ferocious cave bear~
+A ferocious cave bear takes a swipe at you with her paw.
+~
+The bear growls at you, a deep throaty growl.  She may not have any cubs
+with her, but she'll likely take your head off anyways.  
+~
+bear~
+AFGL J 250 0
+19 19 36d19+0 95d10+85 6d3+14 none
+-3 -3 -3 0
+0 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+#9416
+dog wild~
+a wild dog~
+A shaggy brown dog barks at you menacingly.
+~
+A shaggy brown dog backs away from you, snapping and showing its fangs.  The hackles along the back of its neck are raised, and it looks ready for a fight.
+~
+dog~
+A J 125 0
+16 16 32d16+0 80d10+85 5d3+13 none
+-1 -1 -1 1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#9417
+basilisk angry~
+an angry basilisk~
+A basilisk lashes out wildly with its tail when it hears your footsteps.
+~
+A basilisk's most deadly weapon is it's gaze, which can turn creatures to
+stone.  Knowing this, his captor's have gouged out his eyes, leaving him
+blind and mindlessly enraged.  
+~
+lizard~
+AFGL Ac -500 0
+19 19 36d19+0 95d10+85 6d3+14 none
+-3 -3 -3 0
+AM 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#9418
+tiger wounded~
+a wounded tiger~
+A fearfully wounded tiger lies here growling softly.
+~
+A long bloody gash runs down the tiger's left flank.  She was grievously
+wounded in her last fight, and she snarls everytime someone passes too close
+to her cage.  
+~
+tiger~
+AFGL Fs 375 0
+18 18 35d18+0 90d10+85 6d3+14 none
+-2 -2 -2 0
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#9419
+dragon young~
+a young dragon~
+A young dragon hisses threateningly and snaps her jaws.
+~
+This young dragon was taken from her mother's lair while she was yet a
+hatchling.  The numerous battles in the arena in which she has been forced
+to take part, have done nothing to improve her naturally foul disposition. 
+~
+red dragon~
+ABFL Fis -320 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+ACM 0 0 I
+stand stand female 992
+Z PQUVX large flesh~
+~
+#9420
+zebra frightened~
+a frightened zebra~
+A frightened zebra tries to run away from you.
+~
+This poor zebra is very frightened.  She can smell the carnivores and
+hear them growling nearby.  Dashing back and forth, she searches for an
+avenue of escape.  
+~
+horse~
+AGHZ J 825 0
+17 17 28d17+0 17d9+60 4d4+10 none
+-1 -1 -1 2
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#9421
+prisoner condemned goblin~
+a condemned prisoner~
+A prisoner leaps to his feet and barges into you as he tries to escape.
+~
+This goblin has been sentenced to be executed at the end of the next
+death match.  He thinks you've come for him, and he's got a crazy gleam in
+his eye.  
+~
+goblin~
+ACF DP -735 0
+16 16 27d16+0 16d9+60 4d4+10 none
+0 0 0 2
+FJ 0 0 0
+stand stand male 57
+0 0 large flesh~
+~
+#9422
+packrat pakrat~
+A {yBrown{x pakrat~
+A huge {ybrown{x rat regards you with evil red eyes.
+~
+You see a small pakrat here.  He stands about ankle high and has beady
+little red eyes.  His fur is matted with gunk from crawling around the beast
+cages to much.  He runs around chattering and looking for things to pick up
+and drag off with him.  He scurries up to you next to your feet and grabs a
+small piece of cloth then he scurries off and hides it.  Then returns to
+find more.  
+~
+unique~
+A 0 100 0
+4 4 13d4+0 20d10+85 1d4+7 none
+6 6 6 7
+FHR 0 ELQ DHK
+stand stand male 2
+AM ABCDEFHJKQUV large flesh~
+~
+#9423
+dignitary obese~
+an obese dignitary~
+A fat, slovenly dignitary lounges in his chair eating grapes.
+~
+An exceedingly fat man, with gold rings, necklaces, and an expensive
+looking toga is seated on a throne.  He's eating a large bunch of grapes,
+now, gobbling them down at an alarming rate.  
+~
+human~
+ABGHe d -750 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+0 0 I BP
+sit stand male 159
+0 0 medium flesh~
+~
+#9424
+wife woman~
+the dignitary's wife~
+A thin, shrewish woman is screeching for more blood.
+~
+The dark eyes of the dignitary's thin wife are fixed on the particularly
+gory death of an unfortunate Thraex.  The smile on her face is perfectly
+gleeful.  She screams at the top of her shrill voice for more blood. 
+~
+human~
+ABLR E -950 0
+14 14 30d14+0 70d10+85 4d3+12 none
+0 0 0 2
+FIS 0 BCEP N
+sit stand female 310
+0 0 medium flesh~
+~
+#9425
+guard bodyguard frostgiant giant~
+a frostgiant bodyguard~
+A massive, blue-skinned bodyguard stands here.
+~
+Standing over 16 feet tall, this guard looks like he could crush most
+anything simply by stepping on it.  He is heavily armed and armored, though,
+and would prove a worthy opponent to the most powerful of warriors.  
+~
+frost giant~
+ABGLe cd -665 0
+16 16 32d16+0 80d10+85 5d3+13 none
+-1 -1 -1 1
+CEKP 0 0 0
+stand stand male 665
+0 0 medium flesh~
+~
+#9426
+thraex dwarf~
+a stocky Thraex~
+A squat, dwarven Thraex is battling for his life here.
+~
+Lightly armored in the standard equipment of a Thraex; round shield,
+visored helmet, and hide vest, this dwarf has average mobility and average
+attacking strength.  He is covered with blood, but you can't tell if it's
+his own, or someone else's.  
+~
+dwarf~
+ABG 0 785 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+CDIJKN 0 0 0
+stand stand male 925
+0 0 medium flesh~
+~
+#9427
+retiarii halfelf half-elf~
+a retiarii~
+A slim, half-elven Retiarii circles his opponent warily.
+~
+The Retiarius' life depends on his quickness.  He wears little armor, and
+carries only a trident and fishing net.  He must not fail the first cast of
+his net, or he becomes vulnerable and falls easy prey...  
+~
+half-elf~
+ABG 0 665 0
+19 19 36d19+0 95d10+85 6d3+14 none
+-3 -3 -3 0
+FHJN 0 0 0
+stand stand male 575
+0 0 medium flesh~
+~
+#9428
+felar retiarii veteran~
+a veteran Retiarii~
+A victorious Retiarii twirls his trident and scans for a new opponent.
+~
+A gaunt feline face stares back at you, eyes blazing.  This Retiarii is
+larger than most of his class, and is a veteran warrior.  He bears the scars
+of many battle fought and won.  
+~
+felar~
+AGL V -225 0
+21 21 38d21+0 105d10+85 7d3+15 none
+-4 -4 -4 0
+FHJKN 0 0 0
+stand stand male 961
+0 0 medium flesh~
+~
+#9429
+murmillo draconian~
+a muscular Murmillo~
+A muscular, draconian Murmillo squares off with his foe.
+~
+This warrior is clad in the trappings of a Murmillo; shortsword, oblong
+shield, and a visored helmet with a fish on the crest.  He holds his weapon
+confidently and you can tell that he's skilled in its use.  
+~
+draconian~
+ABG Js -285 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+EFJK 0 0 0
+stand stand male 1083
+0 0 medium flesh~
+~
+#9430
+hoplomachus giant firegiant~
+a humongous Hoplomachus~
+a humongous, red-skinned giant stands here covered in gore.
+~
+This red-skinned monster is covered in heavy platemail.  His greatest
+offense is his impenetrable defense, which he relies on as he steadily
+advances on his foes to crush the life out of them.  
+~
+fire giant~
+ABGL cd -950 0
+23 23 41d23+0 115d10+85 7d3+16 none
+-5 -5 -5 -1
+ACEIKOR 0 0 0
+stand stand male 1088
+0 0 gargantuan flesh~
+~
+#9431
+giant cloudgiant hoplomachus~
+a large Hoplomachus~
+A pale-skinned giant calls out a challenge to combat.
+~
+This heavily armored giant is rather small for a giant and his flesh has
+a strange, ethereal texture to it.  He shouts loudly a challenge to mortal
+combat, but no-one has answered him yet.  
+~
+cloud giant~
+AGL c -245 0
+22 22 40d22+0 110d10+85 7d3+16 none
+-5 -5 -5 0
+ACEIKOR 0 0 0
+stand stand male 753
+0 0 medium flesh~
+~
+#9432
+harem girl woman~
+a harem girl~
+A beautiful, scantily clad woman bats her eyelashes at you.
+~
+This dazzling young woman is reclining on a pile of silk pillows. 
+Noticing your gaze, she bats her eyelashes and pats a pillow beside her
+invitingly.  
+~
+human~
+ABGH E 700 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+FJNR 0 C BI
+rest rest female 489
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#9400
+pillar post wooden~
+a wooden pillar~
+~
+wood~
+~
+trash O P
+0 0 0 0 0 0 0
+0 897921 3092 P
+E
+pillar post wooden~
+Condemned criminals are sometimes chained to this pillar before
+ the animals are released...
+~
+G none
+G none
+G none
+G none
+#9401
+net fishingnet~
+a fishing net~
+This weighted fishing net looks perfect for ensnaring someone.~
+hemp~
+~
+wand G AO
+13 5 5 'web'
+13 155 324 P
+A
+3 2
+A
+2 -1
+E
+net fishingnet~
+You see a light, hemp fishing net with lead weights along the edges.
+~
+G none
+G none
+G none
+G none
+#9402
+trident~
+a trident~
+A long steel shaft with three prongs fixed on the end, lies here.~
+steel~
+~
+weapon 0 AN
+spear 2 10 thrust 0
+20 21 8810 P
+A
+19 1
+A
+18 3
+G none
+G none
+G none
+G none
+#9403
+row hooks iron~
+a row of iron hooks~
+~
+iron~
+~
+container O P
+100 E 0 100 100 0
+1 0 10 P
+E
+row hooks iron~
+Several rusted iron hooks are embedded into the stone wall.
+~
+G none
+G none
+G none
+G none
+#9404
+pool water~
+{Ba pool of water{x~
+~
+water~
+~
+portal OT 0
+0 0 0 9482 0
+1 0 0 P
+E
+pool water~
+Lillypads and other aquatic flowers are growing in the pool.  Staring
+hard into the dark water, you can't even begin to see the bottom.
+ This pool must be pretty deep...
+~
+G none
+G none
+G none
+G none
+#9405
+casket obsidian black~
+{Wan obsidian casket{x~
+~
+energy~
+~
+container CEOT P
+100 AC 0 100 100 0
+1 0 0 P
+E
+casket obsidian black~
+The casket is made of pure obsidian, and probably weighs a couple of tons.
+~
+G none
+G none
+G none
+G none
+#9406
+mask charon~
+{Wthe Mask of Charon{x~
+A heavy black stone mask lies here grinning at you.~
+unknown~
+obsidian~
+armor CEGIJLT AE
+33 33 33 32 'none' 0
+91 92 1610567 P
+A
+20 -1
+A
+4 -4
+A
+3 4
+A
+19 13
+A
+18 13
+F
+A 13 45 D
+E
+mask charon~
+Appearing as the front half of a skull, the bared teeth grin lopsided at you, as the jaw
+hangs from one of its hinges. You tear your eyes from the deep, dark eye-sockets as
+you feel your sanity start to edge away...
+~
+G none
+G none
+G none
+G none
+#9407
+peanuts bag~
+a bag of peanuts~
+~
+food~
+~
+food 0 A
+ADE BDF 0 0 0 ADE BDF
+1 35 237 P
+E
+bag peanuts~
+A large bag of roasted peanuts.  They look and smell delicious.
+~
+G none
+G none
+G none
+G none
+#9408
+gauntlets spiked mail~
+spiked mail gauntlets~
+A shiny pair of spiked gauntlets are lying here.~
+steel~
+~
+armor GI AH
+24 24 24 23 'none' 0
+65 66 103528 P
+A
+19 6
+A
+1 2
+A
+2 -3
+E
+gauntlets spiked mail~
+Steel spikes protrude from the knuckles of this pair of mail gauntlets.
+~
+G none
+G none
+G none
+G none
+#9409
+club wooden~
+a heavy wooden club~
+A heavy wooden club lies on the ground.~
+wood~
+~
+weapon I AN
+mace 3 28 blast F
+65 66 92916 G
+A
+19 10
+A
+2 -5
+E
+club wooden~
+You could smash someone's skull in with this club...if you can lift it.
+~
+G none
+G none
+G none
+G none
+#9410
+sword bastard~
+a HEAVY bastard sword~
+A monstrous steel sword lies, gleaming dully in the light.~
+steel~
+~
+weapon BI AN
+bastardsword 1 23 cleave F
+16 50 7664 P
+A
+19 3
+A
+18 -3
+E
+sword bastard~
+This titanic weapon is six feet long and feels like it weighs a ton. 
+You'll need two hands to swing this thing!  
+~
+G none
+G none
+G none
+G none
+#9411
+loincloth~
+a loincloth~
+A tan bathing suit lies here sopping wet.~
+unknown~
+cloth~
+clothing M AF
+0 0 0 0 0 0 0
+5 135 341 P
+A
+14 -65
+E
+loincloth~
+This owner of this loincloth was obviously a very large man.  It hangs
+loosely around your waist and threatens to fall down around your ankles. 
+~
+G none
+G none
+G none
+G none
+#9412
+vial spices~
+a small vial of spices~
+A tiny multicolored glass vial lies here.~
+unknown~
+spice~
+pill GI A
+20 'cure disease' 'refresh' 'cure light' 'cure poison'
+7 22 7621 P
+E
+vial spices~
+Blue, green, red and black spices fill this tiny vial.  It smells
+positively wonderful.  
+~
+G none
+G none
+G none
+G none
+#9413
+keys keyring~
+a large keyring~
+A large keyring lies here with several keys on it.~
+steel~
+~
+key 0 AO
+0 0 0 0 0 0 0
+1 55 45 P
+E
+keys keyring~
+A dozen iron keys.  With these you could get inside the beast cages!
+~
+G none
+G none
+G none
+G none
+#9414
+longsword sword battered~
+a battered longsword~
+A battered longsword lies here, the blade nicked and scarred.~
+iron~
+~
+weapon 0 AN
+longsword 1 15 slash 0
+13 55 785 D
+A
+19 -5
+E
+longsword sword battered~
+This longsword has seen a lot of rough use, and the edge is dull as a butterknife.
+~
+G none
+G none
+G none
+G none
+#9416
+oak table~
+an oak table~
+An old oak table with a single chair sits here.~
+wood~
+~
+furniture O P
+A DFGHIJ 0 ADE 0 A DFGHIJ
+1 500 231 P
+E
+oak table chair~
+A single battered wooden chair sits in front of this old oak table.
+~
+G none
+G none
+G none
+G none
+#9417
+wire metal pick lockpick~
+a lockpick~
+A small stiff piece of wire lies here...you almost missed it.~
+steel~
+~
+key F AO
+0 0 0 0 0 0 0
+7 1 0 P
+E
+pick lockpick metal steel wire~
+This short, stiff length of wire would be perfect for picking a lock!
+~
+G none
+G none
+G none
+G none
+#9418
+tooth dragons dragon's~
+{Ga d{gr{Gag{gon{G's {wtooth{x~
+A foot long razor sharp tooth lies here.~
+bone~
+~
+weapon QT AN
+dagger 5 8 pierce D
+20 21 237992 A
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#9419
+bed fourposter~
+a fourposter bed~
+A huge, fourposter bed, with satin sheets sits against the far wall.~
+wood~
+~
+furniture O P
+BC GIJKLM BEHKN DEFG BCG BC GIJKLM
+1 100 12398 P
+G none
+G none
+G none
+G none
+#9420
+voulge~
+a voulge~
+A heavy iron cleaver is fixed onto the end of this wooden pole.~
+wood~
+~
+weapon EI AN
+polearm 1 24 chop DF
+16 40 6414 P
+A
+2 -1
+A
+19 2
+E
+voulge wooden cleaver pole~
+You see a long-shafted voulge, the cleaver sharpened to a razor's edge.
+~
+G none
+G none
+G none
+G none
+#9421
+chainmail vest~
+an iron chainmail vest~
+A large, very heavy vest of iron chainmail lies here.~
+iron~
+~
+armor 0 AD
+6 6 6 5 'none' 0
+16 17 6400 P
+A
+13 10
+A
+17 -3
+E
+chainmail iron~
+Thick metal links interlock to form a heavy chainmail vest.
+~
+G none
+G none
+G none
+G none
+#9422
+ring gold signet~
+{Ya gold signet ring{x~
+A {Yshiny gold signet ring{x lies on the ground.~
+gold~
+~
+jewelry A AB
+0 0 0 0 0 0 0
+1 15 8723 P
+A
+20 -1
+E
+gold ring signet~
+The symbol of a trident crossed with a sword adorns this gold ring.
+~
+G none
+G none
+G none
+G none
+#9423
+toga robe purple~
+{ma purple toga{x~
+A bright {mpurple{x robe lies here.~
+unknown~
+~
+clothing 0 AK
+0 0 0 0 0 0 0
+10 57 13217 P
+A
+14 -15
+E
+toga purple robe~
+This purple woolen toga must be worth a lot of money.
+~
+G none
+G none
+G none
+G none
+#9424
+fingernails nails~
+sharp fingernails~
+Long, sharp, bloodstained fingernails are lying here.  Ewww!~
+unknown~
+keratin~
+weapon EM AN
+exotic 1 14 stab 0
+14 15 4104 P
+A
+18 2
+A
+19 1
+E
+fingernails~
+You see several long, sharp bloody fingernails.  You'd have to PAY
+someone to take these off your hands.  
+~
+G none
+G none
+G none
+G none
+#9425
+helmet bronze visored~
+a visored helmet~
+A visored bronze helmet lies here.~
+bronze~
+~
+armor 0 AE
+8 8 8 7 'none' 0
+20 21 3360 P
+A
+17 -2
+A
+13 5
+E
+visored helmet bronze~
+You see a sturdy bronze helmet, complete with visor.
+~
+G none
+G none
+G none
+G none
+#9426
+shield bronze round~
+a round shield~
+An unremarkable bronze shield lies here.~
+bronze~
+~
+armor 0 AJ
+8 8 8 7 'none' 0
+20 21 1281 G
+A
+17 -3
+E
+bronze round shield~
+A plain bronze shield, scarred from use in battle, but still in good shape.
+~
+G none
+G none
+G none
+G none
+#9427
+sabre sword curved~
+a curved sabre~
+A two foot long curved sword lies here.~
+iron~
+~
+weapon 0 AN
+bastardsword 1 29 slash F
+20 75 3581 A
+A
+19 1
+E
+sabre sword curved~
+This sabre is fairly sharp and would make a nice slashing weapon.
+~
+G none
+G none
+G none
+G none
+#9428
+wristguard bronze~
+an elbowlength wristguard~
+A shiny bronze wristguard lies here.~
+bronze~
+~
+armor 0 AM
+7 7 7 6 'none' 0
+20 19 8956 A
+A
+17 -3
+A
+13 18
+E
+wristguard bronze~
+This light wristguard wraps tightly around the forearm and extends fully
+ to the elbow.
+~
+G none
+G none
+G none
+G none
+#9429
+helmet bronze visored fish~
+a visored helmet~
+A visored bronze helmet with a fish crest lies here.~
+bronze~
+~
+armor 0 AE
+8 8 8 7 'none' 0
+20 21 10243 P
+A
+17 -2
+A
+14 35
+E
+visored helmet bronze fish crest~
+A bronze fish fin adorns the crest of this visored helmet.
+~
+G none
+G none
+G none
+G none
+#9430
+shield bronze oblong~
+an oblong shield~
+An unremarkable oblong, bronze shield lies here.~
+bronze~
+~
+armor 0 AJ
+8 8 8 7 'none' 0
+20 21 1116 G
+A
+17 -3
+E
+bronze shield oblong~
+This oblong bronze shield would work nicely to protect your vitals.
+~
+G none
+G none
+G none
+G none
+#9431
+sword shortsword~
+a double-edged shortsword~
+A double-edged shortsword lies here covered in blood.~
+unknown~
+~
+weapon 0 AN
+shortsword 3 6 stab H
+22 22 8920 P
+A
+18 2
+A
+19 3
+E
+blood shortsword sword~
+The blade of this shortsword is covered with blood and a sticky black
+substance.  Hmm, looks like someone wasn't only depending on it's edge to
+kill their opponent.  
+~
+G none
+G none
+G none
+G none
+#9432
+platemail iron~
+iron platemail~
+An extremely heavy suit of iron platemail lies here.~
+iron~
+~
+armor 0 AD
+9 9 9 8 'none' 0
+23 200 24612 P
+A
+13 20
+A
+20 5
+A
+17 -3
+E
+platemail iron~
+This suit of platemail looks heavy enough to turn the sharpest blade.
+~
+G none
+G none
+G none
+G none
+#9433
+shield rectangular iron~
+a rectangular shield~
+An extremely heavy rectangular iron shield lies here.~
+iron~
+~
+armor 0 AJ
+9 9 9 8 'none' 0
+23 24 4957 P
+A
+19 1
+A
+14 -20
+A
+17 -2
+E
+rectangular shield iron~
+An enormous rectangular shield of solid iron lies here.
+~
+G none
+G none
+G none
+G none
+#9434
+helmet visored iron~
+a visored iron helmet~
+An extremely heavy visored iron helmet lies here.~
+iron~
+~
+armor 0 AE
+9 9 9 8 'none' 0
+23 300 6071 P
+A
+2 -1
+A
+13 10
+E
+visored iron helmet~
+This heavy duty, iron helmet has a sturdy visor.
+~
+G none
+G none
+G none
+G none
+#9435
+axe iron waraxe~
+a HUGE waraxe~
+A HUGE iron war axe lies here.~
+iron~
+~
+weapon 0 AN
+axe 1 36 cleave F
+25 300 37634 P
+A
+18 -10
+A
+19 6
+E
+axe iron waraxe~
+This iron waraxe is one of the largest that you have ever seen.
+~
+G none
+G none
+G none
+G none
+#9436
+veil blue silk~
+{Ba blue veil{x~
+A long blue silk veil flutters on the ground.~
+unknown~
+~
+clothing GI AE
+0 0 0 0 0 0 0
+20 13 10997 P
+A
+4 1
+A
+3 1
+E
+veil blue silk~
+A woman's blue silk veil.  It smells of incense and perfume!
+~
+G none
+G none
+G none
+G none
+#9437
+pendant bone~
+a bone pendant~
+A leather thong passes through this tiny bone pendant.~
+unknown~
+~
+jewelry BGIY AC
+0 0 0 0 0 0 0
+17 10 100 P
+A
+17 -3
+A
+4 1
+A
+19 2
+E
+pendant bone~
+A tooth over a claw has been carved into this bone pendant.
+~
+G none
+G none
+G none
+G none
+#9438
+pocketknife knife~
+a pocketknife~
+A small closeable knife lies here, the blade honed to a fine edge.~
+steel~
+~
+weapon C AN
+dagger 2 3 slice D
+10 15 1402 P
+A
+19 -1
+A
+18 2
+E
+knife pocketknife~
+This small pocketknife has a lockable clasp to secure the razor sharp blade.
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#9400
+The West Entrance~
+You are standing near the western, and main entrance to the arena.
+A battle royal is taking place now.  You see fallen gladiators everywhere
+you look; slashing, gouging, beheading and disemboweling each other purely
+for the entertainment of the bloodthirsty spectators.  
+
+ The main entrance and vestibule lie directly to the west.
+~
+0 0 field
+D0
+~
+~
+Z 0 9425
+0 0
+D1
+~
+~
+Z 0 9406
+0 0
+D2
+~
+~
+Z 0 9430
+0 0
+D3
+Twin redwood gates hang in the entryway of the vestibule.
+~
+gate gates~
+DZ 0 9456
+0 0
+S
+#9401
+The Southwest Corner~
+You are standing in the southwest corner of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9430
+0 0
+D1
+~
+~
+Z 0 9407
+0 0
+S
+#9402
+The Northwestern Corner~
+You are standing in the northwest corner of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D1
+~
+~
+Z 0 9405
+0 0
+D2
+~
+~
+Z 0 9425
+0 0
+S
+#9403
+The Massage Parlor~
+This must be the massage parlor.  A dozen tables with soft leather
+upholstry are lined up against the back wall.  A small plain wooden table
+sits off to the side, covered with bottles of lotion, perfume, spices, and
+oils; the tools of a masseur's trade.  
+~
+0 D inside
+D0
+~
+~
+Z 0 9445
+0 0
+S
+#9404
+Entrance to the Gladiator's Sanctum~
+You are standing in the entry hall to the gladiator's sanctum.  Though
+you are now inside, light streams in through the bars of the iron gate to
+the south, and from the atrium to the north.  Woven tapestries depicting
+scenes of battle and mortal combat hang on the walls to your left and right.
+
+The hallway opens into the atrium to the north, south lies the arena.
+~
+0 D inside
+D0
+~
+~
+Z 0 9444
+0 0
+D2
+A heavy gate constructed of solid iron is fixed firmly into the marble wall.
+~
+gate~
+ABZ 0 9408
+0 0
+S
+#9405
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9409
+0 0
+D1
+~
+~
+Z 0 9410
+0 0
+D2
+~
+~
+Z 0 9426
+0 0
+D3
+~
+~
+Z 0 9402
+0 0
+S
+#9406
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9426
+0 0
+D1
+~
+~
+Z 0 9411
+0 0
+D2
+~
+~
+Z 0 9431
+0 0
+D3
+~
+~
+Z 0 9400
+0 0
+S
+#9407
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9431
+0 0
+D1
+~
+~
+Z 0 9412
+0 0
+D2
+~
+~
+Z 0 9418
+0 0
+D3
+~
+~
+Z 0 9401
+0 0
+S
+#9408
+The North Gate~
+You are standing in front of the gladiator's entrance to the arena.
+The iron hinges on the heavy door are set solidly into the wall and can
+be barred from the inside to prevent animals and the condemned from escaping
+during a tournament.
+~
+0 0 field
+D0
+A heavy gate constructed of solid iron is fixed firmly into the marble wall.
+~
+gate~
+ABZ 0 9404
+0 0
+D1
+~
+~
+Z 0 9413
+0 0
+D2
+~
+~
+Z 0 9410
+0 0
+D3
+~
+~
+Z 0 9409
+0 0
+S
+#9409
+The North Wall~
+You are standing in front of the northern wall of the arena.  The walls
+that surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D1
+~
+~
+Z 0 9408
+0 0
+D2
+~
+~
+Z 0 9405
+0 0
+S
+#9410
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.
+~
+0 0 field
+D0
+~
+~
+Z 0 9408
+0 0
+D1
+~
+~
+Z 0 9415
+0 0
+D2
+~
+~
+Z 0 9427
+0 0
+D3
+~
+~
+Z 0 9405
+0 0
+S
+#9411
+The Center of the Arena~
+You are standing at the center of the battle arena.  The gladiators
+around you are too busy sparring with each other to notice you.  A huge
+wooden post rises from the ground at the very center of the arena, manacled
+chains hang suspended from giant hooks set into it.  
+~
+0 C field
+D0
+~
+~
+Z 0 9427
+0 0
+D1
+~
+~
+Z 0 9416
+0 0
+D2
+~
+~
+Z 0 9432
+0 0
+D3
+~
+~
+Z 0 9406
+0 0
+S
+#9412
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.
+~
+0 0 field
+D0
+~
+~
+Z 0 9432
+0 0
+D1
+~
+~
+Z 0 9417
+0 0
+D2
+~
+~
+Z 0 9423
+0 0
+D3
+~
+~
+Z 0 9407
+0 0
+S
+#9413
+The North Wall~
+You are standing in front of the northern wall of the arena.  The walls
+that surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D2
+~
+~
+Z 0 9415
+0 0
+D3
+~
+~
+Z 0 9408
+0 0
+S
+#9414
+The Bath House~
+You have entered the bath house.  There are two large bathing pools
+filled with water.  Red and purple tiles form an intricate mosaic inside the
+first, and you notice waves of heat rising from the water.  The second looks
+rather cold, and the tiles are a lovely green and blue.  
+~
+0 D inside
+D2
+~
+~
+Z 0 9445
+0 0
+S
+#9415
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9413
+0 0
+D1
+~
+~
+Z 0 9420
+0 0
+D2
+~
+~
+Z 0 9428
+0 0
+D3
+~
+~
+Z 0 9410
+0 0
+S
+#9416
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9428
+0 0
+D1
+~
+~
+Z 0 9421
+0 0
+D2
+~
+~
+Z 0 9433
+0 0
+D3
+~
+~
+Z 0 9411
+0 0
+S
+#9417
+Inside the Arena~
+You are standing on the floor of the battle arena.  The clanging of
+trident and sword on shield, punctuated by grunts and cries sound from all
+around you.  Dark stains of dried and drying blood mark the pale yellow sand
+under your feet.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9433
+0 0
+D1
+~
+~
+Z 0 9422
+0 0
+D2
+~
+~
+Z 0 9424
+0 0
+D3
+~
+~
+Z 0 9412
+0 0
+S
+#9418
+The South Wall~
+You are standing near the southern wall of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9407
+0 0
+D1
+~
+~
+Z 0 9423
+0 0
+S
+#9419
+The Lift~
+You are standing in the lift that gives access to the maze of beast cages
+beneath the arena.  A heavy block and tackle allows the lift to be hoisted
+and lowered from a vantage point up above.  Apparently the ones working the
+lift don't want to be standing in it when it is hoisted up with its cargo,
+whatever that may be...  
+~
+0 CD inside
+D0
+You can see the arena through the thick iron bars to the north.
+~
+gate bars~
+ABZ 0 9423
+0 0
+D5
+The iron rungs of a ladder, embedded into the east wall descend the shaft.
+~
+~
+Z 0 9435
+0 0
+S
+#9420
+The Northeast Corner~
+You are standing in the northeast corner of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D2
+~
+~
+Z 0 9429
+0 0
+D3
+~
+~
+Z 0 9415
+0 0
+S
+#9421
+The East Entrance~
+You are standing at the eastern entrance to the Coliseum.  Twin gates of
+redwood stand in the gateway, closed and barred.  There is no exit from the
+arena this way, but perhaps in the future the gates will be opened.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9429
+0 0
+D2
+~
+~
+Z 0 9434
+0 0
+D3
+~
+~
+Z 0 9416
+0 0
+S
+#9422
+The Southeast Corner~
+You are standing in the southeast corner of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9434
+0 0
+D3
+~
+~
+Z 0 9417
+0 0
+S
+#9423
+The South Gate~
+You are standing in front of the heavy iron gate that leads to the
+dungeons beneath the arena.  Wild animals are held in the cages below until
+the special events are held.  You expect that many will be brought up soon
+to be slaughtered in this arena.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9412
+0 0
+D1
+~
+~
+Z 0 9424
+0 0
+D2
+Peering through the bars, you see a wooden lift with a pulley system.
+~
+gate bars~
+ABZ 0 9419
+0 0
+D3
+~
+~
+Z 0 9418
+0 0
+S
+#9424
+The South Wall~
+You are standing near the southern wall of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9417
+0 0
+D3
+~
+~
+Z 0 9423
+0 0
+S
+#9425
+The West Wall~
+You are standing at the western side of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9402
+0 0
+D1
+~
+~
+Z 0 9426
+0 0
+D2
+~
+~
+Z 0 9400
+0 0
+S
+#9426
+Inside the Arena~
+You are standing in the battle arena.  The clanging of trident and sword
+on shield, punctuated by grunts and cries sound from all around.  Dark
+stains of dried and drying blood cover the pale yellow sand underfoot. 
+~
+0 0 field
+D0
+~
+~
+Z 0 9405
+0 0
+D1
+~
+~
+Z 0 9427
+0 0
+D2
+~
+~
+Z 0 9406
+0 0
+D3
+~
+~
+Z 0 9425
+0 0
+S
+#9427
+Inside the Arena~
+You are standing in the battle arena.  The clanging of trident and sword
+on shield, punctuated by grunts and cries sound from all around.  Dark
+stains of dried and drying blood cover the pale yellow sand underfoot. 
+~
+0 0 field
+D0
+~
+~
+Z 0 9410
+0 0
+D1
+~
+~
+Z 0 9428
+0 0
+D2
+~
+~
+Z 0 9411
+0 0
+D3
+~
+~
+Z 0 9426
+0 0
+S
+#9428
+Inside the Arena~
+You are standing in the battle arena.  The clanging of trident and sword
+on shield, punctuated by grunts and cries sound from all around.  Dark
+stains of dried and drying blood cover the pale yellow sand underfoot.  The
+broken leather straps of a harness are lying in the sand rotting.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9415
+0 0
+D1
+~
+~
+Z 0 9429
+0 0
+D2
+~
+~
+Z 0 9416
+0 0
+D3
+~
+~
+Z 0 9427
+0 0
+S
+#9429
+The East Wall~
+You are standing at the eastern side of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9420
+0 0
+D2
+~
+~
+Z 0 9421
+0 0
+D3
+~
+~
+Z 0 9428
+0 0
+S
+#9430
+The West Wall~
+You are standing at the western side of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9400
+0 0
+D1
+~
+~
+Z 0 9431
+0 0
+D2
+~
+~
+Z 0 9401
+0 0
+S
+#9431
+Inside the Arena~
+You are standing in the battle arena.  The clanging of trident and sword
+on shield, punctuated by grunts and cries sound from all around.  Dark
+stains of dried and drying blood cover the pale yellow sand underfoot.  The
+snapped off shaft of a javelin protrudes from the ground nearby.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9406
+0 0
+D1
+~
+~
+Z 0 9432
+0 0
+D2
+~
+~
+Z 0 9407
+0 0
+D3
+~
+~
+Z 0 9430
+0 0
+S
+#9432
+Inside the Arena~
+You are standing in the battle arena.  The clanging of trident and sword
+on shield, punctuated by grunts and cries sound from all around.  Dark
+stains of dried and drying blood cover the pale yellow sand underfoot. 
+~
+0 0 field
+D0
+~
+~
+Z 0 9411
+0 0
+D1
+~
+~
+Z 0 9433
+0 0
+D2
+~
+~
+Z 0 9412
+0 0
+D3
+~
+~
+Z 0 9431
+0 0
+S
+#9433
+Inside the Arena~
+You are standing in the battle arena.  The clanging of trident and sword
+on shield, punctuated by grunts and cries sound from all around.  Dark
+stains of dried and drying blood cover the pale yellow sand underfoot.
+~
+0 0 field
+D0
+~
+~
+Z 0 9416
+0 0
+D1
+~
+~
+Z 0 9434
+0 0
+D2
+~
+~
+Z 0 9417
+0 0
+D3
+~
+~
+Z 0 9432
+0 0
+S
+#9434
+The East Wall~
+You are standing at the eastern side of the arena.  The walls that
+surround it are made from solid blocks of marble, each weighing several
+tons.  The Coliseum must have been constructed years ago.  The marble is
+cracked, graying, and beginning to crumble with age.  
+~
+0 0 field
+D0
+~
+~
+Z 0 9421
+0 0
+D2
+~
+~
+Z 0 9422
+0 0
+D3
+~
+~
+Z 0 9433
+0 0
+S
+#9435
+The Bottom of the Lift~
+You are in the bottom of the lift shaft.  A vertical row of iron rungs
+lead up out of the dungeon beneath the arena.  Several torches placed in
+rusted iron sconces along the rock walls give off a dim light.  
+~
+0 D inside
+D0
+The damp, dark hallways of the dungeon are to the north.
+~
+~
+Z 0 9436
+0 0
+D4
+A heavy wooden lift hangs from a block and tackle pulley system, overhead.
+~
+~
+Z 0 9419
+0 0
+S
+#9436
+The Dungeon Hallways~
+You are walking the damp hallways of the dungeon.  The air down here
+smells very bad, like blood, urine, animal waste, and other decaying matter.
+The little light there is down here comes from the smokey flames of the
+wooden torches hanging from the walls.  There is a room off to the east, and
+you think you can hear the sounds of snoring coming from it.  
+~
+0 D inside
+D0
+A dark, stone hallway leads north.
+~
+~
+Z 0 9437
+0 0
+D1
+The dungeonkeeper's room lies to the east.
+~
+~
+Z 0 9455
+0 0
+D2
+You see the lift shaft to the south.
+~
+~
+Z 0 9435
+0 0
+S
+#9437
+The Dungeon Hallways~
+You are walking the damp hallways of the dungeon.  The air down here is
+truly foul, smelling of blood, urine, and animal waste.  The poor light
+given from the wooden torches hanging on the stone walls dimly illuminates
+the passageway.  
+~
+0 D inside
+D2
+A dark, stone hallway leads south.
+~
+~
+Z 0 9436
+0 0
+D3
+A dark, stone hallway leads west.
+~
+~
+Z 0 9438
+0 0
+S
+#9438
+The Dungeon Hallways~
+You are walking the damp hallways of the dungeon.  The air down here is
+truly foul, smelling of blood, urine, and animal waste.  Water drips from
+the cold stone ceiling above you head, gathering in small pools on the
+floor.  You see the bars of a cell north and south of you.  
+~
+0 D inside
+D0
+You see the rusting iron bars of a dark cell.
+ 
+~
+celldoor bars~
+ABCIZ 9413 9453
+0 0
+D1
+A dark, stone hallway leads east.
+~
+~
+Z 0 9437
+0 0
+D2
+You see the rusting iron bars of a dark cell.
+ 
+~
+celldoor bars~
+ABCIZ 9413 9454
+0 0
+D3
+A dark, stone hallway leads west.
+~
+~
+Z 0 9439
+0 0
+S
+#9439
+The Dungeon Hallways~
+You are walking along the dark hallways of the dungeons beneath the
+arena.  The dim light reveals a damp, moss covered passageway.  Ahead of you
+a brown sewer rat scampers across the floor and scrambles through a hole in
+the wall.  Good Lord, that thing must have been the size of a small dog!. 
+~
+0 D inside
+D0
+A dark, stone hallway leads north.
+~
+~
+Z 0 9440
+0 0
+D1
+A dark, stone hallway leads east.
+~
+~
+Z 0 9438
+0 0
+S
+#9440
+The Dungeon Hallways~
+You are walking the hallways of the dungeons beneath the arena.  Shadows
+dance menacingly on the walls, enlarged by your imagination.  You see the
+bars of a cell to your left and right.  
+~
+0 D inside
+D0
+A dark, stone hallway leads north.
+~
+~
+Z 0 9441
+0 0
+D1
+You see the rusting iron bars of a dark cell.
+ 
+~
+celldoor bars~
+ABCIZ 9413 9452
+0 0
+D2
+A dark, stone hallway leads south.
+~
+~
+Z 0 9439
+0 0
+D3
+You see the rusting iron bars of a dark cell.
+ 
+~
+celldoor bars~
+ABCIZ 9413 9451
+0 0
+S
+#9441
+The Dungeon Hallways~
+You are walking through the dungeon hallways.  The putrid smell of decay
+fills the air, and flies buzz irritatingly around you head, trying to land
+on your nose.  The passageway curves off to the east, the floor dimly lit by
+the smokey torches hanging on the walls.  
+~
+0 D inside
+D1
+A dark, stone hallway leads east.
+~
+~
+Z 0 9442
+0 0
+D2
+A dark, stone hallway leads south.
+~
+~
+Z 0 9440
+0 0
+S
+#9442
+The Dungeon Hallways~
+You are walking the hallways of the dungeon beneath the arena.  Stepping
+on a slick patch of moss you lose your footing and fall heavily on the stone
+flagstones.  As you clamber to your feet, muttering to yourself, you hear a
+groan from behind the cell bars to the north.  That didn't sound like any
+animal you've ever encountered, that sounded human...  
+~
+0 D inside
+D0
+You see the rusting iron bars of a dark cell.
+ 
+~
+celldoor bars~
+ABCIZ 9413 9448
+0 0
+D1
+A dark, stone hallway leads east.
+~
+~
+Z 0 9443
+0 0
+D2
+You see the rusting iron bars of a dark cell.  
+ 
+~
+celldoor bars~
+ABCIZ 9413 9450
+0 0
+D3
+A dark, stone hallway leads west.
+~
+~
+Z 0 9441
+0 0
+S
+#9443
+The Dungeon Hallways~
+The passageway ends at a blank stone wall.  The bars of the cell to the
+south are badly scorched and bent.  You hear the deep rumble of heavy
+breathing coming from behind them.  There is another cell to the north, the
+hallway west leads back out of the dungeon.  
+~
+0 D inside
+D0
+You see the rusting iron bars of a dark cell.
+ 
+~
+celldoor bars~
+ABCIZ 9413 9447
+0 0
+D2
+The lock is badly dented, it's unlikely that any key would fit in it now.
+ 
+~
+celldoor bars~
+ABCJZ 9417 9449
+0 0
+D3
+A dark, stone hallway leads west.
+~
+~
+Z 0 9442
+0 0
+S
+#9444
+The Atrium~
+You have entered the Atrium, the central room in the gladiator's sanctum.
+A large, rectangular pool of water dominates the center of the room.  The
+tall, stately marble pillars at the pool's edge rise to an opening in the
+ceiling, directly above the pool.  A low doorway leads east into the private
+chambers of the victor, west you see the changing and equipment room. 
+~
+0 0 inside
+D1
+~
+~
+DZ 0 9446
+0 0
+D2
+~
+~
+Z 0 9404
+0 0
+D3
+~
+~
+Z 0 9445
+0 0
+S
+#9445
+The Changing Room~
+You have entered the changing and equipment storage room.  Articles of
+clothing, armor, weapons, and weapon harnesses have been tossed carelessly
+on the floor around the room.  The bath house is to the north, the massage
+parlor to the south.  
+~
+0 D inside
+D0
+~
+~
+Z 0 9414
+0 0
+D1
+~
+~
+Z 0 9444
+0 0
+D2
+~
+~
+Z 0 9403
+0 0
+S
+#9446
+The Victor's Chambers~
+You are in the private chambers reserved for the victorious gladiator.  A
+plush red sheep's wool rug covers the entire floor, the brass candelabras on
+the walls bathe the room in a cheerful glow.  The heady aroma of burning
+incense wafts to your nostrils through the beaded curtain to the south.  You
+hear the sounds of giggling coming from behind the closed north door. 
+~
+0 D inside
+D0
+~
+~
+Z 0 9478
+0 0
+D2
+~
+~
+Z 0 9477
+0 0
+D3
+~
+~
+DZ 0 9444
+0 0
+S
+#9447
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the south.
+~
+0 AD inside
+D2
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9443
+0 0
+S
+#9448
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the south.
+~
+0 AD inside
+D2
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9442
+0 0
+S
+#9449
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the north.
+~
+0 AD inside
+D0
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCJZ 9413 9443
+0 0
+S
+#9450
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the north.
+~
+0 AD inside
+D0
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9442
+0 0
+S
+#9451
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the east.
+~
+0 AD inside
+D1
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9440
+0 0
+S
+#9452
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the west.
+~
+0 AD inside
+D3
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9440
+0 0
+S
+#9453
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the south.
+~
+0 AD inside
+D2
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9438
+0 0
+S
+#9454
+A Beast Cage~
+You have entered a tiny, cramped beast cage.  Filthy straw covers the
+floor to soak up the waste matter from the inhabitant.  The awful smell
+causes you to instinctively cover your mouth and nose with your forearm. 
+ The only exit lies to the north.
+~
+0 AD inside
+D0
+You see the rusting, iron bars of the cell, and celldoor.
+~
+celldoor bars~
+ABCIZ 9413 9438
+0 0
+S
+#9455
+The Keeper's Room~
+You have entered the dungeonkeeper's room.  The room is completely
+unfurnished except for the battered wooden table, and rickety chair beside
+it.  Hanging from a row of iron hooks, along the back wall, you see a ring
+of keys, a battered longsword, and a knobbed wooden club.  
+~
+0 D inside
+D3
+A dark, stone hallway lies to the west.
+~
+~
+Z 0 9436
+0 0
+S
+#9456
+The Vestibule~
+You have entered the Coliseum of Midgaard, built for the gladiatorial and
+special games.  Many brave gladiators enter the arena through this
+vestibule, few leave it alive.  A set of marble stairs lead upwards to the
+spectator stands, the battle arena itself lies to the east.  
+~
+0 CD inside
+D1
+Twin redwood gates hang in the entryway to the arena.
+~
+gate gates~
+DZ 0 9400
+0 0
+D3
+~
+~
+Z 0 3047
+0 0
+D4
+~
+~
+DZ 0 9457
+0 0
+S
+#9457
+Above the Vestibule~
+You have entered the spectator stands that surround the arena.  Row upon
+row of marble benches ascend like giant white steps.  The stands are packed.
+Every inch of sitting and standing room is taken, and you are jostled around
+as people shove past you, looking for an empty seat.  
+ 
+ A set of marble stairs lead down to the vestibule below.
+~
+0 0 city
+D0
+~
+~
+Z 0 9458
+0 0
+D2
+~
+~
+Z 0 9476
+0 0
+D5
+~
+~
+DZ 0 9456
+0 0
+S
+#9458
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9459
+0 0
+D2
+~
+~
+Z 0 9457
+0 0
+S
+#9459
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9460
+0 0
+D2
+~
+~
+Z 0 9458
+0 0
+S
+#9460
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D1
+~
+~
+Z 0 9461
+0 0
+D2
+~
+~
+Z 0 9459
+0 0
+S
+#9461
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D1
+~
+~
+Z 0 9462
+0 0
+D3
+~
+~
+Z 0 9460
+0 0
+S
+#9462
+The Royal Podium~
+You have entered a large podium, raised high above the stands.
+Ornate marble columns support the ceiling overhead.  Long wooden struts
+project from the front of the podium, hanging out over the arena with their
+fluttering, cheerfully colored {mmaroon{x, {Bblue{x, {ggreen{x, and {Yyellow{x pendants.
+This section has obviously been reserved for patrons of great importance.
+~
+0 CD city
+D1
+~
+~
+Z 0 9463
+0 0
+D3
+~
+~
+Z 0 9461
+0 0
+S
+#9463
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D1
+~
+~
+Z 0 9464
+0 0
+D3
+~
+~
+Z 0 9462
+0 0
+S
+#9464
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D2
+~
+~
+Z 0 9465
+0 0
+D3
+~
+~
+Z 0 9463
+0 0
+S
+#9465
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9464
+0 0
+D2
+~
+~
+Z 0 9466
+0 0
+S
+#9466
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9465
+0 0
+D2
+~
+~
+Z 0 9467
+0 0
+S
+#9467
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9466
+0 0
+D2
+~
+~
+Z 0 9468
+0 0
+S
+#9468
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9467
+0 0
+D2
+~
+~
+Z 0 9469
+0 0
+S
+#9469
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9468
+0 0
+D2
+~
+~
+Z 0 9470
+0 0
+S
+#9470
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9469
+0 0
+D3
+~
+~
+Z 0 9471
+0 0
+S
+#9471
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D1
+~
+~
+Z 0 9470
+0 0
+D3
+~
+~
+Z 0 9472
+0 0
+S
+#9472
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D1
+~
+~
+Z 0 9471
+0 0
+D3
+~
+~
+Z 0 9473
+0 0
+S
+#9473
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D1
+~
+~
+Z 0 9472
+0 0
+D3
+~
+~
+Z 0 9474
+0 0
+S
+#9474
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9475
+0 0
+D1
+~
+~
+Z 0 9473
+0 0
+S
+#9475
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9476
+0 0
+D2
+~
+~
+Z 0 9474
+0 0
+S
+#9476
+In the Stands~
+You are walking through the spectator stands and the roars of the excited
+crowds are deafening.  Dozens of gladiators have fallen today, accompanied
+by the derisive hoots and catcalls of the spectators.  You feel your own
+blood beginning to boil.  Look at these cowards, leering at the fallen
+warriors, greedily drinking in the bloody spectacle.  You feel nothing but
+repulsion for the mindless fools that you see around you, and your hatred
+begins to mount.  
+                 Kill them...   {RKill them ALL!{x
+~
+0 0 city
+D0
+~
+~
+Z 0 9457
+0 0
+D2
+~
+~
+Z 0 9475
+0 0
+S
+#9477
+The Harem~
+Dozens of scantily-clad, beautiful women are reclining on silken pillows
+around the room.  Sticks of sweet smelling incense burn in copper holders at
+a dozen different locations in the room.  Your head begins to swim, and
+you're not sure if it's the intoxicating smell, or the marvelous sights that
+are making you so dizzy...  
+~
+0 D inside
+D0
+~
+~
+Z 0 9446
+0 0
+S
+#9478
+The Steam Room~
+Hot steam pours into the room through tiny ducts near the ceiling. 
+Wooden reclining benches have been placed against the walls, all of the way
+around the room.  You hear the sound of giggling, and as you turn your head
+about, you notice several human forms near you.  
+~
+0 D inside
+D2
+~
+~
+Z 0 9446
+0 0
+S
+#9480
+A SPARE ROOM~
+~
+0 CD swim
+S
+#9481
+A SPARE ROOM~
+~
+0 CD swim
+S
+#9482
+{bA Subterranean Cavern{x~
+You plunge into the pool of water and are surprised to find yourself
+inside an old well which leads far beneath the sanctum.  Curiosity impels
+you to dive further downwards, and after swimming for what seems like an
+eternity, you find yourself in a vast subterranean cavern.  Your lungs are
+beginning to burn from the lack of oxygen, and you still have to swim back
+to the surface.  Hmm, perhaps you'd better turn back now.  
+~
+0 Dc swim
+E
+stones wall bricks mortar~
+Staring hard into the murky water you see the outline of a hole in the
+west wall of the cavern.  Looks like it was cemented in with stones
+ centuries ago.
+~
+D3
+A large hole in the west wall has been sealed with bricks and mortar, and
+upon closer inspection you notice a strange symbol on the middle of it. 
+
+ It is a warning of some kind; a glowing eye, streaming teardrops of blood.
+ 
+~
+wall secret stones~
+ABCDFZ 0 9487
+0 0
+D4
+~
+~
+Z 0 9483
+0 0
+S
+#9483
+{bInside the Well{x~
+The murky water is cool and refreshing, but your lungs are bursting from
+lack of oxygen, and really don't care how good the water feels.  The only
+thing on your mind is {CAIR{x!!!  
+~
+0 Dc swim
+D4
+~
+~
+Z 0 9484
+0 0
+S
+#9484
+{bInside the Well{x~
+The murky water is cool and refreshing, but your lungs are bursting from
+lack of oxygen, and really don't care how good the water feels.  The only
+thing on your mind is {CAIR{x!!!  
+~
+0 Dc swim
+D4
+~
+~
+Z 0 9485
+0 0
+S
+#9485
+{bInside the Well{x~
+The murky water is cool and refreshing, but your lungs are bursting from
+lack of oxygen, and really don't care how good the water feels.  The only
+thing on your mind is {CAIR{x!!!  
+~
+0 Dc swim
+D4
+~
+~
+Z 0 9486
+0 0
+S
+#9486
+{bInside the Well{x~
+The murky water is cool and refreshing, but your lungs are bursting from
+lack of oxygen, and really don't care how good the water feels.  The only
+thing on your mind is {CAIR{x!!!  
+~
+0 Dc swim
+D4
+~
+~
+Z 0 9444
+0 0
+S
+#9487
+{bA Burial Vault{x~
+You are swimming in a murky, water-filled burial vault.  Looking around,
+you guess that it has lain undisturbed for centuries.  A long black casket
+lies mostly buried in the mud, and your curiosity is piqued, but something
+is wrong about this place.  Something is VERY wrong, and your mind screams
+for you to leave.  
+~
+0 ACDJNc swim
+D1
+~
+wall secret stones~
+ABCDFZ 0 9482
+0 0
+S
+#9488
+A SPARE ROOM~
+~
+0 C inside
+S
+#0
+
+#SPECIALS
+M 9401 spec_cast_beholder	* {Rthe Eye of the Deep{x
+M 9408 spec_thief	* a street urchin
+M 9413 spec_cast_cleric	* a gnomish masseur
+M 9419 spec_breath_fire	* a young dragon
+M 9421 spec_thief	* a condemned prisoner
+M 9422 spec_poison	* A {yBrown{x pakrat
+M 9424 spec_cast_mage	* the dignitary's wife
+S
+
+#RESETS
+D 0 9404 2 1	* Entrance to the Gladiator's Sanctum: door to the south: closed
+D 0 9408 0 1	* The North Gate: door to the north: closed
+D 0 9419 0 1	* The Lift: door to the north: closed
+D 0 9423 2 1	* The South Gate: door to the south: closed
+D 0 9438 0 2	* The Dungeon Hallways: door to the north: closed and locked
+D 0 9438 2 2	* The Dungeon Hallways: door to the south: closed and locked
+D 0 9440 1 2	* The Dungeon Hallways: door to the east: closed and locked
+D 0 9440 3 2	* The Dungeon Hallways: door to the west: closed and locked
+D 0 9442 0 2	* The Dungeon Hallways: door to the north: closed and locked
+D 0 9442 2 2	* The Dungeon Hallways: door to the south: closed and locked
+D 0 9443 0 2	* The Dungeon Hallways: door to the north: closed and locked
+D 0 9443 2 2	* The Dungeon Hallways: door to the south: closed and locked
+D 0 9447 2 2	* A Beast Cage: door to the south: closed and locked
+D 0 9448 2 2	* A Beast Cage: door to the south: closed and locked
+D 0 9449 0 2	* A Beast Cage: door to the north: closed and locked
+D 0 9450 0 2	* A Beast Cage: door to the north: closed and locked
+D 0 9451 1 2	* A Beast Cage: door to the east: closed and locked
+D 0 9452 3 2	* A Beast Cage: door to the west: closed and locked
+D 0 9453 2 2	* A Beast Cage: door to the south: closed and locked
+D 0 9454 0 2	* A Beast Cage: door to the north: closed and locked
+D 0 9482 3 2	* {bA Subterranean Cavern{x: door to the west: closed and locked
+D 0 9487 1 2	* {bA Burial Vault{x: door to the east: closed and locked
+M 0 9430 7 9402 1	* a humongous Hoplomachus (The Northwestern Corner)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9427 9 9402 1	* a retiarii (The Northwestern Corner)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9428 3 9402 1	* a veteran Retiarii (The Northwestern Corner)
+E 0 9437 0 3		*	a bone pendant: around the neck (1)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9413 1 9403 1	* a gnomish masseur (The Massage Parlor)
+G 0 9412 0		*	a small vial of spices
+M 0 9431 4 9405 1	* a large Hoplomachus (Inside the Arena)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9431 4 9406 1	* a large Hoplomachus (Inside the Arena)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9430 7 9407 1	* a humongous Hoplomachus (Inside the Arena)
+E 0 9432 0 5		*	iron platemail: on the body
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+M 0 9426 8 9409 1	* a stocky Thraex (The North Wall)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9430 7 9409 1	* a humongous Hoplomachus (The North Wall)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9426 8 9410 1	* a stocky Thraex (Inside the Arena)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9429 7 9410 1	* a muscular Murmillo (Inside the Arena)
+E 0 9431 0 16		*	a double-edged shortsword: wielded
+E 0 9430 0 11		*	an oblong shield: as a shield
+E 0 9429 0 6		*	a visored helmet: over the head
+O 0 9400 0 9411	* a wooden pillar (The Center of the Arena)
+M 0 9426 8 9413 1	* a stocky Thraex (The North Wall)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9429 7 9413 2	* a muscular Murmillo (The North Wall)
+E 0 9431 0 16		*	a double-edged shortsword: wielded
+E 0 9430 0 11		*	an oblong shield: as a shield
+E 0 9429 0 6		*	a visored helmet: over the head
+M 0 9412 1 9414 1	* a fat old man (The Bath House)
+E 0 9411 0 7		*	a loincloth: on the legs
+M 0 9430 7 9415 1	* a humongous Hoplomachus (Inside the Arena)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9429 7 9415 1	* a muscular Murmillo (Inside the Arena)
+E 0 9431 0 16		*	a double-edged shortsword: wielded
+E 0 9430 0 11		*	an oblong shield: as a shield
+E 0 9429 0 6		*	a visored helmet: over the head
+M 0 9427 9 9415 1	* a retiarii (Inside the Arena)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9430 7 9416 1	* a humongous Hoplomachus (Inside the Arena)
+E 0 9432 0 5		*	iron platemail: on the body
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+M 0 9428 3 9417 1	* a veteran Retiarii (Inside the Arena)
+E 0 9437 0 3		*	a bone pendant: around the neck (1)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9426 8 9417 1	* a stocky Thraex (Inside the Arena)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9427 9 9417 2	* a retiarii (Inside the Arena)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9431 4 9418 1	* a large Hoplomachus (The South Wall)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9428 3 9420 1	* a veteran Retiarii (The Northeast Corner)
+E 0 9401 0 17		*	a fishing net: held in the hands
+E 0 9402 0 16		*	a trident: wielded
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9437 0 3		*	a bone pendant: around the neck (1)
+M 0 9426 8 9421 1	* a stocky Thraex (The East Entrance)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9427 9 9421 1	* a retiarii (The East Entrance)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9429 7 9421 1	* a muscular Murmillo (The East Entrance)
+E 0 9431 0 16		*	a double-edged shortsword: wielded
+E 0 9430 0 11		*	an oblong shield: as a shield
+E 0 9429 0 6		*	a visored helmet: over the head
+M 0 9426 8 9423 1	* a stocky Thraex (The South Gate)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9430 7 9423 1	* a humongous Hoplomachus (The South Gate)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9427 9 9423 1	* a retiarii (The South Gate)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9426 8 9425 1	* a stocky Thraex (The West Wall)
+E 0 9427 0 16		*	a curved sabre: wielded
+E 0 9426 0 11		*	a round shield: as a shield
+E 0 9425 0 6		*	a visored helmet: over the head
+M 0 9427 9 9425 1	* a retiarii (The West Wall)
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+E 0 9402 0 16		*	a trident: wielded
+E 0 9401 0 17		*	a fishing net: held in the hands
+M 0 9429 7 9425 1	* a muscular Murmillo (The West Wall)
+E 0 9431 0 16		*	a double-edged shortsword: wielded
+E 0 9430 0 11		*	an oblong shield: as a shield
+E 0 9429 0 6		*	a visored helmet: over the head
+M 0 9429 7 9427 1	* a muscular Murmillo (Inside the Arena)
+E 0 9431 0 16		*	a double-edged shortsword: wielded
+E 0 9429 0 6		*	a visored helmet: over the head
+E 0 9430 0 11		*	an oblong shield: as a shield
+M 0 9427 9 9427 2	* a retiarii (Inside the Arena)
+E 0 9401 0 17		*	a fishing net: held in the hands
+E 0 9402 0 16		*	a trident: wielded
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+M 0 9431 4 9428 1	* a large Hoplomachus (Inside the Arena)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9430 7 9430 1	* a humongous Hoplomachus (The West Wall)
+E 0 9435 0 16		*	a HUGE waraxe: wielded
+E 0 9434 0 6		*	a visored iron helmet: over the head
+E 0 9433 0 11		*	a rectangular shield: as a shield
+E 0 9432 0 5		*	iron platemail: on the body
+M 0 9427 9 9430 2	* a retiarii (The West Wall)
+E 0 9401 0 17		*	a fishing net: held in the hands
+E 0 9402 0 16		*	a trident: wielded
+E 0 9428 0 15		*	an elbowlength wristguard: on the right wrist
+M 0 9431 4 9432 1	* a large Hoplomachus (Inside the Arena)
+M 0 9422 5 9435 1	* A {yBrown{x pakrat (The Bottom of the Lift)
+M 0 9422 5 9438 1	* A {yBrown{x pakrat (The Dungeon Hallways)
+M 0 9422 5 9441 1	* A {yBrown{x pakrat (The Dungeon Hallways)
+M 0 9422 5 9443 1	* A {yBrown{x pakrat (The Dungeon Hallways)
+M 0 9411 1 9444 1	* a stormgiant eunuch (The Atrium)
+E 0 9410 0 16		*	a HEAVY bastard sword: wielded
+O 0 9404 0 9444	* {Ba pool of water{x (The Atrium)
+O 0 9419 0 9446	* a fourposter bed (The Victor's Chambers)
+M 0 9417 1 9447 1	* an angry basilisk (A Beast Cage)
+M 0 9421 1 9448 1	* a condemned prisoner (A Beast Cage)
+G 0 9417 0		*	a lockpick
+M 0 9419 1 9449 1	* a young dragon (A Beast Cage)
+G 0 9418 0		*	{Ga d{gr{Gag{gon{G's {wtooth{x
+M 0 9420 1 9450 1	* a frightened zebra (A Beast Cage)
+M 0 9418 1 9451 1	* a wounded tiger (A Beast Cage)
+M 0 9416 1 9452 1	* a wild dog (A Beast Cage)
+M 0 9415 1 9453 1	* a ferocious cave bear (A Beast Cage)
+M 0 9414 1 9454 1	* a scrawny lion (A Beast Cage)
+O 0 9403 0 9455	* a row of iron hooks (The Keeper's Room)
+P 0 9413 1 9403 1	* a row of iron hooks: a large keyring
+P 0 9414 1 9403 1	* a row of iron hooks: a battered longsword
+M 0 9400 1 9455 1	* the Dungeonkeeper (The Keeper's Room)
+O 0 9416 0 9455	* an oak table (The Keeper's Room)
+M 0 9403 1 9456 1	* a gnomish vendor (The Vestibule)
+G 0 9407 0		*	a bag of peanuts
+M 0 9402 1 9456 1	* the minotaur Gatekeeper (The Vestibule)
+E 0 9408 0 9		*	spiked mail gauntlets: on the hands
+E 0 9409 0 16		*	a heavy wooden club: wielded
+M 0 9408 7 9457 1	* a street urchin (Above the Vestibule)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9406 10 9457 1	* a lanky man (Above the Vestibule)
+M 0 9407 11 9457 1	* a mean girl (Above the Vestibule)
+M 0 9404 10 9458 1	* the drunk (In the Stands)
+M 0 9406 10 9458 1	* a lanky man (In the Stands)
+M 0 9405 16 9458 1	* a fat woman (In the Stands)
+M 0 9408 7 9459 1	* a street urchin (In the Stands)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9407 11 9459 1	* a mean girl (In the Stands)
+M 0 9404 10 9460 1	* the drunk (In the Stands)
+M 0 9406 10 9460 1	* a lanky man (In the Stands)
+M 0 9405 16 9460 1	* a fat woman (In the Stands)
+M 0 9405 16 9461 1	* a fat woman (In the Stands)
+M 0 9407 11 9461 1	* a mean girl (In the Stands)
+M 0 9425 2 9462 2	* a frostgiant bodyguard (The Royal Podium)
+E 0 9421 0 5		*	an iron chainmail vest: on the body
+E 0 9420 0 16		*	a voulge: wielded
+M 0 9424 1 9462 1	* the dignitary's wife (The Royal Podium)
+E 0 9424 0 16		*	sharp fingernails: wielded
+M 0 9423 1 9462 1	* an obese dignitary (The Royal Podium)
+E 0 9422 0 2		*	{Ya gold signet ring{x: on the right finger
+E 0 9423 0 12		*	{ma purple toga{x: about the shoulders
+M 0 9405 16 9463 1	* a fat woman (In the Stands)
+M 0 9407 11 9463 1	* a mean girl (In the Stands)
+M 0 9404 10 9463 1	* the drunk (In the Stands)
+M 0 9404 10 9464 1	* the drunk (In the Stands)
+M 0 9408 7 9464 1	* a street urchin (In the Stands)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9406 10 9464 1	* a lanky man (In the Stands)
+M 0 9404 10 9465 1	* the drunk (In the Stands)
+M 0 9407 11 9465 1	* a mean girl (In the Stands)
+M 0 9405 16 9465 1	* a fat woman (In the Stands)
+M 0 9408 3 9466 1	* a street urchin (In the Stands)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9406 10 9466 1	* a lanky man (In the Stands)
+M 0 9407 11 9466 1	* a mean girl (In the Stands)
+M 0 9404 10 9467 1	* the drunk (In the Stands)
+M 0 9405 16 9467 1	* a fat woman (In the Stands)
+M 0 9406 10 9468 1	* a lanky man (In the Stands)
+M 0 9407 11 9468 1	* a mean girl (In the Stands)
+M 0 9422 5 9468 1	* A {yBrown{x pakrat (In the Stands)
+M 0 9408 7 9469 1	* a street urchin (In the Stands)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9404 10 9469 1	* the drunk (In the Stands)
+M 0 9406 10 9469 1	* a lanky man (In the Stands)
+M 0 9405 16 9469 1	* a fat woman (In the Stands)
+M 0 9405 16 9470 1	* a fat woman (In the Stands)
+M 0 9407 11 9470 1	* a mean girl (In the Stands)
+M 0 9404 10 9471 1	* the drunk (In the Stands)
+M 0 9406 10 9471 1	* a lanky man (In the Stands)
+M 0 9408 7 9472 1	* a street urchin (In the Stands)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9405 16 9472 1	* a fat woman (In the Stands)
+M 0 9407 11 9472 1	* a mean girl (In the Stands)
+M 0 9404 10 9473 1	* the drunk (In the Stands)
+M 0 9406 10 9473 1	* a lanky man (In the Stands)
+M 0 9408 7 9474 1	* a street urchin (In the Stands)
+E 0 9438 0 16		*	a pocketknife: wielded
+M 0 9405 16 9474 1	* a fat woman (In the Stands)
+M 0 9406 10 9474 1	* a lanky man (In the Stands)
+M 0 9404 10 9475 1	* the drunk (In the Stands)
+M 0 9407 11 9475 1	* a mean girl (In the Stands)
+M 0 9405 16 9475 1	* a fat woman (In the Stands)
+M 0 9406 10 9475 1	* a lanky man (In the Stands)
+M 0 9405 16 9476 1	* a fat woman (In the Stands)
+M 0 9406 10 9476 1	* a lanky man (In the Stands)
+M 0 9410 6 9477 6	* a harem girl (The Harem)
+M 0 9432 2 9477 2	* a harem girl (The Harem)
+E 0 9436 0 6		*	{Ba blue veil{x: over the head
+M 0 9409 5 9478 5	* a nude woman (The Steam Room)
+O 0 9405 0 9487	* {Wan obsidian casket{x ({bA Burial Vault{x)
+P 0 9406 1 9405 1	* {Wan obsidian casket{x: {Wthe Mask of Charon{x
+M 0 9401 1 9487 1	* {Rthe Eye of the Deep{x ({bA Burial Vault{x)
+S
+
+#SHOPS
+9403 19 0 0 0 0 135 10 0 23
+0
+
+#OLIMITS
+O 9406 1	* {Wthe Mask of Charon{x
+O 9418 2	* {Ga d{gr{Gag{gon{G's {wtooth{x
+S
+
+#MOBPROGS
+#9400
+mob echo {C                    **{w<{Y*{w>{C***{w<{Y**{w>{ROUCH!{w<{Y**{w>{C***{w<{Y*{w>{C**{x
+mob echo You feel an explosion of pain in your head, and the Eye floats closer to you.
+~
+#9401
+mob echo {R                               oOoOOoOOoOo{x
+mob echo {M              **{w<{Y({G*{Y){w>{M***{w<{Y({G**{Y){w>{M**{RAAARRGGHH!!{M**{w<{Y({G**{Y){w>{M***{w<{Y({G*{Y){w>{M**{x
+mob echo {R                               oOoOOoOOoOo{x
+mob echo As you pick up the {WMask{x, the pain in your head intensifies unbearably.
+murder $n
+~
+#9402
+poke $n
+'Ahem, you must PAY 500 silver to watch the Death Match!
+emote extends a gauntleted fist, palm upward.
+if rand 65
+growl
+endif
+~
+#9403
+'Proceed upward to the stands, and enjoy the show.
+mob echoat $n $I ushers you up the staircase.
+mob echoaround $n $I ushers $n up the staircase.
+mob trans $n 9457
+~
+#9404
+if mobhere 9403
+mob echoaround $n The Gatekeeper is too preoccupied with the vendor to notice $n slip past.
+mob echoat $n The Gatekeeper is preoccupied with the vendor and doesn't notice you sneak past.
+mob trans $n 9400
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 9456
+end
+endif
+echoat $n The Gatekeeper notices you walking toward the arena and grabs you by the arm.
+echoat $n The Gatekeeper grabs $n by the arm.
+'Oi, only gladiators may enter the arena!
+if rand 40
+emote stares intently at $n.
+endif
+~
+#9405
+if mobhere 9403
+shake
+grumble vendor
+give bag vendor
+~
+#9406
+mob echoat $n $I steps in front of you, his huge form filling the doorway.
+mob echoaround $n $n's face pales slightly as $I steps toward him.
+if rand 60
+mob echoat $n $I stares hard at you and shakes his head slowly.
+mob echoaround $n $I stares down at $n, shaking his head slowly.
+'You may not pass.
+~
+#9407
+mob echo $I begins to laugh.
+mob echo The eunuch says '{GDalkreesis doesn't take bribes.  Begone before I break you!{x'
+mob echoat $n It grabs you by the collar and roughly tosses you toward the exit.
+mob echoaround $n It grabs $n by the collar and roughly throws $m out.
+mob trans $n 9404
+~
+#9408
+mob echoat $n The keys jingle as you lift them off the hook, waking the Dungeonkeeper.
+mob echoaround $n As $n grabs the keys, they clink together, waking the Dungeonkeeper.
+emote mutters to himself and rubs his eyes.
+stand
+get club hook
+wield club
+'Oi, thief, ye stop right thur!
+kill $n
+~
+#0
+
+#$

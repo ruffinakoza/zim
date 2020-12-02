@@ -1,0 +1,44 @@
+#CLAN
+Name Ruler~
+Item 95117
+Mark 95104
+Altar 95121
+Donate 95109
+Skill 'wanted' 20 100
+#Skill 'guard call' 20 1
+#Skill 'ruler badge' 25 1
+#Skill 'remove badge' 25	1
+#Skill 'shield of ruler' 30 1
+#Skill 'ruler aura' 35 1
+#Skill 'stalker' 40 1
+Title 13 male Patron~
+Title 13 female Patron~
+Title 12 male Commisioner~
+Title 12 female Commisioner~
+Title 11 male Retired Commisioner~
+Title 11 female Retired Commisioner~
+Title 10 male Deputy Commisioner~
+Title 10 female Deputy Commisioner~
+Title 9 male Magistrate~
+Title 9 female Magistrate~
+Title 8 male Ambassador~
+Title 8 female Ambassadress~
+Title 7 male Chief Superintendent~
+Title 7 female Chief Superintendent~
+Title 6 male Superintendent~
+Title 6 female Superintendent~
+Title 5 male Chief Inspector~
+Title 5 female Chief Inspector~
+Title 4 male Inspector~
+Title 4 female Inspector~
+Title 3 male Sargeant~
+Title 3 female Sargeant~
+Title 2 male Constable~
+Title 2 female Constable~
+Title 1 male Probation~
+Title 1 female Probation~
+Title 0 male Corrupt~
+Title 0 female Corrupt~
+End
+
+#$

@@ -1,0 +1,580 @@
+#AREADATA
+Name Shadas' House~
+Builders shaelindra~
+VNUMs 10130 10159
+Credits Shadas Shaelindra~
+Security 1
+LevelRange 1 91
+Flags noquest nosummon playerhouse~
+End
+
+#MOBILES
+#10130
+tien guard strong giant~
+Tien~
+A strong giant is here guarding the mansion.
+~
+This giant wears no helm to allow air to blow freely over his hair.  His
+golden breastplate reflects the bright sun.  A gigantic two-handed sword
+made uniquely for him is hanging loosely by his side with his hand holding
+firmly on its pommel.  His huge blue eyes look firmly down at you.  
+~
+cloud giant~
+ABTe DHJZ 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+HN AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff T
+F vul JP
+M speech 10130 give~
+M greet 10131 100~
+M exall 10132 3~
+M speech 10133 I am a friend of Shadas, and I'm here to see him.~
+#10131
+cloud giant may~
+May~
+May dances dreamily around the room.
+~
+This giantess is here dancing to herself, wearing a crystalline tiara,
+{Ygolden{x necklace, and a pretty white dress.  She stops and takes notice of
+you as you enter her room.  
+~
+cloud giant~
+AB H 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CFH 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff T
+F vul JP
+M greet 10134 100~
+#10132
+cloud giant silvine~
+Silvine~
+Silvine is here, tending her newborn.
+~
+This giantess is here patiently tending her newborn baby girl, while
+waiting for her husband to return from work.  
+~
+cloud giant~
+AB H 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CHV 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff T
+F vul JP
+M greet 10135 100~
+#10133
+lucky silver giant~
+Lucky~
+Lucky is here very focused in chasing its tail.
+~
+This silvery dragon is as large as the guardian at the entrance.  Good
+thing it is drawn to its tail or else you'll be his next meal.  
+~
+silver dragon~
+AB H 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CFH 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff T
+F res BEI
+F vul F
+#10134
+giant cloud zhane~
+Zhane~
+The father is sleeping peacefully on the bed.
+~
+This giant is sleeping peacefully in the bed.  A blankets made of clouds
+covers his whole body.  He gives off loud snore which thunders through the
+hallway.  
+~
+silver dragon~
+AB H 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CFH 0 0 0
+sleep stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff T
+F res BEI
+F vul F
+#10135
+mitty~
+Mitty~
+The mother is here preparing meal for her family.
+~
+Wearing long robe and a dirty apron, she is trying to whip up something
+good quickly before the meal time.  When she notices you, she gives you a
+caring smile.  
+~
+cloud giant~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F aff T
+F vul JP
+#0
+
+#OBJECTS
+#10130
+red bed cloudy~
+a cloudy {Rred{x bed~
+A cloudy {Rred{x bed is here.~
+unknown~
+cloud~
+furniture R 0
+A FHJKPQ BEIL BCEH BCEH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#10131
+bed cloudy aqua~
+a cloudy {Caqua{x bed~
+A cloudy {caqua{x bed is here.~
+unknown~
+cloud~
+furniture R 0
+A FHJKPQ BEIL BCEH BCEH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#10132
+key shadas house~
+a discreet key~
+A discreet key lies here, almost unseen.~
+unknown~
+~
+key T AC
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#10133
+table food cloudy huge~
+the huge cloudy table full of delicious food~
+A huge cloudy table is here full of delicious food.~
+unknown~
+~
+furniture RT 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#10135
+bed huge cloudy~
+the huge cloudy bed~
+A huge cloudy bed is here.~
+unknown~
+~
+furniture R 0
+A FHJKPQ EIL BCEH BCEH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#10136
+twister flail odd looking cloud~
+{cTwister{x~
+An odd-looking flail made of cloud is here waiting for its owner.~
+unknown~
+cloud~
+weapon CEJP AN
+flail 5 31 shock CFG
+106 107 1848592 P
+A
+18 10
+A
+19 10
+A
+13 22
+G none
+G none
+G none
+G none
+#10137
+ring dragon tamer~
+Ring of the {gDragon{x {bTamer{x~
+A crystal ring pulses with the power of a true dragon tamer.~
+stone~
+~
+treasure C AB
+0 0 0 0 0
+82 10 5000 P
+A
+12 50
+A
+13 15
+A
+18 8
+A
+19 8
+G none
+G none
+G none
+G none
+#10138
+sturdy mithril arrow~
+{bArrow of {mCelestial {rFury{x~
+An arrow forged of pure fury of a powerful angel rests here.~
+mithril~
+~
+weapon 0 AO
+arrow 7 14 pierce D
+91 92 42936 P
+A
+19 9
+A
+18 9
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#10130
+Cloudy Paradise~
+Everywhere you see, clouds of various shapes and sizes fill the sky. 
+However, right in front of you is clearly a magnificient mansion floating
+solidly on top of bunch clouds formed together by powerful magic.  In front
+of you stands one HUGE being.  
+~
+0 0 air
+E
+sign~
+This house designed by Shadas.
+Assembled, spell-checked, grammar-checked, and mpcoded by Shaelindra.
+January 2006
+~
+D3
+~
+door~
+Z 10132 10131
+0 0
+D5
+~
+~
+Z 0 97903
+0 0
+S
+#10131
+The Hallway~
+This huge hallway is completely made of clouds as well.  Magical flames
+float on both sides of the wall, providing bright light, showing every inch
+of this hall.  Looking down, you can vividly see through the cloud and the
+tiny people going on and about their business down in Midgaard.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 10135
+0 0
+D1
+~
+~
+Z 0 10130
+0 0
+D2
+~
+~
+Z 0 10136
+0 0
+D3
+~
+~
+Z 0 10132
+0 0
+S
+#10132
+The Hallway~
+This huge hallway is completely made of clouds as well.  Magical flames
+float on both sides of the wall, providing bright light, showing every inch
+of this hall.  Looking down, you can vividly see through the cloud and the
+tiny people going on and about their business down in Midgaard.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 10137
+0 0
+D1
+~
+~
+Z 0 10131
+0 0
+D2
+~
+~
+Z 0 10138
+0 0
+D3
+~
+~
+Z 0 10133
+0 0
+S
+#10133
+The Hallway~
+This huge hallway is completely made of clouds as well.  Magical flames
+float on both sides of the wall, providing bright light, showing every inch
+of this hall.  Looking down, you can vividly see through the cloud and the
+tiny people going on and about their business down in Midgaard.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 10139
+0 0
+D1
+~
+~
+Z 0 10132
+0 0
+D2
+~
+~
+Z 0 10140
+0 0
+D3
+~
+~
+ABZ 0 10134
+0 0
+S
+#10134
+Storage~
+This room is filled with gems, gold, and furs.  Beautiful necklaces,
+magical amulets of protection, and nicely crafted swords can be seen
+everywhere.  However, in the far western corner, the floor is not covered
+with anything, not even clouds.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 10133
+0 0
+S
+#10135
+Little Sister's Room~
+The first thing you notice in this room is a cupid made of white clouds
+floating in the midair.  In the right corner is a large {Rred{x bed made of
+clouds.  Two cloudy pillow shaped intos hearts rest on the bed.  In the
+middle of the room you see a young and pretty female giant dancing.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 10131
+0 0
+S
+#10136
+Older Sister's Room~
+This room is filled with baby toys made out of various colored clouds. 
+In the corner is a large bed for two.  Right next to the bed is a cradle
+with a baby sleeping in it.  There is two window on the south wall allowing
+the sunlight to flow freely through, also at the same time giving a nice
+view of the city underneath.
+~
+0 0 inside
+D0
+~
+~
+Z 0 10131
+0 0
+S
+#10137
+Shadas' Room~
+In this room, you see various swords and shields hanging on the cloudy
+wall.  To the north you see two large windows which allow sunlight to pass
+in.  In the corner is an {Caqua{x colored bed, giving you a soothing feeling. 
+In the center of the room you see a mighty {wsilver{x dragon chasing its tail.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 10132
+0 0
+S
+#10138
+The Parents' Room~
+This is the master bedroom.  To the south are two huge windows allowing
+the sunlight in.  In the corner is a large bed for two.  In the other corner
+is a huge cloudy drawer with a huge mirror on top.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 10132
+0 0
+S
+#10139
+The Kitchen~
+Delicious smells fill the room.  In the corner stands a gianttess cooking
+meals for her whole family.  In the center are large cloudy table and chairs
+made for cloud giants.  On the wall hangs various cooking utensils.  A huge
+window in the corner where the oven is located allows the smoke to escape.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 10133
+0 0
+S
+#10140
+The Living Room~
+This is where the family hangs out.  Two wooden swords lie on the ground
+for practice fighting.  Five comfortable cloudy armchairs scatter all over
+the room.  A shelf full of books is located in one corner.  One huge
+shapeless cloud floats in the room for anyone who's interested in taking
+time to shape it to whatever the shape the user desires.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 10133
+0 0
+S
+#0
+
+#RESETS
+D 0 10133 3 1	* The Hallway: door to the west: closed
+D 0 10134 1 1	* Storage: door to the east: closed
+M 0 10130 1 10130 1	* Tien (Cloudy Paradise)
+E 0 10132 0 3		*	a discreet key: around the neck (1)
+O 0 10130 0 10135	* a cloudy {Rred{x bed (Little Sister's Room)
+M 0 10131 1 10135 1	* May (Little Sister's Room)
+M 0 10132 1 10136 1	* Silvine (Older Sister's Room)
+O 0 10131 0 10137	* a cloudy {Caqua{x bed (Shadas' Room)
+M 0 10133 1 10137 1	* Lucky (Shadas' Room)
+O 0 10135 0 10138	* the huge cloudy bed (The Parents' Room)
+M 0 10134 1 10138 1	* Zhane (The Parents' Room)
+M 0 10135 1 10139 1	* Mitty (The Kitchen)
+O 0 10133 0 10139	* the huge cloudy table full of delicious food (The Kitchen)
+S
+
+#OLIMITS
+O 10136 1	* {cTwister{x
+S
+
+#MOBPROGS
+#10130
+if name $n Shadas
+if carries $n 10136
+else
+if wears $n twister
+else
+mob oload 10136
+give twister shadas
+mob junk twister
+endif
+endif
+if name $n Shadas
+if carries $n 10137
+else
+if wears $n 10137
+else
+if carries $i 11711
+mob junk ring
+mob oload 10137
+give ring shadas
+endif
+endif
+endif
+if name $n Shadas
+if carries $n 10138
+else
+if wears $n 10138
+else
+if carries $i 51179
+mob junk arrow
+mob oload 10138
+give arrow shadas
+endif
+endif
+endif
+mob oload 10132
+give key shadas
+end
+~
+#10131
+if name $n shadas
+else
+say Who goes there?
+say What brings you to Shadas' house?
+tell shadas $n is here.
+endif
+end
+~
+#10132
+if name $n shadas
+mob gtransfer $n 10131
+else
+eye $n
+tell shadas $n just tried to walk into your house without speaking "I am a friend of Shadas, and I'm here to see him."
+endif
+end
+~
+#10133
+if carries $n 10132
+mob transfer $n 10131
+mob goto 10131
+say Remember, you are here on Shadas' good graces, and are expected to act as such.
+mob goto 10130
+endif
+end
+~
+#10134
+if name $n shadas
+else
+say Another friend of Shadas?
+yell GET OUT OF MY ROOM!
+endif
+end
+~
+#10135
+nod $n
+smile $n
+~
+#0
+
+#$

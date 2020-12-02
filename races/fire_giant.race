@@ -1,0 +1,34 @@
+#RACE
+Name fire giant~
+Res fire~
+Vuln cold lightning mental~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+Flags noch~
+End
+
+#PCRACE
+Shortname FiGia~
+Points 500
+AgeModifier 100
+Class 'cleric' 120
+Class 'dark-knight' 100
+Class 'necromancer' 150
+Class 'ninja' 150
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 150
+Class 'warlock' 150
+Class 'witch' 150
+Class 'warrior' 100
+BonusSkills 'bash' 'enhanced damage' 'longsword'~
+Stats 75 30 35 20 65 50 50
+MaxStats 25 15 17 16 23 25 25
+Size huge
+HPBonus 40
+ManaBonus 30
+RestrictAlign evil~
+Slang giant
+End
+
+#$

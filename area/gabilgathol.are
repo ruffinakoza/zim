@@ -1,0 +1,3308 @@
+#AREADATA
+Name Gabilgathol Nulukkhizdîn~
+Builders thornan~
+VNUMs 4300 4599
+Credits Thornan~
+Security 1
+LevelRange 30 100
+ResetMessage As the echoeing hammers reside and the forges cool down for the night the dwarves rest to awaken a new.~
+Flags closed noquest nosummon hidden~
+End
+
+#MOBILES
+#4312
+dwarf guard defender dwarven~
+Dwarven Defender~
+A stout dwarven guard wanders the halls looking for trouble
+~
+~
+dwarf~
+ABT a 0 0
+45 45 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+CFHJKU 0 E 0
+stand stand male 0
+0 0 medium unknown
+#4475
+eremite monk guild trainer geronias~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#4300
+hammer mace battle battlehammer~
+Dwarven battlehammer~
+A large hammer made from the finest dwarven smiths lies here~
+Mithril~
+weapon 0 AN
+hammer 3 17 crush K
+45 46 2600 P
+A
+19 3
+A
+18 3
+G none
+G dwarf
+G warrior
+#0
+
+#ROOMS
+#4300
+At the stone gates guarding the entrance to Gabilgathol NulukkhizdNn~
+The gates before you stand a towering one hundred feet.  There is no
+visible hinge system to indicate which way or how the doors open to allow
+entrance into Gabilgathol NulukkhizdNn.  The gates seem to be made from
+solid stone.  The intricate rune work and dwarven design is breath taking.  
+~
+0 CDW mountain
+D1
+~
+~
+Z 0 4301
+0 0
+S
+#4301
+Before the inner gates to Gabilgathol NulukkhizdNn~
+Passing through the first set of gates you realise that they suddenly
+slam shut and that there is a second set of gates to go through.  These
+gates are just as breath taking as the first set.  There seems to be
+something slightly different about these gates.  They seem to pulse with an
+energy and heat that is not of this world.  
+~
+0 CW mountain
+D1
+~
+~
+Z 0 4302
+0 0
+D3
+~
+~
+Z 0 4300
+0 0
+S
+#4302
+Inside the gates of Gabilgathol NulukkhizdNn~
+Upon passing the through the inner gates of Gabilgathol NulukkhizdNn the
+heat becomes increasingly hotter.  There are only two ways out of this room.
+Down the ladder on the other side of the room or back through the gates.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 4301
+0 0
+D5
+~
+~
+Z 0 4303
+0 0
+S
+#4303
+A square hand carved shaft~
+The shaft is massive in size, it spans fifty feet in both directions to
+form a square.  The shaft drops below out of site.  
+~
+0 CW inside
+D4
+~
+~
+Z 0 4302
+0 0
+D5
+~
+~
+Z 0 4304
+0 0
+S
+#4304
+Bottom of the square shaft~
+Upon reaching the bottom of the shaft it turns into a horizontal tunnel
+leading to the east.  
+~
+0 CW inside
+D1
+~
+~
+Z 0 4305
+0 0
+D4
+~
+~
+Z 0 4303
+0 0
+S
+#4305
+Square easterly tunnel~
+In this room the shaft stops and the tunnel starts.  There is a torch on
+either side of the tunnel entrance providing a dim light.  The torches fire
+dances wildly casting ominous shadows all along the walls, ceiling and
+floors.  
+~
+0 CW inside
+D1
+~
+~
+Z 0 4306
+0 0
+D3
+~
+~
+Z 0 4304
+0 0
+S
+#4306
+Easterly square tunnel~
+The walls, floors, and ceiling alike are covered with magical runes. 
+These runes are not like those of the language of magic.  These are dwarven
+forge runes.  The torches on either side of the tunnel seem to make the
+runes glow with an eerie light.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4307
+0 0
+D3
+~
+~
+Z 0 4305
+0 0
+S
+#4307
+Easterly square tunnel~
+The walls, floors, and ceiling alike are covered with magical runes. 
+These runes are not like those of the language of magic.  These are dwarven
+forge runes.  The torches on either side of the tunnel seem to make the
+runes glow with an eerie light.  
+~
+0 CW inside
+D1
+~
+~
+Z 0 4308
+0 0
+D3
+~
+~
+Z 0 4306
+0 0
+S
+#4308
+Easterly square tunnel~
+The walls, floors, and ceiling alike are covered with magical runes. 
+These runes are not like those of the language of magic.  These are dwarven
+forge runes.  The torches on either side of the tunnel seem to make the
+runes glow with an eerie light.  
+~
+0 CW inside
+D1
+~
+~
+Z 0 4309
+0 0
+D3
+~
+~
+Z 0 4307
+0 0
+S
+#4309
+Easterly square tunnel~
+The walls, floors, and ceiling alike are covered with magical runes. 
+These runes are not like those of the language of magic.  These are dwarven
+forge runes.  The torches on either side of the tunnel seem to make the
+runes glow with an eerie light.  The tunnel turns up back into another tall
+dark shaft.  
+~
+0 CW inside
+D3
+~
+~
+Z 0 4308
+0 0
+D4
+~
+~
+Z 0 4310
+0 0
+S
+#4310
+A square hand carved shaft~
+The shaft is massive in size, it spans fifty feet in both directions to
+form a square.  The shaft rises high above, a faint light visible.  
+~
+0 CW inside
+D4
+~
+~
+Z 0 4311
+0 0
+D5
+~
+~
+Z 0 4309
+0 0
+S
+#4311
+A square hand carved shaft~
+The shaft is massive in size, it spans fifty feet in both directions to
+form a square.  The shaft rises up to the top.  
+~
+0 CW inside
+D4
+~
+~
+Z 0 4312
+0 0
+D5
+~
+~
+Z 0 4310
+0 0
+S
+#4312
+Top of the shaft~
+Upon reaching the top of the shaft the torch light gets brighter.  To the
+east is the entrance to the Fortress Barracks.  
+~
+0 CW inside
+D1
+~
+~
+Z 0 4313
+0 0
+D5
+~
+~
+Z 0 4311
+0 0
+S
+#4313
+Entrance room to the Barracks of Gabilgathol NulukkhizdNn~
+This room is rather plain, large stones make up the walls and floor.  The
+ceiling is an arched ceiling, yet there is no "Key stone" to keep enable the
+arch to hold it's shape and not fall in on itself.  
+~
+0 0 inside
+E
+key~
+Where there should be a key stone for the center of the arch there is
+just a glowing stone orb with dwarven forge runes covering every inch of of
+the orbs surface.  
+~
+D1
+~
+~
+Z 0 4314
+0 0
+D3
+~
+~
+Z 0 4312
+0 0
+S
+#4314
+Entrance hall~
+The hall stretches far to the east and splits a few times further down. 
+There are torches along the walls to light the way.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4315
+0 0
+D3
+~
+~
+Z 0 4313
+0 0
+S
+#4315
+Entrance hall~
+The hall stretches far to the east and splits to the north and south
+further down.  There are torches along the walls to light the way.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4316
+0 0
+D3
+~
+~
+Z 0 4314
+0 0
+S
+#4316
+Entrance hall~
+The hall stretches far to the east and splits to the north and south
+further down.  There are torches along the walls to light the way.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4317
+0 0
+D3
+~
+~
+Z 0 4315
+0 0
+S
+#4317
+Entrance hall~
+The hall stretches far to the east and splits to the north and further
+down it splits to the south.  There are torches along the walls to light the
+way.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 4318
+0 0
+D1
+~
+~
+Z 0 4333
+0 0
+D3
+~
+~
+Z 0 4316
+0 0
+S
+#4318
+War room~
+This rooms is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.  
+~
+0 c inside
+D0
+~
+~
+Z 0 4331
+0 0
+D1
+~
+~
+Z 0 4329
+0 0
+D2
+~
+~
+Z 0 4317
+0 0
+D3
+~
+~
+Z 0 4319
+0 0
+S
+#4319
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4332
+0 0
+D1
+~
+~
+Z 0 4318
+0 0
+D3
+~
+~
+Z 0 4320
+0 0
+S
+#4320
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4321
+0 0
+D1
+~
+~
+Z 0 4319
+0 0
+S
+#4321
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4322
+0 0
+D1
+~
+~
+Z 0 4332
+0 0
+D2
+~
+~
+Z 0 4320
+0 0
+S
+#4322
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D1
+~
+~
+Z 0 4323
+0 0
+D2
+~
+~
+Z 0 4321
+0 0
+S
+#4323
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D1
+~
+~
+Z 0 4324
+0 0
+D2
+~
+~
+Z 0 4332
+0 0
+D3
+~
+~
+Z 0 4322
+0 0
+S
+#4324
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D1
+~
+~
+Z 0 4325
+0 0
+D2
+~
+~
+Z 0 4331
+0 0
+D3
+~
+~
+Z 0 4323
+0 0
+S
+#4325
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D1
+~
+~
+Z 0 4326
+0 0
+D2
+~
+~
+Z 0 4330
+0 0
+D3
+~
+~
+Z 0 4324
+0 0
+S
+#4326
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D2
+~
+~
+Z 0 4327
+0 0
+D3
+~
+~
+Z 0 4325
+0 0
+S
+#4327
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4326
+0 0
+D2
+~
+~
+Z 0 4328
+0 0
+D3
+~
+~
+Z 0 4330
+0 0
+S
+#4328
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4327
+0 0
+D3
+~
+~
+Z 0 4329
+0 0
+S
+#4329
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4330
+0 0
+D1
+~
+~
+Z 0 4328
+0 0
+D3
+~
+~
+Z 0 4318
+0 0
+S
+#4330
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4325
+0 0
+D1
+~
+~
+Z 0 4327
+0 0
+D2
+~
+~
+Z 0 4329
+0 0
+D3
+~
+~
+Z 0 4331
+0 0
+S
+#4331
+War room~
+This is the center of the war room.  In this part of the war room there
+are partitions around a massive stone table.  On this stone table there is a
+massive map of the entire realm.  On the partitions are smaller maps of the
+areas that are next on the dwarven army's list to be attacked.  There are
+also maps of tactical maneuvers on how best to proceed with the attack for
+certain areas.  
+~
+0 c inside
+E
+table~
+The massive stone table is carved from a single piece of granite.  Etched
+into the top of the table and covered with a thick layer of glass is a map
+of the entire realm above and below ground.  The map is so large that you
+could not possibly see it all at the same time.  
+~
+D0
+~
+~
+Z 0 4324
+0 0
+D1
+~
+~
+Z 0 4330
+0 0
+D2
+~
+~
+Z 0 4318
+0 0
+D3
+~
+~
+Z 0 4332
+0 0
+S
+#4332
+War room~
+This room is very large.  Stretching nearly one hundred feet in all
+directions.  There appears to be no ceiling yet you cannot feel any of the
+outside elements.
+~
+0 c inside
+D0
+~
+~
+Z 0 4323
+0 0
+D1
+~
+~
+Z 0 4331
+0 0
+D2
+~
+~
+Z 0 4319
+0 0
+D3
+~
+~
+Z 0 4321
+0 0
+S
+#4333
+Entrance hall~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4334
+0 0
+D3
+~
+~
+Z 0 4317
+0 0
+S
+#4334
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4335
+0 0
+D3
+~
+~
+Z 0 4333
+0 0
+S
+#4335
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4336
+0 0
+D3
+~
+~
+Z 0 4334
+0 0
+S
+#4336
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4337
+0 0
+D3
+~
+~
+Z 0 4335
+0 0
+S
+#4337
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4352
+0 0
+D2
+~
+~
+Z 0 4338
+0 0
+D3
+~
+~
+Z 0 4336
+0 0
+S
+#4338
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4337
+0 0
+D2
+~
+~
+Z 0 4339
+0 0
+D3
+~
+~
+Z 0 4351
+0 0
+S
+#4339
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4338
+0 0
+D3
+~
+~
+Z 0 4340
+0 0
+S
+#4340
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4351
+0 0
+D1
+~
+~
+Z 0 4339
+0 0
+D3
+~
+~
+Z 0 4341
+0 0
+S
+#4341
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4350
+0 0
+D1
+~
+~
+Z 0 4340
+0 0
+D3
+~
+~
+Z 0 4342
+0 0
+S
+#4342
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4349
+0 0
+D1
+~
+~
+Z 0 4341
+0 0
+D3
+~
+~
+Z 0 4343
+0 0
+S
+#4343
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4348
+0 0
+D1
+~
+~
+Z 0 4342
+0 0
+D3
+~
+~
+Z 0 4344
+0 0
+S
+#4344
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4347
+0 0
+D1
+~
+~
+Z 0 4343
+0 0
+D3
+~
+~
+Z 0 4345
+0 0
+S
+#4345
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4346
+0 0
+D1
+~
+~
+Z 0 4344
+0 0
+S
+#4346
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4347
+0 0
+D2
+~
+~
+Z 0 4345
+0 0
+S
+#4347
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4348
+0 0
+D2
+~
+~
+Z 0 4344
+0 0
+D3
+~
+~
+Z 0 4346
+0 0
+S
+#4348
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4349
+0 0
+D2
+~
+~
+Z 0 4343
+0 0
+D3
+~
+~
+Z 0 4347
+0 0
+S
+#4349
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4350
+0 0
+D2
+~
+~
+Z 0 4342
+0 0
+D3
+~
+~
+Z 0 4348
+0 0
+S
+#4350
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4351
+0 0
+D2
+~
+~
+Z 0 4341
+0 0
+D3
+~
+~
+Z 0 4349
+0 0
+S
+#4351
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4338
+0 0
+D2
+~
+~
+Z 0 4340
+0 0
+D3
+~
+~
+Z 0 4350
+0 0
+S
+#4352
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4353
+0 0
+D2
+~
+~
+Z 0 4337
+0 0
+S
+#4353
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4354
+0 0
+D2
+~
+~
+Z 0 4352
+0 0
+S
+#4354
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4355
+0 0
+D3
+~
+~
+Z 0 4353
+0 0
+S
+#4355
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4358
+0 0
+D1
+~
+~
+Z 0 4356
+0 0
+D2
+~
+~
+Z 0 4354
+0 0
+S
+#4356
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4357
+0 0
+D3
+~
+~
+Z 0 4355
+0 0
+S
+#4357
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4356
+0 0
+D5
+~
+~
+Z 0 4400
+0 0
+S
+#4358
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 4355
+0 0
+D3
+~
+~
+Z 0 4359
+0 0
+S
+#4359
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4360
+0 0
+D1
+~
+~
+Z 0 4358
+0 0
+S
+#4360
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4379
+0 0
+D2
+~
+~
+Z 0 4359
+0 0
+D3
+~
+~
+Z 0 4361
+0 0
+S
+#4361
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4378
+0 0
+D1
+~
+~
+Z 0 4360
+0 0
+D3
+~
+~
+Z 0 4362
+0 0
+S
+#4362
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4377
+0 0
+D1
+~
+~
+Z 0 4361
+0 0
+D3
+~
+~
+Z 0 4363
+0 0
+S
+#4363
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4376
+0 0
+D1
+~
+~
+Z 0 4362
+0 0
+D3
+~
+~
+Z 0 4364
+0 0
+S
+#4364
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4375
+0 0
+D1
+~
+~
+Z 0 4363
+0 0
+D3
+~
+~
+Z 0 4365
+0 0
+S
+#4365
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4374
+0 0
+D1
+~
+~
+Z 0 4364
+0 0
+D3
+~
+~
+Z 0 4366
+0 0
+S
+#4366
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4373
+0 0
+D1
+~
+~
+Z 0 4365
+0 0
+D3
+~
+~
+Z 0 4367
+0 0
+S
+#4367
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4372
+0 0
+D1
+~
+~
+Z 0 4366
+0 0
+D3
+~
+~
+Z 0 4368
+0 0
+S
+#4368
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4371
+0 0
+D1
+~
+~
+Z 0 4367
+0 0
+D3
+~
+~
+Z 0 4369
+0 0
+S
+#4369
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4370
+0 0
+D1
+~
+~
+Z 0 4368
+0 0
+S
+#4370
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4389
+0 0
+D1
+~
+~
+Z 0 4371
+0 0
+D2
+~
+~
+Z 0 4369
+0 0
+S
+#4371
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4388
+0 0
+D1
+~
+~
+Z 0 4372
+0 0
+D2
+~
+~
+Z 0 4368
+0 0
+D3
+~
+~
+Z 0 4370
+0 0
+S
+#4372
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4387
+0 0
+D1
+~
+~
+Z 0 4373
+0 0
+D2
+~
+~
+Z 0 4367
+0 0
+D3
+~
+~
+Z 0 4371
+0 0
+S
+#4373
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4386
+0 0
+D1
+~
+~
+Z 0 4374
+0 0
+D2
+~
+~
+Z 0 4366
+0 0
+D3
+~
+~
+Z 0 4372
+0 0
+S
+#4374
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4385
+0 0
+D1
+~
+~
+Z 0 4375
+0 0
+D2
+~
+~
+Z 0 4365
+0 0
+D3
+~
+~
+Z 0 4373
+0 0
+S
+#4375
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4384
+0 0
+D1
+~
+~
+Z 0 4376
+0 0
+D2
+~
+~
+Z 0 4364
+0 0
+D3
+~
+~
+Z 0 4374
+0 0
+S
+#4376
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4383
+0 0
+D1
+~
+~
+Z 0 4377
+0 0
+D2
+~
+~
+Z 0 4363
+0 0
+D3
+~
+~
+Z 0 4375
+0 0
+S
+#4377
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4382
+0 0
+D1
+~
+~
+Z 0 4378
+0 0
+D2
+~
+~
+Z 0 4362
+0 0
+D3
+~
+~
+Z 0 4376
+0 0
+S
+#4378
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4381
+0 0
+D1
+~
+~
+Z 0 4379
+0 0
+D2
+~
+~
+Z 0 4361
+0 0
+D3
+~
+~
+Z 0 4377
+0 0
+S
+#4379
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4380
+0 0
+D2
+~
+~
+Z 0 4360
+0 0
+D3
+~
+~
+Z 0 4378
+0 0
+S
+#4380
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4399
+0 0
+D2
+~
+~
+Z 0 4379
+0 0
+D3
+~
+~
+Z 0 4381
+0 0
+S
+#4381
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4398
+0 0
+D1
+~
+~
+Z 0 4380
+0 0
+D2
+~
+~
+Z 0 4378
+0 0
+D3
+~
+~
+Z 0 4382
+0 0
+S
+#4382
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4397
+0 0
+D1
+~
+~
+Z 0 4381
+0 0
+D2
+~
+~
+Z 0 4377
+0 0
+D3
+~
+~
+Z 0 4383
+0 0
+S
+#4383
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4396
+0 0
+D1
+~
+~
+Z 0 4382
+0 0
+D2
+~
+~
+Z 0 4376
+0 0
+D3
+~
+~
+Z 0 4384
+0 0
+S
+#4384
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4395
+0 0
+D1
+~
+~
+Z 0 4383
+0 0
+D2
+~
+~
+Z 0 4375
+0 0
+D3
+~
+~
+Z 0 4385
+0 0
+S
+#4385
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4394
+0 0
+D1
+~
+~
+Z 0 4384
+0 0
+D2
+~
+~
+Z 0 4374
+0 0
+D3
+~
+~
+Z 0 4386
+0 0
+S
+#4386
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4393
+0 0
+D1
+~
+~
+Z 0 4385
+0 0
+D2
+~
+~
+Z 0 4373
+0 0
+D3
+~
+~
+Z 0 4387
+0 0
+S
+#4387
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4392
+0 0
+D1
+~
+~
+Z 0 4386
+0 0
+D2
+~
+~
+Z 0 4372
+0 0
+D3
+~
+~
+Z 0 4388
+0 0
+S
+#4388
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4391
+0 0
+D1
+~
+~
+Z 0 4387
+0 0
+D2
+~
+~
+Z 0 4371
+0 0
+D3
+~
+~
+Z 0 4389
+0 0
+S
+#4389
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4390
+0 0
+D1
+~
+~
+Z 0 4388
+0 0
+D2
+~
+~
+Z 0 4370
+0 0
+S
+#4390
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4391
+0 0
+D2
+~
+~
+Z 0 4389
+0 0
+S
+#4391
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4392
+0 0
+D2
+~
+~
+Z 0 4388
+0 0
+D3
+~
+~
+Z 0 4390
+0 0
+S
+#4392
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4393
+0 0
+D2
+~
+~
+Z 0 4387
+0 0
+D3
+~
+~
+Z 0 4391
+0 0
+S
+#4393
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4394
+0 0
+D2
+~
+~
+Z 0 4386
+0 0
+D3
+~
+~
+Z 0 4392
+0 0
+S
+#4394
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4395
+0 0
+D2
+~
+~
+Z 0 4385
+0 0
+D3
+~
+~
+Z 0 4393
+0 0
+S
+#4395
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4396
+0 0
+D2
+~
+~
+Z 0 4384
+0 0
+D3
+~
+~
+Z 0 4394
+0 0
+S
+#4396
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4397
+0 0
+D2
+~
+~
+Z 0 4383
+0 0
+D3
+~
+~
+Z 0 4395
+0 0
+S
+#4397
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4398
+0 0
+D2
+~
+~
+Z 0 4382
+0 0
+D3
+~
+~
+Z 0 4396
+0 0
+S
+#4398
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4399
+0 0
+D2
+~
+~
+Z 0 4381
+0 0
+D3
+~
+~
+Z 0 4397
+0 0
+S
+#4399
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 4380
+0 0
+D3
+~
+~
+Z 0 4398
+0 0
+S
+#4400
+~
+~
+0 0 inside
+D4
+~
+~
+Z 0 4357
+0 0
+D5
+~
+~
+Z 0 4401
+0 0
+S
+#4401
+~
+~
+0 0 inside
+D4
+~
+~
+Z 0 4400
+0 0
+D5
+~
+~
+Z 0 4402
+0 0
+S
+#4402
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4403
+0 0
+D4
+~
+~
+Z 0 4401
+0 0
+D5
+~
+~
+Z 0 4476
+0 0
+S
+#4403
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4404
+0 0
+D3
+~
+~
+Z 0 4402
+0 0
+S
+#4404
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4405
+0 0
+D3
+~
+~
+Z 0 4403
+0 0
+S
+#4405
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4406
+0 0
+D3
+~
+~
+Z 0 4404
+0 0
+S
+#4406
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4407
+0 0
+D1
+~
+~
+Z 0 4424
+0 0
+D3
+~
+~
+Z 0 4405
+0 0
+S
+#4407
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4408
+0 0
+D2
+~
+~
+Z 0 4406
+0 0
+S
+#4408
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4411
+0 0
+D1
+~
+~
+Z 0 4410
+0 0
+D2
+~
+~
+Z 0 4407
+0 0
+D3
+~
+~
+Z 0 4409
+0 0
+S
+#4409
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4408
+0 0
+S
+#4410
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4408
+0 0
+S
+#4411
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4412
+0 0
+D2
+~
+~
+Z 0 4408
+0 0
+S
+#4412
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4415
+0 0
+D1
+~
+~
+Z 0 4414
+0 0
+D2
+~
+~
+Z 0 4411
+0 0
+D3
+~
+~
+Z 0 4413
+0 0
+S
+#4413
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4412
+0 0
+S
+#4414
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4412
+0 0
+S
+#4415
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4416
+0 0
+D2
+~
+~
+Z 0 4412
+0 0
+S
+#4416
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4419
+0 0
+D1
+~
+~
+Z 0 4418
+0 0
+D2
+~
+~
+Z 0 4415
+0 0
+D3
+~
+~
+Z 0 4417
+0 0
+S
+#4417
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4416
+0 0
+S
+#4418
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4416
+0 0
+S
+#4419
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4420
+0 0
+D2
+~
+~
+Z 0 4416
+0 0
+S
+#4420
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4423
+0 0
+D1
+~
+~
+Z 0 4422
+0 0
+D2
+~
+~
+Z 0 4419
+0 0
+D3
+~
+~
+Z 0 4421
+0 0
+S
+#4421
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4420
+0 0
+S
+#4422
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4420
+0 0
+S
+#4423
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 4420
+0 0
+S
+#4424
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4425
+0 0
+D3
+~
+~
+Z 0 4406
+0 0
+S
+#4425
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4426
+0 0
+D1
+~
+~
+Z 0 4451
+0 0
+D3
+~
+~
+Z 0 4424
+0 0
+S
+#4426
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4427
+0 0
+D2
+~
+~
+Z 0 4425
+0 0
+S
+#4427
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4430
+0 0
+D1
+~
+~
+Z 0 4429
+0 0
+D2
+~
+~
+Z 0 4426
+0 0
+D3
+~
+~
+Z 0 4428
+0 0
+S
+#4428
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4427
+0 0
+S
+#4429
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4427
+0 0
+S
+#4430
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4431
+0 0
+D2
+~
+~
+Z 0 4427
+0 0
+S
+#4431
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4434
+0 0
+D1
+~
+~
+Z 0 4433
+0 0
+D2
+~
+~
+Z 0 4430
+0 0
+D3
+~
+~
+Z 0 4432
+0 0
+S
+#4432
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4431
+0 0
+S
+#4433
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4431
+0 0
+S
+#4434
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4435
+0 0
+D2
+~
+~
+Z 0 4431
+0 0
+S
+#4435
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4438
+0 0
+D1
+~
+~
+Z 0 4437
+0 0
+D2
+~
+~
+Z 0 4434
+0 0
+D3
+~
+~
+Z 0 4436
+0 0
+S
+#4436
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4435
+0 0
+S
+#4437
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4435
+0 0
+S
+#4438
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4439
+0 0
+D2
+~
+~
+Z 0 4435
+0 0
+S
+#4439
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4442
+0 0
+D1
+~
+~
+Z 0 4441
+0 0
+D2
+~
+~
+Z 0 4438
+0 0
+D3
+~
+~
+Z 0 4440
+0 0
+S
+#4440
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4439
+0 0
+S
+#4441
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4439
+0 0
+S
+#4442
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4443
+0 0
+D2
+~
+~
+Z 0 4439
+0 0
+S
+#4443
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4446
+0 0
+D1
+~
+~
+Z 0 4445
+0 0
+D2
+~
+~
+Z 0 4442
+0 0
+D3
+~
+~
+Z 0 4444
+0 0
+S
+#4444
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4443
+0 0
+S
+#4445
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4443
+0 0
+S
+#4446
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4447
+0 0
+D2
+~
+~
+Z 0 4443
+0 0
+S
+#4447
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4450
+0 0
+D1
+~
+~
+Z 0 4449
+0 0
+D2
+~
+~
+Z 0 4446
+0 0
+D3
+~
+~
+Z 0 4448
+0 0
+S
+#4448
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4447
+0 0
+S
+#4449
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4447
+0 0
+S
+#4450
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 4447
+0 0
+S
+#4451
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4452
+0 0
+D3
+~
+~
+Z 0 4425
+0 0
+S
+#4452
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4453
+0 0
+D1
+~
+~
+Z 0 4470
+0 0
+D3
+~
+~
+Z 0 4451
+0 0
+S
+#4453
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4454
+0 0
+D2
+~
+~
+Z 0 4452
+0 0
+S
+#4454
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4457
+0 0
+D1
+~
+~
+Z 0 4456
+0 0
+D2
+~
+~
+Z 0 4453
+0 0
+D3
+~
+~
+Z 0 4455
+0 0
+S
+#4455
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4454
+0 0
+S
+#4456
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4454
+0 0
+S
+#4457
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4458
+0 0
+D2
+~
+~
+Z 0 4454
+0 0
+S
+#4458
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4461
+0 0
+D1
+~
+~
+Z 0 4460
+0 0
+D2
+~
+~
+Z 0 4457
+0 0
+D3
+~
+~
+Z 0 4459
+0 0
+S
+#4459
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4458
+0 0
+S
+#4460
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4458
+0 0
+S
+#4461
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4462
+0 0
+D2
+~
+~
+Z 0 4458
+0 0
+S
+#4462
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4465
+0 0
+D1
+~
+~
+Z 0 4464
+0 0
+D2
+~
+~
+Z 0 4461
+0 0
+D3
+~
+~
+Z 0 4463
+0 0
+S
+#4463
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4462
+0 0
+S
+#4464
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4462
+0 0
+S
+#4465
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4466
+0 0
+D2
+~
+~
+Z 0 4462
+0 0
+S
+#4466
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 4469
+0 0
+D1
+~
+~
+Z 0 4468
+0 0
+D2
+~
+~
+Z 0 4465
+0 0
+D3
+~
+~
+Z 0 4467
+0 0
+S
+#4467
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4466
+0 0
+S
+#4468
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4466
+0 0
+S
+#4469
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 4466
+0 0
+S
+#4470
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4471
+0 0
+D3
+~
+~
+Z 0 4452
+0 0
+S
+#4471
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4472
+0 0
+D3
+~
+~
+Z 0 4470
+0 0
+S
+#4472
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4473
+0 0
+D3
+~
+~
+Z 0 4471
+0 0
+S
+#4473
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4474
+0 0
+D3
+~
+~
+Z 0 4472
+0 0
+S
+#4474
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4475
+0 0
+D3
+~
+~
+Z 0 4473
+0 0
+S
+#4475
+Engagement of Tranquility~
+This room is rather plain.  There are 4 torches, one on each wall.  In
+the center of the room is a circle formed of stones with a black course sand
+on the floor of the circle.  The only other thing adorning the walls are
+some very old scrolls written in a language that has long been lost.  
+~
+0 DY inside
+D3
+~
+~
+Z 0 4474
+0 0
+S
+#4476
+~
+~
+0 0 inside
+D4
+~
+~
+Z 0 4402
+0 0
+D5
+~
+~
+Z 0 4477
+0 0
+S
+#4477
+~
+~
+0 0 inside
+D4
+~
+~
+Z 0 4476
+0 0
+D5
+~
+~
+Z 0 4478
+0 0
+S
+#4478
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4479
+0 0
+D4
+~
+~
+Z 0 4477
+0 0
+S
+#4479
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 4480
+0 0
+D3
+~
+~
+Z 0 4478
+0 0
+S
+#4480
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 4479
+0 0
+S
+#0
+
+#RESETS
+M 0 4312 1 4312 1	* Dwarven Defender (Top of the shaft)
+E 0 4300 0 16		*	Dwarven battlehammer: wielded
+S
+
+#MOBPROGS
+#4300
+~
+#0
+
+#$

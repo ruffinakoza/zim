@@ -1,0 +1,2476 @@
+#AREADATA
+Name Daggerwood~
+Builders shaelindra~
+VNUMs 101800 101899
+Credits Shaelindra~
+Security 9
+LevelRange 5 20
+Flags closed~
+End
+
+#MOBILES
+#101800
+fairy~
+A lost {Cfa{mi{Cry{x~
+A dazed and confused pixie flutters around here.
+~
+Dazed and confused, you feel obligated to find this poor sprite.
+~
+sprite~
+A 0 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M speech 101810 consonants~
+M speech 101811 vowels~
+M give 101812 all~
+I 92
+V 101800
+#101801
+miniature cherub cupid tiny pixie~
+A tiny nigh-naked cherub~
+A pixie-sized nigh-naked cherub moons you!
+~
+~
+human~
+A T 0 1
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 AB 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M death 101801 100~
+M speech 101800 get~
+#101802
+cherub cupid small~
+A small nigh-naked cherub~
+An imp-sized winged cherub moons you!
+~
+~
+human~
+AT HT 0 1
+20 20 37d20+250 100d10+85 6d3+15 none
+-3 -3 -3 0
+0 AB 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 101802 100~
+M speech 101800 get~
+#101803
+cherub cupid halfling~
+a halfling-sized nigh-naked cherub~
+A halfling-sized nigh-naked cherub moons you!
+~
+~
+human~
+AT HT 0 0
+40 40 116d40+300 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand either 100
+0 0 large flesh~
+~
+F attr+ AB
+M death 101803 100~
+M speech 101800 get~
+#101804
+human cherub cupid~
+a human-high nigh-naked cherub~
+A human-sized nigh-naked cherub moons you!
+~
+~
+human~
+AT HT 0 0
+60 60 230d60+750 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand either 500
+0 0 medium flesh~
+~
+F attr+ AB
+M death 101804 100~
+M speech 101800 get~
+#101805
+giant cherub cupid~
+a giant-sized, nigh-naked cherub~
+A giant-sized, nigh-naked cherub moons you!
+~
+~
+human~
+AQT HT 0 0
+80 80 343d80+750 400d10+85 26d3+45 none
+-44 -44 -44 -28
+0 0 0 0
+stand stand either 500
+0 0 large flesh~
+~
+F attr+ AB
+M death 101805 100~
+M speech 101800 get~
+#101806
+titan cupid cherub~
+a titan-sized, nigh naked cherub~
+A titan-sized, nigh naked cherub moons you! Dear god, that's a lot of crack!
+~
+~
+human~
+ART HT 0 0
+100 100 456d100+1000 500d10+85 33d3+55 none
+-57 -57 -57 -37
+0 AB HKN IJ
+stand stand none 0
+0 0 unknown flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M death 101806 100~
+M speech 101800 get~
+#101807
+gargantuan cherub cupid baby toddler~
+the cherub of all cherubs~
+A HUMONGOUS blob of a winged baby throws a tantrum!
+~
+~
+human~
+ALQRTf DFHTlmt 0 0
+120 120 655d120+15000 1200d11+95 41d2+87 none
+-77 -77 -77 -52
+ADEIO HKN DP IJ
+stand stand none 0
+0 0 gargantuan flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M death 101807 100~
+M speech 101800 get~
+#101810
+happy insanity mob~
+the HAPPY wizi insanity mob~
+The HAPPY wizi insanity mob is here, preying on the minds of Thera.
+~
+~
+human~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 101809 10~
+I 92
+#101811
+insanity mob angry~
+the ANGRY wizi insanity mob~
+The ANGRY wizi insanity mob is here, preying on the minds of Thera.
+~
+~
+human~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 101809 10~
+I 92
+#101812
+insanity mob paranoid~
+the PARANOID wizi insanity mob~
+The PARANOID wizi insanity mob is here, preying on the minds of Thera.
+~
+~
+human~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 101809 10~
+I 92
+#101813
+insanity mob narcoleptic~
+the NARCOLEPTIC wizi insanity mob~
+The NARCOLEPTIC wizi insanity mob is here, preying on the minds of Thera.
+~
+~
+human~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 101809 10~
+M random 101813 ~
+I 92
+#101814
+mob narcoleptic lusty~
+the LUSTY wizi insanity mob~
+The LUSTY wizi insanity mob is here, preying on the minds of Thera.
+~
+~
+human~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 101809 10~
+I 92
+#0
+
+#OBJECTS
+#101800
+cupid arrow~
+Cupid's Arrow~
+An arrow with a heart-shaped tip hums here, waiting to be shot into somebody's butt.~
+unknown~
+~
+weapon AT AO
+arrow 8 14 none 0
+105 106 5250 P
+E
+cupid's cupid arrow~
+{R<3{y==={C<<<{x
+~
+G none
+G none
+G none
+G none
+#101801
+heart box shaped~
+a heart-shaped box of chocolates~
+A box full of yummy chocolates was carelessly tossed here.~
+paper~
+~
+container T AO
+50 AC 0 50 50 0
+0 0 11284 P
+E
+box heart shaped chocolates~
+Full of all sorts of teeth-rotting goodies, this box proves to be a minor
+treasure of sorts 
+~
+G none
+G none
+G none
+G none
+#101802
+chocolate valentine's goody~
+A Chocolate Valentine's Goody~
+Uh oh. Someone dropped a chocolate heart. It still LOOKS good...?~
+unknown~
+~
+food 0 AO
+AC AC 0 0 0 AC AC
+0 0 47 P
+E
+chocolate valentine's valentine goody~
+It almost begs for you to use it to rot your teeth out.
+~
+G none
+G none
+G none
+G none
+#101803
+shaelindra chaos feather~
+Shaelindra's {Wfeather{x~
+A {Wfeather{x stirs in the breeze, beckoning you to look at it.~
+unknown~
+chaos~
+treasure Tcj A
+0 0 0 0 0
+1 0 5 P
+E
+shaelindra chaos feather~
+As you gaze up and down at this fletch, you feel the urge to visit Questus.
+ 
+{D({mquest return feather{D){x
+~
+G none
+G none
+G none
+G none
+#101804
+shaelindra chaos feather golden~
+Shaelindra's {Ygolden{W feather{x~
+A {Yfeather{x stirs in the breeze, beckoning you to look at it.~
+unknown~
+chaos~
+treasure Tcj A
+0 0 0 0 0
+1 0 15 P
+E
+shaelindra chaos feather~
+As you gaze up and down at this fletch, you feel the urge to visit Questus.
+ 
+{D({mquest return feather{D){x
+~
+G none
+G none
+G none
+G none
+#101805
+cupid's copper arrow~
+Cupid's {yCopper{x arrow {y<3{g==={w<<{x~
+An arrow with a heart-shaped {ycopper{x point hovers here.~
+unknown~
+~
+weapon ATcj AO
+arrow 4 4 sting 0
+20 21 1 P
+G none
+G none
+G none
+G none
+#101806
+cupid's silver arrow~
+Cupid's {wSilvery{x Arrow {w<3{B==={w<<{x~
+An arrow with a heart-shaped {wsilver{x point hovers here.~
+wood~
+~
+weapon ATYcj AO
+arrow 5 8 sting 0
+40 41 3 P
+G none
+G none
+G none
+G none
+#101807
+cupid's arrow golden~
+Cupid's {YGolden{x Arrow {Y<3{R==={w<<{x~
+An arrow with a heart-shaped {Ygolden{x point hovers here.~
+wood~
+~
+weapon ATYcj AO
+arrow 6 10 sting 0
+60 61 6 P
+G none
+G none
+G none
+G none
+#101808
+of the serpent eye~
+{RE{gy{Re{x of {R({c(){R){x the {RD{rr{Ga{gg{Go{rn{x~
+An unblinking orb silently peers at you.~
+unknown~
+~
+armor 0 AC
+30 30 30 29 'none' 0
+77 83 162286 P
+A
+13 20
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#101809
+cupid's arrow platinum~
+Cupid's {WPlatinum{x Arrow {W<3{Y==={M<<{x~
+An arrow with a heart-shaped {WPlatinum{x point hovers here.~
+wood~
+~
+weapon ATYcj AO
+arrow 6 10 sting 0
+80 61 10 P
+G none
+G none
+G none
+G none
+#101810
+cupid's arrow diamond~
+Cupid's {WDi{Camo{Wnd{x Arrow {C<3{W==={C<<{x~
+An arrow with a heart-shaped {WDi{Camo{Wnd{x point hovers here.~
+wood~
+~
+weapon ATYcj AO
+arrow 6 10 sting 0
+80 61 15 P
+G none
+G none
+G none
+G none
+#101811
+scroll immense proportions the list~
+{WThe {YList{x™~
+A scroll of immense proportions waits to be placed on someone's shoulders.~
+unknown~
+~
+armor 0 AD
+42 42 42 41 'none' 0
+115 10000 5 P
+A
+3 25
+A
+1 25
+A
+5 -25
+A
+14 -100000
+G none
+G none
+G none
+G none
+#101812
+detect invis potion shaelindra nest~
+Shaelindra's nest~
+A nest laced with feathers is here.~
+unknown~
+~
+furniture 0 A
+A HJKMPTUX I GJOQRST GJOQRST A HJKMPTUX
+91 0 0 P
+G none
+G none
+G none
+G none
+#101813
+invis potion~
+invis potion~
+~
+unknown~
+~
+potion 0 A
+91 'invisibility' 'reserved' 'reserved' 'reserved'
+91 0 0 P
+G none
+G none
+G none
+G none
+#101851
+bastard sword wicked~
+a {1wi{3ck{1ed {xbastard sword{x~
+A {1wi{3ck{1ed {xlooking {xbastard sword{x rests here.~
+steel~
+~
+weapon 0 AN
+bastardsword 17 7 slash DEF
+80 81 1212117 P
+A
+20 2
+A
+12 -50
+A
+13 -50
+A
+18 2
+A
+19 8
+G none
+G none
+G none
+G none
+#101852
+quest block winner silver medallion~
+A {Wsilver{x medallion labelled "{CQu{Mes{Ct Bl{Moc{Ck Qu{Mes{Ct{x {W2nd Place{x"~
+A {Wsilver{x medallion labelled "{CQu{Mes{Ct Bl{Moc{Ck Qu{Mes{Ct {W2nd Place{x"~
+unknown~
+~
+medal Tj A
+0 0 0 0 0 0 0
+5 0 5 P
+G none
+G none
+G none
+G none
+#101853
+quest block winner gold medallion~
+A {Ygold{x medallion labelled "{CQu{Mes{Ct Bl{Moc{Ck Qu{Mes{Ct{x {Y1st Place{x"~
+A {Ygold{x medallion labelled "{CQu{Mes{Ct Bl{Moc{Ck Qu{Mes{Ct {Y1st Place{x"~
+unknown~
+~
+medal Tj A
+0 0 0 0 0 0 0
+5 0 5 P
+G none
+G none
+G none
+G none
+#101854
+quest scoreboard chalkboard names~
+quest scoreboard~
+A chalkboard floats here, with names and scores scrawled upon it.~
+unknown~
+~
+furniture R 0
+A 0 B CFG CFG A 0
+0 0 0 P
+E
+oglok~
+Oglok   Quizzical          9+3=12 --  78 (08.67)
+        Emancipated       11+0=11 --  66 (06.00)
+        Quasixeromorphics 17+2=19 -- 190 (11.18)
+------------------------------------------------
+                          37         334 (09.03)
+~
+E
+tiblo~
+Tiblo   Flux               4+1=5  --  15 (03.75)
+------------------------------------------------
+                           4          15 (03.75)
+~
+E
+arcus~
+Arcus   Exalted            7+1=8  --  36 (05.14)
+        Arcus              5+0=5* --  30 (06.00)
+        Queen              5+1=6  --  21 (04.20)
+        Dizzy              5+2=7  --  28 (05.60)
+        Whom               4+0=4  --  10 (02.50)
+        Vivid              5+0=5  --  15 (03.00)
+------------------------------------------------
+                          31         140 (04.52)
+~
+E
+rurik~
+Rurik   Zodiac             6+1=7  --  28 (04.67)
+        Weaken             6+0=6  --  21 (03.50)
+------------------------------------------------
+                          12          49 (04.08)
+~
+E
+kuno~
+Kuno    Plagues            7+0=7  --  28 (04.00)
+------------------------------------------------
+                           7          28 (04.00)
+~
+E
+kotetsu~
+Kotetsu Nicky              5+0=5  --  15 (03.00)
+        Random Letters     4+2=6  --   6 (--.--)
+------------------------------------------------
+                           5      --  21 (04.20)
+~
+E
+shadas~
+Shadas  Congratulations   15+0=15 -- 120 (08.00)
+        Shadows            7+0=7  --  28 (04.00)
+        Famous             6+0=6  --  21 (03.50)
+        Library            7+0=7  --  28 (04.00)
+        Kira               4+2=6  --  21 (03.00)
+        Mierin             6+0=6  --  21 (03.00)
+        Alex               4+1=5  --  15 (03.75)
+        Accidentally      12+0=12 --  78 (06.50)
+        Shaelindra        10+2=12 --  78 (07.80)
+        Quivering          9+1=10 --  55 (06.11)
+        Vengeance          9+0=9  --  45 (05.00)
+        Hurricane          9+0=9  --  45 (05.00)
+        Friday             6+0=6  --  21 (03.50)
+        Zebra              5+1=6  --  21 (04.20)
+        Booze              5+1=6  --  21 (04.20)
+        Jelly              5+0=5  --  15 (03.00)
+        Machine            7+0=7  --  28 (04.00)
+------------------------------------------------
+                         126         661 (05.25)
+ 
+~
+E
+izra~
+Izra    Bounce             6+0=6  --  21 (03.50)
+        Faded              5+0=5  --  15 (03.00)
+        Joke               4+0=4  --  10 (02.50)
+------------------------------------------------
+                          15          46 (03.06)
+~
+E
+quest chalkboard board scoreboard names~
+Shadas     661 (05.25) +   0 +   0= 661
+Oglok      364 (09.03) + 100 + 100= 534
+Arcus      140 (04.52) +   0 +   0= 140
+Rurik       49 (04.08) +   0 +   0=  49
+Izra        46 (03.06) +   0 +   0=  46
+Kuno        28 (04.00) +   0 +   0=  28
+Kotetsu     21 (04.20) +   0 +   0=  21
+Tiblo       15 (03.75) +   0 +   0=  15
+ 
+To see individual scores, type look <name>
+~
+G none
+G none
+G none
+G none
+#101855
+blade night reverb dagger knife shadas~
+{mRe{Mve{wrb{x, Nightblade of the Sightless~
+A glowing knife featuring a bat as the hilt hums here silently.~
+unknown~
+Sonic Vibration~
+weapon ABTh AN
+dagger 7 14 none 0
+106 107 411059 P
+F
+A 13 50 t
+F
+A 19 5 l
+F
+A 18 5 D
+F
+A 2 2 F
+F
+A 3 2 A
+E
+imms note~
+Note: This weapon was changed from limited to unlimited
+so that it could be placed in one's song, and to not hold
+up a limited slot. That'd make for a craptacular prize.
+ 
+Shae
+~
+E
+dagger reverb night blade~
+{D|{x               {wI see nothing but everything.{x
+{c    |\        {D|{x
+{c    | \       {D|{x   Crafted by a powerful mage, said to better enable him to
+{c    | \       {D|{x 
+{c    | \       {D|{x traverse the UnderDark, Reverb was stolen by a master thief,
+{c    | \       {D|{x
+{c    | \       {D|{x who did not realize the full extent of its uses. He made the
+{c    | |       {D|{x
+{m   |\_/|      {D|{x error of selling it on the open market, thinking of it only
+{m____\ /____   {D|{x
+{m\  _   _  /   {D|{x as an above-average tinker-toy. This mistake cost him his
+{m \| {x] [{m |/    {D|{x
+    {x] [       {D|{x life, several times, since the mage delved in necromantic
+    {x] [       {D|{x
+    {x]_[       {D|{x magic. Crafting the thief to the mage's needs ursurped all
+              {D|{x
+   {mRe{Mve{wrb     {D|{x the mage's free time, and he has since forgotten about Reverb.
+{D______________|{x
+~
+G none
+G none
+G none
+G none
+#101856
+heavenblaze sword fire flame winged feather blade~
+Heaven{RBl{Yaz{We{x~
+{RFl{Yam{Wes{x erupt skywards from a glowing blade of raw power.~
+unknown~
+Heavenly Wrath~
+weapon AB 0
+longsword 6 22 wrath AI
+107 108 5990 P
+E
+heavenblaze sword blaze fire flame winged feather blade~
+{Y)){W)({Y (( )    {B|{x Said to have been the favored weapon of the celestial servant
+ {R){Y(({W ^ {Y)({R(    {B|{x of a fallen god, HeavenBlaze's flames lick eternally at the
+  {W){Y){W/|\{Y( )    {B|{x blade, anticipating the vanquishing of evil. The celestial
+ {R){Y){R({W|||{Y)){R(    {B|{x in question was a great Solar who died in an epic battle before
+ {R)( {W|||{R({Y (    {B|{x time began, against an evil god. While the celestial being and
+ {Y){R(({W|||{Y){(      {B|{x the god he served succeeded, it cost the celestial his
+  {R(){W|||{Y)){R)    {B|{x existance. It's rumored that the essence of the celestial
+  {Y){R({W|||{R){Y)     {B|{x being now resides in the rounded crystal inset at the base of
+   {Y){W|||{Y(      {B|{x the blade.
+   {R({W|||{R)      {B|
+   {R){W|||{R(      {B|
+{w(\ {R({W|||{R){w /)   {B|
+{w((\{W |||{w /))   {B|
+ {w( \{W|||{w/ )    {B|
+ {w \_{c<{CO{c>{w_/     {B|
+ {y   | |       {B|
+  {y  | |       {B|
+   {W \ /       {B|
+   {W  V        {B|
+              {B|
+{xHeaven{RBl{Yaz{We   {B|
+{B______________|
+~
+G none
+G none
+G none
+G none
+#101857
+book first steps hero guide~
+A book entitled "{WThe First Steps to Become Hero{x"~
+A small guidebook entitled "{WThe First Steps to Become Hero{x" lies here.~
+unknown~
+~
+map 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+hunting grounds~
+First and foremost, if you have not completed {CNewSouls Academy{x, it is
+highly recommended you do so.  
+ 
+1) {WSewers {C(5-30){x - {D4s,d{x
+There are several ways into the sewers, but the most commonly used one
+is located at {MThe Dump{x
+ 
+2) {WMiden'nir {C(5-15){x - {D(3e, all s, 2w, s){x
+This forest is south of Midgaard, and full of lawless goblins. From
+Miden'nir, you can also find your way to Emerald Forest, and the Goblin
+Stronghold. Please also see {YMidennir{x.
+ 
+3) {WDangerous Neighborhood {C(5-15){x - {D(6s,e,3s,e){x
+The slums of Midgaard is a very unsafe place indeed. Excercise caution!
+~
+E
+midennir~
+Outside the
+                   South Gate of Midgaard
+                             |
+>------------------------The Trail-----The Miden`nir----At The Foot of
+                       to  Miden`nir         |          The  Mountains
+                             |               |                |
+                             |               |                |
+                             |               |                |
+    On a small path----The Miden`nir   The Miden`nir----The Miden`nir
+          |                  |               |                |
+  Inn--The Trail         A  Crossroads----Deep Forest-----The Miden`nir--Forest Clearing
+          |                  |               |                               
+          |                  |               |                                
+    Light Forest-------Muddy Ground--Near of Mountains                    
+          |                  |               |
+    The Fading Trail  The Dark Path---The Dark Forest
+          |                  |               |
+   Deep in the Forest----Carnage------The Dark Forest--The Deep in the
+       of Miden`nir                                    Forest of Miden`nir
+                                                                |
+                                                     (to Goblin Stronghold)
+~
+E
+moria~
+* * * MORIA - Map 1 * * *                                           
+ = = =============== = =                                                 
+Talk about a mess!                                                   Foothills
+                                                                         |
+This is as far as our courageous, noble, brave           Light Cave    Valley
+and apparently quite deceased cartographers                   |           |
+could get.  Perhaps more maps could be found             Smelly Tunnel  Cave
+in the depths of Moria itself.                                |           |
+                                                  Cave---Many Tunnels---Tunnel
+                                                    |         |           |
+         West End--Large Cave--East End           Cave      Tunnel      *Hole
+            |          |                            |         |        (Map 2)
+            |        Tunnel---------Tunnel--------Tunnel----Tunnel
+            |                                       |
+ *Hole----Damp----Damp  Tunnel--Tunnel--Tunnel    Tunnel
+(Map 3)  Tunnel  Tunnel   |               |         |
+                   |      |            (*Map 3)  The Cave
+                   |      |                         |
+                   |    Tunnel--Light--Maze      End of
+                   |            Cave    |        The Path
+                   |                  Light         |
+                   |                  Cave      The Hills--> Dwarven Kingdom
+                   |                    |           |
+                 Tunnel----Tunnel-----Light     The Plains
+                                      Cave          |
+                                                 The Lane
+                                                    |
+                                      {GMidgaard{x <--{DCross{x--> Eastern Road
+                                                  {DRoads{x
+                                                    |
+                                               Dwarf Forest
+~
+E
+elemental_canyon~
+(levels 5-30) Created by RAFF       N U                                       
+ *******************************      |/                                        
+ * Map of the ELEMENTAL CANYON *   W-- --E                                      
+ *******************************     /|                                         
+                                    D S                                         
+                                                                                
+                            Lightning    Floating  Floating  Windy     Air      
+                             Chamber      in Air----in Air---Tunnel--Chamber    
+                              /             |         |                         
+                             /              |         |                         
+  Electric    Electric   Lightning          |         |                         
+ Playground--Playground--Causeway        Floating  Floating                     
+    |            |                        in Air----in Air                      
+    |            |                          |                                   
+  Electric    Electric                      |                                   
+ Playground--Playground                     |  Elemental  Elemental  Elemental  
+                 |                          |    bay--------bay--------bay      
+                 |                          |     |          |         /|       
+              Electric      Mesa           Mesa   |          |        / |       
+              Pathway-------West-----------East   |          |   Water  |       
+                             |              |     |          |  Chamber |       
+                             |              |     |          |          |       
+                             |              |  Elemental  Elemental  Elemental  
+                           Floor--Floor---Floor  bay--------bay--------bay      
+                             |      |       |     |                             
+                   Fiery     |      |       |    In the                         
+                  Pathway--Floor--Floor---Floor  River                          
+                    |        |      |       |     |                             
+ Fire    Burning   Fiery     |      |       |    By the                         
+Chamber--Gardens--Pathway  Floor--Floor---Floor--River                          
+                             |      |       |                                   
+                             |   Elemental Dark Darker Darker  Darker           
+                           Floor--Gateway--Cave--Cave--Cave----Cave             
+                                    |                   |       |               
+                                    |                   |       |               
+                                    |  Overlook         |       |               
+                                    | /    |           Darker  Darker           
+                                    |/     |           Cave----Cave             
+                            Entrance to   Vista         |       |               
+                             Elemental    /             |       |               
+                              Canyon     /             Darkest Darkest Earth    
+                                       To the          Cave----Cave----Chamber  
+                                     Mountain Path                              
+~
+E
+first steps to become hero~
+{YInstructions on How to Use This GuideBook{x
+
+type "{mlook index{x" to see the complete list of pages of this guidebook
+ 
+~
+G none
+G none
+G none
+G none
+#101858
+map cities thera~
+{WA map of the {Ycities{W of {CThera{x~
+A neatly folded {Wmap{x of the {Ycities{x of {CThera{x lies here.~
+unknown~
+~
+map 0 0
+0 0 0 0 0 0 0
+0 0 125 P
+E
+2map~
+Cities {RNOT{x under the jurisdiction of {YR{BU{YL{BE{YR{x.
+
+{WAarakocran City{x - Aarakocran City, the city of Arials, is the
+mountain range above {GElemental Canyon{x. For directions to
+(and a map of) Elemental Canyon, please purchase the map entitled
+"{WThe first steps to Hero{x."
+ 
+{WCity of Anon{x - Considered backwater by many, by virtue of the
+inaccessibility, it's rumored there are several ways to get to
+Anon.  Vicks and Wedge can help. There's also a path through
+the ruins of Old Thalos ("{WThe first steps to Hero{x.")
+Please see the local merchants for a detailed map of Anon.
+ 
+{WVillage of Anon{x - From the Temple of Anon, head due west.
+ 
+{WOlympus{x - From the {Ynorth gate{x of Midgaard, head due {mnorth{x.
+Please also see: {COlympus{x
+ 
+{WGnome Village{x - The very same ones who work hard to keep Thera's
+young adventurers supplied with maps to Midgaard from their
+respective hometowns, Gnome Village lies on the {YEastern Road{x
+between {GMidgaard{x and {GNew Thalos{x. Gnome Village is past
+the {YCross Roads{x but before {GNew Thalos{x, {msouth{x of {YEastern
+Road{x.
+ 
+{WDwarven Kingdom{x - In order to get to the mines and village
+of the Dwarven Kingdom, one must travel first to the {YCross Roads{x
+east of {GM{gS{GM{x. Trudging {mnorth{x will lead you to some {Yhills{x.
+{mEast{x of the {Yhills{x lies Dwarven Kingdom.
+Please also see: {CDwarven_Kingdom{x.
+ 
+{WSentua{x - A small community through the endless desert. From
+the {ylevee{x in {GMidgaard{x, one must traverse the {Yriver{x, going
+directly {meast{x. Watch out for naster creatures on the way, or
+you could end up lost!
+~
+E
+1map~
+Cities under the Jurisdiction of {YR{BU{YL{BE{YR{x.
+{WMidgaard{x - Gnomes have made efforts to leave a map fluttering
+near the pit where you recall.  If you need directions to {GM{gS{GM{x
+from your recall point, that's the first place to look!
+Please also see: {CMidgaard{x and {CSouthern_Midgaard{x
+ 
+{WNew Thalos{x - In order to get to New Thalos from Midgaard, simply
+head east from {GM{gS{GM{x, and you'll find your way to The Market Square
+Square of New Thalos!
+Please also see: {CNew_Thalos{x
+ 
+{WFayten Keep{x - You must exit the {YNorth Gate{x of Midgaard, into the
+plains. Once you exit the North Gate, Fayten Keep lies {mnorthwest{x.
+For a map of Fayten Keep, please find the map merchant in Fayten
+Keep.
+ 
+{WCaerlon{x - Also north of Midgaard, you must exit the {YNorth Gate{x
+into the plains, and you must follow the {Ypath{x through the {Yplains{x
+and {Yhills{x until you find the {Ypath intersection{x. From there,
+Caerlon lies due north.  For a map of Caerlon, please find the
+local map seller in Caerlon.
+ 
+{WValley of the Titans{x - Unfortunantly, the pathway to the Valley
+of Titans is a long, unsafe, arduous journey.  It is best advised
+to find a capable guide there.  However, rumor has it there exists
+a means to quickly get there. {GArials{x known by {GVicks{x and {GWedge{x
+offer a map for aid.
+~
+E
+index~
+{YINDEX{x
+
+{CMap{x               - Graphical Layout of Features in this compendium
+{CIndex{x             - The complete list of pages
+{C1Map{x              - The list of cities held under law
+{C2Map{x              - The list of cities {RNOT{x held under law
+{CMidgaard{x          - Map of Midgaard
+{CSouthern_Midgaard{x - Map of Southern Midgaard
+{CNew_Thalos{x        - Map of New Thalos
+{COlympus{x           - Map of Olympus
+{CDwarven_Kingdom{x   - Map of Dwarven Kingdeom
+~
+E
+dwarven_kingdom~
+Dwarven
+                    Hospital
+                       |                                              *Path to
+         North of---Path by---Path by---Barracks     Guard--Door to----Castle
+          Shops     Hospital  Barracks  Entrance     House  Kingdom  Strangelove
+Granite     |                              |                   |
+Head's---Path North                      First               Narrow
+Bakery    of Shop                       Barracks              Path
+            |                              |                   |
+         Hide and    Turn               Back of     Bend in--Narrow
+        Tooth Shop--in Road             Barracks     Path     Path
+                       |                    \         |
+                    Path to               Dwarven   Narrow
+                    Village              Catacombs   Path
+                       |                              |
+             Store  *Inside    Entrance     Top of   Dark   *Mine
+             Room---Entrance--To Mountain--Mountain--Path--Entrance
+                \                             |                                Wine                        Middle of          Dwarven
+              Cellar                       Mountain            Mines
+                  \                            |
+                Dwarven                    Base of
+               Catacombs    Moria          Mountain           North
+                              |               |           Up\   |
+                              |            Path to            \ |
+                            Plains--Hills--Dwarven      West----+----East
+                              |            Kingdom              |                               |               |                 |   \Down
+              Midgaard <----Cross          Dwarven            South
+                            Roads          Drop-off
+                                          (Day-Care)
+~
+E
+olympus~
+Bedroom
+                                      |
+                                   Northern
+                                     Hall
+                        Western       |         Eastern
+              Bedroom----Hall----Second Floor----Hall----Bedroom
+                                /     |
+                         Stairway  Southern
+                             |       Hall                    North
+                        Throne Room   |                        |  /Up
+                             |      Bedroom                    |/
+                             |                          West---+---East
+                  Kitchen    |     Stable                     /|
+                     |       |       |                  Down/  |
+        Guest     Western  Castle  Eastern   Guest           South
+       Quarters----Wing----Entry----Wing----Quarters
+                     |       |       |
+                  Storage   Z|    Storage
+                   Room     e|S    Room   Smithy
+                            u|t             |
+                            s+--Ares Street-+--Weapon
+                    Mystery  |              |   Shop
+                    Shop-----+           Armoury
+                             |
+                   Residence-+-Residence
+                             |
+                     Bakery--+
+                             |
+                       **Entrance**
+                            /
+                      Mountain
+~
+E
+new_thalos~
+?????
+                                     |
+Northwest--West Casbah-------------North-----------------Casbah--------Northeast
+  Tower     |                       Gate                    |            Tower
+          Alley                      |                      |              |
+            |    Guard            Sultan's                  |  Library----Kali
+          Alley  House              Walk                    |             Row
+                   |                 |      Dancing         |              |
+     Sultan's----Grand----Palace--Sultan's--Daemon          |   Dance-----Kali
+      Palace    Entrance   Gate     Walk      Inn           |   Hall      Row
+                   |                 |                      |
+                 Guard               |         Bowyer--Guildsman's--Mason's
+                 House               |         Guild       Row      Guild
+ High                                |                      |
+Priest                               |         Weaver--Guildsman's--Craftsman
+Chamber  Altar                    Sultan's     Guild       Row        Guild
+  |        |                        Walk                    |
+Inside--Inside--Donation             |         Tanner--Guildsman's--Museum
+Temple  Temple    Room               |         Guild       Row      of the
+  |        |                         |                      |       Greater
+Cleric     |                         |                 Guildsman's---Gods
+Guild     /                          |                     Row
+        /                            |                      |
+     Temple             Ahkeem's  Sultan's  Vera's     Guildsman's         Mage
+     Gates                Stuff     Walk   Veggies         Row             Tower
+       |     Alley--Alley    |       |       |              |                |
+     Temple    |           Market--Market--Market           | Witch's  Magic |
+     Square  Alley   Bank--Square  Square  Square--Butchery |  Brew    Shop  |
+       |       |             |       |       |              |    |      |    |
+West--West---West---West---Market--Center--Market---East--East--East--East--East
+Gate  Main   Main   Main   Square  Square  Square   Main  Main  Main  Main  Gate
+  |    |       |             |       |       |              |    |
+  |  Repair  Alley  Store--Market--Market--Market--Abdul's  | Mercenary--Thieves
+  |   Shop     |           Square  Square  Sqaure   Armor   |   Guild     Guild
+  |          Alley--Alley    |       |       |             Alley
+Warrior's                  Bread   Medina  Igor's  Leather  |           Smuggler
+  Guild                    Stand     |    Weapons   Shop---Alley--Alley---Inn
+                                   Medina                        /
+      Warehouse    Shipwright        |     Forge  Stables      /    Cass's  Dump
+       |     |          |          Common    |       |        |       |      |
+       +-----West Ishtar Drive-----Square----+---East Ishtar Drive----+------+
+                        |            |
+                    Boat Ramp        |
+                        |          South    
+===================Ishtar River====Bridge======================> To Dragon Sea
+                                     |
+                                   South
+                                   Gate
+                                     |
+                               White Desert
+~
+E
+southern_midgaard~
+West                          South             Kate's                   East
+Bridge                         Bridge            Diner                   Bridge
+  |                              |                 |                       |
+Northwest                        |              Austral                Northeast
+Concourse---Promenade--------Promenade----------Square-----------------Concourse
+    |           |                |                 |                       |
+    |           |                |                 |          Fountain     |
+    |           |                |              Emerald           |        |
+Concourse     Park              Park-----Park     Ave----Penny--Penny--Concourse
+    |         Road            Entrance   Cafe      |     Lane   Lane       |
+    |           |                |              Emerald                    |
+    |           |                |                Ave                      |
+    |           |                |                 |                       |
+    |  Guard  Park     Park     The      Park   Emerald   Town             |
+    |   HQ----Road---Entrance---Park---Entrance---Ave-----Hall             |
+    |           |                                  |                       |
+    |         Park              Emerald---------Emerald--------------Gang  |
+    |         Road                Ave             Ave                |  |  |
+    |           |                  |                                 |  |  |
+    |         Park----------------Road----------Park            Elm--Land  |
+    |         Road             /Crossing        Road           Street      |
+    |          |              /    |              |              |         |
+    |        Temple       Chain    |              |              |         |
+Concourse   of SUN(good)  /        |            Park----Elm-----Elm---Concourse
+    |                    /          |            Road   Street  Street     |
+    |       (Redferne's, Harpies)  |              |              |         |
+    |                              |              |              |         |
+    |                Emerald--Emerald             |          Graveyard     |
+    |                  Ave      Ave               |     (Church Catacombs) |
+    |                   |                         |                        |
+    |                Emerald                    Park    Dark (evil)        |
+    |                  Ave                      Road----Temple             |
+    |                   |                         |                        |
+Concourse-----------Concourse------Inside-----Concourse----------------Concourse
+                                 South Gate
+                                     |
+                                 Miden'Nir
+                                 (Goblins)
+  N D
+  |/
+W-+-E
+ /|
+U S
+~
+E
+midgaard~
+Rainbow Bridge
+                                    /                          N U
+                           Temple Altar                        |/
+                          (Healer, Pit)  Mud School          W-+-E 
+                                 |       /                    /|
+                                 |     /                     D S
+                             Temple  of   
+                             Midgaard  ---Questus                 
+           ^                     |                              ^
+        N Gate                   |  In the Air                N Gate
+           |                     | /                            |
+       Northern       G----Temple Square---  Bank ---Inn    Northern
+       Midgaard              (Fountain)       |              Midgaard
+           + Clan Rd, Otho->     |            G <-Clan Rd, Otho +
+           |                     |                              |
+           | Gnome-S      Food   |       G           S          |
+           |       |      |      |       |           |          |
+To    <---West---Main-Street---Market----Main-Street-+--------East--->Cross
+Shire,    Gate     |      |    Square    |           |        Gate    Roads
+Forest of  |       G      S      |       S           G          |
+Haon-Dor   |                     |                              |
+           |                   High --Food                      |
+         Wall--Temple       S- Road                         Wall Road
+         Road Of Stupid          .      G                       |
+           |                     |      |                       |
+           |             Map     |    Grebe's                   |
+           |      S      Shop    |    Tavern    PS      A       |
+           |      |       |    Common   |       |       |       |
+          Wall---Poor-Alley----Square---Dark-Alley------+----Wall Road
+          Road    |       |      |      |       |       |       |
+           |      G      Grubby  |      G       S     Warehouse |
+           |             Inn     |              |     (Sailor)  |
+           |            /        |              |               |
+           |           G         |              |               |
+           |                    Dump            |               |
+          Wall           Sewers/ |              |             Wall
+          Road                   |              |             Road
+           |                   South         Midgaard           |         To the
+         Bridge                Bridge       <-River---------> Bridge <--> Sands -> Sentua
+           |                     |                              |           of
+        Southern              Southern                       Southern     Sorrow
+        Midgaard              Midgaard                       Midgaard
+~
+E
+map cities thera~
+{YINSTRUCTIONS FOR READING THIS MAP{x
+ 
+type "{Mlook index{x" to read a list of pages held within this
+                  compendium
+ 
+type "{Mlook 1map"{x  to read directions to the cities under the
+                  jurisdiction of the clan {YR{BU{YL{BE{YR{x.
+ 
+type "{Mlook 2map"{x  to read directions to the cities {RNOT{x under
+                  the jurisdiction of the clan {YR{BU{YL{BE{YR{x.
+ 
+{y                   =-------=      =-------=
+                   {y|{wOlympus{y|      {y|{WCaerlon{y|    {R....{x
+                   {y=-------=      =-------=    {x|
+{y=-----------=          {x| {YPlains      {x|         +---{wDwarven Kingdom
+{y|{WFayten Keep{y| {x ________|-------------+         +--{R...
+{y=-----------={x          |                       |                                
+                 {y   -------------             {x |       {y       -----------
+{y                    | {WMidgaard {y |{x-------- {DCross Roads{x--+-----{y|{WNew Thalos{y|
+{y                    -------------             {x |       |  {y    -----------
+{x                            |->{wSentua       {x   |       |
+{x                                               |    {w  Gnome Village
+{y                              =----------=   {x  |     
+{x                            ~~-{y|{wOld Thalos{x|-----+{R...
+{x                            ~~ {y=----------=     {x|
+{x                            ~~                  {R...
+{y=---------------=  =------------=
+{y|{wVillage of Anon{y|{x--{y|{wCity of Anon{y|{x
+{y=---------------=  =------------={x
+~
+G none
+G none
+G none
+G none
+#101859
+vodka disinfectant fountain~
+a fountain spewing... disinfectant?~
+A rather strong scent of disinfectant bubbles eternally from this fountain.~
+unknown~
+~
+fountain R 0
+10000 -1 'vodka' 0
+0 100000 0 P
+G none
+G none
+G none
+G none
+#101860
+grim scythe death morbid serrated sickle~
+{wGrim{rScythe{x, Forboder of {DDeath{x~
+A morbid serrated sickle hovers here, glowing darkly.~
+unknown~
+~
+weapon CMRZ 0
+polearm 2 110 slice CEF
+107 112 6495 P
+A
+5 -3
+A
+19 10
+A
+18 10
+F
+A 9 200 x
+F
+A 13 -100 L
+E
+grim scythe death morbid serrated sickle~
+{D__  __
+{D  _\_\/_/___________        {W|{x Doomed to a slow, bloodless death if you hold it,
+{w |{D|\_)(_/|{w          \       {W|{x doomed to a quick, bloody death if you are struck
+{w |{D\  oo  /{w________   \      {W|{x by it, legends say. Stories told down that this
+{w |_{D|{RVvvV{D|{D vvvvvvvv{w\   \     {W|{x weapon was fashioned by the death of an fallen
+{D    \{R^^{D/          {D<{w\   \    {W|{x evil god, as he trapped his essence in it for an
+{y    |  |           {D<{w\   \   {W|{x eternity, until he may be one day released.
+{y    |{r|>{y|            {D<{w\   |  {W|{x
+{y    |  |             {D<{w\  |  {W|{x A dull, gray sickle blade juts out from a demonic
+{y    |{r<>{y|              {D<{w\ |  {W|{x skull, seemingly crafted from ebony. The blade
+{y    |  |               {D<{w\|  {W|{x is several hands wide, appearing to require
+{y    |{r<>{y|                    {W|{x tremendous muscle to swing. Faintly glowing runes
+{y    |  |                    {W|{x across the haft spreads warning for those who
+{y    |{r^^{y|                    {W|{x face this dark weapon.
+{y    |  |  {wGrim{rScythe,       {W|{x
+{y    |  |   {x  Forboder       {W|{x
+{y    |  |   {x   of            {W|{x
+{y    |  |    {DDeath           {W|{x
+{y    |  |                    {W|{x
+{y    |  /                    {W|{x
+{y    | /                     {W|{x
+{y    |/                      {W|{x
+{W____________________________|{x
+~
+G none
+G none
+G none
+G none
+#101861
+headband intelligence intellect kajor~
+The headband of the intellect~
+A band lies here, waiting to be donned.~
+unknown~
+~
+clothing ORTj AE
+0 0 0 0 0 0 0
+55 56 133043 P
+A
+3 3
+A
+4 3
+E
+headband intellect intelligence~
+Cool to the touch, this silvery-metallic headband seems to shimmer as you
+touch it.  Along the inside, various coppery-wire-looking objects play
+against a green background, squiggling this way and that in some senseless,
+complex pattern.  
+~
+G none
+G none
+G none
+G none
+#101862
+lightning staff enki sketj~
+The {yL{Yi{wg{Whtn{wi{Yn{yg{x-Staff of {MEnki{x, God of Wisdom~
+An obsidian staff levitates here, lightning crackling from end to end.~
+unknown~
+~
+weapon AKLORTj AN
+staff 3 27 divine FG
+64 71 126547 P
+A
+13 15
+A
+18 7
+A
+19 7
+E
+lightning staff enki~
+Lightning snakes its way up and down through the length of this obsidian
+staff.  Runes whose meaning are long lost, radiate with power.
+~
+G none
+G none
+G none
+G none
+#101863
+quest letter block a vowel aa q_a~
+{Cbl{Moc{Ck{x letter "{WA{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101864
+quest letter block b bb q_b~
+{Cbl{Moc{Ck{x letter "{WB{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101865
+quest letter block c q_c~
+{Cbl{Moc{Ck{x letter "{WC{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101866
+quest letter block d q_d~
+{Cbl{Moc{Ck{x letter "{WD{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101867
+quest letter block e vowel q_e~
+{Cbl{Moc{Ck{x letter "{WE{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101868
+quest letter block f q_f~
+{Cbl{Moc{Ck{x letter "{WF{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101869
+quest letter block g q_g~
+{Cbl{Moc{Ck{x letter "{WG{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+0 0 1 P
+G none
+G none
+G none
+G none
+#101870
+quest letter block h q_h~
+{Cbl{Moc{Ck{x letter "{WH{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101871
+quest letter block i vowel q_i~
+{Cbl{Moc{Ck{x letter "{WI{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101872
+quest letter block j q_j~
+{Cbl{Moc{Ck{x letter "{WJ{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101873
+quest letter block k q_k~
+{Cbl{Moc{Ck{x letter "{WK{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101874
+quest letter block l ll q_l~
+{Cbl{Moc{Ck{x letter "{WL{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101875
+quest letter block m q_m~
+{Cbl{Moc{Ck{x letter "{WM{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101876
+quest letter block n q_n~
+{Cbl{Moc{Ck{x letter "{WN{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101877
+quest letter block o vowel q_o~
+{Cbl{Moc{Ck{x letter "{WO{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101878
+quest letter block p q_p~
+{Cbl{Moc{Ck{x letter "{WP{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101879
+quest letter block q qq q_q~
+{Cbl{Moc{Ck{x letter "{WQ{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101880
+quest letter block r q_r~
+{Cbl{Moc{Ck{x letter "{WR{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101881
+quest letter block s q_s~
+{Cbl{Moc{Ck{x letter "{WS{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101882
+quest letter block t q_t~
+{Cbl{Moc{Ck{x letter "{WT{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101883
+quest letter block u vowel q_u~
+{Cbl{Moc{Ck{x letter "{WU{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101884
+quest letter block v q_v vv~
+{Cbl{Moc{Ck{x letter "{WV{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101885
+quest letter block w q_w~
+{Cbl{Moc{Ck{x letter "{WW{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101886
+quest letter block x q_x~
+{Cbl{Moc{Ck{x letter "{WX{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101887
+quest letter block y q_y~
+{Cbl{Moc{Ck{x letter "{WY{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101888
+quest letter block z q_z~
+{Cbl{Moc{Ck{x letter "{WZ{x"~
+An odd little {Cbl{Moc{Ck{x rests on the ground here.~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#101889
+signpost quest~
+The Block-Letter SignPost~
+A signpost for the Letter Block Quest is here.~
+unknown~
+~
+furniture ART 0
+0 0 0 0 0 0 0
+106 100000 4745 P
+E
+quest signpost~
+{CRULES{x
+1) Words must be 4 letters in length or greater
+2) Cannot be very uncommon names. 
+3) Names of imms count as 2 bonus letters.
+4) Qs, Xs, and Zs count as 2 letters.
+ 
+Scoring goes as follows:
+                __i
+Block Points = \     |\ |
+               /_i=0 | \|i
+That is:
+4 letters = 4+3+2+1=10
+5 letters = 5+4!=15
+6 letters = 6+5!=21
+7 letters = 7+6!=28
+8 letters = 8+7!=36
+9 letters - 9+8!=45
+ 
+Quizzicalities = 153 pts
+ 
+Spare block letters will be collected
+at the end, and will count as 2 pts
+a piece (Qs, Zs, and Xs are 3).
+ 
+Blocks may be redeemed at any time by
+any available immortal.
+ 
+QPs will be doled out after the quest concludes.
+First and second prize will be custom tailored
+gear, and third will receive double the QPs he'd
+normally receive.
+ 
+Quest ends Friday, November 18th. Winners will be
+announced.
+ 
+{CAddendum rules{x
+5) No vulgarities
+6) 100 points will be added to people with the longest
+word and best valued word (points per letter).
+7) DOUBLE points for the narcissists that spell
+their own name! Does not stack with q/x/z rule. Only
+useable once. Only for those level 20 and above.
+First names only.
+~
+G none
+G none
+G none
+G none
+#101898
+shaelindra tresses hair~
+Shaelindra's tresses of hair~
+test~
+unknown~
+~
+armor 0 AE
+0 0 0 0 'none' 0
+107 50 1592096 P
+F
+A 18 500 H
+F
+A 19 500 I
+F
+A 13 50000 N
+F
+A 12 50000 O
+F
+A 17 -2000 c
+F
+A 8 50 u
+G none
+G none
+G none
+G none
+#101899
+{dblack hole{x mallet~
+The {yMASSIVE{x mallet of trail{rb{Rl{ya{Yz{yi{Yn{rg{x~
+A prismatic boulder attached to an oak stump hovers here.~
+unknown~
+~
+weapon 0 AN
+longsword 6 22 beating AI
+107 600 1816844 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#101800
+The middle of nowhere~
+012345678901234567890123456789012345678901234567890123456789012345678901234567
+~
+0 NTU inside
+S
+#101801
+In the Rock Crevice~
+Sheer vertical stone walls isolate you from either side.  The smooth
+granite cliff faces on either side induces a mild case of claustrophobia,
+creating a slight fear that they might somehow meet eachother, sandwiching
+you in between.  Gazing upwards, you hope that there isn't anyone on top of
+the mountain range to toss boulders onto you, as you can only move forward
+or backwards.  
+ 
+A {ggreen{x forest path greets you to the south, and the {Dblack{x forests
+of the Midden'nir looms to the north.
+~
+0 C mountain
+D2
+~
+~
+Z 0 101802
+0 0
+S
+#101802
+Tree-Canopied Path~
+The stretching path under your feet is simple, but well cared for.  The
+path consists of a basic collection of pebbles spread about and flattened to
+facilitate a bumpy passage, but at least one clear of brush.  
+ 
+The path leads north and south, while trees loom to the east and west.
+~
+0 0 forest
+D0
+~
+~
+Z 0 101801
+0 0
+D2
+~
+~
+Z 0 101803
+0 0
+S
+#101803
+Curve in the Path~
+Stretching north and west, the path below your feet is simple, but well
+cared for.  It consists of a series of broken pebbles, preventing much
+growth from entering the pathway.  An uncrossable {Briver{x flows easterly to
+the south, barring any such passage.  
+ 
+The path swings north and west, while a thicket of trees looms ahead to
+the east.  The {Briver{x bars passage to the south.
+~
+0 0 forest
+D0
+~
+~
+Z 0 101802
+0 0
+D3
+~
+~
+Z 0 101804
+0 0
+S
+#101804
+Before the Small Bridge~
+A small bridge reaches over a narrow, yet powerful-looking torrent of
+water to the south.  You doubt you could make it across the river if you
+tried to swim, but luckily, someone felt a bridge would be necessary here.  
+ 
+To the east lies the path, south lies the previously uncrossable river.
+To the north and west lie more trees.
+ 
+~
+0 0 forest
+D1
+~
+~
+Z 0 101803
+0 0
+D2
+~
+~
+Z 0 101805
+0 0
+S
+#101805
+Before the Small Bridge~
+A small bridge reaches over a narrow, yet powerful-looking torrent of
+water to the north.  It's doubtful that anyone would be able to cross the
+{Briver{x if they simply dove in, but luckily, someone decided a bridge is
+in order.
+ 
+The path continues to the south, while the bridge lies to the north. Trees
+lazily sway in the wind to your west and east.
+~
+0 0 forest
+D0
+~
+~
+Z 0 101804
+0 0
+D2
+~
+~
+Z 0 101806
+0 0
+S
+#101806
+Curve in the Path~
+Every color imagineable finds its way into the pebbles in the path.  Far
+off to the north, the sounds of running water can be heard, mixing with the
+occassional chirp of a songbird, and the mating call of a squirrel can be
+heard nearby.  
+ 
+The path swings from the north to the east here, while trees rustle their
+limbs at you from the south and west.
+~
+0 0 forest
+D0
+~
+~
+Z 0 101805
+0 0
+D1
+~
+~
+Z 0 101807
+0 0
+S
+#101807
+Tree-Canopied Path~
+Treelimbs arch across the path overhead, providing protection from the rain
+and sun. A floral scent wafts through the area, stripping the otherwise damp
+forest odor from the air.
+ 
+The path eases west and east, while flower-laden bushes and trees rustle to
+the north and south.
+~
+0 0 forest
+D1
+~
+~
+Z 0 101808
+0 0
+D3
+~
+~
+Z 0 101806
+0 0
+S
+#101808
+Bend in the Tree-Canopied Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 101809
+0 0
+D3
+~
+~
+Z 0 101807
+0 0
+S
+#101809
+Bend in the Tree-Canopied Path~
+~
+0 0 forest
+D1
+~
+~
+Z 0 101810
+0 0
+D2
+~
+~
+Z 0 101808
+0 0
+S
+#101810
+Bend in the Tree-Canopied Path~
+~
+0 0 forest
+D2
+~
+~
+Z 0 101811
+0 0
+D3
+~
+~
+Z 0 101809
+0 0
+S
+#101811
+Tree-Canopied Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 101810
+0 0
+D2
+~
+~
+Z 0 101812
+0 0
+S
+#101812
+Tree-Canopied Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 101811
+0 0
+D2
+~
+~
+Z 0 101813
+0 0
+S
+#101813
+Before Circuit Road~
+~
+0 0 forest
+D0
+~
+~
+Z 0 101812
+0 0
+S
+#101899
+Multi-purpose Room~
+This is a multi-purpose room for mobs. Chances are, you shouldn't be here.
+You might want to get help getting out of here.
+ 
+Shaelindra
+~
+0 NT inside
+S
+#0
+
+#OLIMITS
+O 101851 1	* a {1wi{3ck{1ed {xbastard sword{x
+O 101856 1	* Heaven{RBl{Yaz{We{x
+O 101860 1	* {wGrim{rScythe{x, Forboder of {DDeath{x
+S
+
+#MOBPROGS
+#101800
+if isimmort $n
+mob oload 101801
+open heart
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+mob oload 101802
+put all heart
+close heart
+endif
+end
+~
+#101801
+if level $n < 15
+mob oload 101809
+else
+if level $n < 25
+mob oload 101807
+else
+if level $n < 35
+mob oload 101806
+else
+say Hey! Pick on someone your own size!
+mob mload 101801
+endif
+endif
+endif
+~
+#101802
+if level $n < 15
+mob oload 101810
+else
+if level $n < 25
+mob oload 101809
+else
+if level $n < 35
+mob oload 101807
+else
+if level $n < 45
+mob oload 101806
+else
+say Hey! Pick on somebody your own size!
+mob mload 101802
+give heart 2.cherub
+endif
+endif
+endif
+~
+#101803
+if level $n < 25
+mob oload 101810
+else
+if level $n < 35
+mob oload 101809
+else
+if level $n < 45
+mob oload 101807
+else
+if level $n < 55
+mob oload 101806
+else
+say Hey! Pick on someone your own size!
+mob mload 101803
+endif
+endif
+endif
+~
+#101804
+if level $n < 45
+mob oload 101810
+else
+if level $n < 55
+mob oload 101809
+else
+if level $n < 65
+mob oload 101807
+else
+if level $n < 75
+mob oload 101806
+else
+say Hey! Pick on somebody your own size!
+mob mload 101804
+endif
+endif
+endif
+endif
+~
+#101805
+if level $n < 65
+mob oload 101810
+else
+if level $n < 75
+mob oload 101809
+else
+if level $n < 85
+mob oload 101807
+else
+if level $n < 95
+mob oload 101806
+else
+say Hey! Pick on someone your own size!
+mob mload 101805
+endif
+endif
+endif
+endif
+~
+#101806
+if level $n < 85
+'mob oload 101810'
+else
+if level $n < 95
+'mob oload 101809'
+else
+if level $n < 105
+' mob oload 101807'
+else
+if level $n < 115
+'mob oload 101806'
+else
+say Hey! Pick on someone your own size!
+mob mload 101806
+endif
+endif
+endif
+endif
+~
+#101807
+mob oload 101810
+mob oload 101809
+mob oload 101807
+mob oload 101806
+mob oload 101805
+~
+#101809
+follow $n
+mob echoat $n You feel your sanity draining away...
+mob remember $n
+end
+~
+#101810
+if isimmort $n
+mob oload 101864
+mob oload 101865
+mob oload 101866
+mob oload 101868
+mob oload 101869
+mob oload 101870
+mob oload 101872
+mob oload 101873
+mob oload 101874
+mob oload 101875
+mob oload 101876
+mob oload 101878
+mob oload 101879
+mob oload 101880
+mob oload 101881
+mob oload 101882
+mob oload 101884
+mob oload 101885
+mob oload 101886
+mob oload 101887
+mob oload 101888
+drop all
+endif
+end
+~
+#101811
+if isimmort $n
+mob oload 101863
+mob oload 101867
+mob oload 101871
+mob oload 101877
+mob oload 101883
+drop all
+endif
+end
+~
+#101812
+mob remember $n
+cast 'continual light' $o
+give $o $n
+mob forget $n
+~
+#101813
+if rand 90
+mob force $n sleep
+endif
+end
+~
+#0
+
+#HELPS
+0 0 'ACETUM PRIMUS'~
+Syntax: {Ccast 'acetum primus' <target>{x
+
+The most basic of acid-producing spells.  The caster channels a
+teleportation spell, substituting the air around the target with material
+from the acid plane.  
+~
+20 3 ELIDODI ABILITIES~
+~
+20 1 KNIGHT ABILITIES~
+~
+20 4 SCION ABILITIES~
+~
+20 7 CHAOS ABILITIES~
+~
+20 2 SHADOW ABILITIES~
+~
+20 10 SENTINEL ABILITIES~
+~
+20 6 RULER ABILITIES~
+~
+20 8 SYLVAN ABILITIES~
+~
+92 0 "BUILDER RACE A"~
+Aarakocra
+
+Aboleth         Large prehistoric-looking fish that uses psionic attacks, and
+                fights with its 4 tentacles
+
+Achaierai
+
+Air Elemental
+
+Allip
+
+Animated Object Any number of mundane objects can come alive and spontaneously
+                do stuff. Might want to make it to where there is no corpse, and
+                "pieces" of the mob remain upon "death."
+
+Ape
+
+Arial
+
+Astral Deva     Celestial - Beautiful Winged Human
+
+Avareal         A race of feather-winged elves
+
+Avoral          Celestial - Tall, muscular humans, but wings instead of arms,
+                and hands at their midpoints, and talons for feet, with legs
+                that feature vanes to act as a tail. Feathers for hair.
+
+Azer            Race of dwarves from the elemental plane of fire. Constantly
+                burning. Always lawful existance.
+ 
+~
+92 0 "BUILDER RACE B"~
+Basilisk        8 legged spiny reptile with petrifying gaze. Always neutral.
+                Territorial, yet lazy. Consumes petrified victims.
+
+Bat
+
+Bear
+
+Beholder        A 6' spherical creature with 1 single large eye, big, fang-
+                filled mouth, and ten smaller eyes on stalks. 
+
+Black Dragon
+
+Blink Dog       Magical, intelligent, teleporting dog. Yellow-brown.
+
+Blue Dragon
+
+Brass Dragon
+
+Bronze Dragon
+
+Bugbear         Big, fuzzy goblinoids with tusks. 7' Yellow-brown fur with brown
+                to red hair.
+~
+92 0 "BUILDER RACE C"~
+Carrion Crawler Large underdark caterpillar with 8 tentacles in the front, and a
+                big, sharp-looking mouth.
+
+Cat
+
+Celestials      Beings from the Celestial Plane: Lantern Archon, Hound Archon,
+                Avoral, Ghaele, Trumpet Archon, Astral Deva, Planetar, Solar
+
+Centaur
+
+Centipede
+
+Cloud Giant
+
+Copper Dragon
+~
+92 0 "BUILDER RACE D"~
+Dark-Elf
+
+Death Knight
+
+Dog
+
+Doll
+
+Dracolich
+
+Draconian
+
+Dragon
+
+Drow
+
+Duergar
+
+Dwarf
+~
+92 0 "BUILDER RACE E"~
+Earth Elemental
+
+Elementals      Earth, Fire, Water, Air
+
+Elf
+~
+92 0 "BUILDER RACE F"~
+Felar
+
+Fido
+
+Fire Elemental
+
+Fire Giant
+
+Fish
+
+Fox
+
+Frost Giant
+~
+92 0 "BUILDER RACE G"~
+Gargoyle
+
+Ghaele          Celestial Knights - Look like elves with golden auras and white
+                opalescent eyes.
+
+Ghost
+
+Ghoul
+
+Giants
+
+Githyanki
+
+Gnoll
+
+Gnome
+
+Goblin
+
+Gold Dragon
+
+Golem
+
+Green Dragon
+~
+92 0 "BUILDER RACE H"~
+Half-Elf
+
+Half-Orc
+
+Halfling
+
+Harpy
+
+Hobgoblin
+
+Horse
+
+Hound Archon    Celestial – Well-muscled humans with canine heads. Able fighters.
+
+Human
+~
+92 0 "BUILDER RACE I"~
+~
+92 0 "BUILDER RACE J"~
+~
+92 0 "BUILDER RACE K"~
+Kobold
+~
+92 0 "BUILDER RACE L"~
+Lamia
+
+Lantern Archon  A Celestial Being whose form is a small gaseous glowing globe.
+                Try to give it a light when possible.
+
+Lich
+
+Lion
+
+Lizard
+~
+92 0 "BUILDER RACE M"~
+Minotaur
+
+Modron
+
+Monkey
+~
+92 0 "BUILDER RACE N"~
+~
+92 0 "BUILDER RACE O"~
+Ogre
+Orc
+~
+92 0 "BUILDER RACE P"~
+Pig
+~
+92 0 "BUILDER RACE Q"~
+~
+92 0 "BUILDER RACE R"~
+Rabbit
+
+Red Dragon
+
+Rockseer
+~
+92 0 "BUILDER RACE S"~
+Satyr
+
+School Monster
+
+Silver Dragon
+
+Snake
+
+Songbird
+
+Sprite
+
+Storm Giant
+
+Svirfnebli
+~
+92 0 "BUILDER RACE T"~
+Tiger
+
+Tressym         A race of winged house-cats.
+
+Troll
+
+Trumpet Archon  Celestial - Appear as beautiful winged elves with 6' trumpets.
+                Prefer to use magic, but capable of fighting, too.
+~
+92 0 "BUILDER RACE U"~
+Undead
+
+Unique
+~
+92 0 "BUILDER RACE V"~
+~
+92 0 "BUILDER RACE W"~
+Water Elemental
+
+Water fowl
+
+White Dragon
+
+Wolf
+
+Wood-Elf
+
+Wyvern
+~
+92 0 "BUILDER RACE X"~
+~
+92 0 "BUILDER RACE Y"~
+~
+92 0 "BUILDER RACE Z"~
+Zombie
+~
+-1 $~
+
+#$

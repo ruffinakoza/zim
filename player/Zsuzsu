@@ -1,0 +1,629 @@
+#PLAYER
+Name Zsuzsu~
+Passwd ZsLNm60ksiT4k~
+Born 1162952449
+LogO 1210642778
+Level 70
+Race gnome~
+Sex  2
+Class thief~
+Ethos neutral
+Hometown Midgaard~
+Clan Scion~
+ClanStatus 13
+Prom {D[{M%W{w/{m%I {D%z: %R] %y:%o {c%e{D>{x ~
+Room 99094
+Gold 988855
+Silv 21
+Exp 467250
+ExpTL 0
+Drain_level 0
+Conf holylight nosummon holylight~
+Comm quiet_editor prompt combine color~
+Fixed v2HP/DR~
+AffectedBy infrared detect_magic detect_undead detect_evil detect_good~
+Invi 61
+Pos  8
+Alig  0
+ACs 100 100 100 100
+Relig 18
+Attr 100 100 100 100 100 50 25
+AttrTrend 0 0 0 0 0 0 0
+AttrAvgTot 0 0 0 0 0 0 0
+AttrAvgNum 0 0 0 0 0 0 0
+AMod 0 1 3 0 0 0 0
+HMV  30000 30000 30000 30000 7000 7000
+Scro 99
+ShD Zsuzsu~
+Desc You almost over look, {Dhiding{x in the corner of the room, a tiny little gnome.
+Smaller than your usual gnome, and cute as a {Mb{mu{Mtt{mo{Mn{x.  She's wearing a {Wwhite{x
+poet's blouse and {Dblack{x suade knickers.  Scuffed {gg{Gr{gee{Gn{g l{Gea{gther{x shoes, with
+loosely tied {ym{Du{yddy{x laces make her feet look a little clumsy and too {Mb{mi{Mg{x.
+Her {ybrown{x hair is thin and wispy, and generally isn't behaving itself, flying
+this way and that, standing up straight at times.  She has a {Ds{Bu{Dll{Be{Dn{x face, 
+that's tinted with {Rs{radne{Rss{x.  Yet a strange {Cg{cleam{x in her eye {Ct{cw{Ci{cn{Ckl{ce{Cs{x with
+a {rlus{Rt{x for {Yt{yr{Yink{ye{Yts{x and {Cb{cau{Cbl{me{Cs{x
+~
+HMVDNP 30000 30000 7000 10 10
+CndC  0 0 38 38 48 48
+Wizn ABCDEGHIJKLMNOPQRSTUVWXYZabcdef
+Plyd 43783920
+Not  1169289578 1169009320 1146626443 1142474402 1142474151 
+NoteCrime 1150840775
+NoteEvent 1164597616
+Bankg 89807
+Sec 9
+BamfIn Aback a {gt{Gi{Yn{my {Mbu{mt{Mt{mer{Yf{Gl{gy{x, {WZsuzsu{x swoops down from the {ch{Cea{cv{Ce{cns{x.~
+BamfOut Hopping on her {gt{Gi{Yn{my {Mbu{mt{Mt{mer{Yf{Gl{gy{x, {WZsuzsu{x soars toward the {Csk{cy{x.~
+Title , in touch with her {Ddarkside{x~
+Pnts 300
+TrueSex 2
+LastLevel 11009
+Lang 0
+StalkersSaved 0
+QuestPnts 7270
+Qtrouble 103 1
+Qtrouble 40 2
+Qtrouble 94 3
+Qtrouble 95 1
+PK_Kills 0
+PK_Deaths 0
+GoodKilled 15
+NeutKilled 10
+EvilKilled 0
+NoAlignKilled 0
+Dead 0
+GoodStanding 0
+NeutStanding 0
+EvilStanding 0
+Granted wizhelp afk rating shout . music tick goto at advance award set dump rename violate addlag noexp wpeace allow ban deny disconnect freeze herotitle permban protect reboo reboot smite limited popularity shutdow shutdown wizlock affrooms force load newlock noaffect nochannels notitle noemote noshout notell pecho purge restore sla slay osockets sockets teleport transfer poofin poofout gecho > holylight incognito invis log memory mwhere owhere peace penalty penalties echo snoop stat string switch wizinvis vnum zecho clone wiznet immtalk questtalk warena qt imotd : smote prefi prefix objlist no_ooc norole nonewb find mpstat msgstat strstat grant disable enable edit create asave alist ashow resets~
+Usage 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+Alias wp where~
+Alias id cast identify~
+Alias gg emote {Gg{gi{Ggg{gl{Ge{gs{x.~
+Alias cb cast 'cure blind'~
+Alias bl cast 'blind'~
+Alias qu cast 'earth'~
+Alias bf cast 'blue fire'~
+Alias ml load mob~
+Alias ol load obj ~
+Alias oe edit object~
+Alias om edit mob~
+Alias or edit room~
+Alias oc edit clan~
+Alias oa edit area~
+Alias emp edit mpcode~
+Alias lm alist mob~
+Alias lo alist obj~
+Alias me edit mob~
+Alias lr alist room~
+Alias mpe edit mpcode~
+Alias ray cast ray~
+Alias ff cast 'faer'~
+Alias ci owhere clanitem~
+Alias rl alist room~
+Alias mpl alist mpcode~
+Alias ggg gecho You hear someone in the distance {Gg{gi{Ggg{gl{Gi{gn{Gg{x.~
+Alias cele gecho {CA brilliant flash of {Wwhite {Ylight{C is seen in the distance.{x~
+Alias so ashow obj~
+Alias sc shield cleave~
+Alias fs cast 'flames'~
+Alias bj blackjack~
+Alias ab cast 'acid blast'~
+Alias vote1 gecho A scantly clad nymph saunters up to you on the path and whispers, '{rLet's go then, you and I, down by the river and . . . practice MudMagic together.{x'~
+Alias vote2 gecho A voluptious succubus in a translucent nighty steps out of the shadows and whispers seductively in your ear, '{rWhen you're done fooling around here, come the the Altar of the MudConnector and we'll . . . worship together.{x'  She winks at you and vanishes.~
+Alias vote3 gecho A demonic hand reachs out out from the shadows and sinks its claws into you neck and growls, '{GDo I have your full attention now?  {YVOTE{G now, or I'll devour your soul!{x'~
+Alias mm cast 'magic miss'~
+Alias wexp wset add exp mod 200 not all vis 0 dur 60~
+Alias wqp wset add qp mod 200 not all vis 0 dur 60~
+Alias wauc wset add auc mod 1 dur -1 not all vis 0~
+Alias wpvp wset add pvp mod 50 dur -1 not all vis 0~
+Alias wpvm wset add pvm mod 120 dur -1 not on vis 0~
+Alias tof at tof force tof~
+Alias wqph wset add qp mod 200 not all vis 91 min 91 dur 60~
+Alias foo gecho And the third hero of the night, {rKoasu{x, the Gith Ninja!~
+Alias wgp wset add gold mod 200 not all vis 0 dur 60~
+Alias ear gecho Zsuzsu wears {Gear{gmuffs{x of {ranti{D-{Wwhining{x on her head.~
+Alias sponsorexp wset add exp mod 200 not all vis 0 dur 1500~
+Sk 100 'acetum primus'
+Sk 100 'acid arrow'
+Sk 100 'acid blast'
+Sk 100 'acute vision'
+Sk 100 'aid'
+Sk 100 'amnesia'
+Sk 100 'anathema'
+Sk 100 'animate dead'
+Sk 100 'armor'
+Sk 100 'assist'
+Sk 100 'astral walk'
+Sk 100 'attract other'
+Sk 100 'bark skin'
+Sk 100 'black death'
+Sk 100 'black shroud'
+Sk 100 'blade barrier'
+Sk 100 'bless'
+Sk 100 'benediction'
+Sk 100 'bless weapon'
+Sk 100 'blindness'
+Sk 100 'blood golem'
+Sk 100 'bluefire'
+Sk 100 'bone armor'
+Sk 100 'bone dagger'
+Sk 100 'burning hands'
+Sk 100 'call lightning'
+Sk 100 'calm'
+Sk 100 'cancellation'
+Sk 100 'cause critical'
+Sk 100 'cause light'
+Sk 100 'cause serious'
+Sk 100 'caustic font'
+Sk 100 'chain lightning'
+Sk 100 'consume dead'
+Sk 100 'control undead'
+Sk 100 'charm person'
+Sk 100 'charm monster'
+Sk 100 'chill touch'
+Sk 100 'colour spray'
+Sk 100 'condemn'
+Sk 100 'continual light'
+Sk 100 'control weather'
+Sk 100 'corruption'
+Sk 100 'create food'
+Sk 100 'create rose'
+Sk 100 'create spring'
+Sk 100 'create water'
+Sk 100 'cure blindness'
+Sk 100 'cure critical'
+Sk 100 'cure disease'
+Sk 100 'cure light'
+Sk 100 'cure poison'
+Sk 100 'cure serious'
+Sk 100 'curse'
+Sk 100 'cursed lands'
+Sk 100 'deadly venom'
+Sk 100 'deafen'
+Sk 100 'demonfire'
+Sk 100 'delving'
+Sk 100 'desert fist'
+Sk 100 'detect evil'
+Sk 100 'detect good'
+Sk 100 'detect hidden'
+Sk 100 'detect fade'
+Sk 100 'detect hide'
+Sk 100 'detect invis'
+Sk 100 'detect magic'
+Sk 100 'detect poison'
+Sk 100 'detect undead'
+Sk 100 'disintegrate'
+Sk 100 'dispel evil'
+Sk 100 'dispel good'
+Sk 100 'dispel magic'
+Sk 100 'disruption'
+Sk 100 'dissension'
+Sk 100 'dragon breath'
+Sk 100 'dragon skin'
+Sk 100 'dragon strength'
+Sk 100 'dragons breath'
+Sk 100 'earthquake'
+Sk 100 'enchant armor'
+Sk 100 'enchant weapon'
+Sk 100 'energy drain'
+Sk 100 'enhanced armor'
+Sk 100 'etheral fist'
+Sk 100 'evil spirit'
+Sk 100 'faerie fire'
+Sk 100 'faerie fog'
+Sk 100 'farsight'
+Sk 100 'fear'
+Sk 100 'fireball'
+Sk 100 'fireproof'
+Sk 100 'fire shield'
+Sk 100 'flamestrike'
+Sk 100 'flesh golem'
+Sk 100 'floating disc'
+Sk 100 'fly'
+Sk 100 'frenzy'
+Sk 100 'galvanic whip'
+Sk 100 'gate'
+Sk 100 'general purpose'
+Sk 100 'giant strength'
+Sk 100 'group defense'
+Sk 100 'group heal'
+Sk 100 'hallucination'
+Sk 100 'hand of undead'
+Sk 100 'harm'
+Sk 100 'haste'
+Sk 100 'heal'
+Sk 100 'healing light'
+Sk 100 'heat metal'
+Sk 100 'helical flow'
+Sk 100 'hellfire'
+Sk 100 'high explosive'
+Sk 100 'holy shield'
+Sk 100 'holy word'
+Sk 100 'hunger weapon'
+Sk 100 'hurricane'
+Sk 100 'iceball'
+Sk 100 'identify'
+Sk 100 'improved detect'
+Sk 100 'improved invis'
+Sk 100 'infravision'
+Sk 100 'insanity'
+Sk 100 'inspire'
+Sk 100 'intoxication'
+Sk 100 'invisibility'
+Sk 100 'knock'
+Sk 100 'know alignment'
+Sk 100 'lethargic mist'
+Sk 100 'lightning bolt'
+Sk 100 'lightning shield'
+Sk 100 'link'
+Sk 100 'locate object'
+Sk 100 'love potion'
+Sk 100 'magic jar'
+Sk 100 'magic missile'
+Sk 100 'magic resistance'
+Sk 100 'magnetic trust'
+Sk 100 'mass healing'
+Sk 100 'mass invis'
+Sk 100 'mass sanctuary'
+Sk 100 'master healing'
+Sk 100 'mend'
+Sk 100 'mind light'
+Sk 100 'mind wrack'
+Sk 100 'mind wrench'
+Sk 100 'minor sanctuary'
+Sk 100 'minor black shroud'
+Sk 100 'mist walk'
+Sk 100 'mysterious dream'
+Sk 100 'nexus'
+Sk 100 'paranoia'
+Sk 100 'pass door'
+Sk 100 'plague'
+Sk 100 'poison'
+Sk 100 'poison bolt'
+Sk 100 'polymorph'
+Sk 100 'portal'
+Sk 100 'prismic beam'
+Sk 100 'protection cold'
+Sk 100 'protection evil'
+Sk 100 'protection good'
+Sk 100 'protection heat'
+Sk 100 'protection negative'
+Sk 100 'protective shield'
+Sk 100 'power word kill'
+Sk 100 'power word stun'
+Sk 100 'quantum spike'
+Sk 100 'ranger staff'
+Sk 100 'ray of hope'
+Sk 100 'ray of truth'
+Sk 100 'ray of terror'
+Sk 100 'rebellion'
+Sk 100 'recharge'
+Sk 100 'refresh'
+Sk 100 'remove curse'
+Sk 100 'remove fear'
+Sk 100 'remove tattoo'
+Sk 100 'resilience'
+Sk 100 'restoring light'
+Sk 100 'sanctuary'
+Sk 100 'sanctify lands'
+Sk 100 'sand storm'
+Sk 100 'scream'
+Sk 100 'severity force'
+Sk 100 'shield'
+Sk 100 'shielding'
+Sk 100 'shocking grasp'
+Sk 100 'shocking trap'
+Sk 100 'sleep'
+Sk 100 'slow'
+Sk 100 'solar flight'
+Sk 100 'sonic resonance'
+Sk 100 'spectral furor'
+Sk 100 'skeleton mage'
+Sk 100 'skeleton warrior'
+Sk 100 'sobriety'
+Sk 100 'stone skin'
+Sk 100 'sulfurus spray'
+Sk 100 'summon'
+Sk 100 'summon shadow'
+Sk 100 'summon zombie'
+Sk 100 'superior heal'
+Sk 100 'terangreal'
+Sk 100 'tattoo'
+Sk 100 'teleport'
+Sk 100 'turn'
+Sk 100 'vampiric blast'
+Sk 100 'ventriloquate'
+Sk 100 'web'
+Sk 100 'witch curse'
+Sk 100 'wrath'
+Sk 100 'weaken'
+Sk 100 'word of recall'
+Sk 100 'sakura'
+Sk 100 'acid breath'
+Sk 100 'desert heat'
+Sk 100 'fire breath'
+Sk 100 'frost breath'
+Sk 100 'gas breath'
+Sk 100 'lightning breath'
+Sk 100 'lightning stroke'
+Sk 100 'paralyzation'
+Sk 100 'repulsion'
+Sk 100 'sleep gas'
+Sk 100 'slow gas'
+Sk 100 'arrow'
+Sk 100 'axe'
+Sk 100 'bastardsword'
+Sk 100 'bow'
+Sk 100 'dagger'
+Sk 100 'flail'
+Sk 100 'hammer'
+Sk 100 'hand to hand'
+Sk 100 'katana'
+Sk 100 'lance'
+Sk 100 'longsword'
+Sk 100 'mace'
+Sk 100 'polearm'
+Sk 100 'shortsword'
+Sk 100 'spear'
+Sk 100 'staff'
+Sk 100 'whip'
+Sk 100 'second weapon'
+Sk 100 'second attack'
+Sk 100 'secondary attack'
+Sk 100 'third attack'
+Sk 100 'fourth attack'
+Sk 100 'fifth attack'
+Sk 100 'master hand'
+Sk 100 'mastering sword'
+Sk 100 'scrolls'
+Sk 100 'staves'
+Sk 100 'wands'
+Sk 100 'ambush'
+Sk 100 'area attack'
+Sk 100 'assassinate'
+Sk 100 'backstab'
+Sk 100 'bash'
+Sk 100 'bash door'
+Sk 100 'bear call'
+Sk 100 'berserk'
+Sk 100 'blackjack'
+Sk 100 'blind fighting'
+Sk 100 'blindness dust'
+Sk 100 'blink'
+Sk 100 'butcher'
+Sk 100 'caltrops'
+Sk 100 'camouflage'
+Sk 100 'crucify'
+Sk 100 'crush'
+Sk 100 'delve'
+Sk 100 'demand'
+Sk 100 'dishonor'
+Sk 100 'creep'
+Sk 100 'camp'
+Sk 100 'circle'
+Sk 100 'control animal'
+Sk 100 'cleave'
+Sk 100 'concentrate'
+Sk 100 'counter'
+Sk 100 'critical strike'
+Sk 100 'detect sneak'
+Sk 100 'detect trap'
+Sk 100 'dirt kicking'
+Sk 100 'disarm'
+Sk 100 'dodge'
+Sk 100 'double grip'
+Sk 100 'drinking'
+Sk 100 'dismantle'
+Sk 100 'dual backstab'
+Sk 100 'enchant sword'
+Sk 100 'endure'
+Sk 100 'enhanced damage'
+Sk 100 'entangle'
+Sk 100 'envenom'
+Sk 100 'escape'
+Sk 100 'explode'
+Sk 100 'fast healing'
+Sk 100 'forest fighting'
+Sk 100 'grip'
+Sk 100 'haft block'
+Sk 100 'haggle'
+Sk 100 'hand block'
+Sk 100 'hara kiri'
+Sk 100 'herbs'
+Sk 100 'hide'
+Sk 100 'homepoint'
+Sk 100 'improved attack'
+Sk 100 'improved beguiling'
+Sk 100 'improved benediction'
+Sk 100 'improved combat'
+Sk 100 'improved curative'
+Sk 100 'improved healing'
+Sk 100 'improved maladiction'
+Sk 100 'improved protective'
+Sk 100 'kick'
+Sk 100 'knife'
+Sk 100 'lash'
+Sk 100 'lay hands'
+Sk 100 'light resistance'
+Sk 100 'lore'
+Sk 100 'luck bonus'
+Sk 100 'make arrow'
+Sk 100 'green arrow'
+Sk 100 'white arrow'
+Sk 100 'blue arrow'
+Sk 100 'red arrow'
+Sk 100 'make bow'
+Sk 100 'make katana'
+Sk 100 'make shuriken'
+Sk 100 'meditation'
+Sk 100 'meld into stone'
+Sk 100 'mental attack'
+Sk 100 'nerve'
+Sk 100 'parry'
+Sk 100 'peek'
+Sk 100 'rummage'
+Sk 100 'furtive riffle'
+Sk 100 'perception'
+Sk 100 'pick lock'
+Sk 100 'poison smoke'
+Sk 100 'quiet movement'
+Sk 100 'reincarnation'
+Sk 100 'rescue'
+Sk 100 'scalp'
+Sk 100 'sense life'
+Sk 100 'settraps'
+Sk 100 'shapeshift'
+Sk 100 'shield block'
+Sk 100 'shield cleave'
+Sk 100 'sling'
+Sk 100 'smithing'
+Sk 100 'sneak'
+Sk 100 'spell craft'
+Sk 100 'space between beats'
+Sk 100 'shuriken'
+Sk 100 'strangle'
+Sk 100 'swimming'
+Sk 100 'tail'
+Sk 100 'target'
+Sk 100 'tame'
+Sk 100 'throw'
+Sk 100 'track'
+Sk 100 'trance'
+Sk 100 'trap'
+Sk 100 'net trap'
+Sk 100 'blind trap'
+Sk 100 'trip'
+Sk 100 'tumble'
+Sk 100 'vampire'
+Sk 100 'vampiric bite'
+Sk 100 'vampiric touch'
+Sk 100 'vanish'
+Sk 100 'warcry'
+Sk 100 'weapon cleave'
+Sk 100 'wild swing'
+Sk 100 'armor use'
+Sk 100 'bandage'
+Sk 100 'bloodthirst'
+Sk 100 'brew'
+Sk 100 'bush sense'
+Sk 100 'charge'
+Sk 100 'chaos blade'
+Sk 100 'clairvoyance'
+Sk 100 'clan recall'
+Sk 100 'confuse'
+Sk 100 'dragonplate'
+Sk 100 'dragonsword'
+Sk 100 'demon summon'
+Sk 100 'disgrace'
+Sk 100 'disperse'
+Sk 100 'doppelganger'
+Sk 100 'deathblow'
+Sk 100 'enslave'
+Sk 100 'midnight'
+Sk 100 'eyes of intrigue'
+Sk 100 'fade'
+Sk 100 'find object'
+Sk 100 'garble'
+Sk 100 'golden aura'
+Sk 100 'guard'
+Sk 100 'guard call'
+Sk 100 'holy armor'
+Sk 100 'holy cloak'
+Sk 100 'hunt'
+Sk 100 'judgement'
+Sk 100 'lion help'
+Sk 100 'lion call'
+Sk 100 'mana transfer'
+Sk 100 'mastering spell'
+Sk 100 'mental knife'
+Sk 100 'mirror'
+Sk 100 'mortal strike'
+Sk 100 'nightwalker'
+Sk 100 'snuff light'
+Sk 100 'path find'
+Sk 100 'phantasm'
+Sk 100 'pollen'
+Sk 100 'pollen blind'
+Sk 100 'pollen sleep'
+Sk 100 'purify weapon'
+Sk 100 'pure sight'
+Sk 100 'randomizer'
+Sk 100 'remove badge'
+Sk 100 'resistance'
+Sk 100 'riding'
+Sk 100 'ruler badge'
+Sk 100 'ruler aura'
+Sk 100 'scourge'
+Sk 100 'shadow cloak'
+Sk 100 'shadowlife'
+Sk 100 'shadow meld'
+Sk 100 'shield of ruler'
+Sk 100 'spellbane'
+Sk 100 'squire'
+Sk 100 'stalker'
+Sk 100 'take revenge'
+Sk 100 'tesseract'
+Sk 100 'tiger power'
+Sk 100 'transform'
+Sk 100 'trophy'
+Sk 100 'truesight'
+Sk 100 'wanted'
+Sk 100 'wolf'
+Sk 100 'world find'
+Sk 100 'kassandra'
+Sk 100 'matandra'
+Sk 100 'sebat'
+Sk 100 'pickpocket'
+Sk 100 'steal'
+Sk 100 'pilfer'
+Sk 100 'featherhand'
+Sk 100 'guile'
+Sk 100 'switcheroo'
+Sk 100 'chumpchange'
+Sk 100 'plant'
+Sk 100 'nestle'
+Sk 100 'lockpick'
+Sk 100 'skullduggery'
+Sk 100 'featherpick'
+End
+
+#O
+Vnum 502
+Cond 100
+Nest 0
+Owner ~
+Wear 16
+Cost 0
+End
+
+#O
+Vnum 503
+Cond 100
+Nest 0
+Owner ~
+Wear 17
+Cost 0
+End
+
+#O
+Vnum 504
+Cond 100
+Nest 0
+Owner ~
+Wear -1
+Cost 10
+PastOwner 0 Zsuzsu c-71-63-28-199.hsd1.va.comcast.net
+End
+
+#O
+Vnum 501
+Cond 100
+Nest 0
+Owner ~
+Wear 19
+Cost 109865
+End
+
+#END

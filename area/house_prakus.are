@@ -1,0 +1,591 @@
+#AREADATA
+Name Prakus House~
+Builders sadin~
+VNUMs 100971 100990
+Credits Sadin~
+Security 1
+LevelRange 1 91
+Flags noquest playerhouse~
+End
+
+#MOBILES
+#100971
+stout tree guard home house~
+A Stout Tree~
+A large tree is here, did it just move?
+~
+The {gtree{x blocks your way through the door. Looking at his feet you notice they root deeply into the ground.
+~
+earth elemental~
+ABe CDHJ 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CJNO ABLTX 0 GHK
+stand stand none 0
+0 BG gargantuan flesh~
+~
+F res A
+M greet 100971 100~
+M speech 100972 I heard there was a party.~
+#100972
+wounded lion large furry~
+A wounded lion~
+A large furry lion is resting here, till you disturbed him.
+~
+This powerful looking lion is recovering after being attacked by hunters and does not look happy to see you.
+~
+cat~
+ABFe 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#100973
+large black wounded bear~
+A wounded bear~
+A large black bear was resting here, till you disturbed it.
+~
+This bear caught in a nasty bear trap, thus is rather concerned about seeing you.
+~
+bear~
+ABFe 0 0 0
+91 91 405d91+0 455d10+85 30d4+75 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#100974
+yolandi~
+A female helper~
+A nice looking blonde is here, helping Prakus tend to the wounded animals.
+~
+This good looking girl is quite a looker.  Her vet outfit leave just enough to the imagination to be exciting.  Boy, lucky Prakus.
+~
+human~
+AGY 0 0 0
+5 5 17d5+0 50d11+95 2d2+10 none
+5 5 5 6
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#100971
+flamed torch blue~
+{gPrakus's {bblue {rflamed {ytorch{x~
+{gPrakus's {bblue {rflamed {ytorch{x~
+fire~
+~
+light A A
+426
+106 0 0 P
+G none
+G none
+G none
+G none
+#100972
+marijuana plant healthy~
+A healthy looking {gmarijuana{x plant~
+A healthy looking {gmarijuana{x plant grows here in the sunshine.~
+flesh~
+~
+container E 0
+10 0 0 1000 50 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100973
+marijuana leaves leaf~
+A {gmarijuana{x leaf~
+A nice-looking {gmarijuana{x leaf grows on the plant.~
+unknown~
+Leaf~
+food E A
+CE AC 0 A 0 CE AC
+50 0 246 P
+G none
+G none
+G none
+G none
+#100974
+green four poster bed~
+a {ggreen{x four poster~
+A {ggreen{x four poster stands squarely in the corner.~
+wood~
+~
+furniture R 0
+EIJKN ABCDEFGJKMPTUX EHK BDEFGH BDEFGH EIJKN ABCDEFGJKMPTUX
+0 1000 5000 P
+G none
+G none
+G none
+G none
+#100975
+prakus donation pit~
+A donation pit~
+A pit made from {ggreen{x leaves is here.~
+unknown~
+Leaves~
+container g 0
+500 0 0 10000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100976
+cape light~
+{gPrakus's {wCape of light{x~
+{gPrakus's {wCape of light{x~
+light~
+~
+armor A AC
+38 38 38 37 'none' 0
+106 4 110 P
+G none
+G none
+G none
+G none
+#100977
+cape dark~
+{gPrakus's {xCape of dark~
+{gPrakus's {xCape of dark ~
+darkness~
+~
+armor C AC
+38 38 38 37 'none' 0
+106 107 110 P
+G none
+G none
+G none
+G none
+#100978
+breastplate plate spirits~
+{gPrakus's {yBreastplate{x of {WSpirits{x~
+{gPrakus's {yBreastplate{x of {WSpirits{x~
+unknown~
+Spirits~
+armor 0 AD
+38 38 38 37 'none' 0
+106 107 110 P
+G none
+G none
+G none
+G none
+#100979
+greenstone green stone helm~
+{gPrakus's Green{xstone {yhelm{x~
+{gPrakus's Green{xstone {yhelm{x~
+stone~
+~
+armor 0 AE
+38 38 38 37 'none' 0
+106 30 110 P
+G none
+G none
+G none
+G none
+#100980
+green leg plates legplates~
+{gPrakus's Green{x legplates~
+{gPrakus's Green{x legplates~
+steel~
+~
+armor 0 AF
+38 38 38 37 'none' 0
+106 50 110 P
+G none
+G none
+G none
+G none
+#100981
+clalused feet~
+{gPrakus's {Wcallused feet{x~
+{gPrakus's {Wcallused feet{x~
+flesh~
+~
+armor 0 AG
+38 38 38 37 'none' 0
+106 10 110 P
+G none
+G none
+G none
+G none
+#100982
+arm armplate fur~
+{gPrakus's{x {marmplates of fur{x~
+{gPrakus's{x {marmplates of fur{x~
+unknown~
+Animal Hide~
+armor 0 AI
+38 38 38 37 'none' 0
+106 15 494406 P
+A
+19 5
+A
+18 5
+A
+13 50
+A
+19 5
+A
+18 5
+G none
+G none
+G none
+G none
+#100983
+umbrella tree shield~
+{gPrakus's{x magical {yumbrella{g of trees{x~
+{gPrakus's{x magical {yumbrella{g of trees{x~
+unknown~
+Branches~
+armor 0 AJ
+38 38 38 37 'none' 0
+106 107 377796 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#100984
+cloak leopard skin~
+{gPrakus's{x cloak of {yleopard skin{x~
+{gPrakus's{x cloak of {yleopard skin{x~
+unknown~
+Skin~
+clothing 0 AK
+BCF BCF BCF ACF 0 BCF BCF
+106 20 336228 P
+A
+12 100
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100985
+bracer forest breath~
+{gPrakus's{x bracer of {bforest breath{x~
+{gPrakus's{x bracer of {bforest breath{x~
+unknown~
+Magic~
+armor F AM
+38 38 38 37 'none' 0
+106 107 284233 P
+A
+20 -2
+A
+17 -20
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100986
+mace forest~
+Mace of the forests spirit~
+Mace of the forests spirit~
+unknown~
+Spirit~
+weapon FM AN
+mace 6 18 crush C
+106 107 189377 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#100987
+key~
+key~
+a key~
+wood~
+~
+key FUfk A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100988
+heart forest~
+Heart of the Forest~
+Heart of the Forest~
+flesh~
+~
+armor 0 AO
+38 38 38 37 'none' 0
+106 107 110 P
+G none
+G none
+G none
+G none
+#100989
+steel gauntlets~
+{gPrakus's{x gauntlets of steel~
+{gPrakus's{x gauntlets of steel~
+steel~
+~
+armor 0 AH
+38 38 38 37 'none' 0
+106 45 475020 P
+A
+14 80
+A
+17 -20
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100990
+fire~
+the fire~
+A large fire burns here.~
+fire~
+~
+portal A 0
+0 A A 3014 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100971
+A Clearing Under A Tree Canopy~
+You have come to a quiet area by a {bbrook{x.  The {gtrees{x reach over
+the sky forming an umbrella that shades the sun and blocks the rain.  Built
+into the side of the hill you notice a {rdoor{x between roots built into the
+hill.  This looks like someone's home.  
+~
+0 0 forest
+D0
+~
+~
+ABCFGZ 100987 100972
+0 0
+D1
+~
+~
+Z 0 97499
+0 0
+S
+#100972
+The House of {gPrakus's{x Solarium~
+The {ysun shines{x down through the glass ceilings.  Plants are growing
+every with the sounds of birds chirping in the background.  In the corner of
+the room you see {gmarijuana{x growing plentifully.  To the east you see a
+sign stating {r"hospital"{x and to the west {WVeterinary clinic.  {x 
+~
+0 D forest
+D0
+~
+~
+Z 0 100973
+0 0
+D1
+~
+~
+Z 0 100977
+0 0
+D2
+~
+~
+ABCFGZ 100987 100971
+0 0
+D3
+~
+~
+Z 0 100974
+0 0
+S
+#100973
+Meeting Room~
+Wood covers the walls and ceiling from {gtrees{x that have fallen in the
+{gforest{x.  The table made of stone has {gbenches{x all around it.  A
+{rfireplace{x burns leaving a warmth that heals the soul.  
+~
+0 D forest
+D1
+~
+~
+Z 0 100978
+0 0
+D2
+~
+~
+Z 0 100972
+0 0
+D3
+~
+~
+Z 0 100980
+0 0
+S
+#100974
+{WVeterinary clinic{x~
+As you walk on the {gmoss{x floor you see a lion in a cage to the north
+of you and a bear to the south recovering from their wounds inflict by
+hunters.  
+~
+0 0 forest
+D0
+~
+~
+ABZ 0 100975
+0 0
+D1
+~
+~
+Z 0 100972
+0 0
+D2
+~
+~
+ABZ 0 100976
+0 0
+S
+#100975
+{yLions cage{x~
+In this room with stone walls and straw on the floor animals rest peacefully.
+~
+0 D inside
+D2
+~
+~
+ABZ 0 100974
+0 0
+S
+#100976
+{DBears Cage{x~
+In this room with stone walls and straw on the floor animals rest peacefully.
+~
+0 D inside
+D0
+~
+~
+ABZ 0 100974
+0 0
+S
+#100977
+{rHospital{x~
+This room is dark and quiet.  As you walk in you notice bandages on the
+desk.  A bed is in the corner with fresh sheets laid out.  
+~
+0 D inside
+D3
+~
+~
+Z 0 100972
+0 0
+S
+#100978
+Library~
+Oak bookcases line the walls.  The roof is shaped of a dome with
+paintings adoring the ceiling.  In the corner a statue of {gPrakus's{x god
+{rHera{x stands.  You notice some {Dshadows{x behind the statue.  
+~
+0 D inside
+D3
+~
+~
+Z 0 100973
+0 0
+D5
+~
+statue~
+ABZ 0 100979
+0 0
+S
+#100979
+Room of Death~
+This room is painted red in {rblood{x.  {gPrakus's{x enemies images adorn
+the wall with daggers stuck through them.  You notice a special section put
+aside just for {yrulers{x.  This room makes you feel rage pulse through your
+veins.  
+~
+0 D inside
+D4
+~
+~
+ABZ 0 100978
+0 0
+S
+#100980
+{gPrakus's{x donation pit~
+Support the cause and donate your weapons.
+~
+0 D inside
+D1
+~
+~
+Z 0 100973
+0 0
+S
+#0
+
+#RESETS
+D 0 100971 0 2	* A Clearing Under A Tree Canopy: door to the north: closed and locked
+D 0 100972 2 2	* The House of {gPrakus's{x Solarium: door to the south: closed and locked
+D 0 100974 0 1	* {WVeterinary clinic{x: door to the north: closed
+D 0 100974 2 1	* {WVeterinary clinic{x: door to the south: closed
+D 0 100975 2 1	* {yLions cage{x: door to the south: closed
+D 0 100976 0 1	* {DBears Cage{x: door to the north: closed
+D 0 100978 5 1	* Library: door to the down: closed
+D 0 100979 4 1	* Room of Death: door to the up: closed
+M 0 100971 1 100971 1	* A Stout Tree (A Clearing Under A Tree Canopy)
+O 0 100972 0 100972	* A healthy looking {gmarijuana{x plant (The House of {gPrakus's{x Solarium)
+P 0 100973 5 100972 5	* A healthy looking {gmarijuana{x plant: A {gmarijuana{x leaf
+O 0 100990 0 100973	* the fire (Meeting Room)
+M 0 100974 1 100974 1	* A female helper ({WVeterinary clinic{x)
+M 0 100972 1 100975 1	* A wounded lion ({yLions cage{x)
+M 0 100973 1 100976 1	* A wounded bear ({DBears Cage{x)
+O 0 100974 0 100977	* a {ggreen{x four poster ({rHospital{x)
+O 0 100975 0 100980	* A donation pit ({gPrakus's{x donation pit)
+S
+
+#MOBPROGS
+#100971
+say What is your business at the home of Prakus?
+~
+#100972
+if carries $n 100987
+say You have a key, use it and stop bothering me.
+slap $n
+else
+mob oload 100987
+say Here is the key, hope Prakus invited you.
+give key to $n
+endif
+end
+~
+#0
+
+#$

@@ -1,0 +1,1902 @@
+#AREADATA
+Name Sylvan clan hall~
+Builders fronz tidus~
+VNUMs 7700 7799
+Credits Thornan Tidus~
+Security 9
+LevelRange 15 100
+Flags closed noquest nosummon clanhall~
+Clan Sylvan~
+End
+
+#MOBILES
+#7701
+ranger cloaked elven sylvanguard clan guard sylvan~
+A Cloaked Ranger~
+A cloaked ranger stands here, eyeing you warily.
+~
+This ranger seems to be here protecting her brothers and sisters, and
+trying to rescue the forest from those evil enough to seek to defile it. 
+She wears a dark green cloak, and carries a stout bow, which is currently
+raised, with an arrow nocked and ready to be fired.  
+~
+human~
+ABTef DFHVclmt 0 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 7700 100~
+M kill 7702 100~
+M fight 100814 100~
+M exall 7701 3~
+#7702
+wizi exit mob~
+Wizi exit mob~
+Wizi exit mob is here, letting people out of the clanhall.
+~
+~
+human~
+AB DFlmt 0 0
+1 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 7712 1~
+I 92
+#7707
+fox~
+A Fox~
+Here sits a fox playing in the sun.
+~
+This fox seems to be a nice mild creature who it would never attack but
+just have fun with its friends.  It looks like it is a little hungry but
+still not hungry enough to attack someone nice.  
+~
+fox~
+ABT Je 1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F aff Z
+#7709
+clan cleric elf healer sylvancleric~
+an elven healer~
+The elf stands here, muttering strange but powerful words of healing.
+~
+An average-looking elf stands here, communing blessings and healing
+sylvan wardens who have come in from their patrols.  
+~
+elf~
+ABKQaef DFHVclmt 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQT 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F res B
+F vul Z
+M give 7730 all~
+M speech 7703 give me the elidodi item~
+M speech 7704 give me the shadow item~
+M speech 7705 give me the scion item~
+M speech 7706 give me the chaos item~
+M speech 7707 give me the barbarian item~
+M speech 7709 give me the knight item~
+M speech 7710 give me the ruler item~
+M speech 7711 give me the sentinel item~
+C Sylvan~
+#7710
+bear~
+A Bear~
+Here stands a very large bear.
+~
+Here stands before you a large {RRed {x eyed bear who looks very angry
+and could eat you in one bite.  He looks very hungry so you better watch
+out.  
+~
+bear~
+ABf JZe 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CFI AB 0 0
+stand stand male 0
+0 0 large flesh~
+~
+#7711
+white stag~
+A White Stag~
+Here stands a small stag drinking from a pond.
+~
+Here stands a large white stag.  He looks to be about 5 foot.  He looks
+like a friendly little creature who would not harm you unless you try to
+hurt it.  There is nothing that stands out accept he has a small cut on his
+right bacl leg.  You think he must have been caught in a trap and brought
+here to be healed.  
+~
+drow~
+AB e 1000 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 ABCD 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F res B
+#7715
+squirrels~
+A Squirrel~
+A small squirrel playing with some leaves.
+~
+This squirrel seems to be a small little animal who likes wondering
+around in this nice tree.  He looks like he is not tame but not wild.  He
+would not fight you at any cost or even think of attacking you since he is
+so weak.  
+~
+unique~
+AG Je 1000 0
+20 20 31d20+0 20d9+60 5d4+12 none
+-2 -2 -2 1
+EFI AB 0 0
+stand stand male 0
+G ABCDEFHKU large flesh~
+~
+#7718
+satyr maid warrior elmsky~
+Elmsky the tavern maid~
+Here ready to serve you is Elmsky a female satyr warrior.
+~
+This female satyr has a kind look in her face.  Even though she has a
+smile face her arms are pretty strong looking for a female.  She is a
+warrior and member of the Sylvan Clan.  She has been taking care of the
+Sylvan Tavern for some time and is always happy to see the old and new
+members of the Sylvan Clan.  
+~
+satyr~
+ABe Het 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand female 3000
+0 0 medium flesh~
+~
+M grall 7718 100~
+C Sylvan~
+#7720
+nesquick elf friend friendly~
+A friendly elf~
+A nice and friendly elf is here.
+~
+~
+elf~
+AB 0 1000 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+E H 0 0
+stand sit male 100
+0 0 medium flesh~
+~
+M greet 7720 100~
+M grall 7721 100 ~
+#7721
+weaponmaster ranger paleven~
+Paleven the Weaponmaster~
+Behind the balcony is Paleven, the {yS{gy{Glv{ga{yn{x Weaponmaster. He is fixing something.
+~
+A strong looking human is here dressed all in green and brown tones.  He
+is the weaponmaster and shopkeeper of the Sylvans Weapon Shop.  He has dark
+brown hair and soft brown eyes.  His has very strong arms.  He is the one
+that made all the weapons that you see here.  Respect him and he will
+allways respect you.  
+~
+human~
+ABe Het 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+CDF AB CD 0
+stand stand male 3000
+0 0 medium flesh~
+~
+M grall 7708 100~
+C Sylvan~
+#7722
+ancient sylvan ranger~
+The ancient ranger~
+An ancient {yS{gy{Glv{ga{yn{x ranger is here leaning on a hickory bow.
+~
+This ancient ranger was one of the first Sylvan Wardens.  She's been on 
+many a patrol, and her hoves show the beating traveling many roads.  She's
+become so old her fur has all gone ash grey.  Her hair, once black as 
+slate, has turned salt-n-pepper with fret over her beloved forest.  Even
+though she has retired from patroling, she still serves the {GF{gorest{x by
+training new Sylvan Wardens and keeping the lore of their skills and past
+deeds alive.  If you have questions ask her to {Gtell you about{x whatever
+you wish to know.
+~
+satyr~
+ABKTe DFPet 0 0
+91 91 465d91+2000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 AB I 0
+stand stand female 0
+0 0 medium flesh~
+~
+M speech 7722 tell me about wol~
+M speech 7723 tell me about bear~
+M speech 7724 tell me about lion~
+M speech 7725 tell me about tiger~
+M speech 7726 tell me about path~
+C Sylvan~
+#0
+
+#OBJECTS
+#7700
+sappling of the great tree giya clanitem sylvan~
+a {gsappling{x of the {GG{gr{Geat {yT{gr{yee {WGiya{x~
+A tiny {gsappling{x is here glowing and humming loudly.~
+wood~
+~
+treasure RYaef AO
+0 0 0 0 0
+60 1 10000 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7701
+mark of the wild earth~
+the {ymark{w of the {gW{Gi{gld {yEarth{x~
+A patch of wild earth sits here radiating immense power~
+unknown~
+plant~
+armor AIMTYZ AS
+6 6 6 5 'none' 0
+15 16 128599 P
+A
+20 -5
+A
+13 100
+F
+A 17 -60 t
+A
+19 11
+A
+18 6
+A
+4 2
+G none
+G none
+G none
+G none
+#7702
+petrified ashwood stump altar~
+{ystump{x of petrified {Dashwood{x~
+The {ystump{x of a thick branch is here, hard as {Dstone{x.~
+unknown~
+Petrified wood~
+container ABIORTY P
+10000 ABCD 7703 10000 100 0
+100 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7703
+twig of unlocking clankey sylvan sylvan_altar_key~
+A small {yTwig{x of {gunlocking{x~
+a small and very odd looking twig sits here in the dirt~
+unknown~
+plant~
+key ABGIRTUYf AO
+0 0 0 0 0 0 0
+15 10 0 P
+G none
+G none
+G none
+G none
+#7704
+roasted trout~
+A Roasted Trout~
+A delicious roast trout sits here.~
+unknown~
+~
+food A AO
+ADE BEF 0 0 0 ADE BEF
+15 50 199 P
+G none
+G none
+G none
+G none
+#7705
+elm staff~
+a elm wood staff~
+Here is a perfectly crafted staff made of elm wood.~
+unknown~
+elm~
+weapon 0 AN
+staff 1 32 smash F
+25 26 8837 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#7706
+elm axe~
+an axe of elm wood~
+An axe made of elm wood and bearing a {Wshinny{x blade rests here.~
+unknown~
+elm~
+weapon 0 AN
+axe 2 15 slash 0
+25 26 11325 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#7707
+elm mace~
+a mace of elm wood~
+Here you see a beautifull and powerfull looking mace, made of elm wood.~
+unknown~
+elm~
+weapon 0 AN
+mace 2 12 crush 0
+25 26 6468 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#7708
+elm bow~
+a nice elm wood bow~
+On the floor someone left a bow made of elm wood.~
+unknown~
+elm~
+weapon 0 AN
+bow 1 1 blast F
+25 26 9189 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#7709
+staff maple~
+a maple {ywood{x staff~
+Someone dropped here a staff made of maple wood.~
+unknown~
+maple~
+weapon 0 AN
+staff 2 32 smash F
+50 51 38239 P
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#7710
+maple axe~
+a maple wood axe~
+An axe made of fine maple wood was left here for anyone to grab.~
+unknown~
+maple~
+weapon 0 AN
+axe 3 20 slash 0
+50 51 59669 P
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#7711
+pond~
+A {BP{bo{Bnd{x~
+A {Cs{ch{Ci{cmm{Ce{cr{Ci{cn{Cg {Bp{bo{Bnd{x.~
+unknown~
+~
+fountain 0 0
+10000 10000 'water' 0
+15 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7712
+maple mace~
+a maple wood mace~
+A mace crafted from the wood of a maple was left here.~
+unknown~
+maple~
+weapon 0 AN
+mace 3 17 crush 0
+50 51 30278 P
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#7713
+staff pine~
+a staff of pine wood~
+A staff made of the strongest pine wood was left here.~
+unknown~
+pine~
+weapon 0 AN
+staff 4 19 smash 0
+75 76 66454 P
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#7714
+pine axe~
+a strong axe made of pine wood~
+Someone left this strong looking axe, with a shinny blade, behind.~
+unknown~
+pine~
+weapon 0 AN
+axe 4 23 cleave 0
+75 76 169930 P
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#7715
+pine mace~
+a pine wood mace~
+A fine mace is here on the ground.~
+unknown~
+pine~
+weapon 0 AN
+mace 4 19 crush 0
+75 76 90869 P
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#7716
+staff oak~
+a staff of oak wood~
+A big piece of oak shapped like a staff was left over here.~
+unknown~
+pine~
+weapon 0 AN
+staff 5 19 smash 0
+91 92 87512 P
+A
+18 9
+A
+19 9
+G none
+G none
+G none
+G none
+#7717
+axe oak~
+a beautifull oak wood axe~
+A strong good looking axe was left here for everyone to admire.~
+unknown~
+pine~
+weapon 0 AN
+axe 5 22 cleave 0
+91 92 225785 P
+A
+19 9
+A
+18 9
+G none
+G none
+G none
+G none
+#7718
+mace oak~
+an oak wood mace~
+A beautifull mace is here.~
+unknown~
+maple~
+weapon 0 AN
+mace 5 19 crush 0
+91 92 123515 P
+A
+19 9
+A
+18 9
+G none
+G none
+G none
+G none
+#7719
+wood table~
+A big wood table~
+Here is a big {ywooden{x table bearing the mark of the {yS{gy{Glv{ga{yn{x.~
+wood~
+~
+furniture RY 0
+0 EIJKN N 0 0 0 EIJKN
+0 200 0 P
+G none
+G none
+G none
+G none
+#7720
+earth key~
+A {yEarth {DKey{x~
+There's a dark brown key sitting here.~
+earth~
+~
+key AB AO
+0 0 0 0 0 0 0
+15 10 0 P
+G none
+G none
+G none
+G none
+#7721
+basket~
+A small basket~
+On this table there's a nice basket with some fresh fruits in it.~
+unknown~
+~
+container RY 0
+1000 E 0 200 40 0
+0 200 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7722
+wood block~
+A Wood Block~
+Here sits a nice wood block.~
+unknown~
+~
+furniture R 0
+A EIJKN EHK CFG CFG A EIJKN
+15 0 0 P
+G none
+G none
+G none
+G none
+#7723
+wood bench~
+a big {ywood{x bench~
+Feel free to have a sit in this wood bench.~
+wood~
+~
+furniture RY 0
+CE EIJKN EH CFG CFG CE EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#7724
+wood block~
+A Wood Block~
+Here sits a nice wood block.~
+unknown~
+~
+furniture R 0
+A EIJKN EHK CFG CFG A EIJKN
+15 0 0 P
+G none
+G none
+G none
+G none
+#7725
+wood block~
+A Wood Block~
+Here sits a nice wood block.~
+unknown~
+~
+furniture R 0
+A EIJKN EHK CFG CFG A EIJKN
+15 0 0 P
+G none
+G none
+G none
+G none
+#7726
+wood block~
+A Wood Block~
+Here sits a nice wood block.~
+unknown~
+~
+furniture R 0
+A EIJKN EHK CFG CFG A EIJKN
+15 0 0 P
+G none
+G none
+G none
+G none
+#7727
+sword earth~
+A nice sword~
+Someone left here what looks like a nice {yearth{w made sword.~
+earth~
+~
+weapon 0 AN
+longsword 2 15 slash 0
+25 50 1375 P
+G none
+G none
+G none
+G none
+#7728
+log sit~
+A large log~
+A large log is here for you and others to sit or rest on.~
+wood~
+~
+furniture GIRS 0
+BD EIJKN EH CFG CFG BD EIJKN
+0 1000 0 P
+G none
+G none
+G none
+G none
+#7729
+campfire~
+A warm {Rfire{w~
+A warm {Rfire{w is here glowing and with its {Yflames{w dancing wildly. It's here to warm and bring some light to this room.~
+fire~
+~
+light AR 0
+353
+0 0 0 P
+G none
+G none
+G none
+G none
+#7730
+pit donations chest~
+The {ychest{x~
+A {ychest{x containing items liberated from {rpo{rachers{x.~
+unknown~
+~
+container IORYg 0
+100000 0 0 100000 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#7731
+bed leaves~
+A big bed of leaves~
+A big bed of {gl{ye{ga{yv{ge{ys{x is here helping everyone who's tired to recover.~
+unknown~
+leaves~
+furniture RY 0
+CE EIJKN EHK BDEFGH BDEFGH CE EIJKN
+0 1000 0 P
+G none
+G none
+G none
+G none
+#7732
+bench wood~
+A wood bench~
+Here is a {ywood{x {wbench{x where you can sit or rest.~
+wood~
+~
+furniture RY 0
+AC DHIJM EH BDEFGH BDEFGH AC DHIJM
+0 1000 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7734
+fresh fruit nectarine~
+Fresh {Ynectarine{x~
+Here is a fresh nectarine. Who could have left such a sweet and fresh fruit behind.~
+unknown~
+~
+food A AO
+ADE BEF 0 0 0 ADE BEF
+15 50 219 P
+G none
+G none
+G none
+G none
+#7736
+chair branches anais leader~
+The chair of the clan leader~
+A chair made of {Ytw{yi{Yst{yed{Y br{yan{Yc{yh{Yes{x with a {Gmo{gss {Gco{gver{Ged{x seat.~
+wood~
+~
+furniture RY 0
+A EIJKN EH DGH DGH A EIJKN
+40 1000 0 P
+G none
+G none
+G none
+G none
+#7738
+wings angel~
+{WAngel's Wings{x~
+A pair of shinny and very white wings fly around the room softly.~
+unknown~
+~
+clothing BFIYa AK
+ABCF ABCF ABCF BCF 0 ABCF ABCF
+108 109 104 P
+G none
+G none
+G none
+G none
+#7739
+magical portal~
+the {WMagic Portal{x~
+~
+unknown~
+~
+portal 0 0
+0 0 A 3360 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7740
+jar ale~
+a jar of {yale{x~
+Here is a dripping jar full of {yale{x.~
+glass~
+~
+drink U AO
+40 40 'ale' 0
+0 30 3096 P
+G none
+G none
+G none
+G none
+#7741
+bottle beer~
+a bottle of beer~
+How could someone left behind such a tasty bottle of {YB{We{Ye{Wr{x.~
+glass~
+~
+drink U AO
+20 20 'beer' 0
+0 30 1480 P
+G none
+G none
+G none
+G none
+#7742
+peanuts~
+a bunch of peanuts~
+A small bunch of {ypeanuts{x was left all over the floor.~
+unknown~
+peanuts~
+food 0 AO
+BD BD 0 0 0 BD BD
+0 1 99 P
+G none
+G none
+G none
+G none
+#7743
+round table~
+a round table~
+In the center of the room is a round table around which all the Sylvan members can gather to have a bottle of beer or ale.~
+wood~
+~
+furniture RYa 0
+0 CDFI N 0 0 0 CDFI
+0 10000 0 P
+G none
+G none
+G none
+G none
+#7744
+key midgaard strange cyan~
+a small iron key~
+The key of Midgaard emanating a {Cstrange{x aura.~
+iron~
+~
+portal AKR 0
+0 D A 6001 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7745
+centaur dying hoof brown~
+a small centaur hoof~
+A small centaur hoof with a {ybrown{x aura.~
+unknown~
+~
+portal AR 0
+0 D AD 97401 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7746
+unicorn horn magical purple~
+a unicorn horn~
+A unicorn horn with a {mmagical{x aura.~
+unknown~
+~
+portal AR 0
+0 D AD 1874 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7747
+steson green emerald~
+a stetson~
+A stetson with a {gemerald{x aura.~
+unknown~
+~
+portal AR 0
+0 D AD 234 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7748
+arcadia quill silver~
+a quill~
+The quill of Arcadia with a {Wsilver{x aura.~
+unknown~
+~
+portal AR 0
+0 D AD 12040 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#7749
+looking glass misty~
+a {cmisty{x looking glass~
+A looking glass sparkling with a {cmisty{x aura.~
+unknown~
+~
+portal AR 0
+0 D AD 19531 0
+0 0 0 P
+C Sylvan~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#7700
+The entrance to a small walnut grove~
+This room seems to be the entrance to a small walnut grove.  All you can
+see in any direction are trees towering above you.  There is the nice smell
+walnut sap from the trees here.  There is a hooded ranger here watching all
+who pass by with a keen eye and a steady bow trained on your every move. 
+There are bushes blocking you path to the south and north.  
+~
+0 SXd forest
+D1
+~
+~
+Z 0 97437
+0 0
+D3
+~
+living~
+ADFMZ 7720 7701
+0 0
+C Sylvan~
+S
+#7701
+Path through a small Walnut Grove~
+You slowly make you way and notice there leaves everywhere.  You have a
+strange feeling your being watched.  There is a glimps of someone out the
+side of your eye but there to quick.  You slowly move foward looking all
+around for people and traps.  There is no real danger so you start to walk
+faster and more easy now.  
+~
+0 d forest
+D0
+~
+~
+Z 0 7702
+0 0
+D1
+~
+~
+ADFMZ 0 7700
+0 0
+C Sylvan~
+S
+#7702
+End of the Path through a small Walnut Grove~
+Here ends the path that comes from the south.  The smell of walnut seems
+to vanish.  The air here is fresher than in the rest of the path and a warm
+felling fills the travelers' soul and mind.  The surroundings look like the
+perfect home for a Sylvan.  To the north you get a glimpse of what looks
+like the biggest and greatest tree you have ever put your eyes on.  
+~
+0 d forest
+D0
+~
+~
+Z 0 7703
+0 0
+D2
+~
+~
+Z 0 7701
+0 0
+C Sylvan~
+S
+#7703
+Clearing before the Great Tree of Sylvan~
+This wide clearing is filled with the crackling sound of burning wood,
+that sound comes from a wild looking fire, in one side of the clearing. 
+Near the fire there's a log for one to seat and rest.  In the north side of
+the clearing a huge tree rises from the ground.  It's highest branches and
+leaves seem to touch the sky and wrap the clouds.  It's probably one of the
+highest trees of this realm.  You see a small hole in its trunk, can it be a
+way in?  
+~
+0 d forest
+D0
+~
+~
+Z 0 7704
+0 0
+D2
+~
+~
+Z 0 7702
+0 0
+C Sylvan~
+S
+#7704
+Inside the Great Tree of Sylvan~
+You are inside of a huge tree which looks like it was born to be a house,
+a very large house, by the size of this room.  This place looks completely
+unique from any other place in this realm.  All brown in what almost could
+be called walls but colored by leaves that cover the floor.  It looks almost
+like a forest inside a tree.  This is the ground floor of the Great Tree of
+Sylvan.  In the center of the room rises a stair looking branch that leads
+up.  A sound of wild animals comes from a small exit west from here.  
+~
+0 d forest
+D2
+~
+~
+Z 0 7703
+0 0
+D3
+~
+~
+Z 0 7705
+0 0
+D4
+~
+~
+Z 0 7706
+0 0
+C Sylvan~
+S
+#7705
+Animals Place~
+At first sight this room looks smaller than it really is.  After a closer
+look you'll notice that the reason why it looks so small is because of the
+innumerous branches full of leaves that fall from its top.  Those branches
+make curtains of brown and green that don't allow anyone to see all the room
+at once.  Wondering around the room a high number of different animals can
+be seen.  Some are playing with each other, others are resting and some are
+drinking water from a clear pound.  This room is really different from the
+one to the east, because even though it's still inside the Great Tree it
+looks more like it's outside maybe it's connected to outside hard to say
+with all those branches around.  
+~
+0 d forest
+D1
+~
+~
+Z 0 7704
+0 0
+C Sylvan~
+S
+#7706
+On the stair-looking branch~
+It looks like you have reached the middle of this strange staircase.  You
+have walked a big number of steps in such a short time and you aren't even
+tired.  If you look around you will notice that you aren't only walking in
+the steps of a stair-looking branch you are inside of the branch, maybe
+that's why such a big walk looked so easy to make.  Continuing up you will
+get to the first floor and down it's the ground floor of this tree.  
+~
+0 d forest
+D4
+~
+~
+Z 0 7709
+0 0
+D5
+~
+~
+Z 0 7704
+0 0
+C Sylvan~
+S
+#7707
+Intersection on the underbrush~
+There seems to be paths east and west and of course southt he way you
+came.  There is a large tree towering over you to the west.  To the east is
+a bunch of small tracks from deer and stags.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 7711
+0 0
+D3
+~
+~
+Z 0 7712
+0 0
+C Sylvan~
+S
+#7708
+Sylvans Weapon Shop~
+This is a very cozy but messy room.  There are lots of weapons lying
+around in the floor and big clouds of dust filling the air.  Every weapon
+looks like a unique object made with great dedication.  This is the weapon
+shop of the Sylvan.  In one of the walls there's an old {Ddusty{y sign{x.  
+~
+0 d forest
+E
+balcony~
+You see lots of weapons and different sort of materials all over this
+balcony.  
+~
+E
+weapons~
+There are lots of different weapons here.  You see some {ywooden{x bows,
+shinny {Wswords{x and lots of other weapons.  They are lying around waiting
+for someone to buy them and wield such masterworks.  
+~
+E
+sign~
+| This is the Sylvans Weapon shop. |
+  |Here you can buy some fine weapons|
+  | made by Paleven our Weaponmaster.|
+  | To see what weapons you can buy  |
+  | type {Clist{x,enjoy and take good    |
+  |     care of those weapons.       |
+~
+D2
+~
+~
+Z 0 7709
+0 0
+C Sylvan~
+S
+#7709
+The First Floor~
+The entrance to this area is of such beauty that it takes the breath
+away.  The beautiful things that hang from the walls add liveliness and
+colour to an otherwise natural beauty.  Here, things are perfectly
+handcrafted in every form and fashion.  From the Mountains of the dwarves,
+to the Forests of the elves, every item has been lavished with love and
+perfect care.  Handcrafted bows, slender, exquisite swords, shields, capes,
+cloaks, pictures, everything is beautiful.  Along the back wall, a huge
+tapestry bearing the {GMark of the WILD {yEARTH{x can be seen, fluttering
+lightly in the breeze.  Looking around, it appears that no natural life was
+harmed.  Every item has it places, but every item doesn't seem to have been
+forcefully placed on anything.  The magical feel of the area seems
+refreshing to the mind, and pleasing to the senses.  In this place,
+{Mp{me{Ma{mc{Me{x and {Ct{cr{Ca{cn{Cq{cu{Ci{cl{Ci{ct{Cy{x rule.  
+~
+0 d forest
+D0
+~
+~
+Z 0 7708
+0 0
+D1
+~
+~
+Z 0 7710
+0 0
+D2
+~
+~
+Z 0 7718
+0 0
+D3
+~
+~
+Z 0 7711
+0 0
+D4
+~
+~
+Z 0 7713
+0 0
+D5
+~
+~
+Z 0 7706
+0 0
+C Sylvan~
+S
+#7710
+Holy resting grounds~
+An {ga{Gu{gra{x of tranquility fills this room.  Twigs, leaves and branches
+are set in mystical patterns throughout this room.  Some are wards against
+fire, others are healing glyphs.  The compassion of the {GF{gorest{x is being
+channeled into this room by the faith of a comsumate worshiper of nature.
+~
+0 d forest
+D3
+~
+~
+Z 0 7709
+0 0
+C Sylvan~
+S
+#7711
+Water from the Sky~
+In the center of this room there's a shimmering pond.  This pond gathers
+the water from the rain, dripping through the walls.  Here you can refresh
+yourself and drink the purest water of this realm.  
+~
+0 d forest
+E
+walls~
+Through these walls flows a small path of rain water.  This water fills
+the pond in the center of the room.  
+~
+D1
+~
+~
+Z 0 7709
+0 0
+D3
+~
+~
+Z 0 7707
+0 0
+C Sylvan~
+S
+#7712
+Beside the Great spirit of the earth~
+You stand before the great spirt tree of the earth.  It seems this tree
+is large enough to hold 50 giants and strong enough to hold 50 of them as
+well.  It looks like there is wild life hidden everywhere you look.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 7707
+0 0
+C Sylvan~
+S
+#7713
+Inside of a stair-looking branch~
+This stair is similar to the one that links the ground floor to the first
+floor of the great Sylvan tree.  Further up is the last floor of the Tree
+and the one closer to the clouds.  
+~
+0 d forest
+D4
+~
+~
+Z 0 7716
+0 0
+D5
+~
+~
+Z 0 7709
+0 0
+C Sylvan~
+S
+#7714
+A Strange Room~
+A strange multi-colored aura fills this room with magic.  The sounds of
+many different places of this realm reach this room, whispering and speaking
+quietly to one's ears.  On a small table at the center of the room are
+peculiar objects with powerful auras.  Each compel you to draw near as
+if willing yourself into them will take you to another place.
+~
+0 d forest
+E
+hoof~
+This magic hoof was awarded to the Sylvan clan by the Centaur leader to honor our role in protecting the Dying Forest.
+~
+E
+key~
+This key will lead you to the south gate of Midgaard, where a ranger will stay safely camouflaged and still will be able to watch the city movement.
+~
+E
+midgaard~
+This key will lead you to the south gate of Midgaard, where a ranger will stay safely camouflaged and still will be able to watch the city movement.
+~
+D0
+~
+~
+Z 0 7716
+0 0
+C Sylvan~
+S
+#7715
+Training Room~
+At the far end of the room old sacks of barley have dyied circles on them
+indicating accuracy of shots.  Amazingly many of the centers of these
+circles are dark from the material wearing away as shot after shot has hit
+the {Wbu{Dl{rls{De{Wye{x.  Bows, axes, and even the occational mace line this room's
+walls.  It's clear a taskmaster is setting forth difficult challenges for
+skilled archers and fierce combatants.  On the walls are faded scrolls that
+once gave instruction to fledgling {yS{gy{Glv{ga{yn{x about the great skills of heroes
+past.  Perhaps someone still knows this {Cl{co{Cre{x.
+~
+0 d forest
+D1
+~
+~
+Z 0 7716
+0 0
+C Sylvan~
+S
+#7716
+The Second Floor~
+This is the highest floor of the Sylvan tree, above here there are only
+big branches waving their leaves with each blow of wind.  This is a quite
+place for a forest lover to be, far away from any city and in perfect
+contact with nature.  In this walls some there are some fine portraits with
+pictures of smiley rangers and hard-looking warriors, there are also some
+portraits with bright clerics that seem to irradiate their healing aura. 
+You can tell those are the Sylvan ancestors for everyone of them bares the
+{GMark of the WILD{yEarth{x.  
+~
+0 d forest
+D0
+~
+~
+Z 0 7717
+0 0
+D1
+~
+~
+Z 0 7719
+0 0
+D2
+~
+~
+Z 0 7714
+0 0
+D3
+~
+~
+Z 0 7715
+0 0
+D4
+~
+~
+Z 0 7721
+0 0
+D5
+~
+~
+Z 0 7713
+0 0
+C Sylvan~
+S
+#7717
+Woodland Serenity~
+Inside this room you can't hear any noise that comes from the outside and
+the air makes you feel warm and quiet.  All the surroundings make you feel
+like having a quick and restoring nap.  Here you see a giant bed of leaves
+and some nice wood benches.  
+~
+0 d forest
+D2
+~
+~
+Z 0 7716
+0 0
+C Sylvan~
+S
+#7718
+The {GWild {yEarth{x Tavern~
+'Welcome to the Wild Earth Tavern' says a big sign hanging in a wall.  In
+the balcony there's an elf selling different kinds of food and drinks at a
+cheap price.  In this tavern there's only a big round table with some
+benches around it.  The air is filled with the mixed smell of different
+tasty things.  
+~
+0 d forest
+D0
+~
+~
+Z 0 7709
+0 0
+C Sylvan~
+S
+#7719
+Meeting Room~
+You have entered the Sylvan meeting room.  You can see a great number of
+different maps dropped all over a big table.  Here they meet each other to
+speak of different subjects.  It's a big room and beside the big table you
+can see a nice bench and some fine chairs.  In the walls you can see
+drawings of different beings that live in the forests.  This room is not
+only used for meetings, here the clan members can also spend some time
+chatting about their experiences in this realm.  
+
+~
+0 d forest
+E
+map~
+You see a big pile of maps.  If you look closer you'll notice that they
+are maps from the forests of the realms.  Some of these maps have big
+{Rred{x circles around strategic areas.  
+~
+E
+maps~
+You see a big pile of maps.  If you look closer you'll notice that they
+are maps from the forests of the realms.  Some of these maps have big
+{Rred{x circles around strategic areas.  
+~
+D3
+~
+~
+Z 0 7716
+0 0
+C Sylvan~
+S
+#7720
+Home of the {GGOD OF WILDERNESS{x~
+This is the home of {WFronz{D Wood{x, {GGOD OF WILDERNESS{x.  This is a
+very large place.  The air gives a sense of calm and serenity and the smell
+of leaves, rain and forest life fills the room.  The walls are not as of a
+common city house they are all brown and look like the trunk of a tree. 
+This looks more like a tree house than other thing, probably built inside a
+great tree.  The wind enters from the place where a roof should be, but
+where only leaves can be seen.  During the day the sun passes trough the
+leaves but when it rains the leaves seem to be re-arranged so the rain won't
+fill this room with unneeded amounts of water.  In the north side of the
+room there's a small pool filled with rain-drops that slide down the trunk. 
+This is really a confortable room and a very quite place.  If you were
+brought here you deserved it our you were needed, so wait patiently til you
+are spoken to.  
+~
+0 NP forest
+C Sylvan~
+S
+#7721
+The Top of the {gG{Gr{geat {yT{gr{yee{x~
+At the top of the {gG{Gr{geat {yT{gr{yee{x the brances thin out, and the leaves aren't
+as dense.  Because of this, the nurturing light light of the {cs{Cky{x spills in
+from above.  A sacred feeling permeates the branches you're standing on,
+feeding from the great power in the {ytrunk{x.
+~
+0 Xd forest
+D5
+~
+~
+Z 0 7716
+0 0
+S
+#0
+
+#RESETS
+M 0 7701 1 7700 1	* A Cloaked Ranger (The entrance to a small walnut grove)
+E 0 7720 0 17		*	A {yEarth {DKey{x: held in the hands
+O 0 7729 0 7703	* A warm {Rfire{w (Clearing before the Great Tree of Sylvan)
+O 0 7728 0 7703	* A large log (Clearing before the Great Tree of Sylvan)
+M 0 7707 1 7707 1	* A Fox (Intersection on the underbrush)
+M 0 7721 1 7708 1	* Paleven the Weaponmaster (Sylvans Weapon Shop)
+G 0 7705 0		*	a elm wood staff
+G 0 7706 0		*	an axe of elm wood
+G 0 7707 0		*	a mace of elm wood
+G 0 7708 0		*	a nice elm wood bow
+G 0 7709 0		*	a maple {ywood{x staff
+G 0 7710 0		*	a maple wood axe
+G 0 7712 0		*	a maple wood mace
+G 0 7713 0		*	a staff of pine wood
+G 0 7714 0		*	a strong axe made of pine wood
+G 0 7715 0		*	a pine wood mace
+G 0 7716 0		*	a staff of oak wood
+G 0 7717 0		*	a beautifull oak wood axe
+G 0 7718 0		*	an oak wood mace
+M 0 7710 1 7710 1	* A Bear (Holy resting grounds)
+O 0 7730 0 7710	* The {ychest{x (Holy resting grounds)
+M 0 7711 1 7711 1	* A White Stag (Water from the Sky)
+O 0 7711 0 7711	* A {BP{bo{Bnd{x (Water from the Sky)
+M 0 7715 3 7713 1	* A Squirrel (Inside of a stair-looking branch)
+M 0 7715 3 7714 1	* A Squirrel (A Strange Room)
+O 0 7744 0 7714	* a small iron key (A Strange Room)
+O 0 7745 0 7714	* a small centaur hoof (A Strange Room)
+O 0 7746 0 7714	* a unicorn horn (A Strange Room)
+O 0 7747 0 7714	* a stetson (A Strange Room)
+O 0 7748 0 7714	* a quill (A Strange Room)
+O 0 7749 0 7714	* a {cmisty{x looking glass (A Strange Room)
+M 0 7722 7715 7715 1	* The ancient ranger (Training Room)
+M 0 7715 3 7715 1	* A Squirrel (Training Room)
+M 0 7715 1 7717 1	* A Squirrel (Woodland Serenity)
+O 0 7731 0 7717	* A big bed of leaves (Woodland Serenity)
+O 0 7732 0 7717	* A wood bench (Woodland Serenity)
+O 0 7723 0 7718	* a big {ywood{x bench (The {GWild {yEarth{x Tavern)
+O 0 7743 0 7718	* a round table (The {GWild {yEarth{x Tavern)
+M 0 7718 1 7718 1	* Elmsky the tavern maid (The {GWild {yEarth{x Tavern)
+G 0 7740 0		*	a jar of {yale{x
+G 0 7741 0		*	a bottle of beer
+G 0 7742 0		*	a bunch of peanuts
+O 0 7736 0 7719	* The chair of the clan leader (Meeting Room)
+O 0 7723 0 7719	* a big {ywood{x bench (Meeting Room)
+O 0 7721 0 7719	* A small basket (Meeting Room)
+O 0 7719 0 7719	* A big wood table (Meeting Room)
+P 0 7734 5 7721 1	* A small basket: Fresh {Ynectarine{x
+O 0 7724 0 7720	* A Wood Block (Home of the {GGOD OF WILDERNESS{x)
+O 0 7725 0 7720	* A Wood Block (Home of the {GGOD OF WILDERNESS{x)
+O 0 7726 0 7720	* A Wood Block (Home of the {GGOD OF WILDERNESS{x)
+M 0 7720 1 7720 1	* A friendly elf (Home of the {GGOD OF WILDERNESS{x)
+E 0 7727 0 16		*	A nice sword: wielded
+O 0 7739 0 7720	* the {WMagic Portal{x (Home of the {GGOD OF WILDERNESS{x)
+O 0 7702 0 7721	* {ystump{x of petrified {Dashwood{x (The Top of the {gG{Gr{geat {yT{gr{yee{x)
+P 0 7700 1 7702 1	* {ystump{x of petrified {Dashwood{x: a {gsappling{x of the {GG{gr{Geat {yT{gr{yee {WGiya{x
+M 0 7709 1 7721 1	* an elven healer (The Top of the {gG{Gr{geat {yT{gr{yee{x)
+E 0 7703 0 17		*	A small {yTwig{x of {gunlocking{x: held in the hands
+S
+
+#SHOPS
+7718 0 0 0 0 0 100 17 0 23
+7721 -1 0 0 0 0 100 16 0 23
+0
+
+#MOBPROGS
+#7700
+if clan $n Sylvan
+'Welcome home Wolf!
+pmote smiles and opens the brush for $n.
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+clan Hail, WARDERS, $n has arrived at the entrance to our Grove!!!!!
+pmote eyes $n suspiciously and raises his hand to the quiver of arrows on his back.
+'You are not welcome beyond the great tree.
+~
+#7701
+if clan $n Sylvan
+if ischarm $n
+say I cannot allow you inside, you do not seem in full control of your actions.
+else
+mob echoat $n The ranger steps aside and opens the brush to allow you passage.
+mob echoaround $n the ranger steps quietly to the side, allowing $n to enter.
+mob gtrans $n 7701
+endif
+end
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n The ranger steps aside as $n sweeps swiftly past him.
+mob gtrans $n 7701
+endif
+pmote glares imperiously at $n.
+mob echo A commanding voice sounds from all around you in the forest: You there, halt NOW, or die!
+end
+~
+#7702
+clan Warders, The great tree is under attack!!!!
+clan The defiler, $n attacks our grove, aid me NOW!!!!!
+~
+#7703
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get elidodi altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give elidodi $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7704
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7705
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7706
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7707
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7708
+if clan $n Sylvan
+emote looks at you.
+say Hello, welcome to my store. Let me just finish this and then I'll speak to you.
+emote finishes what he is doing and stands up.
+say In what may I help you?
+endif
+~
+#7709
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7710
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7711
+if clan $n sylvan
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#7712
+mob echoat $n {WYou leave the clanhall of Sylvan.{x
+if clan $n Sylvan
+else
+mob echoaround $n $n leaves the clanhall.
+endif
+mob gtransfer $n 7700
+if clan $n Sylvan
+else
+mob goto 7700
+mob echoaround $n $n arrives from the clanhall of Sylvan.
+mob goto 7701
+endif
+~
+#7718
+if clan $n Sylvan
+smile
+if sex $n == 1
+say Hello Brother, welcome to our Tavern! Have a sit and choose what you want from our list.
+smile $n
+else
+say Hello Sister, welcome to our Tavern! Have a sit and choose what you want from our list.
+smile $n
+endif
+~
+#7720
+if affected $n pass_door
+endif
+if isevil $n
+grin $n
+mob kill $n
+else
+nod $n
+'Let peace be with ye'
+end
+endif
+~
+#7721
+if $n == Fronz
+bow $n
+say Hello master!
+endif
+~
+#7722
+if clan $n 'sylvan'
+or isimmort $n
+mob echoaround $n $I whispers something about wolves into $n's ear.
+mob echoat $n $I gets a whistful look in $k eye and softly says:
+mob echoat $n {GSummoning a wolf is summoning one of the Forest's greatest defenders to your
+mob echoat $n side.  Wolves are incredibly loyal companions, providing you treat them right.
+mob echoat $n They move with grace and poise, hardly disturbing the brush around them.{x
+endif
+~
+#7723
+if clan $n 'sylvan'
+or isimmort $n
+mob echoaround $n $I whispers something about bears into $n's ear.
+mob echoat $n $I gets a wild look in $k eye and softly whispers:
+mob echoat $n {GEven in the heat of a battle these intrepid defenders of the Forest will hear
+mob echoat $n your call, and come to your aid.  Their claws and great strength make them
+mob echoat $n ferocious warriors.  Even doors fear their might.  But being followed around
+mob echoat $n by two bears is often a noisy affair.{x
+endif
+~
+#7724
+if clan $n 'sylvan'
+or isimmort $n
+mob echoaround $n $I whispers something about lions into $n's ear.
+mob echoat $n $I gets a intense look in $k eye and furtively says:
+mob echoat $n {GThe greatest of Sylvan Wardens may call upon the aid of the nearest pride of
+mob echoat $n lions.  They will rush forth two of their pride to fight along side you.{x
+endif
+~
+#7725
+if clan $n 'sylvan'
+or isimmort $n
+mob echoaround $n $I whispers something about tigers into $n's ear.
+mob echoat $n $I gets a fiery look in $k eye and in hushed tones says:
+mob echoat $n {GCalling upon the spirit of the Tiger can instill you with truer aim, more
+mob echoat $n deadly strikes, and even heal some of your wounds.  But beware, calling upon
+mob echoat $n this great power takes much stamina.{x
+endif
+~
+#7726
+if clan $n 'sylvan'
+or isimmort $n
+mob echoaround $n $I whispers something about paths into $n's ear.
+mob echoat $n $I gets a wise look in $k eye and in hushed voice says:
+mob echoat $n {GOne of the gifts of the Forest bestows upon her protectors is the keen sight
+mob echoat $n to find the path of least resistance through harsh terrain.  Sylvan thus move
+mob echoat $n through high grass, rocky river beds, and even waist deep marsh with the
+mob echoat $n greatest of ease.{x
+endif
+~
+#7730
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#0
+
+#PRACTICERS
+M 7709 clan~	* an elven healer
+S
+
+#$

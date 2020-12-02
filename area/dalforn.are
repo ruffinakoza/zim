@@ -1,0 +1,1340 @@
+#AREADATA
+Name Daleforn Valley~
+Builders aamon~
+VNUMs 100500 100599
+Credits Daphais~
+Security 9
+LevelRange 7 15
+ResetMessage You see a flash of fur, as a rodent scrurries hurriedly between your feet.~
+Flags closed noquest~
+End
+
+#MOBILES
+#100501
+caston paladin~
+{YCaston{z~
+The legendary {YCaston{z stands here, looking over the forest.
+~
+A strong and handsome man of his mid-40s, Caston is a legend in most
+circles; he is said to have single-handedly driven the goblin hoards from
+the forest when even the great ranger Figson couldn't do it.  While tall, he
+is not imposing; his presence is even inviting, though he certainly is
+curious as to why you're in his tower.  
+~
+human~
+ABQT BCDFHJNVZclx 1000 0
+150 150 740d150+500000 750d10+85 50d3+80 none
+-91 -91 -91 -60
+CDEFHIKQVW ABLMQ 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 100501 20~
+#100502
+old man~
+an old man~
+An old man sits on a makeshift bench.
+~
+He looks a bit wild, perhaps even insane; his hair is unkempt, his face
+dirty, and his eyes dart wildly.  You aren't sure what he's up to, but
+you're pretty sure it can't be good.  You notice what looks to be a holy
+symbol of Hera hanging from around his neck.  
+~
+human~
+ABR 0 -1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+DFHJN 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 100502 100~
+M give 100503 97513~
+M delay 100504 100~
+#100505
+valeman~
+a Valeman~
+A Valeman stands here going about his business.
+~
+The human before you seems to be a very content with his life.  Though he
+might be in a hurry to get the various things he needs to get done, done. 
+He still makes time to give you a smile as he passes.  
+~
+human~
+ACGWe 0 0 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+EK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AH
+#100519
+grently shopkeep~
+Grently~
+Grently the Dwarven shopkeep is here grumbling about some leggings.
+~
+A surly dwarf stands here working some leather.  By his expression hes
+wearing he isnt to happy about it either.  
+~
+dwarf~
+AB 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CEJ AB 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+M grall 100519 100~
+#100520
+litly weaponsmith~
+Litly the Carver~
+Litly the Weaponsmith is here carving a bow from oak.
+~
+A half-elven lass is sitting on the other side of a maple counter,
+carving a longbow from oak.  
+~
+half-elf~
+AB 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+EFJK AB 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff J
+M grall 100520 100~
+#100521
+daleforn grocer~
+The Grocer~
+Daleforn's Grocer is here cleaning his shop.
+~
+A average sized human stands here sweeping and dusting his humble shop. 
+Every so often he lets out a sad sigh, as he remembers days long past.  
+~
+human~
+AB J 0 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+EFJK AB 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+#100522
+barkeep duor~
+Duor the Barkeep~
+Duor the Barkeep stands here cleaning out a glass.
+~
+A happy, strong looking male human stands behind the bar cleaning out a
+glass.  Dressed in woodland garb from head to toe there is no question as to
+his pervious profession.  Every so often he seems to grimace as if in pain,
+but nonetheless he continues to wear his smile.  
+~
+human~
+ABe t 200 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 0 0 0
+stand stand male 99
+0 0 medium flesh~
+~
+#100523
+valeman~
+a Valeman~
+A Valeman stands here going about his business.
+~
+The human before you seems to be a very content with his life.  Though he
+might be in a hurry to get the various things he needs to get done, done. 
+He still makes time to give you a smile as he passes.  
+~
+human~
+ACGWe 0 0 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+EK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AH
+#100531
+test mpcode~
+tester~
+tester
+~
+~
+human~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 95517 rand ~
+M act 95517 pokes you 100~
+M act 95517 pokes you~
+M speech 100532 Boo!~
+#0
+
+#OBJECTS
+#100501
+window~
+a window~
+~
+unknown~
+~
+portal 0 0
+0 AB A 100526 0
+0 0 0 P
+E
+window~
+A large window set into the back wall of this building.  Looking
+out you can see a large cliff face that looms high above the town.  
+~
+G none
+G none
+G none
+G none
+#100502
+chest wooden old~
+an old wooden chest~
+A small, ancient-looking wooden chest sits here, stained by the sun.~
+wood~
+~
+container 0 AO
+10 ABCD 100503 15 85 0
+0 0 9219 P
+G none
+G none
+G none
+G none
+#100503
+old rusty key~
+an old rusty key~
+An old rusty key sits on the ground, neglected.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 12 P
+G none
+G none
+G none
+G none
+#100504
+caston shield resister~
+{YResister{z~
+Caston seems to have misplaced his legendary shield, {YResister{z.~
+steel~
+~
+armor AFGIKLTh AJ
+38 38 38 37 'none' 0
+106 107 1137911 P
+F
+A 0 0 B
+A
+12 100
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#100505
+sword caston liberator~
+{YLiberator{z~
+Caston seems to have lost his legendary broadsword, {YLiberator{z.~
+unknown~
+~
+weapon AFGIKL AN
+longsword 6 21 divine I
+106 107 500849 P
+A
+13 75
+A
+19 10
+G none
+G none
+G none
+G none
+#100506
+key golden enlightener~
+{YEnlightener{z~
+It seems that the legendary Caston has lost his key.~
+gold~
+~
+key AGIKLT AO
+0 0 0 0 0 0 0
+106 0 12345 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#100507
+leather worn gloves~
+a pair of worn leather gloves~
+A pair of worn leather gloves have been discarded here.~
+leather~
+~
+armor 0 AH
+6 6 6 5 'none' 0
+14 1 4333 P
+A
+14 5
+A
+13 1
+A
+2 1
+E
+worn leather gloves~
+A pair of gloves made from extremely worn leather.  There are a few blood
+stains and the leather appears to have dried and cracked.  
+~
+G none
+G none
+G none
+G none
+#100508
+jerkin leather worn~
+a worn leather jerkin~
+A worn leather jerkin has been discarded here.~
+unknown~
+worn leather~
+armor 0 AD
+4 5 8 5 'none' 0
+15 2 14807 W
+A
+14 15
+A
+2 1
+A
+13 5
+E
+jerkin leather worn~
+A worn out jerkin made of thin aged flesh of a woodland animal.
+~
+G none
+G none
+G none
+G none
+#100509
+worn leather bracer~
+a worn leather bracer~
+A worn leather bracer has been discarded here.~
+leather~
+~
+armor 0 AM
+6 6 6 5 'none' 0
+16 1 2982 W
+A
+18 1
+A
+14 15
+E
+worn leather bracer~
+A worn bracer made from old leather.  The leather is cracked and
+scratched from apparent use and lack of care.  
+~
+G none
+G none
+G none
+G none
+#100510
+worn leather cap~
+a worn leather cap~
+A worn leather cap has been discarded here.~
+leather~
+~
+armor 0 AE
+7 7 7 6 'none' 0
+19 3 3019 W
+A
+4 1
+E
+worn leather cap~
+A thick cap made of worn leather.  The cap smells slightly of aged sweat
+and blood.  
+~
+G none
+G none
+G none
+G none
+#100511
+worn leather leggings~
+worn leather leggings~
+Some worn leather leggings have been discarded here.~
+unknown~
+~
+armor 0 AF
+7 7 7 6 'none' 0
+18 9 7568 D
+A
+5 1
+A
+13 9
+E
+worn leather leggings~
+Leggings of abused leather.  You can see the many scars in the leather
+from patches that have been patched and repatched.  Blood stains are
+numerous as well as cracks in the leather from lack of proper care.  
+~
+G none
+G none
+G none
+G none
+#100512
+worn leather boots~
+worn leather boots~
+A pair of worn leather boots have been discarded here.~
+leather~
+~
+armor 0 AG
+7 7 7 6 'none' 0
+18 6 6397 B
+A
+18 2
+A
+2 1
+E
+worn leather boots~
+Boots made from leather worn with abundant use.
+~
+G none
+G none
+G none
+G none
+#100513
+worn cloak~
+a worn woodland cloak~
+A worn out woodland cloak has been discarded here.~
+unknown~
+clothe~
+clothing 0 AK
+AC AC AC C 0 AC AC
+13 3 1847 G
+A
+12 8
+A
+13 5
+E
+worn woodland cloak~
+A woodland cloak made out of plant fibers.  It smells of stale sweat and
+the fabric has been streched and faded from apparent use.  
+~
+G none
+G none
+G none
+G none
+#100514
+herb pouch~
+an herb pouch~
+A herb pouch has been discarded here.~
+unknown~
+~
+container 0 AL
+40 I 0 10 100 0
+15 0 3221 P
+A
+13 10
+E
+herb pouch~
+An herb pouch made from plant fibers.  The pouch has a long cord attached
+to it so one may wear it around the waist.  
+~
+G none
+G none
+G none
+G none
+#100520
+woodlen bow long longbow~
+a woodland longbow~
+A woodland longbow rests here.~
+unknown~
+~
+weapon 0 AN
+bow 1 12 thwack FK
+10 11 3179 P
+A
+19 1
+A
+18 1
+G none
+G none
+G none
+G none
+#100521
+woodlen water skin~
+a water skin~
+A water skin made from the flesh of a deer rests here.~
+flesh~
+~
+drink 0 AO
+10 10 'water' 0
+1 0 659 P
+E
+skin~
+A one foot long container made from the flesh of a deer, it seems capable
+of holding a large amount of liquid.  
+~
+G none
+G none
+G none
+G none
+#100522
+backpack woodland~
+a sturdy backpack~
+A sturdy backpack made of a woodland colored clothe rests here.~
+unknown~
+~
+container Y AK
+300 A 0 100 95 0
+15 0 34711 P
+A
+12 10
+A
+19 1
+A
+18 1
+A
+17 -3
+G none
+G none
+G none
+G none
+#100523
+steak deer~
+a deer steak~
+A steak made from a corpse of a deer rests here.~
+unknown~
+~
+food 0 A
+CE DF 0 0 0 CE DF
+1 0 165 P
+G none
+G none
+G none
+G none
+#100524
+superiour woodlen longbow~
+a superior longbow~
+A superior woodland longbow rests here.~
+unknown~
+~
+weapon 0 AN
+bow 2 25 thwack FK
+40 41 52270 P
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#100525
+small note~
+a small note~
+A half burnt note rests here.~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 1 0 B
+E
+note~
+The note reads:
+ 
+{y......passage behind the village hovels.....strange man....quest.....
+ 
+{xThe rest has been burnt away.
+~
+G none
+G none
+G none
+G none
+#100526
+ashes~
+the ashes~
+~
+unknown~
+~
+container 0 0
+2 0 0 10 0 0
+0 0 0 P
+E
+ashes~
+A pile of warm ashes with a note half embedded into them.
+~
+G none
+G none
+G none
+G none
+#100527
+bow palesinger~
+{wP{Wa{wl{We{ws{Wi{wn{Wg{we{Wr{x~
+A bow fashioned from elven bones rest here.~
+unknown~
+bones~
+weapon CEGJLT AN
+bow 17 9 crush F
+106 107 1443005 P
+A
+19 15
+A
+18 15
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100501
+Before the Village~
+You are traveling on a quit pathway in the bottem of the valley of
+Daleforn.  Directly North of here stands the quaint village of Daleforn.  It
+doesn't appear to be very busy at the moment, but from all you can tell it's
+never busy.  The path leads north to the Village of Daleforn and heads South
+eventually leading to Emerald forest.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100502
+0 0
+D2
+~
+~
+Z 0 216
+0 0
+S
+#100502
+Village Square~
+You are travelling on a dirt path in the village of Daleforn.  The few
+buildings that make up this village are clustered here and there.  Glancing
+North, past the few shoplike buildings that make up the center of the
+village, you can make out a row of buildings that just might be homes of
+some sort.  The dirt path leads East and West, While you may leave the
+village to the South.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 100503
+0 0
+D2
+~
+~
+Z 0 100501
+0 0
+D3
+~
+~
+Z 0 100513
+0 0
+S
+#100503
+Village Square~
+You are on a small dirt path in the Village of Daleforn.  What you have
+seen of this village lead you to believe that it is mostly quiet and
+peaceful.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100504
+0 0
+D3
+~
+~
+Z 0 100502
+0 0
+S
+#100504
+Village Square~
+You are on a small dirt path in the Village of Daleforn.  Looking around
+you can see a few strange trees and other plant life that seem to grow in
+abundance in this small village.  To the west is a small pathway lined with
+a few buildings.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100505
+0 0
+D2
+~
+~
+Z 0 100503
+0 0
+D3
+~
+~
+Z 0 100518
+0 0
+S
+#100505
+Village Square~
+You are on a small dirt path in the Village of Daleforn.  What you have
+seen of this village lead you to believe that it is mostly quiet and
+peaceful.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100506
+0 0
+D2
+~
+~
+Z 0 100504
+0 0
+S
+#100506
+Village Square~
+You are on a dirt path directly south of a medium sized building.  Soft
+converstation filters through the opened door as well as the smell of fresh
+ale.  A large sign hangs from the front of the building.  The dirt path
+continues to the south and west.  
+~
+0 0 forest
+E
+sign~
+{gD{Yel{gton{D'{gs {yBar{x {Dis now {WOPEN{x
+~
+D0
+~
+~
+Z 0 100522
+0 0
+D2
+~
+~
+Z 0 100505
+0 0
+D3
+~
+~
+Z 0 100507
+0 0
+S
+#100507
+Village Square~
+You are on a small dirt path within the village.  The path continues to
+the West and East while there is a relatively large building to the north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100523
+0 0
+D1
+~
+~
+Z 0 100506
+0 0
+D3
+~
+~
+Z 0 100508
+0 0
+S
+#100508
+Village Square~
+You are on a small dirt path within the village.  The path continues to
+the West and East while there is a relatively large building to the north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100524
+0 0
+D1
+~
+~
+Z 0 100507
+0 0
+D3
+~
+~
+Z 0 100509
+0 0
+S
+#100509
+Village Square~
+You are on a dirt path directly south of a relatively large building. 
+The area surrounding the building seems to be tended to on a regular basis,
+possibly it is a home of sorts.  The path leads East and to the South.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100525
+0 0
+D1
+~
+~
+Z 0 100508
+0 0
+D2
+~
+~
+Z 0 100510
+0 0
+S
+#100510
+Village Square~
+You are on a dirt path in the Village of Daleforn.  You can smell
+alluring aromas comeing from a building to the east.  The path continues
+North and to the South.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100509
+0 0
+D1
+~
+~
+Z 0 100521
+0 0
+D2
+~
+~
+Z 0 100511
+0 0
+S
+#100511
+Village Square~
+You are on a dirt path within the village of Daleforn.  To the west is a
+small wooden gate that seems to be stuck in an open position.  Past the gate
+you notice that the plant life becomes more dense, though there is a
+distinct trail leading to somewhere.  The path continues North and South,
+and through the gate to the west.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100510
+0 0
+D2
+~
+~
+Z 0 100512
+0 0
+D3
+~
+~
+Z 0 100514
+0 0
+S
+#100512
+Village Square~
+You are on a small dirt path in the Village of Daleforn.  What you have
+seen of this village lead you to believe that it is mostly quiet and
+peaceful.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100511
+0 0
+D1
+~
+~
+Z 0 100513
+0 0
+S
+#100513
+Village Square~
+You are on a small dirt path in the Village of Daleforn.  What you have
+seen of this village leads you to believe that it is mostly quiet and
+peaceful.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 100502
+0 0
+D3
+~
+~
+Z 0 100512
+0 0
+S
+#100514
+Near the Wooden Tower~
+You are travelling along a small woodland path.  The forest here grows
+less dense than that of the North of you.  Faint sounds of forest life can
+be heard off in the distance.  To the east sits a wooden gate which seems to
+be stuck open.  To the North stands a large tower made of wood.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100515
+0 0
+D1
+~
+~
+Z 0 100511
+0 0
+S
+#100515
+On a Path Before the Wooden Tower~
+You are travelling along a small woodland path.  The forest life echos all
+about you as you progress along the trail.  The path continues to the North
+towards the wooden tower, and to the South which eventually leads to a small
+village.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 288
+0 0
+D2
+~
+~
+Z 0 100514
+0 0
+S
+#100516
+First Level of the Tower~
+You stand inside what seems to be a small but well-kept living quarters. 
+A table sits in the center of the room; on it, a fresh meal has just been
+eaten, and dirty dishes wait to be washed.  A bed lies off to the side, and
+a bookshelf lies on the other.  The sweet scent of flowers emenates from
+somewhere, though you are unsure where; perhaps there is a flower grove
+nearby the tower.  It certainly seems like a pleasant place to live.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 100517
+0 0
+D5
+~
+~
+ABCFGZ 100506 288
+0 0
+S
+#100517
+Tower Overview~
+Here, an exquisite view of the emerald forest lies before you.  To your
+west, you can clearly see the intricate architecture of the monastary; to
+the east, you see the small village of Daleforn, a sorry sight indeed.  All
+around, the forest expands, majestic in it's defiance of the sprawling urban
+cities you've become far too familiar with.  The only exit is down, from
+whence you came.  
+~
+0 0 inside
+D5
+~
+~
+Z 0 100516
+0 0
+S
+#100518
+Before the Shops~
+You are standing on a dirt path surrounded on two sides by moderately
+sized buildings.  On the building to the North a large shield is painted,
+leading you to a safe assumption that it is an armorer.  To the west a large
+bow is painted on the building, most likely a weapon shop of sorts.  To the
+East the path continues back to the villages main road, where vegetation
+grows abundantly.
+~
+0 0 inside
+D0
+~
+~
+Z 0 100519
+0 0
+D1
+~
+~
+Z 0 100504
+0 0
+D3
+~
+~
+Z 0 100520
+0 0
+S
+#100519
+Village Armorer~
+You have entered a dusty shop filled with the scent of tanned leather. 
+There really isn't much to this shop.  To the back is a stout wooden table
+made out to be a counter, while the front part is lined with a few rows of
+leather armor and pieces of clothing. 
+~
+0 0 inside
+D2
+~
+~
+Z 0 100518
+0 0
+S
+#100520
+Village Weapons Supply~
+You have entered a well kept shop.  To either side sits well placed
+display cases with an assortment of wooden weapons.  To the back stands a
+mahogany counter with a magnificent display of weapons of no doubt elven
+origin.
+~
+0 0 inside
+E
+display~
+A large display case rest on the counter, holding within priceless
+artifacts of elven make.  Looking closely you notice there is no latch.. 
+The display must have been made never to be opened...  
+~
+D1
+~
+~
+Z 0 100518
+0 0
+S
+#100521
+Village Grocer~
+You are in a small shop.  On the walls of the shop are a few shelves of
+different sizes, though they dont seem to hold anything.  A small counter
+sits in the center of this shop, with a few bags and food products resting
+on top of it.  One thing does catch your attention though, this shop is
+remarkably clean..  
+~
+0 C inside
+D3
+~
+~
+Z 0 100510
+0 0
+S
+#100522
+Delton's Bar~
+Clouds of smoke glide around the room as the patrons of this bar walk
+here and there.  Soft noises come from the few people who sit at the
+barstools.  The current occupiants hardly seem curious enough to look
+around.  A large man stands behind the bar.  By his occasional facial
+expressions he seems to be in a small amount of pain, nevertheless he wears
+a smile on his face.  
+ 
+Doors to the south will allow you to return to the village streets.
+~
+0 D inside
+D2
+~
+~
+Z 0 100506
+0 0
+S
+#100523
+Village Hovel~
+You have entered into a relatively large building, which by the looks of
+it seems to be a communal home of sorts.  Many beds line either wall in many
+places, though they seem to be more cots then beds.  Here and there you can
+see an assortment of everyday living utilities such as pots and pans.  To
+the southern part of the building is a large window cut from the direct
+center of the wall.  
+~
+0 0 inside
+D0
+~
+door~
+ABZ 0 100526
+0 0
+D2
+~
+~
+Z 0 100507
+0 0
+S
+#100524
+Village Hovel~
+You have entered into a relatively large building, which by the looks of
+it seems to be a communal home of sorts.  Many beds line either wall in many
+places, though they seem to be more cots then beds.  Here and there you can
+see an assortment of everyday living utilities such as pots and pans.  This
+hovel is remarkably well kept.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 100508
+0 0
+S
+#100525
+Village Hovel~
+You have entered into a relatively large building, which by the looks of
+it seems to be a communal home of sorts.  Many beds line either wall in many
+places, though they seem to be more cots then beds.  Here and there you can
+see an assortment of everyday living utilities such as pots and pans.  This
+hovel is rather average, it has no hearth or window, which could mean many
+things..  Perhaps it the occupants are not so well off.  
+~
+0 0 inside
+E
+hearth~
+Looking at the hearth you notice that it seems to be used recently..  The
+ashes are still warm, and there are even a few red coals left.  Half
+submerged in ashes, resting by the red coals, is a small note...  
+~
+D2
+~
+~
+Z 0 100509
+0 0
+S
+#100526
+Behind the Hovel~
+You are standing in a small clearing surrounded by large cliffs and the
+hovel to the south of you.  Looking around, you notice that the cliff face
+is impassible..  Though you think you can make out a dark opening just north
+of where you stand.  You can head back through the window to the south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100527
+0 0
+D2
+~
+door~
+ABZ 0 100523
+0 0
+S
+#100527
+Inside the Cave~
+You creep inside the small, cramped entrance to the cave in the
+cliff-side.  The air is dark and damp, and you have a foreboding feeling;
+perhaps you shouldn't be here.  The light coming from the entrance to the
+south looks incredibly inviting, but you seem to be able to proceed north or
+east, should you choose to.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 100528
+0 0
+D1
+~
+~
+Z 0 100529
+0 0
+D2
+~
+~
+Z 0 100526
+0 0
+S
+#100528
+Inside the Cave~
+You proceed further into the cave, into what seems to be a cramped living
+space of sorts; you see what looks to be a recently-used firepit, and a
+small makeshift bed of animal furs lies against the far wall.  You're not
+sure who in their right mind would choose to live in these conditions, but
+it seems someone has.  The entrance from whence you came is to the south.  
+~
+0 AD inside
+D2
+~
+~
+Z 0 100527
+0 0
+S
+#100529
+Inside the Cave~
+Before you lies a beautiful, sparklingly radiant pool of water, almost
+unnatural in it's resilience.  The soft sound of bubbles breaking on the
+surface soothes you, and the small patch of dirt next to the pool looks
+incredibly inviting; perhaps this cave wasn't so bad after all, and perhaps
+you might just stay a while.  
+~
+0 ACDTX inside
+D3
+~
+~
+Z 0 100527
+0 0
+M 500 H 500
+S
+#100530
+strange~
+~
+0 0 inside
+S
+#100531
+{Dmeh another test{x~
+~
+0 0 inside
+S
+#0
+
+#SPECIALS
+M 100501 spec_cast_cleric	* {YCaston{z
+M 100502 spec_cast_mage	* an old man
+S
+
+#RESETS
+D 0 100516 5 2	* First Level of the Tower: door to the down: closed and locked
+D 0 100523 0 1	* Village Hovel: door to the north: closed
+D 0 100526 2 1	* Behind the Hovel: door to the south: closed
+O 0 100502 0 100516	* an old wooden chest (First Level of the Tower)
+P 0 100527 1 100502 1	* an old wooden chest: {wP{Wa{wl{We{ws{Wi{wn{Wg{we{Wr{x
+M 0 100501 1 100517 1	* {YCaston{z (Tower Overview)
+E 0 100505 0 16		*	{YLiberator{z: wielded
+E 0 100503 0 17		*	an old rusty key: held in the hands
+M 0 100519 1 100519 1	* Grently (Village Armorer)
+G 0 100512 0		*	worn leather boots
+G 0 100507 0		*	a pair of worn leather gloves
+G 0 100508 0		*	a worn leather jerkin
+G 0 100512 0		*	worn leather boots
+G 0 100511 0		*	worn leather leggings
+G 0 100510 0		*	a worn leather cap
+G 0 100509 0		*	a worn leather bracer
+G 0 100513 0		*	a worn woodland cloak
+M 0 100520 1 100520 1	* Litly the Carver (Village Weapons Supply)
+G 0 100520 0		*	a woodland longbow
+G 0 100524 0		*	a superior longbow
+M 0 100521 1 100521 1	* The Grocer (Village Grocer)
+G 0 100514 0		*	an herb pouch
+G 0 100521 0		*	a water skin
+G 0 100523 0		*	a deer steak
+G 0 100522 0		*	a sturdy backpack
+M 0 100522 1 100522 1	* Duor the Barkeep (Delton's Bar)
+O 0 100501 0 100523	* a window (Village Hovel)
+O 0 100526 0 100524	* the ashes (Village Hovel)
+P 0 100525 0 100526 1	* the ashes: a small note
+O 0 100526 0 100525	* the ashes (Village Hovel)
+P 0 100525 1 100526 1	* the ashes: a small note
+M 0 100502 1 100528 1	* an old man (Inside the Cave)
+M 0 100531 1 100531 1	* tester ({Dmeh another test{x)
+S
+
+#SHOPS
+100519 0 9 0 0 0 100 20 0 23
+100520 0 5 15 0 0 100 16 0 23
+100521 0 -1 15 17 0 100 11 0 23
+0
+
+#OLIMITS
+O 100504 2	* {YResister{z
+O 100527 2	* {wP{Wa{wl{We{ws{Wi{wn{Wg{we{Wr{x
+S
+
+#MOBPROGS
+#100501
+mob oload 100504
+~
+#100502
+if isevil $n
+
+visible
+bow
+whisper Welcome, dark one; I sense the beast in you.
+if level $n >= 91
+  whisper You would be well to reclaim the legendary {wP{Wa{wl{We{ws{Wi{wn{Wg{we{Wr{r.{x
+  whisper The bow of elven bone is unsurpassed, and serves only the beast.
+  whisper The wretched paladin {YCaston{z clings to it.
+  whisper Locked in his tower, he guards it and the forest night and day.
+  whisper Yet I can create a key to the magical lock that keeps him safe, if ye find me the holy book containing the spell used to create it...
+  whisper Bring me this book, and I shall create you a key. You can find it in the position of of the legendary ranger Figson.
+else
+  whisper Yet ye are too feeble for my plans. 'Tis a shame. Rest by my pool if ye wish, but bother me no longer.
+
+endif
+else
+ 
+  cast 'Improved Invis'
+  whisper Begone, foul one. Bother me not, or I shall make short work of thee.
+ 
+endif
+~
+#100503
+if isevil $n
+whisper The book! You've brought me the book! This is excellent...
+emote opens the book, and begins pouring through it.
+emote stops all of a sudden, on a certain page.
+whisper Here... here!
+whisper I shall make you your key, dark one.
+emote begins chanting softly, in tongues you do not understand.
+mob delay 5
+else
+whisper Thank you, fool. You know not what you've done.
+emote begins chanting softly...
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'firabell' $n
+endif
+~
+#100504
+emote suddenly stops.
+mob echo The air seems to flicker before him.
+mob echo A flash of light fills the room!
+mob echo {YCaston's key{z appears in the old man's hand.
+mob oload 100506
+mob junk book
+drop key
+whisper Here... take it... slay {YCaston{z... and take our dark weapon back!
+bow
+~
+#100505
+~
+#100519
+say Bah, I'm out 'o goods. Come back later.
+grumble
+~
+#100520
+say Sorry, my supplies are a bit low at the moment, though I should have more to offer soon.
+wink $n
+end
+~
+#100522
+emote screams '{mProtect the Village we're being attacked!!{x'
+mob mload 100523
+mob vforce 100523 murder $n
+end
+endif
+~
+#100532
+if isghost $n
+say AAAAAAAAAAAAAAAAAHHHHHHh a ghost!
+point $n
+else
+say you dont scare me
+mob echo Tester looks around nervously.
+mob echo Tester twitches.
+shiver
+endif
+end
+~
+#0
+
+#$

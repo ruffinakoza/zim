@@ -1,0 +1,931 @@
+#AREADATA
+Name Iona's House~
+Builders sadin alamor~
+VNUMs 100930 100950
+Credits Sadin~
+Security 9
+LevelRange 1 91
+ResetMessage The pagoda lists back and forth.~
+Flags noquest playerhouse~
+End
+
+#MOBILES
+#100930
+arhat~
+an Arhat of {DBa{z{wlan{z{Wce{z~
+An Arhat of {DBa{wlan{Wce{x performs the sentry meditation.
+~
+A figure of pulsating dark and light performs the sentry meditation.  He
+seems to know the the disposition of your heart.  
+~
+beholder~
+ABe DFH 0 0
+130 130 626d130+0 650d10+85 43d3+70 none
+-78 -78 -78 -51
+0 0 0 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+M exall 100930 1~
+M grall 100931 100~
+M kill 100932 100~
+M death 100934 100~
+#100931
+subhuti~
+Subhuti~
+Subhuti is demonstrating how to decern followers of imbalance.
+~
+Looks like he offers an instructional aid for sale.  Type "list".
+~
+arial~
+AB H 0 0
+85 85 371d85+0 425d10+85 28d3+47 none
+-48 -48 -48 -30
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100932
+statue ion~
+the statue of Iona~
+A statue of Iona, {mBo{Mdh{wi{Ws{wa{Mtt{mva {wof {DBa{wlan{Wce{x stands here.
+~
+The is a larger than life representation of the bodhisattva and champion
+of {DBa{wlan{Wce{x.  She's posed in a meditative position, though her
+expression seems one of sympathy laced with struggle.  You get the strange
+feeling the eyes of the statue are following you.  
+~
+golem~
+ABf H 0 0
+120 120 570d120+0 600d10+85 40d3+65 none
+-71 -71 -71 -46
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M exall 100933 2~
+#100933
+priest healer kuanyin~
+Kuanyin~
+Kuanyin, high priestest of {DBa{wlan{Wce{x
+~
+You see a high priest.
+~
+felar~
+ABQa H 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#100934
+yogi balance~
+the yogi of {DBa{wlan{Wce{x ~
+The yogi of {DBa{wlan{Wce{x demonstrates master medition by standing on his head.
+~
+A quant, older student of the art of zen medititation, this particular
+yogi is of the lizard race of draconians.  He seems very at home on the
+medititation mat.  
+~
+draconian~
+ABe H 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M random 100935 2~
+M random 100936 2~
+M random 100937 2~
+M delay 100938 100~
+#100935
+visionary monk~
+A visonary~
+A weary visionary is here sharing his revelations with you.
+~
+~
+rockseer~
+AB H 0 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100936
+monk janitor pozzo~
+Pozzo~
+A frustrated monk, desperately trying to eschew his attachment to things.
+~
+~
+human~
+ACY 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100937
+lamefoot tightrope walker~
+Lamefoot~
+A tightrope walker teeters back and forth, sweating profusely.
+~
+An arial with clipped wings is in the middle of the rope, as far as you
+can tell, but doesn't look like he's going to make it much farther.  Sweat
+pours down his forehead like a waterfall and his clothes are soaked with
+sweat.  He's terribly bothered by people heckling him.  He looks about to
+fall any moment now.  
+~
+arial~
+AB H 5000 0
+25 25 43d25+1000 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100938
+heckler satyr~
+The Heckler~
+A fellow in motley clothes, is here heckling the tightrope walker.
+~
+The heckler seems intent on causing the tightrope walker to trip and lose
+his balance.  He doesn't take kindly to the thought of someone else ruining
+his fun.  
+~
+satyr~
+ABT Qu 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CDEIJNP 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#100930
+enlightenment balance~
+{wthe {WEnlightenment {wof {DBa{wlan{Wce{x~
+{wthe {WEnlightenment {wof {DBa{wlan{Wce{x~
+unknown~
+Flame~
+light AJKUYah A
+388
+106 0 52928 P
+A
+12 100
+A
+13 2
+A
+17 -21
+A
+20 -10
+A
+4 1
+A
+18 10
+A
+19 10
+A
+20 -2
+A
+13 98
+E
+enlightment~
+Property of Iona
+~
+G none
+G none
+G none
+G none
+#100931
+discrimination pill~
+a pill of discrimination~
+A pill shaped like a ying-yand is here.~
+unknown~
+Powder~
+pill A A
+15 'detect good' 'detect evil' 'reserved' 'reserved'
+1 5 1 P
+G none
+G none
+G none
+G none
+#100932
+meditation mat~
+A meditation mat~
+A meditation mat is here.~
+unknown~
+Woven vines~
+furniture 0 0
+BD FJKLO EHK CFG CDFI BD FJKLO
+0 0 0 P
+G none
+G none
+G none
+G none
+#100933
+waterfall~
+A {Cwaterfall{x spilling over {Gm{go{Gs{gs{Gy{x {Drocks{x.~
+A {Cwaterfall{x spilling over {Gm{go{Gs{gs{Gy{x {Drocks{x.~
+water~
+~
+fountain 0 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100934
+altar~
+an altar to {DBa{wlan{Wce{x~
+A stone altar to {DBa{wlan{Wce{x is here.~
+marble~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100935
+mossy spring~
+a {gmossy{z spring of rejuvination~
+A {gmossy{z spring of rejuvination invites you in.~
+water~
+~
+furniture A 0
+BD CGHIL FIL CDFI CFG BD CGHIL
+0 0 0 P
+G none
+G none
+G none
+G none
+#100936
+old gray grey~
+An {Wold{x vision of time withering away floats here.~
+An {Wold{x vision of time withering away floats here.~
+unknown~
+~
+portal A 0
+0 0 A 5379 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100937
+hell fire red fiery~
+A {rfiery{x vision of tourmented souls floats here.~
+A {rfiery{x vision of tourmented souls floats here.~
+fire~
+~
+portal A 0
+0 0 A 10531 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100938
+funny pink silly~
+A {Msilly{x vision of lunacy gone mad floats here.~
+A {Msilly{x vision of lunacy gone mad floats here.~
+unknown~
+Laughter~
+portal A 0
+0 0 A 11687 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100939
+lofty air cyan skyway~
+a {^lofty {xvision of big fluffy clouds{x~
+A {Clofty{x vision of big fluffy clouds floats here.~
+air~
+~
+portal A 0
+0 0 A 97902 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100940
+white porceline chair vortex seat toilet~
+a white porceline chair with a {Dv{Wo{wr{Wt{we{Dx{x in the seat~
+A white porceline chair with a {Dv{Wo{wr{Wt{we{Dx{x in the seat sits here.~
+unknown~
+~
+furniture 0 0
+A HJKMPTUX E CFG CFG A HJKMPTUX
+0 0 0 P
+G none
+G none
+G none
+G none
+#100941
+ducky~
+{Rru{Ybber ducky{x~
+Someone seems to have left their {Rru{Ybber ducky{x floating here.~
+unknown~
+~
+key AJKh AO
+0 0 0 0 0 0 0
+30 0 0 P
+A
+13 30
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#100942
+rose tinted spectacles~
+{Rrose {wt{Di{wn{Dt{we{Dd {Wspectacles{x~
+{Rrose {wt{Di{wn{Dt{we{Dd {Wspectacles{x~
+unknown~
+admantium~
+armor JKUYa AE
+38 38 38 37 'none' 0
+106 2 642204 P
+A
+19 10
+A
+18 10
+A
+20 -10
+A
+17 -18
+E
+spectacles~
+Property of Iona
+~
+G none
+G none
+G none
+G none
+#100943
+pink bunny slippers~
+{Mpink {wbunny {Wslippers{x~
+{Mpink {wbunny {Wslippers{x~
+unknown~
+admantium~
+armor JKUYa AG
+38 38 38 37 'none' 0
+106 2 658591 P
+A
+13 100
+A
+17 -18
+A
+18 10
+A
+19 10
+E
+slippers~
+Property of Iona
+~
+G none
+G none
+G none
+G none
+#100944
+pair zombie busters iona~
+{Da pair of {wz{Wo{wmb{Die {Bbusters{x~
+{Da pair of {wz{Wo{wmb{Die {Bbusters{x~
+unknown~
+Admantium~
+armor JKUYa AH
+38 38 38 37 'none' 0
+106 5 719344 P
+A
+13 97
+A
+18 10
+A
+19 10
+A
+17 -21
+G none
+G none
+G none
+G none
+#100945
+vestments iona~
+{wthe {Wvestments{w of the {mBo{Mdh{wi{Ws{wa{Mtt{mva{x~
+{wthe {Wvestments{w of the {mBo{Mdh{wi{Ws{wa{Mtt{mva{x~
+unknown~
+admantium~
+armor JKUYa AD
+38 38 38 37 'none' 0
+106 5 1147766 P
+A
+13 97
+A
+17 -21
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#100946
+prayer beads iona~
+{Dblack{w and {Wwhite{w prayer beads{x~
+{Dblack{w and {Wwhite{w prayer beads{x~
+unknown~
+admantium~
+armor JKUYa AC
+38 38 38 37 'none' 0
+106 3 805451 P
+A
+4 1
+A
+20 -10
+A
+13 100
+A
+12 3
+A
+12 97
+A
+18 10
+A
+19 10
+A
+17 -21
+E
+beads~
+Property of Iona
+~
+G none
+G none
+G none
+G none
+#100947
+bracelet lucky charms iona~
+{wa {Wbracelet{w of {Glucky {Rc{Yh{Ba{Gr{Mm{Cs{x~
+{wa {Wbracelet{w of {Glucky {Rc{Yh{Ba{Gr{Mm{Cs{x~
+unknown~
+admantium~
+armor JKUYa AM
+38 38 38 37 'none' 0
+106 3 834910 P
+A
+14 18
+A
+20 -8
+A
+17 -21
+A
+12 100
+A
+13 2
+A
+13 98
+A
+19 10
+A
+18 10
+A
+20 -2
+E
+charm~
+Property of Iona
+~
+G none
+G none
+G none
+G none
+#100948
+pair ethereal weebie skin sleeves~
+A pair of {De{wt{Dh{we{Dr{we{Da{wl {Mw{me{Me{mb{Mi{me{w-skin {Wsleeves{x~
+~
+unknown~
+adamantium~
+armor JKNPUYa AI
+38 38 38 37 'none' 0
+106 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100930
+Before the Pagoda of {DBa{wlan{Wce{x~
+The Pagoda of {DBa{wlan{Wce{x appears to be a pyramid standing on its
+head.  The walls of the temple appear slate grey at a distance, but on
+closer inspection seems full of swirling tempests of black and white.  All
+four sides of the pagoda convirge to a needle point on which the entire
+structure is supported.  Listing back and forth, side to side, erratically,
+like a top losing momentum.  The entire building seems about to topple at
+any moment; instead it maintains a strangely perfect {DBa{wlan{Wce{x.  
+~
+0 NX field
+D1
+~
+~
+Z 0 100931
+0 0
+D3
+~
+~
+Z 0 100943
+0 0
+S
+#100931
+Instruction Room~
+Subhuti illustrates the concept of {DBa{wlan{Wce{x through dynamic
+equilibrium.  The forces of neutrality aid the Light and Darkness in their
+struggles against each other.  Making each stronger, like two counter
+weights on a tight-rope walker's stick.  As the weights get heavier, balance
+is better secured.  
+~
+0 DX inside
+D3
+~
+~
+Z 0 100930
+0 0
+D4
+~
+~
+Z 0 100932
+0 0
+S
+#100932
+Nexus of {DBa{wlan{Wce{x~
+The musk of old cedar wood in the floor fills the room.  The air around
+your feet seems cool and damp, while air around your head feels arid and
+warm.  Vasilating Light and Shadow pour in from above.  Below the sounds of
+a monotone lecturer can be heard.  Dancing multi-colored lights flicker from
+behind the Northern door.  Toward the East eminates an intense silence
+interrupted by a faint chime.  Flowing water can be heard from the West.  Up
+above you hear chanting.  
+
+A sign reads: {wThis is a place of meditation and worship -- {WBehave{z or {DBegone{z.{x
+~
+0 DNX inside
+D0
+~
+~
+Z 0 100933
+0 0
+D1
+~
+~
+Z 0 100941
+0 0
+D2
+~
+~
+Z 0 100935
+0 0
+D3
+~
+~
+Z 0 100940
+0 0
+D4
+~
+~
+Z 0 100937
+0 0
+D5
+~
+~
+Z 0 100931
+0 0
+S
+#100933
+Visionary's Study~
+This dark and smokey room seems to have no walls, just blackness on all
+sides.  In the center of the room a light is cast down on a visionary seated
+on some purple pillows.  His back is straight as a board and is dripping
+with sweat that pools around his bottom.  Meditating on the illusion of time
+and space, the visionary manifestes his revelations to share with you.  
+~
+0 DX inside
+D2
+~
+~
+Z 0 100932
+0 0
+S
+#100934
+Meditation chamber of {DBa{wlan{Wce{x~
+This room is a large expanse of ebony wood hosting many bleached bamboo
+mats and ivory pillows.  Several monks are here doing abolutions and
+meditating.  One rings a sounding chime on the hour.  In the corner of the
+room the Yogi of {DBa{wlan{Wce{x instructs students on better meditation
+technique.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 100941
+0 0
+S
+#100935
+Within the Sanctuary of {DBa{wlan{Wce{x~
+This fortified hall seems either prepared for, or a celebration of battle
+-- or more accurately, struggle.  Heroic items honoring long ago battles are
+mounted along the walls.  Grey velvet tapestries, which line the walls,
+depict legendary battles between good and evil.  Mounted between the
+tapestries are torches with glowing black and white flame.  At the southern
+end of the hall there seems to be a chair of some sort, and a large statue
+standing guard over it.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 100932
+0 0
+D2
+~
+~
+ABZ 0 100938
+0 0
+S
+#100936
+Hot Springs of {DBa{wlan{Wce{x~
+A fog shrouds this room in comfortably dim light.  The mossy rocks cup
+around a warm spring perculating with effervescent bubbles.  The spring is
+rumored to have rejuvinating properties.  Someone seems to have left a
+rubber ducky floating here.  
+~
+0 X field
+D2
+~
+~
+Z 0 100940
+0 0
+S
+#100937
+High Altar of {DBa{wlan{Wce{x~
+Though the walls of this room were opaque from the outside, upon entering
+the room you realize the walls are clear.  Or perhaps there are no walls at
+all.  Nimbus clouds to the west brush up against the clear azure skys to the
+east.  A rumbling can be heard as the two fronts meet.  Dim flashes within
+the clouds herald a coming storm.  Above there seems to be a climbable
+chain, leading to {wNirvana{z.  
+~
+0 X inside
+D4
+~
+door~
+ABCGHZ 0 100931
+0 0
+D5
+~
+~
+Z 0 100932
+0 0
+S
+#100938
+Within the Sanctuary of {DBa{wlan{Wce{x~
+This is a foggy corridor that seems to lead off to the east.  You get the
+forboding sense that you are infringing on someone's privacy by being here. 
+
+~
+0 DX inside
+D0
+~
+~
+ABZ 0 100935
+0 0
+D1
+~
+~
+Z 0 100939
+0 0
+S
+#100939
+Within the Santuary of {DBa{wlan{Wce{x~
+This is Iona's private meditation chamber, a personal rectory in the
+pagoda.  Candles are the only light in the room and there are many of them
+on the floor.  The room is mostly bare, and free from distraction.  Even the
+air seems cool and a bit damp, as cause the least discomfort in long hours
+of meditation.  
+~
+0 AX inside
+D3
+~
+~
+Z 0 100938
+0 0
+S
+#100940
+Stone Garden of {DBa{wlan{Wce{x~
+Surrounding the stone garden are {gbonzi{x trees and small benches were
+one might sit and contimplate its conviguration.  The stone garden, with
+random and violent striations in the sand, seems to harmonize when you let
+your eyes unfocus; a vision appears of a tree peacefully blowing in a gale. 
+A pale light seems to shower the room from above.  To the north a fog seems
+to roll in.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 100936
+0 0
+D1
+~
+~
+Z 0 100932
+0 0
+S
+#100941
+Hallway of {DBa{wlan{Wce{x~
+This hallway seems to twist and turn yet strangely leads down a straight
+path.  Something is muffling your footfalls.  There's an impressive quietude
+off to the south.  You hear running water and smell a hint of lilacs coming
+from the north.  
+~
+0 X inside
+D0
+~
+door~
+ABCFGZ 100941 100942
+0 0
+D2
+~
+~
+Z 0 100934
+0 0
+D3
+~
+~
+Z 0 100932
+0 0
+S
+#100942
+Water Closet of {DBa{z{wlan{z{Wce{z~
+Cool marble walls and a black tile floor give this room an isolated and
+sterile feeling.  There seems to be a mystic ward against dirt grime and
+filth in this room.  The auroma of lilacs permiates the room.  In the center
+is a strange chair, made of white porceline, with a {Dv{Wo{wr{Wt{we{Dx{x in the seat that
+seems to suck everything down in it.  Hope you don't fall in.
+~
+0 0 inside
+D2
+~
+door~
+ABCFGZ 0 100941
+0 0
+S
+#100943
+A Tightrope~
+A rather long {ytightrope{x spans a deep crevasse.  A pea-soup fog veils
+either end of the rope and won't allow you to see more than five feet in
+front of you.  You have no idea how far it is to the bottom, but dropping a
+silver coin doesn't produce a sound.  Traversing the {ytightrope{x doesn't
+so much seem to be a test of agility as a test of {DBa{wlan{Wce{x.  
+~
+0 0 hills
+D1
+~
+~
+Z 0 100930
+0 0
+D3
+~
+~
+Z 0 7900
+0 0
+S
+#0
+
+#SPECIALS
+M 100930 spec_breath_fire	* an Arhat of {DBa{z{wlan{z{Wce{z
+M 100933 spec_cast_adept	* Kuanyin
+M 100936 spec_janitor	* Pozzo
+S
+
+#RESETS
+D 0 100935 2 1	* Within the Sanctuary of {DBa{wlan{Wce{x: door to the south: closed
+D 0 100937 4 2	* High Altar of {DBa{wlan{Wce{x: door to the up: closed and locked
+D 0 100938 0 1	* Within the Sanctuary of {DBa{wlan{Wce{x: door to the north: closed
+D 0 100941 0 2	* Hallway of {DBa{wlan{Wce{x: door to the north: closed and locked
+D 0 100942 2 2	* Water Closet of {DBa{z{wlan{z{Wce{z: door to the south: closed and locked
+M 0 100930 1 100930 1	* an Arhat of {DBa{z{wlan{z{Wce{z (Before the Pagoda of {DBa{wlan{Wce{x)
+M 0 100931 1 100931 1	* Subhuti (Instruction Room)
+G 0 100931 0		*	a pill of discrimination
+M 0 100936 1 100932 1	* Pozzo (Nexus of {DBa{wlan{Wce{x)
+M 0 100935 1 100933 1	* A visonary (Visionary's Study)
+O 0 100939 0 100933	* a {^lofty {xvision of big fluffy clouds{x (Visionary's Study)
+O 0 100937 0 100933	* A {rfiery{x vision of tourmented souls floats here. (Visionary's Study)
+O 0 100938 0 100933	* A {Msilly{x vision of lunacy gone mad floats here. (Visionary's Study)
+O 0 100936 0 100933	* An {Wold{x vision of time withering away floats here. (Visionary's Study)
+O 0 100932 0 100934	* A meditation mat (Meditation chamber of {DBa{wlan{Wce{x)
+M 0 100934 1 100934 1	* the yogi of {DBa{wlan{Wce{x  (Meditation chamber of {DBa{wlan{Wce{x)
+M 0 100932 1 100935 1	* the statue of Iona (Within the Sanctuary of {DBa{wlan{Wce{x)
+O 0 100935 0 100936	* a {gmossy{z spring of rejuvination (Hot Springs of {DBa{wlan{Wce{x)
+O 0 100941 0 100936	* {Rru{Ybber ducky{x (Hot Springs of {DBa{wlan{Wce{x)
+M 0 100933 1 100937 1	* Kuanyin (High Altar of {DBa{wlan{Wce{x)
+O 0 100934 0 100937	* an altar to {DBa{wlan{Wce{x (High Altar of {DBa{wlan{Wce{x)
+O 0 100933 0 100940	* A {Cwaterfall{x spilling over {Gm{go{Gs{gs{Gy{x {Drocks{x. (Stone Garden of {DBa{wlan{Wce{x)
+O 0 100940 0 100942	* a white porceline chair with a {Dv{Wo{wr{Wt{we{Dx{x in the seat (Water Closet of {DBa{z{wlan{z{Wce{z)
+M 0 100937 1 100943 1	* Lamefoot (A Tightrope)
+M 0 100938 1 100943 1	* The Heckler (A Tightrope)
+S
+
+#SHOPS
+100931 0 0 0 0 0 100 14 0 23
+0
+
+#MOBPROGS
+#100930
+if clan $n scion
+say Begone, Scion!
+else
+if name $n Tearawa
+say Welcome, TeArawa.
+mob trans tearawa 100931
+mob echo Tearawa leaves east.
+else
+if isneutral $n
+say Welcome, friend of balance.
+mob trans $n 100931
+mob echo $n leaves east.
+else
+say This is a sacred place of balance.
+say You are not welcome here.
+endif
+endif
+endif
+~
+#100931
+if isneutral $n
+say Welcome to the Pagoda of {DBa{z{wlan{z{Wce{z, devotee of the true path.
+bow $n
+tell Iona {R$n{z, the follower of {DBa{z{wlan{z{Wce{z, has come to our Pagoda.
+else
+say Only devotes of {DBa{z{wlan{z{Wce{z are welcome in the Pagoda.
+snarl $n
+tell Iona {R$n{z, an {Wunbalanced{z one, has come to our doors!
+endif
+~
+#100932
+yell Devotes of {DBa{z{wlan{z{Wce{z, hear! I'm being attacked by {R$n{z! Help me defend our sanctuary!
+tell Iona {YIona{z, the Pagoda of {DBa{z{wlan{z{Wce{z is under attack by {R$n{z!
+~
+#100933
+if name $n iona
+mob trans iona 100938
+mob echo $n leaves south.
+else
+if isimmort $n
+bow $n
+mob echoaround $n $n leaves south.
+mob trans $n 100938
+else
+mob echoat $n Alas, you cannot go that way.
+endif
+endif
+~
+#100934
+tell Iona Alas, Iona! This is my dying breath...
+tell Iona {R$n{z has {Wslain{z me!
+~
+#100935
+sigh
+say From the chest, not the throat. Here, I'll show you.
+emote walks over to you and helps you with your breathing technique.
+~
+#100936
+emote stands on his head and meditates on {DBa{wlan{Wce{x, without using his hands.
+~
+#100937
+emote seems to have fallen asleep.
+mob echo He seems to be snoring.
+mob delay 5
+~
+#100938
+emote opens one eye and catches you looking around.
+~
+#100939
+emote opens one eye and catches you looking around.
+~
+#0
+
+#$

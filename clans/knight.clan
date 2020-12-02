@@ -1,0 +1,47 @@
+#CLAN
+Name Knight~
+Recall 95283
+Item 95217
+Mark 95203
+Altar 95204
+Donate 95203
+#Skill 'lance' 40 70
+#Skill 'charge' 45 70
+#Skill 'dragonplate' 60 70
+#Skill 'dragonsword' 65 70
+#Skill 'golden aura' 50 70
+#Skill 'guard' 30 70
+#Skill 'holy armor' 70 70
+#Skill 'riding' 35 70
+#Skill 'squire' 55 70
+Title 13 male Patron~
+Title 13 female Patron~
+Title 12 male Leader~
+Title 12 female Leader~
+Title 11 male Elder~
+Title 11 female Elder~
+Title 10 male Lord~
+Title 10 female Lady~
+Title 9 male Magistrate~
+Title 9 female Magistrate~
+Title 8 male Ambassador~
+Title 8 female Ambassadress~
+Title 7 male Vassal~
+Title 7 female Vassal~
+Title 6 male Captain~
+Title 6 female Captain~
+Title 5 male Lieutenant~
+Title 5 female Lieutenant~
+Title 4 male Veteran~
+Title 4 female Veteran~
+Title 3 male Foot Soldier~
+Title 3 female Foot Soldier~
+Title 2 male Recruit~
+Title 2 female Recruit~
+Title 1 male Probation~
+Title 1 female Probation~
+Title 0 male Outcast~
+Title 0 female Outcast~
+End
+
+#$

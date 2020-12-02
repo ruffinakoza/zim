@@ -1,0 +1,990 @@
+#AREADATA
+Name Windy Forest~
+VNUMs 18251 18500
+Security 1
+LevelRange 0 0
+Flags closed noquest~
+End
+
+#MOBILES
+#18251
+large white wolf~
+a large white wolf~
+A large white wolf moves silently amongst the trees, stalking you.
+~
+Covered in white fur, and large for a wolf, the beast before you looks
+quite dangerous.  Sharp fangs are bared as it growls at you, and its
+movements are fast and calculated, speaking of a speed and intelligence that
+could prove deadly.  
+~
+wolf~
+ABG 0 0 0
+85 85 371d85+0 425d10+85 28d3+47 bite
+-48 -48 -48 -30
+U 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 18252 `.Z
+!~
+M greet 18251 50~
+#18252
+doe deer~
+a deer~
+A deer looks up at you, frozen in its tracks.
+~
+Somewhat thin for a deer, which is to be expected in this harsh
+landscape, the animal nevertheless looks fairly strong and agile.  It moves
+with graceful steps, picking its way across the forest floor.  Ever
+vigilant, it looks ready to bound off at any sign of danger.  
+~
+unique~
+AB 0 0 0
+83 83 360d83+0 415d10+85 27d3+46 crush
+-46 -46 -46 -29
+H 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M fight 18253 Ugg~
+M random 18254 5~
+#18253
+mob death trap deathtrap~
+a wizinvis death trap mob~
+A wizinvis mob for the death trap.
+~
+~
+unique~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M grall 18255 100~
+M delay 18256 100~
+M exall 18257 1~
+I 92
+#18254
+wizinvis death mob function zzqz~
+a wizinvis death transfer mob~
+A wizinvis function mob stands here
+~
+Transfers players east into the death trap.
+~
+unique~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F attr+ AB
+M exall 18258 1~
+I 92
+#18255
+barbarian hunter man~
+a barbarian hunter~
+Clad in thick furs, a heavily muscled man makes his way through the plains.
+~
+Easily six and a half feet in height, and wider than most men, the man
+before you is an imposing sight.  Long blond hair falls past his shoulders,
+almost reaching his waist.  Covered in thick furs, he seems to be at home in
+the plains, moving easily across the snow, with no sign of fatigue.  He
+wields a large spear, almost as long as he is tall, with a deadly-looking
+point.  
+~
+human~
+ABCF 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 pierce
+-52 -52 -52 -33
+CE 0 I 0
+stand stand male 0
+0 0 medium flesh~
+~
+#18256
+a barbarian huntress~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#18251
+travling pack~
+a traveling pack~
+~
+unknown~
+~
+container R 0
+1000 AC 0 1000 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#18252
+walking staff~
+{ya walking staff{x~
+A staff of gnarled wood lies abandoned on the ground.~
+unknown~
+~
+weapon 0 AN
+staff 6 20 thwack 0
+91 15 102874 P
+A
+19 2
+E
+staff walking~
+Better suited for use as a walking staff than a weapon, it nevertheless
+looks like it could do some damage in the right hands.  Made of a thick,
+dark wood, it looks fairly sturdy, and is in good shape, though there is no
+telling how it would fare against a sword.  
+~
+G none
+G none
+G none
+G none
+#18253
+tiny scroll~
+a tiny scroll~
+A tiny scroll, bound by a ribbon, lies on the ground.~
+parchment~
+~
+scroll G A
+91 'detect invis' 'bless' 'reserved' 'reserved'
+91 1 1500 P
+E
+tiny scroll~
+The scroll is small, no more than three inches across and five inches
+long, and covered with a delicate and elegant magical script.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#18251
+The Entrance to the Forest~
+An ancient forest stands ahead, its trees heavy with snow from a recent
+storm.  No signs of any trails or roads can be seen among the trees, and if
+anyone has come this way recently, whatever signs they left of their passage
+have been erased by the fresh snow.  The forest spreads outward towards the
+north, a huge expanse that seems to be endless and completely untouched by
+civilization.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18252
+0 0
+S
+#18252
+Among the Fir Trees~
+A thick forest of pine trees stands all around you.  Growing closely
+together, they block visibility beyond a few feet, and their towering
+heights hide the sun's warming rays.  A thick layer of glistening snow lies
+upon the forest floor, hiding roots and rocks that threaten to trip the
+unwary.  To the south, the forest seems to clear a bit, making passage a
+good deal easier.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 18254
+0 0
+D1
+~
+~
+Z 0 18253
+0 0
+D2
+~
+~
+Z 0 18251
+0 0
+S
+#18253
+Before the Edge of a Cliff~
+The ground suddenly falls away to the east, an abrupt drop that could
+easily lead the unaware to their deaths.  A thick layer of ice by the
+cliff's edge makes it a challenge to maintain proper footing, and the fall
+to the ground below appears to be at least a hundred feet.  To the north and
+west the forest continues, and the ground appears to be more stable.  
+ 
+{RDeath Trap?{x
+~
+0 0 forest
+D0
+~
+~
+Z 0 18255
+0 0
+D1
+~
+~
+Z 0 18279
+0 0
+D3
+~
+~
+Z 0 18252
+0 0
+S
+#18254
+Among the Fir Trees~
+The air here is crisp and cold, filled with the scent of pine needles
+from the surrounding trees.  The pale sun can be seen above the treetops,
+though little of its heat seems to be making its way to the forest below. 
+The forest continues in all directions, a vast army of trees that offer no
+view as to what lies beyond them.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 18258
+0 0
+D1
+~
+~
+Z 0 18255
+0 0
+D2
+~
+~
+Z 0 18252
+0 0
+D3
+~
+~
+Z 0 18256
+0 0
+S
+#18255
+Among the Fir Trees~
+Snow falls gently to the forest floor, blown off of the treetops by a
+fierce wind blowing overhead.  The trees here grow close enough together to
+block much of the wind, but the air is still devastatingly cold, enough to
+freeze exposed skin in a matter of minutes.  The forest continues in every
+direction, seeming to go on forever.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 18259
+0 0
+D1
+~
+~
+Z 0 18257
+0 0
+D2
+~
+~
+Z 0 18253
+0 0
+D3
+~
+~
+Z 0 18254
+0 0
+S
+#18256
+By a Rocky Ledge~
+A rocky cliff rises up to the west, with a large ledge providing some
+welcome shelter from the snow.  It does little to protect against the cold
+and the wind, however, as the unfortunate soul whose frozen corpse lies
+beneath it surely came to realize.  
+~
+0 0 forest
+E
+frozen corpse~
+The corpse is that of a middle-aged man, a scholar by his clothes.  His
+eyes are fixed upon the sky above, and his features are frozen in a grimace.
+A traveling pack lies by his side, half-buried under the snow and frozen to
+the ground.  
+~
+D1
+~
+~
+Z 0 18254
+0 0
+S
+#18257
+Among the Fir Trees~
+A sharp wind blows through the treetops, filling the air with its eerie
+wail, and causing the snow gathered upon the tree branches to come showering
+down to the forest floor below.  Although the trees offer good protection
+against the wind, some of its stronger blasts make it through, chilling the
+air considerably.  Every now and again a loud cracking sound is heard,
+followed by the sound of a tree crashing to the ground off in the distance. 
+
+~
+0 0 forest
+D0
+~
+~
+Z 0 18260
+0 0
+D3
+~
+~
+Z 0 18255
+0 0
+S
+#18258
+Before a Great Fir Tree~
+A large fir tree stands before you, rising up almost one hundred feet
+into the air, towering over the rest of the forest.  Its ancient trunk looks
+to be several meters in diamater, and its low-hanging branches fall nearly
+to the ground.  There appears to be plenty of room beneath the tree's cover
+for several people to fit comfortably.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 18259
+0 0
+D2
+~
+~
+Z 0 18254
+0 0
+S
+#18259
+Among the Fir Trees~
+A wolf howls somewhere in the distance, shortly answered by several
+answering calls from every direction, a few sounding very close.  The air is
+crisp and chilly, every exhalation visible in a small cloud that spreads
+outward and then dissipates.  Trees rise up on every side, hiding anything
+more than a few feet away from sight.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 18262
+0 0
+D1
+~
+~
+Z 0 18260
+0 0
+D2
+~
+~
+Z 0 18255
+0 0
+D3
+~
+~
+Z 0 18258
+0 0
+S
+#18260
+Among the Fir Trees~
+The fierce wind blowing up above shakes the treetops violently, causing
+large chunks of snow and ice to periodically come lose and crash into the
+forest floor, along with any creature unlucky enough to be caught in the
+path of the fall.  The sun is visible here and there through the treetops,
+but it seems to be a pale shadow of itself, unable to offer any relief from
+the icy cold.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 18264
+0 0
+D1
+~
+~
+Z 0 18261
+0 0
+D2
+~
+~
+Z 0 18257
+0 0
+D3
+~
+~
+Z 0 18259
+0 0
+S
+#18261
+Among the Fir Trees~
+The forest here is covered in a thick layer of snow and ice, so that
+hardly any green is visible.  It is eerily still and silent, save for the
+piercing shriek of the wind blowing above the treetops, which only serves to
+emphasize the odd timelessness and isolation of the forest below.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 18265
+0 0
+D3
+~
+~
+Z 0 18260
+0 0
+S
+#18262
+The Edge of the Forest~
+A wide plain is visible between the trees to the north and west, an
+endless white sea of snow stretching as far as the eye can see.  To the
+south, the forest is thicker, the trees growing close together and giving no
+sign of what lies beyond them.  A strong wind blows through the trees,
+bringing with it an icy chill and causing some of the snow collected upon
+the treetops to slowly drift downward.  
+~
+0 C forest
+D0
+~
+~
+Z 0 18268
+0 0
+D1
+~
+~
+Z 0 18264
+0 0
+D2
+~
+~
+Z 0 18259
+0 0
+D3
+~
+~
+Z 0 18263
+0 0
+S
+#18263
+A Snow-Covered Plain~
+A vast plain extends before you, stretching out as far as the eye can
+see.  Though there are no trees or shrubs to block the way forward, progress
+is difficult as a thick layer of snow several feet deep covers the ground. 
+Every step forward is a struggle, the snow soft and collapsing at the
+slightest pressure, causing anyone trying to walk across to sink almost to
+their thighs.  The beginning of a forest lies to the east, the trees growing
+thicker further towards the south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18266
+0 0
+D1
+~
+~
+Z 0 18262
+0 0
+S
+#18264
+The Edge of the Forest~
+The forest appears to be thinning out, the trees placed more sparsely
+towards the north and west.  Although a deep layer of snow remains, passage
+here appears to be much easier than to the south.  The pale sun shines
+overhead, its beams falling upon the snow only to be reflected back up again
+with a greater intensity that makes it difficult to watch for long.  
+~
+0 C forest
+D0
+~
+~
+Z 0 18269
+0 0
+D1
+~
+~
+Z 0 18265
+0 0
+D2
+~
+~
+Z 0 18260
+0 0
+D3
+~
+~
+Z 0 18262
+0 0
+S
+#18265
+The Edge of the Forest~
+The forest seems to grow thicker to the south, the trees packed so
+closely together that it is difficult to see beyond a few feet.  A thick
+layer of snow covers the ground and tree branches, causing them to sag down
+towards the forest floor.  Though nothing appears to be moving among the
+trees and snow, sounds of life come from every direction, and every now and
+again a tree branch rustles as a small animal moves across it.  
+~
+0 C forest
+D0
+~
+~
+Z 0 18270
+0 0
+D2
+~
+~
+Z 0 18261
+0 0
+D3
+~
+~
+Z 0 18264
+0 0
+S
+#18266
+A Snow-Covered Plain~
+Snow falls gently from the sky above, adding a fresh layer to the ground
+that hides any tracks by man or beast almost as soon as they can be made. 
+The air here is cold, made worse by the wind that seems to be coming from
+every direction at once.  A forest to the south-east looks like it would
+provide some cover from the wind, but in every other direction there is
+nothing but the plain, which seems as though it will go on forever.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18275
+0 0
+D1
+~
+~
+Z 0 18268
+0 0
+D2
+~
+~
+Z 0 18263
+0 0
+D3
+~
+~
+Z 0 18267
+0 0
+S
+#18267
+A Snow-Covered Plain~
+The snow here is several feet deep, soft, and freshly fallen.  Every step
+through it is a struggle, as even the lightest of creatures finds themselves
+sinking deeper into it with every movement they make.  Snow falls heavily
+here, obscuring any signs of passage.  One could easily get lost in these
+plains, as they seem to be endless, extending in every direction with no
+distinguishing landmarks to be seen.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18276
+0 0
+D1
+~
+~
+Z 0 18266
+0 0
+S
+#18268
+A Snow-Covered Plain~
+With a dense forest to the south and a wide, seemingly endless
+snow-covered plain extending in every other direction, it doesn't look like
+progress forward will be easy.  A strong wind blows in from the north,
+blowing snow about and bringing with it an icy chill that seems to be
+draining what little heat there is to take from whatever it touches.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18273
+0 0
+D1
+~
+~
+Z 0 18269
+0 0
+D2
+~
+~
+Z 0 18262
+0 0
+D3
+~
+~
+Z 0 18266
+0 0
+S
+#18269
+A Snow-Covered Plain~
+Spread before you is a vast plain, covered in a deep layer of snow. 
+Although much of the sky is overcast, the light that makes it through is
+reflected off the snow, hurting your eyes.  A large forest stands to the
+south, the trees covered from a recent snowfall but still showing a hint of
+green here and there.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18271
+0 0
+D1
+~
+~
+Z 0 18270
+0 0
+D2
+~
+~
+Z 0 18264
+0 0
+D3
+~
+~
+Z 0 18268
+0 0
+S
+#18270
+A Snow-Covered Plain~
+A thick layer of snow covers the plain, making travel forward difficult. 
+A dense forest lies to the south, the snow-covered trees offering some
+colour to relieve the blinding glare of the snow-covered plain.  Snow falls
+gently from the low-hanging clouds above, blanketing the plains and erasing
+any signs of your passage almost as quickly as you can move.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 18265
+0 0
+D3
+~
+~
+Z 0 18269
+0 0
+S
+#18271
+A Snow-Covered Plain~
+A chilling wind blows in from the north, coming in powerful gusts that
+threaten to knock anyone trying to make their way across the plain.  Snow
+falls from the sky, made worse by the wind that whips it about so that each
+snowflake stings when it comes into contact with uncovered skin.  Far in the
+distance to the north, pink mountain peaks can be seen rising above the
+plains.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18272
+0 0
+D2
+~
+~
+Z 0 18269
+0 0
+D3
+~
+~
+Z 0 18273
+0 0
+S
+#18272
+A Snow-Covered Plain~
+Tall mountains rise majestically up ahead, their peaks lost in the
+clouds.  The plain here gradually turns to foothills, covered with ice and
+growing steeper further to the north.  A particularly large hill stands just
+to the side, with a wide opening on its southern face that appears to lead
+into an underground cavern.  The foothills to the north quickly grow too
+steep to climb safely, and the harsh wind blowing down from the mountain
+tops promises a quick death for any foolish enough to try.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 18271
+0 0
+D3
+~
+~
+Z 0 18274
+0 0
+S
+#18273
+A Snow-Covered Plain~
+Standing in the middle of the plain, there is little protection from the
+harsh wind blowing in from the north.  The icy chill it carries from the
+mountains off in the distance seems to drain the heat from anything it
+touches faster than it can be replenished.  A dense forest far to the south
+looks like it would offer some cover, though it is still a long way off.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18274
+0 0
+D1
+~
+~
+Z 0 18271
+0 0
+D2
+~
+~
+Z 0 18268
+0 0
+D3
+~
+~
+Z 0 18275
+0 0
+S
+#18274
+A Snow-Covered Plain~
+Tall mountain peaks loom ahead, their snow-covered heights hidden by the
+overcast sky.  A biting wind whistles down from the mountaintop, bringing
+with it ice and snow that it whips about mercilessly.  The plain here grows
+gradually hillier towards the north, and the thick sheet of ice combined
+with the lack of cover and strong wind make it impossible to continue
+forward in that direction.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 18272
+0 0
+D2
+~
+~
+Z 0 18273
+0 0
+S
+#18275
+A Snow-Covered Plain~
+The plain extends in every direction, a vast expanse of snow that seems
+to go on without end.  Heavy snowflakes fall from above, blanketing the
+plains and promising to make passage forward even more difficult.  The air
+here is cold, made worse by a strong wind blowing in from the north.  Little
+can be seen through the wall of falling snow, and every direction looks the
+same.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18277
+0 0
+D1
+~
+~
+Z 0 18273
+0 0
+D2
+~
+~
+Z 0 18266
+0 0
+D3
+~
+~
+Z 0 18276
+0 0
+S
+#18276
+A Snow-Covered Plain~
+Everywhere your eyes turn, the vast plain extends, covered in snow and
+with no signs of anything hardy enough to survive the cold.  Even with the
+overcast sky and heavy snowflakes falling to blanket the ground below, the
+whiteness of the snow is glaring, causing your eyes to burn.  Standing here
+in the middle of the plains, any creature not accustomed to the climate
+could easily meet its death, with no signs of any nearby shelter from the
+harsh wind that blows relentlessly from the north.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 18278
+0 0
+D1
+~
+~
+Z 0 18275
+0 0
+D2
+~
+~
+Z 0 18267
+0 0
+S
+#18277
+A Snow-Covered Plain~
+Snow falls heavily from the sky above, covering up tracks as soon as they
+can be made, and making it difficult to maintain any bearings.  The plain
+looks the same in every direction, though every now and again a glimpse can
+be seen of several mounds buried in the snow to the north.  Standing here in
+the center of the plains, there is no cover from the chilling wind and snow,
+which is quickly draining what little heat is left in your body.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 18275
+0 0
+D3
+~
+~
+Z 0 18278
+0 0
+S
+#18278
+A Snow-Covered Plain~
+Every step forward through the plains is taken through several feet of
+freshly fallen snow, causing anyone trying to make their way across to sink
+down past their knees with each move they make.  The wind is relentless,
+strong enough to knock down a giant, and with hardly any cover in sight. 
+Several large mounds appear to dot the landscape to the north, though from
+this distance there's no telling what they might be.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 18277
+0 0
+D2
+~
+~
+Z 0 18276
+0 0
+S
+#18279
+{CFalling Down the Cliff{x~
+You fall helplessly down the cliff face, its icy walls scraping your back
+and doing little to slow your descent.  The speed at which you are falling
+prevents you from getting a proper hold on anything to stop your fall.  Time
+almost seems to stand still as the ground below suddenly looms before you. 
+~
+0 0 inside
+S
+#0
+
+#RESETS
+M 0 18252 5 18251 1	* a deer (The Entrance to the Forest)
+M 0 18251 9 18252 1	* a large white wolf (Among the Fir Trees)
+M 0 18253 1 18253 1	* a wizinvis death trap mob (Before the Edge of a Cliff)
+M 0 18252 5 18254 1	* a deer (Among the Fir Trees)
+M 0 18251 9 18254 1	* a large white wolf (Among the Fir Trees)
+M 0 18251 9 18255 1	* a large white wolf (Among the Fir Trees)
+M 0 18252 5 18256 1	* a deer (By a Rocky Ledge)
+O 0 18251 0 18256	* a traveling pack (By a Rocky Ledge)
+P 0 18252 0 18251 1	* a traveling pack: {ya walking staff{x
+P 0 18253 0 18251 1	* a traveling pack: a tiny scroll
+M 0 18251 9 18257 1	* a large white wolf (Among the Fir Trees)
+M 0 18251 9 18258 1	* a large white wolf (Before a Great Fir Tree)
+M 0 18252 5 18261 1	* a deer (Among the Fir Trees)
+M 0 18251 9 18261 1	* a large white wolf (Among the Fir Trees)
+M 0 18255 7 18266 1	* a barbarian hunter (A Snow-Covered Plain)
+M 0 18255 7 18267 1	* a barbarian hunter (A Snow-Covered Plain)
+M 0 18255 7 18269 1	* a barbarian hunter (A Snow-Covered Plain)
+M 0 18255 7 18270 1	* a barbarian hunter (A Snow-Covered Plain)
+M 0 18255 7 18271 1	* a barbarian hunter (A Snow-Covered Plain)
+M 0 18255 7 18272 1	* a barbarian hunter (A Snow-Covered Plain)
+M 0 18255 7 18275 1	* a barbarian hunter (A Snow-Covered Plain)
+S
+
+#MOBPROGS
+#18251
+if clan $n sylvan
+else
+if level $n > 70
+mob echoat $n With a growl, the wolf leaps for your throat.
+mob echoaround $n With a growl, the wolf leaps for $n's throat.
+murder $n
+endif
+endif
+~
+#18252
+if mobhere 18252
+mob echo Moving silently through the trees, the wolf approaches the deer, suddenly leaping towards it, jaws wide open.
+kill deer
+endif
+~
+#18253
+if mobhere wolf
+flee
+endif
+~
+#18254
+if room $i == 18270
+or room $i == 18269
+or room $i == 18268
+or room $i == 18267
+south
+endif
+if room $i == 18263
+east
+endif
+~
+#18255
+mob delay 2
+mob remember $n
+~
+#18256
+mob echoat $q You hit the ground, forcing the air out of your lungs. For a moment all that you know is pain, and then blackness consumes you.
+mob damage $q 30000 30001
+mob transfer $q 3054
+mob goto 3054
+mob echoaround $q The unconscious form of $q is dragged in my some strange-looking villagers, all clothed in animal skins. Dropping $Z off before the healer, they turn back the way they came.
+mob goto 18279
+mob vforce 18254 mob purge self
+mob purge
+mob goto 18253
+~
+#18257
+mob echoat $n Too late, you realize your carelessness as the ice beneath you gives way and you find yourself falling.
+mob echoaround $n A loud cracking sound is heard, and suddenly the ice beneath $n's feet gives way, sending $s plummeting down the cliff face.
+mob transfer $n 18279
+mob mload 18254
+mob goto 18279
+mob remember $n
+mob delay 2
+~
+#18258
+mob echoat $n Taking a cautious look over the edge, you realize that getting too close would be a bad idea.
+~
+#0
+
+#$

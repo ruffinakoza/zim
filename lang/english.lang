@@ -1,0 +1,10 @@
+#LANG
+Name eng
+End
+
+#RULECLASS
+Class qtys
+Expl qtys.eng~
+End
+
+#$

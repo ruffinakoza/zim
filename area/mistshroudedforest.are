@@ -1,0 +1,5073 @@
+#AREADATA
+Name Mist Covered Forest~
+Builders nalaeya~
+VNUMs 19411 19549
+Credits Nalaeya~
+Security 9
+LevelRange 50 70
+ResetMessage A sweet, unearthly voice begins to sing a long, mournful chant, filling your heart with sadness.~
+End
+
+#MOBILES
+#19411
+crow~
+a crow~
+A crow is perched on a nearby branch, watching you with an unwavering gaze.
+~
+The crow is as black as night, from the tip of its bill to its feet and
+tail.  There is something unsettling about it, as it watches you closely,
+seeming to make note of your every move.  
+~
+song bird~
+AB 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19411 100~
+#19412
+raven~
+a raven~
+A raven soars overhead, letting out a cry that makes your blood run cold.
+~
+The raven is completely black, and seems to be quite large.  It flies
+overhead easily, seeming to follow you intentionally as you move through the
+trees.  Every once in a while it swoops down close, as if to get a better
+look at you, making the hairs on the back of your neck rise.  
+~
+song bird~
+AB 0 0 0
+53 53 190d53+0 265d10+85 17d3+31 none
+-26 -26 -26 -15
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19412 100~
+#19413
+baobhan sith young woman maiden~
+a Baobhan Sith~
+A beautiful young maiden walks amongst the mist, singing softly.
+~
+Her hair is long and fair, her skin almost as white as snow, and her lips
+the colour of crushed berries.  She gazes at you with big, watery blue eyes,
+shining brightly though there is barely any light except the strange glow
+that comes from the mist.  She wears a long white gown, with a white veil
+that flows down to her feet, trailing across the ground.  The song she sings
+is one of incredible beauty, though the words cannot be understood, always
+just out of hearing.  
+~
+ghost~
+AB 0 1000 0
+57 57 212d57+0 285d10+85 19d3+33 none
+-29 -29 -29 -17
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19413 100~
+#19414
+baobhan sith young woman maiden~
+a Baobhan Sith~
+A beautiful young woman offers to dance with you, laughing gaily.
+~
+Her hair is dark, reaching her waist and falling in perfect waves.  Her
+skin is fair and flawless, and her lips are as red as berries.  She wears a
+white gown, that trails along the ground behind her.  She smiles at you
+enticingly, giggling and asking you for a dance.  
+~
+ghost~
+AB O -700 0
+57 57 212d57+0 285d10+85 19d3+33 none
+-29 -29 -29 -17
+EFJN 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19414 100~
+M act 19415 sends you across the dancefloor.~
+#19415
+fetch double image yourself figure strange~
+a fetch~
+A strange figure slowly turns towards you, and suddenly becomes a mirror image of yourself!
+~
+The form before you is a perfect imitation of yourself, from every strand
+of hair to the wrinkles in your clothes and the dents in your armor.  The
+eyes are lifeless, staring, but with a strange hunger deep in their depths. 
+Your skin crawls as it steps towards you, becoming more lifelike by the
+second, just waiting to destroy you and take over your existence.  
+~
+unique~
+ABF 0 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+EFJ M 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium flesh~
+~
+M death 19416 100~
+#19416
+bendith y mamau ugly creature bent~
+a bendith y mamau~
+An ugly, bent creature is here, playing a tune on its flute.
+~
+A bent, ugly creature is here, looking like a horrible cross between a
+goblin and a faerie.  Nasty lumps of flesh rise out of its back, where wings
+should be, twitching feebly whenever the creature moves.  Its skin is a
+sickly gray-green, hanging loosely around its face and shoulders.  Its eyes
+are like small, red beads, blinking rapidly as it watches you.  In its hands
+it holds a simple wooden flute, clutching it tightly, as if it is precious. 
+
+~
+goblin~
+AB 0 -500 0
+66 66 264d66+0 330d10+85 28d3+42 none
+-34 -34 -34 -21
+EHJN 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19417 100~
+#19417
+changeling child creature ugly being~
+a changeling~
+An ugly child-like being stands here, swaying and grinning evilly at you.
+~
+An ugly, child-like being stands here.  It has the appearance of a human,
+and an elf, and a gnome, and any other number of races, and yet none, all at
+once.  Its eyes are black and beady, glittering with with a strange
+intensity.  Its smile is crooked, revealing sharp and yellow teeth.  It is
+dressed in the ragged clothes of an orphan, though there is a malevolent
+aura about it that makes it impossible to pity.  
+~
+goblin~
+ABT 0 -600 0
+63 63 247d63+0 315d10+85 27d3+40 none
+-32 -32 -32 -19
+EFJN 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19418 100~
+#19418
+lost child~
+a lost child~
+A child is here, looking lost and confused.
+~
+This little boy looks like any other, with a head of soft brown hair cut
+short just above the ears.  He is dressed in the clothes of a villager,
+though they are now stained and torn in several places.  He doesn't seem to
+be afraid, but rather lost in a haze, as though he isn't fully aware of what
+is going on around him.  
+~
+human~
+AB 0 1000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 19422 ghelan~
+M entry 19423 100~
+#19419
+lost child changeling~
+a lost child~
+A child is here, looking lost and confused.
+~
+This little boy looks like any other, with a head of soft brown hair cut
+short just above the ears.  He is dressed in the clothes of a villager,
+though they are now stained and torn in several places.  He doesn't seem to
+be afraid, but rather lost in a haze, as though he isn't fully aware of what
+is going on around him.  
+~
+human~
+AB 0 -1000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 19422 ghelan~
+M entry 19424 100~
+#19420
+wizinvis mob function~
+a function mob~
+this mob stands here, loading a grieving mother.
+~
+The purpose of this mob is to have a chance to load a grieving mother
+whenever a good aligned player walks through, which will start off a quest
+having to do with this forest.  
+~
+human~
+ABe 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 19420 Ugg~
+I 92
+#19421
+grieving mother woman crying~
+a grieving mother~
+A woman is here, sobbing miserably.
+~
+Her eyes are red-rimmed and puffy, as if she's been crying for hours. 
+She wears an apron and a simple cotton dress, the clothes of a village
+woman.  
+~
+human~
+AB 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 A 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M greet 19419 100~
+M speech 19120 yes~
+M act 19120 nod~
+M speech 19421 no~
+M act 19421 shake~
+#19422
+mermaid maid waves woman beautiful maiden~
+a maid-of-the-waves~
+A lovely maiden leans forward on a rock, singing an enchanting song.
+~
+A beautiful maiden with long red-coloured hair that reaches her waist,
+she looks human until you see the light glittering off the scales that cover
+her lower body.  There is something strangely enchanting about her, as if
+you are glancing upon something not meant to be seen by mortal eyes.  
+~
+elf~
+AB 0 0 0
+55 55 201d55+0 275d10+85 18d3+32 none
+-27 -27 -27 -16
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19425 100~
+#19423
+sequanna woman ghost~
+Sequanna~
+A woman stands at the prow of a duck-shaped vessel, watching you approach.
+~
+Dressed in a pale gray gown, she stands at the prow of her ship, a
+ghostly but benevolant figure guarding the mouth of the stream.  She wears a
+smile on her face, looking forward as if expecting someone to approach.  
+~
+human~
+AB 0 1000 0
+69 69 281d69+0 345d10+85 23d3+39 none
+-36 -36 -36 -22
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19426 100~
+#19424
+cyhiraeth woman~
+Cyhiraeth~
+A sorrowful woman in white floats just above the water, her gown shimmering.
+~
+Dressed in a pale gown that shimmers as though it was made of water,
+there is something eerie about the woman, quite aside from the fact that she
+is suspended in the air, her feet inches from the lake's surface.  Her face
+would be beautiful but for the sadness that seems to be permanently upon it.
+Her lips move as if to call out, but no sound emerges.  
+~
+ghost~
+AB 0 0 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19427 100~
+#19425
+banshee woman weeping~
+a banshee~
+A beautiful woman stands at the center of the stream, weeping mournfully.
+~
+Dressed is a beautiful gown of the deepest green, her eyes are red-rimmed
+from endless tears.  Her skin is fair, and her long hair floats in the water
+around her.  Despite the icy chill of the water, she doesn't seem to notice
+the cold, instead seeming to be absorbed in a sad and mournful chant, broken
+occasionally by deep wracking sobs.  
+~
+ghost~
+AB DF 1000 0
+65 63 247d63+0 315d10+85 21d3+36 none
+-32 -32 -32 -19
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19428 100~
+#19426
+banshee woman~
+a banshee~
+A woman washes bloodied clothes in the stream, the water red around her.
+~
+Though she looks like a maiden from afar, a closer look reveals the
+terrible truth.  Her hair is white and tangled, its long strands floating in
+the water beside her.  Her mouth is huge, filled with black teeth and
+letting out terrible bone-chilling shrieks that send a jolt of fear into
+your very core.  The clothes she washes look familiar, but they are so
+bloodied it is difficult to tell where they are from.  She washes them
+carefully, letting a seemingly endless supply of blood by carried off by the
+current, turning the river red around her.  
+~
+ghost~
+AB 0 -1000 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19429 100~
+#19427
+restless spirit~
+a restless spirit~
+A restless spirit is here, gazing at its surroundings with hatred.
+~
+At times it is almost translucent, and you are able to see through it to
+the trees beyond.  It appears to be the height of a human, but its facial
+features are so contorted with pain and hatred that it is difficult to
+discern much more than that.  
+~
+ghost~
+ABF 0 -1000 0
+61 61 235d61+0 305d10+85 20d3+35 none
+-31 -31 -31 -18
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 19430 100~
+#19428
+pixie~
+the pixie~
+A pixie flits among the trees, wings fluttering.
+~
+The pixie wears a multi-coloured dress that seems to shift between all
+the colours of the spectrum before your eyes.  Standing at only about six
+inches, she flutters around, her wings moving so fast that they are a barely
+visible blur.  Her voice is sweet as she giggles playfully, flitting back
+and forth so that it is difficult to keep track of her.  
+~
+sprite~
+AB BD 0 0
+67 67 269d67+0 335d10+85 22d3+38 none
+-35 -35 -35 -21
+FH 0 0 0
+stand stand female 0
+0 P medium flesh~
+~
+F vul D
+M death 19431 100~
+#19429
+faerie~
+the faerie~
+A faerie leans by the wall, watching you with arms crossed.
+~
+The faerie stands at about three feet tall, and wears a beautiful gown
+made of a thin, shimmering material that seems to be molded to every curve
+of her body.  Her wings are stunningly beautiful, looking as delicate and
+lovely as a butterfly's.  Her forhead is creased into a small frown as she
+watches you intrude upon her home, but even that does nothing to lessen her
+beauty.  
+~
+sprite~
+AB BD 0 0
+68 68 275d68+0 340d10+85 22d3+39 none
+-36 -36 -36 -21
+FH 0 0 0
+stand stand female 1889
+0 P medium flesh~
+~
+M death 19432 100~
+#19430
+sprite~
+the sprite~
+A sprite flits about, moving faster than the eye can see.
+~
+The sprite has the appearance of a young man, only he only stands at
+about seven inches.  His wings are multi-coloured, though it is difficult to
+get a clear look at them as they flutter too fast to see when he flies, and
+he never seems to stay still for long.  He watches you with a grin on his
+face, trying to think of a good trick to play.  
+~
+sprite~
+AB BD 0 0
+69 69 281d69+0 345d10+85 23d3+39 none
+-36 -36 -36 -22
+FH 0 0 0
+stand stand male 0
+0 P medium flesh~
+~
+F vul D
+M death 19433 100~
+M grall 19435 5~
+#19431
+sylph~
+the sylph~
+A sylph floats in the air, wings fluttering softly.
+~
+Dressed in a blue gown, and with the most delicate wings of pale blue,
+the slyph is a lovely sight to behold.  Pale blue hair is cut short, and
+though she only stands at about five inches tall, eyes of the deepest blue
+are clearly visible.  Her wings flutter slowly, keeping her slight frame up
+in the air with minimal effort.  While she doesn't seem upset to find you
+here, she eyes you warily, wondering about your intentions.  
+~
+sprite~
+AB BD 0 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+FH 0 0 0
+stand stand female 0
+0 P medium flesh~
+~
+F vul D
+M death 19434 100~
+#19432
+faerie queen~
+the faerie queen~
+The faerie queen rests on her throne, presiding over her subjects.
+~
+The faerie queen is a stunning creature, among the most beautiful to be
+found in the realm.  She stands at just over four feet tall, almost a giant
+for her race.  Her gown is as green as grass, and seems to be made of a very
+delicate, shimmery fabric.  Pale white wings flutter at her back as she
+rests on the throne, watching over her subjects.  Her hair is brown, falling
+to her shoulders, and her eyes are so green that they're visible even from
+the other end of the room.  She holds herself with an air of dignity, and
+shows no fear as she watches you enter her throne room.  
+~
+sprite~
+ABCR BDFlm 0 0
+70 70 286d70+500 350d10+85 23d3+40 none
+-37 -37 -37 -22
+0 A 0 0
+stand stand female 2060
+0 P medium flesh~
+~
+F vul DI
+M death 19440 100~
+#19433
+dub man~
+Dub~
+A man stands here, holding an enormous bastard sword.
+~
+The man before you is tall, over six feet in height.  His hair is almost
+pitch black, a startling contrast with his dark red lips and fair skin.  He
+wears dark leather armor, embroidered with strange symbols.  His eyes are
+dark, and mesmerizing, seeming to absorb all the light that touches him,
+leaving him surrounded by an aura of darkness.  
+~
+human~
+AB 0 -1000 0
+69 69 281d69+0 345d10+85 23d3+39 none
+-36 -36 -36 -22
+E 0 0 0
+stand stand male 1129
+0 0 medium flesh~
+~
+M death 19438 100~
+#19434
+dother man~
+Dother~
+A fair-haired man stands here, clad in dark armor.
+~
+The man before you is quite handsome, or he would be, if it wasn't for
+the twisted grin on his face.  He wears dark armor engraved with strange
+symbols, though he has left his head uncovered.  His eyes are of the
+clearest blue, as beautiful as a cloudless sky, but there is something
+disquiting about them, as if they are just part of a mask hiding something
+terrible inside.  
+~
+human~
+AB 0 -1000 0
+69 69 281d69+0 345d10+85 23d3+39 none
+-36 -36 -36 -22
+K 0 0 0
+stand stand male 2491
+0 0 medium flesh~
+~
+M death 19439 100~
+#19435
+dian man~
+Dian~
+A man with flame red hair stands here, holding a sword dripping blood.
+~
+The man is a distressing sight, his face and armor covered in blood, none
+of it appearing to be his own.  His hair is the colour of flames, and his
+eyes are as green as emeralds, almost beautiful but for the twisted hatred
+they reveal.  
+~
+human~
+AB 0 -1000 0
+69 69 281d69+0 345d10+85 23d3+39 none
+-36 -36 -36 -22
+J 0 0 0
+stand stand male 103
+0 0 medium flesh~
+~
+M death 19437 100~
+#19436
+carman witch woman~
+Carman~
+A woman clad in dark robes stands here, a look of rage on her face.
+~
+This woman appears to be middle-aged, but there is an aura about her that
+gives you the impression she is quite ancient.  She wears dark robes,
+stained with blood at the hem.  Her face is twisted in anguish and rage, and
+her dark eyes grow with a frightening light, ready to bring destruction to
+any who come in sight.  
+~
+human~
+AB DF -1000 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+G A 0 0
+stand stand female 391
+0 0 medium flesh~
+~
+#19437
+wizi hero preventer~
+wizi hero preventer~
+~
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#19411
+moss~
+some moss~
+Moss grows against the side of the tree.~
+unknown~
+moss~
+pill 0 A
+50 'refresh' 'refresh' 'refresh' 'refresh'
+5 3 10 P
+E
+moss~
+The moss is green, and has obviously been thriving.
+~
+G none
+G none
+G none
+G none
+#19412
+mushrooms~
+a mushroom~
+Mushrooms grow on one side of the tree, flourishing in the darkness.~
+unknown~
+mushroom~
+pill 0 A
+50 'poison' 'reserved' 'reserved' 'reserved'
+5 5 15 P
+E
+mushroom~
+They're quite big, and nearly black in colour.  There's no telling if
+they're safe to eat.  
+~
+G none
+G none
+G none
+G none
+#19413
+amulet flower~
+{ma fl{Mow{mer am{Mul{met{x~
+A beautiful amulet has been forgotten on the ground.~
+unknown~
+flowers~
+armor GIKLT AC
+21 21 21 20 'none' 0
+57 15 110410 P
+A
+12 20
+A
+3 1
+A
+2 1
+A
+19 5
+A
+18 5
+E
+flower amulet~
+It is a beautiful amulet, made of flowers that appear to still be living.
+It appears to have been created with magic, by loving hands.  
+~
+G none
+G none
+G none
+G none
+#19414
+wooden flute~
+{ya wooden flute{x~
+A wooden flute has been left here.~
+wood~
+~
+wand G AO
+66 1 1 'charm person'
+66 45 1000 P
+E
+wooden flute~
+The flute is simply crafted, made of wood and coated with a thin
+substance to protect it from the elements.  The sound that comes from it is
+sweet and clear.  
+~
+G none
+G none
+G none
+G none
+#19415
+ancient silver locket rare~
+an ancient silver locket~
+An ancient-looking locket has been forgotten here.~
+silver~
+~
+jewelry AIKTh AC
+0 0 0 0 0 0 0
+70 50 10000 P
+A
+19 7
+A
+18 7
+F
+A 17 -14 C
+E
+ancient locket silver~
+This ancient locket is made of silver, with a small half-moon pendant on
+the end.  The clasps are shut tightly, impossible to open.  
+~
+G none
+G none
+G none
+G none
+#19416
+beds leaves leaf~
+a bed of leaves~
+~
+unknown~
+leaves~
+furniture R 0
+AC EIJKN EHK ABEFG ABEFG AC EIJKN
+0 0 0 P
+E
+beds leaves~
+Beds of varying shapes and sizes are layed out on the floor, made of
+leaves and twigs collected from the forest.  
+~
+G none
+G none
+G none
+G none
+#19417
+shelf shelves~
+the shelf~
+A shelf holds small items collected by the faeries.~
+wood~
+~
+container R 0
+1000 0 0 1000 0 0
+0 0 0 P
+E
+shelf~
+The shelf isn't very big, and there doesn't seem to be too much of value
+on them.  
+~
+G none
+G none
+G none
+G none
+#19418
+scroll tightly wound~
+a tightly wound scroll~
+A tightly wound scroll has been dropped to the ground.~
+unknown~
+~
+scroll GI A
+50 'heal' 'armor' 'reserved' 'reserved'
+55 5 100 P
+E
+tightly wound scroll~
+The writing on the scroll is almost too tiny to read, but the words seem
+to hold great power, barely contained by the thin paper they are written on.
+
+~
+G none
+G none
+G none
+G none
+#19419
+burlap sack~
+a burlap sack~
+A big burlack sack has been left on the ground.~
+unknown~
+burlap~
+container 0 AO
+300 0 0 100 50 0
+50 30 14134 P
+E
+burlap sack big~
+The sack appears to be sturdy enough, and looks as if it could hold a
+good deal.  
+~
+G none
+G none
+G none
+G none
+#19420
+pile treasure random~
+a random pile~
+~
+unknown~
+~
+container R 0
+500 0 0 500 0 0
+0 0 0 P
+E
+random pile treasure~
+Everything seems to be bunched together in a big pile, seemingly with no
+attention paid to value.  
+~
+G none
+G none
+G none
+G none
+#19421
+lovely emerald~
+a lovely emerald~
+An emerald sparkles on the ground, dropped and forgotten.~
+unknown~
+gemstone~
+gem W A
+0 0 0 0 0 0 0
+0 10 2500 P
+E
+emerald lovely~
+The emerald is about an inch wide an inch and a half long.  There is a
+small flaw on the bottom, but it is still quite lovely.  
+~
+G none
+G none
+G none
+G none
+#19422
+gold coins~
+several gold coins~
+Gold coins are scattered about the piles of treasure.~
+gold~
+~
+money 0 A
+15 25
+0 0 0 P
+G none
+G none
+G none
+G none
+#19423
+sylph wings~
+{ca sylph's wings{x~
+Small, delicate wings lie on the ground.~
+unknown~
+sylph~
+clothing FGJKT AK
+BDE BDE BDE ADE 0 BDE BDE
+70 10 527420 P
+A
+19 7
+A
+18 14
+A
+13 50
+E
+sylph wings~
+These wings are small, and very delicate, but with a strange and intense
+beauty that is stunning to look upon.  
+~
+G none
+G none
+G none
+G none
+#19424
+bastard rune covered sword bastardsword~
+A rune-covered bastard sword~
+A dark-bladed bastard sword rests on the ground, humming softly.~
+metal~
+~
+weapon EHJLM AN
+bastardsword 3 34 cleave F
+70 71 147619 P
+A
+19 10
+E
+bastard rune covered sword~
+The bastard sword is huge, almost the height of a man, and it looks quite
+heavy.  The blade is as dark as night, seeming to absorb any light that
+touches it.  Dark runes cover the metal of the blade, as well as the hilt,
+humming with power.  
+~
+G none
+G none
+G none
+G none
+#19425
+platemail armor set~
+a set of platemail armor~
+A set of plate mail armor has been left here.~
+metal~
+~
+armor 0 AD
+26 26 26 25 'none' 0
+70 400 339458 P
+A
+24 -1
+A
+19 6
+A
+18 7
+E
+platemail armor set~
+The armor gleams brightly, recently polished, and appears to be of exquisite craftsmenship, created by a fine armorsmith.
+~
+G male
+G none
+G none
+G none
+#19426
+ruby anklet~
+{Ra ruby anklet{x~
+Someone has forgotten a ruby anklet here.~
+unknown~
+rubies~
+armor H AF
+26 26 26 25 'none' 0
+70 15 255786 P
+A
+19 7
+A
+18 10
+A
+17 -10
+G none
+G none
+G none
+G none
+#19427
+shimmering gown pile material~
+a shimmering gown~
+A pile of shimmering material lies on the ground.~
+unknown~
+~
+clothing T AD
+0 0 0 0 0 0 0
+70 30 283851 P
+A
+17 -26
+A
+13 15
+A
+18 7
+A
+19 6
+E
+shimmering gown pile material~
+The gown seems to be made of an unbelievably soft material, with a
+texture reminiscent of flower petals.  It is white, almost silver, and with
+every movement catches the light, creating a lovely effect.  
+~
+G female
+G none
+G none
+G none
+#19428
+bracelet pale blue sapphires~
+a bracelet of {cpale {bblue{x sapphires{x~
+A beautiful bracelet lies abandoned here.~
+silver~
+~
+jewelry TW AM
+0 0 0 0 0 0 0
+70 25 10000 P
+A
+4 1
+A
+13 30
+A
+18 8
+A
+19 4
+E
+bracelet pale blue sapphires~
+The bracelet itself appears to be made of silver with sapphires embedded
+along its length.  
+~
+G none
+G none
+G none
+G none
+#19429
+belt silver chain~
+a silver belt~
+A small silver chain lies here, forgotten.~
+silver~
+~
+armor T AL
+26 26 26 25 'none' 0
+70 20 137628 P
+A
+12 10
+A
+19 7
+A
+18 7
+E
+belt silver chain~
+The belt is simple but elegant, a chain of silver rings linked together,
+meant to fit neatly around the waist with the remainder of the length
+dangling down.  
+~
+G none
+G none
+G none
+G none
+#19430
+swan circlet~
+a circlet shaped like a swan~
+A delicate-looking circlet has been left behind here.~
+silver~
+~
+armor GT AE
+26 26 26 25 'none' 0
+70 30 216375 P
+A
+19 7
+A
+24 -6
+E
+circlet swan delicate~
+The circlet is beautiful, made of silver but as light as a feather.  The
+swan appears to be alive, moving almost imperceptively, though with the next
+glance it looks to be absolutely still.  
+~
+G none
+G none
+G none
+G none
+#19431
+slippers silk~
+a pair of silk slippers~
+A pair of lovely silk slippers has been left here.~
+silk~
+~
+clothing GMT AG
+0 0 0 0 0 0 0
+70 50 336090 P
+A
+13 50
+A
+12 30
+A
+20 -3
+A
+19 12
+A
+18 12
+A
+6 -3
+A
+5 -3
+A
+4 -3
+A
+3 -3
+A
+2 -3
+A
+1 -3
+G none
+G none
+G none
+G none
+#19432
+ring faerie~
+{ma fa{ceri{me {cri{mng{x~
+A beautiful ring lies on the ground, humming softly.~
+unknown~
+magic~
+jewelry BGIKT AB
+0 0 0 0 0 0 0
+70 15 5000 P
+A
+13 10
+A
+19 9
+A
+18 7
+E
+faerie ring~
+The ring is beautiful beyond words, worked to resemble a circle of tiny
+twigs, leaves growing from their sides.  It appears to be delicate at first
+glance, but the material is much stronger than it looks.  
+~
+G none
+G none
+G none
+G none
+#19433
+vial faerie dust~
+a vial of faerie dust~
+A vial filled with a sparkling liquid rests on its side.~
+unknown~
+faerie dust~
+potion AGT A
+40 'invisibility' 'fly' 'shield' 'bark skin'
+70 5 10 P
+E
+vial faerie dust~
+The vial itself is transparent, allowing for a clear view of the
+sparkling liquid inside.  Words cannot really describe it accurately; there
+is something immensely powerful, and a feeling of strong magic, all
+emanating from the tiny vial.  
+~
+G none
+G none
+G none
+G none
+#19434
+silver bell~
+a silver bell~
+A silver bell has been dropped to the ground.~
+silver~
+~
+warp_stone BG AO
+0 0 0 0 0 0 0
+70 40 100 P
+E
+silver bell~
+The bell is small, but well-crafted, creating a clear, lovely sound when
+it is struck.  
+~
+G none
+G none
+G none
+G none
+#19435
+twin daggers pair~
+a pair of twin daggers~
+Two perfectly matched daggers have been dropped here, side by side.~
+mithril~
+~
+weapon IT AN
+dagger 5 11 pierce E
+70 30 66714 P
+A
+17 -5
+A
+18 6
+A
+19 6
+E
+twin daggers pair~
+The daggers are small, but perfectly balanced.  The blades are finely
+crafted, gleaming silver in the light.  The hilts are black, and offer a
+perfect grip.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#19411
+The Remains of a Trail~
+The forest here is almost impossibly dense, making progress slow and
+dangerous due to the roots and rocks hidden under the heavy foliage, waiting
+to bring the unwary traveler to their knees.  Several bushes seem to have
+been recently cut through, as if someone was trying to make their way
+further into the forest by slashing at anything in their path.  Though much
+of this makeshift trail is overgrown, it offers the quickest way through the
+thick trees.  
+~
+0 AC forest
+E
+bushes~
+Many of the bushes are thorn-covered, drawing blood even with the
+slightest touch.  
+~
+D1
+The makeshift trail continues deeper into the forest, though the trees
+grow too heavily to see what lies beyond.  
+~
+~
+Z 0 19412
+0 0
+D3
+~
+~
+Z 0 10887
+0 0
+S
+#19412
+The Entrance to a Mist Shrouded Forest~
+Thick trees rise up on every side, growing so closely together that it is
+difficult to move through them.  They rise hundreds of feet high, their
+branches spreading out at the top and interlocking with each other, blocking
+almost all the light that seeks to filter through, leaving the floor of the
+forest shrouded in darkness.  A light mist is visible in the distance,
+weaving slowly among the trees, making it difficult to see very far beyond. 
+
+~
+0 A forest
+D0
+The trees are so thick that nothing is visible beyond a few feet.
+~
+~
+Z 0 19413
+0 0
+D1
+A light mist weaves among the trees, making it difficult to see very far.  
+~
+~
+Z 0 19415
+0 0
+D2
+The trees are so thick that nothing is visible beyond a few feet.
+~
+~
+Z 0 19414
+0 0
+D3
+A small trail is visible through the thick trees, seemingly the only way
+through them.  
+~
+~
+Z 0 19411
+0 0
+S
+#19413
+Deeper into the Forest~
+Ancient trees grow all around, many with trunks that are several feet
+wide, their thick, deep roots plunging deep into the earth in search of
+fresh water brough by recent rains.  A light mist can be seen weaving
+through the trees to the east, making it difficult to make out anything
+beyond it.  The forest is dark here, the leaves of the trees keeping out
+almost any trace of light, though a stray strand does manage to reach the
+forest floor here and there.  
+~
+0 A forest
+E
+roots~
+The tree roots are thick, and plunge deep into the ground, impossible to
+budge.  
+~
+D1
+A light mist begins to weave among the trees, making it difficult to see
+far beyond.  
+~
+~
+Z 0 19416
+0 0
+D2
+Thick trees block any view of what may lie to the south.
+~
+~
+Z 0 19412
+0 0
+D3
+~
+~
+Z 0 19531
+0 0
+S
+#19414
+Deeper into the Forest~
+The forest is filled with tall trees that rise up hundreds of feet into
+the sky, their ancient trunks strong and sturdy, untouched by disease or
+axe.  High above, thick spreading branches block out almost all the light
+trying to shine through, leaving the forest floor in darkness.  A light mist
+lies suspended over the forest floor to the east, slowing reaching out with
+wispy tendrils that quickly dissisipate.  
+~
+0 A forest
+D0
+The forest is too dense to see more than a few feet away.
+~
+~
+Z 0 19412
+0 0
+D1
+A light mist weaves among the trees, suspended just over the forest floor.  
+~
+~
+Z 0 19417
+0 0
+S
+#19415
+Among the Mist-Shrouded Trees~
+The dense forest rises up on all sides, trees growing so closely together
+that it is impossible to see more than a few feet ahead.  A light mist
+weaves its way through the trees, obscuring the view of the forest floor. 
+Up above, hundreds of feet to the sky, tree branches interlock tightly,
+keeping out almost every strand of light that struggles to break through to
+illuminate the forest.  
+~
+0 A forest
+D0
+A light mist covers the forest floor, and thick trees block the view of
+what lies in the distance.  
+~
+~
+Z 0 19416
+0 0
+D1
+The light mist makes it difficult to see too far ahead.  
+~
+~
+Z 0 19419
+0 0
+D2
+A light mist weaves between the trees, making it difficult to see very
+far.  
+~
+~
+Z 0 19417
+0 0
+D3
+Thick trees make it impossible to see more than a few feet ahead.
+~
+~
+Z 0 19412
+0 0
+S
+#19416
+Among the Mist-Shrouded Trees~
+A light mist flows among the trees, rising a few feet above the ground. 
+The air is cool and filled with the scents of the forest.  There is a
+strange hushed feeling in the air.  Birds call out to each other, and every
+once in a while there is a rustle in the bushes that announces the presence
+of a small animal, but it seems as though everything is subdued, almost as
+if there is a storm coming.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19421
+0 0
+D1
+~
+~
+Z 0 19420
+0 0
+D2
+A light mist weaves among the trees, making it difficult to see far ahead.  
+~
+~
+Z 0 19415
+0 0
+D3
+The thick forest makes it difficult to see more than a few feet ahead.
+~
+~
+Z 0 19413
+0 0
+S
+#19417
+By the Great Tree~
+An immense, ancient tree grows here, its trunk almost twenty feet across.
+It rises hundreds of feet high, towering over the other trees in the forest.
+Green moss grows along its length, and a series of mushrooms seem to be
+prospering on its south side.  The mist appears to stop just before it, as
+if some force from the tree repels it.  
+~
+0 A forest
+E
+ancient tree~
+The trees in this forest are old, most having stood for centuries, but
+this one is ancient even compared to the rest.  
+~
+D0
+~
+~
+Z 0 19415
+0 0
+D1
+~
+~
+Z 0 19418
+0 0
+D2
+~
+~
+Z 0 19433
+0 0
+D3
+~
+~
+Z 0 19414
+0 0
+S
+#19418
+Among the Mist-Shrouded Trees~
+The sounds of waves are clearly audible through the trees to the east,
+though the forest is too thick to give a view of their source.  The mist
+swirls around the trees and the forest floor, hiding what lies beneath it. 
+There is a faint wind blowing in from the east, causing the mist to swirl
+chaotically as it is hit by the breezes.  
+~
+0 A forest
+D0
+A light mist weaves among the trees, obscuring your view.
+~
+~
+Z 0 19419
+0 0
+D1
+~
+~
+Z 0 19490
+0 0
+D2
+~
+~
+Z 0 19435
+0 0
+D3
+A large, ancient tree is barely visible through the dense forest.  
+~
+~
+Z 0 19417
+0 0
+S
+#19419
+Among the Mist-Shrouded Trees~
+A light mist covers the forest floor, rising to about the height of an
+elven man's knees.  The air is cool here, smelling of sweet wildflowers and
+the thick scent of the leaves that cover the forest floor.  The sounds of
+water can be heard from close by, though it's difficult to see beyond the
+trees to determine its source.  The leaves of the trees above block out any
+light from the sky, shrouding the forest floor in darkness, though a few
+strands of light manage to pierce through here and there.  
+~
+0 A forest
+D0
+The light mist obscures any view of what lies beyond.
+~
+~
+Z 0 19420
+0 0
+D1
+~
+~
+Z 0 19486
+0 0
+D2
+The forest is too dense to see more than a few feet.
+~
+~
+Z 0 19418
+0 0
+D3
+Thick trees grow too closely together to see more than a few feet ahead.  
+~
+~
+Z 0 19415
+0 0
+S
+#19420
+Among the Mist-Shrouded Trees~
+Progress forward is slow, as the mist that covers the forest floor hides
+the roots and rocks that cover it, threatening to trip unwary travelers. 
+Tall trees rise all around, ancient and untouched, their leaves blocking the
+light that seeks to break through to the forest below.  Waves can be heard
+in the distance, though the trees are too thick to allow a view of their
+source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19426
+0 0
+D1
+~
+~
+Z 0 19482
+0 0
+D2
+Thick trees block the view of what lies beyond a few feet.
+~
+~
+Z 0 19419
+0 0
+D3
+A light mist moves among the trees, blocking the view forward.  
+~
+~
+Z 0 19416
+0 0
+S
+#19421
+Deeper into the Mist-Shrouded Forest~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, the trees are visible, rising out of the mist, giving
+a reassuring sense that the world outside still exists.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19422
+0 0
+D1
+~
+~
+Z 0 19426
+0 0
+D2
+~
+~
+Z 0 19416
+0 0
+S
+#19422
+Lost in the Mist~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, mist swirls slowly, hiding the trees and leaves, just
+as it hides the forest floor below.  The mist covers everything, making it
+difficult to keep any sense of the direction you're traveling in.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19431
+0 0
+D1
+~
+~
+Z 0 19429
+0 0
+D2
+~
+~
+Z 0 19423
+0 0
+D3
+~
+~
+Z 0 19428
+0 0
+S
+#19423
+Lost in the Mist~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, mist swirls slowly, hiding the trees and leaves, just
+as it hides the forest floor below.  The mist covers everything, making it
+difficult to keep any sense of the direction you're traveling in.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19429
+0 0
+D1
+~
+~
+Z 0 19428
+0 0
+D2
+~
+~
+Z 0 19425
+0 0
+D3
+~
+~
+Z 0 19421
+0 0
+S
+#19424
+Lost in the Mist~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, mist swirls slowly, hiding the trees and leaves, just
+as it hides the forest floor below.  The mist covers everything, making it
+difficult to keep any sense of the direction you're traveling in.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19422
+0 0
+D1
+~
+~
+Z 0 19432
+0 0
+D2
+~
+~
+Z 0 19428
+0 0
+D3
+~
+~
+Z 0 19427
+0 0
+S
+#19425
+Lost in the Mist~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, mist swirls slowly, hiding the trees and leaves, just
+as it hides the forest floor below.  The mist covers everything, making it
+difficult to keep any sense of the direction you're traveling in.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19421
+0 0
+D1
+~
+~
+Z 0 19423
+0 0
+D2
+~
+~
+Z 0 19429
+0 0
+D3
+~
+~
+Z 0 19424
+0 0
+S
+#19426
+Deeper into the Mist-Shrouded Forest~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, the trees are visible, rising out of the mist, giving
+a reassuring sense that the world outside still exists.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19423
+0 0
+D1
+~
+~
+Z 0 19427
+0 0
+D2
+~
+~
+Z 0 19420
+0 0
+D3
+~
+~
+Z 0 19421
+0 0
+S
+#19427
+Deeper into the Mist-Shrouded Forest~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, the trees are visible, rising out of the mist, giving
+a reassuring sense that the world outside still exists.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19424
+0 0
+D1
+~
+~
+Z 0 19430
+0 0
+D2
+~
+~
+Z 0 19482
+0 0
+D3
+~
+~
+Z 0 19426
+0 0
+S
+#19428
+Lost in the Mist~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, mist swirls slowly, hiding the trees and leaves, just
+as it hides the forest floor below.  The mist covers everything, making it
+difficult to keep any sense of the direction you're traveling in.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19425
+0 0
+D1
+~
+~
+Z 0 19429
+0 0
+D2
+~
+~
+Z 0 19426
+0 0
+D3
+~
+~
+Z 0 19422
+0 0
+S
+#19429
+Lost in the Mist~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, mist swirls slowly, hiding the trees and leaves, just
+as it hides the forest floor below.  The mist covers everything, making it
+difficult to keep any sense of the direction you're traveling in.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19430
+0 0
+D1
+~
+~
+Z 0 19422
+0 0
+D2
+~
+~
+Z 0 19423
+0 0
+D3
+~
+~
+Z 0 19424
+0 0
+S
+#19430
+Deeper into the Mist-Shrouded Forest~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, the trees are visible, rising out of the mist, giving
+a reassuring sense that the world outside still exists.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19431
+0 0
+D1
+~
+~
+Z 0 19502
+0 0
+D2
+~
+~
+Z 0 19483
+0 0
+D3
+~
+~
+Z 0 19427
+0 0
+S
+#19431
+Deeper into the Mist-Shrouded Forest~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, the trees are visible, rising out of the mist, giving
+a reassuring sense that the world outside still exists.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19432
+0 0
+D1
+~
+~
+Z 0 19508
+0 0
+D2
+~
+~
+Z 0 19430
+0 0
+D3
+~
+~
+Z 0 19424
+0 0
+S
+#19432
+Deeper into the Mist-Shrouded Forest~
+The mist here is heavy, seeming to shine with its own inner light, while
+the rest of the forest is plunged in darkness.  It obscures the view of
+anything more than a few feet ahead, shrouding the forest in a thick veil,
+beyond which all appears to be nothing but pale gray-blue smoke.  Thick
+trees grow all around, their tall trunks only visible when you are almost
+upon them.  Up above, the trees are visible, rising out of the mist, giving
+a reassuring sense that the world outside still exists.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19514
+0 0
+D2
+~
+~
+Z 0 19431
+0 0
+D3
+~
+~
+Z 0 19425
+0 0
+S
+#19433
+Among the Mist-Shrouded Trees~
+A light mist covers the forest floor, hiding the roots and bushes that
+lie beneath.  The air is cool here, and the mist leaves drops of moisture on
+whatever it touches.  Bushes rustle and leaves fall from the trees as small
+animals rush to escape their predators, which are staying well-hidden if
+they're out there.  Birds call out to each other softly, singing sweet
+melodies, but even their calls can do little to dispel the hushed atmosphere
+of the forest, as though the forest itself is slumbering, waiting to be
+awakened.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19417
+0 0
+D1
+~
+~
+Z 0 19435
+0 0
+D2
+~
+~
+Z 0 19434
+0 0
+S
+#19434
+Among the Mist-Shrouded Trees~
+The trees grow thickly here, so close together that it's a wonder they've
+all managed to grow so tall, with most reaching heights of hundreds of feet.
+A light mist covers the entire forest floor, hiding the roots, plants and
+rocks that lie beneath it.  To the east, the forest seems to darken, though
+it is impossible to see very far beyond the trees.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19433
+0 0
+D1
+~
+~
+Z 0 19436
+0 0
+S
+#19435
+Among the Mist-Shrouded Trees~
+The ancient trees of the forest rise hundreds of feet in the air, their
+branches weaving closely together to block out most of the light that seeks
+to break through from the sky above.  Several strands of light manage to
+reach the forest floor, cutting through the mist to illuminate the bushes
+and flowers beneath.  To the south and east, the mist seems to grow heavier,
+though it is difficult to see beyond all the thick trees.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19418
+0 0
+D1
+~
+~
+Z 0 19451
+0 0
+D2
+~
+~
+Z 0 19436
+0 0
+D3
+~
+~
+Z 0 19433
+0 0
+S
+#19436
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19435
+0 0
+D1
+~
+~
+Z 0 19445
+0 0
+D2
+~
+~
+Z 0 19437
+0 0
+D3
+~
+~
+Z 0 19434
+0 0
+S
+#19437
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19436
+0 0
+D1
+~
+~
+Z 0 19438
+0 0
+S
+#19438
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19445
+0 0
+D1
+~
+~
+Z 0 19439
+0 0
+D3
+~
+~
+Z 0 19437
+0 0
+S
+#19439
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19446
+0 0
+D1
+~
+~
+Z 0 19440
+0 0
+D3
+~
+~
+Z 0 19438
+0 0
+S
+#19440
+Within the Dark Forest~
+The mist here swirls wildly, moving forward quickly, even though there
+isn't even a hint of wind this deep in the forest.  The forest is shrouded
+in complete darkness, the trees above blocking out any light except the
+faint glow that seems to be coming from the mist.  The air is cold, and the
+moisture left by the mist as it touches you makes it feel even colder.  As
+you progress through the trees, the moisture left by the mist makes it
+harder and harder to maintain a steady grip on your weapon.  A quick look
+down reveals that the moisture isn't water but really blood, running down
+your hands and clothing in rivulets, left by the terrible mist.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19447
+0 0
+D1
+~
+~
+Z 0 19441
+0 0
+D3
+~
+~
+Z 0 19439
+0 0
+S
+#19441
+Within the Dark Forest~
+The mist here swirls wildly, moving forward quickly, even though there
+isn't even a hint of wind this deep in the forest.  The forest is shrouded
+in complete darkness, the trees above blocking out any light except the
+faint glow that seems to be coming from the mist.  The air is cold, and the
+moisture left by the mist as it touches you makes it feel even colder.  As
+you progress through the trees, the moisture left by the mist makes it
+harder and harder to maintain a steady grip on your weapon.  A quick look
+down reveals that the moisture isn't water but really blood, running down
+your hands and clothing in rivulets, left by the terrible mist.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19448
+0 0
+D1
+~
+~
+Z 0 19442
+0 0
+D3
+~
+~
+Z 0 19440
+0 0
+S
+#19442
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19449
+0 0
+D1
+~
+~
+Z 0 19443
+0 0
+D3
+~
+~
+Z 0 19441
+0 0
+S
+#19443
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19450
+0 0
+D1
+~
+~
+Z 0 19444
+0 0
+D3
+~
+~
+Z 0 19442
+0 0
+S
+#19444
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19460
+0 0
+D1
+~
+~
+Z 0 19456
+0 0
+D3
+~
+~
+Z 0 19443
+0 0
+S
+#19445
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19451
+0 0
+D1
+~
+~
+Z 0 19446
+0 0
+D2
+~
+~
+Z 0 19438
+0 0
+D3
+~
+~
+Z 0 19436
+0 0
+S
+#19446
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19452
+0 0
+D1
+~
+~
+Z 0 19447
+0 0
+D2
+~
+~
+Z 0 19439
+0 0
+D3
+~
+~
+Z 0 19445
+0 0
+S
+#19447
+Within the Dark Forest~
+The mist here swirls wildly, moving forward quickly, even though there
+isn't even a hint of wind this deep in the forest.  The forest is shrouded
+in complete darkness, the trees above blocking out any light except the
+faint glow that seems to be coming from the mist.  The air is cold, and the
+moisture left by the mist as it touches you makes it feel even colder.  As
+you progress through the trees, the moisture left by the mist makes it
+harder and harder to maintain a steady grip on your weapon.  A quick look
+down reveals that the moisture isn't water but really blood, running down
+your hands and clothing in rivulets, left by the terrible mist.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19453
+0 0
+D1
+~
+~
+Z 0 19448
+0 0
+D2
+~
+~
+Z 0 19440
+0 0
+D3
+~
+~
+Z 0 19446
+0 0
+S
+#19448
+Within the Dark Forest~
+The mist here swirls wildly, moving forward quickly, even though there
+isn't even a hint of wind this deep in the forest.  The forest is shrouded
+in complete darkness, the trees above blocking out any light except the
+faint glow that seems to be coming from the mist.  The air is cold, and the
+moisture left by the mist as it touches you makes it feel even colder.  As
+you progress through the trees, the moisture left by the mist makes it
+harder and harder to maintain a steady grip on your weapon.  A quick look
+down reveals that the moisture isn't water but really blood, running down
+your hands and clothing in rivulets, left by the terrible mist.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19454
+0 0
+D1
+~
+~
+Z 0 19449
+0 0
+D2
+~
+~
+Z 0 19441
+0 0
+D3
+~
+~
+Z 0 19447
+0 0
+S
+#19449
+Within the Dark Forest~
+The forest is shrouded in total darkness, the only light coming from the
+heavy mist that seems to have a faint glow.  The air is cold here, made
+worse by the moisture that the mist leaves on whatever it touches.  Animals
+call out from beyond the mist, which somehow transforms their cries into
+demonic shrieks, sometimes from so close that you can almost feel them
+breathing down your neck, but always out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19455
+0 0
+D1
+~
+~
+Z 0 19450
+0 0
+D2
+~
+~
+Z 0 19442
+0 0
+D3
+~
+~
+Z 0 19448
+0 0
+S
+#19450
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19465
+0 0
+D1
+~
+~
+Z 0 19460
+0 0
+D2
+~
+~
+Z 0 19443
+0 0
+D3
+~
+~
+Z 0 19449
+0 0
+S
+#19451
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19490
+0 0
+D1
+~
+~
+Z 0 19452
+0 0
+D2
+~
+~
+Z 0 19445
+0 0
+D3
+~
+~
+Z 0 19435
+0 0
+S
+#19452
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19491
+0 0
+D1
+~
+~
+Z 0 19453
+0 0
+D2
+~
+~
+Z 0 19446
+0 0
+D3
+~
+~
+Z 0 19451
+0 0
+S
+#19453
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19492
+0 0
+D1
+~
+~
+Z 0 19454
+0 0
+D2
+~
+~
+Z 0 19447
+0 0
+D3
+~
+~
+Z 0 19452
+0 0
+S
+#19454
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19493
+0 0
+D1
+~
+~
+Z 0 19455
+0 0
+D2
+~
+~
+Z 0 19448
+0 0
+D3
+~
+~
+Z 0 19453
+0 0
+S
+#19455
+Within the Dark Forest~
+The forest here is dark, the tree branches above interlocked so tightly
+that not even a single strand of light can break through.  The forest is
+cold here, enough to cause your breath to freeze in the air before you.  A
+heavy mist covers everything, glowing with its own faint light, and making
+it impossible to see anything that isn't directly ahead of you.  Bushes
+rustle all around you, and every now and then a twig breaks, but whatever is
+causing the noise is always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19472
+0 0
+D1
+~
+~
+Z 0 19465
+0 0
+D2
+~
+~
+Z 0 19449
+0 0
+D3
+~
+~
+Z 0 19454
+0 0
+S
+#19456
+A Clearing in the Forest~
+The forest breaks into a small clearing here, with nothing growing inside
+but grass, a large portion of which appears to have been scorched in a
+recent fire.  At the very center of the clearing, the burnt ground forms a
+perfect circle, exactly four feet in diameter and covered with dark symbols.
+The forest is quiet here, almost as if every creature is holding its breath,
+fearful of what might happen next.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19461
+0 0
+D1
+~
+~
+Z 0 19457
+0 0
+D3
+~
+~
+Z 0 19444
+0 0
+S
+#19457
+A Shallow Stream~
+The stream is only about fifteen feet across, but the water moves forward
+with a force that could knock a man over.  It flows towards the north, its
+icy water babbling over large stones scattered throughout, and threatening
+to overflow over the banks in some places.  Wildflowers grow along the sides
+of the streams, their blue petals adding a sweet beauty to the scene.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19462
+0 0
+D1
+~
+~
+Z 0 19458
+0 0
+D3
+~
+~
+Z 0 19456
+0 0
+S
+#19458
+Within the Mist-Shrouded Forest~
+Faint light manages to weave through the trees above, with several
+strands managing to break through the leaves and pierce through the light
+mist, illuminating sections of the forest floor.  The air here is warmer,
+though still cool whenever a patch of mist is encountered.  The sounds of
+flowing water can be heard from almost every direction, along with a faint
+hint of weeping, though it is difficult to make out from here.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19463
+0 0
+D1
+~
+~
+Z 0 19459
+0 0
+D3
+~
+~
+Z 0 19457
+0 0
+S
+#19459
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19464
+0 0
+D1
+~
+~
+Z 0 19481
+0 0
+D3
+~
+~
+Z 0 19458
+0 0
+S
+#19460
+A Shallow Stream~
+The stream takes a turn here, flowing northward and continuing to the
+east.  The water rushes forward with a soft roar, bubbling as it crashes
+into large boulders set in various places along the stream bed.  The water
+is shallow here, giving a clear view of the sand and rocks beneath its
+surface.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19466
+0 0
+D1
+~
+~
+Z 0 19461
+0 0
+D2
+~
+~
+Z 0 19444
+0 0
+D3
+~
+~
+Z 0 19450
+0 0
+S
+#19461
+A Shallow Stream~
+The stream is shallow here, with rocks clearly visible on the bottom, but
+the water flows with such speed and force that it is enough to knock a man
+off his feet.  The sounds of the forest reach the stream and make themselves
+heard above the babbling of the water.  Birds sing to each other, small
+animals rush about, and off in the distance, a wolf howls, soon answered by
+his brothers and sisters hidden among the trees.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19467
+0 0
+D1
+~
+~
+Z 0 19462
+0 0
+D2
+~
+~
+Z 0 19456
+0 0
+D3
+~
+~
+Z 0 19460
+0 0
+S
+#19462
+A Shallow Stream~
+The stream curves here, flowing to the west and south, its water rushing
+forward with a soft roar.  Several large fish are visible just under the
+surface, making their way against the current, struggling to move forward. 
+The water foams white as it smashes around several large boulders lying on
+the stream bed.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19468
+0 0
+D1
+~
+~
+Z 0 19463
+0 0
+D2
+~
+~
+Z 0 19457
+0 0
+D3
+~
+~
+Z 0 19461
+0 0
+S
+#19463
+Within the Mist-Shrouded Forest~
+Faint light manages to weave through the trees above, with several
+strands managing to break through the leaves and pierce through the light
+mist, illuminating sections of the forest floor.  The air here is warmer,
+though still cool whenever a patch of mist is encountered.  The sounds of
+flowing water can be heard from almost every direction, along with a faint
+hint of weeping, though it is difficult to make out from here.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19469
+0 0
+D1
+~
+~
+Z 0 19464
+0 0
+D2
+~
+~
+Z 0 19458
+0 0
+D3
+~
+~
+Z 0 19462
+0 0
+S
+#19464
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19470
+0 0
+D1
+~
+~
+Z 0 19480
+0 0
+D2
+~
+~
+Z 0 19459
+0 0
+D3
+~
+~
+Z 0 19463
+0 0
+S
+#19465
+Within the Dark Forest~
+The forest here is shrouded in darkness, a heavy mist covering
+everything, from the forest floor below, to the tree tops above, making it
+difficult to maintain a good sense of direction.  The sounds of flowing
+water can be heard from nearby, strangely distorted by the mist, and barely
+audible above the shrieks and cries of creatures always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19471
+0 0
+D1
+~
+~
+Z 0 19466
+0 0
+D2
+~
+~
+Z 0 19450
+0 0
+D3
+~
+~
+Z 0 19455
+0 0
+S
+#19466
+A Shallow Stream~
+The water splashes forward, flowing around large boulders lying along the
+stream bed.  The water is clear and blue, but the force of the current adds
+white foam, and makes it a challenge to wade across.  The trees of the
+forest grow almost to the river's banks, leaving few good places to land.  
+~
+0 A noswim
+D0
+~
+~
+Z 0 19473
+0 0
+D1
+~
+~
+Z 0 19467
+0 0
+D2
+~
+~
+Z 0 19460
+0 0
+D3
+~
+~
+Z 0 19465
+0 0
+S
+#19467
+Within the Mist-Shrouded Forest~
+Faint light manages to weave through the trees above, with several
+strands managing to break through the leaves and pierce through the light
+mist, illuminating sections of the forest floor.  The air here is warmer,
+though still cool whenever a patch of mist is encountered.  The sounds of
+flowing water can be heard from almost every direction, along with a faint
+hint of weeping, though it is difficult to make out from here.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19474
+0 0
+D1
+~
+~
+Z 0 19468
+0 0
+D2
+~
+~
+Z 0 19461
+0 0
+D3
+~
+~
+Z 0 19466
+0 0
+S
+#19468
+Within the Mist-Shrouded Forest~
+Faint light manages to weave through the trees above, with several
+strands managing to break through the leaves and pierce through the light
+mist, illuminating sections of the forest floor.  The air here is warmer,
+though still cool whenever a patch of mist is encountered.  The sounds of
+flowing water can be heard from almost every direction, along with a faint
+hint of weeping, though it is difficult to make out from here.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19475
+0 0
+D1
+~
+~
+Z 0 19469
+0 0
+D2
+~
+~
+Z 0 19462
+0 0
+D3
+~
+~
+Z 0 19467
+0 0
+S
+#19469
+Within the Mist-Shrouded Forest~
+Faint light manages to weave through the trees above, with several
+strands managing to break through the leaves and pierce through the light
+mist, illuminating sections of the forest floor.  The air here is warmer,
+though still cool whenever a patch of mist is encountered.  The sounds of
+flowing water can be heard from almost every direction, along with a faint
+hint of weeping, though it is difficult to make out from here.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19476
+0 0
+D1
+~
+~
+Z 0 19470
+0 0
+D2
+~
+~
+Z 0 19463
+0 0
+D3
+~
+~
+Z 0 19468
+0 0
+S
+#19470
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19477
+0 0
+D1
+~
+~
+Z 0 19479
+0 0
+D2
+~
+~
+Z 0 19464
+0 0
+D3
+~
+~
+Z 0 19469
+0 0
+S
+#19471
+Within the Dark Forest~
+The forest here is shrouded in darkness, a heavy mist covering
+everything, from the forest floor below, to the tree tops above, making it
+difficult to maintain a good sense of direction.  The sounds of flowing
+water can be heard from nearby, strangely distorted by the mist, and barely
+audible above the shrieks and cries of creatures always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19495
+0 0
+D1
+~
+~
+Z 0 19473
+0 0
+D2
+~
+~
+Z 0 19465
+0 0
+D3
+~
+~
+Z 0 19472
+0 0
+S
+#19472
+Within the Dark Forest~
+The forest here is shrouded in darkness, a heavy mist covering
+everything, from the forest floor below, to the tree tops above, making it
+difficult to maintain a good sense of direction.  The sounds of flowing
+water can be heard from nearby, strangely distorted by the mist, and barely
+audible above the shrieks and cries of creatures always just out of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19496
+0 0
+D1
+~
+~
+Z 0 19471
+0 0
+D2
+~
+~
+Z 0 19455
+0 0
+D3
+~
+~
+Z 0 19493
+0 0
+S
+#19473
+A Shallow Stream~
+The stream narrows drastically, its banks so close together that it is
+almost possible to leap from one side to another in a single bound.  It
+seems to be quite deep in several places, and it is impossible to see what
+lies in its dark depths.  Beautiful flowers grow along the eastern bank,
+thriving from the sunlight and the water.  
+~
+0 0 noswim
+E
+flowers~
+Most of them seem to be blue, though a few are a very vivid purple.  They
+grow by the water, thriving.  
+~
+D0
+~
+~
+Z 0 19494
+0 0
+D1
+~
+~
+Z 0 19474
+0 0
+D2
+~
+~
+Z 0 19466
+0 0
+D3
+~
+~
+Z 0 19471
+0 0
+S
+#19474
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19497
+0 0
+D1
+~
+~
+Z 0 19475
+0 0
+D2
+~
+~
+Z 0 19467
+0 0
+D3
+~
+~
+Z 0 19473
+0 0
+S
+#19475
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19476
+0 0
+D2
+~
+~
+Z 0 19468
+0 0
+D3
+~
+~
+Z 0 19474
+0 0
+S
+#19476
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19477
+0 0
+D2
+~
+~
+Z 0 19469
+0 0
+D3
+~
+~
+Z 0 19475
+0 0
+S
+#19477
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19478
+0 0
+D2
+~
+~
+Z 0 19470
+0 0
+D3
+~
+~
+Z 0 19476
+0 0
+S
+#19478
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D2
+~
+~
+Z 0 19479
+0 0
+D3
+~
+~
+Z 0 19477
+0 0
+S
+#19479
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19478
+0 0
+D2
+~
+~
+Z 0 19480
+0 0
+D3
+~
+~
+Z 0 19470
+0 0
+S
+#19480
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19479
+0 0
+D2
+~
+~
+Z 0 19481
+0 0
+D3
+~
+~
+Z 0 19464
+0 0
+S
+#19481
+Within the Mist-Shrouded Forest~
+Tall trees grow all around, their branches interlocking tightly above,
+preventing almost all the sky's light from entering the forest, though
+several strands of light break through here and there, creating dancing
+patterns that pierce through the mist to illuminate the forest floor.  The
+mist here is light, making it possible to get a clear view of the
+surroundings.  Birds call out to each other, and small animals rush through
+the bushes, seeking places of safety.  An eerie but immensely beautiful song
+seems to be coming from deep in the forest, though it is difficult to
+pinpoint the direction of its source.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19480
+0 0
+D3
+~
+~
+Z 0 19459
+0 0
+S
+#19482
+On the Lake~
+The shore here is covered with pebbles and brown sand, along with weeds
+left behind by the waves of the lake.  The trees of the forest grow almost
+up to the water itself, stopping only a few feet away.  The sky above is
+clearly visible, no longer hidden by the trees and mist of the forest, and
+able to illuminate the lake below.  Birds circle overhead, calling out to
+each other, and diving down periodically to try and catch a fish spotted
+from above.  Large rocks surround the shore, poking out above the water, and
+giving the mistaken impression that the lake is shallow.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19427
+0 0
+D1
+~
+~
+Z 0 19483
+0 0
+D2
+~
+~
+Z 0 19486
+0 0
+D3
+~
+~
+Z 0 19420
+0 0
+S
+#19483
+On the Lake~
+The shore here is covered with pebbles and brown sand, along with weeds
+left behind by the waves of the lake.  The trees of the forest grow almost
+up to the water itself, stopping only a few feet away.  The sky above is
+clearly visible, no longer hidden by the trees and mist of the forest, and
+able to illuminate the lake below.  Birds circle overhead, calling out to
+each other, and diving down periodically to try and catch a fish spotted
+from above.  Large rocks surround the shore, poking out above the water, and
+giving the mistaken impression that the lake is shallow.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19430
+0 0
+D1
+~
+~
+Z 0 19484
+0 0
+D2
+~
+~
+Z 0 19487
+0 0
+D3
+~
+~
+Z 0 19482
+0 0
+S
+#19484
+On the Lake~
+Water ripples calmly along the surface of a vast lake, a soft and gentle
+wind causing small waves to lap up against a shore of brown sand that is
+only a few feet away from the trees of the surrounding forest.  The water is
+clear and blue, spreading eastward as far as the eye can see.  The mist
+weaves among the trees, but stays well clear of the lake itself.  Birds fly
+overhead, every now and then plunging down from the sky towards the water,
+only to come back out with a struggling fish grasped firmly in their beaks. 
+Several large boulders can be seen in the lake, waves lapping up against
+them.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19502
+0 0
+D1
+~
+~
+Z 0 19485
+0 0
+D2
+~
+~
+Z 0 19488
+0 0
+D3
+~
+~
+Z 0 19483
+0 0
+S
+#19485
+On the Lake~
+Water ripples calmly along the surface of a vast lake, a soft and gentle
+wind causing small waves to lap up against a shore of brown sand that is
+only a few feet away from the trees of the surrounding forest.  The water is
+clear and blue, spreading eastward as far as the eye can see.  The mist
+weaves among the trees, but stays well clear of the lake itself.  Birds fly
+overhead, every now and then plunging down from the sky towards the water,
+only to come back out with a struggling fish grasped firmly in their beaks. 
+Several large boulders can be seen in the lake, waves lapping up against
+them.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19503
+0 0
+D1
+~
+~
+Z 0 19501
+0 0
+D2
+~
+~
+Z 0 19489
+0 0
+D3
+~
+~
+Z 0 19484
+0 0
+S
+#19486
+On the Lake~
+The shore here is covered with pebbles and brown sand, along with weeds
+left behind by the waves of the lake.  The trees of the forest grow almost
+up to the water itself, stopping only a few feet away.  The sky above is
+clearly visible, no longer hidden by the trees and mist of the forest, and
+able to illuminate the lake below.  Birds circle overhead, calling out to
+each other, and diving down periodically to try and catch a fish spotted
+from above.  Large rocks surround the shore, poking out above the water, and
+giving the mistaken impression that the lake is shallow.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19482
+0 0
+D1
+~
+~
+Z 0 19487
+0 0
+D2
+~
+~
+Z 0 19490
+0 0
+D3
+~
+~
+Z 0 19419
+0 0
+S
+#19487
+On the Lake~
+The water is clear and blue across the lake, reflecting any light cast
+upon it.  Directly below, however, is inky blackness, hinting at the lake's
+vast hidden depths.  The water is calm, moving forward in soft waves
+propelled by a gentle wind coming from the east.  Birds can be seen circling
+overhead in the distance, though none travel this far into the lake.  Fish
+can be seen swimming just under the surface, moving in thick schools and
+paying little attention to your presence.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19483
+0 0
+D1
+~
+~
+Z 0 19488
+0 0
+D2
+~
+~
+Z 0 19491
+0 0
+D3
+~
+~
+Z 0 19486
+0 0
+S
+#19488
+On the Lake~
+The water is clear and blue across the lake, reflecting any light cast
+upon it.  Directly below, however, is inky blackness, hinting at the lake's
+vast hidden depths.  The water is calm, moving forward in soft waves
+propelled by a gentle wind coming from the east.  Birds can be seen circling
+overhead in the distance, though none travel this far into the lake.  Fish
+can be seen swimming just under the surface, moving in thick schools and
+paying little attention to your presence.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19484
+0 0
+D1
+~
+~
+Z 0 19489
+0 0
+D2
+~
+~
+Z 0 19492
+0 0
+D3
+~
+~
+Z 0 19487
+0 0
+S
+#19489
+On the Lake~
+Water ripples calmly along the surface of a vast lake, a soft and gentle
+wind causing small waves to lap up against a shore of brown sand that is
+only a few feet away from the trees of the surrounding forest.  The water is
+clear and blue, spreading eastward as far as the eye can see.  The mist
+weaves among the trees, but stays well clear of the lake itself.  Birds fly
+overhead, every now and then plunging down from the sky towards the water,
+only to come back out with a struggling fish grasped firmly in their beaks. 
+Several large boulders can be seen in the lake, waves lapping up against
+them.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19485
+0 0
+D1
+~
+~
+Z 0 19496
+0 0
+D2
+~
+~
+Z 0 19493
+0 0
+D3
+~
+~
+Z 0 19488
+0 0
+S
+#19490
+On the Lake~
+The shore here is covered with pebbles and brown sand, along with weeds
+left behind by the waves of the lake.  The trees of the forest grow almost
+up to the water itself, stopping only a few feet away.  The sky above is
+clearly visible, no longer hidden by the trees and mist of the forest, and
+able to illuminate the lake below.  Birds circle overhead, calling out to
+each other, and diving down periodically to try and catch a fish spotted
+from above.  Large rocks surround the shore, poking out above the water, and
+giving the mistaken impression that the lake is shallow.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19486
+0 0
+D1
+~
+~
+Z 0 19491
+0 0
+D2
+~
+~
+Z 0 19451
+0 0
+D3
+~
+~
+Z 0 19418
+0 0
+S
+#19491
+On the Lake~
+The shore here is covered with pebbles and brown sand, along with weeds
+left behind by the waves of the lake.  The trees of the forest grow almost
+up to the water itself, stopping only a few feet away.  The sky above is
+clearly visible, no longer hidden by the trees and mist of the forest, and
+able to illuminate the lake below.  Birds circle overhead, calling out to
+each other, and diving down periodically to try and catch a fish spotted
+from above.  Large rocks surround the shore, poking out above the water, and
+giving the mistaken impression that the lake is shallow.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19487
+0 0
+D1
+~
+~
+Z 0 19492
+0 0
+D2
+~
+~
+Z 0 19452
+0 0
+D3
+~
+~
+Z 0 19490
+0 0
+S
+#19492
+On the Lake~
+Water ripples calmly along the surface of a vast lake, a soft and gentle
+wind causing small waves to lap up against a shore of brown sand that is
+only a few feet away from the trees of the surrounding forest.  The water is
+clear and blue, spreading eastward as far as the eye can see.  The mist
+weaves among the trees, but stays well clear of the lake itself.  Birds fly
+overhead, every now and then plunging down from the sky towards the water,
+only to come back out with a struggling fish grasped firmly in their beaks. 
+Several large boulders can be seen in the lake, waves lapping up against
+them.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19488
+0 0
+D1
+~
+~
+Z 0 19493
+0 0
+D2
+~
+~
+Z 0 19453
+0 0
+D3
+~
+~
+Z 0 19491
+0 0
+S
+#19493
+On the Lake~
+Water ripples calmly along the surface of a vast lake, a soft and gentle
+wind causing small waves to lap up against a shore of brown sand that is
+only a few feet away from the trees of the surrounding forest.  The water is
+clear and blue, spreading eastward as far as the eye can see.  The mist
+weaves among the trees, but stays well clear of the lake itself.  Birds fly
+overhead, every now and then plunging down from the sky towards the water,
+only to come back out with a struggling fish grasped firmly in their beaks. 
+Several large boulders can be seen in the lake, waves lapping up against
+them.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19489
+0 0
+D1
+~
+~
+Z 0 19472
+0 0
+D2
+~
+~
+Z 0 19454
+0 0
+D3
+~
+~
+Z 0 19492
+0 0
+S
+#19494
+A Shallow Stream~
+The stream takes a turn here, the current weaker than to the south, but
+still strong enough to send water crashing into the northern bank, as well
+as any unwary people traveling by boat.  A soft wind rustles the tree
+branches above the stream, causing leaves to detach and fall slowly to the
+stream's water, to be carried away and submerged by the current.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19499
+0 0
+D1
+~
+~
+Z 0 19497
+0 0
+D2
+~
+~
+Z 0 19473
+0 0
+D3
+~
+~
+Z 0 19495
+0 0
+S
+#19495
+A Shallow Stream~
+The trees grow right up to the banks here, their leaves allowing the
+sunlight to filter through and dance on the surface of the stream water. 
+Every now and then fish are seen jumping out of the water and landing back
+in with a splash, as they swim fast against the current.  To the west, the
+stream seems to widen, and a large lake is visible off in the distance.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19500
+0 0
+D1
+~
+~
+Z 0 19494
+0 0
+D2
+~
+~
+Z 0 19471
+0 0
+D3
+~
+~
+Z 0 19496
+0 0
+S
+#19496
+A Shallow Stream~
+The stream that flows in from the east joins with the lake here, lending
+a steady supply of water.  Tall grasses grow in the water, making navigation
+between the lake and the stream slow.  A soft current pushes westward, where
+the vast lake expands and spreads outward, its calm waters clear and blue,
+reflecting the light from the sky.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 19501
+0 0
+D1
+~
+~
+Z 0 19495
+0 0
+D2
+~
+~
+Z 0 19472
+0 0
+D3
+~
+~
+Z 0 19489
+0 0
+S
+#19497
+A Clearing in the Forest~
+A small clearing lies at the center of the forest, perhaps thirty feet
+across.  Nothing grows in the clearing but grass, and the middle of the
+clearing appears to have been recently ravaged by fire, with the smell of
+smoke still heavy in the air.  The burned area seems to form a perfect
+circle, four feet in diameter, the inside of which is covered in
+unrecognizable symbols.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19498
+0 0
+D2
+~
+~
+Z 0 19474
+0 0
+D3
+~
+~
+Z 0 19494
+0 0
+S
+#19498
+The Grave Mounds~
+The forest seems to be completely silent here, as if every creature is in
+mourning, or afraid to come any closer than absolutely necessary to several
+large grave mounds located at the center of this clearing.  Even the forest
+itself seems reluctant to approach, with at least a twenty foot distance to
+the nearest tree, and a large patch of dirt around the mounds where not even
+a single weed grows.  Stone tablets have been placed at the head of each
+mound, identifying the dead.  
+~
+0 A forest
+E
+stone tablets~
+The stone tablet has been weathered almost completely smooth by wind and
+rain, and it is impossible to make out the writing it once contained.  
+~
+D0
+~
+~
+Z 0 19507
+0 0
+D2
+~
+~
+Z 0 19497
+0 0
+D3
+~
+~
+Z 0 19499
+0 0
+S
+#19499
+The Grave Mounds~
+The forest seems to be completely silent here, as if every creature is in
+mourning, or afraid to come any closer than absolutely necessary to several
+large grave mounds located at the center of this clearing.  Even the forest
+itself seems reluctant to approach, with at least a twenty foot distance to
+the nearest tree, and a large patch of dirt around the mounds where not even
+a single weed grows.  Stone tablets have been placed at the head of each
+mound, identifying the dead.  
+~
+0 A forest
+E
+stone tablet~
+This stone tablet is cracked in two, with the first half shattered in too
+many pieces to make sense of. The bottom half has survived almost
+perfectly intact, however.
+ 
+{D....for his bravery in battl...honoured place among men.{x
+~
+D0
+~
+~
+Z 0 19506
+0 0
+D1
+~
+~
+Z 0 19498
+0 0
+D2
+~
+~
+Z 0 19494
+0 0
+D3
+~
+~
+Z 0 19500
+0 0
+S
+#19500
+The Grave Mounds~
+The forest seems to be completely silent here, as if every creature is in
+mourning, or afraid to come any closer than absolutely necessary to several
+large grave mounds located at the center of this clearing.  Even the forest
+itself seems reluctant to approach, with at least a twenty foot distance to
+the nearest tree, and a large patch of dirt around the mounds where not even
+a single weed grows.  Stone tablets have been placed at the head of each
+mound, identifying the dead.  
+~
+0 A forest
+E
+stone tablets~
+This tablet hasn't survived the passage of time in great shape.  Much of
+what was written is lost, and what remains is difficult to make sense of.  
+ 
+{DHere....fall.....great battle...courag..........time.{x
+~
+D0
+~
+~
+Z 0 19505
+0 0
+D1
+~
+~
+Z 0 19499
+0 0
+D2
+~
+~
+Z 0 19495
+0 0
+D3
+~
+~
+Z 0 19501
+0 0
+S
+#19501
+Within the Mist Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19504
+0 0
+D1
+~
+~
+Z 0 19500
+0 0
+D2
+~
+~
+Z 0 19496
+0 0
+D3
+~
+~
+Z 0 19485
+0 0
+S
+#19502
+Within the Mist-Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19508
+0 0
+D1
+~
+~
+Z 0 19503
+0 0
+D2
+~
+~
+Z 0 19484
+0 0
+D3
+~
+~
+Z 0 19430
+0 0
+S
+#19503
+The Faerie Ring~
+The trees here appear to be immensely ancient, rising hundreds of feet in
+the air, their trunks wide enough to fit a large house inside.  The grass
+and vegetation surrounding them seem to be vividly green and vibrant, as if
+disease, decay and death have never touched this section of the forest. 
+Light filters down from above, creating dancing patterns that land on
+beautiful flowered bushes and soft, dew-covered grass.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19509
+0 0
+D1
+~
+~
+Z 0 19504
+0 0
+D2
+~
+~
+Z 0 19485
+0 0
+D3
+~
+~
+Z 0 19502
+0 0
+S
+#19504
+The Faerie Ring~
+The trees here appear to be immensely ancient, rising hundreds of feet in
+the air, their trunks wide enough to fit a large house inside.  The grass
+and vegetation surrounding them seem to be vividly green and vibrant, as if
+disease, decay and death have never touched this section of the forest. 
+Light filters down from above, creating dancing patterns that land on
+beautiful flowered bushes and soft, dew-covered grass.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19510
+0 0
+D1
+~
+~
+Z 0 19505
+0 0
+D2
+~
+~
+Z 0 19501
+0 0
+D3
+~
+~
+Z 0 19503
+0 0
+S
+#19505
+The Grave Mounds~
+The forest seems to be completely silent here, as if every creature is in
+mourning, or afraid to come any closer than absolutely necessary to several
+large grave mounds located at the center of this clearing.  Even the forest
+itself seems reluctant to approach, with at least a twenty foot distance to
+the nearest tree, and a large patch of dirt around the mounds where not even
+a single weed grows.  Stone tablets have been placed at the head of each
+mound, identifying the dead.  
+~
+0 A forest
+E
+stone tablets~
+This stone tablet has not survived the ravages of time.  It lies
+shattered into a hundred pieces, too small to be put back together.  
+~
+D0
+~
+~
+Z 0 19511
+0 0
+D1
+~
+~
+Z 0 19506
+0 0
+D2
+~
+~
+Z 0 19500
+0 0
+D3
+~
+~
+Z 0 19504
+0 0
+S
+#19506
+The Grave Mounds~
+The forest seems to be completely silent here, as if every creature is in
+mourning, or afraid to come any closer than absolutely necessary to several
+large grave mounds located at the center of this clearing.  Even the forest
+itself seems reluctant to approach, with at least a twenty foot distance to
+the nearest tree, and a large patch of dirt around the mounds where not even
+a single weed grows.  Stone tablets have been placed at the head of each
+mound, identifying the dead.  
+~
+0 A forest
+E
+stone tablets~
+This stone tablet seems to have survived the passing years remarkably
+intact.  
+ 
+{DDeniathli, honoured of the Calain, fallen in battle at 
+the hands of the traitor Cenath. May she be honoured for 
+ages to come.{x
+~
+D0
+~
+~
+Z 0 19512
+0 0
+D1
+~
+~
+Z 0 19507
+0 0
+D2
+~
+~
+Z 0 19499
+0 0
+D3
+~
+~
+Z 0 19505
+0 0
+S
+#19507
+The Grave Mounds~
+The forest seems to be completely silent here, as if every creature is in
+mourning, or afraid to come any closer than absolutely necessary to several
+large grave mounds located at the center of this clearing.  Even the forest
+itself seems reluctant to approach, with at least a twenty foot distance to
+the nearest tree, and a large patch of dirt around the mounds where not even
+a single weed grows.  Stone tablets have been placed at the head of each
+mound, identifying the dead.  
+~
+0 A forest
+E
+stone tablets~
+Long years of rain and storms have weathered this stone so that the
+original writing is almost completely erased.  Several words can still be
+made out, however.  
+ 
+{DYth...oi, fallen in battl........treache....betrayed. 
+May he...hon..ed...ages to come.{x
+~
+D0
+~
+~
+Z 0 19513
+0 0
+D2
+~
+~
+Z 0 19498
+0 0
+D3
+~
+~
+Z 0 19506
+0 0
+S
+#19508
+The Faerie Ring~
+The trees here appear to be immensely ancient, rising hundreds of feet in
+the air, their trunks wide enough to fit a large house inside.  The grass
+and vegetation surrounding them seem to be vividly green and vibrant, as if
+disease, decay and death have never touched this section of the forest. 
+Light filters down from above, creating dancing patterns that land on
+beautiful flowered bushes and soft, dew-covered grass.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19514
+0 0
+D1
+~
+~
+Z 0 19509
+0 0
+D2
+~
+~
+Z 0 19502
+0 0
+D3
+~
+~
+Z 0 19431
+0 0
+S
+#19509
+The Faerie Ring~
+Beautiful flowers of every shape and shade of colour imaginable grow
+beneath the trees, filling the air with their sweet scents.  Every plant
+growing here, from the large, ancient trees, to each individual blade of
+grass, all seem to be filled with life, in perfect health and untouched by
+any disease or sickness.  Small animals dart through the grass, some passing
+right by you, completely disinterested in your presence.  Birds call out to
+each other, filling the forest with their song.  A small circle of rocks
+surrounds a hole in the earth, whose depths are hidden from sight.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19515
+0 0
+D1
+~
+~
+Z 0 19510
+0 0
+D2
+~
+~
+Z 0 19503
+0 0
+D3
+~
+~
+Z 0 19508
+0 0
+D5
+~
+hole~
+ABZ 0 19520
+0 0
+S
+#19510
+The Faerie Ring~
+Countless flowers grow beneath the trees, their sweet scents strong in
+the air, filling the surroundings with a lovely smell that is almost
+unearthly.  Trees grow tall all around, rising to great heights and giving
+this section of the forest an almost timeless feel, as if there hasn't been
+a single change to this place since the creation of the world.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19516
+0 0
+D1
+~
+~
+Z 0 19511
+0 0
+D2
+~
+~
+Z 0 19504
+0 0
+D3
+~
+~
+Z 0 19509
+0 0
+S
+#19511
+The Faerie Ring~
+The trees here appear to be immensely ancient, rising hundreds of feet in
+the air, their trunks wide enough to fit a large house inside.  The grass
+and vegetation surrounding them seem to be vividly green and vibrant, as if
+disease, decay and death have never touched this section of the forest. 
+Light filters down from above, creating dancing patterns that land on
+beautiful flowered bushes and soft, dew-covered grass.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19517
+0 0
+D1
+~
+~
+Z 0 19512
+0 0
+D2
+~
+~
+Z 0 19505
+0 0
+D3
+~
+~
+Z 0 19510
+0 0
+S
+#19512
+Within the Mist-Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D0
+~
+~
+Z 0 19518
+0 0
+D1
+~
+~
+Z 0 19513
+0 0
+D2
+~
+~
+Z 0 19506
+0 0
+D3
+~
+~
+Z 0 19511
+0 0
+S
+#19513
+A Clearing in the Forest~
+The trees suddenly give way to a small clearing, about thirty feet across
+in all directions.  Nothing but grass grows along its entire length, except
+for the very center, which seems to have been scorched in a recent fire.  A
+perfect circle about four feet in diameter lies at the center of the burned
+ground, strange symbols drawn into the dust all across its interior.  The
+forest is unnaturally quiet here, and there is a discomforting feel to the
+entire clearing.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 19519
+0 0
+D2
+~
+~
+Z 0 19507
+0 0
+D3
+~
+~
+Z 0 19512
+0 0
+S
+#19514
+Within the Mist-Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19515
+0 0
+D2
+~
+~
+Z 0 19508
+0 0
+D3
+~
+~
+Z 0 19432
+0 0
+S
+#19515
+The Faerie Ring~
+The trees here appear to be immensely ancient, rising hundreds of feet in
+the air, their trunks wide enough to fit a large house inside.  The grass
+and vegetation surrounding them seem to be vividly green and vibrant, as if
+disease, decay and death have never touched this section of the forest. 
+Light filters down from above, creating dancing patterns that land on
+beautiful flowered bushes and soft, dew-covered grass.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 19516
+0 0
+D2
+~
+~
+Z 0 19509
+0 0
+D3
+~
+~
+Z 0 19514
+0 0
+S
+#19516
+The Faerie Ring~
+The trees here appear to be immensely ancient, rising hundreds of feet in
+the air, their trunks wide enough to fit a large house inside.  The grass
+and vegetation surrounding them seem to be vividly green and vibrant, as if
+disease, decay and death have never touched this section of the forest. 
+Light filters down from above, creating dancing patterns that land on
+beautiful flowered bushes and soft, dew-covered grass.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 19517
+0 0
+D2
+~
+~
+Z 0 19510
+0 0
+D3
+~
+~
+Z 0 19515
+0 0
+S
+#19517
+Within the Mist-Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19518
+0 0
+D2
+~
+~
+Z 0 19511
+0 0
+D3
+~
+~
+Z 0 19516
+0 0
+S
+#19518
+Within the Mist-Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D1
+~
+~
+Z 0 19519
+0 0
+D2
+~
+~
+Z 0 19512
+0 0
+D3
+~
+~
+Z 0 19517
+0 0
+S
+#19519
+Within the Mist-Shrouded Forest~
+A light mist surrounds the trees, covering the forest floor in a
+blue-gray shroud.  The air is cool here, though not unpleasant, even with
+the cold drops of water left behind on everything the mist touches.  Tall
+trees rise all around, blocking out most light seeking to break through the
+leaves above, though several strands manage to break through and illuminate
+isolated sections beneath the trees.  
+~
+0 A forest
+D2
+~
+~
+Z 0 19513
+0 0
+D3
+~
+~
+Z 0 19518
+0 0
+S
+#19520
+At the Bottom of the Hole~
+Shafts of light pour down from the hole above, illuminating the tunnel
+just below.  Several passageways seem to have been burrowed deep into the
+earth, the walls close together and the ceiling barely seven feet above the
+floor.  The smell of fresh earth is strong here, and the walls are covered
+with moisture.  The air is surprisingly cool and fresh, and the walls and
+ceiling seem to be quite sturdy despite the lack of any support.  The
+passageway continues to the east, while to the north a small door is set
+into the wall.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 19521
+0 0
+D1
+~
+~
+Z 0 19522
+0 0
+D4
+~
+~
+ABZ 0 19509
+0 0
+S
+#19521
+A Small Room Underground~
+This small room contains furniture that looks to have been taken from a
+farmhouse.  A small wooden table is placed at the center, though there is
+nothing on it at the moment.  Several rickity wooden chairs have been placed
+next to it, though they don't look sturdy enough to sit on safely.  A small
+round door is set into the southern wall, leading out into the passageway.  
+~
+0 D inside
+D2
+~
+~
+ABZ 0 19520
+0 0
+S
+#19522
+An Underground Passageway~
+Flowers seem to have been planted in the walls, and through some magical means 
+coaxed into blooming as if they were out in a clear meadow. The scents of their 
+blossoms fill the air, mixing with the earthy scent of the walls to create a 
+lovely effect, like walking through a beautiful garden. Lanterns hang from the 
+ceiling at regular intervals, providing a soft light. A small door is set into 
+the southern wall, and the passageway continues to the east and west.
+~
+0 D inside
+D1
+~
+~
+Z 0 19524
+0 0
+D2
+~
+~
+ABZ 0 19523
+0 0
+D3
+~
+~
+Z 0 19520
+0 0
+S
+#19523
+The Sleeping Area~
+This room is relatively large, compared to the hallway.  The ceiling is
+still quite low, but the room is dug in a circular shape at least thirty
+feet across in diameter.  Leaves seem to have been collected from the forest
+outside and arranged into leaf beds, some barely more than small piles,
+others large enough for a human to comfortably lie in.  The room is
+perfectly quiet, with no sounds escaping through the door set into the wall
+to the north.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 19522
+0 0
+S
+#19524
+An Underground Passageway~
+Vines grow along the walls here, bearing flowers with blossoms of pale
+pink.  Lanterns hang from the ceiling, giving off light that comes not from
+flames but from tiny balls of magical energy of pure white that make it seem
+as though the sun itself is shining down the tunnel.  The passageway
+continues to the east and west, while a door set into the northern wall.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 19528
+0 0
+D1
+~
+~
+Z 0 19525
+0 0
+D3
+~
+~
+Z 0 19522
+0 0
+S
+#19525
+An Underground Passageway~
+The earthen walls are bare along this section of the passageway, with
+only small blades of grass growing from their sides.  Lanterns hang from the
+ceiling, lit by bright lights of magical energy that shine bright enough to
+make it seem like daylight, though when looked at directly they appear to be
+as weak as candle flames.  A door is set into the southern wall, sized just
+large enough for a human to cross comfortably through.  
+~
+0 D inside
+D1
+~
+~
+Z 0 19526
+0 0
+D2
+~
+~
+ABZ 0 19529
+0 0
+D3
+~
+~
+Z 0 19524
+0 0
+S
+#19526
+An Underground Passageway~
+The passageway comes to an end here.  The walls are decorated with
+flowers and what appear to be jewels, held tightly to the earth by magical
+means.  The air here is still cool and refreshing, despite the fact that it
+is underground, with no access to the surface in sight.  To the east there
+is a large room, though it is difficult to make out any details from this
+position.  To the north is a round door, set into the wall.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 19530
+0 0
+D1
+~
+~
+Z 0 19527
+0 0
+D3
+~
+~
+Z 0 19525
+0 0
+S
+#19527
+The Throne Room~
+The chamber here is bigger by far than anything else found in the
+tunnels.  Small steps lead down to the floor of the chamber, which is
+circular in shape.  The ceiling rises over twelve feet in height, and the
+chamber itself appears to be about twenty feet across.  A large throne is at
+the center of the floor, carved out of stone and polished smooth.  Faeries
+stand by the walls all around the room, watching you closely and whispering
+to each other.  
+~
+0 D inside
+E
+throne~
+The throne is made of gray-green stone polished so that it shines.  It
+looks strangely comfortable, even without any pillows or cushions, and looks
+exquisite.  
+~
+D3
+~
+~
+Z 0 19526
+0 0
+S
+#19528
+A Storage Room~
+The room here is tiny, with barely room enough for more than a few people
+to stand.  It seems to be used as a storage room, with a large shelf taking
+up most of the space not occupied by burlap sacks.  Most of the items placed
+on the shelf seem to be of little interest; they consist mostly of acorns,
+flower seeds, and moss collected from the forest.  The door to the south is
+the only exit from the room.  
+~
+0 D inside
+D2
+~
+~
+ABZ 0 19524
+0 0
+S
+#19529
+A Treasure Room~
+Gold coins have been scattered across the room, as well as
+several glittering jewels.  All sorts of treasures seem to have been
+gathered, though most don't seem any more valuable than a silver coin.  It
+seems as though the faeries have collected anything that caught there
+attention and dumped it all in this room in random piles.  Emeralds are
+placed next to half-broken clay bowls, and silk scarves are lying next to
+stones that seem to have been gathered from a river bed.  Nothing seems to
+be organized in any recognizable fashion, and it appears as though the
+faeries find strangely shaped rocks from the forest to be as valuable a
+treasure as the most precious jewels.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 19525
+0 0
+S
+#19530
+An Empty Room~
+The room here appears to be empty.  It almost seems as if it is
+incomplete, though the walls are smooth and look as though they haven't been
+recently dug.  There are footprints in the dirt, so it is obvious that
+someone has been here not long ago, but other than the door on the southern
+wall there is nothing of any interest in this room whatsoever.  
+~
+0 D inside
+E
+footprints~
+There are many footprints, ranging from pixie-sized to those that might
+even belong to a giant.  It seems as though many people have been through
+this room recently.  
+~
+D2
+~
+~
+ABZ 0 19526
+0 0
+S
+#19531
+A Shelter in the Forest~
+A small shelter has been created using the space between a large boulder
+and a tree.  The shelter seems to be created of fallen branches, their size
+and length varying greatly, hardly good materials for a stable structure. 
+It does appear quite strong, however, and seems to have survived the
+elements quite well.  The remains of a small fire are visible near the
+shelter, though it is barely visible.  It appears as though this place is
+used to offer a place to rest for those wishing to explore the beauties of
+the forest.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 19413
+0 0
+S
+#0
+
+#SPECIALS
+M 19423 spec_cast_adept	* Sequanna
+M 19432 spec_cast_mage	* the faerie queen
+M 19436 spec_cast_mage	* Carman
+S
+
+#RESETS
+D 0 19509 5 1	* The Faerie Ring: door to the down: closed
+D 0 19520 0 1	* At the Bottom of the Hole: door to the north: closed
+D 0 19520 4 1	* At the Bottom of the Hole: door to the up: closed
+D 0 19521 2 1	* A Small Room Underground: door to the south: closed
+D 0 19522 2 1	* An Underground Passageway: door to the south: closed
+D 0 19523 0 1	* The Sleeping Area: door to the north: closed
+D 0 19524 0 1	* An Underground Passageway: door to the north: closed
+D 0 19525 2 1	* An Underground Passageway: door to the south: closed
+D 0 19526 0 1	* An Underground Passageway: door to the north: closed
+D 0 19528 2 1	* A Storage Room: door to the south: closed
+D 0 19529 0 1	* A Treasure Room: door to the north: closed
+D 0 19530 2 1	* An Empty Room: door to the south: closed
+M 0 19420 1 19411 1	* a function mob (The Remains of a Trail)
+M 0 19411 10 19412 1	* a crow (The Entrance to a Mist Shrouded Forest)
+M 0 19412 10 19413 1	* a raven (Deeper into the Forest)
+M 0 19412 10 19414 1	* a raven (Deeper into the Forest)
+M 0 19412 10 19415 1	* a raven (Among the Mist-Shrouded Trees)
+M 0 19411 10 19416 1	* a crow (Among the Mist-Shrouded Trees)
+O 0 19411 0 19417	* some moss (By the Great Tree)
+O 0 19412 0 19417	* a mushroom (By the Great Tree)
+M 0 19411 10 19418 1	* a crow (Among the Mist-Shrouded Trees)
+M 0 19411 10 19419 1	* a crow (Among the Mist-Shrouded Trees)
+M 0 19412 10 19420 1	* a raven (Among the Mist-Shrouded Trees)
+M 0 19413 10 19422 1	* a Baobhan Sith (Lost in the Mist)
+M 0 19413 10 19423 1	* a Baobhan Sith (Lost in the Mist)
+M 0 19413 10 19424 1	* a Baobhan Sith (Lost in the Mist)
+E 0 19413 0 3		*	{ma fl{Mow{mer am{Mul{met{x: around the neck (1)
+M 0 19413 10 19425 1	* a Baobhan Sith (Lost in the Mist)
+M 0 19413 10 19428 1	* a Baobhan Sith (Lost in the Mist)
+M 0 19413 10 19429 1	* a Baobhan Sith (Lost in the Mist)
+M 0 19415 10 19437 1	* a fetch (Within the Dark Forest)
+M 0 19414 10 19439 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19415 10 19441 1	* a fetch (Within the Dark Forest)
+M 0 19414 10 19442 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19415 10 19443 1	* a fetch (Within the Dark Forest)
+M 0 19414 10 19445 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19415 10 19446 1	* a fetch (Within the Dark Forest)
+M 0 19415 10 19447 1	* a fetch (Within the Dark Forest)
+M 0 19414 10 19448 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19415 10 19449 1	* a fetch (Within the Dark Forest)
+M 0 19414 10 19450 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19414 10 19452 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19415 10 19454 1	* a fetch (Within the Dark Forest)
+M 0 19414 10 19455 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19435 1 19456 1	* Dian (A Clearing in the Forest)
+M 0 19425 10 19457 1	* a banshee (A Shallow Stream)
+M 0 19417 10 19458 1	* a changeling (Within the Mist-Shrouded Forest)
+M 0 19416 10 19459 1	* a bendith y mamau (Within the Mist-Shrouded Forest)
+E 0 19414 0 17		*	{ya wooden flute{x: held in the hands
+M 0 19426 10 19460 1	* a banshee (A Shallow Stream)
+M 0 19425 10 19461 1	* a banshee (A Shallow Stream)
+M 0 19426 10 19462 1	* a banshee (A Shallow Stream)
+M 0 19417 10 19463 1	* a changeling (Within the Mist-Shrouded Forest)
+M 0 19416 10 19464 1	* a bendith y mamau (Within the Mist-Shrouded Forest)
+E 0 19414 0 17		*	{ya wooden flute{x: held in the hands
+M 0 19415 10 19465 1	* a fetch (Within the Dark Forest)
+M 0 19425 10 19466 1	* a banshee (A Shallow Stream)
+M 0 19416 10 19468 1	* a bendith y mamau (Within the Mist-Shrouded Forest)
+E 0 19414 0 17		*	{ya wooden flute{x: held in the hands
+M 0 19416 10 19469 1	* a bendith y mamau (Within the Mist-Shrouded Forest)
+E 0 19414 0 17		*	{ya wooden flute{x: held in the hands
+M 0 19418 1 19470 1	* a lost child (Within the Mist-Shrouded Forest)
+M 0 19414 10 19471 1	* a Baobhan Sith (Within the Dark Forest)
+M 0 19426 10 19473 1	* a banshee (A Shallow Stream)
+M 0 19417 10 19475 1	* a changeling (Within the Mist-Shrouded Forest)
+M 0 19416 10 19476 1	* a bendith y mamau (Within the Mist-Shrouded Forest)
+E 0 19414 0 17		*	{ya wooden flute{x: held in the hands
+M 0 19417 10 19477 1	* a changeling (Within the Mist-Shrouded Forest)
+M 0 19417 10 19478 1	* a changeling (Within the Mist-Shrouded Forest)
+M 0 19416 10 19479 1	* a bendith y mamau (Within the Mist-Shrouded Forest)
+E 0 19414 0 17		*	{ya wooden flute{x: held in the hands
+M 0 19419 1 19480 1	* a lost child (Within the Mist-Shrouded Forest)
+M 0 19417 10 19481 1	* a changeling (Within the Mist-Shrouded Forest)
+M 0 19422 10 19483 1	* a maid-of-the-waves (On the Lake)
+M 0 19422 10 19484 1	* a maid-of-the-waves (On the Lake)
+M 0 19422 10 19486 1	* a maid-of-the-waves (On the Lake)
+M 0 19424 1 19488 1	* Cyhiraeth (On the Lake)
+M 0 19423 1 19489 1	* Sequanna (On the Lake)
+M 0 19422 10 19490 1	* a maid-of-the-waves (On the Lake)
+M 0 19422 10 19491 1	* a maid-of-the-waves (On the Lake)
+M 0 19422 10 19493 1	* a maid-of-the-waves (On the Lake)
+M 0 19426 10 19494 1	* a banshee (A Shallow Stream)
+M 0 19425 10 19495 1	* a banshee (A Shallow Stream)
+M 0 19434 1 19497 1	* Dother (A Clearing in the Forest)
+E 0 19425 0 5		*	a set of platemail armor: on the body
+M 0 19427 10 19498 1	* a restless spirit (The Grave Mounds)
+M 0 19427 10 19499 1	* a restless spirit (The Grave Mounds)
+M 0 19427 10 19500 1	* a restless spirit (The Grave Mounds)
+M 0 19428 10 19504 1	* the pixie (The Faerie Ring)
+M 0 19427 10 19505 1	* a restless spirit (The Grave Mounds)
+M 0 19427 10 19506 1	* a restless spirit (The Grave Mounds)
+M 0 19427 10 19507 1	* a restless spirit (The Grave Mounds)
+M 0 19428 10 19508 1	* the pixie (The Faerie Ring)
+M 0 19428 10 19509 1	* the pixie (The Faerie Ring)
+M 0 19428 10 19511 1	* the pixie (The Faerie Ring)
+M 0 19433 1 19513 1	* Dub (A Clearing in the Forest)
+E 0 19424 0 16		*	A rune-covered bastard sword: wielded
+M 0 19428 10 19516 1	* the pixie (The Faerie Ring)
+M 0 19429 10 19521 1	* the faerie (A Small Room Underground)
+M 0 19430 10 19522 1	* the sprite (An Underground Passageway)
+M 0 19431 10 19523 1	* the sylph (The Sleeping Area)
+O 0 19416 0 19523	* a bed of leaves (The Sleeping Area)
+M 0 19429 10 19524 1	* the faerie (An Underground Passageway)
+M 0 19430 10 19525 1	* the sprite (An Underground Passageway)
+M 0 19429 10 19526 1	* the faerie (An Underground Passageway)
+M 0 19432 1 19527 1	* the faerie queen (The Throne Room)
+M 0 19431 10 19528 1	* the sylph (A Storage Room)
+O 0 19417 0 19528	* the shelf (A Storage Room)
+P 0 19418 1 19417 1	* the shelf: a tightly wound scroll
+O 0 19419 0 19528	* a burlap sack (A Storage Room)
+M 0 19431 10 19529 1	* the sylph (A Treasure Room)
+O 0 19420 0 19529	* a random pile (A Treasure Room)
+P 0 19421 1 19420 1	* a random pile: a lovely emerald
+O 0 19422 0 19529	* several gold coins (A Treasure Room)
+M 0 19430 10 19530 1	* the sprite (An Empty Room)
+S
+
+#OLIMITS
+O 19423 1	* {ca sylph's wings{x
+S
+
+#MOBPROGS
+#19411
+mob echo Feathers fly everywhere as the crow lets out its death cry.
+~
+#19412
+mob echoaround $n The raven gives $n a baleful glare as it falls to the ground.
+mob echoat $n The raven gives you a baleful glare as it falls to the ground.
+~
+#19413
+mob echo Sadness fills the eyes of the young maiden as she slowly stumbles to the ground.
+~
+#19414
+mob echo The maiden screams out foul curses as the remaining life leaves her body.
+~
+#19415
+if sex $n == 2
+mob echoat $n The maiden laughs at you, then spins away.
+mob echoaround $n The maiden laughs as $n spins her around, then moves away.
+else
+mob echoat $n The maiden laughs as you spin her around and around. Sweet music fills the air, and your heart fills with joy as you hold her in your arms. Over and over you spin her, until your head grows dizzy and you feel you're about to fall. It's hard to think clearly, but you manage to think to yourself as the maiden's arms tighten around you and you feel a sharp pain in your neck that maybe you shouldn't be dancing with strange women in the middle of a dark forest.
+mob echoaround $n As $n spins the maiden around, he seems to be lost in her eyes, and before anything can be done to stop her, she moves in close to him, holding him tightly, and biting deeply into his neck, draining him of his life's blood.
+mob damage $n 30000 30001
+endif
+~
+#19416
+mob echo The fetch lets out a soundless cry, then begins to shrivel, taking on its true form in death.
+~
+#19417
+mob echo The creature brings the flute to its lips, beginning to play a shrill note, but its final breath leaves its body before the curse can be completed.
+~
+#19418
+mob echo The changeling lets out a shrill laugh as it falls to the ground, dead.
+~
+#19419
+if mobhere 19418
+or mobhere 19419
+else
+if isgood $n
+say Please! Please, can you help me?
+endif
+if isneutral $n
+mobechoat $n The woman stares blankly ahead, sobbing uncontrollably.
+endif
+if isevil $n The woman shrinks away from you, wiping at her eyes with her hand.
+endif
+endif
+~
+#19420
+if mobhere 19421
+else
+if isgood $n
+mob mload 19421
+mob vforce 19421 mob echo A woman comes running through the forest, stopping right before you.
+mob vforce 19421 cry
+mob vforce 19421 say Please, can you help me?
+endif
+endif
+~
+#19421
+cry
+~
+#19422
+mob echoat $n The child looks up at you with big eyes.
+mob echoaround $n The child looks up at $n with big eyes.
+say Mother sent you? Is she here?
+follow $n
+~
+#19423
+if mobhere 19421
+say Mother!
+mob echo The child runs into his mother's arms, who is sobbing wildly at the sight of him.
+mob echo The woman looks up and smiles gratefully, wiping the tears from her eyes as she speaks.
+mob echo '{GI can never repay you for your help. I wish I had something to give you, but I'm only a village woman. If you ever need a place to rest for the night, my farm is nearby, and you're welcome to stop by for supper and a warm bed.{x'
+mob echo Leading her child by the hand, the woman leaves the forest, heading home quickly. When she is out of sight, you notice something glittering among the leaves on the forest floor. Leaning forward, you notice an ancient locket, half-buried in the mud.
+mob oload 19415
+drop all
+mob transfer woman 100801
+mob goto 100801
+~
+#19424
+if mobhere 19421
+mob echo The child begins to laugh maniacally, and suddenly runs towards the woman with a shriek.
+mob mload 19417
+mob vforce 19417 kill woman
+mob goto 100801
+endif
+~
+#19425
+mob echo The maiden lets out a cry of pain, then falls backwards into the water.
+~
+#19426
+mob echo A look of sadness crosses Sequanna's face as she draws her last breath.
+~
+#19427
+mob echo Cyhiraeth falls to her knees, gasping for air.
+~
+#19428
+mob echo The banshee lets out a mournful wail, then falls back into the stream.
+~
+#19429
+mob echo The banshee lets out a horrifying shriek, chilling your blood.
+~
+#19430
+mob echo The spirit draws back suddenly, gives you a baleful glare, then dies its final death.
+~
+#19431
+mob echo The pixie struggles to stay in the air, but with one last feeble flutter of wings, crashes to the ground.
+~
+#19432
+mob echo The faerie lets out a faint cry before she crumples to the floor.
+~
+#19433
+mob echo The sprite frowns as he looks down at his wounds, then collapses.
+~
+#19434
+mob echo The sylph looks surprised as her wings grow to weak to support her, and she slams into the ground.
+if rand 83
+mob oload 19423
+endif
+~
+#19435
+if rand 50
+mob echoat $n The sound of giggling fills your ears, and before you know it, you're spun around and around, until you're almost too dizzy to stand. By the time you regain your sense of balance, you find yourself somewhere completely different.
+mob echoaround $n The sound of giggling fills your ears, and before you know it, $n is being spun around and around in a magical cloud of gray dust. As quickly as it begins, it is over, and $n is nowhere to be found.
+mob transfer $n 19530
+else
+if rand 35
+mob echoat $n The sound of giggling fills your ears, and before you know it, you're spun around and around, until you're almost too dizzy to stand. By the time you regain your sense of balance, you find yourself somewhere completely different.
+mob echoaround $n The sound of giggling fills your ears, and before you know it, $n is being spun around and around in a magical cloud of gray dust. As quickly as it begins, it is over, and $n is nowhere to be found.
+mob transfer $n 19529
+else
+if rand 25
+mob echoat $n The sound of giggling fills your ears, and before you know it, you're spun around and around, until you're almost too dizzy to stand. By the time you regain your sense of balance, you find yourself somewhere completely different.
+mob echoaround $n The sound of giggling fills your ears, and before you know it, $n is being spun around and around in a magical cloud of gray dust. As quickly as it begins, it is over, and $n is nowhere to be found.
+mob transfer $n 19523
+else
+mob echoat $n The sound of giggling fills your ears, and before you know it, you're spun around and around, until you're almost too dizzy to stand. By the time you regain your sense of balance, you find yourself somewhere completely different.
+mob echoaround $n The sound of giggling fills your ears, and before you know it, $n is being spun around and around in a magical cloud of gray dust. As quickly as it begins, it is over, and $n is nowhere to be found.
+mob transfer $n 19521
+~
+#19436
+mob echo The faerie queen falls backward, hitting her head the ground, and then lies still.
+~
+#19437
+if mobexists dub
+or mobexists dother
+or mobexists carman
+else
+mob mload 19436
+mob vforce 19436 mob oload 19426
+mob transfer carman 19417
+mob vforce 19436 mob zecho An anguished voice cries out, '{GMy sons!{x'
+mob vforce 19436 wear all
+endif
+~
+#19438
+if mobexists dother
+or mobexists dian
+or mobexists carman
+else
+mob mload 19436
+mob vforce 19436 mob oload 19426
+mob transfer carman 19417
+mob vforce 19436 mob zecho An anguished voice cries out, '{GMy sons!{x'
+mob vforce 19436 wear all
+endif
+~
+#19439
+if mobexists dian
+or mobexists dub
+or mobexists carman
+else
+mob mload 19436
+mob vforce 19436 mob oload 19426
+mob transfer carman 19417
+mob vforce 19436 mob zecho An anguished voice cries out, '{GMy sons!{x'
+mob vforce 19436 wear all
+endif
+~
+#19440
+mob echo The faerie queen falls backward, hitting her head on the ground, and then lies still.
+if rand 85
+mob oload 19434
+else
+if rand 80
+mob oload 19433
+else
+if rand 75
+mob oload 19431
+else
+if rand 70
+mob oload 19430
+else
+if rand 65
+mob oload 19432
+else
+if rand 55
+mob oload 19428
+else
+if rand 50
+mob oload 19429
+else
+if rand 50
+mob oload 19427
+else
+mob oload 19435
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+#0
+
+#$

@@ -1,0 +1,3080 @@
+#AREADATA
+Name The Ruined Arena~
+Builders nalaeya~
+VNUMs 10951 11050
+Credits nalaeya~
+Security 1
+LevelRange 1 91
+ResetMessage A sharp cry is heard as another warrior falls in battle.~
+End
+
+#MOBILES
+#10990
+gladiator man~
+a gladiator~
+A tall, muscular man leans against the cliff wall and looks you over.
+~
+This man looks very powerful, with arms as thick as most men’s legs. 
+He’s human, and stands just about six feet tall. His brown hair is long 
+but tied back into a ponytail that reaches his waist. He is outfitted in 
+thick leather armor, and wields no visible weapon. Something about 
+him seems strange, but it’s difficult to guess what it is.
+~
+ghost~
+ABe DFlmt 0 0
+110 110 589d110+30000 1100d11+95 37d2+90 none
+-69 -69 -69 -47
+CEJK 0 AB 0
+stand stand male 0
+0 0 medium flesh~
+~
+M exall 10951 ~
+M speech 10952 combatant~
+M speech 10953 observer~
+M speech 10954 need healing~
+M delay 10955 100~
+#10991
+evil spirit~
+an evil spirit~
+A hideous, frightening face hangs suspended in midair.
+~
+Words cannot even describe the horror of the creature before you. The
+brief glimpse you get shows a hideous face spinning in midair, screaming
+loudly.
+~
+unique~
+ABUe DFlmt 0 0
+100 1 6d1+1500 1d9+60 1d2+2 none
+9 9 9 9
+0 AB 0 0
+stand stand either 0
+AH AEJK medium flesh~
+~
+#0
+
+#OBJECTS
+#11035
+tree hole trunk~
+a hole in the trunk~
+~
+unknown~
+~
+portal R 0
+0 0 A 11041 0
+0 0 0 P
+E
+hole trunk tree~
+It's impossible to tell from here without getting inside what lies there.
+~
+G none
+G none
+G none
+G none
+#11040
+large rock~
+the large rock~
+~
+unknown~
+rock~
+furniture R 0
+AC EIJKN EHK ACDEFG ACDEFG AC EIJKN
+0 0 0 P
+E
+large rock~
+This large rock looks like a good resting place.
+~
+G none
+G none
+G none
+G none
+#11041
+tree hole trunk~
+a hole in the trunk~
+~
+unknown~
+~
+portal R 0
+0 0 A 11035 0
+0 0 0 P
+E
+hole trunk tree~
+It's impossible to tell from here without getting inside what lies there.
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#10951
+The Light Woods~
+No path has been cleared through the light woods growing here, but signs 
+of many people passing through are clearly visible from the tracks in the 
+ground and the trampled flowers and bushes. To the north, the land clears 
+out into a wide and level plain, tall grass rising about knee-high to the 
+average-sized human or elf. Dried blood is visible on a bush nearby, 
+probably left by a wounded competitor on his way out of the crumbling 
+arena said to lie beyond the plains and forests.
+~
+0 XZ forest
+D0
+Wide plains lie to the north.
+~
+~
+Z 0 10952
+0 0
+D2
+~
+~
+Z 0 3527
+0 0
+S
+#10952
+Wide Plains~
+The woods to the south have cleared here and given way to a wide plain 
+covered with tall grass and dotted here and there by a flowered bush or 
+a small tree. Far in the distance the sound of running water can be heard, 
+though no sign of its source is visible from here.
+~
+0 XZ field
+D0
+The plains continue, and the banks of a river can be seen far ahead.
+~
+~
+Z 0 10955
+0 0
+D1
+The plains continue, tall grasses swaying in the breeze.
+~
+~
+Z 0 10954
+0 0
+D2
+A lightly wooded area obscures any view of what lies further south.
+~
+~
+Z 0 10951
+0 0
+D3
+The plains continue, and the faint sound of rushing water can be heard.
+~
+~
+Z 0 10953
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10956
+0 0
+S
+#10953
+Wide Plains~
+The tall grasses of the plain give way to a river bank to the north. The 
+river itself does not seem to be very wide, and beyond it can be seen a 
+heavy forest, tall trees rising high above its banks. To the south a lightly 
+wooded area blocks any view of what lies beyond, and to the east the 
+wide plains continues.
+~
+0 XZ field
+D0
+To the north lies a river bank.
+~
+~
+Z 0 10960
+0 0
+D1
+The plains continue to the east, tall grasses swaying in the wind.
+~
+~
+Z 0 10952
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10959
+0 0
+S
+#10954
+Wide Plains~
+The wide plain continues here, tall grasses swaying gently in the breeze. 
+To the south lies a lightly wooded area, obscuring what lies beyond, 
+while to the north the plains continues. The sounds of flowing water are 
+barely audible, and its hard to determine where they could be coming from.
+~
+0 XZ field
+D0
+The banks of a river can be seen to the north.
+~
+~
+Z 0 10957
+0 0
+D3
+The plains continue to the west, dotted with trees and flowers.
+~
+~
+Z 0 10952
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10958
+0 0
+S
+#10955
+Wide Plains~
+The plain continues here, tall grass swaying in the breeze, which carries 
+the scent of water and the thick forest visible on the other side of the 
+narrow river to the north. Far to the south, a lightly wooded area can be 
+seen, blocking the view of what lies beyond it, while all around the 
+wide, flat plain continues.
+~
+0 XZ field
+D0
+To the north lies a river bank.
+~
+~
+Z 0 10964
+0 0
+D1
+The plains continue to the east, a few flowers growing in patches.
+~
+~
+Z 0 10957
+0 0
+D2
+The plains continue to the south, a light breeze making the grass sway.
+~
+~
+Z 0 10952
+0 0
+D3
+To the west lies a river bank.
+~
+~
+Z 0 10960
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10982
+0 0
+S
+#10956
+Flying Above the Plains~
+The air above the plains is fresh and clear, though there isn’t too much 
+to see from this vantage point. All that lies below are fields of tall grass, 
+broken only here and there by a small tree or a light patch of shrubbery. To 
+the north a river can be seen, and beyond that a tall forest.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 10982
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 10958
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 10959
+0 0
+D5
+The plains lie below, a few trees and flowers visible here and there.
+~
+~
+Z 0 10952
+0 0
+S
+#10957
+Wide Plains~
+The tall grasses of the plain continue up to the river bank to the north. 
+Beyond the river, a deep forest can be seen, with tree-covered mountains 
+rising up beyond it. On this side of the river the land remains a flat plain, 
+with a few isolated trees and shrubs growing above the grass. Far to the 
+south, a lightly wooded area can be seen.
+~
+0 XZ field
+D0
+To the north lies a river bank.
+~
+~
+Z 0 10965
+0 0
+D2
+Far to the south a lightly wooded area can be seen.
+~
+~
+Z 0 10954
+0 0
+D3
+The plains continue to the west, a few trees growing here and there.
+~
+~
+Z 0 10955
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10981
+0 0
+S
+#10958
+Flying Above the Plains~
+The air above the plains is fresh and clear, though there isn’t too much 
+to see from this vantage point. All that lies below are fields of tall grass, 
+broken only here and there by a small tree or a light patch of shrubbery. To 
+the north a river can be seen, and beyond that a tall forest.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 10981
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 10956
+0 0
+D5
+Nothing lies below except for tall glasses, and a few isolated shrubs
+and trees.
+~
+~
+Z 0 10954
+0 0
+S
+#10959
+Flying Above the Plains~
+The air above the plains is fresh and clear, though there isn’t too much 
+to see from this vantage point. All that lies below are fields of tall grass, 
+broken only here and there by a small tree or a light patch of shrubbery. To 
+the north a river can be seen, and beyond that a tall forest.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 10983
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 10956
+0 0
+D5
+The plains lie below, stretching a great distance.
+~
+~
+Z 0 10953
+0 0
+S
+#10960
+The River~
+The river here is narrow, but the strong current pulling westward makes 
+the bank on the other end seem further than it is.  A small island is visible 
+to the west, covered in trees. The river takes a turn here, altering its 
+course. A ominous roar can be heard to the west, where the current is 
+flowing. To the north a thick forest is visible, and beyond that, a tall 
+tree-covered mountain. To the south lies a flat plain, ending at a lightly 
+wooded area. A small island is visible to the northwest, though it’s 
+impossible to reach it from here.
+~
+0 XZ noswim
+D0
+The river continues to the north.
+~
+~
+Z 0 10963
+0 0
+D1
+A wide plain lies to the east.
+~
+~
+Z 0 10955
+0 0
+D2
+The tall grasses of the plain to the south sway in the wind.
+~
+~
+Z 0 10953
+0 0
+D3
+A loud roar comes from a waterfall to the west.
+~
+~
+Z 0 10961
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10983
+0 0
+S
+#10961
+The Waterfall~
+The source of the roar becomes clear as the river suddenly becomes a 
+waterfall. Luckily the river is quite narrow here, and the island to the 
+north allows a safe place to land before getting pulled over the edge. A 
+light mist from the falls makes the air feel humid but cool, leaving small 
+drops of water on whatever it touches.
+~
+0 XZ noswim
+D0
+A tree-covered island lies to the north.
+~
+~
+Z 0 10962
+0 0
+D1
+The river continues to the east.
+~
+~
+Z 0 10960
+0 0
+D3
+~
+~
+Z 0 11008
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10984
+0 0
+S
+#10962
+A Small Island~
+This island is not very large, and the fact that it’s covered in a light 
+forest makes it seem even smaller. Mountains stand to the north and 
+northwest of the island, blocking the view of whatever lies beyond. To 
+the south a beautiful waterfall can be seen, about a hundred feet high. 
+The river continues to the east of the island, where from its edge a wide 
+plain is visible to the southeast.
+~
+0 XZ forest
+D1
+The river flows to the east.
+~
+~
+Z 0 10963
+0 0
+D2
+The roar of a waterfall can be heard from the south.
+~
+~
+Z 0 10961
+0 0
+S
+#10963
+The River~
+The river here is narrow, but a strong current flows westward, 
+making it difficult to cross. An loud roar can me heard coming from 
+the southwest, where the water is flowing. To the north a thick forest 
+lies beyond the high river bank, a tree-covered mountain just barely 
+visible beyond it. A small island is visible to the west, covered in
+trees.
+~
+0 XZ noswim
+D0
+Tall trees line the river bank.
+~
+~
+Z 0 10970
+0 0
+D1
+The river continues to the east.
+~
+~
+Z 0 10964
+0 0
+D2
+The river takes a turn to the south.
+~
+~
+Z 0 10960
+0 0
+D3
+A small tree-covered island lies to the west.
+~
+~
+Z 0 10962
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10985
+0 0
+S
+#10964
+The River~
+The river here is narrow, but a growing current makes it somewhat 
+difficult to navigate across. The water is deep and clear, reflecting 
+the sky above. The current flows westward, where a soft roar is 
+barely audible. To the north of the river lies a deep forest, with large, 
+thick trees growing right up to the river’s banks. To the south of the 
+river lies a wide plain, covered in tall grasses.
+~
+0 XZ noswim
+D0
+A large forest lies to the north.
+~
+~
+Z 0 10969
+0 0
+D1
+The river continues to the east.
+~
+~
+Z 0 10965
+0 0
+D2
+A large plain covered in tall grass lies to the south.
+~
+~
+Z 0 10955
+0 0
+D3
+The river continues to the west.
+~
+~
+Z 0 10963
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10986
+0 0
+S
+#10965
+The River~
+The narrow river is not very wide here, but the water is deep, and a 
+light current along with the river’s high banks make it impossible to 
+swim across safely. To the south side of the river lies a wide and flat 
+plain, covered in tall grass that is broken here and there by a small 
+tree or some shrubs. To the north lies a heavy forest, tall trees rising 
+high and blocking the view of whatever lies past them.
+~
+0 XZ noswim
+D0
+A thick forest lies beyond the river's banks.
+~
+~
+Z 0 10968
+0 0
+D1
+The river continues to the east.
+~
+~
+Z 0 10966
+0 0
+D2
+A wide plain lies to the south of the river.
+~
+~
+Z 0 10957
+0 0
+D3
+The river continues to the west.
+~
+~
+Z 0 10964
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10987
+0 0
+S
+#10966
+The River~
+The river here is not very wide, but a light current and high banks 
+makes swimming across unsafe. The water is deep and clear, 
+reflecting the sky perfectly. On southern side of the river lies a wide 
+plain, covering a large area and slowly becoming more wooded to the 
+south. On the northern side lies a thick forest, tall trees hiding what
+lies beyond.
+~
+0 XZ noswim
+D0
+Tall trees grow right up against the river's bank.
+~
+~
+Z 0 10967
+0 0
+D3
+The river continues to the west.
+~
+~
+Z 0 10965
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 10988
+0 0
+S
+#10967
+The Forest by The River Banks~
+The sounds of flowing water can be heard through the trees, whose 
+branches spread out high overhead. The forest begins right at the banks 
+of the river to the south, beyond which wide plains can be seen. There 
+are no paths through the forest, though certain areas show signs of 
+someone passing through recently, with broken twigs and crushed flowers 
+lying alongside tracks in the earth. The land to the north slopes gently 
+upwards.
+~
+0 XZ forest
+D0
+The forest slopes gently upwards to the north.
+~
+~
+Z 0 10974
+0 0
+D2
+The river's banks can be seen to the south.
+~
+~
+Z 0 10966
+0 0
+D3
+Thick trees lie to the west.
+~
+~
+Z 0 10968
+0 0
+S
+#10968
+The Forest by The River Banks~
+The forest here is full of life, birds calling out to each other, 
+and here and there a small animal running across the forest floor. 
+High above the tree branches sway in the wind, their leaves 
+brushing together and every now and then falling slowly to the 
+ground. The sounds of flowing water can be heard to the south, where 
+the forest meets the river’s bank.
+~
+0 XZ forest
+D0
+Thick trees lie to the north.
+~
+~
+Z 0 10973
+0 0
+D1
+The thick forest continues to the east.
+~
+~
+Z 0 10967
+0 0
+D2
+The banks of the river can be seen to the south.
+~
+~
+Z 0 10965
+0 0
+D3
+Trees block any view of what lies west.
+~
+~
+Z 0 10969
+0 0
+S
+#10969
+The Forest by The River Banks~
+The banks of the river here are quite steep, and the forest begins right 
+at its edge. A gentle wind sways the top branches of the trees, making 
+the light shift along the forest floor. The sounds of the water flowing to 
+the south combined with the rustling of tree leaves and the calls of 
+birds give this forest a peaceful feel.
+~
+0 XZ forest
+D0
+There is a clearing to the north.
+~
+~
+Z 0 10972
+0 0
+D1
+The thick forest continues to the east.
+~
+~
+Z 0 10968
+0 0
+D2
+The bank of the river lies to the south.
+~
+~
+Z 0 10964
+0 0
+D3
+More trees lie to the west.
+~
+~
+Z 0 10970
+0 0
+S
+#10970
+The Forest by The River Banks~
+The thick forest begins right at the river’s banks. Tall trees, with 
+large spreading branches that block out most of the light from the 
+sun rise high above the water. The forest is filled with the sounds of 
+life, birds calling out to each other, and here and there bushes rustling 
+as a small animal runs through. The land begins to slope gently 
+upwards to the north.
+~
+0 XZ forest
+D0
+The forest to the north begins to slope upwards.
+~
+~
+Z 0 10971
+0 0
+D1
+Thick trees block the view.
+~
+~
+Z 0 10969
+0 0
+D2
+The banks of the river are to the south.
+~
+~
+Z 0 10963
+0 0
+S
+#10971
+The Forest by the Pass~
+Thick tree roots cover the ground here, making passage through the 
+forest slow and difficult. The forest thins out a little to the north, where 
+a small pass leads through the steep tree-covered mountainside. Far to 
+the south, the faint sounds of running water can be heard through the 
+bird calls and the shifting of the tree branches. To the north the land 
+rises steeply, blocking any further travel except through the small pass.
+~
+0 XZ forest
+D0
+There is a pass between the mountains to the north.
+~
+~
+Z 0 10989
+0 0
+D1
+A clearing lies to the east.
+~
+~
+Z 0 10972
+0 0
+D2
+The forest continues to the south.
+~
+~
+Z 0 10970
+0 0
+S
+#10972
+The Forest Clearing~
+The forest suddenly breaks off into a small clearing, a pond lying 
+right at its center. Aside from several small rocks and flowered bushes, 
+the clearing doesn’t offer many good places of concealment. The land 
+to the north of the clearing rises sharply, impossible to pass through.
+~
+0 XZ forest
+D1
+Tall trees stand to the east.
+~
+~
+Z 0 10973
+0 0
+D2
+The thick forest continues to the south.
+~
+~
+Z 0 10969
+0 0
+D3
+A pass through the mountains lies to the west.
+~
+~
+Z 0 10971
+0 0
+S
+#10973
+The Forest~
+The land rises steeply to the north, forming a cliff and blocking any 
+further passage. In the side of the cliff however lies what seems to be 
+the entrance to a dark cave, close to the forest floor. To the west the 
+trees thin out and there seems to be a clearing in the forest. High 
+above, the tree tops sway as a slight breeze shakes their leaves.
+~
+0 XZ forest
+D0
+The entrance to a cave lies north.
+~
+~
+Z 0 10975
+0 0
+D1
+The land slopes upward to the east.
+~
+~
+Z 0 10974
+0 0
+D2
+Tall trees block the view to the south.
+~
+~
+Z 0 10968
+0 0
+D3
+There is a clearing in the forest.
+~
+~
+Z 0 10972
+0 0
+S
+#10974
+The Forest~
+The land here suddenly begins to rise steeply to the north and east, 
+preventing any further passage. High above the branches of the forest’s 
+trees block out much of the light, giving the forest a somewhat darker 
+appearance here. The earth below is cool and slightly muddy, as if it has 
+rained recently. Several tracks are visible in the earth, making it seem 
+like many different people have crossed through this area recently.
+~
+0 XZ forest
+D2
+The thick forest continues to the south.
+~
+~
+Z 0 10967
+0 0
+D3
+Tall trees lies to the west.
+~
+~
+Z 0 10973
+0 0
+S
+#10975
+The Entrance to the Cave~
+The cave entrance is littered with rubble, and barely any light manages 
+to reach more than a few feet into the cave. Small rocks cover the cave 
+floor, with larger boulders by the entrance. The depths of the cave are 
+plunged into darkness, and it is impossible to tell what lies beyond the 
+light.
+~
+0 ADXZ mountain
+D0
+It's too dark to see.
+~
+~
+Z 0 10980
+0 0
+D1
+It's too dark to see.
+~
+~
+Z 0 10976
+0 0
+D2
+Through the hole, the forest can be seen to the south.
+~
+~
+Z 0 10973
+0 0
+S
+#10976
+The Dark Cave~
+Though the entrance to the cave is not far, no light shines through this 
+part of the cave. The air is thick and heavy, and the walls are cold to 
+the touch. The entire cave is plunged in darkness, giving no hints as to 
+what lies deeper.
+~
+0 ADXZ mountain
+D0
+It's too dark to see.
+~
+~
+Z 0 10979
+0 0
+D1
+It's too dark to see.
+~
+~
+Z 0 10977
+0 0
+D3
+A faint light comes from the west.
+~
+~
+Z 0 10975
+0 0
+S
+#10977
+The Dark Cave~
+Large rocks and boulders block any passage further into the cave. It 
+seems as though there was a cave-in some time ago. The cave here is 
+eerily quiet, and the air is quite cold, making it an unpleasant place to 
+stay for long.
+~
+0 ADXZ mountain
+D0
+It's too dark to see.
+~
+~
+Z 0 10978
+0 0
+D3
+It's too dark to see.
+~
+~
+Z 0 10976
+0 0
+S
+#10978
+The Dark Cave~
+A cave-in seems to have occurred in this part of the cave a long time 
+ago, blocking any further passage. The air is cold and heavy, and the 
+rocks littering the ground make passage dangerous in the darkness. 
+This area has an oppressive feel to it, and the lack of sound is eerie.
+~
+0 ADXZ mountain
+D2
+It's too dark to see.
+~
+~
+Z 0 10977
+0 0
+D3
+It's too dark to see.
+~
+~
+Z 0 10979
+0 0
+S
+#10979
+The Dark Cave~
+The cave floor is uneven and covered in small rocks, making passage 
+through difficult. The ceiling hands fairly low, but the air is still quite 
+cool inside the cave. The cave walls are rough, with sharp jagging 
+edges jutting out. There is darkness all around, and it is impossible to
+see what else lies in the cave.
+~
+0 ADXZ mountain
+D1
+It's too dark to see.
+~
+~
+Z 0 10978
+0 0
+D2
+It's too dark to see.
+~
+~
+Z 0 10976
+0 0
+D3
+It's too dark to see.
+~
+~
+Z 0 10980
+0 0
+S
+#10980
+The Dark Cave~
+The cave walls are rough and cold, with sharp edges of rock jutting out 
+in various places. The air here is chilly, and the darkness all around is 
+almost oppressive. Small rocks litter the cave floor, making travel 
+across the cave difficult.
+~
+0 ADXZ mountain
+D1
+It's too dark to see.
+~
+~
+Z 0 10979
+0 0
+D2
+It's too dark to see.
+~
+~
+Z 0 10975
+0 0
+S
+#10981
+Flying Above the Plains~
+The air above the plains is fresh and clear, though there isn’t too much 
+to see from this vantage point. All that lies below are fields of tall grass, 
+broken only here and there by a small tree or a light patch of shrubbery. To 
+the north a river can be seen, and beyond that a tall forest.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 10987
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 10958
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 10982
+0 0
+D5
+A few patches of flowers and bushes can be seen.
+~
+~
+Z 0 10957
+0 0
+S
+#10982
+Flying Above the Plains~
+The air above the plains is fresh and clear, though there isn’t too much 
+to see from this vantage point. All that lies below are fields of tall grass, 
+broken only here and there by a small tree or a light patch of shrubbery. To 
+the north a river can be seen, and beyond that a tall forest.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 10986
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 10981
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 10956
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 10983
+0 0
+D5
+Tall grasses sway in the breeze below.
+~
+~
+Z 0 10955
+0 0
+S
+#10983
+Flying Above the River~
+The river lies directly below, its strong current pulling it westward 
+towards a beautiful waterfall. To the northwest lies a tree-covered 
+island, the trees too high up to fly over. To the southeast lies a wide, 
+grass-covered plain, a few trees and shrubs dotting it here and there.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 10985
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 10982
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 10959
+0 0
+D3
+Spray rises from a waterfall to the west.
+~
+~
+Z 0 10984
+0 0
+D5
+The river below flows to the west.
+~
+~
+Z 0 10960
+0 0
+S
+#10984
+Flying Above the Waterfall~
+A light mist comes from the falls below, and a light spray leaves small 
+beads of water all over your skin. Directly below, the river narrows and 
+becomes a waterfall, falling dozens of feet before continuing on its 
+course. To the north lies a small island, tall trees blocking the way, while 
+to the east the river continues.
+~
+0 XZ air
+D1
+Nothing but air.
+~
+~
+Z 0 10983
+0 0
+D5
+Spray rises up from the waterfall below.
+~
+~
+Z 0 10961
+0 0
+S
+#10985
+Flying Above the River~
+The river lies directly below, its water rushing to the south. To the 
+west a small island can be seen, its tall trees blocking any passage in 
+that direction, while a heavy forest to the north also prevents any 
+travel in that direction.
+~
+0 XZ air
+D1
+Nothing but air.
+~
+~
+Z 0 10986
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 10983
+0 0
+D5
+The river below flows to the south.
+~
+~
+Z 0 10963
+0 0
+S
+#10986
+Flying Above the River~
+The river lies directly below, its water rushing westward. To the south 
+wide plains can be seen, while to the north tall trees rise up, blocking 
+further passage.
+~
+0 XZ air
+D1
+Nothing but air.
+~
+~
+Z 0 10987
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 10982
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 10985
+0 0
+D5
+The river below flows westward.
+~
+~
+Z 0 10964
+0 0
+S
+#10987
+Flying Above the River~
+The river lies directly below, its water rushing westward. To the south 
+wide plains can be seen, while to the north tall trees rise up, blocking 
+further passage.
+~
+0 XZ air
+D1
+Nothing but air.
+~
+~
+Z 0 10988
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 10981
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 10986
+0 0
+D5
+The river below flows westward.
+~
+~
+Z 0 10965
+0 0
+S
+#10988
+Flying Above the River~
+The river lies directly below, coming out of the mountains to the east 
+to flow westward. To the north tall trees rise up, blocking any further 
+passage, while to the east and south tall mountains rise up to the clouds, 
+blocking the path there.
+~
+0 XZ air
+D3
+Nothing but air.
+~
+~
+Z 0 10987
+0 0
+D5
+The river below flows westward.
+~
+~
+Z 0 10966
+0 0
+S
+#10989
+Through the Pass~
+Tall, forested mountains rise up ahead, impassable except for a small 
+path running between two steep cliffs. The path along the pass is 
+always in shadow, since the tall mountains block out any light from 
+the sun. There is a peaceful feel to the pass, however. Birds can be 
+heard singing, and every now and then a small animal runs across the 
+path. To the south lies a heavy forest, while to the north a man seems 
+to be leaning against the cliff wall.
+~
+0 XZ mountain
+D0
+The pass continues to the north.
+~
+~
+Z 0 10990
+0 0
+D2
+The forest to the south is thick with trees.
+~
+~
+Z 0 10971
+0 0
+S
+#10990
+Through the Pass~
+Steep cliffs stand to either side of the small pass through the 
+mountains. Though there are many trees and shrubs growing along 
+the cliffs, the pass between the mountain is relatively free of 
+vegetation, with only a few bushes standing out of the grass here 
+and there. To the north, ancient ruins are visible, while to the south 
+the pass continues.
+~
+0 XZ mountain
+D0
+Ancient ruins can be seen from here.
+~
+~
+Z 0 10991
+0 0
+D2
+The pass continues.
+~
+~
+Z 0 10989
+0 0
+S
+#10991
+Before the Ruins~
+Before the pass in the mountains stand the ruins of what appears to be an 
+ancient arena. Much of what is left looks ready to crumble at a touch, but 
+it looks to have been a magnificent arena in its day. The stands look to 
+have once been able to seat thousands, and would have provided a perfect 
+view of the combatants. What’s left now however is mostly crumbling or 
+overgrown by the forest beyond.
+~
+0 XZ mountain
+D0
+An ancient arena lies in ruins.
+~
+~
+Z 0 10992
+0 0
+D2
+A pass leads through the mountains.
+~
+~
+Z 0 10990
+0 0
+S
+#10992
+Entrance to the Ruined Arena~
+The ruins here appear to be those of an ancient arena. Though little 
+remains of its former glory, it looks to have been a stunningly 
+beautiful structure in its time. The stands that lie in ruins to either side 
+of the arena once sat thousands of spectators at once, and the pale stone 
+floor is the site of countless battles. A low wall surrounding the stands 
+is still intact for the most part, meant to protect those in the stands from 
+the battles below.
+~
+0 XZ city
+D0
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10997
+0 0
+D1
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10993
+0 0
+D2
+The entrance to the ruins lies to the south.
+~
+~
+Z 0 10991
+0 0
+D3
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10994
+0 0
+S
+#10993
+Among the Crumbling Stands~
+The forest has broken through here and taken over the stands. The pale 
+grey stone is visible here and there, but most of the stone has crumbled 
+and the forest is slowly destroying what remains.
+~
+0 XZ city
+D0
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10998
+0 0
+D3
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10992
+0 0
+S
+#10994
+Among the Crumbling Stands~
+These ancient stands were once able to hold thousands of spectators at 
+one time. The benches are made of stone, but most of them are now 
+collapsed or heavily chipped and ready to crumble at any moment. From 
+this vantage point, however, the center of the arena is clearly visible, 
+giving a great view of what’s happening below.
+~
+0 XZ city
+D0
+~
+~
+Z 0 10995
+0 0
+D1
+~
+~
+Z 0 10992
+0 0
+S
+#10995
+Amidst the Ruins~
+Pale gray stone covers the floor of the arena, though some of the stones 
+have been overturned here and there, revealing dark earth beneath. The 
+arena is quite large, allowing plenty of room for combatants to fight. A 
+few dried blood stains can be seen on some of the stones, probably left 
+by one of the fighters who has recently rediscovered the arena and 
+fought a battle there.
+~
+0 XZ city
+D0
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11003
+0 0
+D1
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10997
+0 0
+D2
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10994
+0 0
+D3
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10996
+0 0
+S
+#10996
+Among the Crumbling Stands~
+There is something oddly nostalgic about walking among these stands. 
+This arena is the remnant of some long-forgotten civilization, and 
+thousands of people once spent their days cheering at these stands for 
+their favorite competitors, all long dead. The few benches that are left 
+intact look ready to crumble at any moment, and the thick forest behind 
+the stands seems to be pushing its way in, slowly covering what’s left 
+of the ruins.
+~
+0 XZ city
+D0
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 11004
+0 0
+D1
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10995
+0 0
+S
+#10997
+Amidst the Ruins~
+Pale gray stone covers the floor of the arena, though some of the stones 
+have been overturned here and there, revealing dark earth beneath. The 
+arena is quite large, allowing plenty of room for combatants to fight. A 
+few dried blood stains can be seen on some of the stones, probably left 
+by one of the fighters who has recently rediscovered the arena and 
+fought a battle there.
+~
+0 XZ city
+D0
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11002
+0 0
+D1
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10998
+0 0
+D2
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10992
+0 0
+D3
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10995
+0 0
+S
+#10998
+Amidst the Ruins~
+Pale gray stone covers the floor of the arena, though some of the stones 
+have been overturned here and there, revealing dark earth beneath. The 
+arena is quite large, allowing plenty of room for combatants to fight. A 
+few dried blood stains can be seen on some of the stones, probably left 
+by one of the fighters who has recently rediscovered the arena and 
+fought a battle there.
+~
+0 XZ city
+D0
+~
+~
+Z 0 11001
+0 0
+D1
+Overgrown stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10999
+0 0
+D2
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10993
+0 0
+D3
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10997
+0 0
+S
+#10999
+Among the Overgrown Stands~
+The forest here has completely overtaken the stands. Trees grow where 
+stone benches once stood, and the stands themselves are barely visible 
+beneath the growth, in most places completely covered by vegetation. 
+Trying to go up into the stands here would be a bad idea, as they are 
+likely to crumble at any such attempt.
+~
+0 XZ forest
+D0
+Overgrown stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 11000
+0 0
+D3
+The overgrown ruins of an ancient arena lie there.
+~
+~
+Z 0 10998
+0 0
+S
+#11000
+Among the Overgrown Stands~
+The stands where spectators once sat and cheered on their favorite 
+combatants are now gone, replaced by a thick forest. Here and there 
+the remains of an pale stone bench are visible among the trees, but 
+that is all that remains of this part of the arena.
+~
+0 XZ forest
+D2
+Overgrown stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10999
+0 0
+D3
+The overgrown ruins of an ancient arena lie there.
+~
+~
+Z 0 11001
+0 0
+S
+#11001
+Amidst the Overgrown Ruins~
+The floor here used to be covered in thick gray stone, but the trees 
+and shrubs from the forest have long since overturned most of them and 
+now this corner is just another part of the forest. The footing here is 
+dangerous, because the remaining stone is uneven as the forest struggles 
+for even more room, and it is just a matter of time before the trees and 
+plants take over this part of the arena completely.
+~
+0 XZ forest
+D0
+The overgrown arena wall lies to the north.
+~
+~
+Z 0 11005
+0 0
+D1
+Overgrown stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 11000
+0 0
+D2
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10998
+0 0
+D3
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11002
+0 0
+S
+#11002
+Amidst the Ruins~
+Pale gray stone covers the floor of the arena, though some of the stones 
+have been overturned here and there, revealing dark earth beneath. The 
+arena is quite large, allowing plenty of room for combatants to fight. A 
+few dried blood stains can be seen on some of the stones, probably left 
+by one of the fighters who has recently rediscovered the arena and 
+fought a battle there.
+~
+0 XZ city
+D0
+The broken arena wall lies to the north.
+~
+~
+Z 0 11006
+0 0
+D1
+The overgrown ruins of an ancient arena lie there.
+~
+~
+Z 0 11001
+0 0
+D2
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10997
+0 0
+D3
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11003
+0 0
+S
+#11003
+Amidst the Ruins~
+Pale gray stone covers the floor of the arena, though some of the stones 
+have been overturned here and there, revealing dark earth beneath. The 
+arena is quite large, allowing plenty of room for combatants to fight. A 
+few dried blood stains can be seen on some of the stones, probably left 
+by one of the fighters who has recently rediscovered the arena and 
+fought a battle there.
+~
+0 XZ city
+D0
+The broken arena wall lies to the north.
+~
+~
+Z 0 11007
+0 0
+D1
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11002
+0 0
+D2
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 10995
+0 0
+D3
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 11004
+0 0
+S
+#11004
+Among the Crumbling Stands~
+The steps leading up to the top stands have crumbled here, making it 
+dangerous to attempt to reach them. This whole part of the stands 
+looks quite unstable, and it’s possible that a wrong step could dislodge 
+some of the crumbling stone and bring half the stands down. The 
+forest around the stands in slowly creeping in, covering the northern 
+corner.
+~
+0 XZ city
+D1
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11003
+0 0
+D2
+Crumbling stands lie where thousands of spectators once cheered.
+~
+~
+Z 0 10996
+0 0
+S
+#11005
+The Overgrown Wall~
+Most of the wall here has crumbled, and what’s left is covered with 
+vines and growth from the forest. The roots of a large tree have made 
+their way under part of the wall, making it lean forward crookedly, 
+looking like it will collapse at any moment. The stands to the east are 
+completely overgrown, the pale stone barely visible beneath the 
+vegetation.
+~
+0 XZ forest
+D2
+The overgrown ruins of an ancient arena lie there.
+~
+~
+Z 0 11001
+0 0
+D3
+The broken wall continues to the west.
+~
+~
+Z 0 11006
+0 0
+S
+#11006
+The Broken Wall~
+Much of the wall here has crumbled, the pale stone lying in a pile on the 
+ground. Some kind of small animal seems to have built a nest beneath 
+the pile, and the forest behind the wall seems to be forcing its way in.
+~
+0 XZ city
+D1
+The broken wall is overgrown to the east.
+~
+~
+Z 0 11005
+0 0
+D2
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11002
+0 0
+D3
+The broken wall continues to the west.
+~
+~
+Z 0 11007
+0 0
+S
+#11007
+The Broken Wall~
+The wall here was once quite tall, but now most of it has crumbled, and 
+little remains of what once stood strong. While it once stood as a barrier 
+separating the arena from what was outside, it can to very little now to 
+stop the forest that is slowly taking it over.
+~
+0 XZ city
+D1
+The broken wall continues to the east.
+~
+~
+Z 0 11006
+0 0
+D2
+The ruins of an ancient arena lie there.
+~
+~
+Z 0 11003
+0 0
+S
+#11008
+At the Bottom of the Falls~
+The sounds coming from the falling water are deafening here. Water falls
+all around, creating large splashes and a heavy mist that makes it difficult
+to see anything more than a few feet away. There are no rocks here, but
+the water crashing down from above threatens to pull anything in its path
+down under the surface.
+~
+0 XZ noswim
+D3
+A wide, clear lake lies there.
+~
+~
+Z 0 11009
+0 0
+S
+#11009
+The Lake~
+The water moves chaotically here, under pressure from the waterfall to 
+the east, and pulled towards the west where another waterfall can be heard. 
+There don’t seem to be any rocks here, but the water to the west seems to 
+be growing wilder and more dangerous.
+~
+0 XZ noswim
+D0
+A wide, clear lake lies there.
+~
+~
+Z 0 11019
+0 0
+D1
+A beautiful waterfall lies there.
+~
+~
+Z 0 11008
+0 0
+D2
+A wide, clear lake lies there.
+~
+~
+Z 0 11012
+0 0
+D3
+A wide, clear lake lies there.
+~
+~
+Z 0 11010
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11027
+0 0
+S
+#11010
+The Lake~
+The water is relatively calm here, though there is still a strong 
+current pulling westward. The water is so clear that fish can be seen 
+swimming beneath the surface, some of them getting bold every now and 
+then and flipping themselves out of the water.
+~
+0 XZ noswim
+D0
+A wide, clear lake lies there.
+~
+~
+Z 0 11020
+0 0
+D1
+A wide, clear lake lies there.
+~
+~
+Z 0 11009
+0 0
+D2
+A wide, clear lake lies there.
+~
+~
+Z 0 11013
+0 0
+D3
+A wide, clear lake lies there.
+~
+~
+Z 0 11011
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11026
+0 0
+S
+#11011
+The Lake~
+The roar of the falls to the east has been replaced by an even louder roar
+coming from a large waterfall to the southwest. A small island of rock
+provides a safe place to rest and take a closer look at the surroundings. 
+From this vantage point it is clear that the waterfall ahead is hundreds of
+feet high, and that no one could survive the long fall to its rocky bottom.
+~
+0 XZ noswim
+D0
+A wide, clear lake lies there.
+~
+~
+Z 0 11021
+0 0
+D1
+A wide, clear lake lies there.
+~
+~
+Z 0 11010
+0 0
+D2
+A roar can be heard coming from the falls there.
+~
+~
+Z 0 11014
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11025
+0 0
+S
+#11012
+The Lake~
+The roar of the waterfall to the north is still quite loud here, and the 
+water swirls chaotically as it is pushed in all directions by the falls. A 
+thick forest lies to the south, the brush blocking any passage in that 
+direction. The water flows towards the west, where the mist and a faint 
+roar announce the presence of another waterfall.
+~
+0 XZ noswim
+D0
+A wide, clear lake lies there.
+~
+~
+Z 0 11009
+0 0
+D3
+A wide, clear lake lies there.
+~
+~
+Z 0 11013
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11028
+0 0
+S
+#11013
+The Lake~
+The water here is flowing westward with a strong force, but this area of the 
+lake is quite shallow and its still possible to land safely on the shore to the
+south, where there is a small clearing amidst the thick brush. To the west a 
+loud roar and a light spray of mist reveal the presence of a large waterfall, 
+which is pulling all of the lakes water towards it.
+~
+0 XZ noswim
+D0
+A wide, clear lake lies there.
+~
+~
+Z 0 11010
+0 0
+D1
+A wide, clear lake lies there.
+~
+~
+Z 0 11012
+0 0
+D2
+A small clearing in the forest to the south allows a place to land.
+~
+~
+Z 0 11015
+0 0
+D3
+A roar can be heard coming from the falls there.
+~
+~
+Z 0 11014
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11029
+0 0
+S
+#11014
+The Lake~
+The roar of the falls ahead block out any other noise, and the strong 
+current pulling the water westward over the falls is almost overpowering. 
+From the sounds of it, this waterfall is much bigger than the one to the
+northeast, and any attempt to go over it would surely be deadly. Thick 
+brush to the south prevents any safe landing, so the best option is to
+head north towards a swampy area or east back towards the first waterfall.
+~
+0 XZ noswim
+D0
+A wide, clear lake lies there.
+~
+~
+Z 0 11011
+0 0
+D1
+A wide, clear lake lies there.
+~
+~
+Z 0 11013
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11030
+0 0
+S
+#11015
+The Lake's Shore~
+The thick brush of the forest here clears a little, allowing some access 
+to the lake to the north. Trees are packed together on every side, but there 
+is a small, manmade path through the trees to the south that allows for 
+passage in that direction. The sounds of rushing water are still audible 
+from here, blending in with the songs of the birds and the small rustles of 
+animals moving through the forest.
+~
+0 XZ forest
+D0
+A clear, beautiful lake lies to the north, its water rushing westward.
+~
+~
+Z 0 11013
+0 0
+D2
+A small path has been cut through the thick brush.
+~
+~
+Z 0 11016
+0 0
+S
+#11016
+A Path Through the Thick Brush~
+A small path has been cut through the brush here, plants and bushes lying 
+trampled along its way. Tall trees press in on either side, making it difficult 
+to deviate from the path and travel deeper into the forest. Birds can be 
+heard singing from the tree tops, and the wind makes the top branches sway 
+gently, giving the area a peaceful feel.
+~
+0 XZ forest
+D0
+To the north lies the shore of the lake.
+~
+~
+Z 0 11015
+0 0
+D1
+The thick forest continues.
+~
+~
+Z 0 11017
+0 0
+S
+#11017
+The Dwindling Path~
+The path here is barely visible, thorny bushes getting in the way, and 
+great roots suddenly rising out of the ground to trip unwary feet. The 
+sound of flowing water can be heard from here, though it is faint. The 
+trees above block out much of the light coming from the sky, so that only 
+a few patches of sky are even visible.
+~
+0 XZ forest
+D1
+The path is barely visible to the east.
+~
+~
+Z 0 11018
+0 0
+D3
+A path has been cut through the brush to the west.
+~
+~
+Z 0 11016
+0 0
+S
+#11018
+Amidst the Thick Brush~
+The path here has almost completely disappeared. Every step forward is 
+through thick brush, some of it covered with sharp thorns. The brush is 
+so thick here that it is pointless to even try to turn back, as the trees and 
+bushes are closing together as soon as they’re passed and creating a 
+barrier to block any progress.
+~
+0 XZ forest
+D1
+The a thick wall of brush lies to the east, obscuring any view of what
+lies beyond.
+~
+~
+Z 0 10951
+0 0
+D3
+Thick brush lies to the west.
+~
+~
+Z 0 11017
+0 0
+S
+#11019
+The Lake~
+The water here swirls around wildly, pulled by a strong westward 
+current and pushed about by the pressure of the waterfall to the south. 
+A steep cliff wall rises to the east, slick with water and impossible to 
+climb. To the north the lake gradually becomes a swamp, making it more 
+difficult to navigate.
+~
+0 XZ noswim
+D0
+The water there is thick and muddy.
+~
+~
+Z 0 11031
+0 0
+D2
+A wide, clear lake lies there.
+~
+~
+Z 0 11009
+0 0
+D3
+A wide, clear lake lies there.
+~
+~
+Z 0 11020
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11022
+0 0
+S
+#11020
+The Lake~
+The water here is more peaceful than the rest of the lake, and is relatively
+calm although there is still a strong current pulling it towards the southwest. 
+To the north the lake lies a soggy swampland, thick with trees and buzzing
+insects.
+~
+0 XZ noswim
+D0
+The water there is thick and muddy.
+~
+~
+Z 0 11032
+0 0
+D1
+A wide, clear lake lies there.
+~
+~
+Z 0 11019
+0 0
+D2
+A wide, clear lake lies there.
+~
+~
+Z 0 11010
+0 0
+D3
+A wide, clear lake lies there.
+~
+~
+Z 0 11021
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11023
+0 0
+S
+#11021
+The Lake~
+The soft roar of another waterfall can be heard coming from the south. 
+To the west thick brush prevents any landing, but it seems that there is
+some somewhat stable ground to the north, where the lake gradually blends 
+into the swampland.
+~
+0 XZ noswim
+D0
+The water there is thick and muddy.
+~
+~
+Z 0 11033
+0 0
+D1
+A wide, clear lake lies there.
+~
+~
+Z 0 11020
+0 0
+D2
+A wide, clear lake lies there.
+~
+~
+Z 0 11011
+0 0
+D4
+Nothing but the open sky.
+~
+~
+Z 0 11024
+0 0
+S
+#11022
+Above the Lake~
+A beautiful lake lies directly below, its waters swirling in every 
+direction as they are pulled along by the current. A high cliff wall rises 
+to the east, blocking any passage in that direction. To the north a swamp 
+is visible, filled with living things. The lake continues to the south and 
+west.
+~
+0 XZ air
+D2
+Nothing but air.
+~
+~
+Z 0 11027
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 11023
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11019
+0 0
+S
+#11023
+Above the Lake~
+A beautiful lake lies directly below, its waters swirling in every direction 
+as they are pulled along by the current. A large swamp lies to the north, full 
+of vegetation which is too thick to allow an further passage except by foot.
+~
+0 XZ air
+D1
+Nothing but air.
+~
+~
+Z 0 11022
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 11026
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 11024
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11020
+0 0
+S
+#11024
+Above the Lake~
+A beautiful lake lies directly below, its waters swirling in every direction 
+as they are pulled along by the current. Thick trees lie to the north and west, 
+blocking further passage from the sky. From this vantage point a large swamp 
+can be seen to the north, and to the south the lake spreads wide.
+~
+0 XZ air
+D1
+Nothing but air.
+~
+~
+Z 0 11023
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 11025
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11021
+0 0
+S
+#11025
+Above the Lake~
+Directly below lie the clear blue waters of the lake, swirling around 
+as the current pulls them westward. The roar of a waterfall can be heard 
+coming from the south, while a swamp lies far to the north.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 11024
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 11026
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 11030
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11011
+0 0
+S
+#11026
+Above the Lake~
+Directly below lie the clear blue waters of the lake, swirling chaotically 
+around as the current pulls them westward. The roar of a waterfall can be 
+heard coming from the south, while a swamp lies far to the north.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 11023
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 11027
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 11029
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 11025
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11010
+0 0
+S
+#11027
+Above the Lake~
+A beautiful waterfall lies to the east, its water clear and cool. Spray 
+rises up from the falls to land all over, making the air moist. Directly 
+below a lake begins, spreading widely in all directions. To the north a 
+swamp is visible, thick with trees.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 11022
+0 0
+D2
+Nothing but air.
+~
+~
+Z 0 11028
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 11026
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11009
+0 0
+S
+#11028
+Above the Lake~
+Directly below lie the clear blue waters of the lake, swirling around as 
+the current pulls them westward. The roar of a waterfall can be heard coming 
+from the north, while to the south thick trees block any further passage.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 11027
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 11029
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11012
+0 0
+S
+#11029
+Above the Lake~
+Directly below lie the clear blue waters of the lake, swirling around as 
+the current pulls them westward. The roar of a waterfall can be heard coming 
+from the east, while to the south a faded path is just barely visible beneath 
+the thick trees.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 11026
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 11028
+0 0
+D3
+Nothing but air.
+~
+~
+Z 0 11030
+0 0
+D5
+A clear, blue lake lies below.
+~
+~
+Z 0 11013
+0 0
+S
+#11030
+Above the Falls~
+A large, beautiful waterfall lies just below, spray rising up from it. 
+It seems to fall hundreds of feet, surely a deadly fall for any unfortunate 
+enough to be caught in it. Sharp and jagged rocks are visible below, the 
+water swirling around them. The lake continues to the north and east.
+~
+0 XZ air
+D0
+Nothing but air.
+~
+~
+Z 0 11025
+0 0
+D1
+Nothing but air.
+~
+~
+Z 0 11029
+0 0
+D5
+The waterfall below falls hundreds of feet to crash into the rocks at its bottom.
+~
+~
+Z 0 11014
+0 0
+S
+#11031
+The Swamp's Edge~
+The current is easier to avoid here, since weeds and cattails rise up 
+to choke the surface of the water, making passage slow but helping to
+resist the pull of the waterfall to the south. To the north lies a large 
+swamp, thick with misshapen trees.
+~
+0 XZ noswim
+D0
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11037
+0 0
+D2
+The lake grows clearer to the south.
+~
+~
+Z 0 11019
+0 0
+D3
+The water there is thick and muddy.
+~
+~
+Z 0 11032
+0 0
+S
+#11032
+The Swamp's Edge~
+The lake here grows shallow, with thick mud visible beneath the surface. 
+The water is brown and dirty here, and weeds that reach up to the surface 
+make navigation slow and tedious. The lake clears up to the south, while
+to the north a large swamp looms.
+~
+0 XZ noswim
+D0
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11036
+0 0
+D1
+The water there is thick and muddy.
+~
+~
+Z 0 11031
+0 0
+D2
+The lake grows clearer to the south.
+~
+~
+Z 0 11020
+0 0
+D3
+The water there is thick and muddy.
+~
+~
+Z 0 11033
+0 0
+S
+#11033
+The Swamp's Edge~
+Small islands of mud covered in weeds begin to rise out of the water.
+Cattails and tall grasses grow along the water’s edge, making passage
+slow and difficult. Though larger islands begin to appear, none of them
+seem stable enough to walk on.
+~
+0 XZ noswim
+D0
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11034
+0 0
+D1
+The water there is thick and muddy.
+~
+~
+Z 0 11032
+0 0
+D2
+The lake grows clearer to the south.
+~
+~
+Z 0 11021
+0 0
+S
+#11034
+The Swamp~
+The ground here is soggy and unstable. Every step forward is uncertain, as
+even what appears to be perfectly stable ground is likely to give way and 
+sink at the slightest pressure. Thick, twisted trees grow thickly all over the
+swamp, their roots often hidden until the last moment, making it even more 
+difficult to maintain a good footing.
+~
+0 XZ forest
+D0
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11040
+0 0
+D1
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11036
+0 0
+D2
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11033
+0 0
+D3
+There is a clearing in the swamp.
+~
+~
+Z 0 11035
+0 0
+S
+#11035
+A Clearing in the Swamp~
+The swamp forms a clearing here, a large, dead tree at its center. 
+Somehow the tree has managed to keep from rotting in the swamp’s wet, 
+humid environment, and it seems to have remained fairly dry. A large 
+hole lies at the base of the trunk, big enough to allow even a storm 
+giant to squeeze through.
+~
+0 XZ forest
+D1
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11034
+0 0
+S
+#11036
+The Swamp~
+The mud here is thick, and every step taken is more difficult than the 
+last, sinking deep into the mud that often covers large holes that are 
+impossible to spot until it is too late. An unpleasant smell comes from the 
+mud, as ifit is filled with rotting plants and corpses. To the north, the 
+trees grow thicker and darker, while to the south the murky water leads back 
+to the lake.
+~
+0 XZ forest
+D0
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11039
+0 0
+D1
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11037
+0 0
+D2
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11032
+0 0
+D3
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11034
+0 0
+S
+#11037
+The Swamp~
+The high cliff wall to the east is obscured here by the thick growth of 
+the swamp. Strange cries come from among the trees, and every now and 
+then there is a flicker of movement among the vegetation. The air is thick 
+and humid, and the smell of rotting vegetation is almost overpowering. 
+The swamp continues to the north, and west, and the lake grows clearer 
+to the south.
+~
+0 XZ forest
+D0
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11038
+0 0
+D2
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11031
+0 0
+D3
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11036
+0 0
+S
+#11038
+The Swamp~
+The trees here are almost too thick to move through. Vividly coloured 
+flowers grow on the ground, adding beauty to the otherwise bleak 
+surroundings. Every now and then a small animal scurries across the
+vegetation, and the flutter of wings can be heard as a bird takes off
+from among the trees. The swamp is simply too treacherous to continue
+to the north and east.
+~
+0 XZ forest
+D2
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11037
+0 0
+D3
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11039
+0 0
+S
+#11039
+The Swamp~
+The trees are thick here, and moving forward is difficult. Large roots 
+cover the ground, some of them hidden under small shrubs and bushes. 
+Every now and then the sharp cry of an animal can be heard, coming from 
+deeper in the swamp. The trees and plants here are green and full of life, 
+and the ground is soggy from a recent rain shower.
+~
+0 XZ forest
+D1
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11038
+0 0
+D2
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11036
+0 0
+D3
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11040
+0 0
+S
+#11040
+The Swamp~
+The ground here is very unstable, almost every step landing in a hole 
+that looked like perfectly solid ground a moment before. There are fewer 
+trees here than in the rest of the swamp, and a large rock nearby looks 
+like a good place to stop and rest for a moment. The trees to the north 
+and west are too thick to allow for any passage.
+~
+0 XZ forest
+D1
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11039
+0 0
+D2
+Thick trees block any view of what lies there.
+~
+~
+Z 0 11034
+0 0
+S
+#11041
+Inside the Hole~
+The hole here is just large enough to squeeze through. The wall of 
+the hole is made from the tree’s great roots, providing some good 
+footing to climb in and out, though the narrowness of the hole lends it 
+a claustrophobic feel. What lies deeper inside the hole is shrouded in 
+complete darkness, barely any light reaching through from above.
+~
+0 DXZ mountain
+D5
+It's difficult to see what lies below in the darkness.
+~
+~
+Z 0 11042
+0 0
+S
+#11042
+Before the Underground Caverns~
+The great roots of the tree above no longer reach this far down into 
+the earth. The hole is still narrow, leaving little room for more than one
+person to pass through at once. The walls are of dry earth, somehow
+escaping the moisture of the swamp above. Every now and then small clumps 
+of dirt fall from the ceiling or come loose from the walls, giving the
+impression that this underground cave isn’t quite stable.
+~
+0 DJXZ mountain
+D4
+Some faint light comes out of the hole above.
+~
+~
+Z 0 11041
+0 0
+D5
+It's too dark to see what lies there.
+~
+~
+Z 0 11043
+0 0
+S
+#11043
+The Underground Caverns~
+The cave here grows wider than the hole above, opening up into a series 
+of caverns. The air is very cold, as if the sun’s heat can’t reach this far 
+deep into the earth. Every now and then, a clump of dirt falls from the wall 
+or roof of the cavern, making the whole place feel unstable.
+~
+0 DXZ mountain
+D1
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11044
+0 0
+D2
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11049
+0 0
+D4
+A faint light comes from above.
+~
+~
+Z 0 11042
+0 0
+S
+#11044
+The Underground Caverns~
+A strange, dim light comes from lichen growing along the walls of the 
+cavern here, which are of the same crumbling dirt to be found elsewhere 
+in the underground caves. The cavern is very cold here, so that every 
+exhaled breath is visible  in the faint light before it dissipates. A narrow 
+tunnel to the west climbs up to a hole far above, from which the faint light 
+from outside can be seen shining through.
+~
+0 DXZ mountain
+D2
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11045
+0 0
+D3
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11043
+0 0
+S
+#11045
+The Underground Caverns~
+A strange, dim light comes from lichen growing along the walls of the 
+cavern here, which are of the same crumbling dirt to be found elsewhere 
+in the underground caves. The cavern is very cold here, so that every 
+exhaled breath is visible  in the faint light before it dissipates.
+~
+0 DXZ mountain
+D0
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11044
+0 0
+D2
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11046
+0 0
+D3
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11049
+0 0
+S
+#11046
+The Underground Caverns~
+The walls of the cavern here are made of dark grey stone, almost black, 
+with streaks of silver glittering along them here and there. Rocks litter 
+the ground here, most of them plain and grey on the outside but with 
+insides that are revealed as a having a myriad of colours when they are 
+split open. The air here is slightly warmer than the rest of the cavern, but 
+still too cool to be perfectly comfortable.
+~
+0 DXZ mountain
+D0
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11045
+0 0
+D2
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11047
+0 0
+D3
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11048
+0 0
+S
+#11047
+The Underground Caverns~
+The walls of the cavern here are made of dark grey stone, almost black, 
+with streaks of silver glittering along them here and there. Rocks litter 
+the ground here, most of them plain and grey on the outside but with 
+insides that are revealed as a having a myriad of colours when they are 
+split open. The air here is slightly warmer than the rest of the cavern, but 
+still too cool to be perfectly comfortable.
+~
+0 DXZ mountain
+D0
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11046
+0 0
+S
+#11048
+The Underground Caverns~
+The walls of the cavern here are made of dark grey stone, almost black, 
+with streaks of silver glittering along them here and there. Rocks litter 
+the ground here, most of them plain and grey on the outside but with 
+insides that are revealed as a having a myriad of colours when they are 
+split open. The air here is slightly warmer than the rest of the cavern, but 
+still too cool to be perfectly comfortable.
+~
+0 DXZ mountain
+D0
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11049
+0 0
+D1
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11046
+0 0
+D3
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11050
+0 0
+S
+#11049
+The Underground Caverns~
+A strange, dim light comes from lichen growing along the walls of the 
+cavern here, which are of the same crumbling dirt to be found elsewhere 
+in the underground caves. The cavern is very cold here, so that every 
+exhaled breath is visible  in the faint light before it dissipates.
+~
+0 DXZ mountain
+D0
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11043
+0 0
+D1
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11045
+0 0
+D2
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11048
+0 0
+S
+#11050
+The Underground Caverns~
+The walls of the cavern here are made of dark grey stone, almost black, 
+with streaks of silver glittering along them here and there. Rocks litter 
+the ground here, most of them plain and grey on the outside but with 
+insides that are revealed as a having a myriad of colours when they are 
+split open. The air here is slightly warmer than the rest of the cavern, but 
+still too cool to be perfectly comfortable.
+~
+0 DXZ mountain
+D1
+It's too dark to see more than a few feet ahead.
+~
+~
+Z 0 11048
+0 0
+S
+#0
+
+#RESETS
+M 0 10990 1 10990 1	* a gladiator (Through the Pass)
+O 0 11035 0 11035	* a hole in the trunk (A Clearing in the Swamp)
+O 0 11040 0 11040	* the large rock (The Swamp)
+O 0 11041 0 11041	* a hole in the trunk (Inside the Hole)
+S
+
+#MOBPROGS
+#10951
+mob echoat $n The tall man looks you over carefully, then nods to himself.
+mob echoaround $n The tall man looks $n over carefully, then nods to himself.
+mob echo '{GSo, have you come here as a combatant, or as an observer?{x'
+~
+#10952
+if sex $n == 1
+mob echo The tall man smiles, then barks out a laugh.
+'{GI thought you’d say that,{x' he says. '{GThe true test of a good fighter is not how well he does when expecting attack, but how well he can handle himself when the circumstances are not to his advantage. Let's see how you do when you're put in a tough situation.{x'
+else
+mob echo The tall man smiles, then barks out a laugh.
+'{GI thought you’d say that,{x' he says. '{GThe true test of a good fighter is not how well she does when expecting attack, but how well she can handle herself when the circumstances are not to her advantage. Let's see how you do when you're put in a tough situation.{x'
+endif
+mob mload 10991
+mob echo The gladiator calls forth a malevolent spirit.
+if rand 80
+mob vforce 10991 cast blind $n
+else
+if rand 70
+mob vforce 10991 cast plague $n
+else
+if rand 65
+mob vforce 10991 cast poison $n
+else
+if rand 60
+mob vforce 10991 cast slow $n
+else
+if rand 50
+mob vforce 10991 cast curse $n
+else
+mob vforce 10991 cast 'dispel magic' $n
+endif
+endif
+endif
+endif
+endif
+mob purge spirit
+mob echo The man says '{GLet’s see how you do now.{x'
+mob echoat $n The man steps aside for a moment, allowing you room to pass.
+mob echoaround $n The man steps aside for a moment, allowing $n room to pass.
+say If you need any help removing these afflictions, simply tell me you need healing.
+mob goto 11000
+mob delay 2
+~
+#10953
+mob echo The man nods and says '{GI see. Perhaps you will learn something useful.{x'
+mob echoat $n The man steps aside for a moment, allowing you room to pass.
+mob echoaround $n The man steps aside for a moment, allowing $n room to pass.
+mob goto 11000
+mob delay 1
+~
+#10954
+mob echoat $n The man looks you over carefully.
+mob echoaround $n The man looks $n over carefully.
+if affected $n blind
+mob affstrip $n blind
+endif
+if affected $n curse
+mob affstrip $n curse
+endif
+if affected $n slow
+mob affstrip $n slow
+endif
+if affected $n poison
+mob affstrip $n poison
+endif
+if affected $n plague
+mob affstrip $n plague
+endif
+tell $n Can't let you run around when you're weak, can I?
+~
+#10955
+mob goto 10990
+mob echo The gladiator resumes his former position, blocking the path.
+~
+#0
+
+#$

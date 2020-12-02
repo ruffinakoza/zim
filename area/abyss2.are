@@ -1,0 +1,6667 @@
+#AREADATA
+Name Shodar Haran~
+Builders alamor~
+VNUMs 25000 25500
+Credits Closed~
+Security 9
+LevelRange 30 50
+ResetMessage A shrill scream erupts from a nearby alley, but the cityfolk pay it no attention.~
+Flags closed noquest~
+End
+
+#MOBILES
+#25000
+skateboard long-nosed nosed dark-elf elf~
+a long-nosed dark-elf~
+A dark-elf with a long nose is here.
+~
+This dark-elf is of medium height, slight build, and has a very long
+nose.  His pointy ears protrude from greasy shoulder-length hair that frames
+a greedy face.  His clothes are mainly rags, and he only wears one shoe.  
+~
+dark-elf~
+ABTYce DFZlmt -1000 0
+95 95 492d95+0 950d11+95 32d2+70 none
+-59 -59 -59 -39
+FHIJKNV ABU 0 0
+stand stand male 4698
+0 0 medium flesh~
+~
+F res B
+M act 25001 drops three dice.~
+M delay 25002 100~
+M grall 25000 100~
+M exall 25004 1~
+M bribe 25003 100000~
+M speech 25012 wait~
+#25001
+adjuster~
+the forge dude~
+the forge dude is here. He says wassup
+~
+THE ADJUSTER
+~
+unique~
+AB DFJZlmt -1000 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M give 25006 ivoryhilt~
+M give 25007 ebonyhilt~
+M give 25008 leatherhilt~
+#25002
+sedan bearer~
+A sedan chair bearer~
+A muscular man is here, bearing a sedan chair.
+~
+The man is fairly tall and well-muscled, he looks used to carrying such
+burdens as people in sedan chairs.  His clothing is not top-notch, but not
+rags either.  
+~
+human~
+AGW DFJPZlmt -1000 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+FIL 0 0 0
+stand stand none 44
+0 0 medium flesh~
+~
+I 92
+#25003
+mist daemon~
+A Mist Daemon~
+A mist daemon stands here, in a cloud of grey mist.
+~
+A large demon like creature hovers abover you, in a cloud of grey mist.
+Its winged form stares down at you in utter hatred.
+~
+arial~
+A 0 -1000 0
+34 0 10d10+1200 339d1+1 4d7+10 none
+-11 -11 -11 5
+0 0 0 0
+stand stand either 151
+0 0 medium flesh~
+~
+#25004
+black slayer~
+a Black Slayer~
+A huge, shadowy figure materializes from the shadows around you.
+~
+The black slayer is a shadowy figure, about 7 feet in height. Garbed in
+a heavey, black cloak, in his right hand, he wields a wicked dagger.
+~
+human~
+ABCF DJP -1000 0
+25 0 5d10+550 249d1+1 2d10+7 none
+-7 -7 -7 6
+ACFHIK A C B
+stand stand male 999
+0 0 medium flesh~
+~
+#25005
+lost soul~
+a Lost Soul~
+A ghostly apparition floats here, staring at you in utter hatred.
+~
+The lost soul is a ghostly apparition, seeking revenge on the living.
+~
+human~
+ACF DJP -1000 0
+20 0 3d9+333 199d1+1 2d8+5 none
+-4 -4 -4 7
+FGJK A C DS
+stand stand female 666
+0 0 medium flesh~
+~
+#25006
+storm giant~
+a Storm Giant~
+A storm giant stands here, angered by your presence.
+~
+This huge creature is approximatly 18 feet tall, He grasps a huge bolt
+of lightning it his right hand.... He doesnt look happy to see you.
+~
+giant~
+ABCF DJP -1000 0
+40 0 15d10+1850 399d1+1 4d8+13 none
+-13 -13 -13 4
+CEIKL AB D CIK
+stand stand male 1304
+0 0 large flesh~
+~
+#25007
+white gold manticore~
+a White Gold Manticore~
+A statuesque manticore stands here, crafted entirely of white gold.
+~
+The statue is beautifully crafted, the whole statue is formed 
+entirely of white gold. Its eyes seem to watch your every move.. 
+they almost appear is if they were alive.
+~
+bear~
+ABC DHJ 0 25007
+22 0 5d10+400 219d1+1 4d4+6 none
+-5 -5 -5 6
+ACHIKL 0 J E
+stand stand male 877
+0 0 medium flesh~
+~
+#25008
+flaming efreet~
+an Efreet~
+A huge flaming figure stands here, with a glint of evil in his eyes.
+~
+The creature is formed entirely of flames. The creature gives off an
+intense heat.
+~
+human~
+ABF Jb -1000 25008
+35 0 10d10+1200 349d1+1 4d7+10 none
+-11 -11 -11 7
+CDEFGHIK AB H LNOS
+stand stand male 1234
+0 0 medium flesh~
+~
+#25009
+hydra~
+the Hydra~
+A huge eight headed hydra is sleeping here
+~
+The huge, scaled creature  has eight heads... each capable of breathing
+a dangerous stream of fire.
+~
+fox~
+ABCF J -1000 0
+36 0 10d10+1400 359d1+1 3d10+11 none
+-12 -12 -12 6
+K AB R LO
+stand stand female 479
+0 0 medium flesh~
+~
+#25010
+kraken~
+the kraken~
+A large squid-like creature erupts from the waters beneath you!
+~
+This large creature is a close relative of the squid but a much larger
+size. its huge tentacles grasp something... though you can not make out
+what the object is.
+~
+water fowl~
+ABF DJ -1000 0
+40 0 15d10+1700 399d1+1 4d8+11 none
+-13 -13 -13 7
+AB R C HI
+stand stand male 1965
+0 0 medium flesh~
+~
+#25011
+treant tree~
+the Treant~
+A large tree-like creature reaches out for you with its many limbs.
+~
+It is a rather large creature resembling a tree. At the base of the trunk
+is a large opening that looks very much like a mouth.
+~
+lizard~
+ABCF Ju -1000 0
+44 0 25d10+2550 439d1+1 8d4+12 none
+-15 -15 -15 4
+CEF AB D CH
+stand stand male 153
+0 0 medium flesh~
+~
+#25012
+githyanki~
+a Githyanki~
+A disgusting creature of etheral nature stands here, its body completely
+wraped in bandages..
+~
+This man sized creature has bandages wrapped all about its body. Its eyes
+glow with a brilliant red fire, in its right hand he grasps a an extremely
+sharp blade of magical nature.
+~
+human~
+ABCGH DJP -1000 25012
+26 0 5d10+600 259d1+1 2d10+7 none
+-7 -7 -7 6
+ADEF 0 LM D
+stand stand male 479
+0 0 medium flesh~
+~
+#25013
+kalas~
+Kalas~
+Kalas, the guardian and knight of the castle stands here preparing himself for
+battle.
+~
+He is a large, muscular man of undead nature. He is clad in rather magical
+looking suit of armor, his sword burning fiercly.
+~
+human~
+ABF Ju -1000 0
+50 0 50d10+4500 499d1+1 5d8+19 none
+-20 -20 -20 3
+ABCDEFGHJKN AB H IJK
+stand stand male 377
+0 0 medium flesh~
+~
+#25014
+death knight~
+the Death knight~
+The death knight stands here, preparing to do you in.
+~
+This creature is the result of a powerful mage animating the dead remains
+of a once mighty warrior. Its eyes are fixed coldly upon you, unsheathing
+its sword, he charges for battle.
+~
+human~
+ABCF Ju -1000 0
+38 0 10d10+1600 379d1+1 4d8+13 none
+-13 -13 -13 5
+BCEGK AB D H
+stand stand male 440
+0 0 medium flesh~
+~
+#25015
+Neo Otyugh~
+the Neo-Otyugh~
+A large, disgusting, vile creature stands here, smelling putrid.
+~
+This creature is covered with slime like substance, many tentacles protrude
+from its disgusting body.
+~
+dog~
+ABCF Ju -1000 25015
+46 0 25d10+3250 459d1+1 6d6+16 none
+-16 -16 -16 4
+J AB KL I
+stand stand male 1166
+0 0 medium flesh~
+~
+#25016
+shadow daemon~
+a Shadow Daemon~
+A shadowy figure stands here, looking you over with greed.
+~
+This creature has almost no form, it looks like some sort of shadow with wings.
+~
+human~
+ACF DJ -1000 0
+28 0 6d12+703 279d1+1 2d12+8 none
+-8 -8 -8 5
+CDHI AB MNO STZ
+stand stand male 1230
+0 0 medium flesh~
+~
+#25017
+gatekeeper gate keeper~
+the Gatekeeper~
+A huge warrior stands here guarding the portal beyond.
+~
+He is a huge man, his strong, muscular body stands about 8 feet tall.
+He guards the portal beyond him angrily.
+~
+human~
+ABFG DFJu -1000 25036
+35 0 10d10+1300 349d1+1 4d7+11 none
+-11 -11 -11 5
+CI AB C D
+stand stand male 424
+0 0 medium flesh~
+~
+#25018
+elemental water prince~
+The Water Prince~
+The prince of water elementals flows here
+~
+He looks like a giant wave about to swoop down upon you.
+~
+water elemental~
+AB FHJTb 0 0
+32 0 10d10+900 319d1+1 6d4+8 none
+-10 -10 -10 5
+AHI 0 JKR 0
+stand stand male 1507
+GW CEFHKP medium flesh~
+~
+#25019
+earth elemental king~
+The Earth King~
+The King of earth elementals stands here.. cower fool!
+~
+It looks vaguely man-shaped.
+~
+earth elemental~
+AB FHJTb 0 0
+32 0 10d10+900 319d1+1 6d4+8 none
+-10 -10 -10 5
+AHI 0 HIJKR 0
+stand stand male 1260
+GW CEFHKP medium flesh~
+~
+#25020
+air elemental lord~
+The Lord of Air~
+A huge tornado is squeezed into this impossibly small space.
+~
+It looks sentinent.
+~
+air elemental~
+AB DJT 0 0
+32 0 10d10+900 319d1+1 6d4+8 none
+-10 -10 -10 5
+AFHI 0 HIJK 0
+stand stand male 390
+GW CEFHKP medium flesh~
+~
+#25021
+fire elemental sultan~
+The Sultan of Fire~
+The Sultan of fire Elementals stands before you, you feel crisp.
+~
+It looks vaguely man-shaped.
+~
+fire elemental~
+AB DJT 0 0
+32 0 10d10+900 319d1+1 6d4+8 none
+-10 -10 -10 5
+AHI 0 B 0
+stand stand male 339
+0 CEFGHIJKPQUVX medium flesh~
+~
+#25022
+king goblin~
+The goblin king~
+The goblin king is here.
+~
+He looks like david bowie.
+~
+goblin~
+A D -351 0
+18 0 3d9+283 179d1+1 2d7+4 none
+-3 -3 -3 7
+0 0 0 0
+stand stand male 940
+0 0 medium flesh~
+~
+#25023
+goblin cannon~
+A goblin cannon~
+A goblin cannon is here, warming up.
+~
+He looks like a tank.
+~
+goblin~
+AB 0 -351 0
+30 0 6d12+853 299d1+1 4d6+8 none
+-9 -9 -9 5
+0 0 0 0
+stand stand male 1481
+0 0 medium flesh~
+~
+#25024
+goblin gatling~
+A gatling goblin~
+A gatling goblin is here!  Duck!
+~
+He looks like a walking gatling gun.
+~
+goblin~
+AB 0 -351 0
+30 0 6d12+853 299d1+1 4d6+8 none
+-9 -9 -9 5
+0 0 0 0
+stand stand male 754
+0 0 medium flesh~
+~
+#25025
+acid blob~
+An acid blob~
+An acid blob is here
+~
+He looks like a big blob of acid
+~
+human~
+AB 0 0 0
+20 0 3d9+333 199d1+1 2d8+5 none
+-4 -4 -4 7
+0 0 0 0
+stand stand either 999
+0 0 medium flesh~
+~
+#25026
+acid blob giant~
+A giant acid blob~
+A gaint acid blob is here
+~
+He looks like a huge blob of acid
+~
+human~
+AB 0 0 0
+50 0 50d10+4500 499d1+1 5d8+19 none
+-20 -20 -20 3
+0 0 0 0
+stand stand either 735
+0 0 medium flesh~
+~
+#25030
+demon vrock~
+A vrock~
+A Vrock stands here
+~
+It is a vulture/human creature. Extremely ugly, and nasty.
+~
+human~
+ACF DFJ -666 25030
+21 0 4d10+360 209d1+1 4d4+5 none
+-5 -5 -5 6
+FI AB C D
+stand stand male 999
+0 0 medium flesh~
+~
+#25031
+demon hezrou~
+A hezrou~
+A demon Hezrou stands here.
+~
+Not unlike A large toad/man
+~
+human~
+ACF DFJ -666 0
+17 0 3d9+258 169d1+1 3d4+4 none
+-3 -3 -3 7
+AKN AB GPS HR
+stand stand male 378
+0 0 medium flesh~
+~
+#25032
+demon glabrezu~
+A glabrezu~
+A demon Glabrezu stands here.
+~
+I forget what this one looks like.
+~
+human~
+ACF DFJ -666 25032
+18 0 3d9+283 179d1+1 2d7+4 none
+-3 -3 -3 7
+J AB 0 0
+stand stand either 490
+0 0 medium flesh~
+~
+#25033
+demon nalfeshnee~
+Nalfeshnee~
+Nalfeshnee stands here
+~
+This one is big and mean looking.
+~
+giant~
+ABCF DFJ -666 25033
+19 0 3d9+308 190d1+1 2d7+5 none
+-4 -4 -4 7
+A AB 0 0
+stand stand either 890
+0 0 medium flesh~
+~
+#25034
+demon marilith~
+Marilith~
+Marilith slithers here
+~
+A woman with 6 arms and a snake's tail
+~
+elf~
+ACF DF -666 25034
+15 0 3d9+208 149d1+1 2d6+3 none
+-2 -2 -2 7
+A AB 0 0
+stand stand female 450
+0 0 medium flesh~
+~
+#25035
+demon balor~
+Balor~
+Balor stands here, surrounded by electrical fire
+~
+He is very large, and looks rather deadly
+~
+dwarf~
+ACF DF -666 0
+20 0 3d9+333 199d1+1 2d8+5 none
+-4 -4 -4 7
+I AB D C
+stand stand male 899
+0 0 medium flesh~
+~
+#25036
+gatekeeper gate keeper~
+the Gatekeeper~
+A huge warrior stands here guarding the portal beyond.
+~
+He is a huge man, his strong, muscular body stands about 8 feet tall.
+He guards the portal beyond him angrily.
+~
+human~
+ABFG DFJu -1000 25017
+35 0 10d10+1300 349d1+1 4d7+11 none
+-11 -11 -11 5
+CDIK AB 0 0
+stand stand male 1481
+0 0 medium flesh~
+~
+#25037
+black slayer~
+a Black Slayer~
+ELIAL SAY HI AND I WILL TRANSFER YOU TO MIDGAARD
+~
+The black slayer is a shadowy figure, about 7 feet in height. Garbed in
+a heavey, black cloak, in his right hand, he wields a wicked dagger.
+~
+human~
+ABCF DJP -1000 0
+25 0 5d10+550 249d1+1 2d10+7 none
+-7 -7 -7 6
+ACFHIK A C B
+stand stand male 999
+0 0 medium flesh~
+~
+F par ABCDEFGHIJK
+M speech 25011 hi~
+#25038
+black slayer~
+a Black Slayer~
+A huge, shadowy figure materializes from the shadows around you.
+~
+The black slayer is a shadowy figure, about 7 feet in height. Garbed in
+a heavey, black cloak, in his right hand, he wields a wicked dagger.
+~
+human~
+ABCF DJP -1000 0
+25 0 5d10+550 249d1+1 2d10+7 none
+0 0 0 0
+ACFHIK A C B
+stand stand male 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#25000
+dice three~
+three dice~
+Three dice are here, covered in symbols.~
+steel~
+~
+treasure C A
+0 0 0 0 0
+1 0 0 P
+E
+symbols~
+Each side has a symbol, there are six in all.  The symbols are as
+follows: a {Cwhite horse{x, a {Wcyan cross{x, a {Wg{wo{Dld co{wi{Wn{x, a
+{rr{Re{rd {Rd{ra{Rg{rg{Re{rr{x, and the colorless grim.  
+~
+G none
+G none
+G none
+G none
+#25001
+pfigliano dagger quivering~
+{MPfigliano's {DDagger {Wof {RQuivering{x~
+It's pfigliano's! Don't touch it!~
+titanium~
+~
+weapon GHNPYZ AN
+dagger 7 12 pierce CDE
+106 1 710785 W
+G none
+G none
+G none
+G none
+#25002
+sleeves sleeve gold coins 1000~
+a pile of coins~
+A pile of gold coins.~
+gold~
+~
+money 0 A
+1000 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#25003
+paperola~
+a slip of paper~
+a slip of paper~
+paper~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#25004
+ivory hilt weaponhilt ivoryhilt~
+an {Wivory {xhilt~
+An ivory hilt to some weapon is here, smooth and pretty.~
+ivory~
+~
+trash JL A
+0 0 0 0 0 0 0
+45 0 5000 P
+G none
+G none
+G none
+G none
+#25005
+ebony hilt weaponhilt ebonyhilt~
+an {Debony{x hilt~
+An {Debony{x hilt of some weapon is here, dark and gleaming.~
+ebony~
+~
+trash CJL A
+0 0 0 0 0 0 0
+45 0 5000 P
+G none
+G none
+G none
+G none
+#25006
+hilt leather weaponhilt leatherhilt~
+a leather hilt~
+A leather-wrapped hilt is here, discarded.~
+leather~
+~
+trash JL A
+0 0 0 0 0 0 0
+45 0 4000 P
+G none
+G none
+G none
+G none
+#25007
+steel swordblade blade weaponblade steelblade~
+a {Wsteel {xswordblade~
+A steel swordblade of regular length lies forgotten here.~
+steel~
+~
+weapon JL A
+longsword 3 18 slash D
+45 0 15598 P
+G none
+G none
+G none
+G none
+#25008
+large steel blade swordblade weaponblade steelbastard~
+a large {Wsteel{x blade~
+A large steel swordblade is stuck in the ground.~
+steel~
+~
+weapon JL A
+bastardsword 1 1 slash DF
+45 0 20383 P
+G none
+G none
+G none
+G none
+#25009
+steel axe-blade blade weaponblade steelaxe~
+a {Wsteel {xaxe-blade~
+A steel axe-blade is lying on the ground here.~
+steel~
+~
+weapon JL A
+axe 3 18 cleave E
+45 0 30392 P
+G none
+G none
+G none
+G none
+#25010
+shadow-wrought wrought swordblade blade weaponblade shadowblade~
+a {Dshadow{W-wrought{x swordblade~
+A sword blade forged of shadows is here.~
+unknown~
+shadow~
+weapon CEJLY A
+longsword 3 18 thrust CD
+45 10 31880 P
+G none
+G none
+G none
+G none
+#25011
+shadow-wrought wrought large blade weaponblade shadowbastard~
+a {Dshadow{W-wrought {xlarge blade~
+A bastardsword blade forged of shadows is here.~
+unknown~
+shadow~
+weapon CEJLY A
+bastardsword 1 1 slice CDF
+45 10 38847 P
+G none
+G none
+G none
+G none
+#25012
+shadow-wrought wrought axe-blade blade weaponblade shadowaxe~
+a {Dshadow{W-wrought{x axe-blade~
+An axe blade forged of shadows is here.~
+unknown~
+shadow~
+weapon CEJLY A
+axe 3 18 cleave CE
+45 10 629157 P
+G none
+G none
+G none
+G none
+#25013
+smoldering swordblade blade weaponblade smoldblade~
+a {rsmoldering {xswordblade~
+A sword blade is here, smoldering softly.~
+fire~
+~
+weapon AEJL A
+longsword 3 18 flame AD
+45 10 636000 P
+G none
+G none
+G none
+G none
+#25014
+smoldering large blade weaponblade smoldbastard~
+a {rsmoldering {xlarge blade~
+A large swordblade is here, smoldering softly.~
+steel~
+~
+weapon AEJL A
+bastardsword 1 1 flame ADF
+45 10 757196 P
+G none
+G none
+G none
+G none
+#25015
+smoldering axe-blade blade weaponblade smoldaxe~
+a {rsmoldering {xaxe-blade~
+An axe blade lies here, smoldering softly.~
+fire~
+~
+weapon AEJL A
+axe 3 18 flame AE
+45 10 636340 P
+G none
+G none
+G none
+G none
+#25016
+ivory hilted longsword~
+An {Wivory{x hilted longsword~
+A nicely forged longsword is here, with an ivory hilt.~
+steel~
+~
+weapon JL AN
+longsword 3 18 slash D
+45 10 74240 P
+A
+19 3
+A
+18 3
+A
+17 -25
+G none
+G none
+G none
+G none
+#25017
+ivory hafted axe~
+An {Wivory {xhafted axe~
+A nicely forged axe is here, with an ivory haft.~
+steel~
+~
+weapon JL AN
+axe 3 18 cleave D
+45 10 73503 P
+A
+19 3
+A
+18 3
+A
+17 -25
+G none
+G none
+G none
+G none
+#25018
+ivory hilted bastardsword~
+An {Wivory{x hilted bastardsword~
+A nicely forged bastardsword is here, with an ivory hilt.~
+steel~
+~
+weapon JL AN
+bastardsword 1 1 slash DF
+45 10 92477 P
+A
+19 3
+A
+18 3
+A
+17 -25
+G none
+G none
+G none
+G none
+#25019
+ebony hilted longsword~
+An {Debony{x hilted longsword~
+A nicely forged longsword is here, with an ebony hilt.~
+steel~
+~
+weapon CJL AN
+longsword 3 18 slash D
+45 10 78050 P
+A
+19 3
+A
+18 3
+A
+13 25
+G none
+G none
+G none
+G none
+#25020
+ebony hilted bastardsword~
+An {Debony{x hilted bastardsword~
+A nicely forged bastardsword is here, with an ebony hilt.~
+steel~
+~
+weapon CJL AN
+bastardsword 1 1 slash DF
+45 10 97040 P
+A
+19 3
+A
+18 3
+A
+13 25
+G none
+G none
+G none
+G none
+#25021
+ebony hafted axe~
+An {Debony{x hafted axe~
+A nicely forged axe is here, with an ebony haft.~
+steel~
+~
+weapon CJL AN
+axe 3 18 cleave E
+45 10 83486 P
+A
+19 3
+A
+18 3
+A
+13 25
+G none
+G none
+G none
+G none
+#25022
+leather-wrapped wrapped hilt longsword~
+A longsword with a leather-wrapped hilt~
+A nicely forged longsword is here, with a leather wrapped hilt.~
+steel~
+~
+weapon JL AN
+longsword 3 18 slash D
+45 10 82352 P
+A
+19 3
+A
+18 3
+A
+14 50
+G none
+G none
+G none
+G none
+#25023
+bastardsword leather-wrapped wrapped hilt~
+A bastardsword with a leather-wrapped hilt~
+A nicely forged bastardsword is here, with a leather wrapped hilt.~
+steel~
+~
+weapon JL AN
+bastardsword 1 1 slash DF
+45 10 108468 P
+A
+19 3
+A
+18 3
+A
+14 50
+G none
+G none
+G none
+G none
+#25024
+axe leather-wrapped wrapped haft~
+An axe with a leather-wrapped haft~
+A nicely forged axe is here, with a leather wrapped haft.~
+steel~
+~
+weapon JL AN
+lance 3 19 cleave E
+45 10 44158 P
+G none
+G none
+G none
+G none
+#25025
+ivory hilted smoldering longsword~
+An {Wivory {xhilted {rsmoldering{x longsword~
+A smoldering longsword is here, with an ivory hilt.~
+steel~
+~
+weapon AEJL AN
+longsword 3 18 flame AD
+45 10 787779 P
+A
+19 4
+A
+18 4
+A
+17 -25
+G none
+G none
+G none
+G none
+#25026
+ivory hilted smoldering bastardsword~
+An {Wivory{x hilted {rsmoldering{x bastardsword~
+A smoldering bastardsword is here, with an ivory hilt.~
+fire~
+~
+weapon AEJL AN
+bastardsword 1 1 flame ADF
+45 10 848434 P
+A
+19 4
+A
+18 4
+A
+17 -25
+G none
+G none
+G none
+G none
+#25027
+axe smoldering ivory hafted~
+An {Wivory{x hafted {rsmoldering{x axe~
+A smoldering axe is here, with an ivory hilt.~
+fire~
+~
+weapon AEJL AN
+axe 3 18 flame AD
+45 10 629437 P
+A
+19 4
+A
+18 4
+A
+17 -25
+G none
+G none
+G none
+G none
+#25028
+ebony hilted smoldering longsword~
+An {Debony{x hilted {rsmoldering{x longsword~
+A smoldering longsword is here, with an ebony hilt.~
+fire~
+~
+weapon AEJL AN
+longsword 3 18 flame AD
+45 10 788880 P
+A
+19 4
+A
+18 4
+A
+13 25
+G none
+G none
+G none
+G none
+#25029
+ebony hilted smoldering bastardsword~
+An {Debony{x hilted {rsmoldering{x bastardsword~
+A smoldering bastardsword is here, with an ebony hilt.~
+fire~
+~
+weapon AEJL AN
+bastardsword 1 1 flame ADF
+45 10 960861 P
+A
+19 4
+A
+18 4
+A
+13 25
+G none
+G none
+G none
+G none
+#25030
+smoldering axe ebony hafted~
+An {Debony{x hafted{r smoldering{x axe~
+A smoldering axe is here, with an ebony haft.~
+fire~
+~
+weapon AEJL AN
+axe 3 18 flame AE
+45 10 707960 P
+A
+19 4
+A
+18 4
+A
+13 25
+G none
+G none
+G none
+G none
+#25031
+leather-wrapped wrapped longsword smoldering~
+A {rsmoldering{x longsword with a leather-wrapped hilt~
+A smoldering longsword is here, with a leather wrapped hilt.~
+fire~
+~
+weapon AEJ AN
+longsword 3 18 flame AD
+45 10 743584 P
+A
+19 4
+A
+18 4
+A
+14 50
+G none
+G none
+G none
+G none
+#25032
+leather-wrapped hilt smoldering bastardsword~
+A {rsmoldering{x bastardsword with a leather-wrapped hilt~
+A smoldering bastardsword is here, with a leather-wrapped hilt.~
+fire~
+~
+weapon AEJL AN
+bastardsword 1 1 flame ADF
+45 10 893963 P
+A
+19 4
+A
+18 4
+A
+14 50
+G none
+G none
+G none
+G none
+#25033
+leather-wrapped smoldering axe hafted~
+A {rsmoldering{x axe with a leather-wrapped haft~
+A smoldering axe is here, with a leather wrapped haft.~
+fire~
+~
+weapon AEJL AN
+axe 3 18 flame AE
+45 10 753200 P
+A
+19 4
+A
+18 4
+A
+14 50
+G none
+G none
+G none
+G none
+#25034
+ivory hilted shadow-wrought longsword~
+An {Wivory{x hilted {Dshadow-wrought{x sword~
+A sword forged of shadows with an ivory hilt is here.~
+titanium~
+~
+weapon CEJLY AN
+longsword 3 18 wrath CD
+45 10 123324 P
+A
+19 4
+A
+12 20
+A
+13 20
+A
+17 -25
+G none
+G none
+G none
+G none
+#25035
+bastardsword shadow-wrought ivory hilted~
+An {Wivory{x hilted {Dshadow-wrought{x bastardsword~
+A shadow-wrought bastardsword with an ivory hilt is here.~
+titanium~
+~
+weapon CEJL AN
+bastardsword 1 1 wrath CDF
+45 10 151021 P
+A
+19 4
+A
+12 20
+A
+13 20
+A
+17 -25
+G none
+G none
+G none
+G none
+#25036
+axe shadow-wrought ivory hafted~
+An {Wivory{x hafted {Dshadow-wrought{x axe~
+A shadow-wrought axe with an ivory haft is here.~
+titanium~
+~
+weapon CEJL AN
+axe 3 18 wrath CD
+45 10 114167 P
+A
+12 20
+A
+19 4
+A
+17 -25
+A
+13 20
+G none
+G none
+G none
+G none
+#25037
+longsword shadow-wrought ebony hilted~
+An {Debony{x hilted {Dshadow-wrought{x longsword~
+A shadow-wrought longsword with an ebony hilt is here.~
+titanium~
+~
+weapon CEJL AN
+longsword 3 18 wrath CD
+45 10 120791 P
+A
+13 25
+A
+19 4
+A
+12 20
+A
+13 20
+G none
+G none
+G none
+G none
+#25038
+bastardsword shadow-wrought ebony hilted~
+An {Debony{x hilted {Dshadow-wrought{x bastardsword~
+A shadow-wrought bastardsword with an ebony hilt is here.~
+titanium~
+~
+weapon CEJL AN
+bastardsword 1 1 wrath CDF
+45 10 149894 P
+A
+19 4
+A
+12 20
+A
+13 20
+A
+13 25
+G none
+G none
+G none
+G none
+#25039
+axe shadow-wrought ebony hafted~
+An {Debony{x hafted {Dshadow-wrought{x axe~
+A shadow-wrought axe with an ebony hilt is here.~
+titanium~
+~
+weapon CEJL AN
+axe 3 18 wrath CE
+45 10 738221 P
+A
+12 20
+A
+19 4
+A
+13 20
+A
+13 25
+G none
+G none
+G none
+G none
+#25040
+longsword shadow-wrought leather-wrapped hilt~
+A {Dshadow-wrought{x longsword with a leather-wrapped hilt~
+A shadow-wrought longsword with a leather-wrapped hilt is here.~
+titanium~
+~
+weapon CEJ AN
+longsword 3 18 wrath CD
+45 10 131933 P
+A
+12 20
+A
+13 20
+A
+19 4
+A
+14 50
+G none
+G none
+G none
+G none
+#25041
+bastardsword shadow-wrought leather-wrapped hilt~
+A {Dshadow-wrought{x bastardsword with a leather-wrapped hilt~
+A shadow-wrought bastardsword with a leather-wrapped hilt is here.~
+titanium~
+~
+weapon CEJL AN
+bastardsword 1 1 wrath CDF
+45 10 133109 P
+A
+19 4
+A
+12 20
+A
+14 50
+A
+13 20
+G none
+G none
+G none
+G none
+#25042
+axe shadow-wrought leather-wrapped haft~
+A {Dshadow-wrought{x axe with a leather-wrapped haft~
+A shadow-wrought{x axe with a leather-wrapped haft is here.~
+titanium~
+~
+weapon CEJL AN
+axe 3 18 wrath CE
+45 10 771820 P
+A
+19 4
+A
+12 20
+A
+14 50
+A
+13 20
+G none
+G none
+G none
+G none
+#25043
+elegant silver-etched etched bastardsword~
+A {RFl{ra{ym{Ye{x-ve{win{De{Wd {wSilve{Wr{D Bastardsword{x~
+A sedan chair~
+felt~
+~
+weapon CGJMRYZ AN
+bastardsword 4 39 slash ADF
+107 108 4046265 P
+A
+13 100
+A
+19 10
+A
+18 10
+A
+8 20
+G none
+G none
+G none
+G none
+#25050
+death's lure deathlure~
+Death's Lure~
+Death's lure is here! Pick it up!~
+titanium~
+~
+wand AB AO
+91 100 100 'web'
+107 108 111 P
+G none
+G none
+G none
+G none
+#25051
+statue shodar grand haran~
+The grand statue of Shodar Haran~
+~
+stone~
+~
+portal 0 A
+0 0 A 25328 0
+1 0 0 G
+E
+statue shodar haran grand~
+The grand statue of Shodar Haran is timeless.  It shows a mighty
+dark-elven warrior brandishing the fabled {WSword of {DShodar{x, holding it
+tightly and pointing its keen edge toward the sky.  Many legends have been
+told about this statue, yet none are sure of its true origin or story.  
+~
+G none
+G none
+G none
+G none
+#25052
+runed key~
+a Runed Key~
+A small rune covered key lies here in the dirt.~
+stone~
+~
+key 0 AO
+0 0 0 0 0 0 0
+1 0 0 G
+E
+runed key~
+You see nothing special.
+~
+G none
+G none
+G none
+G none
+#25053
+runed key~
+a Runed Key~
+A small runed key lies here in the dirt.~
+stone~
+~
+key 0 AO
+0 0 0 0 0 0 0
+1 0 0 G
+E
+runed key~
+You see nothing special.
+~
+G none
+G none
+G none
+G none
+#25054
+runed key~
+a Runed Key~
+A rune covered key lies here in the dirt.~
+stone~
+~
+key 0 AO
+0 0 0 0 0 0 0
+1 0 0 G
+E
+runed key~
+You see nothing special.
+~
+G none
+G none
+G none
+G none
+#25056
+crystal key~
+a Crystal Key~
+A crystal key lies here in the dirt.~
+crystal~
+~
+key I AO
+0 0 0 0 0 0 0
+1 1 0 G
+E
+crystal key~
+You see nothing special.
+~
+G none
+G none
+G none
+G none
+#25057
+silvery key~
+a silvery key~
+A silvery key lies here in the dirt.~
+silver~
+~
+key I AO
+0 0 0 0 0 0 0
+1 0 0 G
+E
+silvery key~
+You see nothing special.
+~
+G none
+G none
+G none
+G none
+#25058
+emerald key~
+an emerald key~
+An emerald key lies here in the dirt.~
+granite~
+~
+key 0 AO
+0 0 0 0 0 0 0
+1 0 0 G
+E
+emerald key~
+You see nothing special.
+~
+G none
+G none
+G none
+G none
+#25059
+diamond key~
+a diamond key~
+A diamond key lies here in the dirt.~
+diamond~
+~
+key 0 AO
+0 0 0 0 0 0 0
+1 0 0 G
+G none
+G none
+G none
+G none
+#25060
+breast plate~
+The Silver Breast Plate~
+A silver breast plate lies here in the dirt~
+silver~
+~
+armor GJL AD
+16 17 16 3 'none' 0
+48 150 34578 G
+A
+17 -20
+G none
+G none
+G none
+G none
+#25061
+helm~
+the Silver Helm~
+A strange, silver helm lies here.~
+silver~
+~
+armor GJL AE
+17 17 16 12 'none' 0
+48 280 25612 G
+A
+17 -25
+G none
+G none
+G none
+G none
+#25062
+pair boot boots~
+a Pair of Runed Covered Boots~
+A pair of runed covered boots stands neatly in the corner~
+leather~
+~
+armor GLO AG
+12 12 12 2 'none' 0
+27 120 19560 G
+G none
+G none
+G none
+G none
+#25080
+skiff~
+a wooden skiff~
+A rotting wooden skiff lies here, covered in mud.~
+wood~
+~
+boat 0 A
+0 0 0 0 0 0 0
+1 857 30544 B
+G none
+G none
+G none
+G none
+#25081
+ring hero heroism~
+the Ring of Real Heroism~
+An enormous, RING lies here, filling the room with its power.~
+energy~
+~
+jewelry AGIOY AB
+CD CD CD AD A CD CD
+51 300 100000 G
+G none
+G none
+G none
+G none
+#25082
+mask race~
+The mask of race-changiness!~
+THE MASK~
+steel~
+~
+parchment AGIOY AE
+0 0 0 0 0 0 0
+107 108 111 G
+A
+28 5
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#25117
+The South Gate of the {DShodar Palace{x~
+~
+0 0 city
+D0
+~
+~
+ABCFGZ 0 25118
+0 0
+D1
+~
+~
+ABZ 0 25161
+0 0
+D2
+~
+~
+Z 0 25263
+0 0
+S
+#25118
+The Foyer of the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25123
+0 0
+D2
+~
+~
+ABCFGZ 0 25117
+0 0
+D4
+~
+~
+Z 0 25119
+0 0
+S
+#25119
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25120
+0 0
+D5
+~
+~
+Z 0 25118
+0 0
+S
+#25120
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25121
+0 0
+D1
+~
+~
+ABCFGZ 0 25165
+0 0
+D2
+~
+~
+Z 0 25119
+0 0
+D3
+~
+~
+ABCFGZ 0 25163
+0 0
+S
+#25121
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25122
+0 0
+D1
+~
+~
+ABCFGZ 0 25169
+0 0
+D2
+~
+~
+Z 0 25120
+0 0
+D3
+~
+~
+ABCFGZ 0 25167
+0 0
+S
+#25122
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D1
+~
+~
+ABCFGZ 0 25173
+0 0
+D2
+~
+~
+Z 0 25121
+0 0
+D3
+~
+~
+ABCFGZ 0 25171
+0 0
+S
+#25123
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25124
+0 0
+D2
+~
+~
+Z 0 25118
+0 0
+D3
+~
+~
+Z 0 25146
+0 0
+S
+#25124
+An Large Intersection~
+~
+0 D inside
+D0
+~
+~
+Z 0 25125
+0 0
+D1
+~
+~
+Z 0 25134
+0 0
+D2
+~
+~
+Z 0 25123
+0 0
+D3
+~
+~
+Z 0 25137
+0 0
+S
+#25125
+A Hallway in the {DShodar {WPalace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25126
+0 0
+D1
+~
+~
+Z 0 25133
+0 0
+D2
+~
+~
+Z 0 25124
+0 0
+S
+#25126
+A Hallway in the {DShodar {WPalace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25127
+0 0
+D1
+~
+~
+Z 0 25132
+0 0
+D2
+~
+~
+Z 0 25125
+0 0
+S
+#25127
+A Hallway in the {DShodar {WPalace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25128
+0 0
+D2
+~
+~
+Z 0 25126
+0 0
+S
+#25128
+The Throne Room of the {DShodar Palace{x~
+~
+0 D inside
+D1
+~
+~
+ABZ 0 25129
+0 0
+D2
+~
+~
+Z 0 25127
+0 0
+S
+#25129
+The King's Chambers~
+~
+0 D inside
+D1
+~
+~
+Z 0 25130
+0 0
+D2
+~
+~
+Z 0 25131
+0 0
+D3
+~
+~
+ABZ 0 25128
+0 0
+S
+#25130
+The King's Servant's Chambers~
+~
+0 D inside
+D3
+~
+~
+Z 0 25129
+0 0
+S
+#25131
+The King's Bedchamber~
+~
+0 D inside
+D0
+~
+~
+Z 0 25129
+0 0
+S
+#25132
+The Palace Dining Room~
+~
+0 D inside
+D2
+~
+~
+Z 0 25133
+0 0
+D3
+~
+~
+Z 0 25126
+0 0
+S
+#25133
+The Palace Dining Room~
+~
+0 D inside
+D0
+~
+~
+Z 0 25132
+0 0
+D3
+~
+~
+Z 0 25125
+0 0
+S
+#25134
+The Palace Stables~
+~
+0 D inside
+D1
+~
+~
+Z 0 25136
+0 0
+D3
+~
+~
+Z 0 25124
+0 0
+D4
+~
+~
+Z 0 25135
+0 0
+S
+#25135
+The Palace's Hayloft~
+~
+0 D inside
+D5
+~
+~
+Z 0 25134
+0 0
+S
+#25136
+A Damp Alley~
+~
+0 A city
+D3
+~
+~
+Z 0 25134
+0 0
+S
+#25137
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25138
+0 0
+D1
+~
+~
+Z 0 25124
+0 0
+D3
+~
+~
+Z 0 25143
+0 0
+S
+#25138
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25139
+0 0
+D2
+~
+~
+Z 0 25137
+0 0
+S
+#25139
+A Hallway in the {DShodar Palace{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 25140
+0 0
+D2
+~
+~
+Z 0 25138
+0 0
+S
+#25140
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25141
+0 0
+D2
+~
+~
+Z 0 25139
+0 0
+S
+#25141
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25142
+0 0
+D2
+~
+~
+Z 0 25140
+0 0
+S
+#25142
+The King's Secret Meeting Room~
+~
+0 D inside
+D2
+~
+~
+Z 0 25141
+0 0
+S
+#25143
+A Hallway in the {DShodar Palace{x~
+~
+0 D inside
+D0
+~
+~
+Z 0 25152
+0 0
+D1
+~
+~
+Z 0 25137
+0 0
+D2
+~
+~
+Z 0 25145
+0 0
+D3
+~
+~
+ABCFGZ 0 25144
+0 0
+S
+#25144
+The West Gate of the {DShodar Palace{x~
+~
+0 D inside
+D1
+~
+~
+ABCFGZ 0 25143
+0 0
+D3
+~
+~
+Z 0 25260
+0 0
+S
+#25145
+The {DShodar Palace {WCourtyard{x~
+~
+0 0 field
+D1
+~
+~
+Z 0 25146
+0 0
+D2
+~
+~
+Z 0 25149
+0 0
+S
+#25146
+The {DShodar Palace {WCourtyard{x~
+~
+0 0 field
+D2
+~
+~
+Z 0 25147
+0 0
+D3
+~
+~
+Z 0 25145
+0 0
+S
+#25147
+The {DShodar Palace {WCourtyard{x~
+~
+0 0 field
+D0
+~
+~
+Z 0 25146
+0 0
+D2
+~
+~
+Z 0 25148
+0 0
+D3
+~
+~
+Z 0 25149
+0 0
+S
+#25148
+The {DShodar Palace {WCourtyard{x~
+~
+0 0 field
+D0
+~
+~
+Z 0 25147
+0 0
+D3
+~
+~
+Z 0 25150
+0 0
+S
+#25149
+The {DShodar Palace {WCourtyard{x~
+~
+0 0 field
+D0
+~
+~
+Z 0 25145
+0 0
+D1
+~
+~
+Z 0 25147
+0 0
+D2
+~
+~
+Z 0 25150
+0 0
+S
+#25150
+The {DShodar Palace{W Courtyard{x~
+~
+0 0 field
+D0
+~
+~
+Z 0 25149
+0 0
+D1
+~
+~
+Z 0 25148
+0 0
+S
+#25152
+The Servant's Hallway~
+~
+0 D inside
+D0
+~
+~
+Z 0 25153
+0 0
+D1
+~
+~
+Z 0 25156
+0 0
+D2
+~
+~
+Z 0 25143
+0 0
+D3
+~
+~
+Z 0 25155
+0 0
+S
+#25153
+The Servant's Hallway~
+~
+0 D inside
+D0
+~
+~
+Z 0 25154
+0 0
+D1
+~
+~
+Z 0 25158
+0 0
+D2
+~
+~
+Z 0 25152
+0 0
+D3
+~
+~
+Z 0 25157
+0 0
+S
+#25154
+The Servant's Hallway~
+~
+0 D inside
+D1
+~
+~
+Z 0 25160
+0 0
+D2
+~
+~
+Z 0 25153
+0 0
+D3
+~
+~
+Z 0 25159
+0 0
+S
+#25155
+A Servant's Room~
+~
+0 D inside
+D1
+~
+~
+Z 0 25152
+0 0
+S
+#25156
+A Servant's Room~
+~
+0 D inside
+D3
+~
+~
+Z 0 25152
+0 0
+S
+#25157
+A Servant's Room~
+~
+0 D inside
+D1
+~
+~
+Z 0 25153
+0 0
+S
+#25158
+A Servant's Room~
+~
+0 D inside
+D3
+~
+~
+Z 0 25153
+0 0
+S
+#25159
+A Servant's Room~
+~
+0 D inside
+D1
+~
+~
+Z 0 25154
+0 0
+S
+#25160
+A Servant's Room~
+~
+0 D inside
+D3
+~
+~
+Z 0 25154
+0 0
+S
+#25161
+The Kitchen~
+~
+0 D inside
+D1
+~
+~
+Z 0 25162
+0 0
+D3
+~
+~
+ABZ 0 25117
+0 0
+S
+#25162
+The Storeroom~
+~
+0 D inside
+D3
+~
+~
+Z 0 25161
+0 0
+S
+#25163
+A Guest's Sitting Room~
+~
+0 D inside
+D1
+~
+~
+ABCFGZ 0 25120
+0 0
+D3
+~
+~
+Z 0 25164
+0 0
+S
+#25164
+A Guest's Bedchamber~
+~
+0 D inside
+D1
+~
+~
+Z 0 25163
+0 0
+S
+#25165
+A Guest's Sitting Room~
+~
+0 D inside
+D1
+~
+~
+Z 0 25166
+0 0
+D3
+~
+~
+ABCFGZ 0 25120
+0 0
+S
+#25166
+A Guest's Bedchamber~
+~
+0 D inside
+D3
+~
+~
+Z 0 25165
+0 0
+S
+#25167
+A Guest's Sitting Room~
+~
+0 D inside
+D1
+~
+~
+ABCFGZ 0 25121
+0 0
+D3
+~
+~
+Z 0 25168
+0 0
+S
+#25168
+A Guest's Bechamber~
+~
+0 D inside
+D1
+~
+~
+Z 0 25167
+0 0
+S
+#25169
+A Guest's Sitting Room~
+~
+0 D inside
+D1
+~
+~
+Z 0 25170
+0 0
+D3
+~
+~
+ABCFGZ 0 25121
+0 0
+S
+#25170
+A Guest's Bedchamber~
+~
+0 D inside
+D3
+~
+~
+Z 0 25169
+0 0
+S
+#25171
+A Guest's Sitting Room~
+~
+0 D inside
+D1
+~
+~
+ABCFGZ 0 25122
+0 0
+D3
+~
+~
+Z 0 25172
+0 0
+S
+#25172
+A Guest's Bedchamber~
+~
+0 D inside
+D1
+~
+~
+Z 0 25171
+0 0
+S
+#25173
+A Guest's Sitting Room~
+~
+0 D inside
+D1
+~
+~
+Z 0 25174
+0 0
+D3
+~
+~
+ABCFGZ 0 25122
+0 0
+S
+#25174
+A Guest's Bedchamber~
+~
+0 D inside
+D3
+~
+~
+Z 0 25173
+0 0
+S
+#25175
+The South Gate of {DShodar Haran{x~
+The south gate of shodar haran is made up of two enormous wooden doors
+that are easily twice as tall as any storm giant.  The doors are covered in
+thick iron and outward-facing spikes, and is covered in many dents from
+previous siege attempts.  Inside the gate you can see the center street of
+the town, a wide, dark road full of people and activity.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25176
+0 0
+D1
+~
+~
+Z 0 25221
+0 0
+D3
+~
+~
+Z 0 25220
+0 0
+S
+#25176
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25177
+0 0
+D1
+~
+~
+Z 0 25223
+0 0
+D2
+~
+~
+Z 0 25175
+0 0
+D3
+~
+~
+Z 0 25222
+0 0
+S
+#25177
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25178
+0 0
+D1
+~
+~
+Z 0 25225
+0 0
+D2
+~
+~
+Z 0 25176
+0 0
+D3
+~
+~
+Z 0 25224
+0 0
+S
+#25178
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25179
+0 0
+D1
+~
+~
+Z 0 25276
+0 0
+D2
+~
+~
+Z 0 25177
+0 0
+D3
+~
+~
+Z 0 25226
+0 0
+S
+#25179
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25180
+0 0
+D2
+~
+~
+Z 0 25178
+0 0
+D3
+~
+~
+Z 0 25248
+0 0
+S
+#25180
+The South Gate of the {DShodar {WWall{x~
+The gate of the shodar wall is very large, about half as high and wide as
+the main gates.  The wall serves to separate the slums of the city and the
+rest, to keep the slums' wishwash inhabitants from fouling the rest of the
+city.  Every once in a while one of them tries to enter the inner city, but
+the are restrained by the King's Guard.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25181
+0 0
+D2
+~
+~
+Z 0 25179
+0 0
+S
+#25181
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25182
+0 0
+D2
+~
+~
+Z 0 25180
+0 0
+S
+#25182
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25183
+0 0
+D2
+~
+~
+Z 0 25181
+0 0
+S
+#25183
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25184
+0 0
+D2
+~
+~
+Z 0 25182
+0 0
+S
+#25184
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25187
+0 0
+D1
+~
+~
+Z 0 25186
+0 0
+D2
+~
+~
+Z 0 25183
+0 0
+D3
+~
+~
+Z 0 25185
+0 0
+S
+#25185
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25188
+0 0
+D1
+~
+~
+Z 0 25184
+0 0
+S
+#25186
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25189
+0 0
+D3
+~
+~
+Z 0 25184
+0 0
+S
+#25187
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25190
+0 0
+D1
+~
+~
+Z 0 25189
+0 0
+D2
+~
+~
+Z 0 25184
+0 0
+D3
+~
+~
+Z 0 25188
+0 0
+S
+#25188
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25191
+0 0
+D1
+~
+~
+Z 0 25187
+0 0
+D2
+~
+~
+Z 0 25185
+0 0
+D3
+~
+~
+Z 0 25211
+0 0
+S
+#25189
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25192
+0 0
+D1
+~
+~
+Z 0 25212
+0 0
+D2
+~
+~
+Z 0 25186
+0 0
+D3
+~
+~
+Z 0 25187
+0 0
+S
+#25190
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25193
+0 0
+D1
+~
+~
+Z 0 25192
+0 0
+D2
+~
+~
+Z 0 25187
+0 0
+D3
+~
+~
+Z 0 25191
+0 0
+S
+#25191
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25190
+0 0
+D2
+~
+~
+Z 0 25188
+0 0
+S
+#25192
+The Dalath Square~
+The Dalath square is a huge square, it must be at least fourty paces wide
+and fourty paces long.  It is arguably the busiest part of the city, as well
+as a favorite place for pickpockets and cut-purses.  The square is also one
+of the highlights of this city, including it's grand {Wstatue{x and
+{Wfountain{x in the very center.  
+~
+0 0 city
+D2
+~
+~
+Z 0 25189
+0 0
+D3
+~
+~
+Z 0 25190
+0 0
+S
+#25193
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25194
+0 0
+D2
+~
+~
+Z 0 25190
+0 0
+S
+#25194
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25195
+0 0
+D2
+~
+~
+Z 0 25193
+0 0
+S
+#25195
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25196
+0 0
+D2
+~
+~
+Z 0 25194
+0 0
+S
+#25196
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25197
+0 0
+D2
+~
+~
+Z 0 25195
+0 0
+S
+#25197
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25198
+0 0
+D1
+~
+~
+Z 0 25261
+0 0
+D2
+~
+~
+Z 0 25196
+0 0
+S
+#25198
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25199
+0 0
+D2
+~
+~
+Z 0 25197
+0 0
+S
+#25199
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25200
+0 0
+D2
+~
+~
+Z 0 25198
+0 0
+S
+#25200
+Center Street~
+The center street is a wide, dark road.  This street is probably one of
+the brighter places in the town, but it is still fairly dark out and hard to
+see long distances.  The air is active with hawkers cries and the pound of a
+hammer on an anvil, and muffled screams are audible in the distance.  The
+road is paved with thick stones meant to withstand any amount of walking and
+heavy wagon wheels without sustaining damage.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25201
+0 0
+D2
+~
+~
+Z 0 25199
+0 0
+S
+#25201
+The North Gate of {DShodar Haran{x~
+The east gate of shodar haran is made up of two enormous wooden doors
+that are easily twice as tall as any storm giant.  The doors are covered in
+thick iron and outward-facing spikes, and is covered in many dents from
+previous siege attempts.  Inside the gate you can see the center street of
+the town, a wide, dark road full of people and activity.  
+~
+0 0 city
+D2
+~
+~
+Z 0 25200
+0 0
+S
+#25202
+The West Gate of {DShodar Haran{x~
+The west gate of shodar haran is made up of two enormous wooden doors
+that are easily twice as tall as any storm giant.  The doors are covered in
+thick iron and outward-facing spikes, and is covered in many dents from
+previous siege attempts.  Inside the gate you can see the main street of the
+town, a narrow, dark road full of people and activity.
+~
+0 0 city
+D1
+~
+~
+Z 0 25203
+0 0
+S
+#25203
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25204
+0 0
+D3
+~
+~
+Z 0 25202
+0 0
+S
+#25204
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25306
+0 0
+D1
+~
+~
+Z 0 25205
+0 0
+D2
+~
+~
+Z 0 25247
+0 0
+D3
+~
+~
+Z 0 25203
+0 0
+S
+#25205
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25305
+0 0
+D1
+~
+~
+Z 0 25206
+0 0
+D3
+~
+~
+Z 0 25204
+0 0
+S
+#25206
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25207
+0 0
+D2
+~
+~
+Z 0 25323
+0 0
+D3
+~
+~
+Z 0 25205
+0 0
+S
+#25207
+The West Gate of the {DShodar {WWall{x~
+The gate of the shodar wall is very large, about half as high and wide as
+the main gates.  The wall serves to separate the slums of the city and the
+rest, to keep the slums' wishwash inhabitants from fouling the rest of the
+city.  Every once in a while one of them tries to enter the inner city, but
+the are restrained by the King's Guard.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25208
+0 0
+D3
+~
+~
+Z 0 25206
+0 0
+S
+#25208
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25324
+0 0
+D1
+~
+~
+Z 0 25209
+0 0
+D3
+~
+~
+Z 0 25207
+0 0
+S
+#25209
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25210
+0 0
+D2
+~
+~
+Z 0 25325
+0 0
+D3
+~
+~
+Z 0 25208
+0 0
+S
+#25210
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25326
+0 0
+D1
+~
+~
+Z 0 25211
+0 0
+D3
+~
+~
+Z 0 25209
+0 0
+S
+#25211
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25188
+0 0
+D2
+~
+~
+Z 0 25327
+0 0
+D3
+~
+~
+Z 0 25210
+0 0
+S
+#25212
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25213
+0 0
+D3
+~
+~
+Z 0 25189
+0 0
+S
+#25213
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25214
+0 0
+D3
+~
+~
+Z 0 25212
+0 0
+S
+#25214
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25215
+0 0
+D3
+~
+~
+Z 0 25213
+0 0
+S
+#25215
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25216
+0 0
+D3
+~
+~
+Z 0 25214
+0 0
+S
+#25216
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25262
+0 0
+D1
+~
+~
+Z 0 25217
+0 0
+D3
+~
+~
+Z 0 25215
+0 0
+S
+#25217
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25218
+0 0
+D3
+~
+~
+Z 0 25216
+0 0
+S
+#25218
+Main Street~
+The main street is a skinny, dull road.  It is paved with round
+cobblestones that are slippery in the cold, and highly durable.  The road
+carries with it the cries of hawkers and merchants, as well as men and woman
+yelling for others to get out of their way.  The street is lined with
+buildings, some tall, some short, most dark.  In several places the street
+is intersected by alleys and other streets, none as large as the one you
+travel.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25219
+0 0
+D3
+~
+~
+Z 0 25217
+0 0
+S
+#25219
+The East Gate of {DShodar Haran{x~
+The west gate of shodar haran is made up of two enormous wooden doors
+that are easily twice as tall as any storm giant.  The doors are covered in
+thick iron and outward-facing spikes, and is covered in many dents from
+previous siege attempts.  Inside the gate you can see the main street of the
+town, a narrow, dark road full of people and activity.
+~
+0 0 city
+D3
+~
+~
+Z 0 25218
+0 0
+S
+#25220
+A Guard House~
+This 'house' is really just one small room where the gate guards can kick
+back and relax.  There are two high-backed chair and a map-covered table, as
+well as a rack on the wall holding numerous weapons.  The dark stone walls
+provide little insulation, the room is quite cold.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25175
+0 0
+S
+#25221
+A Guard House~
+This 'house' is really just one small room where the gate guards can kick
+back and relax.  There are two high-backed chair and a map-covered table, as
+well as a rack on the wall holding numerous weapons.  The dark stone walls
+provide little insulation, the room is quite cold.  
+~
+0 D inside
+D3
+~
+~
+Z 0 25175
+0 0
+S
+#25222
+Bretta's Brews~
+Entering this room, you are immersed in a thick {Mfog{x wafting from the
+tops of numerous cauldrons.  The sides of the room are covered in small
+wooden shelves, which in turn are heavily laden down with potions, wands,
+scrolls and other magical items.  The smell of the place is quite
+disgusting, a mix of bat guano, rat's tails, newt's fingers, etc.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25176
+0 0
+S
+#25223
+The Dice Store~
+The dice story is a shabby little building covered in dice cups and dice
+ranging from some old beaten dice you suspect were found in the trash to a
+set of gleaming gilded dice and cup.  The counter behind which the store
+owner stands is at the east end of the shop a thick length of warped wood
+that looks like it was stuck together at the last minute.  The rooms smells
+strongly of old leather and flies, but not much smells good in this part of
+town.  
+~
+0 D inside
+D3
+~
+~
+Z 0 25176
+0 0
+S
+#25224
+A Rusty Forge~
+The Rusty Forge is exactly as it's name implies...  A rusty forge.  The
+room is very hot and smells of heated metal and sweat.  The walls are
+slightly charred, as is the floor, and the forge itself is huge.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25177
+0 0
+S
+#25225
+Kallion's Knives~
+One of Shodar Haran's several knife stores, this place is most likely the
+most murderous.  The knives aren't first rate, several are rusty and
+notched, but they all have very keen edges.  Definitely handiwork of
+Kallion, the store's owner, who sits behind the counter sharpening a knife
+and licking his lips.  
+~
+0 D inside
+D3
+~
+~
+Z 0 25177
+0 0
+S
+#25226
+{DA Dark Alleway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards, pieces of broken wood...etc.{x
+~
+0 A city
+D1
+~
+~
+Z 0 25178
+0 0
+D2
+~
+~
+Z 0 25227
+0 0
+S
+#25227
+{DA Dark Alleway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.
+~
+0 A city
+D0
+~
+~
+Z 0 25226
+0 0
+D2
+~
+~
+Z 0 25228
+0 0
+S
+#25228
+{DA Dark Alleway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too.  {x 
+~
+0 A city
+D0
+~
+~
+Z 0 25227
+0 0
+D3
+~
+~
+Z 0 25229
+0 0
+S
+#25229
+{DA Dark Alleway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too. There is a very sturdy wooden door to
+the north, but it is shut quite firmly.{x
+~
+0 A city
+D1
+~
+~
+Z 0 25228
+0 0
+D3
+~
+~
+Z 0 25230
+0 0
+S
+#25230
+{DA Dark Alleway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too.  {x 
+~
+0 A city
+D1
+~
+~
+Z 0 25229
+0 0
+D3
+~
+~
+Z 0 25231
+0 0
+S
+#25231
+{DA Dark Alleyway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too.  {x 
+~
+0 A city
+D0
+~
+~
+Z 0 25232
+0 0
+D1
+~
+~
+Z 0 25230
+0 0
+S
+#25232
+{DA Dark Alleyway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too.  {x 
+~
+0 A city
+D0
+~
+~
+Z 0 25233
+0 0
+D2
+~
+~
+Z 0 25231
+0 0
+S
+#25233
+{DA Dark Alleyway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too.  {x 
+~
+0 A city
+D0
+~
+~
+Z 0 25234
+0 0
+D2
+~
+~
+Z 0 25232
+0 0
+S
+#25234
+{DA Dark Alleyway{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  Several parts of the ground are
+covered in dark bloodstains too.  You see a tightly shut iron-bound door to
+the west.  {x 
+~
+0 A city
+D2
+~
+~
+Z 0 25233
+0 0
+D3
+~
+~
+ABZ 0 25235
+0 0
+S
+#25235
+{DA Dark Building{x~
+{DThe building you are in is quite large, which is exaggerated further by
+the fact that it is completely empty.  The walls are bare, the floor has
+nothing other than {rdark stains{D, and there are no lifeforms to your
+knowledge.  Well, except for that {Wrat{D in the corner.  {x 
+~
+0 AD inside
+D1
+~
+~
+ABZ 0 25234
+0 0
+D2
+~
+~
+Z 0 25236
+0 0
+D3
+~
+~
+ABZ 0 25243
+0 0
+S
+#25236
+{DA Pitch-Black Room{x~
+{DThis part of the building is even darker than the previous room, there
+is no light to see anything at all beyond your own nose.  {x 
+~
+0 AD inside
+D0
+~
+~
+Z 0 25235
+0 0
+D2
+~
+~
+Z 0 25237
+0 0
+S
+#25237
+{DA Dark Room{x~
+{DYou have entered a dark room, and amazingly enough it is somewhat well
+furnished.  There is a couch in the corner, and two chairs on the other side
+of the room--black leather of course.  The east side of the room has been
+converted into a black marble bar, and is being tended by a dark fellow.  {x
+
+~
+0 AD inside
+D0
+~
+~
+Z 0 25236
+0 0
+D2
+~
+~
+Z 0 25238
+0 0
+S
+#25238
+{DA Dimly Lit Target Room{x~
+{DYou have entered a dimly lit room, suitably named the target room.  All
+along the walls small rings have been etched into the wood to serve as
+targets.  Judging by the knife protruding from the middle of one of the
+rings, they are frequently used.  {x 
+~
+0 AD inside
+D0
+~
+~
+Z 0 25237
+0 0
+D4
+~
+~
+Z 0 25239
+0 0
+S
+#25239
+{DA {WMo{wo{Wn{D-Lit Rooftop{x~
+{WYou have climbed on top of the rooftop of the building, and are
+rewarded with a breathtaking view of the city.  The dark buildings are
+swathed in a white glow from the moon, illuminating them slightly.  You also
+notice that almost all of the rooftops are connected by small rope bridges,
+and dark shapes flit across them in the shadows.  {x 
+~
+0 A city
+D0
+~
+~
+Z 0 25240
+0 0
+D1
+~
+~
+Z 0 25241
+0 0
+D5
+~
+~
+Z 0 25238
+0 0
+S
+#25240
+{DAmong the Rafters{x~
+{DAhh, the rafters.  Always a fun place to jump down on people from!  Or
+kick back, if you care to.  It seems the dark wooden beams have been covered
+with soft pillows, a very nice place to sleep indeed.  {x 
+~
+0 AD inside
+D2
+~
+~
+Z 0 25239
+0 0
+D5
+~
+~
+Z 0 25237
+0 0
+S
+#25241
+{DA Thin Rope-Bridge{x~
+{DYou stand atop a thin rope bridge with no handrails or other support,
+just the weak rope rungs.  From up here you can see most of the city, as
+well as the alleys and streets carving their way through the buildings.  The
+hair on the back of your neck begins to stand up in warning, and you see a
+dark shape steal away through the shadows.  {x 
+~
+0 A city
+D1
+~
+~
+Z 0 25242
+0 0
+D3
+~
+~
+Z 0 25239
+0 0
+S
+#25242
+{DAtop the Prancing Stallion{x~
+{DStanding on the poorly-shingled roof of the prancing stallion inn, you
+can see far out into the city.  The city is like a snake den of meandering
+alleyways and spider web of rooftop connecting rope bridges.  {x 
+~
+0 A city
+D1
+~
+~
+ABZ 0 25253
+0 0
+D3
+~
+~
+Z 0 25241
+0 0
+S
+#25243
+{rScythe {WStreet{x~
+Walking along scythe street, you can think of two reasons for how it got
+it's name.  It could be because of the shape of the street how it is long
+and then curves to the side, or it could be named scythe street because of
+it's notorious reputation as a murder hotspot.  The second is backed up by
+an astounding amount of bloodstains on the ground, as well as other random
+garbage.  
+~
+0 A city
+D1
+~
+~
+ABZ 0 25235
+0 0
+D3
+~
+~
+Z 0 25244
+0 0
+S
+#25244
+{rScythe {WStreet{x~
+Walking along scythe street, you can think of two reasons for how it got
+it's name.  It could be because of the shape of the street how it is long
+and then curves to the side, or it could be named scythe street because of
+it's notorious reputation as a murder hotspot.  The second is backed up by
+an astounding amount of bloodstains on the ground, as well as other random
+garbage.  
+~
+0 A city
+D0
+~
+~
+Z 0 25245
+0 0
+D1
+~
+~
+Z 0 25243
+0 0
+D3
+~
+~
+Z 0 25301
+0 0
+S
+#25245
+{rScythe {WStreet{x~
+Walking along scythe street, you can think of two reasons for how it got
+it's name.  It could be because of the shape of the street how it is long
+and then curves to the side, or it could be named scythe street because of
+it's notorious reputation as a murder hotspot.  The second is backed up by
+an astounding amount of bloodstains on the ground, as well as other random
+garbage.  
+~
+0 A city
+D0
+~
+~
+Z 0 25246
+0 0
+D1
+~
+~
+Z 0 25302
+0 0
+D2
+~
+~
+Z 0 25244
+0 0
+S
+#25246
+{rScythe {WStreet{x~
+Walking along scythe street, you can think of two reasons for how it got
+it's name.  It could be because of the shape of the street how it is long
+and then curves to the side, or it could be named scythe street because of
+it's notorious reputation as a murder hotspot.  The second is backed up by
+an astounding amount of bloodstains on the ground, as well as other random
+garbage.  
+~
+0 A city
+D0
+~
+~
+Z 0 25247
+0 0
+D2
+~
+~
+Z 0 25245
+0 0
+D3
+~
+~
+Z 0 25303
+0 0
+S
+#25247
+{rScythe {WStreet{x~
+Walking along scythe street, you can think of two reasons for how it got
+it's name.  It could be because of the shape of the street how it is long
+and then curves to the side, or it could be named scythe street because of
+it's notorious reputation as a murder hotspot.  The second is backed up by
+an astounding amount of bloodstains on the ground, as well as other random
+garbage.  
+~
+0 A city
+D0
+~
+~
+Z 0 25204
+0 0
+D1
+~
+~
+Z 0 25304
+0 0
+D2
+~
+~
+Z 0 25246
+0 0
+S
+#25248
+Entrance to the Prancing Stallion~
+You stand in the entrance to a disgruntled looking inn called the
+Prancing Stallion, displayed on a sign showing a scraggly gelding rearing
+back most likely to deposit his rider on the ground.  You can see into the
+common room to the west, it looks rather empty.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25179
+0 0
+D3
+~
+~
+Z 0 25249
+0 0
+S
+#25249
+The Common Room of the Prancing Stallion~
+Entering the common room of the Prancing Stallion, you realize that this
+place must be suffering very hard times.  The uneven wooden tables stand
+warily, covered in many stains, some the color of dried blood.  A heavy odor
+of alcohol and the leftovers of several patrons' stomaches, this place is
+nearly unbearable.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25248
+0 0
+D2
+~
+~
+Z 0 25252
+0 0
+D3
+~
+~
+ABZ 0 25250
+0 0
+S
+#25250
+The Prancing Stallion's Kitchen~
+Chipped pots and bent, dull knives litter the filthy counters of this
+room, the single pantry is nearly empty as revealed by it's nearly hingeless
+door, currently ajar.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 25249
+0 0
+S
+#25251
+The West End of the Common Room~
+Entering the common room of the Prancing Stallion, you realize that this
+place must be suffering very hard times.  The uneven wooden tables stand
+warily, covered in many stains, some the color of dried blood.  A heavy odor
+of alcohol and the leftovers of several patrons' stomaches, this place is
+nearly unbearable.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25252
+0 0
+D4
+~
+~
+Z 0 25255
+0 0
+S
+#25252
+The Common Room of the Prancing Stallion~
+Entering the common room of the Prancing Stallion, you realize that this
+place must be suffering very hard times.  The uneven wooden tables stand
+warily, covered in many stains, some the color of dried blood.  A heavy odor
+of alcohol and the leftovers of several patrons' stomaches, this place is
+nearly unbearable.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25249
+0 0
+D2
+~
+~
+ABZ 0 25254
+0 0
+D3
+~
+~
+Z 0 25251
+0 0
+S
+#25253
+A Dusty {yHayloft{x~
+So you thought you could escape paying rent by sleeping in the hayloft? 
+Think again...  It seems the innkeeper has a grudge against some folk who
+try to sleep here for free and evade notice...  
+~
+0 AD inside
+D3
+~
+~
+ABZ 0 25242
+0 0
+D5
+~
+~
+ABZ 0 25254
+0 0
+S
+#25254
+The Stables~
+The floor of this room is covered in {yhay{x, and reeks of horse dung. 
+The few stalls in the corner are empty, as it is unlikely that anyone in
+this part of town is wealthy enough to own a horse.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 25252
+0 0
+D2
+A stout wooden door bars your way.  
+~
+door~
+ABZ 0 25229
+0 0
+D4
+~
+~
+ABZ 0 25253
+0 0
+S
+#25255
+A Landing~
+Climbing the unsturdy stairs up to the second floor of the inn, you
+notice that the peeling walls are completely bare except for one odd-looking
+portrait at the top of the landing.  The floor is uncovered wooden boards,
+and they creak noisily, reducing the chance for any sneakiness.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25256
+0 0
+D5
+~
+~
+Z 0 25251
+0 0
+S
+#25256
+A Drab Hallway~
+This hallway is very dull, it's walls have not a single picture or
+tapestry, the only things you notice are three warped wooden doors, the knob
+broken off of every one.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 25259
+0 0
+D1
+~
+~
+ABZ 0 25258
+0 0
+D2
+~
+~
+ABZ 0 25257
+0 0
+D3
+~
+~
+Z 0 25255
+0 0
+S
+#25257
+A Cramped Room~
+A very small room indeed, there is barely enough room between the walls
+for a moth-eaten cot and chipped porcelain washbasin.  The smell is not very
+pleasant, and there are no windows.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 25256
+0 0
+S
+#25258
+A Cramped Room~
+A very small room indeed, there is barely enough room between the walls
+for a moth-eaten cot and chipped porcelain washbasin.  The smell is not very
+pleasant, and there are no windows.  
+~
+0 D inside
+D3
+~
+~
+ABZ 0 25256
+0 0
+S
+#25259
+A Cramped Room~
+A very small room indeed, there is barely enough room between the walls
+for a moth-eaten cot and chipped porcelain washbasin.  The smell is not very
+pleasant, and there are no windows.  
+~
+0 D inside
+D2
+~
+~
+ABZ 0 25256
+0 0
+S
+#25260
+North Palace Street~
+The Palace street is a wide, well paved road.  It is nowhere near as busy
+as the main or center street, but there are plenty hawkers and folk bustling
+about and being jostled by nobles on horseback.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25144
+0 0
+D2
+~
+~
+Z 0 25264
+0 0
+D3
+~
+~
+Z 0 25261
+0 0
+S
+#25261
+North Palace Street~
+The Palace street is a wide, well paved road.  It is nowhere near as busy
+as the main or center street, but there are plenty hawkers and folk bustling
+about and being jostled by nobles on horseback.  
+~
+0 0 city
+D1
+~
+~
+Z 0 25260
+0 0
+D3
+~
+~
+Z 0 25197
+0 0
+S
+#25262
+East Palace Street~
+The Palace street is a wide, well paved road.  It is nowhere near as busy
+as the main or center street, but there are plenty hawkers and folk bustling
+about and being jostled by nobles on horseback.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25263
+0 0
+D2
+~
+~
+Z 0 25216
+0 0
+S
+#25263
+East Palace Street~
+The Palace street is a wide, well paved road.  It is nowhere near as busy
+as the main or center street, but there are plenty hawkers and folk bustling
+about and being jostled by nobles on horseback.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25117
+0 0
+D2
+~
+~
+Z 0 25262
+0 0
+D3
+~
+~
+Z 0 25270
+0 0
+S
+#25264
+Path to the Barracks~
+The path to the barracks is an elongated black tent.  The inside of the
+tent is quite stuffy, and the ground is uncovered--hard packed dirt.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25260
+0 0
+D2
+~
+~
+Z 0 25265
+0 0
+S
+#25265
+Path to the Barracks~
+The path to the barracks is an elongated black tent.  The inside of the
+tent is quite stuffy, and the ground is uncovered--hard packed dirt.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25264
+0 0
+D2
+~
+~
+Z 0 25266
+0 0
+S
+#25266
+The Barracks~
+The barracks are an elongation of the path to them--a high-ceilinged
+black tent.  These barracks are quite busy however, members of the King's
+Guard are coming and going frequently and practicing their skills.  Watch
+out--their weapons aren't practice weapons.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25265
+0 0
+D2
+~
+~
+Z 0 25267
+0 0
+D3
+~
+~
+Z 0 25274
+0 0
+S
+#25267
+The Barracks~
+The barracks are an elongation of the path to them--a high-ceilinged
+black tent.  These barracks are quite busy however, members of the King's
+Guard are coming and going frequently and practicing their skills.  Watch
+out--their weapons aren't practice weapons.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25266
+0 0
+D1
+~
+~
+Z 0 25268
+0 0
+D2
+~
+~
+Z 0 25272
+0 0
+D3
+~
+~
+Z 0 25273
+0 0
+S
+#25268
+The Barracks~
+The barracks are an elongation of the path to them--a high-ceilinged
+black tent.  These barracks are quite busy however, members of the King's
+Guard are coming and going frequently and practicing their skills.  Watch
+out--their weapons aren't practice weapons.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25269
+0 0
+D2
+~
+~
+Z 0 25271
+0 0
+D3
+~
+~
+Z 0 25267
+0 0
+S
+#25269
+Path to the Barracks~
+The path to the barracks is an elongated black tent.  The inside of the
+tent is quite stuffy, and the ground is uncovered--hard packed dirt.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25270
+0 0
+D3
+~
+~
+Z 0 25268
+0 0
+S
+#25270
+Path to the Barracks~
+The path to the barracks is an elongated black tent.  The inside of the
+tent is quite stuffy, and the ground is uncovered--hard packed dirt.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25263
+0 0
+D3
+~
+~
+Z 0 25269
+0 0
+S
+#25271
+Mess Hall~
+This is a VERY messy room.  The long tables take up almost the whole room
+except for a huge cookpot.  Slops of food and meat are spilled all over the
+ground and table, although that's to be expected of soldiers.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25268
+0 0
+D3
+~
+~
+Z 0 25272
+0 0
+S
+#25272
+Mess Hall~
+This is a VERY messy room.  The long tables take up almost the whole room
+except for a huge cookpot.  Slops of food and meat are spilled all over the
+ground and table, although that's to be expected of soldiers.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25267
+0 0
+D1
+~
+~
+Z 0 25271
+0 0
+D3
+~
+~
+Z 0 25275
+0 0
+S
+#25273
+Training Room~
+The training room is an open section of the tent filled with racks of
+weapons and practice dummies to train on.  The dummies are made of metal to
+practice fighting an armored foe, so better make sure your weapon is sturdy.
+The room smells of steel and sweat, not an uncommon smell around soldiers.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25274
+0 0
+D1
+~
+~
+Z 0 25267
+0 0
+D2
+~
+~
+Z 0 25275
+0 0
+S
+#25274
+Training Room~
+The training room is an open section of the tent filled with racks of
+weapons and practice dummies to train on.  The dummies are made of metal to
+practice fighting an armored foe, so better make sure your weapon is sturdy.
+The room smells of steel and sweat, not an uncommon smell around soldiers.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25266
+0 0
+D2
+~
+~
+Z 0 25273
+0 0
+S
+#25275
+Training Room~
+The training room is an open section of the tent filled with racks of
+weapons and practice dummies to train on.  The dummies are made of metal to
+practice fighting an armored foe, so better make sure your weapon is sturdy.
+The room smells of steel and sweat, not an uncommon smell around soldiers.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25273
+0 0
+D1
+~
+~
+Z 0 25272
+0 0
+S
+#25276
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.{x
+~
+0 A city
+D1
+~
+~
+Z 0 25277
+0 0
+D3
+~
+~
+Z 0 25178
+0 0
+S
+#25277
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  {x 
+~
+0 A city
+D2
+~
+~
+Z 0 25278
+0 0
+D3
+~
+~
+Z 0 25276
+0 0
+S
+#25278
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  {x 
+~
+0 A city
+D0
+~
+~
+Z 0 25277
+0 0
+D1
+~
+~
+Z 0 25284
+0 0
+D2
+~
+~
+Z 0 25279
+0 0
+S
+#25279
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D0
+~
+~
+Z 0 25278
+0 0
+D1
+~
+~
+Z 0 25280
+0 0
+S
+#25280
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D1
+~
+~
+Z 0 25281
+0 0
+D3
+~
+~
+Z 0 25279
+0 0
+S
+#25281
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D0
+~
+~
+Z 0 25282
+0 0
+D1
+~
+~
+Z 0 25283
+0 0
+D3
+~
+~
+Z 0 25280
+0 0
+S
+#25282
+The {yLeather {WShop{x~
+The leather shop produces a large variety of clothing and tools out of
+leather, and various specimen hang from the walls.  There are several
+breastplates, greaves, as well as grips for swords, axes and daggers.  The
+room has an unpleasant smell about it, a mix of leather, sweat and grease,
+making the little stone building seem even more poor than it already is.  
+~
+0 D inside
+D2
+~
+~
+Z 0 25281
+0 0
+S
+#25283
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  {DTo the east you see a large
+mansion rising out of the darkness.  {x 
+~
+0 A city
+D3
+~
+~
+Z 0 25281
+0 0
+S
+#25284
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D1
+~
+~
+Z 0 25285
+0 0
+D3
+~
+~
+Z 0 25278
+0 0
+S
+#25285
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D0
+~
+~
+Z 0 25286
+0 0
+D1
+~
+~
+Z 0 25288
+0 0
+D3
+~
+~
+Z 0 25284
+0 0
+S
+#25286
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 25287
+0 0
+D2
+~
+~
+Z 0 25285
+0 0
+S
+#25287
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D2
+~
+~
+Z 0 25286
+0 0
+S
+#25288
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D0
+~
+~
+Z 0 25289
+0 0
+D3
+~
+~
+Z 0 25285
+0 0
+S
+#25289
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D0
+~
+~
+Z 0 25290
+0 0
+D2
+~
+~
+Z 0 25288
+0 0
+S
+#25290
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D1
+~
+~
+Z 0 25291
+0 0
+D2
+~
+~
+Z 0 25289
+0 0
+S
+#25291
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D1
+~
+~
+Z 0 25292
+0 0
+D3
+~
+~
+Z 0 25290
+0 0
+S
+#25292
+{DA Dark Alley{x~
+{DYou have entered a dark alleyway it is nearly impossible to see
+anything.  The alley is quite narrow, being wedged in between two buildings,
+there is barely enough room for a human to stretch his arms out.  The alley
+is full of discarded items, including barrels, musty sheets of parchment,
+glass shards and pieces of broken wood.  
+~
+0 A city
+D2
+~
+~
+Z 0 25293
+0 0
+D3
+~
+~
+Z 0 25291
+0 0
+S
+#25293
+The Entryway of a Mansion~
+The entryway to this mansion is a wide hall, probably wide enough for two
+wagons moving abreast of each other.  The cavernous cathedral ceiling towers
+over you, a good thirty feet up, and two oil lamps struggle to fend off the
+darkness.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 25292
+0 0
+D2
+~
+~
+Z 0 25294
+0 0
+S
+#25294
+The Main Room~
+The main room of the mansion is even larger than the entryway, and filled
+with what was once fashionable furniture.  The couches and armchairs are
+motheaten and dusty, and the few remaining tapestries on the walls are
+charred or ripped.  The glass cases found in several niches along the wall
+have been broken, and their goods stolen.  Several dark stains linger on the
+carpet, and the whole room smells of death.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 25293
+0 0
+D2
+~
+~
+Z 0 25295
+0 0
+S
+#25295
+Beneath a Broken Staircase~
+It seems the staircase leading to the second story of the mansion is
+completely destroyed, leaving you with no way of reaching the upper rooms. 
+You can go back north to the main room, or loiter here amid the rubble.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 25294
+0 0
+D5
+~
+~
+ABCDFGZ 0 25296
+0 0
+S
+#25296
+A Cellar~
+This cellar is like any you have seen before, except there is a feeling
+about it..  That is different.  That feeling could be created by the odd
+smell, old wine and cedarwood cases mixed with a sickly scent of decay and
+death.  Quite odd after all.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 25297
+0 0
+D1
+~
+~
+Z 0 25298
+0 0
+D2
+~
+~
+Z 0 25299
+0 0
+D3
+~
+~
+Z 0 25300
+0 0
+D4
+~
+~
+ABCDFGZ 0 25295
+0 0
+S
+#25297
+too dark to tell~
+It's to dark to make out anything in this room...  Did something just
+move in the corner?  
+~
+0 AD inside
+D2
+~
+~
+Z 0 25296
+0 0
+S
+#25298
+too dark to tell~
+It's to dark to make out anything in this room...  Did something just
+move in the corner?  
+~
+0 AD inside
+D3
+~
+~
+Z 0 25296
+0 0
+S
+#25299
+too dark to tell~
+It's to dark to make out anything in this room...  Did something just
+move in the corner?  
+~
+0 AD inside
+D0
+~
+~
+Z 0 25296
+0 0
+S
+#25300
+too dark to tell~
+It's to dark to make out anything in this room...  Did something just
+move in the corner?  
+~
+0 AD inside
+D1
+~
+~
+Z 0 25296
+0 0
+S
+#25301
+A Run-down House~
+The run-down house you have entered is dully lit by several candles and
+an oil lamp hanging from the ceiling.  There is a fair amount of furniture,
+a couch in one corner and a table in the other, several chipped wooden
+chairs surround the table.  The floor is bare stone, and the lone window
+offers a glum view of scythe street.  The room smells sweet, bitter and sour
+all at the same time, mixed in with a scent that can only be described as
+herbal or earthy.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25244
+0 0
+S
+#25302
+The Butcher's~
+The butcher's shop is a small, blood-spattered room that stinks of raw
+meat.  A black stone counter separates you from the butcher, and also serves
+as a display case for the various cuts of meat.  
+~
+0 D inside
+D3
+~
+~
+Z 0 25245
+0 0
+S
+#25303
+The Outfitter~
+This store, oddly named "the outfitter" is covered from wall to wall in
+moth-eaten rags.  The owner, a toothless old man, smiles happily at his
+collection of old discarded clothes.  The room smells of old leather and
+mold, it's quite unpleasant.  
+~
+0 D inside
+D1
+~
+~
+Z 0 25246
+0 0
+S
+#25304
+Clement's Clothing~
+This store contrasts greatly from the outfitter's just down the street,
+hanging from pegs on the walls are finely tailored suits, some with
+embroidered lapels and collars.  Despite the prestigious clothes, the store
+isn't quite as rich.  The floor is barely covered in mismatched mats, and
+the five oil lamps lighting the room give off a nasty smell.  
+~
+0 D inside
+D3
+~
+~
+Z 0 25247
+0 0
+S
+#25305
+The Dicing Hall~
+The dicing hall is a very long building packed with small round tables. 
+A slim serving girl meanders through the tables, offering drink to the
+gamblers.  The unpolished wooden floor is slippery with spilled liquid and
+muck tracked in from the patrons' shoes.  A stage in the back of the room is
+for entertainers, and is often watched by customers tired of gambling.  
+~
+0 D inside
+D2
+~
+~
+Z 0 25205
+0 0
+S
+#25306
+{rScythe{W Street{x~
+Walking along scythe street, you can think of two reasons for how it got
+it's name.  It could be because of the shape of the street how it is long
+and then curves to the side, or it could be named scythe street because of
+it's notorious reputation as a murder hotspot.  The second is backed up by
+an astounding amount of bloodstains on the ground, as well as other random
+garbage.  
+~
+0 A city
+D1
+~
+~
+Z 0 25307
+0 0
+D2
+~
+~
+Z 0 25204
+0 0
+S
+#25307
+Beside the Dicing Hall~
+Just outside the dicing hall, the building is even large from the outside
+than it seemed from the inside.  The ground outside of it is littered with
+trash and dirt, and scythe street is just off to the west.  You see a small
+ladder leading up the building.  
+~
+0 0 city
+D3
+~
+~
+Z 0 25306
+0 0
+D4
+~
+~
+Z 0 25308
+0 0
+S
+#25308
+Atop the Dicing Hall~
+The rooftop is swathed in moonlight, and seems to glow slightly.  The
+roof is stone like the rest of the building, and made slippery from rain and
+grime.  Off to the south you can see the main street, to the east you can
+see the inner wall, and to the north all is dark.  
+~
+0 0 city
+D0
+~
+~
+Z 0 25309
+0 0
+D5
+~
+~
+Z 0 25307
+0 0
+S
+#25309
+{DA Thin Rope-Bridge{x~
+{DYou stand atop a thin rope bridge with no handrails or other support,
+just the weak rope rungs.  From up here you can see most of the city, as
+well as the alleys and streets carving their way through the buildings.  The
+hair on the back of your neck begins to stand up in warning, and you see a
+dark shape steal away through the shadows.  {x 
+~
+0 0 city
+D0
+~
+~
+Z 0 25310
+0 0
+D2
+~
+~
+Z 0 25308
+0 0
+S
+#25310
+{DA Thin Rope-Bridge{x~
+{DYou stand atop a thin rope bridge with no handrails or other support,
+just the weak rope rungs.  From up here you can see most of the city, as
+well as the alleys and streets carving their way through the buildings.  The
+hair on the back of your neck begins to stand up in warning, and you see a
+dark shape steal away through the shadows.  {x 
+~
+0 0 city
+D2
+~
+~
+Z 0 25309
+0 0
+D3
+~
+~
+Z 0 25311
+0 0
+S
+#25311
+{DA Thin Rope-Bridge{x~
+{DYou stand atop a thin rope bridge with no handrails or other support,
+just the weak rope rungs.  From up here you can see most of the city, as
+well as the alleys and streets carving their way through the buildings.  The
+hair on the back of your neck begins to stand up in warning, and you see a
+dark shape steal away through the shadows.  {x 
+~
+0 0 city
+D1
+~
+~
+Z 0 25310
+0 0
+D5
+~
+~
+Z 0 25312
+0 0
+S
+#25312
+A Field of Dead Grass~
+The grass of this field was once probably knee-high and bright green, but
+now the shoots are brittle and dull yellow, and crack and crunch noisily
+beneath your feet.  The field stretches on for a ways in every direction,
+and is unperturbed except for a very large tree at the northern end.  
+~
+0 0 field
+D0
+~
+~
+Z 0 25313
+0 0
+D4
+~
+~
+Z 0 25311
+0 0
+S
+#25313
+A Field of Dead Grass~
+The grass of this field was once probably knee-high and bright green, but
+now the shoots are brittle and dull yellow, and crack and crunch noisily
+beneath your feet.  The field stretches on for a ways in every direction,
+and is unperturbed except for a very large tree at the northern end.  
+~
+0 0 field
+D0
+~
+~
+Z 0 25314
+0 0
+D2
+~
+~
+Z 0 25312
+0 0
+S
+#25314
+The Base of a Large Tree~
+The tree you stand beneath is very large, it towers above you for a good
+fifty paces.  As the branches shoot out from higher and higher up on the
+trunk, it is more difficult to discern what lies up there, but it seems odd
+that such a large tree would be here with no purpose.  
+~
+0 0 field
+D2
+~
+~
+Z 0 25313
+0 0
+D4
+~
+~
+Z 0 25315
+0 0
+S
+#25315
+In the Tree~
+Climbing further up the tree, you are enclosed in a wall of branches and
+leaves, mostly dead ones.  The air smells of sap and bark, and through the
+branches you can see the inner wall of the city off to the east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 25316
+0 0
+D4
+~
+~
+Z 0 25317
+0 0
+D5
+~
+~
+Z 0 25314
+0 0
+S
+#25316
+Out on a Branch~
+Far out on an eastern branch of the tree, you can see the west shodar
+wall within easy reach.  Hidden behind a screen of leaves and branches, the
+guards will most likely not notice you.  You can go back to the trunk of the
+tree, or try to hop unnoticed onto the wall.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 25315
+0 0
+S
+#25317
+The Top of the Tree~
+You have reached the top of the tree, and the view is utterly astounding.
+The city extends off to the south and east, a maze of dark alleys and large
+stone buildings, all covered in darkness.  The cityfolk down on the main
+streets are mere specks, although you can make out the statue in the Dalath
+square quite easily.  Oddly enough, a small rope bridge extends off of the
+tree to the west.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 25318
+0 0
+D5
+~
+~
+Z 0 25315
+0 0
+S
+#25318
+{DA Thin Rope-Bridge{x~
+{DYou stand atop a thin rope bridge with no handrails or other support,
+just the weak rope rungs.  From up here you can see most of the city, as
+well as the alleys and streets carving their way through the buildings.  The
+hair on the back of your neck begins to stand up in warning, and you see a
+dark shape steal away through the shadows.  {x 
+~
+0 0 city
+D1
+~
+~
+Z 0 25317
+0 0
+D3
+~
+~
+Z 0 25319
+0 0
+S
+#25319
+{DA Thin Rope-Bridge{x~
+{DYou stand atop a thin rope bridge with no handrails or other support,
+just the weak rope rungs.  From up here you can see most of the city, as
+well as the alleys and streets carving their way through the buildings.  The
+hair on the back of your neck begins to stand up in warning, and you see a
+dark shape steal away through the shadows.  {x {DOff to the west, you can
+see that the rope is attached to a niche in the main western wall.  {x 
+~
+0 0 city
+D1
+~
+~
+Z 0 25318
+0 0
+D3
+~
+~
+Z 0 25320
+0 0
+S
+#25320
+A Niche in the Western Wall~
+A niche here is carved out of the huge stone blocks in the west outer
+wall.  The air is cool and refreshing, away from the bustle of the city, it
+is a very nice spot indeed.  Off to the south and north, strange doors are
+carved into the wall.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 25322
+0 0
+D1
+~
+~
+Z 0 25319
+0 0
+D2
+~
+~
+ABZ 0 25321
+0 0
+S
+#25321
+The Carving Room~
+This portion of the western wall has been converted into a woodworking
+room, a very secluded one.  The room smells of wood, and the floor is
+covered in wood chips and shavings.  A few skinning knives hang from the
+walls.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 25320
+0 0
+S
+#25322
+The Archery Room~
+A huge portion of the wall is carved out here, and turned into a room
+for..  Archery?!  Many targets hang from the walls, and a few bows and
+quivers full of arrows as well.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 25320
+0 0
+S
+#25323
+The Shelter~
+The shelter is a small room that consists mainly of a very long counter,
+and a great many beggars.  Several aproned cooks are bustling about the
+room, preparing dishes for the buffet, which seems to be free for the
+beggars!  The room would probably smell good, if it weren't for the sweaty,
+unwashed scent of the numerous beggars and refugees.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 25206
+0 0
+S
+#25324
+Wands of Wonder~
+A very magical store, Wands of Wonder is a small, stuffy little room
+filled with magically imbued wands.  A short githyanki stands behind the
+large counter, fingering a wand nervously.  
+~
+0 D inside
+D2
+~
+~
+Z 0 25208
+0 0
+S
+#25325
+The Store of Magic~
+Another magic store, most likely a competitor of Wands of Wonder, this
+one is slightly larger yet equally stuffy.  The walls are lined with staves
+and scrollcases and scrolls as well, and there are many glass cases full of
+strange powders and enchanted objects.  The owner of the store, a greedy
+little gnome, smiles happily at you.  
+~
+0 D inside
+D0
+~
+~
+Z 0 25209
+0 0
+S
+#25326
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 25210
+0 0
+S
+#25327
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 25211
+0 0
+S
+#25328
+Inside the Statue~
+{DInside the statue is a spacious cavern encased in complete darkness. 
+The tall walls, straight on the inside despite being shaped on the outside,
+are a good ten paces apart from each other.  Lining the walls are ancient
+carvings depicting black-garbed assassins scaling walls and murdering
+victims with their bare hands, and pictures of tanto knives, shurikens, and
+sharp katanas.  A rope ladder leads upwards to the top of the statue, while
+there is a trapdoor leading below.  {x 
+~
+0 ADTXY inside
+D4
+~
+~
+Z 0 25329
+0 0
+D5
+~
+~
+Z 0 25330
+0 0
+S
+#25329
+The Top of the Statue~
+{DThe top of the hollow statue has been turned into a small tavern for
+the assassins that stay here.  A circular counter of dark wood follows the
+walls along, and is neatly polished.  The floor is completely trackless,
+there are no traces of people being in this room at all.  Only two small
+tables of dark wood are in the room, for there would not be enough room for
+more.  The walls are carved with tanto knives, shurikens and katanas just
+like the entrance, as well as a symbol of a fist.  {x 
+~
+0 ADTXY inside
+D5
+~
+~
+Z 0 25328
+0 0
+S
+#25330
+Beneath the Statue~
+{DBeneath the statue is the heart of the ninja's guild, a huge room of
+practicing the ninjitsu arts.  There are target boards placed at regular
+intervals on the walls, several still have shurikens embedded in them.  A
+few upper bodies of practice dummies are on wooden posts in one end of the
+room, although their wooden necks have been broken many times.  In the
+center of the room is a large sparring mat for fist-fighting matches, and
+the floor is slick with blood.  {x 
+~
+0 ADTXY inside
+D4
+~
+~
+Z 0 25328
+0 0
+S
+#0
+
+#SPECIALS
+M 25001 spec_breath_gas	* the forge dude
+M 25002 spec_cast_mage	* A sedan chair bearer
+M 25008 spec_cast_cleric	* an Efreet
+M 25010 spec_poison	* the kraken
+M 25011 spec_cast_undead	* the Treant
+M 25018 spec_breath_frost	* The Water Prince
+M 25019 spec_breath_lightning	* The Earth King
+M 25020 spec_breath_gas	* The Lord of Air
+M 25021 spec_breath_fire	* The Sultan of Fire
+M 25033 spec_thief	* Nalfeshnee
+S
+
+#RESETS
+D 0 25117 0 2	* The South Gate of the {DShodar Palace{x: door to the north: closed and locked
+D 0 25117 1 1	* The South Gate of the {DShodar Palace{x: door to the east: closed
+D 0 25118 2 2	* The Foyer of the {DShodar Palace{x: door to the south: closed and locked
+D 0 25120 1 2	* A Hallway in the {DShodar Palace{x: door to the east: closed and locked
+D 0 25120 3 2	* A Hallway in the {DShodar Palace{x: door to the west: closed and locked
+D 0 25121 1 2	* A Hallway in the {DShodar Palace{x: door to the east: closed and locked
+D 0 25121 3 2	* A Hallway in the {DShodar Palace{x: door to the west: closed and locked
+D 0 25122 1 2	* A Hallway in the {DShodar Palace{x: door to the east: closed and locked
+D 0 25122 3 2	* A Hallway in the {DShodar Palace{x: door to the west: closed and locked
+D 0 25128 1 1	* The Throne Room of the {DShodar Palace{x: door to the east: closed
+D 0 25129 3 1	* The King's Chambers: door to the west: closed
+D 0 25143 3 2	* A Hallway in the {DShodar Palace{x: door to the west: closed and locked
+D 0 25144 1 2	* The West Gate of the {DShodar Palace{x: door to the east: closed and locked
+D 0 25161 3 1	* The Kitchen: door to the west: closed
+D 0 25163 1 2	* A Guest's Sitting Room: door to the east: closed and locked
+D 0 25165 3 2	* A Guest's Sitting Room: door to the west: closed and locked
+D 0 25167 1 2	* A Guest's Sitting Room: door to the east: closed and locked
+D 0 25169 3 2	* A Guest's Sitting Room: door to the west: closed and locked
+D 0 25171 1 2	* A Guest's Sitting Room: door to the east: closed and locked
+D 0 25173 3 2	* A Guest's Sitting Room: door to the west: closed and locked
+D 0 25234 3 1	* {DA Dark Alleyway{x: door to the west: closed
+D 0 25235 1 1	* {DA Dark Building{x: door to the east: closed
+D 0 25235 3 1	* {DA Dark Building{x: door to the west: closed
+D 0 25242 1 1	* {DAtop the Prancing Stallion{x: door to the east: closed
+D 0 25243 1 1	* {rScythe {WStreet{x: door to the east: closed
+D 0 25249 3 1	* The Common Room of the Prancing Stallion: door to the west: closed
+D 0 25250 1 1	* The Prancing Stallion's Kitchen: door to the east: closed
+D 0 25252 2 1	* The Common Room of the Prancing Stallion: door to the south: closed
+D 0 25253 3 1	* A Dusty {yHayloft{x: door to the west: closed
+D 0 25253 5 1	* A Dusty {yHayloft{x: door to the down: closed
+D 0 25254 0 1	* The Stables: door to the north: closed
+D 0 25254 2 1	* The Stables: door to the south: closed
+D 0 25254 4 1	* The Stables: door to the up: closed
+D 0 25256 0 1	* A Drab Hallway: door to the north: closed
+D 0 25256 1 1	* A Drab Hallway: door to the east: closed
+D 0 25256 2 1	* A Drab Hallway: door to the south: closed
+D 0 25257 0 1	* A Cramped Room: door to the north: closed
+D 0 25258 3 1	* A Cramped Room: door to the west: closed
+D 0 25259 2 1	* A Cramped Room: door to the south: closed
+D 0 25295 5 2	* Beneath a Broken Staircase: door to the down: closed and locked
+D 0 25296 4 2	* A Cellar: door to the up: closed and locked
+D 0 25320 0 1	* A Niche in the Western Wall: door to the north: closed
+D 0 25320 2 1	* A Niche in the Western Wall: door to the south: closed
+D 0 25321 0 1	* The Carving Room: door to the north: closed
+D 0 25322 2 1	* The Archery Room: door to the south: closed
+O 0 25051 0 25187	* The grand statue of Shodar Haran (The Dalath Square)
+M 0 25001 1 25224 1	* the forge dude (A Rusty Forge)
+S
+
+#SHOPS
+25001 0 0 0 0 0 100 17 0 23
+0
+
+#MOBPROGS
+#25000
+'Hello $n, have time for a few rounds of dice?
+end
+~
+#25001
+if carries $i 'paperola'
+'hey, we don't start new rounds until the gold is accounted for.
+end
+endif
+if rand 97
+mob echoat $n You roll three grims, for a score of 12!
+mob echoaround $n $n rolls three grims, for a score of 12!
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+if rand 97
+mob echoat $n You roll two grims and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 11!
+mob echoaround $n $n rolls two grims and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 11!
+if rand 3
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold and roll again
+mob oload 25003
+end
+endif
+if rand 97
+mob echoat $n You roll two {Chorses{x and one {Wcross{x, for a score of 1.
+mob echoaround $n $n rolls two {Chorses{x and one {Wcross{x, for a score of 1.
+if rand 94
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 97
+mob echoat $n You roll three {Chorses{x, for an incredible score of ZERO!
+mob echoaround $n $n rolls three {Chorses{x, for an incredible score of ZERO!
+rofl
+'nice roll!
+emote looks at the dice he rolls happily.
+'hand over the gold and roll again
+mob oload 25003
+end
+endif
+if rand 94
+if rand 50
+mob echoat $n You roll one {Dc{Wo{wi{Dn{x and two grims for a score of 10!
+mob echoaround $n $n rolls one {Dc{Wo{wi{Dn{x and two grims for a score of 10!
+if rand 6
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $n You roll two {rd{Ra{rg{Rg{re{Rr{rs{x and one grim for a score of 10!
+mob echoaround $n $n rolls two {rd{Ra{rg{Rg{re{Rr{rs{x and one grim for a score of 10!
+if rand 6
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 94
+if rand 50
+mob echoat $n You roll one {Chorse{x and two {Wcrosses{x for a score of 2!
+mob echoaround $n $n rolls one {Chorse{x and two {Wcrosses{x for a score of 2!
+if rand 89
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $n You roll two {Chorses{x and one {Dc{Wo{wi{Dn{x for a score of 2!
+mob echoaround $n $n rolls two {Chorses{x and one {Dc{Wo{wi{Dn{x for a score of 2!
+if rand 89
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 91
+if rand 67
+mob echoat $n You roll three {Wcrosses{x, for a score of 3!
+mob echoaround $n $n rolls three {Wcrosses{x, for a score of 3!
+if rand 80
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 67
+mob echoat $n You roll one {Chorse{x, one {Wcross{x and one {Dc{Wo{wi{Dn{x, for a score of 3!
+mob echoaround $n $n rolls one {Chorse{x, one {Wcross{x and one {Dc{Wo{wi{Dn{x, for a score of 3!
+if rand 80
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $n You roll one {rd{Ra{rg{Rg{re{Rr{x and two {Chorses{x, for a score of 3!
+mob echoaround $n $n rolls one {rd{Ra{rg{Rg{re{Rr{x and two {Chorses{x, for a score of 3!
+if rand 80
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 91
+if rand 67
+mob echoat $n You roll one {Wcross{x and two grims, for a score of 9!
+mob echoaround $n $n rolls one {Wcross{x and two grims, for a score of 9!
+if rand 11
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 67
+mob echoat $n You roll three {rd{Ra{rg{Rg{re{Rr{rs{x for a score of 9!
+mob echoaround $n $n rolls three {rd{Ra{rg{Rg{re{Rr{rs{x for a score of 9!
+if rand 11
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $n You roll one {Dc{Wo{wi{Dn{x, one {rd{Ra{rg{Rg{re{Rr{x and one grim, for a score of 9!
+mob echoaround $n $n rolls one {Dc{Wo{wi{Dn{x, one {rd{Ra{rg{Rg{re{Rr{x and one grim, for a score of 9!
+if rand 11
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 89
+if rand 75
+mob echoat $n You roll one {Chorse{x and two grim, for a score of 8!
+mob echoaround $n $n rolls one {Chorse{x and two grim, for a score of 8!
+if rand 23
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $n You roll one {Dc{Wo{wi{Dn{x and two {rd{Ra{rg{Rg{re{Rr{rs{x for a score of 8!
+mob echoaround $n $n rolls one {Dc{Wo{wi{Dn{x and two {rd{Ra{rg{Rg{re{Rr{rs{x for a score of 8!
+if rand 23
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $n You roll two {Dc{Wo{wi{Dns{x and one grim, for a score of 8!
+mob echoaround $n $n rolls two {Dc{Wo{wi{Dns{x and one grim, for a score of 8!
+if rand 23
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $n You roll one {Wcross{x, one {rd{Ra{rg{Rg{re{Rr{x and one grim for a score of 8!
+mob echoaround $n $n rolls one {Wcross{x, one {rd{Ra{rg{Rg{re{Rr{x and one grim for a score of 8!
+if rand 23
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 89
+if rand 75
+mob echoat $n You roll one {Wcross{x and two {rd{Ra{rg{Rg{re{Rr{rs{x, for a score of 7!
+mob echoaround $n $n rolls one {Wcross{x and two {rd{Ra{rg{Rg{re{Rr{rs{x, for a score of 7!
+if rand 34
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $n You roll one {Chorse{x, one {rd{Ra{rg{Rg{re{Rr{x and one grim, for a score of 7!
+mob echoaround $n $n rolls one {Chorse{x, one {rd{Ra{rg{Rg{re{Rr{x and one grim, for a score of 7!
+if rand 34
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $n You roll two {Dc{Wo{wi{Dns{x and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 7!
+mob echoaround $n $n rolls two {Dc{Wo{wi{Dns{x and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 7!
+if rand 34
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $n You roll one {Wcross{x, one {Dc{Wo{wi{Dn{x and one grim, for a score of 7!
+mob echoaround $n $n rolls one {Wcross{x, one {Dc{Wo{wi{Dn{x and one grim, for a score of 7!
+if rand 34
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob remember $n
+mob delay 1
+~
+#25002
+if rand 89
+if rand 75
+mob echoat $q You roll one {Chorse{x, one {Wcross{x and one grim, for a score of 5!
+mob echoaround $q $q rolls one {Chorse{x, one {Wcross{x and one grim, for a score of 5!
+if rand 60
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $q You roll one {Chorse{x, one {Dc{Wo{wi{Dn{x and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 5!
+mob echoaround $q $q rolls one {Chorse{x, one {Dc{Wo{wi{Dn{x and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 5!
+if rand 60
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $q You roll two {Dc{Wo{wi{Dns{x and one {Wcross{x, for a score of 5!
+mob echoaround $q $q rolls two {Dc{Wo{wi{Dns{x and one {Wcross{x, for a score of 5!
+if rand 60
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $q You roll two {Wcrosses{x and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 5!
+mob echoaround $q $q rolls two {Wcrosses{x and one {rd{Ra{rg{Rg{re{Rr{x, for a score of 5!
+if rand 60
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 89
+if rand 75
+mob echoat $q You roll two {Dc{Wo{wi{Dns{x and one {Chorse{x, for a score of 4!
+mob echoaround $q $q rolls two {Dc{Wo{wi{Dns{x and one {Chorse{x, for a score of 4!
+if rand 31
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $q You roll one {Wcross{x, one {rd{Ra{rg{Rg{re{Rr{x and one {Chorse{x, for a score of 4!
+mob echoaround $q $q rolls one {Wcross{x, one {rd{Ra{rg{Rg{re{Rr{x and one {Chorse{x, for a score of 4!
+if rand 69
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 75
+mob echoat $q You roll one grim and two {Chorses{x, for a score of 4!
+mob echoaround $q $q rolls one grim and two {Chorses{x, for a score of 4!
+if rand 69
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $q You roll one {Dc{Wo{wi{Dn{x and two {Wcrosses{x, for a score of 4!
+mob echoaround $q $q rolls one {Dc{Wo{wi{Dn{x and two {Wcrosses{x, for a score of 4!
+if rand 69
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 80
+mob echoat $q You roll one grim, one {Dc{Wo{wi{Dn{x and one {Chorse{x, for a score of 6!
+mob echoaround $q $q rolls one grim, one {Dc{Wo{wi{Dn{x and one {Chorse{x, for a score of 6!
+if rand 46
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 80
+mob echoat $q You roll one grim and two {Wcrosses{x, for a score of 6!
+mob echoaround $q $q rolls one grim and two {Wcrosses{x, for a score of 6!
+if rand 46
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 80
+mob echoat $q You roll three {Dc{Wo{wi{Dns{x, for a score of 6!
+mob echoaround $q $q rolls three {Dc{Wo{wi{Dns{x, for a score of 6!
+if rand 46
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+if rand 80
+mob echoat $q You roll two {rd{Ra{rg{Rg{re{Rr{rs{x and one {Chorse{x, for a score of 6!
+mob echoaround $q $q rolls two {rd{Ra{rg{Rg{re{Rr{rs{x and one {Chorse{x, for a score of 6!
+if rand 46
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+mob oload 25003
+end
+endif
+mob echoat $q You roll one {Dc{Wo{wi{Dn{x, one {rd{Ra{rg{Rg{re{Rr{x and one {Wcross{x, for a score of 6!
+mob echoaround $q $q rolls one {Dc{Wo{wi{Dn{x, one {rd{Ra{rg{Rg{re{Rr{x and one {Wcross{x, for a score of 6!
+if rand 46
+emote looks angrily at his poor roll.
+'You win...here.
+mob oload 25002
+drop coins
+end
+endif
+emote looks at the dice he rolls happily.
+'hand over the gold
+end
+~
+#25003
+if carries $i 'paperola'
+nod
+mob purge paperola
+'roll the dice when you're ready to keep playing
+'if you've got the nerve, that is
+grin
+end
+endif
+eye
+shrug
+'money's money, me ol' mum used to say.
+end
+~
+#25004
+if carries $i 'paperola'
+'no one leaves this room until I get my gold!
+growl
+endif
+~
+#25005
+~
+#25006
+if carries $i 'steelblade'
+mob oload 25016
+mob purge weaponblade
+mob purge weaponhilt
+nod
+'an ivory hilted longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'steelbastard'
+mob oload 25018
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ivory hilted bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'steelaxe'
+mob oload 25017
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ivory hafted axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+if carries $i 'smoldblade'
+mob oload 25025
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ivory hilted smoldering longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'smoldbastard'
+mob oload 25026
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ivory hilted smoldering bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'smoldaxe'
+mob oload 25027
+mob purge weaponblade
+mob purge weaponhilt
+nod
+'an ivory hafted smoldering axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+mob oload 25034
+25034
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ivory hilted shadow-wrought longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+mob oload 25035
+if carries $i 'shadowbastard'
+25035
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ivory hilted shadow-wrought bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'shadowaxe'
+mob oload 25036
+mob purge weaponblade
+mob purge weaponhilt
+nod
+'an ivory hafted shadow-wrought axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+shake
+'Didn't you read the sign? I need the blade first.
+give weaponhilt $n
+end
+~
+#25007
+if carries $i 'steelblade'
+mob oload 25019
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hilted longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'steelbastard'
+mob oload 25020
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hilted bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'steelaxe'
+mob oload 25021
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hafted axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+if carries $i 'smoldblade'
+mob oload 25028
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hilted smoldering longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'smoldbastard'
+mob oload 25029
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hilted smoldering bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'smoldaxe'
+mob oload 25030
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hafted smoldering axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+if carries $i 'shadowblade'
+mob oload 25037
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hilted shadow-wrought longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'shadowbastard'
+mob oload 25038
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hilted shadow-wrought bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'shadowaxe'
+mob oload 25039
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'an ebony hafted shadow-wrought axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+shake
+'Didn't you read the sign? I need the blade first.
+give weaponhilt $n
+end
+~
+#25008
+if carries $i 'steelblade'
+mob oload 25022
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hilted longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'steelbastard'
+mob oload 25023
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hilted bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'steelaxe'
+mob oload 25024
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hafted axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+if carries $i 'smoldblade'
+mob oload 25031
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hilted smoldering longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'smoldbastard'
+mob oload 25032
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hilted smoldering bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'smoldaxe'
+mob oload 25033
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hafted smoldering axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+if carries $i 'shadowblade'
+mob oload 25040
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hilted shadow-wrought longsword it is!
+emote hammers the swordblade into the hilt deftly.
+end
+endif
+if carries $i 'shadowbastard'
+mob oload 25041
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hilted shadow-wrought bastardsword it is!
+emote hammers the large swordblade into the hilt deftly.
+end
+endif
+if carries $i 'shadowaxe'
+mob oload 25042
+mob purge weaponhilt
+mob purge weaponblade
+nod
+'a leather hafted shadow-wrought axe it is!
+emote hammers the axeblade onto the haft deftly.
+end
+endif
+shake
+'Didn't you read the sign? I need the blade first.
+give weaponhilt $n
+end
+~
+#25009
+if mobhere $q
+say hi $q!
+mob forget
+end
+endif
+say no...$q isn't here
+end
+~
+#25010
+mob remember $n
+'I remember you $q!
+end
+~
+#25011
+if name $n 'elial'
+mob transfer $n 3014
+endif
+end
+~
+#25012
+~
+#0
+
+#OMPROGS
+O 25000 drop_prog drop_prog_dice	* `three dice'
+O 25050 speech_prog speech_prog_deathlure	* `Death's Lure'
+S
+
+#HELPS
+-1 0 'SNEAK'~
+Syntax: sneak
+
+A sneaking character is able to enter and exit rooms without being seen
+by both players and monsters, though monsters will notice them some of the
+time.  While sneaking, characters are able to pick up or drop items, and
+perform a few other actions without being observed.  
+~
+0 0 shuriken~
+Shuriken is a ninja art mastered long ago, yet not rediscovered until
+recently.  A ninja may attack his foe stealthily from far distance with the
+small, bladed ninja-stars, inflicting painful gashes.  To throw a shuriken
+you must be holding one in your hand, and you must not be wielding a weapon.
+
+Since a shuriken is light weight, it doesn't travel very far.  Thus
+the effective range of this skill is limited to the next room.
+ 
+{CSYNTAX: shuriken <direction> <target>{x
+~
+0 0 todo list~
+~
+0 0 wild wildswing swing~
+{CWILD SWING{x
+ 
+{CSyntax: {Rwild {xor {Rwild swing{x
+{CTarget: {xnone
+
+Wild swing is a warrior technique involving a quick burst of spinning, where
+the warrior swings his or her weapon as he or she spins. All persons in
+the current room will most likely taste the warrior's blade, but
+the warrior might become dizzy or drop his or her weapon.
+~
+0 0 Zsuzsu TODO~
+Everyone always asks about {YTHE LIST{x but it's {Wfar{x too long to put
+on the mud.  But these are the major tasks that are slated, and their
+current priority.
+ 
+{GT{ghe {GL{gist{x
+{g-{G-{g-{G-{g-{G-{g-{G-{g-{G-{g-{G-{x
+   1. v2 Beta bugs
+   2. clans
+   3. New Religion Pantheon
+   4. Consecrated Weapons (formerly Secret Project 'W')
+   5. Rogue
+   
+listing anything past this amount of things is planning into X-mas, prolly.
+ 
+{GZ{gz{x
+email: little_zsuzsu@@hotmail.com
+{Dlast updated: 2006-07-04{x
+~
+0 0 write~
+{CSyntax: write <objectname>{x
+
+You may {Rwrite{x on {Rparchment{x type objects that are in your
+inventory, it is similar to writing a note or description.  To view what has
+been written on the object, simply {Rlook{x at it.  Some parchment objects
+have different characteristics, it may only be able to be written on once,
+or it may not be able to be picked up once it is dropped.  You can use these
+for whatever you wish, post letters that cannot be picked up at the entrance
+to a clan you wish to join, or create copies of a newspaper to sell to any
+that want it.  Have fun with this but please--don't abuse the ability and
+write vulgar things, and do not write things that are out of character, the
+write ability is completely in character.  
+ 
+To read a parchment, you can look or read it if it is in the ground, or
+examine it if it is in your inventory or on the ground.
+~
+0 0 SLING~
+Thieves learn the ability to sling daggers at foes from a room away.  To
+do so, they must have at least one hand free and a dagger in their 
+inventory.
+ 
+Upon a successful strike, the dagger has a chance of lodging itself in 
+the victim's leg, thus giving him a small jolt of pain with every movement.
+ 
+{CSYNTAX: sling <direction> <victim>{x
+~
+0 0 Alamor Book~
+Onizio has major awesome points in here!!
+ 
+He correctly deciphered the following riddle:
+
+"I sound like an ear-less giraffe;
+My foolish synonym rhymes with a pre-bounce smash."
+ 
+ 
+The answer is {GGaffe{x!
+~
+-1 $~
+
+#$

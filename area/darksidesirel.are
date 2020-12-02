@@ -1,0 +1,3798 @@
+#AREADATA
+Name The Darkside of Sirel~
+VNUMs 19851 19950
+Credits Nalaeya~
+Security 1
+LevelRange 25 35
+ResetMessage A deathly chill overtakes you as you feel a dark presence near you.~
+End
+
+#MOBILES
+#19851
+mysterious wanderer man~
+The Mysterious Wanderer~
+A man stands here with a crooked smile, gazing at you contemptuously.
+~
+Clad in dark clothing in a fashion you've never seen before, this man is
+obviously not from the area.  His features are pleasant enough, save for a
+long dark scar that runs down his forehead to end just above his left ear. 
+He wears a crooked grin as he looks you over, and you cannot help but feel
+that there is a deep contempt in his gaze.
+~
+human~
+ABe JZu -1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+M death 19875 100~
+M act 19882 shake~
+M speech 19883 yes~
+M act 19883 nod~
+M give 19884 all~
+M death 19886 100~
+#19852
+little girl~
+the little girl~
+A little girl stands here, blood dripping from her hands.
+~
+Her face is covered in blood, though it doesn't appear to be her own. 
+She smiles at you, showing her teeth, which appear to be sharpened to fine
+points, bits of flesh and blood dyeing them red.  Her yellow curls are
+tangled and covered with filth, and her once white dress is ripped in
+various places and stained by blood.  She holds a small doll in her hands,
+and appears to stop and talk to it every few moments.  
+~
+zombie~
+ABFi 0 -1000 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 Q 0 N
+stand stand female 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F res I
+F vul D
+M death 19851 20~
+#19853
+possessed doll~
+{ra possessed doll{x~
+A child's doll floats in the center of the room, eyes glowing red.
+~
+It appears to be a regular child's doll, taken over by a malevolent
+spirit.  The smiling baby face is corrupted into a vicious scowl, and where
+the eyes should be instead is a red glow, burning with hatred.  
+~
+doll~
+ABFe 0 -1000 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M random 19852 3~
+M death 19853 100~
+#19854
+young woman~
+the young woman~
+A young woman is bent over the corpse, chewing on its flesh.
+~
+Covered in blood from head to toe, this young woman is no longer human,
+but rather something else entirely.  Her eyes are bloodshot, and her
+movements awkward, though she seems no less dangerous because of it.  
+~
+zombie~
+ABFi 0 -1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+0 Q 0 N
+stand stand female 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19855
+mangled zombie undead corpse~
+the mangled zombie~
+A disgusting undead corpse crawls across the floor, half of its body missing.
+~
+This horrible being has lost the entire lower half of its body, as well
+as an arm.  Someone, it is still animated by some hateful force, striving
+with all its will to reach you and bite into your flesh.  
+~
+zombie~
+ABOei 0 -1000 0
+26 26 45d26+0 130d10+85 8d3+18 none
+-7 -7 -7 -2
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19856
+feeding zombie undead corpse bloody~
+a blood-covered zombie~
+A blood-covered zombie turns from its feeding and lunges at you!
+~
+Covered in blood, with half of its face missing, this zombie is a
+frightening sight.  Blood drips from its mouth, and its one eye is fixed on
+you, waiting for an opportunity to catch you off guard and tear you apart.  
+~
+zombie~
+ABFOi 0 -1000 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19857
+dark creature something~
+a dark creature~
+Something moves in the darkness, its breath rasping and hot against your neck.
+~
+It's difficult to make this creature out.  It appears to just be a
+shifting mass of darkness, every once in a while revealing hints of a hairy,
+muscular body, with sharp claws and large, black eyes that watch your every
+move.  
+~
+unique~
+ABFe JZ -1000 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F attr+ A
+#19858
+function mob~
+a function mob~
+A function mob for people climbing out.
+~
+~
+human~
+ABe DFlt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCD 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19854 ~
+I 92
+#19859
+function mob~
+a function mob~
+A function mob to make the stairs collapse.
+~
+~
+human~
+ABe DFJlt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCD 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19855 5~
+I 92
+#19860
+wizi mob~
+a function mob~
+A mob is here scaring people who walk in.
+~
+~
+human~
+ABe 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M delay 19856 100~
+M grall 19857 100~
+I 92
+#19861
+half burnt zombie~
+a half-burnt zombie~
+A half-burnt zombie is pinned under the rubble.
+~
+Face charred and bloody, the zombie is a terrible sight.  It works
+desperately to free itself from the fallen ceiling beams, its legs pinned
+beneath them and unable to break free.  Red eyes gaze at you hungrily, and a
+vicious snarl escapes its lips as it reaches out for you.  
+~
+zombie~
+ABei 0 -1000 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19862
+function mob~
+a function mob~
+This mob brings the spider in the jewelry box to life.
+~
+Will summon a spider when someone opens the box.
+~
+human~
+ABe 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M act 19858 opens the jewelry box.~
+I 92
+#19863
+venemous spider~
+{Da {gvenemous{D spider{x~
+A small green spider crawls across the floor towards you.
+~
+The spider is small, but it moves fast, and venom glistens off the edge
+of its fangs.  
+~
+unique~
+ABi 0 -1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+H LQ 0 H
+stand stand either 0
+P ACMV medium flesh~
+~
+F attr+ A
+M death 19859 100~
+#19864
+zombie blood-covered~
+a blood-covered zombie~
+A blood-covered zombie reaches for you hungrily.
+~
+Covered from head to toe in wet blood, the creature before you is vile, a
+personification of pure, senseless evil.  It gazes at you hungrily, intent
+on tearing out your flesh.  
+~
+zombie~
+ABi 0 -1000 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19865
+starving zombie corpse~
+a starving zombie~
+A pale, emaciated corpse stumbles towards you, hands reaching greedily.
+~
+This zombie seems quite frail, but the red glow in its eyes shows a
+fierce determination to reach you, and underestimating it would likely be a
+mistake.  Its body is frail and skeletal, almost as if it is starving, but
+it seems completely unaware of its state, concentrating solely on reaching
+your living flesh.  
+~
+zombie~
+ABi 0 -1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F vul D
+#19866
+dull-eyed zombie~
+a dull-eyed zombie~
+A zombie frantically claws at the inn, trying to find a way inside.
+~
+Unaware of your presence, the zombie seems focused on trying to find a
+way inside, its bloody hands clawing against the wall and window of the inn,
+desperate to find a way in.  
+~
+zombie~
+ABi 0 -1000 0
+29 29 48d29+0 145d10+85 9d3+19 none
+-9 -9 -9 -3
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19867
+wandering zombie~
+a wandering zombie~
+A zombie stumbles around the field aimlessly, searching for living flesh.
+~
+Blood-covered and decaying, this zombie is a terrifying sight.  Whatever
+dark magic that animates it has given it an unquenchable thirst for the
+blood and flesh of the living.  Its red eyes shift back and forth as it
+moves across the field, searching for any survivors.  
+~
+zombie~
+AFi 0 -1000 0
+31 31 65d31+0 155d10+85 10d3+20 none
+-11 -11 -11 -4
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19868
+rotting zombie~
+a rotting zombie~
+A rotting zombie makes its way through the village, flesh falling off of its body.
+~
+The stench coming from this creature is sickening.  Rotting flesh hangs
+loose across its frame, small pieces breaking off every few moments to fall
+to the ground.  Despite its condition, it seems to have no trouble moving
+forward, and its eyes glow with the same evil light as all the others.  
+~
+zombie~
+ABFi 0 -1000 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19869
+undead guardian gray creature~
+the undead guardian~
+A tall, gray creature stands watch over the pass.
+~
+The guardian is vaguely human in appearance, though quite tall, with a
+grayish complexion.  Its eyes are unnaturally big, taking up almost half of
+its face, giving it a strange and disturbing appearance.  It moves quickly,
+its body seeming to flow from place to place, making it difficult to keep an
+eye on.  
+~
+zombie~
+ABO 0 -1000 0
+34 34 94d34+0 340d11+95 12d2+30 none
+-15 -15 -15 -8
+H 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19870
+revolting zombie~
+a revolting zombie~
+A revolting zombie tears the flesh from a corpse in the corner.
+~
+Covered in dried as well as fresh blood, this zombie is absolutely
+disgusting, even for an undead.  Its flesh is putrid, falling off in greasy
+chunks that bear an almost overwhelming odor.  Bits of flesh hang from its
+mouth, the remains of some unfortunate soul it encountered.  
+~
+zombie~
+ABFei 0 -1000 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19871
+a zombie~
+a bloody zombie~
+A zombie is bent over the corpses, feasting on their flesh.
+~
+The zombie is covered in blood, almost every inch of its putrid flesh
+dyed red.  Glowing red eyes turn towards you, hungering.  
+~
+zombie~
+ABFi 0 -1000 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19872
+injured zombie blinded~
+an injured zombie~
+A blinded zombie lies on the floor, bloodied hands clawing at the air.
+~
+This zombie appears to be in bad shape, barely able to crawl across the
+floor.  It senses your presence, but apparently cannot see you, struggling
+to figure out where you are.  
+~
+zombie~
+ABei A -1000 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+0 Q 0 N
+stand stand either 0
+0 0 medium flesh~
+~
+F imm BC
+F vul D
+#19873
+mayor man~
+the mayor~
+A balding man lies huddled behind the desk, sobbing as he holds his head.
+~
+The mayor is in his middle years, what little there is left of his hair
+mostly gray.  His eyes are wide as he stares ahead, whispering to himself. 
+His once respectable clothes are torn and dirty, though he doesn't seem to
+notice.  His face is pale and lined with worry, twisting into odd
+expressions every few moments, giving doubts about his sanity.  
+~
+human~
+ABe 0 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+I 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 19860 100~
+M random 19861 20~
+M act 19862 says~
+#19874
+something water dark shape~
+something in the water~
+A dark shape moves just below the surface of the water, circling around you.
+~
+It's difficult to make out anything about the creature, as all you can
+see is a vague dark shape and the ripples that it makes on the surface of
+the water.  It's impossible to tell if it is big or small, but it doesn't
+look very friendly either way.  
+~
+unique~
+ABei 0 -1000 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+0 I 0 0
+stand stand none 0
+Xc AEKNQUVX medium flesh~
+~
+#19875
+slimy tentacle something~
+a slimy tentacle~
+Something large moves just beneath the water's surface, causing ripples.
+~
+Peering down beneath the surface, you can make out a large form beneath
+the water.  A slimy tentacle occasionally reaches the surface, only to
+disappear a moment later.  
+~
+unique~
+ABFei 0 -1000 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+O L M J
+stand stand none 0
+X N large flesh~
+~
+#19876
+hag woman well witch~
+{Dthe well witch{x~
+{DA terrible hag stands at the bottom of the well, cackling to herself{x.
+~
+{DThough human in form, there is something very terrible and horrifying
+about this woman.  She appears to be an old crone, hideous in appearance,
+bent and stooped with age, but she moves with a disturbing speed and grace. 
+She holds a gnarled staff, cackling as she moves about you, trying to find a
+weakness and strike you down.  {x 
+~
+human~
+ABCFe x -1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+H A M N
+stand stand female 0
+0 0 medium flesh~
+~
+F attr+ AB
+#19877
+wizi~
+the twisted hands~
+A mob is here to pull people down into the well.
+~
+~
+human~
+ABe 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M random 19863 ÷/!~
+I 92
+#19878
+ghost young handsome man~
+the ghost of a handsome young man~
+A handsome young man waits by the gates, strangely insubstantial.
+~
+He is a young man, a farmer by his clothes.  His blond hair is cut short,
+and a small beard adorns his chin.  As you look at him, you find your eyes
+moving beyond him, seeing through him as if he is not physically solid.  He
+appears to be waiting for something, completely unconcerned by the
+destruction around him.  
+~
+human~
+ABe U 1000 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 ABCDLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+M greet 19866 100~
+M speech 19867 yes~
+M speech 19868 no~
+M entry 19869 100~
+M random 19864 100~
+#19879
+dying paladin man~
+the dying paladin~
+A dying paladin lies by the altar, unable to stand.
+~
+He appears to be fairly young, no older than thirty, but already bears
+several battle scars, the most visible of which is a long white scar that
+runs across his left cheek.  His face would be pleasant, but for the hard
+set to it and the deep blue eyes that look as if they have seen years of
+suffering.  His plate mail armor is damaged in several places, and blood
+covers his sword and hands, evidence that he has recently been in battle. 
+Though he does not bear any visible injuries, he appears to be dying, his
+face ashen and his breathing laboured.  
+~
+human~
+ABTe Hc 1000 0
+35 35 101d35+1000 350d11+95 12d2+30 none
+-15 -15 -15 -8
+EKLNQ ABLQU 0 M
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+M greet 19870 100~
+M speech 19871 no~
+M act 19871 shake~
+M speech 19872 yes~
+M act 19872 nod~
+M give 19873 all~
+M death 19880 100~
+#19880
+paladin~
+the paladin~
+A tall, armored paladin moves forward with a purposeful stride.
+~
+He appears to be fairly young, no older than thirty, but already bears
+several battle scars, the most visible of which is a long white scar that
+runs across his left cheek.  His face would be pleasant, but for the hard
+set to it and the deep blue eyes that look as if they have seen years of
+suffering.  His plate mail armor is damaged in several places, and blood
+covers his sword and hands, evidence that he has recently been in battle. 
+He does not bear any visible injuries, however, and shows no signs of
+tiring, his strong face bearing a determined look.  
+~
+human~
+ABTe DFHZclt 1000 0
+35 35 101d35+2000 350d11+95 12d2+30 slash
+-15 -15 -15 -8
+EKLNQ ABLQ 0 M
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ AB
+M delay 19876 100~
+M give 19877 19872~
+M entry 19879 100~
+M death 19880 100~
+M speech 19877 ghhhfhh~
+#19881
+wizi mob ppppp~
+the mystical barrier~
+An invisibile mob creates the mystical barrier.
+~
+Used with mpcodes.
+~
+human~
+ABe DFJZlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCD 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F attr+ A
+M exall 19874 2~
+I 92
+#19882
+spider bloated~
+a hideously bloated spider~
+A hideously bloated spider lunges at you with unbelievable speed.
+~
+The spider is enormous, at least five feet tall and three times as wide,
+counting its legs.  A multitude of eyes are fixed on you, filled with hunger
+and cunning.  Its body is orange with dark stripes, and horribly bloated, as
+if it has recently had a feast.  Despite its size, it moves with a startling
+speed, ready to attack.  
+~
+unique~
+ABFei DFlx -1000 0
+35 35 101d35+500 350d11+95 12d2+35 none
+-15 -15 -15 -8
+HO ABLQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F attr+ AB
+M death 19885 100~
+#19883
+blood-covered zombie~
+a blood-covered zombie~
+A blood-covered zombie is bent over a corpse, feasting.
+~
+Covered in blood from head to foot, this zombie is so dirty and mangled
+that it is impossible to tell whether it was a man or a woman in life.  A
+terrible smell emanates from it, almost overwhelming.  
+~
+zombie~
+ABFi 0 -1000 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+0 Q 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F aff d
+F imm BC
+F vul D
+#19887
+handsome young traveler~
+the handsome young traveler~
+A young traveler rests among the ruins, taking in the scenery.
+~
+He is a young man, no older than thirty, though his clothes and
+possessions make it clear that he is a traveler.  His face is lit up by
+startling blue eyes and a warm cheerful smile, and even the long white scar
+across his left cheek does little to diminish his handsome features.  His
+clothes are bright and colourful, though a bit dusty and worn, in a style
+uncommon to this area, suggesting that he has traveled a long way.  
+~
+human~
+ABe 0 1000 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 19763 5~
+#0
+
+#OBJECTS
+#19851
+possessed doll~
+{ra possessed doll{x~
+A child's doll floats in the center of the room, eyes glowing red.~
+unknown~
+~
+treasure EJh AO
+0 0 0 0 0
+25 5 0 P
+A
+19 6
+A
+13 -10
+E
+doll possessed~
+It appears to be a regular child's doll, taken over by a malevolent
+spirit.  The smiling baby face is corrupted into a vicious scowl, and where
+the eyes should be instead is a red glow, burning with hatred.  
+~
+G none
+G none
+G none
+G none
+#19852
+corpse young man~
+the corpse of a young man~
+The corpse of a young man lies here, covered in blood and half-eaten.~
+unknown~
+~
+container R 0
+100 0 0 50 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#19853
+plain ring~
+a plain ring~
+A plain-looking ring has been left on the ground.~
+unknown~
+~
+jewelry K AB
+0 0 0 0 0 0 0
+27 4 0 P
+A
+13 20
+E
+plain ring~
+The ring doesn't look to be worth much, though there is a certain beauty
+to its simplicity.  Nothing more than a plain silver band, it nevertheless
+looks well cared for and gleams in the light.  
+~
+G none
+G none
+G none
+G none
+#19854
+ancient jade bracelet beautiful~
+{gan ancient jade bracelet{x~
+A beautiful jade bracelet lies unclaimed on the ground.~
+unknown~
+jade~
+jewelry M A
+0 0 0 0 0 0 0
+35 10 1000 P
+A
+19 3
+A
+20 -1
+A
+13 10
+E
+ancient beautiful jade bracelet~
+It looks quite old, and is obviously a piece created by someone of great
+skill.  The jade has been carved to look like a thorny vine covered with
+flowers, all in exquisite detail.  
+~
+G none
+G none
+G none
+G none
+#19855
+skeleton~
+the skeleton~
+~
+unknown~
+bones~
+container R 0
+30 0 0 30 100 0
+0 0 0 P
+E
+skeleton~
+From the looks of it, it wasn't the fall itself that killed this being,
+but rather something else.  It seems to have died a violent death.  It would
+seem that whatever valuables it once carried have been striped from it,
+though a closer search might not be uncalled for.  
+~
+G none
+G none
+G none
+G none
+#19856
+special object~
+a special object~
+A special object for mpcodes!~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#19857
+window~
+the window~
+~
+glass~
+~
+portal R 0
+0 0 A 19887 0
+0 0 0 P
+E
+window~
+The window has been boarded up, but not very well, and you think you can
+break through.  
+~
+G none
+G none
+G none
+G none
+#19858
+window~
+the window~
+~
+glass~
+~
+portal R 0
+0 0 A 19886 0
+0 0 0 P
+E
+window~
+The window leads back outside, away from this room's relative safety.  
+~
+G none
+G none
+G none
+G none
+#19859
+safe behind~
+the safe behind the painting~
+~
+metal~
+~
+container R 0
+100 ABCD 19868 100 100 0
+0 0 0 P
+E
+safe behind~
+The safe is well-hidden behind the painting, with a strong lock that
+appears to be pick proof.  
+~
+G none
+G none
+G none
+G none
+#19860
+jewelry box~
+the jewelry box~
+~
+gold~
+~
+container R 0
+50 AC 0 50 100 0
+0 0 0 P
+E
+jewelry box~
+The jewelry box is fairly small, though made of a dark, strong-looking
+wood covered with intricated designs.  It is closed, hiding its contents
+from view.  
+~
+G none
+G none
+G none
+G none
+#19861
+jade spider amulet~
+{ga jade {Dspider {gamulet{x~
+An intricately carved jade amulet lies by your feet.~
+unknown~
+jade~
+jewelry GM AC
+0 0 0 0 0 0 0
+35 5 1000 P
+A
+13 45
+E
+jade spider object amulet~
+The amulet is small, but intricately carved, every detail so perfect you
+could almost swear the spider is real.  
+~
+G none
+G none
+G none
+G none
+#19862
+flame darkness object~
+{Da flame of darkness{x~
+A strange, dark object lies on the ground.~
+darkness~
+~
+light CEJLM A
+200
+34 15 4915 P
+A
+19 1
+A
+6 -2
+A
+18 5
+A
+20 -1
+A
+9 3
+E
+flame darkness object~
+It resembles a regular flame, though the fire, if it can be called that,
+is as black as the darkest night.  Its immediate surroundings are lit up as
+though it is day, but the surroundings beyond are dimmed somehow, as if the
+flame is stealing the light.  
+~
+G none
+G none
+G none
+G none
+#19863
+unvis~
+the well~
+~
+unknown~
+~
+fountain 0 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#19864
+well~
+the well~
+~
+unknown~
+~
+portal R 0
+0 0 A 19920 0
+0 0 0 P
+E
+well~
+The bottom of the well is shrouded in darkness, though you can hear water
+as it drips to the bottom, suggesting that it is not extremely deep.  
+~
+G none
+G none
+G none
+G none
+#19865
+gnarled staff~
+{ya gnarled staff{x~
+A gnarled staff lies abandoned on the ground.~
+unknown~
+~
+wand BG AO
+35 5 5 'magnetic trust'
+35 50 0 P
+E
+gnarled staff~
+Made of a sturdy but unidentifiable wood, this object is obviously
+magical in nature.  It seems to hum with power, barely containing the magic
+it holds inside.  
+~
+G none
+G none
+G none
+G none
+#19866
+tattered rags pile~
+tattered rags~
+A pile of tattered rags has been left here.~
+unknown~
+rags~
+clothing 0 AD
+0 0 0 0 0 0 0
+35 10 52505 D
+A
+20 -4
+E
+tattered rags~
+It appears to be a robe, made of coarse brown fabric, though it has
+surely seen better days.  It is falling apart, and barely held together by
+several threads.  There is something strange about it, but it is difficult
+to tell what.  
+~
+G none
+G none
+G none
+G none
+#19867
+special object~
+a thing you should never have seen~
+If you ended up with this...you shouldn't have.~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#19868
+key~
+the key to the mayor's safe~
+A small key lies on the floor, glinting.~
+metal~
+~
+key 0 A
+0 0 0 0 0 0 0
+0 1 0 P
+E
+key~
+The key is small, but with a very distinct shape, obviously meant for a
+safe.  
+~
+G none
+G none
+G none
+G none
+#19869
+sapphire ring~
+a sapphire ring~
+An expensive-looking ring has been lost here.~
+unknown~
+sapphire~
+jewelry 0 AB
+0 0 0 0 0 0 0
+35 5 10000 P
+A
+19 5
+A
+18 4
+E
+sapphire ring~
+The sapphire is elegant and flawless, of the highest quality.  The cut is
+simple but beautiful, meant to draw attention but not overwhelm.  
+~
+G none
+G none
+G none
+G none
+#19870
+mpcode object 1~
+mpcode object 1~
+An object only useful for imm stuff.~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+1 1 0 P
+G none
+G none
+G none
+G none
+#19871
+altar~
+the beautiful altar~
+~
+marble~
+~
+container R 0
+1000 ABCDE 19872 1000 100 0
+0 0 0 P
+E
+altar~
+The altar is small, and made of marble, but the carvings along its edges
+add an uncommon beauty to it.  The designs are simple, but the work is so
+masterfully done that it is a marvel to look upon.  
+~
+G none
+G none
+G none
+G none
+#19872
+orb talath~
+{WThe Orb of {YTalath{x~
+A beautiful white orb rests on the ground, glowing softly.~
+unknown~
+divinity~
+key 0 AO
+0 0 0 0 0 0 0
+35 3 0 P
+A
+20 -3
+A
+9 5
+E
+orb talath~
+The orb is small enough to be held in one hand, and surprisingly light. 
+It's surface is smooth, like glass, and cool to the touch, though it doesn't
+resemble any material you have ever seen.  Looking upon it, a feeling of
+peace and serenity overwhelms you, as if you are gazing upon all that is
+good and precious in the world.  
+~
+G none
+G none
+G none
+G none
+#19873
+mirror reflection image~
+{cthe mirror's{C reflection{x~
+{cThe {Cmirror's {cstrange {Creflection{c beckons you closer.{x~
+unknown~
+~
+portal R 0
+0 0 A 19818 0
+0 0 0 P
+E
+mirror reflection image~
+The mirror shows your reflection with exceptional clarity, not a single
+bubble or streak marring its surface.  It has somehow escaped the
+destruction, standing amongst the wreckage of the room completely unaffected
+by whatever has occurred here.  Although your own reflection is accurate,
+the room in the mirror is vastly different from this one.  It is bright and
+airy, with no signs of death or destruction whatsoever.  The image is so
+clear that you almost feel you walk through and enter it.  
+~
+G none
+G none
+G none
+G none
+#19874
+bloody head~
+the {rbloody{x head of the paladin~
+A blood-covered head lies on the ground, face fixed with a look of pain and horror.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+bloody head~
+The features of the face are obscured by blood, and twisted in pain, but
+it clearly once was attached to the body of a young man.  A distinctive
+white scar runs across its cheek.  
+~
+G none
+G none
+G none
+G none
+#19875
+sphere black mist~
+{Da sphere of black mist{x~
+A sphere of strange black mist slowly crawls along the ground.~
+darkness~
+~
+portal 0 A
+1 0 A 19923 0
+35 1 0 P
+A
+9 5
+A
+20 -3
+E
+black sphere mist~
+The sphere is made of a strange black mist, that expands and contracts in
+a dizzying manner.  Looking deeply into it, an image briefly appears in the
+mist, though it is obscured just as suddenly as it appeared, before you can
+tell anything more about it.  
+~
+G none
+G none
+G none
+G none
+#19876
+portal forest web~
+{ga portal to a {Ddark {gf{Go{gr{Ge{gs{Gt{x~
+{gA portal stands by a large {Wweb{g, leading to a {Ddark {gf{Go{gr{Ge{gs{Gt{x~
+unknown~
+~
+portal R 0
+0 0 A 6104 0
+0 0 0 P
+E
+portal forest~
+The portal is shaped like an arch, with strange runes running down along
+its border.  Through the portal is an image of a dark forest, though, in a
+place like this, it is difficult to tell if all is what it seems.  
+~
+G none
+G none
+G none
+G none
+#19877
+whip black snakeskin~
+{ya whip of {Dblack s{yna{yk{De{ysk{yi{Dn{x~
+A black snakeskin whip lies in a coil.~
+unknown~
+snake skin~
+weapon 0 AN
+whip 3 10 whip C
+35 23 7889 P
+A
+19 1
+A
+13 -10
+E
+black snakeskin whip~
+The handle is sturdy and easily gripped.  The tail is about five feet in
+length, and made of dark snakeskin.  Blood along its length makes it clear
+that it has been an effective weapon for its past owner.  
+~
+G none
+G none
+G none
+G none
+#19878
+venomous spider fang~
+{ga venemous {Dspider{R fang{x~
+A long, sharp fang drips venom onto the ground.~
+unknown~
+~
+weapon CEJLMST AN
+dagger 5 9 pierce H
+40 20 76216 P
+A
+19 5
+E
+venemous spider fang~
+It is a fang, though large enough to be used as a dagger.  Whatever
+creature it once belonged to must have been monstrous in size.  Venom drips
+from the fang, from a hidden source, dropping to the ground and hissing as
+it makes contact.  
+~
+G none
+G none
+G none
+G none
+#19879
+spider silk web~
+{Wa silk spider's web{x~
+A spider's web covers the ground.~
+unknown~
+spider silk~
+armor CEJL AJ
+15 15 15 14 'none' 0
+40 10 92855 P
+A
+19 4
+A
+18 4
+A
+13 10
+A
+14 10
+A
+12 10
+E
+silk spiders web~
+The spider's web is large, with thick strands that stick to anything they
+touch.  A dark magic flows through the web, hardening it on one side and
+making it an effective shield for its wearer.  
+~
+G none
+G none
+G none
+G none
+#19880
+unholy symbol spider queen~
+{yt{Dhe u{yn{Dh{yol{Dy s{yy{Dm{yb{Dol o{yf {Dt{yhe {gspider {Mqueen{x~
+A small spider-shaped figurine lies on its face in the ground.~
+wood~
+~
+wand CEGJL AO
+40 5 5 'web'
+40 35 1000 P
+A
+18 7
+A
+12 15
+A
+20 -1
+E
+unholy symbol spider queen figurine~
+The figuring is small, perhaps five inches in length.  It depicts an
+enormous spider, mouth gaping open to reveal sharp, venomous fangs.  An
+unrecognizable, flowing script runs beneath the belly of the spider, giving
+it a mystical appearance.  
+~
+G none
+G none
+G none
+G none
+#19881
+finely crafted greatsword sword enormous~
+a finely-crafted greatsword~
+An enormous greatsword has been left on the ground.~
+unknown~
+~
+weapon IKL AN
+bastardsword 4 20 slice FI
+40 75 270392 P
+A
+19 5
+E
+finely crafted greatsword sword enormous~
+This sword is quite large, and weighs enough that a good deal of strength
+is required to use it properly.  The blade is finely-crafted and polished,
+shining brightly as it reflects the light that hits it.  It has recently
+been sharpened, and is clearly a dangerous weapon in the right hands.  There
+is a holy aura about it, though it is difficult to determine any more than
+that.  
+~
+G none
+G none
+G none
+G none
+#19882
+holy symbol talath silver chain~
+{Wthe holy symbol of {YTalath{x~
+A holy symbol on a slim silver chain rests upon the ground.~
+silver~
+~
+treasure IKL AC
+0 0 0 0 0
+40 15 2000 P
+A
+13 5
+A
+19 5
+A
+18 5
+E
+holy symbol talath silver chain~
+The symbol is an equal-sided cross, contained in a perfect circle.  It is
+made of silver, as is the delicate chain it is attached too.  It is warm to
+the touch, and clearly blessed, giving you an overwhelming sense of purpose
+every time you gaze upon it.  
+~
+G none
+G none
+G none
+G none
+#19883
+silver-streaked bracer~
+{wa {Wsilver-str{wea{Wked {wbracer{x~
+A silver-streaked bracer has been forgotten here.~
+silver~
+~
+armor IKL AM
+15 15 15 14 'none' 0
+40 25 50098 P
+A
+19 2
+A
+18 5
+A
+13 20
+E
+silver streaked bracer~
+The bracer is made of a tough, resistant material, offering good
+protection for the wrists.  A fine silver mesh covers the bracer, appearing
+to be purely for decorative purposes.  Upon further inspection, however, it
+is clear that the silver has been blessed, providing exceptionally good
+protection.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#19851
+The Wanderer's Room~
+The room here seems alive with some dark power.  Black flecks move
+through the air, crackling energy filled with a cold, malicious will.  What
+furniture there once was has been removed, leaving the room bare save for a
+large circle of black powder on the floor.  Mystical symbols carved along
+the edges of the circle seem to hum with power, causing regular pulsations
+that send a wave of sickness through you with each beat.  
+~
+0 ADNX inside
+E
+black flecks~
+They don't quite seem to be alive, floating through the room and leaving
+a horrible, slimy feel whenever they cross too close to you.  A sense of
+deep, terrifying evil emanates from them, filled with a hatred so
+overpowering it cannot be comprehended.  
+~
+E
+circle~
+The symbols carved within the circle pulse with a life of their own,
+sending out sickening waves of evil.  
+~
+D0
+The door leads back out into the hallway of the ruined inn.
+~
+~
+DZ 0 19852
+0 0
+S
+#19852
+A Ruined Hallway~
+A strong stench of rotting wood assaults you as you walk along the
+hallway.  Beams from the ceiling have been dislodged and look ready to crash
+to the floor at any time, and the floor itself creaks and groans ominously
+with every step you take.  The hallway is shrouded in complete darkness,
+save for the strange glow that is visible beneath the door to the south.  
+~
+0 ADNX inside
+E
+door~
+A strange, disturbing glow can be seen seeping out from beneath the door.
+The door itself is of the same wood as the other rooms, but some strange
+force seems to be protecting it from the decay that afflicts the rest of the
+inn.  
+~
+D0
+A horrible stench comes from the north.
+~
+~
+Z 0 19853
+0 0
+D2
+What lies in the room beyond is shrouded by a strange, misty darkness.  
+~
+~
+DZ 0 19851
+0 0
+D3
+The hallway continues westward through the ruined inn.
+~
+~
+Z 0 19854
+0 0
+S
+#19853
+A Ruined Room~
+A terrible stench of rotting flesh assaults you immediately upon entering
+the room.  Bodyparts have been stacked into a pile in a corner of the room,
+bloody limbs torn and rotting where they lie, covered with bite marks that
+attest to their terrible fate.  A shelf has collapsed on the western wall,
+the dolls it once held now broken and filthy.  Boards have been nailed up
+over what used to be a window on the northern wall, blocking the view of
+whatever lies outside.  
+~
+0 ADNX inside
+D2
+What lies beyond the room is lost in the darkness.
+~
+~
+Z 0 19852
+0 0
+S
+#19854
+A Ruined Hallway~
+A strong stench of rotting wood assaults you as you walk along the
+hallway.  Beams from the ceiling have been dislodged and look ready to crash
+to the floor at any time, and the floor itself creaks and groans ominously
+with every step you take.  The hallway is shrouded in complete darkness,
+through from the low moans and growls that are barely audible, it would seem
+that the inn is certainly not empty.  
+~
+0 ADNX inside
+D0
+A door leads north towards one of the inn rooms.
+~
+~
+Z 0 19856
+0 0
+D1
+The hallway continues eastward through the ruined inn.
+~
+~
+Z 0 19852
+0 0
+D2
+A door leads south towards one of the inn rooms.
+~
+~
+Z 0 19857
+0 0
+D3
+The hallway continues westward through the ruined inn.
+~
+~
+Z 0 19855
+0 0
+S
+#19855
+A Ruined Hallway~
+A strong stench of rotting wood assaults you as you walk along the
+hallway.  Beams from the ceiling have been dislodged and look ready to crash
+to the floor at any time, and the floor itself creaks and groans ominously
+with every step you take.  The hallway is shrouded in complete darkness,
+through from the low moans and growls that are barely audible, it would seem
+that the inn is certainly not empty.  A staircase leads down to the main
+floor, though it doesn't look to be very sturdy.  
+~
+0 ADNX inside
+D0
+A door leads north towards one of the inn rooms.
+~
+~
+Z 0 19859
+0 0
+D1
+The hallway continues eastward through the ruined inn.
+~
+~
+Z 0 19854
+0 0
+D2
+A door leads south towards one of the inn rooms.
+~
+~
+Z 0 19858
+0 0
+D5
+The stairs leading downward do not appear to be very sturdy.
+~
+~
+Z 0 19860
+0 0
+S
+#19856
+A Ruined Room~
+Upon entering the room, the first thing that catches your sight is a
+rotting corpse hanging from a rope tied to a ceiling beam.  The stench of
+decay is almost overpowering.  The corpse appears to be male, and is dressed
+in fine clothes, as if he felt it was important to be on his best appearance
+in death.  Not a stain mars the outfit, save for some blood on the cuff of
+his right sleeve.  The room itself is empty of any furniture, and there is
+nothing much of note save for some words scrawled in blood on the northern
+wall, and the hanging corpse.  
+~
+0 ADNX inside
+E
+corpse~
+The clothes are quite fine, so this man was either a thief or quite
+wealthy.  The corpse is in an advanced state of decay, making it difficult
+to make out anything more about what this man was like in life.  
+~
+E
+words wall north~
+Written in a shaky hand with what appears to be blood is the following message:
+ 
+{rIt began at the inn. All this evil....we never stood a chance.{x
+~
+D2
+The doorway leads back out into the ruined hallway.
+~
+~
+Z 0 19854
+0 0
+S
+#19857
+A Ruined Room~
+A large gaping hole lies where the floor should be.  Only a few steps
+from the door, it looks to be a deathtrap for the unwary, though with a
+little care you could probably work your way down to the floor below.  The
+room here is fairly empty save for the hole at the center of the floor.  The
+remains of a bed lie in a corner, and on the southern wall, a large window
+has been boarded tightly up so that not even a sliver of light passes
+through.  
+~
+0 ADNX inside
+E
+window~
+The window has been tightly nailed shut and covered with wooden boards.  
+~
+E
+hole floor~
+The hole in the floor seems to lead down to a room below, though it's
+difficult to make out any details amidst all the destruction.  
+~
+D0
+The doorway leads back out into the ruined hallway.
+~
+~
+Z 0 19854
+0 0
+D5
+The remains of what was once the inn's kitchen are visible through the
+collapsed floor.  
+~
+~
+Z 0 19861
+0 0
+S
+#19858
+A Ruined Room~
+Entering this room almost feels like entering a scene from a nightmare. 
+Blood covers the walls and floors, some of it even dripping from the
+ceiling.  The wooden floorboards are slick with it, making it difficult to
+maintain sure footing as you walk across.  The rotting remains of half-eaten
+corpses are piled up by the walls, filling the room with a terrible stench. 
+The air is as cold as winter, and for a moment you think you can hear the
+screams of those who died here, but the feeling is gone as quick as it came.
+
+~
+0 ADNX inside
+D0
+The doorway leads back out into the ruined hallway.
+~
+~
+Z 0 19855
+0 0
+S
+#19859
+A Ruined Room~
+Debris litters the floor here, making it difficult to pick your way
+across the room.  It appears that the ceiling caved in some time ago,
+crashing down across the room and giving a glimpse of the sky above.  It
+would appear to be nighttime, though truly it is difficult to tell, because
+all that can be seen is pitch blackness, without a single star or even a
+hint of light.  
+~
+0 ADNX inside
+D2
+The doorway leads back out into the ruined hallway.
+~
+~
+Z 0 19855
+0 0
+S
+#19860
+A Narrow, Debris-filled Hallway~
+The hallway here is narrow, and filled with debris, though none of what
+litters the floor appears to have belonged to something that was once
+living.  A strong scent of charred wood hangs in the air, and through the
+collapsed doorway to the east you can see what remains of a kitchen,
+completely ravaged by fire.  A deep chill coming from the door to the west
+makes you shiver.  
+~
+0 ADNX inside
+D1
+The burnt ruins of the kitchens are just past the doorway.
+~
+~
+Z 0 19861
+0 0
+D2
+The hallway leads south into the common rooms.
+~
+~
+Z 0 19864
+0 0
+D3
+A cold chill flows up from the cellar.
+~
+~
+Z 0 19862
+0 0
+D4
+The stairs leading up to the second floor appear to be unstable.
+~
+~
+Z 0 19855
+0 0
+S
+#19861
+The Ruins of a Kitchen~
+The kitchen looks to have been ravaged by fire.  The ceiling has
+collapsed, littering the floor with debris and making it difficult to move
+forward.  The sickly sweet smell of burned flesh is strong here, though
+whatever corpses there are seem to be buried under the rubble.  Everything
+is blackened and charred, and what remains of the ceiling above creaks and
+groans ominously, in danger of collapsing at any moment.  
+~
+0 ADNX inside
+D3
+A narrow hallway runs through the inn.
+~
+~
+Z 0 19860
+0 0
+D4
+A large hole in the ceiling gives you a view of the room above.
+~
+~
+Z 0 19857
+0 0
+S
+#19862
+Before the Cellar~
+A cold chill seeps out from the cellar.  Not a sound can be heard coming
+its dark depths, yet something makes your spine tingle, and you almost feel
+as if a presence is waiting for you to enter.  The hallway to the east seems
+much more inviting than whatever lies at the bottom of the stairs.  No
+matter how you try, your eyes cannot pierce the shroud of darkness to see
+what lies beyond, and any light seems to be swallowed up by the shadows.  
+~
+0 ADNX inside
+D1
+A narrow hallway to the east leads through the inn.
+~
+~
+Z 0 19860
+0 0
+D5
+What lies inside the cellar is hidden in the darkness.
+~
+~
+Z 0 19863
+0 0
+S
+#19863
+The Cellar~
+The cellar is pitch dark, the strongest of lights doing little to dispel
+the oppressive darkness that almost seems to have a life of its own. 
+Whatever supplies were once kept here have long been destroyed or looted. 
+All that remains is broken wine bottles and collapsed wooden shelves.  There
+doesn't appear to be anything of note in the cellar, and no sign of where
+the deep chill seems to be coming from.  
+~
+0 ADNX inside
+E
+bottles shelves~
+Wine bottles lie shattered across the floor, many of them fallen from the
+collapsed wooden shelves.  A large bottle of red wine has spilled its liquid
+across the floor, looking disturbingly like a thick trail of blood.  
+~
+D4
+The steps lead back up to the main floor of the inn.
+~
+~
+Z 0 19862
+0 0
+S
+#19864
+The Ruined Inn~
+Broken tables and chairs are strewn about the common room, littering the
+floor as if a storm has passed through and destroyed everything in its path.
+The wooden floor boards beneath have been torn up in several places, making
+it difficult to maintain a steady footing when you cross the room.  The
+stench of charred flesh and burnt wood fills the air, so strong that you can
+almost taste it.  To the north lies a narrow hallway with stairs leading up
+to the second floor.  
+~
+0 ADNX inside
+D0
+A narrow hallway leads up to the second floor.
+~
+~
+Z 0 19860
+0 0
+D1
+A stone fireplace to the east seems to be the only thing that has escaped
+destruction.  
+~
+~
+Z 0 19866
+0 0
+D2
+The entrance to the inn lies to the south.
+~
+~
+Z 0 19865
+0 0
+S
+#19865
+The Entrance to the Ruined Inn~
+A large gaping hole stands where the door should be, the wood around it
+broken and splintered as if something just burst through.  The common room
+is a complete mess, the tables and chairs destroyed and a strong scent of
+charred wood coming from the north.  Through the doorway to the south lies
+the ruins of the village, many of the houses no longer standing or looking
+as if they are ready to collapse.  Terrible screams and cries pierce the
+eerie stillness, seeming to come from all directions.  
+~
+0 ADNX inside
+D0
+The common room lies in ruins.
+~
+~
+Z 0 19864
+0 0
+D1
+The common room lies in ruins.
+~
+~
+Z 0 19867
+0 0
+D2
+What remains of the village lies beyond the door.
+~
+~
+ABZ 0 19869
+0 0
+S
+#19866
+The Ruined Inn~
+The stone fireplace seems to be the only part of this room that has
+escaped destruction.  The walls are black and ash covers the floor. 
+Whatever chairs and tables that have survived the fire lie in broken heaps,
+completely ruined.  The air is thick with the smell of burned flesh, and a
+large stain of blood covers the floor and wall by the fireplace, though it
+doesn't appear to be fresh.  
+~
+0 ADNX inside
+D2
+The common room lies in ruins.
+~
+~
+Z 0 19867
+0 0
+D3
+The common room lies in ruins.
+~
+~
+Z 0 19864
+0 0
+S
+#19867
+The Ruined Inn~
+The large window on the southern wall has been boarded up tightly, though
+a small crack remains where you can see the land beyond the inn.  It appears
+to be dreary and desolate, with smoke rising from several of the ruined
+houses, and a terrible stench coming from the stream nearby.  The common
+room is completely destroyed, not a single chair or table left standing,
+everything lying in ruin.  
+~
+0 ADNX inside
+D0
+A stone fireplace has somehow escaped the destruction.
+~
+~
+Z 0 19866
+0 0
+D3
+The entrance to the inn lies to the west.
+~
+~
+Z 0 19865
+0 0
+S
+#19868
+Beneath the Stairs~
+There is little room to move inside this tight space.  It appears to have
+once been used as a storage closet, but the small door to the east is shut
+tight and cannot seem to be opened.  It would seem that the only way out is
+back the way you came, by climbing back up through the hole in the stairs. 
+A skeleton by your feet probably belongs to someone who wasn't quite as
+lucky as you in surviving the fall.  
+~
+0 ADNX inside
+D4
+You can climb back up onto the staircase.
+~
+~
+DZ 0 19860
+0 0
+S
+#19869
+Before the Ruins of the Inn~
+The inn rises up before you, leaning crookedly towards the stream as if
+it is ready to fall in.  From this vantage point it is evident that all the
+windows have been boarded up, as if to try and keep out any sight of the
+horrors assaulting the village.  A large stain of blood lies directly before
+the door, several days old.  A simple wooden sign annoucing the inn's name
+swings in the breeze, its creaking ominous amidst the deathly silence of the
+village.  
+~
+0 NX city
+E
+sign~
+{rThe Wayfarer's Retreat{x
+~
+D0
+The entrance to the ruined inn lies beyond the door.
+~
+~
+ABZ 0 19865
+0 0
+D2
+The wooden bridge does not appear to be too sturdy.
+~
+~
+Z 0 19870
+0 0
+S
+#19870
+Over the Broken Bridge~
+The wooden bridge creaks and groans with every step you take, and it
+doesn't look as if it is likely to hold out for much longer.  The murky
+waters below hide whatever lies in their depths, though every now and again
+a bloated body floats past beneath the bridge, along with other things
+better left unmentioned.  The water seems to carry a strong stench of death
+and decay, and occasionally the water ripples as something moves just
+beneath the surface.  
+~
+0 CNX city
+D0
+The ruined inn rises up to the north, still standing but in bad shape.
+~
+~
+Z 0 19869
+0 0
+D2
+A ruined field can be seen to the south.
+~
+~
+Z 0 19871
+0 0
+S
+#19871
+The Ruined Field~
+Smoke still rises from the ground, which has been completely razed and
+burnt to the point of being irreparably damaged.  The stench of death is
+almost overpowering here, with corpses littering the ground across the
+field, in various states of decay.  To the east seems to lie an enormous
+pit, and even from this distance the sounds of swarms of flies is evident. 
+The ruined field continues towards the south, while to the north stands a
+wooden bridge.  
+~
+0 NX field
+D0
+The wooden bridge no longer appears to be safe.
+~
+~
+Z 0 19870
+0 0
+D1
+An enormous pit has been dug, and filled with the corpses of the dead.
+~
+~
+Z 0 19874
+0 0
+D2
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19872
+0 0
+D3
+The town well stands to the west.
+~
+~
+Z 0 19875
+0 0
+S
+#19872
+The Ruined Field~
+The field streches out in all directions, all of it ruined and desolate. 
+Corpses lie across the ground, faces fixed in horror and contorted in pain. 
+Swarms of flies move from corpse to corpse, and some are already devoured,
+nothing more than white bone with patches of flesh.  The air is stiflingly
+hot, made worse by the horrible stench of the dead, so that it is
+increasingly difficult to breathe.  
+~
+0 NX field
+D0
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19871
+0 0
+D1
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19877
+0 0
+D2
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19873
+0 0
+D3
+The remains of an ancient tree stand to the west.
+~
+~
+Z 0 19876
+0 0
+S
+#19873
+The Ruined Field~
+The path that once led from the village across the fields to the inn is
+now indistinguishable, with no way to tell it apart from the rest of the
+charred earth.  An eerie stillness fills the air, broken occasionally by
+collapsing beams from nearby homes or the moans of the creatures that walk
+the village streets.  The air is oppressively hot, combining with the stench
+of the dead to make breathing difficult.  
+~
+0 NX field
+D0
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19872
+0 0
+D1
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19879
+0 0
+D2
+A small road runs through what remains of the village.
+~
+~
+Z 0 19880
+0 0
+D3
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19878
+0 0
+S
+#19874
+The Pit~
+An enormous pit has been dug here, and filled with corpses.  Swarms of
+flies and insects crawl across the bodies, slowly devouring what remains. 
+The bodies of children, women, and half-eaten corpses that are
+unrecognizable fill the pit.  Even more dreadful, some of the corpses appear
+to be twitching, animated by some evil magic and trying vainly to crawl out
+of the pit.  The stench is sickening, almost worst than the sight itself.  
+~
+0 NX field
+D2
+~
+~
+Z 0 19877
+0 0
+D3
+~
+~
+Z 0 19871
+0 0
+S
+#19875
+The Well~
+The well stands intact at the top of a small hill.  Though nothing
+appears amiss, an ominous feeling touches you as you approach it.  A strange
+chill seems to come from within its depths, though it does little to dispel
+the strange unnatural heat that seems to cover the village.  The bucket and
+rope used to draw water is still there, and the water itself appears to be
+clear and remarkably free of dirt.  
+~
+0 NX field
+D1
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19871
+0 0
+D2
+The remains of an ancient tree stand to the south.
+~
+~
+Z 0 19876
+0 0
+S
+#19876
+The Ruined Field~
+An enormous tree dominates the surroundings, its trunk and branches
+twisted as if in agony.  It appears to be dead, the branches gray and bare
+of leaves, the wood hacked in several places.  Blood covers the ground
+before the tree, as if a great massacre occured here, and several corpses
+hang from ropes died to the branches, swinging lazily with every soft gust
+of wind.  
+~
+0 NX field
+D0
+The town well stands to the north.
+~
+~
+Z 0 19875
+0 0
+D1
+~
+~
+Z 0 19872
+0 0
+D2
+~
+~
+Z 0 19878
+0 0
+S
+#19877
+The Top of the Hill~
+The small rise here gives a view of the terrible ruins of the village. 
+From what can be seen here, corpses litter the streets, the bodies of
+villagers who vainly tried to escape the horrors that took over their homes.
+The walking dead move through the village, crawling across the rubble in
+search of anything that remains alive.  Some of them appear to have noticed
+your presence at the top of the hill and are running towards you, ready to
+tear you apart.  
+~
+0 NX field
+D0
+An enormous pit has been dug, and filled with the corpses of the dead.
+~
+~
+Z 0 19874
+0 0
+D2
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19879
+0 0
+D3
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19872
+0 0
+S
+#19878
+The Ruined Field~
+The earth here is completely bare of life, the grass burnt so that
+nothing remains but a few dry wisps that crack under your feet.  The stench
+of death and decay is strong here, made worse by the terrible heat.  The sun
+above is hidden by dark and ominous clouds, though rather than offer any
+relief they have just trapped the heat and filled the air with suffocating
+moisture.  Ruined houses can be seen in the distance, some of them with
+smoke still rising from their ashes.  
+~
+0 NX field
+D0
+The remains of an ancient tree stand to the north.
+~
+~
+Z 0 19876
+0 0
+D1
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19873
+0 0
+S
+#19879
+The Ruined Field~
+Smoke rises from the ground all around you, thin wisps that almost seem
+ghost-like in appearance.  Whatever grass and flowers once grew in this
+field have been completely destroyed, and the earth doesn't look as though
+it will ever be able to support life again.  The ruined houses of the
+village are in clear view here, many of them burnt to the ground. 
+Blood-covered forms can be seen moving among the ruins, their moans audible
+even from here.  
+~
+0 NX field
+D0
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19877
+0 0
+D3
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19873
+0 0
+S
+#19880
+A Small Crossroad in the Village~
+The streets of the village are devoid of life.  The only thing that moves
+across them are the walking corpses of the dead, ready to lunge at you as
+soon as you enter their sight.  The air here is terribly hot, made worse by
+the horrible stench of death that seems to come from all around.  Much of
+the village lies in ruins, the houses collapsed or burned to ashes, though a
+few remain intact, if barely so.  The road continues south through the
+village, while to the north lies a desolate field still littered with
+corpses.  A small side path branches off to the west.  
+~
+0 CNX road
+D0
+The once green fields of the village have been completely destroyed.
+~
+~
+Z 0 19873
+0 0
+D2
+A small road runs through what remains of the village.
+~
+~
+Z 0 19881
+0 0
+D3
+A shaded path leads west towards the village dock.
+~
+~
+Z 0 19896
+0 0
+S
+#19881
+Down the Village Road~
+The homes to either side of the road here have been completely destroyed,
+not even a single beam left standing.  A large tree has fallen across the
+path, making progress difficult.  It appears to have been hacked to pieces,
+its ancient roots torn from the ground.  A lone wagon lies by the side of
+the road, eerily intact amidst all the destruction, save for a broken wheel.
+The road continues north and south through the village.  
+~
+0 NX road
+D0
+A small road runs through what remains of the village.
+~
+~
+Z 0 19880
+0 0
+D2
+A small road runs through what remains of the village.
+~
+~
+Z 0 19882
+0 0
+S
+#19882
+A Small Crossroad~
+The main road here branches off to the east and west, leading towards
+several homes that still remain standing.  The air is stifling, and the
+surroundings are eerily silent save for the moans of the dead, though every
+now and again a sharp cry rises, only to be quickly silenced.  A child's toy
+lies by the side of the road, a poignant reminder of the villagers who once
+inhabited this nightmare.  
+~
+0 NX road
+D0
+A small road runs through what remains of the village.
+~
+~
+Z 0 19881
+0 0
+D1
+A path leads down towards the mayor's house.
+~
+~
+Z 0 19889
+0 0
+D2
+A small road runs through what remains of the village.
+~
+~
+Z 0 19883
+0 0
+D3
+~
+~
+Z 0 19886
+0 0
+S
+#19883
+Down the Village Road~
+Two of the tall maple trees growing by the road have toppled over,
+forcing you to climb over them to reach the other side.  A sickly scent
+fills the air, coming from the fallen trees and the few left standing by the
+road.  Their leaves are covered with a sticky, yellow substance, with dark
+spots at various points.  Even the great trunks show signs of being ravaged
+by disease.  Modest homes stand to the east and west, in relatively good
+condition compared to the rest of the village.  
+~
+0 NX road
+D0
+A small road runs through what remains of the village.
+~
+~
+Z 0 19882
+0 0
+D1
+A modest home stands in relatively good condition.
+~
+~
+ABZ 0 19893
+0 0
+D2
+A small road runs through what remains of the village.
+~
+~
+Z 0 19884
+0 0
+D3
+A modest home stands in relatively good condition.
+~
+~
+ABZ 0 19892
+0 0
+S
+#19884
+Down the Village Road~
+A sickening stench fills the street, its source the decomposing corpses
+that lie in various states of decay by the side of the road.  Flies buzz
+around the corpses, so many of them that they appear as a thick black cloud
+hovering over the dead.  To the west appears to be the remains of a smithy,
+while to the east a modest shop barely remains standing.  
+~
+0 NX road
+D0
+A small road runs through what remains of the village.
+~
+~
+Z 0 19883
+0 0
+D1
+The village general shop once stood to the east.
+~
+~
+Z 0 19894
+0 0
+D2
+What remains of the village gate stands to the south.
+~
+~
+Z 0 19885
+0 0
+D3
+To the west lie what appear to be the remains of a smithy.
+~
+~
+Z 0 19895
+0 0
+S
+#19885
+By the Village Gates~
+The charred remains of a small gate and a wooden wall stand here.  At one
+point the wall appears to have stood at around six feet in height, but much
+of it has been burnt and what remains lies knocked over on the ground.  From
+this vantage point, you can see the village spread out before you, many of
+the houses destroyed or looking as if they are ready to fall apart.  Far in
+the distance stands the village inn, the dim light from the sky glinting
+dully on its red tiles.  
+~
+0 NX road
+D0
+A small road runs through what remains of the village.
+~
+~
+Z 0 19884
+0 0
+D2
+An avalanche seems to have blocked the mountain pass to the south.
+~
+~
+Z 0 19919
+0 0
+S
+#19886
+Between the Houses~
+Several corpses lie in a pile by the side of the road, half-rotten and
+slowly being devoured by maggots.  Most of the homes here have been ravaged
+by fire and are unsafe to enter, though there are a few that remain standing
+and appear to be more or less intact.  To the north lies a modest home, its
+front door torn completely off its hinges and discarded to the side.  To the
+west, the door to another modest home has been completely boarded up, and it
+seems as though it will be impossible to enter that way, though there is a
+window by the side of the house that might be a way in.  
+~
+0 NX road
+D0
+A damaged home stands to the north.
+~
+~
+Z 0 19888
+0 0
+D1
+A small road runs through what remains of the village.
+~
+~
+Z 0 19882
+0 0
+S
+#19887
+A Bedroom~
+This room seems to be completely untouched by the forces that have
+ravaged the village.  The furniture remains intact, and there is no sign
+that any struggle occured here.  The only thing that hints of trouble is the
+way in which the door has been barricaded to prevent anything from breaking
+in.  A thin layer of dust covers everything, including a corpse that is
+lying atop the bed.  The corpse is that of a woman, and from the looks of
+it, she hasn't been dead very long.  She holds a piece of parchment grasped
+tightly in her hand.  
+~
+0 ADNX inside
+E
+letter parchment piece~
+{w{WWritten in a strong, flowing hand, it appears to be a love letter.{x
+ 
+{MMy dearest Melanda,
+ 
+The time we spend apart is like torture. I cannot bear it any longer.
+I know I agreed to wait, but I did not know how difficult it would be!
+I realize that you wish to gain your father's blessing before we wed,
+but there will be plenty of time for that after. Our families will
+come to understand.
+ 
+I wish to marry you, Melanda. Tonight. I know of a priest in Caerlon
+who would be willing to perform the ceremony. We could go there under
+cover of night and be back in the village by dawn, with none the wiser.
+ 
+Meet me at the gates at midnight. Nothing can stand in the way of our
+love. We are destined to be together!
+{x
+~
+E
+corpse~
+She was a young woman, no older than twenty.  Even in death, her features
+are lovely and delicate, as if she is only sleeping.  She appears to be
+dressed in her finest clothes, a pale white gown embroidered with flowers. 
+It would appear that she has died only recently, perhaps as little as a few
+hours ago.  
+ 
+Her hand is wrapped tightly around a letter.
+~
+S
+#19888
+Inside an Old Home~
+Blood covers the floors and walls of this small home.  Furniture is still
+piled up by the entrance in a vain attempt to barricade the home against
+whatever found its way inside.  A pile of corpses lies in the corner, some
+of them missing arms and legs, others headless or mangled beyond
+recognition.  It appears as though an entire family was massacred in this
+very room, and the terror and pain they must have felt still seems to hang
+in the air.  
+~
+0 ADNX inside
+D2
+A small path runs between the houses.
+~
+~
+Z 0 19886
+0 0
+S
+#19889
+The Path to the Mayor's House~
+Corpses line the road here, if they can still be called that.  Much of
+what is left has decayed and is ready to fall apart, though even so it is
+still evident that something has been eating them.  Many of the homes here
+have been burnt to the ground, nothing remaining but a few useless objects
+visible here and there among the ashes.  To the east stands a two-story tall
+house that has somehow escaped all the devestation.  The door stands half
+open, allowing a view into the dusty interior.  
+~
+0 NX road
+D0
+The ashes of a home are all that lie there.
+~
+~
+Z 0 19891
+0 0
+D1
+The mayor's house stands unharmed to the east.
+~
+~
+Z 0 19890
+0 0
+D3
+A small road runs through what remains of the village.
+~
+~
+Z 0 19882
+0 0
+S
+#19890
+The Entrance to the Mayor's Home~
+Dust covers the floor of the mayor's home, though there are several
+footprints running across it.  The air here is strangely cool, a relief from
+the merciless heat outside.  The furniture appears to be untouched,
+everything still in its place, somehow having escaped the terrible
+destruction that has befallen the rest of the village.  To the south lies
+the library, and to the north the door to the kitchen stands open.  A
+staircase leads up further into the house.  
+~
+0 ADNX inside
+D0
+The kitchen stands beyond the doorway.
+~
+~
+Z 0 19911
+0 0
+D2
+What remains of the library lies south.
+~
+~
+Z 0 19915
+0 0
+D3
+A small path leads back towards the main village road.
+~
+~
+Z 0 19889
+0 0
+D4
+A stairway leads up to the second floor.
+~
+~
+Z 0 19913
+0 0
+S
+#19891
+The Ashes of a Home~
+Nothing but ashes remains of the home that once stood here.  Here and
+there an object pokes out from among the ruins, burnt beyond recognition. 
+The air is thick with the scent of charred wood and flesh, combining with
+the dreadful heat to make it almost impossible to breathe.  The sky above is
+as dark and ominous as ever, though there is little sign that any rain is
+soon to come to wash away the devastation.  
+~
+0 NX city
+D2
+A path leads towards the center of the village, and the mayor's house.
+~
+~
+Z 0 19889
+0 0
+S
+#19892
+The Remains of a Modest Home~
+This home appears to have fared relatively well compared to the other
+homes in the village, though that is hardly saying much.  Blood covers the
+floors and walls, and a rotting corpse rests in the hallway that lies
+between the bedrooms, filling the house with its stench.  The kitchen table
+is overturned, along with several of the chairs, and several blood stains
+along the wall and counter suggest that a struggle took place there.  
+~
+0 ADNX inside
+D1
+A small road runs through what remains of the village.
+~
+~
+ABZ 0 19883
+0 0
+S
+#19893
+The Remains of a Modest Home~
+Tables, dressers, and even a bed lie stacked by the door, apparently from
+a failed attempt to block whatever was outside from getting inside the home.
+The pile of corpses in the corner of the room attest that whatever they were
+trying to keep out eventually got through despite their best efforts.  The
+stench is almost unbearable, and the sight of blood splattered against the
+walls and ceilings hints that their deaths were quite brutal.  
+~
+0 ADNX inside
+D3
+A small road runs through what remains of the village.
+~
+~
+ABZ 0 19883
+0 0
+S
+#19894
+The Remains of a Modest Shop~
+The shop is quite cramped, the shelves overturned and littering the
+ground with useless broken items that were once for sale.  It is difficult
+to pick your way across the room, as every inch of floor is covered by the
+fallen shelves and merchandise.  The ceiling creaks ominously every now and
+then, followed by a shower of dust that rains down on you.  Though this
+building appears to have escaped the fire that ravaged much of the rest of
+the village, it doesn't appear to be very sturdy, and the strong scent of
+death and decay hints that there is more than merchandise lying beneath the
+toppled shelves.  
+~
+0 ADNX inside
+D3
+~
+~
+Z 0 19884
+0 0
+S
+#19895
+The Remains of a Smithy~
+The smithy lies in ruins, its roof half caved in and looking as if it is
+ready to fall the rest of the way any moment.  The large anvil lies
+overturned, and several large barrels that once held water lie on their
+sides.  There are no signs of any swords or weapons on the wall.  It appears
+that whatever could be used as a weapon has been taken away, leaving nothing
+of use behind.  
+~
+0 NX city
+D1
+~
+~
+Z 0 19884
+0 0
+S
+#19896
+A Shaded Path~
+A sickly scent fills the shaded path here, and the ground is covered with
+the leaves fallen from the diseased and dying trees that stand to either
+side of the small path.  To the west a dark stream can be seen, the water
+moving sluggishly towards the south, carrying corpses and wreckage dragged
+by the current.  
+~
+0 NX road
+D1
+A small road runs through the center of the village.
+~
+~
+Z 0 19880
+0 0
+D3
+The remains of the village dock stand to the west.
+~
+~
+Z 0 19897
+0 0
+S
+#19897
+By the Dock~
+The path ends suddenly at a small, crudely constructed wooden dock.  The
+stream flows by sluggishly, its black waters so dark that they hide any view
+of what lies beneath its surface.  The water itself feels quite unpleasant,
+strangely cold in the stifling heat, and leaving a coat of greenish-black
+slime on anything it touches.  Corpses and limbs floating along the water
+add to the stream's sickening stench.  The small path leads east back
+towards the village.  
+~
+0 NX noswim
+D0
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19903
+0 0
+D1
+A shaded path leads back towards the village.
+~
+~
+Z 0 19896
+0 0
+D2
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19898
+0 0
+S
+#19898
+A Black Stream~
+The stream flows by sluggishly, making its way around a small hill, its
+black waters so dark that they hide any view of what lies beneath its
+surface.  The water itself feels quite unpleasant, strangely cold in the
+stifling heat, and leaving a coat of greenish-black slime on anything it
+touches.  Corpses and limbs floating along the water add to the stream's
+sickening stench.  
+~
+0 NX noswim
+D0
+The village dock stands to the north.
+~
+~
+Z 0 19897
+0 0
+D3
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19899
+0 0
+S
+#19899
+A Black Stream~
+The stream flows by sluggishly, curving around a small hill, its black
+waters so dark that they hide any view of what lies beneath its surface. 
+The water itself feels quite unpleasant, strangely cold in the stifling
+heat, and leaving a coat of greenish-black slime on anything it touches. 
+Corpses and limbs floating along the water add to the stream's sickening
+stench.  The water is slowly moving towards the south, though the current
+appears to be dying out.  
+~
+0 NX noswim
+D1
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19898
+0 0
+D2
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19900
+0 0
+S
+#19900
+A Black Stream~
+The stream here gradually becomes more shallow, making passage by boat
+somewhat treacherous.  Many of the corpses floating by have gathered here,
+limbs and bodies stuck at a narrow point in the stream, filling the air with
+the scent of death and decay.  To the south stands a small, forested island,
+its tall trees growing close together but broken by a small path that leads
+into the depths of the forest.  
+~
+0 NX noswim
+D0
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19899
+0 0
+D2
+A small, forested island lies beyond the water.
+~
+~
+Z 0 19901
+0 0
+S
+#19901
+The Forested Island~
+The trees grow thickly on the island, making it difficult to progress
+forward by any way other than the path before you.  Ferns and wildflowers
+grow along the edge of the path, and the trees here appear to be healthy,
+keeping the air fresh and cool.  The stream can still be seen through the
+trees to the north, but looking towards the south, its easy to forget the
+horrors of the village.  
+~
+0 NX forest
+D0
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19900
+0 0
+D2
+It is difficult to make anything out through the trees.
+~
+~
+Z 0 19902
+0 0
+S
+#19902
+Before a Great Temple~
+A great temple rises up through the trees, its white marble walls
+glistening brightly even in the absense of the sun's light.  Statues of
+noble looking men and women stand tall by the path that leads towards the
+doors of the temple, keeping a silent watch.  Several pale steps lead up to
+the temple doors, one of which is slightly ajar.  There is a deep sense of
+peace here, and you can almost forget the terrible fate of the nearby
+village.  
+~
+0 0 forest
+D0
+Thick trees block any view of what lies north.
+~
+~
+Z 0 19901
+0 0
+D2
+A beautiful temple stands unharmed.
+~
+~
+Z 0 19905
+0 0
+S
+#19903
+A Black Stream~
+The stream flows by sluggishly, moving towards the south, its black
+waters so dark that they hide any view of what lies beneath its surface. 
+The water itself feels quite unpleasant, strangely cold in the stifling
+heat, and leaving a coat of greenish-black slime on anything it touches. 
+Corpses and limbs floating along the water add to the stream's sickening
+stench.  There is no way to tell how deep the stream runs, though
+considering the bodies that float along its surface and the fact that it
+feels deathly cold to the touch, few would care to venture to the bottom and
+find out.  
+~
+0 NX noswim
+D0
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19904
+0 0
+D2
+The village dock stands to the south.
+~
+~
+Z 0 19897
+0 0
+S
+#19904
+A Black Stream~
+A tall tree stands by the edge of the stream, its leaves bloated and
+rotting, falling every now and then to strike the surface of the water and
+disappear into its depths.  The stream flows by sluggishly, its black waters
+so dark that they hide any view of what lies beneath its surface.  The water
+itself feels quite unpleasant, strangely cold in the stifling heat, and
+leaving a coat of greenish-black slime on anything it touches.  Corpses and
+limbs floating along the water add to the stream's sickening stench.  
+~
+0 NX noswim
+D0
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19906
+0 0
+D2
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19903
+0 0
+S
+#19905
+The Temple of Talath~
+The inside of the temple is simple in its splendour.  The floor is of
+highly polished marble, shining brightly and reflecting the light from the
+torches and candles by the walls.  A small but beautiful altar stands at the
+very center of the temple, directly beneath a domed ceiling decorated with
+beautiful paintings of a benevolent god.  Despite its beauty, the temple has
+a strange feeling of emptiness to it, though it is clear that someone has
+recently been here.  
+~
+0 D inside
+E
+god paintings~
+The paintings are of a handsome man, clearly divine in nature.  He is
+shown in various scenes tending to the sick and weak, while in others he
+appears to be leading a battle on a pale silver horse.  
+~
+D0
+Beyond the temple lie all the horrors that have befallen the village.  
+~
+~
+Z 0 19902
+0 0
+S
+#19906
+A Black Stream~
+The stream takes an abrupt turn here, the water smashing up against the
+stone cliff to the west before diverting towards the south.  The stream
+flows by sluggishly, its black waters so dark that they hide any view of
+what lies beneath its surface.  The water itself feels quite unpleasant,
+strangely cold in the stifling heat, and leaving a coat of greenish-black
+slime on anything it touches.  Corpses and limbs floating along the water
+add to the stream's sickening stench.  
+~
+0 NX noswim
+D1
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19907
+0 0
+D2
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19904
+0 0
+S
+#19907
+A Black Stream~
+The stream flows by sluggishly, its black waters so dark that they hide
+any view of what lies beneath its surface.  The water itself feels quite
+unpleasant, strangely cold in the stifling heat, and leaving a coat of
+greenish-black slime on anything it touches.  Corpses and limbs floating
+along the water add to the stream's sickening stench.  The stench from the
+corpses in the water and by its edge is sickening, almost to the point of
+being overwhelming.  
+~
+0 NX noswim
+D1
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19908
+0 0
+D3
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19906
+0 0
+S
+#19908
+Beneath the Broken Bridge~
+The wooden bridge casts a dark shadow over the water, not a single strand
+of light making its way through the cracks.  The water is cold, and moves
+sluggishly, though there appears to be something moving just beneath its
+surface, rising up every now and then to reveal a slimy scale before sinking
+back down below.  A rotten, bloated corpse lies just under the bridge, face
+fixed in horror.  
+~
+0 NX noswim
+E
+corpse~
+It has decayed to the point where it is difficult to tell if it was a man
+or a woman.  
+~
+D1
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19909
+0 0
+D3
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19907
+0 0
+S
+#19909
+A Black Stream~
+The stream flows by sluggishly, its black waters so dark that they hide
+any view of what lies beneath its surface.  The water itself feels quite
+unpleasant, strangely cold in the stifling heat, and leaving a coat of
+greenish-black slime on anything it touches.  Corpses and limbs floating
+along the water add to the stream's sickening stench.  A waterfall can be
+seen to the east, black water pouring out from the mountains.  
+~
+0 NX noswim
+D1
+Black, murky water pours out of the mountains in a fall.
+~
+~
+Z 0 19910
+0 0
+D3
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19908
+0 0
+S
+#19910
+By the Waterfall~
+The dark water rushes out from the mountain wall, pouring down into the
+stream below.  The water gushing out appears to be fresher than that of the
+stream, but does little to purify it, instead becoming corrupted itself as
+soon as it hits the surface.  The stream doesn't seem very deep here, but
+the water rushing down from above makes it unsafe to stay here for long.  
+~
+0 NX noswim
+D3
+Horrible, black murky waters flow sluggishly, corpses floating on their surface.
+~
+~
+Z 0 19909
+0 0
+S
+#19911
+The Kitchen of the Mayor's House~
+Immediately upon entering the kitchen, a putrid smell assaults you.  A
+decomposing corpse lies on the floor, flies buzzing around it, already half
+eaten by maggots.  Blood covers part of the wall, with several bloody
+handprints showing signs of a struggle.  The cabinets are still well-stocked
+with food, though much of it has gone bad.  A bowl of fruit on the counter
+is covered with tiny insects, busily devouring what is left.  
+~
+0 ADNX inside
+D1
+The dinning room lies to the east.
+~
+~
+Z 0 19912
+0 0
+D2
+The entrance to the house is to the south.
+~
+~
+Z 0 19890
+0 0
+S
+#19912
+The Dining Room~
+Several corpses lie about the dining room, looks of terror fixed on their
+faces.  The dining table lies overturned on the ground before the door,
+along with the broken remains of several chairs.  The window to the north is
+boarded up, though several appear to have been torn off from inside the
+room.  It looks as though someone was trying their best to escape the room,
+the from the corpses lying on the floor it does not appear that they were
+successful.  
+~
+0 ADNX inside
+D3
+The doorway leads back out into the kitchen.
+~
+~
+Z 0 19911
+0 0
+S
+#19913
+A Hallway~
+Dull light coming from the window at the end of the hall barely
+illuminates the hallway.  The old carpet is stained with dust and bloody
+footprints, leading towards the door to the south.  A potted plant by the
+wall lies overturned, the plant itself long dead from neglect.  
+~
+0 ADNX inside
+E
+plant~
+The plant lies overturned, the earth around it cracked and dry.
+~
+D0
+The door leads to the guest room.
+~
+~
+Z 0 19918
+0 0
+D1
+The hallway ends at a large window.
+~
+~
+Z 0 19916
+0 0
+D2
+The mayor's study lies to the south.
+~
+~
+ABZ 0 19914
+0 0
+D5
+The stairway leads down to the ground floor.
+~
+~
+Z 0 19890
+0 0
+S
+#19914
+The Mayor's Study~
+The mayor's study is rather plain, with quiet, soft colours and few
+decorations to distract the mayor while he works.  A single bookshelf is
+placed against the eastern wall, filled with ledgers and old records from
+the mayor's time in office.  A simple wooden desk accompanied by a cushioned
+wooden chair is the only other furniture in the room.  Papers once stacked
+on the desk have fallen all over the ground, in complete disarray.  
+~
+0 ADNX inside
+E
+papers~
+The papers lie scattered across the floor.  None of them look to hold any
+relevant information, or hints as to what has occurred in this village.  
+~
+D0
+A hallway runs between the rooms on the second floor.
+~
+~
+ABZ 0 19913
+0 0
+S
+#19915
+The Library~
+The library has been completely destroyed, its shelves overturned and the
+books torn apart.  Blood covers the floor by the door, though there are no
+signs of any bodies.  The entire floor is littered with torn pages, too many
+to make sense of.  Dust hangs in the air, making it difficult to breathe.  A
+single book catches your eye, somehow having escaped the destruction.  The
+ancient tome rests untouched amidst a pile of torn pages.  
+~
+0 ADNX inside
+E
+book tome~
+{WOpening the book, you find yourself looking at a page that appears to
+have held some significance for its owner, judging by the various notes in
+the margins.  {D 
+ 
+Since the destruction of the orcish invasion force in the Month of 
+Winter, ca. 566, the Order of Talath has thrived, the Knights 
+spreading order throughout the land as more and more temples are built 
+in villages and cities alike.
+ 
+Reports that the man who led the orc invasion has been killed in 
+the fighting have remained impossible to verify. Several accounts 
+have been told of his survival, though if he remains alive, no sign 
+has been seen of him in years, and there is no evidence that he is 
+gathering more forces for a second assault.{x
+~
+D0
+The entrance to the home is beyond the doorway.
+~
+~
+Z 0 19890
+0 0
+S
+#19916
+A Hallway~
+The wide window gives a clear view of the village outside, the
+devestating seeming even more immense from this vantage point.  The walking
+dead can be seen moving among the ruined homes, picking their way through in
+search of living flesh.  A brightly coloured painting seems strangely out of
+place amidst the dreary gloom of the hallway.  A door to the north leads
+into the mayor's bedroom, while stairs lie to the east leading back towards
+the entrance to the home.  
+~
+0 ADNX inside
+E
+painting~
+The painting is of the Temple of Talath built on the edge of Sirel.  Men
+in full armor kneel in prayer before an outdoor altar, and the village of
+Sirel is visible off in the distance, across a small river.  
+~
+D0
+The doorway leads to the mayor's bedroom.
+~
+~
+ABZ 0 19917
+0 0
+D3
+Stairs lead back down to the ground floor.
+~
+~
+Z 0 19913
+0 0
+S
+#19917
+The Mayor's Bedroom~
+The mayor's bedroom is fairly large, with a wide window set into the
+north wall.  The curtains have been drawn tight, shutting out any light from
+outside, and shrouding the room in an oppressive gloom.  A large bed is
+placed against the eastern wall, its pale red covers stained dark with the
+blood of the corpse that lies upon it.  
+~
+0 ADNX inside
+E
+corpse~
+The corpse is that of a woman, her eyes closed peacefully almost as if
+she is sleeping.  A kitchen knife lies embedded in her chest, blood all
+around it.  It appears that she has only recently been killed, as the blood
+on the bed hasn't completely dried yet.  A small jewelry box rests by her
+side, the lid closed tightly.  
+~
+D2
+A hallway lies beyond the door.
+~
+~
+ABZ 0 19916
+0 0
+S
+#19918
+The Guestroom~
+The guestroom lies untouched, a thin layer of dust covering everything in
+sight.  Only your own footprints show any sign that someone has recently
+been here.  The window to the north is closed, but a thin breeze escapes
+through it nonetheless, carrying a sickening odour of death and decay. 
+Paintings hang on the walls, their once vibrant colours diminished by the
+layer of dust that lies upon them.  
+~
+0 ADNX inside
+E
+paintings~
+The paintings depict landscapes and scenes of village life, when times
+were more peaceful.  Though dust has faded the colours, it is still apparent
+that they were once quite vibrant.  
+~
+D2
+A hallway runs between the rooms on the second floor.
+~
+~
+Z 0 19913
+0 0
+S
+#19919
+The Mountain Pass~
+Rocks litter the road here, huge boulders that prevent any further
+passage south.  It would appear that a recent avalanche has blocked the pass
+that leads through the mountains and away from the village.  The sight of
+the tall, impenetrable peaks rising all around shatter any hope of escaping
+the village through the mountains.  Several corpses of the villagers lie
+nearby, as if they tried to make a final break for the safety of the
+mountains but were caught before they could escape.  
+~
+0 NX road
+E
+corpses~
+The bodies appear to be relatively fresh, suggesting that these people
+were killed recently, perhaps in the past day or so.  
+~
+D0
+What remains of the village gate stands to the north.
+~
+~
+Z 0 19885
+0 0
+S
+#19920
+Inside the Well~
+Ice cold water rises up to your waist, quickly draining your warmth and
+strength.  The walls of the well rise up around you, the slick stone dark
+and almost appearing as if it is ready to close in on you.  High above you
+can see the murky gray sky, though its light does not penetrate more than a
+small distance down the well.  It almost seems as if the darkness itself is
+alive, absorbing and eliminating any light that tries to illuminate the
+bottom of the well.  
+~
+0 ANX inside
+D4
+You can see the sky's light above, though it does little to illuminate
+the well.  
+~
+~
+Z 0 19875
+0 0
+S
+#19921
+Special Function Room~
+The paladin quest uses this room.
+~
+0 NX inside
+S
+#19922
+Special Function Room 2~
+The young ghost waits here until midnight.
+~
+0 NX inside
+S
+#19923
+The Nether Realms~
+The ground beneath your feet is cracked and parched, as if it hasn't seen
+moisture in years.  All around you, in every direction you look, is a deep
+and terrifying darkness, from which disturbing cries and screams
+occasionally escape.  A large spider's web has been woven off to the side,
+disappearing into the darkness.  Several corpses in various states of decay
+have been caught in the web, which they had obviously struggled to break
+free of.  The temperature fluctuates from a biting to chill to a searing
+heat, making this place extremely uncomfortable.  
+~
+0 ANX inside
+E
+web corpses~
+The web is enormous, and seems to serve its purpose well.  There are
+several corpses trapped in it, faces fixed in horror.  
+~
+S
+#0
+
+#SPECIALS
+M 19863 spec_poison	* {Da {gvenemous{D spider{x
+M 19879 spec_cast_cleric	* the dying paladin
+M 19882 spec_poison	* a hideously bloated spider
+S
+
+#RESETS
+D 0 19865 2 1	* The Entrance to the Ruined Inn: door to the south: closed
+D 0 19869 0 1	* Before the Ruins of the Inn: door to the north: closed
+D 0 19883 1 1	* Down the Village Road: door to the east: closed
+D 0 19883 3 1	* Down the Village Road: door to the west: closed
+D 0 19892 1 1	* The Remains of a Modest Home: door to the east: closed
+D 0 19893 3 1	* The Remains of a Modest Home: door to the west: closed
+D 0 19913 2 1	* A Hallway: door to the south: closed
+D 0 19914 0 1	* The Mayor's Study: door to the north: closed
+D 0 19916 0 1	* A Hallway: door to the north: closed
+D 0 19917 2 1	* The Mayor's Bedroom: door to the south: closed
+M 0 19851 1 19851 1	* The Mysterious Wanderer (The Wanderer's Room)
+E 0 19877 0 16		*	{ya whip of {Dblack s{yna{yk{De{ysk{yi{Dn{x: wielded
+M 0 19881 1 19852 1	* the mystical barrier (A Ruined Hallway)
+M 0 19852 1 19853 1	* the little girl (A Ruined Room)
+O 0 19873 0 19853	* {cthe mirror's{C reflection{x (A Ruined Room)
+M 0 19855 1 19854 1	* the mangled zombie (A Ruined Hallway)
+M 0 19859 1 19855 1	* a function mob (A Ruined Hallway)
+M 0 19856 1 19858 1	* a blood-covered zombie (A Ruined Room)
+O 0 19852 0 19859	* the corpse of a young man (A Ruined Room)
+P 0 19853 0 19852 1	* the corpse of a young man: a plain ring
+M 0 19854 1 19859 1	* the young woman (A Ruined Room)
+M 0 19861 1 19861 1	* a half-burnt zombie (The Ruins of a Kitchen)
+M 0 19860 1 19863 1	* a function mob (The Cellar)
+M 0 19864 1 19865 1	* a blood-covered zombie (The Entrance to the Ruined Inn)
+M 0 19865 1 19866 1	* a starving zombie (The Ruined Inn)
+O 0 19855 0 19868	* the skeleton (Beneath the Stairs)
+P 0 19854 0 19855 1	* the skeleton: {gan ancient jade bracelet{x
+M 0 19857 1 19868 1	* a dark creature (Beneath the Stairs)
+M 0 19858 1 19868 1	* a function mob (Beneath the Stairs)
+M 0 19866 1 19869 1	* a dull-eyed zombie (Before the Ruins of the Inn)
+M 0 19867 5 19871 1	* a wandering zombie (The Ruined Field)
+M 0 19867 5 19872 1	* a wandering zombie (The Ruined Field)
+M 0 19867 5 19874 1	* a wandering zombie (The Pit)
+M 0 19877 1 19875 1	* the twisted hands (The Well)
+O 0 19863 0 19875	* the well (The Well)
+O 0 19864 0 19875	* the well (The Well)
+M 0 19867 5 19878 1	* a wandering zombie (The Ruined Field)
+M 0 19867 5 19879 1	* a wandering zombie (The Ruined Field)
+M 0 19868 5 19881 1	* a rotting zombie (Down the Village Road)
+M 0 19868 5 19883 1	* a rotting zombie (Down the Village Road)
+M 0 19868 5 19884 1	* a rotting zombie (Down the Village Road)
+M 0 19868 5 19886 1	* a rotting zombie (Between the Houses)
+O 0 19857 0 19886	* the window (Between the Houses)
+O 0 19858 0 19887	* the window (A Bedroom)
+M 0 19872 1 19888 1	* an injured zombie (Inside an Old Home)
+M 0 19868 5 19889 1	* a rotting zombie (The Path to the Mayor's House)
+M 0 19871 1 19893 1	* a bloody zombie (The Remains of a Modest Home)
+M 0 19870 1 19894 1	* a revolting zombie (The Remains of a Modest Shop)
+M 0 19875 4 19898 1	* a slimy tentacle (A Black Stream)
+M 0 19874 7 19899 1	* something in the water (A Black Stream)
+M 0 19875 4 19900 1	* a slimy tentacle (A Black Stream)
+M 0 19874 7 19903 1	* something in the water (A Black Stream)
+M 0 19875 4 19904 1	* a slimy tentacle (A Black Stream)
+M 0 19879 1 19905 1	* the dying paladin (The Temple of Talath)
+O 0 19871 0 19905	* the beautiful altar (The Temple of Talath)
+P 0 19881 0 19871 1	* the beautiful altar: a finely-crafted greatsword
+P 0 19882 0 19871 1	* the beautiful altar: {Wthe holy symbol of {YTalath{x
+P 0 19883 0 19871 1	* the beautiful altar: {wa {Wsilver-str{wea{Wked {wbracer{x
+M 0 19874 7 19906 1	* something in the water (A Black Stream)
+M 0 19874 7 19907 1	* something in the water (A Black Stream)
+M 0 19874 7 19908 1	* something in the water (Beneath the Broken Bridge)
+M 0 19875 4 19909 1	* a slimy tentacle (A Black Stream)
+M 0 19883 1 19912 1	* a blood-covered zombie (The Dining Room)
+M 0 19873 1 19914 1	* the mayor (The Mayor's Study)
+O 0 19859 0 19916	* the safe behind the painting (A Hallway)
+P 0 19869 1 19859 1	* the safe behind the painting: a sapphire ring
+O 0 19860 0 19917	* the jewelry box (The Mayor's Bedroom)
+M 0 19862 1 19917 1	* a function mob (The Mayor's Bedroom)
+M 0 19869 1 19919 1	* the undead guardian (The Mountain Pass)
+E 0 19862 0 0		*	{Da flame of darkness{x: as a light
+M 0 19876 1 19920 1	* {Dthe well witch{x (Inside the Well)
+E 0 19865 0 17		*	{ya gnarled staff{x: held in the hands
+E 0 19866 0 5		*	tattered rags: on the body
+M 0 19878 1 19921 1	* the ghost of a handsome young man (Special Function Room)
+M 0 19882 1 19923 1	* a hideously bloated spider (The Nether Realms)
+O 0 19876 0 19923	* {ga portal to a {Ddark {gf{Go{gr{Ge{gs{Gt{x (The Nether Realms)
+S
+
+#OLIMITS
+O 19878 1	* {ga venemous {Dspider{R fang{x
+O 19881 1	* a finely-crafted greatsword
+S
+
+#MOBPROGS
+#19851
+mob echo With her last breath, the little girl cries out in a screeching voice "{DBring my revenge upon this mortal, demon!{x". Just as she dies, the eyes of the doll she holds suddenly pop open, turning their malevolent gaze upon the room.
+mob mload 19853
+mob vforce 19853 murder $n
+~
+#19852
+if mobhere 19852
+mob purge girl
+endif
+~
+#19853
+mob echo The doll falls to the floor, the malevolent glow in her eyes dimmed but not extinguished.
+mob oload 19851 room
+mob goto 19820
+~
+#19854
+mob echoat $n After a great deal of struggle, you manage to pull yourself back up to the staircase.
+mob transfer $n 19860
+mob goto 19860
+mob echoaround $n $n slowly pulls $mself out of the hole in the staircase.
+mob goto 19868
+~
+#19855
+mob gtransfer $n 19860
+mob goto 19860
+if rand 85
+mob remember $r
+mob echoat $q As you climb down the stairs, the wood beneath you suddenly collapses, bringing you crashing down with it. You find yourself in a small, dark room beneath the stairs.
+mob echoaround $q As $q is climbing down the stairs, the wood beneath $Y suddenly collapses, and $X disappears from sight beneath the stairs.
+mob transfer $q 19868
+mob goto 19855
+else
+mob goto 19855
+endif
+~
+#19856
+mob echoat $q Your heart pounding, it takes you a moment to realize that there is nothing in the room with you, and it was only your fears getting the worst of you.
+~
+#19857
+mob echoat $n A dark figure steps out of the shadows.
+mob echoat $n A dark figure's backstab {R[*] POWER HITS [*]{x you!
+mob remember $n
+mob delay 1
+~
+#19858
+mob echoat $n {DAs you open the box, a spider climbs out onto your hand, and you feel a {Rsearing pain{D as it bites you{x.
+mob echoaround $n {DAs $n opens the box, a spider climbs out onto $s hand, and $e lets out a cry of pain.{x
+mob mload 19863
+mob vforce 19863 cast poison $n
+~
+#19859
+mob echo A small flash of light momentarily blinds you. Once you can focus again, all that remains of the spider is a small amulet, perfectly carved in its likeness.
+mob oload 19861 room
+mob goto 19820
+~
+#19860
+mob echo The mayor looks up as you enter, eyes wide and panicked.
+~
+#19861
+if rand 70
+say He promised me...he promised me if I just let them through the gates, no one would be harmed.
+else
+if rand 60
+say Everyone was supposed to be safe. Why weren't they spared? Why...
+mob echo He breaks off into sobs, unable to continue.
+else
+if rand 55
+say It wasn't worth the money. It wasn't worth it.
+mob echo His eyes close as he begins to rock himself back and forth, moaning softly.
+else
+if rand 50
+say Why did I ever listen to him? I knew he was up to something terrible...I just didn't want to believe.
+else
+say They were supposed to be spared! He said he only wanted to destroy the temple!
+mob echo Covering his face, the mayor begins to sob uncontrollably.
+endif
+endif
+endif
+endif
+~
+#19862
+if rand 70
+mob echoat $n The mayor looks up at you, uncomprehending.
+mob echoaround $n The mayor looks up at $n, uncomprehending.
+endif
+~
+#19863
+mob goto 19920
+if players < 1
+mob goto 19875
+mob remember $r
+mob echoat $q You hear a rustling behind you, and before you can react, twisted hands reach out from the well and pull you down into the inky darkness.
+mob echoaround $q A rustling noise comes from inside the well, and a moment later twisted hands reach out and grab $q, pulling $Y down into the well.
+mob transfer $q 19920
+else
+mob goto 19875
+endif
+~
+#19864
+if players > 0
+else
+if hour == 0
+if room $i == 19885
+else
+mob goto 19885
+mob echo A young man suddenly materializes by the gate, looking around as if searching for someone..
+endif
+endif
+if players > 0
+else
+if hour == 2
+mob goto 19922
+endif
+if hour == 3
+mob goto 19922
+endif
+if hour == 4
+mob goto 19922
+endif
+if hour == 5
+mob goto 19922
+endif
+if hour == 6
+mob goto 19922
+endif
+if hour == 7
+mob goto 19922
+endif
+if hour == 8
+mob goto 19922
+endif
+if hour == 9
+mob goto 19922
+endif
+if hour == 10
+mob goto 19922
+endif
+if hour == 11
+mob goto 19922
+endif
+if hour == 12
+mob goto 19922
+endif
+if hour == 13
+mob goto 19922
+endif
+if hour == 14
+mob goto 19922
+endif
+if hour == 15
+mob goto 19922
+endif
+if hour == 16
+mob goto 19922
+endif
+if hour == 17
+mob goto 19922
+endif
+if hour == 18
+mob goto 19922
+endif
+if hour == 19
+mob goto 19922
+endif
+if hour == 20
+mob goto 19922
+endif
+if hour == 21
+mob goto 19922
+endif
+if hour == 22
+mob goto 19922
+endif
+if hour == 23
+mob goto 19922
+endif
+endif
+~
+#19865
+~
+#19866
+if carries $i 19867
+else
+say Have you seen Melanda? It's not like her to be late.
+endif
+~
+#19867
+if carries $i 19867
+say Please, lead me to her. I must speak with her!
+if isvisible $n
+follow $n
+else
+say I cannot see you to follow you, my friend.
+endif
+else
+say You have? I cannot shake this terrible feeling that something has happened to her. Perhaps her father caught her sneaking out. Are you willing to take me to her?
+mob oload 19867
+endif
+~
+#19868
+if carries $i object
+say Is there no room in your heart for compassion? So be it. I have faith in her. She will come.
+mob junk object
+else
+say I see. I shall continue to wait, then. I am certain she will be here soon.
+endif
+~
+#19869
+if room $i == 19887
+mob junk object
+mob echo A look of confusion crosses the young man's face as his eyes fall upon the corpse of the young woman.
+say Melanda? What has happened to you?
+mob echo Moving closer, a look of horror suddenly crosses his face.
+mob echo '{GThis cannot be! My true love, dead? I cannot accept it!{x'
+mob echo The young man suddenly lets out a loud cry of despair.
+mob echo With a frightened shriek, a cat runs out from underneath the bed, the small bell on its collar jingling as it leaps through the window and disappears into the village. A small metal object glints on the floor, where a floorboard has been overturned.
+mob oload 19868 room
+say Melanda, I am coming to meet you....
+mob echo With a sigh, the young man slowly fades into nothingness, calling out for his lost love.
+mob goto 19922
+follow $i
+~
+#19870
+if isneutral $n
+mob echoat $n The paladin looks up at you, and speaks with a good deal of effort.
+mob echoat $n '{GDo not waste your time here, friend. The village is overrun with undead, and the temple will soon fall to them as well. Whatever you are searching for, you will not find it here.{x'
+else
+if isevil $n
+mob echoat $n The paladin tries to struggle to his feet, but fails, falling back against the altar.
+mob echoat $n '{GHave you come to finish me, then? Is your master too frightened to come for me himself? No matter. The temple may be destroyed, and the village overrun, but others of the Order have survived, and will continue to fight!{x'
+else
+if isgood $n
+if carries $n 19800
+say You have found it! Please, give it to me. I need the plant to counter the poison.
+else
+mob echoat $n The paladin lifts his head up to look upon you, his eyes filled with hope. He lifts an arm towards you, but then is overcome by a fit of coughing. After a few moments, he speaks.
+mob echoat $n '{GI see in your eyes that you and I are kindred souls. The village has fallen, but all is not lost. There is still time to stop this evil, if you will help me. Are you willing to do this? It will involve some danger to yourself.{x'
+endif
+endif
+endif
+endif
+~
+#19871
+if isgood $n
+if carries $i 19870
+mob echoat $n '{GI shall try to speak more clearly. Listen carefully to my words.{x
+mob echoat $n '{GHe is hiding somewhere in the village, but you will find that it is impossible to reach him, as he has erected a mystical barrier that keeps away any who may do him harm. Talath grants me the power to pass through this barrier, but alas, I am in no condition to travel, let alone fight. I have been poisoned, and my body grows weak. I fear I have little time left, unless something is done. There was once a plant that grew here, named for one of Talath's disciples, Alodil, but it was very rare. and the only patch I knew of grew here outside the temple. I searched for it when I still had the strength, but I believe that it has been taken away or destroyed to prevent me from reaching it. Perhaps you will have better luck in finding it here, or you know of another place where it grows. Please, you must hurry. If I die now, the hope of the world will die with me.{x
+mob junk object
+else
+mob echoat $n The paladin falls back, his face anguished, drained of all hope.
+endif
+endif
+~
+#19872
+if isgood $n
+if carries $i 19870
+mob echoat $n '{GExcellent. This is what we must to do stop him.{x'
+mob echoat $n '{GHe is hiding somewhere in the village, but you will find that it is impossible to reach him, as he has erected a mystical barrier that keeps away any who may do him harm. Talath grants me the power to pass through this barrier, but alas, I am in no condition to travel, let alone fight. I have been poisoned, and my body grows weak. I fear I have little time left, unless something is done. There was once a plant that grew here, named for one of Talath's disciples, Alodil, but it was very rare. and the only patch I knew of grew here outside the temple. I searched for it when I still had the strength, but I believe that it has been taken away or destroyed to prevent me from reaching it. Perhaps you will have better luck in finding it here, or you know of another place where it grows. Please, you must hurry. If I die now, the hope of the world will die with me.{x
+mob junk object
+else
+mob echoat $n The paladin nods, and a little colour briefly returns to his face. '{GYou've come just in time. There is a man, a dark soul who has brought all this destruction upon the village. He seeks to cover the world in darkness, and enslave the races to his will. Thus far, he has been unsuccessful. Our Order has been there to fight him every step of the way, in the name of Talath, and we have been assisted by the combined armies of several kingdoms. His army has been destroyed, but for a small remnant. We thought him dealt with, but we did not expect an attack on the village.{x'
+mob echoat $n His face darkens, as if he is remembering something terrible. After a moment, he regains his composure.
+mob echoat $n '{GHe has stolen an artifact from the temple. That was the true reason for his attack on the village. Now that he has it, I believe he intends to leave this world, and travel to another reality. There, no one will be prepared for his attack, and he will encounter little resistance. He will be able to rebuild his army, and not only return to conquer this world, but countless others like it as well. The artifact gives him that power. A portal has already been opened, linking this world and yours, and there is little time left to stop him.{x'
+mob echoat $n {gDo you understand the situation so far?{x'
+mob oload 19870
+endif
+endif
+~
+#19873
+if isgood $n
+if carries $i 19800
+mob echo The paladin takes the plant, and slowly chews it. Within moments, a flush of colour returns to his face, and he slowly begins to stand.
+mob goto 19921
+mob mload 19880
+mob vforce 19880 mob goto 19905
+mob vforce 19880 say Come, $n, there is little time. We must find where he is hiding, and stop him before it is too late. You have been through the village. How you found a place that is guarded by a mystical barrier? He is sure to be near. Take the lead. I shall guard your back against any undead.
+mob vforce 19880 follow $n
+else
+say I thank you for your effort, but this is not what I need.
+give $o $n
+endif
+endif
+~
+#19874
+mob goto 19851
+if mobhere 19980
+mob goto 19852
+mob gtransfer $n 19851
+mob echoaround $n $n has arrived.
+mob goto 19921
+else
+mob goto 19852
+if isevil $n
+mob echoat $n Your skin tingles as you pass through a mystical field.
+mob echoaround $n $n passes effortlessly through the mystical barrier.
+mob gtransfer $n 19851
+mob goto 19851
+mob echoaround $n $n has arrived.
+if carries $n 19874
+else
+mob echoat $n The man smirks as he looks you over.
+mob echoat $n The mysterious wanderer says, '{GYou've some nerve to interrupt me like this. But I suppose you may prove to be useful. I've a task for you. Interested?{x
+mob goto 19852
+endif
+endif
+if isneutral $n
+mob echoat $n As you attempt to move past the doorway, an unseen force repels you.
+mob echoaround $n As $n attempts to move past the doorway, there is a slight shimmer in the air, and $e is forced back.
+endif
+if isgood $n
+if mobhere 19880
+mob echoat $n The paladin closes his eyes and concentrates for a moment, whispering a prayer, and then, steeling himself, he passes through, and a moment later the barrier breaks apart and vanishes, allowing you to pass through.
+mob transfer paladin 19851
+mob echoaround $n The paladin closes his eyes and concentrates for a moment, whispering a prayer, and then, steeling himself, he passes through, and a moment later the barrier breaks apart and vanishes, allowing $n to pass through.
+mob gtransfer $n 19851
+mob goto 19851
+mob echoaround $n $n has arrived.
+mob echoat $n Looking you over, he sneers. '{GHave you come to kill me? You won't succeed. What happened here is just the beginning!{x'
+mob vforce 19851 murder $n
+mob goto 19921
+else
+mob echoat $n As you attempt to move past the doorway, an unseen force repels you.
+mob echoaround $n As $n attempts to move past the doorway, there is a slight shimmer in the air, and $e is forced back.
+endif
+endif
+endif
+~
+#19875
+if isgood $n
+mob echo A hate-filled look crosses the wanderer's face as he falls to his knees. He opens his mouth as if to scream, but instead the wails of a thousand anguished souls fill the room. The wanderer seems to age before your eyes, and after a moment, falls to the ground, his corpse twisted and unrecognizable.
+mob vforce 19880 mob oload 19872
+mob vforce 19880 mob goto 19921
+mob goto 19921
+look
+mob oload 19872 room
+mob vforce 19881 mob goto 19921
+mob vforce 19881 get all
+mob vforce 19881 give orb paladin
+mob vforce 19880 mob goto 19851
+mob purge
+mob goto 19851
+else
+if mobhere 19880
+mob echo The wanderer lets out a cry of rage as he is dealt a mortal blow, and with the last of his strength, calls a curse upon the paladin. Within an instant, they are moth engulfed in black flames, which dissipate a moment later, leaving behind only the withered corpse of the wanderer.
+mob vforce 19880 mob goto 19921
+mob goto 19921
+mob purge
+mob goto 19851
+else
+mob echo A hate-filled look crosses the wanderer's face as he falls to his knees. He opens his mouth as if to scream, but instead the wails of a thousand anguished souls fill the room. The wanderer seems to age before your eyes, and after a moment, falls to the ground, his corpse twisted and unrecognizable.
+endif
+endif
+~
+#19876
+say We have defeated him! The forces of good have won a great victory on this day.
+mob echo A thoughtful frown crosses the paladin's face.
+say Something tells me that this is not over. I still feel his...presence, though not in this world. I believe we are safe for now, but he may still live on your plane of existence.
+mob echo Glancing around the room, his eyes fall upon a glowing white orb of light. Pointing to it, he says '{GHere, take this orb with you. It is a symbol of Talath, and the key to his divine secrets. Among its many uses, one is to unlock a hidden compartment in the altar in the temple. You may find something there that will be useful in your struggle. Fare you well, friend. I must gather what remains of the Order to organize a counterstrike and retake the village. May Talath bless your path.{x'
+mob oload 19872 room
+mob echo The paladin bows deeply, and strides out of the room.
+mob goto 19921
+mob purge self
+~
+#19877
+mob delay 2
+~
+#19878
+mob echo The paladin lets out a sharp cry of pain as he is dealt a mortal blow. Falling to his knees, his lips move silently in prayer, until finally the last of his strength leaves him and he falls to the ground, dead.
+~
+#19879
+if room $i == 19818
+mob echo The paladin frowns as he steps through the mirror.
+say I do not belong here. My fight is in my own world. We must defeat the evil there if we are to have any chance at stopping it.
+mob echo The paladin turns back towards the mirror and steps through, disappearing from view.
+mob goto 19853
+endif
+~
+#19880
+mob echo Bloodied and weakened, the paladin falls to his knees, breathing heavily, as the life leaves his body.
+mob oload 19874
+~
+#19881
+if isgood $n
+mob echoat $n Looking you over, he sneers. '{GHave you come to kill me? You won't succeed. What happened here is just the beginning!{x'
+murder $n
+endif
+if isevil $n
+if carries $n 19874
+else
+mob echoat $n The man smirks as he looks you over.
+mob echoat $n The mysterious wanderer says, '{GYou've some nerve to interrupt me like this. But I suppose you may prove to be useful. I've a task for you. Interested?{x
+endif
+endif
+~
+#19882
+if isevil $n
+say Worthless fool. Be gone, before I put an end to your aimless life!
+mob echoat $n A powerful force grabs hold of you, propelling you through the air to land roughly on the floor outside the room.
+mob echoaround $n An invisible force lifts $n off the floor, propelling him through the air to land painfully outside the room.
+mob damage $n 50 50
+mob transfer $n 19852
+endif
+~
+#19883
+if isevil $n
+mob echoat $n The wanderer smiles evilly. '{GExcellent. I require you to put an end to an annoyance for me. There is a paladin in the temple to the south-west of the village; he is already weakened, but I cannot risk that he will pose any challenge to me. One such as you should have no trouble taking care of him. If you kill him and bring me back proof of his death, you will be rewarded well.{x'
+endif
+~
+#19884
+if isevil $n
+if carries $i 19874
+mob junk head
+mob echoat $n The wanderer takes the head from you and smiles, then casually throws it across the room, where it lands in a corner, forgotten.
+say So you have proven useful after all. I shall hold true to my word. Here is your reward.
+mob oload 19875
+give sphere $n
+mob echo '{GIt is a portal to the nether realms. Those brave enough--or foolish enough, as may be the case with you--to venture there will either find treasures they have never imagined, or death. Once you enter, there will be no way out until you have defeated whatever creature is sent against you. You will only have one chance to succeed. I know not what treasures lie there; such things hold little interest for me. Perhaps you will find it worth the risk.{x'
+else
+say What is this? I have no use for it, but I shall keep it all the same.
+endif
+endif
+~
+#19885
+if isevil $n
+and level $n < 55
+mob echo The spider falls back, raising its legs to protect itself, but finally letting out a cry of agony as it falls forward, dead. Its bloated belly explodes open, pouring out its innards.
+mob oload 19878
+mob oload 19879
+mob oload 19880
+else
+mob echo The spider falls back, raising its legs to protect itself, but finally letting out a cry of agony as it falls forward, dead. As soon as it hits the floor, its body begins to rapidly disintegrate, decaying before your eyes as if it has been dead for months.
+endif
+~
+#19886
+if isgood $n
+mob echo A hate-filled look crosses the wanderer's face as he falls to his knees. He opens his mouth as if to scream, but instead the wails of a thousand anguished souls fill the room. The wanderer seems to age before your eyes, and after a moment, falls to the ground, his corpse twisted and unrecognizable.
+mob vforce 19880 mob goto 19921
+mob goto 19921
+say ghhhfhh
+mob vforce 19880 mob goto 19851
+mob goto 19851
+else
+if mobhere 19880
+mob echo The wanderer lets out a cry of rage as he is dealt a mortal blow, and with the last of his strength, calls a curse upon the paladin. Within an instant, they are moth engulfed in black flames, which dissipate a moment later, leaving behind only the withered corpse of the wanderer.
+mob vforce 19880 mob goto 19921
+mob goto 19921
+mob purge
+mob goto 19851
+else
+mob echo A hate-filled look crosses the wanderer's face as he falls to his knees. He opens his mouth as if to scream, but instead the wails of a thousand anguished souls fill the room. The wanderer seems to age before your eyes, and after a moment, falls to the ground, his corpse twisted and unrecognizable.
+endif
+endif
+~
+#0
+
+#$

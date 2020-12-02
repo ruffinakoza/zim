@@ -1,0 +1,125 @@
+#RULE
+Name он~
+Form 1 она~
+Form 2 оно~
+End
+
+#RULE
+Name его~
+Form 1 ее~
+End
+
+#RULE
+Name вооруженный~
+BaseLen 9
+Form 1 -ая~
+End
+
+#RULE
+Name ранен~
+BaseLen 5
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name насчитал~
+BaseLen 8
+Form 1 -а~
+End
+
+#RULE
+Name него~
+Form 1 нее~
+End
+
+#RULE
+Name уклонился~
+BaseLen 7
+Form 1 -ась~
+Form 2 -ось~
+End
+
+#RULE
+Name принесен~
+BaseLen 8
+Form 1 -а~
+End
+
+#RULE
+Name заинтересован~
+BaseLen 13
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name приготовил~
+Form 1 приготовила~
+End
+
+#RULE
+Name способен~
+BaseLen 6
+Form 1 -на~
+End
+
+#RULE
+Name разделал~
+BaseLen 8
+Form 1 -а~
+End
+
+#RULE
+Name МЕРТВ~
+Form 1 МЕРТВА~
+Form 2 МЕРТВО~
+End
+
+#RULE
+Name отважный~
+Form 1 отважная~
+End
+
+#RULE
+Name создал~
+Form 1 создала~
+End
+
+#RULE
+Name видимый~
+Form 1 видимая~
+End
+
+#RULE
+Name им~
+Form 1 ей~
+End
+
+#RULE
+Name твой~
+BaseLen 2
+Form 1 -оя~
+Form 2 -ое~
+End
+
+#RULE
+Name успокоился~
+BaseLen 8
+Form 1 -ась~
+End
+
+#RULE
+Name упал~
+BaseLen 4
+Form 1 -а~
+Form 2 -о~
+End
+
+#RULE
+Name бессмертный~
+BaseLen 9
+Form 1 -ая~
+End
+
+#$

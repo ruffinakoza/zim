@@ -1,0 +1,30 @@
+#RACE
+Name githyanki~
+Aff infrared~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Githy~
+Points 250
+AgeModifier 200
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 100
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 100
+Class 'witch' 100
+Class 'warrior' 100
+BonusSkills 'longsword' 'bastardsword' 'dagger'~
+Stats 50 60 40 65 45 50 50
+MaxStats 19 23 20 25 18 25 25
+Size medium
+RestrictAlign evil~
+Slang human
+End
+
+#$

@@ -1,0 +1,1081 @@
+#AREADATA
+Name Nalaeya's Palace~
+Builders nalaeya~
+VNUMs 100801 100820
+Credits nalaeya~
+Security 9
+LevelRange 1 91
+Flags closed noquest~
+End
+
+#MOBILES
+#100801
+shining commander woman~
+The Glowing Commander~
+A stunningly beautiful woman is here, clad in shining silver armor.
+~
+With long golden hair that flows beneath her helmet, and clear blue eyes
+that are visible underneath, this woman is a true beauty.  She holds herself
+up with an unwavering confidence and conviction that she is following the
+right path.  Her lips seem permanantly curved in a soft smile, and there is
+a gentle air about her, even with her bloody sword in her hands.  
+~
+elf~
+ABTf H 0 0
+140 140 683d140+50000 700d10+85 46d3+75 none
+-85 -85 -85 -55
+ADEFIJKL ABT 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 100813 100~
+#100802
+force chaos essence vortex swirling~
+The {BE{rs{Gs{Ye{Dn{Cc{me {bo{cf {MC{Wh{ga{yo{Rs{x~
+A swirling vortex is here, spitting out random images that crash into your mind.
+~
+Swirls of {Mc{gh{Ya{Bo{Rt{Di{Cc{x energy float above the ground, moving sluggishly
+towards you before suddenly striking out with a speed so quick you cannot
+see it until it is already upon you.  Every tendril of energy that touches
+you sends chaotic images into your mind, full of colour, pain, joy and a
+thousand other sensations and emotions too fast to separate.  As it comes
+closer to you at times it seems to almost take on human forms, while at
+others it seems to be a lifeless but fast-moving mist.  
+~
+unique~
+ABf Lu 0 0
+140 140 683d140+43000 700d10+85 46d3+75 none
+-85 -85 -85 -55
+BCFJKO T 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100803
+foot soldier~
+{Ca {cf{Co{co{Ct {cs{Co{cl{Cd{ci{Ce{cr{x~
+{CA {cf{Co{co{Ct {cs{Co{cl{Cd{ci{Ce{cr{x is here, fighting at the front of the ranks.
+~
+The foot soldier wears mismatched armor, some of it leather, some of it
+platemail, and some parts just left unprotected.  These appear to be made up
+of members of the various militias that have been formed in the protected
+cities to take back Midgaard and see the laws upheld.  
+~
+human~
+ABTf a 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+FIK ABT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 100801 50~
+M death 19440 100~
+#100804
+archers~
+{Ga{gn {Ga{gr{Gc{gh{Ge{gr{x~
+{GA{gn {Ga{gr{Gc{gh{Ge{gr{x is here, raining arrows upon the enemies of law.
+~
+Clad in leather armor, the archers stand in well-formed rows, keeping
+with their ranks even when the fighting is chaotic all around them.  They
+are fixed on their target, almost ignoring everything else going on around
+them.  
+~
+elf~
+ABf N 0 0
+40 40 116d40+1000 200d10+85 13d3+25 none
+-17 -17 -17 -9
+AFHLN ABT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 100801 50~
+M fight 100802 5~
+M give 100819 all~
+M give 100819 all~
+#100805
+cavalry~
+a member of the {Rc{ra{Rv{ra{Rl{rr{Ry{x~
+A member of the {Rc{ra{Rv{ra{Rl{rr{Ry{x is here battling the forces of chaos.
+~
+Riding on large, strong warhorses, these fearless men and women are
+charging directly at the beasts of chaos, fighting them with every ounce of
+strength they possess.  Their eyes are lit up with an intense passion, and
+every one of them seems willing to die for their cause.  
+~
+human~
+ABf V 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+H ABT D 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 100801 50~
+#100806
+advance scout~
+{Wa{wn {Wad{wvan{Wce {Wsc{wo{Wut{x~
+{WA{wn {Wad{wvan{Wce {Wsc{wo{Wut{x is here, relaying information back to the main army.
+~
+Moving quickly between buildings, it's difficult to cast more than a
+glimpse of the agile figure.  They don't appear to be wearing any real
+armor, just heavy cloth with basic protection.  
+~
+elf~
+ABf 0 0 0
+10 10 25d10+40 50d10+85 3d3+10 none
+2 2 2 4
+0 ABT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#100807
+pikeman~
+{Ma {mp{Mi{mk{Me{mm{Ma{mn{x~
+{MA {mp{Mi{mk{Me{mm{Ma{mn{x is here, fighting for law and justice.
+~
+Wearing dented armor and wielding rusty pikes, this soldier doesn't seem
+very professional, but the passion in his eyes and his strong conviction in
+his cause adds a great deal of power to his attacks.  
+~
+human~
+ABf 0 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+FIJ ABKT E 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 100801 50~
+#100808
+pickpocket~
+{Da pickpocket{x~
+{DA pickpocket{x is here, trying to sabotage the army's progress.
+~
+With shifty eyes that dart back and forth warily, and a someone grimy
+appearance, this pickpocket isn't much to look at.  
+~
+elf~
+ABf 0 0 0
+5 10 25d10+40 50d10+85 3d3+10 none
+2 2 2 4
+0 ABT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 100803 50~
+#100809
+common thief mixxy~
+{Da common thief{x~
+{DA common thief{x is here, attacking the army forces from behind.
+~
+Dressed in dirty clothing, and glancing furtively about, this thief is
+busy sneaking up on those fighting for the Rulers and trying to stab them in
+the back.  
+~
+human~
+ABTf P 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+FI ABT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 100803 50~
+#100810
+hired thug~
+{Da hired thug{x~
+{DA hired thug{x is here, fighting against the army.
+~
+A tall, thick man, with scars all over his face, he looks hard.  He
+wields an enormous cutlass, using it to bash people from behind.  
+~
+human~
+ABf 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+FI ABT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 100803 50~
+#100811
+assassin~
+{Dan assassin{x~
+{DAn assassin{x is here, waiting to strike.
+~
+Dressed all in black, from head to toe, so that no distinguishable
+feature is visible, the figure before you moves soundlessly, heading from
+target to target and taking them down before they can know there's a threat.
+
+~
+human~
+ABf P 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+BFIJN ABKT E 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 100803 50~
+M grall 100820 100~
+#100812
+head guild thief thieves~
+{DThe Head of the Thieves' Guild{x~
+{DThe Head of the Thieves' Guild{x is here, directing the counterattack.
+~
+Dressed in fine but stained clothing, this man has a hard look in his
+eyes.  He wields a bloody dagger, striking at anyone seen supporting the
+Rulers.  
+~
+human~
+ABf PQV 0 0
+80 80 343d80+8000 400d10+85 26d3+45 none
+-44 -44 -44 -28
+BFJN ABT D 0
+stand stand male 0
+0 0 medium flesh~
+~
+M act 100815 sun rises in the east~
+M act 100815 sun slowly disappears in the west~
+M speech 100816 rises in the~
+M speech 100816 slowly disappears in the~
+M random 100817 ~
+M fight 100818 50~
+#100813
+mob clan guard test~
+a test clan guard~
+A test clan guard stands here, looking tough.
+~
+He's just human and boring, so forget about him!
+~
+human~
+ABTef DFHVclm 0 0
+100 125 6d1+40000 1250d11+95 42d2+90 none
+-80 -80 -80 -55
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+M fight 100813 100~
+#100814
+test clan cleric~
+a test clan cleric~
+A test clan cleric is here, looking holy.
+~
+Nothing but a clan cleric, human again.
+~
+human~
+ABQaef DFHVlm 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+AFI ABLQ C 0
+stand stand female 0
+0 0 medium flesh~
+~
+M fight 100813 100~
+#100815
+ranger cloaked elven~
+A Cloaked Ranger~
+A Cloaked Ranger stands here
+~
+This ranger seems to be here protecting here brothers and sisters and the
+forest itself from those evil enough to defile it.  She wears a dark black
+cloak and wields a strange looking bow.  
+~
+elf~
+ABCTef DFVcelmt 1000 0
+99 99 451d99+0 495d10+85 33d3+54 none
+-57 -57 -57 -36
+ACDEFHJKN ABLQ HI 0
+stand stand female 0
+0 0 medium flesh~
+~
+F res B
+C Sylvan~
+#100816
+purger~
+a purger~
+A mob is here, purging the extra junk from Nalaeya's sloppy mpcodes!
+~
+Specifically those maids from the inn in midgaard...3178, 3179, 3180.
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M random 100804 5~
+#100817
+woman faery sky pixie~
+{ga confused pixie{x~
+A beautiful, tiny pixie with {Rm{Yu{Gl{Bt{ci-{Wc{Co{gl{ro{bu{mr{Me{Rd{x wings flits about.
+~
+Giggling uncontrollably, the pixie glances about at her surroundings, her
+wings fluttering as she floats above the ground.  She couldn't be more than
+six inches long, but she is surrounded by a bright glow that makes her easy
+to spot.  
+~
+sprite~
+ABRe DFJPZl 0 0
+100 1 524d100+100000 1000d11+95 1d1+0 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff T
+#100818
+testy~
+testy~
+Testy is here, testing things.
+~
+~
+human~
+ABU 0 0 0
+5 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#100819
+goblin mixxy~
+{gthe goblin{x~
+A {ggoblin{x stands here, hunched over from the heavy bag slung over its shoulder.
+~
+No taller than four feet, the goblin is a hideous creature, covered in
+warts and sparse, greasy hair.  It mutters to itself, glancing at you
+suspiciously, before taking a few steps back.  Slung over its shoulder is a
+heavy burlap sack, bulging with items.  
+~
+goblin~
+A 0 0 0
+40 40 133d40+5000 400d11+95 14d2+34 stab
+-19 -19 -19 -11
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F aff J
+#0
+
+#OBJECTS
+#100801
+blue vial~
+a long {Cblue{x vial~
+A long blue vial has been left behind.~
+unknown~
+~
+potion 0 A
+60 'detect invis' 'reserved' 'reserved' 'reserved'
+40 1 0 P
+E
+blue vial~
+A slim blue vial holding a clear liquid.  A label with delicate
+handwriting reads: 
+                   {C'Detect Invisibility'{x
+~
+G none
+G none
+G none
+G none
+#100802
+pixie dust~
+{Ba handful of {Rp{Yi{Gx{Bi{me{C dust{x~
+A handful of pixie dust glows on the ground.~
+glass~
+~
+pill AGc AO
+20 'dragon strength' 'reserved' 'reserved' 'reserved'
+1 1 25 P
+E
+handful pixie dust~
+The dust seems to glow by itself, a splash of colours that shift before your very eyes.
+~
+G none
+G none
+G none
+G none
+#100803
+red thick potion~
+a thick {Rred{x potion~
+A potion has been left on the ground.~
+unknown~
+~
+potion 0 A
+60 'improved detect' 'reserved' 'reserved' 'reserved'
+40 1 0 P
+E
+red thick potion~
+Kept in a clear bottle, the potion is a dark, vibrant red, and so thick
+it hardly deserves to be described as a liquid.  Written in delicate
+handwriting on the label is the following: 
+                           {R'Detect Improved Invisibility'{x
+~
+G none
+G none
+G none
+G none
+#100804
+vile brown liquid~
+a bottle of vile brown liquid~
+A bottle filled with a disgusting brown liquid has been dropped here.~
+unknown~
+~
+potion 0 A
+60 'detect hidden' 'reserved' 'reserved' 'reserved'
+40 1 0 P
+E
+bottle vile brown liquid~
+The only thing worse than its appearance is its stench.  A label has been
+placed on the bottle, bearing the words: 
+                            {y'Detect Hidden'{x
+~
+G none
+G none
+G none
+G none
+#100805
+burlap sack~
+{ya burlap sack{x~
+A burlap sack has been carelessly forgotten here.~
+unknown~
+burlap~
+container 0 AO
+100 ACH 0 100 80 0
+40 15 0 P
+E
+burlap sack~
+A thick burlap sack, it looks sturdy enough, though it doesn't appear big
+enough to carry much.  
+~
+G none
+G none
+G none
+G none
+#100806
+cloudy potion grey~
+a cloudy potion~
+A cloudy potion lies on the ground.~
+unknown~
+~
+potion 0 A
+60 'acute vision' 'reserved' 'reserved' 'reserved'
+40 1 0 P
+E
+cloudy~
+The potion is coloured a cloudy grey, slowly swirling around the bottle. 
+Written along it's length are the words: 
+                     '{GAcute Vision'{x
+~
+E
+grey potion~
+The potion is coloured a cloudy grey, slowly swirling around the bottle. 
+Written along it's length are the words: 
+                     '{GAcute Vision'{x
+~
+G none
+G none
+G none
+G none
+#100808
+nalaeya bed~
+{cnalaeya's bed{x~
+Nalaeya's feather bed has been dropped here from the heavens.~
+unknown~
+~
+furniture 0 A
+BD EIJKN EHK DFGHIJ DFGHIJ BD EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#100809
+ring detection~
+a ring of detection~
+A lovely ring lies here, shining brightly.~
+unknown~
+magic~
+jewelry 0 AB
+0 0 0 0 0 0 0
+0 1000 0 P
+F
+A 12 1000 G
+F
+A 12 1000 C
+G none
+G none
+G none
+G none
+#100810
+love potion~
+a love potion~
+a love potion~
+unknown~
+~
+potion R AP
+0 'love potion' 'reserved' 'reserved' 'reserved'
+1 1 0 P
+G none
+G none
+G none
+G none
+#100811
+xpxpx~
+xpxpx~
+Picking this up will kill you instantly!~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+107 0 0 P
+G none
+G none
+G none
+G none
+#100812
+silver flute~
+{WA Silver Flute{x~
+A beautiful, delicate flute has been carelessly dropped here.~
+unknown~
+~
+treasure h AO
+0 0 0 0 0
+91 10 500 P
+A
+13 20
+A
+5 1
+A
+18 15
+A
+19 7
+F
+A 17 -30 U
+E
+silver flute~
+This flute is an object of great beauty, and has obviously been in the
+possession of one who took a great deal of care in handling it.  It's silver
+surface is flawless, and the notes that it plays are clear and true, filling
+the air with their sweet beauty.  
+~
+G none
+G none
+G none
+G none
+#100813
+soldier old boots pair~
+{can old soldier's boots{x~
+An old pair of worn-looking boots has been left here to gather dust.~
+unknown~
+~
+armor 0 AG
+21 21 21 20 'none' 0
+91 59 892867 P
+A
+13 20
+A
+12 50
+A
+19 12
+A
+2 1
+A
+18 10
+F
+A 17 -10 T
+E
+old pair boots soldier~
+The boots are old and worn, seemingly past their useful days.  But there
+is an aura about them, and a feeling as though they are special, though its
+difficult to tell if its real or just your imagination.  
+~
+G none
+G none
+G none
+G none
+#100814
+silver flute~
+{WA Silver Flute{x~
+A beautiful, delicate flute has been carelessly dropped here.~
+unknown~
+~
+treasure 0 AO
+0 0 0 0 0
+41 10 500 P
+A
+19 6
+A
+18 6
+F
+A 17 -15 U
+E
+silver flute~
+This flute is an object of great beauty, and has obviously been in the
+possession of one who took a great deal of care in handling it.  It's silver
+surface is flawless, and the notes that it plays are clear and true, filling
+the air with their sweet beauty.  
+~
+G none
+G none
+G none
+G none
+#100815
+soldier old boots pair~
+{can old soldier's boots{x~
+An old pair of worn-looking boots has been left here to gather dust.~
+leather~
+~
+armor 0 AG
+21 21 21 20 'none' 0
+41 59 212112 P
+A
+19 7
+A
+18 5
+F
+A 17 -15 T
+E
+old pair boots soldier~
+The boots are old and worn, seemingly past their useful days.  But there
+is an aura about them, and a feeling as though they are special, though its
+difficult to tell if its real or just your imagination.  
+~
+G none
+G none
+G none
+G none
+#100816
+silver flute~
+{WA Silver Flute{x~
+A beautiful, delicate flute has been carelessly dropped here.~
+unknown~
+~
+treasure h AO
+0 0 0 0 0
+83 10 500 P
+A
+6 1
+A
+19 15
+A
+18 10
+F
+A 17 -15 U
+E
+silver flute~
+This flute is an object of great beauty, and has obviously been in the
+possession of one who took a great deal of care in handling it.  It's silver
+surface is flawless, and the notes that it plays are clear and true, filling
+the air with their sweet beauty.  
+~
+G none
+G none
+G none
+G none
+#100817
+soldier old boots pair~
+{can old soldier's boots{x~
+An old pair of worn-looking boots has been left here to gather dust.~
+leather~
+~
+armor h AG
+21 21 21 20 'none' 0
+83 59 539567 P
+A
+13 10
+A
+19 15
+A
+18 10
+F
+A 17 -15 T
+E
+old pair boots soldier~
+The boots are old and worn, seemingly past their useful days.  But there
+is an aura about them, and a feeling as though they are special, though its
+difficult to tell if its real or just your imagination.  
+~
+G none
+G none
+G none
+G none
+#100818
+small gift gods package white rp award~
+{Ca {WSm{wa{Wll{  {CG{cift {Wf{wro{Wm t{wh{We {CG{cods{x~
+A small white package lies on the ground.~
+unknown~
+~
+treasure c A
+0 0 0 0 0
+0 0 5 P
+E
+small gift gods package~
+The gods have sent down a small token of appreciation to those mortals
+who catch their attention.
+ 
+{CTurn it in to Questus for 5 quest points.{x
+(quest return gift)
+~
+G none
+G none
+G none
+G none
+#100819
+shattered mirror piece~
+{Wa Pie{wce of t{Dhe Shatt{wered Mi{Wrror{x~
+{wA piece of a shattered mirror lies {Wglinting{w on the ground.{x~
+unknown~
+~
+treasure Tcj A
+0 0 0 0 0
+1 1 7 P
+E
+piece shattered mirror~
+This tiny shard is quite sharp, glinting brightly in the light.
+~
+G none
+G none
+G none
+G none
+#100820
+couch~
+a couch~
+{yA brown couch sits in the corner of the room, its little fibers folded in opposite directions.~
+unknown~
+~
+furniture 0 A
+AB EIJKN EHK CFG CFG AB EIJKN
+0 0 0 P
+E
+couch~
+Some horrible, inconsiderate person has run their hands along this couch
+and neglected to ensure that all the fibers were facing the right way when
+they left, leaving maddening spots where the fabric is darker.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100801
+Nalaeya's Palace~
+Plains
+~
+0 Z city
+D0
+~
+~
+Z 0 100802
+0 0
+S
+#100802
+Nalaeya's Palace~
+~
+0 Z city
+D0
+~
+~
+DZ 0 100803
+0 0
+D2
+~
+~
+Z 0 100801
+0 0
+S
+#100803
+Nalaeya's Palace~
+~
+0 Z city
+D2
+~
+~
+DZ 0 100802
+0 0
+S
+#100804
+Nalaeya's Palace~
+~
+0 Z city
+D0
+~
+~
+Z 0 100805
+0 0
+S
+#100805
+Nalaeya's Palace~
+~
+0 Z inside
+D0
+~
+~
+DZ 0 100806
+0 0
+D2
+~
+~
+Z 0 100804
+0 0
+S
+#100806
+Nalaeya's Palace~
+To do list:
+ 
+2. Work on the Paladin's Quest
+--Create the Paladin in the Darkside.
+--Create the traveler in Sirel
+--create herbs in Sirel
+--create the book on herbs in Sirel
+--make wizi mob by wanderer's door that lets evil in, keeps neutrals out,
+and lets goodies in with the paladin's help.
+--create limiteds & rewards
+ 
+3. Wanderer's Quest
+--wanderer quest mpcode offer
+--paladin death mpcode
+--rewards
+ 
+5. Flag all the rooms with the appropriate sector/room flags
+ 
+6. Add a portal to the little girl's room.
+ 
+7. The possessed doll.
+~
+0 Z inside
+D2
+~
+~
+DZ 0 100805
+0 0
+S
+#100807
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100808
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100809
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100810
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100811
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100812
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100813
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100814
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100815
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100816
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100817
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100818
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100819
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#100820
+Nalaeya's Palace~
+~
+0 0 inside
+S
+#0
+
+#SPECIALS
+M 100801 spec_cast_cleric	* The Glowing Commander
+M 100802 spec_cast_mage	* The {BE{rs{Gs{Ye{Dn{Cc{me {bo{cf {MC{Wh{ga{yo{Rs{x
+M 100814 spec_cast_clan_cleric	* a test clan cleric
+S
+
+#RESETS
+M 0 100813 2 100802 1	* a test clan guard (Nalaeya's Palace)
+M 0 100814 1 100803 1	* a test clan cleric (Nalaeya's Palace)
+M 0 100812 1 100804 1	* {DThe Head of the Thieves' Guild{x (Nalaeya's Palace)
+M 0 100813 2 100805 1	* a test clan guard (Nalaeya's Palace)
+M 0 100816 1 100812 1	* a purger (Nalaeya's Palace)
+S
+
+#OLIMITS
+O 100802 0	* {Ba handful of {Rp{Yi{Gx{Bi{me{C dust{x
+O 100813 2	* {can old soldier's boots{x
+O 100814 1	* {WA Silver Flute{x
+O 100815 1	* {can old soldier's boots{x
+S
+
+#MOBPROGS
+#100801
+if mobhere 3101
+or mobhere 3102
+or mobhere 3103
+or mobhere 3104
+kill ogre
+endif
+if mobhere 100808
+kill pickpocket
+endif
+if mobhere 100809
+kill thief
+endif
+if mobhere 100810
+kill thug
+endif
+if mobhere 100811
+kill assassin
+endif
+if mobhere 100812
+kill head
+endif
+~
+#100802
+mob echo A call goes out among the ranks of the archers, and they let loose a volley of arrows at the enemy.
+mob damage $n 100 150
+endif
+~
+#100803
+if mobhere 100801
+kill commander
+endif
+if mobhere 100803
+kill soldier
+endif
+if mobhere 100804
+kill archer
+endif
+if mobhere 100805
+kill cavalry
+endif
+if mobhere 100806
+kill scout
+endif
+if mobhere 100807
+kill pike
+endif
+~
+#100804
+mob purge
+~
+#100805
+if hour > 20
+and hour < 24
+say Good stuff!
+~
+#100810
+if race $n gnome
+say well hello there!
+endif
+~
+#100812
+if isnpc $n
+emote utters words of magic and glares balefully at $N, who suddenly begins to convulse.
+mob damage $n 3000 8000
+endif
+~
+#100813
+if isnpc $n
+emote lifts up his weapon and smashes it down on $N's head.
+mob damage $n 3000 8000
+endif
+~
+#100814
+if isnpc $n
+emote lifts up her weapon and smashes it down on $N's head.
+mob damage $n 3000 8000
+endif
+~
+#100815
+say hi!
+~
+#100816
+say working!
+~
+#100817
+if hour == 17
+say it's 5!
+if hour > 6
+say it works!
+endif
+endif
+~
+#100818
+mob goto 100802
+mob transfer $n 100802
+mob goto 100801
+~
+#100819
+if carries $i 100818
+mob echo $I looks at the ring.
+say Ahhh there it is! Thank you so much!
+mob oload 100819
+give piece $n
+mob echo $I wanders home.
+mob purge self
+end
+else
+say Hmmm what should I do with this?
+give $o $n
+endif
+~
+#100820
+if race $n gnome
+say hey, this works!
+else
+say boo, you're not a gnome!
+endif
+~
+#0
+
+#PRACTICERS
+M 100814 clan~	* a test clan cleric
+S
+
+#$

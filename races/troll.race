@@ -1,0 +1,35 @@
+#RACE
+Name troll~
+Aff infrared regeneration~
+Off berserk~
+Res charm bash~
+Vuln fire acid~
+Form edible poison sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye claws fangs~
+End
+
+#PCRACE
+Shortname Troll~
+Points 400
+AgeModifier 35
+Class 'cleric' 120
+Class 'dark-knight' 100
+Class 'necromancer' 130
+Class 'ninja' 130
+Class 'paladin' 150
+Class 'ranger' 100
+Class 'samurai' 130
+Class 'warlock' 130
+Class 'witch' 130
+Class 'warrior' 100
+BonusSkills 'fast healing'~
+Stats 60 40 45 40 65 45 50
+MaxStats 19 23 20 25 18 25 25
+Size large
+RestrictAlign evil~
+Slang trollish
+HPBonus 10
+ManaBonus -20
+End
+
+#$

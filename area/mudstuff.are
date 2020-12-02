@@ -1,0 +1,1039 @@
+#AREADATA
+Name Imm Planning Area~
+VNUMs 15000 15199
+Credits Builders~
+Security 9
+LevelRange 92 100
+Flags closed noquest~
+End
+
+#MOBILES
+#15000
+warrior elf~
+an elven warrior~
+An elven warrior stands proudly, weapons at hand.
+~
+~
+elf~
+ABT 0 1000 0
+50 50 101d16+506 50d10+85 16d3+30 none
+-24 -24 -24 -14
+CEFKN 0 0 0
+stand stand male 2140
+0 0 medium flesh~
+~
+#15001
+prisoner karabas~
+@eng the prisoner@rus узник~
+@eng Another prisoner is here.
+@rus Другой узник сидит с тобой и не дает тебе скучать...
+~
+@rus Он большой и толстый. лучше не ссорься с ним.
+~
+human~
+A HV 0 0
+200 0 10d10+25000 0d0+0 10d10+1000 none
+-66 -66 -66 -66
+0 AB 0 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M act 15004 is dead!!~
+M delay 15003 100~
+M random 15005 5~
+M bribe 15005 1~
+M fight 1 100~
+#15002
+cockroach~
+@eng cockroach@rus таракан~
+@eng A little cockroach is crawling here.
+@rus Маленький таракан ползает тут.
+~
+@rus Вполне обычный рыжий таракан.
+~
+song bird~
+AZ 0 1000 0
+1 0 1d1+1 0d0+0 1d1+1 none
+0 0 0 0
+0 B 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F aff T
+#15003
+rat~
+a rat~
+@eng An evil rat is here.
+@rus Злобная крыса тут, она хочет покусать тебя.
+~
+@rus Маленькая злобная крыса с острыми зубами.
+~
+human~
+A Z 0 0
+0 0 1d1+1 0d0+0 1d1+1 none
+0 0 0 0
+FH B 0 S
+stand stand either 0
+G 0 large flesh~
+~
+#15004
+dwarf~
+a snoring dwarf~
+A snoring dwarf dozes here.
+~
+A stocky dwarf sleeps here, snoring loudly enough to wake the dead.  You
+wonder how he manages to run a business this way.  You detect the faint odor
+of firebreather as he exhales.  
+~
+dwarf~
+A 0 1000 0
+90 0 500d500+10 0d0+0 0d0+0 none
+-40 -40 -40 -15
+CO BZ 0 0
+sleep stand male 40
+0 0 medium flesh~
+~
+#15005
+guardian test room beholder glass~
+A small beholder.~
+A small ball that seems to be one central eye with four smaller eyes on small stalks.
+~
+A small glass ball floats before you, seeming to block every move you
+make to get farther into the room.  As it hovers before you a large eye made
+of glass blinks at you and 4 smaller eyes raise up on small stalks to watch
+you.  
+~
+beholder~
+A 0 0 0
+30 110 10d40+500 30d6+200 2d12+25 none
+-9 -9 -9 0
+0 0 0 0
+stand stand male 10
+0 0 large flesh~
+~
+#15006
+snake rattlesnake sidewinder~
+a pet sidewinder~
+An angry rattlesnake lies here coiled to strike.
+~
+Hissss!
+~
+snake~
+AI 0 0 0
+20 5 5d5+1500 1d1+99 4d4+10 none
+-20 -20 -20 -20
+F 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#15007
+dragon silver desmodeus~
+{RD{De{Rs{Dm{Ro{Dd{Re{Du{Rs{x~
+A gargantuan {Dsilver dragon{x waits obediently for Erebus.
+~
+An enormous silver dragon glares back at you through evil reptilian eyes.
+~
+silver dragon~
+ABIZ 0 -1000 0
+95 235 100d125+65000 87d34+23509 55d60+865 none
+-260 -260 -260 -260
+ACHMO 0 D 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+#15008
+no name~
+~
+~
+~
+human~
+A 0 0 0
+8 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#15009
+sniffy~
+Sniffy the guineapig~
+Sniffy the guineapig waddles around inbetween experiments.
+~
+Sniffy is Erebus' mobtest subject.
+~
+pig~
+A 0 0 0
+56 56 207d56+0 280d10+85 18d3+33 none
+-28 -28 -28 -16
+0 CD D 0
+stand stand male 0
+0 0 medium flesh~
+~
+#15010
+devil~
+the Devil~
+The devil stands here.
+~
+Evil, pure evil...
+  *shiver*
+~
+pig~
+AK 0 -1000 0
+50 1000 20d20+10000 1d1+10000 5d10+50 none
+10 10 10 10
+0 0 0 0
+stand stand male 0
+0 0 large flesh~
+~
+I 92
+#0
+
+#OBJECTS
+#15000
+longsword sword steel~
+a steel longsword~
+A plain steel longsword lies here.~
+steel~
+~
+weapon ABGT AN
+longsword 5 22 none 0
+91 92 84799 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#15001
+dagger iron~
+an iron dagger~
+A plain iron dagger lies here.~
+iron~
+~
+weapon AGT AN
+dagger 4 9 pierce 0
+45 20 11203 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#15002
+blood fountain~
+{Ra fountain of blood{x~
+{RA fountain of warm blood erupts from the ground.{x~
+unknown~
+blood~
+fountain EO 0
+0 0 'blood' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15003
+mask dwarf~
+Mask of the Blue Dwarf~
+{WA holocaust cloak billows in the wind.{x~
+energy~
+~
+clothing ORYa AE
+0 0 0 0 0 0 0
+75 76 79 W
+G none
+G none
+G none
+G none
+#15004
+token enchant~
+{ran enchant token{x~
+A valuable token lies here.~
+energy~
+~
+treasure GIOTYa AP
+0 0 0 0 0
+1 5 9876987 P
+E
+token enchant~
+This token may be redeemed to Erebus for one weapons or armor enchantment.
+~
+G none
+G none
+G none
+G none
+#15005
+basin water dirty~
+a dirty basin of water~
+A dirty basin of water sits in the corner.~
+unknown~
+~
+fountain O 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15006
+mattress straw worn~
+a worn straw mattress~
+A worn straw mattress is lying up against the wall.~
+unknown~
+~
+furniture EGIOY 0
+ABE ABCDEFGHIJKLMNOPQRSTUVWXYZabcde BEK DFGHIJ DFGHIJ ABE ABCDEFGHIJKLMNOPQRSTUVWXYZabcde
+0 0 0 P
+G none
+G none
+G none
+G none
+#15007
+diamond~
+a multifaceted diamond~
+A brilliantly sparkling diamond lies forgotten in the dust.~
+diamond~
+~
+gem Y A
+0 0 0 0 0 0 0
+1 10 10000 P
+G none
+G none
+G none
+G none
+#15008
+pill third power~
+the third power~
+A tiny glowing yellow pill is lying here.~
+energy~
+~
+pill ABOT A
+45 'enhanced armor' 'protection evil' 'bless' 'sanctuary'
+1 1 10000 P
+G none
+G none
+G none
+G none
+#15009
+god hand~
+{Bthe hand of god{x~
+The power of {Bgod{x fills the room.~
+unknown~
+divinity~
+weapon MTYZa AN
+unknown 1 2 none I
+1 0 3149070 P
+F
+A 13 1000 T
+F
+A 19 1000 V
+F
+A 18 1000 H
+E
+hand~
+The power of {Bgod{x fills the room.
+~
+G none
+G none
+G none
+G none
+#15010
+scroll enchantweapon~
+{Ba scroll of IMMORTAL enchantment{x~
+Erebus' scroll of weapons enchantment lies here.~
+unknown~
+~
+scroll RYa A
+2147483647 'enchant weapon' 'reserved' 'reserved' 'reserved'
+92 0 0 P
+G none
+G none
+G none
+G none
+#15011
+enchantarmor scroll~
+{Yan enchant armor scroll{x~
+{YA scroll of IMMORTAL enchantment.{x~
+unknown~
+~
+scroll 0 AEP
+1000000 'enchant armor' 'reserved' 'reserved' 'reserved'
+97 0 0 P
+G none
+G none
+G none
+G none
+#15012
+portal~
+a portal~
+A portable portal lies here.~
+unknown~
+~
+portal 0 AOP
+0 0 CE 3001 0
+99 0 0 P
+G none
+G none
+G none
+G none
+#15013
+hoof~
+{DHooves{x~
+{DA pair of demon hooves are lying here.{x~
+unknown~
+~
+armor 0 AGOP
+0 0 0 0 'none' 0
+0 0 2906 P
+F
+A 1 1 c
+G none
+G none
+G none
+G none
+#15014
+mark beast~
+The Mark of the Beast~
+Mark of the Beast is here.~
+darkness~
+~
+treasure ABCEG AS
+0 0 0 0 0
+100 0 0 P
+G none
+G none
+G none
+G none
+#15015
+aura light~
+{WA Radiant Aura of {YLight{x~
+{WThe {Ylight{W of a thousand suns blinds you with its intensity.{x~
+light~
+~
+light AGKLPST AO
+0
+106 0 91279 P
+A
+18 20
+A
+19 20
+A
+13 500
+G none
+G none
+G none
+G none
+#15016
+Dwarven Ale Mug~
+A stout mug of Dwarven Ale~
+A clay mug filled to the brim with a strong smelling beverage.~
+clay~
+~
+drink 0 0
+2 2 'dark ale' 0
+5 1 100 P
+G none
+G none
+G none
+G none
+#15017
+armortest~
+Armortest~
+Mortals had better not be found in possession of this armor, on pain of death.~
+unknown~
+~
+armor 0 AD
+18 18 18 17 'none' 0
+50 51 207452 P
+A
+17 -10
+A
+13 25
+A
+18 3
+A
+19 5
+G none
+G none
+G none
+G none
+#15018
+testweapon weapontest~
+Weapontest~
+Mortals had better not be found in possession of this armor, on pain of death.~
+unknown~
+~
+weapon 0 AN
+unknown 2 26 none 0
+50 51 37470 P
+A
+18 4
+A
+19 4
+G none
+G none
+G none
+G none
+#15020
+box~
+{Dящик ворсинского пива{x~
+{DЯщик темного Ворсинского пива дожидается своего хозяина здесь.{x~
+unknown~
+дерево~
+container GRYa AOP
+20 0 0 100 0 0
+1 0 492012 P
+G none
+G none
+G none
+G none
+#15021
+bottle~
+{Dбутылка холодного Ворсинского пива{x~
+{DБутылка холодного Ворсинского пива лежит здесь.{x~
+unknown~
+стекло~
+drink CGRYa AOP
+20 20 'beer' 0
+1 0 1352 P
+G none
+G none
+G none
+G none
+#15026
+no name~
+~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15027
+elephant~
+@eng HUGE elephant@rus ОГРОМНЫЙ СЛОНЯРА~
+@eng HUGE elephant wanders around.@rus ОГРОМНЫЙ СЛОНЯРА бродит тут в поисках хозяина.~
+unknown~
+~
+treasure 0 AO
+0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15028
+bell~
+@eng {Wlittle magic bell{x@rus {Wмаленький глиняный колокольчик{x~
+@eng A small little magic bell lies here.@rus Самая прекрасная ведьмочка оставила здесь свой колокольчик.~
+unknown~
+~
+treasure 0 AO
+0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15029
+bear~
+@eng teddy bear@rus плюшевый медвежонок~
+@eng Teddy bear lies here, forgotten.@rus Уронили мишку на пол, оторвали мишке лапу...~
+unknown~
+~
+pill 0 AO
+1000 'poison' 'plague' 'blindness' 'curse'
+0 0 0 P
+G none
+G none
+G none
+G none
+#15030
+tron~
+{Gмаленькая удобная кроватка{x~
+{GМаленькая удобная кроватка для ведьмочки Faire стоит тут.{x~
+unknown~
+~
+furniture RYa AP
+AC EIJKN HK CFG CFG AC EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#15035
+bottle champagne~
+@eng {ga bottle of champagne{x@rus {gбутылка шампанского{x~
+@eng Bottle of champagne is here.@rus Бутылка шампанского оставлена кем-то здесь.~
+unknown~
+стекло~
+drink GRYa AOP
+-1 2147483647 'champagne' 0
+0 0 5 P
+G none
+G none
+G none
+G none
+#15036
+chocolate sweet~
+@eng {ychocolate sweet{x@rus {yшоколадная конфета{x~
+@eng Chocolate sweet is here.@rus Шоколадная конфета валяется тут.~
+unknown~
+шоколад~
+pill GRYa AOP
+30 'haste' 'frenzy' 'enhanced armor' 'sanctuary'
+0 0 0 P
+G none
+G none
+G none
+G none
+#15037
+box~
+@eng {ra box of chocolate sweets{x@rus {rкоробка шоколадных конфет{x~
+@eng Box of chocolate sweets is here.@rus Коробка шоколадных кофет лежит тут.~
+unknown~
+картон~
+container GRYa AOP
+100 0 0 0 0 0
+0 0 552574 P
+G none
+G none
+G none
+G none
+#15040
+chair~
+ancient chair~
+The ancient chair is here.~
+unknown~
+~
+furniture FGRTYa AP
+A FHJKPQ H BCEH BCEH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#15041
+chair~
+ancient chair~
+The ancient chair is here.~
+unknown~
+~
+furniture FGRTYa AP
+A HJKMPTUX H CEFGHI CEFGHI A HJKMPTUX
+0 0 0 P
+G none
+G none
+G none
+G none
+#15042
+hammer large~
+a large hammer~
+A large hammer lies here.~
+unknown~
+~
+weapon GITYa ANP
+mace 1 1 none 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15043
+splinter~
+splinter "p"~
+splinter "n" is here.~
+unknown~
+~
+trash GTYa AP
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15044
+splinter~
+splinter "i"~
+splinter "i" is here.~
+unknown~
+~
+trash GTYa AP
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15045
+splinter~
+splinter "r"~
+splinter "l" is here.~
+unknown~
+~
+trash GTYa AP
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15046
+splinter~
+splinter "a"~
+splinter "b" is here.~
+unknown~
+~
+trash GTYa AP
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15047
+splinter~
+splinter "t"~
+splinter "o" is here.~
+unknown~
+~
+trash GTYa AP
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15048
+splinter~
+splinter "e"~
+splinter "g" is here.~
+unknown~
+~
+trash GTYa AP
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#15050
+eye~
+eye~
+eye~
+unknown~
+~
+staff EFHMPRTYa AOP
+0 0 0 'reserved'
+10 10 0 P
+G none
+G none
+G none
+G none
+#15100
+cheburator~
+@eng a dwarven golden ring~
+~
+unknown~
+~
+jewelry HOTY B
+ABFG ABFG ABFG ABFG 0 ABFG ABFG
+7 1 900000 P
+A
+18 500
+A
+18 500
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+19 100
+A
+20 -50
+A
+19 100
+G none
+G none
+G none
+G none
+#15112
+aenis~
+{W'{CAenis + Leo{W' ring{w~
+{Wmagnificent work ring is here{w~
+unknown~
+{WCrystal{w~
+jewelry AGITYZa ABP
+0 0 0 0 0 0 0
+1 0 2147483647 P
+A
+17 -5
+A
+20 -5
+G none
+G none
+G none
+G none
+#15113
+bucket rose~
+@eng Bucket full of roses@rus Ведерко для роз~
+@eng A bucket full of roses stands here.@rus Кто-то оставил тут ведерко с розами.~
+brass~
+~
+container Yb AE
+1000 0 0 1000 10 0
+0 0 522332 P
+G none
+G none
+G none
+G none
+#15114
+teleport~
+teleport pill~
+Telportation pill~
+unknown~
+~
+pill 0 A
+100 'teleport' 'reserved' 'reserved' 'reserved'
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#15000
+Erebus' Planning Room~
+You are standing in Erebus' planning room.
+A large map of the world is tacked onto the north wall.
+~
+0 DP forest
+E
+map~
+You see a large map of the world, rendered in minute detail.
+~
+S
+#15001
+The Battlefield~
+~
+0 0 city
+S
+#15002
+Cell No. 328,782,572~
+@eng You are in jail.
+@rus Ты попал в теплую и хорошо освещенную камеру. Здесь чисто, а из пола 
+даже бьет небольшой фонтан с вкусным молоком. Тем не менее, здесь до одури 
+скучно.
+~
+0 CDNSTWX inside
+S
+#15003
+A Testroom~
+As you walk into this room, you find that it's ponderously empty for a
+testing site.  In the corner, you see a stack of OLC manuals scattered
+across the floor.  
+~
+0 AH inside
+D2
+~
+~
+Z 0 15005
+0 0
+S
+#15004
+Arquel's Test room~
+A small workroom floats in the middle of a void.  How it came to be here,
+is anyone's guess.  A small table and two chairs seem to be the only
+furnishings.  A glowing portal leads to the east.  
+~
+0 DK noswim
+S
+#15005
+A Test Petshop~
+~
+0 DM inside
+D0
+~
+~
+Z 0 15003
+0 0
+S
+#15006
+The Petstoreroom~
+~
+0 C inside
+S
+#15007
+A Second Petstoreroom~
+~
+0 C inside
+S
+#15010
+Death's Chambers~
+~
+0 NPX inside
+S
+#15100
+A Testing Room~
+The walls are scarred by fire, floods, and lightning.
+This place is a mess.
+~
+0 CDP mountain
+S
+#0
+
+#SPECIALS
+M 15005 spec_cast_beholder	* A small beholder.
+S
+
+#RESETS
+M 0 50 1 15001 1	* {YA C{Celes{Wti{Cal Bei{Yng{x (The Battlefield)
+O 0 15005 0 15002	* a dirty basin of water (Cell No. 328,782,572)
+M 0 15001 1 15002 1	* the prisoner (Cell No. 328,782,572)
+M 0 15002 1 15002 1	* cockroach (Cell No. 328,782,572)
+M 0 15003 1 15002 1	* a rat (Cell No. 328,782,572)
+O 0 15006 0 15002	* a worn straw mattress (Cell No. 328,782,572)
+M 0 15004 1 15003 1	* a snoring dwarf (A Testroom)
+G 0 15035 0		*	{ga bottle of champagne{x
+G 0 15016 0		*	A stout mug of Dwarven Ale
+M 0 15010 2 15005 1	* the Devil (A Test Petshop)
+M 0 15005 1 15006 1	* A small beholder. (The Petstoreroom)
+M 0 15006 1 15007 1	* a pet sidewinder (A Second Petstoreroom)
+S
+
+#SHOPS
+15004 17 19 0 0 0 45 11 0 23
+0
+
+#MOBPROGS
+#15000
+if isdelay $I
+end
+endif
+mob vforce 50 mob goto 1213
+mob vforce 50 mob oload 15114
+mob vforce 50 eat teleport
+mob vforce 50 mob zecho {CA brilliant flash of {Wwhite {Ylight{C is seen in the distance.{x
+mob vforce 50 mob oload 41
+mob delay 20
+sockets
+~
+#15001
+mob vforce 50 mob echo {YWith a flap of his wings, the {Wangel{Y leaps into the air.{x
+mob vforce 50 mob zecho {cA comet streaks toward the sky, trailing {Wwhite{c and{Y yellow{c sparks.{x
+mob vforce 50 mob goto 15001
+mob vforce 50 mob junk all
+mob vforce 50 mob oload 15015
+mob vforce 50 wear light
+end
+~
+#15002
+~
+#15003
+say ЩАс щас...
+mob transfer $q 15002
+say Ну вот. так просто ты от меня не избавишься.
+~
+#15004
+if ispc $n
+say Умер :(
+mob remember $n
+mob delay 1
+endif
+~
+#15005
+if rand 50
+babble
+end
+endif
+if rand 50 
+say $r, have you ever been here?
+end
+endif
+if rand 50 
+yawn
+end
+endif
+if rand 50
+smile cockroach
+endif
+if rand 50 
+burp
+end
+endif
+if rand 50
+cough
+end
+endif
+if rand 50 
+flex $r
+end
+endif
+~
+#15100
+~
+#0
+
+#PRACTICERS
+M 15010 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the Devil
+S
+
+#HELPS
+0 2 hunt~
+It's often been said that the hardest part of a hit is finding the mark.  The
+Shadow Stalker elders, therefore, developed a way to track a mark no matter
+Where he might hide.  When first learned a mark can only be hunted if his
+Location has already been narrowed down to a particular forest, or city.
+~
+0 2 Find Object~
+The Shadow Stalkers have long had a reputation as a people who know how to
+Get things.  Every member of the clan seems to possess a 6th sense on who
+Might be walking around with what, and where a certain lost heirloom might
+Be found laying on the ground.  This 6th sense is even better than the mages
+Have been able to muster.
+~
+0 2 Phantasm~
+When on a stakeout, waiting for a mark to leave the safty of the guildhall,
+It's often good to have someone to talk to, someone to share the time with.
+The Shadow Stalkers have been blessed the ability to conjure phantasms from
+The shadows.  These beings, though not great conversationalists, will assist
+In combat, and are good for knocking down doors.
+~
+0 2 Take Revenge~
+Though it is rare, occationally a Shadow Stalker is bested in combat.  When
+This happens it is always prudent to return to the scene of death and recover
+Belongings so that they do not fall in your enemy's hands.  When you take
+Revenge you are instantly transported to your corpse.
+~
+0 2 Armor Use~
+Before sending Shadow Stalkers out to their first job, each on is instructed
+On a special way to handle their armor for maximium effect.  When this skill
+Succeeds, the individual is harder to hit.  The more proficient the Shadow
+Stalker in combat, the better the protection.
+~
+-1 $~
+
+#$

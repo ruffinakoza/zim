@@ -1,0 +1,943 @@
+#AREADATA
+Name Everlasting Silence~
+Builders kira~
+VNUMs 29100 29119
+Credits Kira~
+Security 9
+LevelRange 10 15
+End
+
+#MOBILES
+#29101
+undead zombie~
+{7an {8Undead {!Zombie{x~
+{7An {8Undead {!Zombie {xcreeps forward at you, arms out.{x
+~
+~
+undead~
+ABT 0 -1000 0
+6 6 17d6+0 30d10+85 2d3+8 pierce
+5 5 5 6
+0 0 0 0
+stand stand male 5
+0 0 medium unknown
+#29102
+nixie faerie~
+a fluttering nixie~
+A fluttering nixie rummages through your possessions looking for wine! 
+~
+The nixie, like the pixie has dragonfly wings, but is taller (9"). 
+~
+unique~
+ACEH T 0 0
+12 12 27d12+0 60d10+85 4d3+11 slash
+1 1 1 3
+EFU 0 C HZ
+stand stand male 10
+AHMVW ABCDEFGHIJKO tiny unknown
+#29103
+decomposing woman~
+{7a {1decomposing {8woman{x~
+{7A {1decomposing {8woman{x carelessly watches skin fall from her body.{x
+~
+This creatures face almost resembles that of a decomposing
+young woman. Her skin is slowly dropping from her cheeks in
+a disgusting manner. How could that NOT be disgusting?
+~
+undead~
+ABT 0 -1000 0
+5 5 15d5+0 25d10+85 1d5+7 pierce
+5 5 5 7
+0 0 0 0
+stand stand female 20
+0 0 medium unknown
+F imm LQ
+F par BCDEFGHIJK
+#29104
+skeleton panther~
+{7a {3rotting {&s{7k{8e{&l{7e{8t{&o{7n {7of a {8panther{x~
+{7A {3rotting {&s{7k{8e{&l{7e{&t{7o{8n{x of a {8panther{x is here.{x
+~
+Looking at this skeleton, the misty fog comes passing right through
+its body. It is a strange creature indeed.
+~
+unique~
+ABCE 0 -1000 0
+10 10 25d10+0 50d10+85 3d3+10 pierce
+2 2 2 4
+F 0 C Z
+stand stand male 30
+AHMV A medium unknown
+#29105
+goo~
+{7some {2goo{x~
+{7A messy puddle of {2goo{x quivers here.{x
+~
+There is nothing too interesting about this smelly puddle of {2goo{x.
+It quivers and shakes.
+~
+unique~
+ABET 0 -1000 0
+8 8 21d8+0 40d10+85 2d4+9 stab
+3 3 3 5
+D 0 F C
+stand stand none 30
+AHMV F small unknown
+#29106
+ghostly apparition~
+a {8Ghostly {&Apparition{x~
+{7A {8Ghostly {&Apparition{x is floating here aimlessly.{x
+~
+Floating drearily in place, the head of this ghost is droopy
+and facial expressions sulking greatly. What a sad little ghost
+he is.
+~
+ghost~
+ABT 0 -1000 0
+6 6 14d6+0 6d9+60 1d6+5 pierce
+5 5 5 7
+0 0 0 0
+stand stand male 500
+0 0 medium unknown
+F par ABCDEFGHIJ
+#29107
+lucky leprechaun faerie~
+Lucky~
+A little leprechaun garbed in green says 'Wooo-hooo-hoo' and tickles you! 
+~
+Lucky wears green and is mumbling something about blue diamonds. 
+~
+unique~
+ACEH QUV 0 0
+13 0 2d10+170 5d5+100 2d5+3 slash
+-1 -1 -1 6
+EFHNU 0 C Z
+stand stand male 400
+AHMV ABCDEFGHIJK small unknown
+#29108
+faerie drunken~
+a drunken faerie~
+A drunken faerie snores happily on the floor.  
+~
+The drunken faerie lies nude on the floor, snoring happily away. Looks like 
+somebody is playing a practical joke on him.
+~
+unique~
+ABCE RT 0 0
+10 -1 2d7+121 5d5+100 2d4+2 pierce
+1 1 1 7
+EFNU 0 CD HZ
+sleep rest male 5
+AHMV ABCDEFGHIJKO tiny unknown
+#29109
+twinkletoes bartender faerie~
+Twinkletoes~
+A faerie bartender is here, serving up faerie wine and finger food. 
+~
+Twinkletoes is a fierce, old looking brownie. Maybe you should leave her 
+alone.
+~
+unique~
+ABCEbe V 0 0
+45 0 50d10+5500 5d5+5000 10d4+23 pierce
+-25 -25 -25 -1
+EFNU 0 CD Z
+stand stand female 5000
+AHMV ABCDEFGHIJK medium unknown
+#29110
+swamp creature~
+{7the {2S{3w{2a{3m{2p {4Cr{8ea{4tu{8re{x~
+{7The {2S{3w{2a{3m{2p {3Cr{8ea{4tu{8re{x is covered in gooey weeds here.{x
+~
+Disgusting sopping wet weeds hang loosely from this creature's
+arms. He is wading in the swamp carelessly.
+~
+unique~
+ABT 0 -1000 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+0 R 0 0
+stand stand male 50
+0 B medium unknown
+#29111
+wandering beasty~
+{7a wandering {1beasty{x~
+{7A wandering {1beasty {xis pushing onward in the sludge.{x
+~
+This creature seems to be senile and confused. It doesn't know
+what it is doing, nor where it is heading, but it continues
+to move onward.
+~
+undead~
+ABT 0 -1000 0
+12 12 22d12+0 12d9+60 3d4+8 none
+1 1 1 4
+0 0 0 0
+stand stand none 10
+0 0 medium unknown
+F par BCDEFGHIJK
+#29112
+slimy worm~
+{8a {@@s{2lim{@@y {8worm{x~
+{8A {@@s{2lim{@@y {8worm rolls around on the ground here.{x
+~
+~
+snake~
+ABT 0 -1000 0
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+0 0 0 0
+stand stand male 10
+0 0 medium unknown
+F par AEFKLQVX
+#29113
+groping hand~
+{8a groping {3hand{x~
+{8A groping {3hand {8reaches up for your foot.{x
+~
+This mossy hand is reaching up from the dirt here in desperate
+attempt to grab ahold of your body, and pull it under for company.
+~
+unique~
+ABT 0 -1000 0
+11 11 22d11+0 11d9+60 2d5+7 none
+2 2 2 4
+0 0 0 0
+stand stand none 10
+0 G medium unknown
+#29114
+black viper~
+a {8black viper{x~
+{7A {8black viper{x slithers along the slippery path here.{x
+~
+This black viper is slithering towards you smoothly. It appears to have
+an uninvited intention.
+~
+snake~
+ABT 0 -1000 0
+14 14 25d14+0 14d9+60 3d4+9 none
+0 0 0 3
+0 0 0 0
+stand stand male 10
+0 0 medium unknown
+F par ADEFKLQV
+#29116
+aragana~
+{!A{1ragana{x~
+{8A slobbering, smelly creature stands here, by the name of {!A{1ragana{8.{x
+~
+{8Here stands a disgusting, slimy creature by the name of {!A{1ragana{8.{x
+{8She is slobbering from a gaping hole in her face, and teeth are shooting{x
+{8out every which way. She has a disturbing platter of heads and carcasses{x
+{8in her hand.{x
+~
+zombie~
+ABCT 0 -1000 0
+15 15 35d15+0 150d11+95 6d2+17 none
+-2 -2 -2 0
+0 0 0 0
+stand stand female 500
+0 0 medium unknown
+F par ABCDEFGHIJ
+#29117
+floating stench~
+{8a {&floating {2stench{x~
+{8A {&floating {2stench {8stifles the air here.{x
+~
+There is a visible {2green{x stench floating before you. It seems
+to follow you wherever you go. The stench stays in your armor, no matter
+how hard you try to get rid of it. How disgusting!
+~
+unique~
+ABT 0 -1000 0
+13 13 23d13+0 13d9+60 3d4+8 none
+1 1 1 4
+0 0 0 0
+stand stand none 10
+0 0 medium unknown
+#29118
+fattened maggot~
+{8a fattened {&maggot{x~
+{8A well fed {&maggot {8is rolling about.{x
+~
+This maggot has obviously had too much to eat. Its body is so
+unproportioned, it cannot do anything except roll about and wait
+for food to come to its mouth.
+~
+snake~
+ABT 0 -1000 0
+15 15 26d15+0 15d9+60 4d3+9 none
+0 0 0 3
+0 0 0 0
+stand stand female 10
+0 0 medium unknown
+#29119
+ezifer~
+{!E{1zife{!r{x~
+{!E{1zife{!r {8is here, chained to a rock, throat being {!s{1courge{!d{8.{x
+~
+This man is barely recognizable after receiving his cruel punishment.
+His throat is missing and heavy chains bind him to the rock face. What
+a disturbing sight he is.
+~
+human~
+ABT 0 -1000 0
+15 15 35d15+0 150d11+95 6d2+17 none
+-2 -2 -2 0
+0 0 0 0
+stand stand none 100
+0 0 medium unknown
+F par BCDEFGHIJK
+#0
+
+#OBJECTS
+#29101
+rhyme catchy little~
+a catchy little rhyme~
+There is a tiny rolled up paper lying on the ground.~
+paper~
+scroll AG AO
+15 'faerie fog' '' '' ''
+10 1 200 P
+E
+rhyme catchy little~
+You look at the rhyme. It reads:
+-
+Turn your clothes inside out
+Circle three times and shout
+Iron and cross, make you be
+Revealed to all, and to me
+~
+G none
+G none
+G none
+#29102
+light twinkle twinkling ball~
+a {b*{Bt{Cw{wi{Bn{Ck{wl{Bi{Cn{wg{b*{x ball of light~
+A twinkling ball of light sparkles here!~
+unknown~
+light AGI AO
+0 0 800 0 0
+20 0 1000 P
+A
+4 1
+A
+3 1
+A
+18 1
+G none
+G none
+G none
+#29103
+belt sprite~
+{ga sprite belt{x~
+A loop of rainbow thread lies here.~
+mithril~
+armor FM AL
+4 4 4 3 0
+11 12 15 P
+A
+17 -7
+A
+24 -1
+G none
+G none
+G none
+#29104
+bracer brownie~
+{ya brownie bracer{x~
+An earthen colored band lies here.~
+mithril~
+armor G AM
+5 5 5 5 0
+13 1 700 P
+A
+2 1
+A
+13 8
+G none
+G none
+G none
+#29105
+vial moonlight bottled~
+a vial of bottled moonlight~
+A vial of sparkling liquid emits a soft white glow.~
+glass~
+potion AG AO
+15 'fly' 'cure poison' 'cure critical' ''
+12 1 700 P
+G none
+G none
+G none
+#29106
+robe gossamer~
+a gossamer robe~
+A gossamer robe sparkles with a pale white glow!~
+cloth~
+armor AIM AK
+6 6 6 5 0
+20 16 11 P
+A
+12 24
+A
+24 -1
+G none
+G none
+G none
+#29107
+moonbeam~
+a {Cmoon{Ybeam{x~
+A sparkling pale light ray glows here! ~
+unknown~
+weapon AF AN
+exotic 1 15 pierce G
+15 16 900 P
+A
+18 2
+A
+19 1
+G none
+G none
+G none
+#29108
+wine goblet faerie~
+a goblet of faerie wine~
+A crystal goblet filled with a sparkling wine is here.~
+glass~
+potion G A
+10 'cure blindness' 'invisibility' '' ''
+10 1 100 P
+G none
+G none
+G none
+#29109
+swamp willow tree~
+{7The {2Willow Tree{x in the {3Swamp{x.~
+{7Standing tall and reaching out, here is the {2Willow Tree{x in the {3Swamp{x.~
+wood~
+portal M 0
+0 0 0 29115 0
+1 0 0 P
+G none
+G none
+G none
+#29110
+key sparkling~
+a sparkling key~
+A sparkling key glistens on the ground.~
+silver~
+key BG AO
+0 0 0 0 0
+13 1 130 P
+G none
+G none
+G none
+#29111
+cloak dirty~
+a {yd{Dir{Wt{yy{x cloak~
+A dirty cloak lies here. Ugh! Get the laundry soap.~
+leather~
+armor C AK
+9 9 9 8 0
+24 25 28 P
+A
+18 2
+A
+2 1
+A
+1 1
+G none
+G none
+G none
+#29112
+wand blue diamond~
+a blue diamond wand~
+A wand with a huge blue diamond on it is just lying here! Pick it up!~
+wood~
+wand G AO
+14 12 12 'create food' 0
+13 2 1200 P
+E
+diamond blue~
+They're magically delicious!
+~
+G none
+G none
+G none
+#29113
+gold~
+{Cwhooooopie! {YGold!{x~
+A {Rr{Ya{Gi{Bn{Ib{Mo{mw{x ends at this pot of {Ygold{x!~
+gold~
+money A AO
+500 0 0 0 0
+1 13 130 P
+G none
+G none
+G none
+#29114
+food finger~
+delicious finger food~
+A delicious little plate of scrumptious finger foods lies beckons to you.~
+flesh~
+food 0 AN
+DE DE 0 0 0
+0 1 5 P
+G none
+G none
+G none
+#29115
+branch~
+{xa thick {3branch{x~
+{xA thick {3branch{x overlooking the {!Silence{x and {&Canyon{x stretches out here.~
+unknown~
+furniture BM 0
+ADE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK 0 0
+1 0 0 P
+G none
+G none
+G none
+#29116
+bloody carcass~
+{8a {1bloody {3carcass{x~
+{8A {1bloody {3carcass {8is lying here looking tasty.{x~
+unknown~
+food Y AO
+CE DF 0 0 0
+1 1 1 P
+G none
+G none
+G none
+#29117
+hollow tree~
+~
+{8A {&hollow {8in the tree is empty here, leading back down to the {3swamp{8.{x~
+unknown~
+portal M 0
+0 0 0 29109 0
+1 0 0 P
+G none
+G none
+G none
+#29118
+lust vampires~
+{1Vampire{!'{1s {#L{3ust{x~
+A vial of blood lies here.{x~
+unknown~
+drink 0 AC
+40 40 'blood' 0 0
+1 0 8 P
+G none
+G none
+G none
+#0
+
+#ROOMS
+#29100
+{$C{8r{$e{8e{$p{8i{$n{8g {7Onward {7to {8Everlasting Silence{x~
+Eerie silence surrounds you. No movement, no sound, except
+for the heavy breathing in your ear, but when you look to
+see what is causing the hairs on the back of your neck to
+stand on end, you see no one. You are alone in this desolate
+place they call {8Everlasting Silence{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 29101
+D2
+~
+~
+Z 0 9299
+S
+#29101
+{8Fog {&Is {7In {&the {4A{7i{6r{x~
+{8Fog{x exposes nothing but your hand about an inch from your
+face here. You have to reach out in front of you to feel
+your way into this wretched place. Reach just a few feet
+farther and you'll find yourself touching creatures that
+are meant to be left {&alone{x.
+~
+0 C field
+E
+mushrooms circle~
+You look at the mushroom circle. You see tiny footprints and the faint outline 
+of a trap door in the center of the ring.
+~
+D0
+~
+~
+Z 0 29102
+D2
+~
+~
+Z 0 29100
+S
+#29102
+{8Fog {&Is {7In {&the {4A{7i{6r{x~
+{8Fog{x exposes nothing but your hand about an inch from your
+face here. You have to reach out in front of you to feel
+your way into this wretched place. Reach just a few feet
+farther and you'll find yourself touching creatures that
+are meant to be left {&alone{x.
+~
+0 D inside
+D0
+~
+~
+Z 0 29103
+D2
+~
+~
+Z 0 29101
+S
+#29103
+{3Skin {8Amongst {7the {1Ground{x~
+Looking down you see a substance that looks like anthills
+of {1heated {3wax{x. It is the skin that is falling from the cheeks
+of the women in {8Everlasting Silence{x. The {2smell{x of it makes
+your toes curl and your skin run for cover. Indeed, the women of
+this place have beauty that {1cannot{x be matched.
+~
+0 D inside
+E
+sign~
+The sign says: "Puck's stuff- keep your grubby hands off" 
+~
+D0
+~
+~
+Z 0 29104
+D2
+~
+~
+Z 0 29102
+S
+#29104
+{2G{@@l{&i{@@s{2t{@@e{&n{@@i{2n{@@g {2Goo{x~
+Droplets of a sticky substance rain from the {6sky{x, zooming
+in at an angle that is just right to hit your head. The
+{2goo{x is thick and {@@green{x and smells like rotting corpses
+and is smothering the ground as well. Be careful not to
+get your feet stuck in the mess, for you might not be
+able to get yourself out.
+~
+0 D inside
+D2
+~
+~
+Z 0 29103
+D3
+~
+~
+Z 0 29105
+S
+#29105
+{&S{7k{8e{&l{7e{8t{&o{7n{8'{&s {^Keep{x~
+Bones, carcasses, rotting skeletons, all of the likes are showering
+their sadness in this room. Bodies are scattered around this keep.
+Their skeletons are quite surreal. For when you look at them, you
+see directly through them all the fog and mist that takes hold of
+horrible place.
+~
+0 D inside
+E
+sign~
+The sign says 'Close the door, stupid'~
+D1
+~
+~
+Z 0 29104
+D3
+~
+~
+Z 0 29106
+S
+#29106
+{8Ghostly {&Apparitions {3Field{x~
+You enter a small desolate area. Dried up dead weeds stand around
+scattered stones. Upon the ground you notice a thick fog, but it is 
+unlike any other fog you've seen. A close look reveals the fog is
+made up of bodily shapes. Creatures souls who have lost their way
+after death seem to end up here. Tread {8carefully{x.
+~
+0 D inside
+D1
+~
+~
+Z 0 29105
+D3
+~
+~
+Z 0 29107
+S
+#29107
+{8Out {&in {7the {3Field{x~
+The desolation continues to the west. Dried up weeds stand around
+scattered stones. Upon the ground and even more heavily now, you
+notice a thick fog and something else that is out of the ordinary,
+shapes in the fog. There are silhouettes of creatures who have died
+and lost their way after {8death{x. Most of them end up here.
+~
+0 D inside
+E
+round objects~
+You look at the round objects. Each object is a human head! Yikes! 
+~
+E
+targets white~
+You look carefully at the white targets and discover they are human bones! 
+~
+D1
+~
+~
+Z 0 29106
+D3
+~
+~
+Z 0 29108
+S
+#29108
+{7Edge {&of {7the {3Field{x~
+The desolation doesn't end here, even on the edge of the field. To
+the west continues more evils. Upon the ground here, the fog is
+beginning to thin a bit, though the silhouettes of creatures who've
+died are still visible. Keep walking if you want to make it out of
+here {&alive{x.
+~
+0 D inside
+E
+forge fires~
+They are being fanned furiously by fluttering faerie folk.~
+D1
+~
+~
+Z 0 29107
+D3
+~
+~
+Z 0 29109
+S
+#29109
+{3Swamp {2Tree{x~
+A gigantic {2willow tree{x stands before you, its branches billowing
+out like reaching arms. It rests its roots in the warm bog just ahead
+with {8sludge{x and mud slowly drying around the base. This {2tree{x is
+just screaming for you to enter its depths.
+~
+0 0 inside
+D1
+~
+~
+Z 0 29108
+D3
+~
+~
+Z 0 29110
+S
+#29110
+{2Swamp {8Dwelling{x~
+Warm sticky sludge and mud engulf your feet in this bog.
+You sink deeper into it with every second you chance to
+wade. Eyeballs pop out from the sludge from time to time
+to glance back and forth on a tentacle and then disappear
+again below. Strange moaning noises can be heard nearby,
+they are muffled and distraught. Disturbing as they may
+be, that sound might be yours soon if you aren't careful.
+~
+0 0 inside
+D0
+~
+~
+Z 0 29111
+D1
+~
+~
+Z 0 29109
+S
+#29111
+{2Coming Upon A {8Canyon{x~
+{8Smelly fungus smothers the ground leading up to the canyon just{x
+{8ahead. Looking down upon it, it makes your stomach drop. You{x
+{8find your chest heaving as you attempt to crawl and drudge through{x
+{8the thick gunk and slime.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 29112
+D2
+~
+~
+Z 0 29110
+S
+#29112
+{8A Deep, {1Desolate {8Hole{x~
+{8Hands reach out from the ground here, grabbing and groping for legs{x
+{8and bodies to pull down into the earth with them. Maggots and slimy{x
+{8worms slide and squirm around on this hill, exploding beneath the{x
+{8pressure of your feet.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 29113
+D2
+~
+~
+Z 0 29111
+S
+#29113
+{8Climbing Out From the Hole{x~
+{8The hands penetrating the ground seem to have a strong will to pull{x
+{8you down deep into the earth with them. Blood and guts cover each{x
+{8finger, leaving your stomach in a twist. Move stead fast, or their{x
+{8intentions may show through.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 29114
+D2
+~
+~
+Z 0 29112
+S
+#29114
+{8Upon a {1S{7l{1i{7p{1p{7e{1r{7y {8Landing{x~
+Shining green moss covers the ground. Oozing deep {5purple{x slime, the
+moss is very slippery. Underneath the moss and throughout, you see many
+{8black vipers{x slithering about. Hissing quite loudly, the vipers apparently
+don't like that you have tred upon their home. You might want to move
+along rather quickly.
+~
+0 0 inside
+D0
+~
+~
+Z 0 29116
+D2
+~
+~
+Z 0 29113
+S
+#29115
+{&In {7The {2Tree {&Tops{x~
+A beautiful view of {&Elemental Canyon{x is in the palm of your hand.
+Despite the current surroundings, this is the only place in {!Everlasting{x
+{!Silence{x that has any solemnity to it. These tree tops ride above the
+{8black {xclouds and the disgusting scents. It is quite refreshing up in the
+{^sky{x.
+~
+0 0 field
+S
+#29116
+{8Victim's {1Domain{x~
+{8Stand and become a victim, is the policy here. {3Carcasses {8and {!blood{x
+{8are splattered about on the ground. A repulsive scent is lingering{x
+{8nearby. At times, a disgusting female by the name of Aragana roams{x
+{8here, selling all sorts of bloody delicacies. Watch your back when{x
+{8she is around.{x
+~
+0 0 inside
+D1
+~
+~
+Z 0 29117
+D2
+~
+~
+Z 0 29114
+S
+#29117
+{8Area of {1Eye Tearing {2Stench{x~
+All around you lies waste. Corpses rot and decay with the
+help of nature. The smell is almost overwhelming, causing
+your eyes to water up. You notice the corpse closest to you
+is moving, but in fact it is covered in flies, tearing away
+at its flesh. All you want to do is move forward to get through
+the awful stench.
+~
+0 0 inside
+D1
+~
+~
+Z 0 29118
+D3
+~
+~
+Z 0 29116
+S
+#29118
+{yMaggot Creek{x~
+A small creek has formed from a rockface, or at least it appears to be a
+creek. In actuality it looks to be a mass exodus of thousands upon thousands
+of fattened {&maggots{x looking to devour anything in their path.{x
+~
+0 A field
+D1
+~
+~
+Z 0 29119
+D3
+~
+~
+Z 0 29117
+S
+#29119
+A {WH{wo{Drr{wi{Wd Fate~
+The flowing maggots taper off into a waterfall of sorts.  They fall
+endlessly onto the poor soul that was imprisoned here.  It appears to
+possibly be a male drow elf.  He is bound to the rock face with chains of
+living shadow.  He screams in silence, for his throat has long been
+devoured.  For some reason, he appears to be regenerating even as the
+maggots feast upon his dark flesh.  A terrible punishment indeed.  
+~
+0 A field
+D3
+~
+~
+Z 0 29118
+S
+#0
+
+#SPECIALS
+M 29106 spec_cast_mage	* a {8Ghostly {&Apparition{x
+S
+
+#RESETS
+M 0 29101 2 29101 2	* {7an {8Undead {!Zombie{x ({8Fog {&Is {7In {&the {4A{7i{6r{x)
+M 0 29101 2 29102 1	* {7an {8Undead {!Zombie{x ({8Fog {&Is {7In {&the {4A{7i{6r{x)
+M 0 29101 4 29102 1	* {7an {8Undead {!Zombie{x ({8Fog {&Is {7In {&the {4A{7i{6r{x)
+M 0 29103 2 29103 2	* {7a {1decomposing {8woman{x ({3Skin {8Amongst {7the {1Ground{x)
+M 0 29105 2 29104 2	* {7some {2goo{x ({2G{@l{&i{@s{2t{@e{&n{@i{2n{@g {2Goo{x)
+M 0 29104 2 29105 2	* {7a {3rotting {&s{7k{8e{&l{7e{8t{&o{7n {7of a {8panther{x ({&S{7k{8e{&l{7e{8t{&o{7n{8'{&s {^Keep{x)
+M 0 29106 2 29106 2	* a {8Ghostly {&Apparition{x ({8Ghostly {&Apparitions {3Field{x)
+M 0 29106 2 29107 2	* a {8Ghostly {&Apparition{x ({8Out {&in {7the {3Field{x)
+M 0 29106 2 29108 2	* a {8Ghostly {&Apparition{x ({7Edge {&of {7the {3Field{x)
+O 0 29109 0 29109	* {7The {2Willow Tree{x in the {3Swamp{x. ({3Swamp {2Tree{x)
+M 0 29110 2 29110 2	* {7the {2S{3w{2a{3m{2p {4Cr{8ea{4tu{8re{x ({2Swamp {8Dwelling{x)
+M 0 29111 2 29111 2	* {7a wandering {1beasty{x ({2Coming Upon A {8Canyon{x)
+M 0 29112 2 29112 2	* {8a {@s{2lim{@y {8worm{x ({8A Deep, {1Desolate {8Hole{x)
+M 0 29113 2 29113 2	* {8a groping {3hand{x ({8Climbing Out From the Hole{x)
+M 0 29114 2 29114 2	* a {8black viper{x ({8Upon a {1S{7l{1i{7p{1p{7e{1r{7y {8Landing{x)
+O 0 29115 0 29115	* {xa thick {3branch{x ({&In {7The {2Tree {&Tops{x)
+O 0 29117 0 29115	*  ({&In {7The {2Tree {&Tops{x)
+M 0 29116 1 29116 1	* {!A{1ragana{x ({8Victim's {1Domain{x)
+G 0 29116 0		*	{8a {1bloody {3carcass{x
+G 0 29118 0		*	{1Vampire{!'{1s {#L{3ust{x
+M 0 29117 3 29117 3	* {8a {&floating {2stench{x ({8Area of {1Eye Tearing {2Stench{x)
+M 0 29118 2 29118 2	* {8a fattened {&maggot{x ({yMaggot Creek{x)
+M 0 29119 1 29119 1	* {!E{1zife{!r{x (A {WH{wo{Drr{wi{Wd Fate)
+S
+
+#SHOPS
+29109 1 2 3 4 18 120 80 0 23
+29116 -1 -1 -1 -1 -1 110 100 0 23
+0
+
+#$

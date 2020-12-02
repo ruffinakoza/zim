@@ -1,0 +1,32 @@
+#RACE
+Name satyr~
+Aff infrared~
+Res disease wood~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Satyr~
+Points 250
+AgeModifier 45
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 100
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 100
+Class 'witch' 100
+Class 'warrior' 100
+BonusSkills 'camouflage' 'ambush' 'steal'~
+Stats 45 50 50 65 50 50 50
+MaxStats 19 23 20 25 18 25 25
+Size medium
+RestrictAlign neutral~
+RestrictEthos neutral chaotic~
+Slang human
+End
+
+#$

@@ -1,0 +1,2624 @@
+#AREADATA
+Name Plains of Aydindril~
+Builders dracone taliesen~
+VNUMs 100000 100050
+Credits Taliesen Dracone~
+Security 1
+LevelRange 10 25
+End
+
+#MOBILES
+#100000
+female wolf~
+a large, female wolf~
+A large wolf howls at the moon.
+~
+A large wolf like figure, but twice the size.  It has a big barrel chest.
+Its head is kind of flat, and its snout bears many sharp teeth.  
+~
+wolf~
+ABFLT J 0 0
+19 19 36d19+0 95d10+85 6d3+14 bite
+-3 -3 -3 0
+IJR 0 0 0
+stand stand female 20
+0 0 medium flesh~
+~
+#100001
+coyote~
+a coyote~
+A small grey coyote is here sniffing around the underbrush.
+~
+A grey coyote is sniffing around, presumably for food.  Her eyes are dark
+black and sharp.  Her head moves side to side very quickly trying to find a
+scent she's lost.  
+~
+dog~
+A 0 0 0
+13 13 23d13+0 13d9+60 3d4+8 none
+1 1 1 4
+FI 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+#100003
+vulture~
+a vulture~
+A large vulture feeds here.
+~
+A large bald headed bird, brown in color.  It has a white ring of
+feathers around the base of its neck, and his beak tip is covered with
+blood.  His talons are long enough to puncture the skin and cause damaging
+wounds.  
+~
+song bird~
+ABCH J 0 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100004
+raven~
+a raven~
+A raven circles overhead.
+~
+A large, black bird circles slowly around you.  It's razor sharp beak and
+claws make it one of nature's most efficient hunters.  
+~
+song bird~
+ABCH 0 0 0
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+I 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100005
+cougar cat~
+a cougar~
+A large cat stalks its prey.
+~
+This huge mountain cat stalks through the underbrush with silence and
+ease.  Her fangs appear sharp, and a trickle of blood lingers on the left
+side of her jaw from her last meal.  
+~
+cat~
+AL 0 0 0
+15 15 26d15+0 15d9+60 4d3+9 none
+0 0 0 3
+IO 0 0 0
+stand stand female 50
+0 0 medium flesh~
+~
+#100006
+elf scout~
+a tired elven scout~
+A weary looking elf searches for the Broadwind Inn
+~
+This elf looks like it's been a few days since he's gotten a decent meal
+or a good night's rest.  He seems to be searching for the Broadwind Inn, but
+has gotten lost.  He's not much of a scout, it seems.  
+~
+elf~
+ABL DHt 5000 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+EIJO 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100007
+wolf male~
+a large, male wolf~
+A large wolf howls at the moon.
+~
+A large wolf like figure, but twice the size.  It has a big barrel chest.
+Its head is kind of flat, and its snout bears many sharp teeth.  
+~
+wolf~
+A 0 0 0
+18 18 35d18+0 90d10+85 6d3+14 bite
+-2 -2 -2 0
+IJR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100008
+grizzly bear~
+a grizzly~
+A grizzly bear is here crashing through the smaller trees.
+~
+A large, black grizzly bear is here roaring and kicking.  His fur is
+covered with splinters and leaves from his haphazard trip through the
+forest.  
+~
+bear~
+A 0 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+0 0 0 0
+stand stand none 0
+0 0 large flesh~
+~
+#100009
+gwyndolynn ogre ranger~
+Gwyndolynn~
+The ogre ranger, Gwyndolynn, stands here tending to the animals and plants.
+~
+Here stands a tall ogress.  Her bulging muscles make the males of most
+races seem rather puny by comparison.  She has a smile on her simple face as
+she tends to the creatures of the forest.  
+~
+ogre~
+ABLQ Ht 5000 0
+25 25 49d25+0 250d11+95 9d2+24 none
+-8 -8 -8 -3
+CDFJ L B C
+stand stand female 1000
+0 0 medium flesh~
+~
+#100010
+elven princess~
+an elven princess~
+A beautiful elven princess stands here.
+~
+A beautiful elven princess stands before you.  Long golden hair falls
+over her shoulders.  She is dressed in a fine gown of green silk.  The smile
+on her face could melt the coldest hearts in the realms.  
+~
+elf~
+ABQR H 5000 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+FIV 0 0 0
+stand stand female 533
+0 0 medium flesh~
+~
+#100011
+displacer beast cat~
+a displacer beast~
+A large cat is here shimmering.
+~
+The displacer beast is prowling through the brush.  He appears like a
+large lion, except with a few tentacles stretching out from his body and
+feeling the air.  The magical beast seems to shimmer in and out of your
+view.  
+~
+cat~
+AGL BDP -5000 0
+21 19 36d19+0 95d10+85 6d3+14 none
+-3 -3 -3 0
+AIV 0 E 0
+stand stand none 0
+C 0 medium flesh~
+~
+F par HJ
+#100030
+angry drunk man~
+an angry drunk~
+A man stands here, swaying back and forth, cursing under his breath.
+~
+A slovenly dressed man stands here.  He's spilling his ale all over the
+room.  He casts disdainful looks at you and the singing drunk that keeps
+bumping into him.  
+~
+human~
+A 0 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+CFJ 0 0 0
+stand stand none 40
+0 0 medium flesh~
+~
+#100031
+allyndril half-elf~
+Allyndril~
+A long haired half-elf stands here, surveying the room.
+~
+Worn around the neck is a flowing green robe, the neck piece held
+together with a small leaf shaped pin.  This young half-elf's hair is
+tousled loosely about his head and extends nearly the entire length of his
+back.  His eyes dart quickly back and forth, surveying the room.  You see
+the faint glow of red from beneath his cloak.  
+~
+half-elf~
+ABR 0 0 0
+25 25 49d25+0 250d11+95 9d2+24 none
+-8 -8 -8 -3
+0 0 0 0
+stand stand male 234
+0 0 medium flesh~
+~
+#100033
+thief~
+a thief~
+A thief crouches in the shadows.
+~
+A female half-elf is here hiding between the crates.  She is protecting
+her treasure, undoubtedly lifted from the various guests of the inn. 
+Clutched in her hand is a sharp, thin dagger.  
+~
+human~
+AFLS DFQ -5000 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+EFJKV 0 C 0
+stand stand female 400
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#100034
+patron inn~
+an inn patron~
+A patron of the inn is here, having a pint of ale.
+~
+An exhausted adventurer is here, having a rest and enjoying a pint of
+ale.  He looks like one of the many human adventurers you've passed on your
+travels.  
+~
+human~
+A 0 5000 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+CFJ 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100035
+dog spotted~
+a spotted dog~
+A spotted dog is searching for scraps and spilled bits of ale.
+~
+A dirty, spotted dog is searching the floor for anything dropped by the
+inebriated patrons.  There is no short supply of morsels for the mutt.  
+~
+dog~
+A 0 0 0
+19 19 36d19+0 95d10+85 6d3+14 none
+-3 -3 -3 0
+CF 0 0 0
+stand stand none 0
+0 0 large flesh~
+~
+#100036
+happy drunk~
+a happy drunk~
+A happy drunk is here, singing at the top of his lungs.
+~
+This man is more than half in the bag.  Ale has drenched his shirt, and
+somewhere along the line, he's lost his shoes.  This isn't deterring him
+from singing at the top of his lungs.  He's carrying a bear claw, probably
+taken from the fur rug at the entrance.  
+~
+human~
+ACHT a 5000 0
+18 18 35d18+0 90d10+85 6d3+14 none
+-2 -2 -2 0
+IJO 0 0 0
+stand stand male 180
+0 0 medium flesh~
+~
+F par EFGHIJ
+#100039
+bartender half-elf ginnie~
+Ginnie, the bartender~
+An attractive female half-elf is here, serving drinks.
+~
+Ginnie, the bartender of the Broadwind is here.  She is dressed in a
+tight fitting white shirt and brown cloth shorts.  She stands just over five
+feet in height, but has no trouble keeping order in her bar, whether with
+her feminine charms or her fists if needed.  
+~
+half-elf~
+ABRT a 0 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+EJ 0 CE 0
+stand stand female 1380
+0 0 medium flesh~
+~
+F vul Z
+#100040
+sphlear cook fat~
+Sphlear~
+Sphlear, the fat little cook of the Broadwind is here.
+~
+This gnome is nearly as wide at the waist as he is tall.  You've heard
+stories of how good his cooking is.  From the looks of him, he must enjoy
+his food very much.  He wears a long apron that was probably once white. 
+Now, it's covered in many stains that encompass any different color you
+could imagine coming from a kitchen.  
+~
+gnome~
+ABR 0 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+EIJN 0 0 B
+stand stand male 234
+0 0 large flesh~
+~
+#100041
+servant woman~
+a servant~
+A pretty servant woman is here, cleaning up.
+~
+~
+arial~
+AR 0 0 0
+17 17 33d17+0 85d10+85 5d3+13 none
+-2 -2 -2 1
+EFN 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#100042
+assistant gnome~
+a gnome assistant~
+A thin gnome prepares food for the inn's guests.
+~
+This little gnome seems to be working twice as hard as his Sphlear.  He
+certainly doesn't enjoy the time to dine as well as his master.  He has
+somehow managed to keep his apron fairly clean though.  
+~
+gnome~
+ALT 0 0 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+EIJR 0 0 0
+stand stand male 220
+0 0 large flesh~
+~
+#100043
+orc warrior~
+an orc~
+A tall orc warrior stands here.
+~
+A large orc stands here.  He is smelly and dirty from his travels.  He
+stinks of sweat and blood.  He carries a large club and a battered shield.  
+~
+orc~
+ABLT a -5000 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+DJOR 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+#100044
+ranger lionel~
+Lionel~
+Lionel, the retired ranger, stands here.
+~
+A tall, dark-skinned man stands here, twirling an icy blue quarterstaff. 
+His clothing consists of several animal hides, roughly stitched together. 
+His head is bald, the only hair on his head being a long mustache.  He
+flashes you a smile as you enter his room.  
+~
+human~
+ABLS FJV 5000 0
+25 25 49d25+0 250d11+95 9d2+24 none
+-8 -8 -8 -3
+EFJKOV L 0 0
+stand stand male 134
+0 0 medium flesh~
+~
+F for AHMV
+F par EFGHIJK
+#100045
+orc captain large~
+an orc captain~
+A very large orc stands here, trying to assert his command.
+~
+An orc captain stands here trying to keep his followers in line.  He
+wears hard leather armor and half-mask over his head.  In his hands is a
+large two-headed axe.  
+~
+orc~
+ART a -1000 0
+22 22 40d22+0 110d10+85 7d3+16 none
+-5 -5 -5 0
+AEJO 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+#100046
+beholder~
+a beholder~
+An enormous {GB{ge{Gh{go{Gl{gd{Ge{gr{x floats here.
+~
+A Large eye, with multiple tentacles peeking out from the top of him. 
+His skin is dark green.  He has a large mouth, his jaws filled with many
+teeth.  He is of enormous size.
+~
+beholder~
+ABLR DJTu -5000 0
+25 25 49d25+0 250d11+95 9d2+15 none
+-8 -8 -8 -3
+CDEFHJO 0 0 N
+stand stand male 1000
+0 0 large flesh~
+~
+F aff c
+#100047
+drow assassin jindarus~
+Jindarus~
+Jindarus, the legendary drow assassin stands here.
+~
+Long white hair reveals a finely shaped ebony face.  Dark eyes tear into
+your thoughts.  Black leather clothes wrap around a small muscular body.  An
+aura of unholyness floats in the air around him.  
+~
+drow~
+ABFHS 0 0 0
+23 23 34d23+0 23d9+60 6d3+13 none
+-4 -4 -4 0
+0 0 0 0
+stand stand male 300
+0 0 medium flesh~
+~
+M grall 100001 1000~
+M speech 100002 yes~
+M act 100002 nod~
+M bribe 100000 5000~
+#100048
+mortimer bard~
+Mortimer~
+The famous bard, Mortimer, is here, unusually quiet.
+~
+This is Mortimer, the famous singer and storyteller of the Broadwind Inn.
+His guitar hangs loosely in his hand.  There is something distant and wrong
+in the bard's face.  A crimson talisman hangs around his neck, glowing in an
+unholy light.  
+~
+human~
+ABHST H 0 0
+25 25 49d25+0 250d11+95 9d2+24 none
+-8 -8 -8 -3
+ACDIJ 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100049
+felar alrea woman~
+Alrea~
+A tall, attractive felar woman stands here.
+~
+A tall felar woman stands before you.  She is clothed sparsely in various
+tanned skins.  She twirls a flail with her right hand absentmindedly.  She
+seems to barely notice your presence.  
+~
+felar~
+ABT 0 0 0
+25 25 49d25+0 250d11+95 9d2+24 none
+-8 -8 -8 -3
+CEFJK 0 0 0
+stand stand female 124
+0 0 medium flesh~
+~
+#100050
+paladin~
+a weary paladin~
+A battle-weary paladin is here, resting at the bar.
+~
+This man is dressed in heavy silver armor, somewhat tarnished from use. 
+He is splattered in small patches with a mix of mud and blood.  He's come
+here to the broadwind to rest himself from the trials of his crusade.  
+~
+human~
+ABGLTU HNOZa 1000 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+CEHIJ ABQ CP 0
+rest rest male 995
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#100000
+a bloody fur~
+a bloody fur~
+A wolf fur drips blood on the ground.~
+unknown~
+hide~
+armor HM AC
+11 11 11 10 'none' 0
+30 31 17587 P
+A
+17 -6
+A
+19 2
+A
+1 1
+G none
+G none
+G none
+G none
+#100001
+skin bracelet wolf~
+Wolfskin Bracelet~
+A bracelet made from the skin of a wolf.~
+unknown~
+hide~
+armor HJM AM
+11 11 11 10 'none' 0
+30 31 25956 P
+A
+20 -1
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#100002
+skin wolf bracelet~
+Wolfskin Bracelet~
+A bracelet made from the skin of a wolf~
+unknown~
+hide~
+armor J AM
+11 11 11 10 'none' 0
+30 31 31467 P
+A
+1 1
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#100003
+ring misfortune~
+{WRing of {rM{Di{rs{Df{ro{Dr{rt{Du{rn{De{x~
+This gold ring is tarnished and blackened from fire.~
+gold~
+~
+jewelry 0 AB
+AD AD AD D 0 AD AD
+25 25 29 P
+A
+12 25
+A
+19 2
+A
+18 2
+A
+20 3
+G none
+G none
+G none
+G none
+#100004
+heartstone bracelet~
+{rHeart{DStone {xbracelet~
+A shiny gold ring.~
+leather~
+~
+armor K AM
+11 11 11 10 'none' 0
+30 31 30943 P
+A
+14 20
+A
+13 25
+A
+19 2
+G none
+G none
+G none
+G none
+#100005
+club orc~
+an orc club~
+a rough carved wooden club lies here.~
+wood~
+~
+weapon A AN
+mace 2 10 pound 0
+20 21 6763 P
+A
+13 10
+A
+19 1
+A
+18 1
+G none
+G none
+G none
+G none
+#100006
+sleeves honor~
+{WSleeves of {YH{yo{Yn{yo{Yr{x~
+Some gleaming white sleeves lie here.~
+silver~
+~
+armor KL AI
+13 13 13 12 'none' 0
+35 36 51116 P
+A
+19 1
+A
+18 3
+A
+6 2
+G none
+G none
+G none
+G none
+#100007
+torch flame honor~
+{WFlame of {YH{yo{Yn{yo{Yr{x~
+A strange torch lies here glowing in a very eerie light.~
+unknown~
+~
+light AIK A
+400
+35 20 4380 P
+A
+19 1
+A
+20 -2
+A
+18 3
+G none
+G none
+G none
+G none
+#100008
+breast plate breastplate honor~
+{WBreastplate of {YH{yo{Yn{yo{Yr{x~
+A shiny white breastplate lies here.~
+silver~
+~
+armor AIK AD
+13 13 13 12 'none' 0
+35 36 30199 P
+A
+17 -5
+A
+19 3
+G none
+G none
+G none
+G none
+#100009
+messy apron~
+a messy apron~
+A dirty apron lies here on the floor.~
+unknown~
+cloth~
+armor 0 AF
+8 8 8 7 'none' 0
+20 21 10238 P
+A
+5 1
+A
+17 -4
+G none
+G none
+G none
+G none
+#100010
+sword celtic longsword elven legend~
+{WLongsword of {GElven Legend{x~
+A rune-covered, glowing longsword lies here.~
+silver~
+~
+weapon AIKL AN
+longsword 2 21 slash DI
+35 36 44390 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#100011
+two-headed axe~
+two-headed axe~
+A large two-headed orcish axe is here.~
+iron~
+~
+weapon CJ AN
+axe 2 23 cleave EF
+33 34 69743 P
+A
+17 20
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#100012
+orc mask leather~
+a leather orc half-mask{x~
+A small bloody mask lies here.~
+leather~
+~
+armor J AE
+12 12 12 11 'none' 0
+33 34 35026 P
+A
+19 3
+A
+1 2
+A
+6 -1
+G none
+G none
+G none
+G none
+#100013
+boots~
+Assassin's Boots~
+A pair of leather boots with padded soles.~
+leather~
+~
+armor C AG
+9 9 9 8 'none' 0
+25 26 20005 P
+A
+2 2
+A
+18 2
+G none
+G none
+G none
+G none
+#100014
+gloves assassin~
+Assassin's Gloves~
+A pair of black leather gloves lay here.~
+leather~
+~
+armor 0 AH
+11 11 11 10 'none' 0
+28 29 25290 P
+A
+2 2
+A
+18 2
+G none
+G none
+G none
+G none
+#100015
+star elven ring~
+The {GE{Wl{Gv{We{Gn {WS{Gt{Wa{Gr{x~
+A glowing emerald ring sits here.~
+unknown~
+~
+jewelry AGK AB
+ABD ABD ABD BD 0 ABD ABD
+28 29 24 P
+A
+13 10
+A
+17 -5
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#100016
+leather leggings~
+Studded Leather Leggings~
+A sturdy pair of leather leggings lay here.~
+leather~
+~
+armor 0 AF
+10 10 10 9 'none' 0
+26 27 24009 P
+A
+14 50
+G none
+G none
+G none
+G none
+#100017
+diamond flail~
+{bD{Bi{Camo{Bn{bd{x Flail~
+A light, diamond-encrusted flail sparkles here.~
+diamond~
+~
+weapon 0 AN
+flail 2 18 smash BK
+35 36 31626 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#100018
+crimson talisman~
+A {rCrimson {xTalisman~
+A glowing red amulet on a gold chain lies here.~
+unknown~
+~
+jewelry CGM AC
+0 0 0 0 0 0 0
+30 2 30 P
+A
+6 -6
+A
+17 20
+A
+19 3
+A
+18 3
+A
+5 2
+G none
+G none
+G none
+G none
+#100019
+mandolin~
+a Mandolin~
+A well-crafted Mandolin~
+unknown~
+~
+staff G AO
+15 5 5 'create spring'
+30 31 26 P
+A
+12 20
+A
+6 2
+G none
+G none
+G none
+G none
+#100020
+cleaver knife~
+a Meat Cleaver~
+A large chopping knife lays here.~
+unknown~
+~
+weapon 0 AN
+dagger 3 6 chop D
+24 25 6380 P
+A
+12 10
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#100021
+jewel ring~
+Jewel of {CT{Wa{Cr{Ws{Cu{Ws{Ci{x~
+A beautiful diamond ring.~
+unknown~
+~
+jewelry G AB
+ABD ABD ABD BD 0 ABD ABD
+30 31 1000 P
+A
+6 2
+A
+18 3
+G none
+G none
+G none
+G none
+#100022
+bookcase~
+a bookcase~
+A tall bookcase stands here.~
+unknown~
+~
+container 0 0
+1000 0 0 1000 5 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100023
+sandwich salami~
+a salami sandwich~
+a delicious looking salami sandwich lies here.~
+unknown~
+~
+food 0 A
+CE DF 0 0 0 CE DF
+0 1 152 P
+G none
+G none
+G none
+G none
+#100024
+elven axe~
+an elven handaxe~
+a sharp, wooden handled hand axe lies here.~
+unknown~
+~
+weapon 0 AN
+axe 2 18 slash D
+30 31 28336 P
+A
+6 1
+A
+18 3
+G none
+G none
+G none
+G none
+#100025
+woodsman cap~
+Woodsman's Cap~
+A cloth cap with a feather stuck in the side lays here.~
+unknown~
+~
+armor 0 AE
+13 13 13 12 'none' 0
+35 36 23261 P
+A
+19 3
+A
+18 2
+G none
+G none
+G none
+G none
+#100026
+claws bear~
+Bear Claws~
+This claw has been ripped off a bear's arm.~
+unknown~
+~
+armor 0 AH
+9 9 9 8 'none' 0
+25 26 21371 P
+A
+5 2
+A
+19 2
+G none
+G none
+G none
+G none
+#100027
+ogre belt~
+an Ogre Belt~
+A large, sturdy leather belt lays here.~
+leather~
+~
+armor IK AL
+11 11 11 10 'none' 0
+30 31 29527 P
+A
+19 3
+A
+1 2
+G none
+G none
+G none
+G none
+#100028
+bull whip leather~
+A Leather Bullwhip~
+A pile of braided leather is coiled up here on the ground.~
+unknown~
+~
+weapon 0 AN
+whip 2 11 sting H
+31 32 7059 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#100029
+stools~
+a row of bar stools..~
+A row of stools line the front of the bar.~
+unknown~
+~
+furniture 0 0
+BD FHJKPQ EH BEF BEF BD FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#100030
+forest cloak leaves~
+Cloak of the {gF{Do{gr{De{gs{Dt{x~
+A pile of leaves lie here.~
+unknown~
+~
+clothing 0 AK
+ACD ACD ACD CD 0 ACD ACD
+35 36 26081 P
+A
+4 1
+A
+1 1
+A
+19 3
+G none
+G none
+G none
+G none
+#100031
+fire amulet stone~
+{rFire{DStone{x Amulet~
+A glowing, red stone radiates light and heat.~
+unknown~
+~
+armor AM AC
+13 13 13 12 'none' 0
+35 36 35010 P
+A
+13 15
+A
+20 -2
+A
+18 3
+G none
+G none
+G none
+G none
+#100033
+a {yshocking {xburst stolen blade dagger~
+The {DStolen {xBlade~
+A dagger lies here, looking out of place.~
+steel~
+~
+weapon 0 AN
+dagger 3 8 pierce DG
+32 33 12210 P
+A
+2 1
+A
+18 3
+G none
+G none
+G none
+G none
+#100034
+chest lockbox~
+the lockbox~
+A heavy iron lockbox sits here on the floor.~
+iron~
+~
+container 0 0
+10000 ACD 100035 1000 10 0
+1 200 0 P
+G none
+G none
+G none
+G none
+#100035
+key~
+a lockbox key~
+A small iron key hangs from a looped strip of leather.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100036
+bear claw key~
+a bear claw~
+A claw torn from a bear, with one remaining nail carved with several notches.~
+bone~
+~
+key 0 A
+0 0 0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#100037
+flagon ale~
+a flagon of ale~
+A flagon of ale~
+unknown~
+~
+drink 0 A
+4 4 'ale' 0
+1 1 286 P
+G none
+G none
+G none
+G none
+#100038
+glass wine~
+a glass of wine~
+A glass of wine~
+unknown~
+~
+drink 0 A
+3 3 'elvish wine' 0
+5 1 269 P
+G none
+G none
+G none
+G none
+#100039
+pork chops~
+pork chops~
+A couple big, juicy pork chops~
+unknown~
+~
+food 0 A
+DF DF 0 0 0 DF DF
+0 2 398 P
+G none
+G none
+G none
+G none
+#100040
+chocolate cake~
+a piece of chocolate cake~
+A large piece of chocolate cake~
+unknown~
+~
+food 0 A
+CE DF 0 0 0 CE DF
+5 1 173 P
+G none
+G none
+G none
+G none
+#100041
+pickled egg~
+a pickled egg~
+A smelly, but delicious, pickled egg~
+unknown~
+~
+pill G A
+10 'armor' 'shield' 'bless' 'reserved'
+20 1 450 P
+G none
+G none
+G none
+G none
+#100042
+frothy mixture special broadwind~
+the Broadwind Special~
+A vial filled with a strange, frothy mixture~
+unknown~
+~
+potion 0 A
+25 'cure light' 'cure poison' 'cure disease' 'reserved'
+25 1 1000 P
+G none
+G none
+G none
+G none
+#100043
+mithril chainmail~
+a mithril chainmail~
+A pile of shiny mithril chain lies here.~
+unknown~
+mithirl~
+armor 0 AD
+11 11 11 10 'none' 0
+28 29 30376 P
+A
+17 -5
+A
+18 1
+A
+19 2
+A
+5 1
+G none
+G none
+G none
+G none
+#100044
+ice staff~
+{CICE {xstaff~
+A short, wooden staff, sheathed in a thin layer of ice.~
+ice~
+~
+weapon AGK AN
+staff 2 15 pound BK
+30 31 16300 P
+A
+18 2
+A
+19 3
+G none
+G none
+G none
+G none
+#100045
+beholder eye~
+a {GB{ge{Gh{go{Gl{gd{Ge{gr{x's Eye~
+A pulled out eye of a green beholder lies here dripping with blood.~
+unknown~
+~
+light AEJ A
+200
+20 5 1846 P
+A
+12 20
+A
+19 1
+A
+18 1
+G none
+G none
+G none
+G none
+#100046
+flaming sword hell long~
+Sword Forged in {rHell's {RFire{x~
+A flaming longsword glowing bright red with flames.~
+steel~
+~
+weapon AEGJ AN
+longsword 2 21 slash A
+35 36 47683 P
+A
+19 3
+A
+18 2
+G none
+G none
+G none
+G none
+#100047
+rug~
+{DA large black rug{x~
+~
+unknown~
+~
+furniture 0 0
+CFG ABCDIJKN EHK CDFI CDFI CFG ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#100048
+lockpick~
+a dusty lockpick~
+A well-worn lockpick gathers dust here.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 D
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100000
+Entrance to the Ayndindril Plains~
+You stand before the vast plains of Ayndindril.  The land extends out
+into gentle hills, sparse trees, and small streams.  There is a thin dirt
+path sloping gently down into the plains.  The grass on both sides of the
+path is tall enough to brush against your elbows as you make your way down. 
+You hear the sounds of life ahead; cawing of birds, a yipping bark, and a
+rustling of leaves as the warm wind rushes through.  
+A gold plaque is embedded here in the ground.
+~
+0 0 forest
+E
+plaque~
+{W ----*(Plains of Aydindril)*----
+*                               *
+*    Finished by                * 
+*            {bT{Bal{Cie{Bse{bn{W           *
+*                               *
+*                               *
+*       Started by              * 
+*                 Dracone       *
+*                               *
+*********************************{x
+                    {D- Jan 2004{x
+~
+D1
+~
+~
+Z 0 100001
+0 0
+D2
+~
+~
+Z 0 4268
+0 0
+S
+#100001
+On a Dirt Path~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks half burried in the groud.  A
+large snake slithers over your foot as it crosses the path.  Picking up a
+hand full of dirt you push it around in your palm gently.  The dirt is dry
+and looks as though it has not had any water in months.  
+~
+0 A forest
+D0
+~
+~
+Z 0 100002
+0 0
+D1
+~
+~
+Z 0 100017
+0 0
+D2
+~
+~
+Z 0 100025
+0 0
+D3
+~
+~
+Z 0 100000
+0 0
+S
+#100002
+The Path Deeper in the Plains~
+As you follow the path, it becomes less defined.  The path you are on now
+is little more than a worn hunting track possibly created by the wildlife
+around you.  The west side of the path is blocked by a tight copse of trees.
+Your path to the east, south, and north are open, if not entirely welcoming.
+~
+0 A forest
+D0
+~
+~
+Z 0 100003
+0 0
+D1
+~
+~
+Z 0 100016
+0 0
+D2
+~
+~
+Z 0 100001
+0 0
+S
+#100003
+Near a Stump~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks half buried in the ground.  In
+the corner of the path sits a tree stump, the dead roots growing thickly and
+weaving in and out of each other as they make there way across the path, and
+in every other direction as well.  
+~
+0 0 field
+D1
+~
+~
+Z 0 100004
+0 0
+D2
+~
+~
+Z 0 100002
+0 0
+S
+#100004
+On a Dirt Path~
+Here the path splits in three directions, the one you came, one leading
+the north you see nothing but more flat plains.  To the east.  Neither path
+is promising, because you can see only barren plains in all directions.  
+~
+0 0 field
+D0
+~
+~
+Z 0 100005
+0 0
+D1
+~
+~
+Z 0 100013
+0 0
+D3
+~
+~
+Z 0 100003
+0 0
+S
+#100005
+Near a Wall~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or large rocks buried halfway in the ground.  A
+small stone wall lies ruined at the edge of the path, it is cracked and
+eroded from many years of being untended to.  
+~
+0 0 field
+D0
+~
+~
+Z 0 100006
+0 0
+D1
+~
+~
+Z 0 100012
+0 0
+D2
+~
+~
+Z 0 100004
+0 0
+S
+#100006
+A Thin Trail~
+The path becomes thinner here, giving you the impression that this trail
+is traveled very seldom.  Thoughts race through your mind as to why this
+might be.  The wall comes to an end here in several feet ahead rests a
+Gigantice tree.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 100007
+0 0
+D2
+~
+~
+Z 0 100005
+0 0
+S
+#100007
+Before a Tree~
+You stand before I large tree, The branches dipping all the way to the
+ground.  And are bare near the trunk, with needles on the ends, giving it a
+hollow interior.  The needles grow so thick that even when it rained it
+remained dry inside, though rain doesnt seem to be a large issue here.  The
+tallest part of the roof made by the branches is large enough for a tall
+human man to stand totally upwards.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 100008
+0 0
+D2
+~
+~
+Z 0 100012
+0 0
+D3
+~
+~
+Z 0 100006
+0 0
+S
+#100008
+Aydindril Plains~
+A tree root sticks out of the ground, making a dangerous thing to trip
+over in the dark if not careful.  You can hear the wind blow through the
+fields giving you a eerie feeling.  The piercing howls grow very close.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 100009
+0 0
+D2
+~
+~
+Z 0 100011
+0 0
+D3
+~
+~
+Z 0 100007
+0 0
+S
+#100009
+Aydindril Plains~
+The miles of grass around you blows in the wind, giving it the effect of
+a small ocean, with ripples running through it.  Owls hoot, and the odd howl
+is still heard.  A small stream runs out of the grass and down the side of
+the path.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 100010
+0 0
+D3
+~
+~
+Z 0 100008
+0 0
+S
+#100010
+Aydindril plains.~
+As you come to a corner in the path the wind seems to pick up a little. 
+The howling is loud, and sends chills up your spine.  Looking around the
+room you begin to get the feeling that your heading in a dangerous
+direction.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100009
+0 0
+D3
+~
+~
+Z 0 100011
+0 0
+S
+#100011
+Aydindril Plains~
+Dry leaves float about in the breeze, dust is carried into your eyes. 
+The fields of dried grass blow wildly in the wind.  Distant howls are heard
+coming from the north as you walk along the rarely travelled path.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100008
+0 0
+D1
+~
+~
+Z 0 100010
+0 0
+D3
+~
+~
+Z 0 100012
+0 0
+S
+#100012
+Aydindril Plains~
+Your eyes burn from the suns light shinning into them.  Raising your hand
+to your forehead, in an effort to shield your eyes from the sun.  You look
+to the north, spottin a large tree.  A small crater sits in the middle of
+the path, a rock sitting next to it.  Your first impression is that the rock
+was pulled from the ground, in an effort to find food.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100007
+0 0
+D1
+~
+~
+Z 0 100011
+0 0
+D2
+~
+~
+Z 0 100013
+0 0
+D3
+~
+~
+Z 0 100005
+0 0
+S
+#100013
+Close to a Hill~
+After following the path to the east you come to a corner, the only ways
+out are the direction in wich you came.  Or to the south, where you notice a
+tall hill, home to a large tree and rock It looks like a good place to get a
+view of the area from, and hopefully find your way out.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100012
+0 0
+D2
+~
+~
+Z 0 100014
+0 0
+D3
+~
+~
+Z 0 100004
+0 0
+S
+#100014
+Top of a Hill~
+Standing atop the highest hill in the plains, you look across the land
+getting the slightest idea of its actual size, the plains stretch on for
+miles, with no other areas in view.  Slightly of to the side is a large dead
+tree, the branches bare no leaves and are dried out.  Close to the highest
+point on the hill stands a tall flat surfaced rock approximately five feet
+from the ground with a surface broad enough to sit three men.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100013
+0 0
+D1
+~
+~
+Z 0 100015
+0 0
+D3
+~
+~
+Z 0 100016
+0 0
+S
+#100015
+Close to a Hill~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks half buried into the ground.  To
+the west a large hill watches proudly over the plains.  Making home to a
+Large dead tree, stripped of all its leafs, and life.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 100019
+0 0
+D3
+~
+~
+Z 0 100014
+0 0
+S
+#100016
+Close to a hill.~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks half buried into the ground.  To
+the east a large hill watches proudly over the plains.  Making home to a
+Large dead tree, stripped of all its leafs, and life.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 100014
+0 0
+D2
+~
+~
+Z 0 100017
+0 0
+D3
+~
+~
+Z 0 100002
+0 0
+S
+#100017
+Following a stream.~
+Following the stream west you keep looking forwards, and not surprised
+you realize that you have been near here before.  How long before it is
+difficult to tell.  The stream takes a wild turn off of the path and heads
+in not direction inparticular.  But you decide staying on the trail is the
+only way you well get out of the plains.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100016
+0 0
+D1
+~
+~
+Z 0 100018
+0 0
+D2
+~
+~
+Z 0 100024
+0 0
+D3
+~
+~
+Z 0 100001
+0 0
+S
+#100018
+Following a stream.~
+After following the stream to the north, you notice the grass seems much
+taller than the other parts of the plains, the most liable source is the
+stream.  Looking around a moment you heave out a loud sigh.  Thankfull that
+you have found a source of water, and a good place to rest.  The strean
+splits into 2 slowly, one leading to the east, the other heading towards the
+west.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 100019
+0 0
+D2
+~
+~
+Z 0 100023
+0 0
+D3
+~
+~
+Z 0 100017
+0 0
+S
+#100019
+Following a Stream~
+You follow the stream to the east.  The sun beats down on you, with
+intense heat.  Closing your eyes momentarily you feel sunburn starting on
+your neck and sections of your face.  Your feet ache and you sweat horribly.
+You can smell yourself beginning to smell.  The heat of the sun is beginning
+to get to you.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100015
+0 0
+D1
+~
+~
+Z 0 100020
+0 0
+D2
+~
+~
+Z 0 100022
+0 0
+D3
+~
+~
+Z 0 100018
+0 0
+S
+#100020
+Corner in the Dirt Path~
+You come to a corner in the path, the edges of the path make a slow turn.
+Giving a distinct half circle bend.  The grass is pushed down near the
+outside of the corner and looks like a place where an animal has been
+resting.  The path is cut off by a small stream that crosses the path,
+leaving a trench in the middle of the trail.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 100021
+0 0
+D3
+~
+~
+Z 0 100019
+0 0
+S
+#100021
+By a Rock~
+Following the dirt path you come to a corner, making the only possible
+exits the one in which you came, or the one you did not arrive from.  A
+large rock, at about the height to sit on stands here, its rough surface hot
+from the sun, and worn down from dirt rubbing against it in the wind.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100020
+0 0
+D3
+~
+~
+Z 0 100022
+0 0
+S
+#100022
+A Dirt Path~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks half buried under ground.  To
+the west lies a large poll of water surrounded by a few tall trees.  There
+leafs pure green, and covering most of the tree.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100019
+0 0
+D1
+~
+~
+Z 0 100021
+0 0
+D3
+~
+~
+Z 0 100023
+0 0
+S
+#100023
+Near the Pool~
+A small pool of water glistens in the sun, small ripples dance across the
+water though there is no apparent source.  A few large trees grow around the
+pool, shading much of it.  Flowers blossom near its shore, all of these
+giving it a mystical effect.  The sky is reflected on the glass like surface
+of the pool, in perfect formation.  A small stream runs northwards from the
+pool.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100018
+0 0
+D1
+~
+~
+Z 0 100022
+0 0
+D3
+~
+~
+Z 0 100024
+0 0
+S
+#100024
+On the Dirt Path~
+You follow a dirt path, the long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks half buried in the ground.  To
+the south the grass grows much taller then the rest of the plains, and dead
+tree branches arch together making a canopied walkway.  To the east you see
+a large pool of water, surrounded by tall trees.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100017
+0 0
+D1
+~
+~
+Z 0 100023
+0 0
+D2
+~
+~
+Z 0 100026
+0 0
+D3
+~
+~
+Z 0 100025
+0 0
+S
+#100025
+On a Dirt Path~
+You follow a dirt path, th long blades of dry grass grow tall.  The path
+is made up of small pebbles or larger rocks buried in the ground.  A small
+flock of vultures sits on the path feeding on the carcass of a deer.  Blood
+stains the dirt and the feathers of the vultures.  The smell of rotting
+flesh is distinct in the dried air.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100001
+0 0
+D1
+~
+~
+Z 0 100024
+0 0
+S
+#100026
+A Dark Trail~
+After walking down the long path, you get a feeling of just how dark it
+is.  The brush on the sides of the path have grown tall and leant over
+making a perfect arch.  The leafs grow thick making an impenetrable wall
+against rain.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100024
+0 0
+D1
+~
+~
+Z 0 100027
+0 0
+S
+#100027
+A Dark Trail~
+Forest grows thick on either side of you as you tred deeper down the
+path, large rocks and roots stick out of the ground everywhere.  The
+creatures of the night call into the darkness, warning others of your
+presence.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 100028
+0 0
+D3
+~
+~
+Z 0 100026
+0 0
+S
+#100028
+A Dark Trail~
+Light is clear to the west, and after walking down the treacherous path,
+you heave a loud sigh of relief, of finally finding away out of the creepy
+dark path.  Slowly the calls of the animals begins to die out as you walk
+nearer to the light.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 100027
+0 0
+D3
+~
+~
+Z 0 100029
+0 0
+S
+#100029
+A Shallow Clearing~
+Finally, you have reached the end of the path, the bright light once
+again shrouds you.  Dirt path has tunred into a lush green enviroment full
+of Shrubs, trees, and beautiful insects.  A small Trap door stands up here,
+beckoning for you to enter.  
+A small wooden sign is next to the hatchway.
+~
+0 A forest
+E
+sign~
+Written on the sign is..
+ 
+             {yWelcome to the {rBoardwind Inn{y
+ 
+      Behave yourself, and leave Mortimer alone.
+            He ain't been himself lately.{x
+~
+D1
+~
+~
+Z 0 100028
+0 0
+D5
+~
+~
+ABZ 0 100030
+0 0
+S
+#100030
+Entry Hall to the Boardwind Inn~
+You are in the entry way to the Boardwind Inn.  It's rather quiet, not
+raucous like most inns you've seen in your travels.  A large bear-skin rug
+covers the floor.  Several overcoats and bags are slung over hooks that line
+the wall to your west.  You notice it is quite a bit cooler in here than
+outside.  The air outside was hot and sticky, but in here, it is cool and
+very comfortable.  
+~
+0 D inside
+E
+rug bearskin~
+The rug is old and matted.  The fur of the bear has been smashed and
+muddied by the constant traffic of travellers.  You notice that one of the
+bear's paws is missing.  
+~
+D0
+~
+~
+Z 0 100031
+0 0
+D1
+~
+~
+ABZ 0 100032
+0 0
+D4
+~
+~
+ABZ 0 100029
+0 0
+S
+#100031
+Common Room~
+You are standing in the common room of the inn.  There are tables and
+chairs for the inn patrons.  All the furniture and decor are simple hewn
+wood.  What the room lacks in aesthetics it makes up for in functionality. 
+The benches appear very comfortable despite their simple design.  It seems
+as good a place as any to converse or share a pint of ale.  The bar stands
+just off to the west.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100035
+0 0
+D1
+~
+~
+Z 0 100034
+0 0
+D2
+~
+~
+Z 0 100030
+0 0
+D3
+~
+~
+Z 0 100048
+0 0
+S
+#100032
+A Closet~
+Congratulations, you found a closet!  There are mops, brooms, and other
+boring items hanging on the walls and sitting on shelves here.  There is a
+puddle of water around an overturned mop bucket.  
+~
+0 A inside
+D2
+~
+~
+ABCIZ 100036 100033
+0 0
+D3
+~
+~
+ABZ 0 100030
+0 0
+S
+#100033
+Behind the Wall~
+You find yourself in a secret room, hidden behind the wall of the closet.
+Several wooden crates fill the tiny room.  Some of the crates are open, and
+you see they are filled with some fine clothings and a few worthless
+trinkets.  There is an iron lockbox on the floor.  
+~
+0 AD inside
+D0
+~
+~
+ABCIZ 0 100032
+0 0
+S
+#100034
+Common Room~
+You are standing in the common room of the inn.  There are tables and
+chairs for the inn patrons.  All the furniture and decor are simple hewn
+wood.  What the room lacks in aesthetics it makes up for in functionality. 
+The benches appear very comfortable despite their simple design.  It seems
+as good a place as any to converse or share a pint of ale.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100036
+0 0
+D3
+~
+~
+Z 0 100031
+0 0
+S
+#100035
+Common Room~
+You are standing in the common room of the inn.  There are tables and
+chairs for the inn patrons.  All the furniture and decor are simple hewn
+wood.  What the room lacks in aesthetics it makes up for in functionality. 
+The benches appear very comfortable despite their simple design.  It seems
+as good a place as any to converse or share a pint of ale.  You are directly
+in front of the stage.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100037
+0 0
+D1
+~
+~
+Z 0 100036
+0 0
+D2
+~
+~
+Z 0 100031
+0 0
+D3
+~
+~
+Z 0 100041
+0 0
+S
+#100036
+Common Room~
+You are standing in the common room of the inn.  There are tables and
+chairs for the inn patrons.  All the furniture and decor are simple hewn
+wood.  What the room lacks in aesthetics it makes up for in functionality. 
+The benches appear very comfortable despite their simple design.  It seems
+as good a place as any to converse or share a pint of ale.  
+~
+0 D inside
+D1
+~
+~
+Z 0 100042
+0 0
+D2
+~
+~
+Z 0 100034
+0 0
+D3
+~
+~
+Z 0 100035
+0 0
+S
+#100037
+The Broadwind's Stage~
+You are standing on the Broadwind's stage.  This is where the legendary
+bard, Mortimer, is said to entertain any who come through to listen and
+watch.  Several torches line the front of the stage, and a red velvet
+curtain is drawn to each side.  The stage itself seems very sturdy despite
+its apparent age and stands about four feet above the main floor of the
+common room.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 100035
+0 0
+S
+#100038
+The Kitchen~
+Here is the main part of the kitchen, filled with stovetops and ovens.  A
+tall rack of freshly baked breads is on the east wall.  The aromas here fill
+your head and cause your mouth to water.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 100040
+0 0
+D2
+~
+~
+Z 0 100041
+0 0
+S
+#100039
+A Room in the Inn~
+A single large bed sits in the corner, posts decorated in jewels, and
+carved with the pictures of many legendary beasts.  A desk sits against the
+wall to your right, a burning candle set on the corner, ready to fall off. 
+The room itself is quite cozy.  The walls are painted a soft shade of brown,
+and decorated by a few paintings of rich landscapes.  A small fur rug lies
+on the floor.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 100043
+0 0
+S
+#100040
+Chef's Quarters~
+You have entered the private quarters of the Broadwind's chef, Alfonse. 
+This is a simple room.  A small, plain bed is in the corner.  Beside the
+bed, a book case filled with histories and books of recipes stands.  Alfonse
+is too busy in the kitchen to notice you're intrusion.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 100038
+0 0
+S
+#100041
+The Kitchen~
+A curtain of strung beads separate this first room of the kitchen from
+the common room of the inn.  Counters line the wall, as well as a small sink
+full of dishes.  The floor is sticky and spackled with dirty food.  Other
+than the floor, everything else seems to be at least moderately clean,
+nothing to spoil your apetite at least.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100038
+0 0
+D1
+~
+~
+Z 0 100035
+0 0
+S
+#100042
+Turn in the Hall~
+This the beginning of a hallway leading off the main room of the inn. 
+Ahead you spy some private rooms.  The hallway is lit by a single oil lamp
+set into the corner of the wall.  The aromas of stale ale and fresh bread
+mix in the air to produce a rather unique smell that fills this hallway.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100043
+0 0
+D3
+~
+~
+Z 0 100036
+0 0
+S
+#100043
+A Short Hallway~
+This is a short hallway that connects the common room of the inn to the
+private rooms.  There are doors that line all sides of the hallway, and to
+your south is the main room.  The doors don't appear to have any locks on
+them, at least none visible from this side.  A brass chandelier hangs from
+the ceiling, providing light for the hall.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 100044
+0 0
+D1
+~
+~
+Z 0 100045
+0 0
+D2
+~
+~
+Z 0 100042
+0 0
+D3
+~
+~
+ABZ 0 100039
+0 0
+S
+#100044
+A Room in the Inn~
+A single large bed sits in the corner, posts decorated in jewels, and
+carved with the pictures of many legendary beasts.  A desk sits against the
+wall to your right, a burning candle set on the corner, ready to fall off. 
+The room itself is quite cozy.  The walls are painted a soft shade of brown,
+and decorated by a few paintings of rich landscapes.  A small fur rug lies
+on the floor.  
+~
+0 D inside
+D2
+~
+~
+ABZ 0 100043
+0 0
+S
+#100045
+A long hallway.~
+The room slowly shifts colors, going from a red, to a blue, to a green. 
+There must be magic at work.  A Large door is to the east, with large hoops
+to pull it open.  And Mithril hinges shaped into hooks and leafs.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 100047
+0 0
+D1
+~
+~
+ABCHZ 100048 100046
+0 0
+D2
+~
+~
+ABZ 0 100049
+0 0
+D3
+~
+~
+Z 0 100043
+0 0
+S
+#100046
+Dark Bedroom~
+This room is darker than any of the other inn's bedrooms.  The
+floorboards have been ripped up, and you stand on bare dirt and rock.  This
+room is also much warmer than anywhere else in the inn.  The walls and floor
+seem to radiate heat at you.  In the center of the room is a large menacing
+beholder.  
+~
+0 D inside
+D3
+~
+~
+ABCHZ 100048 100045
+0 0
+S
+#100047
+A Room in the Inn~
+A single large bed sits in the corner, posts decorated in jewels, and
+carved with the pictures of many legendary beasts.  A desk sits against the
+wall to your right, a burning candle set on the corner, ready to fall off. 
+The room itself is quite cozy.  The walls are painted a soft shade of brown,
+and decorated by a few paintings of rich landscapes.  A small fur rug lies
+on the floor.  
+~
+0 D inside
+D2
+~
+~
+ABZ 0 100045
+0 0
+S
+#100048
+The Broadwind Bar~
+You are standing in the bar of the Broadwind Inn.  Several bottles of
+liquor line the shelves behind the bartender.  The long hardwood bar extends
+the entire length of the western wall.  There's a row of stools here that
+look quite comfortable.  A large {Dblack {xfur rug lies in front of the
+fireplace.  
+~
+0 CD inside
+D1
+~
+~
+Z 0 100031
+0 0
+S
+#100049
+Room in the Inn~
+A single large bed sits in the corner, posts decorated in jewels, and
+carved with the pictures of many legendary beasts.  A desk sits against the
+wall to your right, a burning candle set on the corner, ready to fall off. 
+The room itself is quite cozy.  The walls are painted a soft shade of brown,
+and decorated by a few paintings of rich landscapes.  A small fur rug lies
+on the floor.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 100045
+0 0
+S
+#0
+
+#RESETS
+D 0 100029 5 1	* A Shallow Clearing: door to the down: closed
+D 0 100030 1 1	* Entry Hall to the Boardwind Inn: door to the east: closed
+D 0 100030 4 1	* Entry Hall to the Boardwind Inn: door to the up: closed
+D 0 100032 2 2	* A Closet: door to the south: closed and locked
+D 0 100032 3 1	* A Closet: door to the west: closed
+D 0 100033 0 2	* Behind the Wall: door to the north: closed and locked
+D 0 100038 0 1	* The Kitchen: door to the north: closed
+D 0 100039 1 1	* A Room in the Inn: door to the east: closed
+D 0 100040 2 1	* Chef's Quarters: door to the south: closed
+D 0 100043 0 1	* A Short Hallway: door to the north: closed
+D 0 100043 3 1	* A Short Hallway: door to the west: closed
+D 0 100044 2 1	* A Room in the Inn: door to the south: closed
+D 0 100045 0 1	* A long hallway.: door to the north: closed
+D 0 100045 1 2	* A long hallway.: door to the east: closed and locked
+D 0 100045 2 1	* A long hallway.: door to the south: closed
+D 0 100046 3 2	* Dark Bedroom: door to the west: closed and locked
+D 0 100047 2 1	* A Room in the Inn: door to the south: closed
+D 0 100049 0 1	* Room in the Inn: door to the north: closed
+M 0 100003 15 100001 2	* a vulture (On a Dirt Path)
+M 0 100001 15 100001 1	* a coyote (On a Dirt Path)
+M 0 100004 8 100002 1	* a raven (The Path Deeper in the Plains)
+M 0 100003 15 100002 2	* a vulture (The Path Deeper in the Plains)
+M 0 100001 15 100002 2	* a coyote (The Path Deeper in the Plains)
+M 0 100008 8 100003 1	* a grizzly (Near a Stump)
+M 0 100005 15 100003 2	* a cougar (Near a Stump)
+M 0 100011 5 100004 1	* a displacer beast (On a Dirt Path)
+M 0 100001 15 100004 1	* a coyote (On a Dirt Path)
+M 0 100003 15 100004 2	* a vulture (On a Dirt Path)
+M 0 100005 15 100006 2	* a cougar (A Thin Trail)
+M 0 100000 1 100007 1	* a large, female wolf (Before a Tree)
+G 0 100001 0		*	Wolfskin Bracelet
+M 0 100007 1 100007 1	* a large, male wolf (Before a Tree)
+G 0 100002 0		*	Wolfskin Bracelet
+M 0 100011 5 100008 1	* a displacer beast (Aydindril Plains)
+M 0 100005 15 100008 2	* a cougar (Aydindril Plains)
+M 0 100008 8 100009 1	* a grizzly (Aydindril Plains)
+G 0 100026 0		*	Bear Claws
+M 0 100005 15 100010 2	* a cougar (Aydindril plains.)
+M 0 100003 15 100010 2	* a vulture (Aydindril plains.)
+E 0 100004 0 14		*	{rHeart{DStone {xbracelet: on the left wrist
+M 0 100006 1 100010 1	* a tired elven scout (Aydindril plains.)
+E 0 100024 0 16		*	an elven handaxe: wielded
+E 0 100025 0 6		*	Woodsman's Cap: over the head
+M 0 100003 15 100011 2	* a vulture (Aydindril Plains)
+M 0 100008 8 100012 1	* a grizzly (Aydindril Plains)
+M 0 100004 8 100013 1	* a raven (Close to a Hill)
+M 0 100001 15 100013 1	* a coyote (Close to a Hill)
+M 0 100009 1 100013 1	* Gwyndolynn (Close to a Hill)
+E 0 100027 0 13		*	an Ogre Belt: around the waist
+E 0 100028 0 16		*	A Leather Bullwhip: wielded
+M 0 100004 8 100014 1	* a raven (Top of a Hill)
+M 0 100011 5 100015 1	* a displacer beast (Close to a Hill)
+M 0 100008 8 100015 1	* a grizzly (Close to a Hill)
+M 0 100005 15 100015 2	* a cougar (Close to a Hill)
+M 0 100001 15 100015 1	* a coyote (Close to a Hill)
+M 0 100004 8 100019 1	* a raven (Following a Stream)
+M 0 100001 15 100019 1	* a coyote (Following a Stream)
+M 0 100005 15 100020 2	* a cougar (Corner in the Dirt Path)
+M 0 100001 15 100020 1	* a coyote (Corner in the Dirt Path)
+M 0 100008 8 100021 1	* a grizzly (By a Rock)
+M 0 100005 15 100021 2	* a cougar (By a Rock)
+M 0 100011 5 100022 1	* a displacer beast (A Dirt Path)
+M 0 100005 15 100022 2	* a cougar (A Dirt Path)
+M 0 100001 15 100022 1	* a coyote (A Dirt Path)
+M 0 100008 8 100024 1	* a grizzly (On the Dirt Path)
+M 0 100001 15 100024 1	* a coyote (On the Dirt Path)
+M 0 100011 5 100025 1	* a displacer beast (On a Dirt Path)
+M 0 100008 8 100025 1	* a grizzly (On a Dirt Path)
+M 0 100001 15 100025 1	* a coyote (On a Dirt Path)
+M 0 100008 8 100026 1	* a grizzly (A Dark Trail)
+M 0 100001 15 100026 1	* a coyote (A Dark Trail)
+M 0 100001 15 100027 1	* a coyote (A Dark Trail)
+M 0 100005 15 100028 2	* a cougar (A Dark Trail)
+M 0 100001 15 100029 1	* a coyote (A Shallow Clearing)
+M 0 100034 5 100031 2	* an inn patron (Common Room)
+M 0 100035 10 100031 3	* a spotted dog (Common Room)
+M 0 100050 1 100031 1	* a weary paladin (Common Room)
+E 0 100006 0 10		*	{WSleeves of {YH{yo{Yn{yo{Yr{x: on the arms
+E 0 100007 0 0		*	{WFlame of {YH{yo{Yn{yo{Yr{x: as a light
+E 0 100008 0 5		*	{WBreastplate of {YH{yo{Yn{yo{Yr{x: on the body
+O 0 100034 0 100033	* the lockbox (Behind the Wall)
+M 0 100033 1 100033 1	* a thief (Behind the Wall)
+E 0 100033 0 16		*	The {DStolen {xBlade: wielded
+E 0 100035 0 17		*	a lockbox key: held in the hands
+P 0 100021 1 100034 1	* the lockbox: Jewel of {CT{Wa{Cr{Ws{Cu{Ws{Ci{x
+M 0 100031 1 100034 1	* Allyndril (Common Room)
+E 0 100031 0 3		*	{rFire{DStone{x Amulet: around the neck (1)
+E 0 100030 0 12		*	Cloak of the {gF{Do{gr{De{gs{Dt{x: about the shoulders
+M 0 100036 8 100034 2	* a happy drunk (Common Room)
+M 0 100034 5 100035 2	* an inn patron (Common Room)
+M 0 100035 10 100035 2	* a spotted dog (Common Room)
+M 0 100036 8 100036 1	* a happy drunk (Common Room)
+G 0 100036 0		*	a bear claw
+M 0 100030 8 100036 2	* an angry drunk (Common Room)
+M 0 100048 1 100037 1	* Mortimer (The Broadwind's Stage)
+E 0 100018 0 3		*	A {rCrimson {xTalisman: around the neck (1)
+E 0 100003 0 1		*	{WRing of {rM{Di{rs{Df{ro{Dr{rt{Du{rn{De{x: on the left finger
+E 0 100019 0 17		*	a Mandolin: held in the hands
+M 0 100040 1 100038 1	* Sphlear (The Kitchen)
+E 0 100020 0 16		*	a Meat Cleaver: wielded
+E 0 100009 0 7		*	a messy apron: on the legs
+M 0 100042 4 100038 2	* a gnome assistant (The Kitchen)
+M 0 100010 1 100039 1	* an elven princess (A Room in the Inn)
+E 0 100015 0 1		*	The {GE{Wl{Gv{We{Gn {WS{Gt{Wa{Gr{x: on the left finger
+E 0 100010 0 16		*	{WLongsword of {GElven Legend{x: wielded
+O 0 100022 0 100040	* a bookcase (Chef's Quarters)
+P 0 100023 5 100022 5	* a bookcase: a salami sandwich
+M 0 100041 3 100041 1	* a servant (The Kitchen)
+M 0 100043 5 100043 3	* an orc (A Short Hallway)
+E 0 100005 0 16		*	an orc club: wielded
+M 0 100045 1 100043 1	* an orc captain (A Short Hallway)
+E 0 100011 0 16		*	two-headed axe: wielded
+E 0 100012 0 6		*	a leather orc half-mask{x: over the head
+M 0 100044 1 100044 1	* Lionel (A Room in the Inn)
+E 0 100044 0 16		*	{CICE {xstaff: wielded
+E 0 100043 0 5		*	a mithril chainmail: on the body
+M 0 100046 1 100046 1	* a beholder (Dark Bedroom)
+G 0 100046 0		*	Sword Forged in {rHell's {RFire{x
+G 0 100045 0		*	a {GB{ge{Gh{go{Gl{gd{Ge{gr{x's Eye
+M 0 100047 1 100047 1	* Jindarus (A Room in the Inn)
+E 0 100013 0 8		*	Assassin's Boots: on the feet
+E 0 100014 0 9		*	Assassin's Gloves: on the hands
+G 0 100048 0		*	a dusty lockpick
+O 0 100029 0 100048	* a row of bar stools.. (The Broadwind Bar)
+M 0 100039 1 100048 1	* Ginnie, the bartender (The Broadwind Bar)
+G 0 100037 0		*	a flagon of ale
+G 0 100038 0		*	a glass of wine
+G 0 100039 0		*	pork chops
+G 0 100040 0		*	a piece of chocolate cake
+G 0 100041 0		*	a pickled egg
+G 0 100042 0		*	the Broadwind Special
+O 0 100047 0 100048	* {DA large black rug{x (The Broadwind Bar)
+M 0 100049 1 100049 1	* Alrea (Room in the Inn)
+E 0 100016 0 7		*	Studded Leather Leggings: on the legs
+E 0 100017 0 16		*	{bD{Bi{Camo{Bn{bd{x Flail: wielded
+S
+
+#SHOPS
+100039 0 0 0 0 0 125 11 1 23
+0
+
+#MOBPROGS
+#100000
+mob oload 100048
+emote says quietly, {G'I'll return shortly. Wait here.'{x
+emote sneaks out the room without narry a sound.
+mob goto 100045
+unlock east
+mob goto 100047
+mob echoat $n A slight tap on your shoulder causes you to spin around, indicating you missed Jindarus' return.
+emote says quietly, {G'It is done.'{x
+mob junk lockpick
+~
+#100001
+emote quietly says, {G'I have a proposal, if you wish to hear.'{x
+~
+#100002
+emote says quietly, {G'Although I'm well known as an assassin,'{x
+emote says quietly, {G'oftentimes, I only arrange the deaths for my clients.'{x
+emote says quietly, {G'I'm only interested in the death of the beholder in the other room.'{x
+emote says quietly, {G'You can claim any loot to be had should you choose, and aye, any glory.'{x
+emote says quietly, {G'All you have to do is give me 50 gold, and I'll make sure you can get at him.'{x
+~
+#0
+
+#$

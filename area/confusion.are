@@ -1,0 +1,172 @@
+#AREADATA
+Name Forest of Confusion~
+VNUMs 11100 11199
+Credits Sadin~
+Security 9
+LevelRange 20 70
+ResetMessage Suddenly all the leaves shimmer and glow brightly, and as the light fades the forest seems to have reverted to its formor glory.~
+Flags closed noquest~
+End
+
+#MOBILES
+#11100
+rabbit cute little greeter~
+a rabbit~
+A cute little rabbit is here, nibbling a blade of grass.
+~
+Although, this rabbit looks, acts and smells like your everyday normal
+rabbit; you sense a slight differance in the nature of this cute forest
+creature.  
+~
+rabbit~
+ABCGHei DFHPVZmt 0 0
+150 150 740d150+50000 750d10+85 1d1+0 none
+-91 -91 -91 -60
+0 ABCDELQU 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ E
+M greet 11100 100~
+#11101
+fire hawk fire-hawk red flaming songbird~
+a {Rflaming{x songbird~
+A {Rfirehawk{x soars above the ground.
+~
+This songbird seem to be starting small fires all over the area.  It sees you and starts to dive toward you.
+~
+song bird~
+AHWi FNZt 800 0
+20 20 37d20+0 100d10+85 6d3+15 flbite
+-3 -3 -3 0
+0 H JO I
+stand stand either 0
+0 0 medium flesh~
+~
+#0
+
+#ROOMS
+#11100
+A Pebbled Path~
+A path littered with small rounded pebbles heads toward a growing forest.
+A gentle breeze wafts from the treeline, filling the air with a sweet scent
+of fresh leaves and lavender.  The gentle chirping of the local birds seems
+to send a calming effect over the forest.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 11101
+0 0
+S
+#11101
+A Pebbled Path~
+The path continues toward the east, leading deeper into the forest. 
+Several smaller trees already line the road and many more larger ones loom
+upward, reaching for the heavens.  The paths starts the turn into a simple
+dirt path the further along into the forest it goes.  Several animals can be
+heard scappering about the underbrush.  
+~
+0 NX forest
+D1
+~
+~
+Z 0 11102
+0 0
+D3
+~
+~
+Z 0 11100
+0 0
+S
+#11102
+Entrance of a Great Forest~
+The path leads into a massive forest that continue further then the eye
+can see.  Trees of all species and colors are in full bloom, lighting the
+forest like a massive rainbow.  The gentle chirping of birds and calls of
+the local wildlife fill the air with a relaxing quality, setting your mind
+at rest.  
+~
+0 W forest
+D1
+~
+~
+Z 0 11103
+0 0
+D3
+~
+~
+Z 0 11101
+0 0
+S
+#11103
+Path in the Forest~
+The forest is alive with activity; birds glide silently overhead and
+squirrels and other small forest creatures scurry about the forest floor. 
+The trees are covered in fresh green leaves and the smell of fresh clean air
+is overwhelming.  The path heads westward deeper into the inviting forest,
+or back east toward a bright looking meadow.  
+~
+0 AT forest
+D1
+~
+~
+Z 0 11104
+0 0
+D3
+~
+~
+Z 0 11102
+0 0
+S
+#11104
+Path in the Forest~
+The dirt path leads eastward, toward a large intersecion that leads into
+the four cardinal directions.  Small animals peer out from the cover of the
+thick brush that surronds the path, making it immpossable to travel off the
+path.  A warm glow comes from the west, and a joyful sound echos as a song
+bird call out over the forest.  
+~
+0 c forest
+D1
+~
+~
+Z 0 11105
+0 0
+D3
+~
+~
+Z 0 11103
+0 0
+S
+#11105
+A Massive Intersection~
+~
+0 ASX forest
+D3
+~
+~
+Z 0 11104
+0 0
+S
+#0
+
+#SPECIALS
+M 11100 spec_poison	* a rabbit
+M 11101 spec_breath_fire	* a {Rflaming{x songbird
+S
+
+#RESETS
+M 0 11100 1 11101 1	* a rabbit (A Pebbled Path)
+M 0 11101 1 11103 1	* a {Rflaming{x songbird (Path in the Forest)
+S
+
+#MOBPROGS
+#11100
+tell $N Welcome to the {CF{Ro{Br{Ye{cs{Dt{x of {BC{Mo{cn{Gf{ru{cs{Ri{Bo{Yn{G.  Enjoy your visit.{x
+suck $N
+~
+#0
+
+#$

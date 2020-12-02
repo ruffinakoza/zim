@@ -1,0 +1,1088 @@
+#AREADATA
+Name Enchanted Acres~
+Builders kira~
+VNUMs 8600 8649
+Credits Kira~
+Security 1
+LevelRange 1 91
+ResetMessage {MA nervous bride runs away screaming!{x~
+Flags closed~
+End
+
+#MOBILES
+#8618
+~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#8639
+allen alic~
+Alic~
+Alic, the wedding shopkeeper, is arranging some bridesmaid dresses.
+~
+~
+human~
+AB DF 1000 0
+91 91 344d91+0 91d9+60 28d3+45 none
+-49 -49 -49 -30
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#8640
+arnia~
+{MA{mrn{Ci{ma{x~
+{MA{mrn{Ci{ma{x, the flower shopkeeper, is pruning a rose bush.
+~
+~
+human~
+AB DF 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#8642
+hailley~
+Hailley~
+Hailley, the wedding coordinator, is floating around the room.
+~
+~
+human~
+AB DF 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#8621
+cot~
+a rickety cot~
+A rickety cot is set up here.~
+unknown~
+~
+furniture 0 0
+B ABCDIJKN EHK CFG CFG B ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#8624
+fountain~
+the marble fountain~
+A beautiful, white marble fountain spouts three tiers of water.~
+unknown~
+~
+fountain 0 0
+0 0 'water' 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#8625
+stone bench~
+a stone bench~
+A carved stone bench rests here.~
+unknown~
+~
+furniture 0 0
+BD ABCDEHJKPQ EH CFG CFG BD ABCDEHJKPQ
+1 0 0 P
+G none
+G none
+G none
+G none
+#8626
+daisy bouquet~
+a small {Yd{Wa{Yi{Ws{Yy {Wb{Yo{Wu{Yq{Wu{Ye{Wt{x~
+A small {Yd{Wa{Yi{Ws{Yy {Wb{Yo{Wu{Yq{Wu{Ye{Wt{x lies here, beginning to wilt.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 60 P
+G none
+G none
+G none
+G none
+#8627
+bouquet roses~
+a cascading bouquet of {Rr{re{Rd{x and {Ww{xh{Wi{xt{We {Rr{xo{Rs{xe{Rs{x~
+A cascading bouquet of {Rr{re{Rd{x and {Ww{xh{Wi{xt{We {Rr{xo{Rs{xe{Rs{x has been dropped here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 80 P
+G none
+G none
+G none
+G none
+#8628
+silk ring pillow~
+a silk ring pillow~
+A silk ring pillow for a wedding lies here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 55 P
+G none
+G none
+G none
+G none
+#8629
+single white rose~
+a beautiful single {Wwhite{x rose~
+A beautiful single {Wwhite{x rose lies here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 25 P
+G none
+G none
+G none
+G none
+#8630
+single black rose~
+a beautiful single {Dblack{x rose~
+A beautiful single {Dblack{x rose lies here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 25 P
+G none
+G none
+G none
+G none
+#8631
+basket flower petals~
+a basket of flower petals~
+A basket of lovely flower petals lies here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 110 P
+G none
+G none
+G none
+G none
+#8635
+armchair~
+a victorian armchair~
+Several victorian armchairs rest about the room.~
+unknown~
+~
+furniture 0 0
+CE ABCDIJKN EH 0 0 CE ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#8639
+lace wedding veil~
+a {Wwhite{x lace wedding veil~
+A beautiful, delicate, white lace wedding veil lies here.~
+unknown~
+~
+armor 0 AE
+1 1 1 0 'none' 0
+1 2 110 P
+G none
+G none
+G none
+G none
+#8640
+platinum tiara diamonds pearls~
+a {Dplatinum tiara{x encrusted with {Cd{Wi{Ca{Wm{Co{Wn{Cd{Ws{x and {Wpearls{x~
+A {Dplatinum tiara{x encrusted with {Cd{Wi{Ca{Wm{Co{Wn{Cd{Ws{x and {Wpearls{x has been tossed aside.~
+unknown~
+~
+armor 0 AE
+1 1 1 0 'none' 0
+1 2 110 P
+G none
+G none
+G none
+G none
+#8641
+pair silk slippers~
+a pair of {Ms{mi{Wl{xk{x slippers~
+A pair of {Ms{mi{Wl{xk{x slippers rests here for the taking.~
+unknown~
+~
+armor 0 AG
+1 1 1 0 'none' 0
+1 2 150 P
+G none
+G none
+G none
+G none
+#8642
+pair tuxedo shoes~
+a pair of polished {Dtuxedo{x shoes~
+A pair of polished {Dtuxedo{x shoes has been left behind.~
+unknown~
+~
+armor 0 0
+1 1 1 0 'none' 0
+1 2 165 P
+G none
+G none
+G none
+G none
+#8643
+tuxedo black~
+a {Dblack tuxedo{x~
+A lovely {Dblack tuxedo{x has been tossed aside.~
+unknown~
+~
+clothing 0 AK
+A A A 0 0 A A
+1 2 300 P
+G none
+G none
+G none
+G none
+#8644
+emerald engagement ring diamond~
+a {Cd{Wi{Ca{Wm{Co{Wn{Cd{x and {Gemerald{x engagement ring{x~
+A {Cd{Wi{Ca{Wm{Co{Wn{Cd{x and {Gemerald{x engagement ring{x has been set aside.~
+unknown~
+~
+jewelry 0 AB
+0 0 0 0 0 0 0
+1 1 300 P
+G none
+G none
+G none
+G none
+#8645
+diamond ruby engagement ring~
+a {Cd{Wi{Ca{Wm{Co{Wn{Cd{x and {Rruby{x engagement ring~
+A {Cd{Wi{Ca{Wm{Co{Wn{Cd{x and {Rruby{x engagement ring has been set aside carefully.~
+unknown~
+~
+jewelry 0 AB
+0 0 0 0 0 0 0
+1 1 550 P
+G none
+G none
+G none
+G none
+#8646
+pink bridesmaid dress~
+a {Mp{mi{Mnk{x bridesmaid dress~
+A {Mp{mi{Mnk{x bridesmaid dress has been set aside with care.~
+unknown~
+~
+armor 0 AD
+1 1 1 0 'none' 0
+1 2 200 P
+G none
+G none
+G none
+G none
+#8647
+blood red bridesmaid dress~
+a {rbl{Roo{rd-r{Re{rd{x bridesmaid dress~
+A {rbl{Roo{rd-r{Re{rd{x bridesmaid dress has been set aside with care.~
+unknown~
+~
+armor 0 AD
+1 1 1 0 'none' 0
+1 2 200 P
+G none
+G none
+G none
+G none
+#8648
+sky blue bridesmaid dress~
+a {Cs{cky{W-{bb{Bl{bu{Be{x bridesmaid dress~
+A {Cs{cky{W-{bb{Bl{bu{Be{x bridesmaid dress has been set aside with care.~
+unknown~
+~
+armor 0 AD
+1 1 1 0 'none' 0
+1 2 200 P
+G none
+G none
+G none
+G none
+#8649
+cereal box engagment ring~
+a {Ycereal box{x engagement ring~
+A {Ycereal box{x engagement ring has been set aside.~
+unknown~
+~
+armor 0 AB
+1 1 1 0 'none' 0
+1 2 50 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#8600
+{gOn the Border of Enchanted Acres{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8601
+0 0
+S
+#8601
+{gA Soft Mossy Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8602
+0 0
+D2
+~
+~
+Z 0 8600
+0 0
+S
+#8602
+{gA Soft Mossy Path{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8603
+0 0
+D2
+~
+~
+Z 0 8601
+0 0
+S
+#8603
+{gA Soft Mossy Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8604
+0 0
+D3
+~
+~
+Z 0 8602
+0 0
+S
+#8604
+{gA Soft Mossy Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8605
+0 0
+D2
+~
+~
+Z 0 8603
+0 0
+S
+#8605
+{gA Delicate F{Gi{geld of {yDa{Yi{ys{Yi{yes{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8607
+0 0
+D2
+~
+~
+Z 0 8604
+0 0
+D3
+~
+~
+Z 0 8606
+0 0
+S
+#8606
+{gA Delicate F{Gi{geld of {yDa{Yi{ys{Yi{yes{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8608
+0 0
+D1
+~
+~
+Z 0 8605
+0 0
+S
+#8607
+{gA Delicate F{Gi{geld of {yDa{Yi{ys{Yi{yes{x~
+~
+0 0 inside
+D2
+~
+~
+Z 0 8605
+0 0
+D3
+~
+~
+Z 0 8608
+0 0
+S
+#8608
+{gA Delicate F{Gi{geld of {yDa{Yi{ys{Yi{yes{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8609
+0 0
+D1
+~
+~
+Z 0 8607
+0 0
+D2
+~
+~
+Z 0 8606
+0 0
+S
+#8609
+{gBetween Two {DW{Wi{xll{Wo{Dw {gTrees{x~
+~
+0 0 inside
+D0
+~
+leaves~
+ABZ 0 8610
+0 0
+D2
+~
+~
+Z 0 8608
+0 0
+S
+#8610
+{gBeyond a Veil of Wispy {DW{Wi{xll{Wo{Dw {GL{Ye{ya{gv{Ye{Gs{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8613
+0 0
+D1
+~
+~
+ABZ 0 8611
+0 0
+D2
+~
+~
+ABZ 0 8609
+0 0
+D3
+~
+~
+ABZ 0 8612
+0 0
+S
+#8611
+{gA Tree {WH{xo{Dll{xo{Ww{x~
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 8610
+0 0
+S
+#8612
+{gA Tree {WH{xo{Dll{xo{Ww{x~
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 8610
+0 0
+S
+#8613
+{gA Secret Glade{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8616
+0 0
+D1
+~
+~
+Z 0 8615
+0 0
+D2
+~
+~
+Z 0 8610
+0 0
+D3
+~
+~
+Z 0 8614
+0 0
+S
+#8614
+{gA Secret Glade{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8613
+0 0
+D3
+~
+~
+ABZ 0 8637
+0 0
+S
+#8615
+{gA Secret Glade{x~
+~
+0 0 inside
+D3
+~
+~
+Z 0 8613
+0 0
+S
+#8616
+{gA Secret Glade{x~
+a mess of shrubs to the north
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 8622
+0 0
+D2
+~
+~
+Z 0 8613
+0 0
+D3
+~
+~
+Z 0 8617
+0 0
+S
+#8617
+{gBefore a Gigantic Maple Tree{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8616
+0 0
+D3
+~
+~
+Z 0 8618
+0 0
+S
+#8618
+{gIn the Shadow of a Gigantic Maple Tree{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8617
+0 0
+D4
+~
+~
+Z 0 8619
+0 0
+S
+#8619
+{gA Rickety Old Ladder{x~
+~
+0 0 inside
+D4
+~
+~
+Z 0 8620
+0 0
+D5
+~
+~
+Z 0 8618
+0 0
+S
+#8620
+{gA Rickety Old Ladder{x~
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 8621
+0 0
+D5
+~
+~
+Z 0 8619
+0 0
+S
+#8621
+{gA Charming Little Tree House{x~
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 8620
+0 0
+S
+#8622
+{gA {DFl{Wag{xs{Wto{Dne{g Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8628
+0 0
+D2
+~
+~
+ABZ 0 8616
+0 0
+S
+#8623
+{gA {DFl{Wag{xs{Wto{Dne{g Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8624
+0 0
+D2
+~
+~
+Z 0 8628
+0 0
+S
+#8624
+A Flagstone Half-Circle~
+fountain
+~
+0 0 inside
+D0
+~
+~
+Z 0 8627
+0 0
+D1
+~
+~
+Z 0 8625
+0 0
+D2
+~
+~
+Z 0 8623
+0 0
+D3
+~
+~
+Z 0 8626
+0 0
+S
+#8625
+A Bow-Shaped Bench Area~
+~
+0 0 inside
+D3
+~
+~
+Z 0 8624
+0 0
+S
+#8626
+A Bow-Shaped Bench Area~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8624
+0 0
+S
+#8627
+A Bow-Shaped Bench Area~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8631
+0 0
+D2
+~
+~
+Z 0 8624
+0 0
+S
+#8628
+{gA {DFl{Wag{xs{Wto{Dne{g Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8623
+0 0
+D1
+~
+~
+Z 0 8630
+0 0
+D2
+~
+~
+Z 0 8622
+0 0
+D3
+~
+~
+Z 0 8629
+0 0
+S
+#8629
+{gA Garden Alcove{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8628
+0 0
+S
+#8630
+{gA Garden Alcove{x~
+~
+0 0 inside
+D3
+~
+~
+Z 0 8628
+0 0
+S
+#8631
+{gA Thick Hedgerow{x~
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 8632
+0 0
+D2
+~
+~
+Z 0 8627
+0 0
+S
+#8632
+{gA Pebble Path{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8633
+0 0
+D2
+~
+~
+ABZ 0 8631
+0 0
+S
+#8633
+{gA Pebble Path{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8634
+0 0
+D2
+~
+~
+Z 0 8632
+0 0
+S
+#8634
+{gBeneath a {DS{xton{De{g Archway{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8635
+0 0
+D3
+~
+~
+Z 0 8633
+0 0
+S
+#8635
+{gA Secluded Niche{x~
+~
+0 0 inside
+D2
+~
+~
+Z 0 8636
+0 0
+D3
+~
+~
+Z 0 8634
+0 0
+S
+#8636
+{CA {WT{wi{Wny {CB{ca{Csin{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8635
+0 0
+S
+#8637
+A Holy Path~
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 8614
+0 0
+D3
+~
+~
+Z 0 8638
+0 0
+S
+#8638
+A Great White Cathedral~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8637
+0 0
+D3
+~
+~
+Z 0 8639
+0 0
+S
+#8639
+The Wedding Chapel Foyer~
+A small foyer has deep {rmahogany-coloured{x carpet.  Wood panels cover the
+walls, and white garland hangs from the doors and along the counters to the
+side.  A charming old gentleman in a tux stands behind the counter to serve.
+~
+0 0 inside
+D0
+~
+~
+Z 0 8640
+0 0
+D1
+~
+~
+Z 0 8638
+0 0
+D2
+~
+~
+Z 0 8641
+0 0
+S
+#8640
+{MT{mhe {MF{mlow{Ce{mr {MS{mhopp{Me{x~
+Fresh smells fill the air and tiny leaves lay scattered on the ground. 
+The glass case is full of beautiful flowers, lots of in-season ones, and
+many that are out-of-season or hard to find.  Arnia is highly trained in her
+craft, and knows how to cut a rose in hundreds of different ways.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 8639
+0 0
+S
+#8641
+The Gathering Room~
+The expanse before the chapel is a large open space used as a place for
+guests to mingle before going in to the wedding foyer.  Small tables of
+flowers rest in each corner of the room.  Ushers come forth to seat guests
+from time to time.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8639
+0 0
+D3
+~
+~
+Z 0 8642
+0 0
+S
+#8642
+The Bride's Hall~
+This is the outer sanctum of the bridal area.  Three walls are covered in
+mirrors; tall {givy{x plants stand in each corner.  A beautiful handwoven rug
+sits in the center of the room with the depiction of a bride in it, invoking
+a feeling of peace and tranquility to the area.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8641
+0 0
+D3
+~
+~
+Z 0 8643
+0 0
+S
+#8643
+The Bride's Room~
+Tiny glass spheres hover about the room, inside of each is a {Mt{miny{x
+lightbuy, glowing brightly.  Large, ornate mirrors hang on each wall,
+bordered with white roses.  Small bundles of fresh herbs are hung where
+their aromatherapy can calm anxious bridal parties.  A few comfortable
+chairs sit around the room, and a few large hooks hang on the walls for the
+bridal party clothing.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8642
+0 0
+S
+#0
+
+#RESETS
+D 0 8609 0 1	* {gBetween Two {DW{Wi{xll{Wo{Dw {gTrees{x: door to the north: closed
+D 0 8610 1 1	* {gBeyond a Veil of Wispy {DW{Wi{xll{Wo{Dw {GL{Ye{ya{gv{Ye{Gs{x: door to the east: closed
+D 0 8610 2 1	* {gBeyond a Veil of Wispy {DW{Wi{xll{Wo{Dw {GL{Ye{ya{gv{Ye{Gs{x: door to the south: closed
+D 0 8610 3 1	* {gBeyond a Veil of Wispy {DW{Wi{xll{Wo{Dw {GL{Ye{ya{gv{Ye{Gs{x: door to the west: closed
+D 0 8611 3 1	* {gA Tree {WH{xo{Dll{xo{Ww{x: door to the west: closed
+D 0 8612 1 1	* {gA Tree {WH{xo{Dll{xo{Ww{x: door to the east: closed
+D 0 8614 3 1	* {gA Secret Glade{x: door to the west: closed
+D 0 8616 0 1	* {gA Secret Glade{x: door to the north: closed
+D 0 8620 0 1	* {gA Rickety Old Ladder{x: door to the north: closed
+D 0 8621 2 1	* {gA Charming Little Tree House{x: door to the south: closed
+D 0 8622 2 1	* {gA {DFl{Wag{xs{Wto{Dne{g Path{x: door to the south: closed
+D 0 8631 0 1	* {gA Thick Hedgerow{x: door to the north: closed
+D 0 8632 2 1	* {gA Pebble Path{x: door to the south: closed
+D 0 8637 1 1	* A Holy Path: door to the east: closed
+O 0 8621 0 8621	* a rickety cot ({gA Charming Little Tree House{x)
+O 0 8624 0 8624	* the marble fountain (A Flagstone Half-Circle)
+O 0 8625 0 8625	* a stone bench (A Bow-Shaped Bench Area)
+O 0 8625 0 8626	* a stone bench (A Bow-Shaped Bench Area)
+O 0 8625 0 8627	* a stone bench (A Bow-Shaped Bench Area)
+M 0 8639 1 8639 1	* Alic (The Wedding Chapel Foyer)
+G 0 8639 0		*	a {Wwhite{x lace wedding veil
+G 0 8640 0		*	a {Dplatinum tiara{x encrusted with {Cd{Wi{Ca{Wm{Co{Wn{Cd{Ws{x and {Wpearls{x
+G 0 8641 0		*	a pair of {Ms{mi{Wl{xk{x slippers
+G 0 8642 0		*	a pair of polished {Dtuxedo{x shoes
+G 0 8643 0		*	a {Dblack tuxedo{x
+G 0 8644 0		*	a {Cd{Wi{Ca{Wm{Co{Wn{Cd{x and {Gemerald{x engagement ring{x
+G 0 8645 0		*	a {Cd{Wi{Ca{Wm{Co{Wn{Cd{x and {Rruby{x engagement ring
+G 0 8646 0		*	a {Mp{mi{Mnk{x bridesmaid dress
+G 0 8647 0		*	a {rbl{Roo{rd-r{Re{rd{x bridesmaid dress
+G 0 8648 0		*	a {Cs{cky{W-{bb{Bl{bu{Be{x bridesmaid dress
+G 0 8649 0		*	a {Ycereal box{x engagement ring
+M 0 8640 1 8640 1	* {MA{mrn{Ci{ma{x ({MT{mhe {MF{mlow{Ce{mr {MS{mhopp{Me{x)
+G 0 8626 0		*	a small {Yd{Wa{Yi{Ws{Yy {Wb{Yo{Wu{Yq{Wu{Ye{Wt{x
+G 0 8627 0		*	a cascading bouquet of {Rr{re{Rd{x and {Ww{xh{Wi{xt{We {Rr{xo{Rs{xe{Rs{x
+G 0 8628 0		*	a silk ring pillow
+G 0 8629 0		*	a beautiful single {Wwhite{x rose
+G 0 8630 0		*	a beautiful single {Dblack{x rose
+G 0 8631 0		*	a basket of flower petals
+M 0 8642 1 8642 1	* Hailley (The Bride's Hall)
+O 0 8635 0 8643	* a victorian armchair (The Bride's Room)
+S
+
+#SHOPS
+8639 0 0 0 0 0 100 14 0 23
+8640 0 0 0 0 0 100 15 0 23
+0
+
+#$

@@ -1,0 +1,328 @@
+#AREADATA
+Name Windswept Plains~
+VNUMs 10898 10908
+Credits Nalaeya~
+Security 1
+LevelRange 0 0
+ResetMessage A strong wind comes down from the mountains, bringing with it an icy chill.~
+Flags noquest~
+End
+
+#ROOMS
+#10898
+The Windswept Plains~
+The wind from the mountaintops is strong here, bringing with it an icy
+chill that no cloak can guard against.  The mountain’s shadow extends over
+the plains, keeping the sun from offering any respite from the bitter wind. 
+Though mostly bare of anything taller than a bush, small patches of blue and
+red wildflowers add colour and life to the plains, and every now and then a
+small field mouse speeds through the grass, wary of predators.  
+~
+0 0 field
+E
+field mouse mice~
+Tiny field mice zip through the grass, carrying small grains in their
+little teeth.
+~
+E
+wildflowers~
+Small patches of tiny blue wildflowers, and slightly larger red ones
+dot the plain, adding some life and colour to surroundings.
+~
+D0
+The plain gradually becomes steep foothills.
+~
+~
+Z 0 10899
+0 0
+D1
+A cobblestone road cuts through the plain.
+~
+~
+Z 0 10903
+0 0
+D2
+Tall grasses sway in the wind.
+~
+~
+Z 0 10905
+0 0
+S
+#10899
+The Mountain Foothills~
+A cold wind comes down from the mountaintops, its shrill whistle making
+it impossible to hear anything not shouted out.  The land to the north
+slopes upward suddenly, plains becoming tall hills that grow steeper and
+steeper as they approach the mountains, making it impossible to continue
+heading in that direction.  
+~
+0 0 field
+D1
+A road leads to the only pass in the mountains.
+~
+~
+Z 0 10900
+0 0
+D2
+The wide plains continue.
+~
+~
+Z 0 10898
+0 0
+S
+#10900
+Before a Pass in the Mountains~
+The land here gradually becomes rolling foothills up to the base of the
+mountains.  To the south a vast plain spreads, tall grasses accompanied here
+and there by a bush or a small, solitary tree.  A strong wind comes down
+from the mountain, battering the surroundings and bringing with it a chill
+from the snow-capped peaks.  The cobblestone road continues up to a pass in
+the mountain, eventually twisting out of view.
+~
+0 0 field
+D0
+~
+~
+Z 0 19751
+0 0
+D1
+The foothills continue to the east.
+~
+~
+Z 0 10901
+0 0
+D2
+A cobblestone road leads towards the city.
+~
+~
+Z 0 10903
+0 0
+D3
+The foothills continue to the west.
+~
+~
+Z 0 10899
+0 0
+S
+#10901
+The Mountain Foothills~
+The land here begins to slope steeply upward to the north, the plains
+replaced by foothills that become more and more difficult to scale as the
+mountain nears.  To the south the plain spreads wide, a vast expanse of flat
+ground as far as the eye can see, broken only by a few scattered trees and
+bushes.  The hills to the north gradually become to steep to climb, making
+any further passage towards the mountains impossible.  
+~
+0 0 field
+D2
+A tall tree stands to the south, looking out of place.
+~
+~
+Z 0 10902
+0 0
+D3
+A road leads to the only pass in the mountains.
+~
+~
+Z 0 10900
+0 0
+S
+#10902
+A Tree in the Plains~
+A large tree grows here, its trunk several feet wide and its branches
+reaching almost a hundred feet up into the air.  It stands alone, no other
+trees nearby, and looks to have been growing for centuries.  There is a
+peaceful aura about it that extends to the area surround its reach.  Wide
+branches filled with leaves provide shade from the glaring sun, and the wind
+that assaults the plains is nothing more than a gentle breeze beneath its
+shelter.  
+~
+0 0 field
+D0
+Tall, snow-capped mountains rise to the north.
+~
+~
+Z 0 10901
+0 0
+D3
+A cobblestone road cuts through the plain.
+~
+~
+Z 0 10903
+0 0
+S
+#10903
+A Road Through the Plains~
+The cobblestone road continues, heading north towards a pass in the
+mountains, and south through the plains.  In the distance, the mountains
+stand tall, their peaks blue against the sky, the highest reaching above the
+clouds.  An icy wind flies down from the mountains, bringing a chill to the
+air and whipping the grass violently about.  
+~
+0 0 field
+D0
+The road leads north through a pass in the mountains.
+~
+~
+Z 0 10900
+0 0
+D1
+A tall tree grows to the east, looking strangely out of place.
+~
+~
+Z 0 10902
+0 0
+D2
+The cobblestone road continues south towards the city of Caerlon.
+~
+~
+Z 0 10904
+0 0
+D3
+Tall grasses are battered down by the wind.
+~
+~
+Z 0 10898
+0 0
+S
+#10904
+A Road Through the Plains~
+The cobblestone road continues through the plains, heading towards the
+city of Caerlon to the south and further into the plains to the north. 
+Strong winds whip the grass about, coming down from the mountains in the
+distance, and bringing with them an icy chill.  The land is bare of anything
+taller than a bush for miles around, but patches of wildflowers here and
+there add some life and colour to the surroundings.  
+~
+0 0 field
+E
+wildflowers~
+Small patches of red and blue wildflowers dot the plains.
+~
+D0
+The cobblestone road continues through the pass.
+~
+~
+Z 0 10903
+0 0
+D2
+The cobblestone road continues south towards the city.
+~
+~
+Z 0 10907
+0 0
+D3
+~
+~
+Z 0 10905
+0 0
+S
+#10905
+The Unmarked Graves~
+The plains continue in every direction, the city of Caerlon visible to
+the south and the snow-capped mountains standing out against the horizon to
+the north.  Amidst the knee-high grass that grows for miles all around, two
+dirt mounds can be seen, hidden from view until they are almost underfoot. 
+Stones and pebbles have been piled atop the mounds, marking them as grave
+sites, though there is nothing to indicate who lies beneath.  The wind is
+hushed here, blowing gently over the graves as if in reverence for those who
+have fallen here.  
+~
+0 0 field
+E
+graves unmarked stones pebble mounds dirt~
+Nothing about the mounds indicates who or what lies there, and the solemn
+feel of this place makes disturbing the graves out of the question.  
+~
+D0
+~
+~
+Z 0 10898
+0 0
+D1
+~
+~
+Z 0 10904
+0 0
+D2
+~
+~
+Z 0 10906
+0 0
+S
+#10906
+The Wide Plains~
+Knee-high grass waves gently in the wind, soft gusts carrying the scents
+of wildflowers that can be seen growing in patches of blue and red across
+the plains.  The grand city of Caerlon lies to the south, its tall walls of
+white stone glittering as the light hits them, creating a stunningly
+beautiful effect.  The guards patrolling the walls and standing watch in the
+towers seem to be nothing more from this distance than tiny dots, their
+lanterns looking like small candle flames.  
+~
+0 0 field
+D0
+~
+~
+Z 0 10905
+0 0
+D1
+~
+~
+Z 0 10907
+0 0
+S
+#10907
+A Road Through the Plains~
+The cobblestone road continues, running north and south.  A strong wind
+blows across the plains, whipping the tall grass back and forth.  The land
+here is flat and bare, only a few thorny bushes rising above the knee-high
+grass.  Tall snow-capped mountains rise to the north, casting a shadow over
+the plains before them.  
+~
+0 0 field
+E
+bushes~
+Thorny bushes dot the plain, looking rather bare.
+~
+D0
+~
+~
+Z 0 10904
+0 0
+D2
+~
+~
+Z 0 10908
+0 0
+D3
+~
+~
+Z 0 10906
+0 0
+S
+#10908
+Outside the Northern Gate~
+A cobblestone road passes through the gates of the city, heading north
+into the plains.  This gate doesn’t see much traffic, the plains being for
+the most part unsettled, but there are wagon tracks along the road from the
+farmer’s wagons bringing in produce from outlying villages.  The plains
+spread out to the north, tall grasses and bushes all that the eye can see
+before the tall snow-capped mountains far off in the distance.  
+~
+0 0 field
+D0
+~
+~
+Z 0 10907
+0 0
+D2
+The city of Caerlon lies beyond the gates.
+~
+~
+Z 0 10740
+0 0
+S
+#0
+
+#$

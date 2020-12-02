@@ -1,0 +1,45 @@
+#CLAN
+Name ElidoDi~
+Recall 100600
+Item 100652
+Mark 100600
+Altar 100608
+Donate 100610
+#Skill 'brew' 30 70
+#Skill 'demon summon' 40 70
+#Skill 'mastering spell' 70 70
+#Skill 'mental knife' 50 70
+#Skill 'scourge' 65 70
+#Skill 'tesseract' 60 70
+#Skill 'transform' 67 70
+Title 13 male Forger of the Source~
+Title 13 female Forger of the Source~
+Title 12 male Implementor of the Source~
+Title 12 female Implementor of the Source~
+Title 11 male Venerated Magister~
+Title 11 female Venerated Magister~
+Title 10 male Wielder of the Source~
+Title 10 female Wielder of the Source~
+Title 9 male Archmage~
+Title 9 female Archmage~
+Title 8 male Enchanter~
+Title 8 female Enchantress~
+Title 7 male Sorceror~
+Title 7 female Sorceress~
+Title 6 male Battlemage~
+Title 6 female Battlemage~
+Title 5 male Spellhurler~
+Title 5 female Spellhurler~
+Title 4 male Adept~
+Title 4 female Adept~
+Title 3 male Apprentice~
+Title 3 female Apprentice~
+Title 2 male Scribe~
+Title 2 female Scribe~
+Title 1 male Lost~
+Title 1 female Lost~
+Title 0 male Broken~
+Title 0 female Broken~
+End
+
+#$

@@ -1,0 +1,14 @@
+#RACE
+Name lantern archon~
+Dodge 140
+Align 1000
+Size small
+DamType blast
+Aff dark_vision flying~
+Imm lightning~
+Res poison~
+Form sentient mist~
+Parts none~
+End
+
+#$

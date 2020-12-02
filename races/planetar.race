@@ -1,0 +1,14 @@
+#RACE
+Name planetar~
+Dodge 70
+Align 1000
+Sex either
+Size large
+DamType punch
+Imm lightning~
+Res poison~
+Form none~
+Parts none~
+End
+
+#$

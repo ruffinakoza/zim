@@ -1,0 +1,2924 @@
+#AREADATA
+Name The Sky Highway~
+Builders angelo~
+VNUMs 97900 97999
+Credits Angelo~
+Security 9
+LevelRange 1 100
+ResetMessage {CYou feel a gust of fresh air.{z~
+Flags noquest~
+End
+
+#MOBILES
+#97900
+arial guard vicks~
+Vicks the guard~
+Vicks, an arial guard of the sky highway, stands here.
+~
+This is one of the guards of the sky highway, trained and employed by Angelo,
+the Arial demigod. His halberd bears an inscription: 'Vicks.'
+~
+arial~
+ABUYef DFJZ 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+CDFHIKNOR 0 0 0
+stand stand male 145
+0 0 medium flesh~
+~
+F for H
+M bribe 97903 100~
+M greet 97900 100~
+#97901
+wedge arial guard~
+Wedge the guard~
+Wedge, an arial guard of the sky highway, stands here.
+~
+This is one of the guards of the sky highway, trained and employed by Angelo,
+the Arial demigod. His halberd bears an inscription: 'Wedge.'
+~
+arial~
+ABUYef DFJZ 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+CDFHIKNOR 0 0 0
+stand stand male 4410
+0 0 medium flesh~
+~
+F for H
+M random 97901 10~
+M greet 97906 100~
+M speech 97902 yes~
+#97902
+devilish little imp~
+an evil-looking little imp~
+A small imp-like creature with horns and an axe attacks you!
+~
+He's ugly.
+~
+lich~
+ABe 0 -1000 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+0 A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 97904 100~
+M random 97905 50~
+#97903
+collector stone dark angel~
+{Dthe stonecollector{z~
+An angel with {Dblack{z feathery wings polishes a stone here.
+~
+A magical creature of no discernable age, he seems fearsome and amazing
+to behold.  He stands around 6 feet, and his massive wings seem to span
+nearly 10.  He wears a simple black robe, with the back missing to
+accomodate his wings.  He is strong, and his entire body seems to be
+encloaked in an aura of darkness.  He has a small bag by his side, and he
+seems to be collecting rocks in it.  
+~
+human~
+ABe 0 0 0
+91 1 6d1+540000 1d9+60 1d2+2 none
+9 9 9 9
+0 CDU 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+V 97902
+#97904
+demon fire~
+the fire demon~
+A large demon stands here, wreathed in flames.
+~
+He's ugly. And hot.
+~
+fire elemental~
+ABe 0 0 0
+40 40 98d40+0 40d9+60 12d3+21 none
+-16 -16 -16 -7
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#97905
+demon frost~
+the frost demon~
+A large demon stands here, wreathed in icicles.
+~
+He's ugly. And cold.
+~
+water elemental~
+ABe 0 0 0
+60 60 195d60+0 60d9+60 19d3+31 none
+-28 -28 -28 -16
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#97906
+demon acid~
+the acid demon~
+The acid demon drools something caustic onto itself.
+~
+He's ugly. And green.
+~
+earth elemental~
+ABe 0 0 0
+80 80 291d80+0 80d9+60 24d3+40 none
+-42 -42 -42 -25
+0 KL 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#97907
+demon hurricane~
+the hurricane demon~
+The demon of hurricanes stands here, preparing to blow you away.
+~
+He's ugly. And translucent.
+~
+air elemental~
+ABe 0 0 0
+100 100 387d100+10000 100d9+60 31d3+50 none
+-54 -54 -54 -33
+0 HIKL 0 J
+stand stand none 0
+0 0 medium flesh~
+~
+#97908
+angel death~
+the {Wangel{z of {Ddeath{z~
+An angel with {Dblack{z wings stands here.
+~
+Beautiful. And creepy.
+~
+unique~
+ABe Tu 0 0
+120 120 484d120+30000 120d9+60 38d3+59 none
+-67 -67 -67 -42
+0 0 CD 0
+stand stand none 0
+0 0 medium flesh~
+~
+#97909
+avatar~
+the {mavatar{z of {BAngelo{z, {Dthe God of Darkness{z~
+{WAngelo{z {BAkidu-Suto{z's {mAvatar{z stands here.
+~
+Looks exactly like him...
+~
+arial~
+A Vu 0 0
+140 140 580d140+50000 140d9+60 43d3+69 none
+-80 -80 -80 -51
+0 C D 0
+stand stand none 0
+0 0 medium flesh~
+~
+#97910
+steve~
+Steve~
+Steve is here, hanging out.
+~
+~
+human~
+AB 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 97907 war~
+#0
+
+#OBJECTS
+#97900
+beacon floating~
+@eng a floating beacon~
+@eng A {Wglowing{z beacon floats here, acting as a road sign.~
+unknown~
+magical coolness!~
+map A 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+glowing beacon~
+This is certainly a nifty, novel little thing! It seems to be made of some sort
+of glowing liquid... you can pass your hands through it, and it warps, but it
+quickly returns to it's original shape. On the {Wroad sign{z portion of it, you
+can read directions to nearby cities.
+~
+G none
+G none
+G none
+G none
+#97901
+helm obsidian crystal~
+an {Dobsidian{z helm~
+A helm of the darkest crystal rests here.~
+crystal~
+~
+armor JKU AE
+36 36 36 35 'none' 0
+100 101 309478 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#97902
+table wooden burnt~
+the {gjade{z table~
+A long table of the finest {gjade{z rests here, with 6 chairs on each side.~
+wood~
+~
+furniture 0 0
+CD EGHIJK DG DGH DGH CD EGHIJK
+0 200 10 P
+G none
+G none
+G none
+G none
+#97903
+pool crystal clear water~
+the {Ccrystal-clear{z water~
+A pool of {Ccrystal-clear{z water rests at one end of the courtyard.~
+water~
+~
+portal G 0
+0 0 A 3014 0
+0 0 0 P
+E
+pool crystal clear water~
+Looking into the pool, you see the market square of Midgaard.  Curious...
+Perhaps if you entered it...  
+~
+G none
+G none
+G none
+G none
+#97904
+fountain oriental jade dragon~
+the {gjade{z dragon~
+A large {gjade{z statue of a dragon is here. {RRose wine{z flows from it's mouth.~
+unknown~
+~
+fountain G 0
+-1 -1 'rose wine' 0
+0 0 0 P
+E
+jade dragon fountain~
+It's highly detailed, and incredibly massive.  The source of the wine is
+a mystery, as is where it goes after flowing into the ground.  Clearly, it's
+a magical fountain.  
+~
+G none
+G none
+G none
+G none
+#97905
+obsidian crystal breastplate~
+an {Dobsidian{z breastplate~
+A breastplate of the darkest crystal lies here.~
+crystal~
+~
+armor JKU AD
+36 36 36 35 'none' 0
+100 101 682052 P
+A
+19 3
+A
+13 50
+A
+19 10
+G none
+G none
+G none
+G none
+#97906
+obsidian bracelet crystal~
+an {Dobsidian{z bracelet~
+A bracelet of the darkest crystal sits here.~
+crystal~
+~
+armor JKU AM
+36 36 36 35 'none' 0
+100 101 225186 P
+A
+12 100
+A
+19 10
+G none
+G none
+G none
+G none
+#97907
+aura darkness~
+{Dan aura of darkness{z~
+A part of this room is cloaked in {Ddarkness{z.~
+unknown~
+shadow~
+clothing CIT AK
+ABCDE ABCDE ABCDE BCDE 0 ABCDE ABCDE
+85 0 230768 P
+A
+13 40
+A
+18 8
+A
+19 8
+G none
+G none
+G none
+G none
+#97908
+darkness shadow prism orb~
+{Da shadow-prism{z~
+A small, {Ddark{z orb makes {Rp{z{Mr{z{Be{z{Ct{z{Gt{z{Yy{z colors from the shadows.~
+crystal~
+~
+armor CIJKSTY AC
+33 33 33 32 'none' 0
+100 5 402574 P
+A
+13 55
+A
+14 -100
+A
+12 -100
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#97909
+obsidian ring crystal~
+an {Dobsidian{z ring~
+A ring of the darkest crystal sits here.~
+crystal~
+~
+jewelry JKU AB
+CF CF CF ABF 0 CF CF
+100 101 20456 P
+A
+20 -5
+A
+12 100
+A
+19 10
+G none
+G none
+G none
+G none
+#97910
+obsidian armguards~
+{Dobsidian{z armguards~
+Some armguards of the darkest crystal rest here.~
+crystal~
+~
+armor JKU AI
+36 36 36 35 'none' 0
+100 101 468876 P
+A
+19 5
+A
+20 -5
+A
+18 10
+G none
+G none
+G none
+G none
+#97911
+legplates obsidian~
+{Dobsidian{z legplates~
+Some legplates of the darkest crystal rest here.~
+crystal~
+~
+armor JKU AF
+36 36 36 35 'none' 0
+100 101 518276 P
+A
+14 150
+A
+18 10
+G none
+G none
+G none
+G none
+#97912
+obsidian neckguard guard crystal~
+an {Dobsidian{z neckguard~
+A neckguard of the darkest crystal rests here.~
+crystal~
+~
+armor JKU AC
+36 36 36 35 'none' 0
+100 101 384182 P
+A
+13 40
+A
+18 5
+A
+19 5
+A
+12 100
+A
+17 -20
+G none
+G none
+G none
+G none
+#97913
+iou note debt angelo~
+an I.O.U. from Angelo~
+A small note with the letters I.O.U. on it sits here.~
+unknown~
+~
+trash AGI A
+0 0 0 0 0 0 0
+20 0 0 P
+E
+iou note debt~
+The note reads:
+ 
+'The bearer of this note is hereby entitled to a sum of 10,000 gold, from 
+Angelo, the divine shadow, at a date convinient for the bearer.
+ 
+Signed,
+   -Angelo'
+~
+G none
+G none
+G none
+G none
+#97914
+map sky highway arial~
+a map of the sky highway~
+A map of the arial sky highway floats slightly above the ground here.~
+unknown~
+~
+map AGI AO
+0 0 0 0 0 0 0
+25 0 5000 P
+A
+14 50
+E
+map sky highway~
+The map reads:
+
+             +--*
+             |
+             |
+             |
+             +---*
+             +--*
+             *
+             +---* 
+             |
+           *-+
+             |
+             |
+             |
++---------+--X----------*----------+
+|         |  |                     *
+|         |  |
+|         *  |
+|          *-+
+*
+                 + = beacon/intersection
+                 * = city   X = Midgaard
+~
+G none
+G none
+G none
+G none
+#97915
+obsidian black stone darkstone~
+a {Ddarkstone{z~
+A perfectly-cut gem of the darkest mineral is here.~
+gem~
+~
+gem CG AO
+0 0 0 0 0 0 0
+1 0 5000 P
+G none
+G none
+G none
+G none
+#97916
+polearm halberd sharp balanced grey gray~
+a sharp, balanced halberd~
+A grey-colored pole with a blade at one end sits here.~
+unknown~
+Adamantine~
+weapon JK AN
+polearm 2 83 chop DF
+106 107 441690 P
+A
+18 10
+A
+19 8
+G none
+G none
+G none
+G none
+#97917
+bow angelo~
+the blue-black Bow of Angelo~
+The bow of a great god has been discarded here.~
+unknown~
+titanium energy~
+weapon AGI AN
+bow 1 1 beating FK
+112 0 90834 P
+G none
+G none
+G none
+G none
+#97918
+arrow angelo~
+the {bblue{z-{ggreen{z Arrow of {WAngelo{z~
+An arrow of a great god has been discarded here.~
+unknown~
+titanium energy~
+weapon AGI AO
+arrow 8 15 blast 0
+112 113 6465 P
+G none
+G none
+G none
+G none
+#97919
+angelo sceptre~
+the {WSceptre{z of the {DDark God{z~
+The sceptre of the dark god has been left here.~
+unknown~
+~
+container ABGUY AO
+1000 F 0 100 100 0
+114 0 7238893 P
+A
+8 100
+A
+18 200
+A
+19 200
+G none
+G none
+G none
+G none
+#97920
+darkblade sharp black metallic weapon~
+a {Ddarkblade{z~
+A peculiarly sharp, black metallic weapon is here.~
+adamantite~
+~
+weapon CGHNPUZa AN
+shortsword 1 2 pierce D
+1 0 20104 P
+F
+A 18 10 N
+F
+A 19 10 O
+E
+blade dark sharp black metallic~
+This blade is strange, for it bears no handle; instead, it has two
+clasps, and runs the length of the forearm to a good 2 feet past the hand. 
+You wear it on your arm, and direct the blade where to go.  On the blade
+itself, there is an inscription: 
+ 
+"A gift of the God of Darkness"
+~
+G none
+G none
+G none
+G none
+#97921
+chest ornate small golden~
+a {Ygolden{z chest~
+A small, ornately-constructed {Ygolden{z chest lies on the floor.~
+gold~
+~
+container AGI AO
+1000000 AC 0 100 100 0
+16 0 9889272 P
+G none
+G none
+G none
+G none
+#97922
+darkblade sharp black metallic weapon axe~
+a {Dshadowaxe{z~
+A peculiarly sharp, black metallic weapon is here.~
+adamantite~
+~
+weapon CGHNPUZa AN
+axe 1 2 cleave D
+1 0 43139 P
+F
+A 18 10 N
+F
+A 19 10 O
+E
+blade dark sharp black metallic~
+This axe is strange, for it bears no handle; instead, it has two
+clasps, and runs the length of the forearm to a good 2 feet past the hand.
+You wear it on your arm, and direct the blade where to go.  On the blade
+itself, there is an inscription:
+
+"A gift of the God of Darkness"
+~
+G none
+G none
+G none
+G none
+#97923
+ebony box~
+an ebony box~
+A small, dark box of the finest ebony sits here.~
+ebony~
+~
+container 0 AO
+10000 0 0 10000 0 0
+0 100 184671 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#97900
+Angelo's Courtyard~
+You are in the courtyard of what seems to be a massive oriental mansion. 
+There are many plants growing in a garden around its edge; all are exotic
+and beautiful.  The enclosure is otherwise sparse; save for the table, the
+fountain, and the pool at the southern edge, there's nothing in the here
+that immediately grabs your attention.  Strangely, the sky seems darker
+here, and curiously enough, you don't see any doors leading out.  
+~
+0 ACDJNPTXZb city
+S
+#97901
+Further in the air~
+You are flying approximately 150 meters above the market square of midgaard.
+The people below you are hardly identifiable any longer, and the wind seems a
+bit more violent up here. There's what seems to be a glowing dot high in the air
+above you. You wonder what it is.
+~
+0 0 air
+D3
+~
+~
+Z 0 1038
+0 0
+D4
+~
+~
+Z 0 97902
+0 0
+S
+#97902
+In the sky~
+You are approximately 200 meters above the market square. You can see miles in
+every direction... Midgaard stretches south, the dark forest stretches west, 
+and the edge of New Thalos is visible on the eastern horizon. The glowing object
+above you is closer now, and seems to resemble a floating road-sign...
+~
+0 0 air
+D4
+~
+~
+Z 0 97903
+0 0
+D5
+~
+~
+Z 0 97901
+0 0
+S
+#97903
+At a beacon over Midgaard~
+You've reached the floating beacon, and now realize it's purpose. It seems to
+be some sort of marker, with arrows pointing in various directions, along with
+city names and distances. You're atleast 300 meters above the market square now,
+and the landscape below you is a bit blurry in the misty air around you.
+~
+0 0 air
+E
+sign road~
+North
+-----
+Camelot
+Drako Village
+Elvenhame
+Caerlon
+Olympus
+Old Troya
+ 
+East
+----
+New Thalos
+Freeport
+ 
+South
+-----
+The City of Anon
+ 
+West
+----
+Fayten
+Valley of the Giants
+~
+D0
+~
+~
+Z 0 97948
+0 0
+D1
+~
+~
+Z 0 97904
+0 0
+D2
+~
+~
+Z 0 97977
+0 0
+D3
+~
+~
+Z 0 97927
+0 0
+D4
+~
+~
+Z 0 10130
+0 0
+D5
+~
+~
+Z 0 97902
+0 0
+S
+#97904
+In the sky~
+You are flying high over the eastern side of Midgaard. You can see what looks
+like the weapon shop and the fighters guild below, but you aren't sure from this
+distance. To the west, there's a glowing beacon, signaling that location's
+geographical importance. Looking to the far, far east, you can barely make out
+a similar glow.
+~
+0 0 air
+D1
+~
+~
+Z 0 97905
+0 0
+D3
+~
+~
+Z 0 97903
+0 0
+S
+#97905
+In the sky~
+You are now flying over the eastern gate of Midgaard. To the east and down, 
+you can see the crossroads. To the west, over the city, you can see a glowing
+beacon. To the far, far east, on the horizon, you can make out another. The
+breeze here is nice... You think you might enjoy flying more often.
+~
+0 0 air
+D1
+~
+~
+Z 0 97906
+0 0
+D3
+~
+~
+Z 0 97904
+0 0
+S
+#97906
+In the sky~
+You are flying high above the crossroads east of Midgaard. There's a faint 
+scent of flowers in the air, but you can't put your finger on where it's coming
+from. To the west, over Midgaard, there's a glowing beacon. To the far east,
+off in the far, far distance, you think you see another.
+~
+0 0 air
+D1
+~
+~
+Z 0 97907
+0 0
+D3
+~
+~
+Z 0 97905
+0 0
+S
+#97907
+In the sky~
+You are flying high over the path east of Midgaard. To the west and below, you
+see the familiar crossroads. To the east, the path stretches on, towards the
+sands of sorrow. More nearby, you see small trails off the road, leading to
+more densely wooded areas. You wonder if you've been down those before...
+~
+0 0 air
+D1
+~
+~
+Z 0 97908
+0 0
+D3
+~
+~
+Z 0 97906
+0 0
+S
+#97908
+In the sky~
+You are flying far above the path from Midgaard to New Thalos. Below you, you
+see the trails that splinter off into the wild around. To the west, you see
+Midgaard in all it's glory, and a beacon hovers high above it. To the east,
+you can see the sands of sorrow, and in the far, far east, you can see the
+gates of New Thalos.
+~
+0 0 air
+D1
+~
+~
+Z 0 97909
+0 0
+D3
+~
+~
+Z 0 97907
+0 0
+S
+#97909
+In the sky~
+You are soaring quite a distance above the road from Midgaard to New Thalos.
+Below you, and slightly to the east, you can see the checkpoint set up before
+the sands of sorrow. Much farther, you can see the western gates of New Thalos.
+High above the city, on the horizon, you can see the glowing beacon road sign
+hovering in the breeze.
+~
+0 0 air
+D1
+~
+~
+Z 0 97910
+0 0
+D3
+~
+~
+Z 0 97908
+0 0
+S
+#97910
+In the sky~
+You are flying in the sky above the eastern road. The sands of sorrow lurk to
+the east, and New Thalos is visible in the far east. To the west, Midgaard is 
+still visible. Road sign beacons hover above both, glowing earily.
+~
+0 0 air
+D1
+~
+~
+Z 0 97911
+0 0
+D3
+~
+~
+Z 0 97909
+0 0
+S
+#97911
+In the sky~
+You are hovering above the eastern road, nearing the sands of sorrow. New
+Thalos is plainly visible to the east, and it's glowing beacon hovers gently
+over the center. The sands of sorrow stretch all around it. To the west
+Midgaard seems awfully small, from this point of view. A beacon also floats
+there.
+~
+0 0 air
+D1
+~
+~
+Z 0 97912
+0 0
+D3
+~
+~
+Z 0 97910
+0 0
+S
+#97912
+In the sky~
+You are hovering far above the western gates of New Thalos. Midgaard is no 
+longer visible to the west, save for it's glowing beacon far above it. To the
+east, above the center of the city, a similar glowing beacon hovers. You can
+almost make out the ocean to the far, far east.
+~
+0 0 air
+D1
+~
+~
+Z 0 97913
+0 0
+D3
+~
+~
+Z 0 97911
+0 0
+S
+#97913
+In the sky~
+You are hovering over the west side of New Thalos. To the very near east, you
+can plainly see the beacon hovering over the center of the city square. A lot
+of the shops in New Thalos are in clear view; seems like just another busy day
+among the bustling metropolis. The sands of sorrow stretch all around the
+massive city.
+~
+0 0 air
+D1
+~
+~
+Z 0 97914
+0 0
+D3
+~
+~
+Z 0 97912
+0 0
+S
+#97914
+At a beacon over New Thalos~
+You are now hovering over the central square of New Thalos. The town's 
+denizens are all hustling and bustling about, going about their daily business.
+The glowing beacon hovers next to you, with a few directional arrows and city
+names on it.
+~
+0 0 air
+E
+sign road~
+Below
+-----
+New Thalos
+ 
+East
+----
+Freeport
+
+West
+----
+Midgaard, Main Direction Beacon
+~
+D1
+~
+~
+Z 0 97915
+0 0
+D3
+~
+~
+Z 0 97913
+0 0
+D5
+~
+~
+Z 0 9506
+0 0
+S
+#97915
+In the sky~
+You are hovering over the east side of New Thalos. To the very near west, you
+can plainly see the beacon hovering over the center of the city. A lot of the
+shops in New Thalos are in plain view; seems like just another busy day
+among the bustling metropolis. The sands of sorrow stretch all around the
+massive city.
+~
+0 0 air
+D1
+~
+~
+Z 0 97916
+0 0
+D3
+~
+~
+Z 0 97914
+0 0
+S
+#97916
+In the sky~
+You are hovering far above the eastern gates of New Thalos. Freeport is not
+quite visible to the east, save for it's glowing beacon far above it. To the
+west, above the center of the city, a similar glowing beacon hovers. You can
+clearly make out the ocean to the east from here.
+~
+0 0 air
+D1
+~
+~
+Z 0 97917
+0 0
+D3
+~
+~
+Z 0 97915
+0 0
+S
+#97917
+In the sky~
+You are flying east of the eastern gates of New Thalos. The navigation beacon
+of New Thalos is visible to the west, pinpointing the center of the city, and
+off to the far, far east, beyond the ocean, you can see the beacon pinpointing
+Freeport. The road leading to the docks is below.
+~
+0 0 air
+D1
+~
+~
+Z 0 97918
+0 0
+D3
+~
+~
+Z 0 97916
+0 0
+S
+#97918
+In the sky~
+You are flying far above the road east of New Thalos. The docks are visible 
+below you to the east, and New Thalos is still very clearly visible to the west.
+Off in the far, far distance, you can see the beacon floating above Freeport to
+the east. In between, the ocean expands before you.
+~
+0 0 air
+D1
+~
+~
+Z 0 97919
+0 0
+D3
+~
+~
+Z 0 97917
+0 0
+S
+#97919
+In the sky~
+You are flying high above the road east of New Thalos. The docks are closer
+than the city gates, now, and the Dragon Sea is clearly visible beyond the 
+docks. Beyond that, on the far, far horizon, you think you can make out visible
+land, where Freeport must be. A navigation beacon floats high in the air in
+that direction.
+~
+0 0 air
+D1
+~
+~
+Z 0 97920
+0 0
+D3
+~
+~
+Z 0 97918
+0 0
+S
+#97920
+In the sky~
+You're floating high above the docks of the Dragon Sea, east of New Thalos.
+The city is still visible to the west, and it's beacon is still crystal clear.
+To the east, beyond the sea, you can clearly make out land. The beacon signaling
+Freeport glows above that land.
+~
+0 0 air
+D1
+~
+~
+Z 0 97921
+0 0
+D3
+~
+~
+Z 0 97919
+0 0
+S
+#97921
+In the sky~
+You are hovering far above the Dragon Sea, east of New Thalos. The city is a
+blur to the west, but it's beacon is still very clear. To the east, the sea
+expands in all directions, and the land mass that Freeport is located on is
+coming into view. It's beacon glows softly, high in the eastern sky.
+~
+0 0 air
+D1
+~
+~
+Z 0 97922
+0 0
+D3
+~
+~
+Z 0 97920
+0 0
+S
+#97922
+In the sky~
+You are flying far above the Dragon Sea. To the west, you can see the docks
+east of New Thalos, and it's beacon glows softly on the horizon. To the east,
+land can clearly be seen, and the city of Freeport is coming into view. The
+beacon pinpointing it's location is clearly visible.
+~
+0 0 air
+D1
+~
+~
+Z 0 97923
+0 0
+D3
+~
+~
+Z 0 97921
+0 0
+S
+#97923
+In the sky~
+You're flying far above the Dragon Sea. To the far west, the docks of New
+Thalos are visible, and in the distant west, it's beacon can still be seen. To 
+the east, the island that Freeport calls home is clearly visible, and it's
+beacon glows softly in the sky.
+~
+0 0 air
+D1
+~
+~
+Z 0 97924
+0 0
+D3
+~
+~
+Z 0 97922
+0 0
+S
+#97924
+In the sky~
+You are flying slightly to the west of the shores of the island that Freeport
+is located on. To the very near east, you can see the beacon for the island, 
+and what looks like slightly south of that, there's the beacon specifically 
+for the city. The coastline is breathtaking.
+~
+0 0 air
+D1
+~
+~
+Z 0 97925
+0 0
+D3
+~
+~
+Z 0 97923
+0 0
+S
+#97925
+At a beacon~
+You are floating next to the main beacon of the island, north of the city of
+Freeport. The scenery here is beautiful; the tropical plants blow in the breeze
+and exotic birds fly merrily around you, sharing the airspace without a care
+in the world. The beacon for Freeport is south of here.
+~
+0 0 air
+E
+sign road~
+South
+-----
+Freeport
+ 
+West
+----
+New Thalos
+Midgaard, Main Directional Beacon
+~
+D2
+~
+~
+Z 0 97926
+0 0
+D3
+~
+~
+Z 0 97924
+0 0
+S
+#97926
+At a beacon over Freeport~
+You are floating merrily above the beacon over the warf of Freeport. The
+beautiful city stretches before you to the east, and the Dragon Sea stretches
+to the west. To the north, you can see the main beacon of the island. It sure
+is beautiful here.
+~
+0 0 air
+E
+sign road~
+Down
+----
+Freeport
+ 
+North
+-----
+Nearest Beacon
+~
+D0
+~
+~
+Z 0 97925
+0 0
+D5
+~
+~
+Z 0 29224
+0 0
+S
+#97927
+In the sky~
+You are hovering over the western side of Midgaard. Below you, you can see
+main street, and all the shops off of it. The city is beautiful from here, and
+the architecture is breathtaking. To the west, beyond the gate, you can see
+the forest, above which floats a beacon.
+~
+0 0 air
+D1
+~
+~
+Z 0 97903
+0 0
+D3
+~
+~
+Z 0 97928
+0 0
+S
+#97928
+In the sky~
+You are floating far above the western gate of Midgaard. Below you, the wall
+of the western side of the city stretches to the north, and much farther to
+the south. To the east, the center of the city can be seen, as well as the
+central navigational beacon. To the west, the forest begins, and a beacon is
+visible above it.
+~
+0 0 air
+D1
+~
+~
+Z 0 97927
+0 0
+D3
+~
+~
+Z 0 97929
+0 0
+S
+#97929
+At a beacon~
+You are floating above the forest west of Midgaard. To the east, you can still
+see the city. Below you, the forest canopy extends in all directions vaguely
+west. To the south, you can see another beacon, clearly where this one is
+pointing. Your instincts tell you that it must be Greater Gerighelm.
+~
+0 0 air
+E
+road sign~
+East
+----
+Midgaard, Main Navigational Beacon
+ 
+South
+-----
+Greater Gerighelm
+ 
+West
+----
+Valley of the Titans
+~
+D1
+~
+~
+Z 0 97928
+0 0
+D2
+~
+~
+Z 0 97945
+0 0
+D3
+~
+~
+Z 0 97930
+0 0
+S
+#97930
+In the sky~
+You are floating above the forest west of Midgaard. Below you, deep into the
+forest, the wildlife natural to this area can be heard with a clarity that
+seems unreal. To the east, a beacon glows, and to the far, far west, another
+can barely be seen.
+~
+0 0 air
+D1
+~
+~
+Z 0 97929
+0 0
+D3
+~
+~
+Z 0 97931
+0 0
+S
+#97931
+In the sky~
+You are flying above the western forest. The canopy of the vast expansion of
+trees is nearly inpenetrable to your gaze. The scent of flowers is in the air,
+and you can see a beautiful apple tree in blossom below. To the far west, you
+see another beacon, and to the east, much closer, there is another.
+~
+0 0 air
+D1
+~
+~
+Z 0 97930
+0 0
+D3
+~
+~
+Z 0 97932
+0 0
+S
+#97932
+In the sky~
+You are flying high above the expansion of forest west of Midgaard. This
+particular area seems to be populated by evergreens, giving the air above a
+very fresh scent. To the east, towards Midgaard, you can see a beacon, and to
+the west, towards the Valley of the Titans, you can see another.
+~
+0 0 air
+D1
+~
+~
+Z 0 97931
+0 0
+D3
+~
+~
+Z 0 97933
+0 0
+S
+#97933
+In the sky~
+You are floating far above the forest west of Midgaard and east of the Valley
+of the Titans. There's a fresh scent of nature in the air, and the breeze here
+is refreshing. To the far east you see a beacon, and there's another to the
+west.
+~
+0 0 air
+D1
+~
+~
+Z 0 97932
+0 0
+D3
+~
+~
+Z 0 97934
+0 0
+S
+#97934
+In the sky~
+Floating high above the massive forest, you can see how truly amazing this
+display of natural life is. There's so much life here, so densely compact, that
+it makes the city seem much less cramped than your previous conception. To the
+east, far off, you can see a beacon, and to the west, you can see another.
+~
+0 0 air
+D1
+~
+~
+Z 0 97933
+0 0
+D3
+~
+~
+Z 0 97935
+0 0
+S
+#97935
+In the sky~
+You are flying far above the wilds west of Midgaard.  The forest seems to
+thin here, and to the north, you think you can make out Mount Doom.  There's
+a waterfall to the west, and you can see the river trail through the forest
+below you.  To the east and west, there are navigation beacons.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97934
+0 0
+D3
+~
+~
+Z 0 97936
+0 0
+S
+#97936
+In the sky~
+You are floating far above the wilds west of Midgaard and east of the Valley
+of the Titans. The forest seems to be thinning here, giving way to the more
+rocky and rough terrain to the west. There's a river flowing below you, and
+you can see a few bridges crossing it.
+~
+0 0 air
+D1
+~
+~
+Z 0 97935
+0 0
+D3
+~
+~
+Z 0 97937
+0 0
+S
+#97937
+In the sky~
+You are floating above the rocky terrain northeast of the Valley of the 
+Titans. A river runs east, flowing down and around the rough hills of the
+landscape. To the far, far east, you can see a beacon, and to the more
+immediate west, you can see another.
+~
+0 0 air
+D1
+~
+~
+Z 0 97936
+0 0
+D3
+~
+~
+Z 0 97938
+0 0
+S
+#97938
+In the sky~
+You are flying far above the hills east of the Valley of the Giants. To the
+far, far east, you can see a beacon, and to the much closer west, you can see
+another. There's an atmosphere of peace in the air here... you aren't quite
+sure why.
+~
+0 0 air
+D1
+~
+~
+Z 0 97937
+0 0
+D3
+~
+~
+Z 0 97939
+0 0
+S
+#97939
+At a beacon~
+You are floating above the path north of the Valley of the Giants. To the
+south, you can see another beacon over the city, and to the far, far east,
+towards Midgaard, you can see another. The landscape here is beautiful... the
+sparse trees give color to the rocky landscape, and the river's blue water
+shimmers with a beauty quite unlike you've ever seen. Things deffinately look
+different from this angle.
+~
+0 0 air
+E
+road sign~
+East
+----
+Greater Gerighelm
+Midgaard, Main Navigational Beacon
+ 
+South
+-----
+Valley of the Titans
+~
+D1
+~
+~
+Z 0 97938
+0 0
+D2
+~
+~
+Z 0 97940
+0 0
+D3
+~
+~
+Z 0 97983
+0 0
+S
+#97940
+In the sky~
+You are floating above the path north of the Valley of the Titans.  To
+the far south, down the path, you can see the city.  To the immediate north,
+you can see a beacon.  The landscape here is beautiful, and the air has the
+sweet scent of a water source.  
+~
+0 0 air
+D0
+~
+~
+Z 0 97939
+0 0
+D2
+~
+~
+Z 0 97941
+0 0
+S
+#97941
+In the sky~
+You are hovering above the northern end of the Valley of the Giants. To the
+north, you can see the path leading up to the city, and to the south, the
+massive buildings extend before you. To the far north, you can see a beacon,
+and to the south, you can see the beacon signaling the center of the city.
+~
+0 0 air
+D0
+~
+~
+Z 0 97940
+0 0
+D2
+~
+~
+Z 0 97942
+0 0
+S
+#97942
+In the sky~
+You are hovering above the northern end of the Valley of the Titans. The
+citizens of the city are going about their business as normal, though your
+depth perception plays tricks on you; you realize you're actually much higher
+up than you thought you were. The large citizens and large buildings threw you
+off for a moment.
+~
+0 0 air
+D0
+~
+~
+Z 0 97941
+0 0
+D2
+~
+~
+Z 0 97943
+0 0
+S
+#97943
+In the sky~
+You are flying far above the Valley of the Titans. To the south, you can see
+the central square, along with the beacon hovering over it. To the far, far
+north, beyond the gates, you can see another beacon. The city is quite a sight
+to behold from this angle... everything seems so much larger.
+~
+0 0 air
+D0
+~
+~
+Z 0 97942
+0 0
+D2
+~
+~
+Z 0 97944
+0 0
+S
+#97944
+At a beacon over the Valley of the Titans~
+You are floating next to the beacon of the Valley of the Giants, above the
+central square of the city. All around you, the buildings extend, most notably
+the palace to the east. To the far, far north, there's another beacon, leading
+towards the central navigation beacon of Midgaard.
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Valley of the Titans
+ 
+North
+-----
+Nearest Beacon
+~
+D0
+~
+~
+Z 0 97943
+0 0
+D5
+~
+~
+Z 0 18049
+0 0
+S
+#97945
+In the sky~
+You are floating far above the dirt path through the forest leading to Greater
+Gerighelm. The smell of the wild land is refreshing, compared to the stench 
+of the Midgaard dump that always seems to be wafting through the entire city.
+There's a beacon to the north, and another farther to the south.
+~
+0 0 inside
+D0
+~
+~
+Z 0 97929
+0 0
+D2
+~
+~
+Z 0 97946
+0 0
+S
+#97946
+In the sky~
+You are floating far above the dirt path through the forest leading to Greater
+Gerighelm. The smell of the wild land is refreshing, compared to the stench
+of the Midgaard dump that always seems to be wafting through the entire city.
+There's a beacon to the far north, and another to the near south.
+~
+0 0 inside
+D0
+~
+~
+Z 0 97945
+0 0
+D2
+~
+~
+Z 0 97947
+0 0
+S
+#97947
+A Dead End~
+The Sky Highway comes to an abrupt end here.  In days past this was the
+road to Greater Gerighelm, but that road along with the entire city just
+vanished one day.  Perhaps in the future a new land will take shape at the
+end of this mysterious road.  
+~
+0 0 inside
+E
+road sign~
+Below
+-----
+Greater Gerighelm
+ 
+North
+-----
+Nearest Beacon
+~
+D0
+~
+~
+Z 0 97946
+0 0
+S
+#97948
+In the sky~
+You are hovering far, far above the temple of Midgaard. The architecture of
+the ornate granite building is truly amazing from this angle. There are birds
+nesting in every nook and cranny, as though the building was designed for that
+purpose, among others. To the south, you can see the gleaming beacon of
+Midgaard, the central navigational sign of many. To the north, beyond the city,
+you can see a few more.
+~
+0 0 air
+D0
+~
+~
+Z 0 97949
+0 0
+D2
+~
+~
+Z 0 97903
+0 0
+S
+#97949
+In the sky~
+You are flying far above the north side of Midgaard. On the ground, to the
+north of the city, you can see gallow hill, and the other notable landmarks of
+the plains. Southward, you can still see the splendor of Midgaard sprawling
+before you, and the beauty of the city and the broad landscape surrounding it
+takes your breath away. (Of course, maybe it's just the thinner air up here!)
+~
+0 0 air
+D0
+~
+~
+Z 0 97950
+0 0
+D2
+~
+~
+Z 0 97948
+0 0
+S
+#97950
+In the sky~
+You are soaring high above the northern gate of Midgaard. There's a great
+deal of beauty to be scene from this angle; the sky seems much more brilliantly
+lit than usual, and the land below seems to sparkle majesticly in a way you
+wouldn't have imagined. Midgaard sprawls to the south, it's beautiful alabaster
+buildings standing strong and tall. High above the center of town, you see the
+central beacon, and to the north, you see another, shortly followed by more.
+~
+0 0 air
+D0
+~
+~
+Z 0 97951
+0 0
+D2
+~
+~
+Z 0 97949
+0 0
+S
+#97951
+At a beacon~
+You are flying far above the hills north of Midgaard. Below you, gallow hill
+stands, bearing the remains of Dim and Gamma for the crimes they committed.
+There's a beacon here, and you can see more of them to the north. Perhaps you
+should explore their routes as well.
+~
+0 0 air
+E
+road sign~
+West
+----
+Elvenhame
+ 
+North
+-----
+Camelot
+Drako Village
+Caerlon
+Olympus
+Old Troya
+ 
+South
+-----
+Midgaard, Main Navigation Beacon
+~
+D0
+~
+~
+Z 0 97952
+0 0
+D2
+~
+~
+Z 0 97950
+0 0
+D3
+~
+~
+Z 0 97961
+0 0
+S
+#97952
+In the sky~
+You are flying north of the city of Midgaard, above the foothills. There's
+the scent of flowers in the air; probably the herbal work of the druid of the
+foothills. To the north, you can see more beacons as the foothills turn to
+mountains. To the south, you can see another beacon, and farther south, above
+the city of Midgaard, you can see the central navigational beacon, shining the
+brightest of all.
+~
+0 0 air
+D0
+~
+~
+Z 0 97953
+0 0
+D2
+~
+~
+Z 0 97951
+0 0
+S
+#97953
+At a beacon~
+You are floating before a beacon, above the plains north of Midgaard. Below
+you, the foothills are becoming larger and more defined as you stray farther
+from the city. To the east, you see another beacon, presumably above Camelot.
+To the north, the foothills turn to maintains, and you see a series of more 
+beacons. To the south, you can still see the main navigational beacon of
+Midgaard, beyond the lesser beacons a bit south of here.
+~
+0 0 air
+E
+road sign~
+East
+----
+Camelot
+
+North
+-----
+Drako Village
+Caerlon
+Olympus
+Old Troya
+
+South
+-----
+Elvenhame
+Midgaard, Main Navigation Beacon
+~
+D0
+~
+~
+Z 0 97954
+0 0
+D1
+~
+~
+Z 0 97969
+0 0
+D2
+~
+~
+Z 0 97952
+0 0
+S
+#97954
+At a beacon over Olympus~
+You are flying far above the mountains north of Midgaard. Below you, you can
+see the beginning of the main road of Olympus. To the north and south, you can
+see many beacons. The mountains here are beautiful, but the air is cooler
+than you're used to up here.
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Olympus
+
+North
+-----
+Drako Village
+Caerlon
+Old Troya
+
+South
+-----
+Camelot
+Elvenhame
+Midgaard, Main Navigation Beacon
+~
+D0
+~
+~
+Z 0 97955
+0 0
+D2
+~
+~
+Z 0 97953
+0 0
+D5
+~
+~
+Z 0 904
+0 0
+S
+#97955
+At a beacon~
+You are floating above the central road of Olympus. To the east, you can see
+a beacon nestled in the mountain tops, and to the south, you can see a few
+more. To the north, in the distance, there's one final beacon. The ocean to
+the north is now visible as well.
+~
+0 0 air
+E
+road sign~
+East
+----
+Caerlon
+
+North
+-----
+Drako Village
+Old Troya
+
+South
+-----
+Camelot
+Elvenhame
+Olympus
+Midgaard, Main Navigation Beacon
+~
+D0
+~
+~
+Z 0 97956
+0 0
+D1
+~
+~
+Z 0 97963
+0 0
+D2
+~
+~
+Z 0 97954
+0 0
+S
+#97956
+At a beacon~
+You are floating down the central road of Olympus. Tall mountain peaks
+surround you. To the east, nestled in a valley, there's another beacon, and
+there's one here, as well. To the north, beyond the sea, you can see another,
+and you can see many more to the south. The air is cool and crisp, but
+enjoyable.
+~
+0 0 air
+E
+road sign~
+East
+----
+Drako Village
+
+North
+-----
+Old Troya
+
+South
+-----
+Camelot
+Elvenhame
+Olympus
+Caerlon
+Midgaard, Main Navigation Beacon
+~
+D0
+~
+~
+Z 0 97957
+0 0
+D1
+~
+~
+Z 0 97973
+0 0
+D2
+~
+~
+Z 0 97955
+0 0
+S
+#97957
+In the sky~
+You are floating far above the northern end of the central road of Olympus.
+To the north, the towering castle of the gods can be seen, etched into the
+mountain face. Beyond that, there is the sea, and beyond that, there's another
+beacon in the horizon. To the south, you see many more, all the way to Midgaard.
+~
+0 0 air
+D0
+~
+~
+Z 0 97958
+0 0
+D2
+~
+~
+Z 0 97956
+0 0
+S
+#97958
+In the sky~
+You're floating far above the castle of the gods of Olympus. To the south,
+the city stretches before you, and beyond that, in the plains below, the city
+of Midgaard can be seen in the far distance. There are many beacons along the
+way there.
+~
+0 0 air
+D0
+~
+~
+Z 0 97959
+0 0
+D2
+~
+~
+Z 0 97957
+0 0
+S
+#97959
+In the sky~
+You're floating far above the northern face of the mountain that houses the
+palace of the gods of Olympus. Below you, the landscape drops sharply into the
+sea, and to the north, near the shore in the distance, a beacon is visible. To
+the south, many more beacons are visible beyond the mountains.
+~
+0 0 air
+D0
+~
+~
+Z 0 97960
+0 0
+D2
+~
+~
+Z 0 97958
+0 0
+S
+#97960
+At a beacon~
+You are floating above the sea north of Olympus. To the north, the shore is
+clearly visible below you, and to the east, there's a beacon above the most
+common entry point to the land from the sea. The air is cool here, but it's
+a nice change from the mild temperatures of the south.
+~
+0 0 air
+E
+road sign~
+East
+----
+Old Troya
+
+South
+-----
+Camelot
+Drako Village
+Elvenhame
+Caerlon
+Olympus
+Midgaard, Main Navigation Beacon
+~
+D1
+~
+~
+Z 0 97966
+0 0
+D2
+~
+~
+Z 0 97959
+0 0
+S
+#97961
+In the sky~
+You are flying over the western end of the hills north of Midgaard. To the
+west, you can see a forest below, and there's a beacon hovering above it. The
+fragrence of the forest is delightful.
+~
+0 0 air
+D1
+~
+~
+Z 0 97951
+0 0
+D3
+~
+~
+Z 0 97962
+0 0
+S
+#97962
+At a beacon over Elvenhame~
+You are floating over the forest northwest of Midgaard. Below, you can see the
+eastern gates of Elvenhame, the city of the elves. The forest is thick, though,
+and most of the view of the rest of the city is obscured by the canopy of
+trees. To the east, over the hills north of Midgaard, you can see another
+beacon.
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Elvenhame
+ 
+East
+----
+Nearest Beacon
+~
+D1
+~
+~
+Z 0 97961
+0 0
+S
+#97963
+In the sky~
+You are floating above the foothills north-east of Midgaard.  To the
+immediate west, you can see a beacon floating in the air, and to the more
+distant east, you can see the beacon floating over the southern gate of
+Caerlon.  The air is cool and crisp, but pleasant.  The movement of the air
+is refreshing.  You start to think you should get out of the temple more
+often.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97964
+0 0
+D3
+~
+~
+Z 0 97955
+0 0
+S
+#97964
+In the sky~
+You are hovering above the foothills north-east of the plains north of
+Midgaard. To your immediate east, you see the beacon pinpointing the location
+of Caerlon. To the more distant west, you see another beacon. The scenery here is
+amazing.
+~
+0 0 air
+D1
+~
+~
+Z 0 97965
+0 0
+D3
+~
+~
+Z 0 97963
+0 0
+S
+#97965
+At a beacon over Caerlon~
+You are floating just above the center square in Caerlon, the neutral
+city.  Few people take notice of you, though you spot the guards eyeing you
+suspiciously.  At least the scenery is pleasant, and the air is
+refreshing...  Another beacon is visible to the west.  
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Caerlon
+ 
+West
+----
+Nearest Beacon
+~
+D3
+~
+~
+Z 0 97964
+0 0
+D5
+~
+~
+Z 0 10600
+0 0
+S
+#97966
+In the sky~
+You are floating above the sea north of Olympus. To the north, the shore is
+plainly visible, in all it's beautiful spleandor. You can make out the cities
+on the continent, and there's a beacon to the east marking the most common
+entry point to the land. To the west, there's another beacon.
+~
+0 0 air
+D1
+~
+~
+Z 0 97967
+0 0
+D3
+~
+~
+Z 0 97960
+0 0
+S
+#97967
+In the sky~
+You are floating above the sea south of Old Troya. The eternal battle over
+Helen rages to the north, and to the east, you see the beacon marking the
+most common entrance to the land. To the west, you see another beacon. It's
+deffinately cooler here than to the south, but it's a refreshing change.
+~
+0 0 air
+D1
+~
+~
+Z 0 97968
+0 0
+D3
+~
+~
+Z 0 97966
+0 0
+S
+#97968
+At a beacon over Old Troya~
+You are floating above the shoals south of the battlefield of Old Troya. There
+is a battle raging eternal there, and the field is constantly soaked with new
+blood. To the west, you see another beacon. Here, the beacon for Old Troya
+floats faithfully.
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Old Troya
+ 
+West
+----
+Nearest Beacon
+~
+D3
+~
+~
+Z 0 97967
+0 0
+D5
+~
+~
+Z 0 29533
+0 0
+S
+#97969
+In the sky~
+You are flying high above the plains north-east of Midgaard. Farther to the
+east, you can see the beacon hovering above the mythical Camelot. Below you,
+the plains brim with life; there are rabbits and deer scampering about, and
+you think you can even make out the druid who lives in the plains. The air is
+cool.
+~
+0 0 air
+D1
+~
+~
+Z 0 97970
+0 0
+D3
+~
+~
+Z 0 97953
+0 0
+S
+#97970
+In the sky~
+You are soaring far above the plains north-east of Migaard. Below you, the
+edge of the forest is visible to the east, and there's a lot of beautiful
+scenery surrounding you. The beacon of Camelot floats to the east of here,
+and you can see another to the west.
+~
+0 0 air
+D1
+~
+~
+Z 0 97971
+0 0
+D3
+~
+~
+Z 0 97969
+0 0
+S
+#97971
+In the sky~
+You are flying above the edge of the forest east-north-east of Midgaard.
+Below you, the plains and the forest are home to many critters and creatures,
+even visible from this height. To the east, you can see the beacon above the
+beginning of the path to Camelot, and to the far west, you can see another.
+~
+0 0 air
+D1
+~
+~
+Z 0 97972
+0 0
+D3
+~
+~
+Z 0 97970
+0 0
+S
+#97972
+At a beacon over Camelot~
+You are gently hovering next to the beacon above the path to Camelot. Below
+you, you think you can make out that pesky knight that attacks you every time
+you try to enter. To the far west, you see another beacon, and the edges of
+the city of Midgaard are still visible.
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Camelot
+ 
+West
+----
+Nearest Beacon
+~
+D3
+~
+~
+Z 0 97971
+0 0
+D5
+~
+~
+Z 0 17302
+0 0
+S
+#97973
+In the sky~
+You are flying in a valley between mountains, north of Migaard and a bit
+east of Olympus.  There's a nice, cool chill in the air, reminding you that
+you're alive.  To the east, tucked in another valley, there's another
+beacon, presumably signaling the Draco Village.  To the west, there's
+another.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97974
+0 0
+D3
+~
+~
+Z 0 97956
+0 0
+S
+#97974
+In the sky~
+You are flying between the peaks of mountains. To the west, a beacon can be
+seen, and to the east, the beacon of the Draco Village can be seen. Below you,
+the jagged landscape juts erraticly, a casualty of the shifting landplates,
+but beautiful none the less.
+~
+0 0 air
+D1
+~
+~
+Z 0 97975
+0 0
+D3
+~
+~
+Z 0 97973
+0 0
+S
+#97975
+In the sky~
+You are floating far above the mountains north of Midgaard. To your east, you
+can make out the Draco Village tucked into a small valley. To the west, you
+can see a beacon somewhere above what must be Olympus. Below you, the mountains
+seem to be relaxing far more than you've ever had the chance to. And above...
+is that a floating city!? Nahhhh.
+~
+0 0 air
+D1
+~
+~
+Z 0 97976
+0 0
+D3
+~
+~
+Z 0 97974
+0 0
+S
+#97976
+At a beacon above Draco Village~
+You are floating near the beacon signaling the location of the entrance to the
+Draco Village. It's a quant little village, full of quant little people. It's
+very cute from this height. To the west, you can see another beacon in the
+distance.
+~
+0 0 air
+E
+road sign~
+Below
+-----
+Drako Village
+ 
+West
+----
+Nearest Beacon
+~
+D3
+~
+~
+Z 0 97975
+0 0
+D5
+~
+~
+Z 0 51100
+0 0
+S
+#97977
+In the sky~
+You are flying over the southern end of Midgaard. The park is visible below,
+as well as the more seedy neighborhood, and the coliseum. The main navigation
+beacon is clearly visible to the north, over market square. The city is truly
+remarkable from this angle; the architecture almost seems to have been designed 
+to be viewed from here.
+~
+0 0 air
+D0
+~
+~
+Z 0 97903
+0 0
+D2
+~
+~
+Z 0 97978
+0 0
+S
+#97978
+In the sky~
+You are hovering over the southeastern end of Midgaard. To the far northeast,
+you can see the crossroads, and to the east, you can see the ruins of Thalos.
+North and west, the entire cityscape of Midgaard stretches before you in all
+it's splendor. You spy a beacon for Anon to the south, but it looks like you'll
+have to fly around a mountain to get to it.
+~
+0 0 air
+D0
+~
+~
+Z 0 97977
+0 0
+D2
+~
+~
+Z 0 97979
+0 0
+S
+#97979
+In the sky~
+You are over the land south and east of Midgaard. A large mountain is visible
+to the relative south of here, and there's a glowing beacon beyond it. The
+dwarven forest stretches to the east, and the crossroads east of Midgaard is
+visible as well to the far northeast.
+~
+0 0 air
+D0
+~
+~
+Z 0 97978
+0 0
+D2
+~
+~
+Z 0 97980
+0 0
+S
+#97980
+At a beacon~
+You are floating at the beacon at the mountain south of Midgaard. Northward,
+you can see the beacon of Midgaard in the extreme distance, and to the west,
+around the edge of the mountain, the beacon of Anon is visible as well.
+~
+0 0 air
+E
+sign road~
+West
+----
+City of Anon
+ 
+North
+-----
+Midgaard, Main Navigation Beacon
+~
+D0
+~
+~
+Z 0 97979
+0 0
+D3
+~
+~
+Z 0 97981
+0 0
+S
+#97981
+In the sky~
+You are flying around the mountain, southeast of Midgaard, and east of Anon.
+There's a mist in the air here, where the atmosphere meets the land. Snow caps
+the peak, creating a head of white hair on a pointy head of sorts... To the
+west, you can see the beacon over Anon, and to the east lies another beacon.
+~
+0 0 air
+D1
+~
+~
+Z 0 97980
+0 0
+D3
+~
+~
+Z 0 97982
+0 0
+S
+#97982
+At a beacon above Anon~
+You are hovering above the city of Anon, near the mountain south of the ruins
+of Thalos. There's a wealth of activity below you, and while the architecture
+doesn't compare to the beauty of Midgaard's, it's still breathtaking. The
+beacon hovers gently before you, and the closest beacon is visible to the east.
+~
+0 0 air
+E
+sign road~
+Below
+-----
+Anon
+ 
+East
+----
+Nearest Beacon
+~
+D1
+~
+~
+Z 0 97981
+0 0
+D5
+~
+~
+Z 0 31000
+0 0
+S
+#97983
+In the sky~
+You are flying in the air above a forested part of the western lands. 
+There's the scent of water in the air; you think it's probably coming from
+the waterfalls of the river below.  To the immediate east, you can see a
+beacon, and to the west, far off in the distance, you catch a glimpse of
+something in the air...  
+~
+0 0 air
+D1
+~
+~
+Z 0 97939
+0 0
+D3
+~
+~
+Z 0 97984
+0 0
+S
+#97984
+In the sky~
+You're flying far, far above the lands west of Midgaard.  To the west and
+below, the great wilderness of the continent expands before you, nearly
+devoid of any civilization; to the east, you see the great towns and cities
+you've come to love.  You spot a suspicious dot on the horizon to the west;
+it's so tiny it's hard to make out, but it's so far away that you realize it
+must be massive.  What could it be?  
+~
+0 0 air
+D1
+~
+~
+Z 0 97983
+0 0
+D3
+~
+~
+Z 0 97985
+0 0
+S
+#97985
+In the sky~
+You continue your flight in the air high above the western lands.  To the
+east, far off in the distance, you can see the navigation beacons you know
+and love, and to the west, you've begun to see what you think must be a
+giant floating...  Something.  A ship perhaps?  Or an island?  You can't
+quite tell yet, but you're determined to find out.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97984
+0 0
+D3
+~
+~
+Z 0 97986
+0 0
+S
+#97986
+In the sky~
+You're flying far, far above the far western lands.  To the distant east,
+you can still make out a couple of navigational beacons; to the west, your
+only point of reference is a large floating object you aren't quite sure
+about yet.  Below you, the wilderness extends all around, inpenetrable.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97985
+0 0
+D3
+~
+~
+Z 0 97987
+0 0
+S
+#97987
+In the sky~
+You are flying far, far above the lands west of known civilization.  To
+the distant east, you can still see the hints of civilization, but for the
+most part they've vanished over the horizon.  Below you, forests, lakes,
+streams and mountains stretch before you, untouched by the hands of man.  To
+the west, your eyes begin to make better focus on the giant floating object;
+you think it may be land!  Yes, that must be it; you distinctly make out
+trees on it's top.  How peculiar!  
+~
+0 0 air
+D1
+~
+~
+Z 0 97986
+0 0
+D3
+~
+~
+Z 0 97988
+0 0
+S
+#97988
+In the sky~
+You continue your amazing flight westward, far from the eyes of any
+civilization you know.  Below you, the untouched wilderness stretches in all
+directions.  The Sylvan Clan would be proud.  To your west, and what appears
+now to be ABOVE you, is the floating island.  Back to the east you can see
+only one small dot of civilization left, a glowing beacon about to disappear
+over the horizon.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97987
+0 0
+D3
+~
+~
+Z 0 97989
+0 0
+S
+#97989
+In the sky~
+As far west as you've flown, the last remaining glowing beacon has
+disappeared over the horizon; you make a note to yourself to remember
+another landmark to head towards when you decide you want to fly back.  To
+the west and above you, you see the great floating island; it's truly a
+sight to behold.  
+~
+0 0 air
+D1
+~
+~
+Z 0 97988
+0 0
+D3
+~
+~
+Z 0 97990
+0 0
+S
+#97990
+In the sky~
+You think you've finally approached what looks like the edge of the
+floating island; far above you, you see an edge not overgrown with trees
+where you think you could land.  Back to the east you know is civilization,
+though it seems very, very far away.  
+ 
+You see a small floating object; upon closer inspection, it's a compass,
+pointing the directions out for anyone who needs them to get where they
+mean to go.
+~
+0 0 air
+D1
+~
+~
+Z 0 97989
+0 0
+D4
+~
+~
+Z 0 97991
+0 0
+S
+#97991
+In the sky, Below the Floating Island~
+You are flying slightly below the only edge of the floating island you
+think you can land on; all other edges of the land seem completely overgrown
+by thick vegitation.  Below, you see the small floating compass pointing
+which direction is which.  It would be helpful if you ever decided to fly
+back to Midgaard.  
+~
+0 0 air
+D4
+~
+~
+Z 0 97992
+0 0
+D5
+~
+~
+Z 0 97990
+0 0
+S
+#97992
+In the air, East of the Cliff~
+You're floating just about level with the only cliff not too densely
+grown oever by the wildlife to land on; now, it's just a matter of fly on
+taking a look around.  Below you, you see the compass you'll need to guide
+yourself back to civilization.  Now, the only thing remains is which way to
+go.  
+~
+0 0 air
+D3
+~
+~
+Z 0 98000
+0 0
+D5
+~
+~
+Z 0 97991
+0 0
+S
+#0
+
+#RESETS
+O 0 97903 0 97900	* the {Ccrystal-clear{z water (Angelo's Courtyard)
+O 0 97902 0 97900	* the {gjade{z table (Angelo's Courtyard)
+O 0 97904 0 97900	* the {gjade{z dragon (Angelo's Courtyard)
+O 0 97921 0 97900	* a {Ygolden{z chest (Angelo's Courtyard)
+P 0 97920 1 97921 1	* a {Ygolden{z chest: a {Ddarkblade{z
+M 0 97901 1 97902 1	* Wedge the guard (In the sky)
+E 0 97912 0 3		*	an {Dobsidian{z neckguard: around the neck (1)
+E 0 97911 0 7		*	{Dobsidian{z legplates: on the legs
+E 0 97910 0 10		*	{Dobsidian{z armguards: on the arms
+E 0 97909 0 1		*	an {Dobsidian{z ring: on the left finger
+E 0 97909 0 2		*	an {Dobsidian{z ring: on the right finger
+E 0 97906 0 15		*	an {Dobsidian{z bracelet: on the right wrist
+E 0 97906 0 14		*	an {Dobsidian{z bracelet: on the left wrist
+E 0 97905 0 5		*	an {Dobsidian{z breastplate: on the body
+E 0 97907 0 12		*	{Dan aura of darkness{z: about the shoulders
+E 0 97916 0 16		*	a sharp, balanced halberd: wielded
+E 0 97901 0 6		*	an {Dobsidian{z helm: over the head
+M 0 97900 1 97902 1	* Vicks the guard (In the sky)
+E 0 97905 0 5		*	an {Dobsidian{z breastplate: on the body
+E 0 97908 0 3		*	{Da shadow-prism{z: around the neck (1)
+E 0 97911 0 7		*	{Dobsidian{z legplates: on the legs
+E 0 97912 0 4		*	an {Dobsidian{z neckguard: around the neck (2)
+E 0 97909 0 2		*	an {Dobsidian{z ring: on the right finger
+E 0 97910 0 10		*	{Dobsidian{z armguards: on the arms
+E 0 97906 0 15		*	an {Dobsidian{z bracelet: on the right wrist
+E 0 97906 0 14		*	an {Dobsidian{z bracelet: on the left wrist
+E 0 97909 0 1		*	an {Dobsidian{z ring: on the left finger
+E 0 97916 0 16		*	a sharp, balanced halberd: wielded
+E 0 97901 0 6		*	an {Dobsidian{z helm: over the head
+O 0 97900 0 97903	* a floating beacon (At a beacon over Midgaard)
+O 0 97900 0 97914	* a floating beacon (At a beacon over New Thalos)
+O 0 97900 0 97925	* a floating beacon (At a beacon)
+O 0 97900 0 97926	* a floating beacon (At a beacon over Freeport)
+O 0 97900 0 97929	* a floating beacon (At a beacon)
+O 0 97900 0 97939	* a floating beacon (At a beacon)
+O 0 97900 0 97944	* a floating beacon (At a beacon over the Valley of the Titans)
+O 0 97900 0 97947	* a floating beacon (A Dead End)
+O 0 97900 0 97951	* a floating beacon (At a beacon)
+O 0 97900 0 97953	* a floating beacon (At a beacon)
+O 0 97900 0 97954	* a floating beacon (At a beacon over Olympus)
+O 0 97900 0 97955	* a floating beacon (At a beacon)
+O 0 97900 0 97956	* a floating beacon (At a beacon)
+O 0 97900 0 97960	* a floating beacon (At a beacon)
+O 0 97900 0 97962	* a floating beacon (At a beacon over Elvenhame)
+O 0 97900 0 97965	* a floating beacon (At a beacon over Caerlon)
+O 0 97900 0 97968	* a floating beacon (At a beacon over Old Troya)
+O 0 97900 0 97972	* a floating beacon (At a beacon over Camelot)
+O 0 97900 0 97976	* a floating beacon (At a beacon above Draco Village)
+O 0 97900 0 97980	* a floating beacon (At a beacon)
+O 0 97900 0 97982	* a floating beacon (At a beacon above Anon)
+S
+
+#MOBPROGS
+#97900
+say Hail! Welcome to the arial sky highway!
+mob echoat $n Vicks the guard pauses, and looks at his shoes for a moment...
+say Could you spare some change so me and Wedge here can go drinking?
+pout
+~
+#97901
+if rand 50
+say I'm bored.
+else
+say Where's our beer?
+endif
+end
+~
+#97902
+if carries $n 97914
+say ...But you already have one!
+else
+mob oload 97914
+say Here you go.
+give map $n
+end
+endif
+~
+#97903
+say Woohoo!
+mob echo Vicks the guard flys off to the Grunting Boar to get some beer.
+mob goto 3007
+mob echo Vicks the guard flys in.
+say BEER!
+mob echo Vicks buys a beer.
+mob echo Vicks buys a beer.
+mob oload 3001
+mob oload 3001
+mob echo Vicks the guard flys out.
+mob goto 97902
+mob echo Vicks the guard returns, holding beer.
+give beer wedge
+mob force wedge drink beer
+drink beer
+mob force wedge drop beer
+burp
+drop beer
+say Thank you, my good fellow, and may your travels treat you well!
+~
+#97904
+if level $n > 30
+cast 'magic missile' $n
+endif
+~
+#97905
+cast 'magic missile' cityguard
+~
+#97906
+say Would you like a map?
+~
+#97907
+if name $n Angelo
+
+say War!
+mob oload 97923
+quaff potion
+mob force steve look angelo
+look angelo
+follow angelo
+
+endif
+
+end
+~
+#0
+
+#$

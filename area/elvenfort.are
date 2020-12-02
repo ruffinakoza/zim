@@ -1,0 +1,3563 @@
+#AREADATA
+Name Elven Fortress~
+Builders kira~
+VNUMs 2800 2899
+Credits kira~
+Security 9
+LevelRange 40 60
+ResetMessage From all around, you hear sounds of comotion and change as a new day dawns~
+End
+
+#MOBILES
+#2800
+oldstyle guardian beast~
+the guardian beast~
+A guardian beast stares at you and snarls in rage.
+~
+Jet black fur covers this beast.  You stare at his two huge red eyes.  You can
+count at least 50 teeth on this monster.  You can't tell whether it is blood or
+saliva dripping from the beast's jaw.  The guardian beast snarls again.
+~
+human~
+ABCFG DJPQ -200 0
+7 0 2d6+85 3d9+100 1d8+1 none
+4 4 4 9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#2801
+ambulant elf~
+an ambulant elf~
+{7An ambulant elf is pacing back and forth in deep concentration.{x
+~
+This young elf is continuously tapping at his bow. His facial
+expression is twisted, and his forehead is wrinkled with thought.
+He seems to be disgruntled, and in deep concentration, for he
+is thinking of the different ways to give death to the invaders.
+~
+elf~
+AB 0 0 0
+55 55 201d55+0 275d10+85 18d3+32 none
+-27 -27 -27 -16
+IV 0 0 0
+sit stand male 50
+0 0 medium flesh~
+~
+F par ABCDEFGHIJ
+#2802
+elven officer~
+{xthe {&Elven Officer{x~
+{7The {&Elven Officer {7is making his way towards you.{x
+~
+He is tall, about 7 feet.  Long, blonde flowing hair is pulled
+back into a clasp at the back of his head. He is wearing a small
+green hat, and in his hand he carries a bow and arrow.
+~
+elf~
+AB 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+FKN F 0 0
+stand stand male 75
+0 0 medium flesh~
+~
+F par ACDEFGHIJK
+M greet 2802 100~
+M speech 2803 No~
+M speech 2805 Yes~
+M speech 2804 I come in peace~
+M give 2806 fort 2802~
+M speech 2807 I come to kill~
+#2803
+fortress warden~
+{7the fortress warden{x~
+{7Here stands the fortress warden, shouting and throwing out orders.{x
+~
+~
+elf~
+ABT H 0 0
+56 56 207d56+0 280d10+85 18d3+33 none
+-28 -28 -28 -16
+EF A 0 0
+sit stand male 42
+0 0 medium flesh~
+~
+F par BCDEFGHIJK
+#2804
+blind man~
+{7a blind man{x~
+{7A blind man is tapping his walking stick on the ground here.{x
+~
+This man's eyes are quite disturbing, for he has none at all.
+Where his eyes should be, there are gaping black holes. He lost
+both of his eyes not long ago, as an arrow came up above the
+turrets and into the city, puncturing them.
+~
+elf~
+AGT A 0 0
+54 54 195d54+0 270d10+85 18d3+32 none
+-27 -27 -27 -15
+FN 0 0 0
+rest stand male 150
+0 0 medium flesh~
+~
+#2805
+blackmailer elven elf~
+{7a {8blackmailer {@@elf{x~
+{7A {8blackmailer {@@elf{x is standing here with a mischievous grin.
+~
+This blackmailer elf is standing here with a ridiculously witty
+grin upon his face. He looks like he knows what he's doing.
+~
+elf~
+ABT a 0 0
+49 49 167d49+0 245d10+85 16d3+29 none
+-23 -23 -23 -13
+KN A 0 0
+rest stand female 200
+0 0 medium flesh~
+~
+F par ABCDEFHIJK
+#2806
+elven cityguard~
+{7an elven cityguard~
+{7An elven cityguard is working his post here.{x
+~
+An elven cityguard stands here. His body is all jacked up, but he
+is tall and bold. His hair is pulled back into a tight clasp, and
+he wears steal toe boots upon his feet.
+~
+elf~
+ABT H 0 0
+49 49 192d49+0 490d11+95 17d2+40 none
+-26 -26 -26 -16
+DIK A 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+F par BCDEFGHIJK
+#2807
+crystal dragon~
+a {Wc{wr{Dy{Ws{wt{Wa{wl {Gd{gr{Ga{gg{Go{gn{x~
+{7A {&c{7r{8y{&s{7t{&a{7l {@@d{2r{@@a{2g{@@o{2n{x roams here, looking for its master.{x
+~
+A gorgeous crystal dragon hovers over you. She peers at you
+through incredible cyan eyes, and as she flaps her wings, you
+have to struggle to keep your balance, for they are immensely
+powerful.
+~
+dragon~
+ABT 0 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand female 50
+0 0 medium flesh~
+~
+#2808
+heavily guarded archers archer~
+{7a heavily guarded {8archer{x~
+{7A {8guard {xpatrols here, protecting what lies past the north door.
+~
+This guard wears bulky leather armor, and a pair of incredibly
+thick boots. He doesn't seem happy that you entered the lobby.
+~
+elf~
+ABFT H 0 0
+59 59 224d59+0 295d10+85 19d3+34 none
+-30 -30 -30 -18
+CK A 0 0
+stand stand male 75
+0 0 medium flesh~
+~
+F par ABCDEFGHIJ
+#2817
+darby~
+{@@D{2arby{x~
+{@@D{2arby{7, the Elven shopkeeper is here looking cool in his slitted hat.
+~
+Darby is a quiet elf fellow hidden beneath his slitted elf hat.
+He does not speak often, and will ignore you unless you want to
+buy some of his merchandise.
+~
+elf~
+ABCT 0 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+IKN 0 0 0
+stand stand none 300
+0 0 medium flesh~
+~
+F par ABDEFGHIJK
+#2820
+ronni~
+{6R{^onn{6i{x~
+{6R{^onn{^i{x, the bartender, is here chugging a pint of beer.
+~
+{6R{^onn{6i {xis the alcoholic elf of the city. If ever you are in need
+of his assistance, he will be at his bar, or at a local party. He
+is standing in the middle of a drunken circle, swallowing a beer as fast as
+he can, while the other elves hoot and hollar, "{&Chug! Chug! Chug!{x"{x
+~
+elf~
+ABCT 0 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+C 0 0 CD
+stand stand male 200
+0 0 medium flesh~
+~
+F par ACDEFGHIJK
+#2821
+phegilas~
+{2P{@@hegilas{x~
+{2P{@@hegilas{x, the drunken archer is hopping around with an arrow in his boot.
+~
+Phegilas is a youthful, charming elven boy. He is known for having
+a horde of beautiful women crowding around him, and also for pulling
+jocular pranks on the elven guards. He is looked upon leniently in this
+city, and is loved by many, besides the elves that deem him foolish.
+~
+elf~
+ABT d 0 0
+40 40 98d40+0 40d9+60 12d3+21 none
+-16 -16 -16 -7
+0 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F par ABCDEFGIJK
+M greet 2821 100~
+#2822
+aroilen~
+{4A{$roilen{x~
+{4A{$roilen{x is drunk, lying on the floor laughing at Phegilas' injured foot.
+~
+Phegilas' best friend stands here. His name is Aroilen. Drunken,
+and struck with humor, he is lying on the floor pointing and laughing
+at his friend.
+~
+elf~
+ABT 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#2827
+wandering merchant fylar~
+{3F{#ylar{x~
+{3F{#ylar{x, the wandering merchant is here carrying his backpack of supplies.
+~
+Fylar, the wandering merchant, is deaf, and someone blind. He is
+the aid of this city, despite his inability to hear. He wanders
+around carrying a backpack of supplies: potions, equipment, and
+other such things. Fylar is highly respected amongst the elders
+of the city.
+~
+elf~
+AGT 0 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+N ALPQT 0 0
+stand stand none 200
+0 0 medium flesh~
+~
+F par BCDEFGHIJK
+M greet 2827 100~
+#2829
+black cat~
+{7the {8black cat{x~
+{7A {8black cat{x is curled up in a ball on the bed.{x
+~
+She is peering at you through piercing silver eyes, wondering
+why you are in her master's house. Her claws knead slowly against
+the sheets of the bed.
+~
+cat~
+ABT 0 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+0 F 0 0
+stand stand female 25
+0 0 medium flesh~
+~
+F par ACDEFHJKQV
+M death 2829 99~
+M speech 2830 Open the bookcase~
+M greet 2837 100~
+#2831
+ramah~
+{7Ramah{x~
+{&Ramah{7, the charismatic archer is hiding in his secret study here.
+~
+Ramah is a charming, quiet elf. He is well known in the Elven Fortress for
+being the most trustworthy, valiant, and courageous elf for miles. He does
+not accept money for his deeds, and will help any poor soul, no matter what
+the cause is. He is famous for his bow and arrow shot, for he never misses.
+On his arms and face are many visible scars.
+~
+elf~
+ABT 0 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+CKN 0 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+M speech 2831 Give me the golden arrow~
+M death 2832 99~
+M greet 2833 100~
+#2833
+maseiah~
+{3M{#ase{#i{3a{#h{x~
+{3M{#ase{#i{3a{#h{x is kneading a pie crust on the counter and smiling up at you.{x
+~
+Maseiah is a friendly, middleaged elf. She has out of control blonde hair
+pulled back into what looks like a sorely-attempted bun. Her apron is sauted
+in white powder and dough.
+~
+elf~
+ABCT H 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+IK 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+M greet 2834 100~
+M speech 2836 Yes~
+#2835
+nadyah~
+{2N{@@adyah{x~
+{2N{@@adyah{7, the town's only female assassin is resting on the couch.{x
+~
+A rustic looking elf stands here in a brown leather vest.
+You notice a sheath wrapped about her left thigh with a silver dagger
+enclosed. Long, dreaded blonde hair is pulled back into a green bandanna.
+It is very rare to find a female elf assassin in these parts, and therefore
+she is quite feared and respected.
+~
+elf~
+ABT 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CFK 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+F par ABDEFGHIJK
+M greet 2835 100~
+#2836
+aliden~
+{4A{$liden{x~
+{4A{$liden {7is rubbing his fists.{x
+~
+Aliden is an unusually gruff elf. He has soft whiskers on his chin and
+scars covering most of his arms. He is cracking his knuckles over and over.
+~
+elf~
+ABT 0 0 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+FK 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+#2838
+barnie homeless elf~
+{&B{7arnie{x~
+{&B{7arnie, the homeless elf is sleeping in the corner.
+~
+Barnie is a sad creature. His ears are bent at the tips, where
+they should be perky and sharp. He once was a great legend in this
+city as L'eimen'le's butler, but was caught stealing, and banished
+to be an outcast of the city for the rest of his life. He is not
+allowed to leave, nor serve in the hands of any other elf again in
+the city of the fortress.
+~
+elf~
+ABT d 0 0
+58 58 185d58+0 58d9+60 18d3+30 none
+-27 -27 -27 -15
+0 A 0 GN
+stand sleep none 1
+0 0 medium flesh~
+~
+F par BCDEFGHIJK
+#2843
+city patroller officer~
+{7a city patrol officer{x~
+A city patrol officer roams the streets looking for trouble.
+~
+This city patrol officer is patting his bow and arrow
+casually as he roams the streets looking for trouble. He
+wears a leather vest and thick leather pants.
+~
+elf~
+AGT H 0 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+CKV A 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+M greet 2809 100~
+#2850
+lohgan~
+Lohgan~
+Lohgan, the elven night watch is here, resting against the cold stone wall.
+~
+Lohgan is highly trained in night watching the city. He is a
+straight shooter, even in the pitch black of night. His long
+pointy ears account for his fox like hearing.
+~
+elf~
+ABT H 0 0
+55 55 201d55+0 275d10+85 18d3+32 none
+-27 -27 -27 -16
+EFK A 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F aff P
+F par ABCDEFGHIK
+#2851
+turret archer elf~
+{7an elven archer{x~
+{7An elven archer is here, peering out of the turret.{x
+~
+He has got a bow and arrow wielded, his right arm pulled
+back, alert and ready for battle.
+~
+elf~
+ABT 0 0 0
+53 53 190d53+0 265d10+85 17d3+31 none
+-26 -26 -26 -15
+CDHK A D 0
+stand stand male 50
+0 0 medium flesh~
+~
+F par ABCDEFGHIK
+#2892
+rosana~
+{5R{%osana{x~
+{5R{%osana{x glides towards you with ease.{x
+~
+A beautiful sight, Rosana is. She is a youthful elf with
+long, wispy white hair. A pink flower is clapsed by her ear
+and she smells or roses and classy perfume.
+~
+elf~
+ABT 0 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+DE Q 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+F par ABCDEFGHJK
+M greet 2892 100~
+M speech 2893 Yes~
+#0
+
+#OBJECTS
+#2800
+corpse cadaver~
+the cadaver-toy~
+A half eaten corpse is laying here~
+flesh~
+~
+container 0 A
+30 0 0 30 100 0
+0 500 298 P
+G none
+G none
+G none
+G none
+#2801
+pile rotting heap bed~
+the heap of carnage~
+There is a bed made of carnage here.~
+unknown~
+~
+container 0 0
+30 0 0 30 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2802
+key fortress fort~
+Fortress Key~
+A key to the Elven Fortress lies here.~
+metal~
+~
+key 0 AO
+0 0 0 0 0 0 0
+12 3 0 P
+E
+key~
+A shiney key that belongs to the Elven Fortress.
+~
+G none
+G none
+G none
+G none
+#2803
+ring opal~
+an opal ring~
+A ring of black opal lies here gathering dust.~
+opal~
+~
+jewelry 0 AB
+0 0 0 0 0 0 0
+20 10 1150 P
+A
+18 2
+A
+19 2
+E
+ring opal~
+It is a full circle of opal, smooth and simple.
+~
+G none
+G none
+G none
+G none
+#2804
+leather belt~
+a leather belt~
+An old leather belt is left on the floor.~
+leather~
+~
+armor 0 AL
+6 6 6 0 'none' 0
+15 50 5088 P
+A
+18 1
+A
+19 1
+A
+13 10
+E
+leather belt~
+This old, smelly belt looks like it is barely better than rotting cloth.
+~
+G none
+G none
+G none
+G none
+#2805
+bone cracked~
+a cracked bone~
+A cracked piece of bone lies here.~
+bone~
+~
+weapon 0 AN
+mace 1 8 pound 0
+6 30 2364 P
+A
+18 -1
+A
+19 -1
+E
+bone~
+This piece of bone looks sturdy enough to be used as a weapon, but you
+wouldn't want to entrust your life to it.
+~
+G none
+G none
+G none
+G none
+#2817
+slitted hat~
+{7a slitted {2elvish {xhat{x~
+{7A slitted hat has been left here.{x~
+unknown~
+Cotton~
+armor A AE
+22 22 22 21 'none' 0
+50 61 121604 P
+A
+20 -5
+A
+18 5
+E
+slitted~
+This soft grey hat is rimmed on the sides with little slits
+for the ears of elves.
+~
+G none
+G none
+G none
+G none
+#2818
+green hat~
+{7a {2green {7hat{x~
+{7A {2green {7hat lies here.{x~
+unknown~
+Something Magical~
+armor A AE
+18 18 18 17 'none' 0
+50 51 74397 P
+A
+18 2
+A
+17 -6
+A
+19 6
+E
+hat~
+A beautiful green hat this is. It is bent at the outer rims, and
+has a tiny slit in the right side for a feather.
+~
+G none
+G none
+G none
+G none
+#2819
+arrow sheath~
+{7an arrow sheath{x~
+An arrow sheath lies here for use.~
+unknown~
+Orc Skin~
+container ABY A
+40 F 0 80 30 0
+60 1 157521 P
+G none
+G none
+G none
+G none
+#2820
+archer arrow~
+{7an archer's arrow{x~
+{7An archer's arrow lies here.~
+wood~
+~
+weapon AY AO
+arrow 6 10 none 0
+60 10 11949 P
+A
+19 4
+A
+18 6
+E
+arrow~
+A brand new archer's arrow with a sharp, untouched tip.
+~
+G none
+G none
+G none
+G none
+#2821
+ronnis specialty brew~
+{6R{^onn{6i{^'{6s {&Specialty {1B{!rew{x~
+{6R{^onn{6i{^'{6s {&Specialty {1B{!rew {xhas been dropped here.{x~
+unknown~
+Beer~
+drink AY AO
+10 10 'beer' 0
+1 0 675 P
+G none
+G none
+G none
+G none
+#2822
+old jukebox~
+{5O{%ld {6J{^ukebox{x~
+{5O{%ld {6J{^ukebox{x rests in the corner, spitting out tunes.{x~
+unknown~
+~
+jukebox ABM 0
+0 0 0 0 0 0 0
+1 0 0 P
+E
+jukebox~
+A worn down but polished old jukebox stands here, spitting out
+some good timing tunes!
+~
+G none
+G none
+G none
+G none
+#2823
+peppermint schnapps~
+{^P{6e{7p{&p{7e{6r{^m{6i{^n{&t {^Sch{&n{7a{&p{^ps{x~
+A {^p{6e{7p{&p{7e{6r{^m{6i{^n{&t {^sch{&n{7a{&p{^ps{x bottle lies here.~
+unknown~
+~
+drink AY A
+10 10 'schnapps' 0
+1 0 1253 P
+G none
+G none
+G none
+G none
+#2824
+cardamom schnapps~
+{4C{$a{7r{&d{8a{7m{$o{4m {&Schnapps{x~
+A bottle of {4c{$a{7r{&d{8a{7m{$o{4m {&schnapps{x lies here for the taking.~
+unknown~
+Schnapps~
+drink AY A
+10 10 'schnapps' 0
+1 0 1092 P
+E
+cardamom~
+A delicious bottle of cardamom schnapps is in your grasp.
+~
+G none
+G none
+G none
+G none
+#2827
+syrupy pink potion~
+{7a syrupy {%p{5i{%n{5k {xpotion{x~
+{7A syrupy {%p{5i{%n{5k {xpotion has been dropped here.{x~
+unknown~
+~
+potion AY A
+10 'pass door' 'reserved' 'reserved' 'reserved'
+20 0 5000 P
+G none
+G none
+G none
+G none
+#2828
+oceans breeze~
+{$O{4c{^e{6a{&n{7'{8s {&Breeze{x~
+{$O{4c{^e{6a{&n{7'{8s {&Breeze{x~
+unknown~
+Ocean water from far Away~
+potion AY A
+10 'fly' 'reserved' 'reserved' 'reserved'
+20 0 2000 P
+E
+oceans~
+This vial is full of water from an ocean far far away. Tis magical.
+~
+E
+breeze~
+This vial is full of water from an ocean far far away. Tis magical.
+~
+G none
+G none
+G none
+G none
+#2829
+bookcase~
+the bookcase~
+{7A bookcase full of War History and Archer Weaponry and Fighting is on the northern wall.~
+unknown~
+Solid Red Tree~
+furniture ABM 0
+0 0 N 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2830
+leimenlei key bookcase~
+{xThe {!Bookshelf {xKey{x~
+{7The {!Bookshelf {7Key{x~
+bronze~
+~
+key AB A
+0 0 0 0 0 0 0
+1 0 0 P
+E
+key~
+You have a large rusted bronze key.
+~
+G none
+G none
+G none
+G none
+#2831
+golden arrow~
+{7Ramah's {#golden {7arrow{x~
+{7Ramah's {#golden {7arrow lies on the ground here, shimmering.{x~
+unknown~
+~
+weapon 0 AO
+arrow 6 11 none 0
+60 61 20080 P
+A
+13 35
+A
+19 5
+E
+arrow~
+Ramah's lucky arrow is in your grasp.
+~
+G none
+G none
+G none
+G none
+#2832
+dragons wings~
+{#D{!r{#a{!g{#o{!n{#'{!s {#W{!i{#n{!g{#s{x~
+A set of {#D{!r{#a{!g{#o{!n{#'{!s {#W{!i{#n{!g{#s{x lie here.{x~
+unknown~
+~
+pill 0 A
+15 'giant strength' 'reserved' 'reserved' 'reserved'
+30 1000 5000 P
+E
+wings~
+Crispy, well cooked dragon wings are in your grasp.
+~
+E
+dragons~
+Crispy, well cooked dragon wings are in your grasp.
+~
+G none
+G none
+G none
+G none
+#2833
+dab this that~
+{7A {$D{@@a{$b {7of {@@T{$h{@@i{$s {7a {$D{@@a{$b {7of {@@T{$h{@@a{$t{x~
+{7A strange, {@@c{$o{@@l{$o{@@r{$f{@@u{$l{x potion has been dropped here.{x~
+unknown~
+~
+potion ABY A
+40 'cancellation' 'reserved' 'reserved' 'reserved'
+80 0 4000 P
+G none
+G none
+G none
+G none
+#2834
+wand acid arrow~
+{xa wand of {!aci{1d a{!rrow{x~
+{xA wand of {!aci{1d a{!rrow{x has been dropped here.{x~
+unknown~
+Wand Wood~
+wand ABY AO
+5 10 10 'acid arrow'
+10 20 5000 P
+E
+acid~
+An acidic arrow is in your grasp.
+~
+E
+arrow~
+An acidic arrow is in your grasp.
+~
+G none
+G none
+G none
+G none
+#2835
+worn couch~
+{7a worn {3brown {xcouch{x~
+{7A worn {3brown {xcouch rests here, beer stains embedded into the material.{x~
+unknown~
+~
+furniture M 0
+ABCD ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK 0 0 ABCD ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2836
+silver dagger~
+{7a {&diamond {xencrusted dagger{x~
+{7Nadyah's dagger has been dropped here.{x~
+unknown~
+~
+weapon AY AN
+dagger 4 10 pierce 0
+50 51 30634 P
+A
+20 -3
+A
+19 5
+A
+13 5
+G none
+G none
+G none
+G none
+#2837
+veryberry pie~
+{7a {$v{@@e{$r{@@y{$b{@@e{$r{@@r{$y {#pie{x~
+{7A slice of {$v{@@e{$r{@@y{$b{@@e{$r{@@r{$y {#pie{x has been dropped here.~
+unknown~
+~
+food AY A
+BD BD 0 0 0 BD BD
+1 10 96 P
+E
+pie~
+A delicious veryberry pie is filled to the crust with mouth-watering
+blueberries.
+~
+E
+veryberry~
+A delicious veryberry pie is filled to the crust with mouth-watering
+blueberries.
+~
+G none
+G none
+G none
+G none
+#2838
+buffalo skins~
+{7buffalo {3skin{x~
+{7Some buffalo skins have been dropped here.{x~
+unknown~
+Skin~
+food AY A
+BD BD 0 0 0 BD BD
+1 10 92 P
+E
+skins~
+Crispy buffalo skin, showered in spices and dipped in steaming sauce.
+~
+E
+buffalo~
+Crispy buffalo skin, showered in spices and dipped in steaming sauce.
+~
+G none
+G none
+G none
+G none
+#2851
+bow bronze arrow~
+{7a {#bronze {7bow and arrow{x~
+{7A {#bronze {xbow and arrow have been left here.~
+bronze~
+~
+weapon ABY AN
+bow 2 33 blast F
+53 54 3535 P
+A
+13 40
+A
+14 53
+A
+17 -5
+G none
+G none
+G none
+G none
+#2870
+~
+~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2892
+celestial white flower~
+{7a {&c{7e{8l{7e{&s{7t{8i{7a{&l {&white {xflower{x~
+{7A {&c{7e{8l{7e{&s{7t{8i{7a{&l {&white {xflower{x has been dropped here.~
+unknown~
+Flower buds~
+pill AY A
+25 'invisibility' 'reserved' 'reserved' 'reserved'
+50 10 9000 P
+E
+flower~
+A beautiful white flower is in your reach.
+~
+E
+celestial~
+A beautiful white flower is in your reach.
+~
+G none
+G none
+G none
+G none
+#2893
+seven leaf weed~
+{7a {@@s{2e{@@v{2e{@@n {#leaf {@@weed{x~
+A seven leaf weed lies here.~
+unknown~
+Cannabis~
+pill AY A
+20 'slow' 'farsight' 'reserved' 'reserved'
+40 10 7000 P
+E
+weed~
+A green weed of seven leaves is in your reach.
+~
+E
+seven~
+A green weed of seven leaves is in your reach.
+~
+E
+leaf~
+A green leaf of seven leaves is in your reach.
+~
+G none
+G none
+G none
+G none
+#2894
+green moss~
+{7some {@@green {7moss{x~
+{7Some {@@green {7moss lies here.{x~
+unknown~
+Moss~
+pill A A
+30 'refresh' 'reserved' 'reserved' 'reserved'
+60 2 2000 P
+E
+moss~
+Some soft green moss is in your reach.
+~
+E
+green~
+Some soft green moss is in your reach.
+~
+G none
+G none
+G none
+G none
+#2895
+pill labeled poof~
+{7a small glimmering pill labeled "{8poof{x"{x~
+{7A glimmering pill labeled "{8poof{x" has been left here.~
+unknown~
+~
+pill AY A
+20 'teleport' 'reserved' 'reserved' 'reserved'
+40 30 3500 P
+E
+pill~
+A small, glimmering pill is in your reach.
+~
+E
+poof~
+A small, glimmering pill is in your reach.
+~
+G none
+G none
+G none
+G none
+#2896
+warden key~
+{!W{1arde{!n K{1e{!y{x~
+The {!W{1arde{!n K{1e{!y{x has been dropped here.~
+unknown~
+~
+key ABY AO
+0 0 0 0 0 0 0
+1 0 0 P
+E
+key~
+A small, golden key to the warden's office is in your grasp.
+~
+E
+warden~
+A small, golden key to the warden's office is in your grasp.
+~
+G none
+G none
+G none
+G none
+#2897
+bow wardens~
+{!W{1arde{!n{1'{!s {#bow{x~
+{7The {!W{1arde{!n{1'{!s {#bow {xhas been dropped here.{x~
+wood~
+~
+weapon ABY AN
+bow 3 25 blast F
+60 61 135427 P
+A
+18 6
+A
+13 60
+E
+wardens~
+A beautifully crafted bow is in your grasp.
+~
+E
+bow~
+A beautifully crafted bow is in your grasp.
+~
+G none
+G none
+G none
+G none
+#2898
+wardens boots~
+{7Warden's Boots{x~
+{7A pair of warden's boots have been dropped here.{x~
+unknown~
+~
+armor ABY AG
+22 22 22 21 'none' 0
+60 61 174786 P
+A
+19 7
+A
+18 9
+E
+boots~
+A thick pair of warden's boots from the elven fortress
+is in your grasp.
+~
+E
+warden~
+A thick pair of warden's boots from the elven fortress
+is in your grasp.
+~
+G none
+G none
+G none
+G none
+#2899
+<kirassocialquest> pendant madness~
+{DA {mPendant {Dof {MM{Ra{Bd{Mn{Re{Bs{Ms{x{x~
+{DA {mPendant {Dof {MM{Ra{Bd{Mn{Re{Bs{Ms{x has been dropped here.~
+unknown~
+~
+armor AY AC
+30 30 30 29 'none' 0
+82 83 165008 P
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#2800
+{@@E{2lve{@@n {!F{1ortres{!s {&D{7raw{&b{7ridg{&e{x~
+Clink, clink clink. A mechanical device pulls and clanks as
+the hefty wooden drawbridge lowers slowly for your entrance.
+A quiet, rumbling creak flows below the bridge, and along the
+grass next to the water is clean cut grass. Arrows penetrate
+the ground in spots where the Elven Archers missed their living
+marks.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2801
+0 0
+D2
+~
+~
+Z 0 6162
+0 0
+S
+#2801
+{&The {@@E{2lve{@@n {!F{1ortres{!s {$T{4urn{$s{4til{$e{x~
+Walking across the bridge, you hear loud clicks from the heels
+of other elves' boots walking briskly in and out of the city. You
+see a few shifty eyes glancing suspiciously at you. Every living
+soul you've seen so far is an elf. Rarely are others allowed entry.
+Do you have long ears with sharp tips, fair white skin, and a bow
+and arrow on your back? If not, this city bids that you leave as
+quickly as you came.
+~
+0 AD inside
+E
+plaque~
+This zone (trollden) is created by MERC for any MERC Mud.
+copyright 1992
+~
+D0
+~
+~
+Z 0 2802
+0 0
+D2
+~
+~
+Z 0 2800
+0 0
+S
+#2802
+{^O{6fficer{^'{6s {#E{3xam{#i{3nat{#i{3o{#n{x~
+An elven officer sets his eyes upon you, and makes his way
+swiftly through the crowd of elves. His bow and arrow are
+conveniently at his side, but he seems amazed that you made
+it this far into the city, and approaches you without raising
+his weapon. All eyes are set upon you, as this kind of inspection
+has not happened in months.
+~
+0 AD inside
+E
+Half-eaten body rotting corpse~
+YUCK!  You find worms crawling in and out this poor unfortunate former human.
+~
+D0
+~
+~
+ABCJZ 2802 2803
+0 0
+D2
+~
+~
+Z 0 2801
+0 0
+S
+#2803
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail.
+~
+0 AD inside
+D0
+~
+~
+Z 0 2804
+0 0
+D2
+~
+~
+ABCJZ 0 2802
+0 0
+S
+#2804
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail.
+~
+0 AD inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+arm rotting~
+This reminds you of what a baby would do to its formula during dinnertime,
+plastering it on the wall.
+~
+D0
+~
+~
+Z 0 2805
+0 0
+D2
+~
+~
+Z 0 2803
+0 0
+S
+#2805
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Quiet, mysterious looking elves keep their eye on you as you
+make your way further into the city's wake. There are signs
+posted along some of the doors that read "{#Wanted{x." The faces
+on these signs are pastoral and sullen, for they have tried and
+tried to invade this city, but have failed, and somehow made it
+away without leaving their lives left behind.
+~
+0 ACD mountain
+D0
+~
+~
+Z 0 2806
+0 0
+D2
+~
+~
+Z 0 2804
+0 0
+S
+#2806
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2807
+0 0
+D2
+~
+~
+Z 0 2805
+0 0
+S
+#2807
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2808
+0 0
+D2
+~
+~
+Z 0 2806
+0 0
+S
+#2808
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Quiet, mysterious looking elves keep their eye on you as you
+make your way further into the city's wake. There are signs
+posted along some of the doors that read "{#Wanted{x." The faces
+on these signs are pastoral and sullen, for they have tried and
+tried to invade this city, but have failed, and somehow made it
+away without leaving their lives left behind.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D0
+~
+~
+Z 0 2809
+0 0
+D2
+~
+~
+Z 0 2807
+0 0
+S
+#2809
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2810
+0 0
+D2
+~
+~
+Z 0 2808
+0 0
+S
+#2810
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2811
+0 0
+D2
+~
+~
+Z 0 2809
+0 0
+S
+#2811
+{^I{6nto {&t{7he {@@E{2lve{@@n {#City{x~
+Quiet, mysterious looking elves keep their eye on you as you
+make your way further into the city's wake. There are signs
+posted along some of the doors that read "{#Wanted{x." The faces
+on these signs are pastoral and sullen, for they have tried and
+tried to invade this city, but have failed, and somehow made it
+away without leaving their lives left behind.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D0
+~
+~
+Z 0 2812
+0 0
+D2
+~
+~
+Z 0 2810
+0 0
+S
+#2812
+{&The {!F{1ortres{!s {$C{4heck {$P{4oint{x~
+Tall, wise looking elves rest up against street posts here,
+with cigars and small, carefully rolled plants drooping
+from their mouths. They are trading and conversing with
+each other in an undertone, hoping to not catch the attention
+of wandering eyes. Off to the east and west are dirt paths. On
+each path lie wooden steps along the walls that lead up to tall
+brown doors. There are blacksmith workshops, elven shops,
+secret hiding spots, and comfortable homes with neatly crafted
+signs above them. One sign catches your eye in particular, it
+reads "{@@L{2'{@@eimen{2'{@@le{x."{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2815
+0 0
+D1
+~
+~
+Z 0 2813
+0 0
+D2
+~
+~
+Z 0 2811
+0 0
+D3
+~
+~
+Z 0 2814
+0 0
+D4
+~
+~
+ABZ 0 2894
+0 0
+S
+#2813
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2825
+0 0
+D3
+~
+~
+Z 0 2812
+0 0
+S
+#2814
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2812
+0 0
+D3
+~
+~
+Z 0 2860
+0 0
+S
+#2815
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. There are shops just ahead
+on each side of the walls.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2816
+0 0
+D2
+~
+~
+Z 0 2812
+0 0
+S
+#2816
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. To the west lies Darby's
+elvish armory.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2818
+0 0
+D2
+~
+~
+Z 0 2815
+0 0
+D3
+~
+~
+ABZ 0 2817
+0 0
+S
+#2817
+Elven Armory~
+Soft green hats with slits for ears, arrows, bows, and other
+merchandise align the walls. There are candles in each corner
+of the room, giving the shop a calm, dim, mysterious setting.
+Darby rests behind a book with his eyes shadowed from his
+newly-made elven hat.
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 2816
+0 0
+S
+#2818
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. There are shops just ahead
+on each side of the walls.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2819
+0 0
+D2
+~
+~
+Z 0 2816
+0 0
+S
+#2819
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. Loud music can be heard
+from the east. Ronni's Bar is throwing its nightly celebration.
+Each bash is quite a social event in the city.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2821
+0 0
+D1
+~
+~
+ABZ 0 2820
+0 0
+D2
+~
+~
+Z 0 2818
+0 0
+S
+#2820
+Ronni's Bar~
+The worn down {6j{^ukebox{x rests in the corner of this room, spitting
+out the same old tunes as usual. {6R{^onn{6i{x, the bartender, also partakes
+in entertaining his customers. You notice two very drunk elves
+playing a game of drunken archery, one yelping and hopping
+around with an arrow in his boot. Smoke wafts through the air
+like a boggy haze. The elves here are the happiest you have seen
+them yet. They all seem to be in the merriest spirits.
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 2819
+0 0
+S
+#2821
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. There are shops just ahead
+on each side of the walls.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2822
+0 0
+D2
+~
+~
+Z 0 2819
+0 0
+S
+#2822
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. There are shops just ahead
+on each side of the walls.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2823
+0 0
+D2
+~
+~
+Z 0 2821
+0 0
+S
+#2823
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Quiet, mysterious looking elves keep their eye on you as you
+make your way further into the city's wake. There are signs
+posted along some of the doors that read "{#Wanted{x." The faces
+on these signs are pastoral and sullen, for they have tried and
+tried to invade this city, but have failed, and somehow made it
+away without leaving their lives left behind.
+~
+0 0 inside
+E
+warning~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D0
+~
+~
+Z 0 2824
+0 0
+D2
+~
+~
+Z 0 2822
+0 0
+S
+#2824
+{^I{6nto {&the {8Dimly {#Lit {@@E{2lve{@@n {3City{x~
+Elven merchants, blackmailers, assassins, jokers, archers, and
+dragon riders all make up the city of the elves. A few elves are
+hiding in the shelter of a wall shadow along the border of the
+fortress. They are exchanging money, and little scrolls of paper
+with murderous quests and blackmail. There are shops just ahead
+on each side of the walls.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2836
+0 0
+D2
+~
+~
+Z 0 2823
+0 0
+S
+#2825
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2826
+0 0
+D3
+~
+~
+Z 0 2813
+0 0
+S
+#2826
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces. To the south is a dimly lit
+room with candle light bouncing from wall to wall. Whispers
+can be heard if you press your ear to the door.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2827
+0 0
+D2
+~
+~
+ABZ 0 2835
+0 0
+D3
+~
+~
+Z 0 2825
+0 0
+S
+#2827
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2828
+0 0
+D3
+~
+~
+Z 0 2826
+0 0
+S
+#2828
+Along the Dirt Road~
+The dirt is smooth along this path.  Little lanterns and torches are
+hung from the walls to guide you down the alley.  A "{@@L{2'{@@eimen{2'{@@le{x" sign
+is hung from two metal latches along the wall, directly over a midnight
+black door.  There aren't any windows in this door, but a small wooden
+sliding window that can be used when inside the residence is towards the
+top.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2830
+0 0
+D3
+~
+~
+Z 0 2827
+0 0
+D4
+~
+~
+Z 0 2829
+0 0
+S
+#2829
+The {@@L{2'{@@eimen{2'{@@le {&Home{x~
+A warm, comfortable, rustic home this is. A rack of bows lies on
+the eastern wall directly next to a hutch of beautifully displayed
+arrows. A bucolic, wooden bed of beautiful white sheets and pillows
+lies on the north western wall. There is a bowl of water lying next
+to the bed tainted with the color red. A rag is hanging on the edge
+of the bowl soaked in blood. It is quite silent in here, besides the
+ticking of a clock above the doorway. There is a large bookcase that
+is tilted away from the wall. Could there be something behind it?
+~
+0 0 inside
+D0
+~
+~
+ABCJZ 2830 2831
+0 0
+D5
+~
+~
+Z 0 2828
+0 0
+S
+#2830
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2832
+0 0
+D3
+~
+~
+Z 0 2828
+0 0
+S
+#2831
+Hiding Place Behind the Bookcase~
+From out behind a bookcase, you see a young, tall, and rather
+charismatic elf. This is his secret study, in which no one but
+him may enter, without approval of him or his cat. Beautifully
+painted oak bookshelves by the dozens align the walls here.
+There are dozens of medals hanging from the walls, and the
+most amazing thing in the room, is the single golden arrow
+resting in a glass box on a shelf on the wall. The arrow catches
+your attention, and you decide you must have it.
+~
+0 0 inside
+D2
+~
+~
+ABCJZ 0 2829
+0 0
+S
+#2832
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces. To the east lies the eastern wall,
+turrets are built upon its tops.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2877
+0 0
+D3
+~
+~
+Z 0 2830
+0 0
+S
+#2833
+{#S{3t{#e{3a{#m{3i{#n{3g {&Bakery{x~
+Roasts, pies, cakes, all sorts of delicious food smells waft to
+your nostrils. Your stomach rumbles in lust, for this is the
+finest bakery in the city. It is well-known for the steaming
+veryberry pies and the roasted buffalo skins. There are fine
+yellow and white garlands wrapped around the pillars in this
+room. Maseiah gives you the feeling that you are welcome.
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 2863
+0 0
+S
+#2834
+~
+~
+0 0 inside
+S
+#2835
+A Cubby Hole~
+You have entered yet another silent room. The looks upon
+the elves' faces here are hostile, and for good reason. You
+have entered their private cubby hole, where they like to
+discuss the downfall of certain gangs outside of the Elven
+Fortress. There are couches all around the room in a circular
+fashion, small wooden tables with mugs of beer, and plates
+of buttered bread here. They watch you carefully, and you
+feel the need to leave.
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 2826
+0 0
+S
+#2836
+{!N{1orthern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D1
+~
+~
+Z 0 2837
+0 0
+D2
+~
+~
+Z 0 2824
+0 0
+D3
+~
+~
+Z 0 2844
+0 0
+S
+#2837
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2838
+0 0
+D3
+~
+~
+Z 0 2836
+0 0
+S
+#2838
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2839
+0 0
+D3
+~
+~
+Z 0 2837
+0 0
+S
+#2839
+{!N{1orthern {^In{6land {$W{4all{x~
+You notice there aren't any ways to get out of this city unless you make
+your way back to the entrance and have the guards lower the turnstile.
+There are no portholes or apertures to peek out of, to see the outside
+world's drama. Many of the elders forget who hide behind books and
+rest in their cubby holes, read newspapers and listen to word of mouth,
+for inside this Fortress, it is easy to forget the rest of the world's
+existance.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2840
+0 0
+D3
+~
+~
+Z 0 2838
+0 0
+S
+#2840
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2841
+0 0
+D3
+~
+~
+Z 0 2839
+0 0
+S
+#2841
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2842
+0 0
+D3
+~
+~
+Z 0 2840
+0 0
+S
+#2842
+{%N{5orth{%e{5astern {^In{6land {$C{4orner{x~
+Next to you is a heavy stone door leading up to the turret systems upon
+the cold stone ledges. The tops of hats can be seen, and briefly the arms
+of elves, pulling arrows backwards and flinging them into the air. The
+speed of the arrows is so fast that they can be heard in a high, screaming
+pitch, fading into the distance as they pierce the air. The great wall
+branches off to the north and west.
+~
+0 0 inside
+D2
+~
+~
+Z 0 2868
+0 0
+D3
+~
+~
+Z 0 2841
+0 0
+D4
+~
+~
+Z 0 2843
+0 0
+S
+#2843
+{%N{5orth{%e{5astern {^T{6urre{^t{x~
+Lined up with backs against the walls, swiftly drawing arrows from
+leather sheathes on their backs, and eyes just above the stone walls,
+are the famous elven archers of the city. Some of them are laughing
+merrily and drinking beer and schnapps from silver flasks, others are
+staring in a fixed gaze at the areas around them, waiting for movement
+to arise. There are ladders bound to the walls in case of emergency
+or fire, and racks of arrows are nailed up against the opposing walls.
+The sound of piercing arrows fills the air. There is a tense aura coming
+from some of the transfixed elves, but others are quite drunk and still
+a perfect shot.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2842
+0 0
+S
+#2844
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2836
+0 0
+D3
+~
+~
+Z 0 2845
+0 0
+S
+#2845
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2844
+0 0
+D3
+~
+~
+Z 0 2846
+0 0
+S
+#2846
+{!N{1orthern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D1
+~
+~
+Z 0 2845
+0 0
+D3
+~
+~
+Z 0 2847
+0 0
+S
+#2847
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2846
+0 0
+D3
+~
+~
+Z 0 2848
+0 0
+S
+#2848
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2847
+0 0
+D3
+~
+~
+Z 0 2849
+0 0
+S
+#2849
+{!N{1orthern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2848
+0 0
+D3
+~
+~
+Z 0 2850
+0 0
+S
+#2850
+{%N{5orth{%w{5estern {^In{6land {$C{4orner{x~
+Next to you is a heavy stone door leading up to the turret systems upon
+the cold stone ledges. The tops of hats can be seen, and briefly the arms
+of elves, pulling arrows backwards and flinging them into the air. The
+speed of the arrows is so fast that they can be heard in a high, screaming
+pitch, fading into the distance as they pierce the air. The great wall
+branches off to the south and east.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2849
+0 0
+D2
+~
+~
+Z 0 2852
+0 0
+D4
+~
+~
+Z 0 2851
+0 0
+S
+#2851
+{%N{5orth{%w{5estern {^T{6urre{^t{x~
+Lined up with backs against the walls, swiftly drawing arrows from
+leather sheathes on their backs, and eyes just above the stone walls,
+are the famous elven archers of the city. Some of them are laughing
+merrily and drinking beer and schnapps from silver flasks, others are
+staring in a fixed gaze at the areas around them, waiting for movement
+to arise. There are ladders bound to the walls in case of emergency
+or fire, and racks of arrows are nailed up against the opposing walls.
+The sound of piercing arrows fills the air. There is a tense aura coming
+from some of the transfixed elves, but others are quite drunk and still
+a perfect shot.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2850
+0 0
+S
+#2852
+{@@W{2estern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2850
+0 0
+D2
+~
+~
+Z 0 2853
+0 0
+S
+#2853
+{@@W{2estern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2852
+0 0
+D2
+~
+~
+Z 0 2854
+0 0
+S
+#2854
+{@@W{2estern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D0
+~
+~
+Z 0 2853
+0 0
+D2
+~
+~
+Z 0 2855
+0 0
+S
+#2855
+{@@W{2estern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2854
+0 0
+D2
+~
+~
+Z 0 2856
+0 0
+S
+#2856
+{@@W{2estern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2855
+0 0
+D1
+~
+~
+Z 0 2866
+0 0
+D2
+~
+~
+Z 0 2857
+0 0
+S
+#2857
+{@@W{2estern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D0
+~
+~
+Z 0 2856
+0 0
+D2
+~
+~
+Z 0 2876
+0 0
+S
+#2858
+{%S{5outh{%w{5estern {^In{6land {$C{4orner{x~
+Next to you is a heavy stone door leading up to the turret systems upon
+the cold stone ledges. The tops of hats can be seen, and briefly the arms
+of elves, pulling arrows backwards and flinging them into the air. The
+speed of the arrows is so fast that they can be heard in a high, screaming
+pitch, fading into the distance as they pierce the air. The great wall
+branches off to the north and east.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2876
+0 0
+D1
+~
+~
+Z 0 2878
+0 0
+D4
+~
+~
+Z 0 2859
+0 0
+S
+#2859
+{%S{5outh{%w{5estern {^T{6urre{^t{x~
+Lined up with backs against the walls, swiftly drawing arrows from
+leather sheathes on their backs, and eyes just above the stone walls,
+are the famous elven archers of the city. Some of them are laughing
+merrily and drinking beer and schnapps from silver flasks, others are
+staring in a fixed gaze at the areas around them, waiting for movement
+to arise. There are ladders bound to the walls in case of emergency
+or fire, and racks of arrows are nailed up against the opposing walls.
+The sound of piercing arrows fills the air. There is a tense aura coming
+from some of the transfixed elves, but others are quite drunk and still
+a perfect shot.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2858
+0 0
+S
+#2860
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 2892
+0 0
+D1
+~
+~
+Z 0 2814
+0 0
+D3
+~
+~
+Z 0 2861
+0 0
+S
+#2861
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2860
+0 0
+D3
+~
+~
+Z 0 2862
+0 0
+S
+#2862
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2861
+0 0
+D3
+~
+~
+Z 0 2863
+0 0
+S
+#2863
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2862
+0 0
+D2
+~
+~
+ABZ 0 2833
+0 0
+D3
+~
+~
+Z 0 2864
+0 0
+S
+#2864
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2863
+0 0
+D3
+~
+~
+Z 0 2865
+0 0
+S
+#2865
+Along the Dirt Road~
+The dirt is smooth along this path. Little lanterns and torches are
+hung from the walls to guide you down the alley. Silence fills this
+path, but the eyes of elves, hidden under the shadows of hats, keep
+a steady gaze upon you as you near them. They all seem to have
+a mysterious look upon their faces.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2864
+0 0
+D3
+~
+~
+Z 0 2866
+0 0
+S
+#2866
+Before the Western Inland Walls~
+Up into the sky, towering above you, are the great walls of the
+archer city. These are the walls that made the name for this
+heavily guarded city. To the north and south are turrets with
+archers ready to draw their arrows at any conflicting offender.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2865
+0 0
+D3
+~
+~
+Z 0 2856
+0 0
+S
+#2867
+~
+~
+0 0 inside
+S
+#2868
+{@@E{2astern {^In{6land {$W{4all{x~
+You notice there aren't any ways to get out of this city unless you make
+your way back to the entrance and have the guards lower the turnstile.
+There are no portholes or apertures to peek out of, to see the outside
+world's drama. Many of the elders forget who hide behind books and
+rest in their cubby holes, read newspapers and listen to word of mouth,
+for inside this Fortress, it is easy to forget the rest of the world's
+existance.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2842
+0 0
+D2
+~
+~
+Z 0 2869
+0 0
+S
+#2869
+{@@E{2astern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2868
+0 0
+D2
+~
+~
+Z 0 2870
+0 0
+S
+#2870
+{@@E{2astern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2869
+0 0
+D2
+~
+~
+Z 0 2871
+0 0
+S
+#2871
+{@@E{2astern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D0
+~
+~
+Z 0 2870
+0 0
+D2
+~
+~
+Z 0 2872
+0 0
+S
+#2872
+{@@E{2astern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2871
+0 0
+D2
+~
+~
+Z 0 2873
+0 0
+D3
+~
+~
+Z 0 2877
+0 0
+S
+#2873
+{@@E{2astern {^In{6land {$W{4all{x~
+You notice there aren't any ways to get out of this city unless you make
+your way back to the entrance and have the guards lower the turnstile.
+There are no portholes or apertures to peek out of, to see the outside
+world's drama. Many of the elders forget who hide behind books and
+rest in their cubby holes, read newspapers and listen to word of mouth,
+for inside this Fortress, it is easy to forget the rest of the world's
+existance.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2872
+0 0
+D2
+~
+~
+Z 0 2874
+0 0
+S
+#2874
+{@@E{2astern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2873
+0 0
+D2
+~
+~
+Z 0 2875
+0 0
+S
+#2875
+{@@E{2astern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2874
+0 0
+D2
+~
+~
+Z 0 2890
+0 0
+S
+#2876
+{@@W{2estern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2857
+0 0
+D2
+~
+~
+Z 0 2858
+0 0
+S
+#2877
+Before the Eastern Inland Walls~
+Up into the sky, towering above you, are the great walls of the
+archer city. These are the walls that made the name for this
+heavily guarded city. To the north and south are turrets with
+archers ready to draw their arrows at any conflicting offender.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2872
+0 0
+D3
+~
+~
+Z 0 2832
+0 0
+S
+#2878
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2879
+0 0
+D3
+~
+~
+Z 0 2858
+0 0
+S
+#2879
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2880
+0 0
+D3
+~
+~
+Z 0 2878
+0 0
+S
+#2880
+{&S{7outhern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D1
+~
+~
+Z 0 2881
+0 0
+D3
+~
+~
+Z 0 2879
+0 0
+S
+#2881
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2882
+0 0
+D3
+~
+~
+Z 0 2880
+0 0
+S
+#2882
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2883
+0 0
+D3
+~
+~
+Z 0 2881
+0 0
+S
+#2883
+{&S{7outhern {^In{6land {$W{4all{x~
+Off-white, slightly rippled and torn "{#Wanted{x" posters are bolted up
+on the city walls. You pray that it is not your face that you find hung up
+in these city's borders, for not one wanted soul has been overlooked. For
+each death checked off, there is two celebrations in Ronni's bar.
+~
+0 0 inside
+E
+wanted~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+E
+sign~
+A "{#Wanted{x" Sign reads: All of the souls who wish to
+invade this city, and make it out with their lives, a wanted
+soul shall be placed on their heads for 1 million gold.
+~
+D1
+~
+~
+Z 0 2884
+0 0
+D3
+~
+~
+Z 0 2882
+0 0
+S
+#2884
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2885
+0 0
+D3
+~
+~
+Z 0 2883
+0 0
+S
+#2885
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2886
+0 0
+D3
+~
+~
+Z 0 2884
+0 0
+S
+#2886
+{&S{7outhern {^In{6land {$W{4all{x~
+You notice there aren't any ways to get out of this city unless you make
+your way back to the entrance and have the guards lower the turnstile.
+There are no portholes or apertures to peek out of, to see the outside
+world's drama. Many of the elders forget who hide behind books and
+rest in their cubby holes, read newspapers and listen to word of mouth,
+for inside this Fortress, it is easy to forget the rest of the world's
+existance.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2887
+0 0
+D3
+~
+~
+Z 0 2885
+0 0
+S
+#2887
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2888
+0 0
+D3
+~
+~
+Z 0 2886
+0 0
+S
+#2888
+{&S{7outhern {^In{6land {$W{4all{x~
+This wall's bedrock is made of crushed boulders, and grey cobblestone.
+It is rough and very cold to the touch. Up above you, can be seen the eyes
+of the city's defense. The city's elven archers have their bows stretched
+with arrows in hand ready to shoot at any unworthy intruders. From time
+to time you can hear the unmistakable woosh and thunk of an arrow being
+blasted through the air and into someone's chest. The defense system of
+this city is quite astonishing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2889
+0 0
+D3
+~
+~
+Z 0 2887
+0 0
+S
+#2889
+{&S{7outhern {^In{6land {$W{4all{x~
+You notice there aren't any ways to get out of this city unless you make
+your way back to the entrance and have the guards lower the turnstile.
+There are no portholes or apertures to peek out of, to see the outside
+world's drama. Many of the elders forget who hide behind books and
+rest in their cubby holes, read newspapers and listen to word of mouth,
+for inside this Fortress, it is easy to forget the rest of the world's
+existance.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2890
+0 0
+D3
+~
+~
+Z 0 2888
+0 0
+S
+#2890
+{%S{5outh{%e{5astern {^In{6land {$C{4orner{x~
+Next to you is a heavy stone door leading up to the turret systems upon
+the cold stone ledges. The tops of hats can be seen, and briefly the arms
+of elves, pulling arrows backwards and flinging them into the air. The
+speed of the arrows is so fast that they can be heard in a high, screaming
+pitch, fading into the distance as they pierce the air. The great wall
+branches off to the north and west.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2875
+0 0
+D3
+~
+~
+Z 0 2889
+0 0
+D4
+~
+~
+Z 0 2891
+0 0
+S
+#2891
+{%S{5outh{%e{5astern {^T{6urre{^t{x~
+Lined up with backs against the walls, swiftly drawing arrows from
+leather sheathes on their backs, and eyes just above the stone walls,
+are the famous elven archers of the city. Some of them are laughing
+merrily and drinking beer and schnapps from silver flasks, others are
+staring in a fixed gaze at the areas around them, waiting for movement
+to arise. There are ladders bound to the walls in case of emergency
+or fire, and racks of arrows are nailed up against the opposing walls.
+The sound of piercing arrows fills the air. There is a tense aura coming
+from some of the transfixed elves, but others are quite drunk and still
+a perfect shot.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2890
+0 0
+S
+#2892
+Rosana's Rosary~
+A beautiful, young girl by the name of {5R{%osana{x, is knelt quietly by
+a flower garden here. She quickly stands up and glides across the
+room towards you with ease, and rubs her hands on a towel. This
+is her little home that she likes to invite the other elves of the city
+into. There is a quiet trickling from a set of rocks under a man made
+waterfall. On {5R{%osana{5'{%s{x check out desk is a divinely white kitten,
+surrounded by rose buds and petals. All around the room can be
+seen beautiful flowers and remedies that she has concocted over
+the years through experimenting. 
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 2860
+0 0
+S
+#2893
+The Warden's Office~
+Gold medals, trophies, and plaques shower the walls neatly.
+A stack of papers is trimly piled on his desk next to a small
+ticking clock. There are four glass display boxes, one in each
+corner, exhibiting the fine bows and arrows from around all
+of Thera. The warden sits behind his desk, plotting away at
+with his quill on a scroll. Back to the south is the lobby.
+~
+0 0 inside
+D2
+~
+~
+ABCZ 0 2894
+0 0
+S
+#2894
+The Lobby~
+A marble lined lobby with pictures of various battles and awards hang
+from the walls.  A highly detailed wooden door leads northward into the
+Warden office.  He is a very busy man, so you should not bother him.  
+~
+0 0 inside
+D0
+~
+~
+ABCZ 2896 2893
+0 0
+D5
+~
+~
+ABZ 0 2812
+0 0
+S
+#2895
+~
+~
+0 X inside
+S
+#2896
+~
+~
+0 0 inside
+S
+#2897
+~
+~
+0 0 inside
+S
+#2898
+~
+~
+0 0 inside
+S
+#2899
+~
+~
+0 0 inside
+S
+#0
+
+#RESETS
+D 0 2802 0 2	* {^O{6fficer{^'{6s {#E{3xam{#i{3nat{#i{3o{#n{x: door to the north: closed and locked
+D 0 2803 2 2	* {^I{6nto {&t{7he {@E{2lve{@n {#City{x: door to the south: closed and locked
+D 0 2812 4 1	* {&The {!F{1ortres{!s {$C{4heck {$P{4oint{x: door to the up: closed
+D 0 2816 3 1	* {^I{6nto {&the {8Dimly {#Lit {@E{2lve{@n {3City{x: door to the west: closed
+D 0 2817 1 1	* Elven Armory: door to the east: closed
+D 0 2819 1 1	* {^I{6nto {&the {8Dimly {#Lit {@E{2lve{@n {3City{x: door to the east: closed
+D 0 2820 3 1	* Ronni's Bar: door to the west: closed
+D 0 2826 2 1	* Along the Dirt Road: door to the south: closed
+D 0 2829 0 2	* The {@L{2'{@eimen{2'{@le {&Home{x: door to the north: closed and locked
+D 0 2831 2 2	* Hiding Place Behind the Bookcase: door to the south: closed and locked
+D 0 2833 0 1	* {#S{3t{#e{3a{#m{3i{#n{3g {&Bakery{x: door to the north: closed
+D 0 2835 0 1	* A Cubby Hole: door to the north: closed
+D 0 2860 0 1	* Along the Dirt Road: door to the north: closed
+D 0 2863 2 1	* Along the Dirt Road: door to the south: closed
+D 0 2892 2 1	* Rosana's Rosary: door to the south: closed
+D 0 2893 2 2	* The Warden's Office: door to the south: closed and locked
+D 0 2894 0 2	* The Lobby: door to the north: closed and locked
+D 0 2894 5 1	* The Lobby: door to the down: closed
+M 0 2802 1 2802 1	* {xthe {&Elven Officer{x ({^O{6fficer{^'{6s {#E{3xam{#i{3nat{#i{3o{#n{x)
+G 0 2802 0		*	Fortress Key
+M 0 2801 50 2805 2	* an ambulant elf ({^I{6nto {&t{7he {@E{2lve{@n {#City{x)
+M 0 2807 7 2806 2	* a {Wc{wr{Dy{Ws{wt{Wa{wl {Gd{gr{Ga{gg{Go{gn{x ({^I{6nto {&t{7he {@E{2lve{@n {#City{x)
+M 0 2801 50 2808 2	* an ambulant elf ({^I{6nto {&t{7he {@E{2lve{@n {#City{x)
+M 0 2805 50 2810 2	* {7a {8blackmailer {@elf{x ({^I{6nto {&t{7he {@E{2lve{@n {#City{x)
+M 0 2804 50 2810 1	* {7a blind man{x ({^I{6nto {&t{7he {@E{2lve{@n {#City{x)
+M 0 2806 30 2811 2	* {7an elven cityguard ({^I{6nto {&t{7he {@E{2lve{@n {#City{x)
+M 0 2805 50 2812 2	* {7a {8blackmailer {@elf{x ({&The {!F{1ortres{!s {$C{4heck {$P{4oint{x)
+M 0 2804 50 2815 2	* {7a blind man{x ({^I{6nto {&the {8Dimly {#Lit {@E{2lve{@n {3City{x)
+M 0 2817 1 2817 1	* {@D{2arby{x (Elven Armory)
+G 0 2819 0		*	{7an arrow sheath{x
+G 0 2817 0		*	{7a slitted {2elvish {xhat{x
+G 0 2818 0		*	{7a {2green {7hat{x
+G 0 2820 0		*	{7an archer's arrow{x
+M 0 2820 1 2820 1	* {6R{^onn{6i{x (Ronni's Bar)
+G 0 2821 0		*	{6R{^onn{6i{^'{6s {&Specialty {1B{!rew{x
+O 0 2822 0 2820	* {5O{%ld {6J{^ukebox{x (Ronni's Bar)
+G 0 2823 0		*	{^P{6e{7p{&p{7e{6r{^m{6i{^n{&t {^Sch{&n{7a{&p{^ps{x
+G 0 2824 0		*	{4C{$a{7r{&d{8a{7m{$o{4m {&Schnapps{x
+M 0 2821 1 2820 1	* {2P{@hegilas{x (Ronni's Bar)
+M 0 2822 1 2820 1	* {4A{$roilen{x (Ronni's Bar)
+M 0 2843 50 2821 2	* {7a city patrol officer{x ({^I{6nto {&the {8Dimly {#Lit {@E{2lve{@n {3City{x)
+M 0 2804 50 2822 2	* {7a blind man{x ({^I{6nto {&the {8Dimly {#Lit {@E{2lve{@n {3City{x)
+M 0 2804 50 2826 2	* {7a blind man{x (Along the Dirt Road)
+M 0 2827 1 2827 1	* {3F{#ylar{x (Along the Dirt Road)
+G 0 2834 0		*	{xa wand of {!aci{1d a{!rrow{x
+G 0 2827 0		*	{7a syrupy {%p{5i{%n{5k {xpotion{x
+G 0 2828 0		*	{$O{4c{^e{6a{&n{7'{8s {&Breeze{x
+G 0 2832 0		*	{#D{!r{#a{!g{#o{!n{#'{!s {#W{!i{#n{!g{#s{x
+G 0 2833 0		*	{7A {$D{@a{$b {7of {@T{$h{@i{$s {7a {$D{@a{$b {7of {@T{$h{@a{$t{x
+O 0 2829 0 2829	* the bookcase (The {@L{2'{@eimen{2'{@le {&Home{x)
+M 0 2829 1 2829 1	* {7the {8black cat{x (The {@L{2'{@eimen{2'{@le {&Home{x)
+G 0 2830 0		*	{xThe {!Bookshelf {xKey{x
+M 0 2831 1 2831 1	* {7Ramah{x (Hiding Place Behind the Bookcase)
+E 0 2831 0 16		*	{7Ramah's {#golden {7arrow{x: wielded
+M 0 2801 50 2832 1	* an ambulant elf (Along the Dirt Road)
+M 0 2833 1 2833 1	* {3M{#ase{#i{3a{#h{x ({#S{3t{#e{3a{#m{3i{#n{3g {&Bakery{x)
+G 0 2837 0		*	{7a {$v{@e{$r{@y{$b{@e{$r{@r{$y {#pie{x
+G 0 2838 0		*	{7buffalo {3skin{x
+O 0 2835 0 2835	* {7a worn {3brown {xcouch{x (A Cubby Hole)
+M 0 2835 1 2835 1	* {2N{@adyah{x (A Cubby Hole)
+E 0 2836 0 16		*	{7a {&diamond {xencrusted dagger{x: wielded
+M 0 2836 1 2835 1	* {4A{$liden{x (A Cubby Hole)
+M 0 2843 50 2836 2	* {7a city patrol officer{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2843 50 2837 2	* {7a city patrol officer{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2843 50 2838 2	* {7a city patrol officer{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2804 50 2839 2	* {7a blind man{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2801 50 2840 2	* an ambulant elf ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2807 7 2841 2	* a {Wc{wr{Dy{Ws{wt{Wa{wl {Gd{gr{Ga{gg{Go{gn{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2843 50 2842 2	* {7a city patrol officer{x ({%N{5orth{%e{5astern {^In{6land {$C{4orner{x)
+M 0 2851 20 2843 2	* {7an elven archer{x ({%N{5orth{%e{5astern {^T{6urre{^t{x)
+E 0 2851 0 16		*	{7a {#bronze {7bow and arrow{x: wielded
+M 0 2805 50 2844 2	* {7a {8blackmailer {@elf{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2806 30 2845 2	* {7an elven cityguard ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2843 50 2846 2	* {7a city patrol officer{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2805 50 2846 2	* {7a {8blackmailer {@elf{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2805 50 2847 2	* {7a {8blackmailer {@elf{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2806 30 2848 2	* {7an elven cityguard ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2843 50 2849 2	* {7a city patrol officer{x ({!N{1orthern {^In{6land {$W{4all{x)
+M 0 2838 1 2850 1	* {&B{7arnie{x ({%N{5orth{%w{5estern {^In{6land {$C{4orner{x)
+M 0 2851 20 2851 2	* {7an elven archer{x ({%N{5orth{%w{5estern {^T{6urre{^t{x)
+E 0 2851 0 16		*	{7a {#bronze {7bow and arrow{x: wielded
+M 0 2850 1 2851 1	* Lohgan ({%N{5orth{%w{5estern {^T{6urre{^t{x)
+E 0 2851 0 16		*	{7a {#bronze {7bow and arrow{x: wielded
+M 0 2850 1 2851 1	* Lohgan ({%N{5orth{%w{5estern {^T{6urre{^t{x)
+M 0 2805 50 2852 2	* {7a {8blackmailer {@elf{x ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2843 50 2853 2	* {7a city patrol officer{x ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2805 50 2854 2	* {7a {8blackmailer {@elf{x ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2843 50 2855 2	* {7a city patrol officer{x ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2805 50 2856 2	* {7a {8blackmailer {@elf{x ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2806 30 2857 2	* {7an elven cityguard ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2801 50 2858 2	* an ambulant elf ({%S{5outh{%w{5estern {^In{6land {$C{4orner{x)
+M 0 2851 20 2859 2	* {7an elven archer{x ({%S{5outh{%w{5estern {^T{6urre{^t{x)
+E 0 2851 0 16		*	{7a {#bronze {7bow and arrow{x: wielded
+M 0 2801 50 2861 2	* an ambulant elf (Along the Dirt Road)
+M 0 2804 50 2862 2	* {7a blind man{x (Along the Dirt Road)
+M 0 2805 50 2863 2	* {7a {8blackmailer {@elf{x (Along the Dirt Road)
+M 0 2801 50 2865 2	* an ambulant elf (Along the Dirt Road)
+M 0 2804 50 2866 2	* {7a blind man{x (Before the Western Inland Walls)
+M 0 2843 50 2868 2	* {7a city patrol officer{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2805 50 2869 2	* {7a {8blackmailer {@elf{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2801 50 2870 2	* an ambulant elf ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2843 50 2871 2	* {7a city patrol officer{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2805 50 2872 2	* {7a {8blackmailer {@elf{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2843 50 2873 2	* {7a city patrol officer{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2843 50 2874 2	* {7a city patrol officer{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2804 50 2875 2	* {7a blind man{x ({@E{2astern {^In{6land {$W{4all{x)
+M 0 2843 50 2876 2	* {7a city patrol officer{x ({@W{2estern {^In{6land {$W{4all{x)
+M 0 2806 30 2877 2	* {7an elven cityguard (Before the Eastern Inland Walls)
+M 0 2806 30 2878 2	* {7an elven cityguard ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2805 50 2879 2	* {7a {8blackmailer {@elf{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2806 30 2880 2	* {7an elven cityguard ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2801 50 2881 2	* an ambulant elf ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2806 30 2881 1	* {7an elven cityguard ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2843 50 2881 2	* {7a city patrol officer{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2804 50 2882 2	* {7a blind man{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2806 30 2883 2	* {7an elven cityguard ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2843 50 2884 2	* {7a city patrol officer{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2804 50 2885 2	* {7a blind man{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2806 30 2886 2	* {7an elven cityguard ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2843 50 2887 2	* {7a city patrol officer{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2801 50 2888 2	* an ambulant elf ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2804 50 2888 1	* {7a blind man{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2805 50 2889 2	* {7a {8blackmailer {@elf{x ({&S{7outhern {^In{6land {$W{4all{x)
+M 0 2843 50 2890 2	* {7a city patrol officer{x ({%S{5outh{%e{5astern {^In{6land {$C{4orner{x)
+M 0 2851 20 2891 2	* {7an elven archer{x ({%S{5outh{%e{5astern {^T{6urre{^t{x)
+E 0 2851 0 16		*	{7a {#bronze {7bow and arrow{x: wielded
+M 0 2892 1 2892 1	* {5R{%osana{x (Rosana's Rosary)
+G 0 2892 0		*	{7a {&c{7e{8l{7e{&s{7t{8i{7a{&l {&white {xflower{x
+G 0 2893 0		*	{7a {@s{2e{@v{2e{@n {#leaf {@weed{x
+G 0 2894 0		*	{7some {@green {7moss{x
+G 0 2895 0		*	{7a small glimmering pill labeled "{8poof{x"{x
+M 0 2803 1 2893 1	* {7the fortress warden{x (The Warden's Office)
+E 0 2898 0 8		*	{7Warden's Boots{x: on the feet
+E 0 2897 0 16		*	{!W{1arde{!n{1'{!s {#bow{x: wielded
+M 0 2808 2 2894 2	* {7a heavily guarded {8archer{x (The Lobby)
+G 0 2896 0		*	{!W{1arde{!n K{1e{!y{x
+S
+
+#SHOPS
+2817 0 0 0 0 0 100 20 0 23
+2820 0 0 0 0 0 100 20 0 23
+2827 0 0 0 0 0 100 12 0 23
+2833 0 0 0 0 0 100 10 0 23
+2892 0 0 0 0 0 100 18 0 23
+0
+
+#MOBPROGS
+#2802
+say Are you an elven archer for my city's borders?
+~
+#2803
+say Then what are your intentions in this fortress? Do you come in peace or to kill?
+~
+#2804
+say Proceed, but I have my eye on you.
+mob echo with a slow movement the Elven Officer removes a key from his vest.
+give fort $n
+~
+#2805
+say Proceed.
+mob echo with a slow movement the Elven Officer removes a key from his vest.
+give fort $n
+~
+#2806
+mob echo With a movement the Elven Officer removes a key from his vest.
+mob oload 2802
+give key $n
+~
+#2807
+say Then our arrows shall penetrate your throat!!!
+murder $n
+~
+#2808
+attack $n
+~
+#2809
+point $n
+say Halt, you!
+~
+#2821
+say YOUCH! Someone get this damn arrow outta my foot! Damn you Aroilen!
+~
+#2827
+emote yells deafly '{@Hey thar! Would you like some aiding ailments? Mah backpack is stuffed near full o'em!{x'
+~
+#2829
+emote hisses carelessly.
+say Master will not be happy, but your wish is my command.
+mob echo {7The {8black cat {xhurtles a large bronze key from deep within his fur.{x
+give book $n
+end
+~
+#2830
+head
+glare $n
+say Not without a fight!
+~
+#2831
+say This arrow belongs not to you. It is my lucky arrow, for I have shot down the assassin of my own father with it. If you wish to take it from me, there will be a battle so fierce no other in this city will forget it. Please, leave my study.
+~
+#2832
+say I...have become old...and frail..How dare you take my lucky arrow..and my life...You...will...regret this! Disgrace be to your family...
+~
+#2833
+say Just say it $n "Give me the golden arrow"... I know this is why you have come.
+peer $n
+~
+#2834
+say Welcome to my bakery! Would ye like some pies? Or possibly some of my famous buffalo skins?
+lick
+~
+#2835
+emote slowly looks up at you as you enter the room.
+~
+#2836
+say A'righty! Just type 'list' to see all of my delicacies darlin'.
+~
+#2837
+say Purrrrooooww.....
+say Tell me, $n...Should I open the bookcase for you?
+~
+#2892
+say Welcome home, dear. Can I help you with something?
+~
+#2893
+say Type 'list' to see what I have in stock for you, dear.
+~
+#0
+
+#$

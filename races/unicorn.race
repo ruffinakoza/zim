@@ -1,0 +1,17 @@
+#RACE
+Name unicorn~
+Dodge 50
+Align 1000
+Size large
+DamType stab
+Act wimpy mage outdoors notrack~
+Aff protect_evil acute_vision detect_hidden detect_invis~
+Off dodge kick dirt_kick trip assist_align assist_race~
+Imm holy~
+Res lightning negative~
+Vuln slash iron~
+Form none~
+Parts head legs heart brains guts ear eye tail horns~
+End
+
+#$

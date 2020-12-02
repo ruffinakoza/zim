@@ -1,0 +1,44 @@
+#CLAN
+Name Barbarian~
+Recall 95405
+Item 95465
+Mark 95409
+Altar 95469
+Donate 95439
+#Skill 'bandage' 40 70
+#Skill 'clan recall' 20 70
+#Skill 'deathblow' 60 70
+#Skill 'spellbane' 70 70
+#Skill 'trophy' 50 70
+#Skill 'truesight' 30 70
+Title 13 male Patron~
+Title 13 female Patron~
+Title 12 male Warchief~
+Title 12 female Warchieftess~
+Title 11 male Elder~
+Title 11 female Elder~
+Title 10 male Headhunter~
+Title 10 female Headhunter~
+Title 9 male Berserker~
+Title 9 female Berserker~
+Title 8 male General~
+Title 8 female General~
+Title 7 male Defender~
+Title 7 female Defender~
+Title 6 male Captain~
+Title 6 female Captain~
+Title 5 male Lieutenant~
+Title 5 female Lieutenant~
+Title 4 male Veteran~
+Title 4 female Veteran~
+Title 3 male Foot Soldier~
+Title 3 female Foot Soldier~
+Title 2 male Tribesman~
+Title 2 female Tribeswoman~
+Title 1 male Probation~
+Title 1 female Probation~
+Title 0 male Outcast~
+Title 0 female Outcast~
+End
+
+#$

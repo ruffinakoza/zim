@@ -1,0 +1,14 @@
+#RACE
+Name basilisk~
+Dodge 40
+Sex either
+Size medium
+DamType bite
+Act aggressive stay_area noalign notrack~
+Aff slow~
+Off berserk tail trip~
+Form magical reptile~
+Parts head legs heart brains guts feet eye tail claws fangs scales~
+End
+
+#$

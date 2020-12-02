@@ -1,0 +1,745 @@
+#AREADATA
+Name Drunken Zealot(Finn's House)~
+Builders sadin~
+VNUMs 100991 101019
+Credits Sadin~
+Security 1
+LevelRange 30 91
+ResetMessage The barmaid yells, '{MLast call! . . . Just kidding.{x'~
+Flags closed noquest playerhouse~
+End
+
+#MOBILES
+#100991
+prufrock gnome~
+Prufrock~
+A middle-aged gnome, is pacing here, deciding whether do go inside.
+~
+A middle-aged gnome is here in a morning coat, his collar mounted firmly
+to the chin.  His necktie is rich and modest, but asserted by a simple pin. 
+But how his arms and legs are thin.  A bald spot is in the middle of his
+hair.  Oh, how his hair is growing thin.  
+~
+gnome~
+AB K 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 0
+0 0 large flesh~
+~
+#100992
+grushlok orc large bouncer~
+Grushlok~
+A grisly bouncer is here, with his arms folded over his rippling chest.
+~
+Huge muscles are the only armor this bouncer needs.  He isn't dressed in
+much more, just dark breeches and a white muscle shirt.  At least you think
+it used to be white.  His arms, more like branches of a gigantic tree, are
+folded across his green chest, resting on his black chest hair.  Flies buzz
+around his head, and keep landing on his shoulders, right above a strange
+scar.  He doesn't seem impressed or pleased with your arrival.  
+~
+orc~
+ABTe DFOVlu -5000 0
+106 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+CEFJKW AB 0 0
+stand stand male 0
+0 0 large flesh~
+~
+F vul N
+#100993
+kirstili centaur~
+Kirstili~
+A centaur draped in beads and painted in tattoos is waiting to be let in.
+~
+Covered with mystic runes and holy tattoos, this centaur awaits entrance
+to the pub.  She's fidgeting back and forth, swinging her tail, and brushing
+away flies.  Around each hoof, she wears beads made of rock, polished stone
+and teeth of various kinds.  Her face is painted with the spiritual glyphs
+only a shaman is allowed to wear.  
+~
+centaur~
+ABQe HV 5000 0
+106 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+K AB 0 0
+stand stand female 0
+0 0 large flesh~
+~
+#100994
+old-timer old timer dwarf~
+An old-timer~
+An old-timer peers into his drink, looking for solace.
+~
+An old dwarf is here in ancient battle armor from before the Goblin War. 
+The leather straps look brittle, and the breastplate, though tarnished to a
+smoke black, is obviously of exquisite craftsmanship.  The old-timer hardly
+gives you more than a nod of recognition before turning back to his mead. 
+You get the strong impression he's suffering from a great loss, one not even
+a God could console.  
+~
+dwarf~
+ABT 0 0 0
+95 140 428d95+-7000 475d10+85 31d3+300 none
+-54 -54 -54 -35
+DEFKW 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100995
+braggart mercenary cat felar~
+a felar thief~
+A boisterous mercenary is here holding court, bragging of his adventures.
+~
+In mis-matched armor --scale mail breastplate, plate mail greaves,
+studded leather boots-- this sword for hire is wielding some unbelievable
+tales.  His greasy calico fur is singed on his shoulder, and his left ear is
+completely bald.  If half of what he says is true then you're surprised he
+isn't dead, even if he is a cat.  He doesn't seem to get out much anymore
+though.  His stomach is the size of a troll's head, and reveals his
+addiction to the Drunken Zealot's house special.  All the while he's
+spinning his yarn he's always keeping a lustful eye on the barmaid.  
+~
+felar~
+ABS 0 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100996
+regular adventurer drow patron~
+a regular~
+A regular patron is here, quaffing a stone mug of the house special.
+~
+A fellow adventurer is here relaxing after a hard day of traveling all
+over the realm doing odd jobs for Questus.  
+~
+dark-elf~
+AB 0 -3000 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+JN 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#100997
+regular adventurer patron frost giant~
+a regular~
+A regular patron is here, quaffing a stone mug of the house special.
+~
+A fellow adventurer is here relaxing after a hard day of traveling all
+over the realm doing odd jobs for Questus.  
+~
+frost giant~
+AB 0 -3000 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+0 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+#100998
+convert arial~
+a convert~
+A convert is handing out leaflets with great enthusiasm.
+~
+Dressed in the wrinkled flowing robes of a wizard, this arial is beaming
+with the over-enthusiastic zeal of a recent convert.  You're not exactly
+sure what he's a convert to, but you notice a burned out symbol that used to
+bare a striking resemblance to the {YMark of the Adept{x.  Perhaps reading the
+leaflet would help you find out more.  
+~
+arial~
+AB 0 3500 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100999
+kuulah minotaur guard~
+Kuulah~
+The {Dsilhouette{x of a handsome {mminotaur{x stands sentry in the doorway.
+~
+You can barely make out more than her shape, which is incredibly lithe
+for a minotaur.  Lithe but rippled with toned muscles that bind with every
+motion she makes.  Her skin is smooth except for an ugly scar on her
+shoulder that looks like some rite of initiation and seems familiar.  You
+can't make out any of the rest of her features because of the poor light. 
+But you gather she's very discriminating in whom she lets pass.  
+~
+minotaur~
+AB DFHVac 0 0
+110 110 589d110+0 1100d11+95 37d2+80 none
+-69 -69 -69 -47
+EFJK 0 0 0
+stand stand female 0
+0 0 gargantuan flesh~
+~
+#101000
+divine sentry spirit guard~
+a divine sentry spirit~
+A divine sentry spirit hovers here motionless.
+~
+There isn't much to look at.  The spirit is a wispy vapor of smoke that
+mingles and blends with smoke in the room.  If anything there's more a smell
+and temperature impression you feel from the spirit.  It's cooler than the
+rest of the room and it gives off a, well, a hickory scent.  
+~
+ghost~
+AB DFHQVgl 0 0
+115 115 622d115+20000 1150d11+95 39d2+84 none
+-73 -73 -73 -49
+0 ABEFK 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F vul N
+#101001
+dealer half-elf elf~
+The dealer~
+A pretty half-elf dealing cards for a high stake game.
+~
+The half-elf has been blessed with all the good features of her parents. 
+Her high cheekbones accentuate her full lips.  You can't see her eyes
+because the brim of the banker's cap is shading them.  This allows her to
+easily spot cheats at the table.  The stakes of the game look as high as she
+looks serious.  You probably shouldn't try to con her.  
+~
+half-elf~
+AB H 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#101002
+hurnifal rockseer priest barbarian~
+Hurnifal~
+A retired {yBarbarian{x priest is trying to pay off his debts.
+~
+This venerable old rockseer has fallen on hard time.  His luck's run out
+long ago, and yet he keeps asking the dealer for another hand.  Now he's
+so deep in debt that he's offering his prayers for tips.  For {Wten silver{x
+he'll summon you up a {mmushroom{x to fill your tummy.  For {Yone gold{x he'll ask
+his god for a {Mmystical{x {cspring{x to gush forth from the ground so you can
+quench your thirst.
+~
+rockseer~
+ABQ H 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#101003
+bogdin thief githyanki~
+Bogdin~
+A thief is here making off with the payroll.
+~
+This thief has snuck into Finn's office and is making off with the
+payroll.  He looks very familiar with this place, almost at home.  No wonder
+the Drunken Zealot is in the red.  
+~
+githyanki~
+AB Q -5000 0
+91 91 405d91+-36854 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#100991
+keg special brew finn~
+Finn's {rspecial {Dbrew{x~
+A tapped keg lodged in the wall, marked "Finn's {rspecial {Dbrew{x".~
+wood~
+~
+fountain CIRY 0
+-1 -1 'local specialty' 0
+0 0 0 P
+E
+keg~
+Take a swig, or fill yer favorite container here.
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100991
+{YY{we{Yll{wo{Yw {wFogged{W Alley{x~
+The evening is spread out against the sky in this half-deserted street. 
+A yellow fog rubs its back upon the window-panes of the ramshackle building
+up a head.  A flittering slow glow of someone moving in front of lantern
+light casts on the damp ground.  The mood is inviting, but somehow
+lonely . . . Until you hear the full belly chuckle of a boisterous dwarf
+finishing a long-winded joke.
+~
+0 0 city
+D0
+~
+~
+Z 0 100992
+0 0
+S
+#100992
+Entrance to the {rDrunken {DZealot{x~
+{GS{go{Gd{x on the roof hangs over a low wooden doorway reinforced by {Ci{cr{Co{cn{x
+braces.  A pair of l{Ya{xnter{Yn{xs hung on either side of the entrance are covered
+with so much {Dsoot{x from using cheap oil that you're not sure if they are even
+lit or not.  A cacophony from behind the door sounds like someone toasting
+an old battle victory, or at least a braggart.  The door is ajar and looks
+welcoming enough, but you get the feeling you should {rwatch yourself{x inside. 
+
+~
+0 0 city
+D0
+~
+~
+Z 0 100993
+0 0
+D2
+~
+~
+Z 0 100991
+0 0
+S
+#100993
+Inside the {rDrunken {DZealot{x~
+You wait for your eyes to adjust to the light in the pub.  You get the
+impression that you're {yunderground{x.  The walls are thick {Dstone{x, masoned by a
+true journeyman.  But the ceiling is a little low for your tastes.  Light
+shines a warm orange glow over the sawdust floor, and gives a homey feel to
+the place.  The air is musty and smells of mead and body-odor.  Some
+murmuring off to your right has others howling in laughter, maybe you should
+check it out.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100995
+0 0
+D1
+~
+~
+Z 0 100994
+0 0
+D2
+~
+~
+Z 0 100992
+0 0
+S
+#100994
+An Empty Table~
+This table is empty, and doesn't look like it's been used much at all. 
+The corners are still sharp, and the there are few stains on the top. 
+Apparently, no one wants to sit by the door.  Maybe it's too far from the
+bar.  Of course, it could also be that the barmaid doesn't cross this spot
+on her way to the kitchen.  
+~
+0 D inside
+D0
+~
+~
+Z 0 101001
+0 0
+D1
+~
+~
+Z 0 100996
+0 0
+D3
+~
+~
+Z 0 100993
+0 0
+S
+#100995
+A Hallway Near The Kitchen~
+You think about just standing here for a while.  It's the only place in
+the whole pub that doesn't smell like mead and sweat.  Instead has the
+fragrance of a home-cooked meal, something you haven't tasted in quite some
+time.  The door to the east must lead to the kitchen.  
+~
+0 D inside
+D0
+~
+~
+Z 0 101004
+0 0
+D1
+~
+~
+Z 0 101001
+0 0
+D2
+~
+~
+Z 0 100993
+0 0
+D3
+~
+~
+ABZ 0 101003
+0 0
+S
+#100996
+A Table Close to the Bar~
+This table looks like a prime location.  You can keep an eye on the door,
+and it's close enough to the bar to lean over and ask the bartender for
+another without straining your neck.  The table is well used, with rounded
+corners from people trying to hang on after one too many.  Beer stains and
+waters stains coat the top in an interesting mosaic of circles and spills. 
+The top's a bit sticky and could use a good wipe down.  You could wait for
+the barmaid here.  To the south is a darkened corner of the pub.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100998
+0 0
+D2
+~
+~
+Z 0 100997
+0 0
+D3
+~
+~
+Z 0 100994
+0 0
+S
+#100997
+An Old-timer's Nook~
+This corner of the pub is hardly a clean, well-lighted place.  Well, it
+is clean, strangely so.  Almost as if this spot is given special care.  But
+the lantern in the corner is low on oil and the wick is a billowing stream
+of black smoke.  The light is warm, but flickering terribly.  It doesn't
+seem to be bothering the patron here.  The barmaid has an uncanny ability to
+arrive here only when there's a drink to be poured, and never an empty glass
+is seen.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100996
+0 0
+S
+#100998
+A Table of Regulars~
+Gathered around a table that's been re-enforced with iron brackets along
+the top and buttressed underneath, is a gaggle of regulars who seem all too
+at home here.  Each has a {ym{Du{yg{x at hand, and often another nearby incase the
+barmaid doesn't swing by.  The air is thick with {yme{Ya{yd{x and {Rsw{rea{Rt{x.  The stench
+is so strong your nose curls up.  All the patrons bend their ears to a stout
+felar sporting a potbelly larger than a {gt{Dro{gll{x's head.  He's reveling in old
+glory, bragging about mercenary work in far lands, and quests for arcane
+trinkets.  You're not sure everyone really believes the yarn he's spinning,
+but they sure are enjoying it.  
+ 
+~
+0 D inside
+D1
+~
+~
+ABZ 0 100999
+0 0
+D2
+~
+~
+Z 0 100996
+0 0
+D3
+~
+~
+Z 0 101001
+0 0
+S
+#100999
+The Draft Room~
+Kegs of mead, go-juice, and the house special line the walls of this cool
+room.  They're only stacked so high that even a dwarf can reach the top
+keg's tap and pour himself a fresh one.  One of the keg's is especially
+popular with the patrons.  
+~
+0 D inside
+D2
+~
+~
+Z 0 101000
+0 0
+D3
+~
+~
+ABZ 0 100998
+0 0
+S
+#101000
+Brewery Room~
+Tubs fill the room, hosting an array of fermenting mashes inside.  Sacks
+in the corner are marked for hops, barely, wheat, yeast, and oats.  There
+are a few kegs of honey for mead in the back of the room.  And in the other
+corner there looks like what could be a half assembled still.  Maybe the
+owner is planning on branching out into the hard stuff.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100999
+0 0
+S
+#101001
+A Table Near The Kitchen~
+You can see, or rather smell, why this is a favored table of the pubs
+patrons.  From the east, across the hallway, the sweet perfume of whatever's
+in the oven comes here to linger.  It even covers up the usual acrid smell
+of a hard day's work.  The table itself is bright oak, making it seem a
+little out of place compared to the other days.  You get the impression it
+is a recent addition.  And one of the patrons confirms that it is the
+replacement for one smashed in a bar brawl.  
+~
+0 D inside
+D0
+~
+~
+Z 0 101002
+0 0
+D1
+~
+~
+Z 0 100998
+0 0
+D2
+~
+~
+Z 0 100994
+0 0
+D3
+~
+~
+Z 0 100995
+0 0
+S
+#101002
+The Convert's Corner~
+This table has been taken over.  Taken over by papers, fliers, and
+{Wparchment{x.  Someone has made this table his office.  And you'd guess that
+someone is the arial sitting at the table, with a spritzer in hand.  You
+notice the other patrons steer clear of this table when they walk by, as if
+passing too close will encourage the arial to lurch out of his chair and
+bind the passerby in a tangle of conversation.  You'd best try to sneak on
+by.  
+~
+0 D inside
+D2
+~
+~
+Z 0 101001
+0 0
+S
+#101003
+{RMom's {WKitchen{x~
+When you walk into this room you're not so much transported into a
+kitchen, but back in time, to your youth, when your mom used to cook your
+breakfast, lunch and dinner.  The smells of home cooking leave you homesick.
+There just isn't anything like something cooked with lots of {Rl{ro{Rve{x.  There's
+a {ystew{x on the {rf{Yi{Rr{re{x, and a {yp{bi{ye{x tucked away in the stone oven, you're sure of
+it.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 100995
+0 0
+S
+#101004
+Foreboding Hallway~
+Unlike the rest of the pub, this hallway has an {Dunwelcoming{x feeling to
+it.  The stones and mortar in the walls are slate {Dgrey{x, and the light is
+considerably dimmer here.  The ruckus of the rest of the pub barely reaches
+your ears, yet only a few rooms away.  Up ahead you see an ominous figure
+{Ds{Wi{Dlhouetted{x by a {Ylantern{x in the room behind.  Maybe you should turn back.  
+~
+0 D inside
+D0
+~
+~
+Z 0 101005
+0 0
+D2
+~
+~
+Z 0 100995
+0 0
+S
+#101005
+Entrance to the {yBack {DRoom{x~
+This end of the hallway is {Ddark{x, {Dvery dark{x.  At first you though
+different stone was used, maybe {Dcoal{x brick or obsidian, but then you notice
+the black stain is {Dsoot{x.  The walls are covered with it, as if a huge {rb{Rl{Wa{Rs{rt{x
+engulfed this area.  Wooden beams that appear {Dc{yharre{Dd{x on the corners support
+the doorway.  Just beyond the threshold the warm light of a lantern is cast
+on the floor.  You can hear some low grumbling voices inside, voices
+uttering things like "{rsuicidal king{x," "{rone-eyed Jack{x," and "{rdeal{x".  You get
+the impression something conspiratorial might be going on beyond the door.  
+~
+0 D inside
+D0
+~
+~
+Z 0 101006
+0 0
+D2
+~
+~
+Z 0 101004
+0 0
+S
+#101006
+The Corridor to the {yBack {DRoom{x~
+The air in this corridor is heavy with pipe smoke, making it hard to
+breath and causing your eyes to water a bit.  You seem far away from he rest
+of the pub.  The boisterous patrons from the main part of the bar can barely
+be heard.  The light here is different too.  Candles just above the floor
+light the walkway, but not much above.  This corridor is only shadow above
+the waist.  You get a distinct uneasy feeling toward the northern end of the
+corridor.  But off to the east you hear more welcoming sounds.  
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 101009
+0 0
+D1
+~
+~
+Z 0 101007
+0 0
+D2
+~
+~
+Z 0 101005
+0 0
+S
+#101007
+The {yBack {DRoom{x~
+The thick pipe smoke from the hall must have come from this room because
+most of it is shrouded in a foggy haze.  The light is soft in the corners
+and the only thing that's lit is a table in the center of the room.  The top
+of the table has been covered in a mossy green, and someone has chalked
+lines on it.  At the table is a half-elf with a banker's brim hat, and white
+linen sleeves on her arms.  There are about 5 chairs at the table, and
+benches around the side of the room for people waiting to sit at the table. 
+People at the table are playing some game.  The stakes look too rich for
+your blood.  
+~
+0 AD inside
+D3
+~
+~
+Z 0 101006
+0 0
+D5
+~
+~
+ABZ 0 101008
+0 0
+S
+#101008
+A Miner's Hole~
+This room isn't much more than a miner's hole.  Wooden beams brace from
+above the room, but the walls are rock and dirt.  Strangely, there are dried
+leaves in the corner, and you can feel a cool refreshing breeze coming from
+one of the many secret passages here.  
+~
+0 AD inside
+D4
+~
+~
+ABZ 0 101007
+0 0
+S
+#101009
+~
+This corridor is in the way back of the pub.  You don't think you should
+be here.  It's completely unfurnished, and it looks like no one ever is
+allowed back here.  
+~
+0 AD inside
+D2
+~
+~
+ABZ 0 101006
+0 0
+D3
+~
+~
+Z 0 101010
+0 0
+S
+#101010
+The Finn's Office~
+Paperwork is stacked up in every corner of this room.  Billing receipts,
+contracts with brewers, inventory registers, and payroll lists for the
+employees.  By a quick check of the numbers, it looks like the {rDrunken
+{DZealot{x, despite good business, has been in the red for a long time.  In
+the center of the room an old oak desk, which looks like it was hauled up
+from the depths of the Dragon Sea for all the barnacles that cover it's
+sides, is cleared off on the top.  And it looks like Finn spent last night
+sleeping on it.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 101009
+0 0
+S
+#0
+
+#RESETS
+D 0 100995 3 1	* A Hallway Near The Kitchen: door to the west: closed
+D 0 100998 1 1	* A Table of Regulars: door to the east: closed
+D 0 100999 3 1	* The Draft Room: door to the west: closed
+D 0 101003 1 1	* {RMom's {WKitchen{x: door to the east: closed
+D 0 101006 0 1	* The Corridor to the {yBack {DRoom{x: door to the north: closed
+D 0 101007 5 1	* The {yBack {DRoom{x: door to the down: closed
+D 0 101008 4 1	* A Miner's Hole: door to the up: closed
+D 0 101009 2 1	* : door to the south: closed
+M 0 100991 1 100991 1	* Prufrock ({YY{we{Yll{wo{Yw {wFogged{W Alley{x)
+M 0 100992 1 100992 1	* Grushlok (Entrance to the {rDrunken {DZealot{x)
+M 0 100993 1 100992 1	* Kirstili (Entrance to the {rDrunken {DZealot{x)
+M 0 100994 1 100997 1	* An old-timer (An Old-timer's Nook)
+M 0 100995 1 100998 1	* a felar thief (A Table of Regulars)
+M 0 100996 1 100998 1	* a regular (A Table of Regulars)
+M 0 100997 1 100998 1	* a regular (A Table of Regulars)
+O 0 100991 0 100999	* Finn's {rspecial {Dbrew{x (The Draft Room)
+M 0 100998 1 101002 1	* a convert (The Convert's Corner)
+M 0 100999 1 101005 1	* Kuulah (Entrance to the {yBack {DRoom{x)
+M 0 101000 1 101006 1	* a divine sentry spirit (The Corridor to the {yBack {DRoom{x)
+M 0 101001 1 101007 1	* The dealer (The {yBack {DRoom{x)
+M 0 101002 1 101007 1	* Hurnifal (The {yBack {DRoom{x)
+M 0 101003 1 101010 1	* Bogdin (The Finn's Office)
+S
+
+#$

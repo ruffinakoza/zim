@@ -1,0 +1,13 @@
+#RACE
+Name monkey~
+Dodge 120
+Sex either
+Size small
+DamType pound
+Act scavenger thief~
+Off dodge~
+Form animal mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye tail~
+End
+
+#$

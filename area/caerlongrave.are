@@ -1,0 +1,1564 @@
+#AREADATA
+Name Caerlon's Graveyard~
+VNUMs 19700 19750
+Credits nalaeya~
+Security 9
+LevelRange 5 15
+ResetMessage A cold winds blows across the graves, carrying the scent of death and decay.~
+End
+
+#MOBILES
+#19701
+crying widow weeping woman~
+a crying widow~
+A woman kneels before one of the graves, weeping softly.
+~
+Dressed in drab clothing, this woman holds herself up with a quiet
+dignity, though her eyes are red-rimmed.  Every few moments her sobbing
+stops, and she whispers something as if she believes her loved one can still
+hear her.  
+~
+human~
+AB 0 1000 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+0 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+M death 19709 100~
+#19702
+chill wind cold~
+{Ca cold wind{x~
+A cold wind blows across the gravestones, carrying a scent of decay.
+~
+The wind almost seems to have a life of its own, and its touch is like
+the chill of death.  
+~
+unique~
+ABi 0 0 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 19711 100~
+#19703
+grasping hand~
+{ya grasping hand{x~
+A hand reaches up through the earth, trying to pull you under.
+~
+A half-rotten, skeletal hand reaches up through the dirt, grasping for
+anything that moves.  
+~
+unique~
+ABFi 0 -1000 0
+9 9 23d9+0 45d10+85 3d3+9 none
+3 3 3 5
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 19710 100~
+#19704
+ghostly figure~
+a ghostly figure~
+A ghostly figure moves among the graves.
+~
+A ghostly figure walks among the graves, shimmering slightly every now
+and then so that you can suddenly see the gravestones beyond it as if it
+wasn't even there.  It doesn't seem to be aware of your presence.  
+~
+ghost~
+AB 0 0 0
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F res D
+M death 19712 100~
+#19705
+undead corpse~
+an undead corpse~
+An undead corpse stumbles around blindly.
+~
+Little flesh remains on this corpse, though what is still there is
+rotting and gives off a terrible, putrid odour.  The corpse seems to move
+mindlessly, without purpose.  
+~
+undead~
+ABO 0 -1000 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+0 0 0 0
+stand stand either 0
+I 0 medium flesh~
+~
+M death 19713 100~
+#19706
+darkly beautiful vampire woman~
+{Da darkly beautiful vampire{x~
+{DA woman stands by the corpse, blood dripping from her mouth.{x
+~
+{DThe woman is tall and stately, with a statuesque appearance.  Long dark
+hair falls to her slender waist, and dark brown eyes watch you hungrily. 
+Drops of blood can be seen on her lips, and the bloodlust in her eyes says
+she's ready to kill for more.  
+~
+undead~
+ABF 0 -1000 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+0 0 0 0
+stand stand female 500
+0 0 medium flesh~
+~
+F aff U
+M death 19714 100~
+#19707
+necromancer crazed man~
+{Dthe necromancer{x~
+A blood-covered man with a crazed look in his eye chants in a dark language.
+~
+Wearing a tattered black robe that seems to have been soaked in blood,
+the man snarls wordlessly, muttering to himself and then screaming out
+curses and words of dark magic.  
+~
+human~
+AB D -1000 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+0 M 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 19701 100~
+#19708
+caretaker undead body man corpse~
+the caretaker's undead body~
+The undead body of the former caretaker stumbles around.
+~
+The torn clothes and the blood covering the caretaker's corpse shows that
+his death wasn't a pleasant one.  Now, trapped into servitude by the
+necromancer, all he can do is strike blindly at every living being in his
+sight.  
+~
+undead~
+ABFi 0 -1000 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F aff U
+M random 19702 5~
+M death 19715 100~
+#19709
+queen long dead woman ghost spirit~
+{cthe spirit of a long-dead queen{x~
+{cA woman kneels by the altar, eyes closed.{x
+~
+Kneeling by the altar, she barely seems aware of your presence.  A
+beautiful crown is on her head, creating a striking resemblance between
+herself and the statue.  There is a strong, dignified air about her, though
+there also seems to be a deep, terrible sadness.  
+~
+ghost~
+AB DFlmt 1000 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M speech 19705 yes~
+M act 19705 nod~
+M act 19706 shake~
+M speech 19706 no~
+M give 19707 all~
+M grall 19703 100~
+M delay 19704 100~
+M death 19708 100~
+#0
+
+#OBJECTS
+#19701
+widows tears light~
+{Ca {cWid{Cow'{cs {CT{cear{Cs{x~
+A strange light seems to glint on the ground.~
+unknown~
+tears~
+armor 0 AQ
+2 2 2 1 'none' 0
+5 0 7752 P
+A
+18 1
+A
+4 1
+G none
+G none
+G none
+G none
+#19702
+tarnished ruby ring~
+a tarnished {Rr{ruby{x ring~
+A small ring has been dropped on the ground.~
+silver~
+~
+jewelry J AB
+0 0 0 0 0 0 0
+9 3 100 P
+A
+14 5
+A
+19 2
+E
+ring tarnished ruby~
+The ring is very old, and quite tarnished, though it looks as though it
+was once very beautiful.  
+~
+G none
+G none
+G none
+G none
+#19703
+black circlet~
+{DA Dark Circlet{x~
+A dark circlet lies on the ground, glowing faintly with an unholy light.~
+unknown~
+dark magic~
+jewelry EHJM AE
+0 0 0 0 0 0 0
+15 10 1000 P
+A
+13 5
+A
+19 2
+E
+circlet~
+The circlet is as black as midnight, and glows with a strange, unholy
+light.  It seems to be infused with a dark and evil aura, and even holding
+it for a moment brings images of pain and terror to your mind.  
+~
+G none
+G none
+G none
+G none
+#19704
+death shroud~
+{Da death shroud{x~
+A long, black shroud lies in a pile on the ground.~
+unknown~
+cloth~
+clothing EJM AK
+0 0 0 0 0 0 0
+15 10 3236 P
+A
+18 1
+A
+5 1
+G none
+G none
+G none
+G none
+#19705
+caretaker shovel~
+the caretaker's shovel~
+A battered shovel lies on the ground here.~
+metal~
+~
+weapon 0 AN
+mace 1 15 pound 0
+15 15 2144 A
+A
+18 2
+E
+caretaker shovel~
+It seems to be a regular shovel, though blood has been splattered all
+over it.  
+~
+G none
+G none
+G none
+G none
+#19706
+statue crying woman crown~
+{Cthe statue of the kneeling woman{x~
+{CThe beautiful statue of the kneeling woman catches your eye.{x~
+stone~
+~
+portal R 0
+0 0 A 19727 0
+0 0 0 P
+E
+statue woman beautiful kneeling crown~
+The woman depicted is dignified, a solemn look on her face.  The crown on
+her head is beautiful, fit for a queen.  At the base of the statue, there
+seems to be a door, though what lies beyond it lies shrouded in darkness. 
+There's no telling what lies inside.  
+~
+G none
+G none
+G none
+G none
+#19707
+intricate crown golden~
+an intricate golden crown~
+A beautiful golden crown has been left on the ground, where it glints in the light.~
+gold~
+~
+treasure IK AE
+0 0 0 0 0
+15 20 1000 P
+A
+19 1
+A
+4 1
+E
+intricate golden crown~
+The crown has been made to fit a woman's head, small and
+delicate-seeming, though quite heavy.  Rubies and moonstones have been
+worked into the front, the gems glittering in the light.  
+~
+G none
+G none
+G none
+G none
+#19708
+claw white orb strange object~
+{ca claw grasping a {Wwhite orb{x~
+A strange object has been left here on the ground.~
+unknown~
+clouds~
+treasure AI AO
+0 0 0 0 0
+15 5 0 P
+A
+18 2
+A
+13 10
+E
+claw white orb strange object~
+A stone claw graps a beautiful, luminous white orb.  The orb is cool to
+the touch, and as you look upon it, there almost appear to be clouds
+swirling around in its depths.  
+~
+G none
+G none
+G none
+G none
+#19709
+half-burnt torch~
+{ya half-burnt torch{x~
+A plain, half-burnt torch lies on the ground.~
+unknown~
+torch~
+light 0 A
+300
+13 0 6704 P
+A
+18 2
+A
+19 3
+E
+plain half burnt torch~
+It appears to be a regular torch, half of it already burnt away.
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#19700
+The Entrance to the Graveyard~
+Tall, rusted gates stand slightly ajar, one of them looking as though it
+is about to fall off its hinges.  The graveyard of Caerlon lies west beyond
+the gates, a darkly beautiful place of tall statues and carefully tended
+gravestones, with fresh grass growing all around, along with flowers planted
+by the loved ones of the departed.  
+~
+0 0 field
+E
+rusted gates hinges~
+The gates look like they could stand to be replaced, though they don't
+take away from the beauty of the surroundings too much.  
+~
+E
+statues gravestones~
+The statues and gravestones are quite beautiful, and very well-maintained.  
+~
+D1
+A few people can be seen walking down Central Street.
+~
+~
+Z 0 10658
+0 0
+D3
+Gravestones and statues lie to the west, marking the resting places of
+the dead.  
+~
+~
+Z 0 19701
+0 0
+S
+#19701
+Walking Among the Graves~
+The grass here is green and healthy, recently cut by the caretaker in
+charge of maintaining the grave sites.  A soft wind blows across the
+gravestones, carrying a slight chill along with the sound of gentle sobbing.
+Gravestones lie all around, some accompanied by tall statues of the deceased
+or the saints and gods they worshipped in life.  The entrance to the
+graveyard lies to the east, the rusty gates scraping against each other in
+the wind.  
+~
+0 0 field
+E
+statues~
+Statues of Sirala appear to be quite prominent, though there is quite a
+wide diversity nonetheless.  Some of the statues appear to be
+representations of the dead, faces carved to give them a dignified manner.  
+~
+E
+gates rusty~
+The gates make an unpleasant sound as they scrape together, disturbing
+the quiet tranquility of the graveyard.  
+~
+D0
+The graveyard continues to the north, beautiful statues and gravestones
+visible from here.  
+~
+~
+Z 0 19703
+0 0
+D1
+The gates to the graveyard stand open, swaying on rusted hinges.
+~
+~
+Z 0 19700
+0 0
+D2
+A metal fence separates the graveyard from the rest of the city to the south.
+~
+~
+Z 0 19702
+0 0
+D3
+Tall statues and grave stones stand to the west.
+~
+~
+Z 0 19708
+0 0
+S
+#19702
+Walking Among the Graves~
+A sturdy fence of dark metal stands to the south, separating the
+graveyard from the rest of the city.  A tall gravestone catches your eye,
+flowers placed all around it.  It seems as though someone comes by regularly
+to bring more flowers, as they all seem freshly picked.  A small mausoleum
+stands to the east, modestly decorated and probably holding the remains of a
+minor noble.  One grave in particular seems to have acquired a large
+collection of flowers by its side.  
+~
+0 0 field
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+E
+gravestones~
+Beneath a wreath of flowers, words have been etched into the stone.
+ 
+                  {DEddu the {CStorm Giant{x
+Died on the Day of the Sun, 6th day of the Month of the Old Forces
+          {WYour name shall never be forgotten{x
+~
+E
+flowers~
+Small yellow and red flowers have been placed by some of the graves,
+lovingly brought every day by loved ones of the deceased.  
+~
+D0
+Statues stand among the graves to the north, adding a dark beauty to the
+surroundings.  
+~
+~
+Z 0 19701
+0 0
+D1
+The mausoleum to the east seems fit for a minor noble, the architecture
+quite simple.  
+~
+~
+ABZ 0 19725
+0 0
+D3
+The graves continue in rows to the west.
+~
+~
+Z 0 19709
+0 0
+S
+#19703
+Walking Among the Graves~
+The graveyard here is well-maintained, the crass cut and the gravestones
+and statues kept safe from vandals, though the older ones appear to be
+crumbling somewhat.  A single rose has been placed by one of the graves
+nearby, marked only by a small gravestone with only a name etched upon it. 
+A tall metal fence stands to the east, serving as a boundary between the
+graveyard and the city.  
+~
+0 0 field
+E
+statues~
+Statues are placed next to the graves of those who were wealthy in life,
+sometimes representing the deceased, other times representing a favoured god
+or saint.  
+~
+E
+fence~
+The dark metal fence keeps the graveyard separate from the rest of the
+city.  
+~
+E
+rose~
+A single rose has been placed by the grave, creating a haunting effect.
+~
+E
+gravestone~
+A single red rose has been placed on the gravestone.
+ 
+                       {YTyrion{x
+{WMay you find the peace in death you never found in life{x
+ 
+A small note has been placed next to the grave, the paper worn
+and barely legible:
+ 
+                   I miss our fights
+                                  {DElial{x
+~
+D0
+A tall metal fence to the north separates the graveyard from a small
+forest and the city beyond.  
+~
+~
+Z 0 19704
+0 0
+D2
+Tall graves and statues stand in rows.
+~
+~
+Z 0 19701
+0 0
+D3
+The graveyard continues to the west, trees, graves and statues standing
+in rows.  
+~
+~
+Z 0 19707
+0 0
+S
+#19704
+Walking Among the Graves~
+A soft wind blows across this corner of the graveyard, carrying faint
+cries of sorrow with it.  An tall mausoleum stands to the east, the
+architecture ornate but still somehow muted and tasteful.  Vines crawl up
+the metal fence to the north, their pink flowers in bloom, resembling the
+bells often found in the temples nearby.  Beyond the fence to the north lies
+a small forest within the city, the strees swaying as a the wind touches
+their leaves.  
+~
+0 0 field
+E
+vines pink flowers~
+The vines add a delicate beauty to the fence, their flowers giving off a
+fresh and delightful scent.  
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D1
+Nothing can be seen of the mausoleum from outside.
+~
+~
+ABZ 0 19705
+0 0
+D2
+Statues are mingled amongst the graves to the south, marking the burial
+sites of the wealthy.  
+~
+~
+Z 0 19703
+0 0
+D3
+The graves continue in rows to the west.
+~
+~
+Z 0 19706
+0 0
+S
+#19705
+Inside the Mausoleum~
+The mausoleum is filled with the scent of death and decay.  Dust covers
+the floors, though footprints running through it shows that someone--or
+something--has passed through here recently.  The mausoleum appears to be
+empty, the riches once held here long since carried off by grave robbers.  A
+large sarcophagus at the far end of the room holds the remains of the dead. 
+
+~
+0 ACD inside
+E
+sarcophagus~
+The sarcophagus appears to be empty, the remains long since rotted away,
+or stolen, if someone would ever do such a thing.  
+~
+E
+dust footprints~
+The dust has recently been disturbed, causing it to float through the
+air, and footprints can be seen all across the chamber.  
+~
+D3
+Beyond the doors lies the graveyard, row upon row of gravestones to mark
+the resting places of the dead.  
+~
+~
+ABZ 0 19704
+0 0
+S
+#19706
+Walking Among the Graves~
+The tall metal fence to the north separates the graveyard from the small
+forest to the north, whose trees block the view and sounds of the city,
+which almost seems to be miles away.  The grass here has recently been cut,
+and several flowers have been placed by a grave at your feet, left by
+mourners thinking of the dead.  A large mausoleum can be seen to the
+northwest, nestled among the trees.  
+~
+0 0 field
+E
+gravestone~
+Several flowers have been left by the grave.
+ 
+                    {MMalchio{x
+Died on the Day of the Bull, 8th of the Month of Winter
+~
+E
+flowers~
+Small delicate flowers of blue and purple decorate the gravesite.
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D1
+The graveyard continues to the east, a mausoleum visible beyond the
+graves.  
+~
+~
+Z 0 19704
+0 0
+D2
+Statues can be seen standing amongst the graves.
+~
+~
+Z 0 19707
+0 0
+D3
+The graveyard continues, gravestones placed in rows as far as the eye can
+see.  
+~
+~
+Z 0 19714
+0 0
+S
+#19707
+Walking Among the Graves~
+The sound of crying can be heard from nearby, as a mourner weeps over the
+grave of a lost loved one.  The gravestones and statues, beautiful as they
+are, leave a somber feel to the graveyard, despite the flowers and trees
+planted to brighten it up.  Even the mourners seemed hushed, as if afraid of
+disturbing the dead.  
+~
+0 0 field
+E
+gravestones statues~
+They all seem to be in good repair, though several of them appear to be
+quite ancient and there's no telling how long they will be able to weather
+the elements.  
+~
+D0
+A small forest lies beyond the metal fence.
+~
+~
+Z 0 19706
+0 0
+D1
+The streets of Caerlon are barely visible beyond the metal fence.
+~
+~
+Z 0 19703
+0 0
+D2
+Leaves slowly fall off the trees, landing among the graves.
+~
+~
+Z 0 19708
+0 0
+D3
+The graves continue in a seemingly endless row.
+~
+~
+Z 0 19713
+0 0
+S
+#19708
+Walking Among the Graves~
+A shrill scraping sound can be heard coming from the east, where the
+gates to the graveyard sway on rusty hinges.  A wind blowing across the
+graveyard brings a slight chill, carrying with it a faint smell of decay. 
+This section of the graveyard seems to be fairly well-maintained, with all
+but the oldest of statues and gravestones in good condition.  
+~
+0 0 field
+E
+statues gravestones~
+The statues and gravestones are well-maintained, though a few of the old
+ones are beginning to look more fragile.  
+~
+E
+gates~
+The gates can still be heard scraping against each other even from here.  
+~
+D0
+Gravestones and statues stand side by side, marking the resting places of
+the dead.  
+~
+~
+Z 0 19707
+0 0
+D1
+The entrance to the graveyard lies further east.
+~
+~
+Z 0 19701
+0 0
+D2
+The graveyard continues to the north, beautiful statues and gravestones visible from here.
+~
+~
+Z 0 19709
+0 0
+D3
+A beautiful statue is visible through the trees to the west.
+~
+~
+Z 0 19712
+0 0
+S
+#19709
+Walking Among the Graves~
+The tall metal fence to the south stands strong, firmly placed into the
+ground and topped by sharp metal points.  The fence has been placed there to
+keep vandals out of the graveyard, though the more superstitious among the
+city dwellers claim its true purpose is to keep the dead inside.  Several
+flowers grow by the fence, their blue and yellow petals doing little to
+dispel the somber atmosphere.  
+~
+0 0 field
+E
+flowers blue yellow petals~
+The flowers grow about knee-high, in a patch by the fence.  Their scent
+is sweet, though not very strong.  
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D0
+Rows of gravestones can be seen to the north, broken every now and then
+by a statue here and there.  
+~
+~
+Z 0 19708
+0 0
+D1
+A small mausoleum lies further east.
+~
+~
+Z 0 19702
+0 0
+D3
+The gravestones look to be a little older to the west.
+~
+~
+Z 0 19710
+0 0
+S
+#19710
+Walking Among the Graves~
+The grass here is long, as if it hasn't been cut in several months.  The
+gravestones here are in fair condition, with only a few of them looking in
+need of the caretaker's attention.  To the south stands a mausoleum, a tall,
+ornately carved structure with statues standing on either side of its doors.
+A chill wind blows across the graves, carrying a faint scent of death and
+decay.  
+~
+0 0 field
+E
+gravestones~
+The gravestones are in fair condition, though one of them appears to be
+chipped in several places.  
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D0
+A beautiful statue is visible through the trees to the north.
+~
+~
+Z 0 19712
+0 0
+D1
+Flowers grow by the fence to the east.
+~
+~
+Z 0 19709
+0 0
+D2
+A faint scent of death and decay seems to have its source in the
+mausoleum.  
+~
+~
+Z 0 19711
+0 0
+D3
+The graveyard to the west seems to have fallen into disrepair.
+~
+~
+Z 0 19719
+0 0
+S
+#19711
+Inside the Mausoleum~
+Stone lies everywhere within the room of the mausoleum.  A sarcophagus
+once placed by the far wall to the south has been shattered and now lies in
+fist-sized pieces.  Even the walls and floors are missing large chunks of
+stone, as if some powerful force has recently gone on a rampage and
+destroyed everything in its way.  Dust is heavy in the air, making it
+difficult to breathe.  There doesn't appear to be anything of value left in
+the mausoleum.  
+~
+0 A inside
+D0
+The graveyard lies beyond the doors, where there is relatively fresh air.  
+~
+~
+Z 0 19710
+0 0
+S
+#19712
+By the Statue~
+A beautiful statue stands tall among the graves.  It is fairly large,
+taller and wider than life-sized.  The statue is of a woman kneeling, eyes
+closed, with an intricate crown on her head.  Years of rain and wind have
+weathered the stone so that the statue appears to be weeping.  Leaves have
+fallen all around the statue, scraping softly against the stone as the wind
+blows across the graveyard, carrying a slight chill.  
+~
+0 0 field
+D0
+Several of the graves to the north look as though they are in need of
+repair.  
+~
+~
+Z 0 19713
+0 0
+D1
+A long row of gravestones continues to the east.
+~
+~
+Z 0 19708
+0 0
+D2
+The graveyard continues to the north, beautiful statues and gravestones visible from here.
+~
+~
+Z 0 19710
+0 0
+D3
+The graves to the west appear to be falling apart.
+~
+~
+Z 0 19718
+0 0
+S
+#19713
+Walking Among the Graves~
+The grass here grows longer than to the east, and few of the graves here
+bear any signs of recent visits by mourners.  This section of the graveyard
+does not seem as though it receives as much care as the part that lies to
+the east.  Many of the gravestones are crumbling from neglect, rather than
+simply age, and several weeds have sprung up to choke the flowers planted
+long ago by the friends and families of the dead buried here.  
+~
+0 0 field
+E
+gravestones~
+Many appear to be falling apart, in dire need of repair.
+~
+E
+flowers~
+The few pitiful flowers that haven't been choked by the weeds look to be
+in dire need of sunlight.  
+~
+E
+weeds~
+Several weeds are growing around the graves, choking the flowers nearby.  
+~
+D0
+A north wind blows in from the north, chilling you.
+~
+~
+Z 0 19714
+0 0
+D1
+The gravestones and statues to the east seem to be better maintained.  
+~
+~
+Z 0 19707
+0 0
+D2
+A beautiful statue is visible through the trees to the south.
+~
+~
+Z 0 19712
+0 0
+D3
+Many of the graves and statues to the west appear to be quite old.  
+~
+~
+Z 0 19717
+0 0
+S
+#19714
+Walking Among the Graves~
+A large mausoleum stands to the north, nestled among the trees, its thick
+stone beginning to crumble in places.  A cold chill seems to seep from its
+doors, and an irrational, almost overwhelming sense of dread fills you
+whenever your eyes fall upon the dark entrance.  The graves here appear to
+be neglected, most of them beginning to fall apart, the words once etched
+upon them unreadable.  
+~
+0 0 field
+E
+graves words~
+Most of the graves still standing are unreadable now, fallen too far into
+disrepair to be saved.  
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D0
+A cold chill seeps out of the mausoleum's doors.
+~
+~
+ABZ 0 19715
+0 0
+D1
+Far to the east stands yet another mausoleum, somewhat smaller than the
+one before you.  
+~
+~
+Z 0 19706
+0 0
+D2
+Statues and gravestones stand in rows, many of them beginning to fall
+apart.  
+~
+~
+Z 0 19713
+0 0
+D3
+Another mausoleum can be seen far to the west, beyond some gravestones.
+~
+~
+Z 0 19716
+0 0
+S
+#19715
+Inside the Mausoleum~
+Faint torchlight illuminates a macabre scene.  Blood has been smeared
+everywhere, covering the walls and floors, as if there has been a struggle
+here recently.  The corpse of a middle-aged man lies at your feet, face
+frozen in a terrible snarl.  Strange symbols have been scrawled across the
+wall, written in blood.  The stench of death and decay is almost
+overwhelming here, and the dark corners of the room that the torchlight
+cannot reach feel as though they are hiding unseen eyes, watching your every
+move.  
+~
+0 CD inside
+D2
+The doors lead back out into the graveyard, away from this terrible scene.  
+~
+~
+ABZ 0 19714
+0 0
+S
+#19716
+Walking Among the Graves~
+The crumbling stones and statues and the overgrown grass and weeds give
+this section of the graveyard a lonely, empty feel.  The air here is
+inexplicably cold, the wind carrying a strong scent of decay, along with the
+unsettling sound of weeping.  No flowers decorate the graves nearby, most of
+which appear to be in a sad state, the names etched into the stone long
+since worn away by rain and wind.  
+~
+0 0 field
+E
+graves names~
+The graves are in various states of decay, many of them simply collapsed.
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D1
+The graves to the east don't seem to be much better off than the ones
+here.  
+~
+~
+Z 0 19714
+0 0
+D2
+Row upon row of gravestones runs to the south.
+~
+~
+Z 0 19717
+0 0
+D3
+A tall mausoleum stands to the west.
+~
+~
+Z 0 19723
+0 0
+S
+#19717
+Walking Among the Graves~
+The wind whips through the graveyard, almost seeming to howl, and
+bringing with it a chill as cold as death.  Crumbling statues and
+gravestones lie all around, pieces broken off and threatening to trip those
+who don't watch their step.  The faint sounds of weeping can be heard coming
+from behind the graves, though there doesn't appear to be anyone there.  
+~
+0 0 field
+E
+statues gravestones pieces~
+Once beautiful statues and gravestones have fallen apart beyond repair.  
+~
+D0
+A tall metal fence separates the graveyard from the small forest beyond.  
+~
+~
+Z 0 19716
+0 0
+D1
+The gravestones to the east seem to be doing slightly better than here.  
+~
+~
+Z 0 19713
+0 0
+D2
+The graves to the south seem to be in as bad a state as the ones here.  
+~
+~
+Z 0 19718
+0 0
+D3
+Ancient statues and gravestones stand crumbling to the west.
+~
+~
+Z 0 19722
+0 0
+S
+#19718
+Walking Among the Graves~
+Hardly a sound can be heard in this section of the graveyard.  The wind
+has ceased; not even a breeze stirs the leaves and grass that lie among the
+gravestones.  The caretaker has obviously been neglecting this corner. 
+Ancient gravestones are falling apart, many of the words etched into them
+almost unreadable.  An unpleasant chill fills the air, which carries a
+strong scent of decay.  
+~
+0 A field
+E
+ancient gravestones words~
+The graves here are long forgotten, and little care seems to have been
+recently put into their upkeep.  
+~
+D0
+The graves to the north appear to be doing little better than here.
+~
+~
+Z 0 19717
+0 0
+D1
+A beautiful statue is visible through the trees to the east.
+~
+~
+Z 0 19712
+0 0
+D2
+The graveyard continues to the north, beautiful statues and gravestones visible from here.
+~
+~
+Z 0 19719
+0 0
+D3
+The graves to the west are ancient, though too many are falling apart or
+crumbled to truly appreciate their beauty.  
+~
+~
+Z 0 19721
+0 0
+S
+#19719
+Walking Among the Graves~
+The air here is completely still.  Not a single breeze shakes the leaves
+of the trees above, or the long, knee-length grass below.  A tall metal gate
+stands to the south, separating the rest of the city from this dreary
+section of the graveyard.  Every gravestone your eyes touch seem to be about
+to fall apart, and of all the statues still standing, most are missing arms
+and heads, long since crumbled into dust.  
+~
+0 A field
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D0
+Twisted trees stand among the graves to the north.
+~
+~
+Z 0 19718
+0 0
+D1
+The metal fence continues to the east, setting the boundary between the
+graveyard and the city beyond.  
+~
+~
+Z 0 19710
+0 0
+D3
+A mausoleum stands to the west, looking ominous amongst the crooked trees.  
+~
+~
+Z 0 19720
+0 0
+S
+#19720
+Walking Among the Graves~
+Twisted trees grow by the corner of the graveyard, almost obscuring the
+dark mausoleum that lies beyond them.  The trees are twisted and bent, their
+branches seeming to claw at the sky as if trying to escape their
+surroundings.  Hardly a single gravestone stands here; most have crumbled
+and lie in a pile of stones, almost unrecognizable as grave markers.  The
+mausoleum to the west is shrouded in darkness, and a dreadful chill seems to
+seep out of its doors.  
+~
+0 A field
+E
+gravestone stone~
+Ancient gravestones have crumbled from neglect, leaving the dead here forgotten.
+~
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D0
+Dark shadows seem to move among the graves.
+~
+~
+Z 0 19721
+0 0
+D1
+The graves to the east are in various states of disrepair.
+~
+~
+Z 0 19719
+0 0
+D3
+The entrance to the mausoleum is shrouded in darkness, and a sense of
+evil seems to emanate from it.  
+~
+~
+ABZ 0 19726
+0 0
+S
+#19721
+Walking Among the Graves~
+The air here is unnaturally cold, though the wind has vanished.  The only
+audible sound is that of your own heartbeat, pounding in your ears.  The
+trees growing beside the graves appear to be dark and twisted, bent over as
+if the live is being drained from them.  Not a leaf or flower moves; the
+graveyard is eerily silent, and a sense of expectation hangs in the air.  A
+solitary grave stands beneath one of the trees, a message scrawled upon it. 
+
+~
+0 A field
+E
+gravestone message~
+A single name and date is etched on to the stone, with a message in blood
+scrawled underneath: 
+ 
+                         {RWrath{x
+                  {DDate of death: unknown{x
+ 
+ 
+                  {rMay the gods have mercy.
+                  {rMay she never rise again{x
+~
+D0
+The graves to the north are falling apart, many of them simple piles of stone.
+~
+~
+Z 0 19722
+0 0
+D1
+The graveyard to the east seems to be as neglected as this section.  
+~
+~
+Z 0 19718
+0 0
+D2
+Shapes seem to move among the trees to the south, just out of sight.
+~
+~
+Z 0 19720
+0 0
+S
+#19722
+Walking Among the Graves~
+A strong gust of wind howls past you, carrying with it a deep chill and a
+strong smell of decay.  Half-crumbled statues stand all around you, guarding
+the grave sites of people long-forgotten.  The grass here grows knee-high,
+obscuring many of the gravestones left standing.  It doesn't appear as if
+the caretaker has passed this way in quite some time.  
+~
+0 0 field
+E
+gravestones~
+Most of the gravestones left standing have been exposed to the elements
+so long that the words inscribed upon them are no longer legible.  
+~
+D0
+Dark shadows seem to move among the graves and statues.
+~
+~
+Z 0 19723
+0 0
+D1
+The gravestones to the east appear to be as neglected as the ones here.  
+~
+~
+Z 0 19717
+0 0
+D2
+Twisted trees stand amongst the collapsed graves and statues.
+~
+~
+Z 0 19721
+0 0
+S
+#19723
+Walking Among the Graves~
+The trees beyond the tall metal fence to the north almost look menacing
+from this perspective, dark and twisted shapes that seem to show no signs of
+life.  A cold wind blows throw the trees, bringing with it a deep chill and
+the faint sound of weeping.  To the west, a large mausoleum rises, built in
+an architectural style that lost favor centuries ago.  Despite its beauty,
+the structure has a strange, malevolent feel to it.  
+~
+0 0 field
+E
+fence~
+The fence is quite sturdy, and doesn't look as though it can be knocked
+down without a great deal of force.  
+~
+D1
+The graves to the east appear to be doing slightly better than the ones
+by your feet.  
+~
+~
+Z 0 19716
+0 0
+D2
+Fallen statues and crumbling graves lie to the south.
+~
+~
+Z 0 19722
+0 0
+D3
+A cold chill seems to emanate from the structure.
+~
+~
+ABZ 0 19724
+0 0
+S
+#19724
+Inside the Mausoleum~
+The darkness inside the mausoleum is oppressively thick.  It seems that
+no amount of light can truly dispel it.  Every shadow dispeled by the light
+is replaced by another, and the sense of being watched from beyond the
+darkness is very strong.  The mausoleum has been built in an ancient style
+once used to house dead members of Caerlon's nobility, though it appears
+that whatever riches were buried with the corpse have been stolen long ago. 
+
+~
+0 CD inside
+D1
+~
+~
+ABZ 0 19723
+0 0
+S
+#19725
+Inside the Mausoleum~
+This mausoleum is even smaller on the inside than it appears from
+outside.  A strong musty scent assaults your nostrils as soon as you enter,
+and a cloud of dust rises up with every step you take, but from the ease
+with which the door opens and closes and the footprints already covering
+the floor, it would seem that you're not the only to visit this place
+recently.  
+~
+0 ACD inside
+E
+footprints~
+Footprints can be seen in the dust, signs that someone has recently
+passed through here.  
+~
+D3
+The doors open out to Caerlon's graveyard, though little light filters
+through when they're closed.  
+~
+~
+ABZ 0 19702
+0 0
+S
+#19726
+Inside the Mausoleum~
+The stench of death here is enough to make the most hardened soldier gag.
+The floor is covered in a wet, slippery substance that is revealed to be
+blood as soon as the light strikes it.  It appears to be flowing from the
+corpse of a woman by the entrance.  Dressed in black, she would almost look
+as if she is lost in a peaceful dream if it weren't for the pool of blood
+that has collected around her.  
+~
+0 ACD inside
+D1
+Light filters through the doorway, though the graveyard is hardly a more
+cheerful place to be than here.  
+~
+~
+ABZ 0 19720
+0 0
+S
+#19727
+Beneath the Statue~
+A small sliver of light filters through from the entrance to the statue
+above, illuminating a small portion of the thick stone wall that runs around
+this tiny room.  The room is empty save for a small altar, fresh flowers
+placed on top of it.  Strangely, though this room appears to be quite
+ancient, not a single spec of dust coats the walls or the floor, and the air
+is as fresh as a spring day outdoors.  Small steps lead back up to the base
+of the statue.  
+~
+0 D inside
+E
+altar flowers~
+The flowers on the altar are fresh, recently cut.  The altar itself is
+rather small and simple, with no symbols or markings to identify which god
+is worshipped here, if any.  
+~
+D4
+Light filters through the opening in the statue, a dark grey sky above.
+~
+~
+Z 0 19712
+0 0
+S
+#19750
+~
+~
+0 0 inside
+S
+#0
+
+#RESETS
+D 0 19702 1 1	* Walking Among the Graves: door to the east: closed
+D 0 19704 1 1	* Walking Among the Graves: door to the east: closed
+D 0 19705 3 1	* Inside the Mausoleum: door to the west: closed
+D 0 19714 0 1	* Walking Among the Graves: door to the north: closed
+D 0 19715 2 1	* Inside the Mausoleum: door to the south: closed
+D 0 19720 3 1	* Walking Among the Graves: door to the west: closed
+D 0 19723 3 1	* Walking Among the Graves: door to the west: closed
+D 0 19724 1 1	* Inside the Mausoleum: door to the east: closed
+D 0 19725 3 1	* Inside the Mausoleum: door to the west: closed
+D 0 19726 1 1	* Inside the Mausoleum: door to the east: closed
+M 0 19701 5 19701 1	* a crying widow (Walking Among the Graves)
+M 0 19701 5 19704 1	* a crying widow (Walking Among the Graves)
+G 0 19701 0		*	{Ca {cWid{Cow'{cs {CT{cear{Cs{x
+M 0 19705 5 19705 1	* an undead corpse (Inside the Mausoleum)
+M 0 19701 5 19706 1	* a crying widow (Walking Among the Graves)
+M 0 19701 5 19707 1	* a crying widow (Walking Among the Graves)
+M 0 19702 6 19708 1	* {Ca cold wind{x (Walking Among the Graves)
+M 0 19701 5 19709 1	* a crying widow (Walking Among the Graves)
+M 0 19702 6 19710 1	* {Ca cold wind{x (Walking Among the Graves)
+M 0 19705 5 19711 1	* an undead corpse (Inside the Mausoleum)
+M 0 19702 6 19712 1	* {Ca cold wind{x (By the Statue)
+O 0 19706 0 19712	* {Cthe statue of the kneeling woman{x (By the Statue)
+M 0 19702 6 19713 1	* {Ca cold wind{x (Walking Among the Graves)
+M 0 19702 6 19714 1	* {Ca cold wind{x (Walking Among the Graves)
+M 0 19707 1 19715 1	* {Dthe necromancer{x (Inside the Mausoleum)
+M 0 19704 5 19716 1	* a ghostly figure (Walking Among the Graves)
+M 0 19704 5 19717 1	* a ghostly figure (Walking Among the Graves)
+M 0 19703 5 19718 1	* {ya grasping hand{x (Walking Among the Graves)
+M 0 19703 5 19719 1	* {ya grasping hand{x (Walking Among the Graves)
+M 0 19703 5 19720 1	* {ya grasping hand{x (Walking Among the Graves)
+M 0 19703 5 19721 1	* {ya grasping hand{x (Walking Among the Graves)
+E 0 19702 0 1		*	a tarnished {Rr{ruby{x ring: on the left finger
+M 0 19704 1 19722 1	* a ghostly figure (Walking Among the Graves)
+M 0 19704 5 19723 1	* a ghostly figure (Walking Among the Graves)
+M 0 19705 5 19724 1	* an undead corpse (Inside the Mausoleum)
+M 0 19705 5 19725 1	* an undead corpse (Inside the Mausoleum)
+G 0 19709 0		*	{ya half-burnt torch{x
+M 0 19706 1 19726 1	* {Da darkly beautiful vampire{x (Inside the Mausoleum)
+E 0 19703 0 6		*	{DA Dark Circlet{x: over the head
+M 0 19709 1 19727 1	* {cthe spirit of a long-dead queen{x (Beneath the Statue)
+E 0 19707 0 6		*	an intricate golden crown: over the head
+S
+
+#OLIMITS
+O 19709 4	* {ya half-burnt torch{x
+S
+
+#MOBPROGS
+#19701
+mob echo The necromancer begins to cackle uncontrollably.
+say You think this is the end? I will show you true suffering!
+mob echo Stumbling over to the caretaker's corpse, the necromancer utters words in a dark and twisted language, and the corpse begins to twitch. Within moments, the caretaker's body is on its feet
+mob echo The necromancer turns back towards you. '{GNow you will be mine. Now--{x' His words are cut off as the corpse grabs his neck and twists it, letting go as the necromancer falls to the floor.
+mob echo The caretaker picks up a shovel dropped nearby and turns towards you.
+mob mload 19708
+mob vforce 19708 mob oload 19704
+mob vforce 19708 mob oload 19705 wield
+mob vforce 19708 wear shovel
+mob vforce 19708 murder $n
+~
+#19702
+if mobhere 19707
+mob purge necromancer
+endif
+~
+#19703
+if carries $n 19704
+else
+mob remember $n
+mob delay 1
+endif
+~
+#19704
+if isgood $q
+mob echoat $q The woman opens her eyes, and a look of hope crosses her face as she sees you.
+mob echoaround $q The woman opens her eyes, and a look of hope crosses her face as she looks upon $q.
+say I sense you have a kind and decent soul. Perhaps you would be willing to help me?
+else
+if isevil $q
+mob echoat $q The woman looks up and frowns at your entrance.
+mob echoaround $q The woman looks up and frowns at $q's entrance.
+say This is a holy place. Those with impure souls are not welcome.
+else
+mob echoat $q The woman ignores your presence.
+endif
+endif
+~
+#19705
+if isgood $n
+mob echo The woman sighs in relief. '{GThank you. You cannot know how frustrating it is to see the evil all around me and be unable to act.{x'
+say A necromancer has been disturbing the dead here, raising their corpses at night. The caretaker seems to have vanished; I fear for the worst. Something must be done about the necromancer before things get even worse. I believe he intends to lead the undead he raises into the city of Caerlon, and attempt to take control. This cannot be allowed to happen.
+mob echo The woman frowns, and for a moment she seems to fade, but then is solid again.
+'{P{GPlease find the necromancer and put an end to his unholy rituals. Bring me the death shroud he uses in his rituals. Please, you must hurry! I fear we have little time left before he makes his move.{x'{x
+endif
+~
+#19706
+if isgood $n
+mob echoat $n The woman looks up at you with tears in her eyes.
+mob echoaround $n The woman looks up at $n with tears in her eyes.
+say So be it, if that is how you wish to be.
+mob echo Turning back to the altar, the woman kneels down again and forgets your presence.
+endif
+~
+#19707
+if isgood $n
+if carries $i 19704
+say You did it! Oh, you have done the world a great service on this day! I do not have much to give you as a reward. My time to leave this world is fast approaching. But here, please, take this. I know you will make good use of it.
+mob junk shroud
+mob oload 19708
+give orb $n
+say May you have safe travels.
+else
+say I really have no use for this, but thank you.
+give $o $n
+endif
+else
+say I really have no use for this, but thank you.
+give $o $n
+endif
+~
+#19708
+mob echo The woman looks immensly sad as she falls backwards, hitting the ground hard.
+~
+#19709
+if rand 75
+mob echo The widow falls to her knees and whispers '{GMy love, I am coming to join you!{x'
+else
+mob echo The widow falls to the ground, eyes staring up at nothing.
+endif
+~
+#19710
+mob echo The hand loosens its grip on you, finally lying still.
+~
+#19711
+mob echo The wind vanishes as quickly as it came.
+~
+#19712
+mob echo The ghostly figure barely seems aware that it has just been sent to its final death.
+~
+#19713
+mob echo The undead corpse suddenly begins to fall apart, rotting chunks of flesh hitting the floor.
+~
+#19714
+mob echo The vampire's eyes widen in shock as she experiences her final death.
+~
+#19715
+mob echo The caretaker's undead body stumbles back, then collapses, unmoving.
+~
+#0
+
+#$

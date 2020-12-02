@@ -1,0 +1,783 @@
+#AREADATA
+Name Lom'tak Prison~
+Builders slothe sadin~
+VNUMs 100100 100125
+Credits slothe~
+Security 1
+LevelRange 60 60
+End
+
+#MOBILES
+#100100
+master shadow human~
+The Master Shadow~
+A dark shadow moves at the corner of your vision.
+~
+A shadow as black as the heart of night, there is little in him that
+remains human.  A dark evil has consumed his soul, and he is now compelled
+to kill every living being that comes across his path.  
+~
+human~
+ABFGT DFJZlmt -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+AEIJKNV A B 0
+stand stand male 7212
+0 0 large flesh~
+~
+#100101
+guardian of the stolen treasure figure~
+A Guardian of the Stolen Treasure~
+A large figure keeps a silent watch over the surroundings.
+~
+Bound by an oath to stand watch over the treasure, he will give his life
+to protect it.  
+~
+half-elf~
+AB u -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 A 0 0
+stand stand male 4078
+0 0 medium flesh~
+~
+F res B
+F vul Z
+#100102
+lom'tak guard~
+A Lom'tak Prison Guard~
+A fierce-looking woman watches you closely.
+~
+Her deep blue eyes watch your every move, as she fingers the hilt of her
+blade.  
+~
+human~
+ABF Jx -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 A B 0
+stand stand female 724
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#100103
+a shadow~
+A shadow~
+A shadow is here ready to attack!
+~
+A black shadow stands before you, snarling silently.
+~
+half-elf~
+ABF Bx -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 A 0 0
+stand stand male 3563
+0 0 medium flesh~
+~
+#100104
+black shadow~
+The Black Shadow~
+A black shadow absorbs all the light.
+~
+A fearsome being, light doesn't seem to be able to touch it.  A terrible
+cold emanates from it, and its rasping breath sends shivers up your spine.  
+~
+half-elf~
+ABF u 0 0
+63 63 247d63+0 315d10+85 21d3+36 none
+-32 -32 -32 -19
+0 A 0 0
+stand stand female 1529
+0 0 medium flesh~
+~
+#100105
+a stairway monster~
+a vicious monster~
+A vicious monster guards the stairwell.
+~
+A fierce creature that seems to be all eyes and writhing limbs, it has
+been set here to guard the path forward.  
+~
+half-elf~
+ABF x -1000 0
+63 63 247d63+0 315d10+85 21d3+36 none
+-32 -32 -32 -19
+0 A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#100106
+the cold~
+the troll~
+An enormous troll is here, snarling at you.
+~
+A powerful warrior, this troll has been bound by magic to guard the
+prison.  
+~
+troll~
+ABF u -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 A 0 0
+stand stand male 5625
+0 0 medium flesh~
+~
+#100107
+a voice~
+A voice~
+A voice whispers into your ears.
+~
+A voice straight out of your worst nightmares, it whispers unspeakable
+things to you in a soft, raspy voice.  Each step forward becomes more
+difficult than the last, as your resolve is slowly drained from you and and
+panic begins to well up from deep inside you.  
+~
+ghost~
+AF Ju -1000 0
+63 63 247d63+0 315d10+85 21d3+36 none
+-32 -32 -32 -19
+0 A 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#100108
+lob'takun~
+Lob'takun~
+Here stands Lob'takun the Great Shadow Ninja, lost in time.
+~
+A legendary ninja, he was trapped here centuries ago by those who feared
+his evil heart.  His hatred has kept him alive, granting him eternal life
+and twisting him into a vile being who lives only to destroy.  
+~
+unique~
+ABF BDFJQZlmsu -1000 0
+65 65 296d65+5000 650d11+95 22d2+50 none
+-37 -37 -37 -24
+DEFHIJKNV AB CDEFHIKLMNOPQ 0
+stand stand none 133
+M ABCJ unknown flesh~
+~
+M death 100119 5~
+#0
+
+#OBJECTS
+#100100
+bracer lob'takun~
+{wThe {yGolden {rBracer {wof {rLob'takun{x~
+This is {wThe {yGolden {rBracer {wof {rLob'takun{x. It was founded in the far away lands with a all mighty master, Lob'takun killed him and got the Bracers, they have an extraordinary power.~
+gold~
+~
+armor EJLTY AM
+38 38 38 37 'none' 0
+65 107 423915 P
+A
+13 40
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100101
+boots lob'takun~
+{wThe {yGolden {rBoots {wof {rLob'takun{x~
+These are {wThe {yGolden {rBoots {wof {rLob'takun{x.~
+gold~
+~
+armor CEJL AG
+36 36 36 35 'none' 0
+63 101 555645 P
+A
+20 -5
+A
+19 10
+A
+18 7
+G none
+G none
+G none
+G none
+#100102
+ring lob'takun~
+{wThe {yGolden {rRing {wof {rLob'takun{x~
+{wThe {yGolden {rRing {wof {rLob'takun{x is here on the ground~
+gold~
+~
+jewelry CEJLY AB
+BCF BCF BCF ACF 0 BCF BCF
+65 107 110 P
+A
+19 10
+A
+18 7
+G none
+G none
+G none
+G none
+#100103
+golden sword rare~
+{wThe {yGolden {rSword {wof {rLob'takun{x~
+{wThe {yGolden {rSword {wof {rLob'takun{x is lying here~
+gold~
+~
+weapon CJLTh AN
+longsword 5 20 slash D
+65 66 804759 P
+A
+13 -20
+A
+18 10
+A
+19 10
+E
+saber~
+This saber was forged in far away east town.  It has a long history, went
+through the hands of the most powerful ninjas that walked in the Earth.  Now
+it is ready to be taken by someone else 
+~
+G none
+G none
+G none
+G none
+#100104
+shield lob'takun~
+{wThe {yGolden {rShield {wof {rLob'takun.{x~
+{wThe {yGolden {rShield {wof {rLob'takun.{xis lying here~
+gold~
+~
+armor CEJL AJ
+38 38 38 37 'none' 0
+65 107 778823 P
+A
+18 10
+A
+19 9
+A
+20 -5
+G none
+G none
+G none
+G none
+#100105
+lob'takun armplates~
+{wThe {yGolden {rArmplates {wof {rLob'Takun.{x~
+{wThe {yGolden {rArmplates {wof {rLob'Takun.{x are lying here~
+gold~
+~
+armor CEJL AI
+38 38 38 37 'none' 0
+65 107 217621 P
+A
+19 9
+A
+18 8
+G none
+G none
+G none
+G none
+#100106
+aura lob'takun~
+{wThe {yGolden {rAura {wof {rLob'takun.{x~
+{wThe {yGolden {rAura {wof {rLob'takun{x is lying here.~
+gold~
+~
+armor CEJL AD
+38 38 38 37 'none' 0
+65 107 1215946 P
+A
+13 100
+A
+19 7
+G none
+G none
+G none
+G none
+#100107
+lob'takun gloves~
+{wThe {yGolden {rGloves {rof {rLob'takun.{x~
+{wThe {yGolden {rGloves {rof {rLob'takun{x are lying here.~
+gold~
+~
+armor CEJLY AH
+38 38 38 37 'none' 0
+65 107 95356 P
+A
+12 100
+G none
+G none
+G none
+G none
+#100108
+scarf lob'takun~
+{wThe {yGolden {rScarf {wof {rLob'takun.{x~
+{wThe {yGolden {rScarf {wof {rLob'takun{x is lying here~
+gold~
+~
+armor CEJL AC
+38 38 38 37 'none' 0
+65 107 138919 P
+A
+19 7
+A
+18 7
+A
+12 40
+G none
+G none
+G none
+G none
+#100109
+the golden belt of lob'takun~
+{wThe {yGolden {rBelt {wof {rLob'Takun{x~
+{wThe {yGolden {rBelt {wof {rLob'Takun{x is here on the ground in a coil~
+energy~
+~
+armor CEJLY AL
+38 38 38 37 'none' 0
+65 107 148874 P
+A
+19 8
+A
+18 9
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100100
+A {DShadow{W in{D Shadows{x~
+You have entered a dark place.  There is only one {wlight{x, and that
+{wlight{x is your own.  Suddenly another light apears.  It's from a black
+candle in the room's corner.  You look to the candle and see {Dsomething{x
+moving.  The walls are filled with {DShadows{x, but there's no one here. 
+It's strange and you feel fear.  You look west and you see a door, try to
+get through it.  
+ 
+~
+0 NX inside
+D3
+~
+~
+Z 0 100101
+0 0
+D4
+~
+~
+ABZ 0 14198
+0 0
+S
+#100101
+{DShadow{w of {rDeath{x~
+This is the {DShadow {wof {rDeath{x.  Luckly you will pass through it
+without being killed.  This is a dark room and you feel another presence in
+the room.  You look all the ways and nothing you see.  The strange feeling
+passes and you feel you can proceed.  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100100
+0 0
+D3
+~
+~
+Z 0 100102
+0 0
+S
+#100102
+{DMaster {DShadow{x~
+This is where the {DMaster of all Shadows{x sleeps.  There is an Iron bed
+with some chains around it.  It's strange.  A shadow doesn't need a bed to
+sleep.  Maybe its where he puts his victims.  Maybe....  Don't want to find
+out!  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100101
+0 0
+D3
+~
+~
+Z 0 100103
+0 0
+S
+#100103
+{DMaster Shadow's{W Practice Room{x~
+This is where The {DMaster Shadow{x practices his moves and his martial
+arts.  He must be around here...  If not...  Lucky you!  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100102
+0 0
+D4
+~
+~
+Z 0 100104
+0 0
+D5
+~
+~
+Z 0 100105
+0 0
+S
+#100104
+{DMaster Shadow's{y Treasure {WRoom{x~
+This is where {DThe Master Shadow{x keeps his stolen {ytreasure{x.  He
+stole this {ytreasure{x through out his whole life.  Stealing here, there,
+each person who spoke to him, he killed and collected their {gmoney{x.  In
+here is that {ytreasure{x.  That whole life's work of stolen {yTreasure{x. 
+Enjoy it!  
+~
+0 NX inside
+D5
+~
+~
+Z 0 100103
+0 0
+S
+#100105
+The Gates of Lom'tak Prison~
+In front of you are the gates to the Prison of Lom'tak.  Black, huge
+gates.  Something is kept down there, something that no one has ever
+discovered.  No one returned alive from these gates.  Try them!  
+~
+0 NX inside
+D3
+~
+~
+Z 0 100106
+0 0
+D4
+~
+~
+Z 0 100103
+0 0
+S
+#100106
+The Prison's Entryway~
+You have entered the Prison's Entryway.  There's a guard standing there
+waiting for you to ask him something.  But he doesn't like strange people
+very much.  Patience is needed right now.  Go down to the Prison's Hallway 
+~
+0 NX inside
+D1
+~
+~
+Z 0 100105
+0 0
+D3
+~
+~
+Z 0 100107
+0 0
+S
+#100107
+Lom'tak Prison Hallway~
+Here is the Prison's Hallway.  You see nothing interesting here, only a
+group of eyes watching you.  What's that?!?  Who is watching you?!?  The
+exits are up and down.  
+~
+0 NX inside
+D0
+~
+~
+Z 0 100108
+0 0
+D1
+~
+~
+Z 0 100106
+0 0
+D2
+~
+~
+Z 0 100109
+0 0
+D3
+~
+~
+Z 0 100110
+0 0
+S
+#100108
+A Cell~
+This is a Cell.  In this place the most terrible criminals end their days
+in shame and misery.  It's better to finish his pain by killing him now or
+is it better to leave him alone and end his day in {pPain{x?  It's up to
+you!  
+~
+0 NX inside
+D2
+~
+~
+Z 0 100107
+0 0
+S
+#100109
+A Cell~
+This is a Cell.  In this place the most terrible criminals end their days
+in shame and misery.  It's better to finish his pain by killing him now or
+is it better to leave him alone and end his day in {pPain{x?  It's up to
+you!  
+~
+0 NX inside
+D0
+~
+~
+Z 0 100107
+0 0
+S
+#100110
+A Cell~
+This is a Cell.  In this place the most terrible criminals end their days
+in shame and misery.  It's better to finish his pain by killing him now or
+is it better to leave him alone and end his day in {pPain{x?  It's up to
+you!  There's another door down.  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100107
+0 0
+D5
+~
+~
+Z 0 100111
+0 0
+S
+#100111
+{DShadowy {WHallway{x~
+This is a Hallway.  You see only shadows.  {DShadows {xof {rlies,{x of
+{Rterror,{x of {ccrazyness, {DSHADOWS {WOF {REVIL!  {x You hear screams,
+babies crying and you realize that it is your past!  These are shadows from
+your past!  
+~
+0 NX inside
+D3
+~
+~
+Z 0 100112
+0 0
+D4
+~
+~
+Z 0 100110
+0 0
+S
+#100112
+{DShadowy {WHallway{x~
+This is a Hallway.  You see only shadows.  {DShadows {xof {rlies,{x of
+{Rterror,{x of {ccrazyness, {DSHADOWS {WOF {REVIL!  {x You hear screams,
+babies crying and you realize that it is your present!  You are terrefied! 
+These are the shadows from your present that fill you inside with fear! 
+That makes you wonder, that makes you think it would be better if you just
+died here, right now!  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100111
+0 0
+D3
+~
+~
+Z 0 100113
+0 0
+S
+#100113
+{DShadowy {WHallway{x~
+This is a Hallway.  You see only shadows.  {DShadows {xof {rlies,{x of
+{Rterror,{x of {ccrazyness, {DSHADOWS {WOF {REVIL!  {x You hear screams,
+babies crying and you realize that it is your Future!  You are terrefied! 
+These are the shadows from your Future that will hunt you forever!  These
+are the shadows that make you wonder, that make you think if this is {RHELL!
+{x 
+~
+0 NX inside
+D1
+~
+~
+Z 0 100112
+0 0
+D5
+~
+~
+Z 0 100114
+0 0
+S
+#100114
+Black Shadow's Chamber~
+As you enter this Chamber all that crazyness from the Shadowy Hallway
+seems to pass.  But now another feeling arrives to your mind and body.  The
+feeling of the unknown, FEAR!  You are in The Black Shadow's Chamber.  There
+are a lot of small shadows around here.  There's a big Metal bed in the
+middle of the room.  Your best guess is that this bed is from HIM.  You see
+a door down from you.  Where does it lead?  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100115
+0 0
+D4
+~
+~
+Z 0 100113
+0 0
+S
+#100115
+{YThe {rStairway{x~
+You are in a {rstairway.  {x It's dark in here.  You feel something
+moving.  You can't really tell what is it.  You try to get the end of the
+Stairway.  Down continues the {rStairway.  {x 
+~
+0 NX inside
+D3
+~
+~
+Z 0 100114
+0 0
+D5
+~
+~
+Z 0 100116
+0 0
+S
+#100116
+{YThe {rStairway {Yto {RDeath{x~
+As you go down and down, the light seems to fade away for good.  It's
+really dark in here, and the only light is once again your own.  You feel
+cold.  A strange {Ccold{x possess you.  You feel possessed by some evil
+forces.  Forces you can't explain.  You feel like turning back.  Go home! 
+But no, you are strong and you will continue to the bottom of the
+{rstairway.  {x 
+ 
+~
+0 NX inside
+D4
+~
+~
+Z 0 100115
+0 0
+D5
+~
+~
+Z 0 100117
+0 0
+S
+#100117
+{yThe End of the {rStairway{x~
+Finally you are here!  The End of the Stairway.  The voices in your head
+turn deeper and deeper.  You feel cold inside you.  Possessing your cold
+heart.  You start crying, you don't want to hear those voices anymore. 
+There is a door down from this place.  Go!  
+~
+0 NX inside
+D3
+~
+~
+Z 0 100118
+0 0
+D4
+~
+~
+Z 0 100116
+0 0
+S
+#100118
+In {mThe {rNothingness{x~
+The voices in your head passed.  You have entered an empty space. 
+There's nothing here.  You SCREAM!!  You look for a way out and suddenly a
+door down of you appears.  Enter it!  Quick!  Before it disappears!!  
+~
+0 NX inside
+D1
+~
+~
+Z 0 100117
+0 0
+D5
+~
+~
+Z 0 100119
+0 0
+S
+#100119
+{rChamber {wof {YLob'takun {rthe {yGreat {DShadow {CNinja{x~
+You have entered the {rChamber {wof {YLob'takun {rthe {yGreat {DShadow
+{CNinja.  {x This {rMaster{x of all Ninjas has been lost since forever, his
+knowledge is superior to any mortal in {CHeaven{x or {yEarth!  {x He is The
+{rMaster.  {x The {rMaster{x of All {rMasters.  {x The {rMaster{x of all
+known things.  You now have the response to the answer.  "What is inside
+those Black Gates?"  This is IT!  Be happy if you survive.  
+~
+0 NX inside
+D4
+~
+~
+Z 0 100118
+0 0
+S
+#0
+
+#SPECIALS
+M 100108 spec_executioner	* Lob'takun
+S
+
+#RESETS
+D 0 100100 4 1	* A {DShadow{W in{D Shadows{x: door to the up: closed
+M 0 100100 1 100103 1	* The Master Shadow ({DMaster Shadow's{W Practice Room{x)
+E 0 100100 0 15		*	{wThe {yGolden {rBracer {wof {rLob'takun{x: on the right wrist
+E 0 100100 0 14		*	{wThe {yGolden {rBracer {wof {rLob'takun{x: on the left wrist
+M 0 100101 2 100104 2	* A Guardian of the Stolen Treasure ({DMaster Shadow's{y Treasure {WRoom{x)
+E 0 100101 0 8		*	{wThe {yGolden {rBoots {wof {rLob'takun{x: on the feet
+E 0 100102 0 2		*	{wThe {yGolden {rRing {wof {rLob'takun{x: on the right finger
+M 0 100102 5 100106 5	* A Lom'tak Prison Guard (The Prison's Entryway)
+E 0 100104 0 11		*	{wThe {yGolden {rShield {wof {rLob'takun.{x: as a shield
+E 0 100105 0 10		*	{wThe {yGolden {rArmplates {wof {rLob'Takun.{x: on the arms
+M 0 100102 4 100107 5	* A Lom'tak Prison Guard (Lom'tak Prison Hallway)
+M 0 100103 3 100111 9	* A shadow ({DShadowy {WHallway{x)
+M 0 100103 3 100112 9	* A shadow ({DShadowy {WHallway{x)
+M 0 100103 3 100113 9	* A shadow ({DShadowy {WHallway{x)
+M 0 100104 1 100114 1	* The Black Shadow (Black Shadow's Chamber)
+E 0 100106 0 5		*	{wThe {yGolden {rAura {wof {rLob'takun.{x: on the body
+M 0 100105 4 100115 4	* a vicious monster ({YThe {rStairway{x)
+M 0 100106 1 100115 1	* the troll ({YThe {rStairway{x)
+E 0 100107 0 9		*	{wThe {yGolden {rGloves {rof {rLob'takun.{x: on the hands
+M 0 100107 4 100116 5	* A voice ({YThe {rStairway {Yto {RDeath{x)
+M 0 100107 1 100117 5	* A voice ({yThe End of the {rStairway{x)
+M 0 100108 1 100119 1	* Lob'takun ({rChamber {wof {YLob'takun {rthe {yGreat {DShadow {CNinja{x)
+E 0 100108 0 3		*	{wThe {yGolden {rScarf {wof {rLob'takun.{x: around the neck (1)
+E 0 100109 0 13		*	{wThe {yGolden {rBelt {wof {rLob'Takun{x: around the waist
+S
+
+#OLIMITS
+O 100100 2	* {wThe {yGolden {rBracer {wof {rLob'takun{x
+O 100101 1	* {wThe {yGolden {rBoots {wof {rLob'takun{x
+O 100103 1	* {wThe {yGolden {rSword {wof {rLob'takun{x
+O 100104 1	* {wThe {yGolden {rShield {wof {rLob'takun.{x
+O 100106 1	* {wThe {yGolden {rAura {wof {rLob'takun.{x
+S
+
+#MOBPROGS
+#100119
+mob oload 100103
+~
+#0
+
+#$

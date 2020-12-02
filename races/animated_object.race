@@ -1,0 +1,10 @@
+#RACE
+Name animated object~
+Dodge 70
+Size medium
+Act stay_area indoors~
+Form construct~
+Parts none~
+End
+
+#$

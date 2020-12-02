@@ -1,0 +1,34 @@
+#RACE
+Name felar~
+Aff infrared~
+Off tail~
+Res cold light~
+Vuln fire drowning~
+Form edible sentient biped mammal~
+Parts head legs heart brains guts feet ear eye tail claws fangs~
+End
+
+#PCRACE
+Shortname Felar~
+Points 250
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 110
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 110
+Class 'witch' 110
+Class 'warrior' 100
+BonusSkills 'hand to hand' 'tail'~
+Skill 'tail' 53
+Stats 45 45 50 65 60 50 50
+MaxStats 17 17 20 24 23 25 25
+Size medium
+HPBonus 10
+ManaBonus -10
+Slang cat
+End
+
+#$

@@ -1,0 +1,1256 @@
+#AREADATA
+Name Cradlenook~
+Builders kira~
+VNUMs 2900 2949
+Credits Kira~
+Security 1
+LevelRange 0 0
+End
+
+#MOBILES
+#2909
+~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#2911
+faerie~
+a merry faerie~
+A merry faerie who appears to have been soused in liquor flits about.
+~
+~
+human~
+AB T 0 0
+81 81 296d81+0 81d9+60 25d3+41 none
+-42 -42 -42 -25
+F 0 0 0
+stand stand female 2430
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+#2935
+guardian apparition~
+a {rguardian{x apparition~
+An apparition shrouded in a green light guards an ornate tombstone without yield.
+~
+~
+ghost~
+BF DFV 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand none 4550
+0 0 medium unknown
+F aff T
+#2939
+tombstone secret epitaph~
+A bony hand~
+The secret {Ggreen{x light that blows a wind of {Ygold{x.
+~
+~
+human~
+AB DF 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M speech 2939 wealth~
+I 92
+#2940
+light~
+a {Ggreen{x light~
+This mob gives the epitaph light.
+~
+~
+human~
+AB DF 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M speech 2940 wealth~
+I 92
+#0
+
+#OBJECTS
+#2900
+panties bag~
+her {Cp{Wanties{x~
+Kira's panties lie here.~
+unknown~
+container 0 AL
+99999 0 0 100 100
+94 95 90 P
+G none
+G none
+G none
+#2901
+~
+~
+~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+#2909
+bench cedar~
+a polished cedar bench~
+A cedar bench has been polished to a point that it looks like wax.~
+unknown~
+furniture 0 0
+BD ABCDEHJKPQ EH 0 0
+1 0 0 P
+G none
+G none
+G none
+#2910
+couch~
+a {Rred{x and {Yyellow{x patched couch~
+An aged couch patched in {Rred{x and {Yyellow{x rests before a table.~
+unknown~
+furniture 0 0
+AC ABCDEHJKPQ EHK 0 0
+1 0 0 P
+G none
+G none
+G none
+#2912
+float~
+a bit of {Mp{mi{Mx{mi{Me {Wd{wu{Ys{Wt{x~
+Some glittering pixie dust has been dispersed about the room.~
+unknown~
+armor 0 AQ
+29 29 29 28 0
+81 82 85 P
+A
+18 8
+A
+13 81
+G none
+G none
+G none
+#2939
+jeweled choker~
+a {rheavily {Mj{meweled{x {8choker{x~
+A heavily jeweled choker, once owned by a wealthy woman, has been misplaced.~
+unknown~
+armor 0 AC
+33 33 33 32 0
+91 92 600 P
+A
+13 90
+G none
+G none
+G none
+#2940
+epitaph wealth~
+a misty epitaph revealing the word "{GWealth{x"~
+Bobbing about in midair is a misty, glowing epitaph which reveals the word "{GWealth{x".~
+unknown~
+light 0 A
+0 0 -1 0 0
+91 1 1 P
+G none
+G none
+G none
+#0
+
+#ROOMS
+#2900
+Cradlenook Threshold~
+A smooth oak sign with careful bold etchings of the words {yWelcome to{x
+{yCradlenook{x in it, the C on Cradlenook the most prominent and painted black,
+has been placed in an arch over a pebbled trail; it beckons passerby
+northward into the villa Cradlenook.  Running in a small rivulet below the
+path from west to east is the river Songuia.  Its waters flow about
+Cradlenook's borders, flooding in from the west, and gurgling back in a
+stream near its inlet, making a giant circle around the villa.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2901
+0 0
+S
+#2901
+Cranny Way - 180 N~
+Fluttering in with the winds dance leaves and blades of green grass from
+the flourished nooks and crannies of the villa's forested areas.  Floating
+along with them are the sounds of deep bellied laughter and the smells of
+liquor and bread flour; the wind must be coming in from the east through the
+trees.  Small wooden signs have been planted into the soil next to small
+clusters of flowers, labeling each group with the species name and a small
+description of each.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2902
+0 0
+D2
+~
+~
+Z 0 2900
+0 0
+D3
+~
+~
+Z 0 2903
+0 0
+S
+#2902
+Cranny Way - 190 N~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2907
+0 0
+D1
+~
+~
+Z 0 2905
+0 0
+D2
+~
+~
+Z 0 2901
+0 0
+S
+#2903
+Widget Way - 200 W~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2901
+0 0
+D2
+~
+~
+Z 0 2904
+0 0
+D3
+~
+~
+Z 0 2912
+0 0
+S
+#2904
+Barnicle's Books~
+here you can buy your goods like:
+an enchanted book of spells - used as wand
+a jeweled black quill with a cat-ear charm
+~
+0 0 inside
+D0
+~
+~
+Z 0 2903
+0 0
+S
+#2905
+Spirits Street - 190 W~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2906
+0 0
+D3
+~
+~
+Z 0 2902
+0 0
+S
+#2906
+Spirits Street - 200 W~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2909
+0 0
+D3
+~
+~
+Z 0 2905
+0 0
+S
+#2907
+Cranny Way - 200 N~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2908
+0 0
+D2
+~
+~
+Z 0 2902
+0 0
+S
+#2908
+Cradlenook Square~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2923
+0 0
+D1
+~
+~
+Z 0 2940
+0 0
+D2
+~
+~
+Z 0 2907
+0 0
+D3
+~
+~
+Z 0 2943
+0 0
+S
+#2909
+The Fox's Beard~
+Prominent scents of ale, stew, and bread flour linger in the air in the
+Fox's Beard.  The walls, floorboards, ceiling and bar frame are all
+constructed from fine cedar, and have been polished to such a point they
+almost appear to be wax.  Solid oak casks peek out from behind the bar where
+they have been gathered in stock; a few of them have been placed atop the
+bar, and merry folks rosy in the cheeks press the taps as they stumble on
+by.  Natural light pours in from the several windows of the tavern,
+revealing dust particles in the air.  Tables and benches have been placed
+about the room to provide seating for social on goers.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2906
+0 0
+D4
+~
+~
+Z 0 2910
+0 0
+S
+#2910
+A Comfortable Loft~
+A red, brick chimney pokes through the fine cedar flooring along the
+western wall and out through the angled wood ceiling.  A worn couch patched
+together with a fool's motley of red and yellow scraps rests before the
+chimney way.  A hinged door, bent upward on one corner from old age, is
+built into the floor in the southeast corner of the room; smells from the
+bar below waft in through it, enveloping the room in an aroma of liquor and
+bread flour.  A simple oak table rests before the old couch.  Strewn upon it
+are a variety of pints and mugs, once filled with spirits; each cup has been
+drank completely dry.  Overhead in the northeast corner of the room is
+another hatchback door leading to the roof; below it, a wooden ladder has
+been nailed to the wall.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 2911
+0 0
+D5
+~
+~
+Z 0 2909
+0 0
+S
+#2911
+A Well Maintained Shingled Roof~
+Thick clouds of steamy white smoke billow from the fireplace chimney and
+rise into the sky.  A limited view of the city of Midgaard opens up beyond
+the roof line, but the Fox's Beard is not built quite high enough to see
+beyond city buildings and walls.  Just northwestward lies the Market Square,
+its premise bustling away as it always is.  The roof tiles of the bar are
+painted a dark shade of turquoise.  It is obvious the roof is often
+maintained and washed clean of pigeon scrap, as it is easy to slip and fall
+astray from its smooth tiles.  
+~
+0 0 inside
+D5
+~
+~
+Z 0 2910
+0 0
+S
+#2912
+Widget Way - 190 W~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2903
+0 0
+D2
+~
+~
+Z 0 2913
+0 0
+D3
+~
+~
+Z 0 2914
+0 0
+S
+#2913
+Canda's Cauldrons and Concoctions~
+here you can buy things like:
+antidotes
+healing pots
+anything hero-ish and potion like, pill-like/eatable
+~
+0 0 inside
+D0
+~
+~
+Z 0 2912
+0 0
+S
+#2914
+Widget Way - 180 W~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2912
+0 0
+D2
+~
+~
+Z 0 2915
+0 0
+D4
+~
+~
+Z 0 2916
+0 0
+S
+#2915
+Rupert's Robes and More~
+here you can buy:
+robes
+boots
+hats
+mage wear
+~
+0 0 inside
+D0
+~
+~
+Z 0 2914
+0 0
+S
+#2916
+Across a Grassy Knoll~
+~
+0 0 inside
+D4
+~
+~
+Z 0 2917
+0 0
+D5
+~
+~
+Z 0 2914
+0 0
+S
+#2917
+Nearing the Knoll Landing~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2918
+0 0
+D5
+~
+~
+Z 0 2916
+0 0
+S
+#2918
+A Limited View of Widget Way~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2919
+0 0
+D2
+~
+~
+Z 0 2917
+0 0
+S
+#2919
+Cradlenook School House of Spellcasting~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2922
+0 0
+D1
+~
+~
+Z 0 2921
+0 0
+D2
+~
+~
+Z 0 2918
+0 0
+D3
+~
+~
+Z 0 2920
+0 0
+D5
+~
+~
+Z 0 2942
+0 0
+S
+#2920
+A Room of Benches~
+cafeteria type room
+~
+0 0 inside
+D1
+~
+~
+Z 0 2919
+0 0
+S
+#2921
+A Small Classroom~
+~
+0 0 inside
+D3
+~
+~
+Z 0 2919
+0 0
+S
+#2922
+A Small Lecture Hall~
+~
+0 0 inside
+D2
+~
+~
+Z 0 2919
+0 0
+S
+#2923
+Eidolon Footpath~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2924
+0 0
+D2
+~
+~
+Z 0 2908
+0 0
+S
+#2924
+Eidolon Footpath~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2925
+0 0
+D2
+~
+~
+Z 0 2923
+0 0
+S
+#2925
+Eidolon Footpath~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2926
+0 0
+D2
+~
+~
+Z 0 2924
+0 0
+S
+#2926
+Cradlenook Cemetery Gates~
+Metal gates painted every few months in rich silver and a glossy overcoat
+are clasped shut, but a lock is amiss giving anyone the right to enter. 
+Circling the mess of tombstones and dead flowers are iron-barred walls with
+needle thin pointed spires.  Along the inside wall are neatly trimmed hedge
+plants, possibly the only well maintained things in the entire yard.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2927
+0 0
+D2
+~
+~
+Z 0 2925
+0 0
+S
+#2927
+A Desultory Row of Stone Epitaphs~
+A desultory graveyard, obviously unkempt and dilapidated with age, opens
+up before you in a large circle.  Tombstones have been placed randomly all
+throughout the yard, bearing no pattern whatsoever.  Several of the epitaphs
+are unreadable, even though they have all been carved right in the
+gravestones; many appear jaded and unpolished.  Graves of all sizes have
+been dug deep into the soil all over the place, but somehow all have managed
+to keep out of the way of other graves.  A few expensive looking caskets
+bound in a marble material rest upon plateaus of elevated land and carefully
+carved bedrock.  The graves are not often visited and paid respects, for
+most of the descendants and families of relation have died off over time;
+the villa of Cradlenook has been in existence for ages.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2928
+0 0
+D1
+~
+~
+Z 0 2937
+0 0
+D2
+~
+~
+Z 0 2926
+0 0
+D3
+~
+~
+Z 0 2933
+0 0
+S
+#2928
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2936
+0 0
+D1
+~
+~
+Z 0 2933
+0 0
+D2
+~
+~
+Z 0 2927
+0 0
+D3
+~
+~
+Z 0 2931
+0 0
+S
+#2929
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2936
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2928
+0 0
+D3
+~
+~
+Z 0 2935
+0 0
+S
+#2930
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master. 
+~
+0 0 inside
+D0
+~
+~
+Z 0 2932
+0 0
+D1
+~
+~
+Z 0 2934
+0 0
+D2
+~
+~
+Z 0 2938
+0 0
+D3
+~
+~
+Z 0 2927
+0 0
+S
+#2931
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master. 
+~
+0 0 inside
+D0
+~
+~
+Z 0 2933
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2937
+0 0
+D3
+~
+~
+Z 0 2931
+0 0
+S
+#2932
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2929
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2930
+0 0
+D3
+~
+~
+Z 0 2932
+0 0
+S
+#2933
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2934
+0 0
+D1
+~
+~
+Z 0 2927
+0 0
+D2
+~
+~
+Z 0 2932
+0 0
+D3
+~
+~
+Z 0 2930
+0 0
+S
+#2934
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2935
+0 0
+D1
+~
+~
+Z 0 2934
+0 0
+D2
+~
+~
+Z 0 2930
+0 0
+D3
+~
+~
+Z 0 2930
+0 0
+S
+#2935
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  Just westward
+a tombstone enveloped with {Ggreen{x light is pitched in the ground.  It appears
+to be angled a bit differently from the rest of the mess of stones.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2936
+0 0
+D1
+~
+~
+Z 0 2936
+0 0
+D2
+~
+~
+Z 0 2934
+0 0
+D3
+~
+~
+Z 0 2939
+0 0
+S
+#2936
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2931
+0 0
+D1
+~
+~
+Z 0 2936
+0 0
+D2
+~
+~
+Z 0 2927
+0 0
+D3
+~
+~
+Z 0 2935
+0 0
+S
+#2937
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2931
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2936
+0 0
+D3
+~
+~
+Z 0 2938
+0 0
+S
+#2938
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2930
+0 0
+D1
+~
+~
+Z 0 2937
+0 0
+D2
+~
+~
+Z 0 2938
+0 0
+D3
+~
+~
+Z 0 2931
+0 0
+S
+#2939
+The Secret Epitaph~
+~
+0 0 inside
+D5
+~
+~
+Z 0 2926
+0 0
+S
+#2940
+Villa Promenade - 190 W~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2941
+0 0
+D3
+~
+~
+Z 0 2908
+0 0
+S
+#2941
+Villa Promenade - 200 W~
+~
+0 0 inside
+D3
+~
+~
+Z 0 2940
+0 0
+D4
+~
+~
+Z 0 2942
+0 0
+S
+#2942
+A Grass Covered Knoll Door~
+~
+0 0 inside
+D4
+~
+~
+Z 0 2919
+0 0
+D5
+~
+~
+Z 0 2941
+0 0
+S
+#2943
+Villa Promenade - 180 E~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2946
+0 0
+D1
+~
+~
+Z 0 2908
+0 0
+D3
+~
+~
+Z 0 2944
+0 0
+S
+#2944
+Villa Promenade - 170 E~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2943
+0 0
+D2
+~
+~
+Z 0 2945
+0 0
+S
+#2945
+Wee Boulevard~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2944
+0 0
+S
+#2946
+A Verdant Path~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2947
+0 0
+D2
+~
+~
+Z 0 2943
+0 0
+S
+#2947
+A Verdant Path~
+~
+0 0 inside
+D2
+~
+~
+Z 0 2946
+0 0
+D3
+~
+~
+Z 0 2948
+0 0
+S
+#2948
+A Verdant Path~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2949
+0 0
+D1
+~
+~
+Z 0 2947
+0 0
+S
+#2949
+Before a Grassy Mountain~
+~
+0 0 inside
+D2
+~
+~
+Z 0 2948
+0 0
+S
+#0
+
+#SPECIALS
+M 2935 spec_cast_mage	* a {rguardian{x apparition
+S
+
+#RESETS
+O 0 2909 0 2909	* a polished cedar bench (The Fox's Beard)
+O 0 2910 0 2910	* a {Rred{x and {Yyellow{x patched couch (A Comfortable Loft)
+M 0 2911 1 2911 1	* a merry faerie (A Well Maintained Shingled Roof)
+E 0 2912 0 18		*	a bit of {Mp{mi{Mx{mi{Me {Wd{wu{Ys{Wt{x: floating nearby
+M 0 2935 2 2935 2	* a {rguardian{x apparition (A Desultory Row of Stone Epitaphs)
+M 0 2939 1 2939 1	* A bony hand (The Secret Epitaph)
+M 0 2940 1 2939 1	* a {Ggreen{x light (The Secret Epitaph)
+G 0 2940 0		*	a misty epitaph revealing the word "{GWealth{x"
+S
+
+#SHOPS
+2909 17 0 0 0 0 100 100 0 23
+0
+
+#OLIMITS
+O 2940 1	* a misty epitaph revealing the word "{GWealth{x"
+S
+
+#MOBPROGS
+#2939
+if carries $n 2939
+mob echo {RG{rreed{x will get you no where.
+break
+else
+mob echo A {Cb{Wrilliant{x wind of wealth blows from a corner of the tombstone.
+mob oload 2939
+give jewel $n
+mob echo An ephemeral {Gh{giss{x echoes in your head.
+mob purge secret
+endif
+end
+~
+#2940
+if carries $n 2940
+mob echo Your {Ge{gpitaph{x wavers and glows before your eyes.
+break
+else
+mob echo The darkness grows thick and out of nowhere, there is a flash of {Ggreen{x light.
+mob oload 2940
+give wealth $n
+mob purge light
+endif
+end
+~
+#0
+
+#$

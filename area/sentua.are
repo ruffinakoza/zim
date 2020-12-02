@@ -1,0 +1,2410 @@
+#AREADATA
+Name Sentua~
+Builders angelo aamon~
+VNUMs 8000 8099
+Credits Angelo~
+Security 9
+LevelRange 10 60
+End
+
+#MOBILES
+#8000
+juve sentua juvenile~
+a Sentua juvenile~
+A juvenile of Sentua wanders the streets, looking for something to do.
+~
+A skinny child with scaley skin and curious eyes.
+~
+draconian~
+AC 0 -400 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#8001
+sentua punk~
+a Sentua punk~
+One of the many punks of Sentua is here, looking for fun.
+~
+As of late, Sentua has seen a strange cultural phenominon take form;
+gangs.  This is one of many young adult Sentuans that have pledged their
+allegiance to a gang leader.  
+~
+draconian~
+AC 0 -500 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8002
+sentuan elder~
+an elder Sentuan~
+An elder Sentuan stands here, regarding you carefully.
+~
+An older man of the Sentuan city, he is one of the few who survived the
+war of the Planar Invasion.  He carries himself with an air of pride, and he
+looks rather tough.  
+~
+draconian~
+AC 0 204 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8003
+cityguard sentuan~
+a Sentuan cityguard~
+A cityguard of Sentua stands here, paying you no mind.
+~
+A member of the Sentuan army, this man is well-armed and undersupervised.  
+~
+draconian~
+ACGT 0 200 0
+16 16 32d16+0 80d10+85 5d3+13 none
+-1 -1 -1 1
+CEKNQU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8004
+pickpocket~
+a pickpocket~
+A pickpocket darts in and out of the crowd.
+~
+He blends into the crowd as his hand travels into another citizen's pocket.
+~
+human~
+ACGHS DFPQ -150 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+BEFJNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8005
+thug sentua~
+a thug of Sentua~
+A common thug looks you over carefully.
+~
+She looks mean and dirty, and she probably fights the way she looks...
+~
+draconian~
+ACFG 0 -400 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+CJNQU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8006
+sentuan cityguard captain seargent~
+a Sentuan sergeant~
+A sergeant of the cityguards is here, polishing his weapon.
+~
+Even more dangerous than your average cityguard, he's well-armed and has
+more training.  
+~
+draconian~
+AGHT 0 300 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+CEFKNQUV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8007
+store owner xjan~
+Xjan~
+Xjan, the store owner, stands here. He wonders what you're doing.
+~
+A scale-covered snake-man in his mid forties, he looks like he's seen a lot.
+~
+draconian~
+AB 0 200 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8008
+oldstyle Pinkerton Throt~
+Pinkerton Throt~
+The reknowned thief Pinkerton Throt is here, wringing his hands.
+~
+He is a thin, angular crook, pretty close to everyone's idea of their
+boss they hate.  Indeed, the only thing guaranteed to bring a spark to his
+dead eyes is the mention of money.  
+~
+human~
+ABCF DF -900 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 8008 20~
+#8009
+oldstyle cafe shopkeeper~
+the shopkeeper~
+A girl stands behind a counter, waiting to make you coffee.
+~
+A cute girl... for someone who has scales.
+~
+draconian~
+ABT 0 138 0
+20 20 42d20+0 200d11+95 7d2+20 none
+-5 -5 -5 -1
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8010
+monasu queen~
+Monasu~
+The queen of Sentua, Monasu, is here.
+~
+The wife of Tetuo, it's long been known that they don't get along very
+well anymore, and now have seperate houses.  However, to divorce would bring
+great shame upon their families, so they've stayed together in rulership.  
+~
+draconian~
+AB DFH 300 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+CEFHJKN 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8011
+tetuo king~
+Tetuo~
+The king of Sentua, Tetuo, stands here in contemplation.
+~
+The king of Sentua, Tetuo is a dramatic figure; dressed in the finest
+silks, and wielding the sharpest blade, his father was the general who
+repelled the invading forces during the Planar Invasion.  He is a strong
+man, but resented by his wife.  
+~
+draconian~
+AG DFH 500 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8012
+dog stray~
+a stray dog~
+A stray dog wanders about, looking for food.
+~
+He looks remarkably like the fidos of Midgaard...
+~
+fido~
+A 0 -400 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+H 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#8013
+shopkeeper weapon~
+the shopkeeper~
+The shopkeeper of the weapon store is here.
+~
+A younger Sentian, he looks agile and strong, and ready to use any of the
+weapons he sells.  
+~
+draconian~
+ABT 0 0 0
+20 20 42d20+0 200d11+95 7d2+20 none
+-5 -5 -5 -1
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#8014
+gamer shell~
+the shell gamer~
+The shell gamer is here, waiting to take your money.
+~
+A shadey Sentuan, his eyes dart back and forth, and his twitchy demeanor
+betrays his agility.  You begin to suspect he may be hiding the stone in his
+hand on occasion...  
+~
+draconian~
+ABT DFlm 0 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+CDEFHIJKN 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M greet 8014 100~
+M bribe 8015 250000~
+M speech 8018 one~
+M speech 8018 two~
+M speech 8018 three~
+M speech 8016 hand~
+#8015
+shopkeeper armorer~
+the armorer~
+A muscular Sentuan in a leather apron walks up to the counter.
+~
+A built man of his 30s or 40s, he is the village's armorer. His workload is
+relatively light, given the fact that no one really knows where this place is.
+~
+draconian~
+ABT 0 0 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+CFHN 0 0 0
+stand stand male 1758
+0 0 medium flesh~
+~
+#8016
+shopkeeper zugenthar~
+Zugenthar~
+The odd man known as Zugenthar walks up to you.
+~
+What a strange little man; he's approximately 3 and a half feet tall, but
+he compensates by walking around on stilts.  He manages his store with the
+pride someone would take in a freakishly large vegetable that they
+accidently grew in their yard.  Bizarre.  
+~
+draconian~
+ABT 0 0 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+CFHN 0 0 0
+stand stand male 1676
+0 0 medium flesh~
+~
+#8017
+alien creature strange~
+a strange creature~
+A strange creature lies in the corner... some kind of alien??
+~
+What a bizarre creature; it appears to have some sort of exo-skeleton
+ringing the outside of it's head and body.  His skin is a dull gray, and his
+eyes seem to be entirely black...  
+~
+unique~
+AB u 0 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+CEFHJMNO 0 D HIJKMN
+sleep sleep male 0
+0 0 medium flesh~
+~
+M death 8017 20~
+#8018
+wandering merchant street~
+a street merchant~
+A street merchant is here, trying to sell you something.
+~
+~
+draconian~
+ABT 0 0 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+0 0 0 0
+stand stand none 1588
+0 0 medium flesh~
+~
+#8035
+priest sentuan~
+a Sentuan priest~
+A priest of Sentua stands here, attending the altar.
+~
+He's a stout, older Sentuan, with a peaceful gaze and a purpose to his
+movements.  He seems quite relaxed for living in the middle of a harsh
+desert.  
+~
+draconian~
+ABQa H 0 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+H 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M random 8035 100~
+M greet 8035 100~
+#0
+
+#OBJECTS
+#8000
+wand sentua lesser~
+a lesser wand of Sentua~
+A gnarled piece of iron rests here.~
+steel~
+~
+wand 0 AO
+20 10 10 'magic missile'
+20 20 4000 P
+A
+12 20
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8001
+brown kilt~
+a {ybrown kilt{x~
+A brown piece of cloth rests on the ground.~
+unknown~
+cloth~
+armor 0 AF
+11 11 11 10 'none' 0
+30 31 50075 P
+A
+12 65
+A
+6 1
+G none
+G none
+G none
+G none
+#8002
+herbal brew~
+an herbal brew~
+A small clay vial giving off a sweet aroma rests here.~
+unknown~
+~
+potion 0 A
+20 'cure critical' 'cure critical' 'cure poison' 'reserved'
+20 10 1500 P
+G none
+G none
+G none
+G none
+#8003
+wand sentua greater~
+a greater wand of Sentua~
+A small, gnarled piece of iron rests on the ground.~
+steel~
+~
+wand 0 AO
+30 5 5 'fireball'
+30 20 21000 P
+A
+12 30
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#8004
+safe~
+an iron safe~
+A heavy, iron safe sits here. It looks indestructible.~
+iron~
+~
+container B 0
+1005 ACD 8005 200 100 0
+30 0 0 P
+E
+safe~
+This safe looks like it'd be pretty hard to open.  Perhaps you should
+find the key.  
+~
+G none
+G none
+G none
+G none
+#8005
+safe key~
+a safe key~
+A key to a safe rests here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+20 10 40 P
+G none
+G none
+G none
+G none
+#8006
+sword sentua~
+a Sentua sword~
+A thin, delicate blade rests here.~
+iron~
+~
+weapon 0 AN
+shortsword 3 10 stab 0
+35 36 17253 P
+A
+18 2
+A
+19 2
+A
+12 45
+G none
+G none
+G none
+G none
+#8007
+vibroblade rare~
+the {Dv{Wi{Bbr{Wo{Bbla{Wd{De{x~
+The {Dv{Wi{Bbr{Wo{Bbla{Wd{De{x is here.~
+adamantite~
+~
+weapon ABh AN
+dagger 4 10 stab DG
+50 51 67046 P
+A
+13 10
+A
+18 5
+A
+19 5
+E
+vibroblade~
+Obviously of alien manufacture, this blade enhances fighting and survival
+skills.  It is sharp, virtually weightless, and seems to eminate energy.  
+~
+G none
+G none
+G none
+G none
+#8008
+trident iron~
+a razor-sharp iron trident~
+A wicked-looking iron trident rests here.~
+iron~
+~
+weapon B AN
+spear 3 13 stab DH
+40 41 40213 P
+A
+18 2
+A
+19 4
+G none
+G none
+G none
+G none
+#8009
+knife~
+an iron knife~
+A simple iron knife rests here.~
+iron~
+~
+weapon 0 AN
+dagger 3 5 slice 0
+20 21 3774 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8010
+iron rod~
+an iron rod~
+A long, thin rod of iron rests here.~
+iron~
+~
+weapon 0 AN
+mace 2 10 pound 0
+20 21 9261 P
+A
+1 1
+A
+19 3
+G none
+G none
+G none
+G none
+#8011
+whip sentua~
+a Sentua whip~
+A whip with a razor-barbed tip rests here.~
+iron~
+~
+weapon 0 AN
+whip 3 9 whip D
+40 41 7763 P
+A
+19 4
+G none
+G none
+G none
+G none
+#8012
+vault key~
+the vault key~
+A vault key is here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+20 10 40 P
+E
+vault key~
+The key looks like it could be useful.
+~
+G none
+G none
+G none
+G none
+#8013
+caustic brew energy~
+a caustic energy brew~
+A bitter-smelling brew rests in a vial here, fizzing furiously.~
+clay~
+~
+potion 0 A
+20 'cause critical' 'haste' 'reserved' 'reserved'
+20 10 3005 P
+G none
+G none
+G none
+G none
+#8014
+sword iron~
+an iron sword~
+A simple iron sword sits here.~
+iron~
+~
+weapon 0 AN
+longsword 2 12 slash 0
+20 21 5607 P
+A
+19 2
+G none
+G none
+G none
+G none
+#8015
+iron mace~
+an iron mace~
+A simple iron mace rests here.~
+iron~
+~
+weapon A AN
+mace 2 15 pound 0
+30 31 6958 P
+A
+19 3
+G none
+G none
+G none
+G none
+#8016
+sentua halberd~
+a Sentua halberd~
+A delicate blade on the end of a pole rests here.~
+iron~
+~
+weapon 0 AN
+polearm 1 55 slash FH
+35 36 46186 P
+A
+6 1
+A
+19 4
+G none
+G none
+G none
+G none
+#8017
+rabbit foot~
+a rabbit's foot~
+A rabbit's foot rests here.~
+unknown~
+~
+jewelry G A
+0 0 0 0 0 0 0
+20 0 1000 P
+A
+19 2
+G none
+G none
+G none
+G none
+#8018
+iron staff~
+an iron staff~
+A long staff fashioned of iron rests here.~
+unknown~
+~
+staff 0 AO
+20 5 5 'fireball'
+40 5 7000 P
+A
+19 4
+G none
+G none
+G none
+G none
+#8019
+sentuan breastplate~
+a Sentuan breastplate~
+A breastplate of iron rests here.~
+iron~
+~
+armor 0 AD
+11 11 11 10 'none' 0
+30 31 38357 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8020
+sentuan helmet~
+a Sentuan helmet~
+A helmet of fine iron rests here.~
+iron~
+~
+armor 0 AE
+11 11 11 10 'none' 0
+30 31 18147 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#8021
+sentuan shield~
+a Sentuan shield~
+A shield of fine iron rests here.~
+iron~
+~
+armor 0 AJ
+11 11 11 10 'none' 0
+30 31 23643 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8022
+sentuan armplates~
+some Sentuan armplates~
+A couple of fine iron armplates rest here.~
+iron~
+~
+armor 0 AI
+11 11 11 10 'none' 0
+30 31 22131 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#8023
+sentuan legplates~
+some Sentuan legplates~
+A couple of fine iron legplates rest here.~
+iron~
+~
+armor 0 AF
+11 11 11 10 'none' 0
+30 31 22471 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8024
+sentuan plated boots~
+some Sentuan plated boots~
+A couple of boots plated in fine iron rest here.~
+iron~
+~
+armor 0 AG
+11 11 11 10 'none' 0
+30 31 16259 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8025
+sentuan gauntlets~
+some Sentuan gauntlets~
+A couple of fine iron gauntlets rest here.~
+iron~
+~
+armor 0 AH
+11 11 11 10 'none' 0
+30 31 18909 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#8026
+sentuan wristguards guards~
+a Sentuan wristguard~
+A finely made iron wristguard rests here.~
+iron~
+~
+armor 0 AM
+11 11 11 10 'none' 0
+30 31 13002 P
+A
+19 2
+A
+18 2
+G none
+G none
+G none
+G none
+#8027
+pile gold silver coins~
+a pile of coins~
+A pile of coins is here.~
+unknown~
+~
+money 0 A
+50 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8028
+ball power~
+a ball of power~
+A small round object pulses with energy here.~
+energy~
+~
+treasure AG AQ
+0 0 0 0 0
+30 0 10243 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8029
+belt many pouches~
+a belt of many pouches~
+A belt with a whole lot of pouches rests here.~
+leather~
+~
+container Y AL
+100 0 0 100 80 0
+30 0 51607 P
+A
+13 24
+G none
+G none
+G none
+G none
+#8030
+blood ring~
+{ra blood ring{z~
+A small {rred{z ring rests upon the ground. It looks wet...~
+unknown~
+~
+jewelry G AB
+0 0 0 0 0 0 0
+30 0 12000 P
+A
+13 30
+G none
+G none
+G none
+G none
+#8031
+ring spirit~
+{ma spirit ring{z~
+A small {mpurple{z ring rests upon the ground. It looks ethereal...~
+unknown~
+~
+jewelry G AB
+0 0 0 0 0 0 0
+30 2 12000 P
+A
+12 30
+G none
+G none
+G none
+G none
+#8032
+bloody tooth~
+a bloody tooth necklace~
+A bloody tooth on a piece of string is here.~
+unknown~
+~
+jewelry G AC
+0 0 0 0 0 0 0
+30 2 14240 P
+A
+18 2
+A
+19 2
+A
+14 50
+G none
+G none
+G none
+G none
+#8033
+silk silken cloak~
+a silken cloak~
+A beautiful silken cloak lies here.~
+silk~
+~
+clothing G AK
+0 0 0 0 0 0 0
+30 0 14046 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#8034
+faerie jar~
+a faerie in a jar~
+A glowing faerie trapped in a sealed jar pouts at you.~
+unknown~
+~
+light AG AO
+471
+30 0 2496 P
+A
+19 2
+A
+12 30
+G none
+G none
+G none
+G none
+#8035
+rare black mask~
+a black mask~
+A mask of fine black silk rests here.~
+adamantite~
+~
+armor EGJh AE
+18 18 18 17 'none' 0
+50 51 228821 P
+F
+A 13 50 J
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#8036
+pebble small stone~
+a small pebble~
+A miniscule stone rests here. You hardly notice it.~
+unknown~
+rock~
+pill GNPUa AO
+70 'group defense' 'detect invis' 'mass invis' 'bless'
+70 0 110 P
+G none
+G none
+G none
+G none
+#8037
+gold coins pile~
+a pile of gold coins~
+A pile of gold coins is here.~
+unknown~
+~
+money 0 A
+50 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8038
+fountain spring natural~
+a natural spring~
+A natural spring feeds a fountain here.~
+marble~
+~
+fountain 0 0
+102832 102832 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8039
+pineapple~
+a pineapple~
+A pineapple rests here, waiting to be eaten.~
+unknown~
+~
+food 0 A
+BD BEF 0 0 0 BD BEF
+0 10 20 P
+G none
+G none
+G none
+G none
+#8040
+sentuan canteen belt~
+a Sentuan belt-canteen~
+A canteen on a belt rests here.~
+unknown~
+cloth~
+drink Y AL
+100 100 'water' 0
+30 100 1492 P
+A
+14 70
+G none
+G none
+G none
+G none
+#8041
+tunic simple sentuan~
+a simple Sentuan tunic~
+A simple Sentuan tunic rests here.~
+unknown~
+~
+clothing 0 AD
+0 0 0 0 0 0 0
+30 0 38007 P
+A
+13 30
+G none
+G none
+G none
+G none
+#8042
+bed lavish large~
+a lavishly large bed~
+A lavishly large bed sits in a corner.~
+unknown~
+~
+furniture 0 0
+B GJOQRST BEHL BCEH BCEH B GJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#8043
+key royal~
+a royal key~
+A key to the homes of the royalty sits here.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+21 0 0 P
+A
+12 50
+G none
+G none
+G none
+G none
+#8044
+chest~
+a large chest~
+A durable-looking chest sits in the corner.~
+unknown~
+~
+container 0 0
+1000 ABCD 8043 100 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8045
+jewel shellgame~
+a shellgame {Cg{We{Cm{x~
+~
+unknown~
+rock~
+gem A A
+0 0 0 0 0 0 0
+0 3 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#8000
+Extra-Dimensional Space~
+The shell game operator dumps his money here...
+~
+0 0 inside
+S
+#8001
+At the Gates of Sentua~
+You find yourself on a road in the glowing sands.  To the south, there is
+a gate leading into a walled city.  The architecture is very worn from the
+dusty winds of the Sands of Sorrow.  
+~
+0 0 city
+D0
+You see the glowing sand of the badlands.
+~
+~
+Z 0 5062
+0 0
+D2
+~
+~
+ABZ 0 8002
+0 0
+S
+#8002
+Inside the Gates~
+You are standing inside the gates of Sentua.  This small settlement in
+the desert is shielded by crude walls of bricks made out of what seems to be
+clay...  It shields the wind pretty well.  The roads aren't paved, nor well
+traveled, but marked none-the-less.  Expanding southward is the small city. 
+~
+0 0 city
+D0
+~
+gate~
+ABZ 0 8001
+0 0
+D2
+There is an intersection ahead.
+~
+~
+Z 0 8003
+0 0
+S
+#8003
+Intersection of North and Main~
+You are standing at what appears to be an intersection of the northern
+road and the mainstreet through the city.  To the west, you can see a small
+cafe in a clay building; to the east, you see some tents, and to the south,
+buildings and more tents line the streets.  
+~
+0 0 city
+D0
+You see the gates in the distance.
+~
+~
+Z 0 8002
+0 0
+D1
+A road meanders off.
+~
+~
+Z 0 8010
+0 0
+D2
+A road meanders off.
+~
+~
+Z 0 8004
+0 0
+D3
+You see a makeshift Cafe in a large tent.
+~
+~
+Z 0 8021
+0 0
+S
+#8004
+Main Road~
+You are walking down the main road of Sentua.  The strange lizardesque
+inhabitants seem nice so far.  The desert air, though, does not.  Surely,
+these people have some sort of advantage due to their bodies that you do
+not; you can see no other way they could stand to live here all the time. 
+The road continues north and south.  
+~
+0 0 city
+D0
+An intersection lies in this direction.
+~
+~
+Z 0 8003
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8005
+0 0
+S
+#8005
+Main Road~
+You continue down the main road of Sentua.  To the west, you see a shady
+tent, with a single man and a table...  And what looks like 3 shells.  To
+the east, you see an alley between the tents.  North and south, the road
+continues.  The arid desert atmosphere has made you thirsty...  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8004
+0 0
+D1
+A dark alley lies to the east.
+~
+~
+Z 0 8011
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8006
+0 0
+D3
+You see a shadey-looking tent.
+~
+~
+Z 0 8022
+0 0
+S
+#8006
+Central Plaza~
+You stand at what seems to be the closest thing to a central square this
+city has.  Larger than the other intersections, it's the meeting point of
+main and merchant roads.  Looking around, you see the armory to the west,
+and a a street merchant to the east.  Southward, in the distance you see the
+temple.  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8005
+0 0
+D1
+A road continues off into the distance.
+~
+~
+Z 0 8012
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8007
+0 0
+D3
+The armory is west.
+~
+~
+Z 0 8023
+0 0
+S
+#8007
+Intersection of Main and South~
+You stand at the intersection of the south and main roads.  To the west,
+you see the shop of oddities, and to the north and south, main road goes
+on...  To the east, south road runs the length of the wall.  The desert heat
+is starting to get to you...  Perhaps you should find cover.  
+~
+0 0 city
+D0
+A plaza is to the north.
+~
+~
+Z 0 8006
+0 0
+D1
+A road continues off into the distance.
+~
+~
+Z 0 8013
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8008
+0 0
+D3
+The oddity shop is west.
+~
+~
+Z 0 8024
+0 0
+S
+#8008
+Main Road~
+You are approaching the end of the main road.  To the south, you see the
+end, where two houses lie off to the side and a temple at it's edge.  The
+temple looks amazing, but a gust of desert wind prevents you from lingering
+on the observation.  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8007
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8009
+0 0
+S
+#8009
+The end of Main Road~
+You are standing at the end of the main road.  To the east and west, you
+see two large houses, and to the south, you see the main temple of the city.
+To the far north, down the road, you can see the gates of the city.  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8008
+0 0
+D1
+The house of Monasu is there.
+~
+door~
+ABCZ 8043 8014
+0 0
+D2
+The central temple lies south.
+~
+~
+Z 0 8020
+0 0
+D3
+The house of Tetuo is there.
+~
+door~
+ABCZ 8043 8025
+0 0
+S
+#8010
+North Road~
+The wind blows harshly here, as there is a gap in the upper portion of
+the walls to the north.  To the east, the road hooks southward, and you can
+see the edge of a sign that looks like it's for a weapon shop.  To the east
+is the intersection of main and north road.  
+~
+0 0 city
+D1
+An intersection is ahead.
+~
+~
+Z 0 8015
+0 0
+D3
+An intersection is ahead.
+~
+~
+Z 0 8003
+0 0
+S
+#8011
+An Alley Through the Tents~
+Wow, this alley is pretty small.  Atleast the wind isn't whipping in your
+face here.  You see intersections both to the east and west.  
+~
+0 A city
+D1
+An intersection is ahead.
+~
+~
+Z 0 8017
+0 0
+D3
+An intersection is ahead.
+~
+~
+Z 0 8005
+0 0
+S
+#8012
+Merchant Road~
+You are standing on the merchant road, a place where merchants usually
+collect and barter with eachother and passerbys.  However, there aren't very
+many merchants or random people in general, due to the super-dry season, so
+the place seems pretty dead.  You can see intersections both to your east
+and west.  
+~
+0 0 city
+D1
+An intersection is ahead.
+~
+~
+Z 0 8018
+0 0
+D3
+A road continues off into the distance.
+~
+~
+Z 0 8006
+0 0
+S
+#8013
+South Road~
+You are standing on south road.  To the immediate south, the walls of the
+city loom before you, keeping the bulk of the desolate winds of the Sands of
+Sorrow at bay.  To the east, you see east road, and to the west, you see
+another intersection.  
+~
+0 0 city
+D1
+An intersection is ahead.
+~
+~
+Z 0 8019
+0 0
+D3
+An intersection is ahead.
+~
+~
+Z 0 8007
+0 0
+S
+#8014
+The House of Monasu~
+You are standing inside the house of Monasu.  It's relatively
+nondescript, compared to the lavish settings you usually find queens living
+in.  There's a nice living area, a small bath area, and a large bed in
+another; strangely enough, none of the house's rooms are seperated by walls.
+You guess that if you live alone, you wouldn't need them.  
+~
+0 0 city
+D3
+An intersection is ahead.
+~
+door~
+ABCZ 8043 8009
+0 0
+S
+#8015
+Corner of North and East road~
+You are standing at the corner of north and east road.  To the south,
+east road continues, and you can see the entrance to the weapon shop.  To
+the east, you can see the intersection of main and north roads, as well as a
+small cafe beyond it.  
+~
+0 0 city
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8016
+0 0
+D3
+A road continues off into the distance.
+~
+~
+Z 0 8010
+0 0
+S
+#8016
+East Road~
+You are standing in front of the weapon shop of Sentua.  The build is one
+of few that seems to have been built with a purpose to last.  The walls of
+the building are brick, much like the walls surrounding the city.  The warm,
+desolate air of the Sands of Sorrow choke you as you decide where you wish
+to go from here.  
+~
+0 0 city
+E
+sign~
+Throt and Gleep's Megger Store est. 2107
+~
+D0
+An intersection is ahead.
+~
+~
+Z 0 8015
+0 0
+D1
+A door leads into a weapons shop.
+~
+door~
+ABZ 0 8026
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8017
+0 0
+S
+#8017
+East Road~
+You stand at the intersection of east road, and some sort of tiny alley
+between some tents.  You suppose you could go through.  It would lead
+towards the main road.  To the south, you see another intersection.  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8016
+0 0
+D2
+An intersection is ahead.
+~
+~
+Z 0 8018
+0 0
+D3
+A dark alley is west.
+~
+~
+Z 0 8011
+0 0
+S
+#8018
+Intersection of Merchant and East~
+You stand at the intersection of east and merchant road.  To the west,
+the road continues towards the main road.  Normally, there are many
+merchants out there, trying to sell their goods, but the dry season has
+really prevented many people from leaving their homes very often.  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8017
+0 0
+D2
+A road continues off into the distance.
+~
+~
+Z 0 8019
+0 0
+D3
+A road continues off into the distance.
+~
+~
+Z 0 8012
+0 0
+S
+#8019
+Intersection of East and South~
+You are standing at the corner of east and south road.  Northward, in the
+distance, you can see the weapon shop...  To the west, you can see more
+shops, lining main road.  The dry, desolate air takes getting used to.  
+~
+0 0 city
+D0
+A road continues off into the distance.
+~
+~
+Z 0 8018
+0 0
+D3
+A road continues off into the distance.
+~
+~
+Z 0 8013
+0 0
+S
+#8020
+The Temple~
+You stand inside a large marble building, the only non-brick building in
+the city.  The architecture is far more ornate than the typical shops and
+houses of the city, and the stained-glass windows and the altar are truly
+something to behold.  The room is very peaceful...  You feel like a nap. 
+The room deffinatly seems to be making you feel refreshed already, and you
+get the impression that you are healing and recovering your energy much
+faster than usual.  
+~
+0 0 city
+D0
+An intersection lies north.
+~
+~
+Z 0 8009
+0 0
+M 1000 H 1000
+S
+#8021
+Cafe Asissi~
+You are standing inside Cafe Asissi, the only cafe in Sentua.  It's
+fairly well known that the beverages here have very strong effects... 
+Perhaps you should try one.  To the east, out the door, is an intersection. 
+~
+0 D inside
+D1
+An intersection lies east.
+~
+~
+Z 0 8003
+0 0
+S
+#8022
+The Shell Game~
+You stand inside a dark, arid tent.  You're glad for the cover, but the
+place feels a little...  Dangerous, for some reason.  The man sitting before
+you behind the table looks awfully happy to see you.  Too happy.  
+~
+0 D inside
+D1
+An intersection lies east.
+~
+~
+Z 0 8005
+0 0
+S
+#8023
+The Armory~
+The walls in this building are lined with various pieces of iron, which
+you can only assume fit together to make a suit of armor.  It seems this is
+the only type of armor he makes, but he seems to make it very well, as the
+craftmanship on these pieces amazes you when you inspect them.  
+~
+0 D inside
+D1
+An intersection lies east.
+~
+~
+Z 0 8006
+0 0
+S
+#8024
+Zugenthar's Shop of Oddities~
+You step into the most bizarre shop you've ever seen, and are immediately
+assaulted by the scent of strange incence burning all over the place.  There
+are now windows, and the store is lit exclusively by candles.  There are
+tables and shelves everywhere, with various random objects crammed to the
+max on all of them.  Most of it just looks bizarre and useless, but you're
+sure there's got to be some useful stuff here...  
+~
+0 D inside
+D1
+An intersection lies east.
+~
+~
+Z 0 8007
+0 0
+S
+#8025
+The House of Tetuo~
+You are standing inside the house of Tetuo.  It's relatively
+nondescript, compared to the lavish settings you usually find kings living
+in.  There's a nice living area, a small bath area, and a large bed in
+another; strangely enough, none of the house's rooms are seperated by walls.
+You guess that if you live alone, you wouldn't need them.  
+~
+0 D inside
+D1
+An intersection lies east.
+~
+door~
+ABCZ 8043 8009
+0 0
+S
+#8026
+Xjan's Weapon Shop~
+You are glad to be inside the weapon shop of Sentua; it gives you relief
+from the harsh desert air outside.  The walls have hooks holding a few of
+each type of weapon this store sells, and they all look like they are of
+good quality.  Your decision might be hard.  To the north, you see a door,
+which pesumably leads to the stock room.  
+~
+0 D inside
+E
+sign~
+To open insert card.
+~
+D0
+~
+~
+ABZ 0 8027
+0 0
+D3
+~
+door~
+ABZ 0 8016
+0 0
+S
+#8027
+Stockroom~
+You stand inside the stock-room of Xjan's weapon shop.  There are boxes
+everywhere, presumably holding more of the weapons you saw on the walls to
+the south.  To the north, you see a giant metal door, presumably the vault. 
+Perhaps if you somehow gained entrance...  
+~
+0 D inside
+E
+vault door~
+This vault seems impervious to breaking.  There is a keyhole in the lock
+however.
+~
+D0
+~
+vault door~
+ABCFZ 8012 8028
+0 0
+D2
+~
+~
+ABZ 0 8026
+0 0
+S
+#8028
+The Vault~
+Wow, you've made it into the vault!  But it seems that someone else
+already has, as well...  This could get ugly.  Certainly there isn't enough
+treasure to split...  LOOK OUT!  
+~
+0 AD inside
+D2
+~
+vault door~
+ABCFZ 8012 8027
+0 0
+D5
+~
+trapdoor~
+ABZ 0 8029
+0 0
+S
+#8029
+The Cellar~
+You climb through the small trapdoor, and drop down into the cellar... 
+And your nostrils are instantly assailed with a scent you don't believe
+you've ever smelled before.  Around you, there are various boxes and crates,
+mostly full of useless junk, but none of that grabs your attention; it's the
+door to the north, leading into what looks like a cage!  
+~
+0 A inside
+D0
+~
+door~
+ABZ 0 8030
+0 0
+D4
+~
+trapdoor~
+ABZ 0 8028
+0 0
+S
+#8030
+The Cage~
+This seems to be some sort of holding cell...  And it's certainly the
+source of that bizarre smell.  But what's it's purpose?  Why would a Sentuan
+have a cage in his cellar?  The planar wars are long over...  Wait... 
+What's that in the corner?  It's breathing!  
+~
+0 A inside
+D2
+~
+door~
+ABZ 0 8029
+0 0
+S
+#0
+
+#SPECIALS
+M 8003 spec_cast_mage	* a Sentuan cityguard
+M 8004 spec_thief	* a pickpocket
+M 8010 spec_cast_mage	* Monasu
+M 8011 spec_cast_mage	* Tetuo
+M 8012 spec_fido	* a stray dog
+M 8035 spec_cast_cleric	* a Sentuan priest
+S
+
+#RESETS
+D 0 8001 2 1	* At the Gates of Sentua: door to the south: closed
+D 0 8002 0 1	* Inside the Gates: door to the north: closed
+D 0 8009 1 2	* The end of Main Road: door to the east: closed and locked
+D 0 8009 3 2	* The end of Main Road: door to the west: closed and locked
+D 0 8014 3 2	* The House of Monasu: door to the west: closed and locked
+D 0 8016 1 1	* East Road: door to the east: closed
+D 0 8025 1 2	* The House of Tetuo: door to the east: closed and locked
+D 0 8026 0 1	* Xjan's Weapon Shop: door to the north: closed
+D 0 8026 3 1	* Xjan's Weapon Shop: door to the west: closed
+D 0 8027 0 2	* Stockroom: door to the north: closed and locked
+D 0 8027 2 1	* Stockroom: door to the south: closed
+D 0 8028 2 2	* The Vault: door to the south: closed and locked
+D 0 8028 5 1	* The Vault: door to the down: closed
+D 0 8029 0 1	* The Cellar: door to the north: closed
+D 0 8029 4 1	* The Cellar: door to the up: closed
+D 0 8030 2 1	* The Cage: door to the south: closed
+M 0 8004 3 8003 1	* a pickpocket (Intersection of North and Main)
+M 0 8000 4 8004 2	* a Sentua juvenile (Main Road)
+E 0 8009 0 16		*	an iron knife: wielded
+M 0 8000 4 8004 2	* a Sentua juvenile (Main Road)
+E 0 8009 0 16		*	an iron knife: wielded
+M 0 8004 3 8005 1	* a pickpocket (Main Road)
+M 0 8000 4 8006 1	* a Sentua juvenile (Central Plaza)
+E 0 8009 0 16		*	an iron knife: wielded
+M 0 8001 5 8006 2	* a Sentua punk (Central Plaza)
+E 0 8009 0 16		*	an iron knife: wielded
+M 0 8004 3 8006 1	* a pickpocket (Central Plaza)
+M 0 8010 1 8007 1	* Monasu (Intersection of Main and South)
+E 0 8014 0 16		*	an iron sword: wielded
+G 0 8043 0		*	a royal key
+G 0 8003 0		*	a greater wand of Sentua
+M 0 8006 3 8008 1	* a Sentuan sergeant (Main Road)
+E 0 8011 0 16		*	a Sentua whip: wielded
+M 0 8001 5 8009 1	* a Sentua punk (The end of Main Road)
+E 0 8009 0 16		*	an iron knife: wielded
+E 0 8001 0 7		*	a {ybrown kilt{x: on the legs
+M 0 8011 1 8009 1	* Tetuo (The end of Main Road)
+E 0 8014 0 16		*	an iron sword: wielded
+G 0 8043 0		*	a royal key
+G 0 8003 0		*	a greater wand of Sentua
+M 0 8003 7 8009 1	* a Sentuan cityguard (The end of Main Road)
+G 0 8000 0		*	a lesser wand of Sentua
+M 0 8005 3 8010 1	* a thug of Sentua (North Road)
+E 0 8006 0 16		*	a Sentua sword: wielded
+M 0 8001 5 8011 2	* a Sentua punk (An Alley Through the Tents)
+E 0 8009 0 16		*	an iron knife: wielded
+M 0 8012 2 8011 2	* a stray dog (An Alley Through the Tents)
+M 0 8012 2 8011 2	* a stray dog (An Alley Through the Tents)
+M 0 8006 3 8012 1	* a Sentuan sergeant (Merchant Road)
+E 0 8011 0 16		*	a Sentua whip: wielded
+M 0 8018 1 8012 1	* a street merchant (Merchant Road)
+G 0 8001 0		*	a {ybrown kilt{x
+G 0 8041 0		*	a simple Sentuan tunic
+G 0 8040 0		*	a Sentuan belt-canteen
+G 0 8039 0		*	a pineapple
+M 0 8003 4 8013 2	* a Sentuan cityguard (South Road)
+E 0 8001 0 7		*	a {ybrown kilt{x: on the legs
+O 0 8042 0 8014	* a lavishly large bed (The House of Monasu)
+O 0 8044 0 8014	* a large chest (The House of Monasu)
+P 0 8037 1 8044 1	* a large chest: a pile of gold coins
+M 0 8000 4 8015 1	* a Sentua juvenile (Corner of North and East road)
+E 0 8009 0 16		*	an iron knife: wielded
+E 0 8001 0 7		*	a {ybrown kilt{x: on the legs
+M 0 8005 3 8017 1	* a thug of Sentua (East Road)
+E 0 8015 0 16		*	an iron mace: wielded
+M 0 8006 3 8018 1	* a Sentuan sergeant (Intersection of Merchant and East)
+E 0 8011 0 16		*	a Sentua whip: wielded
+M 0 8001 9 8019 1	* a Sentua punk (Intersection of East and South)
+E 0 8009 0 16		*	an iron knife: wielded
+M 0 8005 3 8019 1	* a thug of Sentua (Intersection of East and South)
+O 0 8038 0 8020	* a natural spring (The Temple)
+M 0 8035 1 8020 1	* a Sentuan priest (The Temple)
+M 0 8009 1 8021 1	* the shopkeeper (Cafe Asissi)
+E 0 8006 0 16		*	a Sentua sword: wielded
+G 0 8002 0		*	an herbal brew
+G 0 8013 0		*	a caustic energy brew
+M 0 8014 1 8022 1	* the shell gamer (The Shell Game)
+M 0 8015 1 8023 1	* the armorer (The Armory)
+G 0 8026 0		*	a Sentuan wristguard
+G 0 8025 0		*	some Sentuan gauntlets
+G 0 8024 0		*	some Sentuan plated boots
+G 0 8023 0		*	some Sentuan legplates
+G 0 8022 0		*	some Sentuan armplates
+G 0 8020 0		*	a Sentuan helmet
+G 0 8021 0		*	a Sentuan shield
+G 0 8019 0		*	a Sentuan breastplate
+M 0 8002 4 8023 2	* an elder Sentuan (The Armory)
+E 0 8010 0 16		*	an iron rod: wielded
+M 0 8002 4 8024 2	* an elder Sentuan (Zugenthar's Shop of Oddities)
+E 0 8010 0 16		*	an iron rod: wielded
+M 0 8016 1 8024 1	* Zugenthar (Zugenthar's Shop of Oddities)
+G 0 8034 0		*	a faerie in a jar
+G 0 8033 0		*	a silken cloak
+G 0 8032 0		*	a bloody tooth necklace
+G 0 8031 0		*	{ma spirit ring{z
+G 0 8030 0		*	{ra blood ring{z
+G 0 8029 0		*	a belt of many pouches
+G 0 8028 0		*	a ball of power
+G 0 8018 0		*	an iron staff
+O 0 8042 0 8025	* a lavishly large bed (The House of Tetuo)
+O 0 8044 0 8025	* a large chest (The House of Tetuo)
+P 0 8037 1 8044 1	* a large chest: a pile of gold coins
+M 0 8013 1 8026 1	* the shopkeeper (Xjan's Weapon Shop)
+G 0 8008 0		*	a razor-sharp iron trident
+G 0 8011 0		*	a Sentua whip
+G 0 8016 0		*	a Sentua halberd
+G 0 8006 0		*	a Sentua sword
+G 0 8015 0		*	an iron mace
+G 0 8014 0		*	an iron sword
+G 0 8010 0		*	an iron rod
+G 0 8009 0		*	an iron knife
+M 0 8007 1 8027 1	* Xjan (Stockroom)
+E 0 8016 0 16		*	a Sentua halberd: wielded
+G 0 8012 0		*	the vault key
+O 0 8004 0 8028	* an iron safe (The Vault)
+M 0 8008 1 8028 1	* Pinkerton Throt (The Vault)
+G 0 8005 0		*	a safe key
+P 0 8037 1 8004 1	* an iron safe: a pile of gold coins
+M 0 8017 1 8030 1	* a strange creature (The Cage)
+S
+
+#SHOPS
+8009 10 0 0 0 0 110 10 0 23
+8013 5 0 0 0 0 125 11 0 23
+8015 9 0 0 0 0 110 17 0 23
+8016 15 8 1 33 4 150 12 0 23
+8018 19 17 11 0 0 120 15 0 23
+0
+
+#MOBPROGS
+#8008
+mob oload 8035
+end
+~
+#8014
+Say Step right up! Step right up!
+say And welcome to the shell game!
+wink $n
+say 2500 gold is on the line.
+say Give it to me, I'll shuffle the shells...
+say And if you guess correctly...
+say You'll double your money!
+grin
+~
+#8015
+mob goto 8000
+drop 2500 gold
+mob goto 8022
+say Alright, here we go!
+mob oload 8017
+give rabbit $n
+say Now, hold this; it's for good luck.
+emote shows the target; a small pebble.
+emote places the pebble on the table, under the central shell.
+emote violently moves the shells back and forth, around and around!
+mob echo You feel dizzy.
+emote stops moving the shells around.
+say Ok! Where is the pebble? {WOne{z, {Wtwo{z, or {Wthree{z?
+ 
+if level $n <= 50
+  mob echo You are unsure...
+  end
+  endif
+mob echo You suspect it may be in his hand...
+~
+#8016
+if carries $n 8017
+mob oload 8036
+
+if level $n <= 20
+  if rand 95
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 30
+  if rand 90
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 40
+  if rand 85
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+
+if level $n <= 50
+  if rand 80
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 60
+  if rand 75
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 70
+  if rand 70
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 80
+  if rand 65
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 90
+  if rand 60
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 100
+  if rand 55
+    say Blast! You've figured me out!
+    emote reveals the pebble in his hand.
+    give pebble $n
+    say Here. Keep it.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You thought I was cheating! But I wasn't!
+  emote reveals the pebble under one of the shells.
+  grin
+  mob junk pebble
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+end
+endif
+
+say What about my hand?
+say My hand is perfectly empty...
+say ...because YOU DIDN'T PAY!
+say Otherwise... the rabbit's foot...
+say ...would be in your inventory!
+snicker
+
+end
+endif
+~
+#8017
+mob oload 8007
+~
+#8018
+if carries $n 8017
+
+mob goto 8000
+mob oload 8027
+drop all
+get gold
+mob goto 8022
+
+if level $n <= 20
+  if rand 95
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 30
+  if rand 90
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 40
+  if rand 85
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 50
+  if rand 80
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 60
+  if rand 75
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 70
+  if rand 70
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 80
+  if rand 65
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 90
+  if rand 60
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+if level $n <= 100
+  if rand 55
+    growl
+    emote reveals the pebble under the shell.
+    drop 5000 gold
+    say It's yours... if you can carry it. Hehehe.
+    mob force $n drop foot
+get foot
+mob purge foot
+    end
+    endif
+  say HAH! You are incorrect!
+  emote reveals the pebble under a different shell.
+  grin
+  mob goto 8000
+  drop 5000 gold
+  mob goto 8022
+  mob force $n drop foot
+get foot
+mob purge foot
+  end
+  endif
+ 
+end
+endif
+ 
+say You did not pay!
+say Otherwise, you'd have my rabbit's foot!
+say You must pay first!
+ 
+end
+endif
+~
+#8035
+if level $n <= 20
+
+if rand 99
+cast 'heal' $r
+end
+endif
+if rand 80
+cast 'cure crit' $r
+end
+endif
+if rand 80
+cast 'cure blindness' $r
+end
+endif
+if rand 80
+cast 'cure disease $r
+end
+endif
+if rand 80
+cast 'cure poison' $r
+end
+endif
+if rand 80
+cast 'armor' $r
+end
+endif
+if rand 80
+cast 'shield' $r
+end
+endif
+if rand 80
+cast 'benediction' $r
+end
+endif
+cast 'bless' $r
+ 
+end
+endif
+~
+#0
+
+#$

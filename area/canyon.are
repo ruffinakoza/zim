@@ -1,0 +1,2553 @@
+#AREADATA
+Name Elemental Canyon~
+VNUMs 9200 9299
+Credits Raff~
+Security 9
+LevelRange 5 30
+End
+
+#MOBILES
+#9201
+mountain climber mountainclimber~
+the mountain climber~
+A mountain climber is making the same trek that you are.
+~
+He wants to see what's on the other side of the mountain too.
+~
+human~
+ACGT 0 500 0
+3 3 11d3+0 15d10+85 1d3+6 none
+7 7 7 7
+JN 0 HIJR 0
+stand stand male 30
+0 0 medium flesh~
+~
+#9202
+cyclops~
+the cyclops~
+A hungry cyclops snarls at you!
+~
+He looks like he's about to have dinner (maybe it's you?).
+~
+giant~
+ABFQT DF -700 0
+22 22 40d22+0 110d10+85 7d3+16 none
+-5 -5 -5 0
+ACDIO AB CD 0
+stand stand male 600
+0 0 gargantuan flesh~
+~
+#9203
+oldstyle tiny elemental~
+a tiny elemental~
+A tiny elemental form wanders about.
+~
+Rather small for an elemental form, looks like a reject.
+~
+human~
+AG 0 0 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+EFNU 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#9204
+oldstyle elemental guardian~
+the elemental guardian~
+The elemental guardian of the canyon.
+~
+You can't tell which kind of elemental it is, maybe it's a bit o' all of them?
+~
+human~
+AB 0 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+EFNU 0 0 0
+stand stand none 500
+0 0 medium flesh~
+~
+#9205
+oldstyle small elemental~
+a small elemental~
+A small, rather non-descript elemental.
+~
+A small elemental, a resident of the canyon.
+~
+human~
+ABG J 0 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+EFNU 0 0 0
+stand stand none 12
+0 0 medium flesh~
+~
+#9206
+oldstyle medium elemental~
+a medium elemental~
+A medium-sized elemental.
+~
+A medium elemental, a resident of the canyon.
+~
+human~
+ABG J 10 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+EFNU 0 0 0
+stand stand none 37
+0 0 medium flesh~
+~
+#9207
+oldstyle large elemental~
+a large elemental~
+A large elemental.
+~
+A large elemental, a resident of the canyon.~
+human~
+ABG 0 20 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+EFNU 0 0 0
+stand stand none 100
+0 0 medium flesh~
+~
+#9208
+oldstyle earth elemental ruler~
+the Earth Ruler~
+The Ruler of the earth elementals.
+~
+He looks as old as the earth itself.  He seems to know all the 
+secrets and knowledge of the Earth.  You can't really tell where 
+he begins and the rock wall ends.
+~
+earth elemental~
+A 0 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand none 1105
+0 0 medium flesh~
+~
+#9209
+oldstyle fire elemental ruler~
+the Fire Ruler~
+The Ruler of the fire elementals.
+~
+As you look at him he seems to blend in with the fire in his throne.
+~
+human~
+ABK H 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+EFNU ABH 0 0
+stand stand none 228
+0 0 medium flesh~
+~
+#9210
+oldstyle air elemental ruler~
+The Air Ruler~
+The Ruler of the air elementals.
+~
+As you peer at him you seem to be looking at the sky itself.
+~
+human~
+ABK H 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+EFNU AB 0 0
+stand stand none 1246
+0 0 medium flesh~
+~
+#9211
+oldstyle lightning elemental ruler~
+The Lightning Ruler~
+The Ruler of the lightning elementals.
+~
+As you examine him there is a blinding flash of light and a deafening boom!
+You rub your eyes and look and the ruler is there grinning at you.
+~
+human~
+ABK H 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+EFNU ABJ 0 0
+stand stand none 155
+0 0 medium flesh~
+~
+#9212
+oldstyle water elemental ruler~
+The Water Ruler~
+The Ruler of the water elementals.
+~
+As you look at him he changes to mist, which swirls around you.  Just
+as you get scared, it reforms in elemental form.
+~
+water fowl~
+ABKe H 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+EFNR AB 0 0
+stand stand none 631
+0 0 medium flesh~
+~
+#9214
+oldstyle water puddle elemental~
+a puddle~
+A small puddle of water elemental.
+~
+It trickles along the ground and gets your feet wet.
+~
+water fowl~
+AG 0 0 0
+8 8 17d8+0 8d9+60 1d8+6 none
+4 4 4 6
+EFNR 0 0 0
+stand stand none 11
+0 0 medium flesh~
+~
+#9215
+oldstyle fire flame elemental~
+a flame~
+A small flickering flame elemental.
+~
+It smolders along the grass aimlessly.
+~
+human~
+AG 0 0 0
+4 4 11d4+0 4d9+60 1d4+4 none
+7 7 7 7
+EFNU 0 0 0
+stand stand none 7
+0 0 medium flesh~
+~
+#9216
+oldstyle snowflake snow flake ice elemental~
+a small snowflake~
+A frozen snowflake water elemental.
+~
+It looks a little blue.
+~
+human~
+AG J 520 0
+3 3 9d3+0 3d9+60 1d3+3 none
+7 7 7 8
+EFNU 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#9217
+oldstyle pebble rock earth stone elemental~
+a small rock~
+A small rock.
+~
+It seems to be a small living pebble!
+~
+human~
+AG J 0 0
+3 3 9d3+0 3d9+60 1d3+3 none
+7 7 7 8
+EFNU 0 0 0
+stand stand none 4
+0 0 medium flesh~
+~
+#9218
+oldstyle spark lightning energy elemental~
+a small spark~
+A small spark of electricity fizzles here.
+~
+Zipping from place to place at the speed of light is tough work.
+~
+human~
+AG 0 0 0
+4 4 11d4+0 4d9+60 1d4+4 none
+7 7 7 7
+EFNU 0 0 0
+stand stand none 7
+0 0 medium flesh~
+~
+#9219
+oldstyle acid blob elemental~
+a small blob of acid~
+A small blob of acid aimlessly eats away at the stone.
+~
+The magical blob of acid is a cross between lightning and water.
+~
+human~
+AG 0 0 0
+9 9 19d9+0 9d9+60 2d4+6 none
+3 3 3 5
+EFNU 0 0 0
+stand stand none 50
+0 0 medium flesh~
+~
+#9220
+oldstyle lava elemental~
+a lava beast~
+A lava beast spews from place to place.
+~
+The magical lava beast is a cross between fire and earth.
+~
+human~
+AG J 0 0
+8 8 17d8+0 8d9+60 1d8+6 none
+4 4 4 6
+EFNU 0 0 0
+stand stand none 15
+0 0 medium flesh~
+~
+#9221
+oldstyle mud elemental~
+a mud monster~
+A mud monster slops around.
+~
+The magical mud monster is a cross between water and earth.
+~
+human~
+AG J 0 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+EFNU 0 0 0
+stand stand none 20
+0 0 medium flesh~
+~
+#9222
+oldstyle mist elemental~
+an elemental mist~
+The air is magically misty here.
+~
+The magical mist is a cross between water and air.
+~
+human~
+AG 0 0 0
+6 6 14d6+0 6d9+60 1d6+5 none
+5 5 5 7
+EFNU 0 0 0
+stand stand none 15
+0 0 medium flesh~
+~
+#9223
+oldstyle particle elemental~
+a particle~
+A sub-atomic particle is too small for you to see.
+~
+The magical manifestation of energy.
+~
+human~
+AG J 0 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+EFNU 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#9224
+oldstyle dust elemental~
+a dust cloud~
+A dust cloud blowing by makes you sneeze.
+~
+The magical dust cloud is a cross between air and earth.
+~
+human~
+AGS DFJ 0 0
+6 6 14d6+0 6d9+60 1d6+5 none
+5 5 5 7
+BEFJNU 0 0 0
+stand stand none 5
+0 0 medium flesh~
+~
+#9225
+oldstyle eddie elemental~
+an eddie~
+A small eddie current swirls junk around here.
+~
+The magical eddie current is a manifestation of an air elemental.
+~
+human~
+AGS DF 0 0
+2 2 7d2+0 2d9+60 1d2+3 none
+8 8 8 8
+BEFJNU 0 0 0
+stand stand none 1
+0 0 medium flesh~
+~
+#9226
+oldstyle blue flame~
+the Blue Flame~
+The Blue Flame burns mysteriously here.
+~
+As you look you see what seems to be a face and almost a 
+humanoid figure somehow trapped in the fire.
+~
+human~
+ABG 0 -100 0
+26 26 51d26+0 260d11+95 9d2+24 none
+-9 -9 -9 -4
+EFNU 0 0 0
+stand stand none 1250
+0 0 medium flesh~
+~
+#9227
+oldstyle magneto~
+the Magneto~
+The Magneto considers zapping you for the heck of it.
+~
+A humanoid figure seems to be trapped in the field of the Magneto.
+~
+human~
+ABG 0 -150 0
+22 22 46d22+0 220d11+95 8d2+22 none
+-6 -6 -6 -2
+EFNU 0 0 0
+stand stand none 500
+0 0 medium flesh~
+~
+#9228
+oldstyle ice bandit~
+the Ice Bandit~
+The Ice Bandit strikes cold fear in your heart.
+~
+A humanoid figure encased in ice but still apparently alive.
+~
+human~
+ABGH P -250 0
+24 24 48d24+0 240d11+95 9d2+23 none
+-8 -8 -8 -3
+EFNU 0 0 0
+stand stand none 1369
+0 0 medium flesh~
+~
+#9229
+oldstyle rock monster~
+the Rock Monster~
+The Rock Monster considers you in stoney silence.
+~
+A humanoid figure trapped in stone seems alive.
+~
+human~
+ABG 0 -310 0
+23 23 41d23+0 115d10+85 7d3+16 none
+-5 -5 -5 -1
+EFNU 0 0 0
+stand stand none 950
+0 0 medium flesh~
+~
+#9230
+oldstyle hurricane~
+the Hurricane~
+A Hurricane rages across the sky.
+~
+A humanoid figure is trapped in the rushing wind.
+~
+human~
+ABG P -10 0
+28 28 47d28+0 140d10+85 9d3+19 none
+-9 -9 -9 -3
+EFNU 0 0 0
+stand stand none 647
+0 0 medium flesh~
+~
+#9231
+oldstyle magician~
+an elemental magician~
+An elemental magician seeks magical stones for a spell.
+~
+The elemental magician has come here in search of the fabled
+Stone of Surrender which can be used to render opponents senseless.
+~
+human~
+ABGR B -50 0
+17 17 33d17+0 85d10+85 5d3+13 none
+-2 -2 -2 1
+FU 0 0 0
+stand stand none 400
+0 0 medium flesh~
+~
+#9232
+oldstyle rainbow warrior~
+a rainbow warrior~
+A warrior of the Rainbow Cult swears his loyalty.
+~
+The Rainbow Cult has received special powers for their service to 
+the elemental forces.
+~
+human~
+AGQ 0 150 0
+18 18 35d18+0 90d10+85 6d3+14 none
+-2 -2 -2 0
+EIKU 0 0 0
+stand stand none 400
+0 0 medium flesh~
+~
+#9233
+oldstyle illusionist~
+an illusionist~
+The illusionist seeks the aid of the elemental forces.
+~
+He seeks their aid for a powerful new spell of deception.
+~
+human~
+ABGR 0 -50 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+FU 0 0 0
+stand stand none 95
+0 0 medium flesh~
+~
+#9234
+oldstyle alchemist~
+an alchemist~
+An alchemist wanders by in search of magical herbs.
+~
+Rare herbs are rumored to grow only in the canyon.
+~
+human~
+AGS DF -50 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+BEFJNU 0 0 0
+stand stand none 95
+0 0 medium flesh~
+~
+#9235
+oldstyle baby rainbow dragon~
+a baby rainbow dragon~
+A baby rainbow dragon plays among the elements here.
+~
+It's only a baby by dragon standards.
+~
+human~
+ABG DF 0 0
+16 16 27d16+0 16d9+60 4d4+10 none
+0 0 0 2
+EFNU 0 0 0
+stand stand none 500
+0 0 medium flesh~
+~
+#9236
+oldstyle imp~
+a little imp~
+A little imp runs along being annoying.
+~
+The little bugger steals stuff and is generally obnoxious.
+~
+human~
+ACGH JPQ -500 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+EFNU 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#9237
+oldstyle HUGE elemental~
+a HUGE elemental~
+A HUGE elemental form stands here.
+~
+HUGE, need i say more?
+~
+human~
+ABG 0 30 0
+20 20 42d20+0 200d11+95 7d2+20 none
+-5 -5 -5 -1
+EFNU 0 0 0
+stand stand none 500
+0 0 medium flesh~
+~
+#9238
+oldstyle vendor~
+the elixir vendor~
+A vendor is willing to sell you elixirs.
+~
+I WOULD NOT suggest you attack me ...!
+~
+human~
+ABEGRe 0 900 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+FU ABQ CD 0
+stand stand male 0
+0 0 medium flesh~
+~
+#9239
+magician combat~
+the Combat Magician~
+The Combat Magician is here seeking a stone for some powerful spells.
+~
+The Combat Magician has come here in search of the fabled {MStone of Surrender{x
+which is said to render opponents senseless.
+~
+human~
+ABGKRe Dl -325 0
+46 46 150d46+0 230d10+85 15d3+28 none
+-21 -21 -21 -12
+F ABC D 0
+stand stand male 400
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#9201
+ring earth~
+the earth ring~
+A dark ring which seems to absorb all the light around it lies here.~
+unknown~
+oldstyle~
+treasure I AB
+0 0 0 0 0
+10 50 1140 P
+A
+3 1
+G none
+G none
+G none
+G none
+#9202
+breastplate stoney breast plate~
+a stoney breastplate~
+A breastplate made of the stone from deep within the earth lies here.~
+stone~
+~
+armor 0 AD
+12 12 12 11 'none' 0
+31 32 76517 P
+A
+19 3
+A
+18 3
+A
+20 -1
+A
+17 -6
+G none
+G none
+G none
+G none
+#9203
+dagger fiery~
+a fiery dagger~
+A dagger made of fire crackles mysteriously here.~
+unknown~
+~
+weapon A AN
+dagger 3 8 pierce A
+30 31 12259 P
+A
+18 4
+G none
+G none
+G none
+G none
+#9204
+cape flame flaming red~
+a flame red cape~
+A cape made of ethereal red fiber lies neatly folded on the ground here.~
+etherealness~
+ethereal~
+armor A AC
+11 11 11 10 'none' 0
+30 31 29263 P
+A
+13 30
+A
+18 3
+G none
+G none
+G none
+G none
+#9205
+boots wind~
+the {cw{Ci{wn{Cd {yboots{x~
+A pair of boots that look fast standing still are here.~
+fiber~
+~
+armor G AG
+10 10 10 9 'none' 0
+26 27 69567 P
+A
+19 4
+A
+18 2
+A
+2 2
+G none
+G none
+G none
+G none
+#9206
+helmet hurricane~
+a hurricane helmet~
+A helmet that looks like it has weathered many storms has been set here.~
+iron~
+~
+armor B AE
+12 12 12 11 'none' 0
+31 32 23499 P
+A
+20 -1
+A
+19 3
+G none
+G none
+G none
+G none
+#9207
+sword lightning bolt~
+a sparking lightning sword~
+A lightning bolt fashioned into a sword spits sparks here.~
+unknown~
+~
+weapon AB AN
+longsword 2 15 slash G
+25 50 19972 P
+A
+12 30
+A
+19 2
+A
+18 -1
+G none
+G none
+G none
+G none
+#9208
+shield electric~
+an electric shield~
+A shield made entirely of energy buzzes here.~
+unknown~
+~
+armor B AJ
+11 11 11 10 'none' 0
+28 29 21311 P
+A
+13 20
+A
+5 1
+A
+1 -1
+G none
+G none
+G none
+G none
+#9209
+girth icy~
+an icy girth~
+A girth made of magical ice has been left here.~
+ice~
+~
+armor 0 AL
+12 12 12 11 'none' 0
+31 32 27 P
+A
+5 -2
+G none
+G none
+G none
+G none
+#9210
+cloak waterfall~
+{Ca {cwat{Cer{cfall {Ccloak{x~
+A cloak fashioned from a small magical waterfall is here.~
+unknown~
+~
+clothing G AK
+ABD ABD ABD BD 0 ABD ABD
+30 31 32330 P
+A
+18 -2
+A
+12 75
+G none
+G none
+G none
+G none
+#9211
+amulet elemental~
+{can {Welemental {camulet{x~
+An amulet depicting fire, water, lightning, earth, and air lies here.~
+unknown~
+~
+jewelry A AC
+0 0 0 0 0 0 0
+20 10 860 P
+A
+18 1
+A
+17 -4
+A
+20 -2
+G none
+G none
+G none
+G none
+#9212
+bracelet elemental~
+{can {Welemental {cbracelet{x~
+A bracelet made of elemental magic lies here.~
+unknown~
+~
+armor 0 AM
+8 8 8 7 'none' 0
+20 21 15340 P
+A
+19 2
+A
+13 20
+G none
+G none
+G none
+G none
+#9213
+armband platinum band~
+a platinum arm band~
+A platinum arm band, once worn by the Cyclops, lie here.~
+unknown~
+platinium~
+armor 0 AM
+10 10 10 9 'none' 0
+26 27 17771 P
+A
+19 3
+A
+13 10
+A
+1 1
+G none
+G none
+G none
+G none
+#9214
+legbands platinum bands~
+some platinum leg bands~
+A pair of platinum leg bands, once worn by the Cyclops, lie here.~
+unknown~
+platinium~
+armor 0 AF
+10 10 10 9 'none' 0
+26 27 29791 P
+A
+19 2
+A
+18 3
+A
+3 -2
+A
+2 1
+G none
+G none
+G none
+G none
+#9215
+wand~
+{wan elemental wand of {Rfire{x~
+A fire wand lies forgotten on the ground.~
+wood~
+~
+wand A AO
+13 8 8 'fireball'
+16 70 3900 P
+G none
+G none
+G none
+G none
+#9216
+staff ice~
+{wan {Cice{w staff{x~
+An ice staff lies forgotten on the ground.~
+ice~
+~
+staff A AO
+10 3 3 'iceball'
+25 70 13700 P
+G none
+G none
+G none
+G none
+#9217
+rod earthquake~
+{wan elemental rod of {yearthquake{x~
+An earthquake rod lies forgotten on the ground.~
+ebony~
+~
+wand A AO
+7 3 3 'earthquake'
+7 70 1000 P
+G none
+G none
+G none
+G none
+#9218
+wand air wind~
+{wan elemental wand of {Wwind {wand {Cair{x~
+An air wand lies forgotten on the ground.~
+wood~
+~
+wand A AO
+27 5 1 'gas breath'
+27 70 12600 P
+G none
+G none
+G none
+G none
+#9219
+wand~
+{wan elemental wand of {Ylightning{x~
+A lightning wand lies forgotten on the ground.~
+ebony~
+~
+wand A AO
+7 3 3 'lightning bolt'
+7 70 1420 P
+G none
+G none
+G none
+G none
+#9220
+stone club two-handed~
+a stone club~
+A large stone club lies on the ground.~
+stone~
+~
+weapon 0 AN
+mace 1 16 pound F
+13 250 2739 P
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#9221
+lode load lodestone loadstone stone~
+a lodestone~
+A dull red rock lies here amid the weeds.~
+stone~
+~
+wand 0 AO
+19 8 2 'harm'
+19 20 2800 P
+A
+1 -2
+G none
+G none
+G none
+G none
+#9222
+lava lamp~
+a lava lamp~
+A lantern which glows with a red glowing light has been dumped.~
+unknown~
+oldstyle~
+light A A
+500
+0 40 250 P
+G none
+G none
+G none
+G none
+#9223
+energy scroll~
+an energy scroll~
+A scroll of energy replacement lies here.~
+paper~
+~
+scroll B A
+5 'cure critical' 'refresh' '' ''
+5 10 860 P
+G none
+G none
+G none
+G none
+#9224
+water jug~
+a water jug~
+A large but surprisingly light jug of water stands here.~
+glass~
+~
+drink 0 A
+150 150 'water' 0
+0 20 9200 P
+G none
+G none
+G none
+G none
+#9225
+dust~
+magic dust~
+A pile of dust of appearance has gathered here.~
+unknown~
+~
+pill 0 A
+0 'detect invis' '' '' ''
+0 10 300 P
+G none
+G none
+G none
+G none
+#9226
+flame lance~
+a {Rflame{x lance~
+A lance of blue flame burns the ground around it.~
+unknown~
+flame~
+weapon A AN
+lance 2 20 thrust A
+30 85 54201 P
+A
+18 3
+A
+13 -20
+G none
+G none
+G none
+G none
+#9227
+icicle dagger ice~
+an {Cicicle{x~
+A glowing icicle dagger lies here amid a patch of frost.~
+ice~
+~
+weapon A AN
+dagger 3 9 pierce B
+30 30 19035 P
+A
+4 -1
+A
+18 1
+A
+19 4
+A
+1 -1
+G none
+G none
+G none
+G none
+#9228
+avalanche~
+the avalanche~
+An avalanche is about to crush you!~
+unknown~
+~
+weapon 0 AN
+exotic 1 25 blast 0
+24 25 1230 P
+A
+18 -1
+G none
+G none
+G none
+G none
+#9229
+star morning~
+the morning star~
+A chain with a star on the end lies here.~
+wood~
+~
+weapon A AN
+flail 2 11 crush 0
+23 65 13024 P
+A
+19 3
+A
+17 -4
+A
+18 2
+G none
+G none
+G none
+G none
+#9230
+shock whip~
+the Shock Whip~
+A whip hums innocently too itself.~
+leather~
+~
+weapon B AN
+whip 2 7 sting G
+20 26 3650 P
+A
+19 3
+A
+18 2
+A
+1 -2
+G none
+G none
+G none
+G none
+#9231
+elixir anti~
+anti-cyclops elixir~
+An elixir to ward off cyclopi has been bought then left behind here.~
+glass~
+~
+potion 0 AO
+15 'invisibility' '' '' ''
+15 10 250 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#9201
+A Mountain Path~
+You are on a mountain path which ascends a steep mountainside.  The trail
+curves around the mountain so that you cannot really see what lies ahead.
+You do sense great power though coming from the area behind the mountain.
+~
+0 0 mountain
+D0
+~
+~
+Z 0 5267
+0 0
+D3
+~
+~
+Z 0 9299
+0 0
+D4
+~
+~
+Z -1 9202
+0 0
+S
+#9202
+A Mountain Path~
+You are on a rocky mountain path leading up and around a steep mountainside.
+You sense a glow from the area beyond the mountain, which you cannot see yet.
+~
+0 0 mountain
+D2
+~
+~
+Z 0 10944
+0 0
+D4
+~
+~
+Z -1 9203
+0 0
+D5
+~
+~
+Z -1 9201
+0 0
+S
+#9203
+Mountainside Tombs~
+There are a few stone heaps here and there, the tombs of those who did not
+last the arduous journey up the mountain.  Curiously you notice a few
+uncovered bodies which don't seem to have died of exhaustion.  The path curves
+east around the mountain.
+~
+0 0 mountain
+E
+bodies body dead~
+They look as if their necks have been broken and their flesh, chewed.
+~
+E
+heaps stones tombs~
+You are sure glad that YOU aren't under one of those piles!
+Many of the tombstones have the same name on them, 'Raff'.  He must come
+here a lot.
+~
+D4
+~
+~
+Z -1 9204
+0 0
+D5
+~
+~
+Z -1 9202
+0 0
+S
+#9204
+A Blind Curve on the Mountain Path.~
+This looks like a normal mountain path, but it is NOT!  This section of the
+path is habitated by a huge (and of course, man-eating) Cyclops.  The path
+makes its final ascent to an overlook.
+~
+0 0 mountain
+D4
+~
+~
+Z -1 9205
+0 0
+D5
+~
+~
+Z -1 9203
+0 0
+S
+#9205
+Vista~
+This is a stunning vista overlooking a canyon.  There is a sign here that says:
+	BEHOLD -- ELEMENTAL CANYON
+Fire leaps up from firepits in the western part of the canyon.  The sky looks
+funny, and the air seems hazy to the northwest.  Electricity sparks
+intermittently in the northeast.  To the east you see a strong, magic-looking
+river flowing through the canyon.  Also to the east you spy a cave entrance
+leading into the canyon wall.  The path descends to the north to another
+overlook.
+~
+0 0 mountain
+D0
+~
+~
+Z -1 9206
+0 0
+D5
+~
+~
+Z -1 9204
+0 0
+S
+#9206
+The Overlook~
+You see various elemental servants wandering around the canyon.  The noise of
+humming coming from the canyon gets louder.  The path makes a steep descent
+into the canyon here.
+~
+0 0 mountain
+D2
+~
+~
+Z -1 9205
+0 0
+D5
+~
+~
+Z -1 9207
+0 0
+S
+#9207
+Entrance to Elemental Canyon~
+You are awed by the sounds and sights of great powers at works here.
+Elemental servants bustle back and forth doing the biddings of the elemental
+rulers.  You see a sort of cross roads to the north, and you can climb up to
+the overlook here.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9209
+0 0
+D4
+~
+~
+Z -1 9206
+0 0
+S
+#9208
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at all.
+In general, it is calm, yet there is always a incessant buzz of things
+going on about.  The canyon continues north and east.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9211
+0 0
+D1
+~
+~
+Z -1 9209
+0 0
+S
+#9209
+Elemental Gateway~
+To the west a path dips and winds among some flowing firepits.  To the
+northeast a path goes toward the river.  Beyond toward the northeast and
+northwest are outcrops which rise up from the canyon floor. To the east there
+is a cave mouth which leads into the canyon wall.  And to the south the path
+leads up, away, and out of the canyon.  Various pure and cross-breeds of
+elemental forms wander the canyon floor, which extends in a wide swath
+northwards. To the up you see the Combat Magician Chamber and a magical
+force helps you to fly through to chamber.
+~
+0 CD inside
+D0
+~
+~
+Z -1 9212
+0 0
+D1
+~
+~
+Z -1 9210
+0 0
+D2
+~
+~
+Z -1 9207
+0 0
+D3
+~
+~
+Z -1 9208
+0 0
+D4
+~
+Entrance to the Combat Magician Chamber.
+~
+Z -1 9261
+0 0
+S
+#9210
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always a incessant buzz of
+things going on about.  The canyon floor extends north and west.  There is a
+cave mouth set into the canyon wall to the east.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9213
+0 0
+D1
+~
+~
+Z -1 9220
+0 0
+D3
+~
+~
+Z -1 9209
+0 0
+S
+#9211
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends off to the north, east,
+and south.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9214
+0 0
+D1
+~
+~
+Z -1 9212
+0 0
+D2
+~
+~
+Z -1 9208
+0 0
+S
+#9212
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends in all directions.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9215
+0 0
+D1
+~
+~
+Z -1 9213
+0 0
+D2
+~
+~
+Z -1 9209
+0 0
+D3
+~
+~
+Z -1 9211
+0 0
+S
+#9213
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends north, south, and west.
+A path follows a stream to the east.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9216
+0 0
+D1
+~
+~
+Z -1 9228
+0 0
+D2
+~
+~
+Z -1 9210
+0 0
+D3
+~
+~
+Z -1 9212
+0 0
+S
+#9214
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about. The canyon floor extends north, east, and south.
+To the west a garden is on fire.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9217
+0 0
+D1
+~
+~
+Z -1 9215
+0 0
+D2
+~
+~
+Z -1 9211
+0 0
+D3
+~
+~
+Z -1 9237
+0 0
+S
+#9215
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends in all directions.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9218
+0 0
+D1
+~
+~
+Z -1 9216
+0 0
+D2
+~
+~
+Z -1 9212
+0 0
+D3
+~
+~
+Z -1 9214
+0 0
+S
+#9216
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The Canyon floor extends north, south and west.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9219
+0 0
+D2
+~
+~
+Z -1 9213
+0 0
+D3
+~
+~
+Z -1 9215
+0 0
+S
+#9217
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about. The canyon floor extends east and south.  You can
+climb a rise in the canyon floor to the north.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9253
+0 0
+D1
+~
+~
+Z -1 9218
+0 0
+D2
+~
+~
+Z -1 9214
+0 0
+S
+#9218
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends east, south, and west.
+~
+0 0 forest
+D1
+~
+~
+Z -1 9219
+0 0
+D2
+~
+~
+Z -1 9215
+0 0
+D3
+~
+~
+Z -1 9217
+0 0
+S
+#9219
+The Floor of the Canyon~
+Various elemental forms wander the floor of the canyon.  Some seem to be
+going about their business, while others seem to have no business at
+all.  In general, it is calm, yet there is always an incessant buzz of
+things going on about.  The canyon floor extends south and west.  You can
+climb a rise in the canyon floor to the north.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9254
+0 0
+D2
+~
+~
+Z -1 9216
+0 0
+D3
+~
+~
+Z -1 9218
+0 0
+S
+#9220
+Dark Cave~
+You notice a path winding east among some huge boulders.  You feel a powerful
+source of energy from that direction.
+~
+0 AD forest
+D1
+~
+~
+Z -1 9221
+0 0
+D3
+~
+~
+Z -1 9210
+0 0
+S
+#9221
+Darker Caves~
+You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around
+you.  Cave paths go south and east roughly, its hard to tell exactly when you
+can't see where you are going.
+~
+0 AD forest
+D1
+~
+~
+Z -1 9222
+0 0
+D2
+~
+~
+Z -1 9223
+0 0
+D3
+~
+~
+Z -1 9220
+0 0
+S
+#9222
+Darker Caves~
+You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around
+you.  Cave paths go south and west roughly; it's hard to tell exactly when you
+can't see where you are going.
+~
+0 AD forest
+D2
+~
+~
+Z -1 9224
+0 0
+D3
+~
+~
+Z -1 9221
+0 0
+S
+#9223
+Darker Caves~
+You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around you.
+Cave paths go north, south and east roughly; it's hard to tell exactly when
+you can't see where you are going.
+~
+0 AD forest
+D0
+~
+~
+Z -1 9221
+0 0
+D1
+~
+~
+Z -1 9224
+0 0
+D2
+~
+~
+Z -1 9225
+0 0
+S
+#9224
+Darker Caves~
+You can barely see your way even with a light source.  The rocks of the cave
+are even darker than the darkness.  You hear a powerful humming all around you.
+Cave paths go north, south and west roughly, it's hard to tell exactly when you
+can't see where you are going.
+~
+0 AD forest
+D0
+~
+~
+Z -1 9222
+0 0
+D2
+~
+~
+Z -1 9226
+0 0
+D3
+~
+~
+Z -1 9223
+0 0
+S
+#9225
+Darkest Caves~
+Your light doesn't even seem to work here.  Even magical light sources seem
+only to illuminate about a foot ahead of you.  You suddenly realize that the
+path has descended quite a bit but you didn't notice before because of the
+darkness.  You sense a great presence off to the east aways.
+~
+0 AD forest
+D0
+~
+~
+Z -1 9223
+0 0
+D1
+~
+~
+Z -1 9226
+0 0
+S
+#9226
+Darkest Caves~
+Your light doesn't even seem to work here.  Even magical light sources seem
+only to illuminate about a foot ahead of you.  You suddenly realize that the
+path has descended quite a bit but you didn't notice before because of the
+darkness.  You sense a great presence directly to the east.
+~
+0 AD forest
+D0
+~
+~
+Z -1 9224
+0 0
+D1
+~
+~
+Z -1 9227
+0 0
+D3
+~
+~
+Z -1 9225
+0 0
+S
+#9227
+Earth Chamber~
+This is the abode of the Earth Ruler.  He decides about earthquakes,
+landslides, and avalanches.  The Earth Ruler sits upon a huge marble throne
+carved into the wall.
+~
+0 AD forest
+E
+marble throne~
+The ruler notices your stare, and doesn't like it one bit!  The whole
+earth seems to shake with his emotion.
+~
+D3
+~
+~
+Z -1 9226
+0 0
+S
+#9228
+By the River~
+The water in the river seems to bubble and froth with magic.  Though it
+splashes playfully on you, it does not seem wet.  The path leads north closer
+to the water. To the west you see a T-intersection.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9229
+0 0
+D3
+~
+~
+Z -1 9213
+0 0
+S
+#9229
+In the River~
+To continue you had to walk right in the river.  Though you walk along in
+water up to your knees, you do not seem to get wet.  A bay stretches out to
+the north and the river goes south.
+~
+0 0 swim
+D0
+~
+~
+Z -1 9230
+0 0
+D2
+~
+~
+Z -1 9228
+0 0
+S
+#9230
+Elemental Bay~
+The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+~
+0 0 swim
+D0
+~
+~
+Z -1 9233
+0 0
+D1
+~
+~
+Z -1 9231
+0 0
+D2
+~
+~
+Z -1 9229
+0 0
+S
+#9231
+Elemental Bay~
+The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+~
+0 0 swim
+D0
+~
+~
+Z -1 9234
+0 0
+D1
+~
+~
+Z -1 9232
+0 0
+D3
+~
+~
+Z -1 9230
+0 0
+S
+#9232
+Elemental Bay~
+The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+~
+0 0 swim
+D0
+~
+~
+Z -1 9235
+0 0
+D3
+~
+~
+Z -1 9231
+0 0
+S
+#9233
+Elemental Bay~
+The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+~
+0 0 swim
+D1
+~
+~
+Z -1 9234
+0 0
+D2
+~
+~
+Z -1 9230
+0 0
+S
+#9234
+Elemental Bay~
+The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+~
+0 0 swim
+D1
+~
+~
+Z -1 9235
+0 0
+D2
+~
+~
+Z -1 9231
+0 0
+D3
+~
+~
+Z -1 9233
+0 0
+S
+#9235
+Elemental Bay~
+The water is crystal clear here and you can see the bottom of the bay 30 feet
+below you.  Then you realize you are walking on the water itself.  Truly
+magical water indeed.  Though you splash through the bay you do not get wet.
+~
+0 0 swim
+D2
+~
+~
+Z -1 9232
+0 0
+D3
+~
+~
+Z -1 9234
+0 0
+D5
+~
+~
+Z -1 9236
+0 0
+S
+#9236
+Water Chamber~
+This chamber was magically created here on the floor of the bay.  It looks
+like it's been here for a long, long time.  Though you are 'under water' there
+is no difficulty breathing normally, and oddly you do not feel the pressure of
+the water above you.
+~
+0 D swim
+D4
+~
+~
+Z -1 9235
+0 0
+S
+#9237
+A Fiery Pathway~
+You tread carefully along a path which dips and turns among geysers of fire.
+Miniature volcanoes spew lava in rivers.  The fire is hot but not altogether
+dangerous.  The path extends east and south.
+~
+0 0 mountain
+D1
+~
+~
+Z -1 9214
+0 0
+D2
+~
+~
+Z -1 9238
+0 0
+S
+#9238
+A Fiery Pathway~
+You tread carefully along a path which dips and turns among pits of fire and
+beds of coals.  A garden to the west glows with an everlasting fire.
+~
+0 0 mountain
+D0
+~
+~
+Z -1 9237
+0 0
+D3
+~
+~
+Z -1 9242
+0 0
+S
+#9242
+The Burning Gardens~
+Everywhere around you the landscape is afire; the rocks, the shrubs and even
+the air seems to be aflame.  Curiously, the magical fire does not seem to
+consume its hosts.  A path leads east among some fire pits.
+~
+0 0 mountain
+D1
+~
+~
+Z -1 9238
+0 0
+D3
+~
+~
+Z -1 9245
+0 0
+S
+#9245
+The Fire Chamber~
+The fire ruler sits upon a throne made of blue flame.  Little flickers of
+flame dance to and fro for the entertainment of the ruler.
+~
+0 0 forest
+D1
+~
+~
+Z -1 9242
+0 0
+S
+#9246
+Electric Pathway~
+The pathway glows and hums because of the electricity pulsing through it.
+It seems almost soothing to your weary feet.  To the north there is a
+sunken-in area.  A path leads east also.
+~
+0 0 forest
+D0
+~
+~
+Z -1 9248
+0 0
+D1
+~
+~
+Z -1 9253
+0 0
+S
+#9247
+The Electric Playground~
+Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  The electric playground
+extends north and east.
+~
+0 0 hills
+D0
+~
+~
+Z -1 9249
+0 0
+D1
+~
+~
+Z -1 9248
+0 0
+S
+#9248
+The Electric Playground~
+Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  There is an electric
+path heading away south.  The playground extends north and west.
+~
+0 0 hills
+D0
+~
+~
+Z -1 9250
+0 0
+D2
+~
+~
+Z -1 9246
+0 0
+D3
+~
+~
+Z -1 9247
+0 0
+S
+#9249
+The Electric Playground~
+Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  The playground continues
+south and east.
+~
+0 0 hills
+D1
+~
+~
+Z -1 9250
+0 0
+D2
+~
+~
+Z -1 9247
+0 0
+S
+#9250
+The Electric Playground~
+Though there is a seemingly carefree atmosphere here, you sense that
+something much more important takes place near by.  The playground is
+south and west.  Something more important catches your eye to the east.
+~
+0 0 hills
+D1
+~
+~
+Z -1 9251
+0 0
+D2
+~
+~
+Z -1 9248
+0 0
+D3
+~
+~
+Z -1 9249
+0 0
+S
+#9251
+Lightning Causeway~
+Up a set of stairs carved into the hill you see intermittent flashes of
+lightning.  A continuous hum also comes form that direction.  To the west
+is the electric playground.
+~
+0 0 hills
+D3
+~
+~
+Z -1 9250
+0 0
+D4
+~
+~
+Z -1 9252
+0 0
+S
+#9252
+Lightning Chamber~
+There is some sort of control panel here. Apparently the Lightning Ruler
+observes and controls electric forces from here.  A set of steps carved into
+the hill lead down to a causeway.
+~
+0 D swim
+D5
+~
+~
+Z -1 9251
+0 0
+S
+#9253
+Mesa West~
+An electric path starts to the west.  The mesa continues to the east.
+Or you can climb down to the canyon floor to the south.
+~
+0 0 hills
+D1
+~
+~
+Z -1 9254
+0 0
+D2
+~
+~
+Z -1 9217
+0 0
+D3
+~
+~
+Z -1 9246
+0 0
+S
+#9254
+Mesa East~
+A path starts to the north.  The mesa continues to the west.
+Or you can climb down to the canyon floor to the south.
+~
+0 0 hills
+D0
+~
+~
+Z -1 9255
+0 0
+D2
+~
+~
+Z -1 9219
+0 0
+D3
+~
+~
+Z -1 9253
+0 0
+S
+#9255
+Floating in Air~
+Last you knew, you were walking on the mesa.  Abruptly the path dropped
+from beneath your feet much to quick for you to recover.  Instead of
+plunging to your death, you seemingly miss the ground and begin walking
+on air.  The space to the north and east seems just thin air, but you can
+walk there.  The pathway you came from is to the south.
+~
+0 0 hills
+D0
+~
+~
+Z -1 9257
+0 0
+D1
+~
+~
+Z -1 9256
+0 0
+D2
+~
+~
+Z -1 9254
+0 0
+S
+#9256
+Floating in Air~
+You look down and see the ground 100 feet below you.  The wind whispering
+in your ear seems to reassure you that this is fine.  To the north aways
+you spy a portal of sorts.  To the west is more thin air.
+~
+0 0 hills
+D0
+~
+~
+Z -1 9258
+0 0
+D3
+~
+~
+Z -1 9255
+0 0
+S
+#9257
+Floating in Air~
+You look down and see the ground 100 feet below you.  The wind whispering
+in your ear seems to reassure you that this is fine.  To the east aways
+you spy a portal of sorts.  To the south is more thin air.
+~
+0 0 hills
+D1
+~
+~
+Z -1 9258
+0 0
+D2
+~
+~
+Z -1 9255
+0 0
+S
+#9258
+Floating in Air~
+You look down and see the ground 100 feet below you.  The wind whispering
+in your ear seems to reassure you that this is fine. There is a portal
+hanging in midair here. It is to the east.  You can float south or west
+if you'd like.
+~
+0 0 hills
+E
+portal~
+Through the portal you see a tunnel.
+~
+D1
+~
+~
+Z -1 9259
+0 0
+D2
+~
+~
+Z -1 9256
+0 0
+D3
+~
+~
+Z -1 9257
+0 0
+D4
+Aarakocran City.
+~
+~
+Z -1 5600
+0 0
+S
+#9259
+Windy Tunnel~
+A tunnel leads east.  To the west you can enter a portal. The wind in
+this tunnel is quite fierce, it seems as if it's forced.  
+~
+0 0 hills
+E
+portal~
+Through the portal you see nothing but sky.
+~
+D1
+~
+~
+Z -1 9260
+0 0
+D3
+~
+~
+Z -1 9258
+0 0
+S
+#9260
+Air Chamber~
+Tiny tornadoes come and go and dance along the ground here.  At the back
+of the chamber you notice a huge throne made of swirling clouds.
+A tunnel leads west.
+~
+0 D swim
+E
+throne clouds~
+Although the cloud throne appears solid enough to sit on, I wouldn't try
+it if I were you!
+~
+D3
+~
+~
+Z -1 9259
+0 0
+S
+#9261
+The Combat Magician's Residence~
+You have entered a small chamber which appears to be of magical
+construct.  The entire room is roughly a 20 foot cube, and the walls,
+ceiling and floor glow and pulse with bright yellow bursts of energy.  This
+entire structure must have been created by a wizard of great power as some
+sort of temporary residence.  
+~
+0 CD inside
+D5
+~
+~
+Z -1 9209
+0 0
+S
+#9298
+~
+~
+0 0 inside
+S
+#9299
+{8A {!F{&o{!r{&k {8in the Road{x~
+A strange path is leading into silent, sad feeling area. The clouds overhead
+suddenly turn black and a horrid, stomach twisting scent emits from the north.
+From out of the silence can be heard awful moans and screams. What a turn this
+path will take you. Be careful as to where you roam from here.
+~
+0 0 inside
+D0
+~
+~
+Z 0 29100
+0 0
+D1
+~
+~
+Z 0 9201
+0 0
+S
+#0
+
+#SPECIALS
+M 9202 spec_cast_cleric	* the cyclops
+M 9204 spec_breath_any	* the elemental guardian
+M 9207 spec_breath_any	* a large elemental
+M 9208 spec_cast_cleric	* the Earth Ruler
+M 9209 spec_breath_fire	* the Fire Ruler
+M 9210 spec_breath_gas	* The Air Ruler
+M 9211 spec_breath_lightning	* The Lightning Ruler
+M 9212 spec_breath_acid	* The Water Ruler
+M 9219 spec_breath_acid	* a small blob of acid
+M 9223 spec_breath_lightning	* a particle
+M 9224 spec_thief	* a dust cloud
+M 9225 spec_thief	* an eddie
+M 9226 spec_breath_fire	* the Blue Flame
+M 9227 spec_breath_lightning	* the Magneto
+M 9228 spec_breath_frost	* the Ice Bandit
+M 9230 spec_breath_gas	* the Hurricane
+M 9231 spec_cast_mage	* an elemental magician
+M 9232 spec_cast_cleric	* a rainbow warrior
+M 9233 spec_cast_mage	* an illusionist
+M 9234 spec_thief	* an alchemist
+M 9235 spec_breath_any	* a baby rainbow dragon
+M 9237 spec_breath_any	* a HUGE elemental
+M 9238 spec_cast_mage	* the elixir vendor
+M 9239 spec_cast_mage	* the Combat Magician
+S
+
+#RESETS
+M 0 9201 3 9201 3	* the mountain climber (A Mountain Path)
+M 0 9201 3 9202 3	* the mountain climber (A Mountain Path)
+G 0 9231 0		*	anti-cyclops elixir
+M 0 9236 15 9202 15	* a little imp (A Mountain Path)
+M 0 9201 3 9203 3	* the mountain climber (Mountainside Tombs)
+M 0 9238 1 9203 1	* the elixir vendor (Mountainside Tombs)
+G 0 9231 0		*	anti-cyclops elixir
+M 0 9202 0 9204 0	* the cyclops (A Blind Curve on the Mountain Path.)
+E 0 9213 0 10		*	a platinum arm band: on the arms
+E 0 9214 0 7		*	some platinum leg bands: on the legs
+M 0 9205 12 9207 12	* a small elemental (Entrance to Elemental Canyon)
+M 0 9236 15 9207 15	* a little imp (Entrance to Elemental Canyon)
+M 0 9203 15 9208 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9232 8 9208 8	* a rainbow warrior (The Floor of the Canyon)
+M 0 9204 1 9209 1	* the elemental guardian (Elemental Gateway)
+E 0 9211 0 3		*	{can {Welemental {camulet{x: around the neck (1)
+E 0 9212 0 14		*	{can {Welemental {cbracelet{x: on the left wrist
+M 0 9205 12 9209 12	* a small elemental (Elemental Gateway)
+M 0 9207 6 9209 6	* a large elemental (Elemental Gateway)
+M 0 9232 8 9209 8	* a rainbow warrior (Elemental Gateway)
+E 0 9220 0 16		*	a stone club: wielded
+M 0 9203 15 9210 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9223 8 9210 8	* a particle (The Floor of the Canyon)
+M 0 9231 5 9211 5	* an elemental magician (The Floor of the Canyon)
+E 0 9215 0 17		*	{wan elemental wand of {Rfire{x: held in the hands
+M 0 9206 9 9212 9	* a medium elemental (The Floor of the Canyon)
+E 0 9221 0 17		*	a lodestone: held in the hands
+M 0 9216 5 9212 5	* a small snowflake (The Floor of the Canyon)
+M 0 9222 8 9213 8	* an elemental mist (The Floor of the Canyon)
+M 0 9203 15 9215 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9203 15 9215 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9231 5 9216 5	* an elemental magician (The Floor of the Canyon)
+E 0 9215 0 17		*	{wan elemental wand of {Rfire{x: held in the hands
+M 0 9203 15 9217 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9203 15 9218 15	* a tiny elemental (The Floor of the Canyon)
+M 0 9205 15 9218 15	* a small elemental (The Floor of the Canyon)
+M 0 9207 6 9218 6	* a large elemental (The Floor of the Canyon)
+M 0 9207 6 9218 6	* a large elemental (The Floor of the Canyon)
+E 0 9223 0 17		*	an energy scroll: held in the hands
+M 0 9233 7 9218 7	* an illusionist (The Floor of the Canyon)
+M 0 9203 15 9219 15	* a tiny elemental (The Floor of the Canyon)
+E 0 9225 0 17		*	magic dust: held in the hands
+M 0 9236 15 9220 15	* a little imp (Dark Cave)
+M 0 9220 8 9220 8	* a lava beast (Dark Cave)
+E 0 9222 0 17		*	a lava lamp: held in the hands
+M 0 9217 15 9221 15	* a small rock (Darker Caves)
+M 0 9220 8 9221 8	* a lava beast (Darker Caves)
+M 0 9223 8 9221 8	* a particle (Darker Caves)
+M 0 9205 12 9222 12	* a small elemental (Darker Caves)
+E 0 9224 0 17		*	a water jug: held in the hands
+M 0 9217 15 9222 15	* a small rock (Darker Caves)
+M 0 9221 8 9222 8	* a mud monster (Darker Caves)
+M 0 9221 8 9222 8	* a mud monster (Darker Caves)
+M 0 9224 8 9222 8	* a dust cloud (Darker Caves)
+E 0 9225 0 5		*	magic dust: on the body
+M 0 9217 15 9223 15	* a small rock (Darker Caves)
+E 0 9217 0 17		*	{wan elemental rod of {yearthquake{x: held in the hands
+M 0 9217 15 9224 15	* a small rock (Darker Caves)
+M 0 9206 9 9225 9	* a medium elemental (Darkest Caves)
+E 0 9219 0 17		*	{wan elemental wand of {Ylightning{x: held in the hands
+M 0 9217 15 9225 15	* a small rock (Darkest Caves)
+M 0 9216 5 9225 5	* a small snowflake (Darkest Caves)
+M 0 9217 15 9226 15	* a small rock (Darkest Caves)
+M 0 9208 1 9227 1	* the Earth Ruler (Earth Chamber)
+E 0 9201 0 1		*	the earth ring: on the left finger
+E 0 9202 0 5		*	a stoney breastplate: on the body
+M 0 9217 15 9227 15	* a small rock (Earth Chamber)
+M 0 9217 15 9227 15	* a small rock (Earth Chamber)
+M 0 9224 8 9227 8	* a dust cloud (Earth Chamber)
+M 0 9236 15 9228 15	* a little imp (By the River)
+M 0 9219 8 9228 8	* a small blob of acid (By the River)
+M 0 9219 8 9229 8	* a small blob of acid (In the River)
+M 0 9234 6 9230 6	* an alchemist (Elemental Bay)
+E 0 9218 0 16		*	{wan elemental wand of {Wwind {wand {Cair{x: wielded
+M 0 9214 15 9230 15	* a puddle (Elemental Bay)
+M 0 9214 15 9231 15	* a puddle (Elemental Bay)
+M 0 9221 8 9231 8	* a mud monster (Elemental Bay)
+M 0 9221 8 9231 8	* a mud monster (Elemental Bay)
+M 0 9214 15 9232 15	* a puddle (Elemental Bay)
+M 0 9216 5 9232 5	* a small snowflake (Elemental Bay)
+M 0 9216 5 9232 5	* a small snowflake (Elemental Bay)
+M 0 9222 8 9232 8	* an elemental mist (Elemental Bay)
+M 0 9214 15 9233 15	* a puddle (Elemental Bay)
+E 0 9216 0 17		*	{wan {Cice{w staff{x: held in the hands
+M 0 9205 12 9234 12	* a small elemental (Elemental Bay)
+M 0 9214 15 9234 15	* a puddle (Elemental Bay)
+M 0 9214 15 9235 15	* a puddle (Elemental Bay)
+E 0 9224 0 17		*	a water jug: held in the hands
+M 0 9212 1 9236 1	* The Water Ruler (Water Chamber)
+E 0 9209 0 13		*	an icy girth: around the waist
+E 0 9210 0 12		*	{Ca {cwat{Cer{cfall {Ccloak{x: about the shoulders
+M 0 9214 15 9236 15	* a puddle (Water Chamber)
+M 0 9214 15 9236 15	* a puddle (Water Chamber)
+M 0 9236 15 9237 15	* a little imp (A Fiery Pathway)
+M 0 9226 1 9238 1	* the Blue Flame (A Fiery Pathway)
+E 0 9226 0 16		*	a {Rflame{x lance: wielded
+M 0 9227 1 9238 1	* the Magneto (A Fiery Pathway)
+E 0 9230 0 16		*	the Shock Whip: wielded
+M 0 9234 6 9238 6	* an alchemist (A Fiery Pathway)
+E 0 9217 0 16		*	{wan elemental rod of {yearthquake{x: wielded
+M 0 9219 8 9238 8	* a small blob of acid (A Fiery Pathway)
+M 0 9220 8 9238 8	* a lava beast (A Fiery Pathway)
+M 0 9207 6 9242 6	* a large elemental (The Burning Gardens)
+M 0 9228 1 9242 1	* the Ice Bandit (The Burning Gardens)
+E 0 9227 0 16		*	an {Cicicle{x: wielded
+M 0 9229 1 9242 1	* the Rock Monster (The Burning Gardens)
+E 0 9228 0 16		*	the avalanche: wielded
+M 0 9230 1 9242 1	* the Hurricane (The Burning Gardens)
+E 0 9229 0 16		*	the morning star: wielded
+M 0 9215 15 9242 15	* a flame (The Burning Gardens)
+M 0 9215 15 9242 15	* a flame (The Burning Gardens)
+E 0 9215 0 17		*	{wan elemental wand of {Rfire{x: held in the hands
+M 0 9215 15 9242 15	* a flame (The Burning Gardens)
+M 0 9220 8 9242 8	* a lava beast (The Burning Gardens)
+M 0 9209 1 9245 1	* the Fire Ruler (The Fire Chamber)
+E 0 9203 0 16		*	a fiery dagger: wielded
+E 0 9204 0 3		*	a flame red cape: around the neck (1)
+M 0 9215 15 9245 15	* a flame (The Fire Chamber)
+E 0 9215 0 17		*	{wan elemental wand of {Rfire{x: held in the hands
+M 0 9215 15 9245 15	* a flame (The Fire Chamber)
+M 0 9215 15 9245 15	* a flame (The Fire Chamber)
+M 0 9206 9 9246 9	* a medium elemental (Electric Pathway)
+M 0 9236 15 9246 15	* a little imp (Electric Pathway)
+M 0 9218 15 9246 15	* a small spark (Electric Pathway)
+M 0 9219 8 9246 8	* a small blob of acid (Electric Pathway)
+M 0 9218 15 9247 15	* a small spark (The Electric Playground)
+M 0 9218 15 9248 15	* a small spark (The Electric Playground)
+M 0 9223 8 9248 8	* a particle (The Electric Playground)
+M 0 9235 2 9249 2	* a baby rainbow dragon (The Electric Playground)
+M 0 9218 15 9249 15	* a small spark (The Electric Playground)
+M 0 9205 12 9250 12	* a small elemental (The Electric Playground)
+M 0 9218 15 9250 15	* a small spark (The Electric Playground)
+E 0 9219 0 17		*	{wan elemental wand of {Ylightning{x: held in the hands
+M 0 9218 15 9251 15	* a small spark (Lightning Causeway)
+M 0 9211 1 9252 1	* The Lightning Ruler (Lightning Chamber)
+E 0 9207 0 16		*	a sparking lightning sword: wielded
+E 0 9208 0 11		*	an electric shield: as a shield
+M 0 9218 15 9252 15	* a small spark (Lightning Chamber)
+E 0 9218 0 17		*	{wan elemental wand of {Wwind {wand {Cair{x: held in the hands
+M 0 9218 15 9252 15	* a small spark (Lightning Chamber)
+M 0 9233 8 9253 8	* an illusionist (Mesa West)
+M 0 9223 8 9253 8	* a particle (Mesa West)
+M 0 9206 9 9254 9	* a medium elemental (Mesa East)
+M 0 9222 8 9254 8	* an elemental mist (Mesa East)
+M 0 9233 7 9255 7	* an illusionist (Floating in Air)
+M 0 9236 15 9255 15	* a little imp (Floating in Air)
+M 0 9225 15 9255 15	* an eddie (Floating in Air)
+E 0 9218 0 17		*	{wan elemental wand of {Wwind {wand {Cair{x: held in the hands
+M 0 9225 15 9255 15	* an eddie (Floating in Air)
+E 0 9225 0 17		*	magic dust: held in the hands
+M 0 9222 8 9255 8	* an elemental mist (Floating in Air)
+M 0 9225 15 9256 15	* an eddie (Floating in Air)
+M 0 9235 2 9257 2	* a baby rainbow dragon (Floating in Air)
+E 0 9216 0 16		*	{wan {Cice{w staff{x: wielded
+M 0 9225 15 9257 15	* an eddie (Floating in Air)
+M 0 9224 8 9257 8	* a dust cloud (Floating in Air)
+M 0 9225 15 9258 15	* an eddie (Floating in Air)
+M 0 9225 15 9259 15	* an eddie (Windy Tunnel)
+M 0 9224 8 9259 8	* a dust cloud (Windy Tunnel)
+M 0 9210 1 9260 1	* The Air Ruler (Air Chamber)
+E 0 9205 0 8		*	the {cw{Ci{wn{Cd {yboots{x: on the feet
+E 0 9206 0 6		*	a hurricane helmet: over the head
+M 0 9207 6 9260 6	* a large elemental (Air Chamber)
+E 0 9220 0 16		*	a stone club: wielded
+M 0 9225 15 9260 15	* an eddie (Air Chamber)
+M 0 9225 15 9260 15	* an eddie (Air Chamber)
+M 0 9239 1 9261 1	* the Combat Magician (The Combat Magician's Residence)
+S
+
+#SHOPS
+9238 0 0 0 0 0 105 14 0 23
+0
+
+#OLIMITS
+O 9205 3	* the {cw{Ci{wn{Cd {yboots{x
+S
+
+#PRACTICERS
+M 9208 draconian~	* the Earth Ruler
+M 9209 draconian~	* the Fire Ruler
+M 9210 draconian~	* The Air Ruler
+M 9211 draconian~	* The Lightning Ruler
+M 9212 draconian~	* The Water Ruler
+M 9239 combat~	* the Combat Magician
+S
+
+#OMPROGS
+O 9205 wear_prog wear_prog_wind_boots	* `the {cw{Ci{wn{Cd {yboots{x'
+O 9205 remove_prog remove_prog_wind_boots	* `the {cw{Ci{wn{Cd {yboots{x'
+S
+
+#$

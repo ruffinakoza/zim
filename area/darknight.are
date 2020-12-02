@@ -1,0 +1,8636 @@
+#AREADATA
+Name Darknight Castle~
+Builders karth alamor aamon shaelindra~
+VNUMs 98901 99100
+Credits Alamor~
+Security 9
+LevelRange 50 91
+ResetMessage A gruff voice barks out some orders, and the darknights resume their duties.~
+End
+
+#MOBILES
+#98901
+guardian darknight~
+The Darknight guardian~
+The Darknight guardian is here, halting your intrusion into the castle.
+~
+You look upon an armor clad man of huge stature, and he lifts his visor
+to get a good look at you.  He stands guarding the gate to the castle, and
+takes his duty very seriously.  He grunts at you to go away, and cracks his
+huge knuckles menacingly.  
+~
+human~
+ABTc 0 -1000 0
+40 40 133d40+0 400d11+95 14d2+34 none
+-20 -20 -20 -11
+CEFHJK ABL E N
+stand stand male 100
+0 0 large flesh~
+~
+M exit 98901 ~
+M grall 98902 100~
+#98902
+darknight drow elf darkelf~
+a drow knight~
+A Drow Darknight is standing rigid here, eyeing you suspiciously.
+~
+Standing straight before you is a medium sized dark elf clad in black
+armor and wielding a tempered steel blade.  His breastplate is unusual, it
+is inky black with a golden skull on it and is sparkling brilliantly from a
+fresh polishing job.  Upon your entry into his ground, he loosens his sword
+in its scabbard, and poises himself for battle.  
+~
+drow~
+ABW 0 -1000 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+CFHKN L E N
+stand stand male 100
+0 0 medium flesh~
+~
+M grall 98903 100~
+#98903
+darknight duergar~
+A Duergar Darknight~
+A Duergar Darknight is here, slouching on duty and eyeing you eagerly.
+~
+A short, stout darknight is here, one of the dark-dwarf race.  His long
+beard almost completely covers his tunic, and he pulls a sharp knife from
+his legplates and tosses it deftly.  He catches the knife with out even
+looking at it, for he has kept his gaze focused on you the whole time.  As
+he leans against the stone wall, you notice that his legs are bent, ready to
+spring at the slightest sign of danger.  
+~
+duergar~
+ABW 0 -1000 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+FHIJKNV 0 E N
+rest stand male 500
+0 0 medium flesh~
+~
+M grall 98904 100~
+#98904
+armorer darknight huge~
+The darknight armorer~
+A huge darknight is here, hammering away at a red-hot piece of steel.
+~
+You see an enormous fiery creature hammering away at a red-hot piece of
+steel.  This fire giant radiates so much heat, it seems he is the source of
+flame for the forge itself.  Looking into his beady black eyes, you can tell
+he has no fear, and his strength seems immeasurable.  
+~
+fire giant~
+AB DFJVu -1000 0
+85 85 371d85+0 425d10+85 28d3+47 none
+-48 -48 -48 -30
+CEFHIJKN ABU 0 N
+stand stand male 100
+0 0 gargantuan flesh~
+~
+#98905
+armorer darknight dwarf~
+A dwarven armorer~
+A dwarven darknight is here, selling you equipment.
+~
+You see a short, stocky dwarf with beady black eyes and a huge beard that
+rests on the floor.  He is covered from head to foot in gleaming black
+armor, and he eyes your moneybag greedily as he gestures to the armor
+hanging on the wall.  
+~
+dwarf~
+AB DFVu -1000 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+CDEFHIK ABU 0 N
+stand stand male 285
+0 0 medium flesh~
+~
+#98906
+darknight fletcher~
+The Fletcher~
+A balding fletcher is here, fiddling with an arrow.
+~
+You see a grizzled old archer, working busily on a bent arrow shaft.  He
+is somewhat tall and thin, and is clothed in green leather armor.  He wears
+a tan hat on his head that shades his facial features.  
+~
+human~
+AB DVu -1000 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+CEFHIJK ABQ E N
+stand stand male 1039
+0 0 medium flesh~
+~
+#98907
+drow mercenary nasty pet~
+A drow mercenary~
+A nasty looking drow stands here, looking for people to murder.
+~
+Looking at this tall dark-elf, you see plenty of scars from past battles,
+and long black hair brushing his shoulders.  His deep black eyes dart around
+the room, take in everything and evaluate it.  Slung over his standard
+chainmail armor is a battered old sword with a notched blade.  
+~
+drow~
+ABIT UV -1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+FHIKL U N 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98908
+darknight captain~
+A darknight captain~
+A darknight captain is here, looking over a map.
+~
+You see a large human darknight here, he is a captain of the forces.  His
+smooth black armor is glinting brightly in the light, and has numerous dents
+all over.  You see a large ruby pommel sticking out of his scabbard, and his
+hand closes over it instictively.  
+~
+human~
+ABe x -1000 0
+68 68 275d68+0 340d10+85 22d3+39 none
+-36 -36 -36 -21
+CEFH U EHJK N
+stand stand male 206
+0 0 large flesh~
+~
+#98909
+old man wrinkled~
+A wrinkled old man~
+A small old man stands here, his face covered in wrinkles.
+~
+Before you is a tiny old man, his face covered in wrinkles.  He has a
+knowledgable look about his face, and his eyes twinkle happily.  
+~
+human~
+ABC DFJZlmt 0 0
+15 15 26d15+0 15d9+60 4d3+9 none
+0 0 0 3
+0 A 0 E
+stand stand male 100
+0 0 medium flesh~
+~
+F attr+ AB
+M grall 98995 100~
+M speech 98997 hourglass~
+M speech 98998 river~
+M speech 98999 silence~
+M speech 99000 fire~
+M speech 99001 breath~
+M speech 99001 ones breath~
+M speech 99001 one's breath~
+M speech 99002 icicle~
+M speech 99003 wind~
+M speech 99004 clock~
+M speech 99004 a clock~
+M speech 99005 a bridge~
+M speech 99005 bridge~
+#98910
+centaur young~
+a young centaur~
+A young centaur is here, eyeing you with interest.
+~
+Another centaur, this one younger and smaller than the others.  Despite
+his youth, his body is still strong and he looks like no easy target.  
+~
+centaur~
+AGWZ Pat 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98911
+mpcode dummy dude library~
+The Mpcode dude~
+The Mpcode Dude stands here, making things work.
+~
+Why make a desc when no mortals can see it????
+~
+human~
+AB DFJlmt 0 0
+100 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 98906 brightblade~
+M speech 98906 Brightblade~
+M speech 98906 the password is brightblade~
+M speech 98906 it is brightblade~
+I 92
+#98912
+squire young darknight~
+A Young Squire~
+A young squire stands here, looking around for tasks to do.
+~
+A young squire of medium height, he seems enthusiastic about everything
+he does, and is sweating from running around relaying messages to his
+superiors.  
+~
+human~
+ACGW DFO -1000 0
+40 40 98d40+0 40d9+60 12d3+21 none
+-16 -16 -16 -7
+FIKNQU 0 P N
+stand stand male 100
+0 0 medium flesh~
+~
+F for H
+F par IJK
+M speech 98908 what is it?~
+M speech 98908 did you remember?~
+M speech 98908 did you remember it?~
+M speech 98908 did you remember the password?~
+M speech 98908 what is the password?~
+M grall 98907 20~
+#98913
+fire mpcode dude~
+The fire MPCode dude!!~
+The Fire MPCode dude is here making stuff work right!
+~
+No descriptions for only imms to look at.
+~
+human~
+AB 0 0 0
+5 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 92
+#98914
+undead knight darknight undeadknight~
+The {DU{Wn{Dd{We{Da{Wd {DKnight{x~
+The {DU{Wn{Dd{We{Da{Wd {DKnight{x is here, enshrouded in fire.
+~
+{DBefore you stands an undead knight, completely covered in {Rflames{D. 
+He wears little armor, and is merely a living skeleton.  You would hardly
+notice that he is alive at all except for the flickering flames where his
+eyes should be.{x  
+~
+undead~
+ABO au -1000 0
+85 85 426d85+0 850d11+95 29d2+64 none
+-52 -52 -52 -34
+EFGHJKO 0 0 0
+stand stand none 500
+0 0 gargantuan flesh~
+~
+F aff DF
+#98915
+mpcode stair crumbling~
+The mpcode dude for the crumbling stair~
+The mpcode dude is here making stairs crumble.
+~
+~
+storm giant~
+AB DFJlmt 0 0
+4 4 14d4+0 40d11+95 2d2+10 none
+5 5 5 6
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M random 98909 10~
+M greet 99019 all~
+I 92
+#98916
+another mpcode dude~
+Another Mpcode dude~
+Another Mpcode dude
+~
+Description?  Bah who needs em.  
+~
+human~
+AB DFJlmt 0 0
+5 5 17d5+0 50d11+95 2d2+10 none
+5 5 5 6
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 98910 100~
+I 92
+#98917
+arakyan general commander human darknight knight lord~
+Arakyan~
+The great lord Arakyan stands here, glaring impatiently at his officers.
+~
+A man of immeasurable stature, Arakyan dwarfs his officers.  He has a
+commanding air about him, he is a natural leader, an important man.  His
+manner is suave and clever, he moves with grace despite his heavy armor and
+muscular bulk.  Clothed in fine garments, he is the epitome of richness,
+although his embroidered silk tunic is not only of finest cut, but plated
+with milky black steel, polished to perfection.  Thick leather boots don't
+fit with the rest of his outfit, however they do suit his nature as a leader
+of knights.  His scruffy face is as handsome as it is harsh, angular
+cheekbones and deepset gray eyes stare back at you from beneath curved
+eyebrows.  Long black hair flows down his face, and curls slightly on his
+shoulders.  An admirable man, a respectful man, you feel a sudden urge to
+kneel down before this giant and submit yourself to his will.  
+~
+human~
+ABe DFJVZcu 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+ACDFHKV ABU ENP 0
+stand stand male 3571
+0 0 gargantuan flesh~
+~
+F for AHM
+F par IJ
+M kill 98913 100~
+M fight 98916 30~
+M speech 99098 suto~
+#98918
+mpcode dude again~
+another mpcode dude!~
+the mpcode guy is here
+~
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M random 98914 100~
+I 92
+#98919
+darknight captain~
+A darknight captain~
+A darknight captain is here, surveying his troops.
+~
+You see a large human darknight here, he is a captain of the forces.  His
+smooth black armor is glinting brightly in the light, and has numerous dents
+all over.  His hand closes instinctively over his weapon.  
+~
+human~
+A x -1000 0
+68 68 275d68+0 340d10+85 22d3+39 none
+-36 -36 -36 -21
+CEFH U EHJK N
+stand stand male 702
+0 0 large flesh~
+~
+#98920
+darknight archer silent~
+A darknight archer~
+A darknight archer pads silently about the room.
+~
+A half-elven darknight is here, stalking about the room with a determined
+vigilance.  A bow is slung casually over his right shoulder, and he has a
+quiver about his waste.  His clothes are not very heavy looking, some light
+chainmail and black-dyed leather armor.  Harsh lines are on his forehead,
+and he has the hardened look of a man who follows his orders with utmost
+obedience.  
+~
+half-elf~
+AGLWc DFPVa -1000 0
+68 68 275d68+0 340d10+85 22d3+39 none
+-36 -36 -36 -21
+EFHIJKNQ U 0 N
+stand stand male 2033
+0 0 medium flesh~
+~
+#98921
+elite darknight warrior~
+An elite darknight~
+A powerful looking darknight struts about the room with an aura of danger.
+~
+A tall darknight is here, outfitted in full battle armor.  He walks about
+as if he owns this place, and you see know reason why he doesn't.  Tall
+shoulders and a thick build are covered in sturdy steel, and his armor
+clinks softly when he moves.  He handles his weapon with practiced ease, and
+looks like one you would rather not want as your opponent.  
+~
+orc~
+AGWc DF -1000 0
+68 68 275d68+0 340d10+85 22d3+39 none
+-36 -36 -36 -21
+CDFHI AU 0 0
+stand stand male 622
+0 0 gargantuan flesh~
+~
+#98922
+darknight guard huge patrol~
+The Darknight Guard~
+A huge darknight guard patrols the castle here.
+~
+An enormous minotaur darknight stands here, his large horns poking
+through his helmet.  His body is huge, his legs are like giant tree trunks,
+and he is covered in muscles.  He snorts slightly, and sniffs the air with
+his bovine nose.  
+~
+minotaur~
+AGT Dx -1000 0
+91 91 405d91+0 455d10+85 20d8+100 none
+-52 -52 -52 -33
+DF 0 E N
+stand stand male 1000
+0 0 large flesh~
+~
+#98923
+huntress camouflaged concealed~
+A {gCam{youf{Dla{cged{x Huntress~
+A huntress stalks the grounds here, concealed behind some plants.
+~
+You see before you a young woman garbed as a huntress, bow slung casually
+over a shoulder.  Her graceful and fluid movements give her a sense of
+danger and unpredictability.  Her long brown hair sways in the breeze,
+partially covering her tanned face.  
+~
+half-elf~
+ACGLWe DFHNOPQet 1000 0
+95 95 492d95+0 950d11+95 32d2+70 none
+-59 -59 -59 -39
+EFHIJKNV ABU ELQX 0
+stand stand female 200
+0 0 medium flesh~
+~
+#98924
+common brigand~
+a common brigand~
+A common brigand is here, trying to sustain his meager existence.
+~
+You see a sad young man, it seems his lust for life has been completely
+depleted.  He has short blond hair and clear blue eyes, and his body is
+well-muscled despite his sad mood.  
+~
+human~
+AGSWc DFPV 500 0
+75 75 267d75+0 75d9+60 23d3+38 none
+-38 -38 -38 -22
+FGHIJNV U E 0
+stand stand male 15
+0 0 medium flesh~
+~
+#98925
+hunter camouflaged concealed~
+A {gCam{youf{Dla{cged {xHunter~
+A hunter stalks the grounds here, concealed behind some plants.
+~
+You see before you a young man garbed as a hunter, bow slung casually over
+a shoulder.  His graceful and controlled movements give him a sense of
+danger and unpredictability.  His shoulder-length brown hair sways in the
+breeze, partially getting in the way of his cold brown eyes.  
+~
+half-elf~
+ACGLWe DFHNOPQet 1000 0
+95 95 492d95+0 950d11+95 32d2+70 none
+-59 -59 -59 -39
+EFHIJKNV ABU ELQX 0
+stand stand male 200
+0 0 medium flesh~
+~
+#98926
+brave explorer~
+A Brave Explorer~
+A brave explorer is here, gazing in awe at his surroundings.
+~
+A short gnome stands before you with his mouth wide open, awed by the
+mystical ruins.  
+~
+gnome~
+ACGHh NV 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+FHIJKN 0 0 0
+stand stand male 300
+0 0 large flesh~
+~
+#98927
+apprentice hunter~
+an Apprentice Hunter~
+An apprentice hunter stalks clumsily through the underbrush.
+~
+A short half-elf is here, practicing to be a hunter with admirable
+determination.  His dark blue eyes have a focused look, and his mouth is
+clenched tightly.  His body is well muscled and quite coordinated, however
+it takes much more than that to become a hunter.  
+~
+half-elf~
+ACGLTW DFNOPt 1000 0
+91 91 405d91+-5000 455d10+85 30d6+60 none
+-52 -52 -52 -33
+CEFIKNV 0 0 0
+stand stand male 35
+0 0 large flesh~
+~
+#98928
+militia captain veteran~
+The Militia Captain~
+The militia captain is here, organizing an assault against the darknights!
+~
+A tough looking man, this militia captain is a veteran soldier.  His
+scraggly face is clenched in a permanent frown, and he glares about himself
+in a scrutinizing manner.  Easily weighing 250 pounds, he is not one to be
+trifled with.  
+~
+human~
+AGTWce DFNV 1000 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+CEFIJ 0 E 0
+stand stand male 150
+0 0 large flesh~
+~
+#98929
+militia soldier~
+A Militia Soldier~
+A seasoned member of the militia struts about proudly.
+~
+What an arrogant fool, this wee little soldier acts like he owns the
+place!  He is pretty small, and doesn't look too strong.  
+~
+human~
+AGHTW DFNV 1000 0
+60 60 195d60+0 60d9+60 19d3+31 none
+-28 -28 -28 -16
+EFIKN 0 0 E
+stand stand male 10
+0 0 large flesh~
+~
+#98930
+centaur warrior~
+a centaur warrior~
+A powerful centaur warrior patrols the ruins.
+~
+Wow!  It has a horse's lower body, and a man's upper body and face!  It
+must be a centaur!  Epiphanies aside, this is a very large centaur, and his
+whole body is covered in rippling, powerful muscles.  Better leave him
+alone....  
+~
+centaur~
+ACGLWZc JNat 1000 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+K 0 0 0
+stand stand male 50
+0 0 large flesh~
+~
+#98931
+centaur archer~
+A Centaur Archer~
+A lanky centaur archer trots about the ruins.
+~
+Wow!  It has a horse's lower body, and a man's upper body and face!  It
+must be a centaur!  Epiphanies aside, this centaur looks like he knows what
+he's doing, better not mess with him.  
+~
+centaur~
+ACGLWZce NPat 1000 0
+75 75 267d75+0 75d9+60 23d3+38 none
+-38 -38 -38 -22
+0 0 0 0
+stand stand male 20
+0 0 medium flesh~
+~
+#98932
+centaur leader~
+The Centaur Leader~
+A huge centaur is here, glaring furiously at you!
+~
+You see before you one of the largest centaurs you have ever seen.  His
+humanlike torso is heavily muscled and very broad, and his powerful
+horselike legs look like they could kick with extreme force.  He is
+obviously the leader of all the centaurs, and the strongest as well.  
+~
+centaur~
+ABT DFHt 1000 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+EK ABU HIK Y
+stand stand male 400
+0 0 large flesh~
+~
+M death 98917 50~
+#98933
+bush mpcode man~
+A bush mpcode man is here.~
+A bush mpcode man is here.
+~
+He makes the bush hurt people.
+~
+human~
+AB DFJZlmt 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98918 100~
+I 92
+#98934
+dwarf smith smithy~
+The Dwarven Smithy~
+A stout dwarven smithy is here, fussing about his forge.
+~
+Standing before you is a stout dwarven blacksmith, teetering about his
+forge, fussing about things.  He wears a stained and dusty apron, and
+carries a huge iron-headed hammer.  He is constantly working the bellows and
+beating at some metal at the forge.  
+~
+dwarf~
+ABe DFHZlmt 0 0
+106 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+CEFIJK AU 0 0
+stand stand male 20
+0 0 large flesh~
+~
+M give 99010 98997~
+M give 99010 98998~
+M give 99010 98999~
+M give 99010 99000~
+M give 99010 99001~
+M give 99010 99002~
+M give 99010 99003~
+M give 99010 99004~
+M give 99011 99005~
+M speech 99012 done~
+M delay 99013 100~
+M speech 99097 what's my alignment?~
+#98935
+skeleton warrior skeletal~
+A {DSk{Wel{Det{Wal {rWarrior{x~
+A huge skeleton stands here, peering about angrily through eyeless sockets.
+~
+Before you stands an enormous skeletal warrior, comprised completely of
+bones.  It seems lifeless, you can see no organs or eyes or other sign of
+life, but it is surely controlled by something!  
+~
+undead~
+ABOTe 0 -1000 0
+77 77 326d77+0 385d10+85 25d3+43 none
+-42 -42 -42 -26
+CFGHIL A 0 0
+stand stand none 0
+0 0 gargantuan flesh~
+~
+#98936
+black-clad black clad drow necromancer~
+A {DBlack-Clad{x {DNe{Wcr{rom{Wan{Dcer{x~
+A black-clad drow is here enchanting a pile of bones.
+~
+Before you is an extremely pale dark elf, whose ebony-colored hair falls
+smoothly to her shoulders.  She is a very lithe looking woman, and her ivory
+colored skin makes a stark contrast with her thin red lips.  As she notices
+you looking at her, she smiles deviously, and you realize that she is
+extremely beautiful.  
+~
+drow~
+ABR DFVlu -1000 0
+77 77 277d77+0 77d9+60 23d3+39 none
+-39 -39 -39 -23
+FGHV AU 0 N
+stand stand female 300
+0 0 medium flesh~
+~
+M grall 99014 100~
+M fight 99015 100~
+#98937
+evil unholy cleric~
+An evil cleric is here, chanting crazily at you!~
+An evil cleric is here, chanting crazedly at you!
+~
+Before you is the most evil cleric you have ever seen, his leathery skin
+is completely black for some unknown reason, the only color on him at all
+are his bright {rred{x eyes.  He stands a little below six feet tall, and
+looks to weigh about 150 pounds.  He is clad in loose black robes, and a
+dark brooch hangs loosely from his neck.  
+~
+githyanki~
+ABQ DFu -1000 0
+77 77 277d77+0 77d9+60 23d3+39 none
+-39 -39 -39 -23
+EFGHIKU AQU BE N
+stand stand male 20
+0 0 medium flesh~
+~
+M death 99016 100~
+#98938
+wicked alchemist~
+A Wicked Alchemist~
+A wicked-looking alchemist is here, mumbling furiously!
+~
+You see before you a frazzle-haired old man, adorned in loose-fitting
+robes and several odd amulets.  His bright green eyes look like they are
+just barely hanging on to their last thread of sanity, a very odd man.  
+~
+arial~
+ABeh BDFJOV -1000 0
+77 77 326d77+0 385d10+85 25d3+43 none
+-42 -42 -42 -26
+FGIKN ABU HIJKMOP DN
+stand stand male 30
+0 0 medium flesh~
+~
+M grall 98938 100~
+#98939
+shapeshifter~
+A shapeshifter~
+An ever-changing shapeshifter is here, mumbling an incantation!
+~
+Before you is a shapeshifter, of an ever-changing race.  The only feature
+that remains the same are his large nose, and clothing.  
+~
+githyanki~
+ABe DFVc -1000 0
+77 77 326d77+0 385d10+85 25d3+43 none
+-42 -42 -42 -26
+EFGHJK AQU 0 N
+stand stand male 30
+0 0 medium flesh~
+~
+M grall 98939 100~
+#98940
+cackling witch~
+A Cackling Witch~
+An ugly witch is here, cackling insanely.
+~
+Before you is one very ugly duergar female.  The wart on her nose is
+bigger than the nose itself, it must hinder her eyesight quite a lot.  Her
+bright yellow eyes twinkle with mischief, drawing in their many wrinkles
+even tighter.  
+~
+duergar~
+AB DFVu -1000 0
+77 77 326d77+0 385d10+85 25d3+43 none
+-42 -42 -42 -26
+FGHIJK ABU 0 N
+stand stand female 200
+0 0 medium flesh~
+~
+#98941
+prisoner~
+a prisoner~
+A dirty prisoner is here, wallowing in self-pity.
+~
+You see an unclean, unshaven prisoner, leaning hopelessly against the
+stone wall.  His head hangs in defeat, he seems uterrly lifeless.  What a
+poor guy...  
+~
+human~
+ABCQe IJV 1000 0
+60 60 230d60+0 300d10+85 25d3+35 slap
+-30 -30 -30 -18
+FIJKN A BN 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98942
+evil unholy cleric~
+an evil cleric~
+An evil cleric is here, chanting crazily at you!
+~
+Before you is the most evil cleric you have ever seen, his leathery skin
+is completely black for some unknown reason, the only color on him at all
+are his bright {rred{x eyes.  He stands a little below six feet tall, and
+looks to weigh about 150 pounds.  He is clad in loose black robes, and a
+dark brooch hangs loosely from his neck.  
+~
+githyanki~
+ABQ DFu -1000 0
+77 77 277d77+0 77d9+60 23d3+39 none
+-39 -39 -39 -23
+EFGHIKU AQU BE N
+stand stand male 20
+0 0 medium flesh~
+~
+#98943
+darknight guard huge patrol~
+The Darknight Guard~
+A huge darknight guard patrols the castle here.
+~
+An enormous minotaur darknight stands here, his large horns poking
+through his helmet.  His body is huge, his legs are like giant tree trunks,
+and he is covered in muscles.  He snorts slightly, and sniffs the air with
+his bovine nose.  
+~
+minotaur~
+AGT Dx -1000 0
+91 91 405d91+0 455d10+85 20d8+100 none
+-52 -52 -52 -33
+DFJR 0 E N
+stand stand male 1000
+0 0 large flesh~
+~
+#98944
+darkblade assassin figure~
+a {Ddarkblade assassin{x~
+A {Ddark figure dressed in tight black wrap{x is crouched here.
+~
+A darkblade assassin is here with malice in the eyes.
+~
+svirfnebli~
+ACGHLSj FKQVx -400 0
+91 91 405d91+0 455d10+85 60d3+60 none
+-52 -52 -52 -33
+BEFHJNV 0 B 0
+stand stand female 2946
+0 0 large flesh~
+~
+#98945
+apprentice hunter~
+an Apprentice Hunter~
+An apprentice hunter stalks clumsily through the underbrush.
+~
+A short half-elf is here, practicing to be a hunter with admirable
+determination.  His dark blue eyes have a focused look, and his mouth is
+clenched tightly.  His body is well muscled and quite coordinated, however
+it takes much more than that to become a hunter.  
+~
+half-elf~
+ACGLTW DFNOPt 1000 0
+91 91 405d91+-5000 455d10+85 30d6+60 none
+-52 -52 -52 -33
+CEFIKNRV 0 0 0
+stand stand male 35
+0 0 large flesh~
+~
+#98946
+centaur archer~
+A Centaur Archer~
+A lanky centaur archer trots about the ruins.
+~
+Wow!  It has a horse's lower body, and a man's upper body and face!  It
+must be a centaur!  Epiphanies aside, this centaur looks like he knows what
+he's doing, better not mess with him.  
+~
+centaur~
+ACGLTWZce NPat 1000 0
+75 75 267d75+0 75d9+60 30d3+30 none
+-38 -38 -38 -22
+Q 0 0 0
+stand stand male 20
+0 0 medium flesh~
+~
+#98963
+bogus mob number 2~
+reset debugger number 2~
+The freak room reset bug mob is here, to save the day!
+~
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 92
+#99001
+messenger~
+a messenger~
+A boy carrying a parcel tries to make his way while remaining unnoticed.
+~
+Attempting to look unimportant, the boy tries to hurry by, hoping you
+don't notice him.  In his hand is a suspicious package.  
+~
+human~
+AGH PV 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M death 99099 100~
+#99016
+lalalalala! bogus mob~
+the reset debugger~
+The freakish reset debugger mob is here, waiting for aamon to solve the bugs.
+~
+Bogus mob.  There was a reset error and i'm hoping this mob will locate it 
+~
+human~
+AB 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 92
+#99100
+prince elven man monanon~
+the elven prince Monanon~
+A elf is indignantly bound and gagged here, sleeping.
+~
+Bound and gagged into a very unseemly position for an elven prince,
+Monanon must be one of Arakyan's most recent get-richer-quicker schemes. 
+Maybe this is how he afforded Darknight Castle to begin with?  At any rate,
+better wake him up...  
+~
+elf~
+AB DFHVZ 0 0
+100 100 456d100+50000 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 0 0 0
+sleep stand none 5000
+0 0 medium flesh~
+~
+M give 99100 6113~
+#0
+
+#OBJECTS
+#98901
+flag golden skull~
+A {Ygolden {Wskull {xflag~
+A black flag with a gilded skull flutters in the wind here.~
+unknown~
+cloth~
+armor CEJ AO
+18 18 18 17 'none' 0
+50 51 62751 P
+A
+19 3
+A
+18 4
+A
+13 10
+G none
+G none
+G none
+G none
+#98902
+breastplate gold-skull gold skull~
+A {Ygold-{Wskull {Dbreastplate{x~
+A black breastplate with a golden skull.~
+steel~
+~
+armor CEJY AD
+13 13 13 12 'none' 0
+50 36 153504 P
+A
+19 5
+A
+13 20
+A
+18 2
+G none
+G none
+G none
+G none
+#98903
+tunic~
+A {Rblood-red{x tunic~
+A pile of {Rblood-red{x silk is lying on the ground here.~
+silk~
+~
+clothing CEJ AK
+BE BE BE AE 0 BE BE
+50 51 76638 P
+A
+18 3
+A
+13 10
+A
+19 3
+A
+5 1
+A
+14 50
+G none
+G none
+G none
+G none
+#98904
+sword knightsword steel polished~
+A polished steel knightsword~
+A steel knightsword is here, shining brilliantly.~
+steel~
+~
+weapon AEJY AN
+longsword 3 20 slash D
+50 51 96464 P
+A
+18 2
+A
+19 5
+A
+13 15
+G none
+G none
+G none
+G none
+#98905
+comfy black chair~
+A comfy {Dblack{x velvet chair~
+A comfortable chair is here, covered in soft {Dblack{x velvet~
+velvet~
+~
+furniture 0 0
+A FINPQRS E CFG CFG A FINPQRS
+1 3 0 P
+G none
+G none
+G none
+G none
+#98906
+knife black venomous~
+A {Dblack{x venomous knife~
+A sharp {Dblack{x knife is here, with a venomous tip.~
+steel~
+~
+weapon CEJT AN
+dagger 4 10 pierce H
+50 51 29770 P
+A
+20 -1
+A
+19 5
+A
+18 2
+G none
+G none
+G none
+G none
+#98907
+shadows{x karth~
+{DA flowing black ninja cloak{x~
+My claws~
+unknown~
+claws~
+armor 0 AC
+39 39 39 38 'none' 0
+107 108 111 P
+G none
+G none
+G none
+G none
+#98908
+karth~
+{DA black-bladed tanto{x~
+tanto~
+steel~
+~
+armor 0 AO
+39 39 39 38 'none' 0
+107 108 111 P
+G none
+G none
+G none
+G none
+#98909
+karth~
+{RWarclaws {Dof darkness{x~
+claws~
+steel~
+~
+weapon 0 AN
+exotic 5 22 divine 0
+107 108 5140 P
+G none
+G none
+G none
+G none
+#98910
+karth~
+a young centaur~
+shinobi~
+unknown~
+ninjaness~
+armor 0 AD
+39 39 39 38 'none' 0
+107 108 111 P
+G none
+G none
+G none
+G none
+#98911
+karth~
+{DThe mask of the assassin{x~
+the mask~
+unknown~
+ninjaness~
+armor 0 AE
+39 39 39 38 'none' 0
+107 108 111 P
+G none
+G none
+G none
+G none
+#98912
+skull giant gold shield~
+A giant {Ygold trimmed{D skull{x~
+An enourmous skull as big as your torso lies here, emanating evil.~
+steel~
+~
+armor CEJ AJ
+18 18 18 17 'none' 0
+50 51 78305 P
+A
+18 3
+A
+19 3
+A
+13 10
+G none
+G none
+G none
+G none
+#98913
+legplates dark secret pocket~
+{DDark legplates{x with a secret pocket~
+Some dark legplates lie folded on the ground here, with what seems to be a secret pocket!~
+steel~
+~
+container CEJY AF
+1000 A 0 100 85 0
+50 40 124914 P
+A
+13 20
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#98914
+skull helm horned steel plate ogre~
+A {Wsteel-plated{x ogre skull~
+An evil looking skull helm lies here, with a huge horn pointing out of the forehead.~
+steel~
+~
+armor CEFJ AE
+18 18 18 17 'none' 0
+50 51 98274 P
+A
+13 25
+A
+19 3
+A
+18 2
+A
+5 1
+A
+17 -10
+G none
+G none
+G none
+G none
+#98915
+brooch evil black gold fringed~
+A {Dblack{Y gold trimmed{x brooch~
+A black brooch with gold lining lies here, emanating evil.~
+unknown~
+Evil~
+armor EJLM AC
+18 18 18 17 'none' 0
+50 51 91582 P
+A
+19 5
+A
+13 25
+A
+12 50
+G none
+G none
+G none
+G none
+#98916
+gold trimmed purple cloak~
+A {Ygold trimmed {mpurple{x cloak~
+A gold trimmed purple cloak lies forgotten here, billowing with the wind.~
+velvet~
+~
+clothing AEJ AK
+0 0 0 0 0 0 0
+50 51 58332 P
+A
+20 -1
+A
+19 3
+A
+18 5
+G none
+G none
+G none
+G none
+#98917
+boots leather fitted~
+Fitted leather boots~
+Some very comfy looking leather boots sit here, waiting to mold to your feet.~
+leather~
+~
+armor CEJM AG
+18 18 18 17 'none' 0
+50 51 85777 P
+A
+14 30
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#98918
+ruby pommel pommeled knight sword~
+A {RRuby{x-pommeled knightsword~
+A gleaming knightsword lies here, with a large {Rruby{x glinting in the pommel.~
+steel~
+~
+weapon CEJ AN
+longsword 4 18 slash C
+60 61 111310 P
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#98919
+stray book~
+A stray book~
+A stray book lies on the floor here, seemingly quite out of place.~
+unknown~
+book~
+trash 0 A
+0 0 0 0 0 0 0
+0 5 20 P
+E
+stray~
+A stray book reads:
+b~~w~~~~e th~~ ~~un~~e~~n
+~
+G none
+G none
+G none
+G none
+#98920
+bookcase~
+A bookcase~
+A large bookcase stands here, with all its rows filled except for one spot.~
+unknown~
+Oak Wood~
+container 0 0
+50000 0 0 100 100 0
+0 1000 0 P
+G none
+G none
+G none
+G none
+#98921
+black bo golden staff~
+A black {ygolden tipped{x bo~
+A thick bo staff of black wood lies here, its golden tips shine dully.~
+wood~
+~
+weapon CEJK AN
+staff 3 19 thwack 0
+55 56 42700 P
+A
+19 2
+A
+18 4
+A
+5 3
+G none
+G none
+G none
+G none
+#98922
+crest knight <<(*)>>~
+A gleaming Knight's <<(*)>> Crest~
+A beautiful knight's crest lies here, its <<(*)>> inscription gleaming.~
+unknown~
+Knightness~
+treasure AEU A
+0 0 0 0 0
+0 45 20000 P
+G none
+G none
+G none
+G none
+#98923
+axe forged nevermelting ice~
+An axe forged of {BNevermelting{x {CIce{x~
+The head of this axe is crafted of ice that will never melt, and connects flawlessly with a sturdy wooden haft.~
+unknown~
+~
+weapon AEJ AN
+axe 3 20 cleave BD
+50 51 105218 P
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#98924
+axe~
+Karth's Dagger~
+Karth's Dagger~
+unknown~
+karthness~
+weapon C AN
+axe 6 22 pierce 0
+107 108 4765 P
+G none
+G none
+G none
+G none
+#98925
+knife rusty~
+A {rRusty {xKnife~
+A small knife is here, covered in red rust.~
+steel~
+~
+weapon KTY AN
+dagger 5 12 pierce D
+75 76 45318 P
+A
+18 2
+A
+19 7
+G none
+G none
+G none
+G none
+#98926
+lava pool fire~
+the pool of lava~
+~
+fire~
+~
+container 0 0
+1000000 0 0 10000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#98927
+log flaming~
+A {rF{Rl{Ya{ym{Yi{Rn{rg {ylog{x~
+A flaming log is here, producing a thick cloud of smoke.~
+wood~
+~
+weapon AU AN
+mace 5 17 beating A
+85 86 130938 P
+A
+18 6
+A
+19 4
+G none
+G none
+G none
+G none
+#98929
+cracked skull~
+A {yCracked {DSkull{x~
+An off-white skull lies here, with a crack through the middle.~
+unknown~
+~
+armor EHJ AQ
+31 31 31 30 'none' 0
+85 86 498579 P
+A
+13 40
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#98930
+ribcage huge~
+A Huge {WR{wi{Wb{wc{Wa{wg{We{x~
+An enormous ribcage of some creature is on the ground here.~
+unknown~
+~
+armor EJMSU AD
+70 0 20 30 'none' 0
+85 86 567799 P
+A
+13 40
+A
+19 7
+A
+18 7
+G none
+G none
+G none
+G none
+#98931
+slayer gods axe~
+{DThe {RSlayer {Dof the {CGods{x~
+The hugest axe you have ever seen lies at your feet.~
+unknown~
+evil~
+weapon JY AN
+axe 5 21 cleave DG
+85 86 231679 P
+A
+17 -8
+A
+19 8
+G none
+G none
+G none
+G none
+#98932
+sharpened dragon femur bone spear~
+{WA {DSharpened {gDragon-{wBone{x~
+What looks like a very sharp legbone of a dragon is on the ground.~
+bone~
+~
+weapon EJSY AN
+spear 5 17 thrust C
+85 86 174435 P
+A
+19 3
+A
+13 40
+A
+18 8
+G none
+G none
+G none
+G none
+#98933
+bloody hood~
+{DA {rbloody {Dhood{x~
+A bloody hood is here, severed from a cloak.~
+unknown~
+cloth~
+armor EJ AE
+31 31 31 30 'none' 0
+85 86 266665 P
+A
+13 50
+A
+19 6
+A
+18 6
+G none
+G none
+G none
+G none
+#98934
+light~
+the mpcode's light~
+mpcode light thingy~
+unknown~
+~
+light 0 AO
+472
+0 0 0 P
+G none
+G none
+G none
+G none
+#98935
+emerald tipped flail chain~
+an {GE{gm{Ge{gr{Ga{gl{Gd{x Tipped Flail~
+A huge chain lies here, ending in an enormous spiked emerald.~
+gem~
+~
+weapon Y AN
+flail 4 17 slice D
+68 70 114828 P
+A
+19 7
+A
+18 6
+G none
+G none
+G none
+G none
+#98936
+mace bereos wind huge~
+The {YBereos {xMace~
+A huge mace made of swirling winds hovers above the ground.~
+unknown~
+wind~
+weapon ASY AN
+mace 4 17 crush G
+68 69 62080 P
+A
+19 4
+A
+12 50
+G none
+G none
+G none
+G none
+#98937
+spear blue steel~
+The Spear of {CBlue {WSteel{x~
+An enormous spear of blue-tinged steel lays on the ground here.~
+steel~
+~
+weapon TY AN
+spear 4 17 thrust BD
+68 69 99496 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98938
+whip obsidian bladed obsidian-bladed~
+The {DObsidian-Bladed{x Whip~
+A long whip lies here, and obsidian blades adorn the length of it.~
+unknown~
+obsidian~
+weapon SY AN
+whip 4 12 slice D
+68 69 23871 P
+A
+19 3
+A
+18 6
+G none
+G none
+G none
+G none
+#98939
+sunburst halberd sun burst polearm~
+The {ySunburst {xHalberd~
+A large halberd lies here, its circular head has sharp blades extending in all directions.~
+mithril~
+~
+weapon 0 AN
+polearm 1 107 pierce DF
+68 69 159041 P
+A
+13 20
+A
+19 6
+G none
+G none
+G none
+G none
+#98940
+mithril half moon axe half-moon large~
+A {CMithril {xHalf-{WMoon{x Axe~
+A large mithril axe lies here, it's blade shaped like a half-moon.~
+mithril~
+~
+weapon ATY AN
+axe 4 21 chop B
+68 100 99435 P
+A
+18 4
+A
+19 5
+G none
+G none
+G none
+G none
+#98941
+bow hardened sap longbow~
+A Bow of Hardened {ySap{x~
+A longbow lies here, it looks like it is made of sap...~
+unknown~
+sap~
+weapon MST AN
+bow 3 28 smash F
+68 69 128843 P
+A
+18 3
+A
+2 3
+A
+19 6
+G none
+G none
+G none
+G none
+#98942
+blackened barbed blackened-barbed arrow wooden~
+A {DBlackened-{xBarbed Arrow~
+A long wooden arrow is here, with a barbed tip.~
+wood~
+~
+weapon MT AO
+arrow 6 12 sting H
+68 69 18157 P
+A
+19 5
+A
+18 2
+A
+5 2
+G none
+G none
+G none
+G none
+#98943
+small arrow ethereal~
+An {MEthereal {xArrow~
+A small arrow is here, shifting randomly between the planes of existance.~
+etherealness~
+ethereal~
+weapon FU AO
+arrow 6 12 wrath D
+68 69 21905 P
+A
+19 5
+A
+18 3
+A
+3 2
+G none
+G none
+G none
+G none
+#98944
+runic silver breastplate runes~
+A Runic {WSilver {xBreastplate~
+A finely crafted breastplate of silver lies here, its surface adorned by runic engravings.~
+silver~
+~
+armor EJTY AD
+25 25 25 24 'none' 0
+68 69 252893 P
+A
+13 40
+A
+18 2
+A
+19 5
+G none
+G none
+G none
+G none
+#98945
+silver-lined silver lined sash cloth~
+A {WS{Rilver-Line{Wd{x Sash~
+A long, red, silver-lined sash lies here.~
+unknown~
+cloth~
+armor EJ AL
+25 25 25 24 'none' 0
+68 40 97368 P
+A
+18 6
+A
+19 5
+A
+6 1
+G none
+G none
+G none
+G none
+#98946
+red-plumed red plumed silver helm~
+A {RRed-Plumed {WSilver {xHelm~
+A silver helm lies here, with a large red plume extending from the top.~
+silver~
+~
+armor EJY AE
+25 25 25 24 'none' 0
+68 69 110278 P
+A
+17 -13
+A
+19 5
+A
+18 5
+A
+13 10
+G none
+G none
+G none
+G none
+#98947
+shield red eagle silver~
+The Shield of the {RRed Eagle{x~
+A large silver shield is here, adorned with a picture of a giant red eagle.~
+silver~
+~
+armor EJY AJ
+25 25 25 24 'none' 0
+68 75 200430 P
+A
+20 -1
+A
+13 30
+A
+19 6
+A
+18 3
+G none
+G none
+G none
+G none
+#98948
+sinuous whip fire flames strand long~
+A Sinuous Whip of {rF{Yi{Rr{re{x~
+A long strand of flames shoot high into the air here.~
+fire~
+~
+weapon AU AN
+whip 5 12 flame A
+85 86 54757 P
+A
+19 4
+A
+18 7
+G none
+G none
+G none
+G none
+#98949
+engraved silver-lined silver lined bracer gleaming~
+An Engraved {WS{Rilver-line{Wd{x Bracer~
+A gleaming bracer of silver is here, engraved with great detail.~
+unknown~
+~
+armor EJ AM
+25 25 25 24 'none' 0
+68 69 99646 P
+A
+13 30
+A
+18 5
+A
+19 4
+G none
+G none
+G none
+G none
+#98950
+embroidered silver-lined silver lined red cape~
+An Embroidered {WS{z{Rilver-line{z{Wd{z Cape~
+An embroidered cape lies on the ground, its red surface bordered in silver.~
+unknown~
+cloth~
+armor EJTY AC
+25 25 25 24 'none' 0
+68 50 91477 P
+A
+19 5
+A
+18 4
+A
+20 -2
+G none
+G none
+G none
+G none
+#98951
+ring intertwined serpents dark snake~
+The Ring of {WIntertwined {DSerpents{x~
+A dark ring lies on the ground, in the shape of two serpents intertwined.~
+steel~
+~
+jewelry EFGJTY AB
+ADE ADE ADE DE 0 ADE ADE
+68 69 64 P
+A
+13 5
+A
+19 5
+A
+18 5
+A
+12 20
+G none
+G none
+G none
+G none
+#98952
+black unholy robe cloth~
+A {DBlack Unholy {xRobe~
+A large piece of black cloth lies here, giving off an unholy aura.~
+unknown~
+~
+armor AEJ AD
+28 28 28 27 'none' 0
+77 78 419999 P
+A
+3 1
+A
+12 170
+G none
+G none
+G none
+G none
+#98953
+spell component pouch~
+A {mSpell Component {xPouch~
+A small pouch rests here, smelling of spell components.~
+unknown~
+~
+container AEJ AL
+5000 A 0 100 90 0
+77 15 67340 P
+A
+18 6
+A
+19 5
+A
+12 60
+G none
+G none
+G none
+G none
+#98954
+large staff gnarled oak wood~
+A {yGnarled Oak {xStaff~
+A large staff of oak wood is here.~
+unknown~
+~
+weapon EGJT AN
+staff 4 20 smash 0
+77 80 79244 P
+A
+18 4
+A
+19 4
+A
+4 1
+A
+3 1
+A
+12 60
+G none
+G none
+G none
+G none
+#98955
+magical flame dagger blade~
+A Blade of {MMagical {RFlame{x~
+A magical dagger is on the ground, with flames dancing across its blade.~
+unknown~
+magic~
+weapon EGHJT AN
+dagger 5 12 stab A
+77 78 75900 P
+A
+19 3
+A
+19 4
+A
+12 45
+G none
+G none
+G none
+G none
+#98956
+brooch death small~
+The Brooch of {DD{We{wa{Wt{Dh{x~
+A small brooch calls out to you, signing songs of death.~
+unknown~
+magic~
+armor EGJTY AC
+28 28 28 27 'none' 0
+77 78 166015 P
+A
+13 -30
+A
+18 5
+A
+3 2
+A
+19 5
+A
+12 50
+G none
+G none
+G none
+G none
+#98957
+wand acid corrosive~
+A Wand of {GCorrosive {gAcid{x~
+A wand covered in acid lies here, burning through itself.~
+unknown~
+~
+wand EGJTU AO
+70 10 10 'acid blast'
+77 78 73 P
+A
+12 75
+G none
+G none
+G none
+G none
+#98958
+band lightning ring circular~
+A Band of {YLightning{x~
+A circular band of pure lightning sizzles on the ground.~
+unknown~
+lightning~
+jewelry EGJTY AB
+0 0 0 0 0 0 0
+77 78 73 P
+A
+12 30
+A
+13 -10
+A
+19 2
+A
+3 3
+G none
+G none
+G none
+G none
+#98959
+ring fire scorch circular~
+A Ring of {RFire{x~
+A circular ring of blazing flames scorches the ground here.~
+fire~
+~
+jewelry EGJTY AB
+CDE CDE CDE ABDE 0 CDE CDE
+77 78 73 P
+A
+20 -1
+A
+19 6
+A
+1 1
+G none
+G none
+G none
+G none
+#98960
+hoop earth clod circle ring dirt circular~
+A Hoop of {yEarth{x~
+A darkened clod of earth lies here in a circle, dropping bits of dirt everywhere.~
+unknown~
+~
+jewelry EGJTY AB
+0 0 0 0 0 0 0
+77 78 73 P
+A
+17 -15
+A
+5 2
+A
+18 7
+G none
+G none
+G none
+G none
+#98961
+water ring curcular wet~
+A Ring of {BWater{x~
+A circular ring of water lies here, getting the ground wet.~
+unknown~
+~
+jewelry EGJTY AB
+0 0 0 0 0 0 0
+77 78 73 P
+A
+12 30
+A
+4 3
+A
+19 7
+G none
+G none
+G none
+G none
+#98962
+black-dyed black dyed leather breeches~
+{DBlack-Dyed{x Leather Breeches~
+Here are some neatly folded leather breeches, dyed a deep black.~
+leather~
+~
+armor EJT AF
+25 25 25 24 'none' 0
+68 69 205614 P
+A
+18 8
+A
+19 5
+A
+2 1
+G none
+G none
+G none
+G none
+#98963
+stone warp book necromancy~
+The {yBook {Wof {DNe{rcr{Wom{ran{Dcy{x~
+A thick bounded book is here, battered and charred.~
+unknown~
+~
+scroll CEJ AO
+70 'bone armor' 'protection good' 'reserved' 'reserved'
+77 2 4000 P
+A
+12 70
+G none
+G none
+G none
+G none
+#98964
+black velvet four poster four-poster bed comfy~
+A four-poster bed~
+A {Dblack velvet{x four-poster bed is here, looking comfy.~
+velvet~
+~
+furniture E 0
+B EIJKN EFHIKL CDFI CDFI B EIJKN
+0 100 1000 P
+G none
+G none
+G none
+G none
+#98965
+weapons crate heavy wooden~
+A weapons crate~
+A heavy wooden crate is here, ready to be loaded with weapons.~
+wood~
+~
+container F 0
+10000 AC 0 100 5 0
+0 500 20 P
+G none
+G none
+G none
+G none
+#98966
+carved wooden quarterstaff staff~
+A Carved Quarterstaff~
+A wooden quarterstaff is here, inlaid with intricate carvings~
+wood~
+~
+weapon MSTY AN
+staff 5 19 beating 0
+91 90 4420 P
+G none
+G none
+G none
+G none
+#98967
+smooth steel steel-headed spear~
+a {Csmooth {csteel {yspear{x~
+A steel-headed spear is here, crafted of very smooth metal.~
+steel~
+~
+weapon HTY AN
+spear 5 26 thrust F
+91 92 385091 P
+A
+18 7
+A
+19 5
+A
+2 2
+G none
+G none
+G none
+G none
+#98968
+spear-rack spear rack metal~
+A Spear-Rack~
+A metal rack for holding spears lies here.~
+metal~
+~
+container B 0
+10000 0 0 50 5 0
+0 100 20 P
+G none
+G none
+G none
+G none
+#98969
+heavy steel bardiche wooden long pole axe~
+a Heavy Steel Bardiche~
+A long wooden pole lies here, ending in a heavy steel axe-blade.~
+steel~
+~
+weapon HTY AN
+polearm 2 71 stab F
+91 92 7145 P
+G none
+G none
+G none
+G none
+#98970
+black-painted black painted mithril breasplate~
+A {DBlack-Painted{C Mithril {xBreastplate~
+A large mithril breasplate is here, painted dark black~
+mithril~
+~
+armor EJTY AD
+33 33 33 32 'none' 0
+91 92 456691 P
+A
+18 7
+A
+19 8
+A
+12 30
+G none
+G none
+G none
+G none
+#98971
+dark mithril chainmail suit~
+{DDark {CMithril {xChainmail~
+A dark suit of mithril chainmail lies here.~
+mithril~
+~
+clothing CEJTY AK
+AF AF AF F 0 AF AF
+91 92 104052 P
+A
+17 -18
+A
+18 9
+G none
+G none
+G none
+G none
+#98972
+dented mithril tower shield~
+A Dented{C Mithril{x Tower Shield~
+A mithril tower shield is here, its surface covered in dents.~
+mithril~
+~
+armor EJTY AJ
+33 33 33 32 'none' 0
+91 92 438161 P
+A
+18 5
+A
+5 3
+A
+19 9
+G none
+G none
+G none
+G none
+#98973
+darknights crest dark evil~
+A {DDarknights {xCrest~
+An evil crest lies here, radiating darkness.~
+mithril~
+~
+jewelry CEJTY AC
+0 0 0 0 0 0 0
+91 92 95 P
+A
+13 20
+A
+19 12
+A
+18 7
+G none
+G none
+G none
+G none
+#98974
+spiked mithril helm~
+A Spiked {CMithril {xHelm~
+A mithril helm lies here, covered in sharp spikes~
+mithril~
+~
+armor EJTY AE
+33 33 33 32 'none' 0
+91 92 145297 P
+A
+17 -18
+A
+19 9
+G none
+G none
+G none
+G none
+#98975
+low-brimmed low brimmed hat~
+A Low-Brimmed Hat~
+A low-brimmed hat rests lightly on the ground here.~
+leather~
+~
+armor KT AE
+27 27 27 26 'none' 0
+75 76 196972 P
+A
+19 2
+A
+18 2
+A
+17 -15
+A
+2 2
+A
+6 2
+G none
+G none
+G none
+G none
+#98976
+quiver hunter slim embroidered leather~
+The Quiver of the Hunter~
+A slim, embroidered leather quiver sits on the ground here.~
+leather~
+~
+container KTY AC
+40 AEF 0 100 80 0
+75 2 172356 P
+A
+19 7
+A
+18 6
+G none
+G none
+G none
+G none
+#98977
+dyed leather camouflaged cape~
+A {gD{z{yy{z{De{z{cd{z Leather Cape~
+A flowing leather cape is spread over the ground, hard to see in its camoflaged colors.~
+leather~
+~
+armor KT AC
+38 38 38 37 'none' 0
+106 107 284409 P
+A
+18 8
+A
+12 50
+A
+6 2
+A
+19 8
+G none
+G none
+G none
+G none
+#98978
+padded leather vest~
+A Padded Leather Vest~
+A padded leather vest is here.~
+leather~
+~
+armor KST AD
+22 22 22 21 'none' 0
+60 61 305452 P
+A
+2 3
+A
+19 4
+A
+18 5
+G none
+G none
+G none
+G none
+#98979
+engraved wooden scabbard~
+An {WEngraved {xWooden Scabbard~
+An engraved wooden scabbard is here~
+wood~
+~
+container KS AL
+300 AE 0 50 95 0
+60 15 22284 P
+A
+1 1
+A
+12 30
+A
+5 2
+A
+18 5
+G none
+G none
+G none
+G none
+#98980
+light suit iron chainmail mail~
+Light Iron Chainmail~
+A suit of light iron chainmail is here.~
+iron~
+~
+clothing KY AK
+BCE BCE BCE ACE 0 BCE BCE
+60 61 62665 P
+A
+19 5
+A
+18 4
+G none
+G none
+G none
+G none
+#98981
+bracelet hunter glowing animal teeth~
+The Bracelet of the {cHunter{x~
+A glowing bracelet of connected animal teeth lies here.~
+unknown~
+Skin~
+armor AHKMSTY AM
+33 33 33 32 'none' 0
+91 92 202842 P
+A
+19 6
+A
+18 6
+A
+12 40
+A
+17 -15
+G none
+G none
+G none
+G none
+#98982
+cushioned comfortable brown gloves~
+Cushioned {yBrown {xGloves~
+Some very comfortable-looking brown gloves are here.~
+leather~
+~
+armor STY AH
+27 27 27 26 'none' 0
+75 76 173668 P
+A
+19 7
+A
+18 7
+A
+2 -2
+G none
+G none
+G none
+G none
+#98983
+dyed leather sleeves camouflaged~
+{gD{yy{De{cd{x Leather Sleeves~
+Some camouflaged sleeves are here.~
+leather~
+~
+armor FKMTY AI
+38 38 38 37 'none' 0
+106 107 506291 P
+A
+12 50
+A
+19 9
+A
+18 9
+A
+2 2
+G none
+G none
+G none
+G none
+#98984
+dyed leather breeches camouflaged~
+{gD{yy{De{cd {xLeather Breeches~
+Some camouflaged breeches are strewn on the ground here.~
+leather~
+~
+armor KSTY AF
+38 38 38 37 'none' 0
+106 107 573130 P
+A
+19 10
+A
+18 7
+A
+14 100
+G none
+G none
+G none
+G none
+#98985
+spacious leather boots comfy compartment~
+Spacious Leather Boots~
+Some comfy boots are here, with a nice little compartment for a knife.~
+leather~
+~
+container KTY AG
+500 0 0 5 80 0
+75 3 147872 P
+A
+2 1
+A
+5 2
+A
+17 -15
+A
+18 3
+A
+19 3
+A
+12 20
+G none
+G none
+G none
+G none
+#98986
+rat's jaw rat rats circular small~
+A {DRat's {WJaw{x~
+A small, circular rat's jaw is here.~
+unknown~
+~
+jewelry CFKSU AB
+AF AF AF F 0 AF AF
+91 5 95 P
+A
+17 -15
+A
+12 60
+A
+19 8
+A
+18 7
+G none
+G none
+G none
+G none
+#98987
+charred torch~
+A {rCharred {xTorch~
+A charred and blackened torch is here, giving off smoke.~
+unknown~
+Charred Wood~
+light AHKS A
+900
+91 25 11008 P
+A
+18 6
+A
+1 2
+A
+19 8
+A
+12 50
+G none
+G none
+G none
+G none
+#98988
+plain golden ring band~
+A Plain {YGol{Gd{Yen {xRing~
+A plain band of gold is here collecting dust.~
+gold~
+~
+jewelry ABFKTY AB
+BCE BCE BCE ACE 0 BCE BCE
+60 61 10000 P
+A
+1 1
+A
+4 1
+A
+19 5
+G none
+G none
+G none
+G none
+#98989
+phoenix-engraved phoenix engraved iron buckler shield~
+A {RPhoenix-Engraved {WIron {xBuckler~
+An iron buckler lies here, an engraving of a phoenix glowing brightly on it.~
+iron~
+~
+armor CKTY AJ
+27 27 27 26 'none' 0
+75 76 224133 P
+A
+1 3
+A
+19 7
+E
+iron~
+Looking at this exquisitely carved buckler, you are awed by the intricate
+engraving of a phoenix spreading its wings to shadow the moon.  Looking
+again, the phoenix glows with a brilliant light.  
+~
+E
+engraved~
+Looking at this exquisitely carved buckler, you are awed by the intricate
+engraving of a phoenix spreading its wings to shadow the moon.  Looking
+again, the phoenix glows with a brilliant light.  
+~
+E
+phoenix~
+Looking at this exquisitely carved buckler, you are awed by the intricate
+engraving of a phoenix spreading its wings to shadow the moon.  Looking
+again, the phoenix glows with a brilliant light.  
+~
+E
+phoenix-engraved~
+Looking at this exquisitely carved buckler, you are awed by the intricate
+engraving of a phoenix spreading its wings to shadow the moon.  Looking
+again, the phoenix glows with a brilliant light.  
+~
+E
+shield~
+Looking at this exquisitely carved buckler, you are awed by the intricate
+engraving of a phoenix spreading its wings to shadow the moon.  Looking
+again, the phoenix glows with a brilliant light.  
+~
+E
+buckler~
+Looking at this exquisitely carved buckler, you are awed by the intricate
+engraving of a phoenix spreading its wings to shadow the moon.  Looking
+again, the phoenix glows with a brilliant light.  
+~
+G none
+G none
+G none
+G none
+#98990
+goose-feathered goose feathered arrow shaft~
+A {WGoose{x-Feathered Shaft~
+A goose-feathered arrow shaft is here.~
+feathers~
+~
+weapon HKY AO
+arrow 6 14 pierce 0
+75 76 18342 P
+A
+18 5
+G none
+G none
+G none
+G none
+#98991
+weighted fishing rod wooden shaft wire hook heavy~
+A Weighted Fishing Rod~
+A long wooden shaft is here, with a length of translucent wire ending in a heavy metal hook.~
+wood~
+~
+weapon KSY AN
+flail 4 15 pierce 0
+60 61 54352 P
+A
+18 3
+A
+12 50
+G none
+G none
+G none
+G none
+#98992
+enchanted crimson claymore~
+an enchanted {rcrimson{x claymore~
+A claymore lies here, surrounded by a {rcrimson{W glow{x.~
+unknown~
+Magic~
+weapon AGKSTY AN
+bastardsword 4 34 slice AF
+91 92 432364 P
+A
+19 6
+G none
+G none
+G none
+G none
+#98993
+notched sword breaker sword-breaker shortsword blade~
+A Notched Sword-Breaker~
+A short sword is here, its blade is covered in notches meant to break swords.~
+steel~
+~
+weapon K AN
+shortsword 5 14 slash D
+75 76 80019 P
+A
+18 5
+A
+17 -15
+A
+19 5
+G none
+G none
+G none
+G none
+#98994
+blessed knife carved dagger~
+The {CBlessed {WKnife{x~
+A beautifully carved knife lies here, glowing with a blue aura.~
+mithril~
+~
+weapon AIK AN
+dagger 5 9 pierce I
+60 61 35353 P
+A
+19 4
+A
+18 5
+G none
+G none
+G none
+G none
+#98995
+crescente moon holiness holy rare sword~
+{WThe {CC{wr{Ce{ws{Cc{we{Cn{wt{Ce {WSword{x~
+A gleaming sword of holiness lies here, curved in the shape of a crescent moon.~
+mithril~
+~
+weapon AGIKLTYh AN
+longsword 1 106 slash DI
+75 100 723281 P
+A
+19 7
+A
+18 7
+G none
+G none
+G none
+G none
+#98996
+silvery lustrous arrow~
+A {WSilvery {xArrow~
+A lustrous arrow lies here, glowing silver.~
+silver~
+~
+weapon AKTY AO
+arrow 6 14 pierce I
+75 5 28619 P
+A
+19 6
+A
+18 4
+G none
+G none
+G none
+G none
+#98997
+firey shard shardone~
+A {rF{Ri{Yr{Re{ry {xShard~
+A shard of pure fire is here, burning brightly.~
+fire~
+~
+jewelry ABGT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#98998
+dark steel shard shardtwo~
+A {DDark S{Wt{we{We{Dl {xShard~
+A shard of dark steel is here.~
+steel~
+~
+jewelry CT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#98999
+bright mithril shard shardthree~
+A {CBright {cM{Wi{Ct{wh{Cr{Wi{cl{x Shard~
+A bright shard of mithril is here.~
+mithril~
+~
+jewelry ABGT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#99000
+shard ice shardfour~
+A Shard of {CI{wc{Ce{x~
+A shard of ice is here.~
+ice~
+~
+jewelry ATU AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#99001
+shard sharp titanium sliver shardfive~
+A Shard of {yS{Wharp {DT{Witanium{x~
+A sliver of titanium is here, looking very sharp.~
+titanium~
+~
+jewelry BT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#99002
+shard magic energy shardsix~
+A Shard of {mM{Ma{yg{Mi{mc{x~
+A glowing shard is here, pulsating with energy.~
+unknown~
+Magic~
+jewelry ABFT AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#99003
+shard shadow shardseven~
+A Shard of {DShadow{x~
+A black shard pulls all of the light out of the room.~
+unknown~
+Shadow~
+jewelry CT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#99004
+shard light shardeight~
+A Shard of {CBr{wi{Cght{Y Light{x~
+An extremely bright shard lies here, made up of light.~
+light~
+~
+jewelry AT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#99005
+shard soul shardnine~
+A Shard of {cS{mo{gu{cl{x~
+A piece of ones soul is here, moaning in agony.~
+unknown~
+Soul~
+jewelry BFT AO
+0 0 0 0 0 0 0
+0 2 3 P
+G none
+G none
+G none
+G none
+#99006
+red centaur banner~
+A {RRed {xCentaur Banner~
+A banner of centaurs is here, painted red.~
+unknown~
+cloth~
+light AKLTY A
+385
+91 5 13732 P
+A
+18 8
+A
+5 3
+A
+19 8
+G none
+G none
+G none
+G none
+#99007
+sharp gilded shortsword~
+A Sharp {YGi{yl{Yded {xShortsword~
+A beautifully carved shortsword is here, its edges golden.~
+gold~
+~
+weapon AKTY AN
+shortsword 6 14 slice DI
+91 92 123539 P
+A
+19 9
+G none
+G none
+G none
+G none
+#99008
+breastplate centaur legend~
+A {WBreastplate{x of {yCentaur {CLegend{x~
+A legendary centaur breastplate is here, gleaming brilliantly.~
+mithril~
+~
+armor AHKLTY AD
+33 33 33 32 'none' 0
+91 92 496669 P
+A
+17 -18
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#99009
+helm centaur legend~
+A {WHelm {xof {yCentaur {CLegend{x~
+A beautiful helm of centaur legend is here.~
+mithril~
+~
+armor BHKLTY AE
+33 33 33 32 'none' 0
+91 92 355781 P
+A
+17 -18
+A
+13 40
+A
+18 9
+A
+19 7
+G none
+G none
+G none
+G none
+#99011
+tent poorly camouflaged yellow~
+A Poorly-Camouflaged Tent~
+A bright yellow tent is here, poorly camouflaged.~
+unknown~
+tent~
+portal 0 0
+0 0 A 99065 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#99012
+tent poorly camouflaged yellow~
+A Poorly-Camouflaged Tent~
+A bright yellow tent is here, poorly camouflaged.~
+unknown~
+tent~
+portal 0 0
+0 0 A 99056 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#99013
+bonespile~
+A scattered pile of bones~
+A pile of {DB{Wo{Dn{We{Ds {xis scattered about here.~
+unknown~
+~
+trash CEF 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#99014
+~
+An {DUnholy {WAltar{x~
+A large {Dblack altar {xis here, glowing in an {ru{Dn{Who{Dl{ry {Wlight{x~
+unknown~
+~
+container ACE 0
+100 ACD 0 5 5 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#99015
+huge stone table~
+A huge stone table.~
+A huge stone table is here, covered with all sorts of things.~
+stone~
+~
+container EI 0
+20000 AC 0 200 50 0
+0 200 20 P
+G none
+G none
+G none
+G none
+#99016
+thin vial red bubbling liquid~
+A thin vial full of {Rred bubbling {xliquid~
+A thin vial full of {Rred bubbling {xliquid lies on the table here.~
+unknown~
+~
+potion BEJ AO
+77 'haste' 'heal' 'reserved' 'reserved'
+77 5 1000 P
+G none
+G none
+G none
+G none
+#99017
+large flask blue liquid deep~
+A large flask filled with a {Bdeep blue {xliquid~
+A large flask filled with a {Bdeep blue {xliquid is here on the table.~
+unknown~
+~
+potion AEJ AO
+77 'stone skin' 'frenzy' 'reserved' 'reserved'
+77 6 1500 P
+G none
+G none
+G none
+G none
+#99018
+steel~
+A pile of steel scraps~
+A pile of steel scraps lies here on the table.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#99019
+huge pile gold glittering coin~
+A huge pile of gold coins~
+A huge pile of {Wglittering {Ygold coins {xlies here.~
+gold~
+~
+money A A
+250 0
+0 5 250000 P
+G none
+G none
+G none
+G none
+#99020
+jewel-encrusted dagger shiny encrusted~
+A {RJ{Me{Cw{Ge{Bl{W-Encrusted Dagger{x~
+A shiny dagger is here, encrusted with many jewels.~
+unknown~
+~
+weapon AIJK AN
+dagger 5 11 pierce DG
+70 71 49638 P
+A
+19 5
+G none
+G none
+G none
+G none
+#99021
+breastplate golden hawk~
+{DThe {WBreastplate {Dof the {yGo{Ylden {cHawk{x~
+A beautifully polished black breastplate is here, emblazoned with a golden hawk.~
+gold~
+~
+armor JK AD
+38 38 38 37 'none' 0
+106 107 840645 P
+A
+13 40
+A
+19 10
+A
+18 10
+A
+17 -20
+G none
+G none
+G none
+G none
+#99022
+bracer white tiger~
+{DThe {WBracer {Dof the {wWhite Tiger{x~
+A beautifully crafted black bracer is here, emblazoned with a white tiger.~
+titanium~
+~
+armor EJKTY AM
+38 38 38 37 'none' 0
+106 107 246829 P
+A
+18 10
+A
+17 -15
+A
+19 10
+G none
+G none
+G none
+G none
+#99023
+legplates brown bear~
+{DThe {WLegplates {Dof the {yBrown Bear{x~
+Some beautifully crafted black legplates are here, emblazoned with a brown bear.~
+unknown~
+~
+armor JKT AF
+38 38 38 37 'none' 0
+106 107 585283 P
+A
+13 50
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#99024
+helm green dragon~
+{DThe {WHelm {Dof the {gGreen Dragon{x~
+A beautifully crafted helm is here, emblazoned with a green dragon.~
+titanium~
+~
+armor JKT AE
+38 38 38 37 'none' 0
+106 107 278368 P
+A
+20 -5
+A
+19 10
+G none
+G none
+G none
+G none
+#99025
+mace unholy spirits~
+{DThe {WMace {Dof {rUnholy {cSpirits{x~
+A deadly spiked mace is here, covered in dried blood.~
+titanium~
+~
+weapon EJTY AN
+mace 6 18 divine C
+106 107 247469 P
+A
+19 7
+A
+18 8
+A
+12 70
+G none
+G none
+G none
+G none
+#99026
+garden hose~
+A hose~
+A small garden hose is lying here peacefully.~
+unknown~
+~
+key C A
+0 0 0 0 0 0 0
+0 2 4 P
+G none
+G none
+G none
+G none
+#99027
+bloody spiked bow black~
+A {rBloody {xSpiked Bow~
+A one-handed black bow is here, covered in blood and spikes.~
+titanium~
+~
+weapon CEJ AN
+bow 3 25 slash DF
+60 61 90992 P
+A
+19 5
+A
+18 4
+G none
+G none
+G none
+G none
+#99028
+bow power~
+The Bow of Power~
+A huge, powerful bow is here.~
+unknown~
+unique~
+weapon A AN
+bow 3 32 divine FG
+77 78 198360 P
+A
+1 4
+A
+19 3
+G none
+G none
+G none
+G none
+#99029
+a small bone key~
+A Small {WBone {xKey~
+A Small {WBone {xKey~
+bone~
+~
+key CEf A
+0 0 0 0 0 0 0
+0 2 300 P
+G none
+G none
+G none
+G none
+#99030
+sword rare perfection~
+The {WSword {xof {DP{We{cr{Bf{Cec{Bt{ci{Wo{Dn{x~
+Before you is the most beautiful sword in the world, with an extremely shiny blade of pure crystal, or maybe glass.~
+unknown~
+Fire, Ice, Steel, Mithril, Titanium, Magic, Shadow, Light, Soul~
+weapon ACTYa AN
+longsword 6 26 slice D
+106 107 1505997 P
+A
+18 10
+A
+19 10
+E
+perfection rare sword~
+A beautifully carved sword, its gilded mithril hilt holds a wavering
+blade that seems to be made of pure crystal, or some form of glass. 
+However, the blade is rumored to be forged of nine materials:
+{rF{Ri{Yr{re{x, {DS{Wt{we{We{Dl{x, {cM{Wi{Ct{wh{CrPWi{cl{x, {CI{wc{Ce{x,
+{DT{Witanium{x, {mM{Ma{yg{Mi{mc{x, {DShadow{x, and {cS{mo{gu{cl{x.  
+~
+G none
+G none
+G none
+G none
+#99031
+bloody icicle weapon assassin~
+a {rbloody {Wi{cc{Ci{Wc{cl{Ce{x ~
+The perfect assassin's weapon rolls around on the floor.~
+ice~
+~
+weapon CMU AN
+dagger 8 12 pierce BD
+106 107 145994 B
+G none
+G none
+G none
+G none
+#99099
+letter {ws{x~
+a letter~
+A piece of paper bearing a message rests on the ground here.~
+unknown~
+~
+map 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+E
+letter~
+m...n.. .s ...n. ..p. .. c...l. ..r...g... .o. ..v. .. g...
+ a...y.. .h. ..s...r. ..f... h...l ...e ... m...n... Give
+ these coded messages to him, and speak the password.
+~
+G none
+G none
+G none
+G none
+#99100
+orb orb3 white ice~
+the {Wice{x orb~
+An orb projecting a {Wwhite{x glow rests here.~
+unknown~
+~
+weapon AGa AN
+exotic 4 25 blast B
+96 0 267717 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#98901
+The Dew-covered Forest Trail~
+You are standing on a small dew-covered trail in the forest which leads
+further into darkness.  Fog clouds around your head, and the leafy boughs
+are bent towards into the ground from the weight of the dew.  
+ 
+There is a large map pinned to a tree here, as well as a
+(Glowing)(Humming) Table
+~
+0 0 inside
+E
+table~
+This area is proudly brought to you by Karth, his first area!  It is for
+level 50 at the minimum, so either travel in groups or stay on guard, but
+most importantly, have fun!  
+(C) Karth, May 2004
+~
+E
+map~
+{r====={D  DARK{RNIGHT {MCASTLE  {r====={x
+               
+        | n to training area    + -> Up to top tower
+    0 - 0 - 0 * 0 - 0 - 0 ----- 0 
+    |   |   |
+    0 - 0 - 0
+        |
+        0 --------- 0
+        |           +   + -> Up to Mage Hall
+    0 * 0 * 0   0 - 0 - 0
+        |           |
+    0 - 0 - 0       0   
+        |           |
+        0           0 - 0 - 0                  
+                    |       +
+                    0       0 - 0 - -> east to dungeons
+                    |                                  
+      {Y0{x - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 * -> east to ruins
+      ^dungeon      |                              
+       comes up     0 + 0 + -> Up to battlements   
+       here.        |                              
+                    0                                
+                    |                                
+                    0                                
+                    |
+                    0 - 0      <- start of area.
+ 
+    Battlements:
+    0 - 0 - 0 - 0 - 0 
+    |               |
+    0               0
+    |               |
+    0               0
+    |               |
+    0               0
+    |               |
+    0 - 0 - {Y0{x - 0 - 0 
+ 
+    Mage Hall:
+ 
+    {Y0{x - 0 
+        |
+    0 - 0 - 0 
+        |
+    0 - 0 - 0 
+        |
+    0 - 0 - 0 
+        |
+    0 - 0 - 0 
+        |
+    0 - 0 - 0 
+        *
+        0
+    
+    Top Tower:
+       
+    0 - 0 - 0               0  
+        *                   ^  
+        0                   0              
+        |                   ^              
+    0 - 0 - 0               0              
+    |       |               ^              
+    0 - 0 - 0               0              
+        |                   ^              
+        0 * 0 - 0 - 0 - 0 - 0              
+        |                                  
+        {Y0{x down to main area            
+                                           
+    Treasure Hold:                         
+                                           
+            {Y0{x                          
+            |                              
+        0 - 0 - 0                          
+            *                       
+    0 - 0 * 0 * 0 - 0                  
+            *
+            0   
+            |
+    0 - 0 - 0 - 0 - 0
+    
+    Ruins:     
+                                       
+    {Y0{x - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0       0
+                |               |   |       |   |           +
+                0               0 - 0 - 0 - 0   0 - 0   0 - 0
+                |               |       |           |   |    
+                0 - 0           0 - 0   0 - 0 - 0   0 - 0    
+                |   |               |       |           |    
+            0 - 0 - 0               0 - 0 - 0           0 * 0
+            |       |                                       *
+            0 - 0 - 0                                       0
+    
+    
+    Training area:
+    
+        0       0
+        |       | 
+    0 - 0 - 0 - 0 - 0
+    |   |   |   |   |
+    0 - 0 - 0 - 0 - 0
+        |   |   |
+        0 - 0 - 0
+            |
+            {Y0{x
+    
+    
+    Dungeons:
+         0   0       0   0   0   0   0         
+         v   *       *   *   *   *   *         
+         0 - 0 - 0 - 0 - 0 - 0 - 0 - 0         
+             *       *   *   *   *   *         
+             0       0   0   0   0   0
+                             v                 
+                     {Y0{x       0
+                     ^       |
+                     0 < 0 < 0
+ 
+    Key:                                  
+    - = west/east exit                         
+    | = north/south exit                       
+    ----- = west/east exit (extended for formatting purposes) 
+    < = west only exit                           
+    > = east only exit                           
+    * = closed/locked door                       
+    + = up/down exit                             
+    ^ = up only exit                             
+    v = down only exit                           
+    {Y0{x = adjacent rooms from separate sections.
+~
+D1
+~
+~
+Z 0 1100
+0 0
+D2
+~
+~
+Z 0 10920
+0 0
+D3
+~
+~
+Z 0 98902
+0 0
+S
+#98902
+A Bend in the Dew-covered Forest Trail~
+The underbrush has become thicker here where the trail turns northward. 
+As you hack through the bushes you can see light not too far off in the
+distance.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98903
+0 0
+D1
+~
+~
+Z 0 98901
+0 0
+S
+#98903
+The End of the Dew-covered Trail~
+As you continue to walk the trail slowly disappears into the thick grass,
+and the ground becomes springier.  The trees here are sparser, and you can
+see far to the north a grand valley.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98904
+0 0
+D2
+~
+~
+Z 0 98902
+0 0
+S
+#98904
+Before the Gates of the Castle~
+The forest has cleared, giving way to a large valley which is filled up
+by an enormous dark castle.  As you stand before its majestic gates, you
+feel chilled by its dark presence.  It seems to cast unnatural shadows all
+through out the valley, and is overall quite disturbing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98906
+0 0
+D2
+~
+~
+Z 0 98903
+0 0
+S
+#98905
+The hidden room of {Dshadows{x~
+You are floating in what seems to be pure nothingness.  Looking around
+frantically, all you can see is inpenetratable darkness, through which your
+eyes can see nothing.  Just as you begin to panic, the vision fades away and
+a comfy black chair appears.  How odd....  
+~
+0 NX inside
+S
+#98906
+Inside the Castle Gates~
+You have passed through the gates to the castle, and are now just on the
+inside of them.  Looking around you see huge walls of stone that are covered
+in dark scorch marks and in numerous places large chunks have been sliced
+clean out of the wall, and the ceiling must be at least one hundred feet
+above your head.  There are many small holes in the wall, holes that look
+about the perfect size for an arrow to go through.  You may continue north
+into the courtyard or follow the spiral staircase upwards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98908
+0 0
+D2
+~
+~
+Z 0 98904
+0 0
+D4
+~
+~
+Z 0 98907
+0 0
+S
+#98907
+A Landing in the Spiral Staircase~
+You have arrived at a landing in the large staircase, it seems to be
+about halfway up to the top.  On the walls you see many inscriptions, some
+protraying evil gods and godesses, and others showing grand battles.  From
+here you can go back down to the castle gates, or you can continue upwards
+towards the battlements.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 98909
+0 0
+D5
+~
+~
+Z 0 98906
+0 0
+S
+#98908
+The Inner courtyard~
+Having journied past the gates, you arrive at the inner courtyard of this
+mysterious castle.  It is very quiet, and the carefully watered plants make
+no noise as the wind rustles them.  This whole place seems devoid of life,
+as if everything knows better than to come near this dread place.  The
+courtyard continues to the east and west, and to the north looms a huge
+entrance hall.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98925
+0 0
+D1
+~
+~
+Z 0 98969
+0 0
+D2
+~
+~
+Z 0 98906
+0 0
+D3
+~
+~
+Z 0 98970
+0 0
+S
+#98909
+On the battlements~
+You have arrived on the battlements of the castle, and you can see across
+the courtyard the main section of the castle, towering so high that its
+spires scrape the heavens.  Looking along the stone pathway, you see dark
+figures in the distance standing guard on the battlements.  So maybe this
+castle is inhabited after all...  
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98911
+0 0
+D3
+~
+~
+Z 0 98910
+0 0
+D5
+~
+~
+Z 0 98907
+0 0
+S
+#98910
+Along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{w that has long ago dried out.  To the west the battlements
+round a corner, and you see the sun glint off of steel.  
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98909
+0 0
+D3
+~
+~
+Z 0 98912
+0 0
+S
+#98911
+along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out.  
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98924
+0 0
+D3
+~
+~
+Z 0 98909
+0 0
+S
+#98912
+The South-western corner of the battlements~
+You have reached the south-western corner of the battlements, and the
+wall here is even more littered with holes and cracks and gore.  A helmet
+split open in the middle lies here, as does several fragments of a broken
+spear shaft.  To the north and east the battlements continue.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98913
+0 0
+D1
+~
+~
+Z 0 98910
+0 0
+S
+#98913
+Along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{w that has long ago dried out.  You can go south to the
+south-western corner, or continue on to the north.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98914
+0 0
+D2
+~
+~
+Z 0 98912
+0 0
+S
+#98914
+On the battlements~
+You have reached the center of the western battlements. The stones here are not scratched at all for some reason, yet broken weapons and destroyed armor is strewn all over the walkway. Several arrows with broken shafts lie here, and a grappling hook is still ensnared on a crack in the stone.
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98915
+0 0
+D2
+~
+~
+Z 0 98913
+0 0
+S
+#98915
+Along the Battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles blood that has long ago dried out.  You can go south to the center
+of the western battlements, or continue to the north-western corner.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98916
+0 0
+D2
+~
+~
+Z 0 98914
+0 0
+S
+#98916
+The north-western corner of the battlements.~
+You have reached the north-western corner of the battlements, and the
+wall here is even more littered with holes and cracks and gore.  A helmet
+split open in the middle lies here, as does several fragments of a broken
+spear shaft.  To the south and east the battlements continue.
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98917
+0 0
+D2
+~
+~
+Z 0 98915
+0 0
+S
+#98917
+Along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out.  You can go east to the center
+of the northern battlements, or continue to the north-western corner.
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98918
+0 0
+D3
+~
+~
+Z 0 98916
+0 0
+S
+#98918
+The northern center of the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out.
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98919
+0 0
+D3
+~
+~
+Z 0 98917
+0 0
+S
+#98919
+Along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out. You can go west to the center
+of the northern battlements, or continue to the north-eastern corner.
+~
+0 0 mountain
+D1
+~
+~
+Z 0 98920
+0 0
+D3
+~
+~
+Z 0 98918
+0 0
+S
+#98920
+The north-eastern corner of the battlements~
+You have reached the north-eastern corner of the battlements, and the
+wall here is even more littered with holes and cracks and gore.  A helmet
+split open in the middle lies here, as does several fragments of a broken
+spear shaft.  To the south and west the battlements continue.
+~
+0 0 mountain
+D2
+~
+~
+Z 0 98921
+0 0
+D3
+~
+~
+Z 0 98919
+0 0
+S
+#98921
+Along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98920
+0 0
+D2
+~
+~
+Z 0 98922
+0 0
+S
+#98922
+The eastern center of the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98921
+0 0
+D2
+~
+~
+Z 0 98923
+0 0
+S
+#98923
+Along the battlements~
+The battlements continue here, and there seem to be tally marks etched in
+the stone, as if someone on guard was playing a game up here.  However,
+there are other marks in the stone as well, holes pierced into the thick
+wall, cracks that were sliced open, and even an old rusty sword stuck into
+the ground.  However, most disturbing is the dark red stain on the floor, it
+resembles {Rblood{x that has long ago dried out.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98922
+0 0
+D2
+~
+~
+Z 0 98924
+0 0
+S
+#98924
+The south-eastern corner of the battlements~
+You have reached the south-eastern corner of the battlements, and the
+wall here is even more littered with holes and cracks and gore.  A helmet
+split open in the middle lies here, as does several fragments of a broken
+spear shaft. To the north and west the battlements continue.
+~
+0 0 mountain
+D0
+~
+~
+Z 0 98923
+0 0
+D3
+~
+~
+Z 0 98911
+0 0
+S
+#98925
+The Foyer of the Castle~
+You have entered the magnificent foyer of the castle, a large
+dome-ceilinged room made out of thick stone.  Torches burn brightly in their
+wall sconces, spreading a yellow light across the room and a smell of burnt
+oil.  As the light flickers over the floor, you see an extravagant black rug
+that covers the whole floor.  Maybe you should look at the rug a little
+closer.  To the north the foyer opens up into an even larger room, the great
+hall, and to the south you can return to the inner courtyard.  
+~
+0 0 inside
+E
+rug~
+Taking a closer look at this huge black rug, you see pictures of evil
+deeds and deities.  The rug depicts scenes of grand battles, with mounted
+knights clad in shining black armor slicing a path through a small unit of
+foot soldiers bearing the insignia of good, and also pictures of an evil
+queen sitting atop a throne of living, coiling snakes.  
+~
+D0
+~
+~
+Z 0 98926
+0 0
+D2
+~
+~
+Z 0 98908
+0 0
+S
+#98926
+The Great Hall~
+You have made it to the great hall, which is quite possibly the largest
+room in the whole castle.  Fifty feet wide, and one hundred feet long, this
+large hall could hold a whole calvalry unit and their horses!  Instead, it
+seems to be where the few guests of the darknight castle wait, because their
+are numerous tapestries and beautiful weapons encased in glass frames.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98927
+0 0
+D2
+~
+~
+Z 0 98925
+0 0
+S
+#98927
+The Great Hall~
+You have made it to the great hall, which is quite possibly the largest
+room in the whole castle.  Fifty feet wide, and one hundred feet long, this
+large hall could hold a whole calvalry unit and their horses!  Instead, it
+seems to be where the few guests of the darknight castle wait, because their
+are numerous tapestries and beautiful weapons encased in glass frames.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98928
+0 0
+D1
+~
+~
+Z 0 98987
+0 0
+D2
+~
+~
+Z 0 98926
+0 0
+S
+#98928
+The Great Hall~
+You have made it to the great hall, which is quite possibly the largest
+room in the whole castle.  Fifty feet wide, and one hundred feet long, this
+large hall could hold a whole calvalry unit and their horses!  Instead, it
+seems to be where the few guests of the darknight castle wait, because their
+are numerous tapestries and beautiful weapons encased in glass frames.  To
+the east and west are the bottoms of spiral staircases.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98930
+0 0
+D2
+~
+~
+Z 0 98927
+0 0
+D3
+~
+~
+Z 0 98929
+0 0
+S
+#98929
+The Bottom of the Spiral Staircase~
+Leaving the great hall, you arrive at the bottom of a short staircase
+that spirals upwards.  The staircase is made entirely of stone blocks, each
+one as large as your torso, and the surface of the stones are worn smooth by
+boots and cleared of dust.  The torches are sparser here, making the room
+somewhat chilly and dark.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98928
+0 0
+D4
+~
+~
+Z 0 98932
+0 0
+S
+#98930
+The Bottom of the spiral staircase~
+Leaving the great hall, you arrive at the bottom of a short stair that
+spirals upwards.  The stair is made entirely of stone blocks, each one as
+large as your torso, and the surface of the stones are worn smooth by boots
+and cleared of dust.  The torches are sparser here, making the room somewhat
+chilly and dark.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98928
+0 0
+D4
+~
+~
+Z 0 98931
+0 0
+S
+#98931
+A Landing in the Spiral Staircase~
+The stairs come to a large sqare landing here, with an open archway
+leading to the east.  It is very quiet here, the only sound being the
+occasional gust of wind blowing through cracks in the stones, or the
+occasional page hustling through with an urgent message clasped tightly in
+one hand.  Looking further up you can see the stairs continue, possibly all
+the way until the very top of the tower.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98952
+0 0
+D5
+~
+~
+Z 0 98930
+0 0
+S
+#98932
+A landing in the spiral staircase~
+The stair comes to a large sqare landing here, with an open archway
+leading to the west. It is very quiet here, the only sound being the
+occasional gust of wind blowing throw cracks in the stones, or the
+occasional page hustling through with an urgent message clasped tightly in
+one hand.  Looking further up you can see the stair continues, possibly all
+the way until the very top of the tower.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98933
+0 0
+D5
+~
+~
+Z 0 98929
+0 0
+S
+#98933
+An intersection of hallways~
+You have arrived at a busy intersection between two sections of this
+hall.  This place is constantly busy, being the only (obvious) way to get
+from the hallway back down to the main floor of the castle.  There are much
+more torches here, although they are not the main source of light.  The main
+source of light seems to come from the south, where occasional bursts of
+light flare into the hall, acompanied by the loud clang of hammer on red-hot
+steel.  You can enter the military hall to the south or north, or go back
+east to the landing.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98934
+0 0
+D1
+~
+~
+Z 0 98932
+0 0
+D2
+~
+~
+Z 0 98935
+0 0
+S
+#98934
+The Military hall~
+It is cooler here in the northern end of the hall, and there are no
+tapestries or paintings for visitors to look at.  This section of the
+hallway is reserved for the lower ranking darknights, as their barracks
+surround the room.  Torches are not the only things on the walls here,
+however.  Lying stacked in huge rows is a myriad assortment of weapons.  Any
+concievable type of weapon is here, be it spear, dagger or axe, and it seems
+to be explained by a SIGN planted in the floor.  
+~
+0 D inside
+E
+sign~
+********************
+*                  *
+*NO WEAPONS ALLOWED*
+*  IN THE BARRACKS *
+*                  *
+********************
+~
+D0
+~
+~
+Z 0 98943
+0 0
+D1
+~
+~
+Z 0 98945
+0 0
+D2
+~
+~
+Z 0 98933
+0 0
+D3
+~
+~
+Z 0 98944
+0 0
+S
+#98935
+The Military hall~
+As you walk along the stone hall here you see maps and trade negotiations
+pinned onto the wall as if it were a bulletin board.  Many continents on the
+maps have black flags drawn on them, and some others have large red X's
+stamped on them.  There are heavy wooden doors leading west and east, or you
+can continue south, or come back north the way you came.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98933
+0 0
+D1
+~
+door~
+ABZ 0 98938
+0 0
+D2
+~
+~
+Z 0 98936
+0 0
+D3
+~
+door~
+ABZ 0 98937
+0 0
+S
+#98936
+The Military hall~
+You have arrived at the end of the hallway here, and you notice the rug
+here is burned and blackened, and several tapestries on the walls have
+sections that have been severely charred.  Wondering why this has happened,
+you see a brilliantly bright forge to the west, where a giant is beating a
+piece of metal. To the east you hear gruff orders being yelled
+at someone.  Through the open doorway to the south, you can
+see a stout dwarf stacking armor on the wall.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98935
+0 0
+D1
+~
+~
+Z 0 98941
+0 0
+D2
+~
+~
+Z 0 98940
+0 0
+D3
+~
+~
+Z 0 98939
+0 0
+S
+#98937
+A Captain's quarters~
+Peering around this brightly lit room, you can tell that you are in an
+office of a higher ranking darknight.  The floor is very well cleaned, and
+not a speck of dust is visible on the polished oak desk, but then again the
+desk is not even visible beneath the myriad maps and pens scattered over it.
+Pinned to the wall are several shining medals, and a keen-edged knightsword
+gleams from its position on top of two rods wedged in the walls.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 98935
+0 0
+S
+#98938
+A Captain's quarters~
+Peering around this brightly lit room, you can tell that you are in an
+office of a higher ranking darknight.  The floor is very well cleaned, and
+not a speck of dust is visible on the polished oak desk, but then again the
+desk is not even visible beneath the myriad maps and pens scattered over it.
+Pinned to the wall are several shining medals, and a keen-edged knightsword
+gleams from its position on top of two rods wedged in the walls.  
+~
+0 D inside
+D3
+~
+~
+ABZ 0 98935
+0 0
+S
+#98939
+The {RFiery{W forge{x~
+Immediately upon entering this room you are bombarded with a wave of
+{Yintense{x {Rheat{x.  Once you readjust to the temperature of this room you
+notice several interesting things about it.  First off, the stones are
+blackened and almost melting, the first sign of any erosion of the stones
+you have seen since entering the castle.  Secondly, you see a huge forge in
+the center of the room, where a gargantuan fire giant is rapdidly turning
+thick sheets of steel into metal pancakes.  The huge fellow radiates so much
+heat that it seems he heats the forge himself!  You also notice that this
+room is completely devoid of paintings, since they probably were burned to
+ashes the second they were hung up on the wall.  Replacing the paintings are
+stack upon stack of cold, hard steel blades, glinting from the glow of the
+fire.  
+~
+0 D inside
+D1
+~
+~
+Z 0 98936
+0 0
+S
+#98940
+The darknight armory~
+You have entered a fairly large room, with a sign at the front
+designating it as an armory.  The room is set up neatly, with a front
+counter where the bartering is done, and then behind that are many stone
+shelves and cabinets that probably contain tools and metal used to make the
+armor.  The most outstanding hand-crafted armor is framed in glass display
+cases, the polished, glossy black steel reflects any and every light that
+shines on it.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98936
+0 0
+S
+#98941
+The Firing Range~
+You have entered the firing range, the castle's shop for archers. 
+Hanging on the stone walls are countless bows and quivers bristling with
+arrows, it seems there is an endless supply of them.  
+~
+0 D inside
+D3
+~
+~
+Z 0 98936
+0 0
+S
+#98942
+Pet Storeroom~
+~
+0 0 inside
+S
+#98943
+The barracks~
+You have entered the barracks of the castle, a small low-ceilinged room
+that surrounds the northern corner of the military hall.  You can see that
+the darknights here do not live in grandeur, nor do they live in poverty. 
+The walls here are upkept nicely, and show little wear although the stones
+must be ages old.  Pushed along the edge of the room to make space are
+several small cots, with unadorned wooden blankets.  On the walls adjacent
+to the cots, there have been large chunks taken cleanly out of the wall, and
+these serve as tables for the darknights' belongings.  Few torches line the
+walls here, and water drips from the ceiling.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 98972
+0 0
+D1
+~
+~
+Z 0 98947
+0 0
+D2
+~
+~
+Z 0 98934
+0 0
+D3
+~
+~
+Z 0 98946
+0 0
+S
+#98944
+The barracks~
+You have entered the barracks of the castle, a small low-ceilinged room
+that surrounds the northern corner of the military hall.  You can see that
+the darknights here do not live in grandeur, nor do they live in poverty. 
+The walls here are upkept nicely, and show little wear although the stones
+must be ages old.  Pushed along the edge of the room to make space are
+several small cots, with unadorned wooden blankets.  On the walls adjacent
+to the cots, there have been large chunks taken cleanly out of the wall, and
+these serve as tables for the darknights' belongings.  Few torches line the
+walls here, and water drips from the ceiling.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98946
+0 0
+D1
+~
+~
+Z 0 98934
+0 0
+S
+#98945
+The barracks~
+You have entered the barracks of the castle, a small low-ceilinged room
+that surrounds the northern corner of the military hall.  You can see that
+the darknights here do not live in grandeur, nor do they live in poverty. 
+The walls here are upkept nicely, and show little wear although the stones
+must be ages old.  Pushed along the edge of the room to make space are
+several small cots, with unadorned wooden blankets.  On the walls adjacent
+to the cots, there have been large chunks taken cleanly out of the wall, and
+these serve as tables for the darknights' belongings.  Few torches line the
+walls here, and water drips from the ceiling.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98947
+0 0
+D3
+~
+~
+Z 0 98934
+0 0
+S
+#98946
+The barracks~
+You have entered the barracks of the castle, a small low-ceilinged room
+that surrounds the northern corner of the military hall.  You can see that
+the darknights here do not live in grandeur, nor do they live in poverty. 
+The walls here are upkept nicely, and show little wear although the stones
+must be ages old.  Pushed along the edge of the room to make space are
+several small cots, with unadorned wooden blankets.  On the walls adjacent
+to the cots, there have been large chunks taken cleanly out of the wall, and
+these serve as tables for the darknights' belongings.  Pushed under one of
+the cots is a large pile of dirt, and you can see that one of the huge stone
+blocks seems to be sticking out a tad more than the rest.  
+~
+0 D inside
+E
+stone~
+You see a loose stone here, maybe you can pry it away from the rest of
+the wall?  
+~
+D1
+~
+~
+Z 0 98943
+0 0
+D2
+~
+~
+Z 0 98944
+0 0
+S
+#98947
+The barracks~
+You have entered the barracks of the castle, a small low-ceilinged room
+that surrounds the northern corner of the military hall.  You can see that
+the darknights here do not live in grandeur, nor do they live in poverty. 
+The walls here are upkept nicely, and show little wear although the stones
+must be ages old.  Pushed along the edge of the room to make space are
+several small cots, with unadorned wooden blankets.  On the walls adjacent
+to the cots, there have been large chunks taken cleanly out of the wall, and
+these serve as tables for the darknights' belongings.  From the low
+torchlight you can see an oak bookcase pushed against the eastern wall, and
+it seems one of the books has fallen to the floor.  
+~
+0 D inside
+D2
+~
+~
+Z 0 98945
+0 0
+D3
+~
+~
+Z 0 98943
+0 0
+S
+#98948
+The secret passageway~
+You have entered a dark stone hall, it is very cold.  There are a few
+torches hanging in wall sconces, but their heat and light is muffled by the
+dark cold air within the passage.  Down at the far end of the tunnel, you
+can see a dull light illuminating the dust in the air.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 98949
+0 0
+S
+#98949
+A Dark Stone Tunnel~
+Following this dimly lit stone tunnel, you notice the air is becoming
+increasingly colder as you continue.  The ground is sloping slightly upward,
+and you can see a black metal banister down at the end of the tunnel. 
+Glancing at your surroundings, there is only one torch propped up in the
+wall here, and the feeble light it gives barely penetrates the thick lair of
+dust that swirls about in the air.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 98950
+0 0
+D3
+~
+~
+ABZ 0 98948
+0 0
+S
+#98950
+The End of the Tunnel~
+The tunnel ends here in a thick wooden door at the east, where light
+seeps through the crack between the door and the floor.  The stone floor is
+damp from the constant dripping of water from the roof above, and a chill
+wind penetrates the cracks in the thick stones to chill the room.  
+~
+0 D inside
+D1
+~
+~
+ABZ 0 98951
+0 0
+D3
+~
+~
+ABZ 0 98949
+0 0
+S
+#98951
+A Musty Hall~
+Here the tunnel has widened into a dank hallway, where a musty scent
+lingers in the chilly air.  A hardwood floor has replaced the crude
+stonework, and the peeling gray paint breaks off of the wooden walls to
+float gently to the ground.  Only three torches hang from the wall, the
+fourth seems to be missing.  
+~
+0 D inside
+D1
+~
+~
+Z 0 98994
+0 0
+D3
+~
+~
+ABZ 0 98950
+0 0
+S
+#98952
+The Mage Hall~
+You are in the mage hall, where the mages of the tower reside.  The air
+here is dank, and smells very strongly of rose petals and burnt flesh.  The
+corridor is dimly lit by an unseen source, there are no windows in this
+unadorned stone hall.  The light is simply here.  
+~
+0 DNX inside
+D2
+~
+~
+Z 0 98953
+0 0
+D3
+~
+~
+Z 0 98931
+0 0
+S
+#98953
+The Mage Hall~
+You are in the mage hall, where the mages of the tower reside.  The air
+here is dank, and smells very strongly of rose petals and burnt flesh.  The
+corridor is dimly lit by an unseen source, there are no windows in this
+unadorned stone hall.  The light is simply here.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 98952
+0 0
+D1
+~
+~
+Z 0 98967
+0 0
+D2
+~
+~
+Z 0 98954
+0 0
+D3
+~
+~
+Z 0 98968
+0 0
+S
+#98954
+Mage Hall~
+You are in the mage hall, where the mages of the tower reside.  The air
+here is dank, and smells very strongly of rose petals and burnt flesh.  The
+corridor is dimly lit by an unseen source, there are no windows in this
+unadorned stone hall.  The light is simply here.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 98953
+0 0
+D1
+~
+~
+Z 0 98965
+0 0
+D2
+~
+~
+Z 0 98955
+0 0
+D3
+~
+~
+Z 0 98966
+0 0
+S
+#98955
+Mage Hall~
+You are in the mage hall, where the mages of the tower reside.  The air
+here is dank, and smells very strongly of rose petals and burnt flesh.  The
+corridor is dimly lit by an unseen source, there are no windows in this
+unadorned stone hall.  The light is simply here.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 98954
+0 0
+D1
+~
+~
+Z 0 98963
+0 0
+D2
+~
+~
+Z 0 98956
+0 0
+D3
+~
+~
+Z 0 98964
+0 0
+S
+#98956
+Mage Hall~
+You are in the mage hall, where the mages of the tower reside.  The air
+here is dank, and smells very strongly of rose petals and burnt flesh.  The
+corridor is dimly lit by an unseen source, there are no windows in this
+unadorned stone hall.  The light is simply here.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 98955
+0 0
+D1
+~
+~
+Z 0 98961
+0 0
+D2
+~
+~
+Z 0 98957
+0 0
+D3
+~
+~
+Z 0 98962
+0 0
+S
+#98957
+Mage Hall~
+You are in the mage hall, where the mages of the tower reside.  The air
+here is dank, and smells very strongly of rose petals and burnt flesh.  The
+corridor is dimly lit by an unseen source, there are no windows in this
+unadorned stone hall.  The light is simply here.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 98956
+0 0
+D1
+~
+~
+Z 0 98959
+0 0
+D2
+~
+~
+ABZ 0 98958
+0 0
+D3
+~
+~
+Z 0 98960
+0 0
+S
+#98958
+The Unholy Temple~
+This room has been remodeled into an extremely evil temple.  Black,
+bloodstained pillars hold up the darkened cathedral ceiling, many of the
+pillars have chips taken out of them.  The black tile floor is covered with
+a soft black carpet, with golden edges.  At the southern end of the room is
+an altar glowing darkly, it seems to radiate evil like the rest of the room.
+
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 98957
+0 0
+D2
+~
+~
+ABCDFGZ 99029 99099
+0 0
+S
+#98959
+Alchemist's Study~
+You have entered a very entropic room, everything is in a state of
+disorder.  Leather-bound books are strewn randomly about the floor, as well
+as pools of unknown liquids, and shards of glass.  There is a large stone
+table in the center of the room, covered in all sorts of vials and flasks
+filled with bright colorful liquids and connected by rubber tubes and metal
+filters.  
+~
+0 D inside
+D3
+~
+~
+Z 0 98957
+0 0
+S
+#98960
+Necromancer's Study~
+You have entered the necromancer's study, an extremely foul and
+disgusting room.  The walls are lined with jars containing body parts from
+every animal imaginable, you even see one that holds a brain!  The floor is
+covered in a black rug, which has many splotches of blood on it.  You also
+see a large pile of bones in the corner.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 98957
+0 0
+S
+#98961
+A Shapeshifter's Abode~
+You have entered a small room inhabited by a simple shapeshifter.  A few
+pieces of furniture adorn the room, a chair here and there, a table against
+the far wall.  The stone walls themselves are bare except for several places
+for torches, but the floor is covered in a soft rug.  
+~
+0 D inside
+D3
+~
+~
+Z 0 98956
+0 0
+S
+#98962
+Alchemist's Study~
+You have entered a very entropic room, everything is in a state of
+disorder.  Leather-bound books are strewn randomly about the floor, as well
+as pools of unknown liquids, and shards of glass.  There is a large stone
+table in the center of the room, covered in all sorts of vials and flasks
+filled with bright colorful liquids and connected by rubber tubes and metal
+filters.  
+~
+0 D inside
+D1
+~
+~
+Z 0 98956
+0 0
+S
+#98963
+A Room of Praying~
+You have entered an unholy room of praying where the clerics of the
+castle come daily.  The windows are covered by black drapes, and gory
+paintings line the stone walls.  A rich black carpet covers the floor, the
+room is very nice overall.  
+~
+0 D inside
+D3
+~
+~
+Z 0 98955
+0 0
+S
+#98964
+Necromancer's Study~
+You have entered the necromancer's study, an extremely foul and
+disgusting room.  The walls are lined with jars containing body parts from
+every animal imaginable, you even see one that holds a brain!  The floor is
+covered in a black rug, which has many splotches of blood on it.  You also
+see a large pile of bones in the corner.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 98955
+0 0
+S
+#98965
+A Shapeshifter's Abode~
+You have entered a small room inhabited by a simple shapeshifter.  A few
+pieces of furniture adorn the room, a chair here and there, a table against
+the far wall.  The stone walls themselves are bare except for several places
+for torches, but the floor is covered in a soft rug.  
+~
+0 D inside
+D3
+~
+~
+Z 0 98954
+0 0
+S
+#98966
+A Room of Praying~
+You have entered an unholy room of praying where the clerics of the
+castle come daily.  The windows are covered by black drapes, and gory
+paintings line the stone walls.  A rich black carpet covers the floor, the
+room is very nice overall.  
+~
+0 D inside
+D1
+~
+~
+Z 0 98954
+0 0
+S
+#98967
+Inside a Cauldron~
+You're inside a huge bubbling and boiling cauldron!!  AAAAHHHH!!!!  
+~
+0 D swim
+D3
+~
+~
+Z 0 98953
+0 0
+S
+#98968
+Inside a Cauldron~
+You're inside a huge bubbling and boiling cauldron!!  AAAAHHHH!!!!  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98953
+0 0
+S
+#98969
+The Outer Courtyard~
+You have entered the outer courtyard, which doesn't really live up to
+it's name.  It is a very small courtyard, with a small cobblestone path
+slightly worn down leading to the east.  Farther east the couryard
+continues, and you can see a small shack, possibly a stable.  
+~
+0 0 field
+D1
+~
+~
+Z 0 98990
+0 0
+D3
+~
+~
+Z 0 98908
+0 0
+S
+#98970
+The Outer Courtyard~
+You have entered the west side of the courtyard, the outer section.  A
+slight breeze floats through the room, yet it's touch chills you to the
+bone.  The high walls of the castle loom on either side of you, forcing you
+to go back to the inner courtyard, or continue to the western end of the
+outer courtyard.  
+~
+0 0 field
+D1
+~
+~
+Z 0 98908
+0 0
+D3
+~
+~
+Z 0 98971
+0 0
+S
+#98971
+The Outer Courtyard~
+Following the cobblestone path through the outer courtyard, you can see
+the main building of the castle off to the north.  This courtyard is quite
+lifeless, not even a single plant graces the rough dirt yard.  
+~
+0 0 field
+D1
+~
+~
+Z 0 98970
+0 0
+D3
+~
+~
+Z 0 98989
+0 0
+S
+#98972
+The Entrance to the Training Area~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98973
+0 0
+D2
+~
+~
+ABZ 0 98943
+0 0
+S
+#98973
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98981
+0 0
+D1
+~
+~
+Z 0 98975
+0 0
+D2
+~
+~
+Z 0 98972
+0 0
+D3
+~
+~
+Z 0 98974
+0 0
+S
+#98974
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98976
+0 0
+D1
+~
+~
+Z 0 98973
+0 0
+S
+#98975
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98983
+0 0
+D3
+~
+~
+Z 0 98973
+0 0
+S
+#98976
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98978
+0 0
+D1
+~
+~
+Z 0 98981
+0 0
+D2
+~
+~
+Z 0 98974
+0 0
+D3
+~
+~
+Z 0 98977
+0 0
+S
+#98977
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 Z inside
+D0
+~
+~
+Z 0 98979
+0 0
+D1
+~
+~
+Z 0 98976
+0 0
+S
+#98978
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  To the north you can see a
+small office-like room.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98980
+0 0
+D1
+~
+~
+Z 0 98982
+0 0
+D2
+~
+~
+Z 0 98976
+0 0
+D3
+~
+~
+Z 0 98979
+0 0
+S
+#98979
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 Z inside
+D1
+~
+~
+Z 0 98978
+0 0
+D2
+~
+~
+Z 0 98977
+0 0
+S
+#98980
+An Office~
+You have entered a compact office building, possibly the office of the
+training supervisor.  This cramped little room is filled with plans,
+statistics, and other random papers.  A heavily cushioned chair is parked
+next to a long desk, it's polished surface cluttered with mounds of paper. 
+Maybe you should leave before the supervisor arrives...  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98978
+0 0
+S
+#98981
+The Center of the Training Area~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98982
+0 0
+D1
+~
+~
+Z 0 98983
+0 0
+D2
+~
+~
+Z 0 98973
+0 0
+D3
+~
+~
+Z 0 98976
+0 0
+S
+#98982
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98985
+0 0
+D2
+~
+~
+Z 0 98981
+0 0
+D3
+~
+~
+Z 0 98978
+0 0
+S
+#98983
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98985
+0 0
+D1
+~
+~
+Z 0 98984
+0 0
+D2
+~
+~
+Z 0 98975
+0 0
+D3
+~
+~
+Z 0 98981
+0 0
+S
+#98984
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98988
+0 0
+D3
+~
+~
+Z 0 98983
+0 0
+S
+#98985
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98986
+0 0
+D1
+~
+~
+Z 0 98988
+0 0
+D2
+~
+~
+Z 0 98983
+0 0
+D3
+~
+~
+Z 0 98982
+0 0
+S
+#98986
+A Storeroom~
+You have entered the storeroom of the castle's training facilities.  It
+is very hard to distinguish anything in this room, for all of the walls are
+covered by huge, towering stacks of weapons.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98985
+0 0
+S
+#98987
+The Kitchen~
+You have entered the kitchen of the darknight castle, full of cooks and
+chefs bustling here and there.  The room is quite hot, as an oven is let
+open to cool, and the fireplace has a hearty blaze, heating a huge pot
+suspended above its flames.  The kitchen is also the home to a good many
+smells, smells from spices, and from sizzling haunches of meat.  Messy
+stains litter the counters, and a trail of droplets of blood lead to the
+east.  
+~
+0 D inside
+D1
+~
+~
+Z 0 99074
+0 0
+D3
+~
+~
+Z 0 98927
+0 0
+S
+#98988
+A Training Room~
+The room you have entered is a fairly normal looking training facility,
+nothing much out of the ordinary.  Numerous mats of various shapes and sizes
+litter the floor, some of them stained with blood.  This area is very well
+lit, countless candles burn brightly in little nooks embedded into the
+walls.  Several used training weapons are arranged in small piles in the
+corners of the room, several are bent or broken.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98984
+0 0
+D3
+~
+~
+Z 0 98985
+0 0
+S
+#98989
+The Outer Courtyard~
+Moving along the outer courtyard, you reach the huge walls of the castle.
+This courtyard is unlike any you have seen before, there are no flowers or
+plantlife to decorate the area, only a small cobblestone path leading back
+to the east.  
+~
+0 0 field
+D1
+~
+~
+Z 0 98971
+0 0
+S
+#98990
+The Outer Courtyard~
+You have entered the outer courtyard, which doesn't really live up to
+it's name.  It is a very small courtyard, with a small cobblestone path
+slightly worn down leading to the east.  Farther east the couryard
+continues, and you can see a small shack, possibly a stable.  
+~
+0 0 field
+D1
+~
+~
+Z 0 98991
+0 0
+D3
+~
+~
+Z 0 98969
+0 0
+S
+#98991
+The Stables~
+A musty scent lingers in the air here, a mixture of horse dung and hay. 
+These stables seem to be built right up next to the main wall of the castle,
+the far wall is thick, gray stone.  A small door leads to the outside.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98992
+0 0
+D3
+~
+~
+Z 0 98990
+0 0
+S
+#98992
+Outside the Castle Wall~
+You stand just outside the reinforced wooden door, on the outside of the
+castle walls.  The land here is very barren, with a few splotches of green
+here and there, but generally dull and lifeless.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98993
+0 0
+D3
+~
+~
+ABZ 0 98991
+0 0
+S
+#98993
+A Path from the Castle~
+You have entered a path leading from the castle, it leads east into a
+seemingly dense forest.  The beaten path, covered in a thick layer of dirt
+and grime, meanders its way into the forest.  
+~
+0 T forest
+D1
+~
+~
+Z 0 99031
+0 0
+D3
+~
+~
+Z 0 98992
+0 0
+S
+#98994
+The Bottom of a Staircase~
+You have reached the bottom of a short staircase which probably leads
+into the upper spires of the castle.  A soft red rug covers most of the
+ground, but stops before the stone staircase.  The room is dully lit,
+leaving your imagination to figure out what lies ahead.  
+~
+0 AD inside
+D3
+~
+~
+Z 0 98951
+0 0
+D4
+~
+~
+Z 0 98995
+0 0
+S
+#98995
+The Top of the Staircase~
+Reaching the top of the stairs, the landing is nothing like you expected.
+A bright red, velvety carpet lines the floor, and oil lamps placed evenly
+among the walls bath the room in a soft, dull light.  Portraits of grand
+knights adorned in black breastplates, and pictures of gruesome wars hang in
+thick glass cases on the wall.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98996
+0 0
+D5
+~
+~
+Z 0 98994
+0 0
+S
+#98996
+A Wide Hall~
+You have entered a wide hallway, which branches out to the east and
+north.  A soft red carpet lines the cold stone floor, but it does not keep
+the chill from rising up to penetrate your shoes.  Long torches in wall
+sconces give off a dull glow, and every flicker and waver of the flames
+casts shadows over the wall that seem to come alive in your imagination.  
+~
+0 D inside
+E
+carpet~
+A red velvet carpet, it is thick and soft under your weight.  The
+embroidered edges flutter about slightly, as if they have a life of their
+own.  
+~
+E
+torch~
+The long wooden torches flicker in the wind that penetrates the thick
+stone walls.  
+~
+D0
+~
+~
+Z 0 98997
+0 0
+D1
+~
+~
+Z 0 99007
+0 0
+D2
+~
+~
+Z 0 98995
+0 0
+S
+#98997
+The Hallway~
+You have entered an elegantly appointed room, there is an air of richness
+and luxury that overrides the sickly sweet scent of decay.  A plush red
+carpet lines the floor, and most of the large stone blocks are covered in
+extravagant tapestries or carved wooden torches.  No windows line the walls
+here, although you can feel that you are very high up in the tower.  
+~
+0 D inside
+D1
+~
+~
+Z 0 98998
+0 0
+D2
+~
+~
+Z 0 98996
+0 0
+D3
+~
+~
+Z 0 98999
+0 0
+S
+#98998
+The Hallway~
+You have entered an elegantly appointed room, there is an air of richness
+and luxury that overrides the sickly sweet scent of decay.  A plush red
+carpet lines the floor, and most of the large stone blocks are covered in
+extravagant tapestries or carved wooden torches.  No windows line the walls
+here, although you can feel that you are very high up in the tower.  
+~
+0 D inside
+D0
+~
+~
+Z 0 99002
+0 0
+D3
+~
+~
+Z 0 98997
+0 0
+S
+#98999
+The Hallway~
+You have entered an elegantly appointed room, there is an air of richness
+and luxury that overrides the sickly sweet scent of decay.  A plush red
+carpet lines the floor, and most of the large stone blocks are covered in
+extravagant tapestries or carved wooden torches.  No windows line the walls
+here, although you can feel that you are very high up in the tower.  
+~
+0 D inside
+D0
+~
+~
+Z 0 99000
+0 0
+D1
+~
+~
+Z 0 98997
+0 0
+S
+#99000
+A Turn in the Hallway~
+The hallway makes a turn to the east here, taking with it the scents of
+the castle, although the scent of death and decay grows stronger.  Some
+portions of the velvet carpet have been burnt off, and the edges are frayed
+in parts.  Wondering what caused these abnormalities, you see that the hall
+continues to the east.  
+~
+0 D inside
+D1
+~
+~
+Z 0 99001
+0 0
+D2
+~
+~
+Z 0 98999
+0 0
+S
+#99001
+A Hallway Junction~
+The two branches of the hallway merge together here, along with the
+carpet.  This section of the hall is more elegantly appointed than the rest,
+it is a hallway fit for a king.  However, the royal image is marred by some
+misplaced torches strewn about the ground, and a huge dent the shape of a
+head shoved into the wall.  
+~
+0 D inside
+E
+carpet~
+{RThe red velvet carpet continues here, the west end and east end are
+sewn into one huge piece of cloth which snakes its way to the north.  {x 
+~
+D0
+~
+~
+Z 0 99003
+0 0
+D1
+~
+~
+Z 0 99002
+0 0
+D3
+~
+~
+Z 0 99000
+0 0
+S
+#99002
+A Turn in the Hallway~
+The hallway makes a turn to the west here, taking with it the scents of
+the castle, although the scent of death and decay grows stronger.  Some
+portions of the velvet carpet have been burnt off, and the edges are frayed
+in parts.  Wondering what caused these abnormalities, you see that the hall
+continues to the west.  
+~
+0 D inside
+E
+carpet~
+{RYou see a large red carpet, made of thick velvet.  It is a very fine
+cut of velvet, although dirt marks smudge its rich surface.  {x 
+~
+D2
+~
+~
+Z 0 98998
+0 0
+D3
+~
+~
+Z 0 99001
+0 0
+S
+#99003
+The End of the Hall~
+The hallway reaches an end here, finishing in two broad wooden doors,
+with steel reinforcements.  There is little light here, only a small pool
+shed by a single torch that illumines the door leading to the north.  It
+seems you have no choice but to try the door.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 99004
+0 0
+D2
+~
+~
+Z 0 99001
+0 0
+S
+#99004
+Chamber of Arakyan~
+You have entered the grand chamber of Arakyan, leader of the darknights. 
+His room is glorious, not one square of the walls is left uncovered, not one
+patch of the floor is bare.  Acrid-smelling torches burn brightly in their
+cases, lighting up bold tapestries and numerous paintings.  The embroidered
+red carpet is one huge tapestry, a giant memory of past battles sewn into
+silky velvet.  
+~
+0 AD inside
+E
+painting~
+A large portrait covers the east wall, it shows a huge man that looks
+very similar to Arakyan.  
+~
+E
+tapestry~
+A huge tapestry is on the west wall, depicting a castle being defended by
+a score of knights against a horde of white-clad enemies.  
+~
+D1
+~
+~
+Z 0 99005
+0 0
+D2
+~
+~
+ABZ 0 99003
+0 0
+D3
+~
+~
+Z 0 99006
+0 0
+S
+#99005
+Arakyan's Bedchamber~
+You have entered a cavernous room, yet its size seems less than it really
+is because of the multitude of elegant furniture placed about the room. 
+Smooth mahogany desks and chairs and bookcases rest against the walls, and a
+large black velvet four-poster bed is centered in the room.  A large window
+on the eastern wall leads to a magnificent view of the valley surrounding
+the castle, you never realized until now how beautiful the green-topped
+trees look, swaying gently in the breeze...  
+~
+0 D inside
+D3
+~
+~
+Z 0 99004
+0 0
+S
+#99006
+Arakyan's Weapon Room~
+You have entered the weapon room of Arakyan, where his own personal stock
+of weapons are kept.  The walls are almost completely covered by stacks upon
+stacks of weapons, yet they are all neatly ordered!  
+~
+0 AD inside
+D1
+~
+~
+Z 0 99004
+0 0
+S
+#99007
+A Cold Hallway~
+The walls here are lined by only a single torch, and its glow is eaten up
+by the darkness throughout the rest of the room.  Small glass windows
+occasionally line the stone wall, their unpolished surface murky and lined
+with a layer of dust.  The cold hallway continues to the east.  
+~
+0 D inside
+E
+windows~
+Looking through the window, you can barely make out the valley
+surrounding the castle through all of the dirt.  You see small shapes
+traversing the battlements, and tiny dots of light far in the distance.  
+~
+D1
+~
+~
+Z 0 99008
+0 0
+D3
+~
+~
+Z 0 98996
+0 0
+S
+#99008
+A Cold Hallway~
+The walls here are lined by only a single torch, and its glow is eaten up
+by the darkness throughout the rest of the room.  Small glass windows
+occasionally line the stone wall, their unpolished surface murky and lined
+with a layer of dust.  The cold hallway continues to the east.  
+~
+0 D inside
+E
+windows~
+Looking through the window, you can barely make out the valley
+surrounding the castle through all of the dirt.  You see small shapes
+traversing the battlements, and tiny dots of light far in the distance.  
+~
+D1
+~
+~
+Z 0 99009
+0 0
+D3
+~
+~
+Z 0 99007
+0 0
+S
+#99009
+A Cold Hallway~
+The walls here are lined by only a single torch, and its glow is eaten up
+by the darkness throughout the rest of the room.  Small glass windows
+occasionally line the stone wall, their unpolished surface murky and lined
+with a layer of dust.  The cold hallway continues to the east.  
+~
+0 0 inside
+E
+windows~
+Looking through the window, you can barely make out the valley
+surrounding the castle through all of the dirt.  You see small shapes
+traversing the battlements, and tiny dots of light far in the distance.  
+~
+D1
+~
+~
+Z 0 99010
+0 0
+D3
+~
+~
+Z 0 99008
+0 0
+S
+#99010
+A Cold Hallway~
+The walls here are lined by only a single torch, and its glow is eaten up
+by the darkness throughout the rest of the room.  Small glass windows
+occasionally line the stone wall, their unpolished surface murky and lined
+with a layer of dust.  The cold hallway continues to the east.  
+~
+0 0 inside
+E
+windows~
+Looking through the window, you can barely make out the valley
+surrounding the castle through all of the dirt.  You see small shapes
+traversing the battlements, and tiny dots of light far in the distance.  
+~
+D1
+~
+~
+Z 0 99011
+0 0
+D3
+~
+~
+Z 0 99009
+0 0
+S
+#99011
+The End of the Hallway~
+Here the cold hallway reaches an end, and it is even colder than before. 
+Not a single torch is visible along the rough stone walls, the only thing
+interesting about this room is a ladder leading to a trapdoor above your
+head.  
+~
+0 AD inside
+E
+trapdoor~
+A small trapdoor is here, cut out of the rest of the roof.  
+~
+E
+ladder~
+A sturdy wooden ladder stands here, seemingly unused in many years.  The
+rungs are covered with a fine layer of dust, and don't look like they would
+give a good grip.  The ladder leads upwards to the trapdoor.  
+~
+D3
+~
+~
+Z 0 99010
+0 0
+D4
+~
+trapdoor~
+ABZ 0 99012
+0 0
+S
+#99012
+The Crumbling Stair~
+Entering the trapdoor, you find yourself in one of the towers of the
+castle.  The only distinguishable feature here is the stone staircase, which
+is crumbling into dust before your very eyes!  Better run fast!!!  
+~
+0 D inside
+E
+staircase~
+Don't stop and look, run!  
+~
+D4
+~
+~
+Z 0 99013
+0 0
+S
+#99013
+The Crumbling Stair~
+You find yourself in one of the towers of the castle.  The only
+distinguishable feature here is the stone staircase, which is crumbling into
+dust before your very eyes!  Better run fast!!!  
+~
+0 D inside
+D4
+~
+~
+Z 0 99014
+0 0
+S
+#99014
+The Crumbling Stair~
+You find yourself in one of the towers of the castle.  The only
+distinguishable feature here is the stone staircase, which is crumbling into
+dust before your very eyes!  Better run fast!!!  
+~
+0 D inside
+D4
+~
+~
+Z 0 99015
+0 0
+S
+#99015
+The Top of a Spire~
+The crumbling stair has ended in this, the very top off a spire in the
+castle.  Fragile shingles slide off the angled roof under your feet, there
+is little grip here.  Looking around yourself, the view is absolutely
+amazing.  A dense forest surrounds the dark gray castle, yet the sky is very
+dark.  You see another spire far off to the west.  
+~
+0 C mountain
+S
+#99016
+A Secret Place!!~
+Well what do you know...  That wind is good for something after all,
+cause you've found a secret place!  This must be where the darknights store
+their treasure.  
+~
+0 ADNW field
+D2
+~
+~
+Z 0 99017
+0 0
+S
+#99017
+The Wall of {RF{Yi{rr{Re{x~
+Curses!  You have entered a towering inferno!  Well, now that you're in
+it you might as well take a look around.  The thick red-orange wall of flame
+swirls all around you, exuding billowing clouds of dark, acrid smoke.  It
+really is hot in here, maybe you should leave.  
+~
+0 NTW mountain
+D0
+~
+~
+Z 0 99016
+0 0
+D1
+~
+~
+Z 0 99018
+0 0
+D2
+~
+~
+ABCDFGZ 99026 99020
+0 0
+D3
+~
+~
+Z 0 99019
+0 0
+S
+#99018
+A Safe Room~
+A safe room! Yay!
+~
+0 D inside
+D3
+~
+~
+Z 0 99017
+0 0
+S
+#99019
+A Safe Room~
+A safe room! Yay!
+~
+0 D inside
+D1
+~
+~
+Z 0 99017
+0 0
+S
+#99020
+The Room of {YTre{yas{Yure{x~
+You have entered a room full of treasure!  Heaps upon heaps of shiny gold
+coins, countless jewels of unimaginable value are strewn randomly throughout
+the pile.  Occasionally a {Rj{Me{Cw{Ge{Bl{x encrusted hilt pokes its way out
+of the coins, and numerous gilded blades have surfaced from the pile of
+gold.  
+~
+0 ANT desert
+D0
+~
+~
+ABCDFGZ 99026 99017
+0 0
+D1
+~
+~
+ABCDFGZ 99026 99021
+0 0
+D2
+~
+~
+ABCDFGZ 99026 99023
+0 0
+D3
+~
+~
+ABCDFGZ 99026 99022
+0 0
+S
+#99021
+The Wall of {RF{Yi{rr{Re{x~
+Curses!  You have entered a towering inferno!  Well, now that you're in
+it you might as well take a look around.  The thick red-orange wall of flame
+swirls all around you, exuding billowing clouds of dark, acrid smoke.  It
+really is hot in here, maybe you should leave.  
+~
+0 NTW mountain
+D1
+~
+~
+Z 0 99024
+0 0
+D3
+~
+~
+ABCDFGZ 99026 99020
+0 0
+S
+#99022
+The Wall of {RF{Yi{rr{Re{x~
+Curses!  You have entered a towering inferno!  Well, now that you're in
+it you might as well take a look around.  The thick red-orange wall of flame
+swirls all around you, exuding billowing clouds of dark, acrid smoke.  It
+really is hot in here, maybe you should leave.  
+~
+0 NTW mountain
+D1
+~
+~
+ABCDFGZ 99026 99020
+0 0
+D3
+~
+~
+Z 0 99025
+0 0
+S
+#99023
+The Wall of {RF{Yi{rr{Re{x~
+Curses!  You have entered a towering inferno!  Well, now that you're in
+it you might as well take a look around.  The thick red-orange wall of flame
+swirls all around you, exuding billowing clouds of dark, acrid smoke.  It
+really is hot in here, maybe you should leave.  
+~
+0 NTW mountain
+D0
+~
+~
+ABCDFGZ 99026 99020
+0 0
+D2
+~
+~
+Z 0 99026
+0 0
+S
+#99024
+A Safe Room~
+Hey look!  A safe room!  
+~
+0 D inside
+D3
+~
+~
+Z 0 99021
+0 0
+S
+#99025
+A Safe Room~
+Hey look! A safe room!
+~
+0 AD inside
+D1
+~
+~
+Z 0 99022
+0 0
+S
+#99026
+A Pool of {rRed-Hot {YL{Ra{rv{Ya{x~
+You have entered a huge pool of {rred-hot {Yl{Ra{rv{Ya{x!  The surface of
+this pool is constantly changing, bubbling and sparking, huge globs of
+molten rock are hurled around the room to land who-knows-where.  It seems
+unstable in here, and VERY unsafe.  
+~
+0 ANTW desert
+D0
+~
+~
+Z 0 99023
+0 0
+D1
+~
+~
+Z 0 99028
+0 0
+D3
+~
+~
+Z 0 99027
+0 0
+S
+#99027
+A Safe Room~
+Hey look! Another safe room!
+~
+0 D inside
+D1
+~
+~
+Z 0 99026
+0 0
+D3
+~
+~
+Z 0 99030
+0 0
+S
+#99028
+A Safe Room~
+Hey look! Another safe room!
+~
+0 D inside
+D1
+~
+~
+Z 0 99029
+0 0
+D3
+~
+~
+Z 0 99026
+0 0
+S
+#99029
+A Safe room~
+Hey look! Another safe room!
+~
+0 D inside
+D3
+~
+~
+Z 0 99028
+0 0
+S
+#99030
+Oops~
+Uh oh...not so safe, you just walked off a cliff!!!
+~
+0 D inside
+D1
+~
+~
+Z 0 99027
+0 0
+S
+#99031
+Lost Ruins~
+The path has led you here, a large meadow of uncontrolled weeds and
+grasses surrounded by huge slabs of white stone.  It seems this was once a
+great city, the white stone blocks are enormous and covered in moss. 
+Unlimited nooks and crannies in the rocks make it impossible to tell if
+someone is here or not.  
+~
+0 T forest
+D1
+~
+~
+Z 0 99032
+0 0
+D3
+~
+~
+Z 0 98993
+0 0
+S
+#99032
+An Overturned Wall~
+Climbing up onto this makeshift plateau of white stone, you can see for
+miles in any direction.  To the west looms the ominous walls of the
+darknight castle, to the east and south there are more ruins, and to the
+north the way is blocked by overgrowing foliage.  
+~
+0 T forest
+D1
+~
+~
+Z 0 99043
+0 0
+D2
+~
+~
+Z 0 99033
+0 0
+D3
+~
+~
+Z 0 99031
+0 0
+S
+#99033
+Inside a Building~
+You have entered what is left of a stone building, which is not much
+considering the gaping holes in the walls and roof.  Large slabs of the
+stone litter the ground here, and you can see the sky through some holes in
+the ceiling.  Deep in the shadows of the room you find coolness and
+tranquility, however it may not be wise to stay in one place for long here. 
+
+~
+0 ADT forest
+D0
+~
+~
+Z 0 99032
+0 0
+D2
+~
+~
+Z 0 99034
+0 0
+S
+#99034
+A Cluttered Path~
+Exiting the leftovers of the building, you have arrived at a very
+cluttered pathway.  Weeds and moss cover every patch of earth, and fauna has
+blocked the way west.  The castle is no longer visible deep in these ruins,
+only the building to the north, and more ruins to the south and east.  
+~
+0 T forest
+D0
+~
+~
+Z 0 99033
+0 0
+D1
+~
+~
+Z 0 99035
+0 0
+D2
+~
+~
+Z 0 99042
+0 0
+S
+#99035
+A Cluttered Path~
+The path continues here, and you spy deep hoof-shaped marks impressed
+deep into the earth.  An enormous chunk of stone halts your path northward
+and a large pile of rubble blocks your passage to the east, so you have no
+choice but to follow the hoofprints south.  
+~
+0 T forest
+D2
+~
+~
+Z 0 99036
+0 0
+D3
+~
+~
+Z 0 99034
+0 0
+S
+#99036
+An Opening in the Path~
+The plantlife is sparser here, only meager portions of weeds and tall
+grasses.  Some of the grass-blades are bent from shoes or hooves, but most
+are left untouched.  Only a few signs of the ruins are here, a flat stone
+slab bending a tree with its weight, and some splintered wood tossed
+carelessly onto the ground.  
+~
+0 T forest
+D0
+~
+~
+Z 0 99035
+0 0
+D2
+~
+~
+Z 0 99037
+0 0
+D3
+~
+~
+Z 0 99041
+0 0
+S
+#99037
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99036
+0 0
+D3
+~
+~
+Z 0 99038
+0 0
+S
+#99038
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99037
+0 0
+D3
+~
+~
+Z 0 99039
+0 0
+S
+#99039
+Under a Stone Shelter~
+You find yourself beneath a stone shelter, made of a huge block of white
+stone leaning against some trees.  It is very shady and cool under here, it
+feels as if you could just fall asleep...  
+~
+0 A forest
+D0
+~
+~
+Z 0 99040
+0 0
+D1
+~
+~
+Z 0 99038
+0 0
+S
+#99040
+Inside a Bush~
+Amazingly enough, you are inside a bush!  It is a very large bush, and
+there is hardly any light at all.  Examining the bush you are inside, you
+see many sticks and prickly leaves ready to snag on your clothing and give
+you scrapes and scratches.  
+~
+0 AT forest
+D1
+~
+~
+ABZ 0 99041
+0 0
+D2
+~
+~
+Z 0 99039
+0 0
+S
+#99041
+A Junction in the Cluttered Path~
+You have arrived at a junction in this cluttered path, and it lives up to
+its name quite well.  The path is hardly visible under a multitude of weeds
+and grasses, not to mention some random clothing and pieces of rusty metal
+here and there.  An opening in the undergrowth leads to the west, while the
+path continues to the east.  
+~
+0 T forest
+D0
+You see a large pile of rubble, although it looks like you could move it.  
+~
+rubble~
+ABZ 0 99042
+0 0
+D1
+~
+~
+Z 0 99036
+0 0
+D3
+~
+~
+ABZ 0 99040
+0 0
+S
+#99042
+Along the Cluttered Path~
+Weeds and moss cover every patch of earth here, and the plantlife has
+blocked the east and west exits.  Having ventured this far into the ruins,
+the castle is lost from sight.  A huge chunk of rubble blocks your way
+south, but you could probably move it if you tried very hard.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99034
+0 0
+D2
+You see a large pile of rubble, although it looks like you could move it
+aside.  
+~
+rubble~
+ABZ 0 99041
+0 0
+S
+#99043
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99044
+0 0
+D3
+~
+~
+Z 0 99032
+0 0
+S
+#99044
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99045
+0 0
+D3
+~
+~
+Z 0 99043
+0 0
+S
+#99045
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99046
+0 0
+D3
+~
+~
+Z 0 99044
+0 0
+S
+#99046
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99047
+0 0
+D2
+~
+~
+Z 0 99052
+0 0
+D3
+~
+~
+Z 0 99045
+0 0
+S
+#99047
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99048
+0 0
+D2
+~
+~
+Z 0 99062
+0 0
+D3
+~
+~
+Z 0 99046
+0 0
+S
+#99048
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 T forest
+D1
+~
+~
+Z 0 99049
+0 0
+D3
+~
+~
+Z 0 99047
+0 0
+S
+#99049
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99050
+0 0
+D2
+~
+~
+Z 0 99063
+0 0
+D3
+~
+~
+Z 0 99048
+0 0
+S
+#99050
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99051
+0 0
+D2
+~
+~
+Z 0 99064
+0 0
+D3
+~
+~
+Z 0 99049
+0 0
+S
+#99051
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 T forest
+D3
+~
+~
+Z 0 99050
+0 0
+S
+#99052
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99046
+0 0
+D1
+~
+~
+Z 0 99062
+0 0
+D2
+~
+~
+Z 0 99053
+0 0
+S
+#99053
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 T forest
+D0
+~
+~
+Z 0 99052
+0 0
+D1
+~
+~
+Z 0 99054
+0 0
+S
+#99054
+Approaching an Encampment~
+You are approaching an encampment in the ruins, judging by several poorly
+made booby traps.  You can see several poorly camouflaged tents off to the
+south, and even a hint of smoke rising up to the south-east.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 99055
+0 0
+D3
+~
+~
+Z 0 99053
+0 0
+S
+#99055
+In an Encampment~
+You have entered a small encampment, probably where the militia made camp
+for the night.  You can see several tents propped up on top of the weeds and
+stone blocks, someone made a half-hearted attempt to camouflage them,
+judging by the random assortment of leaves and branches on top of the tents.
+~
+0 0 forest
+D0
+~
+~
+Z 0 99054
+0 0
+D1
+~
+~
+Z 0 99056
+0 0
+S
+#99056
+A Campsite~
+You have come upon the remains of an old campsite.  Whoever camped here
+did an awfully poor job covering their tracks, they still left their fire
+burning!  
+~
+0 T forest
+D1
+~
+~
+Z 0 99057
+0 0
+D3
+~
+~
+Z 0 99055
+0 0
+S
+#99057
+In an Encampment~
+You have entered a small encampment, probably where the militia made camp
+for the night.  You can see several tents propped up on top of the weeds and
+stone blocks, someone made a half-hearted attempt to camouflage them,
+judging by the random assortment of leaves and branches on top of the tents.
+
+~
+0 0 forest
+D0
+~
+~
+Z 0 99058
+0 0
+D3
+~
+~
+Z 0 99056
+0 0
+S
+#99058
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99059
+0 0
+D2
+~
+~
+Z 0 99057
+0 0
+D3
+~
+~
+Z 0 99060
+0 0
+S
+#99059
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D3
+~
+~
+Z 0 99058
+0 0
+S
+#99060
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99061
+0 0
+D1
+~
+~
+Z 0 99058
+0 0
+S
+#99061
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99063
+0 0
+D2
+~
+~
+Z 0 99060
+0 0
+D3
+~
+~
+Z 0 99062
+0 0
+S
+#99062
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99047
+0 0
+D1
+~
+~
+Z 0 99061
+0 0
+D3
+~
+~
+Z 0 99052
+0 0
+S
+#99063
+In the Ruins~
+You have entered another part of the ruins, feeling very lost.  This room
+is just like all of the others, it is littered with chunks of white stone
+and weeds and grasses cover the ground.  There is some sparse vegetation
+besides the weeds, but not much.  It seems many things inhabit this place,
+for there are many tracks on the ground.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99049
+0 0
+D3
+~
+~
+Z 0 99061
+0 0
+S
+#99064
+In an Encampment~
+You have entered a small encampment, probably where the militia made camp
+for the night.  You can see seeral tents propped up on top of the weeds and
+stone blocks.  It seems someone made a half-hearted attempt to camouflage
+them, judging by the random assortment of leaves and branches on top of the
+tents.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99050
+0 0
+D1
+~
+~
+Z 0 99065
+0 0
+S
+#99065
+A Campsite~
+You have come upon the remains of an old campsite.  Whoever camped here
+did an awfully poor job covering their tracks, they still left their fire
+burning!  
+~
+0 T forest
+D2
+~
+~
+Z 0 99066
+0 0
+D3
+~
+~
+Z 0 99064
+0 0
+S
+#99066
+In an Encampment~
+You have entered a small encampment, probably where the militia made camp
+for the night.  You can see seeral tents propped up on top of the weeds and
+stone blocks.  It seems someone made a half-hearted attempt to camouflage
+them, judging by the random assortment of leaves and branches on top of the
+tents.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99065
+0 0
+D1
+~
+~
+Z 0 99067
+0 0
+S
+#99067
+A Forgotten Path~
+You are on the forgotten path, it looks like it has not been walked in
+many long years.  The grass is undisturbed here, and several small trees are
+placed about.  There is no more evidence of the ruins here, it is a place of
+peace.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99068
+0 0
+D2
+~
+~
+Z 0 99071
+0 0
+D3
+~
+~
+Z 0 99066
+0 0
+S
+#99068
+A Forgotten Path~
+You are on the forgotten path, it looks like it has not been walked in
+many long years.  The grass is undisturbed here, and several small trees are
+placed about.  There is no more evidence of the ruins here, it is a place of
+peace.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 99069
+0 0
+D2
+~
+~
+Z 0 99067
+0 0
+S
+#99069
+Outside A Regal Hut~
+You are just outside of a very large hut, built of wooden planks.  A
+large piece of cloth blocks the entranceway to the hut, and you notice that
+the roof is shaped in an odd way, a small horn curves upwards at every
+corner.  Painted on the front of the hut is a picture of a very large
+centaur brandishing a bow.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 99070
+0 0
+D3
+~
+~
+Z 0 99068
+0 0
+S
+#99070
+In A Grand Hut~
+You have entered an extremely large hunt, built of planks of wood.  The
+walls are painted in vibrant colors, mainly reds and golds and blues,
+everything is very regal.  There are some tapestries depicting centaurs
+slaying evil beings, and a large bow is in a frame on the wall.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 99069
+0 0
+S
+#99071
+The Forgotten Path~
+You are on the forgotten path, it looks like it has not been walked in
+many long years.  The grass is undisturbed here, and several small trees are
+placed about.  There is no more evidence of the ruins here, it is a place of
+peace.  
+~
+0 T forest
+D0
+~
+~
+Z 0 99067
+0 0
+D1
+~
+vines~
+ABZ 0 99072
+0 0
+S
+#99072
+Outside a Small Cottage~
+You are in a small trail leading to a lonely cottage, placed at the edge
+of the ruins.  The trail is made of packed dirt, and covered in boot-shaped
+prints.  The area is free of weeds, the grass is not overgrown at all, and
+there is even a small vegetable garden on the west side.  
+~
+0 T forest
+D2
+~
+door~
+ABZ 0 99073
+0 0
+D3
+~
+vines~
+ABZ 0 99071
+0 0
+S
+#99073
+A Small Dwarven Cottage~
+You have entered a solitary dwarven cottage, it is quite small and made
+of sturdy logs.  There are no windows in the house, the only light comes
+from some dying embers in a small forge that looks as though it has not been
+used in quite some time.  The floor is covered in festive mats and rugs, and
+there are some well-crafted tables and a poofy leather armchair.  
+~
+0 ADT forest
+E
+forge~
+A small metal forge, filled with dull-glowing embers.  There are some
+pieces of scrap metal in the forge, but it looks like it has been taken care
+of.  
+~
+D0
+~
+door~
+ABZ 0 99072
+0 0
+S
+#99074
+The Meatroom~
+You have entered the meatroom, and with sudden realization you think
+'Ahhh, so that must be where the blood comes from!  '.  Cuts of meat hang
+from hooks all over the walls, meats of any kind imaginable.  Near the west
+wall of the room are several enormous barrels, most likely holding smoked
+meat.  
+~
+0 D inside
+D3
+~
+~
+Z 0 98987
+0 0
+D5
+~
+~
+Z 0 99075
+0 0
+S
+#99075
+Through the Trapdoor~
+This is a small, unlit room, the stone walls completely bare and the dirt
+ground unfurnished.  There is no light source here at all, there seems to be
+no life here at all.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 99076
+0 0
+S
+#99076
+A Small Junction~
+Here is a small junction, where the dark room to the west intersects two
+small rooms to the north and south.  There is a single oil lamp dangling
+from the ceiling here, covering the room in {ydull yellow {xlight.  At least
+the floor here is stone and not dirt.  
+~
+0 D inside
+D0
+~
+~
+Z 0 99077
+0 0
+D1
+~
+~
+Z 0 99079
+0 0
+D2
+~
+~
+Z 0 99078
+0 0
+D3
+~
+~
+Z 0 99075
+0 0
+S
+#99077
+A Guard Room~
+You have entered a small guard room, dully lit by a small oil lamp
+hanging from the ceiling.  The large stone blocks are notched and darkened
+in parts, and you can see a large metal desc propped up against the far
+wall.  
+~
+0 D inside
+D2
+~
+~
+Z 0 99076
+0 0
+S
+#99078
+The Mess Hall~
+You have entered the dungeon's mess hall, where the prisoners' food is
+prepared.  The horrible stench of decaying meat and stale bread fills the
+air, and the half-washed dishes in a metal sink add their own fragrance to
+the room.  The floor is incredibly dirty, you can hardly make out the stone
+block beneath all of the dirt and grime.
+~
+0 D inside
+D0
+~
+~
+Z 0 99076
+0 0
+S
+#99079
+The Corridor's Beginning~
+You have entered the beginning of a narrow corridor, lit slightly by
+bad-smelling torches.  There are no distinguishable features about this
+room, the only thing you notice are the stone blocks of the wall.  
+~
+0 D inside
+D1
+~
+~
+Z 0 99080
+0 0
+D3
+~
+~
+Z 0 99076
+0 0
+S
+#99080
+The Corridor Continues~
+The corridor continues here, the unadorned stone walls are broken by the
+thick metal bars that make the doors to the dungeon cells.  The floor is
+very dirty here, and looks as if it has not been swept in quite a while.  A
+hideous stench wafts in from both the north and south, of unwashed bodies
+and other nasty scents.  
+~
+0 D inside
+D0
+~
+bar~
+ABZ 0 99085
+0 0
+D1
+~
+~
+Z 0 99081
+0 0
+D2
+~
+bar~
+ABZ 0 99086
+0 0
+D3
+~
+~
+Z 0 99079
+0 0
+S
+#99081
+The Corridor Continues~
+The corridor continues here, the unadorned stone walls are broken by the
+thick metal bars that make the doors to the dungeon cells.  The floor is
+very dirty here, and looks as if it has not been swept in quite a while.  A
+hideous stench wafts in from both the north and south, of unwashed bodies
+and other nasty scents.  
+~
+0 D inside
+D0
+~
+bar~
+ABZ 0 99087
+0 0
+D1
+~
+~
+Z 0 99082
+0 0
+D2
+~
+bar~
+ABZ 0 99088
+0 0
+D3
+~
+~
+Z 0 99080
+0 0
+S
+#99082
+The Corridor Continues~
+The corridor continues here, the unadorned stone walls are broken by the
+thick metal bars that make the doors to the dungeon cells.  The floor is
+very dirty here, and looks as if it has not been swept in quite a while.  A
+hideous stench wafts in from both the north and south, of unwashed bodies
+and other nasty scents.  
+~
+0 D inside
+D0
+~
+bar~
+ABZ 0 99089
+0 0
+D1
+~
+~
+Z 0 99083
+0 0
+D2
+~
+bar~
+ABZ 0 99090
+0 0
+D3
+~
+~
+Z 0 99081
+0 0
+S
+#99083
+The Corridor Continues~
+The corridor continues here, the unadorned stone walls are broken by the
+thick metal bars that make the doors to the dungeon cells.  The floor is
+very dirty here, and looks as if it has not been swept in quite a while.  A
+hideous stench wafts in from both the north and south, of unwashed bodies
+and other nasty scents.  
+~
+0 D inside
+D0
+~
+bar~
+ABZ 0 99091
+0 0
+D1
+~
+~
+Z 0 99084
+0 0
+D2
+~
+bar~
+ABZ 0 99092
+0 0
+D3
+~
+~
+Z 0 99082
+0 0
+S
+#99084
+The Corridor Continues~
+The corridor continues here, the unadorned stone walls are broken by the
+thick metal bars that make the doors to the dungeon cells.  The floor is
+very dirty here, and looks as if it has not been swept in quite a while.  A
+hideous stench wafts in from both the north and south, of unwashed bodies
+and other nasty scents.  
+~
+0 D inside
+D0
+~
+bar~
+ABZ 0 99093
+0 0
+D2
+~
+bar~
+ABZ 0 99094
+0 0
+D3
+~
+~
+Z 0 99083
+0 0
+S
+#99085
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D2
+~
+~
+ABZ 0 99080
+0 0
+S
+#99086
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 99080
+0 0
+S
+#99087
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D2
+~
+~
+ABZ 0 99081
+0 0
+S
+#99088
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 99081
+0 0
+S
+#99089
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D2
+~
+~
+ABZ 0 99082
+0 0
+S
+#99090
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 99082
+0 0
+D5
+~
+~
+Z 0 99095
+0 0
+S
+#99091
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D2
+~
+~
+ABZ 0 99083
+0 0
+S
+#99092
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 99083
+0 0
+S
+#99093
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D2
+~
+~
+ABZ 0 99084
+0 0
+S
+#99094
+A Cell~
+You have entered a cell of the dungeons of the darknight castle.  The
+smell here is overpowering, the smell of unclean bodies and excrement give
+you a sudden desire to puke.  There is a small hole in the floor towards the
+far wall, and the only other defining feature of the cell is a stone slab
+extending from the wall, where the prisoners most likely sleep.  
+~
+0 AD inside
+D0
+~
+~
+ABZ 0 99084
+0 0
+S
+#99095
+A Tunnel~
+You have entered a roughly carved dirt tunnel, it leads from the prison
+cell directly above you.  The dirt walls are very close to you, and you are
+overcome by a sudden surge of claustrophobia.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 99096
+0 0
+D4
+~
+~
+Z 0 99090
+0 0
+S
+#99096
+A Tunnel~
+You continue on in the roughly carved tunnel, your clothes getting
+dirtier by the minute as you crawl through.  Dust is beggining to fall down
+steadily, it seems the whole thing is ready to cave in at any moment.  
+~
+0 AD inside
+D2
+~
+~
+Z 0 99095
+0 0
+D3
+~
+~
+Z 0 99097
+0 0
+S
+#99097
+A Tunnel~
+You continue on in the roughly carved tunnel, your clothes getting
+dirtier by the minute as you crawl through.  Dust is beginning to fall down
+steadily, it seems the whole thing is ready to cave in at any moment.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 99096
+0 0
+D3
+~
+~
+Z 0 99098
+0 0
+S
+#99098
+A Tunnel~
+You continue on in the roughly carved tunnel, your clothes getting
+dirtier by the minute as you crawl through.  Dust is beginning to fall down
+steadily, it seems the whole thing is ready to cave in at any moment.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 99097
+0 0
+D4
+~
+~
+Z 0 98989
+0 0
+S
+#99099
+The Chamber of the Undead Knight~
+You have entered the hidden chambers of the undead knight, a charred and
+mangled room of destruction.  Everything is in disarray, from the furniture
+strewn randomly about the floor, to the half-burnt tapestries dangling from
+the ceiling.  You sense an evil presence here...  Lingering.  
+~
+0 A inside
+D0
+~
+~
+ABCDFGZ 99029 98958
+0 0
+S
+#99100
+~
+~
+0 T inside
+S
+#0
+
+#SPECIALS
+M 98914 spec_breath_fire	* The {DU{Wn{Dd{We{Da{Wd {DKnight{x
+M 98936 spec_cast_mage	* A {DBlack-Clad{x {DNe{Wcr{rom{Wan{Dcer{x
+M 98938 spec_cast_cleric	* A Wicked Alchemist
+M 98939 spec_breath_acid	* A shapeshifter
+M 98940 spec_cast_mage	* A Cackling Witch
+M 98942 spec_cast_cleric	* an evil cleric
+S
+
+#RESETS
+D 0 98935 1 1	* The Military hall: door to the east: closed
+D 0 98935 3 1	* The Military hall: door to the west: closed
+D 0 98937 1 1	* A Captain's quarters: door to the east: closed
+D 0 98938 3 1	* A Captain's quarters: door to the west: closed
+D 0 98943 0 1	* The barracks: door to the north: closed
+D 0 98948 1 1	* The secret passageway: door to the east: closed
+D 0 98949 1 1	* A Dark Stone Tunnel: door to the east: closed
+D 0 98949 3 1	* A Dark Stone Tunnel: door to the west: closed
+D 0 98950 1 1	* The End of the Tunnel: door to the east: closed
+D 0 98950 3 1	* The End of the Tunnel: door to the west: closed
+D 0 98951 3 1	* A Musty Hall: door to the west: closed
+D 0 98957 2 1	* Mage Hall: door to the south: closed
+D 0 98958 0 1	* The Unholy Temple: door to the north: closed
+D 0 98958 2 2	* The Unholy Temple: door to the south: closed and locked
+D 0 98972 2 1	* The Entrance to the Training Area: door to the south: closed
+D 0 98991 1 1	* The Stables: door to the east: closed
+D 0 98992 3 1	* Outside the Castle Wall: door to the west: closed
+D 0 99003 0 1	* The End of the Hall: door to the north: closed
+D 0 99004 2 1	* Chamber of Arakyan: door to the south: closed
+D 0 99011 4 1	* The End of the Hallway: door to the up: closed
+D 0 99017 2 2	* The Wall of {RF{Yi{rr{Re{x: door to the south: closed and locked
+D 0 99020 0 2	* The Room of {YTre{yas{Yure{x: door to the north: closed and locked
+D 0 99020 1 2	* The Room of {YTre{yas{Yure{x: door to the east: closed and locked
+D 0 99020 2 2	* The Room of {YTre{yas{Yure{x: door to the south: closed and locked
+D 0 99020 3 2	* The Room of {YTre{yas{Yure{x: door to the west: closed and locked
+D 0 99021 3 2	* The Wall of {RF{Yi{rr{Re{x: door to the west: closed and locked
+D 0 99022 1 2	* The Wall of {RF{Yi{rr{Re{x: door to the east: closed and locked
+D 0 99023 0 2	* The Wall of {RF{Yi{rr{Re{x: door to the north: closed and locked
+D 0 99040 1 1	* Inside a Bush: door to the east: closed
+D 0 99041 0 1	* A Junction in the Cluttered Path: door to the north: closed
+D 0 99041 3 1	* A Junction in the Cluttered Path: door to the west: closed
+D 0 99042 2 1	* Along the Cluttered Path: door to the south: closed
+D 0 99071 1 1	* The Forgotten Path: door to the east: closed
+D 0 99072 2 1	* Outside a Small Cottage: door to the south: closed
+D 0 99072 3 1	* Outside a Small Cottage: door to the west: closed
+D 0 99073 0 1	* A Small Dwarven Cottage: door to the north: closed
+D 0 99080 0 1	* The Corridor Continues: door to the north: closed
+D 0 99080 2 1	* The Corridor Continues: door to the south: closed
+D 0 99081 0 1	* The Corridor Continues: door to the north: closed
+D 0 99081 2 1	* The Corridor Continues: door to the south: closed
+D 0 99082 0 1	* The Corridor Continues: door to the north: closed
+D 0 99082 2 1	* The Corridor Continues: door to the south: closed
+D 0 99083 0 1	* The Corridor Continues: door to the north: closed
+D 0 99083 2 1	* The Corridor Continues: door to the south: closed
+D 0 99084 0 1	* The Corridor Continues: door to the north: closed
+D 0 99084 2 1	* The Corridor Continues: door to the south: closed
+D 0 99085 2 1	* A Cell: door to the south: closed
+D 0 99086 0 1	* A Cell: door to the north: closed
+D 0 99087 2 1	* A Cell: door to the south: closed
+D 0 99088 0 1	* A Cell: door to the north: closed
+D 0 99089 2 1	* A Cell: door to the south: closed
+D 0 99090 0 1	* A Cell: door to the north: closed
+D 0 99091 2 1	* A Cell: door to the south: closed
+D 0 99092 0 1	* A Cell: door to the north: closed
+D 0 99093 2 1	* A Cell: door to the south: closed
+D 0 99094 0 1	* A Cell: door to the north: closed
+D 0 99099 0 2	* The Chamber of the Undead Knight: door to the north: closed and locked
+M 0 98901 1 98904 1	* The Darknight guardian (Before the Gates of the Castle)
+E 0 98914 0 6		*	A {Wsteel-plated{x ogre skull: over the head
+E 0 98904 0 16		*	A polished steel knightsword: wielded
+O 0 98905 0 98905	* A comfy {Dblack{x velvet chair (The hidden room of {Dshadows{x)
+M 0 98902 20 98908 1	* a drow knight (The Inner courtyard)
+E 0 98904 0 16		*	A polished steel knightsword: wielded
+E 0 98902 0 5		*	A {Ygold-{Wskull {Dbreastplate{x: on the body
+E 0 98914 0 6		*	A {Wsteel-plated{x ogre skull: over the head
+O 0 98901 0 98909	* A {Ygolden {Wskull {xflag (On the battlements)
+M 0 98902 20 98912 1	* a drow knight (The South-western corner of the battlements)
+E 0 98902 0 5		*	A {Ygold-{Wskull {Dbreastplate{x: on the body
+E 0 98904 0 16		*	A polished steel knightsword: wielded
+E 0 98914 0 6		*	A {Wsteel-plated{x ogre skull: over the head
+M 0 98903 20 98914 1	* A Duergar Darknight (On the battlements)
+E 0 98906 0 16		*	A {Dblack{x venomous knife: wielded
+E 0 98903 0 12		*	A {Rblood-red{x tunic: about the shoulders
+M 0 98902 20 98916 1	* a drow knight (The north-western corner of the battlements.)
+E 0 98904 0 16		*	A polished steel knightsword: wielded
+E 0 98912 0 11		*	A giant {Ygold trimmed{D skull{x: as a shield
+M 0 98903 20 98918 1	* A Duergar Darknight (The northern center of the battlements)
+E 0 98906 0 16		*	A {Dblack{x venomous knife: wielded
+E 0 98913 0 7		*	{DDark legplates{x with a secret pocket: on the legs
+M 0 98902 20 98920 1	* a drow knight (The north-eastern corner of the battlements)
+E 0 98904 0 16		*	A polished steel knightsword: wielded
+E 0 98902 0 5		*	A {Ygold-{Wskull {Dbreastplate{x: on the body
+E 0 98912 0 11		*	A giant {Ygold trimmed{D skull{x: as a shield
+E 0 98914 0 6		*	A {Wsteel-plated{x ogre skull: over the head
+E 0 98915 0 3		*	A {Dblack{Y gold trimmed{x brooch: around the neck (1)
+E 0 98917 0 8		*	Fitted leather boots: on the feet
+E 0 98916 0 4		*	A {Ygold trimmed {mpurple{x cloak: around the neck (2)
+M 0 98902 20 98924 1	* a drow knight (The south-eastern corner of the battlements)
+E 0 98916 0 3		*	A {Ygold trimmed {mpurple{x cloak: around the neck (1)
+E 0 98904 0 16		*	A polished steel knightsword: wielded
+E 0 98912 0 6		*	A giant {Ygold trimmed{D skull{x: over the head
+E 0 98902 0 5		*	A {Ygold-{Wskull {Dbreastplate{x: on the body
+M 0 98903 20 98925 1	* A Duergar Darknight (The Foyer of the Castle)
+E 0 98906 0 16		*	A {Dblack{x venomous knife: wielded
+E 0 98917 0 8		*	Fitted leather boots: on the feet
+E 0 98915 0 3		*	A {Dblack{Y gold trimmed{x brooch: around the neck (1)
+M 0 98902 20 98926 1	* a drow knight (The Great Hall)
+E 0 98923 0 16		*	An axe forged of {BNevermelting{x {CIce{x: wielded
+E 0 98916 0 3		*	A {Ygold trimmed {mpurple{x cloak: around the neck (1)
+E 0 98912 0 11		*	A giant {Ygold trimmed{D skull{x: as a shield
+M 0 98903 20 98927 1	* A Duergar Darknight (The Great Hall)
+E 0 98906 0 16		*	A {Dblack{x venomous knife: wielded
+E 0 98903 0 12		*	A {Rblood-red{x tunic: about the shoulders
+M 0 98908 10 98937 1	* A darknight captain (A Captain's quarters)
+E 0 98918 0 16		*	A {RRuby{x-pommeled knightsword: wielded
+E 0 98944 0 5		*	A Runic {WSilver {xBreastplate: on the body
+E 0 98947 0 11		*	The Shield of the {RRed Eagle{x: as a shield
+E 0 98950 0 3		*	An Embroidered {WS{z{Rilver-line{z{Wd{z Cape: around the neck (1)
+E 0 98951 0 1		*	The Ring of {WIntertwined {DSerpents{x: on the left finger
+E 0 98942 0 17		*	A {DBlackened-{xBarbed Arrow: held in the hands
+M 0 98908 10 98938 1	* A darknight captain (A Captain's quarters)
+E 0 98918 0 16		*	A {RRuby{x-pommeled knightsword: wielded
+E 0 98944 0 5		*	A Runic {WSilver {xBreastplate: on the body
+E 0 98945 0 13		*	A {WS{Rilver-Line{Wd{x Sash: around the waist
+E 0 98946 0 6		*	A {RRed-Plumed {WSilver {xHelm: over the head
+E 0 98949 0 14		*	An Engraved {WS{Rilver-line{Wd{x Bracer: on the left wrist
+E 0 98943 0 17		*	An {MEthereal {xArrow: held in the hands
+M 0 98904 1 98939 1	* The darknight armorer (The {RFiery{W forge{x)
+G 0 98918 0		*	A {RRuby{x-pommeled knightsword
+G 0 98904 0		*	A polished steel knightsword
+G 0 98906 0		*	A {Dblack{x venomous knife
+G 0 98923 0		*	An axe forged of {BNevermelting{x {CIce{x
+M 0 98905 1 98940 1	* A dwarven armorer (The darknight armory)
+G 0 98902 0		*	A {Ygold-{Wskull {Dbreastplate{x
+G 0 98912 0		*	A giant {Ygold trimmed{D skull{x
+G 0 98913 0		*	{DDark legplates{x with a secret pocket
+G 0 98914 0		*	A {Wsteel-plated{x ogre skull
+G 0 98915 0		*	A {Dblack{Y gold trimmed{x brooch
+G 0 98916 0		*	A {Ygold trimmed {mpurple{x cloak
+M 0 98906 1 98941 1	* The Fletcher (The Firing Range)
+G 0 98942 0		*	A {DBlackened-{xBarbed Arrow
+G 0 98943 0		*	An {MEthereal {xArrow
+G 0 98941 0		*	A Bow of Hardened {ySap{x
+G 0 98990 0		*	A {WGoose{x-Feathered Shaft
+G 0 98996 0		*	A {WSilvery {xArrow
+G 0 99027 0		*	A {rBloody {xSpiked Bow
+G 0 99028 0		*	The Bow of Power
+M 0 98907 10 98942 1	* A drow mercenary (Pet Storeroom)
+O 0 98919 0 98947	* A stray book (The barracks)
+O 0 98920 0 98947	* A bookcase (The barracks)
+M 0 98911 1 98947 1	* The Mpcode dude (The barracks)
+M 0 98937 4 98958 2	* An evil cleric is here, chanting crazily at you! (The Unholy Temple)
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98935 0 16		*	an {GE{gm{Ge{gr{Ga{gl{Gd{x Tipped Flail: wielded
+E 0 98956 0 3		*	The Brooch of {DD{We{wa{Wt{Dh{x: around the neck (1)
+M 0 98942 4 98958 2	* an evil cleric (The Unholy Temple)
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98936 0 16		*	The {YBereos {xMace: wielded
+E 0 98956 0 3		*	The Brooch of {DD{We{wa{Wt{Dh{x: around the neck (1)
+O 0 99015 0 98959	* A huge stone table. (Alchemist's Study)
+O 0 99016 0 98959	* A thin vial full of {Rred bubbling {xliquid (Alchemist's Study)
+O 0 99017 0 98959	* A large flask filled with a {Bdeep blue {xliquid (Alchemist's Study)
+M 0 98938 4 98959 1	* A Wicked Alchemist (Alchemist's Study)
+E 0 98954 0 16		*	A {yGnarled Oak {xStaff: wielded
+E 0 98959 0 1		*	A Ring of {RFire{x: on the left finger
+E 0 98953 0 13		*	A {mSpell Component {xPouch: around the waist
+O 0 99018 0 98959	* A pile of steel scraps (Alchemist's Study)
+G 0 99016 0		*	A thin vial full of {Rred bubbling {xliquid
+G 0 99017 0		*	A large flask filled with a {Bdeep blue {xliquid
+M 0 98936 4 98960 1	* A {DBlack-Clad{x {DNe{Wcr{rom{Wan{Dcer{x (Necromancer's Study)
+O 0 99013 0 98960	* A scattered pile of bones (Necromancer's Study)
+E 0 98963 0 17		*	The {yBook {Wof {DNe{rcr{Wom{ran{Dcy{x: held in the hands
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98951 0 1		*	The Ring of {WIntertwined {DSerpents{x: on the left finger
+M 0 98939 4 98961 1	* A shapeshifter (A Shapeshifter's Abode)
+E 0 98955 0 16		*	A Blade of {MMagical {RFlame{x: wielded
+E 0 98961 0 1		*	A Ring of {BWater{x: on the left finger
+E 0 98958 0 2		*	A Band of {YLightning{x: on the right finger
+E 0 98962 0 7		*	{DBlack-Dyed{x Leather Breeches: on the legs
+O 0 99015 0 98962	* A huge stone table. (Alchemist's Study)
+O 0 99016 0 98962	* A thin vial full of {Rred bubbling {xliquid (Alchemist's Study)
+O 0 99017 0 98962	* A large flask filled with a {Bdeep blue {xliquid (Alchemist's Study)
+M 0 98938 4 98962 1	* A Wicked Alchemist (Alchemist's Study)
+E 0 98954 0 16		*	A {yGnarled Oak {xStaff: wielded
+E 0 98960 0 1		*	A Hoop of {yEarth{x: on the left finger
+E 0 98953 0 13		*	A {mSpell Component {xPouch: around the waist
+O 0 99018 0 98962	* A pile of steel scraps (Alchemist's Study)
+G 0 99016 0		*	A thin vial full of {Rred bubbling {xliquid
+G 0 99017 0		*	A large flask filled with a {Bdeep blue {xliquid
+M 0 98942 4 98963 1	* an evil cleric (A Room of Praying)
+E 0 98935 0 16		*	an {GE{gm{Ge{gr{Ga{gl{Gd{x Tipped Flail: wielded
+E 0 98956 0 3		*	The Brooch of {DD{We{wa{Wt{Dh{x: around the neck (1)
+E 0 98951 0 1		*	The Ring of {WIntertwined {DSerpents{x: on the left finger
+E 0 98958 0 2		*	A Band of {YLightning{x: on the right finger
+M 0 98936 4 98964 1	* A {DBlack-Clad{x {DNe{Wcr{rom{Wan{Dcer{x (Necromancer's Study)
+O 0 99013 0 98964	* A scattered pile of bones (Necromancer's Study)
+E 0 98963 0 17		*	The {yBook {Wof {DNe{rcr{Wom{ran{Dcy{x: held in the hands
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98951 0 1		*	The Ring of {WIntertwined {DSerpents{x: on the left finger
+M 0 98939 4 98965 1	* A shapeshifter (A Shapeshifter's Abode)
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98957 0 17		*	A Wand of {GCorrosive {gAcid{x: held in the hands
+E 0 98955 0 16		*	A Blade of {MMagical {RFlame{x: wielded
+E 0 98951 0 1		*	The Ring of {WIntertwined {DSerpents{x: on the left finger
+E 0 98959 0 2		*	A Ring of {RFire{x: on the right finger
+M 0 98942 4 98966 1	* an evil cleric (A Room of Praying)
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98955 0 16		*	A Blade of {MMagical {RFlame{x: wielded
+E 0 98961 0 1		*	A Ring of {BWater{x: on the left finger
+E 0 98956 0 3		*	The Brooch of {DD{We{wa{Wt{Dh{x: around the neck (1)
+M 0 98940 2 98967 1	* A Cackling Witch (Inside a Cauldron)
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98955 0 16		*	A Blade of {MMagical {RFlame{x: wielded
+E 0 98953 0 13		*	A {mSpell Component {xPouch: around the waist
+E 0 98951 0 1		*	The Ring of {WIntertwined {DSerpents{x: on the left finger
+M 0 98940 2 98968 1	* A Cackling Witch (Inside a Cauldron)
+E 0 98952 0 5		*	A {DBlack Unholy {xRobe: on the body
+E 0 98954 0 16		*	A {yGnarled Oak {xStaff: wielded
+E 0 98953 0 13		*	A {mSpell Component {xPouch: around the waist
+E 0 98960 0 1		*	A Hoop of {yEarth{x: on the left finger
+M 0 98921 20 98972 1	* An elite darknight (The Entrance to the Training Area)
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+E 0 98950 0 3		*	An Embroidered {WS{z{Rilver-line{z{Wd{z Cape: around the neck (1)
+E 0 98944 0 5		*	A Runic {WSilver {xBreastplate: on the body
+M 0 98921 20 98975 1	* An elite darknight (A Training Room)
+E 0 98918 0 16		*	A {RRuby{x-pommeled knightsword: wielded
+E 0 98949 0 14		*	An Engraved {WS{Rilver-line{Wd{x Bracer: on the left wrist
+E 0 98945 0 13		*	A {WS{Rilver-Line{Wd{x Sash: around the waist
+M 0 98908 20 98976 1	* A darknight captain (A Training Room)
+E 0 98918 0 16		*	A {RRuby{x-pommeled knightsword: wielded
+E 0 98949 0 14		*	An Engraved {WS{Rilver-line{Wd{x Bracer: on the left wrist
+E 0 98947 0 11		*	The Shield of the {RRed Eagle{x: as a shield
+M 0 98908 20 98979 1	* A darknight captain (A Training Room)
+M 0 98908 20 98980 1	* A darknight captain (An Office)
+E 0 98937 0 16		*	The Spear of {CBlue {WSteel{x: wielded
+E 0 98944 0 5		*	A Runic {WSilver {xBreastplate: on the body
+E 0 98946 0 6		*	A {RRed-Plumed {WSilver {xHelm: over the head
+M 0 98921 20 98981 1	* An elite darknight (The Center of the Training Area)
+E 0 98939 0 16		*	The {ySunburst {xHalberd: wielded
+E 0 98945 0 13		*	A {WS{Rilver-Line{Wd{x Sash: around the waist
+E 0 98950 0 3		*	An Embroidered {WS{z{Rilver-line{z{Wd{z Cape: around the neck (1)
+M 0 98908 20 98984 1	* A darknight captain (A Training Room)
+E 0 98937 0 16		*	The Spear of {CBlue {WSteel{x: wielded
+E 0 98940 0 20		*	A {CMithril {xHalf-{WMoon{x Axe: second wielded
+E 0 98946 0 6		*	A {RRed-Plumed {WSilver {xHelm: over the head
+M 0 98921 20 98986 1	* An elite darknight (A Storeroom)
+E 0 98937 0 16		*	The Spear of {CBlue {WSteel{x: wielded
+E 0 98950 0 3		*	An Embroidered {WS{z{Rilver-line{z{Wd{z Cape: around the neck (1)
+E 0 98949 0 14		*	An Engraved {WS{Rilver-line{Wd{x Bracer: on the left wrist
+M 0 99001 1 98989 1	* a messenger (The Outer Courtyard)
+M 0 98912 1 98991 1	* A Young Squire (The Stables)
+M 0 98909 1 98993 1	* A wrinkled old man (A Path from the Castle)
+M 0 98919 10 98995 1	* A darknight captain (The Top of the Staircase)
+E 0 98939 0 16		*	The {ySunburst {xHalberd: wielded
+E 0 98949 0 14		*	An Engraved {WS{Rilver-line{Wd{x Bracer: on the left wrist
+E 0 98950 0 3		*	An Embroidered {WS{z{Rilver-line{z{Wd{z Cape: around the neck (1)
+M 0 98921 20 98996 1	* An elite darknight (A Wide Hall)
+E 0 98945 0 13		*	A {WS{Rilver-Line{Wd{x Sash: around the waist
+E 0 98940 0 16		*	A {CMithril {xHalf-{WMoon{x Axe: wielded
+M 0 98922 20 98997 2	* The Darknight Guard (The Hallway)
+E 0 98967 0 16		*	a {Csmooth {csteel {yspear{x: wielded
+E 0 98973 0 13		*	A {DDarknights {xCrest: around the waist
+M 0 98943 20 98997 5	* The Darknight Guard (The Hallway)
+E 0 98967 0 16		*	a {Csmooth {csteel {yspear{x: wielded
+E 0 98973 0 5		*	A {DDarknights {xCrest: on the body
+M 0 98944 1 98997 1	* a {Ddarkblade assassin{x (The Hallway)
+E 0 99031 0 16		*	a {rbloody {Wi{cc{Ci{Wc{cl{Ce{x : wielded
+M 0 98922 20 98998 2	* The Darknight Guard (The Hallway)
+E 0 98969 0 16		*	a Heavy Steel Bardiche: wielded
+E 0 98974 0 6		*	A Spiked {CMithril {xHelm: over the head
+M 0 98943 20 98998 5	* The Darknight Guard (The Hallway)
+E 0 98969 0 16		*	a Heavy Steel Bardiche: wielded
+E 0 98974 0 6		*	A Spiked {CMithril {xHelm: over the head
+M 0 98922 20 98999 2	* The Darknight Guard (The Hallway)
+E 0 98966 0 16		*	A Carved Quarterstaff: wielded
+E 0 98973 0 13		*	A {DDarknights {xCrest: around the waist
+M 0 98922 20 99000 2	* The Darknight Guard (A Turn in the Hallway)
+E 0 98971 0 12		*	{DDark {CMithril {xChainmail: about the shoulders
+E 0 98967 0 16		*	a {Csmooth {csteel {yspear{x: wielded
+M 0 98943 20 99000 5	* The Darknight Guard (A Turn in the Hallway)
+E 0 98971 0 12		*	{DDark {CMithril {xChainmail: about the shoulders
+E 0 98967 0 16		*	a {Csmooth {csteel {yspear{x: wielded
+M 0 98922 20 99001 2	* The Darknight Guard (A Hallway Junction)
+E 0 98969 0 16		*	a Heavy Steel Bardiche: wielded
+E 0 98970 0 5		*	A {DBlack-Painted{C Mithril {xBreastplate: on the body
+M 0 98943 20 99001 5	* The Darknight Guard (A Hallway Junction)
+E 0 98969 0 16		*	a Heavy Steel Bardiche: wielded
+E 0 98970 0 5		*	A {DBlack-Painted{C Mithril {xBreastplate: on the body
+M 0 98922 20 99002 2	* The Darknight Guard (A Turn in the Hallway)
+E 0 98972 0 11		*	A Dented{C Mithril{x Tower Shield: as a shield
+E 0 98969 0 16		*	a Heavy Steel Bardiche: wielded
+O 0 98968 0 99003	* A Spear-Rack (The End of the Hall)
+P 0 98969 3 98968 3	* A Spear-Rack: a Heavy Steel Bardiche
+P 0 98969 3 98968 3	* A Spear-Rack: a Heavy Steel Bardiche
+P 0 98969 3 98968 3	* A Spear-Rack: a Heavy Steel Bardiche
+M 0 98922 3 99003 1	* The Darknight Guard (The End of the Hall)
+E 0 98966 0 16		*	A Carved Quarterstaff: wielded
+E 0 98974 0 6		*	A Spiked {CMithril {xHelm: over the head
+M 0 98917 1 99004 1	* Arakyan (Chamber of Arakyan)
+E 0 99024 0 6		*	{DThe {WHelm {Dof the {gGreen Dragon{x: over the head
+E 0 99023 0 7		*	{DThe {WLegplates {Dof the {yBrown Bear{x: on the legs
+E 0 99022 0 15		*	{DThe {WBracer {Dof the {wWhite Tiger{x: on the right wrist
+E 0 99022 0 14		*	{DThe {WBracer {Dof the {wWhite Tiger{x: on the left wrist
+E 0 99021 0 5		*	{DThe {WBreastplate {Dof the {yGo{Ylden {cHawk{x: on the body
+E 0 99025 0 16		*	{DThe {WMace {Dof {rUnholy {cSpirits{x: wielded
+M 0 98918 1 99004 1	* another mpcode dude! (Chamber of Arakyan)
+E 0 98934 0 0		*	the mpcode's light: as a light
+O 0 98964 0 99005	* A four-poster bed (Arakyan's Bedchamber)
+O 0 98965 0 99006	* A weapons crate (Arakyan's Weapon Room)
+P 0 98966 1 98965 1	* A weapons crate: A Carved Quarterstaff
+P 0 98967 1 98965 1	* A weapons crate: a {Csmooth {csteel {yspear{x
+M 0 98921 20 99007 1	* An elite darknight (A Cold Hallway)
+E 0 98944 0 5		*	A Runic {WSilver {xBreastplate: on the body
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+E 0 98947 0 11		*	The Shield of the {RRed Eagle{x: as a shield
+M 0 98908 10 99008 1	* A darknight captain (A Cold Hallway)
+E 0 98939 0 16		*	The {ySunburst {xHalberd: wielded
+E 0 98946 0 6		*	A {RRed-Plumed {WSilver {xHelm: over the head
+M 0 98915 10 99012 1	* The mpcode dude for the crumbling stair (The Crumbling Stair)
+M 0 98915 10 99013 1	* The mpcode dude for the crumbling stair (The Crumbling Stair)
+M 0 98915 10 99014 1	* The mpcode dude for the crumbling stair (The Crumbling Stair)
+M 0 98916 1 99015 1	* Another Mpcode dude (The Top of a Spire)
+O 0 99019 0 99020	* A huge pile of gold coins (The Room of {YTre{yas{Yure{x)
+O 0 99020 0 99020	* A {RJ{Me{Cw{Ge{Bl{W-Encrusted Dagger{x (The Room of {YTre{yas{Yure{x)
+O 0 98926 0 99026	* the pool of lava (A Pool of {rRed-Hot {YL{Ra{rv{Ya{x)
+P 0 98925 1 98926 1	* the pool of lava: A {rRusty {xKnife
+M 0 49 1 99030 1	* deathtrap (Oops)
+M 0 98910 20 99032 1	* a young centaur (An Overturned Wall)
+M 0 98924 10 99033 1	* a common brigand (Inside a Building)
+E 0 98985 0 8		*	Spacious Leather Boots: on the feet
+E 0 98925 0 16		*	A {rRusty {xKnife: wielded
+M 0 98927 5 99034 1	* an Apprentice Hunter (A Cluttered Path)
+E 0 98992 0 16		*	an enchanted {rcrimson{x claymore: wielded
+E 0 98986 0 1		*	A {DRat's {WJaw{x: on the left finger
+M 0 98924 10 99035 1	* a common brigand (A Cluttered Path)
+E 0 98994 0 16		*	The {CBlessed {WKnife{x: wielded
+E 0 98975 0 6		*	A Low-Brimmed Hat: over the head
+E 0 98982 0 9		*	Cushioned {yBrown {xGloves: on the hands
+M 0 98929 15 99036 1	* A Militia Soldier (An Opening in the Path)
+E 0 98940 0 16		*	A {CMithril {xHalf-{WMoon{x Axe: wielded
+E 0 98979 0 13		*	An {WEngraved {xWooden Scabbard: around the waist
+M 0 98930 10 99037 1	* a centaur warrior (In the Ruins)
+E 0 98935 0 16		*	an {GE{gm{Ge{gr{Ga{gl{Gd{x Tipped Flail: wielded
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+E 0 98975 0 6		*	A Low-Brimmed Hat: over the head
+M 0 98926 10 99038 1	* A Brave Explorer (In the Ruins)
+M 0 98910 15 99038 1	* a young centaur (In the Ruins)
+M 0 98929 15 99039 1	* A Militia Soldier (Under a Stone Shelter)
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+E 0 98985 0 8		*	Spacious Leather Boots: on the feet
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+M 0 98931 10 99040 1	* A Centaur Archer (Inside a Bush)
+E 0 98982 0 9		*	Cushioned {yBrown {xGloves: on the hands
+E 0 98975 0 6		*	A Low-Brimmed Hat: over the head
+M 0 98933 1 99040 1	* A bush mpcode man is here. (Inside a Bush)
+M 0 98929 10 99041 1	* A Militia Soldier (A Junction in the Cluttered Path)
+E 0 98991 0 16		*	A Weighted Fishing Rod: wielded
+E 0 98988 0 1		*	A Plain {YGol{Gd{Yen {xRing: on the left finger
+E 0 98979 0 13		*	An {WEngraved {xWooden Scabbard: around the waist
+E 0 98989 0 11		*	A {RPhoenix-Engraved {WIron {xBuckler: as a shield
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+M 0 98910 20 99043 2	* a young centaur (In the Ruins)
+M 0 98926 10 99043 1	* A Brave Explorer (In the Ruins)
+M 0 98930 15 99044 1	* a centaur warrior (In the Ruins)
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+M 0 98945 15 99044 2	* an Apprentice Hunter (In the Ruins)
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+M 0 98946 15 99044 1	* A Centaur Archer (In the Ruins)
+E 0 98982 0 9		*	Cushioned {yBrown {xGloves: on the hands
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+M 0 98931 15 99045 1	* A Centaur Archer (In the Ruins)
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+M 0 98945 15 99045 1	* an Apprentice Hunter (In the Ruins)
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+M 0 98923 1 99046 1	* A {gCam{youf{Dla{cged{x Huntress (In the Ruins)
+E 0 98977 0 3		*	A {gD{z{yy{z{De{z{cd{z Leather Cape: around the neck (1)
+E 0 98984 0 7		*	{gD{yy{De{cd {xLeather Breeches: on the legs
+M 0 98924 10 99047 1	* a common brigand (In the Ruins)
+E 0 98937 0 16		*	The Spear of {CBlue {WSteel{x: wielded
+E 0 98975 0 6		*	A Low-Brimmed Hat: over the head
+E 0 98980 0 5		*	Light Iron Chainmail: on the body
+M 0 98929 15 99048 1	* A Militia Soldier (In the Ruins)
+E 0 98979 0 13		*	An {WEngraved {xWooden Scabbard: around the waist
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+E 0 98982 0 9		*	Cushioned {yBrown {xGloves: on the hands
+M 0 98931 10 99049 1	* A Centaur Archer (In the Ruins)
+E 0 98976 0 3		*	The Quiver of the Hunter: around the neck (1)
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+M 0 98929 15 99050 1	* A Militia Soldier (In the Ruins)
+E 0 98979 0 13		*	An {WEngraved {xWooden Scabbard: around the waist
+E 0 98989 0 11		*	A {RPhoenix-Engraved {WIron {xBuckler: as a shield
+E 0 98991 0 16		*	A Weighted Fishing Rod: wielded
+M 0 98927 5 99051 1	* an Apprentice Hunter (In the Ruins)
+E 0 98976 0 3		*	The Quiver of the Hunter: around the neck (1)
+E 0 98996 0 17		*	A {WSilvery {xArrow: held in the hands
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+E 0 98981 0 14		*	The Bracelet of the {cHunter{x: on the left wrist
+M 0 98927 10 99052 1	* an Apprentice Hunter (In the Ruins)
+E 0 98987 0 0		*	A {rCharred {xTorch: as a light
+E 0 98981 0 14		*	The Bracelet of the {cHunter{x: on the left wrist
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+M 0 98945 15 99052 1	* an Apprentice Hunter (In the Ruins)
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+E 0 98981 0 10		*	The Bracelet of the {cHunter{x: on the arms
+M 0 98929 15 99053 1	* A Militia Soldier (In the Ruins)
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+E 0 98993 0 16		*	A Notched Sword-Breaker: wielded
+M 0 98925 1 99054 1	* A {gCam{youf{Dla{cged {xHunter (Approaching an Encampment)
+E 0 98977 0 3		*	A {gD{z{yy{z{De{z{cd{z Leather Cape: around the neck (1)
+E 0 98984 0 10		*	{gD{yy{De{cd {xLeather Breeches: on the arms
+E 0 98992 0 16		*	an enchanted {rcrimson{x claymore: wielded
+M 0 98910 20 99055 1	* a young centaur (In an Encampment)
+M 0 98926 10 99056 1	* A Brave Explorer (A Campsite)
+O 0 98927 0 99056	* A {rF{Rl{Ya{ym{Yi{Rn{rg {ylog{x (A Campsite)
+O 0 98948 0 99056	* A Sinuous Whip of {rF{Yi{Rr{re{x (A Campsite)
+O 0 99011 0 99056	* A Poorly-Camouflaged Tent (A Campsite)
+M 0 98930 15 99057 1	* a centaur warrior (In an Encampment)
+E 0 98982 0 9		*	Cushioned {yBrown {xGloves: on the hands
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+M 0 98946 15 99057 1	* A Centaur Archer (In an Encampment)
+E 0 98982 0 9		*	Cushioned {yBrown {xGloves: on the hands
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+M 0 98931 15 99058 1	* A Centaur Archer (In the Ruins)
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+E 0 98988 0 1		*	A Plain {YGol{Gd{Yen {xRing: on the left finger
+E 0 98990 0 17		*	A {WGoose{x-Feathered Shaft: held in the hands
+M 0 98927 5 99060 1	* an Apprentice Hunter (In the Ruins)
+E 0 98981 0 14		*	The Bracelet of the {cHunter{x: on the left wrist
+E 0 98987 0 0		*	A {rCharred {xTorch: as a light
+E 0 98992 0 16		*	an enchanted {rcrimson{x claymore: wielded
+M 0 98929 1 99061 1	* A Militia Soldier (In the Ruins)
+E 0 98993 0 16		*	A Notched Sword-Breaker: wielded
+E 0 98989 0 11		*	A {RPhoenix-Engraved {WIron {xBuckler: as a shield
+E 0 98979 0 13		*	An {WEngraved {xWooden Scabbard: around the waist
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+M 0 98924 10 99063 1	* a common brigand (In the Ruins)
+E 0 98994 0 16		*	The {CBlessed {WKnife{x: wielded
+E 0 98975 0 6		*	A Low-Brimmed Hat: over the head
+M 0 98929 1 99064 1	* A Militia Soldier (In an Encampment)
+E 0 98937 0 16		*	The Spear of {CBlue {WSteel{x: wielded
+E 0 98988 0 1		*	A Plain {YGol{Gd{Yen {xRing: on the left finger
+E 0 98985 0 8		*	Spacious Leather Boots: on the feet
+E 0 98989 0 11		*	A {RPhoenix-Engraved {WIron {xBuckler: as a shield
+E 0 98980 0 12		*	Light Iron Chainmail: about the shoulders
+O 0 99012 0 99065	* A Poorly-Camouflaged Tent (A Campsite)
+O 0 98927 0 99065	* A {rF{Rl{Ya{ym{Yi{Rn{rg {ylog{x (A Campsite)
+O 0 98948 0 99065	* A Sinuous Whip of {rF{Yi{Rr{re{x (A Campsite)
+M 0 98910 15 99066 1	* a young centaur (In an Encampment)
+M 0 98930 15 99067 1	* a centaur warrior (A Forgotten Path)
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+E 0 98976 0 3		*	The Quiver of the Hunter: around the neck (1)
+E 0 98938 0 16		*	The {DObsidian-Bladed{x Whip: wielded
+M 0 98926 10 99068 1	* A Brave Explorer (A Forgotten Path)
+E 0 98975 0 6		*	A Low-Brimmed Hat: over the head
+M 0 98931 10 99069 1	* A Centaur Archer (Outside A Regal Hut)
+E 0 98941 0 16		*	A Bow of Hardened {ySap{x: wielded
+E 0 98996 0 17		*	A {WSilvery {xArrow: held in the hands
+E 0 98976 0 3		*	The Quiver of the Hunter: around the neck (1)
+E 0 98978 0 5		*	A Padded Leather Vest: on the body
+M 0 98932 1 99070 1	* The Centaur Leader (In A Grand Hut)
+E 0 99006 0 0		*	A {RRed {xCentaur Banner: as a light
+E 0 99007 0 16		*	A Sharp {YGi{yl{Yded {xShortsword: wielded
+E 0 99008 0 5		*	A {WBreastplate{x of {yCentaur {CLegend{x: on the body
+E 0 99009 0 6		*	A {WHelm {xof {yCentaur {CLegend{x: over the head
+O 0 99026 0 99071	* A hose (The Forgotten Path)
+M 0 98934 1 99073 1	* The Dwarven Smithy (A Small Dwarven Cottage)
+M 0 98941 10 99085 1	* a prisoner (A Cell)
+M 0 98941 10 99086 1	* a prisoner (A Cell)
+M 0 98941 10 99087 1	* a prisoner (A Cell)
+M 0 98941 10 99088 1	* a prisoner (A Cell)
+M 0 98941 10 99089 1	* a prisoner (A Cell)
+M 0 98941 10 99090 1	* a prisoner (A Cell)
+M 0 98941 10 99091 1	* a prisoner (A Cell)
+M 0 98941 10 99092 1	* a prisoner (A Cell)
+M 0 98941 10 99093 1	* a prisoner (A Cell)
+M 0 98941 10 99094 1	* a prisoner (A Cell)
+M 0 98914 1 99099 1	* The {DU{Wn{Dd{We{Da{Wd {DKnight{x (The Chamber of the Undead Knight)
+E 0 98929 0 18		*	A {yCracked {DSkull{x: floating nearby
+E 0 98930 0 5		*	A Huge {WR{wi{Wb{wc{Wa{wg{We{x: on the body
+E 0 98931 0 16		*	{DThe {RSlayer {Dof the {CGods{x: wielded
+E 0 98932 0 20		*	{WA {DSharpened {gDragon-{wBone{x: second wielded
+E 0 98933 0 6		*	{DA {rbloody {Dhood{x: over the head
+S
+
+#SHOPS
+98904 0 0 0 0 0 100 19 0 23
+98905 0 0 0 0 0 100 10 0 23
+98906 0 0 0 0 0 100 11 0 23
+98938 0 0 0 0 0 100 17 0 23
+0
+
+#OLIMITS
+O 98995 1	* {WThe {CC{wr{Ce{ws{Cc{we{Cn{wt{Ce {WSword{x
+O 99030 1	* The {WSword {xof {DP{We{cr{Bf{Cec{Bt{ci{Wo{Dn{x
+S
+
+#MOBPROGS
+#98901
+if isimmort $n
+bow $n
+mob echoat $n The darknight guardian waves you inside, hoping no one else will notice.
+mob gtransfer $n 98906
+mob goto 98906
+mob echoaround $n $n has arrived.
+mob goto 98904
+else
+if level $n > 50
+mob echoat $n The darknight guardian sizes you up, and slowly backs away.
+mob echoat $n The darknight guardian stands back and allows you to proceed.
+mob echoaround $n The darknight guardian sizes $n up, and slowly backs away.
+mob echoaround $n The darknight stands back and allows $n to proceed.
+mob gtransfer $n 98906
+mob goto 98906
+mob echoaround $n $n has arrived.
+mob goto 98904
+else
+if isevil $n
+say We can always use fresh new squires from able soldiers as yourself.
+salute $n
+mob echoat $n The darknight guardian stands back and allows you to proceed.
+mob echoaround $n The darknight guardian stands back and allows $n to proceed.
+mob gtransfer $n 98906
+mob goto 98906
+mob echoaround $n $n has arrived.
+mob goto 98904
+else
+say Stand back! You are not allowed in here, wretched creature!
+mob echoat $n The darknight guardian spreads his arms and bars your way.
+mob echoaround $n The darknight guardian prevents $n from entering!
+endif
+~
+#98902
+if isimmort $n
+say Welcome, great one.
+bow $n
+end
+endif
+if isgood $n
+say What are you doing here! I shall show you how we at the Darknight Castle treat those of holiness!
+emote pulls his sword out of its scabbard and takes up a fighting stance.
+if affected $n flying
+if affected $n pass_door
+murder $n
+endif
+endif
+end
+endif
+if isevil $n
+pmote glances at $n out of the corner of his eye suspiciously.
+emote resumes pacing in front of the gate.
+end
+~
+#98903
+if isgood $n
+emote tilts his head slowly in $n's direction, and squints his eyes thoughtfully.
+say What is one of your purity doing here? You do not belong, leave now 'ere I sound the alarm!
+emote loosens his sword in his scabbard, and resumes his vigilance.
+end
+endif
+if isevil $n
+emote smiles wickedly, nods in $n's direction, and resumes his vigilance.
+end
+endif
+~
+#98904
+if isevil $n
+wink $n
+emote tosses his knife in the air, and catches it deftly.
+pmote looks questioningly at $n.
+say You wouldn't tell my superiors that I am goofing off would you?
+snicker
+end
+endif
+if isgood $n
+emote stands quickly.
+yell The pure shall be felled by my blade!!
+kill $n
+end
+endif
+~
+#98905
+~
+#98906
+mob echo You hear a great grinding noise, and then the bookcase slowly slides to the left, revealing a hidden tunnel!
+mob echo An invisible force pushes you inside the tunnel, and the bookcase slides back into place.
+mob gtransfer $n 98948
+mob goto 98948
+mob echoaround $n $n has arrived.
+mob goto 98947
+end
+~
+#98907
+emote holds his head in his hands.
+say Shoot! What was that password.....The captain will have my head!
+emote sits down and thinks deeply.
+end
+endif
+~
+#98908
+emote stands up sharply.
+say I got it! The Password is brightblade!
+smile
+end
+endif
+~
+#98909
+mob echoat $q The stairs are crumbling too fast! You fall down and land with a thud on the floor.
+mob echoaround $q The stairs are crumbling too fast for $q! $q falls down and lands with a thud on the floor.
+mob damage $q 30000 30001
+mob transfer $q 3054
+~
+#98910
+if rand 50
+mob echoat $n A huge gust of wind comes in from the west, and you lose your footing on the slippery shingles!
+mob echoaround $n A huge gust of wind comes in from the west, and $n loses $s footing on the slippery shingles!
+mob transfer $n 99016
+mob goto 99016
+mob echoaround $n $n lands flat on $s face, it seems $e fell from one of the high towers.
+mob goto 99015
+else
+if rand 50
+mob echoat $n A huge gust of wind comes in from the north, and you lose your footing on the slippery shingles!
+mob echoaround $n A huge gust of wind comes in from the north, and $n loses $s footing on the slippery shingles!
+mob transfer $n 98901
+mob goto 98901
+mob echoaround $n $n lands flat on $s face, it seems $e fell from one of the high towers.
+mob goto 99015
+else
+mob echoat $n A huge gust of wind comes in from the south, and you lose your footing on the slippery shingles!
+mob echoaround $n A huge gust of wind comes in from the south, and $n loses $s footing on the slippery shingles!
+mob transfer $n 98993
+mob goto 98993
+mob echoaround $n $n lands flat on $s face, it seems $e fell from one of the high towers.
+mob goto 99015
+endif
+end
+~
+#98911
+mob transfer $n 99016
+end
+~
+#98912
+if level $n == 91
+say Ah, finally a hero has mustered the courage to duel with the great Arakyan!
+say I admire your bravery, $n, but it is doubtful that you can best me in combat.
+grin
+endif
+~
+#98913
+say Excellent! I have long awaited a duel between us, $n.
+cast demonfire
+end
+~
+#98914
+mob remember arakyan
+if pos $q sleep
+mob affstrip $q
+mob force $q stand
+mob force $q grin
+mob force $q say You underestimate me! It is not that easy to subdue the great lord Arakyan!
+forget
+endif
+end
+~
+#98915
+if pos $i fight
+emote holds a ball of fire in his hand, and hurls it at you!
+mob cast hellfire
+end
+~
+#98916
+if pos $i fight
+mob echo A flaring red light appears in Arakyan's eyes suddenly!
+emote grins hellishly, and reaches toward you as if to consume you!
+cast demonfire
+end
+~
+#98917
+mob oload 98995
+mob echo The ground shivers and shakes, and from the corpse of the Centaur Leader a beautiful sword appears!
+~
+#98918
+mob echoat $n {gYou are scratched by the bush! Ow!{x
+mob echoaround $n {g$n is scratched by the bush! Ow!{x
+mob damage $n 25 26
+~
+#98938
+if rand 50
+if objhere 99016
+mob echo A large flask filled with a {Bdeep blue {xliquid starts bubbling violently!
+mob purge flask
+mob purge vial
+mob echo The vial and flask explode, engulfing the room in flame!!!
+yell NOOOOO!!!! my work!!!!
+mob echoat $n {RThe flames burn your flesh!! OWW!{x
+mob echoaround $n {RThe flames burn $n's flesh!! OWW!{x
+mob damage $n 500 501
+mob damage $i 500 501
+end
+endif
+endif
+if objhere 99018
+mob echo The {Bdeep blue {xliquid pours smoothly into the vial of {Rred bubbling {xliquid, and the liquid turns {Ybright gold{x!!
+mob echo With a loud *POP*, the steel on the table turns into gold!
+mob purge steel
+mob oload 99019
+yell Yes!!! it worked!!
+dance
+hug $n
+end
+endif
+~
+#98939
+if rand 80
+mob affstrip $i
+cast polymorph fire
+end
+endif
+if rand 80
+mob affstrip $i
+cast polymorph dark
+end
+endif
+if rand 80
+mob affstrip $i
+cast polymorph duergar
+end
+endif
+mob affstrip $i
+cast polymorph frost
+end
+endif
+~
+#98940
+if rand 85
+mob oload 100833
+~
+#98941
+if rand 85
+mob oload 100834
+~
+#98995
+if room $n == 98993
+say Hello young lad!
+mob echo gets a twinkle in his eye.
+say Would you like to hear a riddle?
+say Of course you would!
+say Two bodies have I,
+say Though both joined as one,
+say The stiller I stand,
+say The faster I run!
+say What am I?
+end
+endif
+if room $n == 99041
+say Hello there, how about another riddle?
+wink
+say What has a mouth but doesn't eat, what has a bed but doesn't sleep?
+end
+endif
+if room $n == 99053
+say Greetings, young one, this is the third riddle:
+say No sooner spoken it is broken. What is it?
+end
+endif
+if room $n == 99056
+say You are brave to have reached this far, young adventurer! Prepare for the fourth riddle.
+say Feed me and I live. Give me drink and I die. What am I?
+end
+endif
+if room $n == 99065
+say I see you have made it past the first four riddles, here is the fifth:
+say This is lighter than a feather, but no man can hold it for long:
+end
+endif
+if room $n == 99071
+say Impressive, lad, you have made it to the sixth riddle.
+say What lives in winter, dies in summer, and grows with its roots upward?
+end
+endif
+if room $n == 99048
+say Hello, and the seventh riddle is:
+say I pass before the sun, but I make no shadow. What am I?
+end
+endif
+if room $n == 99051
+say This is the eighth riddle, only one more after this!
+say The thing that runs but cannot walk, lacks arms but has hands, lacks a head, but has a face?
+end
+endif
+if room $n == 99040
+say The last riddle lad! You can do it!
+ruffle $n
+say Man walks over, man walks under, in times of war, he burns asunder?
+end
+endif
+if room $n == 3014
+wonder
+end
+endif
+~
+#98997
+if room $n == 98993
+say Excellent!
+say For your strength, I give you this.
+mob oload 98997
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99041
+end
+endif
+~
+#98998
+if room $n == 99041
+say Excellent!
+say For your wit, I give you this.
+mob oload 98998
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99053
+end
+endif
+~
+#98999
+if room $n == 99053
+say Excellent!
+say For your courage, I give you this.
+mob oload 98999
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99056
+end
+endif
+~
+#99000
+if room $n == 99056
+say Excellent!
+say For your intelligence, I give you this.
+mob oload 99000
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99065
+end
+endif
+~
+#99001
+if room $n == 99065
+say Excellent!
+say For your intuity, I give you this.
+mob oload 99001
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99071
+end
+endif
+~
+#99002
+if room $n == 99071
+say Excellent!
+say For your determination, I give you this.
+mob oload 99002
+give shard $n
+say I'll be moving on then.
+mob echo A wrinkled old man trudges off, leaning heavily on his stick.
+mob goto 99048
+end
+endif
+~
+#99003
+if room $n == 99048
+say Excellent!
+say For your bravery, I give you this.
+mob oload 99003
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99051
+end
+endif
+~
+#99004
+if room $n == 99051
+say Excellent!
+say For your perseverance, I give you this.
+mob oload 99004
+give shard $n
+say I'll be moving on then.
+mob echo trudges off, leaning heavily on his stick.
+mob goto 99040
+end
+endif
+~
+#99005
+if room $n == 99040
+say I am shocked!
+say You have done it, you have answered all of the riddles I know!
+say You are truly amazing, $n, and for YOU, I give you this.
+mob kneels, and presents you with the final shard.
+mob oload 99005
+give shard $n
+say I think I shall take some time off from adventuring, and maybe find some new riddles!
+mob echo trudges off, leaning heavily on his stick.
+mob goto 3014
+end
+endif
+~
+#99010
+say Thanks, lad! But I'll need all nine to forge ye somethin' nice.
+emote tosses the shard into a large pot.
+end
+~
+#99011
+say That was the last shard right? If it was, say done. If it wasn't, give me the rest and say done when yer, well...done.
+end
+~
+#99012
+if carries $i 'shardone'
+  if carries $i 'shardtwo'
+    if carries $i 'shardthree'
+      if carries $i 'shardfour'
+        if carries $i 'shardfive'
+          if carries $i 'shardsix'
+            if carries $i 'shardseven'
+              if carries $i 'shardeight'
+                 if carries $i 'shardnine'
+                  say I've got em all lad! Get that fire started!
+mob remember $n
+                  emote starts hammering furiously at the shards in the forge.
+                  mob delay 2
+                  end
+                  endif
+say That's not all of 'em lad, don't lie.
+                end
+                endif
+say That's not all of 'em lad, don't lie.
+              end
+              endif
+say That's not all of 'em lad, don't lie.
+            end
+            endif
+say That's not all of 'em lad, don't lie.
+          end
+          endif
+say That's not all of 'em lad, don't lie.
+        end
+        endif
+say That's not all of 'em lad, don't lie.
+      end
+      endif
+say That's not all of 'em lad, don't lie.
+    end
+    endif
+say That's not all of 'em lad, don't lie.
+  end
+  endif
+say That's not all of 'em lad, don't lie.
+~
+#99013
+emote holds up the most beautiful sword you have ever seen!
+'There it is, lad, all done.
+emote brushes himself off, and wipes some sweat off of his forehead.
+emote drops the sword, and it lands on the end of its hilt, blade balanced in the air.
+mob oload 99030
+drop sword
+say I'm off to practice the sword, lad!
+mob goto 99020
+mob drop all.shard
+mob junk all.shard
+end
+~
+#99014
+if mobhere skeletal
+end
+endif
+if objhere bonespile
+mob mload 98935
+mob echo A {DSk{Wel{Det{Wal {rWarrior {xspawns from a pile of bones on the ground.
+mob purge bonespile
+end
+endif
+~
+#99015
+mob force skeletal rescue $i
+grin
+end
+~
+#99016
+mob oload 99029
+end
+~
+#99017
+~
+#99018
+if carries $i 'perfection'
+mob purge perfection
+if isgood $n
+mob oload 99030
+endif
+mob oload 99030
+endif
+end
+~
+#99019
+mob remember $n
+~
+#99097
+if isgood $n
+say Good!
+end
+endif
+if isneutral $n
+say Neutral!
+end
+endif
+if isevil $n
+say Evil!
+end
+endif
+say odd...no alignment!
+~
+#99098
+if clan $n Shadow
+if carries $i 9800
+if carries $i 99099
+if carries $i 40999
+if carries $i 31095
+goto 99100
+mob transfer monanon 99005
+goto 99004
+say Bah. I can't believe someone foiled my scheme.
+emote points to the east.
+say He's in there.
+else
+say Heh! You haven't collected all the messages. I'll get my money, yet.
+endif
+else
+say Heh! You haven't collected all the messages. I'll get my money, yet.
+endif
+else
+say Heh! You haven't collected all the messages. I'll get my money, yet.
+endif
+endif
+mob junk letter
+mob junk letter
+mob junk letter
+mob junk letter
+~
+#99099
+if clan $n Shadow
+mob oload 99099
+else
+emote utters the words, 'yrus hallre'.
+mob echo A letter bursts into flames!
+endif
+~
+#99100
+if clan $n shadow
+say Oh. The crown.
+sigh
+I guess, since you rescued me...
+emote wears the crown of the elven monarchy on its head.
+mob junk crown
+mob echo The crown melds and molds, becoming one with his head.
+say I... I feel different...
+mob oload 99100
+say I... what... the orb...!?
+wield orb
+emote doubles over in pain.
+yell AAAAAGHHHHH!
+emote suddenly stops screaming.
+stand
+say I... must... kill...
+murder $n
+~
+#0
+
+#HELPS
+92 0 IMM REWARDS~
+This will be a list of guidelines for rewarding mortals for bug reports,
+typo reports, winning quests, etc.
+ 
+Typo Reports:
+10 qp OR 400 gold (any alt of their preference)
+Bonus: The player get up to their level in qps or 40x their level
+in gold if they rewrite the room description in an attractive
+manner.
+ 
+Bug Reports:
+Minor:
+Building errors, such as misplaced flags, improper weights, or other
+miscellanious detail-errors.
+15 qp OR 600 gold (any alt of their preference).
+Bonus:
+The player gets up to twice their level in qps or 80x their level
+in gold if they come across a sizeable mistake that inhibits the
+use of a significant portion of the area.
+ 
+Medium:
+Coding anomaly that affects a minor percentage of players.
+Building anomaly that significantly impacts PK situations.
+Coding anomaly that slightly impacts PK situations.
+30 qp OR 1200 gold (any alt of their preference).
+Bonus:
+The player gets up to 5x their level in qps or 200x their level
+in gold if they show uncommon dedication to the greater interest.
+(Note that those who abuse such things are infracting the rules.)
+ 
+Major:
+Coding anomaly that affects the majority of players.
+Building anomaly that was designed to unfairly grant PK
+advantage (I.E. Remnants of Thorel lingering)
+Any anomaly that results in the crash of the MUD.
+~
+-1 $~
+
+#$

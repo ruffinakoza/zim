@@ -1,0 +1,35 @@
+#RACE
+Name duergar~
+Aff infrared~
+Res poison disease~
+Vuln drowning~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Duerg~
+Points 250
+AgeModifier 50
+Class 'cleric' 110
+Class 'dark-knight' 100
+Class 'necromancer' 120
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 110
+Class 'thief' 100
+Class 'warlock' 120
+Class 'witch' 120
+Class 'warrior' 100
+BonusSkills 'berserk' 'pick lock'~
+Stats 60 40 45 55 55 50 50
+MaxStats 22 16 18 20 21 25 25
+Size medium
+HPBonus 25
+ManaBonus -10
+RestrictAlign evil~
+Slang dwarvish
+End
+
+#$

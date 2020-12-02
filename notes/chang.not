@@ -1,0 +1,1541 @@
+Sender  Zsuzsu~
+Date    Tue Apr 26 03:09:53 2005~
+Stamp   1114506593
+To      all~
+Subject Where are old {YCHANGES{x?~
+Text
+You can read the long list of older changes on the forum.
+   help {Yforum{x
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Thu May 12 15:51:26 2005~
+Stamp   1115934686
+To      all~
+Subject The {WBig {RClan {rShake{w-{rup{x~
+Text
+Okay Folks,
+
+   This is the big clan shake-up.  It's meant to help balancing and to
+   make it so non-clannies are competitive in PK.
+
+   {BPRIMARY CHANGES{x
+
+{W- {Gskills {D-{x all clan skills have been moved to different levels.
+        Generally, the more desirable the skill, the higher the level up
+        to approximately lvl 70 for the best of skills.
+
+{W- {Gpets {D-{x clannies cannot buy pets outside of a clan hall.
+
+{W- {Gskills {D-{x many skills that were completely unbalancing have
+        vanished.  Many others have been toned down.
+
+{W- {Gtrade {D-{x all clans are now required to either have an RP
+        obligation (Ruler/Sylvan) or give up an eq slot.
+
+{W- {Gwarlock {D-{x is no longer a clan.
+
+{W- {Gscion {D-{x is no longer a clan.
+
+{W- {GElidoDi {D-{x is a new mage clan based on the idea of using magic
+        to become gods.  All members must be Athiests.
+
+{W- {GNightfall {D-{x is an enslaver clan and only accepts evils.
+
+{YNOTE:{x details about clan skill changes are posted on the forum.
+
+   {BOTHER CHANGES{x
+
+{W- {Gtattoos {D-{x probabilities on several tattoos have been normalized
+        so that they go off in frequency  appropriate to their power.
+
+{W- {Gtattoo {D-{x demonfire toned down a little since the spell was
+        increased in power when given to evil clerics.
+
+{W- {Gdouble-grip {D-{x added feedback for when you double-grip something.
+
+{W- {Gtwohanded {D-{x fixed a bug where non-giants could dual wield with a
+        twohanded primary weapon.
+
+{W- {Glanguages {D-{x you now see the slang you speak if it is not common.
+        The same goes for the listener, even if they understand the
+        language.
+
+{W- {Gmatandra {D-{x holyword no longer affects goods.
+
+{W- {Gtravel spells {D-{x all travel-spells have a timeout that varies
+        depending on which class has the spell.  Witches get to
+        bop-around the fastest.
+
+{W- {Grangers {D-{x now have lions.
+
+{W- {Groom flags {D-{x {YA{xrena, {BP{xeace, and {MS{xafe room flags will
+        appear next to the room name if you walk into one of these rooms.
+
+   {BIMM CHANGES{x
+
+{W- {Gresets {D-{x no longer color bleed and are better formatted.
+
+{W- {Gofind {D-{x doesn't show closed areas by default, and now has a
+        bp percentage variable.  A weight range is also a variable.
+
+{W- {Gslang {D-{x IMMs can now speak slang, and no longer see "[common]"
+        when common is spoken.
+
+{W- {Gdarkvision {D-{x now actually works!
+
+okay, I think that's everything.
+ 
+{GZ{gz{x
+~
+Sender  Angelo~
+Date    Wed Jul  6 14:25:32 2005~
+Stamp   1120681532
+To      All~
+Subject Clanskill Secrecy~
+Text
+A while ago, Thorel enacted a rule that essentially said no clanmember can ever
+use his or her clan's skills to aid someone outside of the clan.
+ 
+After some discussion, Nalaeya and I have decided to declare the afforementioned
+rule dead.
+ 
+Essentially, if a clan member wants to aid a comrade outside his or her clan
+with their unique skills, this is A-OK, as long as it's RP-appropriate. To
+maintain some level of secrecy, however, explaining a clanskill's name, use
+and purpose in full detail is still a no-no. However, simply saying "My clan
+has a skill that can help us" or something similar while using it is acceptable.
+ 
+Clan leaders can put further restrictions on the use of their skills, at their
+own descretion.
+ 
+I encourage all clan leaders to post a note to their clans clarifying when and
+how their skills can be used outside of their clan.
+ 
+Angelo {BAkidu-Suto{z, {DGod of Darkness{z
+~
+Sender  Nalaeya~
+Date    Wed Jul 13 11:20:46 2005~
+Stamp   1121275246
+To      all~
+Subject clan guards~
+Text
+Until we get a healthier hero population, clan guards have been fixed to
+be easier to handle.  If you feel the guards are too strong/weak, or have
+any other feedback, feel free to write me a note and I'll see what I can do.
+
+The goal in this is to get clan raiding going again, and give clan members
+a bit more inspiration to hero up so they can better defend themselves.
+~
+Sender  Zsuzsu~
+Date    Mon Jul 18 00:52:39 2005~
+Stamp   1121669559
+To      all~
+Subject {MQ{muest {MP{moint{x: Inflation~
+Text
+Okay folks,
+ 
+   Due to an anticipated change in the quest system, where we will 
+institute a progressive quest point reward system, you can expect
+significant QP inflation in the next week or so.
+ 
+   This change is mostly going to be problematic for Heros.  Since QPs
+will be easier to earn at Hero, the costs of certain things will rise
+purportionaly.  The number of quest completes needed to purchase items
+will remain relatively the same for certain items (sam deaths, rugs, money,
+etc) but your existing QPs will lose purchasing power (inflation).
+ 
+   Therefore, we recommend you make whatever purchases you're expecting to
+make in the next week before the change happens.  If you are planning on
+purchasing a house, please declare that ASAP, so you can lock in the
+current price with your current QP total.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Tue Jul 19 11:46:59 2005~
+Stamp   1121795219
+To      all~
+Subject {BCON{x for the pros~
+Text
+Okay, folks, this is mostly bug fixes.
+
+- {GNEW{x -
+
+{r- {WAFK{x: the Away From Keyboard flag is back for mortals.
+
+{r- {WCON{x: Heros may buy CON from Questus, only when they've run out
+        of trains, and have less than max CON.
+
+{r- {WPets{x: clan pets are being balanced.
+
+{r- {WQuest Weapons{x: will be level 40, same as Katana
+
+- {GBUGS{x -
+
+{r-{x {WMaladiction{x: KOed players no longer wake to maladiction spells
+
+{r-{x {WClan Pets{x: clannies can now buy pets in clan halls.
+
+{r-{x {WCalm{x: now has feedback messages.  No longer calm affect to caster.
+
+{r-{x {WClan EQ{x: clan EQ restrictions are now in effect.
+        Shadow, Sentinel, and Knight can't wear "about body" items.
+        Chaos can't wear pants!
+
+{r-{x {WWitch Curse{x: witches now get messages when NPCs die.
+
+{r-{x {WMPKill{x: mobs set to kill players will no longer kill ghosts.
+
+{r-{x {WTypos{x: various typos for Crush & Magic Resistance spell.
+
+{GZ{gz{x
+~
+Sender  Shaelindra~
+Date    Thu Jul 21 18:15:35 2005~
+Stamp   1121991335
+To      sentinel~
+Subject Clanhall~
+Text
+You now have a door to your clanhall, as all clanhalls are supposed to have.
+ 
+Shaelindra
+~
+Sender  Zsuzsu~
+Date    Tue Jul 26 01:30:57 2005~
+Stamp   1122363057
+To      all~
+Subject {MQ{muest {MP{moint {WInflation{x~
+Text
+- {GNEW{x -
+
+{m- {MQuest Rewards{W:{x are now determined by level.  The higher your
+        level, the more quest points you get per quest.
+
+{m- {MQuest Items{W:{x there is a long description of prices and how
+        they compare with old prices on the {Yforum{x.  So check it out.
+        In short, quest items are cheaper under the new system.
+
+{m- {MQuest Amulet{W:{x is taking the place of the Quest Girth so that
+        the unique eq slot is freed up.
+
+{m- {MQuest Song{W:{x is much cheaper, and no longer has dam/hit bonuses.
+        This is mostly done so that low level PK isn't wacko, and because
+        we're trying to figure out what to do with the last remaining
+        quest item that takes a unique slot.
+
+{m- {MQuest Weapons{W:{x are being brought up to level 70 to justify
+        the incredible stats and damages some of them inflict.  Also
+        we want people to be looking for cool weapons longer.
+
+- {GFIXES{x -
+{m- {MSummon Zombie{W:{x is {Dtemporarily{x replacing {Wanimate dead.
+        We're doing this to see if it was causing the short-name bug.
+        There should be no need to practice this skill, as everyone
+        who has it gets a +100% bonus on it (even though you don't
+        see it.  If you waste a practice, it's your fault. {Y:-p{x
+
+{m- {MMirror{W:{x now has a cooldown.
+
+{m- {MKnight Sword{W:{x avg damage has been set equal to chaos blade.
+        These will prolly get a small boost later when I fix something
+        else that's not working the way we want it to.
+
+{m- {MPure sight{W:{x now has a sane duration.
+
+{m- {MImp_invis{W:{x you can no longer imp_invis your clan guard.
+
+{m- {MEnslave{W:{x now removes affects on enslavement, so blind people
+        can pick up their loot.
+
+{m- {M2nd death CON loss{W:{x lowbies will no longer lose CON on their
+        second death, but instead on their third as normal.
+
+- {GIMMs{x -
+
+{m- {MRoom Flags{W:{x we can now see roomflags in "look" to spot check.
+        Strange rooms.  You need to have proper security or be the
+        builder to see them.
+
+{m- {MArea Show{W:{x now displays reset message.
+
+{m- {MPK Deaths{W:{x a PK death counter has been added to the pfiles.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Wed Jul 27 07:57:59 2005~
+Stamp   1122472679
+To      all~
+Subject {CM{cedals {w& {YK{yudos{x~
+Text
+- {cNEW{x -
+
+{c- {Cpin medals{W:{x we now have a command "pin" which will mostly be used
+        by immortals to give you medals for large quests you participate
+        in.  You can see your medals, and other people's with the '{cmedals{x'
+        command. (help files soon)
+
+{c- {Cbestow{W:{x a similar command will be used for bestowing {RRP{x awards
+        on players.  You can see a list of your awards and others, wiht
+        the '{ckudos{x' command.
+
+- {cIMM{x -
+
+{c- {Cmedal{W:{x a new item type for, guess what, medals.
+
+{c- {Caward{W:{x another new item type.  v0 selects what kind of award.
+        v1 is the 'value' of the award.
+       
+The interesting thing about these two commands is that they can be used
+by mortals.  So, we might be giving the medals to the Rulers to pin on
+people for defense of a town, or maybe give it to your clan leader for
+other heroic deeds.
+
+Note: there is no game-play value to these items except to differ the cost
+of Hero houses.  Really, they're meant for RP and bragging rights. {Y:){x
+
+In the next few days, I'll be handing out RP awards to people who have won
+them in the past (I have a list).
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Wed Jul 27 14:48:09 2005~
+Stamp   1122497289
+To      imm~
+Subject {yMOB{x: attributes~
+Text
+Okay folks,
+ 
+   I added "Attributes" to the mob editor.  There are two right now:
+       {Wnoquest{x - for mobs that questus shouldn't assign
+       {Wnofind{x  - for imm quest mobs so EoI and "hunt" don't work.
+ 
+   Also, I fixed the "nosac" bug, where an "extra_flag" of "nosac" didn't
+do anything.  Please use it instead of the "wear nosac", which is dumb.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Fri Jul 29 23:30:00 2005~
+Stamp   1122701400
+To      all~
+Subject {MC{mh{Ma{mr{Mm {CSOOPER {Ynerf{x~
+Text
+Okay folks,
+ 
+   For a long time it has been an unwritten rule that you were not to use
+charm as a death sentence.  It really isn't meant to be that powerful.
+And it certainly isn't meant to empty someone's bank account or cost them
+quest points.  It's mostly meant for you to get an advantage, or make
+someone look silly.
+ 
+   Unfortunately, we weren't having a great time encouraging this type
+of usage.  So, I've added some safe-guards in the code.  Here's what's
+new:
+ 
+  {r*{x) {WThe number of commands you can order a PC to do are limited{x
+  {r*{x) {WYou will receive feedback if they won't respond to a command{x
+  {r*{x) {WAUTOASSIST will be automatically turned off when you get charmed{x
+  {r*{x) {WIf the charmed is attacked or takes damage the charm is broken{x
+ 
+What's generally allowed:
+ 
+  {r*{x) {Wcommunication commands except ooc and newbie
+  {r*{x) {Wgiving someone all your gold or things in your inventory.{x
+  {r*{x) {Wsleep, sit, rest, wake, etc{x
+ 
+The command list is pretty short, and if we feel the need we will expand it.
+I'm sure there are still ways to totally own someone with charm, and if
+you find one please report it, and if I can I'll do something about it.
+But please, do NOT exploit it.
+ 
+Thanks for your understanding,
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Sat Jul 30 02:19:25 2005~
+Stamp   1122711565
+To      imm~
+Subject {Ynew{x Mob Prog Checks~
+Text
+As requested:
+ 
+   {g* {Gif isonquest $n{x - for detecting if they are on a quest (duh).
+   {g* {Gif isquestcomplete $n{x - has the quest been completed?
+   {g* {Gif hometown $n Midgaard{x - compare hometowns.
+ 
+Oh and,
+   {g* {Gplayers under lvl 5 don't get hungry/thirsty{x - for those who really
+      read the newbie school descriptions!
+ 
+{GZ{gz{x
+~
+Sender  Shaelindra~
+Date    Sat Aug  6 11:44:06 2005~
+Stamp   1123350246
+To      ElidoDi~
+Subject helpfile~
+Text
+The helpfile for the clan Elido Di has been updated.  Sorry that it
+didn't happen sooner, with the shifting of servers, changing in the internal
+structure of immortals, that task had been shuffled under some papers.  
+ 
+Any further changes in the helpfile must first go through active leader of
+Elido Di.
+ 
+Shaelindra
+~
+Sender  Zsuzsu~
+Date    Tue Aug 16 04:11:45 2005~
+Stamp   1124187105
+To      imm~
+Subject {GBUG{mGIES{x and BP~
+Text
+Okay Immies,
+ 
+   Just fixed a few little odds & ends that have been bugging me/us.
+ 
+* can't dual wield 2H stuff if you aren't a big'n anymore
+ 
+* I fixed the autoweapon in OLC so it promotes greater variablity in
+  damage rolls (bigger dice-size, fewer dice rolls).  All weapons have
+  been changed.
+ 
+* Avg damage for weapons is now calculated into the BP cost.  This is an
+  approximiate, so please use it as a guideline, not justification for
+  sooper weapons or anything.
+ 
+* granularity for BP colors has increased a bit:
+  {r+100{x%, {R90{x%, {Y75{x%, {G50{x%, {b25{x%, {g1{x%, {y0{x, {Dless than 0{x
+ 
+* since we have longer uptimes, I've added a "trash compactor" feature to
+  the donation pits.  The "cost" of the pit determines intervals between
+  purging the items.  0 means don't purge.  The items are pruged according
+  to their level.  The higher level the item, the more chance it evaporates.
+  The counter on pits is rest to plus a few hours if someone's corpse goes
+  there.
+ 
+* PC corpses no longer decay while being held by an IMM.  This means, that
+  there is {rNO RUSH TO EAT SOMEONE{x.  You can slay them, and hold their
+  corpse forever while they make up lies on how they didn't cheat. {Y;){x
+ 
+* You can no longer auction noremove, nouncurse and nodrop items.  This
+  was kinda wigging out some newbies that bought things unawares.  Besides
+  it's a cheap out.
+ 
+* hmm, I'm sure I forgot something, but that's all I can remember now.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Fri Sep  2 12:59:07 2005~
+Stamp   1125687547
+To      all~
+Subject {YTRUE LIFE{x and {gWorld Affects{x!~
+Text
+Okay, I spend 15hrs on a train last week, so I got some changes done for
+you guys.
+ 
+{YNEW{x
+
+{c- {CTRUE LIFER{x - a 'hardcore' account type for players still looking
+        for the ultimate challenge.  One Life, One death.  How long can
+        you survive?
+
+{c- {CWORLD AFFECTS{x - affects that can be applied to the world or just
+        a specific area.  Types include: {gexp bonus{x, {gPvP damage
+        modifiers{x, {gauction on/off{x, {gfree for all (FFA - no PK
+        range limits){x, {gPvM damage modifiers{x, and more!  Use the 
+        command {CWAFF{x to see what's currently active.
+
+{c- {CGroup EXP{x - since groups blow through higher level mobs faster,
+        they shouldn't get the same exp for the mob, instead they will
+        split the exp between them according to level, and be awarded 
+        up to a 20% bonus for grouping.
+
+{c- {Clowbie lights{x - lowbie lights don't expire.  Too many poeple
+        actually _reading_ the newbie area descrips found themselves
+        in the dark, rather than enlightened. {Y;){x
+
+{c- {Cnew vs newbie{x - people new to the realm, but not "newbies" will
+        receive a welcome message.  "Newbie protection" is seperate
+        choice at character creation.
+
+{c- {Carean fights{x - no longer get passdoor on death.  No longer
+        disbands your pets (yeah, necros!).  Now does "quest quit"
+        for you.  (so you don't get a free fly from an arena battle)
+
+{YBUG FIXES{x
+
+{c- {CCharmies & EXP{x - Warlock and Witch charmies don't affect EXP gain.
+
+{c- {CKill vs Target{x - kill <victim> while in a fight no longer changes
+        your target.  The samurai skill "target" does this.
+
+{c- {CFailed Trip{x - failed trip now initiates combat.
+
+{c- {CUnghost{x - I think the fly+passdoor after unghost bug is fixed.
+        Please report any new encounter with this bug.
+
+{c- {CNo Quest at 69{x - fixed, I think.  Please report if it's still
+        happening.
+
+{c- {CQUEST TIMER BUG{x - fixed, I think.  Please report if it's still
+        happening.
+
+{YIMM ONLY{x
+
+{c- {CInform{x - new command to force someone to read a helpfile.  Be
+        sure the helpfile actually exists first. {Y;){x
+
+{c- {CMOBdeaths{x - fixed/added to WIZNET
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Sun Sep  4 14:26:07 2005~
+Stamp   1125865567
+To      all~
+Subject {RBAD {rBreath{x~
+Text
+-={YNEW{x=-
+
+{r- {RFFA Room Flag{x - Free for All room flag. Designated by [{rF{x]
+        Not every FFA room is an Arena room, so be careful!
+
+{r- {RHumming{x - you an now see Humming flagged items, even if blind.
+
+{r- {RVulnerability{x - now only does +33% damage, instead of +50%
+        Should make felars a bit more viable.
+
+-={YBUGS{x=-
+
+{r- {RGuards{x - now prefer Rulers of all alignments, and should go after
+        the more evil of the people in a brawl.  Or the higher level on.
+
+{r- {RBreath Attack{x - now does different damage to NPCs and PCs.
+        This should help survivability, though I wouldn't bet on it. {Y;){x
+
+-={YIMMs ONLY{x=-
+
+{r- {Rpet_weaponed{x - flag, for pets that can wield weapons.
+
+{r- {Rpet_armored{x - flag, for pets that can wear armor.
+
+{r- {Raggro_relative{x - mobs that only attack in PK range.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Tue Sep  6 15:29:50 2005~
+Stamp   1126042190
+To      all~
+Subject {DPK {rScalps{x~
+Text
+Okay, this one is for the PKers in the house!
+(and also for proof of Shadow hits)
+ 
+-={RNEW{x=-
+
+{D- {rscalps{x - at level 10 everyone now can learn "scalp".  This skill
+        does just what it sounds like.  Scalps can only be taken from
+        Player corpse if {Wyou{x made the kill (or your pet).  If you
+        'examine' the scalp you will see some information about the
+        kill (sorry about the OOC date).
+
+        Also, the scalps can be 'pin'ed on you.  And others can view
+        them with the 'medals' command.  This will also make them
+        unlootable for the time being.
+
+-={RBUGS{x=-
+
+{D- {rcamo{x - can no longer maintain camo if you portal into a
+        non-forest room.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Thu Sep  8 14:11:54 2005~
+Stamp   1126210314
+To      all~
+Subject {Y2{x - new areas {MCloudy Mts{x & {yShoalin Temple{x~
+Text
+Thanks to Aamon and Shaelindra, two new areas have been made available:
+ 
+{MCloudy Mountains{x - the clouds around Anon Village have been making
+rather odd shapes in the sky.  The local shaman has looked into the matter
+and after consulting the ancient spirit of the hawk, has found that the 
+mountainside near down hosts a strange town full of dragon-like people.  So
+far no villager, even the Village Champion, has been brave enough to 
+venture into it.
+Levels: 45-91
+ 
+{yShoalin Temple{x - students of the Yun Fei Yang have stumbled on the
+possible source of the monk's insight into the martial arts.  A secret
+passage has been descovered in the Emerald Forest that leads to a 
+mountain-top sanctuary and school of the Shoalin sect.
+Levels: 15-21
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Thu Sep  8 14:44:00 2005~
+Stamp   1126212240
+To      all~
+Subject {WOld{x area {MNew{x - {gGoblin {yStronghold{x~
+Text
+Thanks to Shaelindra for making this ready:
+ 
+{gGoblin {yStronghold{x - the plague that closed King Grumm's stronghold
+has lifted and the goblins have retaken their old fortress in hopes of
+terrorizing the surrounding area once more!
+Levels: 10-20
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Sun Sep 11 02:13:50 2005~
+Stamp   1126426430
+To      all~
+Subject {GEXP {gaffects bonus. {GYipee!{x~
+Text
+Okay, folks.  Due to popular demand, we bring you EXP bonuses, for
+those nasty mobs with their damage shields and other fiendish ways.
+This should mostly help out higher level players who tackle tougher
+baddies.
+
+-={GNEW{x=-
+
+{G- {gmore EXP{x - you now get more experience points from mobs with
+        made harder due to sanctuary/shroud/mini, "ACT_WARRIOR"
+        spell casters mobs and dragon breathing mobs.  Bonuses range
+        from 15% to 35% (plus 1 to 4 levels) and are {Gcumulative{x. 
+        {Yo_O{x
+
+{G- {gmedals/kudos{x - an indicator has been added to "look" so that
+        it shows you if someone has a medals or awards.
+
+-={GBUGS{x=-
+
+{G- {gdeadly blow{x - is now fixed and does correct damage.
+
+{G- {gmedals{x - fixed.  you should be able to 'pin' them w/o problem.
+        Old invasion medals needed to be pOOfed.  I need to make new
+        ones so you can pin them.
+
+{G- {gkatana{x - damage dice are fixed so as not to create huge extremes
+        which, when compounded with 'master sword' were doing crazy
+        damage.  Instead, avg is the same, but max damage is lower.
+
+-={GIMMS{x=-
+
+{G- {gpenalties{x - avatars should now see new penalties.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Mon Sep 12 23:47:56 2005~
+Stamp   1126590476
+To      all~
+Subject {yHalf-Orcs{x and {yTrade{x~
+Text
+Okay, folks, just some minor things.
+
+-={YNEW{x=-
+
+{Y- {yHalf-Orcs{x - now a selectable race.  Any align, cleric,
+        warrior, anti-paladin, thief, ranger.  They prolly aren't
+        very good choices for a bunch of those, but playing one
+        should be fun.
+
+{Y- {yHalfing Samurai{x - an idea silly enough to be good!
+
+{Y- {yTrade{x - the auction channel is being replaced by the "trade"
+        channel.  Use the command "offer" to talk on it.  (or turn
+        it off).
+
+-={YBUGS{x=-
+
+{Y- {ydead lights{x - vampires no longer suffer from dead lights.
+
+{Y- {yrings{x - rings that were set incorrectly as "armor" are now
+        of jewelery type.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Thu Oct  6 16:43:46 2005~
+Stamp   1128638626
+To      all~
+Subject group {Wexp multiplier{x back~
+Text
+Okay folks,
+ 
+   While removing the group exp multiplier was logically sound, it didn't
+seem to work very well with our current structure.  And so, I've re-added
+the group exp multiplier.
+ 
+   You should once again get the same amount of exp grouped as solo per mob.
+ 
+{GZ{gz{x
+~
+Sender  Shaelindra~
+Date    Sat Oct 15 23:30:37 2005~
+Stamp   1129440637
+To      sylvan~
+Subject Sylvan Entrance~
+Text
+Your entrance has been fixed insofar as a door was added,
+and the proper procedures so that you can get in and out of
+your clanhall, in addition to other people being able to
+get in and out of your clanhall.
+ 
+What isn't common knowledge, however, is that no matter what
+status someone's sneakiness is, non-Sylvans will have a message
+as they exit the clanhall on either side of the exit.
+ 
+Sylvans will not leave a message for others to see.
+ 
+Shae
+~
+Sender  Zsuzsu~
+Date    Sat Nov 26 00:45:39 2005~
+Stamp   1132991139
+To      all~
+Subject {rUsage based Limiteds{R!{x~
+Text
+Okay, folks, I finally got time to complete the usage code.
+
+{r-={RNEW{r=-{x
+
+{r- {RArtifacts{x - new command that tells you how many artifacts
+        you can take into the astral plane with you. (aka limiteds)
+
+{r- {RRepossession{x - artifacts are now repossessed daily by, well,
+        a mysterious entity who seems to leave perfumed notes
+        behind.
+
+{r  {R1{rst {Rrepossession netted {W92 {rartifacts{R resting with {W52{r dead-beats{x
+   One player had 25 artifacts on 11 alts, with a total of 10hrs of play time
+   last month . . . total!{x  sheesh.
+
+{r- {RClan Activity{x - you can now see who of your clanmates is
+        active, and who is a dead-beat.  {rKIA{x means deleted.
+        The others show activity progression over the last 10 days:
+        {DMIA {gMIA AWOL POOR SEMI ACTIVE HYPER{x {Y:){x
+
+{r-={RBUGS{r=-{x
+
+{r- {RMedals{x - medals and awards should no longer need to be pinned
+        after you log in. (you'll need to do it one last time, though)
+
+{r- {REars{x - should no longer take up weight when pinned.
+
+{r- {RMobKill{x - Mobs that attack because of MPCode will no longer be
+        aggro to ghosts.
+
+{r-={RIMMS{r=-{x
+
+{r- {RPData{x - new command shows persistant data for characters offline.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Sat Dec  3 07:47:41 2005~
+Stamp   1133621261
+To      all~
+Subject artifacts & {rdowntime{x~
+Text
+Okay folks,
+ 
+Quick change:  Your artifact allowance is now adjusted for server uptime.
+If the server goes kaput, it shouldn't be your problem that you can't
+log in.  Also, if the network connect goes p00f, but the server stays
+up, this will also count as "server-downtime" as far as artifacts go.
+ 
+On a minor note, you should be able to re-fill lights with the spell,
+though the scroll isn't fixed yet.
+ 
+{GZ{gz{x
+~
+Sender  Shaelindra~
+Date    Tue Feb  7 17:17:38 2006~
+Stamp   1139354258
+To      knight imm~
+Subject pets~
+Text
+Because there are Knights simply STEALING horses out of the stables, (FOR
+SHAME!)  , I've permanently removed access to the stables.  So.  Buy your
+horses from now on.  
+ 
+Shae
+~
+Sender  Zsuzsu~
+Date    Sat Feb 11 03:34:39 2006~
+Stamp   1139650479
+To      all~
+Subject {R Bushido, Cloud Giants, and Arenas{x~
+Text
+{r-={WNEW{r=-{x
+
+{r- {Rsvirfneblin{x - have found satanically incline members among them.
+        This oddly comes at a time when the svirfneblin find themselves
+        physically tougher against blunt weapons, but have lost their
+        secret resistance to the arcane arts.
+
+{r- {Rcloud giants{x - warriors from around the realm have disseminated
+        a new battle technique against these foes that allows blades
+        to slice through their protective skin.  The thieves guild
+        has studied this and found a way to inflict a great deal of
+        harm with piercing weapons.  Blunt weapons still seem to have
+        a deadened affect against the cushy hide of these giants.
+
+{r- {Rhonor{x - samurai bushido is being taken more seriously than ever.
+        No longer will samurai lose face (Charisma) through honorable
+        death.  But instead will occationally lose respect when they
+        prove themselves a coward on the battle field.  Regaining their
+        honor will begin them on the path to restoring their reputation.
+        Dishonor against like souls will truely bring them shame.
+
+{r- {Rarena{x - the rules of arena battles have changed due to
+        Lord Gelnai taking control of the tournament council.  No
+        longer will fights be to the seeming death, but instead
+        when one is defeated they will be wisked to their temple
+        fully clothed.  Unfortunately, this will still leave them
+        quite vulnerable at the moment of defeat.
+
+{r- {Rdeath{x - many warriors have reported that the trauma of death
+        has left them disoriented for a bit.  No longer do ghosts
+        rise up immediately after the corpse has fallen.  Some have
+        used this time to take greater care in scalping ears off
+        of dead men.
+
+{r- {Rcharms{x - only the force of will and beauty of those casting
+        charming incantations will affect the strenght of the spell.
+        If you're ugly you have no more to fear than the pretty.
+
+{r- {Rdissent{x - those affected by murderous dissent have a greater
+        chance to resist the charms of others due to their anti-social
+        dispossition.  Wizards will find that their charms have a
+        chance of overpowering weaker dissention, and might cancel it.
+
+{r- {RKIA{x - clan rosters now report departed members as {rRIP{x.
+
+{r- {Rtrust{x - trusting people is a delicate matter.  Some in the
+        realm have decided they only trust people who think like
+        they do regarding moral issues.
+
+{r-={WBUGS{r=-{x
+
+{r- {Rusage{x - you no longer have to re-login if you are disconnected.
+
+{r- {Rhomonym{x - similarly named people shouldn't mix usage times.
+
+{r- {Rshroud{x - 'enhanced armor' and 'shroud' no longer stack. o_O
+
+{r- {Rexcalibur{x - no longer gives infinite silver on saccing.
+
+{r- {Rcurses{x - cursed mobs no longer recall with owners.
+
+{r- {Rrequest{x - can't 'request' from a charmed mob.
+
+{r- {Rcityguards{x - can't attack what they can't see.
+
+{r- {Ract flag{x - wasn't really giving good exp for Sanc etc.
+
+{r- {Ratheist{x - spelling corrected.
+
+{r- {Rwaff pvp{x - now affects pets.
+
+{r- {Rpet_eq{x - restrictions on pet EQ now active.
+
+{r- {Rhand2hand{x - hand to hand damage should be MUCH less, except for ninja.
+
+{r- {Rvamipirc{x - vampiric weapon 'heal' was excessive against mobs.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Sat Feb 11 03:44:52 2006~
+Stamp   1139651092
+To      imm~
+Subject {gSector Flags{x~
+Text
+Imms,
+   I've added Sector flags to the [ ] in the room desc.  If you can't
+figure out what they mean, try changing the room to sort it out.
+ 
+   I've also made a prompt item for sector flags %T (terrain).  But
+I haven't told the morts about it because sooooo many of the sectors
+are screwed up.  {WDo NOT tell the morts about the prompt thing.{x  But
+if you want to use it on your morts go ahead.  Please use it to find
+trouble spots to change stoopid flags.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Wed Feb 15 22:33:35 2006~
+Stamp   1140064415
+To      all~
+Subject {WRaces{x~
+Text
+{D-{x={W[ {xNEW {W]{x={D-{x
+
+{D- {Wsvirfneblin{x - those of darker souls have infultrated the ranks
+        of the darknights, and have delved into the ways of necromancy.
+
+
+{D-{x={W[ {xBUGS {W]{x={D-{x
+
+{D- {Wsamurai{x - no longer get free deaths.  (hope you enjoyed it)
+
+{D- {Whand2hand{x - has been adjusted again, hopefully for the better.
+
+{D- {Wpets{x - no longer suck exp if you get them for your _class_.
+
+
+{D-{x={W[ {xIMMS {W]{x={D-{x
+
+{D- {Wraces{x - I've written an OLC race editor.  These are the default
+        settings for when you set the mob to that race.  Let me know
+        if you spot any bugs.
+
+{D- {Wdodge{x - skill can now be set for NPCs on a race level, and mob
+        level.  I think the default is 70 (35% of the time).
+
+{D- {Wmob edit{x - there are a few fields that were invisible before.
+        I now have them shown because I don't think many knew about them.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Sun Feb 26 14:01:58 2006~
+Stamp   1140984118
+To      all~
+Subject The {Droad{x less {ytravelled{x~
+Text
+{y-={YNEW{y=-{x
+
+{Y- {yterrain{x - Wise adventurers are now taking greater notice of the
+        type of terrain around them, in order to tailor their strategies
+        to their environs.  Notably, samurai and warriors take great
+        care not to fight over watery lands.  {D(a new prompt %T shows
+        you the terrain of the room you are standing in.  If you notice
+        something really out of wack, please notify the IMMs){x
+
+{Y- {yeconomy{x - The munificence of King Equinicous the IV, and his
+        reluctance to leavy a stiff tax on the kingdom, has run his
+        coffers dry.  The questors in particular have suffered the brunt
+        of this and find their pockets empty.  They only rewards they can
+        offer are those of the King's favor.  Rumors about of a drastic
+        increase in muggings in the realm.  Beware of highwaymen.
+        them and how it affects their battle strategies.
+
+{Y- {yinvisible war{x - The stalemate between the practicioners of the
+        illusionary arts, and the arts of divination has been broken.
+        New research has found a way for the simple cantrip of invisibility
+        to now mask the user from those able to see them.  The more powerful
+        way to cast this spell is now making it's way around the realm.
+        It seems that the greater the mages' illusionary skill the easier
+        it is for him to hid from weaker detection skills.  The divination
+        schools are desperately working to regain their dominance over
+        the invisible arts.
+        {D(invisibility is now level dependant on the spell (not the user)
+        as is detect invisibility.  Those classes with these skills will
+        receive a bonus to their detection or invis level.  Those with
+        higher intelligence will also get a bonus.  Mass invisibility
+        is not as powerful as the single spell){x
+
+{Y- {yintentions{x - Faith in the land seems to be waining.  And moral
+        commitment seems less obvious than before.  No longer are people
+        able to gaze into each other's eyes and tell the path they follow.
+        {D(consider no longer reports moral disposition for PCs){x
+
+{Y- {ymementos{x - the Auctioneer is now considering selling mementos as
+        the market for ears seems to be ripe.
+
+{Y- {yinterlopers{x - when interlopers are laying seige to a clanhall the
+        clan will have trouble summoning re-enforcements. {D(when a
+        person not belonging to a clan is in a clan-area the area will
+        not repop){x
+
+{Y- {yElidoDi{x - more followers have dedicated themselves to worshiping
+        the new 'gods'.  When atheists pray they do so to ElidoDi.
+
+{y-={YBUGS{y=-{x
+
+{Y- {yKO prayer{x - you can no longer pray when KOed.
+
+{y-={YIMMS{y=-{x
+
+{Y- {yrooms{x = alist rooms now color code vnums by sector.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Mon Mar  6 22:44:37 2006~
+Stamp   1141706677
+To      all~
+Subject The {Dun{w-{Wueber{Y changes{x~
+Text
+{D-{w={W[ {xNEW {W]{w={D-{x
+
+{D- {Wlearning curve{x - students around the realm have noticed that just
+        learned skills are much harder to master than when they've
+        advanced in their profession a bit more.  Those, some teachers
+        find that their most intelligent students aren't hitting the books
+        as often as before.  {D(when you first get a skill it is hard to
+        master, this gets easier when you gain a few levels on the skill)
+        [note: this fixes the bug of the last week too]{x
+
+{D- {Wwisdom = efficiency{x - the Three Elders Congress, which met in Freeport
+        this month, has confirmed reports that wiser mages and priests seem
+        to tax themselves less whem wielding their powers.  Foolish people
+        of the same professions seem to waste a lot more mental energy
+        when performing the same feats. {D(mana costs is highly dependent
+        on your wisdom when you cast spells){x
+
+{D- {Wdeafen{x - the darknight guild (AP) has worked on their sonic skills
+        and now find greater success against weaker souls in combat.
+
+{D- {Wholy war{x - the Treaty of Argonok is finally over due to the tri-murders
+        of the Trinity Council; the Clerics of the realm are no longer bound
+        to relative peace with each other, and thus will no longer share
+        the secrets of their prayers with this of differing beliefs.  Those
+        of the black cloth have turned to wicked ways, and eschew the healing
+        arts, while those of the white cloth have turned toward the
+        blessings as their main stay.  The grey clothed clerics now hold
+        the only true secrets to the healing arts, though their offensive
+        might seems not as powerful than the other two. {D[many skill
+        changes here]{x
+
+{D- {Wdevotion{x - with the moral war at hand, the gods have deemed to
+        bless those clerics most devoted to their cause the benefit of
+        stronger prayers.  The clerics become stronger as their god's
+        bidding is done.  When they sit idle and without commitment to
+        the struggle, their gods will grant them no such strength.  Those
+        who claim to worship the dark, light or grey, but act opposed
+        to their cause will find their god punishing them with frailty
+        and weak prayers.  As for what is correct conduct, well, who
+        knows the mind of the gods? {D[clerics and paladins check "worth"
+        for your current status]{x
+
+{D- {Wbarbarians{x - with the gods rejuvinated in their mutual struggle for
+        dominance, the barbarians find themselves blessed with a bit more
+        bite when they lash-back at magic cast upon them.
+
+{D- {Wundead flesh{x - with the split between the grey and black priests
+        the art of restoring the undead with healing arts has been lost.
+        Fortunately, the necromancers have figured out quicker ways to
+        build their minons to replace the fallen.
+
+{D- {Weating their own{x - the wizards of the necromancer guild have
+        devised a way to repair their minons by encouraging them to devour
+        the recently fallen while the soul is still inside.
+
+{D- {Wprotection{x - with concern about the religious war taking place
+        in the temples the guilds have turned inward and toward protection
+        of their own.  Many guilds report an inability to extend their
+        most protective encantations to others.
+
+{D- {Wpower word kill{x - the necromancers, having lost the ability to
+        extend protection to their minons, have looked to create more
+        corpses around themselves.  Thus, in a dark deal with the shadows
+        they once enslaved to do their bidding, whereby the former were
+        freed of their servatude, the powerful art of asking someone to die
+        as been learned in trade.
+
+{D- {Wuntouchable{x - the warlock guild, being long secure in their
+        mastery of invisibility, have neglected the spells that protect
+        them the most.  Blades are now cutting them to pieces when they
+        find their mark.
+
+{D- {Wlight{x - the warlocks have developed a new, more powerful attack
+        that will allow them the saftey of distance.  Their new
+        incantation is said to randomly burn, freeze, and more.  No
+        longer are only streams of acid seen on the most deadly of
+        battle-fields.
+
+{D- {Wmonsters{x - warlocks have also lost their charms when it comes to
+        other adverturers, but still seem to have mastery over the monsters
+        of the realm.
+
+{D- {Wninja{x - have noticed an imperfection that has slipped into their
+        skills.  No longer can they assassinate those of greater souls.
+
+{D- {Wcleave{x - similarly, a rash of dull axes in the realm have lead to
+        a severe reduction in cleaving adventurers in two.
+
+{D- {Whand2hand{x - the ninja have suspected their loss of ability on one
+        of the magic wielding guilds, and thus have refused to teach the
+        art of hand-to-hand combat to anyone not dedicated to the combat
+        arts.
+
+{D-{w={W[ {xBUGS{x {W]{w={D-{x
+
+{D- {Wpolymorph{x - fixed
+
+{D- {Wskill bug{x - fixed
+
+{D- {Wevil barbs{x - now get the vampiric (instead of useless tainted flag)
+        on their quest weapons.
+
+{D- {Winvis{x - detect invis gets a small level boost.  And you can now
+        refresh it as you like for a small level boost too.
+
+{D- {Wcrucifixtions{x - now have a timer so they don't litter the realm.
+
+{D- {Whandblock{x - reduced a bit.  Won't affect much though.
+
+{D-{w={W[ {xIMMs {W]{w={D-{x
+
+{D- {Wquests{x - wiznet now does quest reporting.
+
+{YNOTE:{x it is impossible to give out 'practices' for new skills or to
+replace old ones.  If you are a hero with no practices we'll re-imburse you.
+If not, please just bare with us.  There's no way to do it with the current
+code.  Evil clerics, sorry, but I told you they were broken. (now you know
+why I disabled thieves).  Let the whining commence!
+
+
+Changes brought to you by the letter {gZ{x and the other letter {Gz{x.
+~
+Sender  Zsuzsu~
+Date    Sat Mar 11 01:37:14 2006~
+Stamp   1142062634
+To      all~
+Subject Buggers~
+Text
+{Y-{y={D[ {yBUGS{D ]{y={Y-{x
+
+{y- {YRoTerror{x - no longer explodes if the caster is evil
+
+{y- {Ytraps{x - shouldn't autoassist out of traps
+
+{y- {Ymorality{x - small fixes for neuts in here
+
+{y- {Yquestors{x - no longer send you to kill your own align
+
+{y- {Ydetect inivs{x - level boost, and stack bug fixed
+
+{y- {Ylayhands{x - 24hrs cooldown for all, now uses 'heal' function.
+        costs mana to use.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Date    Mon Mar 13 22:18:29 2006~
+Stamp   1142309909
+To      all ~
+Subject {Dhidden{x {gbugs{x~
+Text
+-={D[ {GBUGS {D]{x=-
+ 
+{G- {ghiding{x - fixed the bug that let you know if you were hiding by your
+   movement.  Now movement is decremented even if you fail.  This is true
+   for camo, and fade as well.
+
+{G- {gspells{x - mana cost in the spells list is now accurate.
+
+{G- {gclerics{x - forgot to remove their second evade "parry" before.
+
+{GZ{gz{x
+~
+Sender  Thornan~
+Date    Wed Mar 15 19:55:51 2006~
+Stamp   1142474151
+To      all~
+Subject Help file altered~
+Text
+The helpfile for "{CHELP THORNAN{x has changed.
+ 
+Signed,
+Thornan
+~
+Sender  Zsuzsu~
+Date    Wed Mar 22 23:43:08 2006~
+Stamp   1143092588
+To      all~
+Subject {WClan{g FFA{x~
+Text
+All clan halls have been made {GFFA{g(Free For All){x, which means they
+no longer respect PK range.  This means that a raiding hero will be able
+to kill a level 20 clan members.  It also means that clan members can
+easily kill each other as well.
+ 
+If you find a room in your hall that is not FFA, please let the IMMs know.
+ 
+Enjoy!
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Sun Apr  2 21:52:00 2006~
+Stamp   1144032720
+To      all~
+Subject Do you feel {Ylucky{x?~
+Text
+{Y-{y={D[ {yNEW{D ]{y={Y-{x
+
+{y- {Ywagers{x - with the poor of the realm looking for entertainment and
+        financial relief, many . . . et hem. . . entrepenures have taken
+        to the streets with 3 shells in hand, setting up little boxes and
+        looking for a {Wwager{x or so.  {DSome mobs will gamble with you
+        try the 'wager' command.  'wager shell' is the only game in
+        town right now.  And yes, that was my Secret Surpise!! LOVE IT!{x.
+
+{y- {Ymoral leaning{x - those who follow the middle path will better be
+        able to tell if they stray to one side or the other by the hue
+        of their moral standing.
+
+{Y-{y={D[ {yBUGS{D ]{y={Y-{x
+
+{y- {Youtcasts{x - will now be auto-booted from the clan the next time they
+        log in.
+
+{y- {Ycamo{x - you no longer get the movement cost after going out of the
+        forest.
+
+{y- {Ypuny weapons{x - ueber mobs with dinky weapons now do correct damage.
+
+{y- {Ydonating{x - you can no longer donate while asleep or pumped up.
+
+{y- {Yinterloper{x - the count now adjusts for people going link-dead.
+
+{y- {Ymoral standing{x - adjusts to base-line slower for heros.
+
+{Y-{y={D[ {yIMM{D ]{y={Y-{x
+
+{y- {Yevents{x - a new section of the bulletin board has been carved out
+        to announce events of the realm.
+
+{y- {Ysigning{x - imms now have the ability to "sign" their notes from
+        different authors.  The mortals will only see the signer's name
+        in the "From" heading.
+
+{y- {Ytitles{x - imms can once again change their titles at will.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Wed May  3 23:24:20 2006~
+Stamp   1146716660
+To      all~
+Subject {rclan {Draiding{x~
+Text
+{D- {rraiding{x - clan power items must stay within their altar to 
+        properly channel their powers to members.  Also, beings whose
+        entire existance is supported by the clan item will vanish
+        when it is taken from the altar.  Souls bound by the item will
+        be set free.  The long hands of the Law will also cease to be
+        without the power of the Law.
+
+{D- {renslavement{x - souls bound are no longer freed upon death.
+        The only way to be set free is to die of an enslaver, kill
+        the enslaver who bound your soul, or remove the power that
+        binds your soul.
+
+{WIMMS{x
+
+{D- {rpolitics{x - clan raids now show up on WIZNET
+
+{D- {rdamtype{x - a bug in "damtype" made it so it didn't save.
+        please check your areas to see if they were affected.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Sun May  7 20:10:29 2006~
+Stamp   1147050629
+To      all~
+Subject {rclan{D raidng{x (pt 2)~
+Text
+Clan Raiding:
+   You no longer have to deal with the Cleric to get items in or out of
+the altars.  You should still need to kill the cleric to get the key if
+it's not your altar.  But you shouldn't be able to raid you own item.
+ 
+   Clan mobs go p00f when someone puts your item in another altar.  But
+regular mobs will reset whever they reset.  Enslavement is broken for
+all those online when the raid occured.
+   You lose your powers when the item is taken out of your altar.
+ 
+IMMS:
+   a new command: alist mob brief
+   will give you a summary of affects on mobs in the area.
+   I know it's a little cryptic, but it's compact {Y:){x
+ 
+   read help "OLC ALIST MOB BRIEF"
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Sun Jun 25 14:54:08 2006~
+Stamp   1151265248
+To      all~
+Subject {mpower{x to the {Yleaders{x!~
+Text
+{m-={M[ {WNEW {M]{m=-{x
+
+{D- {Wleader power{x - active clan leaders will find the health and
+        activity of their clan fuels how grounded their spirit is
+        in the material plane, and thus how many artifacts they can
+        amass.
+        {DActive leaders get +1 artifacts.
+        Hyper get +2.
+        Then for every 2 other active+ members they will receive
+        another +1 artifact.  Hence, very active clans will have
+        very powerful leaders.{x
+
+{D- {Wclan power{x - as clans exert their influence over the material
+        plane, their ability to retain artifacts increases.  Active
+        members fuel this influence, dead weight members tend to
+        errode it.
+        {DAll active clan members will receive +1 artifact if the
+        clan ratio of active to dead-beat members 1 or more.
+        Note: 'elders' do not count as dead-beats no matter their
+        activity status.  Also, only former leaders qualify as
+        elders.  Clans that promote MIA members to elder to throw
+        off the ratio will have their leader kicked out or worse.{x
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Sun Jun 25 22:50:02 2006~
+Stamp   1151293802
+To      all~
+Subject {mraid{x item {Yzap{x~
+Text
+{m-={M[ {WFIXES {M]{m=-{x
+
+{D- {Wclan items{x - items that draw their power from the clan's sacred
+        source of power will wink out of existance when the item is
+        locked away in another's altar.
+        {Dthis should affect all clan-made items, and many items in
+        the raided clan hall.  Some items are not set as 'clan' items
+        correctly, and will be adjusted in short-time.{x
+
+{D- {Wclan areas{x - will not rejuvinate without the power of their
+        sacred item.
+        {Dno reset in raided clans{x
+
+{D- {Whiding socials{x - socials that unhide you will now cancel the
+        'hide' affect, so you won't be taxed.
+
+{D- {Wplague{x - no longer stacks.
+
+{D- {Wlocate{x - no longer shows blank results for any situation.
+
+{m-={M[ {WIMMS {M]{m=-{x
+
+{D- {Wset race{x - now adds flags, but doesn't remove then from act,
+        immunity, vuln, offenses, affects, etc.
+
+{D- {Wsockets{x - reformatted with less obnoxious colors, and more room
+        for the hostname.
+
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Tue Jun 27 22:49:40 2006~
+Stamp   1151466580
+To      nightfall~
+Subject EoI, notification change~
+Text
+EoI now only notifies on failure 5% of the time, and notifies on success
+less than half the time.
+ 
+It was getting annoying, now that the cool-down is so much shorter.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  Kira~
+Date    Sat Jul  8 17:48:59 2006~
+Stamp   1152398939
+To      all~
+Subject {GNEW AREA{x: {DC{Wradle{Yn{yook{x~
+Text
+Beyond a mess of spiderwebs in the Forest of Nowhere a new village has
+been discovered by a curious adventurer.  Lucky for her, she's a female, for
+word has it that there's a charming man by the name of Rupert in the village
+who sells the finest wizarding robes in all of Thera, but beware, he is
+notorious for stealing the hearts of many wives and lovers.  Don't be
+discouraged, though, men!  Wind has it there's a lovely little waitress who
+tends a bar in the village and has a soft spot for kind men who can hold
+their liquor and stay steady.  
+Cradlenook offers some extravagant views of the village itself if you can find
+the proper hills, mountains, and rooftops to look out from. It is also home to a
+famous, now passed, artisan who has crafted and sculpted many famous
+artworks all throughout the city. Wind has it, however, that he has a great
+grand daughter who lives in a small boulevard somewhere in the village;
+she, perhaps, can give some great inspiration to struggling artists. Creative
+souls will find themselves right at home in Cradlenook.
+{x
+Enjoy and discover its secrets!
+Lurve,
+{MK{mira{
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Fri Oct  6 14:41:26 2006~
+Stamp   1160163686
+To      all~
+Subject {Ddark tidings{x~
+Text
+The {Ddeath{x surrounding {rBloody October{x has plunged the realm into
+truely dark days.  Evil is thriving as adventurers are struck down in their
+cribs.  The {Dvampires{x of Thera are invigorated by the swell of corpses
+in the street.  The smell of {rblood{x is in the air.  And night is all
+around.
+ 
+   {DVampires{x, laid low by the ascention of the squeeky-voiced goodies
+have restored some of their former power.  In their altered form they are
+able to mask their presence from the world {D(don't appear on who){x and
+have found their powers of touch and bite more devistating than ever
+before.  Their native resistance to light also finds that when indoors and
+there is no magic light present, they nolonger fear the sun outside.
+{D(For some reason vamps took light damage inside even when no light was
+present){x
+ 
+   Truely is it no longer safe in the {Ddark{x.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Fri Oct 27 23:41:50 2006~
+Stamp   1162010510
+To      all~
+Subject {DVampire{x bite tone down~
+Text
+As was shown tonight, the vampire bite was WAAAAAY out of wack for PvP.
+I've fixed it to be in a better range.  Shouldn't see one hit kills 
+if people are in normal PK ranges.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Sun Nov 26 22:35:44 2006~
+Stamp   1164602144
+To      all~
+Subject Quick summary of v{g2{x {BBETA{x~
+Text
+Quick Summary of the v2 Changes:
+
+* Hero level is 60
+* Ethos is by reputation, instead of coded.
+* Any race can be any class (w/in certain obvious restrictions)
+* Stats are based on 100.  There is no upper limit.
+* Rolled stats are {Brelative{x to your race.
+* Level gains take into account what you've been wearing for the
+    {Bwhole{x last level, instead of just a level-up.
+* There are no 'Trains'.  You can only augment your stats via magic.
+* Skills have min skill requirements.  If you don't meet them, you can't
+    learn or use the skill.  These mins will be in {Bflux{x, as we
+    try to figure out what is reasonable.
+* Materials have been added to items.
+* Race/Class/Size restrictions have been added to items.
+* The god Pantheon has been removed for the time being.
+* Clans will be opened in a couple of weeks.
+
+{W* {BLots{x of things will be wrong.  Fixing them will probably
+   require an eventual {Bpwipe{x.  Play with that in mind.
+ 
+Please, oh, pretty please, be patient.  This is {BBETA{x for a reason.
+{Y=){x
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Wed Dec  6 13:37:01 2006~
+Stamp   1165433821
+To      all~
+Subject {WGuild {rRaids{x~
+Text
+Those adventurers over level 20 shall be able to invade the guild of their
+foes.  No longer will the guildmasters tolerate loiterers, hanging about,
+doing nothing but scratching their bum.
+ 
+(in the near future the guard will act like clan guards do, but will be much
+much weaker (prolly solo at 30)).
+ 
+(need to wait for Shae or Nal for that)
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Fri Dec 22 13:16:42 2006~
+Stamp   1166815002
+To      all~
+Subject {gOrcs{x~
+Text
+{gOrcs{x now have new stats and exp penality.  They now get normal 
+dexterity (+5 from before), and aren't so repulsive to their own kind
+(CHA of 50).  Also, the exp penal is now 300 instead of 500.
+ 
+Hopefully, this should make them more playable.
+ 
+Also, half-orc CHA is now 50.
+ 
+{GZ{gz{x
+~
+Sender  Zsuzsu~
+Signer  ~
+Date    Sun Jan 21 19:18:34 2007~
+Stamp   1169428714
+To      all~
+Subject {WNaked & Reborn!{x~
+Text
+Lots of bug fixes and a bit of something new:
+ 
+- detect invis bug fixed
+- damroll bug per level fixed
+- HP per level fixed (boosted)
+ 
+{rWhat the hell is this {WNaked and Reborn{r crap?!
+   The HP and Damroll fixes change a lot about how the characters will
+end up at hero.  In order to fix existing characters, I had to strip you
+all naked, reset you to level 1, then advance you to your old level.  This
+should correct people.  If you're upset about not receiving your stat
+bonuses, sorry.  I can always restore your character to before the fix,
+but you'll probably have 1/2 the HPs.  I can't accomodate everyone
+please remember, this is still {BBETA{x.
+ 
+Thanks for your understanding.
+ 
+{YNEW{x
+   AC now does something!  It is a damage modifier.  So the less AC you
+have (higher negative number), the less damage done to you in melee (only
+melee).  Damroll is the opposite.  The simplified calculation is
+this: Damroll + AC = damage bonus.  If your AC is bigger than the damroll
+then you can get up to half melee damage.
+ 
+Also, AC is now adjusted by class.  Until I get some builders to change
+all the armor items to CLOTH, LIGHT, MEDIUM, HEAVY, the AC for all items
+will be adjusted by class.  Thus, mages will only receive partial armor
+bonuses (as they would traditionally only wear CLOTH armors).  Spells,
+however, affect everyone the same.
+ 
+Also, evade skills were modified.  Hopefully mobs should evade more,
+and chars less (take more rounds of dam, but less dam, and they have more
+HPs now).
+ 
+ACTs for mobs now affect how they evade. ;)
+ 
+I think that's all.  *phew*
+ 
+{GZ{gz{x
+~

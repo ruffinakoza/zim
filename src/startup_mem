@@ -1,0 +1,44 @@
+#!/bin/sh
+
+umask 007
+port="-p 7777 -i 7778"
+zim=`pwd`/zim
+valgrind="valgrind \
+	--tool=memcheck \
+	--leak-check=yes -v \
+	--show-reachable=yes \
+	"
+index=1
+cd ..
+
+# Set limits.
+if [ -e shutdown.txt ]; then
+        rm -f shutdown.txt
+fi
+
+        while [ 1 ]; do
+                logfile=log/$index.log
+                if [ -e $logfile ]; then
+                        index=`echo $index + 1 | bc`
+                else
+                        break
+                fi
+        done
+
+	echo Starting ZiM: $zim $port 2>&1 | tee $logfile
+        $valgrind $zim $port 2>&1 | tee $logfile
+        exitcode=$?
+
+        if [ -e core ]; then
+                mv core corefiles/core.$index
+        fi
+
+        if [ -e shutdown.txt ]; then
+                rm -f shutdown.txt
+                exit 0
+        fi
+
+        if [ $exitcode -ne 0 ]; then
+                exit 1
+        fi
+        sleep 15

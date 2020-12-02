@@ -1,0 +1,235 @@
+#AREADATA
+Name Southern New Thalos Road~
+VNUMs 10860 10880
+Credits nalaeya~
+Security 1
+LevelRange 1 91
+ResetMessage A soft breeze brings slight relief from the harsh sun.~
+End
+
+#ROOMS
+#10860
+The Southern New Thalos Road~
+The famed city of New Thalos spreads out to the north, a bustling and
+prosperous place right in the middle of a harsh desert.  The road here is
+startlingly quiet by contrast, with few people daring to head out into the
+desert proper.  The sun bakes down on the dirt road, causing the earth to
+crack open, begging for moisture.  To the north lie the gates of the city,
+while to the south the road continues through inhospitable lands.  
+~
+0 C road
+D0
+The famed city of New Thalos lies directly to the north, bustling with
+activity.  
+~
+~
+Z 0 9511
+0 0
+D2
+The cracked road continues, leading further into the desert.
+~
+~
+Z 0 10861
+0 0
+S
+#10861
+The Southern New Thalos Road~
+The road beneath your feet shows little signs of travel.  It seems to be
+chiefly used as a trade route between New Thalos and the nomads of the
+desert.  Few others can survive the deadly desert heat that drains the
+unwary of energy and precious moisture.  The city of New Thalos can be seen
+spreading towards the north, while the road swerves sharply eastward to
+avoid a tall sand dune.  
+~
+0 0 road
+D0
+The city of New Thalos can be seen in the far distance.
+~
+~
+Z 0 10860
+0 0
+D1
+The road takes a turn to the east, working its way around the large sand dune.
+~
+~
+Z 0 10862
+0 0
+S
+#10862
+The Southern New Thalos Road~
+A tall dune stands to the west, sand occasionally sliding down towards
+the side of the road as a soft wind blows across the desert.  The wind
+itself brings no relief, instead seeming to gather the worst of the heat to
+itself to spread to whatever it touches.  The sun stands high overhead, its
+rays beating down mercilessly.  
+~
+0 0 road
+D2
+Three tall stones stand by the side of the road.
+~
+~
+Z 0 10863
+0 0
+D3
+The road turns to the west, around the sand dune.
+~
+~
+Z 0 10861
+0 0
+S
+#10863
+The Southern New Thalos Road~
+Three tall stones have been placed by the side of the road, marking the
+grave sites of nameless travelers found dead in this very spot.  The graves
+stand as a warning to those who enter the desert unprepared, and symbols
+carved across the stone urge those who read them to travel northward as
+quickly as possible, to seek the safety of the city of New Thalos and escape
+the desert's wrath.  
+~
+0 0 road
+E
+graves sites~
+There is nothing to mark the grave sites but the stones, and those give
+no hint as to who the unfortunate souls who died here were in life.  
+~
+E
+stones symbols~
+The symbols are in the common script, urging travelers to speed northward
+to reach the city of New Thalos before it is too late.  
+~
+D0
+The road continues north, towards the city of New Thalos.
+~
+~
+Z 0 10862
+0 0
+D2
+The road continues southward, following the curves of the sand dune.
+~
+~
+Z 0 10864
+0 0
+S
+#10864
+The Southern New Thalos Road~
+The road continues, only faint footprints and camel tracks to show that
+any living being has passed through recently.  The heat of the desert is
+harsh, almost unbearable.  It seems as though whatever moisture finds itself
+under the sun's rays evaporates instantly.  The sky above is clear, not a
+cloud in sight.  The parched earth below looks as though it hasn't seen a
+drop of water in ages.  
+~
+0 0 road
+D0
+Three tall stones stand by the side of the road.
+~
+~
+Z 0 10863
+0 0
+D3
+The hard cracked road continues to the west.
+~
+~
+Z 0 10865
+0 0
+S
+#10865
+The Southern New Thalos Road~
+Not a single flower or weed seems to be able to grow under the harsh
+desert sun here.  There is nothing but sand and hard cracked earth in every
+direction.  The desert spreads out in every direction, with each side
+looking like a mirror image of the next.  If it wasn't for this road,
+maintained by the sultan of New Thalos to provide a trade route between all
+the desert peoples, a dozen steps in any direction would surely get you
+hopelessly lost.  
+~
+0 0 road
+D1
+The road curves towards the east, avoiding a tall sand dune.
+~
+~
+Z 0 10864
+0 0
+D2
+The cracked earth road continues southward, barely distinguishable from the desert itself.
+~
+~
+Z 0 10866
+0 0
+S
+#10866
+The Southern New Thalos Road~
+A soft wind blows across the desert, lifting small grains of sand and
+flinging them about, threatening to blow them into the eyes and faces of
+those who travel along the road.  Sweat seems to evaporate as fast as it
+appears, and moisture is drawn from mouths at an alarming rate, so that a
+drink of water hardly offers any relief.  The road continues, angling
+northward towards the city of New Thalos, and south deeper into the desert. 
+
+~
+0 0 road
+D0
+The road continues northward, heading towards the city of New Thalos,
+still out of sight.  
+~
+~
+Z 0 10865
+0 0
+D3
+The road continues westward, rising over a small dune.
+~
+~
+Z 0 10867
+0 0
+S
+#10867
+The Southern New Thalos Road~
+The road here passes through two particularly tall sand dunes, offering a
+few steps of blessed shade, and an all too brief relief from the sun's harsh
+rays.  The few moments of relative coolness only serve to emphasize the
+intense heat of the desert, which seems to show no signs of abatting.  In
+every direction lies nothing but sand, only the dry cracked road underfoot
+offering any path through the harsh surroundings.  
+~
+0 0 road
+D1
+The cracked road angles eastward, showing few signs of recent travel
+along its length.  
+~
+~
+Z 0 10866
+0 0
+D2
+The road seems to end abruptly to the south.
+~
+~
+Z 0 10868
+0 0
+S
+#10868
+The Southern New Thalos Road~
+The cracked road from the north ends abruptly here, becoming a simple
+trail that winds eastward through tall sand dunes.  This seems to be the end
+of the territory controlled by the Sultan of New Thalos; what lies beyond is
+a harsh, inhospitable land where only the hardest of people can survive for
+any length of time.  Sand dunes spread out in every direction, each looking
+the same as the next, with little to keep you from taking a wrong step and
+finding yourself hopelessly lost.  
+~
+0 0 road
+D0
+The road grows more distinct northward, easier to distinguish against the
+desert.  
+~
+~
+Z 0 10867
+0 0
+D1
+~
+~
+Z 0 19611
+0 0
+S
+#0
+
+#$

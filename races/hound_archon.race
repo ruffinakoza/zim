@@ -1,0 +1,16 @@
+#RACE
+Name hound archon~
+Dodge 70
+Align 1000
+Sex either
+Size medium
+DamType punch
+Aff dark_vision~
+Off kick trip~
+Imm lightning~
+Res poison~
+Form animal sentient biped mammal~
+Parts arms legs heart brains guts hands feet fingers ear eye claws~
+End
+
+#$

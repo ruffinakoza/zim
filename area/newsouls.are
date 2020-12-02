@@ -1,0 +1,6168 @@
+#AREADATA
+Name Newsouls Acadamy~
+VNUMs 17600 17750
+Credits Nalaeya~
+Security 9
+LevelRange 0 0
+ResetMessage Footsteps echo in the distance, along with the voices of students from the academy.~
+Flags noquest~
+End
+
+#MOBILES
+#17601
+master helper newbie~
+the master of knowledge~
+The Master of Knowledge stands before you stroking his chin.
+~
+A tall elderly man stand before you stroking his freshly shaven chin. 
+You notice a brightness in his eyes that hints at his intelligence.  His
+long flowing robes are embroidered with golden half-moons inset with a
+single candle, clearly marking his status in the acadamy.  
+~
+human~
+ABQe 0 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17603
+beetle black~
+a big black beetle~
+A beetle scurries across the floor.
+~
+This beetle is huge, almost the size of a child’s hand.  It has a thick
+black shell covering its body, and runs around on crooked little legs,
+scurrying about trying to find some cover.  
+ 
+The first thing to do when encountering a new mob is to ‘consider’ 
+it. When typing ‘consider (mob name)’ you will get a message that 
+should give you a clue as to how difficult it will be to kill.
+ 
+Considering a mob will also give you some vital information about 
+its alignment. Depending on how it reacts to you, you will be able to 
+tell if the mob is good, neutral or evil. This is especially important for 
+good characters, who will receive no experience from killing good 
+mobs, and will actually lose charisma if they kill too many. In 
+addition to this, good players can gain a charisma point if they kill 
+enough evil mobs, and both good and evil players get experience 
+bonuses for killing mobs of the opposite alignment.
+ 
+{RTo attack something, type kill (name).{x
+ 
+~
+unique~
+ABe 0 0 0
+1 1 6d1+0 1d9+60 1d1+0 none
+20 20 20 20
+0 0 0 0
+stand stand either 0
+ABO ACK medium flesh~
+~
+M death 17603 100~
+#17604
+enormous ogre~
+the ogre~
+An enormous ogre is here, trying to break out of his chains.
+~
+His eyes are bloodshot and his face is a twisted mask of rage.  He
+struggles vainly against the chains binding him to the wall, letting out
+furious roars as he sees you.  Even restricted in this way, he looks like he
+could do a lot of harm.  
+ 
+{CThis mob is tough for young adventurers. Don't expect to be able
+to kill it before level 5. Remember the {Rflee{C command{x.
+~
+ogre~
+ABe 0 0 0
+5 1 15d5+25 25d10+85 1d2+0 none
+-15 -15 -15 -15
+I 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17605
+young woman shopkeeper~
+the young woman~
+A young woman stands behind the counter, smiling cheerfully.
+~
+She’s dressed in simple clothes, a long white tunic with white pants, but
+her smile lights up the room.  She looks a little bored, but seems cheerful
+nonetheless.  She stands by the counter, waiting to serve any students that
+wish to purchase from the shop.  
+~
+elf~
+ABe 0 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 10000
+0 0 medium flesh~
+~
+#17606
+dwarf stocky~
+the dwarf~
+A stocky, red-bearded dwarf eyes you consideringly.
+~
+Wearing a thick red beard that falls to his waist, short and stocky of
+stature, he looks a little rough but seems friendly enough.  He wears the
+leather armor of a fighter, though he doesn’t look as if he’s fought
+anything in the last decade.  
+~
+dwarf~
+ABe DFPlmt 0 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 17606 100~
+M exall 17604 Zisou~
+#17607
+fishing boat mob guy~
+boat guy~
+this mob is here, dropping a boat.
+~
+~
+elf~
+ABe 0 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 17643 10~
+I 92
+#17611
+guard young man~
+a young guard~
+A young guard stands by the gate, watching the caves warily.
+~
+Dressed in armor that seems to have been scrounged up from some attic,
+this young man nevertheless stands proud, mindful of his duty to the
+village.  His straw coloured hair pokes out from beneath his helm, and his
+eyes are wide and blue, but he does his best to portray himself as a
+seasoned veteran, ready for anything.  
+ 
+{CIf you need a torch, simply {Wsay yes{C and he will hand you one.{x
+ 
+~
+human~
+ABe 0 0 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+E 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 17611 100~
+M act 17612 nod~
+M speech 17612 yes~
+#17612
+brown rat~
+a {ybrown rat{x~
+A large {ybrown rat{x stands on its hind legs watching you, eyes glowing red.
+~
+The rat before you looks ordinary enough, except for glowing red eyes
+that regard you with an intelligent gleam.  It seems to be disturbingly
+aware of every move you make, and watches your actions closely, showing no
+signs of fear.  
+~
+unique~
+ABU P 0 0
+2 2 7d2+0 2d9+60 1d2+0 scratch
+20 20 20 20
+0 0 0 0
+stand stand either 0
+AV ABCDEFHJKU large flesh~
+~
+M death 17614 100~
+#17613
+apparition~
+an apparition~
+A strange apparition looms before you, gazing down at you malevolently.
+~
+The figure before you is terrifying, more so because it seems to writhe
+and change before your very eyes.  It is a representation of every
+nightmare, every dark thought you have ever had, and it seems to be able to
+tear into your very soul to discover your worst fears and place them before
+you.  
+~
+unique~
+AB 0 -400 0
+3 3 9d3+0 3d9+60 1d3+0 claw
+7 7 7 8
+0 0 0 0
+stand stand either 15
+C 0 medium flesh~
+~
+M death 17615 100~
+#17614
+restless spirit~
+a restless spirit~
+A spirit is here, wailing in frustration.
+~
+The spirit before you appears to be vaguely human, though it is
+distorted.  It is as if a deep, thick fog separates it from you, keeping you
+from making out any distinct features.  It stands floating just above the
+ground, letting out a terrifying wail filled with pain and anger.  
+~
+unique~
+ABU 0 0 0
+4 4 11d4+0 4d9+60 1d4+0 sting
+7 7 7 7
+0 0 0 0
+stand stand either 20
+C 0 medium flesh~
+~
+M death 17616 100~
+#17615
+dark shadow~
+a shadow~
+A dark shadow makes its way across the cave.
+~
+A strange being stands before you, appearing to be nothing more than a
+shadow, but filled with a life of its own.  It doesn’t appear to be evil, it
+only appears to be...  empty.  The air grows cold the closer it gets, and it
+seems to somehow be blocking out all the sounds in the cave, so that it is
+surrounded by complete silence.  
+~
+unique~
+ABU P 0 0
+4 4 11d4+0 4d9+60 1d4+1 slice
+7 7 7 7
+0 0 0 0
+stand stand either 30
+C 0 medium flesh~
+~
+M death 17644 100~
+#17616
+growling mercenary~
+a growling mercenary~
+A growling mercenary glares at you, angered at your presence.
+~
+This man looks rough, covered with scars and wielding a long, bloody
+sword.  His eyes are small and beady, and filled with an intense light of
+greed.  He stares at you intently, as if trying to assess whether or not
+you’d put up much of a fight.  
+~
+human~
+AB 0 0 0
+5 5 12d5+-5 5d9+60 1d5+1 slash
+6 6 6 7
+0 0 0 0
+stand stand male 40
+0 0 medium flesh~
+~
+M death 17618 100~
+#17622
+wizi chest guy~
+the wizi chest guy~
+This guy is here making sure the chests are always full.
+~
+~
+human~
+ABe 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M random 17622 5~
+I 92
+#17623
+wizardess woman dark elf~
+the wizardess~
+A woman clad in purple robes stands by the pools, glaring at you.
+~
+Dressed in purple robes that trail along the floor, this dark-elf holds
+herself with a regal bearing.  Her skin is wrinkled, and as black as the
+darkest night.  Her hair is gray and stringy, looking to be very coarse. 
+She appears to be very old, even for a dark-elf, which would make her quite
+ancient.  Her eyes stare at you unblinking, two white orbs with no pupils or
+irises.  
+~
+dark-elf~
+ABRe 0 -1000 0
+5 5 12d5+0 5d9+60 1d5+0 none
+6 6 6 7
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M greet 17623 100~
+M death 17624 100~
+#17629
+lost adventurer man~
+the lost adventurer~
+A man walks around this corner of the cave, looking lost.
+~
+Dressed in soft leather armor, he seems to be an adventurer, recently
+graduated from the academy, by the looks of him.  His face and clothes are
+filthy, as if he hasn’t washed in days, and there is a large bloodstained
+bandage covering his side, where he has obviously been injured.  
+~
+half-elf~
+ABe 0 1000 0
+3 3 11d3+0 15d10+85 1d3+6 slash
+7 7 7 7
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 17629 50~
+M random 17642 10~
+#17630
+wizi pbpb~
+a whirlpool guy~
+A mob is here, controlling the whirlpool.
+~
+1
+~
+human~
+ABe 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#17631
+wizi kbkb~
+a whirlpool guy~
+A mob is here, controlling the whirlpool.
+~
+1
+~
+human~
+ABe Pl 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M delay 17633 100~
+M grall 17638 100~
+I 92
+#17632
+wizi xbxb~
+a whirlpool guy~
+A mob is here, controlling the whirlpool.
+~
+1
+~
+human~
+ABe Pl 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M delay 17632 100~
+M grall 17636 100~
+I 92
+#17633
+wizi~
+a whirlpool guy~
+A mob is here, controlling the whirlpool.
+~
+1
+~
+human~
+ABe Pl 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M delay 17630 100~
+M grall 17631 100~
+I 92
+#17634
+siren woman pbpb~
+the siren~
+A strange woman pokes her head above the whirlpool, a calm look on her face.
+~
+It is difficult to make out any details, as the water is rushing so fast
+and wildly that it often rushes over her, locking her down into its depths. 
+She appears to be completely comfortable in the midst of all the chaos, and
+from the look on her face, she almost seems to be waiting for something. 
+Wild tales of deadly sirens luring sailors to their deaths are brought to
+mind, and as you gaze into her emotionless eyes, you suddenly realize that
+she has been holding you mesmerized, casting a spell over you as you are
+slowly drawn closer and closer to the center of the whirlpool, where the
+water threatens to pull you under.  
+~
+elf~
+ABe 0 0 0
+4 4 11d4+0 4d9+60 1d4+4 none
+7 7 7 7
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M delay 17634 100~
+M death 17635 100~
+M grall 17639 100~
+#17635
+young pickpocket~
+the young pickpocket~
+A village youth passes down the road and brushes into you, apologizing quickly.
+~
+This youth is dressed in simple village clothes, a white tunic over brown
+work pants.  He walks along the road slowly, a wide, confident grin on his
+face.  He wears a pouch at his belt, which seems to be bulging with coins.  
+~
+human~
+ABCS F 0 0
+3 3 9d3+0 3d9+60 1d3+3 none
+7 7 7 8
+0 0 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+#17637
+temple priestess girl woman~
+the village priestess~
+A young village priestess stands by the altar, singing a hymn to the gods.
+~
+Dressed in pale robes of white wool, she appears to be a simple village
+priestess, but her voice is clear and strong, and the sound of the music as
+she sings has a calming, peaceful effect on everyone around her.  She stands
+with one hand resting on the altar, watching those who enter the shrine.  
+~
+half-elf~
+ABQVaef DFHlm 0 0
+111 111 596d111+10000 1110d11+95 50d50+122 none
+-70 -70 -70 -47
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 17637 100~
+#17638
+village blacksmith man muscled~
+the village blacksmith~
+The village blacksmith is here, ready to sell you his wares.
+~
+This man is heavily muscled, probably the biggest man in the entire
+village.  He stands at almost eight feet tall, and though he appears to be
+human, it would be no surprise to learn he also possesses some giant blood. 
+His skin is dark and tanned, grown tough from years of standing by the hot
+forge fires.  
+~
+human~
+ABe 0 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+#17639
+fisherman man village~
+a village fisherman~
+A fisherman sits quietly in his boat, humming to himself as he tries to catch some fish.
+~
+Dressed in plain brown clothing, he doesn’t seem very wealthy, but he
+wears a content smile on his face that shows how happy he is with his simple
+life.  His boat is small but sturdy, and he seems to have made quite a few
+good catches during the day.  
+ 
+{CUsing the command 'consider' on mobs has more than one purpose.
+You will be able to judge the mob's alignment by seeing how they react to you.
+ 
+If they smile happily, it means they're good.
+If they look disinterested, they're neutral.
+If they grin evilly, they're well...evil.
+ 
+Alignment is important, because you'll earn more experience for killing mobs
+that are of the opposite alignment to your own.
+ 
+Also, good aligned players will be able to '{Wrequest{C' items from good
+aligned mobs. (help request).
+{x
+~
+human~
+AB 0 1000 0
+3 3 9d3+0 3d9+60 1d3+3 none
+7 7 7 8
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 17641 30~
+M random 17640 5~
+M death 17617 100~
+#17680
+wizi guy~
+the wizi guy~
+A wizi guy is here, guiding people to their proper rooms.
+~
+Why bother?
+~
+human~
+ABe DFlmt 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M exall 17605 2~
+M exall 17607 3~
+M exall 17608 Zisou~
+M exall 17609 1~
+I 92
+#17681
+trainer newsouls academy~
+the trainer~
+An extra trainer is here, to help the guildmaster do his job.
+~
+This guy is here for the 'none' skill group.
+~
+human~
+ABKe 0 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+I 92
+#17682
+ÖÒÅÃ guildmaster man warrior tall~
+the warrior teacher~
+A tall warrior stands here watching you, his arms crossed.
+~
+This warrior is heavily musced, his body wide enough for two men.  His
+hair is long and tied back in a ponytail, held by a leather cord to stay out
+of his eyes.  Though it is streaked with gray, he doesn't seem to have let
+age affect his skills at all, and is one of the best teachers throughout the
+lands.  
+~
+human~
+ABJKTVb C 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+ACEFHIKN ABCDLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17683
+cleric teacher guildmaster woman~
+the cleric teacher~
+A cleric is here, watching you with a serene look on her face.
+~
+Dressed in a robe of pale blue silk, she looks quite lovely, her blond
+hair falling in waves to her waist.  Her blue eyes regard you serenely,
+seeming to reach into the depths of your soul.  
+~
+human~
+ABJKTVb DFHlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#17684
+teacher guildmaster woman thief~
+the thief teacher~
+A woman stands by one of the chests, grinning at you knowingly.
+~
+Dressed in tight-fitting, ordinary looking clothes, this woman looks like
+she could blend into any crowd without attracting much notice.  Her hands
+are long and slender, and she moves with an almost lazy grace.  She carries
+a golden dagger sheathed at her waist, and holds a set of lockpicks, ready
+to teach her students the art of thieves.  
+~
+human~
+ABJKTVb DFlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#17685
+teacher guildmaster woman witch~
+the witch teacher~
+A tall woman watches you closely, giving you a knowing look.
+~
+Dressed in a white robe that hangs loosely about her body, the witch
+stands proudly, filled with confidence in her power and her abilities. 
+Though her body appears frail, her eyes hint that she possesses great power.
+~
+human~
+ABJKTVb DFlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#17686
+teacher guildmaster warlock man~
+the warlock teacher~
+A short, frail man in robes watches you while conjuring up a glowing ball of light.
+~
+Dressed in robes the colour of a clear blue sea, this man is rather small
+in stature but he watches you with an easy confidence that assures you he
+makes up for his frailty with knowledge.  A white ball of energy floats
+above his hand, growing brighter and brighter, and then fading again with a
+whispered word.  
+~
+human~
+ABJKTVb DFlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17687
+teacher guildmaster woman necromancer~
+the necromancer teacher~
+A tall, thin woman stands by one of the tables and watches you with an evil smile.
+~
+Dressed in long red robes the colour of blood, she holds a blood-covered
+dagger as she performs a dissection on the mangled, unrecognizable corpse on
+the table before her.  Strange, frightening creatures move about the room at
+her command, some of them moaning in pain.  
+~
+human~
+ABJKTVb DFlmtu -1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#17688
+teacher guildmaster man vampire~
+the vampire teacher~
+A man dressed in fine clothing watches you, holding his hand to his lips.
+~
+Dressed in clothes that would have been commonplace centuries ago, this
+man bears himself proudly, and looks at you as if he is a wealthy lord and
+you are nothing more than a lowly peasant working in his stables.  His smile
+is charming and ingratiating at once, and his eyes seem to draw you to him
+against your own will.  His face is quite handsome, but the smell of blood
+is strong around him, and his skin is too pale, and cold to the touch.  
+~
+human~
+ABJKOTVb DFlmtu -1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17689
+teacher guildmaster man ranger~
+the ranger teacher~
+A man is bent over a small tree, carefully pouring water over it.
+~
+Looking to be about middle-aged, with a thick, gray flecked brown beard,
+this man looks as sturdy as a trunk, and looks like he could split a man in
+two.  He moves about the room, tending to the plants with a delicate and
+loving touch, bringing them to an even fuller bloom than would be possible
+in the wild.  
+~
+human~
+ABJKTVb DFlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17690
+teacher guildmaster woman ninja figure dark~
+the ninja teacher~
+A dark figure is suddenly beside you, watching you with a piercing gaze.
+~
+Dressed in dark, tight-fitting clothing, the figure before you blends
+easily into the shadows of the room.  Moving with a quick and deadly grace,
+the teacher approaches and soon the details of her face become more
+apparent.  Though she looks like any other woman in the crowd, the ease with
+which she can sneak up is demonstrative of the strength and power available
+to those who take her path.  
+~
+human~
+ABJKTVb DFlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#17691
+teacher guildmaster woman samurai~
+the samurai teacher~
+A woman stands by the door, a katana sheathed at her back.
+~
+Her brown hair is tied back away from her face, keeping her green eyes
+clear.  She stands with an easy confidence, sure of her abilities.  Her body
+is lean but well-muscled, showing signs of intense training.  She wears a
+long katana sword on her back, in easy reach should she need to draw it,
+though she surely doesn’t need to defend herself in the academy.  
+~
+human~
+ABJKTVb DFlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#17692
+teacher guildmaster man paladin~
+the paladin teacher~
+A man watches you closely, searching your soul to determine your dedication to this path.
+~
+Bearing many scars across his face and arms from his lifelong dedication
+to the eradication of evil in the lands, this man is obviously an
+experienced fighter.  Despite his heavy muscles and scars, there is
+something about him that is comforting, and though its difficult to say
+where the impression comes from, he seems to be a man dedicated to peace.  
+~
+human~
+ABJKTVb DFHlmt 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17693
+teacher guildmaster necromancer man~
+the anti-paladin teacher~
+A man clad in dark, terrifying armor stands here watching you with a smirk.
+~
+His armor is decorated with disturbing designs, images of things best
+left unsaid.  Blood has been splattered across it, and though it seems to be
+in good conditions, it also seems as if no effort has ever been made to
+clean the blood off.  The man inside the armor is seems to belong nowhere
+else.  His face is somewhat chubby, almost sweet-looking, except for the
+cold brown eyes and the cruel curve of his smile.  
+~
+human~
+ABJKTVb DFlmtu -1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#17694
+mob class~
+A wizi mob~
+A mob that transfers people to their proper class rooms.
+~
+~
+human~
+ABe DFlm 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M exall 17605 Zisou~
+I 92
+#17695
+mob class~
+A wizi mob~
+A mob that transfers people to their proper race rooms.
+~
+~
+human~
+ABbe DFlm 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M exall 17610 2~
+I 92
+#0
+
+#OBJECTS
+#17600
+small sign~
+a small sign~
+{BA smaller sign hangs on the eastern wall.{x~
+wood~
+~
+trash OR 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+small sign~
+There are many ways for you to communicate with other players who 
+are on the mud.Among these are the commands: say, tell, reply, gtell, 
+whisper, gossip, newbie, and ooc. There are help files on all of these.
+ 
+Typing ‘who’ will let you see what other players are currently online.
+You may see words beside their names, such as ‘Warlock’ ‘Knights’ 
+‘Shadow’, etc. These mark them as members of certain clans that 
+players can join. To learn more type ‘help clans’.
+ 
+Everything you say to other players is expected to be roleplayed, 
+except for things said on ooc and the newbie channel. Meaning you 
+shouldn’t stand around asking people in the room with you ‘Dude, 
+did you watch the game last night?’ The ooc channel is specifically 
+for those comments that have nothing to do with the game.
+ 
+Also keep in mind that newbie, gossip, and ooc are all global
+channels, meaning when you use them everyone will be able to hear 
+what you say.
+ 
+People often get these channels confused, so here’s a quick explanation 
+of their purposes.
+ 
+Newbie: Newbie is used to ask technical questions about the mud. An 
+example of how this would be used could be: ‘newbie Could someone 
+please tell me how to change my description?’ Questions about where 
+to find a mob/item/area should always be roleplayed, not asked on the 
+newbie channel.
+ 
+Gossip: Gossip is used for public roleplaying. An example of this
+would be 'gossip I'm stuck in the Underdark and I don't know my
+way out, could someone come save me?’
+ 
+Ooc: Ooc is used for anything you want to say that doesn’t belong on 
+the other channels. You can discuss ideas you have, or really anything 
+you want. Just keep in mind that it is still subject to mud rules.
+~
+G none
+G none
+G none
+G none
+#17601
+large 2.sign~
+a large sign~
+{CA very large sign has been placed by the western wall.{x~
+wood~
+~
+treasure OR 0
+0 0 0 0 0
+0 0 0 P
+E
+large sign~
+In addition to regular ways of getting into contact with people, you can
+also send them messages that they will get even when they’re offline.  There
+are several types of messages that can be sent.  These are: news, changes,
+notes and ideas.  Type ‘help note’ to learn how they are used.  
+ 
+News and changes are only used by immortals to announce things that 
+are happening with the mud.
+ 
+Notes are used by everyone to send messages to each other. They can 
+be sent to specific players, specific clans, specific classes, or to 
+everyone at once (note to all). Every note sent should be roleplayed.
+ 
+Ideas work the same as notes, except they are used to talk about ideas 
+people have about the mud.
+ 
+In addition to all this you can also get into contact with other players 
+by visiting our forums at {Chttp://forums.legendsandlore.org{x
+~
+G none
+G none
+G none
+G none
+#17602
+small backpack~
+a small backpack~
+A small backpack has been left behind here.~
+unknown~
+~
+container 0 A
+30 0 0 10 80 0
+0 30 50 P
+E
+small backpack~
+The backpack is fairly simple, but practical.
+~
+G none
+G none
+G none
+G none
+#17603
+gold coin~
+a gold coin~
+A shiny gold coin catches the light.~
+unknown~
+~
+money 0 A
+0 1
+0 1 0 P
+E
+gold coin~
+A regular gold coin, of the currency commonly accepted throught the land.
+~
+G none
+G none
+G none
+G none
+#17604
+worn shield~
+a worn shield~
+A worn shield lies on the ground, almost falling apart.~
+leather~
+~
+armor 0 AJ
+4 4 4 3 'none' 0
+0 11 410 W
+A
+18 1
+A
+13 5
+E
+worn shield~
+This shield is quite battered, looking badly in need of repair.
+~
+G none
+G none
+G none
+G none
+#17605
+juicy red apple~
+a juicy red apple~
+A big, juicy red apple has been left here.~
+unknown~
+apple~
+food 0 A
+BD BD 0 0 0 BD BD
+0 2 10 P
+E
+juicy red apple~
+The apple looks freshly picked and delicious.
+~
+G none
+G none
+G none
+G none
+#17606
+key door~
+the key to the door~
+A small key is here, looking worn and used.~
+metal~
+~
+key 0 A
+0 0 0 0 0 0 0
+0 1 0 P
+E
+key~
+A small, tarnished key, which is beginning to look very worn.
+~
+G none
+G none
+G none
+G none
+#17607
+water flask~
+a {yflask{x of {cw{Ca{cter{x~
+a A {yflask{x of {cw{Ca{cter{x lies on the ground.~
+glass~
+~
+drink 0 A
+20 20 'water' 0
+0 5 20 P
+E
+flask water~
+This clear flask of water doesn't look like it would hold much, but it's
+good enough for a day's travel.  
+~
+G none
+G none
+G none
+G none
+#17610
+small mace~
+a small mace~
+A small mace has been dropped here.~
+steel~
+~
+weapon 0 AN
+mace 1 7 smash 0
+10 10 198 P
+A
+18 2
+E
+small mace~
+The mace looks to be of good quality, and seems to have been recently
+forged.  
+~
+G none
+G none
+G none
+G none
+#17611
+shortsword~
+a shortsword~
+A shortsword has been dropped here and forgotten.~
+steel~
+~
+weapon 0 AN
+shortsword 2 2 slash 0
+7 10 50 P
+E
+shortsword~
+This shortsword is of good quality, and seems to have been recently
+forged.  
+~
+G none
+G none
+G none
+G none
+#17612
+small axe sharp~
+a small axe~
+A sharp-bladed axe has been dropped on the ground.~
+steel~
+~
+weapon a AN
+axe 1 8 chop 0
+7 15 332 P
+A
+18 2
+E
+axe sharp~
+The axe is small, but it looks to be of high quality, and the blade seems
+to have been recently forged.  
+~
+G none
+G none
+G none
+G none
+#17613
+bow small wooden~
+a small bow~
+A small wooden bow has been dropped on the ground.~
+wood~
+~
+weapon 0 AN
+bow 1 17 blast F
+14 15 680 P
+E
+small wooden bow~
+This bow is small, but it seems to have been recently carved, and the
+strings are strong and supple.  
+~
+G none
+G none
+G none
+G none
+#17614
+longsword sword~
+a longsword~
+A longsword has been dropped here, its blade gleaming in the light.~
+steel~
+~
+weapon a AN
+longsword 4 4 slash 0
+14 15 971 P
+A
+18 3
+E
+longsword~
+This longsword appears to be of good quality, and its blade seems to have
+been recently forged.  
+~
+G none
+G none
+G none
+G none
+#17615
+special object~
+a special object~
+A useless, but very special object.~
+unknown~
+~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#17616
+fishing boat~
+a fishing boat~
+A small fishing boat has been left here.~
+wood~
+~
+boat f A
+0 0 0 0 0 0 0
+0 1 18145 P
+E
+fishing boat~
+This boat is simple, made for village fishermen.  It appears to have been
+previously used, as a hole in its side has been patched up.  
+~
+G none
+G none
+G none
+G none
+#17617
+blazing torch~
+a blazing torch~
+A blazing torch lies on the ground, threatening to set fire to anything it touches.~
+unknown~
+flame~
+light 0 A
+899
+1 5 150 P
+A
+14 24
+A
+17 -2
+E
+blazing torch~
+This torch is nothing special, though it does seem to be burning with
+quite a bit of intensity.  
+~
+G none
+G none
+G none
+G none
+#17618
+pool new thalos long~
+the pool~
+A long pool clearly reflects the city of New Thalos.~
+water~
+~
+portal R 0
+0 0 A 9506 0
+0 0 0 P
+E
+pool new thalos long~
+This pool reflects the beautiful city of New Thalos, bustling with
+activity.  
+~
+G none
+G none
+G none
+G none
+#17619
+pool fayten beautiful~
+the pool~
+A beautiful pool of water shows a reflection of Fayten Keep.~
+water~
+~
+portal R 0
+0 0 A 7500 0
+0 0 0 P
+E
+beautiful pool fayten~
+This beautiful pool of water shows the town fortress of Fayten Keep in all its glory.
+~
+G none
+G none
+G none
+G none
+#17620
+pool midgaard clear~
+the pool~
+A clear pool shows an image of the city of Midgaard.~
+water~
+~
+portal R 0
+0 0 A 3014 0
+0 0 0 P
+E
+pool midgaard~
+A perfect image of the city of midgaard is reflected in the pool, as real
+as if you stood there yourself.  
+~
+G none
+G none
+G none
+G none
+#17621
+pool caerlon~
+the pool~
+A wide pool bears a perfect reflection of the city of Caerlon.~
+water~
+~
+portal R 0
+0 0 A 10600 0
+0 0 0 P
+E
+pool caerlon~
+The pool reflects the city perfectly, and you see it as if you are there
+standing right outside its gates.  
+~
+G none
+G none
+G none
+G none
+#17622
+mystical blue energy mist~
+{cmy{Bsti{bcal {bb{Blu{be {ben{Ber{cgy{x~
+Strange blue mist crawls along the floor, moving slowly and then surging forward suddenly.~
+energy~
+~
+armor G AQ
+1 1 1 0 'none' 0
+1 1 870 P
+A
+12 10
+A
+19 1
+A
+18 1
+E
+mystical blue energy~
+The energy floats around, moving back and forth like mist.  A feeling of
+immense power comes from inside its cloudy depths.  
+~
+G none
+G none
+G none
+G none
+#17623
+small silver key~
+a small silver key~
+A small silver key has been left behind, glinting in the light.~
+silver~
+~
+key 0 A
+0 0 0 0 0 0 0
+0 2 0 P
+E
+small silver key~
+This key is small and appears to be made of silver.
+~
+G none
+G none
+G none
+G none
+#17624
+pool dark old~
+the pool~
+A dark pool shows a reflection of the shadowed city of Old Midgaard.~
+water~
+~
+portal R 0
+0 0 A 5381 0
+0 0 0 P
+E
+pool dark old~
+A dark pool shows the reflection of the city of Old Midgaard.
+~
+G none
+G none
+G none
+G none
+#17625
+pool tall valley titans~
+the pool~
+A tall pool of water shows a clear image of the Valley of Titans.~
+water~
+~
+portal R 0
+0 0 A 18049 0
+0 0 0 P
+E
+pool tall valley titans~
+A tall pool shows an image of the homeland of the giants of the realm.
+~
+G none
+G none
+G none
+G none
+#17626
+pool green virgin~
+the pool~
+A pool of green water shows the pristine Virgin Forest.~
+water~
+~
+portal R 0
+0 0 A 97460 0
+0 0 0 P
+E
+pool green virgin~
+The water in this pool is clear, showing a perfect image of the Virgin
+Forest.  
+~
+G none
+G none
+G none
+G none
+#17627
+pool rippling magic~
+the pool~
+The rippling surface of a small pool shows a reflection of the Magic Forest.~
+water~
+~
+portal R 0
+0 0 A 1865 0
+0 0 0 P
+E
+rippling pool magic~
+The water of the small pool ripples across its surface, still showing a clear image of the magic forest.
+~
+G none
+G none
+G none
+G none
+#17628
+pool cool emerald~
+the pool~
+A pool of clear, cool water shows the image of the Emerald Forest.~
+water~
+~
+portal R 0
+0 0 A 207 0
+0 0 0 P
+E
+pool cool emerald~
+The pool's water is clear and cool, showing the image of the Emerald Forest.
+~
+G none
+G none
+G none
+G none
+#17629
+bedroll~
+the bedroll~
+~
+wool~
+~
+furniture R 0
+A EIJKN EHK ACDEFG ACDEFG A EIJKN
+0 0 0 P
+E
+bedroll~
+A single bedroll lies by the fire, looking like a warm place to sleep, if
+such a thing is possible in these dark caves.  
+~
+G none
+G none
+G none
+G none
+#17630
+sturdy thick chest~
+the sturdy chest~
+A thick and sturdy-looking chest is pushed up against the cave wall.~
+wood~
+~
+container R 0
+1000 0 0 1000 100 0
+0 0 0 P
+E
+thick sturdy chest~
+The chest is thick and sturdy, and seems to have withstood the ravages of
+time fairly well.  
+~
+G none
+G none
+G none
+G none
+#17631
+chest small rusty rusted~
+a small rusty chest~
+A small, rusted chest lies in the corner of the cave.~
+wood~
+~
+container R 0
+1000 0 0 1000 100 0
+0 0 0 P
+E
+dark rusted chest~
+This chest is half rusted, and looks like it might be a little difficult
+to get open.  
+~
+G none
+G none
+G none
+G none
+#17632
+worn breastplate~
+a worn breastplate~
+A worn breastplate has been left behind to gather dust.~
+leather~
+~
+armor a AD
+1 1 1 0 'none' 0
+1 20 2988 W
+A
+19 1
+A
+14 50
+A
+17 -1
+E
+worn breastplate~
+The breastplate looks to be ancient, and is falling apart with every
+little jolt to it.  
+~
+G none
+G none
+G none
+G none
+#17633
+worn armplates~
+a pair of worn armplates~
+A pair of worn armplates has been dropped here.~
+leather~
+~
+armor a AI
+1 1 1 0 'none' 0
+1 15 1069 W
+A
+4 1
+A
+14 20
+A
+13 5
+A
+17 -5
+E
+worn armplates~
+These armplates seem to be falling apart, though still serviceable.
+~
+G none
+G none
+G none
+G none
+#17634
+mystical orb~
+{ma mystical orb{x~
+An object of immense beauty lies on the ground, pulsating softly.~
+energy~
+~
+armor B AO
+3 3 3 2 'none' 0
+0 5 498 P
+A
+3 1
+A
+17 -1
+A
+18 1
+E
+mystical orb~
+The orb is perfectly circular, with no flaws marring its glossy surface. 
+It is violet coloured, but reflects a rainbow of colours whenever any light
+hits its surface.  
+~
+G none
+G none
+G none
+G none
+#17635
+small dagger~
+a small dagger~
+A small dagger lies here, its blade gleaming in the light.~
+steel~
+~
+weapon a AN
+dagger 2 4 pierce 0
+14 15 215 P
+A
+18 3
+E
+small dagger~
+The dagger seems to be of good quality, and appears to have been newly
+created.  
+~
+G none
+G none
+G none
+G none
+#17636
+silver necklace~
+a silver necklace~
+A silver necklace lies on the ground, abandoned.~
+silver~
+~
+armor 0 AC
+1 1 1 0 'none' 0
+1 15 11 P
+A
+17 -1
+E
+silver necklace~
+This necklace is simply crafted, but it is still quite beautiful.
+~
+G none
+G none
+G none
+G none
+#17637
+bedrolls~
+a bedroll~
+Several bedrolls have been spread out for those wishing to rest.~
+unknown~
+~
+furniture R 0
+CE FHJKPQ EHK BDEFGH BDEFGH CE FHJKPQ
+0 0 0 P
+E
+bedrolls~
+They look comfortable and clean, and great place to relax before the next
+battle.  
+~
+G none
+G none
+G none
+G none
+#17638
+big wooden chest~
+the big wooden chest~
+A big wooden chest lies next to the fire.~
+wood~
+~
+container R 0
+1000 ACD 17623 1000 100 0
+0 0 0 P
+E
+big wooden chest~
+The chest is made of a dark, sturdy wood, reinforced with metal. It seems that the only way to open it is with the proper key.
+~
+G none
+G none
+G none
+G none
+#17639
+brown worn trousers~
+a pair of worn trousers~
+A pair of brown, heavily worn trousers have been left here.~
+unknown~
+cloth~
+armor 0 AF
+3 3 3 2 'none' 0
+0 8 645 W
+A
+14 10
+A
+17 -1
+A
+1 1
+E
+worn brown trousers~
+These trousers are getting worn, already having several holes, but they
+still offer decent protection from the elements.  
+~
+G none
+G none
+G none
+G none
+#17640
+silver bracelet~
+a silver bracelet~
+A simple silver bracelet has been dropped here and forgotten.~
+silver~
+~
+armor 0 AM
+1 1 1 0 'none' 0
+1 10 366 P
+A
+14 10
+A
+13 10
+G none
+G none
+G none
+G none
+#17641
+ring silver~
+a silver ring~
+A small silver ring is barely visible on the ground.~
+silver~
+~
+jewelry 0 AB
+A A A A 0 A A
+1 2 20 P
+A
+14 5
+A
+12 1
+A
+13 1
+A
+17 -2
+E
+silver ring~
+This ring is small, and doesn't seem to be of particularly fine
+craftsmanship, but the silver is pure.  
+~
+G none
+G none
+G none
+G none
+#17642
+worn boots pair~
+a pair of worn boots~
+A pair of worn out boots has been left standing upright on the ground.~
+leather~
+~
+armor 0 AG
+1 1 1 0 'none' 0
+1 13 150 W
+A
+19 1
+E
+worn boots pair~
+These boots are very worn, with the soles already full of holes and quite
+uncomfortable to walk in.  
+~
+G none
+G none
+G none
+G none
+#17643
+pair soft leather gloves~
+a pair of soft leather gloves~
+A pair of soft leather gloves has been left behind on the ground.~
+leather~
+~
+armor 0 AH
+1 1 1 0 'none' 0
+1 15 326 P
+A
+17 -1
+A
+5 1
+E
+pair soft leather gloves~
+The gloves are rather worn, but they are still serviceable and appear to
+be quite comfortable.  
+~
+G none
+G none
+G none
+G none
+#17644
+worn cap~
+a worn cap~
+A worn cap has been forgotten here.~
+leather~
+~
+armor 0 AE
+1 1 1 0 'none' 0
+1 15 715 W
+A
+17 -1
+A
+4 1
+A
+3 1
+E
+worn cap~
+This cap looks quite worn, and seems like it could almost fall apart if
+struck by a single blow.  
+~
+G none
+G none
+G none
+G none
+#17645
+plain brown cloak~
+a brown cloak~
+A plain brown cloak has been dropped on the ground.~
+unknown~
+cloth~
+clothing 0 AK
+A A A A 0 A A
+1 10 670 W
+A
+17 -3
+A
+14 40
+E
+plain brown cloak~
+The cloak is plain and brown, with holes through various places.  It
+doesn’t look like it has many days left ahead of it.  
+~
+G none
+G none
+G none
+G none
+#17646
+black leather belt~
+a black leather belt~
+A black leather belt has been left behind.~
+leather~
+~
+armor 0 AL
+1 1 1 0 'none' 0
+1 5 135 P
+A
+18 1
+E
+black leather belt~
+The leather belt is wide, made for a large, muscular body, though with a
+few minor adjustments it looks like it would fit anyone.  
+~
+G none
+G none
+G none
+G none
+#17647
+academy shield~
+an academy shield~
+A small, cheap-looking shield has been left here.~
+unknown~
+cloth~
+armor a AJ
+1 1 1 0 'none' 0
+1 2 475 P
+A
+18 2
+A
+17 -2
+E
+academy shield~
+This shield is cheap, but functional, meant for use by the students of
+Newsouls Academy.  
+~
+G none
+G none
+G none
+G none
+#17648
+academy armor~
+some academy armor~
+A cheap-looking breastplate lies on the ground.~
+unknown~
+cloth~
+armor a AD
+4 4 4 3 'none' 0
+10 11 960 P
+A
+18 1
+A
+3 1
+E
+academy armor~
+It looks rather cheap, but still seems to be functional.
+~
+G none
+G none
+G none
+G none
+#17649
+newbie guide book lnl~
+{Y<{G({WNewbie Guide{G){Y>{x to {WPlaying {rL{Rn{rL{x~
+A {Y<{G({WNewbie Guide{G){Y>{x to {WPlaying {rL{Rn{rL{x has been left here.~
+paper~
+~
+parchment ABY AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+page5~
+{^------------------------------------------------{x
+{x
+{@@         Some Preliminary Areas
+{x
+{2AREA                       {6LEVELS{x
+{2
+Newsouls Academy          (Newbie Zone)
+Zoo of Midgaard            ( 1 - 15)
+Plains of the North        ( 1 - 20)
+Dwarven Day Care           ( 1 - 5 )
+Gnome Village              ( 1 - 15)
+{x
+{^------------------------------------------------{x
+~
+E
+book~
+{WINSTRUCTIONS{x
+{x
+{&Page1 {xClass guild locations
+{&Page2 {xImportant Midgaard shops
+{&Page3 {xImportant helpfiles and general advice
+{&Page4 {xBanks in Midgaard
+{&Page5 {xSome preliminary level areas
+{&Page6 {xHow to practice and train
+{x
+Type '{#read page1{x' etc.
+{x
+If you are really stuck and need help, type 'who' and look
+for a player with the '{%N{5ewbie {^H{6elper{x' flag.
+ 
+Directions to get to {&MSM{x:
+From {8Dark Temple{x: w2n2w4ne6n{x
+From {8Temple of Sun{x: e5ne6n{x
+From {8Temple of Midgaard{x: 2s{x
+~
+E
+guide~
+{WINSTRUCTIONS{x
+{x
+{&Page1 {xClass guild locations
+{&Page2 {xImportant Midgaard shops
+{&Page3 {xImportant helpfiles and general advice
+{&Page4 {xBanks in Midgaard
+{&Page5 {xSome preliminary level areas
+{&Page6 {xHow to practice and train
+{x
+Type '{#read page1{x' etc.
+{x
+If you are really stuck and need help, type 'who' and look
+for a player with the '{%N{5ewbie {^H{6elper{x' flag.
+ 
+Directions to get to {&MSM{x:
+From {8Dark Temple{x: w2n2w4ne6n
+From {8Temple of Sun{x: e5ne6n
+From {8Temple of Midgaard{x: 2s{x
+~
+E
+newbie~
+{WINSTRUCTIONS{x
+{x
+{&Page1 {xClass guild locations
+{&Page2 {xImportant Midgaard shops
+{&Page3 {xImportant helpfiles and general advice
+{&Page4 {xBanks in Midgaard
+{&Page5 {xSome preliminary level areas
+{&Page6 {xHow to practice and train
+{x
+Type '{#read page1{x' etc.
+{x
+If you are really stuck and need help, type 'who' and look
+for a player with the '{%N{5ewbie {^H{6elper{x' flag.
+ 
+Directions to get to {&MSM{x:
+From {8Dark Temple{x: w2n2w4ne6n
+From {8Temple of Sun{x: e5ne6n
+From {8Temple of Midgaard{x: 2s{x
+~
+E
+page4~
+{^----------------------------------------------------------------
+{x
+{@@                      Banks in Midgaard
+{x
+From MSM, go neu to get to the bank.
+{x
+The syntaxes to use at the bank are:
+{#Deposit{x: To save money in your account
+{#Withdraw{x: To take out money from your account
+{#Balance{x: To see how much money you currently have in your account
+{x
+Take a look at the {^MONEY {xhelpfile for more information on silver,
+gold, and gems.
+{x
+{^----------------------------------------------------------------{x
+~
+E
+page6~
+{^----------------------------------------------------------------
+{x
+{@@                   Practicing and Training
+{x
+Practicing and training can be done at your class guild location.
+Read page1 to find out where your guildmaster can be found. Type
+'practice' to get a list of all of the skills and spells you have
+available to you. If you type 'skill' or 'spell' you will get the
+list of skills and spells that you will have in your future ranks.
+If you type 'train' you will see all of the attributes you have
+to train. 'help train' will give you more information on which
+attribute is best to train first and such.
+{x
+To practice a skill, {#type{x '{&practice <skill name>{x'
+To practice a spell, {#type{x '{&practice <spell name>{x'
+{#NOTE{3: {xIf the spell name is two separate words, you will have to
+put single quotes around the entire spell name to practice it.
+{x
+{^----------------------------------------------------------------{x
+~
+E
+page3~
+{^--------------------------------------------------------------------
+{x
+{@@                      GENERAL HELP AND GUIDANCE
+{x
+{^*{x If you have no idea how and where to begin playing, read 'help
+newbie info'.
+{x
+{^*{x To request general information from other players, use the
+'newbie' channel. (for information on all channels, type 'help  channels'.
+{x
+{^*{x {xTo turn off a channel, just type the channel's name.
+{x
+Before attacking any npcs (monsters), consider them first by 
+typing 'consider <mob's name>'.
+{x
+There are many helpfiles that would be beneficial to read, such
+as help: {^QUEST, NEWBIE, RULES, PK{x
+{x
+{^--------------------------------------------------------------------{x
+~
+E
+page1~
+{^-------------------------------------------------------------
+{x
+{@@                 CLASS GUILD LOCATIONS
+{x             Directions are given from MSM
+{x
+{x      Witch  : 2w2se            Warlock: 3senen
+{x      Cleric : nwnw             Ranger : 7w3sw
+{x      Thief  : 3sesese          Ninja  : 3swsed
+{x      Warrior: 2eses            Antipal: 3w2seses
+{x      Paladin: ene              Samurai: n2esw
+{x
+{x          Directions are given from OLD MSM
+{x
+{x      Vampire: 2wnwd            Necroma: 2wne
+{x
+{^-------------------------------------------------------------{x
+~
+E
+page2~
+{^-------------------------------------------------------------------
+{x
+{@@                   IMPORTANT MIDGAARD SHOPS
+{x                Directions are given from MSM
+{x
+{x    Healer          3n        [Heals]
+{x    Bakery          wn        [Food]
+{x    Armorer         ws        [Armor]
+{x    Questor         2ne       [Type help questus]
+{x    General Store   2sw       [Waterskins, lanterns]
+{x    Weapon Shop     2en       [Arrows, axes, etc.]
+{x    Magic Shop      3s3en     [Wands, staves, potions]
+{x    Parchment Shop  2sen      [Parchments and such]
+{x    Pet Shop        3s2en     [Buy mudding friends] (help pet)
+{x    Apothecary      3s3en     [Expensive potions]
+{x    Butcher Shop    se        [Meat]
+{x    MAP SHOP        3swn      [Maps to areas in game]
+{x    Leather Shop    3s2wn     [Armor levels 0, 3]
+{x    The Jeweller's  es        [Gems, pearls, diamonds, etc.]
+{x    The Gnome       2wnw      [Have items identified!]
+{x    Levee           3s2es     [Boats]
+{x
+{^-------------------------------------------------------------------{x
+~
+E
+newbie~
+~
+G none
+G none
+G none
+G none
+#17650
+gauntlets of striking~
+~
+~
+unknown~
+~
+weapon 0 AN
+exotic 0 0 none 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#17600
+The Steps to the Academy~
+You stand at the top of the steps to a large building made of dark grey 
+marble. A plaque by the entrance bears the words 'Newsouls Academy'.
+The doors stand wide open, inviting you inside.
+
+{C*******************************************************************{x
+
+To move forward, simply type in the direction you want to move in. In 
+this case you can move to the north, so type 'north' (or just shorten it
+to 'n').
+ 
+You can see which direction you're able to move in by checking the
+prompt at the bottom of the page. N E S W represent directions you can 
+move in: north, south, east, west.
+ 
+{CScanning{x the room is useful for finding exits, and seeing players and 
+mobs that are nearby. You can type 'scan' by itself to see the rooms
+around you, or scan (direction) to see a few rooms in that direction.
+ 
+To turn colors on, type 'toggle color'
+Typing toggle by itself will show you other options you can toggle.
+ 
+If you have any questions related to how the mud functions, feel free
+to ask them on the {MNewbie Channel{x. Simply type: newbie (message).
+
+For example: newbie What happens to my corpse when I die?
+~
+0 CDRX inside
+E
+plaque~
+{BNewsouls Academy{x
+~
+D0
+~
+~
+Z 0 17601
+0 0
+S
+#17601
+A Hallway through the Academy~
+A long hallway stretches before you, the marble floor scuffed and 
+worn from the passage of countless feet across its length. The entrance 
+to the academy stands to the south, while the hallway continues to the 
+north.
+
+{C*******************************************************************{x
+
+There are certain rules that those who play here must abide by. These 
+can be seen by typing '{WHELP RULES{x'. Make sure you're well acquainted
+with them before you proceed, because you'll be expected to know
+and obey every single one.
+ 
+The mud also has rules about {rnames{x. Original, creative names enrich 
+the roleplaying environment, so we require that everyone who makes 
+a character here create their own names rather than using ones from 
+books, movies, video games, or real life names like Josh or Mary. 
+Ones made up of words that can be found in the dictionary, like 
+Flame, or Shadowman, are also unacceptable. {WPlease make sure you 
+know and understand these rules before proceeding any further, as 
+you will only end up being renamed later on by an immortal if you 
+choose an inappropriate name.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17602
+0 0
+D2
+~
+~
+Z 0 17600
+0 0
+S
+#17602
+A Hallway through the Academy~
+The hallway continues to the north and south, the marble floors looking
+as though they have recently been polished.  Several tapestries hang along
+the walls, depicting scenes ranging from quiet, tree-lined landscapes to
+raging battles.  Footsteps can be heard coming from somewhere in the
+distance, along with a strange clanging noise.  
+ 
+{C********************************************************************{x
+ 
+In order to look at the sign, type '{Clook sign{x'. Since there are more
+than two things here with the same name, if you wish to look at the
+second sign you'll have to type '{Clook 2.sign{x' to read what it says.
+ 
+The look command is useful for examining your surroundings. Typing
+'look' by itself will look around the room you're in, while typing
+'look (target)' *Which can be any object, mob or player, or even a
+word in the room description* will give you more information about
+the target.
+ 
+The way north is also blocked by a door. To open doors, just type 'open
+(direction of the door). So in this case 'open north'.
+ 
+~
+0 DX inside
+E
+tapestries~
+They don't look to be very expensive, but they add some life and colour
+to the hallway.  
+~
+D0
+~
+~
+ABZ 0 17603
+0 0
+D2
+~
+~
+Z 0 17601
+0 0
+S
+#17603
+A Turn in the Hallway~
+The hallway takes a twist here, continuing to the east and south.  The
+walls are bare, and there are no furnishings here, save for a small table
+holding a vase by the corner.  A strange clinking noise can be heard from
+the east, every now and then accompanied by an enraged roar.  
+
+{C*******************************************************************{x
+ 
+During your travels, you'll come across many different 'mobs'. Some
+of them may be friendly to you, or at least let you be, while others might 
+attack you on sight.
+ 
+To learn more, look at the beetle here. (look beetle)
+
+{DNote: This beetle will help you {xpractice{D your weapon skills, too.
+{x
+~
+0 DX inside
+E
+table vase~
+A simple wooden table with a beige glass vase stands in the corner, doing
+little to fix the drab surroundings.  
+~
+D0
+~
+~
+Z 0 17605
+0 0
+D1
+~
+~
+Z 0 17604
+0 0
+D2
+~
+~
+ABZ 0 17602
+0 0
+S
+#17604
+The Chained Ogre~
+The hallway here is filled with a terrible stench, and littered with the
+remains of fish and meat that might be best left unidentified.  The source
+of the roars is clear now; a large ogre has been chained to the walls,
+struggling to break free.  
+ 
+{C***********************************************************************{x
+ 
+Knowing when to run away is very important. There will be times 
+when you enter fights that you just can't win, and being able to {C{RFLEE{x{x
+will save your life. When you find yourself in a battle that's too much
+to handle, typing 'flee' gives you a chance to escape. Be aware though
+that many mobs will follow you until one of you ends up dead.
+ 
+ 
+~
+0 DX inside
+D3
+~
+~
+Z 0 17603
+0 0
+S
+#17605
+The Academy Shop~
+A tiny shop is located here, making a tidy profit serving the many
+students of the academy.  The selection leaves much to be desired, but there
+are a few useful items lying about.  Everything is stacked on shelves behind
+the counter, well out of reach of anyone with quick fingers.  
+
+{C*****************************************************************{x
+ 
+There are many shops scattered around the world, selling a variety of things.
+ 
+To see what this shopkeeper has to offer, type 'list'.
+To buy something she has for sale, type 'buy (item name)'
+If you wish to sell her something, type 'sell (object name)'.
+(shops tend to specialize in certain items, so you won't be able to sell
+everything in one place)
+To see how much the shopkeeper is willing to pay for your item,
+type 'value (item name)'.
+ 
+All the prices of items for sale are counted in silver. One gold converts 
+to one 100 silver. There are mobs around who can trade in your silver for gold, 
+giving you less weight to carry around. There are also banks where money 
+can be deposited and withdrawn.
+ 
+If you want to buy more than one of the same item, use an *. For example,
+if you wanted 5 apples, you would type buy 5*apple.
+ 
+ 
+~
+0 DX inside
+D0
+~
+~
+Z 0 17606
+0 0
+D2
+~
+~
+Z 0 17603
+0 0
+S
+#17606
+A Richly Furnished Room~
+This room stands out in sharp contrast to the rest of the academy,
+exquisitely decorated compared to the rest of the rather drab surroundings. 
+Fine rugs cover the floor, somehow kept spotless despite all the feet that
+must pass this way.  Comfortable looking chairs are placed throughout the
+room, offering a nice place to rest.  Large, colourful tapestries are hung
+on the walls, depicting the famous deeds of students who once attended this
+academy.  
+ 
+{C***************************************************************************{x
+ 
+The door to the room below is locked. To open it you'll need the proper key.
+Use the one the dwarf has handed you to unlock it. The syntax is: unlock
+'direction'. (in this case it would be unlock down).
+ 
+ 
+~
+0 DX inside
+E
+tapestries~
+The tapestries depict the various valiant and not-so-valiant deeds of the
+many students of the academy who have gone on to become legends in these
+realms.  
+~
+E
+fine rugs~
+The rugs are finely woven in intricate patterns, and are soft to walk
+upon.  
+~
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17605
+0 0
+D5
+~
+~
+ABCZ 17606 17607
+0 0
+S
+#17607
+An empty room~
+This room seems to be use as storage space.  Old, useless weapons and
+armor lie in a pile, waiting to be recycled or discarded.  There doesn't
+seem to be much of interest here at all.  
+~
+0 DX inside
+D4
+~
+~
+ABCZ 17606 17606
+0 0
+S
+#17608
+The Northern Exit of the Academy~
+Two wide doors are set into the northern wall, leading to the village
+beyond the academy.  The countless feet of adventurers before you have left
+through these doors and taken their first real steps into the outside world,
+a world they all intended to save (or conquer).  Though the monsters in the
+academy are kept under a tight leash, used only for training the students,
+the ones beyond these walls are not, and many eager students have met their
+deaths by overestimating their own abilities.  
+ 
+{C*************************************************************************{x
+ 
+Death is a common occurance, and it will surely happen to you at some point.
+ 
+When you die, the gods bring your spirit back to the temple in your 
+hometown. For a few minutes afterward, you will be a ghost, and you'll 
+have the ability to see in the dark, fly, pass through doors, and most 
+importantly, go anywhere in the realms without fear of being attacked. 
+This allows you a chance to retrieve the items from your corpse quickly.
+ 
+If you attack someone, you will lose your ghost status. Otherwise you 
+will remain a ghost for a few minutes.
+ 
+If you die somewhere unfamiliar, or are for any reason unable to reach 
+your corpse, your items will show up at the donation pit (or chest) close 
+to where you recall.
+ 
+A good thing to keep in mind is that you have been granted the ability
+to {Crecall{x at any time while you are under level 20. Recalling will
+bring you back to the temple in your hometown. Simply type 'recall'.
+ 
+After level 10, you will see a red {RPK{x next to your name. This means
+that you can now attack and be attacked by other players in your PK range.
+
+Those with a {GGR{x next to their name are people you can group with.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17609
+0 0
+D2
+~
+~
+Z 0 17640
+0 0
+S
+#17609
+The Gates of the Village~
+Beginning at the large academy to the south, a narrow dirt path winds its
+way towards two small village gates.  It is difficult to say what exactly is
+being guarded, since the village doesn’t seem to be much more than a
+collection of a few houses, along with a forge and a small shrine, but
+nonetheless a guard has been stationed by the gate.  
+~
+0 R inside
+E
+forge~
+The forge is to the east, visible through the trees and beyond several
+village houses.  
+~
+E
+shrine~
+The shrine is visible through the trees to the northeast, and soft
+singing appears to be coming from the same direction.  
+~
+E
+houses~
+The houses look fairly small and simple, but lovingly taken care of.
+~
+E
+guard~
+Dressed in the colours of the academy, he appears to be a student placed
+on assignment to guard the small village.  He looks very bored, but manages
+to smile at you as you pass.  
+~
+D0
+~
+~
+Z 0 17610
+0 0
+D2
+~
+~
+Z 0 17608
+0 0
+S
+#17610
+The Main Road~
+Made of dirt packed hard by the pressures the feet and carts that travel
+along its length daily, this road passes through the center of the village. 
+Small, simple-looking houses line the street, looking peaceful and lovely
+nestled among the many trees growing around them.  Sounds of life are all
+around, as children run across the road playing happily, without a care in
+the world.  
+~
+0 X city
+E
+houses~
+The houses in this village are small and simple, but they are lovingly
+taken care of and it appears as though this would be a very quiet, peaceful
+place to live.  
+~
+E
+children~
+The children laugh, and stop to stare at you curiously before running
+back to their games, huge grins on their faces.  
+~
+D1
+~
+~
+Z 0 17635
+0 0
+D2
+~
+~
+Z 0 17609
+0 0
+D3
+~
+~
+Z 0 17611
+0 0
+S
+#17611
+The Western Edge of the Village~
+Houses line the road right up to the small western gate that leads out of
+the village.  The wall here has been recently reinforced with stone found
+along the edges of the caves, as if the villagers are wary of whatever lies
+beyond the gates.  Beyond the gates stands a series of caves, one of which
+appears to be larger than all the others.  
+~
+0 X city
+E
+wall stones~
+The wall was originally of wood, but is now reinforced with stone and
+stands at about four feet high.  
+~
+D1
+~
+~
+Z 0 17610
+0 0
+D3
+~
+~
+Z 0 17612
+0 0
+S
+#17612
+Before the Cave~
+A series of caves lies to the west, set into the steep mountain wall. 
+Most of the caves are small and narrow, with barely enough room for even a
+gnome to walk about comfortably, but there is one cave in particular that
+looms over them all, shrouded in darkness.  A sign has been placed before
+the cave entrance, bearing a warning: 
+ 
+{RBeware all who enter. This cave is overrun with undead spirits. Enter at 
+your own risk.{x
+~
+0 CX city
+D1
+~
+~
+Z 0 17611
+0 0
+D3
+~
+~
+Z 0 17613
+0 0
+S
+#17613
+The Dark Cave~
+The cave is dark, with almost no light from outside filtering in.  The
+floor is rocky and uneven, strewn with pebbles and boulders.  The only
+sounds are the sounds of your own footfalls, and the steady drip of water
+falling from the stalactites above.  The whole atmosphere of the gave is
+dark and oppressive, and with every minute spent here the feeling of being
+watched grows stronger and stronger.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 17618
+0 0
+D1
+~
+~
+Z 0 17612
+0 0
+D2
+~
+~
+Z 0 17624
+0 0
+D3
+~
+~
+Z 0 17614
+0 0
+S
+#17614
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17619
+0 0
+D1
+~
+~
+Z 0 17613
+0 0
+D2
+~
+~
+Z 0 17625
+0 0
+D3
+~
+~
+Z 0 17615
+0 0
+S
+#17615
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17620
+0 0
+D1
+~
+~
+Z 0 17614
+0 0
+D2
+~
+~
+Z 0 17626
+0 0
+D3
+~
+~
+Z 0 17616
+0 0
+S
+#17616
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17621
+0 0
+D1
+~
+~
+Z 0 17615
+0 0
+D2
+~
+~
+Z 0 17627
+0 0
+D3
+~
+~
+Z 0 17617
+0 0
+S
+#17617
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17622
+0 0
+D1
+~
+~
+Z 0 17616
+0 0
+D2
+~
+~
+Z 0 17628
+0 0
+S
+#17618
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D2
+~
+~
+Z 0 17613
+0 0
+D3
+~
+~
+Z 0 17619
+0 0
+S
+#17619
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D1
+~
+~
+Z 0 17618
+0 0
+D2
+~
+~
+Z 0 17614
+0 0
+D3
+~
+~
+Z 0 17620
+0 0
+S
+#17620
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The only other sounds are the sounds of your
+own footfalls, and the steady drip of water falling from the stalactites
+above.  The whole atmosphere of the gave is dark and oppressive, and with
+every minute spent here the feeling of being watched grows stronger and
+stronger.  A wide, smooth tunnel opens up to the north, looking unnatural
+compared to the rough cave walls.  The soft light of burning torches can be
+seen coming from the end of the tunnel, which appears to open up into a wide
+chamber.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 17623
+0 0
+D1
+~
+~
+Z 0 17619
+0 0
+D2
+~
+~
+Z 0 17615
+0 0
+D3
+~
+~
+Z 0 17621
+0 0
+S
+#17621
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D1
+~
+~
+Z 0 17620
+0 0
+D2
+~
+~
+Z 0 17616
+0 0
+D3
+~
+~
+Z 0 17622
+0 0
+S
+#17622
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D1
+~
+~
+Z 0 17621
+0 0
+D2
+~
+~
+Z 0 17617
+0 0
+S
+#17623
+A Torch-Lit Chamber~
+The tunnel opens up into a wide torch-lit chamber, its bright light a
+stark contrast to the oppressive darkness of the caves.  The chamber is
+well-furnished, tables and chairs scattered around on fine rugs that cover
+the cave floor, and even a bed in the far corner.  It appears as though
+someone has been residing here for quite some time.  At the center of the
+chamber stands a series of pools, their waters perfectly clear and still.  
+ 
+{CThese pools lead back to the hometowns of the realm.{x Simply enter the pool
+to your hometown. Example: enter old, to get to old midgaard.
+ 
+ 
+{C*********************************************************************{x
+ 
+~
+0 CDX inside
+E
+tables chairs rugs bed~
+The chamber has been filled with fine furniture, looking more like a room
+in a queen's palace than a chamber in the middle of a dark, cold cave.  
+~
+D2
+~
+~
+Z 0 17620
+0 0
+S
+#17624
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17613
+0 0
+D2
+~
+~
+Z 0 17633
+0 0
+D3
+~
+~
+Z 0 17625
+0 0
+S
+#17625
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17614
+0 0
+D1
+~
+~
+Z 0 17624
+0 0
+D2
+~
+~
+Z 0 17632
+0 0
+D3
+~
+~
+Z 0 17626
+0 0
+S
+#17626
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17615
+0 0
+D1
+~
+~
+Z 0 17625
+0 0
+D2
+~
+~
+Z 0 17631
+0 0
+D3
+~
+~
+Z 0 17627
+0 0
+S
+#17627
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17616
+0 0
+D1
+~
+~
+Z 0 17626
+0 0
+D2
+~
+~
+Z 0 17630
+0 0
+D3
+~
+~
+Z 0 17628
+0 0
+S
+#17628
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17617
+0 0
+D1
+~
+~
+Z 0 17627
+0 0
+D2
+~
+~
+Z 0 17629
+0 0
+S
+#17629
+The Dark Cave~
+A small fire brings a little warmth and light to this corner of the cave.
+It seems to be well concealed behind a group of large boulders from a recent
+cave-in, so that it is barely visible until you are almost right on top of
+it.  A bedroll has been layed out next to the fire, and there are pans and
+cooking implements scattered about, showing signs that someone has been
+staying here.  
+ 
+~
+0 CDX inside
+E
+boulders~
+The boulders are well placed to hide this area from the rest of the cave,
+making it a good place to hide.  
+~
+E
+fire~
+The fire is small, but brings much needed warmth to this part of the cave.
+~
+D0
+~
+~
+Z 0 17628
+0 0
+D1
+~
+~
+Z 0 17630
+0 0
+S
+#17630
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17627
+0 0
+D1
+~
+~
+Z 0 17631
+0 0
+D3
+~
+~
+Z 0 17629
+0 0
+S
+#17631
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17626
+0 0
+D1
+~
+~
+Z 0 17632
+0 0
+D3
+~
+~
+Z 0 17630
+0 0
+S
+#17632
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17625
+0 0
+D1
+~
+~
+Z 0 17633
+0 0
+D3
+~
+~
+Z 0 17631
+0 0
+S
+#17633
+The Dark Cave~
+A strange wailing sound seems to echo across the cave every few moments,
+only to be silenced suddenly.  The cave is dark, with no light penetrating
+more than a few feet ahead.  The floor is rocky and uneven, strewn with
+pebbles and boulders.  The only other sounds are the sounds of your own
+footfalls, and the steady drip of water falling from the stalactites above. 
+The whole atmosphere of the gave is dark and oppressive, and with every
+minute spent here the feeling of being watched grows stronger and stronger. 
+
+~
+0 DX inside
+D0
+~
+~
+Z 0 17624
+0 0
+D3
+~
+~
+Z 0 17632
+0 0
+S
+#17634
+A Magical Whirlpool~
+The water here swirls chaotically, rushing wildly and threatening to pull
+anyone under who isn’t careful.  The water moves with such force, and so
+suddenly compared to the rest of the lake’s peaceful water, that it is hard
+to imagine there is anything but magic causing it.  A loud roar fills the
+air as the water swirls chaotically, moving counterclockwise towards a
+swirling vortex at its center.  
+~
+0 X noswim
+D0
+~
+~
+Z 0 17639
+0 0
+S
+#17635
+The Main Road~
+The road continues, running through the center of town, houses to either
+side of it.  This part of the road is kept in the shade, little light
+filtering through the tall trees standing high above.  The air is fresh
+here, and it is easy to get lost breathing in the peaceful sounds and scents
+of village life, from the women standing door to door chatting pleasantly,
+to the steady hammering of metal on metal coming from the small forge to the
+southeast.  
+~
+0 X city
+E
+women~
+The women stand by the doors to their houses, or lean outside the
+windows, hanging up clothing and telling each other all the news of the
+latest happenings in the village.  
+~
+E
+forge~
+The forge is visible through the trees, the smoke from its fires rising
+high above the treetops.  
+~
+D1
+~
+~
+Z 0 17636
+0 0
+D3
+~
+~
+Z 0 17610
+0 0
+S
+#17636
+The Eastern Edge of the Village~
+The road runs through the center of the village, its dirt packed hard by
+the many feet that pass through this section every day.  The steady sound of
+hammering can be heard coming from the south, where a small forge lets off
+waves of heat.  To the north a narrow tree-lined path leads down to a small
+village shrine.  Small gates stand to the east, marking the edge of the
+village, and a large, clear lake lies only a few meters beyond.
+~
+0 X city
+E
+gates~
+The gates are left unguarded, and seem to mainly be there to keep out
+wild animals.  
+~
+E
+forge~
+The forge is a small building made of stone, not much to look at from
+this vantage point.  
+~
+E
+shrine~
+The shrine is barely visible through the trees, but it seems as if there
+are several villagers standing about it.  
+~
+D0
+~
+~
+Z 0 17637
+0 0
+D1
+~
+~
+Z 0 17639
+0 0
+D2
+~
+~
+Z 0 17638
+0 0
+D3
+~
+~
+Z 0 17635
+0 0
+S
+#17637
+A Small Village Shrine~
+The village shrine is small, its main room only a few meters wide.  There
+is a small altar by the far wall, and several bedrolls have been set for
+those who need a place to heal and recover.  It seems to be dedicated to the
+gods in general, rather than one particular deity, and all are welcomed to
+stop here and relax.  Soft music, accompanied by the sweet voice of the
+village priestess, fills the shrine with a peaceful, calm air.  
+ 
+{C*********************************************************************{x
+
+Sleeping, resting and sitting will help you regain your health and mana faster.
+ 
+There are many places around the realm where people can find furniture that
+helps speed up their recovery. The bedrolls here will help you heal faster.
+ 
+To take advantage of them, type 'sit/rest/sleep bedroll'
+ 
+ 
+~
+0 DX inside
+D2
+~
+~
+Z 0 17636
+0 0
+S
+#17638
+The Village Forge~
+The forge is small, mainly making horseshoes and practical items for the
+surrounding villages, but recently the blacksmith has begun to make a hefty
+profit by forging weapons and armor for students coming from the academy,
+and adventurers willing to brave the mysteries of the dark caves beyond the
+village.  The heat here is almost unbearable, but the blacksmith seems
+completely at home here.  
+ 
+~
+0 DX inside
+D0
+~
+~
+Z 0 17636
+0 0
+S
+#17639
+By the Lake~
+A quiet, peaceful lake extends to the east, its water clear and blue,
+reflecting the trees and sky above it.  A soft rush of water comes from the
+south, where the water seems to grow wilder.  The birds here call out
+softly, singing songs that blend with the gentle sounds of the waves to give
+the a calm and peaceful feel to the lake.  
+ 
+~
+0 X noswim
+D2
+~
+~
+Z 0 17634
+0 0
+D3
+~
+~
+Z 0 17636
+0 0
+S
+#17640
+The Room of Faces~
+The room here is brightly lit, and covered wall to wall with portraits of
+some of the academy’s most famous students, alive and dead.  The faces in
+the portraits are as different from each other as night and day, coming in
+every shape, size, colour and disposition.  
+ 
+{C************************************************************************{x
+ 
+{WCharacter descriptions are very important, and you are required to have 
+one by the time you reach level 20.{x
+ 
+Basically you are supposed to describe what your character looks like, 
+including but not limited to hair colour/length, eye colour, any 
+distinguishing features, special clothing or armor, perhaps a little hint 
+about their class, etc.
+ 
+Try not to use any actions in your description, like ‘She scowls whenever 
+someone walks in the room’, since this won’t make much sense if someone 
+looks at you when you’re fast asleep, in a forest, or busy fighting, or any 
+number of situations like that.
+ 
+It’s also a bad idea to use lines that describe how others react to you, like 
+‘You feel very afraid when you look at him.’ or ‘You feel at peace as he 
+nods at you’. It’s better to stick to a description of their actual physical 
+appearance.
+ 
+{CIn order to write your description, you need to type ‘desc edit’, and then 
+write in your description. Once done, you must go to a new line and type 
+the symbol @@ to exit the editor. To learn more about how this system works, 
+type ‘help desc edit’.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17608
+0 0
+D2
+~
+~
+Z 0 17641
+0 0
+S
+#17641
+The Altar of Choice~
+The walls of this room are a pure white, untouched by any dirt or stain. 
+The floors are of white marble are similarly untouched and spotless,
+reflecting the light in the room in a somewhat dizzying manner.  Doors are
+set into each wall, leading north, east, south and west.  A tall altar of
+rough brown stone stands at the center of the room.  
+   Inscribed on the altar are the following words.
+ 
+All are given choices in life, and the way one chooses reflects the kind 
+of life they want to live. 
+
+{cThose who wish to live a lawful existence must go west.
+Those who wish to take the approach of neutrality must go north.
+Those who wish to live a chaotic life must go east.{x
+~
+0 DX inside
+E
+altar~
+The altar is made of brown stone, plain and rough.
+~
+D0
+~
+~
+Z 0 17607
+0 0
+D1
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+D3
+~
+~
+Z 0 17607
+0 0
+S
+#17642
+The Altar of Chaotic Evil~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a chaotic evil lifestyle are the bane 
+of all that is good and organized. They believe that 
+laws and governments are the tools of weaklings 
+unable to fend for themselves. The strong have a 
+right to what they want, and the weak are there to be 
+exploited. Leadership among such people is based on 
+power, with the leader capable of bullying his 
+underlings into obedience.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D3
+~
+~
+Z 0 17641
+0 0
+S
+#17643
+The Altar of Chaotic Neutrality~
+{WA large, open book has been placed on a tall altar.  {x Those who live a
+chaotic neutral lifestyle tend to feel that there is no order to anything,
+even their own actions.  Good and evil are irrelevant when making a
+decision.  They are almost totally unreliable, except for the fact that you
+can rely on them being like this.  The true coin-flipper, they rely on fate
+and chance to lead them.  
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D3
+~
+~
+Z 0 17641
+0 0
+S
+#17644
+The Chamber of the Elves~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title: 
+ 
+{WNotes on Elven characteristics:{x
+ 
+{DElves tend to be slightly taller than humans, but have a much lighter build. 
+They lack the strength and stamina of other races, but are far more agile in 
+mody and mind.
+ 
+They tend to be fair-skinned with dark hair and deep, green eyes. They 
+have no facial or body hair.
+ 
+They move with an unearthly grace, and their fine features are often 
+admired by those of other races.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17645
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17645
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the elves.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be an elf.  
+ 
+{cElves have a deep love of nature and the simple beauty in life. They are 
+well known for their poetry, dance, song, lore and their skill in the 
+magical arts.
+ 
+Despite their dedication to the arts of peace they have a martial side to 
+them and are capable fighters that are willing to fight for what they 
+believe in.
+ 
+Though they tend to see themselves as better than most other races, they 
+are by no means unfriendly. Their worst enemies are their dark-elf cousins, 
+and the orcs who often raid their villages.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17644
+0 0
+S
+#17646
+The Chamber of the Dwarves~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title: 
+ 
+{WNotes on Dwarven characteristics:{x
+ 
+{DDwarves are not very tall, with the average height being between 4'0"-4'5". 
+However their stocky and compact shape makes them weigh as much as an 
+average human.
+ 
+Their skin tone is usually a deep tan or a light brown, and their eyes are 
+usually dark.
+ 
+Their hair is worn long, and most commonly is black, gray or brown.
+ 
+Beards are valued highly, and dwarven men take great pride in a long, 
+well-groomed beard. Facial hair on dwarven women is also considered 
+very attractive.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17647
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17647
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the dwarves.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be a dwarf.  
+ 
+{cMost dwarves live in mountain kingdoms, and are very fond of gems, 
+gold and jewelry. They can sometimes be greedy, but have a strong sense 
+of justice.
+ 
+They make great fighters, and many have been known to be deeply 
+religious. They tend towards goodness, though there can be exceptions.
+ 
+They easily befriend gnomes, humans, and half-elves, and though they 
+tend to be mistrusting, are fiercely loyal to their friends.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17646
+0 0
+S
+#17648
+The Chamber of the Half-Elves~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Half-Elf Characteristics:{x
+ 
+{DHalf-elves are those who have human and elven blood running through
+their veins.
+ 
+On average they are the same height as humans, ranging from just under 
+5'0" to about 6'0", though they tend to have smaller frames, usually weighing
+somewhere between 90-180 pounds.
+ 
+They tend to keep the distinctly pointed ears and the green eyes of the 
+elven race, though their skin tone and hair colours are as varied as all those 
+found among the human race.
+ 
+Though they are faster and more nimble than humans, they lack the grace 
+of the elves, and lack the ability to move as silently as full-blooded elves.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17649
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17649
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the half-elves.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be a half-elf.
+ 
+{cHalf-elves are most often born of human and elven parents, though there 
+are some who are born of half-elven parents.
+ 
+They are able to get along well with both races, but often feel out of place. 
+Their human blood makes them mature more quickly than their elven 
+counterparts, making life among the elves somewhat uncomfortable as they 
+achieve maturity before their peers. Those living among humans develop 
+more slowly than their human counterparts and can often feel left behind.
+ 
+Half-elves tend to get along with most races, due to their more tolerant 
+natures, but they still bear hatred towards orcs.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17648
+0 0
+S
+#17650
+The Chamber of the Humans~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Human Characteristics:{x
+
+{DHumans are the most adaptable and flexible of all the races, and can be 
+found in all corners of the realm.
+ 
+On average they are between 5'0" to just over 6'0" in height, and weigh 
+between 125-250 pounds.
+ 
+Their skin tones can range from nearly black to very pale, and their hair 
+can be anywhere from blond to black. Their eyes tend to be shades of 
+brown, green, blue and gray, and everything in between.
+ 
+Humans are not particularly strong nor intelligent, and are neither very 
+sturdy nor very wise, but rather they tend to be distinctly average, able to 
+adapt quickly to any task they set out to do{x.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17651
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17651
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the humans.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be a human.
+ 
+{cHumans are perhaps the most diverse race among the realms. They do not 
+tend towards any particular alignment, taking a good, evil, or neutral stand 
+based on their own outlooks on life, rather than a cultural propensity towards 
+one or the other.
+ 
+Depending on the human, they can get along well with all races, or none. 
+The only thing one can know for sure when encountering a human is that no 
+assumptions can rightly be made on sight about where they stand without 
+learning a little about their circumstances.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17650
+0 0
+S
+#17652
+The Chamber of the Felars~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Felar Characteristics:{x
+ 
+{DThe felar are a race of cat-like beings, standing on two legs and able to 
+communicate perfectly well in Common as well as their own language.
+ 
+They are quite tall, on average ranging from 6'0" to 8'0" feet, and 
+long-limbed, granting them a great deal of dexterity.
+ 
+Their fur ranges from midnight black to pale tan or auburn, and everything 
+in between.
+Amber is the most prevalent colour for eyes among the felar, though 
+many possess eyes that are light or dark green, black, or shades of violet 
+or gray. Very rarely some felar may have eyes of the clearest blue, though 
+this is considered unusual.
+ 
+Their hearing and instincts are keen, allowing them to see and hear 
+things that those of other races might miss. They possess long and 
+dexterous tails, with which they are able to defend themselves in battle{x.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17653
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17653
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the felars.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be a felar.
+ 
+{cIn ancient times, the felar were enslaved by magic-users to be their 
+familiars, before they finally escaped. To this day they still suffer scars 
+from that era, paying for their years of servitude which have left them 
+relatively weak and dull-witted.
+
+Though they were mistreated by mages in the past, most felar, especially 
+the younger ones, are willing to look beyond past injustices and forgive 
+those who wield magic. Some even go so far as to dabble in the magic arts 
+themselves, though they are not particularly strong and can only perform 
+the simplest spells{x.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17652
+0 0
+S
+#17654
+The Chamber of the Trolls~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Troll Characteristics:{x
+ 
+{DTrolls are large humanoid creatures that stand taller than the average 
+human, usually somewhere around 8'0" in height. 
+ 
+They are very large and muscular and possess incredible stamina, allowing 
+them to shrug off damage that would kill members of another race.
+ 
+Trolls typically have thick, green skin, and their hair, while being any 
+number of different colours, tends to be thick and coarse.
+ 
+They possess a remarkable ability to regenerate their health quickly, their 
+bodies healing wounds that would leave others maimed or even dead with 
+astonishing speed.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17655
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17655
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the trolls.  As you look each tapestry over carefully,
+you begin to get a clearer idea of what it means to be a troll.  
+ 
+{cTrolls tend to reside in dark mountain caves, or in the deepest corners of 
+forests. They are primarily an evil race, delighting in slaughter and war.
+ 
+Their large, imposing appearance tends to frighten and intimidate smaller 
+races, and therefore few outside their own race will trust them far. Those 
+who travel with trolls tend to take advantage of their slow intellect to try 
+to control them, though they often discover trolls to be dangerous and 
+unpredictable, and such a relationship almost always backfires.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17654
+0 0
+S
+#17656
+The Chamber of the Orcs~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Orc Characteristics:{x
+ 
+{DThe orcs are a large and brutal race. Most are over six feet in height, with 
+large, bulging muscles.
+ 
+They are accustomed to a harsh life, and as a result have developed strong, 
+healthy bodies and possess incredible endurance. This strength is 
+accompanied by a severe lack of mental discipline and intelligence.
+ 
+Orcs generally possess drab olive skin, with tusks jutting out of their 
+foreheads, and bloodshot red eyes. Their appearance reflects their brutal 
+warrior's existence, letting all who cross them know that they are made
+for battle{x.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17657
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17657
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the orcs.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be an orc.  
+ 
+{cOrcs are very warlike, and divide themselves into tribes that wage war 
+on each other almost as often as they do the other races of the realms.
+ 
+Because of their brutal and cruel natures, they have no patience for any 
+approach other than the direct, and rarely consider the consequences before 
+they act.
+
+Orcs are an evil race that delights in causing pain and terror in others. 
+They will kill anything they can, and only respect those who are even 
+more strong and brutal than themselves. They bear a particular hatred for 
+elves, and strive to eradicate them from the realms entirely.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17656
+0 0
+S
+#17658
+The Chamber of the Duergar~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title: 
+ 
+{WNotes on Duergar characteristics:{x
+ 
+{DThe Duergar are a subterranean race of dwarves, sometimes known as 'Grey
+Dwarves' or 'Dark Dwarves'.
+ 
+On average the duergar tend to be 4'0"-5'2" tall, and weigh 200-300 pounds. 
+They normally have a stocky and muscular build.
+ 
+Their skin tone is most commonly dark grey or something close to it, and 
+their eyes are commonly in shades of red, due to their infravision. Unlike 
+their surface cousins, the Duergar have little body hair and do not wear 
+beards.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17659
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17659
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the duergar.  As you look each tapestry over carefully,
+you begin to get a clearer idea of what it means to be a dark dwarf.  
+ 
+{cThe duergar are for the most part evil. Like dwarves, they are extremely 
+loyal to each other above all others, and will defend their way of life.
+ 
+They often trade with the dark-elves and even fight side by side with them 
+from time to time, but the alliance is often uneasy, with the two races often 
+warring for control of the Underdark.
+ 
+The Duargar do not get along with their dwarven surface cousins, and any 
+dwarf would be insulted at the mere mention of the idea that the two races 
+are somehow related.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17658
+0 0
+S
+#17660
+The Chamber of the Dark-Elves~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title: 
+ 
+{WNotes on dark-elf characteristics:{x
+ 
+{DThe Drow are a subterranean elven race. They possess above average 
+intelligence and dexterity, but lack in strength and constitution, both due 
+to their elven heritage.
+ 
+The average height and weight for a Drow would be between 5'2" -5'7" 
+and 90-160 pounds.
+ 
+The Drow have an obsidian black skin tone, and their hair is white, silver, 
+or white with silver highlights. No Drow has any other hair colour that has 
+not been achieved by artificial means. Drow eyes are most commonly 
+coloured in shades of crimson, due to their infravision. Some of the more 
+unusual colours to be found are violet, amber, silver, pink...any very light 
+shade of a colour, but again these are all rare.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17661
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17661
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the dark-elves.  As you look each tapestry over
+carefully, you begin to get a clearer idea of what it means to be a
+dark-elf.  
+ 
+{D{cDark-elves are evil. They consider themselves superior to all other races 
+and will unite to destroy any threat to their way of life.
+ 
+In the Underdark, dark-elf society is a matriarchy, with female priestesses 
+being right at the top. Their greatest enemies would be other dark-elves, as 
+they all compete for supremacy within their own families, while trying to 
+make sure their Houses hold power in society. It is not below a dark-elf to 
+stab a rival in the back while fighting against a common cause in order to 
+advance themselves.
+ 
+The dark-elves hold an uneasy truce with the duergar, trading with them 
+and teaming up to fight for common causes, but also often warring with 
+them for supremacy over the Underdark. They often lead raiding parties to 
+fight against nearby human and elven settlements.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17660
+0 0
+S
+#17662
+The Chamber of Arials~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Arial Characteristics:{x
+ 
+{DThe arial are a race of bird-like beings, gifted with the ability to fly.
+
+They are on average the same height as humans, but have more delicate builds.
+ 
+They possess large, feathered wings, which they can use to fly long 
+distances, and which can be folded behind them. Their bodies are covered 
+with soft, downy feathers, protecting them from the cold.
+
+Their skin tones and feathers can be a wide range of colours.
+ 
+They walk upright, on two feet, which tend to resemble talons. They also 
+have two arms, of which they have full use, in addition to their wings.
+ 
+They have sharp minds, being more intelligent than most, though their 
+bodies are very frail and delicate.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17663
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17663
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the arials.  As you look each tapestry over carefully, you
+begin to get a clearer idea of what it means to be an arial.
+ 
+{cThe arials believe themselves to be the most ancient race in the realms. 
+According to them, they once possessed great magical powers, but these 
+faded over time as they mated with humans, and their powers were diluted. 
+They remain powerful mages to this day, however, and excel at the mystic 
+arts, among other things.
+ 
+The arials have no true enemies or allies among the other races, preferring 
+instead to judge people by their actions.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17662
+0 0
+S
+#17664
+The Chamber of the Githyankis~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Githyanki Characteristics:{x
+ 
+{DThe Githyanki are a race of beings from another plane of existence.
+ 
+On average, they stand between 6'0" to 7'0" tall, and weight between 
+150-250 pounds.
+ 
+Their skin is thick and leathery and is usually a shade of pale yellow. 
+Their hair can be many different colours, but most often it is something 
+dark. Their eyes also tend to usually be small and dark.
+ 
+Many Githyanki possess sharp fangs, which are revealed when they open 
+their mouths, and can be a disconcerting sight.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17665
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17665
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the githyanki.  As you look each tapestry over carefully,
+you begin to get a clearer idea of what it means to be a githyanki.  
+ 
+{cThe Githyanki are a race of conquerors, traveling through the planes to 
+seek war and to make slaves of the inhabitants.
+ 
+They are an evil race, and tend to have chaotic natures, though there can 
+be exceptions.
+ 
+The Githyanki have no true allies or enemies, though as a race of 
+conquerors they are not likely to make many friends among the other races.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17664
+0 0
+S
+#17666
+The Chamber of the Storm Giants~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Storm Giant Characteristics:{x
+ 
+{DStorm giants are members of the giant race.
+ 
+They stand at 12'0" to 20'0" on average, though those living in cities 
+tend to be shorter than those who live out in the wilderness.
+ 
+Their skin tone is most often blue, green, or bluish green, as is their hair.
+ 
+Their large size gives them extraordinary strength and stamina, and 
+allows them to take blows that would kill those of smaller size. They 
+also possess the ability to heal quickly, their thick skin helping them 
+resist blows as well.
+ 
+Their great size can make them very clumsy, however, often putting 
+them at a disadvantage when fighting those who are quicker and more 
+dexterous. They also have slow minds, though they tend to be the 
+smartest of all the giant races.
+
+They possess a natural ability to fly, and have a strong resistance to 
+lightning, though they have trouble tolerating extreme temperatures.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17667
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17667
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the storm giants.  As you look each tapestry over
+carefully, you begin to get a clearer idea of what it means to be a storm
+giant.  
+ 
+{cStorm giants are a good, kind-natured race. Though their society is 
+lawful, many storm giants also possess a chaotic nature, as wild as the 
+storms they are named after.
+
+They tend to prefer to live close to a lake or river, as they have a strong 
+love for water.
+ 
+They despise those who do evil, and do what they can to ensure that good 
+prevails in the realms. As a result, they tend to ally themselves with those 
+races that seek to bring good to the lands, and often look down on races 
+who seem to be apathetic about the evil going on around them.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17666
+0 0
+S
+#17668
+The Chamber of the Cloud Giants~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Cloud Giant Characteristics:{x
+ 
+{DCloud giants are members of the giant race.
+ 
+They are the smallest of the giants, averaging only between 9'0" to 
+14'0" feet in height, most commonly standing at around 12'0".
+ 
+Their large size gives them incredible strength and stamina, though they 
+pay for it with slow minds and even slower movement.
+ 
+They tend to have white hair and very pale complexions, and they possess 
+the remarkable ability to float above the ground.
+ 
+Their thick skin and large size allows them to resist physical attacks 
+more easily than smaller races, but they find themselves quite vulnerable 
+to lightning, and their weak minds can be easily taken advantage of with 
+spells{x.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17669
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17669
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the cloud giants.  As you look each tapestry over
+carefully, you begin to get a clearer idea of what it means to be a cloud
+giant.  
+ 
+{cCloud giants are a neutral race, desiring a balance between good and evil. 
+They tend to view the actions of other races and peoples impartially, 
+preferring to let others live as they choose rather than to judge.
+ 
+Cloud giants feel most at home in tall mountains, where the air is thin 
+and fresh.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17668
+0 0
+S
+#17670
+The Chamber of the Frost Giants~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Frost Giant Characteristics:{x
+ 
+{DFrost giants are members of the giant race.
+ 
+They are usually between 9'0" to 15'0" in height, and tend to have very 
+muscular figures. Due to their enormous size, they possess great strength and 
+stamina, but they find it very difficult to coordinate their large bodies in 
+many places.
+ 
+They are accustomed to living in cold climates, and therefore extremely cold 
+temperatures have very little effect on them. On the other hand, they cannot 
+bear to stay near strong heat for long, and find themselves more vulnerable to 
+the effects of fire than other giants.
+ 
+Their skin typically ranges from being as white as snow to being a light blue 
+colour. Their eyes are normally shades of dark blue or black, and their hair 
+ranges from pure white to dark blue.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17671
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17671
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the frost giants.  As you look each tapestry over
+carefully, you begin to get a clearer idea of what it means to be a frost
+giant.  
+ 
+{cFrost giants are very warlike, and are feared for their extreme cruelty. They 
+are an evil race and delight in causing destruction. They get along well with 
+those races who share their goals, and seek to destroy any who don’t. 
+
+Most frost giants find it particulary hard to control themselves and respect 
+the laws of cities.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17670
+0 0
+S
+#17672
+The Chamber of the Fire Giants~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Fire Giant Characteristics:{x
+ 
+{DFire giants are members of the giant race.
+ 
+They are relatively large, ranging from 10'0" to 16'0". Due to their large 
+size, they have enormous strength and stamina, allowing them to shrug off 
+hits that would seriously injure member.
+ 
+Most fire giants have dark complexions, with some having skin that is 
+almost black. Their hair also tends to be dark orange or red.
+ 
+They have a natural resistance to heat, but due to their slow minds and the 
+habitat they are accustomed to, they are vulnerable to mental spells and 
+cannot survive long in very cold temperatures.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17673
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17673
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the fire giants.  As you look each tapestry over
+carefully, you begin to get a clearer idea of what it means to be a fire
+giant.  
+ 
+{cFire giants are very warlike, and almost all are vicious and evil. They 
+delight in warfare, and most find it very difficult to obey the laws.
+ 
+Many races shy away from the fire giants due to their cruel natures, though 
+there are some who find them worthy allies in spreading pain and destruction.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17672
+0 0
+S
+#17674
+The Chamber of the Svirfneblins~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title: 
+ 
+{WNotes on Svirfneblin characteristics:{x
+ 
+{c{DThe Svirfneblin are a subterranean race of gnomes. They are rather small 
+in stature, with their average height and weight ranging between 4'0"-5'0" 
+feet and 60-100 pounds. They are sometimes lean, sometimes pudgy, and 
+everywhere in between.
+ 
+They have a rock-coloured skin tone, usually somewhere between medium 
+brown to brownish gray. Males tend to be completely bald, while the 
+females have gray hair.
+ 
+Their eyes are somewhat larger than normal and round with large pupils to 
+see well in the darkness along with their infravision. The most common eye 
+colours to be found amoung them are dark shades of brown, black and gray.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17675
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17675
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the Svirfneblins.  As you look each tapestry over
+carefully, you begin to get a clearer idea of what it means to be a
+Svirfneblin.  
+ 
+{cThe Svirfneblin are a neutral race, preferring to keep to themselves and 
+live peaceful existences in the Underdark. They enjoy mining immensely 
+and most only ever leave their cities in search of gemstones.
+Though they have been known to trade with the dark-elves, they tend to 
+stay away from them for fear of being made into slaves.
+ 
+They are extremely loyal to each other and treat all members of their race 
+as if they are one giant family. Though they are related to surface gnomes, 
+their dialect can make them difficult to understand.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17674
+0 0
+S
+#17676
+The Chamber of the Satyrs~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+
+{WNotes on Satyr Characteristics:{x
+ 
+{DSatyr’s are a race of half-human, half-goat creatures.
+ 
+They are typically shorter than humans, ranging from 4'0" to 5'5". 
+Physically they are fairly sturdy, possessing the same strength as a 
+regular human, but able to move far more quickly.
+ 
+The lower half of their body is extremely hairy, and built like a goat. 
+They have hooves instead of feet, as well as a small tail. Their fur and 
+hair can be a wide range of colours.
+ 
+Above the waist satyrs tend to look human-like, except for their small, 
+pointed ears. Their skin tone is normally a light brown or darker, from 
+constant exposure to the sun.
+ 
+They have keen eyesight and hearing, which coupled with strong instincts 
+often makes them the first in a group to be aware of danger.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17677
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17677
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the satyrs.  As you look each tapestry over carefully,
+you begin to get a clearer idea of what it means to be a satyr.  
+ 
+{cSatyrs are known for their fun loving attitudes and free spirits. They tend 
+to act wildly and are more than a little fond of drinking.
+ 
+Their carefree attitude makes them appealing companions, though some 
+may grow irritated with their tendency to play tricks on others.
+ 
+Satyr females are rare, though not unheard of. When one appears, she is 
+often chased and courted by every male satyr who hears of her.
+ 
+Because of their wild and free natures, Satyrs are not judgmental towards 
+other races, and tend to accept people as they are. They have no real 
+enemies or allies, but rather tend to move from place to place and deal with 
+people as they go.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17676
+0 0
+S
+#17678
+The Chamber of the Rockseers~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Rockseer Characteristics:{x
+ 
+{DThe rockseer are a race of subterranean elves, rarely seen above ground.
+ 
+They tend to be the same height as other elves, though a few can grow to 
+be very tall, at just under 8'0". They typically weigh between 120 to 160 
+pounds, with little difference between the genders.
+ 
+Their skin is very pale, and their hair is fine, having the look and feel of 
+silk. Hair colour tends to be silver, or white with silver highlights, while 
+their eyes are most commonly a pale, icy blue.
+
+They possess the remarkable ability to meld into stone, which is learned 
+once they enter young adulthood.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17679
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17679
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the rockseers.  As you look each tapestry over carefully,
+you begin to get a clearer idea of what it means to be a rockseer.  
+ 
+{cRockseers are a neutral race, preferring to stay out of the affairs of others. 
+They live in seclusion underground, rarely interacting with others. They 
+despise the dark-elves there and avoid them like the plague, and while they 
+get along better with the svirfneblin, they are still not entirely comfortable 
+around them.
+ 
+The rockseers, even according to the stories they tell amongst themselves, 
+were once surface elves who fled from a great battle and hid underground. 
+Through the years they have built up a great sense of shame, thinking 
+themselves cowards and assuming they are hated by the surface elves, who in 
+reality know little of them. They are therefore wary among elves, thinking 
+they are hated, but nonetheless curious about their cousins.
+ 
+When living underground, the rockseer live quiet, peaceful lives, tending 
+their rock gardens and creating magnificent items from the precious gems 
+and metals found near their homes. Most are content to spend their lives 
+there, keeping only to themselves, though a few are overcome with curiosity 
+and choose to travel to the surface.
+ 
+Due to their small numbers, the rockseer are extremely loyal to each 
+other, and though not violent by nature, they will fight to the death to 
+defend another of their race.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17678
+0 0
+S
+#17680
+The Chamber of the Gnomes~
+The room is bare of any decoration, consisting only of dark, wood-paneled
+walls, a polished floor of black tiles, and a book stand on which lies an
+open book.  Upon closer inspection, it appears to be very old, being written
+by a famous scholar long dead, Mathaeli Zra'hanan.  The writing is thin and
+elegant, carefully scribed on aged paper.  At the top of the page is the
+following chapter title:
+ 
+{WNotes on Gnome Characteristics:{x
+ 
+{DGnomes are the smallest race found in the lands.
+ 
+On average, they stand between 3'0"- 3'5" tall, and weigh 40-45 pounds. 
+Their small size makes them vulnerable to taller races, and especially to 
+being bashed.
+ 
+Their skin tone ranges from a pale gray to a dark, woody brown. They 
+generally have fair hair, and their eyes are most commonly shades of blue.
+ 
+Gnomes tend to possess enormous noses, and, like the dwarves with their 
+beards, gnomes take great pride in their size and consider them attractive.
+ 
+Though their bodies are small, they are also wiry and quite tough. 
+However, gnomes are most known and admired for their great wisdom, 
+considered by many to be the wisest of all the races.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17681
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17681
+A Chamber Filled with Tapestries~
+Tapestries are placed all around the chamber, depicting scenes from the
+day to day life of the gnomes.  As you look each tapestry over carefully,
+you begin to get a clearer idea of what it means to be a gnome.  
+ 
+{cGnomes are known for their cheerful, curious personalities. They are 
+great inventors and have a reputation for playing pranks on others. They 
+have an intense curiosity that they often find difficult to control.
+
+Gnomes are primarily neutral, and tend to be fairly tolerant of other 
+races, though some regard the taller ones with distrust. They get along 
+particularly well with dwarves, and bear a hatred for most giants.{x
+~
+0 DX inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17680
+0 0
+S
+#17682
+The Warriors' Practice Room~
+Practice weapons and shields are placed on racks throughout the room,
+used to help train prospective warriors in their use.  There is a large red
+stain on the floor by one of the racks, and from the looks of it attempts
+have been made to scrub it away, but without much success.  
+ 
+{C*********************************************************************{x
+ 
+{WWarriors are the true fighters of the realms, dedicating their lives to combat.
+They spend their days perfecting their fighting tactics, training their bodies to 
+become strong and powerful. Their dedication to the physical aspects of 
+battle leaves them for the most part ignorant of more subtle tactics, leading 
+them to take more direct approaches in battle.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills you have, type 'skills'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'bash', and 'bash door'. In
+that case if you wanted to learn them right you would type:
+practice 'bash door' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+stain~
+The floor is stained red with blood, and no amount of scrubbing can
+remove it from the stone.  
+~
+E
+weapons shields practice racks~
+Wooden practice weapons have been placed in racks, provided for students
+to practice their skills on each other.  All of them seem to be in great
+shape, and it seems that they are replaced as soon as they start to wear
+down.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+S
+#17683
+The Clerics' Practice Room~
+A small altar has been set to the side of the room, offering a place for
+all the newly dedicated to pray.  There is a holy aura about this room,
+bringing a sense of peace and comfort.  
+ 
+{C**********************************************************************{x
+ 
+{WClerics are the healers of the realms, using their powers to aid life rather 
+than destroy it. They tend to focus more on defense than attack, using 
+their powers to help others and themselves. As a result they concentrate 
+less on the physical aspects of battle, leaving them with fewer weapon 
+choices, and less powerful attacks, though their spells can be quite 
+devastating to those of other faiths{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'create water', and 'create
+food '. In that case if you wanted to learn them right you would type:
+practice 'create water' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+{CNote{x: Clerics do not cast spells, they commune them.
+Therefore you must type 'commune (spell name)' to perform them.
+ 
+ 
+~
+0 DX inside
+E
+altar~
+The altar is inscribed with all the symbols of the gods commonly
+worshipped in these lands.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17684
+The Thieves' Practice Room~
+Chests are scattered around the room, and the few candles that are lit
+leave plenty of shadows.  The school has provided everything the master
+could possibly need to teach his pupils the art of true thievery, and raise
+them up above the common cutpurses and pickpockets of the realms.  
+ 
+{C***************************************************************{x
+ 
+{WThieves are masters at hiding in the shadows, avoiding direct combat 
+and preferring instead to strike when they have an advantage. Thieves are at 
+their best when they can perform their tasks undetected, slipping from 
+shadow to shadow without being seen. They will avoid direct combat, using 
+their skills instead to strike from behind, and catch their enemies when they 
+are at their weakest.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills you have, type 'skills'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'bash', and 'bash door'. In
+that case if you wanted to learn them right you would type:
+practice 'bash door' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+candles~
+The candles seem to have been lit to emphasize the shadows in the room.  
+~
+E
+chests~
+The locks on the chests range from ones that a child could pick to
+complex devices fit for any lord's mansion.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+S
+#17685
+The Witches' Practice Room~
+Glowing balls of white energy float around here, lighting up the room. 
+The very air here crackles with a mystic power, raising the hairs on your
+arms.  A strange humming noise seems to come from everywhere at once, its
+source impossible to perceive.  
+ 
+{C**********************************************************************{x
+ 
+{WWitches are women who have dedicated their lives to learning the 
+mystic arts. They study endlessly to try to master the subtleties of magic 
+and learn to control its powerful forces. Though their physical strength 
+and fighting skills suffer as a result of long hours spent studying old 
+texts and tomes, they make up for frail bodies with spells that can kill 
+with a single uttered word.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'detect magic', and 'detect
+good '. In that case if you wanted to learn them right you would type:
+practice 'detect magic' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+balls white energy~
+They flit back and forth so fast that it is difficult to fix your eyes on
+them.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17686
+The Warlocks' Practice Room~
+Shelves line the walls of the room, filled with books and scrolls.  The
+few chairs and tables that have been set out for use are covered with piles
+of ancient-looking spellbooks, and the air is filled with the musty scent of
+old, rotting paper.  
+
+{C*******************************************************************{x
+ 
+{WWarlocks are men who have dedicated their lives to the study of magic 
+and its use in battle. Their studies leave little time for improving their 
+physical bodies, but they make up for it with their devastating combat 
+spells and a way to make themselves seen only by other members of the 
+guild.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'detect magic', and 'detect
+good '. In that case if you wanted to learn them right you would type:
+practice 'detect magic' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+spellbooks tables chairs~
+Every spare inch of space is piled with books, some looking magical,
+others seeming to be plain histories.  
+~
+E
+shelves books scrolls~
+The shelves are filled with books and scrolls, all neatly arranged and
+labeled.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+S
+#17687
+The Necromancers' Practice Room~
+The stench of decay is almost overwhelming in this room.  Half rotten
+corpses lie on large black tables placed across the room, in various states
+of dissection.  Glass jars placed on tall shelves contain liquids and parts
+better left unidentified.  Undead bodies make their way across the room,
+moving slowly and awkwardly, performing tasks for their master.  
+ 
+{C***********************************************************************{x
+ 
+{WNecromancers are feared and reviled throughout the lands. Though 
+they have no great physical strength or prowess in battle, they work 
+dark magics and have large and terrifying undead armies at their 
+command, ready to do their bidding. Necromancers prefer to avoid 
+direct combat, instead preferring to let their armies to the work for 
+them, while they fire spells from behind their ranks.{x
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'skeleton mage', and 'skeleton
+warrior'. In that case if you wanted to learn them right you would type:
+practice 'skeleton warrior' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+undead bodies~
+Undead creatures brought up by the teacher move slowly across the room,
+filling it with a horrid stench.  
+~
+E
+glass jars shelves liquids~
+Strange and unpleasant things are kept in the jars, some of them even
+twitching now and then.  
+~
+E
+corpses tables~
+Corpses lie on the tables, some half dissected, many more than half
+rotting.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17688
+The Vampires' Practice Room~
+The room here is richly furnished, hardly looking like a practice room at
+all.  Elegant chairs and tables are placed over finely woven rugs, and a
+large fireplace on the western wall keeps the room at a cozy temperature. 
+Paintings and tapestries are placed around the room, many of them depicting
+scenes of terrifying darkness, forces of evil overcoming the few last
+remaining forces of light to cover the lands in perfect darkness.  
+ 
+{C**************************************************************************{x
+ 
+{WVampires are beings who have been cursed to live undead lives, immortal 
+but always hungering for that which they can never regain. When in their 
+human form, they are almost indistinguishable from the living, but when 
+taking on their true forms they become terrifying beasts capable of 
+inflicting great pain. Because they are already dead, monsters shy away 
+from them and allow them to walk freely across the lands.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'detect invis', and 'detect
+good '. In that case if you wanted to learn them right you would type:
+practice 'detect invis' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+chairs tables rugs fireplace paintings tapestries~
+Fine objects of obvious worth are placed around the room, some of them
+looking quite ancient and out of date.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+S
+#17689
+The Rangers' Practice Room~
+Sunlight pours down through the glass ceiling above, falling upon the
+leaves of the plants and trees filling this room.  Countless flowers have
+been coaxed to full bloom, bringing an intense and vibrant beauty to the
+room.  Every plant here is lovingly tended by the rangers of the academy, in
+an attempt to allow nature to flourish even where civilization has already
+been well-established.  
+ 
+{C*************************************************************************{x
+ 
+{WRangers live for the forests, and there is nowhere else that they truly 
+feel at home. They are at their strongest when walking among the trees, 
+and few would dare to attack a ranger when they are in their forests, for 
+no one can parallel their knowledge of the land and their ability to take 
+advantage of their natural surroundings.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'bash', and 'bash door'.
+In that case if you wanted to learn them right you would type:
+practice 'bash door' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+{CNote{x: Rangers do not cast spells, they commune. So to perform a
+ranger spell, you must type: commune 'spell name'
+ 
+ 
+~
+0 DX inside
+E
+leaves plants trees flowers~
+Every plant here has been given the utmost care, coaxed to grow as if
+they were in the middle of a pure, untouched forest.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17690
+The Ninjas' Practice Room~
+Much of this room is shrouded in shadow.  Dark shapes and figures can be
+made out, some of them unmoving, others circling slowly around an unseen
+target.  Not a single footstep is heard, no creak of the floorboards, no
+sound whatsoever is heard from the figures moving about.  The room is filled
+with complete silence, until a mannequin suddenly crashes to the floor, cut
+to ribbons by a hidden attacker.  
+ 
+{C***************************************************************************{x
+ 
+{WNinjas are the assassins of the realms, using stealth and cunning to sneak 
+up on their victims and kill them before they have a chance to react. Few have 
+the capability to spot the ninjas as they move through the shadows, allowing 
+them access to places others would fear to tread. Ninjas are not known for 
+their honourable combat tactics, preferring to blind and poison their enemies 
+before getting the job done than going after one in perfect health.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'hand block', and 'hand to
+hand'. In that case if you wanted to learn them right you would type:
+practice 'hand block' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+mannequin~
+The mannequins have slashes and holes through several areas where vital
+organs and pressure points would be if they were living.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+S
+#17691
+The Samurai Practice Room~
+The walls of this room are paneled with dark wood, decorated with
+paintings and katanas that were forged by former students.  The atmosphere
+is very solemn, though by no means oppressive.  It is here where the
+students learn the basics of fighting at a samurai, and the honour that will
+bind them for the rest of their lives.  
+ 
+{C********************************************************************{x
+ 
+{WSamurai are powerful warriors who have dedicated themselves to the 
+art of honourable combat. Their honour is more important to them than 
+anything else, to the point where a samurai would rather die than flee an 
+enemy who isn’t immensely more powerful than him. Their intensive 
+training makes them formidable warriors, but their dedication to 
+following the path of honour can sometimes lead to their downfall.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'hand to hand', and 'hand
+block'. In that case if you wanted to learn them right you would type:
+practice 'hand block' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+paintings~
+The paintings are simple, depicting natural scenes, or scenes of great
+valour in battle.  
+~
+E
+katana~
+The katanas have all been crafted by the more experienced students of the
+academy.  
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17692
+The Paladins' Practice Room~
+The walls of this room are adorned with the holy symbols of the gods of
+good, justice and honour that the paladins dedicate themselves to. 
+Tapestries along the walls are placed to inspire the paladin students to
+perform valiant deeds and fight evil and injustice like the men and women
+before them.  
+ 
+{C*********************************************************************{x
+ 
+{WPaladins are warriors who have dedicated themselves to the causes of good 
+and justice. They are expected to always act with honour, and will sacrifice 
+their lives for their beliefs. In return for their dedication to virtue and the 
+gods of goodness, paladins have been blessed with clerical healing spells, 
+and the ability to call devastating holy light to burn the forces of evil.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'create water', and 'create
+food'. In that case if you wanted to learn them right you would type:
+practice 'create water' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+E
+symbols tapestries~
+Everything in this room is meant to remind the paladins of their duty,
+and inspire them to fight for the cause they have dedicated their lives to. 
+
+~
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17607
+0 0
+S
+#17693
+The Anti-Paladins' Practice Room~
+The air in this room is very cold, the surroundings dark and dreary.  The
+room itself seems to be alive with feelings of malice and hate, and every
+few moments it almost sounds as if someone is weeping in pain, but the
+silence returns before you can be certain.  
+ 
+{C************************************************************************{x
+ 
+{WAnti-Paladins are dark warriors who delight in spreading terror and 
+suffering across the realms. They have dedicated themselves to serving 
+the cause of darkness, and will carry out their goals with ruthless 
+efficiency. They are strong warriors, but they have also dedicated 
+themselves to the dark necromantic arts, allowing them to combine steel 
+with dark magic to spread terror across the lands and crush all hope.{x
+ 
+This is where you can train your skills. Guildmasters are scattered throughout
+the realms (you should be able to find the ones in your hometown by checking
+your maps).
+ 
+In order to see what skills and spells you have, type 'skills' and 'spells'.
+To practice a skill, make sure you're at a guildmaster and type 'practice
+(skill name)'.
+(Some skills bear part of the same name, like 'black shroud', and 'black
+death'. In that case if you wanted to learn them right you would type:
+practice 'black shroud' (with the single quotes)
+ 
+You can also train your stats here, by typing train (str, dex, con, etc).
+ 
+To convert practices to trains and trains to practices, type gain convert
+and gain revert.
+ 
+Typing 'practice' by itself lets you see the skills you currently have.
+ 
+ 
+~
+0 DX inside
+D0
+~
+~
+Z 0 17641
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17694
+The Altar to Lawful Goodness~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a lawful good lifestyle tend to believe 
+that an orderly, strong society with a well-organized 
+government can make life better for the majority of 
+people. To ensure quality of life, laws must be created 
+and obeyed. When people respect the laws, and try to 
+help each other, society as a whole prospers.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D1
+~
+~
+Z 0 17641
+0 0
+S
+#17695
+The Altar to Lawful Neutrality~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a lawful neutral lifestyle tend to 
+believe in strong, well-organized government, 
+whether it is a tyranny or democracy. Organization 
+and regimentation bring benefits that outweigh any 
+moral questions raised by their actions.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D1
+~
+~
+Z 0 17641
+0 0
+S
+#17696
+The Altar to Lawful Evil~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a lawful evil lifestyle tend to believe 
+in the use of society and its laws for their own 
+personal benefit. Structure and organization elevate 
+those who deserve to rule as well as provide a clearly 
+defined hierarchy between master and servant. Laws 
+and societies are supported so long as they fit with 
+personal concerns, and laws are obeyed out of a fear 
+of punishment.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D1
+~
+~
+Z 0 17641
+0 0
+S
+#17697
+The Altar to Neutral Goodness~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a neutral good lifestyle tend to 
+believe that a balance of forces is important, but the 
+concerns of laws and chaos do not moderate the 
+need for good. The world is vast and contains many 
+creatures striving for different goals, so a pursuit of 
+good will not upset the balance. Fostering good 
+may mean supporting an organized society, or 
+overthrowing the existing social order. Social 
+structure in and of itself has no innate value.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D2
+~
+~
+Z 0 17641
+0 0
+S
+#17698
+The Altar to True Neutrality~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a true neutral lifestyle are almost 
+impossible to find, as the majority of people make 
+judgments. Those who believe in the true essence 
+of neutrality believe that it is their duty to see that 
+all of the forces in the world remain in balance. 
+Alliances with such people are odd, as they tend 
+to switch sides just as one side brings the other to 
+the point of destruction.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D2
+~
+~
+Z 0 17641
+0 0
+S
+#17699
+The Altar to Neutral Evil~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a neutral evil lifestyle tend to 
+have their own advancement as their primary 
+concern. Working with others or on their own, 
+their only interest is getting ahead. Such people 
+are known for their ‘Me, Myself, and I’ 
+personalities. No scruples, no conscience.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D2
+~
+~
+Z 0 17641
+0 0
+S
+#17700
+The Altar to Chaotic Goodness~
+{WA large, open book has been placed on a tall altar.{x
+ 
+Those who live a chaotic good lifestyle tend to 
+be strong individualists marked with a streak of 
+kindness and benevolence. Goodness and right 
+matter, but there is little use for laws and 
+regulations. Their actions are morally good but may 
+not be in perfect agreement with the rest of society.
+~
+0 DX inside
+D0
+~
+~
+Z 0 17640
+0 0
+D3
+~
+~
+Z 0 17641
+0 0
+S
+#17701
+The Halfling Desc Room~
+~
+0 0 inside
+D0
+~
+~
+Z 0 17702
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17702
+The Halfling Culture Room~
+Many halflings prefer to live a simple life of farming and animal herding
+in their own small villages.  Those who choose to travel are at home almost
+everywhere, and sometimes settle in the larger cities.  Halflings have a
+great love for the good life, and will seek whatever riches they can find.  
+ 
+They typically have light-hearted personalities, and many have found 
+that when put in tough situations, halflings can show an immense amount 
+of courage, though they usually aren't at the forefront of most battles.
+ 
+Halflings have no real enemies among the other races and generally get along 
+well with all of them.
+~
+0 0 inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17701
+0 0
+S
+#17703
+The Wood-elf Desc Room~
+The Wood-Elves are a little more diversified in their appearance than
+their various "cousins."  While Wood-Elves still maintain angular facial
+features, pointed ears, and a slim bodyframe, the Wood-Elves vary in skin
+tone, eye color, and hair color, almost as diversified as humans do. 
+Although not quite as diversified as humans in these ways, the hues of
+Wood-Elves are much more intense than typical humans, almost as though the
+Wood-Elf were a 'personification' of olive-green skin, coppery red hair, or
+cerulean sky-blue eyes, or whatever tones you might have.  
+ 
+Typical Wood-Elves stand anywhere from 5'0" to 6'0", but it's not unheard of
+for them to either be shorter or taller. Like all other elves, Wood-Elves are
+very long-lived, and stay looking young for practically their entire lifetimes.
+~
+0 0 inside
+D0
+~
+~
+Z 0 17704
+0 0
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#17704
+The Wood-elf Culture Room~
+Wood-Elves live in large communities (called tribes) in the various
+forests of the world.  Despite living in the forests, though, they are a
+civilzed group.  While they prefer to use that which the land provides for
+armor and weapons, contact with the other races and their technologies have
+taught them prudence in using unnatural weapons and armor when prudence
+calls for it.  
+ 
+As most intelligent creatures of the forest, Wood-Elves enjoy revelry, often
+holding annual get-togethers for feast, drink, and dance, inviting all the
+various dwellers of the forest to join the festivities.
+ 
+Although civilized, Wood-Elves typically will not associate with other
+races, specifically those not of the forest - even their "cousins," the Elves.
+Typically, unless given reason otherwise, anybody that isn't a forest
+creature or Wood-Elf found entering the forests is seen as a tresspasser.
+While some Wood-Elves see such intrusions as a reason to become hostile,
+others see openly guiding such persons out as the best way to not attract
+undue attention.  Many, however, are content to just observe, simply to
+ensure the good behavior of their "visitors."
+~
+0 0 inside
+D0
+~
+~
+Z 0 17607
+0 0
+D2
+~
+~
+Z 0 17703
+0 0
+S
+#17705
+Desc-less Races~
+Oops! We don't have a description for your race, yet!
+~
+0 0 inside
+D2
+~
+~
+Z 0 17606
+0 0
+S
+#0
+
+#SPECIALS
+M 17635 spec_thief	* the young pickpocket
+M 17637 spec_cast_adept	* the village priestess
+S
+
+#RESETS
+D 0 17602 0 1	* A Hallway through the Academy: door to the north: closed
+D 0 17603 2 1	* A Turn in the Hallway: door to the south: closed
+D 0 17606 5 2	* A Richly Furnished Room: door to the down: closed and locked
+D 0 17607 4 2	* An empty room: door to the up: closed and locked
+O 0 17600 0 17602	* a small sign (A Hallway through the Academy)
+O 0 17601 0 17602	* a large sign (A Hallway through the Academy)
+M 0 17603 1 17603 1	* a big black beetle (A Turn in the Hallway)
+M 0 17681 20 17603 1	* the trainer (A Turn in the Hallway)
+M 0 17604 1 17604 1	* the ogre (The Chained Ogre)
+E 0 17604 0 11		*	a worn shield: as a shield
+M 0 17605 1 17605 1	* the young woman (The Academy Shop)
+G 0 17602 0		*	a small backpack
+G 0 17605 0		*	a juicy red apple
+G 0 17607 0		*	a {yflask{x of {cw{Ca{cter{x
+M 0 17606 1 17606 1	* the dwarf (A Richly Furnished Room)
+M 0 17607 2 17607 1	* boat guy (An empty room)
+M 0 17611 1 17611 1	* a young guard (The Western Edge of the Village)
+E 0 17617 0 0		*	a blazing torch: as a light
+M 0 17613 15 17613 1	* an apparition (The Dark Cave)
+E 0 17642 0 8		*	a pair of worn boots: on the feet
+M 0 17615 15 17613 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17612 15 17614 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17614 15 17614 1	* a restless spirit (The Dark Cave)
+E 0 17643 0 9		*	a pair of soft leather gloves: on the hands
+M 0 17612 15 17615 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17616 15 17615 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17613 15 17616 1	* an apparition (The Dark Cave)
+E 0 17642 0 8		*	a pair of worn boots: on the feet
+M 0 17614 15 17616 1	* a restless spirit (The Dark Cave)
+E 0 17643 0 9		*	a pair of soft leather gloves: on the hands
+M 0 17615 15 17616 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17612 15 17617 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17616 15 17617 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17613 15 17618 1	* an apparition (The Dark Cave)
+E 0 17642 0 8		*	a pair of worn boots: on the feet
+M 0 17615 15 17618 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17616 15 17618 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17612 15 17619 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17614 15 17619 1	* a restless spirit (The Dark Cave)
+E 0 17643 0 9		*	a pair of soft leather gloves: on the hands
+M 0 17613 15 17620 1	* an apparition (The Dark Cave)
+E 0 17642 0 8		*	a pair of worn boots: on the feet
+M 0 17615 15 17620 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17612 15 17621 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17615 15 17621 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17616 15 17621 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+O 0 17630 0 17622	* the sturdy chest (The Dark Cave)
+P 0 17632 1 17630 1	* the sturdy chest: a worn breastplate
+O 0 17631 0 17622	* a small rusty chest (The Dark Cave)
+P 0 17633 1 17631 1	* a small rusty chest: a pair of worn armplates
+M 0 17622 1 17622 1	* the wizi chest guy (The Dark Cave)
+M 0 17623 1 17623 1	* the wizardess (A Torch-Lit Chamber)
+G 0 17623 0		*	a small silver key
+E 0 17622 0 18		*	{cmy{Bsti{bcal {bb{Blu{be {ben{Ber{cgy{x: floating nearby
+O 0 17621 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17620 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17619 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17618 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17624 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17625 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17626 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17627 0 17623	* the pool (A Torch-Lit Chamber)
+O 0 17628 0 17623	* the pool (A Torch-Lit Chamber)
+M 0 17616 15 17624 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17612 15 17625 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17613 15 17625 1	* an apparition (The Dark Cave)
+E 0 17642 0 8		*	a pair of worn boots: on the feet
+M 0 17614 15 17625 1	* a restless spirit (The Dark Cave)
+E 0 17643 0 9		*	a pair of soft leather gloves: on the hands
+M 0 17614 15 17626 1	* a restless spirit (The Dark Cave)
+E 0 17643 0 9		*	a pair of soft leather gloves: on the hands
+M 0 17615 15 17626 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17613 15 17627 1	* an apparition (The Dark Cave)
+E 0 17642 0 8		*	a pair of worn boots: on the feet
+M 0 17616 15 17627 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17612 15 17628 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17615 15 17628 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17612 15 17628 1	* a {ybrown rat{x (The Dark Cave)
+G 0 17641 0		*	a silver ring
+O 0 17629 0 17629	* the bedroll (The Dark Cave)
+M 0 17629 1 17629 1	* the lost adventurer (The Dark Cave)
+E 0 17636 0 3		*	a silver necklace: around the neck (1)
+O 0 17638 0 17629	* the big wooden chest (The Dark Cave)
+M 0 17612 15 17630 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17615 15 17630 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17616 15 17631 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17614 15 17632 1	* a restless spirit (The Dark Cave)
+E 0 17643 0 9		*	a pair of soft leather gloves: on the hands
+M 0 17615 15 17632 1	* a shadow (The Dark Cave)
+E 0 17644 0 6		*	a worn cap: over the head
+M 0 17612 15 17633 1	* a {ybrown rat{x (The Dark Cave)
+E 0 17641 0 1		*	a silver ring: on the left finger
+M 0 17616 15 17633 1	* a growling mercenary (The Dark Cave)
+E 0 17645 0 12		*	a brown cloak: about the shoulders
+E 0 17646 0 13		*	a black leather belt: around the waist
+M 0 17634 1 17634 1	* the siren (A Magical Whirlpool)
+E 0 17634 0 17		*	{ma mystical orb{x: held in the hands
+M 0 17633 1 17634 1	* a whirlpool guy (A Magical Whirlpool)
+M 0 17632 1 17634 1	* a whirlpool guy (A Magical Whirlpool)
+M 0 17631 1 17634 1	* a whirlpool guy (A Magical Whirlpool)
+M 0 17635 1 17635 1	* the young pickpocket (The Main Road)
+E 0 17635 0 16		*	a small dagger: wielded
+M 0 17637 1 17637 1	* the village priestess (A Small Village Shrine)
+O 0 17637 0 17637	* a bedroll (A Small Village Shrine)
+M 0 17638 1 17638 1	* the village blacksmith (The Village Forge)
+G 0 17635 0		*	a small dagger
+G 0 17610 0		*	a small mace
+G 0 17611 0		*	a shortsword
+G 0 17612 0		*	a small axe
+G 0 17613 0		*	a small bow
+G 0 17614 0		*	a longsword
+M 0 17639 1 17639 1	* a village fisherman (By the Lake)
+E 0 17639 0 7		*	a pair of worn trousers: on the legs
+M 0 17680 20 17641 1	* the wizi guy (The Altar of Choice)
+M 0 17694 30 17645 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17647 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17649 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17651 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17653 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17655 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17657 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17659 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17661 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17663 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17665 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17667 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17669 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17671 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17673 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17675 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17677 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17679 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17694 30 17681 1	* A wizi mob (A Chamber Filled with Tapestries)
+M 0 17695 30 17682 1	* A wizi mob (The Warriors' Practice Room)
+M 0 17682 1 17682 1	* the warrior teacher (The Warriors' Practice Room)
+M 0 17681 20 17682 1	* the trainer (The Warriors' Practice Room)
+M 0 17695 30 17683 1	* A wizi mob (The Clerics' Practice Room)
+M 0 17683 1 17683 1	* the cleric teacher (The Clerics' Practice Room)
+M 0 17681 20 17683 1	* the trainer (The Clerics' Practice Room)
+M 0 17695 30 17684 1	* A wizi mob (The Thieves' Practice Room)
+M 0 17681 20 17684 1	* the trainer (The Thieves' Practice Room)
+M 0 17684 1 17684 1	* the thief teacher (The Thieves' Practice Room)
+M 0 17695 30 17685 1	* A wizi mob (The Witches' Practice Room)
+M 0 17681 20 17685 1	* the trainer (The Witches' Practice Room)
+M 0 17685 1 17685 1	* the witch teacher (The Witches' Practice Room)
+M 0 17695 30 17686 1	* A wizi mob (The Warlocks' Practice Room)
+M 0 17681 20 17686 1	* the trainer (The Warlocks' Practice Room)
+M 0 17686 1 17686 1	* the warlock teacher (The Warlocks' Practice Room)
+M 0 17695 30 17687 1	* A wizi mob (The Necromancers' Practice Room)
+M 0 17681 20 17687 1	* the trainer (The Necromancers' Practice Room)
+M 0 17687 1 17687 1	* the necromancer teacher (The Necromancers' Practice Room)
+M 0 17695 30 17688 1	* A wizi mob (The Vampires' Practice Room)
+M 0 17681 20 17688 1	* the trainer (The Vampires' Practice Room)
+M 0 17688 1 17688 1	* the vampire teacher (The Vampires' Practice Room)
+M 0 17695 30 17689 1	* A wizi mob (The Rangers' Practice Room)
+M 0 17689 1 17689 1	* the ranger teacher (The Rangers' Practice Room)
+M 0 17681 20 17689 1	* the trainer (The Rangers' Practice Room)
+M 0 17695 30 17690 1	* A wizi mob (The Ninjas' Practice Room)
+M 0 17681 20 17690 1	* the trainer (The Ninjas' Practice Room)
+M 0 17690 1 17690 1	* the ninja teacher (The Ninjas' Practice Room)
+M 0 17695 30 17691 1	* A wizi mob (The Samurai Practice Room)
+M 0 17681 20 17691 1	* the trainer (The Samurai Practice Room)
+M 0 17691 1 17691 1	* the samurai teacher (The Samurai Practice Room)
+M 0 17695 30 17692 1	* A wizi mob (The Paladins' Practice Room)
+M 0 17681 20 17692 1	* the trainer (The Paladins' Practice Room)
+M 0 17692 1 17692 1	* the paladin teacher (The Paladins' Practice Room)
+M 0 17695 30 17693 1	* A wizi mob (The Anti-Paladins' Practice Room)
+M 0 17681 20 17693 1	* the trainer (The Anti-Paladins' Practice Room)
+M 0 17693 1 17693 1	* the anti-paladin teacher (The Anti-Paladins' Practice Room)
+M 0 17694 30 17702 1	* A wizi mob (The Halfling Culture Room)
+M 0 17694 30 17704 1	* A wizi mob (The Wood-elf Culture Room)
+S
+
+#SHOPS
+17605 0 15 1 17 19 100 76 0 23
+17638 0 9 1 5 22 100 90 0 23
+0
+
+#MOBPROGS
+#17603
+mob oload 17603
+mob echo The beetle should have left behind a gold coin.
+mob echo {CTo get it, type ‘get all corpse’{x
+mob echo Now would be a good time to check your ‘auto’s.
+mob echo Autoassist and autosplit are useful if you intend to form groups with other players.
+mob echo Autogold and autoloot are also useful, to keep you from having to manually loot every corpse.
+mob echo Type 'help 3.auto' to learn more.
+~
+#17604
+if race $n elf
+mob transfer $n 17644
+endif
+if race $n dwarf
+mob transfer $n 17646
+endif
+if race $n half-elf
+mob transfer $n 17648
+endif
+if race $n human
+mob transfer $n 17650
+endif
+if race $n felar
+mob transfer $n 17652
+endif
+if race $n troll
+mob transfer $n 17654
+endif
+if race $n orc
+mob transfer $n 17656
+endif
+if race $n duergar
+mob transfer $n 17658
+endif
+if race $n dark-elf
+mob transfer $n 17660
+endif
+if race $n arial
+mob transfer $n 17662
+endif
+if race $n githyanki
+mob transfer $n 17664
+endif
+if race $n storm giant
+mob transfer $n 17666
+endif
+if race $n cloud giant
+mob transfer $n 17668
+endif
+if race $n frost giant
+mob transfer $n 17670
+endif
+if race $n fire giant
+mob transfer $n 17672
+endif
+if race $n svirfnebli
+mob transfer $n 17674
+endif
+if race $n satyr
+mob transfer $n 17676
+endif
+if race $n rockseer
+mob transfer $n 17678
+endif
+if race $n gnome
+mob transfer $n 17680
+endif
+if race $n wood-elf
+mob transfer $n 17703
+endif
+if race $n halfling
+mob transfer $n 17701
+endif
+if race $n half-orc
+mob transfer $n 17656
+endif
+~
+#17605
+if class $n warrior
+mob transfer $n 17682
+endif
+if class $n cleric
+mob transfer $n 17683
+endif
+if class $n thief
+mob transfer $n 17684
+endif
+if class $n witch
+mob transfer $n 17685
+endif
+if class $n warlock
+mob transfer $n 17686
+endif
+if class $n necromancer
+mob transfer $n 17687
+endif
+if class $n vampire
+mob transfer $n 17688
+endif
+if class $n ranger
+mob transfer $n 17689
+endif
+if class $n ninja
+mob transfer $n 17690
+endif
+if class $n samurai
+mob transfer $n 17691
+endif
+if class $n paladin
+mob transfer $n 17692
+endif
+if class $n dark-knight
+mob transfer $n 17693
+endif
+~
+#17606
+if carries $n 17606
+mob echoat $n The dwarf ignores you, muttering to himself about the lack of good ale at the academy.
+else
+mob echoat $n The dwarf looks at you and says '{GGreetin's! Ye look a little tired. Why not rest a bit 'fore movin' on?{x'
+mob echoat $n The dwarf gestures towards the chairs, then sighs.
+mob echoat $n Looking back at you, he shakes his head and says '{GYe look like yer eager to be on yer way. I can understand that. I was young once, meself! Here, take this key, and go visit yer guildmaster. I think yer ready for it.{x'
+mob oload 17606
+give key $n
+~
+#17607
+if isgood $n
+mob transfer $n 17694
+endif
+if isneutral $n
+mob transfer $n 17695
+endif
+if isevil $n
+mob transfer $n 17696
+endif
+~
+#17608
+if isgood $n
+mob transfer $n 17697
+endif
+if isneutral $n
+mob transfer $n 17698
+endif
+if isevil $n
+mob transfer $n 17699
+endif
+~
+#17609
+if isgood $n
+mob transfer $n 17700
+endif
+if isneutral $n
+mob transfer $n 17643
+endif
+if isevil $n
+mob transfer $n 17642
+endif
+~
+#17610
+if race $n elf
+mob transfer $n 17645
+endif
+if race $n dwarf
+mob transfer $n 17647
+endif
+if race $n half-elf
+mob transfer $n 17649
+endif
+if race $n human
+mob transfer $n 17651
+endif
+if race $n felar
+mob transfer $n 17653
+endif
+if race $n troll
+mob transfer $n 17655
+endif
+if race $n orc
+mob transfer $n 17657
+endif
+if race $n duergar
+mob transfer $n 17659
+endif
+if race $n dark-elf
+mob transfer $n 17661
+endif
+if race $n arial
+mob transfer $n 17663
+endif
+if race $n githyanki
+mob transfer $n 17665
+endif
+if race $n storm giant
+mob transfer $n 17667
+endif
+if race $n cloud giant
+mob transfer $n 17669
+endif
+if race $n frost giant
+mob transfer $n 17671
+endif
+if race $n fire giant
+mob transfer $n 17673
+endif
+if race $n svirfneblin
+mob transfer $n 17675
+endif
+if race $n satyr
+mob transfer $n 17677
+endif
+if race $n rockseer
+mob transfer $n 17679
+endif
+if race $n gnome
+mob transfer $n 17681
+endif
+if race $n halfling
+mob transfer $n 17702
+endif
+if race $n wood-elf
+mob transfer $n 17704
+endif
+if race $n half-orc
+mob transfer $n 17657
+endif
+~
+#17611
+if carries $n 17617
+or wears $n 17617
+else
+mob echoat $n The guard stirs from his position, and turns to speak with you.
+mob echoaround $n The guard stirs from his position, and turns to speak with $n.
+say Are you planning on entering those caves? If so, I suggest you bring along a light, at the very least. It's quite dangerous in there, even if you carried a thousand torches! Do you have need of a light?
+endif
+~
+#17612
+if carries $n 17617
+or wears $n 17617
+say It doesn't really look as though you need one at the moment. When you do, though, I'll be glad to help you out.
+else
+say Ah, of course. Here you go.
+mob oload 17617
+give torch $n
+endif
+~
+#17613
+~
+#17614
+mob echo The rat tries to claw out blindly one last time, then lies still. Something silver gleams beside its body.
+~
+#17615
+mob echo With a bone-chilling cry, the apparition suddenly vanishes, leaving behind an old, rotted corpse.
+~
+#17616
+mob echo The spirit is suddenly silent as it falls to the ground, finally taking on a substantial shape in the form of an old, decaying corpse.
+~
+#17617
+mob echo The fisherman's cry is quickly silenced before any villagers can hear him cry for help, and all that is left of him is a lifeless corpse.
+~
+#17618
+mob echo The mercenary gasps and grabs at his side, and his death cry echoes across the cave.
+~
+#17622
+if players > 0
+else
+get all chest
+get all 2.chest
+mob junk armplate
+mob junk breast
+mob oload 17633
+mob oload 17632
+put breast sturdy
+put arm rusty
+endif
+~
+#17623
+laugh $r
+say You think you can defeat me? Go back to where you came from!
+~
+#17624
+mob echo The Wizardess throws back her head and laughs wildly, then crumples to the floor.
+mob goto 17629
+unlock chest
+open chest
+get all chest
+purge bracelet
+mob oload 17640
+put bracelet chest
+close chest
+lock chest
+mob goto 17623
+~
+#17629
+mob echo The lost adventurer's face lights up, and he gazes at you, obviously pleased to see another living being in these caves.
+say It's nice to see another soul in these parts. I have to warn you, stay away from the northern cave. An evil wizardess resides there, I've already had my own encounter with her.
+mob echo Holding his side and wincing, the man mutters under his breath about a lost silver key.
+~
+#17630
+mob remember siren
+if pos $q fight
+else
+mob echo The siren smiles at you, beckoning you closer.
+endif
+~
+#17631
+if mobhere 17634
+mob delay 2
+endif
+~
+#17632
+mob remember siren
+if pos $q fight
+else
+mob echo The water swirls chaotically around you, drawing you closer to the center.
+endif
+~
+#17633
+mob remember siren
+if pos $q fight
+else
+mob echo The roar in your ears is deafening, as you are drawn closer and closer towards the vortex.
+endif
+~
+#17634
+mob echo With a start, you realize you are right at the center of the whirlpool, and no matter how hard you try, you cannot break out of it.
+cast 'shield'
+mob echoat $r The siren smiles lazily at you, moving towards you calmly. A blue flash of light suddenly surrounds her, and then she moves forward with incredible speed, trying to {Cpull you under!{x
+mob echoaround $r The siren smiles lazily at you, moving towards $r calmly. A blue flash of light suddenly surrounds her, and then she moves forward with incredible speed, trying to {Cpull $r under!{x
+kill $r
+~
+#17635
+mob echo The whirlpool slows, and begins to swirl sluggishly, allowing you to move away from the center with ease.
+~
+#17636
+if mobhere 17634
+mob delay 4
+endif
+~
+#17637
+mob echo {d.{x
+mob echoat $n The young priestess stops singing for a moment and smiles at you.
+tell $n I hope you're here to help us get rid of that wizardess in the caves! She's been summoning all sorts of spirits, and we're worried she won't be content to stay out of the village for long.
+tell $n If you're willing to help us, you can find her in the caves beyond the western gate of the village.
+mob echoat $n The priestess gives you a bright smile, then begins to sing once more.
+~
+#17638
+if mobhere 17634
+mob delay 6
+endif
+~
+#17639
+mob delay 8
+~
+#17640
+if wears $i 17639
+else
+mob oload 17639
+mob echo The old fisherman scratches his head in confusion.
+say Now what have I done with my trousers? By the gods, it seems I'm always misplacing them!
+mob echo After rummaging around the bottom of his boat, the fisherman lets out a triumphant cry.
+wear trouser
+say Good thing I brought an extra pair, this time.
+endif
+~
+#17641
+say Beautiful day, isn't it? Fine day to be fishing. Just don't head too far south, the water's been strange there lately.
+~
+#17642
+if players > 0
+or wears $i 17636
+else
+mob oload 17636
+wear necklace
+endif
+~
+#17643
+if players > 0
+else
+mob purge
+mob oload 17616
+drop boat
+~
+#17644
+mob echo The shadow emits a burst of light, forcing you to cover your eyes. By the time you can see again, all that lies before you is a corpse.
+~
+#0
+
+#PRACTICERS
+M 17603 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation clan defensive wizard~	* a big black beetle
+M 17682 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the warrior teacher
+M 17683 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the cleric teacher
+M 17684 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the thief teacher
+M 17685 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the witch teacher
+M 17686 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the warlock teacher
+M 17687 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the necromancer teacher
+M 17688 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the vampire teacher
+M 17689 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the ranger teacher
+M 17690 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the ninja teacher
+M 17691 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the samurai teacher
+M 17692 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the paladin teacher
+M 17693 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the anti-paladin teacher
+S
+
+#$

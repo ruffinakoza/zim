@@ -1,0 +1,430 @@
+#AREADATA
+Name Classified Area #1~
+Builders sadin~
+VNUMs 101066 101077
+Credits Sadin~
+Security 1
+LevelRange 1 91
+Flags closed noquest~
+End
+
+#MOBILES
+#101066
+guard large strong temple~
+The Temple Guard~
+A tough yet fair looking guard stands at attention, guarding the steps.
+~
+The guard wears a highly polished breastplate and has a very effective looking sword hanging from the hip.  Despite the lack of other guards, maybe this is all it takes to stop you.
+~
+human~
+ABTef H 2000 0
+100 100 456d100+60000 500d10+85 34d4+140 none
+-58 -58 -58 -37
+CDEFIKOUW ABU 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#101067
+keymaster old gnome man male~
+The Keymaster~
+An old gnome leans against the walls, wheezing.
+~
+This poor old gnome can hardly stand, you wonder how he made it up the stairs alone.
+~
+gnome~
+ABe I 0 0
+5 5 17d5+0 50d11+95 2d2+10 none
+5 5 5 6
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 101067 Knowledge~
+#101068
+boy small monk training~
+A monk-in-training~
+This young boy must keep the room clean and tidy at all times.
+~
+This young monk is in training.  His current duty includes making sure the books and scrolls get refiled in thier correct location.
+~
+human~
+ABe H 2500 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#101069
+high priest adraydon~
+Adraydon~
+The High Priest of Enki stands here, meditating
+~
+The priest is well past his prime, yet manages to keep the temple in tip-top shape with help of his new trainees.
+~
+elf~
+ABJae H 0 0
+150 150 851d150+0 1500d11+95 51d2+107 none
+-98 -98 -98 -67
+HJNV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#101070
+prayer hall guard cloud giant elite tough~
+An Elite Guard~
+This tough looking cloud giants makes sure no trouble happen in the prayer hall.
+~
+Even with no armor and only a simple spear this guard look willing to break up any fight, rather quickly.
+~
+cloud giant~
+ABTe H 0 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+CEHINO B 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#101066
+breastplate polished wisdom~
+A breastplate emblazed with strange runes.~
+A breastplate emblazed with strange runes.~
+unknown~
+Mitheral~
+armor AMNT AD
+42 42 42 42 'none' 0
+106 108 111 P
+G none
+G none
+G none
+G none
+#101067
+sword temple~
+A flaming longsword~
+A flaming longsword~
+fire~
+~
+weapon AMN AN
+longsword 6 20 flame AI
+100 101 1825473 P
+G none
+G none
+G none
+G none
+#101068
+sword temple~
+A frozen longsword~
+A frozen longsword~
+ice~
+~
+weapon AMN AN
+longsword 6 20 chill BI
+100 101 173838 P
+G none
+G none
+G none
+G none
+#101069
+bronze key door~
+A bronze key~
+A bronze key~
+bronze~
+~
+key U A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#101070
+ark of learning~
+The Ark of Learning~
+The fabled Ark of Learning pulsates with magical energy.~
+unknown~
+Thoughts~
+furniture AGI 0
+0 0 A 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#101071
+spear of lighting~
+A sparkling spear made from lighting~
+A sparkling spear made from lighting~
+unknown~
+Lighting~
+weapon AB AN
+spear 3 36 thrust F
+80 81 4850 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#101066
+A Cobblestone Path~
+A perfectly made path, made from the most perfectly cut stones you have
+ever seen, leads you toward a massive marble building.  Torches burn
+brightly as they line the path leading to the steps of the great monument of
+stone, filling the air with ample light and the lingering smell of incense. 
+Behind you a shimmering portal hovers over a small garden of roses and
+carnations, which adds color impressive yet drab landscape.  
+~
+0 NX city
+D2
+~
+~
+Z 0 101067
+0 0
+S
+#101067
+Steps of Devotion~
+An unimaginable amount of steps leads upward, almost to the heavens, or
+so it would seem.  Two VERY large guards stand on either side of the
+stairway, allowing only the worthy access to whatever building lies at the
+top of the stairs.  The face of the building is completely devoid of any
+markings as well as the stairs, making it impossible to determine what it
+could be used for.  
+~
+0 NX city
+D0
+~
+~
+Z 0 101066
+0 0
+D4
+~
+~
+Z 0 101068
+0 0
+S
+#101068
+Main Doors of the Temple~
+Two large bronze doors shine brilliantly in the glow of the multitude of
+torches below.  They are closed but don't appear to be locked in any
+fashion, but there is also no visible way to open the doors, as there are no
+handles of any kind located on the door.  A relief of a large open book
+decorates the majority of the double door, complete with ancient writings
+upon the pages.  Unless a way can be found to open the massive doors, you
+shall just have to go back down the stairs and leave.  
+~
+0 NX city
+E
+writings~
+As you read the texts, words seem to jump from the page; spelling out a single phrase: Knowledge is the key.
+~
+D0
+~
+~
+ABCFGZ 101069 101069
+0 0
+D5
+~
+~
+Z 0 101067
+0 0
+S
+#101069
+Main Hall of the Enki Temple~
+Marble tiles cover the floor in all directions, with passages leading
+west, east and north; and the door, which you entered, seems to have
+vanished.  Soft whispers and chants can be heard from the north while only
+eerie silence comes from the other remaining passages.  A mosaic of the
+night sky complete with many of the stars you have seen has been painted
+upon the ceiling above you.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 101071
+0 0
+D1
+~
+~
+Z 0 101070
+0 0
+D3
+~
+~
+Z 0 101073
+0 0
+S
+#101070
+Knowledge of the Realms~
+A cavern the size of Midgaard itself opens before you, and there are
+books, scrolls and stone tablets cover the walls and shelves that line every
+inch of the walls in the great room.  Down the center of the room several
+dozen tables are lined up, to allow visitors to browse the massive library
+at their leisure.  Magical orbs of warm light hover above each tables,
+eliminating the need of outside torches.  
+~
+0 DNX inside
+D3
+~
+~
+Z 0 101069
+0 0
+S
+#101071
+Cathedral of Wisdom~
+Rows upon rows upon rows of sturdy wooden pews stretch almost two hundred
+feet to the north, coming to a halt before a massive altar.  There are
+people scattered around each in silent or whispered pray to their God, Enki.
+A large font is here, bubbling over with water, which splashes down in a
+cascading waterfall.  A huge golden book hangs from the ceiling, a symbol of
+the knowledge, which we all wish to gain.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 101072
+0 0
+D2
+~
+~
+Z 0 101069
+0 0
+S
+#101072
+Ark of Eternal Learning~
+A large glowing altar stands proudly in the center of a raised plateau. 
+A lone figures stands near by, the only one allowed to even touch the sacred
+altar, the High Priest of Enki.  The Priests eye flutter open as you
+approach and he stares at you deeply, as if judging your soul.  
+~
+0 DNX inside
+D2
+~
+~
+Z 0 101071
+0 0
+S
+#101073
+Corridor of Prayer Rooms~
+A simple passage with a lone guard standing at the dead-end.  There are
+doors leading north, south and west.  A small plaque is attached to the
+wall, if you care to read it.  A single lamp hangs from the rafters, filling
+the area with a warm glow and filling your soul with peace and calm.  
+~
+0 DNX inside
+E
+plaque~
+Please use your correct prayer rooms.
+Paladins to the South.
+Clerics to the West
+Rangers to the North
+~
+D0
+~
+~
+ABFGZ 0 101074
+0 0
+D1
+~
+~
+Z 0 101069
+0 0
+D2
+~
+~
+ABFGZ 0 101076
+0 0
+D3
+~
+~
+ABFGZ 0 101075
+0 0
+S
+#101074
+Ranger Prayer Room~
+A bed of soft leaves and twigs has been setup in one corner of the small
+room.  The walls have been dyed a deep green, giving the appearance of a
+small forest glen.  A small table has a bowl of fruit and a well used pray
+book, for use while in the room.  
+~
+0 DNX inside
+D2
+~
+~
+ABFGZ 0 101073
+0 0
+S
+#101075
+Cleric Prayer Room~
+A rather spartan and barren room greets you, such is the life of poverty.
+A simple bed of hard boards and a thin blanket are the only items of
+furniture in the room.  A small but well used book on the pillow, for your
+use while meditating in the room.  
+~
+0 DNX inside
+D1
+~
+~
+ABFGZ 0 101073
+0 0
+S
+#101076
+Paladin Prayer Room~
+The room looks rather similar to most rooms you have seen at local inns
+around the realm; a nice bed and a nightstand to one side.  A small
+washbasin is in one corner, although empty at the current time.  A well made
+prayer book rests on the nightstand, to help you focus your prays during
+your stay.  
+~
+0 DNX inside
+D0
+~
+~
+ABFGZ 0 101073
+0 0
+S
+#0
+
+#RESETS
+D 0 101068 0 2	* Main Doors of the Temple: door to the north: closed and locked
+D 0 101073 0 1	* Corridor of Prayer Rooms: door to the north: closed
+D 0 101073 2 1	* Corridor of Prayer Rooms: door to the south: closed
+D 0 101073 3 1	* Corridor of Prayer Rooms: door to the west: closed
+D 0 101074 2 1	* Ranger Prayer Room: door to the south: closed
+D 0 101075 1 1	* Cleric Prayer Room: door to the east: closed
+D 0 101076 0 1	* Paladin Prayer Room: door to the north: closed
+M 0 101066 2 101067 2	* The Temple Guard (Steps of Devotion)
+E 0 101066 0 5		*	A breastplate emblazed with strange runes.: on the body
+E 0 101067 0 16		*	A flaming longsword: wielded
+E 0 101068 0 20		*	A frozen longsword: second wielded
+M 0 101067 1 101068 1	* The Keymaster (Main Doors of the Temple)
+M 0 101068 1 101070 1	* A monk-in-training (Knowledge of the Realms)
+M 0 101069 1 101072 1	* Adraydon (Ark of Eternal Learning)
+O 0 101070 0 101072	* The Ark of Learning (Ark of Eternal Learning)
+M 0 101070 1 101073 1	* An Elite Guard (Corridor of Prayer Rooms)
+E 0 101071 0 16		*	A sparkling spear made from lighting: wielded
+S
+
+#MOBPROGS
+#101066
+~
+#101067
+mob oload 101069
+unlock north
+open north
+drop key
+endif
+end
+~
+#101068
+~
+#101069
+~
+#0
+
+#$

@@ -1,0 +1,77 @@
+#AREADATA
+Name The Unfinished Temple~
+VNUMs 10100 10115
+Security 9
+LevelRange 0 0
+ResetMessage A slight breeze causes the leaves in the trees to shift, sending a few to gently spiral to the ground.~
+Flags closed noquest~
+End
+
+#ROOMS
+#10100
+A Winding Path~
+A small path lies between the trees, winding its way towards a building
+that can be glimpsed through the leaves off in the distance.  The path is
+neither paved nor packed with dirt; rather, the trees themselves seem to
+have opened up a space for it, and the grass that lays along its length,
+dotted with small wildflowers, seems to have stopped growing before it
+reached a height that would trouble any travelers.  A deep sense of peace
+permeates the entire area, as if the land here lies untouched, unspoiled and
+free of the corruption of the outside world.  
+~
+0 0 inside
+D3
+The temple can be glimpsed through the trees, sitting atop a hill.
+~
+~
+Z 0 10101
+0 0
+S
+#10101
+The Temple Courtyard~
+A lovely garden fills the air with the sweet scent of flowers, which grow
+abundantly all around you, their colours bright and containing every shade
+imaginable.  This appears to be the courtyard of the temple, though much of
+it resembles a wild meadow more than anything touched by the hands of man. 
+A statue rises up out of the waters of a small pond, depicting the god of
+nature, and serving as a fountain.  To the west, stairs climb up a small
+hill towards the temple itself, seeming to be carved out of the hillside. 
+Eastward lies a small path that winds its way through the trees.  
+~
+0 0 inside
+D1
+A small path winds its way through the trees.
+~
+~
+Z 0 10100
+0 0
+D3
+Stairs lead up, towards the temple.
+~
+~
+Z 0 10102
+0 0
+S
+#10102
+Before the Temple~
+The temple is small, though its beauty gives it a sense of vastness that
+overcomes its size.  It is made of stone, though it is no stone you have
+ever seen.  Shining as white as a cloud in a blue sky, it seems to draw on
+the sunlight, glowing brighter with each ray that touches it.  Strangely, it
+seems to be all of one piece, as if it has all been carved out of a single
+block of stone, though it seems impossible that any mortal hand should be
+able to accomplish this.  Intricate pattens are carved into the rock,
+leading the eye towards two large double doors at the top of the stairs,
+currently closed.  
+~
+0 0 inside
+D1
+Stairs lead down into the temple courtyard.
+~
+~
+Z 0 10101
+0 0
+S
+#0
+
+#$

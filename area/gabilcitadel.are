@@ -1,0 +1,175 @@
+#AREADATA
+Name Gabilgothal NulukkhizdNn Citadel~
+Builders thornan~
+VNUMs 6200 6499
+Credits Thornan~
+Security 1
+LevelRange 20 91
+ResetMessage The squires and guards wander the halls looking for intruders while the citadel slumbers~
+Flags closed noquest nosummon~
+End
+
+#ROOMS
+#6200
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6201
+0 0
+D2
+~
+~
+Z 0 5500
+0 0
+S
+#6201
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6202
+0 0
+D2
+~
+~
+Z 0 6200
+0 0
+S
+#6202
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6203
+0 0
+D2
+~
+~
+Z 0 6201
+0 0
+S
+#6203
+Before a massive stone corridor~
+~
+0 c mountain
+D2
+~
+~
+Z 0 6202
+0 0
+D4
+~
+~
+Z 0 6204
+0 0
+S
+#6204
+~
+~
+0 0 inside
+D4
+~
+~
+Z 0 6205
+0 0
+D5
+~
+~
+Z 0 6203
+0 0
+S
+#6205
+~
+~
+0 0 inside
+D4
+~
+~
+Z 0 6206
+0 0
+D5
+~
+~
+Z 0 6204
+0 0
+S
+#6206
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6207
+0 0
+D5
+~
+~
+Z 0 6205
+0 0
+S
+#6207
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6208
+0 0
+D2
+~
+~
+Z 0 6206
+0 0
+S
+#6208
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6209
+0 0
+D2
+~
+~
+Z 0 6207
+0 0
+S
+#6209
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 6210
+0 0
+D2
+~
+~
+Z 0 6208
+0 0
+S
+#6210
+Citadel gate bridge~
+~
+0 c mountain
+D2
+~
+~
+Z 0 6209
+0 0
+S
+#0
+
+#$

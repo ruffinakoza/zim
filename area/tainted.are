@@ -1,0 +1,7079 @@
+#AREADATA
+Name Tainted Oasis~
+Builders slothe taliesen~
+VNUMs 100200 100499
+Security 1
+LevelRange 0 0
+Flags closed noquest~
+End
+
+#MOBILES
+#100293
+deathtrap~
+grave DT~
+This is the DT mob.
+~
+~
+unique~
+AB DFlm 0 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M grall 17603 100~
+I 92
+#100294
+carmellian vampire guildmaster~
+Carmellian~
+Carmellian, Prince of Vampires, is here, ready to teach you the ways of the night.
+~
+A tall, handsome man stands here, dressed in long, black robes.  His skin
+is pale, and long black hair is pulled back tightly into a ponytail.  
+~
+human~
+ABORe DTVu -1000 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+AEFHJKOV ABE C 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#100295
+weeping ghost~
+a weeping ghost~
+A ghost sits here weeping morosely.
+~
+The ghastly apparition appears in the form of a high elf.  His features
+are mostly obscured by a shroud worn over his head.  He sits here hovering
+just above the ground, sobbing.
+~
+ghost~
+ABQ 0 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CFHV 0 0 0
+sit sit male 2000
+0 0 medium flesh~
+~
+F vul N
+#100296
+vampire~
+a hungry vampire~
+A vampire stands here drooling on himself, searching for food.
+~
+A tall, gruesome human stands here.  His clothing is ragged and covered
+in blood.  Blood trickles from the corner of his mouth.  His skin is pallid
+and is peeling away in several patches.  
+~
+human~
+ABFOR DOTl -1000 0
+53 53 218d53+0 530d11+95 18d2+42 none
+-29 -29 -29 -18
+CEFHIJK LMQ B HNX
+stand stand male 1000
+I 0 medium flesh~
+~
+F for AV
+#100297
+ghost caretaker~
+ghost of the caretaker~
+A ghastly figure floats here holding a large rake.
+~
+This ghost appears to be the apparition of the cemetary's caretaker.  He
+doesn't seem to happy to see you.  
+~
+ghost~
+AT u -1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+CDFJKO 0 0 0
+stand stand none 2236
+0 0 medium flesh~
+~
+#100298
+halaas spirit dwarf ghost~
+the spirit of Halaas~
+The ghost of a fierce dwarf warrior stands here.
+~
+This is the undead spirit of Halaas, the dwarf warrior prince.  His limbs
+are short, but massive in girth.  There is a sadness in his features.  A
+grey-white beard extends to his waist and is matted in blood.  He swings a
+large battle axe in his hand.  
+~
+ghost~
+ABT DFHl 1000 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+ADFIJKO 0 0 0
+stand stand male 3000
+0 0 medium flesh~
+~
+F vul N
+F for A
+#100299
+voice ghost~
+The Voice~
+A faceless ghost is singing with the voices of an entire choir of angels.
+~
+The Voice has the form of a tall slender woman.  However she is devoid of
+a face.  The only facial feature present is her mouth.  You can hardly
+believe that the beautiful voices you heard singing were in fact this lone
+spirit eternally lifting her song to the heavens.  
+~
+ghost~
+ABRT DFUVl -1000 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+AEFNOV BT C 0
+stand stand female 3000
+0 0 medium flesh~
+~
+#100300
+tree spirit~
+a tree spirit~
+A huge tree spirit floats here.
+~
+An enormous nature spirit hovers in front of you.  Its form is that of a
+living tree.  The spirit glows with a holy power and is resisting the decay
+and death of the cemetary.  
+~
+unique~
+ABR BDFHNTU 1000 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+ADHNO KLMNPQ HIJ 0
+stand stand none 4000
+CH 0 gargantuan flesh~
+~
+#100301
+elf spirit~
+an elf spirit~
+A sad, elven spirit stands here.
+~
+The lost spirit of an elf is here.  He is sad, having wandered from his
+resting place and lost in this place of death.  Around his neck is a
+sparkling green emerald.  
+~
+elf~
+AQT BDHNU 1000 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+DEFHIJ AB C 0
+stand stand none 4000
+0 0 medium flesh~
+~
+F res B
+#100302
+berserker spirit troll~
+The Spirit of the Berserker~
+A large, ghastly troll is here foaming at the mouth.
+~
+This is the spirit of the Berserker.  His ghastly body is drenched in
+blood, and deep cuts and bruises cover him from head to toe.  In his hand is
+a greatsword.  
+~
+ghost~
+ABT DFOam -1000 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+CEIJKO 0 CHIJK 0
+stand stand none 3000
+0 0 large flesh~
+~
+F res D
+#100303
+gargoyle~
+a gargoyle~
+A living stone gargoyle stands here.
+~
+A stone gargoyle is hovering above the ground.  His stone body looks very
+tough, and it is animated by some strange magical force.  He serves as the
+protector of the cemetary.  
+~
+gargoyle~
+AGLR D 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+EFO 0 0 0
+stand stand none 2000
+0 0 medium flesh~
+~
+F for A
+#100304
+doom hound~
+a doom hound~
+A three-headed doom hound lingers here.
+~
+This three-headed hound comes straight from hell.  It has been drawn by
+the evil of this place.  Drool hangs from his fangs.  
+~
+dog~
+AGLT 0 -1000 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+FIJO 0 C 0
+stand stand none 2000
+0 0 large flesh~
+~
+#100305
+smoke elemental~
+a smoke elemental~
+A swirling mass of black smoke forms here.
+~
+This elemental of fire and air creates a swirling mass of pitch-black
+smoke.  It is hard to discern it's true form, but it is obviously large.  It
+burns away the sick, dry grass as it passes over, leaving a charred black
+trail.  
+~
+air elemental~
+A BDFVlm -1000 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+EHJNOR HJ B 0
+stand stand none 0
+0 0 large flesh~
+~
+#100306
+vampire butler undead~
+the butler~
+The undead butler of the mansion glares hungrily at you.
+~
+The thing that stands before you was at one time the butler of the
+mansion.  Now, he is the servant of his own hunger.  His eyes are sunken
+pieces of coal in a ghastly pallid face.  Blood drips from the fangs that
+protrude from his mouth.  
+~
+undead~
+ABLOT u -1000 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+FI 0 0 0
+stand stand male 1236
+0 0 medium flesh~
+~
+#100307
+dark necromancer mage~
+a dark necromancer~
+A mage cloaked in black is here conjuring forth dark spirits.
+~
+A dark mage is here chanting incantations.  He is dressed in a long black
+cloak and smoke seems to billow out from under it.  His skin is pale, and
+his eyes are two dark orbs sunk deep into his face.  In his hand, he
+clenches a blood drenched staff.  
+~
+human~
+ABFR BDFVlmu -1000 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+EFIK B AC N
+stand stand male 3400
+0 0 medium flesh~
+~
+#100308
+spirit dragon~
+spirit of a black dragon~
+The shadowy spirit looms here, spitting flames in disgust.
+~
+The very unhappy spirit of a giant black dragon stands in front of you. 
+His hide shimmers in and out of existence.  Black flames spit from his
+nostrils as he grunts and groans.  Mixed in with the flames are tendrils of
+smoke that fill the room and cause your eyes to tear up slightly.  
+~
+dragon~
+ABFRT BDFlmu 0 0
+73 73 303d73+0 365d10+85 24d3+41 none
+-39 -39 -39 -24
+AEFO 0 0 0
+stand stand male 1785
+0 0 medium flesh~
+~
+F vul I
+#100309
+bunny~
+a bunny~
+A blood soaked bunny bears his dripping fangs at you.
+~
+This bunny seems to have been possessed by some greater spirit.  His fur
+is a dirty grey and is matted in blood.  His eyes glow a brilliant blue in
+the dark hall.  Huge, oversized fangs protrude from his mouth and drip with
+a vile black liquid.  
+~
+undead~
+AFLT 0 -1000 0
+75 75 267d75+0 75d9+60 23d3+38 none
+-38 -38 -38 -22
+CDEFHIJV 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+F aff U
+F vul Y
+#100375
+caro vampire man~
+Caro~
+A small vampire is here, huddled over some bit of treasure.
+~
+This pallid faced man is huddled over some sparkling bit of treasure. 
+Dark, sunken eyes peer out from under a tattered hood.  A patch of blood
+smears his forehead.  His body is slight and frail.  His fingernails appear
+to be more like the talons of a bird of prey.  
+~
+undead~
+ABFR lmu -1000 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+EFHK 0 0 X
+stand stand male 4000
+0 0 medium flesh~
+~
+#100376
+guardian vampire~
+a guardian vampire~
+A tall, heavily armed vampire is here, blocking your way.
+~
+A tall, well armed vampire stands before you.  Blood drips from the
+corners of his mouth.  A dull red glow emits from his eyes.  You can smell
+the death and decay eminating from this creature.  
+~
+undead~
+ABFT lmu -1000 0
+93 93 417d93+0 465d10+85 31d3+51 none
+-53 -53 -53 -34
+CEFHJKR 0 B 0
+stand stand male 3000
+0 0 medium flesh~
+~
+#100377
+kindred captain~
+the kindred guard captain~
+The Captain of the Kindred's guard stands here watching for intruders.
+~
+This massive vampire is adorned in the cult's entire armament.  He
+handles his spear with very little effort.  Bright, glowing red eyes peer out
+from beneath his helmet.  
+~
+undead~
+ABLT lmu -1000 0
+99 99 451d99+0 495d10+85 33d3+54 none
+-57 -57 -57 -36
+EFJKNO 0 D 0
+stand stand male 4435
+0 0 medium flesh~
+~
+#100378
+spirit unlife ghost~
+the Spirit of Unlife~
+A translucent spirit of the damned roams here.
+~
+This wailing spirit roams the halls of the damned.  It's appearance is
+that of a ghastly human, wrecked by decay.  A smoky cloak covers its body. 
+Arms, that have the appearance of tentacles, reach out from beneath the
+cloak.  
+~
+ghost~
+ABF BDFUVlm -1000 0
+99 99 451d99+0 495d10+85 33d3+54 none
+-57 -57 -57 -36
+0 0 C 0
+stand stand none 4000
+0 0 medium flesh~
+~
+#100395
+akasha eternal akasha2~
+the Eternal Form of Akasha~
+Akasha has defied death and returned as this form.
+~
+This female vampire is hungering for blood.  Blood drips from her lips. 
+This is the true form of Akasha.  All the superficial beauty is gone.  This
+writhing, slavering hulk is the real powerful ruler of the night.  
+~
+undead~
+AFORTe Tlmu -1000 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+ACIJKLO 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M give 100396 100376~
+#100396
+demon~
+a Blood Demon~
+A blood drenched demon is at the will of Akasha.
+~
+A huge demon stands nearly 15 feet in height.  Blood covers his body and
+splatters on the floor when he moves.  
+~
+undead~
+A u -1000 0
+95 95 492d95+0 950d11+95 32d2+70 none
+-59 -59 -59 -39
+CDEFHLR 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#100397
+casitian vampire~
+Casitian~
+Casitian, the vampire prince, is standing here.
+~
+Casitian is a rather handsome looking man, despite his slightly ghastly
+features.  His jet black hair is pulled back and falls loosely down his
+neck.  His pale skin is smooth and unblemished.  Casitian is the general of
+Akasha's {rKindred{x clan.  This is evidenced by the ornate armor he wears. 
+~
+undead~
+ABFO Blmu -1000 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 0 0 0
+stand stand none 4000
+0 0 medium flesh~
+~
+#100398
+akasha vampire~
+Akasha~
+Akasha, the queen of the vampires is here.
+~
+Akasha is the queen of the vampires.  She is scantily clad in a tight
+fitting black leather dress.  Her feet are bare and hover a few inches over
+the floor.  Long ebony hair falls down past her shoulders.  You look at her
+face and are drawn by her beauty.  Her lips are bright red in contrast to
+her alabaster skin.  Behind her eyes, there is a faint red glow.  
+~
+undead~
+ABRe Tclmu -1000 0
+110 110 589d110+0 1100d11+95 37d2+80 none
+-69 -69 -69 -47
+AEFJKOV 0 0 0
+stand stand female 5081
+0 0 medium flesh~
+~
+M grall 100398 100~
+M delay 100399 100~
+M hpcnt 100397 30~
+#100399
+vampire lord~
+a vampire~
+A vampire is here, mourning his loss.
+~
+A vampire is here.  From his dress, you take him to have once been the
+lord of a manor or a man of learning and intelligence.  Now, he is reduced
+to a moaning hulk of a beast.  His eyes are red, but full of tears and
+sorrow.  He seems to be mourning his eternal loneliness.  
+~
+undead~
+AB B -1000 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+DEFHK 0 0 0
+stand stand none 3000
+0 0 medium flesh~
+~
+M grall 100384 100~
+M give 100385 100318~
+#0
+
+#OBJECTS
+#100293
+black rose~
+a {DBlack {xRose~
+A single black rose lies here, smelling of death.~
+unknown~
+~
+pill 0 AO
+25 'dispel good' 'dispel good' 'dispel good' 'dragon strength'
+50 0 0 P
+A
+13 -100
+G none
+G none
+G none
+G none
+#100294
+bush rose~
+a rose bush~
+~
+unknown~
+~
+container R 0
+50 0 0 15 0 0
+1 1 1 P
+G none
+G none
+G none
+G none
+#100295
+workbench bench~
+a workbench~
+A short, wooden workbench sits here, covered in dust.~
+unknown~
+~
+container 0 0
+100 ACD 100297 20 0 0
+0 10 0 P
+G none
+G none
+G none
+G none
+#100296
+stake dagger~
+a wooden stake~
+A sharpened wooden stake lies here.~
+wood~
+~
+weapon GIK AN
+dagger 5 12 stab AI
+75 76 459371 P
+A
+20 -6
+A
+18 6
+A
+19 7
+G none
+G none
+G none
+G none
+#100297
+caretaker key~
+the Caretaker's key~
+A rusty iron key lies here on the ground.~
+unknown~
+~
+key 0 0
+0 0 0 0 0 0 0
+0 1 0 P
+G none
+G none
+G none
+G none
+#100298
+crack wall~
+the crack in the wall~
+~
+unknown~
+~
+portal 0 0
+-1 0 0 100360 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100299
+tombstone stone~
+Halaas's tombstone~
+~
+unknown~
+~
+container 0 0
+100 0 0 10 0 0
+0 200 0 P
+E
+tombstone stone~
+A shiny metal plate on the front of the stone indicates the graves
+occupant as "Halaas, son of Biraas; The most beloved prince of the dwarves".
+The stone itself is weathered from age.  Someone has drilled a hole in the
+side of the stone.  
+~
+G none
+G none
+G none
+G none
+#100300
+mithril key~
+a mithril key~
+A shiny key, made of mithril, rests here on the floor.~
+unknown~
+~
+key 0 A
+0 0 0 0 0 0 0
+0 1 0 P
+G none
+G none
+G none
+G none
+#100301
+wooden casket~
+the casket~
+An empty pine wood casket lies here half buried.~
+unknown~
+~
+container 0 0
+1000 A 0 10 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100302
+bloody bone key~
+a bloody bone key~
+A key made of bone lies here, covered in blood.~
+unknown~
+~
+key 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100303
+wooden key~
+a wooden key~
+A large wooden key engraved with several strange symbols lies here.~
+unknown~
+~
+key 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100304
+emerald key~
+an emerald key~
+A green jewelled key lies here.~
+unknown~
+~
+key 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100305
+large key granite~
+a large key~
+A very large piece of granite carved into the shape of a key lies here.~
+unknown~
+~
+key 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100306
+rake~
+a gardener's rake~
+A black wooden handled rake lies here glowing in an unholy light.~
+wood~
+~
+wand GJ AO
+60 15 15 'animate dead'
+60 5 3500 P
+G none
+G none
+G none
+G none
+#100307
+axe halaas~
+Axe of Halaas~
+A beautifully crafted mithril battleaxe lies here on the ground.~
+mithril~
+~
+weapon M AN
+axe 4 21 cleave DE
+70 71 1528405 P
+A
+13 50
+A
+19 7
+A
+18 7
+E
+axe halaas~
+This is the second of the great axes handed down in the lineage of the
+dwarven kingdom.  It bears the symbol of Moradin, the Soul Forger.  The
+ancient axe is as sharp as the day it was forged by the great dwarven god.  
+~
+G none
+G none
+G none
+G none
+#100308
+voice robe requiem~
+The {cR{Ceq{Wu{Cie{cm{x of the Voice~
+A beautiful silk robe lies here.~
+unknown~
+~
+clothing 0 AK
+ACDE ACDE ACDE CDE 0 ACDE ACDE
+80 81 471015 P
+A
+6 6
+A
+18 7
+A
+17 -10
+A
+20 -5
+A
+19 8
+G none
+G none
+G none
+G none
+#100309
+nature crown wreath~
+The {WNa{Gtu{gre C{Gro{Wwn{x~
+A wreath of leaves lies here.~
+unknown~
+~
+armor AKL AE
+31 31 31 30 'none' 0
+85 86 617033 P
+A
+4 6
+A
+20 -4
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#100310
+nature gauntlets~
+{WNa{Gtu{gre Gau{Gntl{Wets{x~
+Some leafy guantlets lie here.~
+wood~
+~
+armor KL AH
+31 31 31 30 'none' 0
+85 20 522636 P
+A
+3 2
+A
+13 80
+A
+17 -15
+A
+19 8
+A
+18 6
+G none
+G none
+G none
+G none
+#100311
+emerald shalafi charm~
+{GThe {WShalafi {GCharm{x~
+An emerald lies here on a fine gold chain.~
+gold~
+~
+armor GK AC
+29 29 29 28 'none' 0
+80 81 509910 P
+A
+20 -5
+A
+3 3
+A
+4 3
+A
+19 5
+A
+18 8
+G none
+G none
+G none
+G none
+#100312
+berserker sword~
+the {rBerserker's {DSword{x~
+A blood covered greatsword is lying here.~
+iron~
+~
+weapon J AN
+longsword 1 1 slash D
+85 86 257601 P
+A
+18 8
+A
+19 8
+G none
+G none
+G none
+G none
+#100313
+shelf~
+a shelf~
+~
+unknown~
+~
+container 0 0
+1000 0 0 100 0 0
+1 0 0 P
+E
+shelf~
+This shelf is made of no wood you've ever seen.  The wood is black as a
+moonless night.  To the touch it is cold and slick like a metal.  
+~
+G none
+G none
+G none
+G none
+#100314
+black candle blood~
+a {DBlackened {rBlood {xCandle~
+A blood speckled black candle glows in an unholy light here.~
+unknown~
+~
+light ACJK A
+391
+80 10 8348 P
+A
+18 8
+A
+19 8
+G none
+G none
+G none
+G none
+#100315
+bloody staff~
+a bloody staff~
+A long black staff lies here, drenched in blood.~
+wood~
+~
+weapon EJ AN
+staff 3 34 beating CFK
+80 81 325288 P
+A
+6 4
+A
+19 8
+A
+18 6
+G none
+G none
+G none
+G none
+#100316
+ancient wrappings cloth~
+ancient wrappings~
+A pile of tattered cloth lies here.~
+unknown~
+~
+armor 0 AD
+29 29 29 28 'none' 0
+80 81 327214 P
+A
+19 8
+A
+12 50
+A
+17 -15
+G none
+G none
+G none
+G none
+#100317
+painting~
+the painting of Bethany~
+~
+unknown~
+~
+container 0 0
+100 AC 0 100 0 0
+1 0 0 P
+E
+painting~
+The only painting that still can be made out here is a large oil painting
+that hangs on the eastern wall.  It is a portrait of a very beautiful human
+woman.  Her long black hair trails to the bottom of the painting where the
+canvas has been torn away.  Around her neck is a small gold chain from which
+hangs a diamond studded talisman.  The name Bethany is etched into the top
+of the silver frame.  
+~
+G none
+G none
+G none
+G none
+#100318
+talisman{x bethany's talisman~
+Bethany's {WTalisman{x~
+A diamond encrusted talisman lies here on a thin gold chain.~
+gold~
+~
+jewelry AFG AC
+0 0 0 0 0 0 0
+70 10 50000 P
+A
+12 35
+A
+13 35
+A
+19 7
+A
+18 7
+G none
+G none
+G none
+G none
+#100319
+bloody parchment scroll~
+a bloody parchment~
+A bound parchment lies here, dripping blood.~
+paper~
+~
+scroll EGHMT AO
+80 'cursed lands' 'lethargic mist' 'black death' 'mysterious dream'
+80 5 0 P
+G none
+G none
+G none
+G none
+#100375
+key~
+a small {Dobsidian {xkey~
+A small {Dkey {xlies here.~
+unknown~
+obsidian~
+key E AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100376
+whip eternity~
+{WE{rternit{Wy{x~
+A long braided whip, lined with razor sharp barbs, lies here.~
+leather~
+~
+weapon EJMY AN
+whip 6 13 flbite ACD
+105 106 519678 P
+A
+17 -20
+A
+13 50
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100377
+ring~
+{CR{Win{Cg of P{Wurit{Cy{x~
+A small {Cgem-encrusted{x ring lies here.~
+unknown~
+~
+jewelry AGHKL AB
+BCF BCF BCF ACF 0 BCF BCF
+105 10 15000 P
+A
+20 -5
+A
+18 10
+A
+19 10
+A
+6 4
+A
+17 -20
+G none
+G none
+G none
+G none
+#100378
+breastplate kindred~
+Breastplate of the {rKindred{x~
+An obsidian breastplate lies here covered in blood.~
+unknown~
+obsidian~
+armor BCEHJ AD
+37 37 37 36 'none' 0
+102 103 1198691 P
+A
+18 10
+A
+19 10
+A
+13 100
+G none
+G none
+G none
+G none
+#100379
+shield kindred~
+Shield of the {rKindred{x~
+An obsidian shield lies here, dripping in blood.~
+unknown~
+obsidian~
+armor BCEJ AJ
+37 37 37 36 'none' 0
+102 55 821208 P
+A
+13 50
+A
+20 -5
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100380
+helm kindred~
+Helm of the {rKindred{x~
+A blood soaked helm has been discarded here.~
+unknown~
+~
+armor BCEJ AE
+34 34 34 33 'none' 0
+93 94 409112 P
+A
+13 85
+A
+18 7
+A
+19 9
+G none
+G none
+G none
+G none
+#100381
+kindred spear~
+{rKindred {xSpear~
+A long, sharp spear lies on the floor.~
+unknown~
+~
+weapon CEJ AN
+spear 4 31 pierce DF
+93 94 528663 P
+A
+17 -10
+A
+13 75
+A
+18 6
+A
+19 6
+G none
+G none
+G none
+G none
+#100382
+cloak damned~
+{RC{rloa{Rk {rof the {RD{ramne{Rd{x~
+A smoky cloak lies here, humming.~
+unknown~
+~
+clothing BCJ AK
+CF CF CF ABF 0 CF CF
+100 101 342573 P
+A
+18 8
+A
+19 8
+A
+12 50
+A
+13 50
+G none
+G none
+G none
+G none
+#100383
+darkblood ring~
+{DDark{RBlood {xRing~
+A black ring lies here.~
+unknown~
+~
+jewelry EGJ AB
+BCF BCF BCF ACF 0 BCF BCF
+106 107 110 P
+A
+13 100
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100384
+legplates kindred~
+{rKindred {xLegplates~
+Some heavy black legplates lie here.~
+unknown~
+~
+armor CEJL AF
+38 38 38 37 'none' 0
+105 106 1074342 P
+A
+1 5
+A
+13 50
+A
+17 -20
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100385
+mallice axe waraxe~
+{rThe {RWar{rAxe {RMallice{x~
+A huge waraxe lies here, drenched in blood.~
+unknown~
+~
+weapon CEJL AN
+axe 4 38 cleave AEF
+105 106 3485404 P
+A
+20 -5
+A
+13 50
+A
+19 10
+A
+18 10
+E
+mallice axe waraxe~
+This huge waraxe hums with evil power.  Carved into it's handle is the
+word 'Mallice'.  The handle is a large bone.  The steel axe head is melded
+into the top of the bone.  There is a golden seal of the Kindred stamped
+into its blade.  
+~
+G none
+G none
+G none
+G none
+#100386
+crown akasha~
+{RA{rkasha's Crow{Rn{x~
+The crown of the vampire queen, Akasha, lies here.~
+unknown~
+~
+armor EGJ AE
+38 38 38 37 'none' 0
+106 107 1796325 P
+A
+17 -20
+A
+3 5
+A
+6 5
+A
+13 100
+A
+20 -10
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#100387
+necklace sorrow~
+{bNe{Bckl{Wace of S{Borr{bow{x~
+A glowing necklace lies here.~
+gold~
+~
+armor AGKL AC
+36 36 36 35 'none' 0
+100 101 381575 P
+A
+12 50
+A
+13 50
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100200
+Entering the Sands of Sorrow~
+Leaving the city behind, you stand on the verge of a great, swirling
+desert.  These are known as the Sands of Sorrow.  You can't help but feel a
+little despair looking southward into the vast arid wasteland.  Sandstorms
+and endless dunes fill your path and make navigation very difficult, if not
+impossible.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 100212
+0 0
+S
+#100201
+Dilapidated Checkpoint~
+Here is what remains of a small guard shack and checkpoint.  It seems
+there once was a road that led into a small city here, but the sand has
+covered whatever lay beyond.  All that remains is this feeble building that
+seems to stand out of sheer stubborness.  The desert has cleansed away all
+other signs of this former civilization.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 100202
+0 0
+D2
+~
+~
+Z 0 100207
+0 0
+S
+#100202
+Sea of Sand~
+The sand is churning beneath your feet.  The wind is so strong that the
+floor of the desert has become more like a violent piece of sea.  Debris
+flies through the air and stings as it bounces off your exposed skin.  You
+think you see a building off to the west.  It's hard to be sure in the
+blinding madness of the storm.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100203
+0 0
+D3
+~
+~
+Z 0 100201
+0 0
+S
+#100203
+Sea of Sand~
+The sand is churning beneath your feet.  The wind is so strong that the
+floor of the desert has become more like a violent piece of sea.  Debris
+flies through the air and stings as it bounces off your exposed skin.  You
+try to go north, but find your way blocked by a giant wall of sand that
+crashes nearly on top of you.  The other directions seem to be more
+passable.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100204
+0 0
+D2
+~
+~
+Z 0 100209
+0 0
+D3
+~
+~
+Z 0 100202
+0 0
+S
+#100204
+Amidst the Dunes~
+You trudge up and down the massive sand dunes.  Each hill you top seems
+to be followed by one even greater in size.  It's as if some unseen force is
+throwing successively harder obstacles in your path.  For a moment, you
+think you hear laughter, but it quickly fades from your mind.
+~
+0 0 inside
+D2
+~
+~
+Z 0 100210
+0 0
+D3
+~
+~
+Z 0 100203
+0 0
+S
+#100205
+Climbing the Dunes~
+You are at the base of the mountains, where the desert stops.  The
+mountain border here is very steep and impassible.  As the wind is stopped
+and bounced back off the tall rocks here, the dunes grow to enormous size. 
+Your heart is pumping as you make your way up and down the enormous hills of
+sand.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100206
+0 0
+D2
+~
+~
+Z 0 100214
+0 0
+S
+#100206
+Climbing the Dunes~
+You are at the base of the mountains, where the desert stops.  The
+mountain border here is very steep and impassible.  As the wind is stopped
+and bounced back off the tall rocks here, the dunes grow to enormous size. 
+Your heart is pumping as you make your way up and down the enormous hills of
+sand.  
+~
+0 A inside
+D2
+~
+~
+Z 0 100215
+0 0
+D3
+~
+~
+Z 0 100205
+0 0
+S
+#100207
+Edge of the Bluff~
+You stop at the edge of a steep cliff.  Looking out and down gives you a
+new definition of the word nothing, because that is the only word that
+describes what you see.  There appears to be some sort of structure to the
+north.  It's impossible to make out what it is in the midst of the recurring
+storms.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100201
+0 0
+D1
+~
+~
+Z 0 100209
+0 0
+S
+#100208
+Lost in the Sands~
+~
+0 0 inside
+S
+#100209
+Sea of Sand~
+The sand is churning beneath your feet.  The wind is so strong that the
+floor of the desert has become more like a violent piece of sea.  Debris
+flies through the air and stings as it bounces off your exposed skin.  The
+wind has shifted, and you are hit hard from the south.  The wind has reached
+such velocity that, mixed with the flying sand, it prevents you from going
+in that direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100203
+0 0
+D1
+~
+~
+Z 0 100210
+0 0
+D3
+~
+~
+Z 0 100207
+0 0
+S
+#100210
+Amidst the Dunes~
+You trudge up and down the massive sand dunes.  Each hill you top seems
+to be followed by one even greater in size.  It's as if some unseen force is
+throwing successively harder obstacles in your path.  For a moment, you
+think you hear laughter, but it quickly fades from your mind.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100204
+0 0
+D1
+~
+~
+Z 0 100211
+0 0
+D2
+~
+~
+Z 0 100216
+0 0
+D3
+~
+~
+Z 0 100209
+0 0
+S
+#100211
+Lost in a Sandstorm~
+Sand is whirling all around you.  You sink a little into the dune you
+stand on, before quickly regaining your footing.  Scanning around in all
+directions, you see nothing but sand.  There is no shelter here from the
+elements.  You think you glimpse an oasis off to the east, or is it the
+south?  Sand flying into your throat makes the idea of some fresh water and
+shelter attractive.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100212
+0 0
+D2
+~
+~
+Z 0 100217
+0 0
+D3
+~
+~
+Z 0 100210
+0 0
+S
+#100212
+Lost in a Sandstorm~
+Sand is whirling all around you.  You sink a little into the dune you
+stand on, before quickly regaining your footing.  Scanning around in all
+directions, you see nothing but sand.  There is no shelter here from the
+elements.  You think you glimpse an oasis off to the east, or is it the
+south?  Sand flying into your throat makes the idea of some fresh water and
+shelter attractive.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100200
+0 0
+D1
+~
+~
+Z 0 100213
+0 0
+D2
+~
+~
+Z 0 100218
+0 0
+D3
+~
+~
+Z 0 100211
+0 0
+S
+#100213
+Lost in a Sandstorm~
+Sand is whirling all around you.  You sink a little into the dune you
+stand on, before quickly regaining your footing.  Scanning around in all
+directions, you see nothing but sand.  There is no shelter here from the
+elements.  You think you glimpse an oasis off to the west, or is it the
+north?  Sand flying into your throat makes the idea of some fresh water and
+shelter attractive.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100214
+0 0
+D2
+~
+~
+Z 0 100219
+0 0
+D3
+~
+~
+Z 0 100212
+0 0
+S
+#100214
+Lost in a Sandstorm~
+Sand is whirling all around you.  You sink a little into the dune you
+stand on, before quickly regaining your footing.  Scanning around in all
+directions, you see nothing but sand.  There is no shelter here from the
+elements.  You think you glimpse an oasis off to the west, or is it the
+north?  Sand flying into your throat makes the idea of some fresh water and
+shelter attractive.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100205
+0 0
+D1
+~
+~
+Z 0 100215
+0 0
+D3
+~
+~
+Z 0 100213
+0 0
+S
+#100215
+Climbing the Dunes~
+You are at the base of the mountains, where the desert stops.  The
+mountain border here is very steep and impassible.  As the wind is stopped
+and bounced back off the tall rocks here, the dunes grow to enormous size. 
+Your heart is pumping as you make your way up and down the enormous hills of
+sand.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100206
+0 0
+D3
+~
+~
+Z 0 100214
+0 0
+S
+#100216
+A Lone Cactus~
+You reach the top of a slowly shifting sand dune.  A few feet below you
+stands a solitary cactus.  It's base is beginning to turn brown.  This
+rugged example of plant life is slowly losing its hold.  You see that its
+roots have been almost completely pulled from the desert's floor.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100210
+0 0
+D1
+~
+~
+Z 0 100217
+0 0
+S
+#100217
+A Break in the Sky~
+You've come to a break in the swirling sands.  All around you, the storm
+is still raging.  So, despite being out of the storm temporarily, your range
+of vision is only slightly improved.  As the winds shift, you know you see a
+small grove of trees, surrounding what you think is a pool of water.  Just
+as quickly as you see it, the winds shift back.  Directions seem to slide
+around the compass here.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100211
+0 0
+D1
+~
+~
+Z 0 100218
+0 0
+D3
+~
+~
+Z 0 100216
+0 0
+S
+#100218
+A Glimpse of Hope~
+The sands swirling around you let up slightly.  This temporary break
+allows you to see that you are on the edge of the sandstorm.  An impossibly
+large oasis is to the south.  It seems a peaceful paradise compared to the
+torments of the sand storm around you.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100212
+0 0
+D1
+~
+~
+Z 0 100219
+0 0
+D2
+~
+~
+Z 0 100223
+0 0
+D3
+~
+~
+Z 0 100217
+0 0
+S
+#100219
+Lost in a Sandstorm~
+Sand is whirling all around you.  You sink a little into the dune you
+stand on, before quickly regaining your footing.  Scanning around in all
+directions, you see nothing but sand.  There is no shelter here from the
+elements.  You think you glimpse an oasis off to the west, or is it just
+wishful thinking?  Navigation is becoming more difficult, and your sense of
+direction is disintegrating quickly.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100213
+0 0
+D1
+~
+~
+Z 0 100220
+0 0
+D3
+~
+~
+Z 0 100218
+0 0
+S
+#100220
+Remains of the Great Road~
+A wide road spans forty feet across.  The wide highway is set with large
+flat stones, each roughly the size of a full grown human man.  The stones
+are smooth to the touch, and some have started to crumble away.  The wind
+whips through and sends debris flying occassionally.  However, for the most
+part, the elements are kept somewhat at bay.  This is due in large part to
+the high stone walls on both sides of the road.  
+~
+0 0 inside
+E
+stone walls~
+The walls look very strong and not too worse for wear.  They stand at a
+height at least 10 feet taller than the largest giants you've come across. 
+The walls aren't uniform and have given way to small cracks in them that
+will surely mean their ruin soon.  
+~
+D1
+~
+~
+Z 0 100221
+0 0
+D3
+~
+~
+Z 0 100219
+0 0
+S
+#100221
+Remains of the Great Road~
+The wide Great Road comes to an abrupt halt here.  The walls holding back
+the torrents of sand seem to have given way.  Sand has completely engulfed
+the rest of the road to the east.  A wagon wheel, a few ancient wooden
+crates, and the skull of a horse are slightly uncovered in the sand nearby,
+serving as a reminder of the pilgrims that once travelled this path 
+~
+0 0 inside
+D3
+~
+~
+Z 0 100220
+0 0
+S
+#100222
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100223
+0 0
+D2
+~
+~
+Z 0 100226
+0 0
+S
+#100223
+Northern Entrance to the Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100218
+0 0
+D1
+~
+~
+Z 0 100224
+0 0
+D3
+~
+~
+Z 0 100222
+0 0
+S
+#100224
+The Tainted Oasis~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100228
+0 0
+D3
+~
+~
+Z 0 100223
+0 0
+S
+#100225
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100226
+0 0
+S
+#100226
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100222
+0 0
+D1
+~
+~
+Z 0 100227
+0 0
+D2
+~
+~
+Z 0 100231
+0 0
+D3
+~
+~
+Z 0 100225
+0 0
+S
+#100227
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100228
+0 0
+D3
+~
+~
+Z 0 100226
+0 0
+S
+#100228
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100224
+0 0
+D1
+~
+~
+Z 0 100229
+0 0
+D2
+~
+~
+Z 0 100233
+0 0
+D3
+~
+~
+Z 0 100227
+0 0
+S
+#100229
+The Tainted Oasis~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100228
+0 0
+S
+#100230
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100231
+0 0
+S
+#100231
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100226
+0 0
+D1
+~
+~
+Z 0 100232
+0 0
+D2
+~
+~
+Z 0 100237
+0 0
+D3
+~
+~
+Z 0 100230
+0 0
+S
+#100232
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100233
+0 0
+D2
+~
+~
+Z 0 100238
+0 0
+D3
+~
+~
+Z 0 100231
+0 0
+S
+#100233
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100228
+0 0
+D1
+~
+~
+Z 0 100234
+0 0
+D2
+~
+~
+Z 0 100239
+0 0
+D3
+~
+~
+Z 0 100232
+0 0
+S
+#100234
+The Tainted Oasis~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100233
+0 0
+S
+#100235
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100236
+0 0
+D2
+~
+~
+Z 0 100242
+0 0
+S
+#100236
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100237
+0 0
+D3
+~
+~
+Z 0 100235
+0 0
+S
+#100237
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100231
+0 0
+D1
+~
+~
+Z 0 100238
+0 0
+D3
+~
+~
+Z 0 100236
+0 0
+S
+#100238
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100232
+0 0
+D1
+~
+~
+Z 0 100239
+0 0
+D2
+~
+~
+Z 0 100245
+0 0
+D3
+~
+~
+Z 0 100237
+0 0
+S
+#100239
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100233
+0 0
+D1
+~
+~
+Z 0 100240
+0 0
+D2
+~
+~
+Z 0 100246
+0 0
+D3
+~
+~
+Z 0 100238
+0 0
+S
+#100240
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100241
+0 0
+D3
+~
+~
+Z 0 100239
+0 0
+S
+#100241
+The Tainted Oasis~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100248
+0 0
+D3
+~
+~
+Z 0 100240
+0 0
+S
+#100242
+Western Entrance to Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100235
+0 0
+D1
+~
+~
+Z 0 100243
+0 0
+D2
+~
+~
+Z 0 100249
+0 0
+D3
+~
+~
+Z 0 100280
+0 0
+S
+#100243
+The Tainted Oasis~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100242
+0 0
+S
+#100244
+The Tainted Oasis~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100251
+0 0
+S
+#100245
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100238
+0 0
+S
+#100246
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100239
+0 0
+S
+#100247
+The Tainted Oasis~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100254
+0 0
+S
+#100248
+Eastern Exit from Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100241
+0 0
+D1
+~
+~
+Z 0 100269
+0 0
+D2
+~
+~
+Z 0 100255
+0 0
+S
+#100249
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100242
+0 0
+D1
+~
+~
+Z 0 100250
+0 0
+S
+#100250
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100251
+0 0
+D3
+~
+~
+Z 0 100249
+0 0
+S
+#100251
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100244
+0 0
+D2
+~
+~
+Z 0 100256
+0 0
+D3
+~
+~
+Z 0 100250
+0 0
+S
+#100252
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100253
+0 0
+S
+#100253
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100254
+0 0
+D2
+~
+~
+Z 0 100258
+0 0
+D3
+~
+~
+Z 0 100252
+0 0
+S
+#100254
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100247
+0 0
+D1
+~
+~
+Z 0 100255
+0 0
+D3
+~
+~
+Z 0 100253
+0 0
+S
+#100255
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100248
+0 0
+D3
+~
+~
+Z 0 100254
+0 0
+S
+#100256
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100251
+0 0
+D1
+~
+~
+Z 0 100257
+0 0
+D2
+~
+~
+Z 0 100259
+0 0
+S
+#100257
+The Tainted Oasis~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100256
+0 0
+S
+#100258
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100253
+0 0
+D2
+~
+~
+Z 0 100261
+0 0
+S
+#100259
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100256
+0 0
+D2
+~
+~
+Z 0 100262
+0 0
+S
+#100260
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100261
+0 0
+S
+#100261
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100258
+0 0
+D2
+~
+~
+Z 0 100264
+0 0
+D3
+~
+~
+Z 0 100260
+0 0
+S
+#100262
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100259
+0 0
+D1
+~
+~
+Z 0 100263
+0 0
+D2
+~
+~
+Z 0 100266
+0 0
+S
+#100263
+The Tainted Oasis~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100262
+0 0
+S
+#100264
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100261
+0 0
+D2
+~
+~
+Z 0 100268
+0 0
+S
+#100265
+The Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100266
+0 0
+S
+#100266
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100262
+0 0
+D1
+~
+~
+Z 0 100267
+0 0
+D3
+~
+~
+Z 0 100265
+0 0
+S
+#100267
+Southern Entrance to the Tainted Oasis~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100268
+0 0
+D2
+~
+~
+Z 0 100293
+0 0
+D3
+~
+~
+Z 0 100266
+0 0
+S
+#100268
+The Tainted Oasis~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100264
+0 0
+D3
+~
+~
+Z 0 100267
+0 0
+S
+#100269
+Entering Burning Cacti~
+You are entering into a dark place with a lot of flames on the horizon. 
+You try to think what it is but you can only see the red flames, they look
+like they were brought here through Hell itself.  Scared you try to find an
+exit and you find it looking through the east.  Adventure yourself into the
+flames of Hell.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100270
+0 0
+D3
+~
+~
+Z 0 100248
+0 0
+S
+#100270
+Entrance to Burning Cacti~
+Now you see very clearly a lot of objects burning, you try to look at
+them but the fire is so intense that you can't notice what it really is. 
+Your fear raises in you and you feel like going crazy with all the fire
+around you.  You think about memories that you had, dreams inside your head,
+hunting you.  You see Death!  
+~
+0 A inside
+D1
+~
+~
+Z 0 100274
+0 0
+D3
+~
+~
+Z 0 100269
+0 0
+S
+#100271
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100272
+0 0
+S
+#100272
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100273
+0 0
+D2
+~
+~
+Z 0 100275
+0 0
+D3
+~
+~
+Z 0 100271
+0 0
+S
+#100273
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100274
+0 0
+D2
+~
+~
+Z 0 100276
+0 0
+D3
+~
+~
+Z 0 100272
+0 0
+S
+#100274
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D2
+~
+~
+Z 0 100273
+0 0
+D3
+~
+~
+Z 0 100270
+0 0
+S
+#100275
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100272
+0 0
+D1
+~
+~
+Z 0 100276
+0 0
+D2
+~
+~
+Z 0 100278
+0 0
+D3
+~
+~
+Z 0 100276
+0 0
+S
+#100276
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100273
+0 0
+D1
+~
+~
+Z 0 100275
+0 0
+D2
+~
+~
+Z 0 100279
+0 0
+D3
+~
+~
+Z 0 100275
+0 0
+S
+#100277
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100278
+0 0
+S
+#100278
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100275
+0 0
+D1
+~
+~
+Z 0 100279
+0 0
+D3
+~
+~
+Z 0 100277
+0 0
+S
+#100279
+Burning Cacti~
+Your eyes are hurt because of the light of the objects fire.  You try to
+look closely and you finally discover what it is.  It's a bounch of Cactus. 
+All burning like souls from Hell.  You look all around and you see only fire
+and a lot cactus.  You realize where you are, you are on a garden full of
+Death.  Even the bravest of souls would cower in fear.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100276
+0 0
+D3
+~
+~
+Z 0 100278
+0 0
+S
+#100280
+Entrance to Tainted (Lost)~
+You have now exited Tainted Oasis through the western entrance.  You look
+to the west and you can only see sand, black sand.  You try to see if
+there's any water far away but your eyes can't see so far.  Try to adventure
+yourself on the west sands, maybe you'll find something, maybe you won't.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 100242
+0 0
+D3
+~
+~
+Z 0 100288
+0 0
+S
+#100281
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 100282
+0 0
+D2
+~
+~
+Z 0 100285
+0 0
+S
+#100282
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 100283
+0 0
+D2
+~
+~
+Z 0 100286
+0 0
+D3
+~
+~
+Z 0 100281
+0 0
+S
+#100283
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 100284
+0 0
+D2
+~
+~
+Z 0 100287
+0 0
+D3
+~
+~
+Z 0 100282
+0 0
+S
+#100284
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 100288
+0 0
+D3
+~
+~
+Z 0 100283
+0 0
+S
+#100285
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100281
+0 0
+D1
+~
+~
+Z 0 100286
+0 0
+D2
+~
+~
+Z 0 100289
+0 0
+S
+#100286
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100282
+0 0
+D1
+~
+~
+Z 0 100287
+0 0
+D2
+~
+~
+Z 0 100290
+0 0
+D3
+~
+~
+Z 0 100285
+0 0
+S
+#100287
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100283
+0 0
+D1
+~
+~
+Z 0 100288
+0 0
+D2
+~
+~
+Z 0 100291
+0 0
+D3
+~
+~
+Z 0 100286
+0 0
+S
+#100288
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100284
+0 0
+D1
+~
+~
+Z 0 100280
+0 0
+D2
+~
+~
+Z 0 100292
+0 0
+D3
+~
+~
+Z 0 100287
+0 0
+S
+#100289
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100285
+0 0
+D1
+~
+~
+Z 0 100290
+0 0
+S
+#100290
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100286
+0 0
+D1
+~
+~
+Z 0 100291
+0 0
+D3
+~
+~
+Z 0 100289
+0 0
+S
+#100291
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100287
+0 0
+D1
+~
+~
+Z 0 100292
+0 0
+D3
+~
+~
+Z 0 100290
+0 0
+S
+#100292
+Lost! (Tainted Oasis)~
+As you enter in the Black Sands of west you feel Lost!  You look around
+and you only can see that black sand.  It looks like it is chasing you
+everywhere you go.  Look for water, look for some place to rest, but be
+careful with the dark sands it might get you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 100288
+0 0
+D3
+~
+~
+Z 0 100291
+0 0
+S
+#100293
+The Gates to the Cemetary of Kharamul~
+You are standing on a cobblestone path before a massive iron gate.  The
+stones in the path are shiny and black.  This area seems very dark, as if
+the air around you is filtering all light and dimming it.  The huge wrought
+iron gate looks ancient but still very strong.  There is a chain looped
+around the two sides of the gate to hold it together, but the lock on the
+chain has been broken in half.  
+A metal plaque is mounted on the iron gates.
+~
+0 A inside
+E
+plaque~
+{D*************************************************
+*            {cCemetary of Kharamul{D               *
+*                                               *
+*                                               *
+*  {rBut first on earth as vampire sent{D           *
+*  {rThy corpse shall from its tomb be rent.{D      *
+*  {rThen, ghastly, haunt thy native place{D        *
+*  {rAnd suck the blood of all thy race.{D          *
+*                                               *
+*                                               *
+*************************************************
+
+Created by {bT{Bal{Cie{Bse{bn{x
+~
+D0
+~
+~
+Z 0 100267
+0 0
+D2
+~
+~
+ABZ 0 100300
+0 0
+S
+#100294
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  A
+path leads beside the graves to the south.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100295
+0 0
+D2
+~
+~
+Z 0 100307
+0 0
+S
+#100295
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100296
+0 0
+D3
+~
+~
+Z 0 100294
+0 0
+S
+#100296
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  A
+path leads between the graves to your south.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100297
+0 0
+D2
+~
+~
+Z 0 100309
+0 0
+D3
+~
+~
+Z 0 100295
+0 0
+S
+#100297
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100298
+0 0
+D3
+~
+~
+Z 0 100296
+0 0
+S
+#100298
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  
+A path leads between the graves to your south.
+~
+0 A inside
+D1
+~
+~
+Z 0 100299
+0 0
+D2
+~
+~
+Z 0 100311
+0 0
+D3
+~
+~
+Z 0 100297
+0 0
+S
+#100299
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100300
+0 0
+D3
+~
+~
+Z 0 100298
+0 0
+S
+#100300
+Beginning of Path~
+You are standing a few steps inside an old cemetary.  A huge black,
+wrought-iron gate is behind you to the north.  A mist rolls through the
+cemetary grounds.  It seems to be perpetual night here.  Several tombstones
+line the ground.  Near by, something or someone lets out a howl to the moon.
+The path continues south, and row of bushes runs east and west.  
+~
+0 A inside
+D0
+~
+~
+ABZ 0 100293
+0 0
+D1
+~
+~
+Z 0 100301
+0 0
+D2
+~
+~
+Z 0 100313
+0 0
+D3
+~
+~
+Z 0 100299
+0 0
+S
+#100301
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100302
+0 0
+D3
+~
+~
+Z 0 100300
+0 0
+S
+#100302
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  A
+path leads south between the graves.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100303
+0 0
+D2
+~
+~
+Z 0 100315
+0 0
+D3
+~
+~
+Z 0 100301
+0 0
+S
+#100303
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100304
+0 0
+D3
+~
+~
+Z 0 100302
+0 0
+S
+#100304
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  A
+path leads between the graves to your south.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100305
+0 0
+D2
+~
+~
+Z 0 100317
+0 0
+D3
+~
+~
+Z 0 100303
+0 0
+S
+#100305
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  Unlike the
+other bushes, this rose bush is empty except for the thorns.  There is a
+trap door hidden beneath the bush.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100306
+0 0
+D3
+~
+~
+Z 0 100304
+0 0
+D5
+~
+~
+ABZ 0 100359
+0 0
+S
+#100306
+The Black Rose Bushes~
+You are standing among the rose bushes that run along the north side of
+the cemetary.  The rose bushes, at first glance, appear to be dying.  There
+are no leaves on the bushes.  They are just masses of thorns.  However, a
+few black roses grow from each bush in spite of the plants' condition.  A
+path leads along the graves to your south.  
+~
+0 A inside
+D2
+~
+~
+Z 0 100319
+0 0
+D3
+~
+~
+Z 0 100305
+0 0
+S
+#100307
+Cemetary Path~
+The path follows the western portion of the cemetary.  There are no
+stones on this path, just a plain dirt footpath.  There are several
+footprints in the mud, ambling in all directions.  Cries of what could be
+either pain or extasy fill the air.  That same short, dying grass lines the
+path here as well.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100294
+0 0
+D1
+~
+~
+Z 0 100308
+0 0
+D2
+~
+~
+Z 0 100320
+0 0
+S
+#100308
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+E
+tombstone stone~
+This stone marks the grave of Buhntao, a notoriously effective human
+ninja.  His exploits live to this day, even if he does not.  
+ 
+  {D####################
+  #                  #
+  #    Here Lies     #
+  #     {rBuhntao{D      #
+  #                  #
+  # never met a man  #
+  #   he didn't kill #
+  #                  #
+  #                  #
+ ----------------------
+{x
+~
+D1
+~
+~
+Z 0 100309
+0 0
+D3
+~
+~
+Z 0 100307
+0 0
+S
+#100309
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100296
+0 0
+D1
+~
+~
+Z 0 100310
+0 0
+D2
+~
+~
+Z 0 100322
+0 0
+D3
+~
+~
+Z 0 100308
+0 0
+S
+#100310
+A Grave Site~
+A large ornate tombstone marks this grave.  The occupant of this site
+must have been someone of great wealth or importance.  The ground here is
+well tracked with footprints, but whoever left them seemed to avoid stepping
+on the grave itself.  The muddy path continues on east and west between the
+graves.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100311
+0 0
+D3
+~
+~
+Z 0 100309
+0 0
+S
+#100311
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100298
+0 0
+D1
+~
+~
+Z 0 100312
+0 0
+D2
+~
+~
+Z 0 100324
+0 0
+D3
+~
+~
+Z 0 100310
+0 0
+S
+#100312
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100313
+0 0
+D3
+~
+~
+Z 0 100311
+0 0
+S
+#100313
+Wide Stone Path~
+Obsidian colored stones line this wide, main path.  It divides the
+cemetary in half.  A strong smell pervades the air.  It is a dank, musty
+smell, the smell of decomposing leaves.  Screams and howls frequently ring
+out here in this small world of perpetual night.  A small shack can be seen
+off to the right, down a muddy path, and to the south you see a large
+ominous structure.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100300
+0 0
+D1
+~
+~
+Z 0 100314
+0 0
+D2
+~
+~
+Z 0 100326
+0 0
+D3
+~
+~
+Z 0 100312
+0 0
+S
+#100314
+Path Between the Tombstones~
+You are standing on the muddy, overgrown path that runs along the
+tombstones.  The grass shows some signs of life where it grows over the
+ancient grave.  This place seems to be about death, not life.  A small,
+plain stone marks this grave.  To the east you can make out a small shack.  
+~
+0 A inside
+E
+tombstone stone~
+This small stone marks a rather old grave.  The only information given on
+the stone is the unfortunate soul's name, Giovanni.  
+~
+D1
+~
+~
+Z 0 100315
+0 0
+D3
+~
+~
+Z 0 100313
+0 0
+S
+#100315
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100302
+0 0
+D1
+~
+~
+Z 0 100316
+0 0
+D2
+~
+~
+Z 0 100328
+0 0
+D3
+~
+~
+Z 0 100314
+0 0
+S
+#100316
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100317
+0 0
+D3
+~
+~
+Z 0 100315
+0 0
+S
+#100317
+The Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn path
+that leads west is overgrown in the same sickly brown grass that covers much
+of the ground in this place.  Just to the east is an old shack that looks
+like it could fall in on itself at any minute.  The way south leads farther
+into the cemetary.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100304
+0 0
+D1
+~
+~
+Z 0 100318
+0 0
+D2
+~
+~
+Z 0 100330
+0 0
+D3
+~
+~
+Z 0 100316
+0 0
+S
+#100318
+Caretaker's Shack~
+You are in a small, dilapidated shack.  It appears to be the working home
+of a caretaker.  The caretaker of this particular cemetary seems to be long
+gone.  The shack is blanketed in spider webs and dust.  Several gardening
+tools line the eastern wall, and a short workbench sits on the floor.  
+~
+0 A inside
+D3
+~
+~
+Z 0 100317
+0 0
+S
+#100319
+Cemetary Path~
+The path follows the eastern portion of the cemetary.  There are no
+stones on this path, just a plain dirt footpath.  Cries of what could be
+either pain or extasy fill the air.  That same short, dying grass lines the
+path here as well.  The only exits from here are north to the rose bushes or
+south farther down the path.  The way west is blocked by a small, wooden
+building.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100306
+0 0
+D2
+~
+~
+Z 0 100332
+0 0
+S
+#100320
+Cemetary Path~
+The path follows the western portion of the cemetary.  There are no
+stones on this path, just a plain dirt footpath.  There are several
+footprints in the mud, ambling in all directions.  Cries of what could be
+either pain or extasy fill the air.  That same short, dying grass lines the
+path here as well.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100307
+0 0
+D1
+~
+~
+Z 0 100321
+0 0
+D2
+~
+~
+Z 0 100333
+0 0
+S
+#100321
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100322
+0 0
+D3
+~
+~
+Z 0 100320
+0 0
+S
+#100322
+Intersection in the Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100309
+0 0
+D1
+~
+~
+Z 0 100323
+0 0
+D2
+~
+~
+Z 0 100335
+0 0
+D3
+~
+~
+Z 0 100321
+0 0
+S
+#100323
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100324
+0 0
+D3
+~
+~
+Z 0 100322
+0 0
+S
+#100324
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100311
+0 0
+D1
+~
+~
+Z 0 100325
+0 0
+D2
+~
+~
+Z 0 100337
+0 0
+D3
+~
+~
+Z 0 100323
+0 0
+S
+#100325
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100326
+0 0
+D3
+~
+~
+Z 0 100324
+0 0
+S
+#100326
+Wide Stone Path~
+Obsidian colored stones line this wide, main path.  It divides the
+cemetary in half.  A strong smell pervades the air.  It is a dank, musty
+smell, the smell of decomposing leaves.  Screams and howls frequently ring
+out here in this small world of perpetual night.
+~
+0 A inside
+D0
+~
+~
+Z 0 100313
+0 0
+D1
+~
+~
+Z 0 100327
+0 0
+D2
+~
+~
+Z 0 100339
+0 0
+D3
+~
+~
+Z 0 100325
+0 0
+S
+#100327
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100328
+0 0
+D3
+~
+~
+Z 0 100326
+0 0
+S
+#100328
+The Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100315
+0 0
+D1
+~
+~
+Z 0 100329
+0 0
+D2
+~
+~
+Z 0 100341
+0 0
+D3
+~
+~
+Z 0 100327
+0 0
+S
+#100329
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100330
+0 0
+D3
+~
+~
+Z 0 100328
+0 0
+S
+#100330
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100317
+0 0
+D1
+~
+~
+Z 0 100331
+0 0
+D2
+~
+~
+Z 0 100343
+0 0
+D3
+~
+~
+Z 0 100329
+0 0
+S
+#100331
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100332
+0 0
+D3
+~
+~
+Z 0 100330
+0 0
+S
+#100332
+Along the Eastern Wall~
+The foot path runs along a tall stone wall here.  The path continues
+north and south, and it also leads west among the graves.  There is a large
+crack in the wall here and may be large enough for you to pass through it. 
+The faint sound of singing by the most beautiful voice you've ever heard
+seeps out of the crack.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100319
+0 0
+D2
+~
+~
+Z 0 100345
+0 0
+D3
+~
+~
+Z 0 100331
+0 0
+S
+#100333
+Approaching the Great Crypts~
+The ground is darker here, yet more solid.  The dirt of the path seems to
+drink up the moisture with an undying thirst.  There is no grass now, only
+barren lifeless earth.  Just to the south, you see the western end of a long
+line of great crypts.
+~
+0 A inside
+D0
+~
+~
+Z 0 100320
+0 0
+D1
+~
+~
+Z 0 100334
+0 0
+D2
+~
+~
+Z 0 100346
+0 0
+S
+#100334
+A Grave Site~
+You are standing at the grave of some long-dead adventurer.  A simple
+tombstone serves as marker for this resting place.  The grass over the grave
+is lusher thicker than the surrounding.  Although most of this place reeks
+of death, some life still seems to flourish.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100335
+0 0
+D3
+~
+~
+Z 0 100333
+0 0
+S
+#100335
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100322
+0 0
+D1
+~
+~
+Z 0 100336
+0 0
+D3
+~
+~
+Z 0 100334
+0 0
+S
+#100336
+A Grave Site~
+An ancient grey stone marks this grave.  The stone has a red rose that's
+been painted on the front.  The ground is soggy and covered in sickly brown
+grass.  The muddy path leads east and west among the graves.  
+~
+0 A inside
+E
+grey stone~
+The stone is blank except for the rose painted on its face.  Upon closer
+inspection, it's not paint, but fresh, still-wet blood that's been used to
+make the rose on the stone.  
+~
+D1
+~
+~
+Z 0 100337
+0 0
+D3
+~
+~
+Z 0 100335
+0 0
+S
+#100337
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100324
+0 0
+D1
+~
+~
+Z 0 100338
+0 0
+D3
+~
+~
+Z 0 100336
+0 0
+S
+#100338
+An Empty Grave~
+You have come upon an empty grave.  A dark, empty hole lies here in wait
+for its future occupant.  A shovel and old lantern are lying on the ground
+next to the hole.  Judging by the thick layer of dirt that partially covers
+these items, they seem to have been here for some time.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100339
+0 0
+D3
+~
+~
+Z 0 100337
+0 0
+D5
+~
+~
+Z 0 100362
+0 0
+S
+#100339
+Approaching the Great Crypts~
+The ground is darker here, yet more solid.  The dirt of the path seems to
+drink up the moisture with an undying thirst.  There is no grass now, only
+barren lifeless earth.  Just to the south, you see the eastern end of a long
+line of great crypts.
+~
+0 A inside
+D0
+~
+~
+Z 0 100326
+0 0
+D1
+~
+~
+Z 0 100340
+0 0
+D2
+~
+~
+Z 0 100352
+0 0
+D3
+~
+~
+Z 0 100338
+0 0
+S
+#100340
+A Large White Tree~
+This small piece of land is the only place you've seen in the cemetary
+that is resisting the decay and death of the area.  A huge whitethorn tree
+grows here and is surrounded by lush green grass.  The tree itself radiates
+warmth and power beyond the draining force of the land.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100341
+0 0
+D3
+~
+~
+Z 0 100339
+0 0
+S
+#100341
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100328
+0 0
+D1
+~
+~
+Z 0 100342
+0 0
+D3
+~
+~
+Z 0 100340
+0 0
+S
+#100342
+A Grave Site~
+The overgrown path leads you by another of the many graves.  This grave
+appears newer than the others.  The sickly grass hasn't yet started to grow
+over the mounded earth.  A white alabaster stone marks this grave.  
+~
+0 A inside
+E
+alabaster stone~
+The smooth white stone is warm to the touch.  It seems to almost glow in
+contrast to this dark foreboding place.  There is no name carved onto the
+stone, just a gothic style cross.  
+~
+D1
+~
+~
+Z 0 100343
+0 0
+D3
+~
+~
+Z 0 100341
+0 0
+S
+#100343
+Intersection in Muddy Path~
+The path here has no cobblestones and is quite soggy.  The well-worn
+paths that lead east and west are overgrown in the same sickly brown grass
+that covers much of the ground in this place.
+~
+0 A inside
+D0
+~
+~
+Z 0 100330
+0 0
+D1
+~
+~
+Z 0 100344
+0 0
+D3
+~
+~
+Z 0 100342
+0 0
+S
+#100344
+A Defiled Grave~
+This plot has been dug up.  The simple wooden box that most likely served
+as the occupant's casket has been pulled halfway out of the ground.  The lid
+to the box is slightly ajar.  Upon closer inspection, the grave appears to
+have been dug up from the inside out.  There is another of the stone markers
+here.  This one has been overturned by the excavation and lies on its side
+next to the casket.  
+~
+0 A inside
+E
+tombstone stone marker~
+The marker proclaims the deceased to be "Viccini, our beloved son".  
+~
+D1
+~
+~
+Z 0 100345
+0 0
+D3
+~
+~
+Z 0 100343
+0 0
+S
+#100345
+Approaching the Great Crypts~
+The ground is darker here, yet more solid.  The dirt of the path seems to
+drink up the moisture with an undying thirst.  There is no grass now, only
+barren lifeless earth.  Just to the south, you see the eastern end of a long
+line of great crypts.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100332
+0 0
+D2
+~
+~
+Z 0 100358
+0 0
+D3
+~
+~
+Z 0 100344
+0 0
+S
+#100346
+The Small Crypt~
+You are at the south-west corner of the cemetary.  There is a long
+stretch of crypts that extend off to the east.  Before you is a small,
+rather plain looking crypt, in relation to the others.  The stone door to
+this structure has been torn from its ancient hinges and lies discarded to
+the side of the entrance.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100333
+0 0
+D1
+~
+~
+Z 0 100347
+0 0
+D2
+~
+~
+Z 0 100363
+0 0
+S
+#100347
+The Garden~
+You walk through what was once a garden that was planted in between and
+around the great crypts of Kharamul.  A short wire fence no more than a foot
+tall separates the stone walkway and the garden bed.  All the plants that
+remain are withered and dying.  It's been reduced to a brown tangled mess of
+brown weeds and dry vines covered in sharp thorns.
+~
+0 A inside
+D1
+~
+~
+Z 0 100348
+0 0
+D3
+~
+~
+Z 0 100346
+0 0
+S
+#100348
+Outside the Granite Crypt~
+Before you stands an enormous granite structure.  This is the largest
+crypt in the cemetary, but lacks the ornate design of the others.  It is
+simply rough hewn rock.  The inscriptions carved in the stone are written in
+the rough symbols that serve as the troll kingdom's written language.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100349
+0 0
+D2
+~
+~
+ABCGJZ 0 100425
+0 0
+D3
+~
+~
+Z 0 100347
+0 0
+S
+#100349
+The Garden~
+You walk through what was once a garden that was planted in between and
+around the great crypts of Kharamul.  A short wire fence no more than a foot
+tall separates the stone walkway and the garden bed.  All the plants that
+remain are withered and dying.  It's been reduced to a brown tangled mess of
+brown weeds and dry vines covered in sharp thorns.
+~
+0 A inside
+D1
+~
+~
+Z 0 100350
+0 0
+D3
+~
+~
+Z 0 100348
+0 0
+S
+#100350
+Outside the Emerald Crypt~
+In the cemetary here is a beautiful emerald crypt.  The entire structure
+is made of the sparkling green gem.  The crypt glows and hums with a magical
+power.  The dull green glow gives the area an impression of life in this
+barren garden.  A great emerald door covered in elvish inscriptions leads
+into the crypt.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100351
+0 0
+D2
+~
+~
+ABCGJZ 0 100475
+0 0
+D3
+~
+~
+Z 0 100349
+0 0
+S
+#100351
+The Garden~
+You walk through what was once a garden that was planted in between and
+around the great crypts of Kharamul.  A short wire fence no more than a foot
+tall separates the stone walkway and the garden bed.  All the plants that
+remain are withered and dying.  It's been reduced to a brown tangled mess of
+brown weeds and dry vines covered in sharp thorns.
+~
+0 A inside
+D1
+~
+~
+Z 0 100352
+0 0
+D3
+~
+~
+Z 0 100350
+0 0
+S
+#100352
+Steps of the Mansion~
+You stand at the steps of a large house that could only be described as a
+mansion.  It appears to have been deserted.  The house is in disrepair.  The
+walls are littered with holes, and the roof has partially caved in.  A pair
+of tall, oak doors to the south lead inside the mansion.  
+~
+0 A inside
+E
+doors~
+The doors are thick and still very solid.  The wood is smooth to the
+touch.  A inlaid gold crest adorns the door.  You recognize it as the same
+crest that was on the cemetary gates.  
+~
+D0
+~
+~
+Z 0 100339
+0 0
+D1
+~
+~
+Z 0 100353
+0 0
+D2
+~
+~
+ABZ 0 100365
+0 0
+D3
+~
+~
+Z 0 100351
+0 0
+S
+#100353
+The Garden~
+You walk through what was once a garden that was planted in between and
+around the great crypts of Kharamul.  A short wire fence no more than a foot
+tall separates the stone walkway and the garden bed.  All the plants that
+remain are withered and dying.  It's been reduced to a brown tangled mess of
+brown weeds and dry vines covered in sharp thorns.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100354
+0 0
+D2
+~
+~
+Z 0 100373
+0 0
+D3
+~
+~
+Z 0 100352
+0 0
+S
+#100354
+Outside the Vine-Covered Crypt~
+This crypt seems to be comprised primarily of a strange hardwood, rather
+than the cold stones that fills most of the area.  While plant life seems to
+have failed all around it, the wooden crypt is covered almost completely in
+lush green vines.  A tall wooden door provides entrance to the crypt.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100355
+0 0
+D2
+~
+~
+ABCGJZ 100303 100400
+0 0
+D3
+~
+~
+Z 0 100353
+0 0
+S
+#100355
+The Garden~
+You walk through what was once a garden that was planted in between and
+around the great crypts of Kharamul.  A short wire fence no more than a foot
+tall separates the stone walkway and the garden bed.  All the plants that
+remain are withered and dying.  It's been reduced to a brown tangled mess of
+brown weeds and dry vines covered in sharp thorns.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100356
+0 0
+D3
+~
+~
+Z 0 100354
+0 0
+S
+#100356
+Outside the Mithril Crypt~
+This crypt is comprised of several large forged plates of mithril, the
+metal of the dwarves.  An enormous mithril battleaxe has been affixed above
+the doors that lead into the crypt.  A single word, Biraas, is carved into
+the ornamental weapon's blade.  
+~
+0 A inside
+D1
+~
+~
+Z 0 100357
+0 0
+D2
+~
+~
+ABCGJZ 100300 100450
+0 0
+D3
+~
+~
+Z 0 100355
+0 0
+S
+#100357
+The Garden~
+You walk through what was once a garden that was planted in between and
+around the great crypts of Kharamul.  A short wire fence no more than a foot
+tall separates the stone walkway and the garden bed.  All the plants that
+remain are withered and dying.  It's been reduced to a brown tangled mess of
+brown weeds and dry vines covered in sharp thorns.
+~
+0 A inside
+D1
+~
+~
+Z 0 100358
+0 0
+D3
+~
+~
+Z 0 100356
+0 0
+S
+#100358
+Outside the Obsidian Crypt~
+You are at the southeastern portion of the Kharamul Cemetary.  This is
+the eastern end of a garden path that is lined with some rather impressive
+crypts.  The crypt before you is made of shiny black stone that is so smooth
+that it reminds you of fine glass.  A tall door of the same stone is the
+only visible entrance to the structure.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100345
+0 0
+D2
+~
+~
+ABCFGJZ 100302 100375
+0 0
+D3
+~
+~
+Z 0 100357
+0 0
+S
+#100359
+Under the Rose Bush~
+You are in a small, dank cavern.  A ladder leads up to the cemetary.  The
+bones of several small animals litter the ground.  Blood streaks the walls
+of the cavern, mostly old, but some fresh.  This seems to be some creature's
+den.  
+~
+0 0 inside
+D4
+~
+~
+ABZ 0 100305
+0 0
+S
+#100360
+Through the Eastern Wall~
+You are standing in what appears to be part of an old cathedral.  Candles
+line the wall, but something about them doesn't seem quite right.  They're
+all lit but don't seem to produce any useful light.  The sound of singing is
+much louder in here.  The sweet voices draw you to the north.  
+~
+0 A inside
+E
+candles~
+Upon closer inspection, you notice the flames of the candles burn with a
+dull grey-white glow.  They seem to absorb more light than they produce. 
+Staring at them makes your head swim.  
+~
+D0
+~
+~
+Z 0 100361
+0 0
+D3
+~
+~
+Z 0 100332
+0 0
+S
+#100361
+The Lair of the Voice~
+This is the home of The Voice, the sweet voiced undead mistress of song. 
+Glancing around, the room is more shrine than a bedroom.  In fact, there is
+no bed.  According to legend, The Voice never sleeps, cursed to an endless
+display of her immense talent.  Hundreds of candles of many different shapes
+and sizes are on shelves that reach all the way up to the top of the vaulted
+ceiling.  
+~
+0 A inside
+E
+candles~
+Upon closer inspection, you notice the flames of the candles burn with a
+dull grey-white glow.  They seem to absorb more light than they produce. 
+Staring at them makes your head swim.
+~
+D2
+~
+~
+Z 0 100360
+0 0
+S
+#100362
+In a Grave~
+OW!!!  As you enter the grave, you catch the sight of a swinging shovel
+out of the corner of your eye.  Then, excrutiating pain in the back of your
+head makes the lights go out.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 100338
+0 0
+S
+#100363
+Entrance Hall to the Guild of Vampires~
+You are standing inside the small crypt.  The walls are made of crumbling
+stone and are splattered in blood.  A few torches are afixed to the walls
+but none are lit.  There is an intersection of small hallways here, but the
+ways south and east are blocked by large amounts of debris.  
+~
+0 ADY inside
+D0
+~
+~
+Z 0 100346
+0 0
+D3
+~
+~
+Z 0 100364
+0 0
+S
+#100364
+The Vampire Prince's Study~
+This is the private study of Carmellian, the wise Prince of Vampires.  A
+black wooden desk sits in the corner.  Atop the desk are several parchments
+and a quill pen in ink.  A small obsidian altar is in the center of the
+room, drenched in blood.  
+~
+0 ACD inside
+D1
+~
+~
+Z 0 100363
+0 0
+S
+#100365
+The Foyer~
+You are in the foyer of the mansion.  This was once a magnificent home. 
+Now it is falling apart.  The house, with everything else here, seems to be
+dying, a victim of the decay.  A huge ornate rug is on the floor.  At one
+time probably worth a few thousand gold pieces, now it is faded and
+tattered.  The moonlight streams in from above.  The roof of the mansion has
+been ripped free.  
+~
+0 A inside
+D0
+~
+~
+ABZ 0 100352
+0 0
+D2
+~
+~
+Z 0 100367
+0 0
+S
+#100366
+Collapsed Passage~
+This is one of the many secret passages that once connected many parts of
+the mansion.  The rubble has blocked movement in any direction except for
+the way back to the main hall.  The walls of the passage groan under the
+weight of the collapsing roof.  This small section of the passage seems to
+be the only that has stood throughout the decay of the building.  
+~
+0 AD inside
+E
+rubble~
+There are pieces of wood and stone strewn everywhere blocking access to
+the rest of the passage.  It appears to be pieces of the upper floors that
+has fallen through.  You see several bones mixed in with the debris.  The
+passage seems to have not been empty when it collapsed.  
+~
+D0
+A secret panel slides away here.
+~
+~
+ABZ 0 100371
+0 0
+S
+#100367
+The Grand Hall~
+This is the main hall of the mansion.  This expansive room is crumbling
+away.  Beneath the rubble you can see the remains of what was once a hall
+that reflected the great wealth of the master of the house.  Columns with
+intricately carved designs have fallen and made many of the ways impassable.
+Several fine paintings line the walls.  All of them are ripped, burned, and
+covered in a thick layer of dust and cobwebs.  
+~
+0 A inside
+E
+paintings~
+The only painting that still can be made out here is a large oil painting
+that hangs on the eastern wall.  It is a portrait of a very beautiful human
+woman.  Her long black hair trails to the bottom of the painting where the
+canvas has been torn away.  Around her neck is a small gold chain from which
+hangs a diamond studded talisman.  The name Bethany is etched into the top
+of the silver frame.  
+~
+D0
+~
+~
+Z 0 100365
+0 0
+D2
+~
+~
+Z 0 100368
+0 0
+D3
+~
+~
+Z 0 100370
+0 0
+S
+#100368
+The Grand Hall~
+This is the main hall of the mansion.  This expansive room is crumbling
+away.  Beneath the rubble you can see the remains of what was once a hall
+that reflected the great wealth of the master of the house.  Columns with
+intricately carved designs have fallen and made many of the ways impassable.
+Several fine paintings line the walls.  All of them are ripped, burned, and
+covered in a thick layer of dust and cobwebs.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100367
+0 0
+D1
+~
+~
+Z 0 100372
+0 0
+D3
+~
+~
+Z 0 100371
+0 0
+S
+#100369
+An Alcove~
+This was probably once used as a place for servants to duck out of the
+way the master's guests.  Now it is the laboratory of an old, frail warlock.
+A pentagram is drawn on the floor in blood.  It is a binding circle to hold
+the conjurations of the mage at bay for a short time.  The only light source
+in the room is a row of black candles on a shelf that runs the length of the
+wall.  
+~
+0 A inside
+D2
+~
+~
+Z 0 100372
+0 0
+S
+#100370
+Bottom of the Stairs~
+You stand at the bottom of a collapsed stairway.  The bannister post at
+the bottom of the stair is adorned with a gold dragon.  The second floor of
+the mansion is blocked by a heap of rubble that appears to have been a
+portion of the roof or possibly the floor to the upper level.  
+~
+0 AD inside
+E
+bannister post dragon~
+A twelve inch tall dragon is perched on the bottom post of the stairs. 
+It is made of solid gold and appears to have been polished recently.  It is
+not only free of the dust and grime that permeate the mansion, but it seems
+to shine as from some inner glow.  
+~
+E
+stairs~
+The stairs are in surprisingly good condition.  The stairs are made of a
+dark stained wood.  Some arcane symbols have been carved into the front of
+the bottom step.  
+~
+D1
+~
+~
+Z 0 100367
+0 0
+S
+#100371
+Hallway in the Mansion~
+The hallway is strewn with rubble and is impassable to the west.  Doors
+lead to other parts of the mansion to the north and west, but they won't
+budge when you try them.  The only way to go from here is back to the great
+hall to the east.  
+~
+0 A inside
+E
+north west~
+The doors are made of solid oak but have been blackened from the grime
+and dust of age.  There are several small holes in the doors, and the
+occasional gasp of dust puffs from them. 
+~
+E
+doors~
+The doors are made of solid oak but have been blackened from the grime
+and dust of age.  There are several small holes in the doors, and the
+occasional gasp of dust puffs from them.  
+~
+D1
+~
+~
+Z 0 100368
+0 0
+D2
+You notice a seam in the wall.  It seems like you could slide the wooden
+panel away, creating a small doorway.  
+~
+~
+ABZ 0 100366
+0 0
+S
+#100372
+Hallway in the Mansion~
+The hallway here is in a little better shape than to the west.  There are
+still mounds of rubble, but the door to the north is unblocked.  The eastern
+wall of the mansion has fallen away and opens into a foreboding patch of
+grass behind the crypts.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100369
+0 0
+D1
+~
+~
+Z 0 100373
+0 0
+D3
+~
+~
+Z 0 100368
+0 0
+S
+#100373
+Path Beside the Mansion~
+You are standing in a muddy patch of ground that lies between the mansion
+and a vine-covered wooden crypt.  The grass has been worn into a small path
+here.  There is a crack in the wall to the west in the side of the mansion. 
+There is too much debris to climb over to get in this way, you'll have to
+use the front door.  
+~
+0 A inside
+D0
+~
+~
+Z 0 100353
+0 0
+S
+#100375
+Entryway to the Crypt of Obsidian~
+You stand in the entry of the obsidian crypt.  The walls are smooth and
+cold to the touch.  Soft wailing is heard echoing off the glass like walls. 
+The floor and ceiling are the same as the walls, covered in this cold
+lifeless stone.  Small trickles of blood are spattered here and there on the
+floor.  A piece of tattered parchment has been stuck to the wall here.  
+~
+0 ADN inside
+E
+parchment paper~
+Beware, travellers...  This place has been overrun by the vampire queen
+and her "family", the {rKindred{x.  
+~
+D0
+~
+~
+ABCFGJZ 100302 100358
+0 0
+D2
+~
+~
+Z 0 100376
+0 0
+S
+#100376
+A Dark Intersection~
+You come to a bleak intersection in the hall.  A wide obsidian corridor
+extends both east and west from here.  The walls seem to have lost their
+luster somewhat as you travel deeper into the crypt.  Rather than shining
+like the outside of the structure, the stone here is dull and lifeless.  The
+faint wailing noise can still be heard, but because of the echoes, you are
+not able to discern their origin.  
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100375
+0 0
+D1
+~
+~
+Z 0 100377
+0 0
+D3
+~
+~
+Z 0 100380
+0 0
+S
+#100377
+A Smooth Black Corridor~
+You are in a wide obsidian corridor.  As you run your hands along the
+walls, you occassionally come across wet, sticky patches.  The dull stone
+walls seem to swallow all light, making the hall extremely dark.  
+~
+0 N inside
+D1
+~
+~
+Z 0 100378
+0 0
+D3
+~
+~
+Z 0 100376
+0 0
+S
+#100378
+A Bend in the Corridor~
+You are in a wide obsidian corridor.  As you run your hands along the
+walls, you occassionally come across wet, sticky patches.  The dull stone
+walls seem to swallow all light, making the hall extremely dark.  A smaller
+passage extends southward, and an alcove is to the north.  
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100379
+0 0
+D2
+~
+~
+Z 0 100381
+0 0
+D3
+~
+~
+Z 0 100377
+0 0
+S
+#100379
+A Small Alcove~
+This is little more than a whole carved out in the smooth black stone
+walls of the crypt.  It serves as someone's home.  A small pile of straw
+lying on the floor has been matted down from this hole's occupant.  
+~
+0 ADN inside
+D2
+~
+~
+Z 0 100378
+0 0
+S
+#100380
+A Bend in the Corridor~
+You are in a wide obsidian corridor.  As you run your hands along the
+walls, you occassionally come across wet, sticky patches.  The dull stone
+walls seem to swallow all light, making the hall extremely dark.
+~
+0 ADN inside
+D1
+~
+~
+Z 0 100376
+0 0
+D2
+~
+~
+Z 0 100389
+0 0
+S
+#100381
+A Twisting Passage~
+The passage here is smaller, and the stones that cover the walls are
+rough hewn, contrasting with the polished walls of the wider corridor.  The
+path twists and turns through the crypt.  Some turns are very tight and make
+it hard to tell what is ahead of your path.  
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100378
+0 0
+D3
+~
+~
+Z 0 100382
+0 0
+S
+#100382
+A Twisting Passage~
+The passage here is smaller, and the stones that cover the walls are
+rough hewn, contrasting with the polished walls of the wider corridor.  The
+path twists and turns through the crypt.  Some turns are very tight and make
+it hard to tell what is ahead of your path. 
+~
+0 ADN inside
+D1
+~
+~
+Z 0 100381
+0 0
+D2
+~
+~
+Z 0 100383
+0 0
+S
+#100383
+A Twisting Passage~
+The passage here is smaller, and the stones that cover the walls are
+rough hewn, contrasting with the polished walls of the wider corridor.  The
+path twists and turns through the crypt.  Some turns are very tight and make
+it hard to tell what is ahead of your path. 
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100382
+0 0
+D5
+~
+~
+Z 0 100384
+0 0
+S
+#100384
+A Twisting Passage~
+The passage here is smaller, and the stones that cover the walls are
+rough hewn, contrasting with the polished walls of the wider corridor.  The
+path twists and turns through the crypt.  Some turns are very tight and make
+it hard to tell what is ahead of your path. 
+~
+0 ADN inside
+D3
+~
+~
+Z 0 100385
+0 0
+D4
+~
+~
+Z 0 100383
+0 0
+S
+#100385
+A Twisting Passage~
+The passage here is smaller, and the stones that cover the walls are
+rough hewn, contrasting with the polished walls of the wider corridor.  The
+path twists and turns through the crypt.  Some turns are very tight and make
+it hard to tell what is ahead of your path. 
+~
+0 ADN inside
+D1
+~
+~
+Z 0 100384
+0 0
+D4
+~
+~
+Z 0 100386
+0 0
+S
+#100386
+A Smooth Black Corridor~
+You are in a wide obsidian corridor.  As you run your hands along the
+walls, you occassionally come across wet, sticky patches.  The dull stone
+walls seem to swallow all light, making the hall extremely dark.  Small
+stone steps lead down to a smaller passage.  
+~
+0 ADN inside
+D3
+~
+~
+Z 0 100387
+0 0
+D5
+~
+~
+Z 0 100385
+0 0
+S
+#100387
+A Smooth Black Corridor~
+You are in a wide obsidian corridor.  As you run your hands along the
+walls, you occassionally come across wet, sticky patches.  The dull stone
+walls seem to swallow all light, making the hall extremely dark.
+~
+0 ADN inside
+D1
+~
+~
+Z 0 100386
+0 0
+D3
+~
+~
+Z 0 100388
+0 0
+S
+#100388
+A Bend in the Corridor~
+You are in a wide obsidian corridor.  As you run your hands along the
+walls, you occassionally come across wet, sticky patches.  The dull stone
+walls seem to swallow all light, making the hall extremely dark.
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100389
+0 0
+D1
+~
+~
+Z 0 100387
+0 0
+S
+#100389
+At the Bloody Door~
+Standing on the west wall of the wide corridor is a tall obsidian door. 
+It's edges are smooth and blend nearly seamlessly with the walls of the
+hallway.  On the east wall is an etched gold plate.  The wailing is louder
+here than in other parts of the hall, and seem to be eminating from the
+door.  
+~
+0 ADN inside
+E
+east gold plate~
+This golden plate is written in a forgotten language.  The symbols used
+are foreign to you.  Beside the lettering is carved a crow's head.  Someone
+has written across the plate in blood the word {R'AKASHA'{x.  
+~
+E
+symbol~
+You examine the symbol closer.  It's meaning escapes you.  As you run
+your fingers across the inlaid gold, a female voice enters your head.  
+ 
+{r'Find the key, and I will reward you with my gift of eternity'{x
+~
+E
+door~
+A tall obsidian door stands here blocking your way west.  The door has a
+strange symbol emblazoned on its center.  There is a crystal knob with a
+small keyhole just below it. 
+~
+D0
+~
+~
+Z 0 100380
+0 0
+D2
+~
+~
+Z 0 100388
+0 0
+D3
+A tall obsidian door stands here blocking your way west.  The door has a
+strange symbol emblazoned on its center.  There is a crystal knob with a
+small keyhole just below it.  
+~
+~
+ABCGJZ 100375 100390
+0 0
+S
+#100390
+The Hall of the Damned~
+The obsidian walls in this hall seem to have turned from their natural
+black to a dark crimson hue.  The wailing that is heard in the other parts
+of the crypt seem to pick up some fervor here.  The sound of their cries
+drowns out all else.  Torch holders on the wall are empty, and some have
+even been torn off and cast aside on the floor.  Looking south, you see only
+black, but are nonetheless drawn that direction.  
+~
+0 ADN inside
+D1
+~
+~
+ABCGJZ 0 100389
+0 0
+D2
+~
+~
+Z 0 100391
+0 0
+S
+#100391
+The Hall of the Damned~
+The obsidian walls in this hall seem to have turned from their natural
+black to a dark crimson hue.  The wailing that is heard in the other parts
+of the crypt seem to pick up some fervor here.  The sound of their cries
+drowns out all else.  Torch holders on the wall are empty, and some have
+even been torn off and cast aside on the floor.  Looking south, you see only
+black, but are nonetheless drawn that direction.
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100390
+0 0
+D2
+~
+~
+Z 0 100392
+0 0
+S
+#100392
+The Hall of the Damned~
+The obsidian walls in this hall seem to have turned from their natural
+black to a dark crimson hue.  The wailing that is heard in the other parts
+of the crypt seem to pick up some fervor here.  The sound of their cries
+drowns out all else.  Torch holders on the wall are empty, and some have
+even been torn off and cast aside on the floor.  Looking south, you see only
+black, but are nonetheless drawn that direction.
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100391
+0 0
+D2
+~
+~
+Z 0 100393
+0 0
+S
+#100393
+The Hall of the Damned~
+The obsidian walls in this hall seem to have turned from their natural
+black to a dark crimson hue.  The wailing is joined by another more calming
+sound here.  A soft voice seems to whisper in your head.  A wooden ladder
+leads down into nothingness.  It seems sturdy enough for your weight, and
+you feel a deep urge to investigate that black depth.  
+~
+0 ADN inside
+D0
+~
+~
+Z 0 100392
+0 0
+D5
+~
+~
+Z 0 100394
+0 0
+S
+#100394
+Deep in the Crypt~
+You are about a hundred feet or so below the crimson hallway.  Here, deep
+in the bowels of this cursed resting place, the walls are crumbling and are
+marred with deep scratches.  The wailing has ceased, but an indiscernable
+whisper fills your head.  It urges you to go further.  
+~
+0 ADN inside
+D1
+~
+~
+Z 0 100395
+0 0
+D4
+~
+~
+Z 0 100393
+0 0
+S
+#100395
+Deep in the Crypt~
+You are about a hundred feet or so below the crimson hallway.  Here, deep
+in the bowels of this cursed resting place, the walls are crumbling and are
+marred with deep scratches.  The wailing has ceased, but an indiscernable
+whisper fills your head.  It urges you to go further.
+~
+0 ADN inside
+D1
+~
+~
+Z 0 100396
+0 0
+D3
+~
+~
+Z 0 100394
+0 0
+S
+#100396
+Deep in the Crypt~
+You are about a hundred feet or so below the crimson hallway.  Here, deep
+in the bowels of this cursed resting place, the walls are crumbling and are
+marred with deep scratches.  The wailing has ceased, but an indiscernable
+whisper fills your head.  It urges you to go further.  You make out a faint
+flicker of light to the south, and then it is gone.  
+~
+0 ADN inside
+D2
+~
+~
+Z 0 100397
+0 0
+D3
+~
+~
+Z 0 100395
+0 0
+S
+#100397
+The Dark Sarcophagus~
+This is the inner sanctum of the vampires that inhabit this place.  The
+floor here is covered by a lavish rug that is covered in intricate patterns.
+A set of stairs lead further down, for those who dare to go.  On the wall,
+above the stairs, is an enormous painting of a very beautiful woman.  
+~
+0 ADN inside
+E
+painting~
+This must be the vampire queen, Akasha.  She is stunningly beautiful, but
+something about the smile in the painting is off.  As you turn away from the
+painting, you feel a short throb in your head, followed by a voice: 
+ 
+{r'You're almost here, precious...
+       The gift of Eternity awaits you.'{x
+~
+D0
+~
+~
+Z 0 100396
+0 0
+D5
+~
+~
+Z 0 100398
+0 0
+S
+#100398
+Akasha's Throne~
+This is the lair of Akasha, Queen of the Vampires.  The walls are black
+as a moonless night and emit a dull black glow.  In the center of the room
+is a throne made of bones.  Draped over it is a red silk cloth which bears
+the same symbol as the door that led to the back halls of the crypt.  
+~
+0 ADN inside
+D4
+~
+~
+Z 0 100397
+0 0
+S
+#100399
+Akasha's Transformation Room~
+~
+0 0 inside
+S
+#100400
+~
+~
+0 0 inside
+D0
+~
+~
+ABCGJZ 100303 100354
+0 0
+D2
+~
+~
+Z 0 100401
+0 0
+S
+#100401
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100400
+0 0
+D2
+~
+~
+Z 0 100402
+0 0
+S
+#100402
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100401
+0 0
+D1
+~
+~
+Z 0 100403
+0 0
+D3
+~
+~
+Z 0 100420
+0 0
+S
+#100403
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100404
+0 0
+D3
+~
+~
+Z 0 100402
+0 0
+S
+#100404
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100405
+0 0
+D3
+~
+~
+Z 0 100403
+0 0
+S
+#100405
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100404
+0 0
+D2
+~
+~
+Z 0 100406
+0 0
+S
+#100406
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100405
+0 0
+D3
+~
+~
+Z 0 100407
+0 0
+S
+#100407
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100408
+0 0
+D1
+~
+~
+Z 0 100406
+0 0
+D2
+~
+~
+Z 0 100410
+0 0
+S
+#100408
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100407
+0 0
+D3
+~
+~
+Z 0 100409
+0 0
+S
+#100409
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100408
+0 0
+S
+#100410
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100407
+0 0
+D2
+~
+~
+Z 0 100411
+0 0
+S
+#100411
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100410
+0 0
+D3
+~
+~
+Z 0 100412
+0 0
+S
+#100412
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100411
+0 0
+D2
+~
+~
+Z 0 100421
+0 0
+D3
+~
+~
+Z 0 100413
+0 0
+S
+#100413
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100414
+0 0
+D1
+~
+~
+Z 0 100412
+0 0
+S
+#100414
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100416
+0 0
+D2
+~
+~
+Z 0 100413
+0 0
+D3
+~
+~
+Z 0 100415
+0 0
+S
+#100415
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100414
+0 0
+S
+#100416
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100417
+0 0
+D2
+~
+~
+Z 0 100414
+0 0
+S
+#100417
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100416
+0 0
+D3
+~
+~
+Z 0 100418
+0 0
+S
+#100418
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100419
+0 0
+D1
+~
+~
+Z 0 100417
+0 0
+S
+#100419
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100420
+0 0
+D2
+~
+~
+Z 0 100418
+0 0
+S
+#100420
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100402
+0 0
+D2
+~
+~
+Z 0 100419
+0 0
+S
+#100421
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100412
+0 0
+D2
+~
+~
+Z 0 100422
+0 0
+S
+#100422
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100421
+0 0
+S
+#100425
+~
+~
+0 0 inside
+D0
+~
+~
+ABCGJZ 100305 100348
+0 0
+D5
+~
+~
+Z 0 100426
+0 0
+S
+#100426
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100427
+0 0
+D4
+~
+~
+Z 0 100425
+0 0
+S
+#100427
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100426
+0 0
+D1
+~
+~
+Z 0 100428
+0 0
+D2
+~
+~
+Z 0 100448
+0 0
+D3
+~
+~
+Z 0 100440
+0 0
+S
+#100428
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100429
+0 0
+D2
+~
+~
+Z 0 100439
+0 0
+D3
+~
+~
+Z 0 100427
+0 0
+S
+#100429
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100430
+0 0
+D3
+~
+~
+Z 0 100428
+0 0
+S
+#100430
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100431
+0 0
+D2
+~
+~
+Z 0 100429
+0 0
+S
+#100431
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100432
+0 0
+D3
+~
+~
+Z 0 100430
+0 0
+S
+#100432
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100431
+0 0
+D2
+~
+~
+Z 0 100433
+0 0
+S
+#100433
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100432
+0 0
+D1
+~
+~
+Z 0 100434
+0 0
+S
+#100434
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100435
+0 0
+D3
+~
+~
+Z 0 100433
+0 0
+S
+#100435
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100434
+0 0
+D3
+~
+~
+Z 0 100436
+0 0
+S
+#100436
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100435
+0 0
+D3
+~
+~
+Z 0 100437
+0 0
+S
+#100437
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100436
+0 0
+D3
+~
+~
+Z 0 100438
+0 0
+S
+#100438
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100439
+0 0
+D1
+~
+~
+Z 0 100437
+0 0
+S
+#100439
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100428
+0 0
+D2
+~
+~
+Z 0 100438
+0 0
+S
+#100440
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100427
+0 0
+D3
+~
+~
+Z 0 100441
+0 0
+S
+#100441
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100440
+0 0
+D2
+~
+~
+Z 0 100442
+0 0
+S
+#100442
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100441
+0 0
+D2
+~
+~
+Z 0 100443
+0 0
+S
+#100443
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100442
+0 0
+D1
+~
+~
+Z 0 100444
+0 0
+S
+#100444
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100445
+0 0
+D3
+~
+~
+Z 0 100443
+0 0
+S
+#100445
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100444
+0 0
+D1
+~
+~
+Z 0 100446
+0 0
+S
+#100446
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100447
+0 0
+D3
+~
+~
+Z 0 100445
+0 0
+S
+#100447
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100448
+0 0
+D2
+~
+~
+Z 0 100446
+0 0
+S
+#100448
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100427
+0 0
+D2
+~
+~
+Z 0 100447
+0 0
+D3
+~
+~
+Z 0 100449
+0 0
+S
+#100449
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100448
+0 0
+S
+#100450
+~
+~
+0 AD inside
+D0
+~
+~
+ABCGJZ 100300 100356
+0 0
+D2
+~
+~
+Z 0 100451
+0 0
+S
+#100451
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100450
+0 0
+D1
+~
+~
+Z 0 100452
+0 0
+D3
+~
+~
+Z 0 100459
+0 0
+S
+#100452
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100453
+0 0
+D3
+~
+~
+Z 0 100451
+0 0
+S
+#100453
+~
+~
+0 AD inside
+D3
+~
+~
+Z 0 100452
+0 0
+D5
+~
+~
+Z 0 100454
+0 0
+S
+#100454
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100455
+0 0
+D4
+~
+~
+Z 0 100453
+0 0
+S
+#100455
+~
+~
+0 AD inside
+D2
+~
+~
+Z 0 100456
+0 0
+D3
+~
+~
+Z 0 100454
+0 0
+S
+#100456
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100455
+0 0
+D2
+~
+~
+Z 0 100457
+0 0
+S
+#100457
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100456
+0 0
+D3
+~
+~
+Z 0 100458
+0 0
+S
+#100458
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100457
+0 0
+D5
+~
+~
+Z 0 100471
+0 0
+S
+#100459
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100451
+0 0
+D5
+~
+~
+Z 0 100460
+0 0
+S
+#100460
+~
+~
+0 AD inside
+D3
+~
+~
+Z 0 100461
+0 0
+D4
+~
+~
+Z 0 100459
+0 0
+S
+#100461
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100462
+0 0
+D1
+~
+~
+Z 0 100460
+0 0
+S
+#100462
+~
+~
+0 AD inside
+D2
+~
+~
+Z 0 100461
+0 0
+D3
+~
+~
+Z 0 100463
+0 0
+S
+#100463
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100462
+0 0
+D2
+~
+~
+Z 0 100464
+0 0
+S
+#100464
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100463
+0 0
+D2
+~
+~
+Z 0 100465
+0 0
+S
+#100465
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100464
+0 0
+D1
+~
+~
+Z 0 100466
+0 0
+S
+#100466
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100467
+0 0
+D3
+~
+~
+Z 0 100465
+0 0
+S
+#100467
+~
+~
+0 AD inside
+D2
+~
+~
+Z 0 100468
+0 0
+D3
+~
+~
+Z 0 100466
+0 0
+S
+#100468
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100467
+0 0
+D5
+~
+~
+Z 0 100469
+0 0
+S
+#100469
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100470
+0 0
+D4
+~
+~
+Z 0 100468
+0 0
+S
+#100470
+~
+~
+0 AD inside
+D1
+~
+~
+Z 0 100471
+0 0
+D2
+~
+~
+Z 0 100472
+0 0
+D3
+~
+~
+Z 0 100469
+0 0
+S
+#100471
+~
+~
+0 AD inside
+D3
+~
+~
+Z 0 100470
+0 0
+D4
+~
+~
+Z 0 100458
+0 0
+S
+#100472
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100470
+0 0
+D2
+~
+~
+Z 0 100473
+0 0
+S
+#100473
+~
+~
+0 AD inside
+D0
+~
+~
+Z 0 100472
+0 0
+S
+#100475
+~
+~
+0 0 inside
+D0
+~
+~
+ABCGJZ 100304 100350
+0 0
+D5
+~
+~
+Z 0 100476
+0 0
+S
+#100476
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100477
+0 0
+D4
+~
+~
+Z 0 100475
+0 0
+S
+#100477
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100478
+0 0
+S
+#100478
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100479
+0 0
+S
+#100479
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100480
+0 0
+S
+#100480
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100481
+0 0
+S
+#100481
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100482
+0 0
+S
+#100482
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100488
+0 0
+D3
+~
+~
+Z 0 100483
+0 0
+S
+#100483
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100484
+0 0
+S
+#100484
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100485
+0 0
+S
+#100485
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100486
+0 0
+S
+#100486
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100487
+0 0
+S
+#100487
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100476
+0 0
+S
+#100488
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100482
+0 0
+D1
+~
+~
+Z 0 100492
+0 0
+D3
+~
+~
+Z 0 100489
+0 0
+S
+#100489
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100488
+0 0
+D2
+~
+~
+Z 0 100490
+0 0
+S
+#100490
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100489
+0 0
+D2
+~
+~
+Z 0 100491
+0 0
+S
+#100491
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100490
+0 0
+S
+#100492
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100493
+0 0
+D3
+~
+~
+Z 0 100488
+0 0
+S
+#100493
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100496
+0 0
+D2
+~
+~
+Z 0 100494
+0 0
+D3
+~
+~
+Z 0 100492
+0 0
+S
+#100494
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100493
+0 0
+D2
+~
+~
+Z 0 100495
+0 0
+S
+#100495
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100494
+0 0
+S
+#100496
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100497
+0 0
+D3
+~
+~
+Z 0 100493
+0 0
+S
+#100497
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100498
+0 0
+D2
+~
+~
+Z 0 100496
+0 0
+S
+#100498
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100499
+0 0
+D2
+~
+~
+Z 0 100497
+0 0
+S
+#100499
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100498
+0 0
+S
+#0
+
+#SPECIALS
+M 100307 spec_cast_mage	* a dark necromancer
+M 100308 spec_breath_fire	* spirit of a black dragon
+M 100395 spec_nasty	* the Eternal Form of Akasha
+M 100396 spec_cast_mage	* a Blood Demon
+M 100397 spec_cast_undead	* Casitian
+M 100398 spec_cast_mage	* Akasha
+M 100399 spec_cast_cleric	* a vampire
+S
+
+#RESETS
+D 0 100293 2 1	* The Gates to the Cemetary of Kharamul: door to the south: closed
+D 0 100300 0 1	* Beginning of Path: door to the north: closed
+D 0 100305 5 1	* The Black Rose Bushes: door to the down: closed
+D 0 100348 2 2	* Outside the Granite Crypt: door to the south: closed and locked
+D 0 100350 2 2	* Outside the Emerald Crypt: door to the south: closed and locked
+D 0 100352 2 1	* Steps of the Mansion: door to the south: closed
+D 0 100354 2 2	* Outside the Vine-Covered Crypt: door to the south: closed and locked
+D 0 100356 2 2	* Outside the Mithril Crypt: door to the south: closed and locked
+D 0 100358 2 2	* Outside the Obsidian Crypt: door to the south: closed and locked
+D 0 100359 4 1	* Under the Rose Bush: door to the up: closed
+D 0 100365 0 1	* The Foyer: door to the north: closed
+D 0 100366 0 1	* Collapsed Passage: door to the north: closed
+D 0 100371 2 1	* Hallway in the Mansion: door to the south: closed
+D 0 100375 0 2	* Entryway to the Crypt of Obsidian: door to the north: closed and locked
+D 0 100389 3 2	* At the Bloody Door: door to the west: closed and locked
+D 0 100390 1 2	* The Hall of the Damned: door to the east: closed and locked
+D 0 100400 0 2	* : door to the north: closed and locked
+D 0 100425 0 2	* : door to the north: closed and locked
+D 0 100450 0 2	* : door to the north: closed and locked
+D 0 100475 0 2	* : door to the north: closed and locked
+M 0 100303 20 100294 1	* a gargoyle (The Black Rose Bushes)
+M 0 100296 16 100294 1	* a hungry vampire (The Black Rose Bushes)
+M 0 100295 16 100294 1	* a weeping ghost (The Black Rose Bushes)
+O 0 100294 0 100294	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100295 16 100295 1	* a weeping ghost (The Black Rose Bushes)
+O 0 100294 0 100295	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100303 20 100296 1	* a gargoyle (The Black Rose Bushes)
+O 0 100294 0 100296	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100296 16 100297 1	* a hungry vampire (The Black Rose Bushes)
+O 0 100294 0 100297	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100295 16 100298 1	* a weeping ghost (The Black Rose Bushes)
+O 0 100294 0 100298	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100296 16 100299 1	* a hungry vampire (The Black Rose Bushes)
+O 0 100294 0 100299	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100296 16 100301 1	* a hungry vampire (The Black Rose Bushes)
+O 0 100294 0 100301	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100295 16 100302 1	* a weeping ghost (The Black Rose Bushes)
+O 0 100294 0 100302	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+O 0 100294 0 100303	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+O 0 100294 0 100304	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+O 0 100294 0 100305	* a rose bush (The Black Rose Bushes)
+M 0 100295 16 100306 1	* a weeping ghost (The Black Rose Bushes)
+O 0 100294 0 100306	* a rose bush (The Black Rose Bushes)
+P 0 100293 12 100294 1	* a rose bush: a {DBlack {xRose
+M 0 100295 16 100307 1	* a weeping ghost (Cemetary Path)
+M 0 100303 20 100309 1	* a gargoyle (Intersection in Muddy Path)
+M 0 100296 16 100309 1	* a hungry vampire (Intersection in Muddy Path)
+O 0 100299 0 100310	* Halaas's tombstone (A Grave Site)
+P 0 100300 1 100299 1	* Halaas's tombstone: a mithril key
+M 0 100298 1 100310 1	* the spirit of Halaas (A Grave Site)
+E 0 100307 0 16		*	Axe of Halaas: wielded
+M 0 100304 15 100311 1	* a doom hound (Intersection in Muddy Path)
+M 0 100303 20 100312 1	* a gargoyle (A Grave Site)
+M 0 100304 15 100313 1	* a doom hound (Wide Stone Path)
+M 0 100303 20 100314 1	* a gargoyle (Path Between the Tombstones)
+M 0 100296 16 100314 1	* a hungry vampire (Path Between the Tombstones)
+M 0 100296 16 100316 1	* a hungry vampire (A Grave Site)
+M 0 100305 10 100317 1	* a smoke elemental (The Muddy Path)
+M 0 100303 20 100317 1	* a gargoyle (The Muddy Path)
+M 0 100296 16 100317 1	* a hungry vampire (The Muddy Path)
+O 0 100295 0 100318	* a workbench (Caretaker's Shack)
+P 0 100296 1 100295 1	* a workbench: a wooden stake
+M 0 100304 15 100319 1	* a doom hound (Cemetary Path)
+M 0 100304 15 100322 1	* a doom hound (Intersection in the Muddy Path)
+M 0 100296 16 100322 1	* a hungry vampire (Intersection in the Muddy Path)
+M 0 100305 10 100323 1	* a smoke elemental (A Grave Site)
+M 0 100304 15 100324 1	* a doom hound (Intersection in Muddy Path)
+M 0 100296 16 100324 1	* a hungry vampire (Intersection in Muddy Path)
+M 0 100295 16 100324 1	* a weeping ghost (Intersection in Muddy Path)
+M 0 100305 10 100325 1	* a smoke elemental (A Grave Site)
+M 0 100303 20 100325 1	* a gargoyle (A Grave Site)
+M 0 100305 10 100327 1	* a smoke elemental (A Grave Site)
+M 0 100303 20 100327 1	* a gargoyle (A Grave Site)
+M 0 100296 16 100327 1	* a hungry vampire (A Grave Site)
+M 0 100295 16 100327 1	* a weeping ghost (A Grave Site)
+M 0 100304 15 100328 1	* a doom hound (The Muddy Path)
+M 0 100303 20 100329 1	* a gargoyle (A Grave Site)
+M 0 100305 10 100330 1	* a smoke elemental (Intersection in Muddy Path)
+M 0 100304 15 100330 1	* a doom hound (Intersection in Muddy Path)
+M 0 100295 16 100331 1	* a weeping ghost (A Grave Site)
+M 0 100296 16 100332 1	* a hungry vampire (Along the Eastern Wall)
+O 0 100298 0 100332	* the crack in the wall (Along the Eastern Wall)
+M 0 100295 16 100333 1	* a weeping ghost (Approaching the Great Crypts)
+M 0 100301 1 100335 1	* an elf spirit (Intersection in Muddy Path)
+E 0 100311 0 3		*	{GThe {WShalafi {GCharm{x: around the neck (1)
+E 0 100304 0 17		*	an emerald key: held in the hands
+M 0 100295 16 100336 1	* a weeping ghost (A Grave Site)
+M 0 100303 20 100337 1	* a gargoyle (Intersection in Muddy Path)
+M 0 100296 16 100337 1	* a hungry vampire (Intersection in Muddy Path)
+M 0 100304 15 100339 1	* a doom hound (Approaching the Great Crypts)
+M 0 100303 20 100339 1	* a gargoyle (Approaching the Great Crypts)
+M 0 100296 16 100339 1	* a hungry vampire (Approaching the Great Crypts)
+M 0 100300 1 100340 1	* a tree spirit (A Large White Tree)
+E 0 100303 0 17		*	a wooden key: held in the hands
+E 0 100309 0 6		*	The {WNa{Gtu{gre C{Gro{Wwn{x: over the head
+E 0 100310 0 9		*	{WNa{Gtu{gre Gau{Gntl{Wets{x: on the hands
+M 0 100297 1 100341 1	* ghost of the caretaker (Intersection in Muddy Path)
+G 0 100297 0		*	the Caretaker's key
+E 0 100306 0 17		*	a gardener's rake: held in the hands
+M 0 100296 16 100341 1	* a hungry vampire (Intersection in Muddy Path)
+M 0 100304 15 100342 1	* a doom hound (A Grave Site)
+M 0 100296 16 100343 1	* a hungry vampire (Intersection in Muddy Path)
+O 0 100301 0 100344	* the casket (A Defiled Grave)
+P 0 100302 1 100301 1	* the casket: a bloody bone key
+M 0 100304 15 100345 1	* a doom hound (Approaching the Great Crypts)
+M 0 100302 1 100348 1	* The Spirit of the Berserker (Outside the Granite Crypt)
+E 0 100312 0 16		*	the {rBerserker's {DSword{x: wielded
+E 0 100305 0 17		*	a large key: held in the hands
+M 0 100295 16 100353 1	* a weeping ghost (The Garden)
+M 0 100299 1 100361 1	* The Voice (The Lair of the Voice)
+E 0 100308 0 12		*	The {cR{Ceq{Wu{Cie{cm{x of the Voice: about the shoulders
+M 0 100293 1 100362 1	* grave DT (In a Grave)
+M 0 100294 1 100364 1	* Carmellian (The Vampire Prince's Study)
+M 0 100306 1 100365 1	* the butler (The Foyer)
+M 0 100309 1 100366 1	* a bunny (Collapsed Passage)
+G 0 100319 0		*	a bloody parchment
+O 0 100317 0 100367	* the painting of Bethany (The Grand Hall)
+P 0 100318 1 100317 1	* the painting of Bethany: Bethany's {WTalisman{x
+O 0 100313 0 100369	* a shelf (An Alcove)
+P 0 100314 1 100313 1	* a shelf: a {DBlackened {rBlood {xCandle
+M 0 100307 1 100369 1	* a dark necromancer (An Alcove)
+E 0 100315 0 16		*	a bloody staff: wielded
+E 0 100316 0 5		*	ancient wrappings: on the body
+M 0 100308 1 100370 1	* spirit of a black dragon (Bottom of the Stairs)
+M 0 100376 6 100376 1	* a guardian vampire (A Dark Intersection)
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100376 6 100378 1	* a guardian vampire (A Bend in the Corridor)
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100375 1 100379 1	* Caro (A Small Alcove)
+G 0 100377 0		*	{CR{Win{Cg of P{Wurit{Cy{x
+M 0 100376 6 100380 1	* a guardian vampire (A Bend in the Corridor)
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100376 6 100382 1	* a guardian vampire (A Twisting Passage)
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100399 1 100384 1	* a vampire (A Twisting Passage)
+M 0 100376 6 100386 1	* a guardian vampire (A Smooth Black Corridor)
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100376 6 100388 1	* a guardian vampire (A Bend in the Corridor)
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100377 1 100389 1	* the kindred guard captain (At the Bloody Door)
+E 0 100378 0 5		*	Breastplate of the {rKindred{x: on the body
+E 0 100379 0 11		*	Shield of the {rKindred{x: as a shield
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100381 0 16		*	{rKindred {xSpear: wielded
+M 0 100378 1 100391 1	* the Spirit of Unlife (The Hall of the Damned)
+E 0 100382 0 12		*	{RC{rloa{Rk {rof the {RD{ramne{Rd{x: about the shoulders
+M 0 100397 1 100397 1	* Casitian (The Dark Sarcophagus)
+E 0 100385 0 16		*	{rThe {RWar{rAxe {RMallice{x: wielded
+E 0 100384 0 7		*	{rKindred {xLegplates: on the legs
+E 0 100380 0 6		*	Helm of the {rKindred{x: over the head
+E 0 100378 0 5		*	Breastplate of the {rKindred{x: on the body
+M 0 100398 1 100398 1	* Akasha (Akasha's Throne)
+G 0 100376 0		*	{WE{rternit{Wy{x
+E 0 100383 0 1		*	{DDark{RBlood {xRing: on the left finger
+M 0 100395 1 100399 1	* the Eternal Form of Akasha (Akasha's Transformation Room)
+E 0 100386 0 6		*	{RA{rkasha's Crow{Rn{x: over the head
+E 0 100383 0 1		*	{DDark{RBlood {xRing: on the left finger
+S
+
+#MOBPROGS
+#100384
+mob echo The former lord mutters, '{GOh, Bethany{x,' and begins a low gutteral moan.
+~
+#100385
+mob junk talisman
+mob oload 100387
+mob echo The former lord takes the talisman and holds it close... His tears run over it, and it glows and changes shapes.
+give necklace $n
+say Thank you for giving me this piece of her.. I give you this gift as reward.
+~
+#100396
+wield eternity
+mob goto 100398
+mob echo Akasha's body collapses and begins to transform.
+mob echo She is reborn as the true RULER OF THE NIGHT!!!
+mob kill $r
+~
+#100397
+mob goto 100399
+remove eternity
+give eternity akasha2
+yell {WNow you will pay for your insolence!{x
+~
+#100398
+say Welcome $n.  You have come seeking your reward, I suppose.
+say Well... A promise is a promise.
+grin
+wield eternity
+tell $n Turn on your companions and serve me.
+mob mload 100396
+mob echo A Blood Demon comes to Akasha's side!
+mob delay 3
+~
+#100399
+mob force demon murder $r
+mob kill $r
+~
+#0
+
+#$

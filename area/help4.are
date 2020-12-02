@@ -1,0 +1,908 @@
+#AREADATA
+Name Icey Helps~
+Builders zsuzsu shaelindra~
+VNUMs 0 0
+Credits Diku~
+Security 9
+LevelRange 0 0
+End
+
+#HELPS
+-1 0 WIZLIST~
+{RDungeon Masters{x (Heads of Administration)
+=========================================
+ 
+|{G DM{x| Syl | 100 | {WZsuzsu,{D the{W Goddess{D of{G L{gi{Gttl{ge {CO{cnes{x
+ 
+{RCreators{x (Assistant Heads of Administration)
+============================================
+ 
+|{GCRE{x| Thi | 99 | {WNalaeya, {CDe{cdicat{Ced{c of {CS{ciral{Ca{x
+ 
+{RSupremacies{x (Supervising Assistants of Administration)
+======================================================
+ 
+{RDeities {x(Builders, Coders, Enforcers, Reimbursements, Questors)
+===============================================================
+
+{RGods{x (Builders, Enforcers, Questors, Coders, Some Reimbursements)
+================================================================
+ 
+|{GGOD{x| Sha | 96 | {WSadin{x, The {BGod{x Of The {mForgotten {DSouls{x
+ 
+{RImmortals{x (Builders, Enforcers, Questors, Some Coding)
+======================================================
+ 
+{RDemi-Gods {x(Builders, Builder Instructors)
+=========================================
+
+|{GDEM{x| {WSen{x | 94 | {WShaelindra{x, {MK{Ra{Bo{Ms{Ru{x no {RGe{rn{x-{Dda{Wtenshi{x
+{x|{GDEM{x| --- | 94 | {WKira{x, {Dthe {MAr{mt{Wi{mst{Mic {cK{Ci{ctt{Cy{x
+ 
+{RAngels {x(Builders)
+=================
+|{GANG{x| --- | 93 | {WAamon{x, {Dthe {WM{wot{Dh{wlo{Wr{Dd{x
+ 
+{RAvatars {x(Newbie Relations, RP Administration, Sometimes Builders)
+=================================================================
+~
+-1 0 ZiM~
+. 
+      ZiM started in 2002 using a codebase derived from Icey Depths 0.9.  
+      It eventually evolved to verion 2.0 around 2005 with major changes
+      to class balance, code stability, debugging, immortal commands and
+      communication commands.  Many new skills and spells.
+
+[{D-{x] Coding:
+       Chiefly by Zsuzsu
+       contributions by Thornan, Thorel, Alamor, Daphais, 
+                        Fronz, Alcerion, & Loren
+
+[{D-{x] New Areas:
+       Thornan, Nalaeya, Sadin, Kira, Alamor, Daphais, Shaelindra, Thorel
+
+[{D-{x] Play Testing thanks to:
+       Lucian, Uther, Sunian, Elial, Serion, Aram, Azureth, Raek
+       Rathmine, Tevesh and others.
+~
+-1 0 ANATOLIA~
+. 
+      ANATOLIA started in early September 1996, using Rom2.4 code. In
+June of 1997, ANATOLIA II was started, eventually replacing the original
+ANATOLIA.
+
+The following people contributed to the ANATOLIA flavor of the ROM base
+code:
+
+Addition of New Areas --
+        Ibrahim Canpunar, Serdar Bulut and Murat Bicer
+
+Revision of New Areas --
+        Ibrahim Canpunar
+
+Revision and Addition of New Helps --
+        Ibrahim Canpunar and Serdar Bulut
+
+Additional Maps --
+        Ibrahim Canpunar
+
+Ideas and playtesting --
+    So many dedicated mudders around the world. Especially Amac Ural,
+Mustafa Ongel, Ibrahim Uzel, Rasit Gumus, David Heide.
+
+Complete C Code --
+        chiefly by Serdar Bulut,
+        with major contributions by Murat Bicer,
+        and also Ibrahim Canpunar and Devrim Baris Acar. 
+
+Used snippets (Available on internet) --
+        Quest Code (c) 1996 Ryan Addams (moongate@@moongate.ams.com)
+        Some snippets by Erwin S. Andreasen. erwin@@pip.dknet.dk
+~
+-1 0 ROM~
+ROM started in early February 1993, using Merc 1.0 code. In July of 1993,  
+ROM II was started, eventually replacing the original ROM.  ROM was up for
+a little over a year, after which the code (version 2.3) was released,
+and various other ROM muds were started, including Rivers of Mud under
+a new management (Zump's ROM), at rom.org 9000.
+
+Alander's current project is Tesseract, the latest version of the ROM code.
+It can be found at hypercube.org 9000.
+
+The following people contributed to the ROM flavor of the merc base code:
+
+Socials --
+    Kelsey and Liralen
+
+New, Improved Valhalla --
+    Liralen
+
+Puff's new special proc and improved poofin/poofout code --
+    Seth
+
+Maps and map shop --
+    Ezra, Regnan (Olympus)
+
+Nirvana zone --
+    Forstall (mobiles rewritten by Alander)
+
+Mob Factory --
+    Pinkfloyd (originally written for ROM, mobiles rewritten by Alander)
+
+Geographically correct Midgaard (tm) --
+    Alander
+
+Ideas and playtesting --
+    Thousands of dedicated mudders around the world
+
+Beta testing --
+    Ken Blosser, Doug Araya, and Sherene Neil all helped with bug reports
+    and suggestions, saving a lot of headaches
+
+New Thalos area was donated by Onivel of Jedi, who was also the originator
+of the ASCII flags used in the zone files
+
+ROM 2.4 was developed during my time with Moosehead mud, and the release
+shares many of the features I wrote while I was there.  Additional code
+was written by Seth Scott (the new poofin/poofout), and many contributions
+and ideas from the Merc list were used. 
+
+The new features of 2.4 were largely produced in bull sessions with
+Gabrielle (my wife) and Brian Moore, without whom this release wouldn't
+have happened.  In particular, the new privacy code, furniture, and
+wiznet are largely the results of Gabrielle's ideas.
+
+Changes to the standard diku mob and object format, as well as the changes
+to Merc 2.1 source code, were done by Alander over many a late night of
+hair-pulling. Hope you enjoy it.
+
+(my apologies if anyone was forgotten in this list)
+~
+-1 0 IMMORTAL IMMORT GOD WIZARD WIZ~
+'Immortal' (often, simply, 'imm') refers to players who have reached
+the highest attainable levels in the game.  Here, anyone of level 92
+or higher is an 'immortal.'  Immortals are capable of exceeding the
+usual game rules, in more drastic and pervasive ways as levels increase;
+examples range from teleportation and invisibility to mortal sight to
+creation of objects, removal of a player's privileges (channels,
+ability to move, or even ability to log in), and ability to promote
+players to immortality.
+
+Since immortals can wreak havoc with game balance, they are (ideally)
+a carefully-chosen and policed group.  An absolute rule of immortal
+behavior is that no immortal can aid or assist any player without
+explicit permission from the higher ranks; in other words, please
+don't ask an immortal to help you kill a mob, gather EQ, etc, or
+you'll likely be either politely or rudely refused, or referred to
+this file.
+
+The duties of immortals, and even the very reasons for their existence,
+are topics of continual and heated debate in various MUD forums, and are
+fraught with misconceptions, poor examples, and outrageous hypocrisies. :)
+~
+-1 0 SOCIALS~
+{#Socials {xare used as a way of communicating, acting, and
+intermingling with other players.
+{x
+To use a social, the syntax is: <social> <target>
+{x
+For instance, if you wanted to use the social {#Smile{x, you
+can type:
+{#Smile
+{#Smile Self
+{#Smile <target>
+{x
+Type {^SOCIALS {xto get a complete and up-to-date list of all
+the socials in the game. You may also want to refer to this
+helpfile: {^EMOTE{x
+ 
+{#*{xAny {^SOCIAL {xideas can be noted to {^Kira{x, {xand if worthy will be
+{x implemented into the game.
+~
+-1 0 MERC~
+This mud is based on Merc 2.2, created by Furey, Hatchet, and Kahn.  
+Merc 2.1 is available as Merc_22.tar.gz from ftp.game.org 
+
+Thanks to ...
+  ... Diku Mud for starting it all.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+
+~
+-1 0 'TAME'~
+Syntax: tame <victim>
+
+The soothing voice and touch of a master ranger is able to still the
+savage heart of most any foe.  Talking in soft tones and approaching the
+target slowly, with a minor enchantment, a ranger is able to take the fight
+out of the aggressor and bring a skirmish to a halt.  Note that this skill
+has no effect on those who are not naturally aggressive.  
+~
+-1 0 GREETING~
+*
+                                                     ,.=,,==. ,,_
+                                    _ ,====, _    |I|`` ||  `|I `|
+                                   |`I|    || `==,|``   ^^   ``  |
+   _-+ Welcome to +-_              | ``    ^^    ||_,===TT`==,,_ |
+     LEGENDS & LORE                |,==Y``Y==,,__| \L=_-`'   +J/`
+   ~~-  Since 2002  -~~               \|=_  ' -=#J/..-|=_-     =|
+                                     |=_   -;-='`. .|=_-     =|----T--,
+                                     |=/\  -|=_-. . |=_-/^\  =||-|-|::|____
+    /PlayerKilling\                  |=||  -|=_-. . |=_-| |  =|-|-||::\____
+   <       &       >                 |=LJ  -|=_-. . |=_-|_|  =||-|-|:::::::
+    \ Roleplaying /                  |=_   -|=_-_.  |=_-     =|-|-||::::::
+                                     |=_   -|=//^\. |=_-     =||-|-|:::::::
+   ^ original codebase           ,   |/&_,_-|=||  | |=_-     =|-|-||:::::::
+   | ZiM 1.1 (c) 2005         ,--``8%,/    ',%||  | |=_-     =||-|-|%::::::
+   | Zsuzsu & Thornan     ,---`_,888`  ,.'''''`-.,|,|/!,--,.&\|&\-,|?:::::
+                         |;:;K`__,...;=\_____,=``           %%%&     %#,---
+   Based on:             |;::::::::::::|       `'.________+-------\   ``
+     Icey 0.9           /8M%;:::;;:::::|                  |        `-------
+     SoG               |`   88`V  /&8%\|_______,__,,      |
+     Anatolia          /,  %8,  ,/&888% &,       ,  `-----`,--..../|--,,,,_
+     ROM  2.4      / \/88%  88%  8888%88% &,       \,     `\      /     &,,
+     MERC 2.1     |,M8,  , `8%   ,,8% `8, `         , \,        &\     ,?#
+     DikuMUD     /8888%  888`    ```    `            `  `               ```
+ 
+Original DikuMUD by Hans Staerfeldt, Katja Nyboe, Tom Madsen,
+                     Michael Seifert, and Sebastian Hammer
+ 
+Admin email: ageless_barbarian@@msn.com | little_zsuzsu@@hotmail.com
+                --<< Hosted by MudMagic >>--
+ 
+~
+-1 0 MOTD~
+{WWELCOME TO{x
+
+ ______ _  __  __        {g___  {B  ____   ______  _______{x
+|___  /(_)|  \/  |      {g|__ \{B  |  _ \ |  ____||__   __| /\{x
+   / /  _ | \  / | __   __ {g) |{B | |_) || |__      | |   /  \{x
+  / /  | || |\/| | \ \ / /{g/ / {B |  _ < |  __|     | |  / /\ \{x
+ / /__ | || |  | |  \ V /{g/ /_ {B | |_) || |____    | | / ____ \{x
+/_____||_||_|  |_|   \_/{g|____|{B |____/ |______|   |_|/_/    \_\{x
+{x
+
+Please read the {Bforums{x for change announcements.
+And {Wexpect {rbugs{x.  I'll be working to fix them.
+~
+92 0 IMOTD~
+{D-----{w-----{W-----{R Immortal MOTD {W-----{w-----{D-----{x
+ 
+{W[{r*{W]{R Remember to {YVOTE{R so we can increase our playerbase.
+{W[{r*{W]{R Fill out your {WStatus{R report for the month on the forum.
+{x
+~
+0 0 SUICIDE DELETE~
+Use the delete command to erase unwanted characters, so the name will be
+available for use.  This command must be typed twice to delete a character,
+and you cannot be forced to delete.  Typing delete with an argument will
+return your character to 'safe' status if you change your mind after the
+first delete.
+~
+0 0 HEALER~
+The healer decided to grab a quick buck, and now charges for his heals.  Some
+services are still free to players of level 10 or below, however.  To see
+a full listing of the healer's services, type 'heal' at his residence. To
+receive healing, bring plenty of money, and type 'heal <spell>'.
+~
+-1 0 GAIN~
+The gain command is used to learn new skills, once the proper trainer has 
+been found. The following options can be used with gain:
+
+gain revert : turns one training session into 10 practice session 
+gain convert: turns 10 practices into one training session
+
+~
+92 0 CLONE~
+Syntax:
+  clone obj <object>
+  clone mob <mobile>
+  clone <name>
+
+The clone command duplicates an object or mobile.  The level of item or mobile
+that may be cloned depends on your level.  The target object or mob must be in
+the same room as you, or in your posession.  Strung and set information is
+preserved by clone, as well as any spell effects and container contents or
+mobile inventory, except for items which are too high for you to clone.  
+Strung extended descriptions on objects are not kept, however.
+~
+0 0 SKILLS SPELLS~
+The skills and spells commands are used to display your character's list
+of available skills (or spells, as the case may be).  They are listed in
+order of level, with mana cost (for spells) or percentage (for skills)
+listed where applicable.
+~
+0 0 OUTFIT~
+The outfit command, usable by levels 5 and below, equips your character with
+a new set of sub issue gear (banner, weapon, helmet, shield, and vest), 
+courtesy of the Mayor's warehouses.  Only empty equipment slots are affected.
+~
+0 0 AUTO AUTOLIST AUTOLOOT AUTOGOLD AUTOLOOK AUTOSAC AUTOEXIT AUTOASSIST AUTOSPLIT~
+ROM uses varies automatic actions, to ease the boredom of always splitting
+gold and sacrificing corpses.  The commands are as follows:
+
+autolist  : list all automatic actions
+autoloot  : take all equipment from dead mobiles
+autogold  : take all gold from dead mobiles
+autolook  : automagically look in corpse after combat
+autosac   : sacrifice dead monsters (if autoloot is on, only empty corpses)
+autoexit  : display room exits upon entering a room
+autosplit : split up spoils from combat among your group members
+autoassit : makes you help group members in combat
+
+Typing a command sets the action , typing it again removes it. 
+ 
+~
+92 0 COUNT~
+The count command displays the number of people (that you can see) logged
+into the mud.  It also displays the highest number observed that day, if
+it is higher.
+~
+-1 0 GATE~
+{CSyntax:{x {Wcast 'gate' (target){x
+
+The gate spell is a powerful transportation magic that opens up a portal 
+between your character and another person or creature somewhere else in the
+world.  This portal will transport you and any pet you might have, but not
+other members of your group.  Monsters recieve a save against gate, and
+monster or players more than 3 levels higher than you can not be gated to at 
+all.  God rooms, private rooms, and no recall rooms cannot be gated to, and
+no recall rooms cannot be gated out of.  Finally, any god or hero is also 
+immune to gate, as well as in player who has no summon set. 
+~
+-1 0 'ASTRAL WALK'~
+The astral walk spell is a weak translocational spell that opens up a
+portal between you and another person or creature somewhere else in the
+world, and immediately closes it as soon as you are transported.  Monsters
+recieve a save against astral walk, and monsters or players more than 3
+levels higher than you cannot be astral walked to at all.  God rooms,
+private rooms, and no-recall rooms cannot be astral walked to, and no-recall
+rooms cannot be astral walked from.  Finally, gods and heroes are immune to
+walk, as well as any player who has no-summon set.  
+~
+-1 0 'MIST WALK'~
+The mist walk spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world.  This portal will transport only you, but not
+your pet or other members of your group.  Monsters recieve a save
+against mist walk, and monster or players more than 5 levels lower than
+you can not be mist walked to at all.  God rooms, private rooms, and no
+recall rooms cannot be mist walked to, and no recall rooms cannot be mist
+walked out of.  Finally, any god or hero is also immune to mist walk, as
+well as in player who has no summon set. 
+~
+92 0 'SOLAR FLIGHT'~
+The solar flight spell is a powerful transportation magic that opens up a 
+portal between your character and another person or creature somewhere
+else in the world.  This portal will transport only you, but not
+your pet or other members of your group.  Monsters recieve a save
+against solar flight, and monster or players more than 1 levels higher
+than you can not be solar flighted to at all.  God rooms, private rooms,
+and no recall rooms cannot be solar flighted to, and no recall rooms
+cannot be solar flighted out of.  Finally, any god or hero is also immune
+to solar flight, as well as in player who has no summon set. And ofcourse
+you need the sun light to cast this spell effectively.
+~
+-1 0 AFFECT AFFECTS RAFFECT RAFFECTS~
+The "affects" command is used to show all the spells affecting your
+character at low levels.  Only the spell name will be displayed, but after
+reaching level 20 the effects and duration of the spells will also be shown.
+Spell effects can be toggled on/off in score with "toggle affects" command. 
+
+ 
+                      +=+=+=+=+=+=+=+=+=+
+ 
+The "raffects" command is used to show all the spells affecting the room
+you are currently in.  Until level 20 you will only see the names, after
+that you will also see the effects and duration.
+~
+-1 0 LANGUAGE~
+Language command is used to switch native language.
+Use 'language help' to list supported languages.
+~
+-1 0 TABLE~
+{W_________________________________________________________________________
+||                                                                     ||
+||                                  {RCLASS                              {W||
+||          {YWit  Cle  Thi  War  WcK  Ran  Nin  A-P  Pal  Sam  Vam  Nec {W||
+||   {YSex:    {CF    A    A    A    M    A    A    A    A    A    A    A  {W||
+||   {YHuman {C  X    X    X    X    X    X    X    X    X    X    X    X  {W||
+||   {YH-Orc {C       X    X    X         X         X         X            {W||
+||   {Y Elf  {C  X    X    X    X    X    X              X    X            {W||
+||   {YH-Elf {C  X    X    X    X    X    X    X    X    X    X         X  {W||
+||   {YD-Elf  {C X    X    X    X    X    X    X    X         X         X  {W||
+{W||   {YW-Elf   {C     X    X    X         X    X                           {W||
+|| {RR {YRocks  {C X    X    X    X    X         X                         {W  ||
+{W||   {YDwarf   {C     X         X                        X                 {W||
+||   {YSvirf   {CX    X    X    X    X                                     {W||
+|| {RA {YDuerg {C       X    X    X                   X                   X{W  ||
+{W||   {YArial   {CX    X    X    X    X         X    X    X    X         X  {W||
+||   {YGnome   {CX    X    X    X    X    X                                {W|| 
+|| {RC {YStGia {C       X         X                        X                {W ||
+||   {YClGia   {C     X         X         X                                {W||
+||   {YFiGia   {C     X         X                   X                      {W||
+|| {RE {YFrGia {C       X         X                   X                     {W ||
+{W||   {YHalfl   {C     X    X    X         X    X                           {W||
+||   {YGithy   {CX              X    X    X    X              X         X  {W||
+||   {YSatyr   {C          X    X         X                                {W||
+||   {YFelar   {C          X    X    X    X    X    X    X    X            {W||
+||   {YTroll   {C               X                   X                      {W||
+||   {Y Orc    {C               X                   X                      {W||
+|\_____________________________________________________________________/|
+ \_____________________________________________________________________/{x
+                  Table by Jearom, modified by Taerion
+~
+1 0 RANGED RANGEDCOMBAT~
+D&D now offers ranged combat for both spells and certain projectile weapons.
+
+BOWS - by wielding a bow and holding an arrow in your free hand, you will be able to shoot any target in a room next to you. 
+Syntax: shoot <direction> <target>    i.e. shoot east fido
+ 
+SPELLS - by selecting a victim in an adjacent room, you can cast certain single-target spells (such as fireball or acid blast) on your target.
+Syntax : cast <spellname> <direction>.<target> i.e. cast fireball east.fido
+ 
+~
+-1 0 'BLIND FIGHTING'~
+A skilled fighter understands the importance of learning to fight without
+the use of his sight, and with practice he can master the art of blind
+fighting.  This skill allows him to perform all of his normal fighting
+routines; dodging, parrying, disarming, and landing multiple attacks almost
+as well as he would with normal vision.  
+~
+-1 0 'CAMP'~
+Syntax: camp
+
+When a ranger sets up camp, all of those in the immediate area are
+affected, their spirits lifted, and their hearts calmed allowing them to
+rest more peacefully.  This skill is only able to be used in a natural
+setting such as a field, forest, hills, or mountainous area where the ranger
+himself feels comfortable and at ease.  
+~
+0 0 OLDMOTD~
+{CRECENT CHANGES:{x
+* Warriors have gained the skill "HAFT BLOCK".
+* The Barbarian clan is now Open
+* Storm Giants, Fire Giants, Frost Giants, Rockseers, and Trolls can
+  no longer become Rangers.  
+* The Guild of Rangers will now take on Gnomes and Dark-Elves.
+* The Orc race has begun populating the land.
+~
+0 0 SOBRIETY~
+{#Sobriety {xis a spell that helps make a person less drunk.
+{x
+To cast the spell, the syntax is: cast sobriety <target>
+ 
+You may also want to refer to these helpfiles:
+{^DRINKING ALCOHOL INTOXICATION{x
+~
+0 0 IMPROVED BENEDICTION~
+This ability has a chance to increases the strength of all benedictive
+spells and prayers you cast or commune.
+~
+0 0 INTOXICATE INTOXICATION~
+{#Intoxicate {xis a spell that makes a person more drunk.
+{x
+The syntax to cast this spell is: cast intoxicate <target>
+ 
+You may also want to refer to these helpfiles:
+{^DRINKING ALCOHOL SOBRIETY{x
+~
+0 0 QUEST IMMORTALQUESTS IMMQUESTS~
+{#IMMQUESTS {xare simply Immortal run quests. These quests are
+fun and often times more diverse than those the autoquestor
+({&Questus{x) spits out. There is a variation in prizes, and
+always a willingness from the Immortals to hear new quest
+ideas.
+{x
+You may want to refer to these helpfiles: {^INVASIONS {xand {^SCRABBLE{x
+~
+0 0 INVASIONS~
+{#Invasions {xare Immortal run quests. They provide an opportunity
+for the people of {&Thera {xto help each other in protecting the
+city from intruders.
+~
+0 0 QUEST QP QUESTPOINTS POINTS~
+{#Quest points{x, or often referred to as {#QP{x, can be acquired{x
+through Questus, the autoquestor, found 2 north of MSM, or
+through Immortal run quests. They are useful for buying
+quest items, such as quest gear or flying magic carpets.
+If you go to Questus and type {^QUEST LIST {xyou will be given
+a complete list of the items you can buy.
+ 
+You may want to refer to the {^IMMQUESTS {xhelpfile{x
+~
+0 0 QUEST QUESTUS AUTOQUESTOR~
+{#Questus {xis the autoquestor, found 2 north, one east of MSM{x
+({&Market Square in Midgaard{.)
+{x
+You may want to refer to these helpfiles: {^AUTOQUEST {xand {^QP{x
+ 
+~
+0 0 GMOTE EMOTE~
+~
+92 0 AFFROOMS~
+Syntax: {#Affrooms <room flag>
+{x
+For instance, {#Affroom gods_only {xwill return the rooms that
+are affected by the room flag gods_only.
+~
+92 0 QT QUESTTALK~
+{#QT {xis used for the Quest channel. Syntax: {#qt{x
+~
+92 0 SMITE~
+{#Smite {xis used as a punishment.
+Syntax: {#smite <target>
+{x
+This command will take away 50% of a characters health points.
+~
+92 0 RENAME~
+{#Rename {xcan be used to re-name a person if their name is unsuitable for
+the game.
+ 
+Syntax: {#Rename <target> <new name>{x
+ 
+(Make sure you use a capitol letter for the first letter of their new
+name, else it comes out as a lowercase letter.)
+~
+92 0 NOAFFECT~
+{#Noaffect {xis a command like cancel. It removes any spells a player
+is affected by completely.
+{x
+Syntax: {#Noaffect <target>{x
+~
+92 0 OWHERE~
+{#Owhere {xis used to find a particular item in the world by
+telling you first the items name, who carries it, and what
+room vnum it is in.
+ 
+Syntax: {#owhere <item name>{x
+~
+92 0 PENALTIES~
+{#Penalty {xis a type of note. You can write and receive penalties on
+the note board. Only Immortals can read penalties.
+Syntax: {#Penalty write{x
+~
+92 0 MPSTAT~
+{#Mpstat {xis a way to see what triggers are on a mobile.
+For example: {#mpstat waffles{x will return these messages:
+Mobile #2502   [Waffles]
+Delay   0      [No target]
+[ 1] Trigger [grall   ] Program [2502] Phrase [100]
+~
+92 0 HEROTITLE~
+{#Herotitle {xis a command to set the title of a hero. This command
+is rather nice because you do not have to be in the same room with
+the character.
+~
+0 0 DONATIONPIT PIT DONATION~
+The {#donation pit {xis where players can pick through equipment and
+other items, and take the items they need. There are donation pits
+near each town temple.
+~
+0 0 DONATE CDONATE 'CLAN DONATE'~
+Syntax: {Ydonate{x <item>
+
+{#Donate {xis the command to contribute items and equipment to the
+donation pits for players to pick through and take what they
+want.
+ 
+Syntax: {Wc{wdonate{x <object>
+ 
+This will allow you to donate a certain object to your clan
+donation room. Not all objects can be donated. (Obviously,
+you must be in a clan to use this.)
+ 
+For donations for the {CMUD{x, please follow the directions at
+the MUD's homepage listed on the {WMOTD{x.
+~
+92 0 WIZ OFIND~
+This command searches through all the vnums are reports items matching
+the criteria you give it.  It replaces the old "limiteds" command.  This
+operation {Rlags{x the server, so use sparingly, please.
+ 
+Syntax: ofind [vnum]
+    or: ofind [options]
+                level  [min] [max]
+                type   [pill|boat|light]
+                wear   [neck|ring]
+                weapon [spear|dagger]
+                weight [min] [max]
+                bp     [percent] (>=)
+                limited
+                closed (show closed areas)
+ 
+so for example:
+   ofind weapon shortsword levels 0 20
+or
+   ofind limited type light
+ 
+{GZ{gz{x
+~
+0 0 IMMORTAL APPLICATION~
+So, you're interested in being an Immortal (IMM)?
+
+{D+{w+{W+ {rIt's a lot of WORK{D {W+{w+{D+{x
+First let me disabuse you of the notion that being an IMM is fun.  It's not.
+Unless you think work is fun.  Because we do a LOT of work.  If you're just
+looking for a powertrip, I suggest you be a clan leader.  Our regular duties,
+regardless of job, include:
+
+   {ro {WListen to mortal complaints.{x
+     Oh my, do we listen to lots of those.
+
+   {ro {WListen to cheater's excuses.{x
+     (and then get badmouthed on OOC for catching them).
+
+   {ro {WSettle Multikiller disputes.{x
+
+   {ro {WHelp newbies out.{x
+     By answering questions on NEWBIE, retrieving corpses, holding their hands
+     while they get adjusted.  Explain why they got full-looted in PK.
+
+   {ro {WReading lots of forum posts.{x
+     Most IMM administration work goes on in the forums.  We discuss all
+     changes and expect all IMMs to contribute their perspectives.
+
+   {ro {WTurn in monthly progress reports.{x
+     The DMs require everyone to let us know what you're up to, so we can
+     gauge who's stuck, who's doing a lot of work and needs a promotion,
+     and who's lazy.
+
+There are a lot of great players who aren't cut out to be IMMs.  And being
+turned down for IMM status doesn't mean we don't think the world of your
+Roleplay, or games-manship.  But to get an idea of what we're looking for
+in a staffer here are a list of IMM virtues:
+
+    {ro {WPositive attitude!{x
+      This is vital.  We get a lot of negativity from disgruntled morts,
+      we don't need that upstairs.  Negative people rarely find the energy
+      to work, create and handle difficult mort issues.  But worst of all
+      the negative attitude brings the rest of us down.
+
+    {ro {WMaturity{x
+      Age is not a requirement, but maturity is.  It doesn't matter if you
+      are 12 or 84.  If you explode over little disagreements, flake out
+      when given a task, feel entitled to promotions, or have trouble
+      seperating the privileged info you receive as an IMM from your
+      mortal alter-ego then you're not cut out for this job.  But if you
+      demonstrate sound judgement, a cool head, and express yourself
+      thoughfully on subjects of debate, then we would love to have you.
+
+    {ro {WCommunication skills{x
+      Being a native English speaker isn't necessary, but if you can't
+      put a comprehensible sentence together on a regular basis, then
+      we'd just have too much difficulty working with you.
+
+    {ro {WWork ethic and follow through{x
+      We have a lot of IMMs who come upstairs, we teach them OLC, they
+      start an area, complete a few rooms, hang on for a few months
+      and then flake-out.  Abandoned areas never get completed, so the
+      entire effort was a wash.  Instead, we need people who can sign up
+      for a task, commit to doing it, and see it through completion.
+
+Still sound fun?  If so continue on to one of the following documents:
+      HELP '{CCODER APPLICATION{x'  or HELP '{CBUILDER APPLICATION{x'
+ 
+{GZ{gsu{Gz{gsu{x (written 2005-07-17)
+~
+0 0 CODER APPLICATION~
+So you wanna be a Coder?
+
+First off, if you don't know the C language, then stop reading right here.  We
+will not teach you how to code.  If you want that, take a class at the local
+community college.
+
+That being said, you don't have to be an ace coder to work for the MUD.  The
+code is rather simple.  It's written so even people with the most limited
+understanding of programming can modify 70% of it.
+
+{D+{w+{W+ {rCANDIDATES {W+{w+{D+{x
+Because being a coder allows you to affect the greatest changes, and wreak
+the worst damage to the MUD, we are rather choosy about who we let near the
+code.  The following are virtues prefer in applicants:
+
+   {ro {WResourcefulness{x
+     Everyone needs the occasional question answered, especially when first
+     starting out.  But everyone's busy, and we don't have time to hold
+     your hand through the code.  You should be able to, with a little
+     guidance and a few hints, figure out most things about the code just
+     by searching around and playing with it.  That's how we learned it.
+
+   {ro {WConscientious{x
+     Coders need to test their code very carefully.  People with a cavalier
+     attitude, who turn in code full of errors cause more harm to the MUD
+     than good.  We want people who make their work their signature, people
+     who turn code in only when they are confident there are no errors.
+
+   {ro {WAble to follow directions{x
+     Being a coder does not grant you the right to change whatever you want
+     to however you see fit.  We have a review process.  And while we like
+     to give assignments to people interested in doing them, often the
+     specifics of the change aren't exactly what you wanted.  We need to
+     rely on you to implement changes as they are approved by the staff.
+
+   {ro {WConformity{x
+     The code has a certain style.  It it written with tab indentation,
+     and adheres to a 90col page (usually).  Programmatic things are
+     done a certain (sometimes dumb) way.  We need coders who will be
+     able to conform to this style.  The code needs to look uniform to
+     make it easier to read for future coders, and so it doesn't look a mess.
+     If you can't be bothered to code in the MUD's style, we can't be
+     bothered to reformat all your code submissions.
+     
+{D+{w+{W+ {rTHE APPLICATION {W+{w+{D+{x
+If you think you got what it takes to be a coder, then you need to send an
+application letter to the IMM staff declaring your intentions.  You should
+mention your coding experience, and what you're interested in working on.
+
+{D+{w+{W+ {rTHE REQUIREMENTS {W+{w+{D+{x
+We don't let new coders get their hands directly on our code until they've
+proven themselves trustworthy.  Instead, you'll be asked to set up a MUD
+on your home machine for you to work with.  Here is what you'll need:
+
+   {ro {WCygwin{x
+     Our MUD runs on a Linux server.  If you use windows, you'll need to
+     set up Cygwin on your machines.  This will give you a Linux type
+     environment under Windows, that you can work with.  It comes with
+     a free compiler (gcc) and a debugger (gdb) and several editors.
+     URL: {Yhttp://www.cygwin.com{x
+
+   {ro {WThe Icey Depths 0.9 codebase{x
+     This is the codebase which we started from.  You'll be asked to make
+     your changes on this codebase, and send the work you've done to the
+     head coder for review.  It will then be tested again by other coders,
+     added to CVS (version control) and then compiled into the main port.
+
+     The codebase is rather difficult to get running, and this is part of
+     your test.  There is documentation out there on how to get it working.
+     If you get too frustrated, or aren't resourceful enough to figure it
+     out, then you're prolly not coder material.  Coding is about
+     problem-solving and this is your first problem.
+     URL: {Yhttp://ftp.mudmagic.com/diku/merc/rom/anatolia/iceydepths.tar.gz{x
+
+{D+{w+{W+ {rTHE TEST {W+{w+{D+{x
+Okay, after you get the above running, and you've sent in your application,
+the head coder will give you a brief test to figure out how dangerous you are.
+After that we'll work on getting you your first coding assignment.
+
+Sounds like a lot, huh?  Sounds kinda harsh, just to be help out?  Well,
+keep this in mind:
+
+{rEveryone makes mistakes, but our mistakes crash the MUD.{x
+
+{GZ{gz{x
+(written 2005-07-17)
+ 
+ALSO SEE: {CIMM APPLICATION{x
+~
+0 0 BUILDER APPLICATION~
+Those who wish to become builders should understand that 90% of the work
+involves simply writing descriptions for rooms, mobs and objects.  Many
+people enjoy coming up with ideas for areas, but when it comes to actually
+creating them, they quickly lose their passion when they are faced with
+exactly how much work they'll have to do to see it through.  Therefore,
+we've worked out some requirements that those who wish to become builders
+will have to fulfill in order to convince us that the time we spend training
+them will be well spent, and to give a chance to those wishing to build to
+figure out whether or not it is something that they will truly enjoy doing. 
+
+A builder's first area will be between 30 and 50 rooms. These rooms should
+all have unique descriptions, rather than a small set of descriptions that
+are constantly repeated throughout the area.
+ 
+The builder should have a strong idea of what the area will be like and
+contain before sending a proposal to build it. This includes knowing the
+theme of the area (a knight's castle, a tiny village, a dark cave, a
+kingdom in the sky, etc.), where the area would fit into the mud (not just
+its physical location but whether or not it would fit into the mud's
+fantasy theme), what the story is behind the area (each area should have
+a history of its own. For example, the White Desert area would have this
+history: A vast desert that was thought to be uninhabitable for years,
+traders in the larger cities of Caerlon and New Thalos have begun to
+risk the dangers and travel through it, to trade with the nomads who
+live there for exotic goods available nowhere else. Not all nomads are
+friendly, however, and some are willing to fight to prevent what they
+see as the intrusion of their land.)
+ 
+In addition to the above, there are several other requirements that must
+be met before a builder will be added to the staff.
+ 
+{C1) 10 unique room descriptions, 5 mob descriptions, and 5 object
+descriptions must be submitted.{x
+The room and mob descriptions should be at least 4 lines in length
+(after formatting). This is done so that A) the builder will know if they
+actually enjoy building and B) we'll be able to get a good look at the
+quality of work they will be creating.
+ 
+{C2) A map of the area{x
+While its understandable that some changes will be made to the plan while
+the area is being built, the builder should have a concrete plan before
+starting the area of where everything will fit in.
+ 
+{C3) An explanation of the theme, history, and purpose of the area, as
+stated above.{x
+ 
+All applications should be sent to the head builder, ideally through
+a note.
+ 
+Please check your submissions for spelling and grammar mistakes. If your
+submission contains plenty of typos and bad grammar, we can only assume
+that your work will be the same, and this will be one of the things
+we consider when deciding whether or not you will become an builder.
+ 
+ 
+{WHead Builder: {CNalaeya{x
+ 
+Also see help IMMORTAL APPLICATION
+~
+0 0 variables~
+----------------------------------------------------------------------------
+variable         mobile actor victim random target    object 2nd_object
+-----------------------------------------------------------------------------
+  name             $i    $n     $t     $r    $q       $o       $p
+shrt_desc/title    $I    $N     $T     $R    $Q       $O       $P
+he/she/it          $j    $e     $E     $J    $X       --       --
+him/her/it         $l    $m     $M     $L    $Y       --       --
+his/her/its        $k    $s     $S     $K    $Z       --       --
+a/an               --    --     --     --    --       --       --
+ 
+NOTES:
+$i - first keyword on mobile's list under "name" field
+$n - the name of the player (most common variable for ordinary routines)
+$t - the name of a secondary target (A nods to B -> B would be $t)
+$r - the name of a random pc in the room
+$q - name of the program target (used in conjunction with MOB REMEMBER)
+$o - the first keyword of primary object (Jon gets A -> A would be $o)
+$p - the first keyword of secondary object (Jon puts A in B -> B would be $p)
+~
+0 0 ARTIFACTS~
+Artifacts - powerful and rare items.  Only a limited few exist in the realm.
+ 
+Because these items are so prized the gods ensure that no one mortal
+takes too many of them into the astral plane.  Those who venture in
+the astral plane too much, often find their possessions ransacked due
+to neglect.
+ 
+The {CARTIFACT{x command tells you how many of these special items you
+hold and how many you can logoff with.
+ 
+If you become inactive (go missing from the mud, or only log on for short
+periods of time) you will find your artifacts missing when you log back
+in.  This is to make sure these limited items are constantly in play
+for those players active in the game.
+ 
+The number of artifacts you may log off with is determined by the following:
+{c *    4hrs/day last 3 days = 1
+ *    1hr/day last week    = 1
+ *    2hr/day last week    = 2
+ *    1hr/day last month   = 3
+ *    3hr/day last month   = 4
+ *    less than a month recorded activity = 2{x
+ 
+{GZ{gz{x
+{D(2005-11-26){x
+ 
+{WNote: {CARTIFACT{W and activity displayed on {CCLANLIST{W are not directly
+correlated.{x
+~
+0 0 SHADES OF GREY~
+Shades of Gray is based on Anatolia MUD -- see help anatolia.
+                     Original idea, concept and coding:
+        Farmer Joe                   [Iluvatar] (fjoe@@@@@@@@iclub.nsu.ru)
+        Konstantin Svintsoff          [abrazak] (kostik@@@@@@@@iclub.nsu.ru)
+        Alexander Morokhovets            [Eros] (efdi@@@@@@@@iclub.nsu.ru)
+~
+-1 $~
+
+#$

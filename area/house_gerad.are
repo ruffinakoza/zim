@@ -1,0 +1,1433 @@
+#AREADATA
+Name The Vincitori (Gerad's House)~
+Builders angelo sadin~
+VNUMs 62331 62371
+Credits Angelo~
+Security 9
+LevelRange 1 91
+Flags noquest playerhouse~
+End
+
+#MOBILES
+#62331
+armorer antonin shopkeeper~
+Antonin Vincitori~
+Antonin Vincitori, the family armorer, stands behind a counter.
+~
+A younger fellow, in his mid to late 20s, he seems to have come quite a
+far way in a short time; he would not be in his place if Gerad did not think
+him capable.  Usually spending most his time crafting the armor his shop
+sells, his apron is dirty and well worn, and his hair is cut extremely short
+for convinience.  He bears less resemblance to Gerad than that of Rasino,
+but he still has the characteristic red hair.  
+~
+human~
+ABT 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CEFHIJKW 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 62334 collection time~
+#62332
+shopkeeper rasino weaponsmith~
+Rasino Vincitori~
+Rasino Vincitori, the family weaponsmith, hammers away at a sword.
+~
+Rasino, being older than Antonin, seems to move with more confidence and
+almost gives off an air of arrogance that his brother lacks.  Perhaps the
+perceived bravado due to the inherent difference in what the two brothers
+create; things that protect, and things that destroy.  He is in his late
+30s, and bears quite a striking resemblance to Gerad himself, though only a
+distant cousin; they share the same red hair, bearded face, and even some
+similar battle scars.  
+~
+human~
+ABT 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CEFHIJKW 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 62334 collection time~
+#62333
+guardian bartender andimar shopkeeper~
+Andimar Vincitori~
+Andimar Vincitori stands here, tending bar like a true pro.
+~
+Gerad's brother Andimar is a relaxed man of his mid 40s, he seems the
+type who decided he was too bad-ass to be a soldier; his muscles are
+evident, and his eyes gleam with intelligence of what you're about to do. 
+He knows an opponents next move, just as he knows what drink you're about to
+order and is already pouring it.  He seems to drink a lot of his own
+products, particularly the firebreather...  You might want to be careful,
+lest he breathe fire on you.  
+~
+human~
+ABe DFHc 0 0
+130 130 719d130+0 1300d11+95 44d2+94 none
+-84 -84 -84 -57
+CEFHIJKW 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 62331 let us in~
+M delay 62332 100~
+M exall 62331 3~
+M delay 62332 100~
+M speech 62333 give me a key~
+M death 62333 100~
+M speech 62334 collection time~
+#62334
+lanco lounge shopkeeper bartender elite~
+Lanco Bedivardi~
+Lanco Bedivardi relaxes behind the bar.
+~
+An older man, in his early 50s, Lanco was a childhood friend of Gerad's
+when they were but young punks beating up other young punks for spare
+copper.  Since then, Lanco has gone through a lot of rough times, and often
+professes how fortunate he's been to have Gerad as a friend.  There've been
+many a time that Gerad's had to drop whatever adventure he was on to come
+back to his hometown and pay a debt Lanco let get out of hand; finally, now
+that Gerad has established his own business, he felt it wise to employ Lanco
+there, to make sure he stays out of trouble in his old age.  
+~
+human~
+ABT 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CDEFHIJKW 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 62334 collection time~
+M speech 62334 bring me my diplomatic tools~
+#62335
+gamemaster gambler sly man~
+the gamemaster~
+The sly man running the coin game smiles as you enter.
+~
+The gamemaster is a tricky, almost impish-looking man, who obviously has
+an addiction to gambling.  He's long given up on reforming his (sometimes)
+profitable pasttime, and has instead made it a career.  He seems very wary,
+though; very alert for a man who ought to be sure of his odds.  Perhaps he's
+down on his luck lately.  
+~
+human~
+ABT 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CDEFHIJKW 0 0 0
+stand stand none 3626
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 62338 100~
+M bribe 62339 25000~
+M speech 62334 collection time.~
+#62336
+ninja receptionist~
+the ninja receptionist~
+A ninja stands behind the counter of the room reception desk.
+~
+Well, he's dressed all in black and has the traditional ninja mask on, so
+you can't exactly tell a whole lot about him, except perhaps that he's not a
+very good ninja, since you can see him and all...  But then again, maybe
+it's just a ruse, and he's the most awesome ninja you'll ever encounter.  
+~
+human~
+ABT DF 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CDEFHIJKNW BU 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 62336 100~
+M bribe 62335 50000~
+M speech 62334 collection time~
+M death 62333 100~
+M exall 62337 ~
+M delay 62340 100~
+#62337
+mouse~
+a small, white mouse~
+A small, white mouse sits here, doing nothing.
+~
+It's kinda cute.
+~
+human~
+AB 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 62341 2~
+M delay 62342 100~
+I 92
+#0
+
+#OBJECTS
+#62331
+coinsxxx vincitori~
+some {BVincitori{z coins~
+A couple of coins bearing the mark of Vincitori have been discarded here.~
+bone~
+~
+treasure 0 AO
+0 0 0 0 0
+20 0 25000 P
+A
+20 -2
+G none
+G none
+G none
+G none
+#62332
+vincitorixxx key~
+the {BVincitori{z key~
+A key with the {BVincitori{z family mark rests here.~
+steel~
+~
+key NPRk AO
+0 0 0 0 0 0 0
+0 0 0 W
+G none
+G none
+G none
+G none
+#62333
+table dining~
+a table~
+A few tables litter the room to allow for comfortable beverage enjoyment.~
+wood~
+~
+furniture 0 0
+CE FHJKPQ ADGJ BEF BEF CE FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#62334
+bar~
+the bar~
+A large circular bar takes up the center of the room.~
+wood~
+~
+furniture 0 0
+ABCD FHJKPQ ADGJ BEF BEF ABCD FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#62335
+comfortable fine bed linens silk~
+a comfortable bed~
+A comfortable bed with fine silk linens beacons your weary frame.~
+wood~
+~
+furniture 0 0
+B FHJKPQ BEIL CFG CFG B FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#62336
+titanium vincitori sword~
+a {Wtitanium{z {BVincitori{z sword~
+A {Wtitanium{z sword with the {BVincitori{z mark lies here.~
+titanium~
+~
+weapon 0 AN
+longsword 5 19 slash D
+80 81 149585 P
+A
+19 8
+G none
+G none
+G none
+G none
+#62337
+steel vincitori sword~
+a {wsteel{z {BVincitori{z sword~
+A {wsteel{z sword bearing the {BVincitori{z mark lies here.~
+steel~
+~
+weapon 0 AN
+longsword 3 20 slash D
+50 51 54583 P
+A
+19 5
+G none
+G none
+G none
+G none
+#62338
+iron vincitori sword~
+an {Diron{z {BVincitori{z sword~
+An iron sword bearing the {BVincitori{z mark lies here.~
+iron~
+~
+weapon 0 AN
+longsword 2 21 slash D
+35 36 23591 P
+A
+19 3
+G none
+G none
+G none
+G none
+#62339
+bronze vincitori sword~
+a {ybronze{z {BVincitori{z sword~
+A bronze sword bearing the {BVincitori{z mark rests here.~
+bronze~
+~
+weapon 0 AN
+longsword 2 12 slash D
+20 21 9082 P
+A
+19 2
+G none
+G none
+G none
+G none
+#62340
+titanium vincitori breastplate titaniumbreastplate~
+a {Wtitanium{z {BVincitori{z breastplate~
+A titanium breastplate bearing the {BVincitori{z mark rests here.~
+titanium~
+~
+armor 0 AD
+29 29 29 28 'none' 0
+80 81 285250 P
+A
+13 20
+A
+19 8
+G none
+G none
+G none
+G none
+#62341
+vincitori breastplate steelbreastplate steel~
+a {wsteel{z {BVincitori{z breastplate~
+A titanium breastplate bearing the {BVincitori{z mark rests here.~
+steel~
+~
+armor 0 AD
+18 18 18 17 'none' 0
+50 51 115660 P
+A
+13 15
+A
+19 5
+G none
+G none
+G none
+G none
+#62342
+vincitori breastplate iron ironbreastplate~
+an {Diron{z {BVincitori{z breastplate~
+A titanium breastplate bearing the {BVincitori{z mark rests here.~
+steel~
+~
+armor 0 AD
+13 13 13 12 'none' 0
+35 36 44549 P
+A
+13 10
+A
+19 3
+G none
+G none
+G none
+G none
+#62343
+vincitori breastplate bronze bronzebreastplate~
+a {ybronze{z {BVincitori{z breastplate~
+A bronze breastplate bearing the {BVincitory{x mark rests here.~
+steel~
+~
+armor 0 AD
+8 8 8 7 'none' 0
+20 21 17049 P
+A
+13 5
+A
+19 2
+G none
+G none
+G none
+G none
+#62344
+titanium vincitori bracer titaniumbracer~
+a {Wtitanium{z {BVincitori{z bracer~
+A titanium bracer bearing the {BVincitori{z mark lies here.~
+titanium~
+~
+armor 0 AM
+29 29 29 28 'none' 0
+80 81 103978 P
+A
+13 20
+A
+19 8
+G none
+G none
+G none
+G none
+#62345
+vincitori steel bracer steelbracer~
+a {wsteel{z {BVincitori{z bracer~
+A steel bracer bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AM
+18 18 18 17 'none' 0
+50 51 44411 P
+A
+13 15
+A
+19 5
+G none
+G none
+G none
+G none
+#62346
+vincitori iron ironbracer bracer~
+an {Diron{z {BVincitori{z bracer~
+An iron bracer bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AM
+13 13 13 12 'none' 0
+35 36 17378 P
+A
+13 10
+A
+19 3
+G none
+G none
+G none
+G none
+#62347
+vincitori bronze bracer bronzebracer~
+a {ybronze{z {BVincitori{z bracer~
+A bronze bracer bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AM
+8 8 8 7 'none' 0
+20 21 6923 P
+A
+13 5
+A
+19 2
+G none
+G none
+G none
+G none
+#62348
+titanium vincitori titaniumarmplates armplates~
+some {Wtitanium{z {BVincitori{z armplates~
+Some titanium armplates bearing the {BVincitori{z mark lies here.~
+titanium~
+~
+armor 0 AI
+29 29 29 28 'none' 0
+80 81 156223 P
+A
+13 20
+A
+19 8
+G none
+G none
+G none
+G none
+#62349
+vincitori steel steelarmplates armplates~
+some {wsteel{z {BVincitori{z armplates~
+Some steel armplates bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AI
+18 18 18 17 'none' 0
+50 51 65497 P
+A
+13 15
+A
+19 5
+G none
+G none
+G none
+G none
+#62350
+vincitori iron ironarmplates armplates~
+some {Diron{z {BVincitori{z armplates~
+Some iron armplates bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AI
+13 13 13 12 'none' 0
+35 36 27305 P
+A
+13 10
+A
+19 3
+G none
+G none
+G none
+G none
+#62351
+vincitori bronze bronzearmplates armplates~
+some {ybronze{z {BVincitori{z armplates~
+Some bronze armplates bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AI
+8 8 8 7 'none' 0
+20 21 10109 P
+A
+13 5
+A
+19 2
+G none
+G none
+G none
+G none
+#62352
+titanium vincitori helm titaniumhelm~
+a {Wtitanium{z {BVincitori{z helm~
+A titanium helm bearing the {BVincitori{z mark lies here.~
+titanium~
+~
+armor 0 AE
+29 29 29 28 'none' 0
+80 81 130361 P
+A
+13 20
+A
+19 8
+G none
+G none
+G none
+G none
+#62353
+vincitori steel steelhelm helm~
+a {wsteel{z {BVincitori{z helm~
+A steel helm bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AE
+18 18 18 17 'none' 0
+50 51 60275 P
+A
+13 15
+A
+19 5
+G none
+G none
+G none
+G none
+#62354
+vincitori iron helm ironhelm~
+an {Diron{z {BVincitori{z helm~
+An iron helm bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AE
+13 13 13 12 'none' 0
+35 36 21609 P
+A
+13 10
+A
+19 3
+G none
+G none
+G none
+G none
+#62355
+vincitori bronze helm bronzehelm~
+a {ybronze{z {BVincitori{z helm~
+A bronze helm bearing the {BVincitori{z mark lies here.~
+steel~
+~
+armor 0 AE
+8 8 8 7 'none' 0
+20 21 9375 P
+A
+13 5
+A
+19 2
+G none
+G none
+G none
+G none
+#62356
+mug tap beer~
+a mug of tap~
+A discarded mug typically for tap beer lies here.~
+glass~
+~
+drink 0 A
+5 5 'beer' 0
+0 30 333 P
+G none
+G none
+G none
+G none
+#62357
+shotglass firewater~
+a shot of firewater~
+A shotglass wafting of the scent of firewater lies discarded.~
+glass~
+~
+drink 0 A
+2 2 'firebreather' 0
+0 30 368 P
+G none
+G none
+G none
+G none
+#62358
+tumbler finely aged brandy~
+a tumbler of finely-aged brandy~
+A tumbler typically used for brandy lies here.~
+glass~
+~
+drink 0 A
+1 1 'brandy' 0
+0 15 117 P
+G none
+G none
+G none
+G none
+#62359
+bottle vintage vincitori wine~
+a bottle of vintage {BVincitori{z family wine~
+A discarded wine bottle bearing the {BVincitori{z mark lies here.~
+unknown~
+~
+drink 0 AO
+30 30 'rose wine' 0
+0 200 2450 P
+G none
+G none
+G none
+G none
+#62360
+wineglass glass~
+a wine glass~
+A discarded wine glass bearing the {BVincitori{z mark lies here.~
+glass~
+~
+drink 0 AO
+0 0 'rose wine' 0
+0 5 3 P
+G none
+G none
+G none
+G none
+#62361
+vincitori family war banner~
+the {BVincitori{z family war banner~
+A war banner bearing the {BVincitori{z mark lies here.~
+silk~
+~
+light AGNTUY A
+425
+106 400 16256 P
+A
+20 -5
+A
+17 -18
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#62362
+adamantite helm vincitori~
+an {Cadamantite{z {BVincitori{z helm~
+An adamantite helm bearing the {BVincitori{z mark lies here.~
+adamantite~
+~
+armor AGNTUY AE
+38 38 38 37 'none' 0
+106 107 476498 P
+A
+20 -5
+A
+17 -22
+A
+19 10
+A
+18 9
+G none
+G none
+G none
+G none
+#62363
+ring vincitori signet~
+a {BVincitori{z family signet ring~
+A signet ring bearing the {BVincitori{z mark lies here.~
+adamantite~
+~
+jewelry AGNTUY AB
+CF CF CF ABF 0 CF CF
+100 101 20456 P
+A
+20 -8
+A
+19 10
+G none
+G none
+G none
+G none
+#62364
+bracer adamantite vincitori~
+an {Cadamantite{z {BVincitori{z bracer~
+A beautifully crafted black bracer is here, emblazoned with a white tiger.~
+adamantite~
+~
+armor AGNTUY AM
+38 38 38 37 'none' 0
+106 107 242322 P
+A
+18 10
+A
+17 -15
+A
+19 10
+G none
+G none
+G none
+G none
+#62365
+vincitori adamantite axe~
+an {Cadamantite{z {BVincitori{z axe~
+An adamantite axe bearing the {BVincitori{z mark lies here.~
+adamantite~
+~
+weapon AGNTUY AN
+axe 6 21 chop D
+106 107 332929 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#62366
+dummy object~
+a small note~
+A small note has been discarded here.~
+unknown~
+~
+trash NP A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#62331
+The Sitting Area~
+You are standing inside the Vincitori, Gerad's bar and equipment shop. 
+The sticky scent of expensive and exotic smokeables hang in the air, and the
+dim lamp-light casts dark shadows across the room, lending for a somber, if
+a bit shadey, atmosphere.  Here, in the sitting room, some sturdy tables of
+fine oak are strewn about, with enough distance between them to make close
+conversation possible.  To the east and west, there are smaller rooms, where
+weapons and armor of the Vincitori name can be bought.  To the north is the
+bar, and the receptionist for the rented room can be seen beyond it.  
+~
+0 D inside
+D0
+The room expands to the north, where the bar is.
+~
+~
+Z 0 62335
+0 0
+D1
+A small entryway leads into the weaponsmith's shop.
+~
+~
+Z 0 62332
+0 0
+D2
+~
+~
+Z 62332 3503
+0 0
+D3
+A small entryway leads into the armorer's shop.
+~
+~
+Z 0 62333
+0 0
+S
+#62332
+The Weaponsmith's Shop~
+You are standing inside the weapon shop of the Vincitori.  Here, weapons
+bearing the family name are carefully crafted by Rasino Vincitori, and can
+be bought by anyone with enough gold.  There are beautiful swords hanging on
+the wall, but as you inspect closer, you see they are only display models,
+and are not sharp.  Your inner thief sighs in disappointment.  To the west
+is the sitting room, beyond which is the armor shop.  
+~
+0 D inside
+D3
+~
+~
+Z 0 62331
+0 0
+S
+#62333
+The Armorer's Shop~
+You are standing inside the Vincitori's armor shop, manned by Antonin
+Vincitori, the master armorer of the family.  Working only in solid plates,
+the shop offers little in the way of more "comfortable" armor, but the
+products available are crafted carefully and undoubtedly do the job they are
+designed to do; provide protection without hampering the wearer.  To the
+east is the sitting room, and beyond that is the weapon shop.  
+ 
+You see a large {Rsign{z on the wall. Perhaps you should read it.
+~
+0 D inside
+E
+sign~
+__________________________________________
+|                                          |
+|        Due to our large selection        |
+|        you will need  to type the        |
+|        full name of what you wish        |
+|          to buy, without spaces.         |
+|                                          |
+|                Example:                  |
+|                                          |
+|            BUY TITANIUMHELM              |
+|                                          |
+|               Thank you.                 |
+|__________________________________________|
+~
+D1
+~
+~
+Z 0 62331
+0 0
+S
+#62334
+The Back Exit~
+Here, a small alley behind the building leads out onto the trail around
+Midgaard.  You must have passed the tiny alcove a hundred times before, but
+it's perfectly hidden from the other side by a cleverly-placed tree.  Back
+to the south is the Elite Lounge.  To the west is the trail.  
+~
+0 D inside
+D2
+~
+~
+Z 0 62337
+0 0
+D3
+~
+~
+Z 0 3907
+0 0
+S
+#62335
+The Bar~
+You are standing in the central room of the Vincitori; the bar.  Here,
+Andimar serves up cold refreshments to any and all who wish to buy, and
+conversation buzzes with torrid rumours and grandiose stories.  To the
+north, you can see the receptionist for the single room the Vincitori rents
+out.  It's often called "the safest room in the realms."  To the east, a
+small gambling parlor can be found, where one can bet some gold on the
+coins.  To the west is the elite lounge, a place Gerad has dedicated soley
+to his bretheren of the Shadow clan.  Back south is the quieter sitting
+area, and the entrance.  
+~
+0 D inside
+D0
+A small entryway leads north, where you can see the receptionist desk for the
+room for rent.
+~
+~
+Z 0 62339
+0 0
+D1
+A door leads into another room, above which a sign reading "Games" hangs.
+~
+door~
+ABZ 0 62336
+0 0
+D2
+The room expands southward, where a few tables for relaxed dining can be seen.
+~
+~
+Z 0 62331
+0 0
+D3
+A door leads into the elite lounge.  A simple sign on it reads: 
+
+"Invitation Only"
+~
+door~
+ABCFGZ 62332 62337
+0 0
+S
+#62336
+The Gambling Parlor~
+You are standing inside the small gambling parlor of the Vincitori. 
+Here, one can bet a few hundred gold on the coins of the coins, if he or she
+so wishes; many a man have left this room dancing, and just as many crying. 
+An ashtray with several stubbed-out cigarettes sits on the gambling table,
+and the smoke from the last still hangs in the air.  The gambler seems like
+a very nervous man, but confident, none-the-less; dare you risk your gold? 
+Back to the west is the bar, where payoff is guaranteed; all one needs to do
+is bet on the brandy.  
+~
+0 D inside
+D3
+The door leads back into the main bar room.
+~
+~
+ABZ 0 62335
+0 0
+S
+#62337
+The Elite Lounge~
+You are standing in the Elite Lounge, a small room dedicated just for
+members of the Shadow clan.  Here, Gerad can often be found relaxing and
+kicking back with his fellow bretheren, recanting stories of old days of
+adventure.  In the center of the room, a small spiral staircase leads up to
+the place Gerad has reserved for his living quarters.  The walls are lined
+with paintings, each a commissioned piece of a legendary figure in Shadow's
+leadership.  To the north, you can see a door leading out into a small
+alley, and to the east, a door leads back into the main bar.  
+~
+0 D inside
+E
+paintings~
+There are seven paintings in all: Xile (the First), Azureth, Malchio,
+Sadin, Gerad, Rhajaat and Goff.  
+ 
+Xile, the founding leader, when the clan was called "Hunter," is shown standing
+over the dead corpse of a paladin twice his size, under a street-lamp in what
+is easily recognizable as the Market Square of Midgaard. Clad in black and his
+face concealed by the shadows, he seems ever vigalent even as he's looting the
+purse of his slain enemy and leaving his calling card.
+
+ 
+Azureth is shown standing outside the clanhall of Shadow, flanked by an army
+of undead soldiers and Vhloughveng, facing a pair of warriors a cultured man
+would recognize as Uther (the First) and Tannice Blackthorn. A small arial
+dressed in all black stands off to the side, clearly an apprentice; could that
+be who you think it is?
+
+ 
+Malchio the Half-Elf is shown standing over the bloody corpse of several Scions,
+recognizable by their clanmarks, at the gates to their dark, sub-terrenean clan
+hall. A glint of almost zealot-like hatred gleams in his eyes, perhaps a
+foreshadowing of his impending insanity, which drove him into the halls of the
+Chaos clan.
+ 
+ 
+Sadin is shown standing side by side with a darker figure whom you can only
+presume is the betrayer, Malakai. Both seem in relatively calm repose; Malakai
+leans against a support beam of the bar the portrait is set in, while Sadin is
+at the bar, nursing a drink. While Sadin's eyes look towards the bar, Malakai's
+look towards Sadin. One need only ask a common peasant to know what happened.
+ 
+ 
+Gerad is shown sitting at the same bar, a pen in hand, drafting the rules for
+the democracy he would guide Shadow into. His twin axes sit at the bar, waiting
+patiently for when words fail; he seems to almost be casually glancing at them
+as he writes. Having far passed his heyday, though, his gray hair betrays his
+frustration with the trials and tribulations he's undergone while serving under
+poor leaders.
+ 
+ 
+Rhajaat is shown accepting the Sceptre of Prime Minister, handed to him by
+the now divine Sadin. He is flanked by Gerad and Goff, amongst others, who
+smile as their new leader accepts the position he was voted to. He stands
+in the meeting room of the Shadows, where his throne sits at the head of the
+table behind him.
+ 
+ 
+Goff's portrait finds him standing atop the entrance of the cave that is the
+Shadow clanhall. He holds a dagger in each hand, patiently standing vigelant,
+while Vhloughveng sleeps below. He looks able-bodied and deadly, though lacks
+the brute ferocity of his predescessor. His stare cuts into any who look right
+into the portrait.
+ 
+ 
+{WA small plaque sits on the eastern wall, away from the other portraits:{z
+ 
+"There are some who have led Shadow who are not represented here. They are
+neglected because they neglected us; they were poor leaders whose own self-
+interest only brought pain and misery to the brothers they lead. Let us
+follow the examples of those worth remembering, and forget those who deserve
+to be forgotten."
+~
+D0
+~
+~
+Z 0 62334
+0 0
+D1
+The door leads out of the elite lounge, back to the main bar.
+~
+~
+ABCFGZ 62332 62335
+0 0
+D4
+A spiral staircase leads up to Gerad's bedroom.
+~
+~
+ABCFGZ 62332 62338
+0 0
+S
+#62338
+Gerad's Bedroom~
+You are standing inside a cozy upper-floor room of the Vincitori.  This
+room is adorned with random bits and pieces of equipment and keepsakes; over
+in one corner, a rusted sword can be seen, while another gives home to a
+faded painting of some forgotten warrior of the ancient times.  Amidst the
+clutter, a large bed sits, waiting to be slept in.  It looks quite
+comfortable.  A small trapdoor opens in the center of the room, where a
+spiral staircase leads back down into the Elite Lounge.  
+~
+0 D inside
+D5
+~
+~
+ABCFGZ 62332 62337
+0 0
+S
+#62339
+At the Receptionist's Desk~
+You are standing at the receptionist desk for the single room the
+Vincitori rents out.  Here, you can purchase the safest room in the realms. 
+A door to the north leads to this room; southward, through an archway, you
+can see the hustle and bustle of the Vincitori's main bar, beyond which the
+sitting room can be seen.  
+~
+0 D inside
+D0
+A door leads north into the only room for rent at The Vincitori.
+~
+~
+ABCFGZ 62332 62340
+0 0
+D2
+A small entryway leads south, where you can see the bar.
+~
+~
+Z 0 62335
+0 0
+S
+#62340
+The Saftest Room in All the Realms~
+You are in the safest room in the realms.  It's a small room, with brick
+walls and a couple of small touches to make it feel homey; a nice oriental
+rug on the floor, a small wooden desk with a matching chair, and a painting
+on the north wall of a mountain landscape all make it feel a little more
+comfortable.  The main focus, though is the bed in the center of the room;
+your eyelids begin to feel heavy just looking at it.  The only exit is
+south, from whence you came.  
+~
+0 DNTX inside
+D2
+~
+~
+ABCFGZ 62332 62339
+0 0
+S
+#0
+
+#SPECIALS
+M 62333 spec_breath_fire	* Andimar Vincitori
+S
+
+#RESETS
+D 0 62335 1 1	* The Bar: door to the east: closed
+D 0 62335 3 2	* The Bar: door to the west: closed and locked
+D 0 62336 3 1	* The Gambling Parlor: door to the west: closed
+D 0 62337 1 2	* The Elite Lounge: door to the east: closed and locked
+D 0 62337 4 2	* The Elite Lounge: door to the up: closed and locked
+D 0 62338 5 2	* Gerad's Bedroom: door to the down: closed and locked
+D 0 62339 0 2	* At the Receptionist's Desk: door to the north: closed and locked
+D 0 62340 2 2	* The Saftest Room in All the Realms: door to the south: closed and locked
+O 0 62333 0 62331	* a table (The Sitting Area)
+M 0 62332 1 62332 1	* Rasino Vincitori (The Weaponsmith's Shop)
+G 0 62339 0		*	a {ybronze{z {BVincitori{z sword
+G 0 62338 0		*	an {Diron{z {BVincitori{z sword
+G 0 62337 0		*	a {wsteel{z {BVincitori{z sword
+G 0 62336 0		*	a {Wtitanium{z {BVincitori{z sword
+E 0 62336 0 16		*	a {Wtitanium{z {BVincitori{z sword: wielded
+E 0 62340 0 5		*	a {Wtitanium{z {BVincitori{z breastplate: on the body
+E 0 62344 0 14		*	a {Wtitanium{z {BVincitori{z bracer: on the left wrist
+E 0 62344 0 15		*	a {Wtitanium{z {BVincitori{z bracer: on the right wrist
+E 0 62348 0 10		*	some {Wtitanium{z {BVincitori{z armplates: on the arms
+E 0 62352 0 6		*	a {Wtitanium{z {BVincitori{z helm: over the head
+E 0 62336 0 20		*	a {Wtitanium{z {BVincitori{z sword: second wielded
+M 0 62331 1 62333 1	* Antonin Vincitori (The Armorer's Shop)
+G 0 62355 0		*	a {ybronze{z {BVincitori{z helm
+G 0 62354 0		*	an {Diron{z {BVincitori{z helm
+G 0 62353 0		*	a {wsteel{z {BVincitori{z helm
+G 0 62352 0		*	a {Wtitanium{z {BVincitori{z helm
+G 0 62351 0		*	some {ybronze{z {BVincitori{z armplates
+G 0 62350 0		*	some {Diron{z {BVincitori{z armplates
+G 0 62349 0		*	some {wsteel{z {BVincitori{z armplates
+G 0 62348 0		*	some {Wtitanium{z {BVincitori{z armplates
+G 0 62347 0		*	a {ybronze{z {BVincitori{z bracer
+G 0 62346 0		*	an {Diron{z {BVincitori{z bracer
+G 0 62345 0		*	a {wsteel{z {BVincitori{z bracer
+G 0 62344 0		*	a {Wtitanium{z {BVincitori{z bracer
+G 0 62343 0		*	a {ybronze{z {BVincitori{z breastplate
+G 0 62342 0		*	an {Diron{z {BVincitori{z breastplate
+G 0 62341 0		*	a {wsteel{z {BVincitori{z breastplate
+G 0 62340 0		*	a {Wtitanium{z {BVincitori{z breastplate
+E 0 62336 0 16		*	a {Wtitanium{z {BVincitori{z sword: wielded
+E 0 62340 0 5		*	a {Wtitanium{z {BVincitori{z breastplate: on the body
+E 0 62336 0 20		*	a {Wtitanium{z {BVincitori{z sword: second wielded
+E 0 62352 0 6		*	a {Wtitanium{z {BVincitori{z helm: over the head
+E 0 62348 0 10		*	some {Wtitanium{z {BVincitori{z armplates: on the arms
+E 0 62344 0 15		*	a {Wtitanium{z {BVincitori{z bracer: on the right wrist
+E 0 62344 0 14		*	a {Wtitanium{z {BVincitori{z bracer: on the left wrist
+O 0 62333 0 62335	* a table (The Bar)
+O 0 62334 0 62335	* the bar (The Bar)
+M 0 62333 1 62335 1	* Andimar Vincitori (The Bar)
+G 0 62360 0		*	a wine glass
+G 0 62359 0		*	a bottle of vintage {BVincitori{z family wine
+G 0 62358 0		*	a tumbler of finely-aged brandy
+G 0 62357 0		*	a shot of firewater
+G 0 62356 0		*	a mug of tap
+E 0 62336 0 16		*	a {Wtitanium{z {BVincitori{z sword: wielded
+E 0 62340 0 5		*	a {Wtitanium{z {BVincitori{z breastplate: on the body
+E 0 62344 0 14		*	a {Wtitanium{z {BVincitori{z bracer: on the left wrist
+E 0 62344 0 15		*	a {Wtitanium{z {BVincitori{z bracer: on the right wrist
+E 0 62348 0 10		*	some {Wtitanium{z {BVincitori{z armplates: on the arms
+E 0 62352 0 6		*	a {Wtitanium{z {BVincitori{z helm: over the head
+E 0 62336 0 20		*	a {Wtitanium{z {BVincitori{z sword: second wielded
+M 0 62335 1 62336 1	* the gamemaster (The Gambling Parlor)
+E 0 62336 0 16		*	a {Wtitanium{z {BVincitori{z sword: wielded
+E 0 62340 0 5		*	a {Wtitanium{z {BVincitori{z breastplate: on the body
+E 0 62344 0 14		*	a {Wtitanium{z {BVincitori{z bracer: on the left wrist
+E 0 62344 0 15		*	a {Wtitanium{z {BVincitori{z bracer: on the right wrist
+E 0 62348 0 10		*	some {Wtitanium{z {BVincitori{z armplates: on the arms
+E 0 62352 0 6		*	a {Wtitanium{z {BVincitori{z helm: over the head
+E 0 62336 0 20		*	a {Wtitanium{z {BVincitori{z sword: second wielded
+O 0 62333 0 62337	* a table (The Elite Lounge)
+O 0 62334 0 62337	* the bar (The Elite Lounge)
+M 0 62334 1 62337 1	* Lanco Bedivardi (The Elite Lounge)
+G 0 62360 0		*	a wine glass
+G 0 62359 0		*	a bottle of vintage {BVincitori{z family wine
+G 0 62358 0		*	a tumbler of finely-aged brandy
+G 0 62357 0		*	a shot of firewater
+G 0 62356 0		*	a mug of tap
+E 0 62336 0 16		*	a {Wtitanium{z {BVincitori{z sword: wielded
+E 0 62340 0 5		*	a {Wtitanium{z {BVincitori{z breastplate: on the body
+E 0 62344 0 14		*	a {Wtitanium{z {BVincitori{z bracer: on the left wrist
+E 0 62344 0 15		*	a {Wtitanium{z {BVincitori{z bracer: on the right wrist
+E 0 62348 0 10		*	some {Wtitanium{z {BVincitori{z armplates: on the arms
+E 0 62352 0 6		*	a {Wtitanium{z {BVincitori{z helm: over the head
+E 0 62336 0 20		*	a {Wtitanium{z {BVincitori{z sword: second wielded
+O 0 62335 0 62338	* a comfortable bed (Gerad's Bedroom)
+M 0 62336 1 62339 1	* the ninja receptionist (At the Receptionist's Desk)
+E 0 62336 0 16		*	a {Wtitanium{z {BVincitori{z sword: wielded
+E 0 62340 0 5		*	a {Wtitanium{z {BVincitori{z breastplate: on the body
+E 0 62344 0 14		*	a {Wtitanium{z {BVincitori{z bracer: on the left wrist
+E 0 62344 0 15		*	a {Wtitanium{z {BVincitori{z bracer: on the right wrist
+E 0 62348 0 10		*	some {Wtitanium{z {BVincitori{z armplates: on the arms
+E 0 62352 0 6		*	a {Wtitanium{z {BVincitori{z helm: over the head
+E 0 62336 0 20		*	a {Wtitanium{z {BVincitori{z sword: second wielded
+O 0 62335 0 62340	* a comfortable bed (The Saftest Room in All the Realms)
+M 0 62337 1 62340 1	* a small, white mouse (The Saftest Room in All the Realms)
+S
+
+#SHOPS
+62331 0 9 0 0 0 100 17 0 23
+62332 5 0 0 0 0 100 15 0 23
+62333 0 17 0 0 0 100 15 0 23
+62334 0 17 0 0 0 50 17 0 23
+0
+
+#MOBPROGS
+#62331
+if clan $n shadow
+  mob oload 62332
+  unlock west
+  open west
+  mob echoat $n $I steps into the elite lounge, holding the door open for you.
+  mob echoaround $n $I steps into the elite lounge, holding the door open for $n.
+  emote leaves west.
+  mob goto 62337
+  emote has arrived from the east.
+  mob delay 2
+else
+  if clan $n scion
+    say Not bloody likely, Scion scum.
+    if level $n >= 81
+      cast 'fireball' $n
+    endif
+  else
+    say You're unwelcome in the elite lounge.
+  endif
+endif
+~
+#62332
+emote leaves east.
+mob goto 62335
+emote has arrived from the west.
+close west
+lock west
+mob junk key
+~
+#62333
+if name $n Gerad
+  if hpcnt $i >= 5
+    mob oload 62332
+    give key gerad
+  endif
+else
+  if hpcnt $i <= 5
+    mob oload 62332
+    tell Gerad Brother, I am slain...
+  else
+    say No.
+  endif
+endif
+~
+#62334
+if name $n Gerad
+
+say As you wish.
+drop 5000 gold
+drop 2500 gold
+drop 1000 gold
+drop 500 gold
+drop 250 gold
+drop 100 gold
+drop 100 gold
+drop 100 gold
+drop 100 gold
+drop 100 gold
+drop 50 gold
+drop 25 gold
+drop 10 gold
+drop 5 gold
+drop 3 gold
+drop 2 gold
+drop 1 gold
+ 
+if name $i lanco
+ 
+mob oload 62361
+mob oload 62362
+mob oload 62363
+mob oload 62363
+mob oload 62364
+mob oload 62364
+mob oload 62365
+mob oload 62365
+ 
+give war gerad
+give helm gerad
+give ring gerad
+give ring gerad
+give bracer gerad
+give bracer gerad
+give axe gerad
+give axe gerad
+ 
+endif
+endif
+~
+#62335
+if carries $i dummy
+  say Sorry, the room is rented.
+  give 500 gold $n
+else
+  mob oload 62332
+  unlock north
+  open north
+  say Enjoy your stay.
+  give key $n
+  mob oload 62366
+  mob trans $n 62340
+  mob echo $n leaves north.
+endif
+~
+#62336
+if carries $n vincitorixxx
+  if carries $i dummy
+    mob goto 62340
+    if people >= 2
+      mob goto 62339
+      say ...
+      say Right.
+      say You won't be needing that anymore.
+      emote knocks the key from your hand.
+      mob force $n drop vincitorixxx
+      get key
+      mob junk key
+      bow
+    else
+      mob goto 62339
+      say Hope you enjoyed your stay.
+      mob force $n give vincitorixxx ninja
+      mob junk vincitorixxx
+      mob junk dummy
+      bow
+    endif
+  else
+    say ...
+    say Right.
+    say You won't be needing that anymore.
+    emote knocks the key from your hand.
+    mob force $n drop vincitorixxx
+    get key
+    mob junk key
+    bow
+  endif
+else
+  if carries $i dummy
+ :s
+    say Sorry, the room is rented at this time.
+    bow
+  else
+    say Welcome. Would you care to rent the safest room in the realms?
+    say Only 500 gold.
+    grin
+  endif
+endif
+~
+#62337
+if name $n Gerad
+
+mob oload 62332
+unlock north
+open north
+bow
+south
+mob delay 3
+
+else
+
+mob echoat $n $I blocks your path.
+mob echoaround $n $I blocks $n's path.
+say Not so fast, bucko.
+ 
+endif
+~
+#62338
+if money $i >= 50000
+
+say Welcome, $n. Care to gamble away some time?
+say The game is simple.
+say You flip two {BVincitori{z coins onto the gaming table.
+say A 'Tails' side is worth 1 point.
+say A 'Heads' side is worth 2.
+say A total of 4 wins. A total of 3 breaks even.
+say A total of 2...
+snicker
+say Well, are you up for it? 250 gold a game!
+smile
+ 
+else
+ 
+say Sorry, $n. The house is broke. No more gambling today.
+~
+#62339
+if money $i >= 50000
+
+say Well, then! Much obliged! Here are your coins.
+mob oload 62331
+give coins $n
+say Now, let's get down to business!
+mob force $n drop coins
+get coinsxxx
+mob purge coinsxxx
+ 
+if rand 75
+  mob echo The two {BVincitori{z coins settle, revealing two Tails.
+  mob echoat $n Your total is 2.
+  mob echoaround $n $n's total is 2.
+  say Sorry! You did not beat the odds!
+  grin
+else
+  if rand 33
+    mob echo The two {BVincitori{z coins settle, revealing one Heads and one Tails.
+    mob echoat $n Your total is 3.
+    mob echoaround $n $n's total is 3.
+    say Ahh, you break even... this time!
+    give 250 gold $n
+  else
+    mob echo The two {BVincitori{z coins settle, revealing two Heads.
+    mob echoat $n Your total is 4.
+    mob echoaround $n $n's total is 4.
+    say Drat! You win... this time!
+    give 500 gold $n
+  endif
+endif
+ 
+
+else
+say I'm sorry, $n, but the house is broke. There will be no more games today.
+sigh
+give 250 gold $n
+endif
+~
+#62340
+north
+close north
+lock north
+mob junk vincitorixxx
+~
+#62341
+if carries $n 62332
+mob echo What was that noise?
+mob goto 97900
+delay 10
+else
+mob echo You better not forget your key.
+endif
+~
+#62342
+mob goto 62340
+~
+#0
+
+#$

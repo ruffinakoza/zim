@@ -1,0 +1,3755 @@
+#AREADATA
+Name Virgin Forest~
+Builders angelo fronz~
+VNUMs 97401 97600
+Credits -~
+Security 9
+LevelRange 20 60
+ResetMessage Startled birds take to the sky as something moves in the forest.~
+End
+
+#MOBILES
+#97401
+piper elf ranger~
+A elf ranger~
+Here stands a small elf ranger.
+~
+Here stands a tall elf about 8 feet tall.  She has her name tattooed into
+her arm Piper it looks like shes ready to protect this forest with her life
+and will never let you get past.  It looks like she has a great bow in hand
+and will fight you to the death if needs be.  
+~
+elf~
+ABe 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#97402
+wolf dire black freaky~
+A large {DDire Wolf{x~
+A giant wolf stands here, his fur covered in dried and wet blood
+~
+~
+wolf~
+ACGT DFJPVelmt 1000 0
+35 35 74d35+0 35d9+60 10d3+19 bite
+-12 -12 -12 -5
+CKMNR 0 I H
+stand stand male 0
+0 0 large flesh~
+~
+M grall 97402 100~
+M death 97405 100~
+C Sylvan~
+#97403
+virgin forest wizi mob~
+wizi mob~
+wizi mob
+~
+~
+human~
+ABUf 0 0 0
+100 1 9d1+0 10d11+95 2d2+8 none
+7 7 7 8
+0 ABCDEFGHIJKLMNOPQRTUXYZ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 97403 100~
+I 92
+#97404
+dire wolf leader pack alpha male~
+A Huge dire wolf is here~
+a Huge dire wolf is here snarling at you for intruding
+~
+A massive beast, its eyes glint with intelligence, and its wide jaws look
+like it could crush the life out of any creature foolish enough to cross its
+path.  
+~
+wolf~
+ABCFTc DFJVZailt -1000 0
+40 40 116d40+0 200d10+85 13d3+25 bite
+-17 -17 -17 -9
+AKNR HIJLQ M NP
+stand stand male 0
+0 0 large flesh~
+~
+#97405
+female wolf dire pack bitch~
+A huge female dire wolf~
+A Huge female wolf with a thick matted coat of fur stands here guarding her pups
+~
+This wolf suffers no intruders in the forest, with her young to protect.  
+~
+wolf~
+ABCFTc Jaitu -1000 0
+35 35 74d35+0 35d9+60 10d3+19 bite
+-12 -12 -12 -5
+KNR 0 I H
+stand stand female 0
+0 0 large flesh~
+~
+#97406
+dire wolf pup pack~
+a dire wolf pup~
+A pup of a dire wolf sits here with his eyelids still closed
+~
+Still too young to properly defend itself, the pup appears to be almost
+entirely helpless.  
+~
+wolf~
+ABCTc A -1000 0
+20 20 37d20+0 100d10+85 6d3+15 bite
+-3 -3 -3 0
+KR AB I H
+stand stand male 0
+0 0 medium flesh~
+~
+#97407
+figson ranger~
+the great ranger Figson~
+The great ranger Figson is here, looking at you suspiciously.
+~
+Figson, the great ranger of the south, is a legendary elf of his mid
+130s.  He's very handsome, but also has a very rugged nature and look about
+him.  His arms are muscular, his features chisled, and his eyes very
+alert...  
+~
+elf~
+AB BDFZet 0 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+CDEFHIJKNO 0 0 0
+stand stand male 16
+0 0 medium flesh~
+~
+#97408
+druid wood-elf elf healer~
+Druid Wood Elf Healer~
+A Wood Elf stands here looking as if he is a member of the Druids of Old
+~
+Standing here just over six feet tall is a stout looking elf, slender,
+and muscular.  He has a small nose right in the middle of his face and
+tanned from years in the sun.  His eyes are small and slanted, they look
+like dirt, speckled with different colors, grey, brown, black, and tan.  His
+skin looks like it is made of raw hide it has become extremely tough and
+tanned from years and years in the sun.  His clothes are fairly well kept. 
+He covers himself with large thick robes and cloaks that cover his armor and
+clothing, His hair, well cared for, is long and straight, green as the grass
+in the rolling foothills, and very, very, very dirty.  
+~
+elf~
+ABJKQTUabce DFNOVcelmt 0 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+ADEHKNV ABHIJKLQUXYZa 0 0
+stand stand male 5000
+0 0 large flesh~
+~
+F res B
+F vul Z
+#97409
+flissni svelt pixie~
+Flissni~
+A svelt pixie is here with a patch of fur in her hand.
+~
+Dangling a patch of black wolf fur in her hand, the svelt pixie has a 
+miscevious look in her eye.  While she's probably more interested in
+playing pranks on the dire wolves, she has a holster of scrolls and a
+bag of other trinkets she might be willing to part with.  She looks rather
+greedy, though.
+~
+sprite~
+ABSWe PZct 0 0
+64 64 289d64+0 640d11+95 22d2+50 none
+-36 -36 -36 -23
+EFHKNV ABLQ CHK 0
+stand stand female 500
+0 0 medium flesh~
+~
+F vul DI
+#97410
+dire wolf~
+a furious {Ddire{x wolf~
+A {Ddire{x wolf with a patch of missing fur on his tail growls at you.
+~
+This tourmented wolf has a patch of hair missing from its tail.  Its 
+breathing is labored and it seems to have been pushed on step too far.
+~
+wolf~
+ABFGL PVac 0 0
+62 62 241d62+0 310d10+85 20d3+36 bite
+-32 -32 -32 -19
+0 AB ILPQ Z
+stand stand male 0
+0 0 large flesh~
+~
+#97507
+drunken elf~
+A Drunk Elf~
+Here sits a drunk elf.
+~
+This elf looks like she has been done in from drinking and eating so
+much.  There is a werid tattoo on her neck but you don't pay much attention
+to it.  She looks like she will gladly share with all the food she has but
+looks like shes to drunk to know if you stole any anyway.  
+~
+elf~
+ABe 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+EFIKN AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M entry 97508 100~
+M speech 97506 100~
+M greet 97505 100~
+M greet 97507 100~
+#97508
+ranger sentry elf~
+an elf ranger~
+Here you see an Elf ranger looking around sharply, detecting every move in this forest.
+~
+You see a pretty looking ranger seventh feet tall. He has been here for ages protecting this forest from all evil beings. He is finely equiped with a elven bow.
+~
+elf~
+ABGe CDFelmst 1000 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+EJ AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 97509 100~
+C Sylvan~
+#97509
+ranger sentry elf~
+an elf ranger~
+Here you see an Elf ranger looking around sharply, detecting every move in this forest.
+~
+Here stands an elf ranger. She is here guarding the west entrance to the Virgin Forest.
+~
+elf~
+ABGe CDFelmt 1000 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+EJ 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 97510 100~
+M delay 97430 100~
+M speech 97513 Move.~
+M death 97431 100~
+C Sylvan~
+#97510
+ranger sentry elf~
+an elf ranger~
+Here you see an Elf ranger looking around sharply, detecting every move in this forest.
+~
+Here stands an elf ranger. She is here guarding the west entrance to the Virgin Forest.
+~
+elf~
+ABGe CDFelmt 1000 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+EJ 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 9751 100~
+C Sylvan~
+#97511
+ranger sentry elf~
+an elf ranger~
+Here you see an Elf ranger looking around sharply, detecting every move in this forest.
+~
+You see a pretty looking ranger seventh feet tall. He has been here for ages protecting this forest from all evil beings. He is finely equiped with a elven bow.
+~
+elf~
+ABGe CDFelmst 1000 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+EJ AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 97511 100~
+C Sylvan~
+#97512
+ranger sentry elf~
+an elf ranger~
+Here you see an Elf ranger looking around sharply, detecting every move in this forest.
+~
+Here stands an elf ranger. She is here guarding the west entrance to the Virgin Forest.
+~
+elf~
+ABGe CDFelmt 1000 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+EJ 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 97512 100~
+C Sylvan~
+#97520
+virgin~
+a virgin~
+A sleeping virgin is here taking her final nap.
+~
+A sleeping virgin lays before you, dreaming of times past.
+~
+human~
+A KLYdhj 0 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+0 0 0 ABCDEFGHIJKLMNOPQT
+sleep sleep none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#97401
+barrel elvish wine~
+A barrel of elvish wine~
+A elvish wine barrel has been left here.~
+wood~
+~
+drink 0 A
+50 50 'elvish wine' 0
+15 500 3954 P
+G none
+G none
+G none
+G none
+#97402
+pond water~
+A small pond is here~
+A small clear pond sits here its water looks very cool and refreshing~
+unknown~
+pond stuff~
+fountain ABGOR P
+1000000 1000000 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#97403
+purple mushroom~
+A {MPurple{x {yMushroom{x~
+a small {Mpurple{x {ymushroom{x grows here by the ponds edge~
+unknown~
+mushroom stuff~
+pill I AO
+5 'cure poison' 'reserved' 'reserved' 'reserved'
+0 5 50 P
+G none
+G none
+G none
+G none
+#97404
+plant blue exotic furry~
+a {BBlue{c furry {GPlant{x~
+A {BBlue{x {GPlant{x with soft fur grows near the edge of the pond here~
+unknown~
+~
+pill AI AO
+20 'refresh' 'reserved' 'reserved' 'reserved'
+0 15 55 P
+G none
+G none
+G none
+G none
+#97405
+perfectly balanced bow bladed~
+the bow-blade of {Db{zal{Wa{znc{De{z~
+A perfectly balanced, bladed bow rests here.~
+iron~
+~
+weapon AIJKY AN
+bow 10 10 thwack F
+70 71 520884 P
+A
+18 9
+A
+19 9
+G none
+G none
+G none
+G none
+#97406
+quiver figson~
+the {ybelt{x quiver of {GF{gigson{x~
+A rune-covered quiver rests here.~
+mithril~
+~
+container IJKY AL
+100 F 0 100 70 0
+70 5 678020 P
+A
+13 20
+A
+14 20
+A
+20 -10
+G none
+G none
+G none
+G none
+#97407
+figson cloak grey gray shimmering~
+a {Ws{wh{Di{wm{Wm{we{Dr{wi{Wn{wg grey cloak~
+A {Ws{wh{Di{wm{Wm{we{Dr{wi{Wn{wg grey cloak lies here, abandoned.~
+unknown~
+cloth~
+clothing IJKY AK
+BDE BDE BDE ADE 0 BDE BDE
+70 71 150351 P
+A
+18 9
+A
+19 9
+A
+9 35
+G none
+G none
+G none
+G none
+#97431
+arm~
+{DA Set of {gL{yi{gv{yi{gn{yg{x {gW{yoo{gd{D Bracers{x~
+a pair of rotted out old logs~
+unknown~
+~
+armor ABGIRa AI
+23 23 23 22 'none' 0
+63 64 181810 P
+A
+13 75
+G none
+G none
+G none
+G none
+#97432
+pixie~
+{wA {CC{wu{Ct{we Little {mP{Mi{mx{Mi{me{x~
+A dead pixie lies buried here~
+unknown~
+~
+armor ABGIRa AQ
+23 23 23 22 'none' 0
+63 64 154978 P
+A
+13 50
+A
+6 -3
+G none
+G none
+G none
+G none
+#97433
+bracer enchanted leather~
+{DAn {cE{gn{cchant{ge{cd{x {rL{ye{ra{yt{rh{ye{rr{x{D Bracer{x~
+A dusty old leather thong~
+unknown~
+~
+armor ABGIRa AM
+34 34 34 33 'none' 0
+63 96 79754 P
+A
+18 10
+G none
+G none
+G none
+G none
+#97434
+circlet~
+{DA Circlet of {rO{ya{rk{x~
+A circle of oak lies here~
+unknown~
+~
+armor ABGIRa AE
+23 23 23 22 'none' 0
+64 65 156156 P
+A
+18 7
+A
+2 3
+G none
+G none
+G none
+G none
+#97435
+legs~
+{DA Pair of Worn {rL{ye{ra{yt{rh{ye{rr{x{D Hunting Pants{x~
+A pair of dirty, cracked leather pants~
+unknown~
+~
+armor ABGIRa AF
+23 23 23 22 'none' 0
+63 64 189318 P
+A
+19 5
+A
+18 5
+A
+20 -3
+G none
+G none
+G none
+G none
+#97436
+belt~
+{DA Thin, B{cr{Daid{ce{Dd {rB{ye{rl{yt{x{D of {gV{yi{gn{ye{gs{x~
+a twisted, dead vine lies here~
+unknown~
+~
+armor ABGIRa AL
+23 23 23 22 'none' 0
+63 64 73880 P
+A
+12 100
+G none
+G none
+G none
+G none
+#97437
+fire campfire camp pit~
+a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x~
+A {Rc{Ya{Rm{Yp{Rf{Yi{Rr{Ye{w is here, {Rglowing{z and crackling.~
+fire~
+~
+container AR 0
+10000 0 0 0 0 0
+5 0 0 P
+G none
+G none
+G none
+G none
+#97438
+dirty limerick~
+a {ydirty{x limerick~
+A dirty limerick is in the dirt.~
+paper~
+~
+scroll I AO
+50 'faerie fog' 'reserved' 'reserved' 'reserved'
+41 5 50000 P
+G none
+G none
+G none
+G none
+#97439
+dirty limerick~
+a {mnaughty{x limerick~
+a naughty limerick is her in the dust.~
+paper~
+~
+scroll I AO
+50 'faerie fire' 'reserved' 'reserved' 'reserved'
+41 5 60000 P
+G none
+G none
+G none
+G none
+#97501
+shield~
+{DA Huge Tower {wS{Dh{wie{Dl{wd{D Made from {rO{ya{rk{x~
+a dirty old slab of oak~
+unknown~
+~
+armor ABGIRa AJ
+23 23 23 22 'none' 0
+63 64 150768 P
+A
+18 4
+A
+20 -2
+A
+1 1
+A
+5 1
+G none
+G none
+G none
+G none
+#97503
+gauntlets~
+{DA Pair of Beautiful {wS{Di{wlv{De{wr{x and {YG{wo{Yl{wd{x {GE{wl{Gv{we{Gn{x{D Gauntlets{x~
+A pair of tarnished silver and gold gauntlets~
+unknown~
+~
+armor ABGIRa AH
+23 23 23 22 'none' 0
+63 64 109380 P
+A
+19 4
+A
+18 7
+G none
+G none
+G none
+G none
+#97506
+quiver~
+{DA {gB{De{ga{Du{gt{Di{gf{Du{gl{Dl{gy{D Crafted {GE{wl{Gv{wi{Gs{wh{x {rQ{yu{ri{yv{re{yr{x~
+A dusty, old, cracked leather quiver~
+unknown~
+~
+container ABGIRa AC
+1000 F 0 100 100 0
+63 96 42815 P
+A
+18 10
+G none
+G none
+G none
+G none
+#97507
+bed of leaves~
+A Bed of Leaves~
+Here is a small bed of leaves.~
+unknown~
+leaves~
+furniture RSTY 0
+BD EIJKN EHK CFG 0 BD EIJKN
+15 10000 100 P
+G none
+G none
+G none
+G none
+#97508
+bow elven~
+A wood made bow~
+Someone left this wood made bow behind.~
+wood~
+~
+weapon 0 AN
+bow 2 18 blast F
+30 31 20703 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#97509
+quiver elven~
+an elven quiver~
+Here rests a nice elven quiver.~
+unknown~
+~
+container 0 AC
+30 F 0 20 90 0
+30 1 15427 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#97510
+arrow wooden~
+a wooden arrow~
+A wooden arrow lies here.~
+wood~
+~
+weapon 0 AO
+arrow 4 8 pierce 0
+30 5 2596 P
+G none
+G none
+G none
+G none
+#97511
+elven sword~
+a fine elven sword~
+A nice elven sword was dropped here.~
+unknown~
+~
+weapon 0 AN
+longsword 2 18 slash 0
+30 100 27582 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#97512
+pit altar~
+the donation pit~
+A stone pit is here waiting for kind donations.~
+unknown~
+~
+container O 0
+100000 0 0 100000 100 0
+0 0 0 P
+E
+pit~
+This is where you put money and items to help Doz expand this shrine, 
+~
+G none
+G none
+G none
+G none
+#97513
+book holy old worn leather bound~
+a leather-bound book~
+A worn and tattered book, bound in leather, lies here.~
+unknown~
+~
+treasure GIK AO
+0 0 0 0 0
+65 0 0 P
+A
+18 5
+A
+17 -20
+A
+20 -2
+A
+4 1
+E
+leather bound book old worn~
+The book looks ancient.  Upon opening it, you see it is written in a
+language you cannot understand.  You get the distinct feeling that it is
+some sort of holy text, though.  
+~
+G none
+G none
+G none
+G none
+#97514
+newbie map beginning adventurers virgin forest~
+a map for beginning adventurers (Virgin Forest)~
+The wind flutters a map to your feet.~
+paper~
+~
+map RY A
+0 0 0 0 0 0 0
+1 0 10 P
+E
+directions~
+{WTo get to Market Square, Midgaard (MSM) from:{x
+
+{R-{WSunlit Grove{x (Virgin Forest) - Firstly you can only effectively navigate
+during the day, so check the {Rtime{x so you don't become stranded without a
+campfire.  Head west to follow the {Trail through the Virgin Forest{x.  You will
+have to check your {Rexit{xs to ensure that you stay on your path.  {RDO NOT STRAY
+FROM THE TRAIL.  {x Virgin Forest exits to two other forests: Dying Forest and
+Forest of Nowhere.  For those new to adventuring, the Forest of Nowhere (the
+forest to the west) is the safer choice.  You will need to find your way to
+the {WBeginning of the Trail through the Virgin Forest{x, where you can find {WA
+small path in the dense forest{x of nowhere.  You'll need to travel
+predominantly north, northwest, until you reach {WA Trail Through the {yL{Yi{yght
+{gF{Go{grest{x.  {GM{gS{GM{x is due east.  
+~
+E
+newbie map beginning adventurers~
+{C          Map for Beginning Adventurers{x
+{GSh{gi{Yre{x                                                     {YLEGEND{x
+   | {MWG{x                  {MEG{x      |-----{wD{yK{x    {GM{gS{GM{x - Market Square, Midgaard
+   | {R][{x                  {R][{x      |--  |      {CC{cS{CM{x - Common Square, Midgaard
+{g^{x  | {R\/{x                  {R\/{x      |    {YD{MD{x      {g^{x  - Forest of Nowhere
+{g^{x ---{M[]{x-------{GM{gS{GM{x--------{M[]{x-----{CC{RR{x------   {GSh{gi{Yre{x - (5-35)
+{g^{x    |         |          |      |           {MWG{x  - West Gate, Midgaard
+{g^{x    |         |          |   {G^{x  |{G^{x          {MEG{x  - East Gate, Midgaard
+     |        {CC{cS{CM{x         |  {G^ ^{x |  {G^{x        {yPL{x  - Penny Lane
+     |         |          |      +--|     {YE{yC{x {rEA{x  - Emerald Avenue
+     |      The Dump      |         |__  /   {W/\{x 
+     |        /           |           / /    {W[]{x  - Mayor's Office
+     |     Sewers         |          _|/     {DDN{x  - (5-15)Dangerous Neighborhood
+     |                {yPL{x  |        {cE{mS{x        {MSG{x  - South Gate
+     |   {c~~{B~~{c~~{B~~{c~~{B~~{c~~{B~~{c~~{B~~{c~~{B~~{c~~{R][{B~~{c~~{x|{c~~{B~~{c~~{x               {D ^{x  - (5-15) Miden'nir
+     |                {R\/{x  |                  {CC{RR{x  - Cross Roads
+     |                {y----{x|                  {G ^{x  - Dwarf Forest
+     |               {r|{W/\{x  |                  {wD{yK{x  - (10-25)Dwarven Kingdom
+     |           {rEA{R=>{r|{W[]{x  | {R<={x Walls of      {YD{MD{x  - (1-5) Dwarven Daycare
+     |               {r|{x    |      Midgaard    {cE{mS{x  - (10-15)Everlasting Silence
+     |         {MSG{x    {r|{x-{DDN{x |                  {YE{yC{x  - (5-30)Elemental Canyon
+     |         {R][{x         |                  {c~~{B~~{x  - River of Midgaard
+     |         {R\/{x         |                  {R][{x
+     |---------{M[]{x---------|                  {R\/{x  - An Arrow
+            {D ^      ^{x                     Sewers - (0-15)
+           {D^ {gMiden'nir{D ^{x
+{WSome {CDIRECTIONS {Wseem to be scribbled on the back...{x
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#97401
+Trail to the Virgin Forest~
+Leaving the death and decay behind you you start walking beneath a vast
+canopy of what seems to be the oldest trees that your sure most mortal
+beings have ever laid eyes on.  Looking around at the almost maze like
+entanglement of brush and the sheer massiveness of the trees surrounding you
+, you come to the conclusion that this forest might have never been touched
+by the taint of civilization.  Glancing to the west along what seems to be a
+completely natural path you notice that the shrubery grows thinner as those
+massive ancient gaints grows closer togethar.  To the east you see the
+unforgetable desctruction you have just left behind.  Whatever you choose ,
+you might want to do quickly.  You cant help but feel the gaze of numerous
+unseen silent watchers.  That feeling doesn't seem to be friendly.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 24336
+0 0
+D3
+~
+~
+Z 0 97402
+0 0
+S
+#97402
+Trail to the Virgin Forest~
+Walking between the ever thickening trees you notice more sings of
+untouched life than you have ever seen before in any other place on this
+world.  As you give the occasional glance off the trail briefly you notice a
+gaint of a stag staring at you.  Just staring.  You begin to wonder if your
+the first alien existance that the stag has ever seen before.  Putting the
+silly thought out of your head you continue with your journey through this
+magestic forest those stares you felt before seem to grow in entincity. 
+While pondering that almost unhinging feeling of being watched you must
+decide on the next step of action.  You can either continue on west or head
+back to the east.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97401
+0 0
+D3
+~
+~
+Z 0 97403
+0 0
+S
+#97403
+Trail through the Virgin Forest~
+Walking further into the forest it seems only but a little light actually
+touches the forest floor.  Just enough to see cleary in the immediat area. 
+Though with the thickness of the trees about you blocking much of your view
+anyway that is more than enough to suffice.  Feeling that erie gaze you
+quickly decide on the direction you will continue.  East back through the
+forest or south deeper into the domain of those relentless eyes of unseen
+watchers.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97402
+0 0
+D2
+~
+~
+Z 0 97404
+0 0
+S
+#97404
+Trail through the Virgin Forest~
+As you continue into the forest you give an occasional look in random
+directions hoping to atleast catch a slight glimpse of that who has been
+watching you.  That feeling of being watched drives at you to almost the
+point of where you would accuse the forest itself to be watching your every
+movement, hoping that you make a mistake allowing it to destroy you for it. 
+Hurridly you shake that thought out of your head and continue on.  You can
+either go north back from where you came or east,west,or south further into
+the forest.  As you glance around there doesn't seem any way to tell the
+right choice.  If any of them are the right choice that is.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97403
+0 0
+D1
+~
+~
+Z 0 97563
+0 0
+D2
+~
+~
+Z 0 97405
+0 0
+D3
+~
+~
+Z 0 97563
+0 0
+S
+#97405
+Trail through the Virgin Forest~
+Walking along the forest listening to the sounds of distant and not so
+distant animals, you seem barely able to notice any difference at all
+from one league to the next.  That is if you had any way of knowing how far
+you traveled other than counting your own steps.  Which is not going to
+happen that easy with that unceiseing stare that seems to be coming from no
+where and every where all at the same time.  You have the choice of either
+going back north or any of the other cardinal directions.  It doesn't seem
+to matter much any way there almost seems to be no end to this forest.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97404
+0 0
+D1
+~
+~
+Z 0 97463
+0 0
+D2
+~
+~
+Z 0 97406
+0 0
+D3
+~
+~
+Z 0 97463
+0 0
+S
+#97406
+Trail through the Virgin forest~
+As you continue you walk through this ancient forest, at all times aware
+of those unconfertable gazes that never seem to leave you, you begin to
+wonder if your heading in the right direction.  Glancing around it appears
+that every part of this forest looks the same.  Or maybe its just you
+imagination playing ticks on you again.  Shrugging off the feeling of never
+ending stares you prepar to make your next decision as you come to a point
+where the path divides yet again.  Looking in all cardinal directions ever
+choice seems to be the same, except for north where you just came from.... 
+At least you think.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97405
+0 0
+D1
+~
+~
+Z 0 97465
+0 0
+D2
+~
+~
+Z 0 97465
+0 0
+D3
+~
+~
+Z 0 97407
+0 0
+S
+#97407
+Trail through the Virgin Forest~
+The sound of dried fallen leaves crunching at your feet you peer intently
+into the tree tops trying to guess the time.  Time here seems to be almost
+nonexistant, the dimness of evening seems to linger through out the whole
+day.  Taking a glance around you wander if you will ever find a way out of
+this forest or better yet if you even want to.  The sereneness through out
+this forest is enough to even affect some of the most evil people you know. 
+Thinking about that you make your choice of what direction to take next. 
+You can either go back to the east from where you came or continue on north,
+south, or west.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97466
+0 0
+D1
+~
+~
+Z 0 97406
+0 0
+D2
+~
+~
+Z 0 97466
+0 0
+D3
+~
+~
+Z 0 97408
+0 0
+S
+#97408
+Trail through the Virgin Forest~
+Walking the path you chose, you cant help but feel the pull to want to
+stay.  The soft sounds of wildlife around you and the slight breeze that
+always feels just right are enought to make almost anyone want to spend the
+rest of there life here.  Taking a look at the multiple directions the path
+once again leads you casually make your choice and head on.  North, South ,
+and West lead deeper into the forest.  East leads back the way you came.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97409
+0 0
+D1
+~
+~
+Z 0 97407
+0 0
+D2
+~
+~
+Z 0 97467
+0 0
+D3
+~
+~
+Z 0 97467
+0 0
+S
+#97409
+Trail through the Virgin Forest~
+Walking between the entaglment of never ending trees you hear faint
+sounds of some thing moving through the canopy of leaves above you.  Perhaps
+just the sound was just a bird fluttering through the tree tops, but you
+cant help but wonder if it was those watchers you have felt for since you
+entered this forest.  Now that you think of it, it does seem that the
+feeling of being watched has lessend considerably for the last few leagues. 
+Pondering this you make you next choice as the path again splits into four
+more directions.  South the way you came or North, East, or West to proceed
+deeper into the forest.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97468
+0 0
+D1
+~
+~
+Z 0 97468
+0 0
+D2
+~
+~
+Z 0 97408
+0 0
+D3
+~
+~
+Z 0 97410
+0 0
+S
+#97410
+Trail through the Virgin Forest~
+Walking along the natural path you find your way by the slim rays of
+light that seem to barely penetrate the canapy of trees.  Casually glances
+to the sides of the path you notice an occational animal scurry along beside
+you.  By the way they follow you it seems that some of maybe even none of
+them has ever seen anything from the outside of this forest.  Once again you
+come to a crossway in the path.  The same directions as allways.  Seems that
+these paths lead to now where in paticular making it easy for even the most
+experience tracker to get lost.  North, South, and West lead to paths you
+haven't been on yet while the path leading to the East will take you back
+from where you came.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97469
+0 0
+D1
+~
+~
+Z 0 97409
+0 0
+D2
+~
+~
+Z 0 97411
+0 0
+D3
+~
+~
+Z 0 97469
+0 0
+S
+#97411
+Trail through the Virgin Forest~
+The occasional sound of wildlife around you, you come up to another
+crossway on the path.  With the feel of the never ending stares of the
+unseen watchers about you to make your choice of the path you wish to take. 
+Ever direction seems to look the same but your pretty sure you just came
+from the north...  Or was that the east.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97410
+0 0
+D1
+~
+~
+Z 0 97470
+0 0
+D2
+~
+~
+Z 0 97412
+0 0
+D3
+~
+~
+Z 0 97470
+0 0
+S
+#97412
+Trail through the Virgin Forest~
+Walking among the humongus trees you notice what appears to be a small
+clearing to the east of you.  Of course the path splits in the other
+directions as well but your almost sure of a distinct clearing to the east. 
+The clearing pulling on your mind you stop to make another choice of the
+path you will continue on.  You can either go north from where you came,
+east into the strange clearing, or south and west farther into the vast
+forest.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97411
+0 0
+D1
+~
+~
+Z 0 97471
+0 0
+D2
+~
+~
+Z 0 97451
+0 0
+D3
+~
+~
+Z 0 97413
+0 0
+S
+#97413
+Trail through the Virgin Forest~
+Walking through this section of forest on could say isn't half bad.  With
+the diversity of exotic plant and wildlife here you can barely break your
+attention from it long enough to wonder about the things that where
+plagueing you just a few leagues ago.  Tearing your thoughts off the
+plentiful plants and animals just long enough to realise that your at
+another intersection in the trail you make you next decision in what
+direction you will travel next.  The forest seems to continue on forever on
+all sides.  Taking one last look around you either choose to continue on the
+path your on or to take a different one.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97481
+0 0
+D1
+~
+~
+Z 0 97412
+0 0
+D2
+~
+~
+Z 0 97481
+0 0
+D3
+~
+~
+Z 0 97414
+0 0
+S
+#97414
+Trail through the Virgin Forest~
+It appears that you have entered another bland section of the forest. 
+All the plant life around you are of the same type you have been used to for
+so long.  With no exotic plant or animal life to draw your thoughts they
+seem to have gone back to what has been nagging at you since you entered
+this overly serene forest.  The same old thoughts of being hopelessly lost
+and that uncomfertable feeling of being watched that has almost never left
+you plagueing your mind you come to the intersection in the trail and make
+your choice.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97482
+0 0
+D1
+~
+~
+Z 0 97413
+0 0
+D2
+~
+~
+Z 0 97415
+0 0
+D3
+~
+~
+Z 0 97482
+0 0
+S
+#97415
+Trail through the Virgin Forest~
+Argg....  Are you ever going to find a way out of this misleadingly
+serene forest or are you going to be hoplessly lost in it forever.  Taking a
+deep breathe to calm yourself you make yourself believe that you will at
+least you hope you will......  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97414
+0 0
+D1
+~
+~
+Z 0 97483
+0 0
+D2
+~
+~
+Z 0 97483
+0 0
+D3
+~
+~
+Z 0 97416
+0 0
+S
+#97416
+Trail through the Virgin Forest~
+You have been walking forever and now the plant life tends not to be
+enough to draw much of your attention at all anymore.  With that felling of
+being watched ever so present you step up to the intersection in the trail
+and make once again your choice of direction.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97484
+0 0
+D1
+~
+~
+Z 0 97415
+0 0
+D2
+~
+~
+Z 0 97417
+0 0
+D3
+~
+~
+Z 0 97484
+0 0
+S
+#97417
+Trail through the Virgin Forest~
+Yet again another section of the forest...  This is enought to make even
+the best of the best foresters think there going in circles.  Will you ever
+find what you seek will you ever find a way out??  Only the next section of
+forest can tell and maybe those people who have been watching almost the
+whole time you have been in this forest.  That is if its even people at
+all...  Well thinking that there will be time enough to ponder this later
+you ready yourself for yet another intersection in the trail.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97416
+0 0
+D1
+~
+~
+Z 0 97418
+0 0
+D2
+~
+~
+Z 0 97485
+0 0
+D3
+~
+~
+Z 0 97485
+0 0
+S
+#97418
+Trail through the Virgin Forest~
+Continueing down this seemingly endless trail you come to a section of
+forest where the sounds of wildlife can only vaguely be heard.  With forest
+stretching out all around you you pick a direction and continue on your way.
+
+~
+0 0 forest
+D0
+~
+~
+Z 0 97486
+0 0
+D1
+~
+~
+Z 0 97486
+0 0
+D2
+~
+~
+Z 0 97419
+0 0
+D3
+~
+~
+Z 0 97417
+0 0
+S
+#97419
+Trail through the Virgin Forest~
+You continue along the trail through the ancient forest. The trees seem a bit
+lighter here, but that's not saying a whole lot, given how truly dense the rest
+of the forest is. There seems to be a lack of wildlife around here, too; odd.
+You can't really pinpoint why.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97418
+0 0
+D1
+~
+~
+Z 0 97487
+0 0
+D2
+~
+~
+Z 0 97487
+0 0
+D3
+~
+~
+Z 0 97420
+0 0
+S
+#97420
+Trail through the Virgin Forest~
+You continue down the trail, into what seems to be an area overpopulated by
+ferns. They seem to be everywhere here, taking over every available inch of 
+the ground, even the trail... it's hard to even see where the trail is supposed
+to be, here. The forest continues in all directions. You're sure the trail is
+around here, somewhere.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97488
+0 0
+D1
+~
+~
+Z 0 97419
+0 0
+D2
+~
+~
+Z 0 97488
+0 0
+D3
+~
+~
+Z 0 97421
+0 0
+S
+#97421
+Trail through the Virgin Forest~
+You continue along the trail through the ancient Virgin Forest. The wildlife
+here is as active as ever, with chirping birds feeding their squeeking young,
+rodents forraging for food, and some sort of larger mammal grazing on the
+grass. The forest seems to be getting a bit darker to the west.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97489
+0 0
+D1
+~
+~
+Z 0 97420
+0 0
+D2
+~
+~
+Z 0 97489
+0 0
+D3
+~
+~
+Z 0 97422
+0 0
+S
+#97422
+Trail through the Virgin Forest~
+You continue walking along the trail, amazed by the sheer magnitude of the
+life contained in this small section of the world. Plantlife is everywhere,
+and where plants are, animals are. There's a lot of strange creatures to be
+seen here; even the rodents look exotic. The forest is everywhere, but you
+can see the faint {rf{z{Rli{z{Yck{z{Rer{z{rs{z of a campfire to the south.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97423
+0 0
+D1
+~
+~
+Z 0 97421
+0 0
+D2
+~
+~
+Z 0 97490
+0 0
+D3
+~
+~
+Z 0 97431
+0 0
+S
+#97423
+Trail through the Virgin Forest~
+As you march along the trail here, you notice the trail getting darker. It
+seems that the canopy is getting thicker as you progress. A tree unlike any
+you've seen before sits near the path before; it's leaves are {Rred{z, unlike
+almost all of the surrounding folliage. Perhaps it's diseased...
+~
+0 0 forest
+D0
+~
+~
+Z 0 97424
+0 0
+D1
+~
+~
+Z 0 97491
+0 0
+D2
+~
+~
+Z 0 97422
+0 0
+D3
+~
+~
+Z 0 97491
+0 0
+S
+#97424
+Trail through the Virgin Forest~
+As you continue, the forest gets even darker. It seems the trees along the 
+trail are even more densely packed here than usual. You can see what looks like
+a colony of bats sleeping in one; another contains what appears to be some
+type of fruit, though you've never seen a square-shaped fruit before. Come to
+think of it, everything in this forest looks a bit odd and alien, and you can't
+help but feel a bit dwarfed by the towering ancient trees surrounding you. The
+forest continues in all directions, but you can see the flickers of a {rf{z{Rl{z{Ya{z{Rm{z{re{z to
+the west.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97438
+0 0
+D1
+~
+~
+Z 0 97425
+0 0
+D2
+~
+~
+Z 0 97423
+0 0
+D3
+~
+~
+Z 0 97492
+0 0
+M 191 H 282
+S
+#97425
+Trail through the Virgin Forest~
+Along the path you continue, admiring the grand environment you've found 
+yourself in. The trunks of all the trees around here are truly massive, 
+impying their old age. A lot of different types of them seem to cohabitat
+here, hinting at how fertile and aged the soil must be. A grand, weathered 
+boulder is the only indication of an existance in this spot before the forest.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97426
+0 0
+D1
+~
+~
+Z 0 97495
+0 0
+D2
+~
+~
+Z 0 97495
+0 0
+D3
+~
+~
+Z 0 97424
+0 0
+S
+#97426
+Trail through the Virgin Forest~
+You continue trudging through the dense forest. Here, there are beautiful 
+flowers everywhere blooming from the trees, and the trail is covered in {Mpink{z
+and {Rrose{z colored flower petals. As a result, the trail is a little slippery,
+but the pleasant smell seems worth it.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97496
+0 0
+D1
+~
+~
+Z 0 97496
+0 0
+D2
+~
+~
+Z 0 97425
+0 0
+D3
+~
+~
+Z 0 97427
+0 0
+S
+#97427
+Trail through the Virgin Forest~
+You wander further into the strange forest, intrigued by all the flora around
+you. The trees are like nothing you've ever seen; their massive timeless trunks
+seem to have a peculiar {Yyellowish{z glint, if you look at them at precisely the
+right angle. You hear a skwaking noise above you, and you look to see a flock
+of some sort of birds you don't recognize heading what you think is south. 
+The dense forest is all around.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97497
+0 0
+D1
+~
+~
+Z 0 97426
+0 0
+D2
+~
+~
+Z 0 97497
+0 0
+D3
+~
+~
+Z 0 97428
+0 0
+S
+#97428
+Trail through the Virgin Forest~
+You press on into the strange, grand forest that extends before you. There's a
+wealth of life all around you, almost overwhelming you with sights and sounds.
+You aren't really sure where this path is leading, but the excitement of good,
+old-fashioned exploration has the best of your curiosity. The forest expands in
+what seems to be all directions.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97598
+0 0
+D1
+~
+~
+Z 0 97427
+0 0
+D2
+~
+~
+Z 0 97598
+0 0
+D3
+~
+~
+Z 0 97429
+0 0
+S
+#97429
+Trail through the Virgin Forest~
+You continue deeper into what looks like a very massive forest indeed; large,
+ancient trees can be seen for miles. The trees seem to be of types you can
+recognize, but somehow different, as though the trees you know and love are
+distant cousins to these giants. The wildlife in this forest is also just as
+different; the animals are vaguely recognizable, but still distant from what
+you know.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97499
+0 0
+D1
+~
+~
+Z 0 97428
+0 0
+D2
+~
+~
+Z 0 97499
+0 0
+D3
+~
+~
+Z 0 97430
+0 0
+S
+#97430
+Beginning of the Trail trough the Virgin Forest~
+You seem to have found yourself in a new, strange area of the forest; you
+don't recall ever seeing this spot before. The trees seem to have abruptly
+changed type here; they're much larger and more exotic than the trees to the
+west. You're also struck by how incredibly dense the plantlife is packed, here;
+the trail is hardly passable, and it's very hard to follow.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97500
+0 0
+D1
+~
+~
+Z 0 97429
+0 0
+D2
+~
+~
+Z 0 97500
+0 0
+D3
+~
+~
+Z 0 6015
+0 0
+S
+#97431
+Trail through the Virgin Forest~
+You're standing along the path through the ancient forest. Some of the 
+vegetation is truly marvelous; a particularly {Bblue{z plant catches your eye.
+Many of the species of plant and animal look alien to you at first, as you are
+not used to seeing them. The canopy of the forest is abuzz with the chattering
+of birds here, and everything seems vibrant and alive.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97501
+0 0
+D1
+~
+~
+Z 0 97422
+0 0
+D2
+~
+~
+Z 0 97432
+0 0
+D3
+~
+~
+Z 0 97501
+0 0
+S
+#97432
+Trail through the Virgin Forest~
+You meandor down the trail merrily, enjoying the beautiful scenery all around
+you. You spot a complex spider web next to the path, intricately woven between
+a couple of massive tree trunks. A light cotton-like substance seems to be
+raining down on you from a tree above; they're probably seeds.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97431
+0 0
+D1
+~
+~
+Z 0 97502
+0 0
+D2
+~
+~
+Z 0 97433
+0 0
+D3
+~
+~
+Z 0 97502
+0 0
+S
+#97433
+Trail through the Virgin Forest~
+As you continue marching down the trail, you stumble and almost fall over
+what seems to be a fallen tree branch. An army of ants seems to be crawling
+all over and around it. Above you, you can hear the nattering of a bird,
+presumably scolding you for being too close to her nest. A group of fern
+plants grow at the edge of the path, and a small colony of mushrooms grow on
+it.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97432
+0 0
+D1
+~
+~
+Z 0 97503
+0 0
+D2
+~
+~
+Z 0 97434
+0 0
+D3
+~
+~
+Z 0 97503
+0 0
+S
+#97434
+Trail through the Virgin Forest~
+You pick your way through the thick vegitation as you continue along the
+barely visible path. The forest canopy seems much thicker here, and there is
+much less light as a result. The sounds of wildlife can be heard in all
+directions, and the air is moist.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97433
+0 0
+D1
+~
+~
+Z 0 97504
+0 0
+D2
+~
+~
+Z 0 97435
+0 0
+D3
+~
+~
+Z 0 97504
+0 0
+S
+#97435
+Trail through the Virgin Forest~
+You slowly move through this dark think ancient forest and have been
+noticing eyes all around you and creatures not seen by man.  It looks like
+this forest has been kept presserved for thousands of years.  It looks like
+there are many strange animals all around you they seems to not notice you
+until you get near them they will run away.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97434
+0 0
+D1
+~
+~
+Z 0 97505
+0 0
+D2
+~
+~
+Z 0 97505
+0 0
+D3
+~
+~
+Z 0 97436
+0 0
+S
+#97436
+Trail through the Virgin Forest~
+This area seems like a nice, cool, shady place.  There is the smell
+apples in the air and the swift wind blowing in your hair.  It seems the
+flowers are blossiping all around you.  There are flowers and plants all
+around it makes you forget about all the troubles you have had and just a
+relaxing time.  There is wild life moving all around you looking for food
+and playing.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97437
+0 0
+D1
+~
+~
+Z 0 97435
+0 0
+D2
+~
+~
+Z 0 97506
+0 0
+D3
+~
+~
+Z 0 97506
+0 0
+S
+#97437
+Trail through the Virgin Forest~
+All around you is a maze of {gh{Ge{gd{Gg{ge{Gs{x.  Creatures, and other
+things, watching you from within the bowels of those {gh{Ge{gd{Gg{ge{Gs{x. 
+To those weak of courage, it seems as if there are {gR{ya{gn{yg{ge{yr{gs{x
+hidden deep within the {Ds{wh{Dado{ww{Ds{x of the forest, stalking them.  To
+those strong of courage, it seems as if those {gR{ya{gn{yg{ge{yr{gs{x hidden
+deep within the {Ds{wh{Dado{ww{Ds{x of the forest are bearing down on them,
+arrows fettered to bow strings, ready to fly!  In the distance,
+{Yl{wi{Yo{wn{Ys{x can be heard, roaring proudly.  {yO{rw{yl{rs{x can be
+heard hooting nonchalantly in the darkest {Ds{wh{Dado{ww{Ds{x.  It sounds as
+if a horn is blown from within the tree, announcing something.  The sweet
+scent of {rap{ypl{res{x assaults your senses from above, it's sweet aroma
+lingering in the air.  Time seems to stand still as you are here, alluring
+you further into the depths of the forest.  There, more than just the
+creatures lurk.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97507
+0 0
+D1
+~
+~
+Z 0 97507
+0 0
+D2
+~
+~
+Z 0 97436
+0 0
+D3
+~
+~
+Z 0 7700
+0 0
+S
+#97438
+Trail through the Virgin Forest~
+The treeline gets thicker and thicker above you as you continue, here. The 
+few rays of light coming from the sky beam down through the natural mist of the
+forest, giving it a very ethereal look. The noises of the forest seem a little
+quieter here, not like the veritable cacophony of the other parts. The forest
+extends in all directions.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97439
+0 0
+D1
+~
+~
+Z 0 97493
+0 0
+D2
+~
+~
+Z 0 97424
+0 0
+D3
+~
+~
+Z 0 97493
+0 0
+S
+#97439
+Trail through the Virgin Forest~
+You continue deeper into the dark, overgrown forest. The canopy is nearly
+completely blocking out the sky, and it's much darker here than in the other
+parts; you think this place might require a torch to see, even during the day.
+The forest stretches in all directions, though you see what looks like a dried-
+up pond to the east.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97494
+0 0
+D1
+~
+~
+Z 0 97440
+0 0
+D2
+~
+~
+Z 0 97438
+0 0
+D3
+~
+~
+Z 0 97494
+0 0
+S
+#97440
+Dried up Watering Hole~
+Walking through the forest you stumble a upon an old watering hole that
+has dried up.  When you examine the watering hole you notice that the reason
+it dried up is becuase of all the dead animal skeletons inside the hole, the
+ground around the watering hole is blackened and dead.  To the east you see
+a dark and ominous cave.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97441
+0 0
+D3
+~
+~
+Z 0 97439
+0 0
+S
+#97441
+Before the Cave entrance~
+The entrance to the cave is big enough for a giant sized giant to fit
+through.  There are large thorn vines hanging down from the top of the cave,
+bones and carcasses litter the entrance to the cave.  As you get closer you
+can hear strange and scary sounds coming from deep within the cave.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97442
+0 0
+D3
+~
+~
+Z 0 97440
+0 0
+S
+#97442
+Dark and damp cave~
+This is the first room inside the cave.  The walls and floors are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  
+~
+0 0 inside
+D0
+~
+~
+Z 0 97443
+0 0
+D3
+~
+~
+Z 0 97441
+0 0
+S
+#97443
+Dark and damp cave~
+This is the second room inside the cave. The walls and floor are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  Ever so often you can see the remnants of
+the weapons and armor from the humans that have rusted away to nearly
+nothing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 97444
+0 0
+D2
+~
+~
+Z 0 97442
+0 0
+S
+#97444
+Dark and damp cave~
+This is the third room inside the cave. The walls and floor are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  Ever so often you can see the remnants of
+the weapons and armor from the humans that have rusted away to nearly
+nothing.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 97445
+0 0
+D2
+~
+~
+Z 0 97443
+0 0
+S
+#97445
+Dark and damp cave~
+This is the fourth room inside the cave.  The walls and floor are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  Ever so often you can see the remnants of
+the weapons and armor from the humans that have rusted away to nearly
+nothing.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 97446
+0 0
+D3
+~
+~
+Z 0 97444
+0 0
+S
+#97446
+Dark and damp cave~
+This is the fifth room inside the cave. The walls and floor are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  Ever so often you can see the remnants of
+the weapons and armor from the humans that have rusted away to nearly
+nothing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 97447
+0 0
+D3
+~
+~
+Z 0 97445
+0 0
+S
+#97447
+Dark and damp cave~
+This is the sixth room inside the cave. The walls and floor are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  Ever so often you can see the remnants of
+the weapons and armor from the humans that have rusted away to nearly
+nothing.
+~
+0 0 inside
+D1
+~
+~
+Z 0 97448
+0 0
+D3
+~
+~
+Z 0 97446
+0 0
+S
+#97448
+Dark and damp cave~
+This is the seventh room inside the cave. The walls and floor are damp
+and spongy to the touch.  The walls are covered with moss and mold and dried
+blood.  Littering the floor along the walls are bones from all different
+types of animals "Even Humans".  Ever so often you can see the remnants of
+the weapons and armor from the humans that have rusted away to nearly
+nothing. The cave leads into two rooms one north and one south.
+~
+0 0 inside
+D0
+~
+~
+Z 0 97449
+0 0
+D2
+~
+~
+Z 0 97450
+0 0
+D3
+~
+~
+Z 0 97447
+0 0
+S
+#97449
+Sleeping den of the Dire Wolf Leader~
+This room is very warm and musty smelling, This is where the wolves and
+the pack leader sleep.  The floor is matted with straw and other things to
+cushion the hard rocky floor.  There are large piles of bones and carcasses
+around the sleeping bed.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 97448
+0 0
+S
+#97450
+Mating den~
+This room is rather clean (compared to the rest of the cave that is),
+there is a large pile of straw in the center of the room where all the
+female wolves are sleeping.  Along the walls of this large room are small
+piles of straw where the wolf pups sleep in thier nests.  This seems to be
+the mating chambers of the wolves, You can smell the female wollves in heat
+and it is somewhat overpowering.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 97448
+0 0
+S
+#97451
+Trail through the Virgin Forest~
+Walking in a section of the forest that looks like most of the others you
+have been in you come once again to a crossway on the trail.  You can head
+north back the way you came or the other cardinal directions to who knows
+where in this endless mutlitude of ancient trees.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97412
+0 0
+D1
+~
+~
+Z 0 97472
+0 0
+D2
+~
+~
+Z 0 97452
+0 0
+D3
+~
+~
+Z 0 97472
+0 0
+S
+#97452
+Trail through the Virgin Forest~
+Is startiling how much this part of the forest looks like all the others
+Done to the exotic looking herbs that litter the forest floor, everthing
+seems to be almost identical.  You cant be for sure though, and your hoping
+its not.  What you can be for sure is that those watcher's gazes never leave
+you body.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97451
+0 0
+D1
+~
+~
+Z 0 97473
+0 0
+D2
+~
+~
+Z 0 97453
+0 0
+D3
+~
+~
+Z 0 97473
+0 0
+S
+#97453
+Trail through the Virgin Forest~
+Walking along the path you are still amazed with all the new life forms
+about you.  Your also amazed about how confusing one forest can be.  With
+that thought in your mind you continue to the crossway in the trail. 
+Hmmm...  What way to go now.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97452
+0 0
+D1
+~
+~
+Z 0 97474
+0 0
+D2
+~
+~
+Z 0 97454
+0 0
+D3
+~
+~
+Z 0 97474
+0 0
+S
+#97454
+Trail through the Virgin Forest~
+Walking through a part of the forest that with no suprise looks like all
+others you've seen so far, you come to yet another crossway on the trail. 
+North, South, East, or West.  At this point any of them sounds as good.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97453
+0 0
+D1
+~
+~
+Z 0 97475
+0 0
+D2
+~
+~
+Z 0 97475
+0 0
+D3
+~
+~
+Z 0 97455
+0 0
+C Chaos~
+S
+#97455
+Trail through the Virgin Forest~
+Strolling along the barely visable path you notice many new types of
+exotic plants and animals.  Greatful for the change you stroll up to the
+next crossing on the path.  All the directions seem to lead deeper into the
+forest, some how never leading to the way out.  Or maybe thats just your
+imagination.  Any way it's time to make another choice.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97576
+0 0
+D1
+~
+~
+Z 0 97454
+0 0
+D2
+~
+~
+Z 0 97576
+0 0
+D3
+~
+~
+Z 0 97456
+0 0
+S
+#97456
+Trail through the Virgin Forest~
+You've entered a part of the forest that actually seems completely
+different from the rest.  The strange plants all your feet seem to draw your
+attention untill you once again come to a break in the path.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97477
+0 0
+D1
+~
+~
+Z 0 97455
+0 0
+D2
+~
+~
+Z 0 97457
+0 0
+D3
+~
+~
+Z 0 97477
+0 0
+S
+#97457
+Trail through the Virgin Forest~
+Still surrounded by large trees and wildlife you dont even bother
+glancing around as much anymore.  The feeling of being watched isnt as bad
+anymore once you have grown used to it, walking up to the crossway in the
+trail you almost smile.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97456
+0 0
+D1
+~
+~
+Z 0 97478
+0 0
+D2
+~
+~
+Z 0 97458
+0 0
+D3
+~
+~
+Z 0 97478
+0 0
+S
+#97458
+Trail through the Virgin Forest~
+You are standing in a ancient forest the sound of wildlife all around
+you.  You seem to have come to another intersection of the trial in the
+forest. Looking around you make your choice and continue on.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97457
+0 0
+D1
+~
+~
+Z 0 97479
+0 0
+D2
+~
+~
+Z 0 97459
+0 0
+D3
+~
+~
+Z 0 97479
+0 0
+S
+#97459
+Trail through the Virgin Forest~
+Hey!!  Haven't you passed that tree before.  Oh man you must be going in
+circles.  Hmm.  Wait wasn't that other tree alot bigger.  Oh well time to
+choose another direction, or you could just keep heading down this one...  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97458
+0 0
+D1
+~
+~
+Z 0 97460
+0 0
+D2
+~
+~
+Z 0 97480
+0 0
+D3
+~
+~
+Z 0 97480
+0 0
+S
+#97460
+Sunlit Grove~
+You step into a small grove that is very bightly lite by the sun.  The
+plants flourish here with so much sunlight and the cool water from the small
+pond in the center of the grove.  There are some very exotic plants growing
+near the pond.  You see a small purple mushroom and a small blue plant with
+what looks like fur growing near the ponds edge.  Perhaps these plants are
+edible?  To your east you notice that the grove is darker and there are some
+very different plants growing there as well.  
+ 
+~
+0 0 inside
+D1
+~
+~
+Z 0 97461
+0 0
+D3
+~
+~
+Z 0 97459
+0 0
+D4
+~
+~
+Z 0 17600
+0 0
+S
+#97461
+Moon lite grove~
+You step into a small grove that has been illuminated by the moons light.
+The plants flourish here with so much moonlight and the cool water from the
+small pond in the center of the grove.  There are some very exotic plants
+growing near the pond.  You see a small purple mushroom and a small blue
+plant with what looks like fur, growing near the ponds edge.  Perhaps these
+plants are edible?  
+~
+0 0 inside
+D3
+~
+~
+Z 0 97460
+0 0
+S
+#97463
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+every side are streched out quite far apart here.  Even though there spaced
+out there doesn't seem to be anything growing on the forest floor besides
+the occasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost you peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97405
+0 0
+D3
+~
+~
+Z 0 97405
+0 0
+S
+#97465
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost. You peer into the darkness hoping to find your way.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97406
+0 0
+D3
+~
+~
+Z 0 97406
+0 0
+S
+#97466
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost. You peer into the darkness hoping to find your way.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97407
+0 0
+D2
+~
+~
+Z 0 97407
+0 0
+S
+#97467
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost. You peer into the darkness hoping to find your way.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97408
+0 0
+D1
+~
+~
+Z 0 97408
+0 0
+S
+#97468
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into th darkness hoping to find your way.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 97409
+0 0
+D3
+~
+~
+Z 0 97409
+0 0
+S
+#97469
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97410
+0 0
+D2
+~
+~
+Z 0 97410
+0 0
+S
+#97470
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97411
+0 0
+D3
+~
+~
+Z 0 97411
+0 0
+S
+#97471
+Camp site~
+Entering into the strange clearing your confusion starts to show.  In the
+very center of the clearing is what to appears to be the remains of an
+ancient camp fire.  A flat circle really with stones completely surrounding
+it.  The stones themself seem to not have been moved in years, decades even
+with the exception of one.  A little largers then the others it appears to
+have been recently moved.  Strange.  Taking another look around you also
+notice something else strange.  It appears those you have been watching you
+no longer do.  The only exit is to the west back onto the path from where
+you came.  
+~
+0 0 forest
+E
+large~
+Examining the strange stone you dont seem to notice anything particularly strange about it. Untill you take a look the bottom of the stone. On the bottom of the stone you see these words carved deep into the stone: {YXile{x {dthe{x {MMysterious Wanderer{x
+~
+D3
+~
+~
+Z 0 97412
+0 0
+S
+#97472
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even th light seems to shy away from
+this part of the forest or maybe thats just becouse of the massiveness of
+the canopy of leaves above you.  With a somber thought of being completely
+lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97451
+0 0
+D3
+~
+~
+Z 0 97451
+0 0
+S
+#97473
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97452
+0 0
+D3
+~
+~
+Z 0 97452
+0 0
+S
+#97474
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97453
+0 0
+D3
+~
+~
+Z 0 97453
+0 0
+S
+#97475
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97454
+0 0
+D3
+~
+~
+Z 0 97454
+0 0
+S
+#97476
+~
+~
+0 0 inside
+S
+#97477
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97456
+0 0
+D2
+~
+~
+Z 0 97456
+0 0
+S
+#97478
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97457
+0 0
+D3
+~
+~
+Z 0 97457
+0 0
+S
+#97479
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy.  If
+it is drilling a whole through you.  Even light seems to shy away from this
+part of the forest or maybe thats just becouse of the massiveness of the
+canopy of leaves above you.  With a somber thought of being completely lost.
+You peer into th darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97458
+0 0
+D3
+~
+~
+Z 0 97458
+0 0
+S
+#97480
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Eve light seems to shy away from
+this part of the forest or maybe thats just becouse of the massiveness of
+the canopy of leaves above you.  With a somber thought of being completely
+lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97459
+0 0
+D1
+~
+~
+Z 0 97459
+0 0
+S
+#97481
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97413
+0 0
+D2
+~
+~
+Z 0 97413
+0 0
+S
+#97482
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97414
+0 0
+D1
+~
+~
+Z 0 97414
+0 0
+D2
+~
+~
+Z 0 97414
+0 0
+S
+#97483
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97415
+0 0
+D3
+~
+~
+Z 0 97415
+0 0
+S
+#97484
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97416
+0 0
+D2
+~
+~
+Z 0 97416
+0 0
+S
+#97485
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even th light seems to shy away from
+this part of the forest or maybe thats just becouse of the massiveness of
+the canopy of leaves above you.  With a somber thought of being completely
+lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97417
+0 0
+D1
+~
+~
+Z 0 97417
+0 0
+S
+#97486
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 97418
+0 0
+D3
+~
+~
+Z 0 97418
+0 0
+S
+#97487
+Near a Cliff in the Virgin Forest~
+You stagger off the trail and nearly kill yourself on the rocks in the ravine
+far below! You're lucky. There seems to be no trees or forest in the canyon
+before you, but the decline seems impassable. Doesn't look like much reason to
+pass it, anyway. You see the trail nearby.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97419
+0 0
+D3
+~
+~
+Z 0 97419
+0 0
+S
+#97488
+Virgin Forest~
+You bumble around blindly in the thick sea of fern plants, desperately trying
+to regain your bearings. The ferns are EVEYRYWHERE! Panic begins to set in
+right after the confusion; one could very easily get lost and stay lost in this
+forest. Luckily, you see what looks like the trail... but both to the north,
+and the south. How's that for confusing?
+~
+0 0 forest
+D0
+~
+~
+Z 0 97420
+0 0
+D2
+~
+~
+Z 0 97420
+0 0
+S
+#97489
+Inside the Virgin Forest~
+You find yourself off the path, and are amazed at how much more the wildlife
+is present here than there. There seems to be an infinite number of variations
+of plants and animals present in this strange, secluded forest. It's as though
+evolution has occured completely seperate here from the other parts of the
+world. Odd... you see the path both to the north, and to the south.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97421
+0 0
+D2
+~
+~
+Z 0 97421
+0 0
+S
+#97490
+Camp Site~
+You stand in what seems to be a deserted camp site.  Odd; the fire is
+still going, and there' seven fresh food on a spit over the fire...  But you
+don't see anyone right away.  The logs that serve as benches look awfully
+comfortable, though...  Perhaps you could rest and wait for the owners to
+come back.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97422
+0 0
+S
+#97491
+Off the trail in the Virgin Forest~
+As you stray off the pay into the dense vegitation, you sense a strange aura
+here; something seems slightly awry, but you can't seem to put your finger on
+what's amiss. The brush all looks the same, as does the visible wildlife.
+Perhaps it's just your mind (or the chaos clan) playing tricks on you.
+~
+0 0 forest
+D1
+~
+~
+Z 0 97423
+0 0
+D3
+~
+~
+Z 0 97423
+0 0
+S
+#97492
+Camp Site~
+The dense forest opens to a small clearing, where the light shines in from
+above, sparkeling in the dew on the grass.  A small fire pit is full of
+embers as if someone didn't make time to maintain the fire, or got
+distracted.  The grass is trodden down to the west.
+~
+0 0 forest
+D1
+~
+~
+Z 0 97424
+0 0
+D3
+~
+~
+Z 0 97498
+0 0
+S
+#97493
+Into the dense Virgin Forest~
+Entering the thickly packed trees and shrubbery, you find yourself in a very
+thick web of plantlife; you can't step anywhere without stepping on something or
+bumping into something else. There's a bit less wildlife here, though, than the
+other parts of the forest. You wonder why...
+~
+0 0 forest
+D1
+~
+~
+Z 0 97438
+0 0
+D3
+~
+~
+Z 0 97438
+0 0
+S
+#97494
+A Giant Tree in the Forest~
+Here, all the other trees seem to have given way to the gigantic willow before
+you. The trunk as to be as wide as a man is tall, and it's far taller than any
+tree you've seen before. The area, slightly elevated, seems very peaceful, and
+you can't help but consider taking a quick nap on the soft grass beneath this
+giant.
+~
+0 0 forest
+D1
+~
+~
+Z 0 97439
+0 0
+D2
+~
+~
+Z 0 97439
+0 0
+S
+#97495
+Virgin Forest~
+Straying from the trail, you find yourself in the very thick of the forest.
+There seems to be some sort of {clichen{z growing on the trunks of the trees here,
+change the color of the area dramatically. For a moment you panic as you realize
+you might be lost, but as you look around, there's only two ways permitting
+travel, and they both look completely identical... peculiar.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97425
+0 0
+D3
+~
+~
+Z 0 97425
+0 0
+S
+#97496
+Under the Blossom Trees~
+You wander off the trail, and find yourself standing underneith a sea of {Mpink{z
+and {Rrose{z colored blossoms. The Fragrance is sweet and soothing, and you feel
+totally at peace as the flower pedals slowly float to the ground all around 
+you. You can't but thinking to yourself... 'If only they could bottle this.'
+~
+0 0 forest
+D2
+~
+~
+Z 0 97426
+0 0
+D3
+~
+~
+Z 0 97426
+0 0
+S
+#97497
+Virgin Forest~
+You stand a bit befuddled in the ancient forest. Everything is new, so it's
+quite a sight to behold. The giant trees, the strange animals, the bizarre
+sounds... it's all a bit disconcerting. You think it might be a bit easier to
+handle back on the path.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97427
+0 0
+D2
+~
+~
+Z 0 97427
+0 0
+S
+#97498
+A Culdesac~
+The trampled down brush ends here where several downed trees have closed off
+and further passage.  The birds hush on their perches, as if all are in
+wait for something to happen.
+~
+0 AX forest
+D1
+~
+~
+Z 0 97492
+0 0
+S
+#97499
+In the Virgin Forest~
+You are off the path in the Virgin Forest. The entire area seems to be
+completely overgrown, with plants in every nook and cranny possible. The soil
+must be incredibly rich. The noise of animals and insects can be heard in
+every direction, and the bushes and trees are alive with movement. Odd; you
+see the trail both to the north, and the south.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97429
+0 0
+D2
+~
+~
+Z 0 97429
+0 0
+D3
+~
+~
+Z 0 100971
+0 0
+S
+#97500
+In the Virgin Forest~
+You meander off the path and into the lush surrounding folliage; it's truly
+impressive. The plant and animal life seems much more vibrant and alive, here;
+it makes the forest to the west seem stagnant and catatonic by comparison. You
+can see birds lining the branches of the trees, rodents forraging for nuts and
+berries on the ground, and you even see some sort of furry animal duck into a
+hole as he spots you. It's truly alive here.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97430
+0 0
+D2
+~
+~
+Z 0 97430
+0 0
+S
+#97501
+A hill in the Virgin Forest~
+You stand atop a hill near the path. A strong wind blows in the higher air
+here, and what looks like the great grandfather of a willow tree stands
+proudly at the center of this clearning. The break in the canopy gives a full
+view of the sky, a refreshing change from the dense forest surrounding it.
+~
+0 0 forest
+D1
+~
+~
+Z 0 97431
+0 0
+D2
+~
+~
+Z 0 97431
+0 0
+S
+#97502
+Virgin Forest~
+You're standing in the midst of a thick collection of bushes. The smell of
+sweetness permeates the air, and you suddenly see why, as you nearly slip on
+some berries the bushes have dropped. They look edible, but you remember that
+looks can be decieving. You can see the trail both to the east and the west...
+That's awfully strange...
+~
+0 0 forest
+D1
+~
+~
+Z 0 97432
+0 0
+D3
+~
+~
+Z 0 97432
+0 0
+S
+#97503
+In the Virgin Forest~
+You struggle and shimmey your way between two trees, and find yourself in a
+slightly less dense spot of the forest. The blossoms on the trees give off a
+pleasant fragrance, and you feel at peace. There's a rock that looks somewhat
+bench-like here, facing a small creek. Fish swim merrily to and fro,
+oblivious to your presence. A warm breeze blows across your face, and you
+begin to consider a drink.
+~
+0 0 forest
+D1
+~
+~
+Z 0 97433
+0 0
+D3
+~
+~
+Z 0 97433
+0 0
+S
+#97504
+Off the Trail in the Virgin Forest~
+You hack and slash you way through the underbrush as you stray off the path.
+There seems to be almost an overabundance of plant life; you're surprised
+how dense the vegitation is. Many plants you've never seen grow side by side
+with ones you're familiar with, and many eyes peer at you from an assortment
+of wildlife. Odd... you see the trail both to the east, and the west.
+~
+0 0 forest
+D1
+~
+~
+Z 0 97434
+0 0
+D3
+~
+~
+Z 0 97434
+0 0
+S
+#97505
+Clearing in the Forest~
+The forest is lighter here, as the trees and plants give way to a clearing.
+A patch of flowers grows in the center of the field, giving the sea of green
+a spot of color. The trees are very large, showing their age, but they seem 
+untouched, as though they were somehow shielded from the weathering of time.
+Odd... you swear that the path to the north looks identical to the path to
+the east...
+~
+0 0 forest
+D0
+~
+~
+Z 0 97435
+0 0
+D3
+~
+~
+Z 0 97435
+0 0
+S
+#97506
+In the Virgin Forest~
+Trudging through the forest on this small trail, you see many beautiful
+exotic plants and animals you aren't used to seeing. There's an air of
+innocence here, and the smell of lilacs floats on the breeze. Everything
+is calm.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97436
+0 0
+D1
+~
+~
+Z 0 97436
+0 0
+S
+#97507
+Rock Circle~
+Here is a small ring of rocks.  It looks like there has been a camp of
+rangers who stayed the night here but there is no sign of which way they
+went.  They were nice enough to leave some odds and ends but nothing worth
+your time.  There is a faint sound in the trees above but its to faded for
+you to tell exactly what it is.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 97437
+0 0
+D3
+~
+~
+Z 0 97437
+0 0
+S
+#97563
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides the
+occasional moss.  This part of the forest makes you feel very uneasy.  That
+cold feeling of being watched is so intense at this point it feels as if it
+is drilling a whole through you.  Even the light seems to shy away from this
+part of the forest or maybe thats just becouse of the massiveness of the
+canopy of leaves above you.  With a somber thought of being completely lost
+you peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 97404
+0 0
+D3
+~
+~
+Z 0 97404
+0 0
+S
+#97576
+Virgin Forest~
+Walking into this part of the forest you notice massive vines hanging
+from almost every where.  The ancient gaint trees that surround you on every
+side are streched out quite far apart here.  Even though there spaced out
+there doesn't seem to be anything growing on the forest floor besides
+theoccasional moss.  This part of the forest makes you feel very uneasy. 
+That cold feeling of being watched is so intense at this point it feels as
+if it is drilling a whole through you.  Even the light seems to shy away
+from this part of the forest or maybe thats just becouse of the massiveness
+of the canopy of leaves above you.  With a somber thought of being
+completely lost.  You peer into the darkness hoping to find your way.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 97455
+0 0
+D2
+~
+~
+Z 0 97455
+0 0
+S
+#97598
+In the Virgin Forest~
+You stumble off the trail through the forest, and find yourself in the thick
+of it. There's a plethora of strange, new plants and animals that demand your
+attention, and you can't help but stare and gawk in wonder at the sheer
+magnitude of the eco-system you've found yourself in. It's like nothing else
+you've seen. Looking around, you seem to be able to spot the trail you came from
+both to the north, and the south... that's strange.
+~
+0 0 forest
+D0
+~
+~
+Z 0 97428
+0 0
+D2
+~
+~
+Z 0 97428
+0 0
+S
+#0
+
+#SPECIALS
+M 97408 spec_cast_adept	* Druid Wood Elf Healer
+M 97409 spec_cast_mage	* Flissni
+S
+
+#RESETS
+M 0 97401 1 97401 1	* A elf ranger (Trail to the Virgin Forest)
+M 0 97508 5 97401 1	* an elf ranger (Trail to the Virgin Forest)
+E 0 97508 0 16		*	A wood made bow: wielded
+E 0 97509 0 3		*	an elven quiver: around the neck (1)
+P 0 97510 4 97509 4	* an elven quiver: a wooden arrow
+M 0 97402 40 97402 1	* A large {DDire Wolf{x (Trail to the Virgin Forest)
+M 0 97402 40 97404 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97406 1	* A large {DDire Wolf{x (Trail through the Virgin forest)
+M 0 97402 40 97408 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97410 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97412 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97414 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97416 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97418 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97420 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97402 40 97422 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97512 -1 97422 1	* an elf ranger (Trail through the Virgin Forest)
+E 0 97508 0 16		*	A wood made bow: wielded
+E 0 97509 0 3		*	an elven quiver: around the neck (1)
+P 0 97510 -4 97509 1	* an elven quiver: a wooden arrow
+M 0 97402 40 97424 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97509 5 97430 1	* an elf ranger (Beginning of the Trail trough the Virgin Forest)
+E 0 97509 0 3		*	an elven quiver: around the neck (1)
+E 0 97508 0 16		*	A wood made bow: wielded
+P 0 97510 4 97509 1	* an elven quiver: a wooden arrow
+M 0 97403 1 97437 1	* wizi mob (Trail through the Virgin Forest)
+M 0 97402 40 97439 1	* A large {DDire Wolf{x (Trail through the Virgin Forest)
+M 0 97404 1 97449 1	* A Huge dire wolf is here (Sleeping den of the Dire Wolf Leader)
+M 0 97405 1 97450 1	* A huge female dire wolf (Mating den)
+M 0 97406 3 97450 3	* a dire wolf pup (Mating den)
+M 0 97511 1 97453 1	* an elf ranger (Trail through the Virgin Forest)
+E 0 97511 0 16		*	a fine elven sword: wielded
+O 0 97402 0 97460	* A small pond is here (Sunlit Grove)
+O 0 97403 0 97460	* A {MPurple{x {yMushroom{x (Sunlit Grove)
+O 0 97404 0 97460	* a {BBlue{c furry {GPlant{x (Sunlit Grove)
+M 0 97408 1 97460 1	* Druid Wood Elf Healer (Sunlit Grove)
+M 0 3029 50 97460 1	* the Universal Teacher (Sunlit Grove)
+O 0 97402 0 97461	* A small pond is here (Moon lite grove)
+O 0 97403 0 97461	* A {MPurple{x {yMushroom{x (Moon lite grove)
+O 0 97404 0 97461	* a {BBlue{c furry {GPlant{x (Moon lite grove)
+O 0 97512 0 97461	* the donation pit (Moon lite grove)
+O 0 97514 0 97461	* a map for beginning adventurers (Virgin Forest) (Moon lite grove)
+M 0 97402 40 97463 1	* A large {DDire Wolf{x (Virgin Forest)
+O 0 97437 0 97490	* a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x (Camp Site)
+M 0 97407 1 97490 1	* the great ranger Figson (Camp Site)
+E 0 97405 0 16		*	the bow-blade of {Db{zal{Wa{znc{De{z: wielded
+E 0 97406 0 13		*	the {ybelt{x quiver of {GF{gigson{x: around the waist
+E 0 97407 0 12		*	a {Ws{wh{Di{wm{Wm{we{Dr{wi{Wn{wg grey cloak: about the shoulders
+G 0 97513 0		*	a leather-bound book
+M 0 97409 1 97498 1	* Flissni (A Culdesac)
+G 0 97438 0		*	a {ydirty{x limerick
+G 0 97439 0		*	a {mnaughty{x limerick
+M 0 97410 1 97498 1	* a furious {Ddire{x wolf (A Culdesac)
+M 0 97510 1 97505 1	* an elf ranger (Clearing in the Forest)
+E 0 97511 0 16		*	a fine elven sword: wielded
+O 0 97507 0 97507	* A Bed of Leaves (Rock Circle)
+O 0 97437 0 97507	* a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x (Rock Circle)
+P 0 7704 4 97437 4	* a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x: A Roasted Trout
+O 0 97401 0 97507	* A barrel of elvish wine (Rock Circle)
+M 0 97507 1 97507 1	* A Drunk Elf (Rock Circle)
+G 0 97401 0		*	A barrel of elvish wine
+S
+
+#SHOPS
+97409 0 0 0 0 0 150 12 0 23
+0
+
+#OLIMITS
+O 97405 1	* the bow-blade of {Db{zal{Wa{znc{De{z
+O 97406 1	* the {ybelt{x quiver of {GF{gigson{x
+S
+
+#MOBPROGS
+#97402
+if clan $n sylvan
+bow $n
+endif
+if isevil $n
+growl $n
+murder $n
+end
+~
+#97403
+mob echoat $n {WAn arrow comes sailing from the tree line and sticks in the ground near your feet.{x
+mob echoat $n A voice booms from the forest {RDo not enter this place unless you are worthy of the forests bounty.{x
+~
+#97405
+clan {YI've been slain by {r$n{x!
+~
+#97430
+say Back to my post!
+West
+Mob goto 97430
+~
+#97431
+Clan {gMy service to the forest has been ended by {R$n{x{g.{x
+~
+#97505
+echoat Here is my sad story of my life. I grew up as a wood elf working for my mentor Tidus. He took care of me with the rest of the elves. It seems all went well untill i tryed some of his special wine.
+~
+#97506
+Gtransfer $n 3300
+~
+#97507
+if $* of race human
+mob force self drink barrel
+if $* of race elf
+say There is one of my drunken brothers now!!!!
+end
+endif
+~
+#97508
+Force self drink barrel
+~
+#97509
+if clan $n sylvan
+emote stands at attention.
+else
+if isevil $n
+clan {r$n{g, has tainted our forest with there {DEVIL{g presence.{x
+clan {r$n{x was last seen at the {CEast Entrance{x.
+end
+endif
+if clan $n sylvan
+smile $n
+else
+clan {c$n{g has entered into our forest.{x
+clan {c$n{g was last seen at the {yEast Entrance.{x
+end
+endif
+~
+#97510
+if clan $n sylvan
+emote stands at attention.
+else
+if isevil $n
+clan {r$n{g, has tainted our forest with there {DEVIL{g presence{w.
+clan {r$n{w was last seen at the {CWest Entrance{w.
+end
+endif
+if clan $n sylvan
+smile $n
+else
+clan {c$n{g has entered into our forest.
+clan {c$n{g was last seen at the {yWest Entrance{w.
+end
+endif
+~
+#97511
+if clan $n sylvan
+emote stands at attention.
+else
+if isevil $n
+clan {r$n{g, has tainted our forest with there {DEVIL{g presence.{x
+clan {r$n{x was last seen in the middle of the trail,{Cnear the east Entrance.{x
+end
+endif
+if clan $n sylvan
+smile $n
+else
+clan {c$n{g has entered into our forest.{x
+clan {c$n{g was last seen in the middle of the trai,{ynear East Entrance.{x
+end
+endif
+~
+#97512
+if clan $n sylvan
+emote stands at attention.
+else
+if isevil $n
+clan {r$n{g, has tainted our forest with there {DEVIL{g presence.{x
+clan {r$n{x was last seen in the middle of the trail, {Cnear the West Entrance.{x
+end
+endif
+if clan $n sylvan
+smile $n
+else
+clan {c$n{g has entered into our forest.{x
+clan {c$n{g was last seen in the middle of the trail, {ynear the West Entrance.{x
+end
+endif
+~
+#97513
+if clan $n sylvan
+say Certainly.
+mob goto 97429
+mob delay 1
+~
+#0
+
+#$

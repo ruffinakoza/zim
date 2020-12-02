@@ -1,0 +1,3704 @@
+#AREADATA
+Name Wonderland~
+VNUMs 21000 21199
+Credits Yaegar~
+Security 9
+LevelRange 35 45
+End
+
+#MOBILES
+#21000
+alice~
+Alice~
+Alice raises her eyebrows and says "Curiouser and curiouser!"
+~
+In her amazement she has completely forgotten proper English. As if the
+inrecdible sights of Wonderland weren't enough, now she has encountered you,
+a strange being clad in dozens of different types of armor with no regard for
+fashion. Small wonder she is both amazed and afraid of you!
+~
+human~
+AGH HN 400 0
+45 45 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+EFNU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M act 21002 looks at you.~
+M kill 21001 100~
+M greet 21000 100~
+#21001
+white rabbit~
+a white rabbit~
+A smartly dressed white rabbit scurries by, muttering to himself.
+~
+"I'm late! I'm late!" he seems to be saying, which is impossible as rabbits
+don't talk. Or do they? He was certainly very well dressed for a rabbit, or
+for anyone for that matter. Perhaps you'd fancy acquiring some of his
+accoutrements? After all, how hard could he be to slay?
+~
+rabbit~
+AGHT HJNPT 400 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+ENR 0 BEI F
+stand stand male 0
+HM BGI medium flesh~
+~
+M greet 21003 100~
+M act 21024 leaves up.~
+M act 21024 leaves down.~
+M act 21024 leaves east.~
+M act 21024 leaves west.~
+M act 21024 leaves north.~
+M act 21024 leaves south.~
+M act 21024 leaves.~
+#21002
+mouse~
+a mouse~
+A mouse is struggling to keep afloat here.
+~
+The mouse is swimming, with some difficulty, to the edge of this pool of
+water. He looks startled upon seeing you approach, and cautiously demands
+to know whether you are a cat.
+~
+rabbit~
+AGH J 400 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+ENU 0 0 0
+stand stand male 0
+HM B medium flesh~
+~
+M greet 21004 100~
+M act 21025 leaves north.~
+M act 21025 leaves south.~
+M act 21025 leaves up.~
+M act 21025 leaves down.~
+M act 21025 leaves east.~
+M act 21025 leaves west.~
+M act 21025 leaves.~
+#21003
+duck~
+a duck~
+A duck waddles about, looking very confused.
+~
+Like you, this creature found itself suddenly submerged in a pool of Alice's
+tears. Although being a duck, it isn't half as worried.
+~
+water fowl~
+AGH 0 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand female 0
+HMV B medium flesh~
+~
+M greet 21005 100~
+M act 21026 leaves north.~
+M act 21026 leaves south.~
+M act 21026 leaves up.~
+M act 21026 leaves down.~
+M act 21026 leaves east.~
+M act 21026 leaves west.~
+M act 21026 leaves.~
+#21004
+dodo~
+a dodo~
+A dodo is busy arranging some sort of foot race.
+~
+He is in fact arranging a caucus-race, to help everyone get dry. It seems to
+consist of everyone gathering about in a circular shape ("the exact shape doesn't
+matter") and running about until they are quite dry.
+~
+human~
+ABG N 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M act 21007 looks at you.~
+M greet 21006 100~
+M act 21027 leaves north.~
+M act 21027 leaves south.~
+M act 21027 leaves up.~
+M act 21027 leaves down.~
+M act 21027 leaves east.~
+M act 21027 leaves west.~
+M act 21027 leaves.~
+#21005
+lory~
+a lory~
+A lory is busily racing about to dry off.
+~
+The lory is feeling rather sulky, as it feels that as the oldest present
+(though it will NOT reveal its age) it knows best and should be in charge.
+~
+human~
+AGH T 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M act 21010 looks at you.~
+M greet 21009 100~
+M act 21008 tells you~
+M act 21028 leaves north.~
+M act 21028 leaves south.~
+M act 21028 leaves up.~
+M act 21028 leaves down.~
+M act 21028 leaves east.~
+M act 21028 leaves west.~
+M act 21028 leaves.~
+#21006
+eaglet~
+an eaglet~
+An eaglet screeches and stretches its soaking wet wings.
+~
+The eaglet is growing impatient with the talk- all the long words he doesn't
+know the meaning of, and doubtless nor do any of the others present.
+~
+human~
+ABG T 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21011 100~
+M act 21029 leaves north.~
+M act 21029 leaves south.~
+M act 21029 leaves up.~
+M act 21029 leaves down.~
+M act 21029 leaves east.~
+M act 21029 leaves west.~
+M act 21029 leaves.~
+#21007
+magpie~
+an elderly magpie~
+An elderly magpie complains about the cold.
+~
+This magpie is quite frail and is concerned the chill from being wet will
+cause her to become ill.
+~
+human~
+ABGH T 400 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+EFNU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21012 100~
+M act 21030 leaves north.~
+M act 21030 leaves south.~
+M act 21030 leaves up.~
+M act 21030 leaves down.~
+M act 21030 leaves east.~
+M act 21030 leaves west.~
+M act 21030 leaves.~
+#21008
+owl~
+an owl~
+An owl prepares to join in the caucus race.
+~
+This owl is quite young and not very wise as yet, so it is deferring to the
+wisdom of the older birds and engaging in the decidedly silly caucus race.
+~
+human~
+ABG T 400 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21013 100~
+#21009
+old crab~
+an old crab~
+An old crab is lecturing her daughter about losing her temper.
+~
+This elderly crab is enough to try the patience of an oyster!
+~
+human~
+ABGT N 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21015 100~
+#21010
+young crab~
+a young crab~
+A young crab is telling her mother to hold her tongue.
+~
+This youthful crustacean is sick of her mother's constant lecturing.
+~
+human~
+ABGH N 400 0
+35 35 74d35+0 35d9+60 10d3+19 none
+-12 -12 -12 -5
+EFNU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21014 100~
+#21011
+bill lizard~
+Bill the lizard~
+Bill the lizard is standing here, waiting to be lowered down the chimney.
+~
+He doesn't look as if he is too keen to be doing this, but he's been given
+no choice.
+~
+lizard~
+ABGH 0 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+HMV B medium flesh~
+~
+M greet 21016 100~
+M kill 21017 100~
+M death 21018 100~
+#21012
+guinea pig~
+a guinea pig~
+A guinea pig stands here holding a length of rope.
+~
+He and his fellow are preparing to lower poor Bill down the chimney to see
+what it is inside that is causing such a clamour.
+~
+pig~
+ABGH 0 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+HM B medium flesh~
+~
+M greet 21019 100~
+M act 21020 looks at you.~
+#21013
+puppy dog~
+a puppy dog~
+A puppy dog looks at you with large round eyes.
+~
+This little pup has been abandoned here. He looks like he'd LOVE to have
+someone to play with.
+~
+dog~
+ABGH J 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+HM B medium flesh~
+~
+M greet 21021 100~
+M act 21022 tells you~
+M act 21023 leaves north.~
+M act 21023 leaves south.~
+M act 21023 leaves east.~
+M act 21023 leaves west.~
+M act 21023 leaves up.~
+M act 21023 leaves down.~
+M act 21023 leaves.~
+#21014
+caterpillar~
+the caterpillar~
+The caterpiller puffs on its hookah and says languidly "Who are YOU?"
+~
+The caterpillar stands and stretches himself to his full height of three
+inches and patiently awaits an answer. He is an infuriating conversationalist.
+~
+human~
+ABGHT HJN 400 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21031 100~
+M act 21032 looks at you.~
+M act 21033 leaves north.~
+M act 21033 leaves south.~
+M act 21033 leaves up.~
+M act 21033 leaves down.~
+M act 21033 leaves east.~
+M act 21033 leaves west.~
+M act 21033 leaves.~
+#21015
+pigeon~
+a pigeon~
+A pigeon spies you and screams "Serpent!"
+~
+The paranoid bird has mistaken you for a dreaded serpent, whom she fears
+and detests because they steal her eggs. Too bad she's unlikely to live
+long enough to explain her actions...
+~
+song bird~
+A 0 0 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M greet 21034 100~
+M act 21035 looks at you.~
+M act 21036 leaves north.~
+M act 21036 leaves south.~
+M act 21036 leaves up.~
+M act 21036 leaves down.~
+M act 21036 leaves east.~
+M act 21036 leaves west.~
+M act 21036 leaves.~
+#21016
+fish footman~
+a fish-footman~
+A fish-footman is here bearing an invitation.
+~
+This fellow is smartly clad in livery and powdered wig, though you find it
+quite disconcerting how he looks at the sky rather than looking you in the
+eyes when he speaks. Then again, its not like he can help it.
+~
+fish~
+ABGT 0 400 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+EFNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 21037 100~
+M act 21038 looks at you.~
+#21017
+frog footman~
+a frog-footman~
+A frog-footman is accompanying the fish-footman.
+~
+The frog is as neatly dressed as his aquatic companion, save that his
+appearance is rendered by far more civil by the fact that he can look
+straight ahead.
+~
+human~
+ABGT 0 400 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M act 21039 tells you~
+#21018
+duchess~
+the Duchess~
+The Duchess sits here nursing her baby.
+~
+She is a hefty woman with an inordinately large head, upon which rests a
+baby's cradle. The occupant of the cradle is in her lap. She seems quite
+short-tempered and irritable.
+~
+human~
+ABDG N 400 0
+43 43 133d43+0 215d10+85 14d3+26 none
+-19 -19 -19 -10
+EFNU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21040 100~
+M random 21041 5~
+M act 21041 tells you~
+#21019
+pig baby~
+the Duchess' baby~
+The Duchess' baby oinks and squeals. Oinks?
+~
+The baby appears to be quite porcine in manner and appearance. Every now and
+then it is struck by a plate hurled by the cook, and it squeals anew, the
+dirge interrupted only by periodic sneezing due to all the pepper in the air.
+~
+pig~
+ABG 0 0 0
+34 34 82d34+0 170d10+85 11d3+22 none
+-13 -13 -13 -6
+EFNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 21042 100~
+#21020
+cook~
+the cook~
+The cook is preparing some sort of soup, which seems to require a LOT of pepper.
+~
+The cook also seems immune to the sneeze-inducing effects of her ingredient.
+From time to time she hurls a piece of crockery at the other occupants of the
+room, though it doesn't seem to bother most of them in the least!
+~
+human~
+ABGT 0 0 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+EFNU 0 L 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21043 100~
+M act 21044 says ~
+M act 21045 leaves north.~
+M act 21045 leaves south.~
+M act 21045 leaves up.~
+M act 21045 leaves down.~
+M act 21045 leaves east.~
+M act 21045 leaves west.~
+M act 21045 leaves.~
+#21021
+cheshire cat~
+a Cheshire Cat~
+A Cheshire Cat smirks at you.
+~
+Smirking and grinning seem to be the only expressions this feline is
+capable of. You weren't aware that cats could grin; then again, you've never
+met a Cheshire Cat before. It has an irritating habit of making parts of
+itself invisible, leaving only a tail, head or just a grin floating eerily
+in the air.
+~
+human~
+AGHL HJNU 1000 0
+45 45 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21046 100~
+M random 21047 5~
+M act 21048 looks at you.~
+M act 21049 leaves north.~
+M act 21049 leaves south.~
+M act 21049 leaves up.~
+M act 21049 leaves down.~
+M act 21049 leaves east.~
+M act 21049 leaves west.~
+M act 21049 leaves.~
+#21022
+mad hatter~
+the Mad Hatter~
+The Mad Hatter engages you in conversation.
+~
+Everything this insane man says is nonsense, though you do find it rather
+amusing. He tells you of the time he had to sing at a concert given by
+the Queen, where he performed "Twinkle, twinkle, little bat"-
+
+"Twinkle, twinkle, little bat!
+ How I wonder what you're at!
+
+ Up above the world you fly,
+ Like a tea-tray in the sky."
+
+ Twinkle, twinkle, little bat!
+ How I wonder what you're at!
+~
+human~
+ABG H 400 0
+42 42 127d42+0 210d10+85 14d3+26 none
+-19 -19 -19 -10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21050 100~
+M act 21051 looks at you.~
+M act 21052 tells you ~
+M act 21054 leaves north.~
+M act 21054 leaves south.~
+M act 21054 leaves up.~
+M act 21054 leaves down.~
+M act 21054 leaves east.~
+M act 21054 leaves west.~
+M act 21054 leaves.~
+#21023
+march hare~
+the March Hare~
+The March Hare, who went insane last March, explains "It's always tea-time!"
+~
+Since they decided to freeze time at Six O'clock to save the Hatter's head,
+it has always been tea-time, with no time to wash up. So they alternate
+seats and serving sets. The Hare wants you to tell them a story now.
+~
+human~
+ABG H 400 0
+41 41 122d41+0 205d10+85 13d3+25 none
+-18 -18 -18 -9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21050 100~
+M act 21054 leaves north.~
+M act 21054 leaves south.~
+M act 21054 leaves up.~
+M act 21054 leaves down.~
+M act 21054 leaves east.~
+M act 21054 leaves west.~
+M act 21054 leaves.~
+#21024
+dormouse~
+the Dormouse~
+The Dormouse snores loudly, and is pinched by its companions.
+~
+The Dormouse seems to be asleep, but it still manages to inject comments into
+the conversation when it fancies. It decides to tell you a story, involving
+sisters, treacle and treacle wells. It really doesn't make much sense, but
+the Dormouse gets irritated if interrupted, so you patiently listen.
+~
+human~
+ABG PR 400 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21055 100~
+M random 21056 5~
+#21027
+gardener heart five card~
+a gardener~
+A gardener who resembles a playing card is busily painting a rose bush.
+~
+This fellow (who is the five of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+~
+human~
+ABGHT 0 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21057 100~
+M act 21058 tells you~
+M act 21058 says~
+M act 21058 tells you~
+M act 21058 says~
+M greet 21059 100~
+#21028
+gardener heart seven card~
+a gardener~
+A gardener who resembles a playing card quickly bows upon seeing you.
+~
+This fellow (who is the seven of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+~
+human~
+ABGHT 0 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21059 100~
+M act 21058 says~
+M act 21058 tells you~
+#21029
+gardener heart two card~
+a gardener~
+A gardener who resembles a playing card is squabbling with his friends.
+~
+This fellow (who is the two of hearts) is busy trying to paint the white
+roses red before the Queen arrives.
+~
+human~
+ABGHT 0 400 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21060 100~
+M random 21061 Ugg~
+M act 21062 leaves north.~
+M act 21062 leaves south.~
+M act 21062 leaves up.~
+M act 21062 leaves down.~
+M act 21062 leaves east.~
+M act 21062 leaves west.~
+M act 21062 leaves.~
+#21030
+soldier club card~
+a soldier~
+A soldier, who is actually a playing card in the suit of clubs, marches by.
+~
+These stern cards are sworn to protect and obey the Queen.
+~
+human~
+AGTX N 400 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21063 100~
+M act 21064 looks at you.~
+#21031
+courtier diamond card~
+a courtier~
+A flat, oblong courtier, ornamented with diamonds, strolls by.
+~
+These noble cards accompany the Queen everywhere.
+~
+human~
+AGX 0 400 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21065 100~
+M act 21066 looks at you.~
+M act 21067 leaves north.~
+M act 21067 leaves south.~
+M act 21067 leaves up.~
+M act 21067 leaves down.~
+M act 21067 leaves east.~
+M act 21067 leaves west.~
+M act 21067 leaves.~
+#21032
+child card hearts heart~
+a child of the Queen~
+A tiny card bearing hearts upon it scurries about like a child.
+~
+These small tykes are the children of the Queen.
+~
+human~
+AGHX 0 400 0
+34 34 82d34+0 170d10+85 11d3+22 none
+-13 -13 -13 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21068 100~
+#21033
+king hearts~
+the King of Hearts~
+The King of Hearts strolls proudly past.
+~
+The King is here to play croquet with the court. Although he is King, he
+defers to his overbearing wife in most matters. He strngly resembles the
+Kings you see on playing cards.
+~
+human~
+AGTX HJ 400 0
+41 41 140d41+0 410d11+95 14d2+34 none
+-20 -20 -20 -12
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21069 100~
+M act 21070 looks at you.~
+M act 21071 leaves north.~
+M act 21071 leaves south.~
+M act 21071 leaves up.~
+M act 21071 leaves down.~
+M act 21071 leaves east.~
+M act 21071 leaves west.~
+M act 21071 leaves.~
+#21034
+queen hearts~
+the Queen of Hearts~
+The Queen of Hearts screams "Off with their heads!"
+~
+The Queen is an imposing aggressive woman who solves every problem by
+demanding that the heads of the causes of them be lopped off. No-one's head
+ever actually DOES get lopped off, but that doesn't deter her.
+~
+human~
+AGJLNPQRTY JN -400 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+EFNU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21072 100~
+M act 21072 leaves north.~
+M act 21072 leaves south.~
+M act 21072 leaves up.~
+M act 21072 leaves down.~
+M act 21072 leaves east.~
+M act 21072 leaves west.~
+M act 21072 leaves.~
+M act 21073 looks at you.~
+M kill 21074 100~
+M act 21075 tells you~
+#21035
+knave hearts~
+the Knave of Hearts~
+The Knave of Hearts smiles and nods a lot.
+~
+The Knave isn't the brightest of cards by a long shot. He is however a
+notorious thief, his biggest crime to date being the theft of the Queen's
+tarts.
+~
+human~
+AGHTX 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M act 21048 looks at you.~
+M greet 21076 100~
+M act 21077 tells you ~
+#21036
+flamingo~
+a flamingo~
+A flamingo is fleeing across the croquet lawn.
+~
+This poor bird is attempting to avoid being used by the many players as a
+croquet mallet.
+~
+human~
+AGHX 0 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21078 100~
+#21037
+hedgehog~
+a hedgehog~
+A hedgehog jumps up and scampers off after being hit by a flamingo.
+~
+The croquet players are using these unassuming creatures as balls in their
+bizarre version of the clasic game of nobility.
+~
+human~
+AGHX 0 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+#21038
+executioner~
+the executioner~
+The executioner is wandering about muttering about disembodied heads.
+~
+This fellow is perhaps at the same time both the busiest and the least-busy
+of the Queen's staff. For while he is constantly being ordered to decapitate
+hundreds of people, he never actually carries out the task. He is currently
+attempting to figure out a way to decapitate the head of the Cheshire Cat
+from... nothing. Such are the weird ways of Wonderland.
+~
+human~
+AGTX HN 0 0
+44 44 139d44+0 220d10+85 14d3+27 none
+-20 -20 -20 -11
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21079 100~
+M act 21080 tells you ~
+M act 21081 leaves north.~
+M act 21081 leaves south.~
+M act 21081 leaves up.~
+M act 21081 leaves down.~
+M act 21081 leaves east.~
+M act 21081 leaves west.~
+M act 21081 leaves.~
+#21039
+mock turtle~
+the Mock Turtle~
+The Mock Turtle is here weeping constantly.
+~
+The Mock Turtle is the thing Mock Turtle soup is made from. He is attempting
+to tell you his tale, but he is weeping so much you doubt he'll ever get a
+word out. The Turtle has the head of a pig, the shell of a turtle and the
+legs and tail of a cow. How peculiar!
+~
+human~
+ABG H 500 0
+42 42 127d42+0 210d10+85 14d3+26 none
+-19 -19 -19 -10
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21083 100~
+#21040
+gryphon~
+a Gryphon~
+A Gryphon is lying here, sound asleep.
+~
+This fantastic beast is a friendly sort, despite his appearance. He
+attended the same school as the Mock Turtle, studying things such as Reeling
+and Writhing, the three branches of Arithmetic- Ambition, Distraction,
+Uglification and Derision, and of course the classics- Laughing and Grief.
+~
+human~
+ABDGT HJRT 500 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21084 100~
+M act 21085 tells you~
+M act 21086 looks at you.~
+M kill 21087 100~
+M death 21088 100~
+#21041
+juror~
+a juror~
+A juror is busily scribbling on a slate.
+~
+This chap is one of the jury who judges the cases in the court here. Of
+course, justice in Wonderland is a very erratic process, much like everything
+else in this strange place.
+~
+human~
+ABGHX 0 400 0
+38 38 105d38+0 190d10+85 12d3+24 none
+-15 -15 -15 -7
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21089 100~
+M act 21090 tells you~
+#21042
+court officer~
+a court officer~
+A court officer stands ready to suppress rowdy members of the public.
+~
+"Suppressing" takes the form of placing the offender in a large hessian sack
+and sitting on them...
+~
+human~
+ABG N 400 0
+39 39 110d39+0 195d10+85 13d3+24 none
+-16 -16 -16 -8
+EFNU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par GHIJK
+M greet 21091 100~
+M kill 21092 100~
+#0
+
+#OBJECTS
+#21000
+pretty blue frock~
+a pretty blue frock~
+A pretty blue frock is lying on the ground here.~
+copper~
+~
+armor 0 AD
+17 17 17 16 'none' 0
+45 46 112213 P
+A
+2 3
+G none
+G none
+G none
+G none
+#21001
+apron~
+a white apron~
+A white apron with pockets sewn into it lies here.~
+copper~
+~
+container 0 AL
+5 A -1 5 95 0
+45 2 966 P
+G none
+G none
+G none
+G none
+#21002
+pair black shoes~
+a pair of black shoes~
+A pair of black shoes has been left here.~
+copper~
+~
+armor 0 AG
+17 17 17 16 'none' 0
+45 46 44067 P
+A
+14 75
+G none
+G none
+G none
+G none
+#21003
+thimble~
+a thimble~
+A thimble lies here.~
+copper~
+~
+jewelry 0 AB
+AE AE AE E 0 AE AE
+45 46 41 P
+A
+2 2
+A
+12 40
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#21004
+tweed jacket~
+a tweed jacket~
+A tweed jacket has been left here.~
+copper~
+~
+clothing 0 AK
+ABCD ABCD ABCD BCD 0 ABCD ABCD
+40 41 44 P
+G none
+G none
+G none
+G none
+#21005
+waistcoat~
+a red waistcoat~
+A red waistcoat is lying here.~
+copper~
+~
+armor 0 AD
+15 15 15 14 'none' 0
+40 41 110236 P
+A
+5 2
+A
+19 4
+G none
+G none
+G none
+G none
+#21006
+pocket watch~
+a pocket {Ywatch{x~
+A pocket watch is hanging by its chain from a hook here.~
+copper~
+~
+armor B AO
+15 15 15 14 'none' 0
+40 41 65955 P
+A
+3 1
+A
+4 1
+A
+12 25
+A
+23 -1
+A
+24 -1
+G none
+G none
+G none
+G none
+#21007
+pair tiny white kid gloves~
+a pair of tiny white kid-gloves~
+A pair of tiny white kid-gloves have been dropped here.~
+copper~
+~
+armor 0 AH
+12 12 12 11 'none' 0
+33 34 46066 P
+A
+2 2
+A
+18 4
+G none
+G none
+G none
+G none
+#21008
+fan~
+a fan~
+A fan has been left here.~
+copper~
+~
+armor 0 AJ
+12 12 12 11 'none' 0
+33 34 3305 P
+A
+17 -6
+G none
+G none
+G none
+G none
+#21009
+scarf~
+a neck scarf~
+A woolen neck scarf is lying here.~
+copper~
+~
+armor 0 AC
+15 15 15 14 'none' 0
+40 41 30807 P
+A
+13 30
+G none
+G none
+G none
+G none
+#21010
+shelf~
+a shelf~
+A shelf hangs from the wall here.~
+copper~
+~
+container 0 0
+15 A -1 0 0 0
+48 100 480 P
+G none
+G none
+G none
+G none
+#21011
+jar orange marmalade~
+a jar of orange marmalade~
+A jar of orange marmalade sits here.~
+copper~
+~
+container 0 AO
+2 AC 0 2 100 0
+48 1 18 P
+E
+jar~
+It is empty.
+~
+G none
+G none
+G none
+G none
+#21012
+glass thre legged table~
+a tiny three-legged table~
+A tiny three-legged table, all made of glass, sits here.~
+copper~
+~
+furniture 0 A
+0 0 0 0 0 0 0
+48 5 480 P
+E
+table~
+You think you can see a small glass box sitting under the table...
+~
+G none
+G none
+G none
+G none
+#21013
+tiny golden key~
+a tiny golden key~
+A tiny golden key sits on a table here.~
+copper~
+~
+key 0 AO
+0 0 0 0 0 0 0
+48 1 480 P
+G none
+G none
+G none
+G none
+#21014
+little bottle~
+a little bottle~
+A little bottle with a tiny paper label rests here.~
+copper~
+~
+potion 0 AO
+35 'weaken' 'weaken' 'weaken' ''
+48 1 480 P
+E
+bottle label~
+The label reads- "DRINK ME"
+~
+G none
+G none
+G none
+G none
+#21015
+glass box~
+a tiny glass box~
+~
+copper~
+~
+container 0 A
+2 AC 0 2 100 0
+48 1 21 P
+G none
+G none
+G none
+G none
+#21016
+small cake~
+a small cake~
+A small cake with something written on it with currants sits here.~
+copper~
+~
+pill 0 A
+35 'giant strength' 'giant strength' 'giant strength' ''
+48 1 480 P
+G none
+G none
+G none
+G none
+#21017
+little bottle~
+a little bottle~
+A little bottle with a tiny paper label rests on the table here.~
+copper~
+~
+potion 0 AO
+35 'giant strength' 'stone skin' 'armor' ''
+33 1 330 P
+E
+bottle label~
+The label reads- "DRINK ME"
+~
+G none
+G none
+G none
+G none
+#21018
+table~
+a window table~
+A table sits in the window here.~
+copper~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+33 1000 330 P
+G none
+G none
+G none
+G none
+#21019
+bottle brandy~
+a bottle of brandy~
+A bottle of brandy has been dropped here.~
+copper~
+~
+drink 0 AO
+2 2 'whisky' 0
+36 1 289 P
+G none
+G none
+G none
+G none
+#21020
+hookah~
+a {Yh{yooka{Yh{x~
+A {Yh{yooka{Yh{x stands here.~
+copper~
+~
+treasure A AO
+0 0 0 0 0
+40 41 44 P
+A
+12 25
+A
+18 4
+A
+19 5
+G none
+G none
+G none
+G none
+#21021
+mushroom flesh~
+some flesh from a mushroom~
+Some flesh has been torn off the mushroom and dropped here.~
+copper~
+~
+pill 0 AO
+40 'weaken' '' 'poison' ''
+40 1 400 P
+G none
+G none
+G none
+G none
+#21022
+mushroom flesh~
+some flesh from a mushroom~
+Some flesh has been torn off the mushroom and dropped here.~
+copper~
+~
+pill 0 AO
+40 'protection evil' 'pass door' 'fly' ''
+40 1 400 P
+G none
+G none
+G none
+G none
+#21023
+pigeon egg~
+a pigeon egg~
+A pigeon egg sits here.~
+copper~
+~
+pill B AO
+36 'cure poison' '' '' ''
+34 1 340 P
+G none
+G none
+G none
+G none
+#21024
+pigeon egg~
+a pigeon egg~
+A pigeon egg sits here.~
+copper~
+~
+pill B AO
+36 'refresh' '' '' ''
+34 1 340 P
+G none
+G none
+G none
+G none
+#21025
+pigeon egg~
+a pigeon egg~
+A pigeon egg sits here.~
+copper~
+~
+pill B AO
+36 'detect invis' '' '' ''
+34 1 340 P
+G none
+G none
+G none
+G none
+#21026
+nest~
+a small nest~
+A small nest is stuck in the branches of this tree.~
+copper~
+~
+container 0 A
+3 A 0 100 100 0
+34 1 29 P
+G none
+G none
+G none
+G none
+#21027
+footman livery~
+a footman's livery~
+A footman's livery has been left here.~
+copper~
+~
+armor 0 AD
+14 14 14 13 'none' 0
+37 38 92522 B
+A
+5 1
+A
+13 30
+A
+18 3
+G none
+G none
+G none
+G none
+#21028
+powdered wig~
+a {Wpo{Mw{Wde{Cr{Wed wig{x~
+A powdered wig lies here.~
+hair~
+~
+armor 0 AE
+14 14 14 13 'none' 0
+37 38 60387 P
+A
+6 -2
+A
+19 4
+A
+2 1
+A
+3 1
+A
+4 1
+G none
+G none
+G none
+G none
+#21029
+invitation~
+an invitation~
+An invitation from the Queen to play croquet lies here.~
+copper~
+~
+scroll A AO
+36 'bless' 'detect magic' 'faerie fog' ''
+37 1 370 P
+G none
+G none
+G none
+G none
+#21030
+cradle~
+a baby's cradle~
+A baby's cradle is lying here.~
+copper~
+~
+container M AE
+150 A 0 150 100 0
+43 14 1485 P
+A
+14 -25
+G none
+G none
+G none
+G none
+#21031
+pot soup~
+a pot of soup~
+A pot of soup with LOTS of pepper in it makes you sneeze rather a lot.~
+copper~
+~
+container 0 0
+10 A -1 0 0 0
+41 100 410 P
+G none
+G none
+G none
+G none
+#21032
+plate~
+a plate~
+This plate is one of several the cook has hurled at the Duchess.~
+copper~
+~
+warp_stone 0 AO
+0 0 0 0 0 0 0
+37 2 370 P
+G none
+G none
+G none
+G none
+#21033
+ladle~
+a ladle~
+A soup-covered ladle lies here, dripping.~
+copper~
+~
+weapon 0 AN
+exotic 1 39 blast 0
+37 38 19962 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#21034
+green top hat~
+a green top hat~
+A green top hat with a tag reading "In this Style 10/6" sits here.~
+copper~
+~
+armor M AE
+16 16 16 15 'none' 0
+42 43 46 P
+A
+3 -2
+A
+4 -2
+G none
+G none
+G none
+G none
+#21035
+table~
+a long dining table~
+A long dining table rests here.~
+copper~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+43 1000 430 P
+G none
+G none
+G none
+G none
+#21036
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+copper~
+~
+furniture 0 A
+A EGHIJK EHK CFG CFG A EGHIJK
+33 50 330 P
+G none
+G none
+G none
+G none
+#21037
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+copper~
+~
+furniture 0 0
+A EGHIJK E 0 0 A EGHIJK
+33 50 330 P
+G none
+G none
+G none
+G none
+#21038
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+copper~
+~
+furniture 0 A
+A EGHIJK E 0 0 A EGHIJK
+33 50 330 P
+G none
+G none
+G none
+G none
+#21039
+chair~
+a comfortable chair~
+A comfortable chair sits near the table here.~
+copper~
+~
+furniture 0 A
+A EGHIJK E 0 0 A EGHIJK
+33 50 330 P
+G none
+G none
+G none
+G none
+#21040
+polka dot bow tie~
+a large polka dot bow tie~
+A large polka dot bow tie has been (purposefully?) left here.~
+copper~
+~
+armor M AC
+16 16 16 15 'none' 0
+42 43 37716 P
+A
+2 2
+A
+12 1
+A
+18 3
+G none
+G none
+G none
+G none
+#21041
+green frock coat~
+a green frock coat~
+A green frock coat has been left here.~
+copper~
+~
+clothing 0 AK
+E E E ABCD 0 E E
+42 43 46 P
+G none
+G none
+G none
+G none
+#21042
+bits of straw~
+some bits of straw~
+Some bits of straw have fallen out of someone's hair.~
+copper~
+~
+armor 0 AE
+15 15 15 14 'none' 0
+41 42 45 P
+A
+2 -3
+A
+3 -3
+A
+4 -3
+G none
+G none
+G none
+G none
+#21043
+biscuit plate~
+a biscuit plate~
+A biscuit plate sits on the table here.~
+copper~
+~
+warp_stone 0 ANO
+0 0 0 0 0 0 0
+43 1 430 P
+G none
+G none
+G none
+G none
+#21044
+tea pot~
+a tea pot~
+A tea pot sits on the table here.~
+copper~
+~
+drink 0 AO
+5 3 'tea' 0
+43 3 327 P
+G none
+G none
+G none
+G none
+#21045
+tea cup~
+a tea cup~
+A tea cup sits on the table here.~
+copper~
+~
+drink 0 AO
+1 1 'tea' 0
+43 1 62 P
+G none
+G none
+G none
+G none
+#21046
+checked shirt~
+a checked shirt~
+A garish checked shirt has been dropped here.~
+copper~
+~
+armor 0 AD
+14 14 14 13 'none' 0
+37 38 33 P
+G none
+G none
+G none
+G none
+#21047
+brown breeches~
+some {ybrown breeches{x~
+Someone's dropped their breeches...~
+copper~
+~
+armor 0 AF
+14 14 14 13 'none' 0
+37 38 48218 P
+A
+2 1
+A
+14 45
+A
+18 2
+G none
+G none
+G none
+G none
+#21048
+pair shoes~
+a pair of black shoes~
+A pair of shiny black buckled shoes sits here.~
+copper~
+~
+armor 0 AG
+14 14 14 13 'none' 0
+37 38 33 P
+G none
+G none
+G none
+G none
+#21049
+paint red can~
+a can of red paint~
+A can of red paint is lying here, pouring paint onto the ground.~
+copper~
+~
+container 0 AO
+5 A -1 5 100 0
+36 2 53 P
+G none
+G none
+G none
+G none
+#21050
+paint brush~
+a paint brush~
+A paint brush stained bright red is dripping on the floor here.~
+copper~
+~
+weapon 0 AN
+exotic 1 38 suction 0
+36 37 15084 P
+A
+19 4
+G none
+G none
+G none
+G none
+#21051
+bush roses white red~
+a white rose bush~
+Someone has attempted to paint this white rose bush red.~
+copper~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+33 150 330 P
+G none
+G none
+G none
+G none
+#21052
+club~
+a soldier's {Dclub{x~
+A soldier's club lies here. It looks like the club off a playing card.~
+copper~
+~
+weapon 0 AN
+exotic 1 39 crush 0
+37 38 42986 P
+A
+3 -1
+A
+5 1
+A
+18 5
+A
+19 4
+G none
+G none
+G none
+G none
+#21053
+diamond~
+a diamond~
+A diamond has been dropped here.~
+copper~
+~
+light AG AOQ
+467
+37 2 4192 P
+A
+12 50
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#21054
+king hearts sceptre~
+the King of Heart's sceptre~
+The King of Hearts has lost his sceptre.~
+copper~
+~
+staff G AO
+41 8 8 'cure critical'
+41 5 410 P
+G none
+G none
+G none
+G none
+#21055
+king hearts crown~
+the King of Heart's crown~
+The King of Heart's crown lies here.~
+copper~
+~
+armor AM AE
+15 15 15 14 'none' 0
+41 42 38790 P
+A
+19 6
+G none
+G none
+G none
+G none
+#21056
+queen hearts fan~
+the Queen of Heart's fan~
+The Queen of Hearts has dropped her heart-shaped fan.~
+copper~
+~
+armor 0 AJ
+17 17 17 16 'none' 0
+45 46 57276 P
+A
+24 -4
+G none
+G none
+G none
+G none
+#21057
+flamingo~
+a flamingo~
+A flamingo that is being used as a croquet mallet wriggles about here.~
+copper~
+~
+weapon G AN
+exotic 1 39 bite 0
+37 38 24464 P
+A
+2 -2
+A
+18 3
+A
+19 4
+G none
+G none
+G none
+G none
+#21058
+queen hearts sceptre~
+the Queen of Heart's sceptre~
+The Queen of Hearts has lost her sceptre...~
+copper~
+~
+staff AGM AO
+45 9 9 'cause critical'
+45 8 450 P
+G none
+G none
+G none
+G none
+#21059
+tarts~
+the Queen's tarts~
+The Queen's tarts sit on a table here.~
+copper~
+~
+food 0 A
+DE 0 0 0 0 DE 0
+34 5 272 P
+G none
+G none
+G none
+G none
+#21060
+axe~
+the {Dexecutioner's {raxe{x~
+The executioner's axe is leaning against one wall here.~
+copper~
+~
+weapon AEGM ANP
+axe 2 36 cleave F
+44 45 128359 P
+A
+19 4
+A
+1 1
+G none
+G none
+G none
+G none
+#21061
+executioner's hood~
+the executioner's hood~
+The executioner's hood has been left here.~
+copper~
+~
+armor 0 AE
+16 16 16 15 'none' 0
+44 45 40 P
+G none
+G none
+G none
+G none
+#21062
+slate~
+a slate~
+A slate is covered with meaningless scribbles.~
+copper~
+~
+scroll 0 AO
+35 'sleep' 'sleep' 'sleep' ''
+38 1 380 P
+G none
+G none
+G none
+G none
+#21063
+pencil~
+a pencil~
+A squeaky pencil is driving you nuts!~
+copper~
+~
+weapon 0 AN
+exotic 1 40 stab 0
+38 39 1960 P
+G none
+G none
+G none
+G none
+#21064
+hessian sack~
+a hessian sack~
+A hessian sack, used for supressing, lies here.~
+copper~
+~
+container 0 A
+150 A 0 150 100 0
+39 15 1636 P
+G none
+G none
+G none
+G none
+#21065
+rabbit hole~
+a rabbit hole~
+A rabbit hole beckons for you to enter!~
+copper~
+~
+portal 0 0
+0 0 0 21002 0
+48 1 480 P
+G none
+G none
+G none
+G none
+#21066
+tree door~
+a tree with a tiny door~
+A tree with a tiny door set in it stands here.~
+copper~
+~
+portal 0 0
+0 0 0 21042 0
+35 1 350 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#21000
+A Grassy Field~
+You are standing in a rather pleasant green field, by the banks of a softly
+flowing brook. To the east, you can see a small hedge row, beneath which you
+think you can make out a rabbit hole. Suddenly, a rabbit dashes past,
+muttering something about being late, and disappears down the hole! Oddly
+enough, it has a pocket watch, and you have never seen a rabbit with a 
+watch. You are inspired to investigate!
+~
+0 C field
+D0
+~
+~
+Z 0 9101
+0 0
+D1
+~
+~
+Z -1 21001
+0 0
+S
+#21001
+A Hedge~
+you are standing above the hole now, where the rabbit just disappeared. It
+looks to be rather a tight fit for such a big person as yourself, but you
+sense something magical about it...
+~
+0 0 field
+D3
+~
+~
+Z -1 21000
+0 0
+S
+#21002
+The Rabbit Hole~
+You are falling down a rabbit hole, unlike any you have ever seen in your
+life! The walls are lined with shelves filled with jars of many different
+substances. And though you are falling without restraint, you do not feel
+that it will cause you any injury upon impact.
+~
+0 DU inside
+D5
+~
+~
+Z -1 21003
+0 0
+S
+#21003
+The Bottom of the Hole~
+After falling for what seemed like at once forever and hardly any time at
+all, you reach the bottom, landing with a soft thump. To the east stretches
+a long corridor lined with lamps and locked doors. You see the rabbit
+disappear around a corner and leap up to give chase, though you don't know
+why.
+~
+0 D inside
+D1
+~
+~
+Z -1 21004
+0 0
+D4
+~
+~
+Z -1 21002
+0 0
+S
+#21004
+A Long Hallway~
+You try the handles of several of the doors, but they are all locked and
+look too strong to pick or bash down. The rabbit's tail can be seen
+disappearing around a corner just up ahead.
+~
+0 D inside
+D1
+~
+~
+Z -1 21005
+0 0
+D3
+~
+~
+Z -1 21003
+0 0
+S
+#21005
+A Corner~
+The doors and lamps continue around the corner to the north. Up ahead you
+see the rabbit duck out a door to the east, but you are sure you saw him
+drop something on the way. You hear what sounds like water lapping against
+the edge of a pool to the far north.
+~
+0 D inside
+D0
+~
+~
+Z -1 21006
+0 0
+D3
+~
+~
+Z -1 21004
+0 0
+S
+#21006
+Outside the Garden~
+You have reached the door the rabbit bolted through. It is a small golden
+door, which is partially obscured by a curtain. To the north you see what
+looks like a pool of salty water.
+~
+0 D inside
+D0
+~
+~
+Z -1 21007
+0 0
+D1
+You see a small golden door partially obscured by a curtain.
+~
+curtain golden~
+ABCDZ 21013 21012
+0 0
+D2
+~
+~
+Z -1 21005
+0 0
+S
+#21007
+The Pool of Tears~
+You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+~
+0 D noswim
+D0
+~
+~
+Z -1 21010
+0 0
+D2
+~
+~
+Z -1 21006
+0 0
+D3
+~
+~
+Z -1 21008
+0 0
+S
+#21008
+The Pool of Tears~
+You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+~
+0 D noswim
+D0
+~
+~
+Z -1 21009
+0 0
+D1
+~
+~
+Z -1 21007
+0 0
+S
+#21009
+The Pool of Tears~
+You suddenly find yourself submerged in a nine foot deep pool, the contents
+of which taste rather like someone's tears! Other creatures, similarly
+marooned float by, equally disconcerted by the sudden appearance of this
+phenomenon.
+~
+0 D noswim
+D1
+~
+~
+Z -1 21010
+0 0
+D2
+~
+~
+Z -1 21008
+0 0
+S
+#21010
+Drier Ground~
+You emerge from the pool onto solid ground, where several other animals are
+shivering and attempting to dry off. To the north you see a group of them
+running about madly, and your curiosity is aroused.
+~
+0 D inside
+D0
+~
+~
+Z -1 21011
+0 0
+D2
+~
+~
+Z -1 21007
+0 0
+D3
+~
+~
+Z -1 21009
+0 0
+S
+#21011
+Caucus-Race~
+Here several animals are engaging in a Caucus-Race in order to dry off. It
+seems to involve running about in a circle at random until you are dry,
+though determining a winner is rather difficult.
+~
+0 D inside
+D2
+~
+~
+Z -1 21010
+0 0
+S
+#21012
+In the Garden~
+You are in a neat little garden, walking along a pebble path toward a small,
+well-kept house that sits at the edge of a dark wood. Birds fly over, gazing
+at you quizzically.
+~
+0 0 forest
+D1
+~
+~
+Z -1 21013
+0 0
+D3
+~
+~
+ABCDZ 21013 21006
+0 0
+S
+#21013
+Outside the Rabbit's House~
+You are stanbing outside the house, which apparently belongs to the rabbit
+you were following. Indeed, he stops to demand that you find his gloves and
+fan for him at once, and keeps calling you Mary Ann, before dashing off
+once more. How odd!
+~
+0 0 field
+D0
+The door has a plate that reads- W. RABBIT.
+~
+door~
+ABZ 0 21014
+0 0
+D1
+~
+~
+Z -1 21019
+0 0
+D3
+~
+~
+Z -1 21012
+0 0
+S
+#21014
+Inside the Rabbit's House~
+You are inside a small, tidy house with antique oak furniture in marvellous
+condition. A sitting room lies to the west, while to the east a door leads
+out into the garden.
+
+A set of stairs leads up to the second floor.
+~
+0 D inside
+D1
+~
+~
+ABZ 0 21018
+0 0
+D2
+~
+~
+ABZ 0 21013
+0 0
+D3
+~
+~
+ABZ 0 21015
+0 0
+D4
+~
+~
+Z -1 21016
+0 0
+S
+#21015
+A Sitting Room~
+This well-appointed chamber has several comfortable arm chairs and a long
+table covered in papers and pens. A herald's uniform has been neatly laid
+out on the table as well, as has a long brass trumpet and a brightly-colored
+hat.
+~
+0 D inside
+D1
+~
+~
+ABZ 0 21014
+0 0
+S
+#21016
+The Rabbit's Bedroom~
+You race up into the bedroom, where you do indeed see some gloves and a fan-
+several sets in fact- sitting on a a table near a strange looking glass. A
+fireplace can be seen on one wall, and you think you can hear voices coming
+from it.
+~
+0 D inside
+E
+fireplace~
+You peer up it and see a lizard being lowered down on a rope by two guinea
+pigs, while the rabbit yells out directions. Evidently he figured out that
+you weren't Mary Ann, and has called in for some help.
+~
+D4
+~
+chimney fireplace~
+Z -1 21017
+0 0
+D5
+~
+~
+Z -1 21014
+0 0
+S
+#21017
+On The Roof~
+You manage to squeeze up the chimney, and emerge on the roof of the rabbit's
+house, confronting the source of the voices. Down below you see the rabbit
+screaming for the house to be burnt down. They are trying to kill you!
+~
+0 0 city
+D5
+~
+chimney fireplace~
+Z -1 21016
+0 0
+S
+#21018
+Garden~
+You emerge into a garden, near a cucumber patch. It looks as if someone has
+recently fallen into this patch, squashing a great deal of it. You hear the
+rabbit shouting something from outside.
+~
+0 0 forest
+D2
+~
+~
+Z -1 21019
+0 0
+D3
+~
+~
+ABZ 0 21014
+0 0
+S
+#21019
+On the Edge of the Wood~
+You move away from the house, staring back in amazement at the hive of
+activity. A small cart full of ladders and ropes has been pulled up, and
+several animals are scurrying about, trying to see if you are still in the
+house. The rabbit has gone again, doubtless still attempting to make his
+appointment.
+~
+0 0 field
+D0
+~
+~
+Z -1 21018
+0 0
+D1
+~
+~
+Z -1 21020
+0 0
+D3
+~
+~
+Z -1 21013
+0 0
+S
+#21020
+A Mushroom~
+The path is divided here by a huge mushroom, large enough for you and a few
+friends to sit on. It is currently home to someone else, though. The path
+continues around it to the east.
+~
+0 0 forest
+D1
+~
+~
+Z -1 21021
+0 0
+D3
+~
+~
+Z -1 21019
+0 0
+S
+#21021
+At the Base of a Tree~
+You pass by a particularly tall tree to the north, from which you can hear
+someone shouting "Serpents! Serpents!" at the top of their lungs. The path
+continues into the wood to the east and west.
+~
+0 0 forest
+D1
+~
+~
+Z -1 21024
+0 0
+D3
+~
+~
+Z -1 21020
+0 0
+D4
+~
+~
+Z -1 21022
+0 0
+S
+#21022
+Ascending the Tree~
+You scale the rough-bark tree without too much difficulty, finding adequate
+purchase on its coarse surface, and plenty of hand and foot holds in the form
+of several broad branches.
+~
+0 0 forest
+D4
+~
+~
+Z -1 21023
+0 0
+D5
+~
+~
+Z -1 21021
+0 0
+S
+#21023
+The Top~
+You reach the top of the tree, poking your head through a thick layer of
+leaves and branches to peer out across a canopy of the same that stretches
+as far as you can see. The sun beats down upon your face, the heat warming
+and cleansing you. A bird's nest rests in the canopy near your head.
+~
+0 0 forest
+D5
+~
+~
+Z -1 21022
+0 0
+S
+#21024
+A Bend in the Path~
+You follow the path through the wood to a bend to the north. At this point
+you can see a house due east, though the path you are on doesn't run in
+that direction.
+~
+0 0 forest
+D0
+~
+~
+Z -1 21025
+0 0
+D3
+~
+~
+Z -1 21021
+0 0
+S
+#21025
+Another Bend~
+The path bends again here, heading east once more, past the front door of
+the house you spied earlier. The wood is beginning to thin out here, allowing
+you to see a small field surrounding the house.
+~
+0 0 forest
+D1
+~
+~
+Z -1 21026
+0 0
+D2
+~
+~
+Z -1 21024
+0 0
+S
+#21026
+Outside the Duchess' House (Pig and Pepper)~
+You are standing outside a little house, in an open field. From within you
+can hear what sounds like a pig squealing and plates being smashed. Your
+nose twitches, twice, and you realize that it is being irritated by a
+strong odor of pepper, emanating from within.
+~
+0 0 city
+D1
+~
+~
+Z -1 21030
+0 0
+D2
+~
+~
+ABZ 0 21027
+0 0
+D3
+~
+~
+Z -1 21025
+0 0
+S
+#21027
+A Large Kitchen~
+The door opens directly onto the kitchen of this place, which is filled with
+smoke. Several people are moving about in here, most of them sneezing as you
+are due to the pepper that can be smelled everywhere. A grinning cat sits
+at the feet of the duchess, and its smirk unsettles you
+~
+0 D inside
+D0
+~
+~
+ABZ 0 21026
+0 0
+D1
+~
+~
+ABZ -1 21029
+0 0
+D2
+~
+~
+ABZ -1 21028
+0 0
+S
+#21028
+A Bedroom~
+This is the sleeping quarters of the cook. It is currently empty.
+~
+0 D inside
+D0
+~
+~
+ABZ 0 21027
+0 0
+S
+#21029
+A Bedroom~
+This elegant chamber serves as quarters for the Duchess and her porcine
+child.
+~
+0 D inside
+D3
+~
+~
+ABZ 0 21027
+0 0
+S
+#21030
+A Bend in the Path~
+The path bends away from the field, heading back north into the wood.
+~
+0 0 field
+D0
+~
+~
+Z -1 21031
+0 0
+D3
+~
+~
+Z -1 21026
+0 0
+S
+#21031
+Back in the Wood~
+The path bends again, heading east this time, toward a T-junction, at which
+point a large tree grows near the center of the T. You approach cautiously.
+~
+0 0 forest
+D1
+~
+~
+Z -1 21032
+0 0
+D2
+~
+~
+Z -1 21030
+0 0
+S
+#21032
+At the Base of the Tree~
+You stop and stare up at the tree and are startled to see a large grin
+floating in mid air above one of the branches! It resembles the grin that the
+cat in the Duchess' house was wearing, and you begin to suspect further
+chicanery.
+~
+0 0 forest
+D0
+In this direction lives the March Hare!
+~
+~
+Z -1 21033
+0 0
+D2
+In this direction lives the Mad Hatter!
+~
+~
+Z -1 21037
+0 0
+D3
+~
+~
+Z -1 21031
+0 0
+S
+#21033
+Outside the March Hare's House~
+You are standing outside the March Hare's House. It appears to be deserted...
+~
+0 0 forest
+D0
+~
+~
+ABCZ 0 21034
+0 0
+D2
+~
+~
+Z -1 21032
+0 0
+S
+#21034
+Inside the House~
+This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+~
+0 D inside
+D1
+~
+~
+Z -1 21036
+0 0
+D2
+~
+~
+ABZ 0 21033
+0 0
+D3
+~
+~
+Z -1 21035
+0 0
+S
+#21035
+Inside the House~
+This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+~
+0 D inside
+D1
+~
+~
+Z -1 21034
+0 0
+S
+#21036
+Inside the House~
+This house hasn't been lived in for quite some time. Broken bits of
+furniture are scattered about, along with items of clothing and pieces of
+crockery. The air is musty, and you cough as you stir up dust in your
+progress.
+~
+0 D inside
+D3
+~
+~
+Z -1 21034
+0 0
+S
+#21037
+A Mad Tea Party~
+You come across a strange sight. Three very peculiar individuals are
+gathered around a very long table, drinking tea from many tea sets scattered
+about. Every now and again they stand up, change places and sit down again.
+~
+0 0 field
+D0
+~
+~
+Z -1 21032
+0 0
+D1
+~
+~
+Z -1 21041
+0 0
+D2
+~
+~
+ABZ 0 21038
+0 0
+S
+#21038
+Inside the Hatter's House~
+This house is positively crammed with hats of every shape, shize and
+description. You manage to shove enough aside to enter, and see two rooms
+adjoining this one, both of them equally packed.
+~
+0 D inside
+D0
+~
+~
+ABZ 0 21037
+0 0
+D1
+~
+~
+Z -1 21040
+0 0
+D2
+~
+~
+Z -1 21039
+0 0
+S
+#21039
+The Hatter's House~
+This room, like the other two, is crammed with hats. If you didn't know
+better, you'd swear that a Hatter lived here, albeit a slightly deranged
+one...
+~
+0 D inside
+D0
+~
+~
+Z -1 21038
+0 0
+S
+#21040
+The Hatter's House~
+This room, like the other two, is crammed with hats. If you didn't know
+better, you'd swear that a Hatter lived here, albeit a slightly deranged
+one...
+~
+0 D inside
+D3
+~
+~
+Z -1 21038
+0 0
+S
+#21041
+Outside a Tree~
+You continue back into the wood, and soon reach a point where the path is
+blocked by a huge tree. However, there is a tiny door in the tree, through
+which you can proceed...
+~
+0 0 forest
+D3
+~
+~
+Z -1 21037
+0 0
+S
+#21042
+The Long Hallway~
+you are back in the long hallway you first entered upon arriving in
+Wonderland. However it appears quite different this time. The pool of tears
+is gone, as is the table with they key and little bottle. The golden door
+behind the curtain is still present, however, and this provides your only
+way onwards.
+~
+0 D inside
+D1
+~
+curtain golden~
+ABZ 0 21043
+0 0
+S
+#21043
+In a Garden~
+You are standing in a pretty garden, in which hundreds of red rose bushes
+grow. One of these bushes, on closer inspection, shows patches of white,
+and it is then you notice the three playing cards frantically painting a
+white rose bush red...
+~
+0 0 field
+D1
+~
+~
+Z -1 21044
+0 0
+D3
+~
+curtain golden~
+ABZ 0 21042
+0 0
+S
+#21044
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21045
+0 0
+D1
+~
+~
+Z -1 21049
+0 0
+D2
+~
+~
+Z -1 21047
+0 0
+D3
+~
+~
+Z -1 21043
+0 0
+S
+#21045
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21046
+0 0
+D1
+~
+~
+Z -1 21050
+0 0
+D2
+~
+~
+Z -1 21044
+0 0
+S
+#21046
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D1
+~
+~
+Z -1 21051
+0 0
+D2
+~
+~
+Z -1 21045
+0 0
+S
+#21047
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21044
+0 0
+D1
+~
+~
+Z -1 21048
+0 0
+S
+#21048
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21049
+0 0
+D1
+~
+~
+Z -1 21055
+0 0
+D3
+~
+~
+Z -1 21047
+0 0
+S
+#21049
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21050
+0 0
+D1
+~
+~
+Z -1 21054
+0 0
+D2
+~
+~
+Z -1 21048
+0 0
+D3
+~
+~
+Z -1 21044
+0 0
+S
+#21050
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21051
+0 0
+D1
+~
+~
+Z -1 21053
+0 0
+D2
+~
+~
+Z -1 21049
+0 0
+D3
+~
+~
+Z -1 21045
+0 0
+S
+#21051
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+
+To the north there is a courthouse.
+~
+0 0 field
+D0
+~
+courthouse~
+ABZ -1 21059
+0 0
+D1
+~
+~
+Z -1 21052
+0 0
+D2
+~
+~
+Z -1 21050
+0 0
+D3
+~
+~
+Z -1 21046
+0 0
+S
+#21052
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D2
+~
+~
+Z -1 21053
+0 0
+D3
+~
+~
+Z -1 21051
+0 0
+S
+#21053
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21052
+0 0
+D1
+~
+~
+Z -1 21056
+0 0
+D2
+~
+~
+Z -1 21054
+0 0
+D3
+~
+~
+Z -1 21050
+0 0
+S
+#21054
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21053
+0 0
+D2
+~
+~
+Z -1 21055
+0 0
+D3
+~
+~
+Z -1 21049
+0 0
+S
+#21055
+A Croquet Lawn~
+You are wandering across a broad field, which is apparently a croquet lawn.
+You see dozens of playing cards running about, wielding squirming flamingoes,
+with which they are attempting to bash some poor hedgehogs under other
+playing cards bent double. How peculiar!
+~
+0 0 field
+D0
+~
+~
+Z -1 21054
+0 0
+D3
+~
+~
+Z -1 21048
+0 0
+S
+#21056
+On the Road to the Sea~
+You are heading away from the field toward a rocky shoreline. The smell of
+the sea is in the air, and a brisk northerly breeze invigorates you.
+~
+0 0 hills
+D1
+~
+~
+Z -1 21057
+0 0
+D3
+~
+~
+Z -1 21053
+0 0
+S
+#21057
+A Rocky Ledge~
+You are standing on a windswept ledge far above a rocky coastline, against
+which the waves of some unknown ocean pound. Seagulls soar high above, heading
+to and from their rocky aeries.
+~
+0 0 hills
+D2
+~
+~
+Z -1 21058
+0 0
+D3
+~
+~
+Z -1 21056
+0 0
+S
+#21058
+A Rocky Ledge~
+You are standing on a windswept ledge far above a rocky coastline, against
+which the waves of some unknown ocean pound. Seagulls soar high above, heading
+to and from their rocky aeries.
+~
+0 0 hills
+D0
+~
+~
+Z -1 21057
+0 0
+S
+#21059
+Courthouse (Who Stole the Tarts?)~
+You have entered the courthouse, where people are beginning to settle down
+for the trial of the Knave of Hearts, who stole the Queen's tarts.
+~
+0 D inside
+D0
+~
+~
+Z -1 21062
+0 0
+D1
+~
+~
+Z -1 21061
+0 0
+D2
+~
+~
+ABZ 0 21051
+0 0
+D3
+~
+~
+Z -1 21060
+0 0
+S
+#21060
+The Jury Box~
+Here stands the jury box, where the 12 jurors will judge the case. Like all
+things in Wonderland, the judicial process is a complex, erratic and usually
+futile process.
+~
+0 D inside
+D1
+~
+~
+Z -1 21059
+0 0
+S
+#21061
+The Witness Box~
+Here the accused or those giving evidence stand, to give their testimony. It
+is a rather pointless exercise, as their statements are either muddled,
+ignored or shouted down.
+~
+0 D inside
+D3
+~
+~
+Z -1 21059
+0 0
+S
+#21062
+The Main Floor~
+Here the prosecuting and defense attorneys make their cases, before the
+throne where the judge (the King) sits.
+~
+0 D inside
+D2
+~
+~
+Z -1 21059
+0 0
+D4
+~
+~
+Z -1 21063
+0 0
+S
+#21063
+The Throne~
+Here sits the King, where he judges the cases. He isn't here yet, as he hasn't
+finished pardoning the players the Queen condemned to death (all of them).
+~
+0 D inside
+D5
+~
+~
+Z -1 21062
+0 0
+S
+#0
+
+#SPECIALS
+M 21001 spec_cast_mage	* a white rabbit
+M 21014 spec_breath_gas	* the caterpillar
+M 21021 spec_cast_mage	* a Cheshire Cat
+M 21030 spec_guard	* a soldier
+M 21035 spec_thief	* the Knave of Hearts
+M 21038 spec_executioner	* the executioner
+M 21040 spec_fido	* a Gryphon
+M 21042 spec_guard	* a court officer
+S
+
+#RESETS
+D 0 21006 1 2	* Outside the Garden: door to the east: closed and locked
+D 0 21012 3 2	* In the Garden: door to the west: closed and locked
+D 0 21013 0 1	* Outside the Rabbit's House: door to the north: closed
+D 0 21014 1 1	* Inside the Rabbit's House: door to the east: closed
+D 0 21014 2 1	* Inside the Rabbit's House: door to the south: closed
+D 0 21014 3 1	* Inside the Rabbit's House: door to the west: closed
+D 0 21015 1 1	* A Sitting Room: door to the east: closed
+D 0 21018 3 1	* Garden: door to the west: closed
+D 0 21026 2 1	* Outside the Duchess' House (Pig and Pepper): door to the south: closed
+D 0 21027 0 1	* A Large Kitchen: door to the north: closed
+D 0 21027 1 1	* A Large Kitchen: door to the east: closed
+D 0 21027 2 1	* A Large Kitchen: door to the south: closed
+D 0 21028 0 1	* A Bedroom: door to the north: closed
+D 0 21029 3 1	* A Bedroom: door to the west: closed
+D 0 21033 0 2	* Outside the March Hare's House: door to the north: closed and locked
+D 0 21034 2 1	* Inside the House: door to the south: closed
+D 0 21037 2 1	* A Mad Tea Party: door to the south: closed
+D 0 21038 0 1	* Inside the Hatter's House: door to the north: closed
+D 0 21042 1 1	* The Long Hallway: door to the east: closed
+D 0 21043 3 1	* In a Garden: door to the west: closed
+D 0 21051 0 1	* A Croquet Lawn: door to the north: closed
+D 0 21059 2 1	* Courthouse (Who Stole the Tarts?): door to the south: closed
+O 0 21065 0 21001	* a rabbit hole (A Hedge)
+O 0 21010 0 21002	* a shelf (The Rabbit Hole)
+P 0 21011 1 21010 1	* a shelf: a jar of orange marmalade
+O 0 21012 0 21006	* a tiny three-legged table (Outside the Garden)
+O 0 21013 0 21006	* a tiny golden key (Outside the Garden)
+O 0 21014 0 21006	* a little bottle (Outside the Garden)
+O 0 21015 0 21006	* a tiny glass box (Outside the Garden)
+P 0 21016 1 21015 1	* a tiny glass box: a small cake
+M 0 21003 1 21008 1	* a duck (The Pool of Tears)
+M 0 21002 1 21009 1	* a mouse (The Pool of Tears)
+M 0 21005 1 21010 1	* a lory (Drier Ground)
+M 0 21007 1 21010 1	* an elderly magpie (Drier Ground)
+M 0 21008 1 21010 1	* an owl (Drier Ground)
+M 0 21004 1 21011 1	* a dodo (Caucus-Race)
+M 0 21006 1 21011 1	* an eaglet (Caucus-Race)
+M 0 21009 1 21011 1	* an old crab (Caucus-Race)
+M 0 21010 1 21011 1	* a young crab (Caucus-Race)
+O 0 21036 0 21015	* a comfortable chair (A Sitting Room)
+O 0 21037 0 21015	* a comfortable chair (A Sitting Room)
+O 0 21017 0 21016	* a little bottle (The Rabbit's Bedroom)
+O 0 21018 0 21016	* a window table (The Rabbit's Bedroom)
+O 0 21007 0 21016	* a pair of tiny white kid-gloves (The Rabbit's Bedroom)
+O 0 21008 0 21016	* a fan (The Rabbit's Bedroom)
+M 0 21011 1 21017 1	* Bill the lizard (On The Roof)
+M 0 21012 2 21017 1	* a guinea pig (On The Roof)
+G 0 21019 0		*	a bottle of brandy
+M 0 21013 1 21019 1	* a puppy dog (On the Edge of the Wood)
+M 0 21014 1 21020 1	* the caterpillar (A Mushroom)
+E 0 21020 0 17		*	a {Yh{yooka{Yh{x: held in the hands
+G 0 21021 0		*	some flesh from a mushroom
+G 0 21022 0		*	some flesh from a mushroom
+M 0 21015 1 21023 1	* a pigeon (The Top)
+O 0 21026 0 21023	* a small nest (The Top)
+P 0 21023 1 21026 1	* a small nest: a pigeon egg
+P 0 21024 1 21026 1	* a small nest: a pigeon egg
+P 0 21025 1 21026 1	* a small nest: a pigeon egg
+M 0 21016 1 21026 1	* a fish-footman (Outside the Duchess' House (Pig and Pepper))
+E 0 21027 0 5		*	a footman's livery: on the body
+E 0 21028 0 6		*	a {Wpo{Mw{Wde{Cr{Wed wig{x: over the head
+E 0 21029 0 17		*	an invitation: held in the hands
+M 0 21017 1 21026 1	* a frog-footman (Outside the Duchess' House (Pig and Pepper))
+E 0 21027 0 5		*	a footman's livery: on the body
+E 0 21028 0 6		*	a {Wpo{Mw{Wde{Cr{Wed wig{x: over the head
+M 0 21018 1 21027 1	* the Duchess (A Large Kitchen)
+E 0 21030 0 6		*	a baby's cradle: over the head
+O 0 21031 0 21027	* a pot of soup (A Large Kitchen)
+O 0 21032 0 21027	* a plate (A Large Kitchen)
+M 0 21019 1 21027 1	* the Duchess' baby (A Large Kitchen)
+M 0 21020 1 21027 1	* the cook (A Large Kitchen)
+E 0 21032 0 17		*	a plate: held in the hands
+E 0 21033 0 16		*	a ladle: wielded
+G 0 21032 0		*	a plate
+G 0 21032 0		*	a plate
+G 0 21032 0		*	a plate
+M 0 21021 1 21032 1	* a Cheshire Cat (At the Base of the Tree)
+O 0 21035 0 21037	* a long dining table (A Mad Tea Party)
+O 0 21036 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21037 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21038 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21039 0 21037	* a comfortable chair (A Mad Tea Party)
+O 0 21043 0 21037	* a biscuit plate (A Mad Tea Party)
+O 0 21044 0 21037	* a tea pot (A Mad Tea Party)
+O 0 21045 0 21037	* a tea cup (A Mad Tea Party)
+M 0 21022 1 21037 1	* the Mad Hatter (A Mad Tea Party)
+E 0 21034 0 6		*	a green top hat: over the head
+E 0 21040 0 3		*	a large polka dot bow tie: around the neck (1)
+E 0 21041 0 12		*	a green frock coat: about the shoulders
+E 0 21046 0 5		*	a checked shirt: on the body
+E 0 21047 0 7		*	some {ybrown breeches{x: on the legs
+E 0 21048 0 8		*	a pair of black shoes: on the feet
+M 0 21023 1 21037 1	* the March Hare (A Mad Tea Party)
+E 0 21042 0 6		*	some bits of straw: over the head
+E 0 21046 0 5		*	a checked shirt: on the body
+E 0 21047 0 7		*	some {ybrown breeches{x: on the legs
+E 0 21048 0 8		*	a pair of black shoes: on the feet
+M 0 21024 1 21037 1	* the Dormouse (A Mad Tea Party)
+E 0 21046 0 5		*	a checked shirt: on the body
+E 0 21047 0 7		*	some {ybrown breeches{x: on the legs
+E 0 21048 0 8		*	a pair of black shoes: on the feet
+O 0 21066 0 21041	* a tree with a tiny door (Outside a Tree)
+M 0 21037 4 21042 1	* a hedgehog (The Long Hallway)
+O 0 21051 0 21043	* a white rose bush (In a Garden)
+M 0 21027 1 21043 1	* a gardener (In a Garden)
+E 0 21049 0 17		*	a can of red paint: held in the hands
+E 0 21050 0 16		*	a paint brush: wielded
+M 0 21028 1 21043 1	* a gardener (In a Garden)
+E 0 21049 0 17		*	a can of red paint: held in the hands
+E 0 21050 0 16		*	a paint brush: wielded
+M 0 21029 1 21043 1	* a gardener (In a Garden)
+E 0 21049 0 17		*	a can of red paint: held in the hands
+E 0 21050 0 16		*	a paint brush: wielded
+M 0 21037 4 21045 1	* a hedgehog (A Croquet Lawn)
+M 0 21001 1 21046 1	* a white rabbit (A Croquet Lawn)
+E 0 21004 0 12		*	a tweed jacket: about the shoulders
+E 0 21005 0 5		*	a red waistcoat: on the body
+E 0 21006 0 17		*	a pocket {Ywatch{x: held in the hands
+E 0 21007 0 9		*	a pair of tiny white kid-gloves: on the hands
+E 0 21008 0 11		*	a fan: as a shield
+E 0 21009 0 3		*	a neck scarf: around the neck (1)
+M 0 21030 4 21047 1	* a soldier (A Croquet Lawn)
+E 0 21052 0 16		*	a soldier's {Dclub{x: wielded
+M 0 21037 4 21048 1	* a hedgehog (A Croquet Lawn)
+M 0 21038 1 21049 1	* the executioner (A Croquet Lawn)
+E 0 21060 0 16		*	the {Dexecutioner's {raxe{x: wielded
+E 0 21061 0 6		*	the executioner's hood: over the head
+M 0 21000 1 21050 1	* Alice (A Croquet Lawn)
+E 0 21057 0 16		*	a flamingo: wielded
+E 0 21000 0 5		*	a pretty blue frock: on the body
+E 0 21001 0 13		*	a white apron: around the waist
+E 0 21002 0 21008		*	a pair of black shoes: unknown
+G 0 21003 0		*	a thimble
+M 0 21036 4 21050 1	* a flamingo (A Croquet Lawn)
+M 0 21033 1 21051 1	* the King of Hearts (A Croquet Lawn)
+E 0 21054 0 17		*	the King of Heart's sceptre: held in the hands
+E 0 21055 0 6		*	the King of Heart's crown: over the head
+E 0 21057 0 16		*	a flamingo: wielded
+M 0 21031 4 21052 1	* a courtier (A Croquet Lawn)
+E 0 21053 0 0		*	a diamond: as a light
+E 0 21057 0 16		*	a flamingo: wielded
+M 0 21032 4 21054 1	* a child of the Queen (A Croquet Lawn)
+G 0 21059 0		*	the Queen's tarts
+M 0 21034 1 21055 1	* the Queen of Hearts (A Croquet Lawn)
+E 0 21056 0 11		*	the Queen of Heart's fan: as a shield
+E 0 21057 0 16		*	a flamingo: wielded
+E 0 21058 0 17		*	the Queen of Heart's sceptre: held in the hands
+M 0 21040 1 21056 1	* a Gryphon (On the Road to the Sea)
+M 0 21039 1 21058 1	* the Mock Turtle (A Rocky Ledge)
+M 0 21042 2 21059 1	* a court officer (Courthouse (Who Stole the Tarts?))
+G 0 21064 0		*	a hessian sack
+M 0 21041 12 21060 1	* a juror (The Jury Box)
+E 0 21062 0 17		*	a slate: held in the hands
+E 0 21063 0 16		*	a pencil: wielded
+M 0 21035 1 21061 1	* the Knave of Hearts (The Witness Box)
+G 0 21059 0		*	the Queen's tarts
+S
+
+#MOBPROGS
+#21000
+emote raises her eyebrows quizzically.
+~
+#21001
+emote screams in dismay!
+yell Help!
+~
+#21002
+say Pleased to meet you!
+curtsey
+~
+#21003
+say I'm late! Oh dear!
+emote looks at his watch.
+~
+#21004
+growl
+say Cats! Nasty, low, vulgar things!
+~
+#21005
+say QUACK!
+~
+#21006
+say The best thing to get us dry would be a Caucus race!
+emote marks out a race course, in a sort of circle.
+tell $n The size doesn't matter.
+~
+#21007
+emote is running about furiously!
+say Run then!
+~
+#21008
+tell $n I'm not telling you how old I am!
+~
+#21009
+tell $n I am older than you, and must know better.
+~
+#21010
+say Don't stare, youngster!
+~
+#21011
+say Speak English!
+emote stretches its wings and shakes them, soaking everyone!
+~
+#21012
+say I really must be getting home. The night air doesn't suit my throat.
+~
+#21013
+emote runs about in circles.
+~
+#21014
+say Hold your tonuge ma! You're enough to try the patience of an oyster!
+~
+#21015
+say Ah my dear! Let this be a lesson to you to never lose your temper!
+~
+#21016
+emote yelps in surprise.
+say Its a giant!
+~
+#21017
+yell He's coming at me like a jack in the box!
+~
+#21018
+yell Aieee!
+~
+#21019
+emote looks concerned.
+~
+#21020
+say You don't look too well!
+mob oload 21019
+give brandy $n
+~
+#21021
+emote stares at you sadly.
+~
+#21022
+emote wags its tail and jumps up on you.
+~
+#21023
+mob echoat $n A puppy dog saldy watches you leave.
+~
+#21024
+say Bring me my gloves!
+~
+#21025
+tell $n Don't let me hear that name again!
+~
+#21026
+emote waddles away.
+~
+#21027
+say The race is over! But who has won?
+~
+#21028
+emote sits and sulks.
+~
+#21029
+emote starts running around madly!
+~
+#21030
+say Farewell!
+~
+#21031
+say Who are YOU?
+emote puffs on its hookah.
+~
+#21032
+cast 'fly' $n
+cast 'fly' self
+say Now everyone's high!
+~
+#21033
+tell $n One side will make you stronger, the other will make you weaker.
+~
+#21034
+yell Serpent!
+say I've tried every way but nothing seems to suit them!
+~
+#21035
+emote trembles in rage!
+~
+#21036
+tell $n Good riddance, snake!
+~
+#21037
+if carries $n 21029
+else
+mob oload 21029
+give invitation $n
+say For the Duchess, an invitation from the Queen to play croquet.
+if mobhere frog footman
+mob force frog say For the Duchess, an invitation from the Queen to play croquet.
+endif
+endif
+~
+#21038
+say There's no sense in knocking.
+~
+#21039
+say I shall sit here. Till tomorrow.
+~
+#21040
+yell PIG!
+emote stares at the baby in her lap.
+~
+#21041
+say You don't know much, and that's a fact!
+~
+#21042
+emote cries and sneezes a lot.
+~
+#21043
+emote stirs the soup.
+~
+#21044
+emote hurls a plate at the Duchess! *>CRASH<*
+~
+#21045
+mob echoat $n The cook hurls a plate at you!
+mob echoaround $n The cook hurls a plate at the $n! *>CRASH<*
+~
+#21046
+mob echoat $n Cheshire Cat grins at you.
+mob echoaround $n Cheshire Cat grins at $n.
+~
+#21047
+say In that direction lives the March Hare.
+say And in that direction lives the Mad Hatter.
+~
+#21048
+cast 'invisibility' self
+~
+#21049
+tell $n Do you play croquet with the Queen today? I'll see you there!
+emote waves its tail and vanishes.
+~
+#21050
+say No room! No room!
+~
+#21051
+say Why is a raven like a writing desk?
+~
+#21052
+say I have no idea!
+~
+#21053
+say Tea!
+mob oload 21045
+give tea $r
+~
+#21054
+emote begins to stuff the dormouse into a teapot.
+~
+#21055
+emote snores loudly.
+~
+#21056
+say Once upon a time there were three little sisters-
+~
+#21057
+say I couldn't help it. Seven jogged my elbow!
+emote returns to painting the bush.
+~
+#21058
+emote stares at two accusingly.
+~
+#21059
+emote returns to painting the bush.
+~
+#21060
+say Look out now, Five! Don't go splashing paint over me like that!
+~
+#21061
+say This should have been a red rose tree, but we planted a white by mistake.
+~
+#21062
+yell THE QUEEN! THE QUEEN!
+~
+#21063
+emote quickly bends over as someone whacks a hedgehog at him.
+~
+#21064
+tell $n You lookin' to be clubbed?
+~
+#21065
+emote swings his flamingo and sends a hedgehog scuttling under a soldier card.
+~
+#21066
+emote smiles and nods.
+~
+#21067
+emote runs off after another hedgehog.
+~
+#21068
+say Ga Ga Goo Goo!
+~
+#21069
+say Greetings!
+~
+#21070
+say Hmph!
+~
+#21071
+emote strolls off, flamingo in hand.
+~
+#21072
+yell Off with their heads!
+~
+#21073
+tell $n Off with YOUR head!
+cast 'sanctuary' self
+~
+#21074
+yell GUARDS! HELP!
+cast 'flamestrike' $n
+~
+#21075
+tell $n Tsk! Such impertinence!
+~
+#21076
+emote hurriedly hides a tart behind his back.
+~
+#21077
+say Nothing!
+~
+#21078
+emote is fleeing madly away from some angry courtiers.
+~
+#21079
+say You can't chop off a head with no body!
+~
+#21080
+tell $n Can YOU?
+~
+#21081
+emote wanders off muttering to himself.
+~
+#21083
+emote is far too upset to talk.
+~
+#21084
+say It's so amusing. She never chops anyone's heads off, you know.
+~
+#21085
+tell $n The Mock Turtle is east then south of here.
+~
+#21086
+cast 'fly' $n
+~
+#21087
+emote screeches and attacks!
+~
+#21088
+yell I am slain!
+~
+#21089
+emote is scribbling furiously away on a slate.
+~
+#21090
+say YOU do it!
+mob oload 21062
+give slate $n
+~
+#21091
+emote glares at you suspiciously
+~
+#21092
+cast 'blindness' $n
+cast 'web' $n
+~
+#0
+
+#HELPS
+1 0 'Through the Looking Glass' 'Looking Glass'~
+This area was written on a DOS Text Editor by Yaegar, based on the two best-
+known works of the brilliant and eccentric Lewis Carroll. It is not a literal
+interpretation- some aspects cannot be reproduced identically in Muds- but it
+attempts to faithfully recreate the atmosphere as closely as possible, with
+many people and places from several of Carroll's works included.
+
+trigger code by the coders at AnonyMud!
+
+Enjoy!
+
+Yaegar, October 1996.
+~
+-1 $~
+
+#$

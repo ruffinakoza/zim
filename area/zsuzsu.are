@@ -1,0 +1,2023 @@
+#AREADATA
+Name Zsuzsu Workshop~
+Builders zsuzsu~
+VNUMs 500 699
+Credits zsuzsu~
+Security 9
+LevelRange 30 60
+ResetMessage {mOff in the distance you hear the {M*tink* *tink*{m of gnomes at work.{x~
+Flags closed noquest~
+End
+
+#MOBILES
+#500
+dispenser~
+@eng A {GQ{guest {CT{coken{w dispenser~
+@eng A {GQ{guest {CT{coken{w dispenser.
+~
+@eng This magical automoton spits out token expressions of Immortal gratitude.
+~
+golem~
+AB 0 0 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 0
+stand stand none 0
+CD 0 large flesh~
+~
+F for MV
+F par BCDHI
+#501
+mrmedal thespian leader~
+the {Gth{ge{Gsp{gia{Gn {cl{Cea{cd{Ce{cr{x~
+The {cL{Cea{cd{Ce{cr{w of the {GTh{ge{Gsp{gia{Gn {DGuild{x is giving out awards.
+~
+This is the leader of the famed thespian guild of Thera.  He is known to
+give out award for {RR{wenouned {RP{xerformances.
+~
+gnome~
+ABHRe DFHTUZlmt 0 0
+20 120 570d120+0 600d10+85 40d3+65 none
+-71 -71 -71 -46
+EFHJKV AB 0 0
+stand stand male 0
+D 0 large flesh~
+~
+#502
+developer game~
+a game developer~
+A game developer is here, totally bewildered.
+~
+The Thing stares back at you, wondering what you're looking at.
+~
+modron~
+ABQ c -5000 0
+140 140 683d140+0 700d10+85 46d3+75 none
+-85 -85 -85 -55
+N 0 0 0
+stand stand either 100
+JS 0 gargantuan flesh~
+~
+M greet 799 100~
+#503
+blood sausage~
+a {rblood{x sausage~
+An {Weverlasting {rblood{x sausage is here, waiting to be fed on.
+~
+There's a blood sausage still squirming around on the floor here.  You
+might have to kill it to eat it.  But it sure does look tasty!
+~
+unique~
+ABGe 0 0 0
+1 1 8d1+-7 5d10+85 1d1+0 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+AS 0 medium flesh~
+~
+M death 503 100~
+#510
+moth~
+a {Wmoth{x~
+A {Wmoth{x is here fluttering around {DAamon{x.
+~
+A moth of Aamon is here, looking for light.
+~
+zombie~
+A 0 0 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#511
+uther~
+Uther~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#520
+thespian leader mrmedal~
+the {cL{Cea{cd{Ce{cr{x of the {GTh{ge{Gsp{gia{Gn {DGuild{x~
+The {cL{Cea{cd{Ce{cr{w of the {GTh{ge{Gsp{gia{Gn {DGuild{x is giving out awards.
+~
+This is the leader of the famed thespian guild of Thera.  He is known to
+give out award for {RR{wenouned {RP{xerformances.
+~
+gnome~
+ABHRe DFHTUZlmt 0 0
+20 120 570d120+0 600d10+85 40d3+65 none
+-71 -71 -71 -46
+EFHJKV AB 0 0
+stand stand male 0
+D 0 large flesh~
+~
+#521
+ernik gambler shellgamer kobold~
+Ernik~
+A {mk{Mo{mbold{x is here, looking for a friendly {gwager{x.
+~
+The kobold has 3 shells in one hand and a {rstone{x in the other.  He
+seems to be waiting for someone to play a game with.
+ 
+{Dooc: {CWAGER SHELL{x to start.
+~
+kobold~
+AGSk 0 -600 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+BFNV B 0 0
+stand stand male 100
+0 0 large flesh~
+~
+#545
+kobold thief thiefquest~
+a {mk{Mo{mb{Mo{mld {Dthief{x~
+A {mk{Mo{mb{Mo{mld {Dthief{x is looking around nerviously.
+~
+The dog-faced thief has a guilty look on his face, and is darting eyes
+in all directions.  Obviously, he should probably find a new profession.
+~
+kobold~
+A P -1000 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+N A 0 0
+stand stand either 40
+0 0 large flesh~
+~
+#546
+calinostra wanderer monk~
+a calinostra wanderer~
+A {ymonk{x in a dark habit wanders as if possessed.
+~
+The monk seems to be possessed of some question on his mind or an idea that keeps him from his prayers.
+~
+githyanki~
+ACHT 0 -500 0
+20 20 37d20+0 100d10+85 6d3+15 chill
+-10 -10 -10 -10
+IJ AB 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F attr+ B
+#599
+thing enormous~
+an {DE{gn{Do{Gr{Dm{go{Dus {yT{Dhin{gg{x~
+An {DE{gn{Do{Gr{Dm{go{Dus {yT{Dhin{gg{x stands here gawking at you.
+~
+The Thing stares back at you, wondering what you're looking at.
+~
+pig~
+A 0 0 0
+100 140 683d140+20000 700d10+85 46d3+75 none
+-85 -85 -85 -55
+0 0 0 0
+stand stand none 999999
+0 0 medium flesh~
+~
+#620
+grunt orc horde jaggedquest~
+an orc grunt~
+A {ygrunt{x of the {DJa{rgg{Ded {cAxe {yH{Yo{yrde{x
+~
+This orc seems to be a low level grunt of a force aiming to take over the
+city of midgaard.
+~
+orc~
+AT 0 -500 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+K AB 0 0
+stand stand either 10
+0 0 large flesh~
+~
+#621
+sargeant orc horde jaggedquest~
+an orcish {Rsargeant{x~
+A {Rsargeant{x of the {DJa{rgg{Ded {cAxe {yH{Yo{yrde{x
+~
+A sargeant in the Horde, intent on taking over the city of Midgaard.
+~
+orc~
+ATj Va -500 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+CKOW AB 0 0
+stand stand either 0
+0 0 gargantuan flesh~
+~
+#623
+captain horde ogre~
+an ogre {rcaptain{x~
+A {rcaptain{x of the {DJa{rgg{Ded {cAxe {yH{Yo{yrde{x
+~
+This is an ogre captain in the horde trying to invade Midgaard.
+~
+ogre~
+ATj Vc -500 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CEFKW 0 CE 0
+stand stand either 0
+0 0 unknown flesh~
+~
+#624
+battle master jaggedquest~
+a {rbattle{w-{Dmaster{x of the {yH{Yo{yrde{x~
+A {rbattle{w-{Dmaster{x of the {yH{Yo{yrde{x is looking for a fight!
+~
+~
+ogre~
+ATj Z -1000 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+CEFIJKOUW AB E 0
+stand stand either 0
+0 0 unknown flesh~
+~
+#625
+leader ogre horde~
+the {Dleader{x of the {yH{Yo{yrde{x~
+The {Dleader{x of the {DJa{rgg{Ded {cAxe {yH{Yo{yrde{x
+~
+The leader of the Horde.
+~
+ogre~
+ABT DFOVacu -500 0
+100 100 456d100+10000 500d10+85 33d3+55 none
+-58 -58 -58 -37
+CEFHJKO ABET CHNT 0
+stand stand either 0
+0 0 unknown flesh~
+~
+#630
+acolyte yurikesh~
+an {Ca{ccolyte{x~
+An {Ca{ccolyte{x of {rY{Rur{Wi{Rke{rsh{x seeks out evil.
+~
+The acolyte of the Order of Yurikesh stands here looking for evil.
+~
+storm giant~
+AHQ JZ 1000 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+FIK A 0 0
+stand stand either 50
+0 0 unknown flesh~
+~
+M greet 530 100~
+M entry 531 100~
+#631
+knight yurikesh~
+a {Ck{cnight{x~
+A {Ck{cnight{x of {rY{Rur{Wi{Rke{rsh{x steels his courage against evil.
+~
+A knight of Yurikesh, giant in form and stature, steels his courage 
+for a fight against emense evil.
+~
+storm giant~
+AT CNVZa 0 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+CEFHIJKLOW AB E 0
+stand stand either 100
+0 0 unknown flesh~
+~
+M greet 532 100~
+M entry 533 100~
+#632
+crusader yurikesh~
+a {Cc{crus{Ca{cder{x~
+A {Cc{crus{Ca{cder{x of {rY{Rur{Wi{Rke{rsh{x is purging the world of evil.
+~
+A crusader of Yurikesh seeks out the evils of the world and smites them.
+~
+storm giant~
+AFQT CHJNVZ 1000 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+CEFIJKLOUW ABQ 0 0
+stand stand either 200
+0 0 unknown flesh~
+~
+F vul HP
+M greet 534 100~
+M entry 535 100~
+#633
+templar yurikesh~
+a {Ct{ce{Cmp{cl{Car{x~
+A {Ct{ce{Cmp{cl{Car{x of {rY{Rur{Wi{Rke{rsh{x brings forth a tide of holy might.
+~
+A templar is here, surrounded by goodness, slaying all evil in his path.
+~
+storm giant~
+AQT HJZaw 1000 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-50 -50 -50 -50
+ACDEFHIKLOUW ABLQ EM 0
+stand stand either 300
+0 0 unknown flesh~
+~
+F vul HIP
+M greet 536 100~
+M entry 537 100~
+#634
+priest high yurikesh~
+a {Ch{ci{Cgh pr{ci{Cest{x~
+A {Ch{ci{Cgh pr{ci{Cest{x of {rY{Rur{Wi{Rke{rsh{x is surrounded by holy light.
+~
+The priest is surrounded by an impentitrable white light that makes even
+your eyes wince.  He looks bent on purging the world of evil.
+~
+storm giant~
+AQ CGHJNUVcwx 1000 0
+85 85 371d85+0 425d10+85 28d3+47 none
+-48 -48 -48 -30
+AFKU AB 0 0
+stand stand either 500
+0 0 unknown flesh~
+~
+F vul HP
+#635
+champion yurikesh~
+a {Cch{ca{Cmp{cio{Cn{x~
+A {Cch{ca{Cmp{cio{Cn{x of {rY{Rur{Wi{Rke{rsh{x is posessed by holy light.
+~
+~
+storm giant~
+ABQT CFHJVZac 1000 0
+120 120 570d120+0 600d10+85 40d3+65 none
+-71 -71 -71 -46
+ACEFHIJKLOQVW ABET 0 0
+stand stand either 0
+0 0 unknown flesh~
+~
+F vul HIP
+#640
+bunny pink easterbunny~
+a {Mpink{x bunny~
+A {Mpink{x bunny is here hopping down the bunny trail.
+~
+The {Mpink{x bunny is twitching a rose colored nose at you, and wiggling
+grey whiskers.
+~
+rabbit~
+ACH VZ 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+0 A 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#641
+bunny easterbunny purple~
+a {mpurple{x bunny~
+A {mpurple{x bunny is here hopping down the bunny trail.
+~
+The {mpurple{x bunny is twitching a rose colored nose at you, and wiggling
+grey whiskers.
+~
+rabbit~
+ACH VZ 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 A 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#642
+bunny easterbunny white~
+a {Wwhite{x bunny~
+A {Wwhite{x bunny is here hopping down the bunny trail.
+~
+The {Wwhite{x bunny is twitching a rose colored nose at you, and wiggling
+grey whiskers.
+~
+rabbit~
+ACH VZ 0 0
+60 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 A 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#643
+bunny easterbunny peterrabbit~
+{MP{Wete{Mr {mR{Wabbi{mt{x~
+{WPeter Rabbit{x is here, hidding wierd eggs.
+~
+Peter Rabbit, is here in a {mvelvet{x smoking jacket.  He's hunched over
+and planting crazy colored eggs in the strangest of places.
+~
+rabbit~
+ACH HVZc 0 0
+120 120 655d120+0 1200d11+95 41d2+87 none
+-77 -77 -77 -52
+EMV AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#644
+turkey tiny turkeyquest~
+a {Ytiny {yturkey{x~
+A {Ytiny {yturkey{x is gobbling up feed.
+~
+The little turkey chick is here, gobbling up scant amounts of seed.
+~
+song bird~
+AHUi 0 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+0 A 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F attr+ B
+#645
+turkey turkeyquest fat butterball~
+a {Ybutter-ball {yturkey{x~
+A {Yfat {yturkey{x is woddling down the path.
+~
+A fat turkey is here, looking mighty tasty.
+~
+song bird~
+AHUi 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 A 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ B
+#646
+turkey turkeyquest wild~
+a {Ywild {yturkey{x~
+A {Ywild {yturkey{x is here, staring you down.
+~
+This guy looks pretty mean.
+~
+song bird~
+AHUij 0 0 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 A 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ B
+#647
+turkey turkeyquest gobbler~
+a {Ygreat gobbler {yturkey{x~
+A {Ygreat gobbler{y turkey{x stalks the shadows.
+~
+This guy looks pretty mean.
+~
+song bird~
+AHUij Vt 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+J A 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ B
+#648
+turkey turkeyquest marshmellow~
+{WMarshmellow{x~
+A {yturkey{x with no fear, struts around the room.
+~
+This turkey seems to be annointed by the gods against death!
+~
+song bird~
+AHUi HVt 0 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+AJNV A 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ B
+#649
+turkey turkeyquest tofurkey~
+a {YTofu{yrkey{x~
+A {Ydeformed {ymonstrosity{x of nature is wandering around.
+~
+Is it even edible?!
+~
+song bird~
+AHUi DHVt 0 0
+120 120 655d120+0 1200d11+95 41d2+87 none
+-77 -77 -77 -52
+AJNV AB B 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ B
+#650
+zombie murnokquest~
+a z{Do{xmb{Wi{xe~
+A decaying z{Do{xmb{Wi{xe of {DM{Bu{wr{Dn{wo{Dk{w's {DCurse{x staggers toward you.
+~
+The zombie reaches its hands out to grasp your neck!
+~
+zombie~
+AHO 0 -1000 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+J A C 0
+stand stand either 14
+0 0 medium flesh~
+~
+F imm C
+#651
+skeleton mystic murnokquest~
+a {Wsk{we{Wle{Dt{Won {mmyst{Mi{mc{x~
+A {Wsk{we{Wle{Dt{Won {mmyst{Mi{mc{x of {DM{wu{Br{Dn{wo{Dk{x's {DCurse{x summons away your courage.
+~
+The mystic weaves an incantation drawing your courage from your soul!
+~
+undead~
+AHOQ 0 -1000 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+HJK 0 0 0
+stand stand either 52
+0 0 medium flesh~
+~
+#652
+ghoul murnokquest~
+a g{Dh{Wou{Dl{x~
+A tourtured g{Dh{Wou{Dl{x of {DM{wu{Br{Dn{wo{Dk{x's {DCurse{x lurches toward you.
+~
+A ghoul staggers forward reaching out for your heart.
+~
+ghost~
+ACHT D -1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+EIK A 0 0
+stand stand either 143
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#501
+tattoo zsuzsu~
+the {Gl{gi{Gtt{gl{Ge{x {Dtattoo{x of {WMe{x~
+A tiny tattoo is floating here.~
+unknown~
+~
+container I AR
+10000 0 0 10000 100 0
+107 0 109865 P
+G none
+G none
+G none
+G none
+#502
+whip encouragement~
+the {YW{yhip{w of {cEn{Cco{wur{Wa{wge{Cme{cnt{x~
+A {rbloody{x whip is coiled up on the ground.~
+ionium~
+~
+weapon B AN
+exotic 1 2 beating A
+0 0 17004 P
+F
+A 3 1 n
+F
+A 0 0 E
+F
+A 4 2 C
+F
+A 4 1 G
+G none
+G none
+G none
+G none
+#503
+list the zsuzsu~
+a {Dvery very very{W long {rscroll {xlabled '{DThe {CL{cist{x'~
+A very very very long scroll is here with teeny tiny scrawl all over it.~
+paper~
+~
+scroll AEY AO
+0 'reserved' 'reserved' 'reserved' 'reserved'
+76 1000000 0 P
+F
+A 3 0 n
+G none
+G none
+G none
+G none
+#504
+earmuffs whining~
+{Gear{gmuffs{x of {ranti{D-{Wwhining{x~
+A pair of huge noise-cancelling earmuffs are here.~
+unknown~
+~
+clothing B AE
+0 0 0 0 0 0 0
+0 10 10 P
+G none
+G none
+G none
+G none
+#510
+pompom zsuzsu cheerleader~
+a {rP{Wom{D-{rP{Wom{x of the {rCheer{Wleaders{x of {GZ{gsu{Gz{gsu{x~
+A {rP{Wom{D-{rP{Wom{x of the {rCheer{Wleaders{x of {GZ{gsu{Gz{gsu{x is rumpled up on the floor.~
+energy~
+~
+treasure A AO
+0 0 0 0 0
+20 0 0 P
+G none
+G none
+G none
+G none
+#511
+link sausage~
+a {rs{Rau{rsage {wlink{x~
+A delectable {rs{Rau{rsage{x link is here.~
+meat~
+~
+food 0 AO
+BC BC 0 0 0 BC BC
+0 0 64 P
+G none
+G none
+G none
+G none
+#512
+fountain~
+the {cfo{Cu{Wn{Cta{cin{w of {Wre{Cfl{ce{Cct{Wion{x~
+The {cfo{Cu{Wn{Cta{cin{w of {Wre{Cfl{ce{Cct{Wion{x stands here.~
+unknown~
+~
+fountain 0 0
+-1 -1 'cranberry juice' 0
+0 10000 0 P
+G none
+G none
+G none
+G none
+#513
+cheese whiner~
+a piece of {rw{Rh{rin{Re{rr{R'{rs {Yc{yh{Yeese{x~
+A delicious piece of {rw{Rh{rin{Re{rr{R'{rs {Yc{yh{Yeese{x is here.~
+unknown~
+cheese~
+food 0 AO
+A 0 0 0 0 A 0
+0 1 12 P
+G none
+G none
+G none
+G none
+#514
+portal misty~
+a {mm{Mi{mst{My{x {gp{Go{grtal{x~
+A {mm{Mi{mst{My{x {gp{Go{grtal{x is here, leading to Midgaard.~
+unknown~
+~
+portal Rak A
+0 0 A 3014 0
+0 1000000 0 P
+G none
+G none
+G none
+G none
+#515
+shiny bauble questbauble~
+a {cs{Ch{Wi{Cn{Cy {cb{mau{cb{Cl{ce{x~
+A {cs{Ch{Wi{Cn{Cy {cb{mau{cb{Cl{ce{x is rolling around on the floor.~
+unknown~
+~
+trash ATcfj AO
+0 0 0 0 0 0 0
+1 1 2 P
+G none
+G none
+G none
+G none
+#516
+perfumed thank note~
+a {mp{Merf{mumed {x'{rt{Rhank {ry{Rou{x' note~
+A perfumed 'thank you' note has been dicarded here.~
+unknown~
+~
+potion Ic AO
+100 'benediction' 'reserved' 'reserved' 'reserved'
+1 0 15 P
+G none
+G none
+G none
+G none
+#517
+portal shadowy~
+a {Dsh{Ba{Ddo{Bw{Dy {gp{Go{grtal{x~
+A {Dsh{Ba{Ddo{Bw{Dy {gp{Go{grtal{x is here, leading to an area where the gods protect noone.~
+unknown~
+~
+portal R 0
+0 0 A 504 0
+0 1000000 0 P
+G none
+G none
+G none
+G none
+#523
+medal~
+the {MV{mo{Mt{med {CB{cest {YL{yoo{Yk{ying{x in {rM{Ri{rdgaard {CM{ce{Cd{cal{x~
+A {Wbrillaint {Cm{ce{Cd{cal{x is here in the dirt.~
+platinum~
+~
+light AGMNPa A
+445
+52 1 38540 P
+A
+18 7
+A
+19 6
+A
+6 9
+A
+9 -3
+A
+20 -3
+A
+17 -10
+G none
+G none
+G none
+G none
+#525
+eyes overworld~
+{YE{yye{Ys {xof the {YO{yve{wr{Ww{wo{yrl{Yd{x~
+A {ygl{Ye{wa{Wm{wi{Yn{yg{x double {Yt{yo{Yp{ya{Yz{x is here.~
+unknown~
+~
+jewelry ATj AE
+0 0 0 0 0 0 0
+91 10 1 P
+F
+A 0 0 Z
+F
+A 0 0 m
+F
+A 0 0 t
+F
+A 0 0 l
+F
+A 0 0 F
+F
+A 0 0 D
+G none
+G none
+G none
+G none
+#550
+roman candle july4~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+40 0 1 'magic missile'
+20 10 0 P
+G none
+G none
+G none
+G none
+#551
+roman candle july4~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+80 0 1 'fireball'
+40 10 0 P
+G none
+G none
+G none
+G none
+#552
+roman candle july4~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+90 0 1 'lightning bolt'
+50 10 0 P
+G none
+G none
+G none
+G none
+#553
+roman candle july4~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+95 0 1 'bluefire'
+60 10 0 P
+G none
+G none
+G none
+G none
+#554
+roman candle july4~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+95 0 1 'colour spray'
+50 10 0 P
+G none
+G none
+G none
+G none
+#555
+roman candle july4~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+95 0 1 'flamestrike'
+50 10 0 P
+G none
+G none
+G none
+G none
+#556
+roman candle july4 powerwordkill~
+a {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x~
+A very patriotic {rr{Ro{Wm{Ba{bn {yc{Ya{Wnd{Yl{ye{x is here sparking away.~
+wood~
+~
+wand ABGTaj AO
+100 0 1 'power word kill'
+81 10 0 P
+G none
+G none
+G none
+G none
+#557
+manuscript dusty eternal avarice~
+{ymanuscript{x of {meternal {gavarice{x~
+A dusty manuscript decays here.~
+unknown~
+~
+treasure Tjk AO
+0 0 0 0 0
+0 5 10 P
+A
+8 1
+G none
+G none
+G none
+G none
+#558
+rod vanquishing~
+{crod {xof {Dvanquishing{x~
+A steel rod rolls along the ground here.~
+unknown~
+~
+wand GTjk AO
+20 3 3 'high explosive'
+0 0 0 P
+G none
+G none
+G none
+G none
+#559
+brazier summoning shiney~
+{Cbrazier{x of {msummoning{x~
+A shiny brazier is smoking on the ground.~
+unknown~
+~
+wand CGTj AO
+30 3 3 'demon summon'
+0 0 10 P
+G none
+G none
+G none
+G none
+#598
+marble questmarble~
+a {gm{Ga{mrb{Gl{ge{x~
+A {Dlost{x {gm{Ga{mrb{Gl{ge{x of an immortal is lying here.~
+unknown~
+~
+treasure ATcj AO
+0 0 0 0 0
+1 2 1 P
+G none
+G none
+G none
+G none
+#599
+testobj brains~
+brains~
+this is only a test object~
+unknown~
+~
+armor Pf AE
+0 0 0 0 'cloth' 0
+1 107 5270 P
+A
+3 100
+G female
+G dwarf
+G thief
+G none
+#620
+hatchet jaggedquest~
+a {Dja{rgg{Ded {yh{Ya{ytchet{x~
+A {Dja{rgg{Ded {yh{Ya{ytchet{x is standing in the ground.~
+iron~
+~
+weapon ETaf AN
+axe 1 5 chop 0
+5 1 350 P
+G none
+G none
+G none
+G none
+#621
+axe broken jaggedquest~
+a {Db{yr{Doken {caxe{x~
+A {Db{yr{Doken {caxe{x stands here planted in the ground.{x~
+iron~
+~
+weapon ERTaf AN
+axe 2 12 chop H
+20 10 2337 P
+G none
+G none
+G none
+G none
+#623
+warhammer jaggedquest~
+a {Dchipp{we{Dd {yw{Ya{yrhammer{x~
+A {Dchipp{we{Dd {yw{Ya{yrhammer{x was left here on the ground.~
+iron~
+~
+weapon ETaf AN
+hammer 2 34 smash FK
+50 30 52770 P
+G none
+G none
+G none
+G none
+#624
+tree stump jaggedquest~
+a {ytree stump{x~
+A cut off {ytree stump{x is on the ground.~
+unknown~
+~
+weapon f AN
+mace 5 16 crush A
+80 81 73081 P
+G none
+G none
+G none
+G none
+#625
+double axe jaggedaxe~
+a {Ddouble{w-{Cb{claded {raxe{x~
+A {Ddouble{w-{Cb{claded {raxe{x is here in the dirt.~
+platinum~
+~
+weapon CEaf AN
+axe 4 32 cleave AEF
+90 91 2418189 P
+G none
+G none
+G none
+G none
+#630
+mace yurikeshquest~
+a {cbl{Ce{cssed {wm{Wa{wce{x~
+A {cbl{Ce{cssed {wm{Wa{wce{x of {rY{Rur{Wi{Rke{rsh{x rolls around on the floor.~
+unknown~
+~
+weapon IKaf AN
+mace 1 12 crush 0
+12 13 840 P
+G none
+G none
+G none
+G none
+#631
+spadon yurikeshquest~
+a {Ch{co{Cly {Wsp{wa{Wnd{wo{Wn{x~
+A {Ch{co{Cly {wsp{Wa{wnd{Wo{wn{x has been left here.~
+unknown~
+~
+weapon IKaf AN
+longsword 2 15 slash DI
+25 26 8187 P
+G none
+G none
+G none
+G none
+#632
+claymore yurikeshquest~
+a {ch{Co{cly {wclay{Wmore{x~
+A {ch{Co{cly {wclay{Wmore{x is in the dust.~
+mithril~
+~
+weapon AIKaf AN
+bastardsword 2 29 cleave DFGI
+40 41 732740 P
+G none
+G none
+G none
+G none
+#633
+great sword yurikeshquest~
+a {Cs{ca{Ccred {wg{Wr{wea{wt {ws{Ww{word{x~
+A {Cs{ca{Ccred {wg{Wr{wea{wt {ws{Ww{word{x is stuck in the ground.~
+mithril~
+~
+weapon ABIKaf AN
+bastardsword 3 31 frbite BEFI
+65 66 1403788 P
+G none
+G none
+G none
+G none
+#634
+flail sacred yurikeshquest~
+a {cs{Ca{ccred {wf{Wl{wai{Wl{x~
+A {cs{Ca{ccred {wf{Wl{wai{Wl{x was left on the ground.~
+mithril~
+~
+weapon ABIKaf AN
+flail 5 17 sting DI
+85 86 171702 P
+A
+18 8
+G none
+G none
+G none
+G none
+#635
+zweihaender divine yurikeshquest~
+the {cd{Ci{Wv{Ci{cne {WZ{ww{Cei{chae{Cnd{we{Wr{x of {rY{Rur{Wi{Rke{rsh{x~
+The {cd{Ci{Wv{Ci{cne {WZ{ww{Cei{chae{Cnd{we{Wr{x of {rY{Rur{Wi{Rke{rsh{x is in the mud.~
+mithril~
+~
+weapon ABGIKLaf AN
+bastardsword 4 38 flbite ADEFI
+106 107 2841350 P
+G none
+G none
+G none
+G none
+#640
+easteregg egg~
+an {Me{ma{Ms{mt{Me{mr {Wegg{x~
+An {Me{ma{Ms{mt{Me{mr {Wegg{x is hidden here.~
+chocolate~
+~
+pill AGMc AO
+2 'detect magic' 'reserved' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#641
+easteregg egg~
+an {Me{ma{Ms{mt{Me{mr {Wegg{x~
+An {Me{ma{Ms{mt{Me{mr {Wegg{x is hidden here.~
+chocolate~
+~
+pill AGMZc AO
+2 'detect evil' 'detect good' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#642
+easteregg egg~
+an {Me{ma{Ms{mt{Me{mr {Wegg{x~
+An {Me{ma{Ms{mt{Me{mr {Wegg{x is hidden here.~
+chocolate~
+~
+pill AGMc AO
+2 'detect invis' 'reserved' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#643
+easteregg egg easterhidden~
+an {Me{ma{Ms{mt{Me{mr {Wegg{x~
+An {Me{ma{Ms{mt{Me{mr {Wegg{x is hidden here.~
+chocolate~
+~
+pill AGMTcj AO
+2 'detect hidden' 'reserved' 'reserved' 'reserved'
+1 5 3 P
+G none
+G none
+G none
+G none
+#644
+easteregg egg easterimproved~
+an {Me{ma{Ms{mt{Me{mr {Wegg{x~
+An {Me{ma{Ms{mt{Me{mr {Wegg{x is hidden here.~
+chocolate~
+~
+pill AGMTcj AO
+2 'improved detect' 'reserved' 'reserved' 'reserved'
+1 5 3 P
+G none
+G none
+G none
+G none
+#645
+easteregg egg easterimproved easterimp easterfade~
+an {Me{ma{Ms{mt{Me{mr {Wegg{x~
+An {Me{ma{Ms{mt{Me{mr {Wegg{x is hidden here.~
+chocolate~
+~
+pill AGMZc AO
+2 'detect fade' 'reserved' 'reserved' 'reserved'
+1 5 40 P
+G none
+G none
+G none
+G none
+#646
+wishbone bone turkeyquest~
+a {yw{Yi{ys{Yh {Wbone{x~
+A slimy {yw{Yi{ys{Yh {Wbone{x has been left here.~
+chocolate~
+~
+pill AGMTcj AO
+2 'detect magic' 'reserved' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#647
+wishbone bone turkeyquest~
+a {yw{Yi{ys{Yh {Wbone{x~
+A slimy {yw{Yi{ys{Yh {Wbone{x has been left here.~
+chocolate~
+~
+pill AGMTcj AO
+2 'detect invis' 'detect hidden' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#648
+wishbone bone turkeyquest~
+a {yw{Yi{ys{Yh {Wbone{x~
+A slimy {yw{Yi{ys{Yh {Wbone{x has been left here.~
+chocolate~
+~
+pill AGMTcj AO
+2 'improved detect' 'acute vision' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#649
+wishbone bone turkeyquest fade~
+a {yw{Yi{ys{Yh {Wbone{x~
+A slimy {yw{Yi{ys{Yh {Wbone{x has been left here.~
+chocolate~
+~
+pill AGMTcj AO
+2 'fade' 'sanctuary' 'reserved' 'reserved'
+1 5 2 P
+G none
+G none
+G none
+G none
+#650
+candy cane something santa claus~
+a {rc{Wa{rn{Wd{ry {Wc{ra{Wn{re{x~
+Something left by {rSanta {WClaus{x.~
+ice~
+~
+pill Vak AO
+50 'sanctuary' 'improved detect' 'detect hidden' 'acute vision'
+20 10 0 P
+G none
+G none
+G none
+G none
+#655
+party favor newyearsquest~
+a used {Yp{Ca{Yr{Ct{Yy {Cf{Yavo{Cr{x~
+A used {Yp{Ca{Yr{Ct{Yy {Cf{Yavo{Cr{x is curled up on the ground.~
+paper~
+~
+wand Taj AO
+100 -1 3 'dissension'
+20 10 0 P
+G none
+G none
+G none
+G none
+#656
+party favor newyearsquest~
+a used {Yp{Ca{Yr{Ct{Yy {Cf{Yavo{Cr{x~
+A used {Yp{Ca{Yr{Ct{Yy {Cf{Yavo{Cr{x is curled up on the ground.~
+paper~
+~
+wand Taj AO
+100 -1 5 'intoxication'
+20 10 0 P
+G none
+G none
+G none
+G none
+#657
+party favor newyearsquest~
+a used {Yp{Ca{Yr{Ct{Yy {Cf{Yavo{Cr{x~
+A used {Yp{Ca{Yr{Ct{Yy {Cf{Yavo{Cr{x is curled up on the ground.~
+paper~
+~
+wand Taj AO
+100 -1 2 'confuse'
+20 10 0 P
+G none
+G none
+G none
+G none
+#658
+martini glass newyearsquest~
+an {ge{Rm{gpty {Wmartini {Cglass{x~
+An {ge{Rm{gpty {Wmartini {Cglass{x rolls around on the floor.~
+glass~
+~
+potion Taj AO
+100 'intoxication' 'intoxication' 'intoxication' 'love potion'
+36 10 0 P
+G none
+G none
+G none
+G none
+#659
+martini glass newyearsquest~
+an {ge{Rm{gpty {Wmartini {Cglass{x~
+An {ge{Rm{gpty {Wmartini {Cglass{x rolls around on the floor.~
+glass~
+~
+potion Taj AO
+100 'intoxication' 'intoxication' 'intoxication' 'scream'
+21 10 0 P
+G none
+G none
+G none
+G none
+#660
+martini glass newyearsquest~
+an {ge{Rm{gpty {Wmartini {Cglass{x~
+An {ge{Rm{gpty {Wmartini {Cglass{x rolls around on the floor.~
+glass~
+~
+potion Taj AO
+100 'intoxication' 'intoxication' 'intoxication' 'fade'
+21 10 0 P
+G none
+G none
+G none
+G none
+#661
+martini glass newyearsquest~
+an {ge{Rm{gpty {Wmartini {Cglass{x~
+An {ge{Rm{gpty {Wmartini {Cglass{x rolls around on the floor.~
+glass~
+~
+potion Taj AO
+100 'intoxication' 'intoxication' 'intoxication' 'mind light'
+21 10 0 P
+G none
+G none
+G none
+G none
+#662
+martini glass newyearsquest~
+an {ge{Rm{gpty {Wmartini {Cglass{x~
+An {ge{Rm{gpty {Wmartini {Cglass{x rolls around on the floor.~
+glass~
+~
+potion Taj AO
+100 'intoxication' 'intoxication' 'intoxication' 'enhanced armor'
+21 10 0 P
+G none
+G none
+G none
+G none
+#663
+martini glass newyearsquest~
+an {ge{Rm{gpty {Wmartini {Cglass{x~
+An {ge{Rm{gpty {Wmartini {Cglass{x rolls around on the floor.~
+glass~
+~
+potion Taj AO
+100 'intoxication' 'intoxication' 'intoxication' 'benediction'
+21 10 0 P
+G none
+G none
+G none
+G none
+#664
+resolution reminder paper wadded newyearsquest~
+a {Yres{Rolution {Creminder{x~
+A wadded up piece of {Yp{Raper{x is on the ground.~
+paper~
+~
+scroll Taj AO
+100 'remove fear' 'remove curse' 'refresh' 'teleport'
+20 10 0 P
+G none
+G none
+G none
+G none
+#665
+resolution reminder paper wadded newyearsquest~
+a {Yres{Rolution {Creminder{x~
+A wadded up piece of {Yp{Raper{x is on the ground.~
+paper~
+~
+scroll Taj AO
+100 'calm' 'inspire' 'attract other' 'superior heal'
+20 10 0 P
+G none
+G none
+G none
+G none
+#666
+heart chocolate valentines <3~
+a {r<3 {xshaped {ychocolate{x~
+A {r<3 {xshaped {ychocolate{x has been furtively left here.~
+chocolate~
+~
+pill TVacjk AO
+50 'master healing' 'create rose' 'love potion' 'insanity'
+20 10 1 P
+A
+9 -20
+A
+6 3
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#500
+@eng {GZ{gsu{Gz{gsu{G'{gs {CW{cork{Cs{chop{x~
+@eng You've entered Zsuzsu's Workshop, a crazy place of mechanical and magical
+oddities.  Most don't seem to fulfill their intended purpose.
+~
+0 DT inside
+D0
+~
+~
+ABCFGZ 0 510
+0 0
+D1
+~
+~
+Z 0 506
+0 0
+D3
+~
+~
+ABCZ 0 501
+0 0
+S
+#501
+{MQ{muest {CC{central{x~
+Papers, maps, contracts for monsters, and over a thousand little {Ynotes{x
+stuck to every available surface dominate this room.  Covering the complete
+north wall is a gigantic map of the realm.  Upon taking a closer look you
+notice little {Msp{ma{Mrkles{x wandering about the map like lost stars.  Each star
+tracks one of the mortals of the realm as he or she goes about duties of the
+day.  Darker stars show the monsters of the realm, and these frequently wink
+out of existance.  My what amazing and intricate quests must be planned in
+this room.
+~
+0 AKTX inside
+D1
+~
+~
+ABCFGZ 0 500
+0 0
+S
+#502
+@eng {DThe {yMud {Wof {CL{ci{Cfe {WRoom{x~
+@eng There are large lumps of {ystock mud{x used to form new beings in barrels
+around the room.  There's a throw-wheel, used to spin and form the mud into
+the shape of the being it will become.  One barrel is filled with a strange
+glowing {Bw{ba{Bter{x, pulsating with {Gl{gi{Gfe{x.
+~
+0 DT inside
+D1
+~
+~
+ABCFGZ 0 507
+0 0
+D3
+~
+~
+Z 0 506
+0 0
+S
+#503
+@eng {DThe {GP{groving {GG{grounds{x~
+In this room, experimental monsters, created by Zsuzsu, battle the best of
+the realm in order to determine their mettle.  {yTrees{x and {Gf{goliage{x allow for
+plenty of places to hide under the {Yl{yea{Yv{ye{Ys{x.  An {Ca{cur{Ca{x also {Cb{cless{Ce{cs{x the room,
+so no combatant should find their life force diminished, should the monster
+rage out of control.
+~
+0 NTXZd forest
+D3
+~
+~
+Z 0 504
+0 0
+S
+#504
+@eng {DThe {GS{gtaging {GA{grea{x~
+You're on the verge of the proving grounds, a place were mysical creations
+come to life and do battle to test their mettle.  Proper preparation is often
+the key to winning an encounter; this room gives you such an opportunity.
+A patch of shrubs and ferns just before the door might help conceal your
+approach.
+~
+0 ANTXZd forest
+D1
+~
+~
+Z 0 503
+0 0
+D2
+~
+~
+ABCFGZ 0 506
+0 0
+S
+#505
+@eng {DThe {YT{yi{Ynk{ye{Yr{yi{Yng {WShop{x~
+@eng Tools litter the floor of this workshop.  There are places on the walls for
+them to be organized, but it looks like whoever works here was in such a
+flurry to finish whatever project she was working on, that she just up and
+left the tools everywhere.  Some are rusting.  And some in disrepair.  But
+you can just imagine what kind of {mw{Mo{mnders{x were built here.
+~
+0 DT inside
+D0
+~
+~
+Z 0 506
+0 0
+S
+#506
+@eng {DThe {CE{cx{Cp{cerimentatio{Cn {GL{ga{Gb{x~
+@eng You've entered the Experimentation Lab of what is most probably some kind
+of mad alchemist.  There are {Ds{wc{Dorch {rm{Ra{rrks{x on the walls from previous
+disasterous attempts at creation.  Claw marks, as large as a dragon can be
+seen clawing the door to the north.  An animated mud oozes out of the eastern
+passageway.  And the {Ct{ci{Cnk {Ct{ci{Cnk{x of a {Dtiny{x hammer on metal comes from the
+south.
+~
+0 DT inside
+D0
+~
+~
+ABCFGZ 0 504
+0 0
+D1
+~
+~
+Z 0 502
+0 0
+D2
+~
+~
+Z 0 505
+0 0
+D3
+~
+~
+Z 0 500
+0 0
+S
+#507
+{gM{yons{gt{ye{gr{x {CH{co{Clding{c {DPen{x~
+This cage is built with all the lastest in humain treatment spells.  There's
+a everflowing water troff, and a mystical food dispenser.  Anything the
+monsters trapped her might need.  The monsters are waiting for their next
+mission, which might be to invade Midgaard, or burn down the forest.
+~
+0 TX inside
+D3
+~
+~
+ABCFGZ 0 502
+0 0
+S
+#510
+{DThe {mC{Mo{mns{Mu{mlt{Ma{mt{Mio{mn {cCh{Ca{cmb{Ce{cr{x~
+The walls are smooth and without shadow, nor harsh light.  Instead a warm
+glow prevades the room.  {mS{Mi{mlk{x tapestries depicting the signing of the
+Tre'Nol Accord, and the Peace Pact at Antiochren adorn the walls.  A table
+in the center is made of {Dobsidian{x and the chairs around it have high backs
+with {Wsilver{x and {Wplatinum{x trim.  The entire room is constructed to provide an
+overwhelming sense of serenity and calm, so that reason may prevail within
+these walls.  
+~
+0 DNTX inside
+D2
+~
+~
+ABCFGZ 0 500
+0 0
+S
+#0
+
+#RESETS
+D 0 500 0 2	* {GZ{gsu{Gz{gsu{G'{gs {CW{cork{Cs{chop{x: door to the north: closed and locked
+D 0 500 3 2	* {GZ{gsu{Gz{gsu{G'{gs {CW{cork{Cs{chop{x: door to the west: closed and locked
+D 0 501 1 2	* {MQ{muest {CC{central{x: door to the east: closed and locked
+D 0 502 1 2	* {DThe {yMud {Wof {CL{ci{Cfe {WRoom{x: door to the east: closed and locked
+D 0 504 2 2	* {DThe {GS{gtaging {GA{grea{x: door to the south: closed and locked
+D 0 506 0 2	* {DThe {CE{cx{Cp{cerimentatio{Cn {GL{ga{Gb{x: door to the north: closed and locked
+D 0 507 3 2	* {gM{yons{gt{ye{gr{x {CH{co{Clding{c {DPen{x: door to the west: closed and locked
+D 0 510 2 2	* {DThe {mC{Mo{mns{Mu{mlt{Ma{mt{Mio{mn {cCh{Ca{cmb{Ce{cr{x: door to the south: closed and locked
+M 0 599 1 502 1	* an {DE{gn{Do{Gr{Dm{go{Dus {yT{Dhin{gg{x ({DThe {yMud {Wof {CL{ci{Cfe {WRoom{x)
+O 0 514 0 504	* a {mm{Mi{mst{My{x {gp{Go{grtal{x ({DThe {GS{gtaging {GA{grea{x)
+O 0 512 0 510	* the {cfo{Cu{Wn{Cta{cin{w of {Wre{Cfl{ce{Cct{Wion{x ({DThe {mC{Mo{mns{Mu{mlt{Ma{mt{Mio{mn {cCh{Ca{cmb{Ce{cr{x)
+M 0 503 1 510 1	* a {rblood{x sausage ({DThe {mC{Mo{mns{Mu{mlt{Ma{mt{Mio{mn {cCh{Ca{cmb{Ce{cr{x)
+E 0 511 0 17		*	a {rs{Rau{rsage {wlink{x: held in the hands
+S
+
+#OLIMITS
+O 525 1	* {YE{yye{Ys {xof the {YO{yve{wr{Ww{wo{yrl{Yd{x
+O 599 1	* brains
+S
+
+#MOBPROGS
+#503
+mob echo Another link of the sausage appears.
+mob mload 503
+mob vforce 503 mob oload 511 W
+~
+#530
+if isgood $n
+and rand 5
+say Have you seen any evil souls to be converted, $n?
+break
+endif
+if isevil $n
+if level $n > 20
+if rand 20
+mob echoat $n $I trembles with fear in your presence.
+mob echoaround $n $I trembles with fear in $n's presence.
+endif
+break
+endif
+if level $n > 6
+if clones >= 2
+if rand 10
+say You can't stand against our united might, $n!
+murder $n
+endif
+break
+endif
+if clones >= 1
+if rand 20
+say Your twisted soul if forfeit to me, $n.
+murder $n
+say Assist me, brother!
+endif
+break
+endif
+say Devil, begone!
+yell Brothers, help me vanquish $n!
+murder $n
+endif
+break
+endif
+if rand 5
+say There is time yet for your twisted soul to feel the grace of Light, $n.
+mob echoat $n $I gets down on one knee and prays for you.
+mob echoaround $n $I gets down on one knee and prays for $n.
+endif
+endif
+~
+#531
+if isgood $r
+and rand 10
+say Have you seen any evil souls to be converted, $r?
+break
+endif
+if isevil $r
+if level $r > 20
+if rand 15
+mob echoat $r $I trembles with fear in your presence.
+mob echoaround $r $I trembles with fear in $r's presence.
+endif
+break
+endif
+if level $r > 6
+if clones >= 2
+if rand 30
+say You can't stand against our united might, $r!
+murder $r
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say Your twisted soul if forfeit to me, $r.
+murder $r
+say Assist me, brother!
+endif
+break
+endif
+say Devil, begone!
+yell Brothers, help me vanquish $n!
+murder $r
+endif
+break
+endif
+if rand 10
+say There is time yet for your twisted soul to feel the grace of Light, $r.
+mob echoat $r $I gets down on one knee and prays for you.
+mob echoaround $r $I gets down on one knee and prays for $r.
+endif
+~
+#532
+if isgood $n
+and rand 10
+say Point me in the direction of evil, $n?
+break
+endif
+if isevil $n
+' hi evil
+if level $n > 40
+if rand 10
+mob echoat $n $I seems crestfallen at your presence.
+mob echoaround $n $I seems crestfallen at $n's presence.
+endif
+break
+endif
+if level $n > 17
+if clones >= 2
+if rand 30
+say We will crush the evil out of you, $n!
+murder $n
+endif
+break
+endif
+if clones >= 1
+if rand 40
+say Repent and your soul may be saved in death, $n.
+murder $n
+say Assist me, brother!
+endif
+break
+endif
+say Devil, pray to your god for mercy!
+yell Brothers, rally around me to slay $n!
+murder $n
+endif
+break
+endif
+if rand 15
+say May the gods grace you with Light whenever you are ready, $n.
+mob echoat $n $I closes $s eyes and whispers a prayer for you.
+mob echoaround $n $I closes $s eyes and whispers a prayer for $n.
+endif
+endif
+~
+#533
+if isgood $r
+and rand 10
+say Have you seen any evil souls to be converted, $r?
+break
+endif
+if isevil $r
+' hi evil
+if level $r > 40
+if rand 15
+mob echoat $r $I seems crestfallen at your presence.
+mob echoaround $r $I seems crestfallen at $r's presence.
+endif
+break
+endif
+if level $r > 17
+if clones >= 2
+if rand 30
+say We will crush the evil out of you, $r!
+murder $r
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say Repent and your soul may be saved in death, $r.
+murder $r
+say Assist me, brother!
+endif
+break
+endif
+say Devil, pray to your god for mercy!
+yell Brothers, rally around me to slay $r!
+murder $r
+endif
+break
+endif
+if rand 10
+say May the gods grace you with Light whenever you are ready, $r.
+mob echoat $r $I closes $s eyes and whispers a prayer for you.
+mob echoaround $n $I closes $s eyes and whispers a prayer for $r.
+endif
+endif
+~
+#534
+if isgood $n
+and rand 10
+say Join the battle against evil, $n!
+break
+endif
+if isevil $n
+if level $n > 70
+if rand 15
+mob echoat $n $I contemplates $s chances against you.
+mob echoaround $n $I contemplates $s chances against $n.
+endif
+break
+endif
+if level $n > 30
+if clones >= 2
+if rand 30
+say My bothers and I cannot be bested by you, $n!
+murder $n
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say You don't stand a chance, $n.
+murder $n
+say Bother, together we can fell the evil!
+endif
+break
+endif
+say Now that I've got you, best you pray for mercy, $n!
+yell Over here, Yurikesh, I have one cornered $n!
+murder $n
+endif
+break
+endif
+if rand 5
+say Join the fight against the Darkness, and you soul be saved, $n.
+mob echoat $n $I prays to $s god that you will see the Light.
+mob echoaround $n $I prays to $s god that $n will see the Light.
+endif
+endif
+~
+#535
+if isgood $r
+and rand 30
+say Join the battle against evil, $r!
+break
+endif
+if isevil $r
+if level $r > 70
+if rand 15
+mob echoat $r $I contemplates $s chances against you.
+mob echoaround $r $I contemplates $s chances against $r.
+endif
+break
+endif
+if level $r > 30
+if clones >= 2
+if rand 30
+say My bothers and I cannot be bested by you, $r!
+murder $r
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say You don't stand a chance, $r.
+murder $r
+say Bother, together we can fell the evil!
+endif
+break
+endif
+say Now that I've got you, best you pray for mercy, $r!
+yell Over here, Yurikesh, I have one cornered $r!
+murder $r
+endif
+break
+endif
+if rand 5
+say Join the fight against the Darkness, and you soul be saved, $r.
+mob echoat $n $I prays to $s god that you will see the Light.
+mob echoaround $n $I prays to $s god that $r will see the Light.
+endif
+endif
+~
+#536
+if isgood $n
+and rand 10
+say All that follow the Light must band together, $n!
+break
+endif
+if isevil $n
+if level $n > 85
+if rand 25
+mob echoat $n $I looks a little nervous at seeing you here.
+mob echoaround $n $I looks a little nervous at seeing $n here.
+endif
+break
+endif
+if level $n > 50
+if clones >= 2
+if rand 30
+say You cannot stand against our united might, $n!
+murder $n
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say Pray I make this swift, $n.
+murder $n
+say Join me comrade, in smiting this Darkness!
+endif
+break
+endif
+say You will not have a chance to escape your destiny, $n!
+yell Yurikesh, $n cowers before me!
+murder $n
+endif
+break
+endif
+if rand 5
+say $n, I know you will follow the path of Light, eventually.
+mob echoat $n $I prays to $s god that you find direction.
+mob echoaround $n $I prays to $s god that $n will find direction.
+endif
+endif
+~
+#537
+if isgood $r
+and rand 20
+say All that follow the Light must band together, $r!
+break
+endif
+if isevil $r
+if level $r > 85
+if rand 25
+mob echoat $r $I looks a little nervous at seeing you here.
+mob echoaround $r $I looks a little nervous at seeing $r here.
+endif
+break
+endif
+if level $r > 50
+if clones >= 2
+if rand 30
+say You cannot stand against our united might, $r!
+murder $r
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say Pray I make this swift, $r.
+murder $r
+say Join me comrade, in smiting this Darkness!
+endif
+break
+endif
+say You will not have a chance to escape your destiny, $r!
+yell Yurikesh, $r cowers before me!
+murder $r
+endif
+break
+endif
+if rand 10
+say $r, I know you will follow the path of Light, eventually.
+mob echoat $r $I prays to $s god that you find direction.
+mob echoaround $r $I prays to $s god that $r will find direction.
+endif
+endif
+~
+#538
+if isgood $n
+and rand 5
+say All that follow the Light must band together, $n!
+break
+endif
+if isevil $n
+if level $n > 70
+if clones >= 2
+if rand 30
+say You should have repented eariler, $n.  It is too late now!
+murder $n
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say Only , You are lost, $n.
+murder $n
+say The gods of Light will see you fallen!
+endif
+break
+endif
+say It's just you an me, now, $n!
+yell Follower of Light, $n trembles before me!
+murder $n
+endif
+break
+endif
+if rand 5
+say $n, should you wish to convert, let me know, I will be glad to assist you.
+mob echoat $n $I offers you a chance to convert.
+mob echoaround $n $I offers $n a chance to convert.
+endif
+endif
+~
+#539
+if isgood $r
+and rand 5
+say All that follow the Light must band together, $r!
+break
+endif
+if isevil $r
+if level $r > 70
+if clones >= 2
+if rand 30
+say You should have repented eariler, $r.  It is too late now!
+murder $r
+endif
+break
+endif
+if clones >= 1
+if rand 50
+say Only , You are lost, $r.
+murder $r
+say The gods of Light will see you fallen!
+endif
+break
+endif
+say It's just you an me, now, $r!
+yell Follower of Light, $r trembles before me!
+murder $r
+endif
+break
+endif
+if rand 5
+say $r, should you wish to convert, let me know, I will be glad to assist you.
+mob echoat $r $I offers you a chance to convert.
+mob echoaround $r $I offers $n a chance to convert.
+endif
+endif
+~
+#0
+
+#$

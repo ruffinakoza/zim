@@ -1,0 +1,6257 @@
+#AREADATA
+Name The White Desert~
+VNUMs 19550 19699
+Credits Nalaeya~
+Security 9
+LevelRange 30 40
+ResetMessage A desert wind blows across the dunes, causing the sands to shift.~
+End
+
+#MOBILES
+#19550
+camel domesticated~
+a domesticated camel~
+A domesticated camel stands here, chewing on a thorny plant.
+~
+The camel is large, with a very distinct hump on its back.  Though it
+seems comfortable around the nomads, it gives you a look of warning whenever
+you get too close.  
+~
+horse~
+ABZ 0 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19552 100~
+#19551
+nomad~
+a nomad~
+A nomad walks among the tents, watching you cautiously.
+~
+The nomad is dressed in simple brown clothing, loosely fitted but
+providing plenty of protection from the merciless sun.  While not exactly
+unfriendly, the look directed at you is weary, as if the nomads here are
+unsure what to expect from you.  
+~
+human~
+AB 0 0 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+0 0 0 0
+stand stand either 100
+0 0 medium flesh~
+~
+M death 19553 100~
+#19552
+angry nomad~
+an angry nomad~
+An angry nomad is here, searching for a thief.
+~
+This nomad is dressed like all the others, but wears an indignant frown
+on his face.  He looks quite angry, and ready to take it out on any unlucky
+person in his way.  
+~
+human~
+AB F 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+IN 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M death 19554 100~
+#19553
+mob loader~
+a mob loader~
+This mob waits for some sneaky thief to take something.
+~
+He loads mob 19552.
+~
+human~
+ABe 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEFGHIJKLMNOPQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M act 19550 gets~
+M delay 19551 100~
+I 92
+#19554
+bodyguard man~
+a bodyguard~
+A tall, heavily muscled man stands here, arms crossed.
+~
+Dressed in the same clothes as the other nomads, the bodyguard appears to
+have been chosen from among the finest warriors in the camp.  His arms are
+thick, bearing scars to prove that battle is nothing new to him.  He watches
+the surroundings carefully, always alert for anyone trying to sneak in.  
+~
+human~
+AB DF 0 0
+38 38 105d38+0 190d10+85 12d3+24 none
+-15 -15 -15 -7
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 19561 100~
+#19555
+bodyguard man~
+a bodyguard~
+A thickly muscled man fingers his sword as he watches you.
+~
+Dressed in the same clothes as the other nomads, the bodyguard appears to
+have been chosen from among the finest warriors in the camp.  His arms are
+thick, bearing scars to prove that battle is nothing new to him.  He watches
+the surroundings carefully, always alert for anyone trying to sneak in.  
+~
+human~
+AB DF 0 0
+38 38 105d38+0 190d10+85 12d3+24 none
+-15 -15 -15 -7
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 19561 100~
+#19556
+princess woman beautiful nomad~
+the nomad princess~
+A beautiful woman rests among the pillows.
+~
+With flawless brown skin and long black hair that curls down to her
+waist, this woman is a stunning sight.  Her eyes are big and luminous, open
+to the world and revealing her kind and passionate nature.  She wears an
+exquisite silk blouse, with wide, loose pants that are gathered at her
+ankles, tucked into pale-coloured boots done up with laces.  She wears a
+small frown on her face, as if she is plagued by unpleasant thoughts.  
+~
+human~
+ABe DFHlmt 1000 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+I AB 0 0
+stand stand female 1118
+0 0 medium flesh~
+~
+M death 19555 100~
+M grall 19558 100~
+M act 19563 shake~
+M speech 19563 no~
+M speech 19564 yes~
+M act 19564 nod~
+#19557
+khalimi nomad young man~
+Khalimi~
+A young man stands by the corner of the tent.
+~
+Even with a shaved head, this young, brooding man is handsome enough to
+make any woman's heart melt.  He has a sad, intense look in his dark eyes,
+and seems to be absorbed in his own thoughts, barely paying attention to
+anything around him.  
+~
+human~
+AB DFlmt 1000 0
+37 37 99d37+0 185d10+85 12d3+23 none
+-15 -15 -15 -7
+0 0 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+M give 19556 all~
+M death 19560 100~
+M entry 19562 100~
+#19558
+mob~
+a mob~
+A mob is here, waiting for khalimi to show up.
+~
+This mob won't let khalimi enter through this entrance.
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 CDEHIJKMN 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M grall 19557 100~
+I 92
+#19559
+bodyguard~
+a bodyguard~
+A hard-looking man keeps watch over the princess.
+~
+Dressed in the same clothes as the other nomads, the bodyguard appears to
+have been chosen from among the finest warriors in the camp.  His arms are
+thick, bearing scars to prove that battle is nothing new to him.  He watches
+the surroundings carefully, always alert for anyone trying to sneak in.  
+~
+human~
+AB DF 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 19559 100~
+M death 19561 100~
+#19560
+vizier man~
+the vizier~
+A dark man stands in the tent, uttering strange words of binding.
+~
+Despite living in the middle of a desert, this man is clothed entirely in
+black, his face uncovered but his hair hidden by cloth wound around his
+head.  He appears to be middle aged; his short pointed beard is graying,
+though few lines mar his face.  His lips seem to be curled into a permanent
+sneer, and there is something dark and hideous hidden in the depths of his
+eyes.  
+~
+human~
+ABe D -1000 0
+34 34 82d34+0 170d10+85 11d3+22 none
+-13 -13 -13 -6
+0 0 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+M death 19565 100~
+M greet 19567 100~
+M speech 19568 no~
+M act 19568 shake~
+M speech 19569 yes~
+M act 19569 nod~
+M fight 19571 100~
+#19561
+summoned demon~
+a summoned demon~
+An immense being rages here, trapped in a circle of dark sand.
+~
+Pacing along the edge of the circle that binds it, the demon occasionally
+lets out a loud roar of displeasure, its eyes filled with a burning desire
+to destroy everything around it.  Its skin is red and leathery, covered with
+scars as if it has seen countless battles.  Thick, black horns jut out from
+its head, curving upward and topped with a strange liquid that almost seems
+to glow.  Its most distinguished feature is its eyes, large and filled with
+an intense hatred desperate to be set free.  
+~
+unique~
+ABe BD -1000 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+O A H I
+stand stand either 0
+ABCD 0 large flesh~
+~
+M death 19566 100~
+#19562
+nomad relaxing~
+the nomad~
+A man is here relaxing in the steam.
+~
+This nomad is completely naked, ready to relax in the steam tent.  Though
+there are no weapons nearby, you have no doubt that he is capable of
+defending himself, naked or not.  
+~
+human~
+A 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 19609 100~
+#19563
+something thing creature~
+something~
+Something moves in the darkness, breathing down your neck.
+~
+It is impossible to make out any details about this creature.  It moves
+fast, brushing against you briefly before scurrying back into the darkness. 
+There is a vague impression that it is large in size, but the speed at which
+it moves makes it difficult to tell.  
+~
+unique~
+ABUe DFlmt 0 0
+106 1 8d1+100000 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKMNPT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M speech 19581 mzirrah~
+M exall 19583 1~
+M kill 19582 100~
+#19564
+guardian wind~
+the wind~
+The wind blows up fiercely from the chasm below, threatening to knock you over.
+~
+The went batters you about, almost as if it has a life of its own.  Its
+source seems to be the chasm below, but there is something very unnatural
+about it.  
+~
+unique~
+ABUe DFlmt 0 0
+106 1 8d1+100000 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDHIJMNPT 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M kill 19582 100~
+M speech 19584 bnasza curmith~
+M exall 19583 1~
+#19565
+fire guardian flame figure final man shaped~
+the final guardian~
+A vaguely man-shaped figure of pure flame guards the gate.
+~
+A pillar of flames, vaguely man-shaped, moves before you, guarding the
+gate.  The heat it lets off is intense, and it seems to be sentient,
+watching every move you make.  
+~
+fire elemental~
+ABUe DFlmt 0 0
+106 1 8d1+100000 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDIJKMN 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M delay 19575 100~
+M random 19574 2~
+M speech 19585 mahahda gemin shalida~
+M kill 19582 100~
+M exall 19583 1~
+#19566
+greed monster~
+the greed monster~
+This mob watches out for greedy people.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKMNPT 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M act 19573 gets~
+M delay 19572 100~
+I 92
+#19567
+nomad chief man tall dark~
+the nomad chief~
+A tall, dark man watches you carefully from the table.
+~
+Tall, well-muscled, and with more gray hair than not, the chief is an
+impressive figure, bearing scars from past battles on his arms and left
+cheek.  He is dressed as all the other nomads are, in loose pale clothing
+that covers most of his body.  
+~
+human~
+ABe 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+EH 0 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+M death 19613 100~
+#19568
+enormous golden dragon~
+{ythe golden dragon{x~
+An {yenormous golden dragon{x rises up, annoyed at your intrusion.
+~
+The dragon is enormous, at least thirty feet in length and half that in
+height.  Sharp, vicious-looking teeth are revealed with every roar, and
+thick claws tear at the ground beneath, ready to shred you to pieces.  The
+light glitters off the dragon's tough scales, and its large tail swings back
+and forth, promising a heated battle.  
+~
+unique~
+ABFi Jc 0 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+AMO U 0 I
+stand stand either 2659
+0 ABCDEFGHJKPU medium flesh~
+~
+M death 19614 100~
+#19569
+woman siren beautiful~
+{Bthe woman in the {Cwater{x~
+A beautiful woman swims at the center of the {Coasis{x.
+~
+The woman is absolutely stunning, her beauty unearthly.  Her hair is as
+blue as the water, framing a face with skin the colour of pure ivory. 
+Intense blue eyes meet yours as she beckons you forward, smiling
+seductively.  
+~
+elf~
+ABFe 0 0 0
+37 37 113d37+250 370d11+95 13d2+32 none
+-17 -17 -17 -9
+GH H 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 19576 100~
+#19570
+man merchant head~
+the head merchant~
+A well-dressed merchant dabs at his sweaty face with a handkerchief.
+~
+His clothes are fine, but soaked in sweat at the moment.  He appears to
+be doing quite well for himself.  The way the others in the caravan defer to
+him indicates that he may be the head merchant.  
+~
+human~
+ABe 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+J AB 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+M greet 19577 100~
+M act 19578 shake~
+M speech 19578 no~
+M speech 19579 yes~
+M act 19579 nod~
+M give 19580 100~
+M give 19580 all~
+M death 19615 100~
+#19571
+desert snake something~
+a desert snake~
+Something moves along the sand, barely visible.
+~
+The snake is sand-coloured, except for a few darker stripes of brown
+along its length.  It isn't very big, only about two feet in length, but it
+moves almost too quickly to follow, and lifts its head up with a threatening
+hiss.  
+~
+snake~
+AG P 0 0
+33 33 64d33+0 33d9+60 10d3+18 none
+-11 -11 -11 -4
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19617 100~
+#19572
+wild camel~
+a wild camel~
+A wild camel walks among the sand dunes, searching for dry grass.
+~
+The camel is quite large, with an enormous hump on its back.  Its sandy
+brown colour allows it to blend into its surroundings when seen from a
+distance, despite its size.  Its neck is long and curved, supporting a head
+with long, delicate eyelashes.  It appears to be wild, and it's difficult to
+predict what it will do if threatened.  
+~
+horse~
+AG 0 0 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M death 19618 100~
+#19573
+dajarra nomad figure tall~
+a dajarra nomad~
+A tall figure moves among the sand dunes, running towards you.
+~
+Dressed in clothes of brown and gray, the figure before you is barely
+visible among the sand dunes.  They are covered from head to toe in loose
+fitting clothing that only allows their eyes to be exposed.  Every movement
+is calculated, and the figure moves with the strength and confidence of a
+warrior.  
+~
+human~
+ACFG 0 0 0
+34 34 82d34+0 170d10+85 11d3+22 none
+-13 -13 -13 -6
+I 0 0 0
+stand stand either 100
+0 0 medium flesh~
+~
+M death 19619 100~
+#19574
+sand demon wind gust~
+{ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x~
+A gust of wind throws sand up into the air, rotating towards you.
+~
+Sand flies through the air, meters high, propelled by a strong wind that
+seems to come from nowhere.  It appears to be regular sand, but you get the
+distinct impression that it is targeting you.  
+~
+air elemental~
+AG 0 0 0
+36 36 93d36+0 180d10+85 12d3+23 none
+-14 -14 -14 -7
+0 0 H 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 19620 100~
+#19575
+stone climbing mob~
+the stone climbing mob~
+This mob here lets people climb up to the dragon.
+~
+If players have a rope, grappling hook, and force stone, they can go up to the dragon.
+~
+human~
+ABUe DFlmt 0 0
+91 1 8d1+100000 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKMN 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M exall 19586 è	!~
+I 92
+#19576
+nomad merchant~
+a nomad merchant~
+A nomad merchant rests here by the side of the road.
+~
+This nomad appears to be well into his middle years, with dark, leathery
+skin.  His clothes seem to be a mix of the traditional garb worn by the
+nomads of the desert with fashions from several nearby cities.  His eyes are
+sharp, watching you closely and seeming to see through your money pouch to
+count every last coin.  
+~
+human~
+ABe 0 0 0
+40 40 133d40+0 400d11+95 14d2+34 none
+-20 -20 -20 -11
+0 AB 0 0
+stand stand male 1412
+0 0 medium flesh~
+~
+M bribe 19587 500~
+M greet 19588 100~
+M death 19616 100~
+#19577
+nomad guide man ppp~
+the nomad guide~
+A young man dressed in the clothes of a nomad waits here patiently.
+~
+He appears to be little more than a boy, hardly old enough to grow a
+beard, but he was born and raised in the desert, and knows it better than
+almost anyone alive.  He wears a thin layer of clothing that covers his
+entire body, proecting his skin from the sun, but from the way he carries
+himself, it would seem he barely notices the scorching heat.  
+~
+human~
+AB 0 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#19578
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19589 2~
+I 92
+#19579
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19589 3~
+I 92
+#19580
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19589 ~
+I 92
+#19581
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19589 1~
+I 92
+#19582
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19590 ~
+I 92
+#19583
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19590 1~
+I 92
+#19584
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19590 2~
+I 92
+#19585
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19590 3~
+I 92
+#19586
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19591 ~
+I 92
+#19587
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19591 1~
+M exall 19611 3~
+I 92
+#19588
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19591 2~
+I 92
+#19589
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19591 3~
+I 92
+#19590
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19592 1~
+M exall 19593 3~
+M exall 19594 2~
+I 92
+#19591
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19595 ~
+M exall 19596 3~
+M exall 19597 1~
+I 92
+#19592
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19697 1~
+M exall 19598 3~
+M exall 19599 ~
+M exall 19600 2~
+I 92
+#19593
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19601 ~
+M exall 19602 1~
+M exall 19603 2~
+M exall 19604 3~
+I 92
+#19594
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19605 2~
+M exall 19606 3~
+M exall 19607 1~
+I 92
+#19595
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19608 1~
+I 92
+#19596
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19608 2~
+I 92
+#19597
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19610 1~
+I 92
+#19598
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19610 ~
+I 92
+#19599
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19611 ~
+I 92
+#19600
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19612 2~
+I 92
+#19601
+mob lost~
+a lost mob~
+This mob is here, getting people lost in the desert.
+~
+~
+human~
+ABe DFlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 ABCDEHIJKLMNOPQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 19612 3~
+I 92
+#0
+
+#OBJECTS
+#19550
+ivory hilted blades twin~
+twin ivory-hilted blades~
+~
+unknown~
+~
+weapon 0 AN
+shortsword 7 14 none 0
+106 107 2120 P
+G none
+G none
+G none
+G none
+#19551
+tent flap opening~
+an opening in the tent~
+A tent flap has been left open, allowing you to enter a nearby tent.~
+canvas~
+~
+portal R 0
+0 0 A 19550 0
+0 0 0 P
+E
+tent flap opening~
+The tent flap is open, letting fresh air through the opening.
+~
+G none
+G none
+G none
+G none
+#19552
+tent flap opening~
+an opening in the tent~
+A tent flap has been left open, allowing you to enter a nearby tent.~
+canvas~
+~
+portal R 0
+0 0 A 19552 0
+0 0 0 P
+E
+tent flap opening~
+The tent flap is open, letting fresh air through the opening.
+~
+G none
+G none
+G none
+G none
+#19553
+tent flap opening~
+an opening in the tent~
+A tent flap has been left open, allowing you to enter a nearby tent.~
+canvas~
+~
+portal R 0
+0 0 A 19554 0
+0 0 0 P
+E
+tent flap opening~
+The tent flap is open, letting fresh air through the opening.
+~
+G none
+G none
+G none
+G none
+#19554
+tent flap opening~
+an opening in the tent~
+A tent flap has been left open, allowing you to enter a nearby tent.~
+canvas~
+~
+portal R 0
+0 0 A 19555 0
+0 0 0 P
+E
+tent flap opening~
+The tent flap is open, letting fresh air through the opening.
+~
+G none
+G none
+G none
+G none
+#19555
+tent flap opening~
+an opening in the tent~
+A tent flap has been left open, allowing you to enter a nearby tent.~
+canvas~
+~
+portal R 0
+0 0 A 19557 0
+0 0 0 P
+E
+tent flap opening~
+The tent flap is open, letting fresh air through the opening.
+~
+G none
+G none
+G none
+G none
+#19556
+tent flap opening~
+an opening in the tent~
+A tent flap has been left open, allowing you to enter a nearby tent.~
+canvas~
+~
+portal R 0
+0 0 A 19556 0
+0 0 0 P
+E
+tent flap opening~
+The tent flap is open, letting fresh air through the opening.
+~
+G none
+G none
+G none
+G none
+#19557
+tent flap opening outside~
+an opening in the tent~
+An open tent flap leads outside.~
+canvas~
+~
+portal R 0
+0 0 A 19562 0
+0 0 0 P
+E
+tent flap outside opening~
+Light filters through the open tent flap, and a breeze of fresh air flows
+in.  
+~
+G none
+G none
+G none
+G none
+#19558
+tent flap opening outside~
+an opening in the tent~
+An open tent flap leads outside.~
+canvas~
+~
+portal R 0
+0 0 A 19565 0
+0 0 0 P
+E
+tent flap outside opening~
+Light filters through the open tent flap, and a breeze of fresh air flows
+in.  
+~
+G none
+G none
+G none
+G none
+#19559
+tent flap opening outside~
+an opening in the tent~
+An open tent flap leads outside.~
+canvas~
+~
+portal R 0
+0 0 A 19564 0
+0 0 0 P
+E
+tent flap outside opening~
+Light filters through the open tent flap, and a breeze of fresh air flows
+in.  
+~
+G none
+G none
+G none
+G none
+#19560
+tent flap opening outside~
+an opening in the tent~
+An open tent flap leads outside.~
+canvas~
+~
+portal R 0
+0 0 A 19563 0
+0 0 0 P
+E
+tent flap outside opening~
+Light filters through the open tent flap, and a breeze of fresh air flows
+in.  
+~
+G none
+G none
+G none
+G none
+#19561
+tent flap opening outside~
+an opening in the tent~
+An open tent flap leads outside.~
+canvas~
+~
+portal R 0
+0 0 A 19561 0
+0 0 0 P
+E
+tent flap outside opening~
+Light filters through the open tent flap, and a breeze of fresh air flows
+in.  
+~
+G none
+G none
+G none
+G none
+#19562
+tent flap opening outside~
+an opening in the tent~
+An open tent flap leads outside.~
+canvas~
+~
+portal R 0
+0 0 A 19560 0
+0 0 0 P
+E
+tent flap outside opening~
+Light filters through the open tent flap, and a breeze of fresh air flows
+in.  
+~
+G none
+G none
+G none
+G none
+#19563
+crate~
+a crate~
+A crate lies close to the tent's entrance.~
+wood~
+~
+container R 0
+100 AC 0 100 0 0
+0 0 0 P
+E
+crate~
+The crate is made of rough wood, and looks like it has seen a lot of
+abuse.  
+~
+G none
+G none
+G none
+G none
+#19564
+dried meat~
+dried meat~
+A strip of dried meat has been left on the ground.~
+meat~
+~
+food 0 A
+AC AC 0 0 0 AC AC
+0 5 46 P
+E
+dried meat~
+It doesn't appear to be very appetizing, but there's enough of it to be
+useful when nothing else is available.  
+~
+G none
+G none
+G none
+G none
+#19565
+golden figurine~
+a golden figurine~
+A small golden figurine has been lost here.~
+gold~
+~
+treasure W AO
+0 0 0 0 0
+35 8 11500 P
+A
+13 26
+A
+18 1
+A
+17 -7
+E
+golden figuring~
+The figurine is small, maybe six inches in height.  It seems to be made
+of solid gold, and is quite heavy.  It is a figure of a woman with her hand
+resting on a giant cat.  Every detail is exquisite, and it appears to be
+quite valuable.  
+~
+G none
+G none
+G none
+G none
+#19566
+hole tent back~
+a hole in the tent~
+~
+canvas~
+~
+portal OR 0
+0 0 A 19562 0
+0 0 0 P
+E
+hole tent back~
+A hole has been cut into the back of the tent, carefully concealed by a
+colourful tapestry.  
+~
+G none
+G none
+G none
+G none
+#19567
+hole back~
+a hole in the tent~
+~
+canvas~
+~
+portal R 0
+0 0 A 19551 0
+0 0 0 P
+E
+hole back~
+The hole in the tent is carefully concealed, barely visible even when you
+know what to look for.  
+~
+G none
+G none
+G none
+G none
+#19568
+pendant half-moon half moon~
+a half-moon pendant~
+A lovely pendant has been dropped here and forgotten.~
+silver~
+~
+jewelry IK AC
+0 0 0 0 0 0 0
+38 10 1000 P
+A
+19 4
+A
+18 3
+E
+pendant half moon~
+The pendant is simple and beautiful.  A small half-moon hangs suspended
+on a delicate silver chain, shining brightly as the light catches it.  
+~
+G none
+G none
+G none
+G none
+#19569
+half-moon half moon bloodied pendant~
+a {rbloodied{x half-moon pendant~
+A blood-covered pendant has been carelessly dropped to the ground.~
+silver~
+~
+jewelry EHJM AC
+0 0 0 0 0 0 0
+38 10 0 P
+A
+6 -2
+E
+bloodied half moon pendant~
+The once beautiful pendant has been soiled forever by the blood of the
+slain.  
+~
+G none
+G none
+G none
+G none
+#19570
+letter princess~
+a letter~
+A letter has been left here.~
+paper~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 2 0 P
+E
+princess letter~
+Words are written on the paper in a delicate hand, though the script is
+unrecognizable.  
+~
+G none
+G none
+G none
+G none
+#19571
+piece parchment~
+a piece of parchment~
+A small piece of parchment has been left here.~
+parchment~
+~
+treasure 0 A
+0 0 0 0 0
+1 5 0 P
+E
+piece parchment word~
+Written in a delicate hand, the parchment is wrinkled enough to be barely
+legible.  
+ 
+{DTo pass the third gate, three words must be uttered.
+Mahahda Gemin Shalida{x
+ 
+The guardian...(illegible)...in dark flames.
+~
+G none
+G none
+G none
+G none
+#19572
+small note~
+a small note~
+A small note has been left on the ground.~
+unknown~
+~
+treasure 0 A
+0 0 0 0 0
+0 4 0 P
+E
+small note~
+Words have been scrawled in a thick, angular hand.
+ 
+{DTo pass the second gate, utter the phrase 'Bnasza Curmith'{x
+~
+G none
+G none
+G none
+G none
+#19573
+vizier staff~
+the vizier's staff~
+A tall staff of black wood has been dropped here.~
+metal~
+~
+weapon BG AN
+staff 2 25 thwack F
+39 60 22460 P
+A
+12 51
+A
+18 2
+A
+17 -7
+E
+vizier staff~
+The staff is tall, about six feet in height.  It appears to be made of a
+thick black wood, though it is as hard as metal, and just as heavy.  Strange
+runes have been carved along its length, their meaning impossible to tell.  
+~
+G none
+G none
+G none
+G none
+#19574
+pile gold gleaming~
+a pile of gold~
+~
+unknown~
+treasure~
+container 0 P
+1000 0 0 100 100 0
+0 0 0 P
+E
+gleaming pile gold~
+Piles of gleaming gold and gems are scattered about the room, glittering
+as the light hits them.  There appears to be far more wealth here than
+anyone could hope to carry away.  
+~
+G none
+G none
+G none
+G none
+#19575
+gold gems coins~
+a small pile of gems and coins~
+A pile of gems and coins lies on the ground, gleaming brightly.~
+unknown~
+coins~
+money 0 A
+90 200
+0 5 0 P
+E
+gems coins pile~
+The pile is small, but glitters brightly, catching the light.
+~
+G none
+G none
+G none
+G none
+#19576
+tall chest~
+a tall chest~
+~
+wood~
+~
+container 0 P
+1000 AC 0 1000 100 0
+0 0 0 P
+E
+tall chests~
+Chests lie all about the cavern, some big enough to fit a full set of
+armor, others little more than jewelry boxes.  
+~
+G none
+G none
+G none
+G none
+#19577
+platinum axe~
+a {Wplatinum{x axe~
+A finely-made axe lies on the ground, its blade glittering in the light.~
+platinum~
+~
+weapon 0 AN
+axe 2 28 chop F
+38 100 83336 P
+A
+19 2
+A
+18 5
+E
+platinum axe~
+This axe is beautiful, and there is a sense about it at first glance that
+it is simply decorative.  The blade, however, is quite sharp despite its
+appearance, and it seems as though it would make a fine weapon.  
+~
+G none
+G none
+G none
+G none
+#19578
+pair mystical bracers~
+{ma pair of mystical bracers{x~
+A pair of bracers has been left behind.~
+unknown~
+cloth~
+armor BGH AI
+13 13 13 12 'none' 0
+35 20 53230 P
+A
+13 5
+A
+17 -4
+A
+19 4
+A
+18 4
+E
+pair mystical bracers~
+The bracers seem to be made of thick ordinary cloth, enchanted by magic
+to protect the wearer from harm.  
+~
+G none
+G none
+G none
+G none
+#19579
+elixer immortality vial~
+the elixer of immortality~
+A large vial filled with a luminous, swirling liquid lies on its side.~
+unknown~
+~
+potion ABG A
+35 'invisibility' 'shield' 'armor' 'reserved'
+35 25 10 P
+E
+elixer immortality~
+The elixer is contained in a large, thick vial.  Inside the liquid can be
+seen swirling around, a multitude of colours seeming to move by themselves. 
+
+~
+G none
+G none
+G none
+G none
+#19580
+an emerald ring~
+a large {gemerald{x ring~
+A lovely gold ring topped with a large emerald has been lost here.~
+gold~
+~
+jewelry 0 AB
+0 0 0 0 0 0 0
+37 0 3500 P
+A
+19 5
+A
+18 3
+A
+6 1
+E
+ring emerald gold~
+The ring's band is made of gold, and is quite heavy.  A large emerald the
+size of a robin's egg tops the ring, the jewel sparkling flawlessly.  
+~
+G none
+G none
+G none
+G none
+#19581
+tiny pouch golden thread~
+a tiny pouch of golden thread~
+A tiny pouch lies on the ground, its golden thread glittering.~
+gold~
+~
+container 0 AO
+50 I 0 10 90 0
+32 0 5852 P
+A
+12 20
+E
+tiny pouch golden thread~
+This pouch is small, but its golden thread glitters brilliantly in the
+light, It doesn't appear large enough to carry much, but looks as though it
+might be worth something.  
+~
+G none
+G none
+G none
+G none
+#19582
+pillows bed~
+a bed of pillows~
+~
+silk~
+~
+furniture R 0
+AB EGIJOP EHK BCDFG ABEFG AB EGIJOP
+0 0 0 P
+E
+bed pillows~
+The pillows are quite soft, making an inviting place to rest..
+~
+G none
+G none
+G none
+G none
+#19583
+flowers red blossoms petals~
+{ra flower with {Rred petals{x~
+There are lovely flowers with bright red petals here.~
+unknown~
+plant~
+pill 0 A
+37 'detect undead' 'giant strength' 'reserved' 'reserved'
+37 3 1000 P
+E
+flower red petals~
+The flowers are quite small, but the colour of the petals is intense.  It
+is truly a wonder that such a beautiful plant can bloom in the desert.  
+~
+G none
+G none
+G none
+G none
+#19584
+floating sphere of water~
+{Ba {bfl{Boati{bng {bsp{Bhe{bre {Bof {bwa{Bte{br{x~
+A perfect sphere of water hangs suspended in the air, swirling slowly.~
+water~
+~
+treasure BGh AQ
+0 0 0 0 0
+37 0 100 P
+A
+13 9
+A
+2 1
+A
+19 4
+A
+18 5
+A
+17 -5
+G none
+G none
+G none
+G none
+#19585
+water pool oasis~
+the oasis~
+~
+water~
+~
+fountain R 0
+-1 0 'water' 0
+0 0 0 P
+E
+oasis pool water~
+The water is cool and refreshing to the touch, reflecting the sky above.  
+~
+G none
+G none
+G none
+G none
+#19586
+twin ivory hilted blades short swords~
+twin ivory-hilted blades~
+A pair of ivory-hilted blades has been left behind here.~
+ivory~
+~
+weapon 0 AN
+shortsword 5 8 stab F
+34 30 782874 P
+A
+18 3
+A
+19 2
+E
+twin ivory hilted blades short swords~
+The blades seem to be of very fine craftsmanship, perfectly straight and
+sharpened.  The hilt is of carved ivory, flawless and strong.  The short
+swords seem perfectly balanced, light as a feather and easy to wield.  
+~
+G none
+G none
+G none
+G none
+#19587
+thick sturdy rope coil~
+some thick, sturdy rope~
+A long coil of rope has been left behind here.~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+1 15 0 P
+E
+coil rope thick sturdy~
+The rope is of generous length, and made of a thick, strong material that
+is difficult to identify.  It feels rather prickly, but looks sturdy enough
+to support a dozen trolls.  
+~
+G none
+G none
+G none
+G none
+#19588
+grappling hook~
+a grappling hook~
+A grappling hook has been dropped here and forgotten.~
+metal~
+~
+trash 0 A
+0 0 0 0 0 0 0
+1 10 0 P
+E
+grappling hook~
+The hook is quite small, but sharp enough to grip almost any edge.  
+~
+G none
+G none
+G none
+G none
+#19589
+force stone~
+{Ra {Rf{ro{Rr{rc{Re {Rs{rt{Ro{rn{Re{x~
+A strange, glowing stone has been left here.~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+1 5 0 P
+E
+force stone~
+The stone is the size of a small pebble, but with an intense red glow,
+the colour of a setting sun.  
+~
+G none
+G none
+G none
+G none
+#19590
+shield golden scales dragonscale~
+A Shield of {YGold{yen Dr{Yagon{x Scales~
+A golden dragonscale shield glitters in the light.~
+unknown~
+Dragon Scales~
+armor SY AJ
+15 15 15 14 'none' 0
+40 100 321716 P
+A
+13 6
+A
+17 -8
+A
+20 -1
+A
+19 3
+A
+18 10
+E
+shield golden dragon scales~
+The shield is quite large, and heavy.  It is made of golden dragon
+scales, carefully woven together.  The scales are strong and resistant,
+capable of deflecting all but the most powerful blows.  
+~
+G none
+G none
+G none
+G none
+#19591
+desert rose~
+{YA Desert Rose{x~
+A beautiful solitary rose is on the ground here.~
+unknown~
+flower~
+warp_stone G AO
+0 0 0 0 0 0 0
+30 2 100 P
+E
+desert rose~
+The rose is immensely beautiful, its yellow petals open wide and looking
+as though it has been freshly picked.  
+~
+G none
+G none
+G none
+G none
+#19592
+desert map~
+{Ya map of the desert{x~
+A plain-looking map has been left on the ground.~
+parchment~
+~
+map 0 A
+0 0 0 0 0 0 0
+1 3 200 P
+E
+plain map desert~
+The map is fairly simple, dotted with landmarks to help you gain your
+bearings while traveling the harsh desert.  You feel a sense of comfort
+having this map in sight, knowing it will keep you from getting hopelessly
+lost.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#19550
+Inside the Princess' Tent~
+The air is blessedly cool here inside the tent.  Pillows are strewn all
+about the interior, dyed in vibrant reds, blues and purples.  Several
+porcelain dishes are placed on a stand by the western wall of the tent, but
+only crumbs remain of whatever food they once held.  The tent extends to the
+north, which is separated from the entrance by a shimmering silk curtain.  
+~
+0 D inside
+E
+silk curtain~
+The silk appears to be quite fine, shimmering softly whenever it is moved.  
+~
+E
+pillows~
+The pillows are brightly dyed, and wonderfully soft to the touch.  
+~
+E
+porcelain dishes~
+The dishes are made of fine porcelain, delicate and light.
+~
+D0
+The tent extends to the north, where a silk curtain hides the other side from view.
+~
+~
+Z 0 19551
+0 0
+S
+#19551
+Inside the Princess' Tent~
+Pillows have been placed at the tent's northeastern corner, carefully
+arranged to form a bed.  Fine silks and ivory carvings are strewn about the
+tent, almost carelessly, as if the inhabitant sees little value in them. 
+The air is cool here, a welcome break from the unrelenting heat of the
+desert outside.  A shimmering silk curtain separates this section of the
+tent from the entrance to the south.  
+~
+0 D inside
+E
+curtain~
+The curtain is made of fine silk, shimmering whenever a soft breeze makes
+it sway.  
+~
+E
+carvings~
+The carvings are small and delicate, most of them depicting small animals
+and people.  A few of the pieces are yellowed with age, but no less
+beautiful.  
+~
+E
+shimmering silk curtain~
+The silk appears to be of the finest quality, fit for a queen's dress.  
+~
+D2
+A silk curtain is used as a divider between this section of the tent and the one to the south.
+~
+~
+Z 0 19550
+0 0
+S
+#19552
+Inside the Vizier's Tent~
+The tent's interior is quite dark.  Only a few black candles provide
+light, which is barely adequate to keep you from tripping over the books and
+unidentifiable mounds stewn all about.  The air here is cold, enough that it
+seems unnatural.  It is as if the tent is in the middle of some frigid
+wasteland, rather than a blistering desert.  The tent extends to the north,
+where candles have been arranged in a circle, revealing a macabre scene.  
+~
+0 AD inside
+E
+books mounds~
+Books and unidentifiable mounds cover the tent floor.  Some of the tomes
+appear to be quite thick, bearing disturbing images of demon faces that seem
+as though they would only belong in the worst of nightmares.  
+~
+E
+candles black~
+A few black candles of various sizes have been placed around the tent to
+provide light, strange runes running down along their length.  
+~
+D0
+The cold air seems to be coming from the north, where a circle of candles
+has been set up.  
+~
+~
+Z 0 19553
+0 0
+S
+#19553
+Inside the Vizier's Tent~
+Dozens of black candles have been carefully arranged and placed just
+outside a circle of black sand.  The candles seem to be giving off less
+light than they should, as if the darkness around them is feeding on it. 
+The air here is frigid, and musty, filled with the scent of death.  A
+malevolent presence seems to be contained in the circle, growing stronger as
+you approach.  
+~
+0 AD inside
+E
+sand~
+The sand is pitch black, and doesn't seem to come from the desert.  
+~
+E
+circle black candles~
+Tall, flickering candles surround a circle of black sand, barely
+containing the malevolent presence sensed within.
+~
+D2
+A few candles bring light to the southern half of the tent, though barely
+enough to spot the mounds of books that seem to be scattered about.  
+~
+~
+Z 0 19552
+0 0
+S
+#19554
+Inside the Chief's Tent~
+Weapons and trophies adorn the nomad chief's tent, evidence of his
+success against his enemies in past conflicts.  The furniture in the tent
+appears to be purely functional, showing little sign of the wealth that he
+obviously possesses.  A large table of dark, hard wood is at the center of
+the tent, covered with scrolls and blank parchment, with an ink jar just to
+the side.  At the far northeastern corner of the tent is the bed where the
+chief sleeps, really nothing more than a collection of pillows arranged in a
+pile.  
+~
+0 D inside
+E
+furniture~
+The table is made of dark wood, strange animals carved along its edge. 
+Most of the scrolls are covered in an unrecognizable script; the rest are
+blank.  The ink jar is only half full, with a box of sand next to it to help
+it dry faster.  
+~
+E
+weapons trophies~
+Curved swords and daggers decorate the tent, trophies from the chief's
+fallen enemies.  
+~
+E
+table scrolls parchment ink jar~
+The table is made of dark wood, strange animals carved along its edge. 
+Most of the scrolls are covered in an unrecognizable script; the rest are
+blank.  The ink jar is only half full, with a box of sand next to it to help
+it dry faster.  
+~
+S
+#19555
+Steam Tent~
+The steam tent is bare of any decorations or furniture.  The only notable
+feature is a small pit for fire, and a pail for water placed next to it. 
+This tent has been designed to keep in the steam from the flames and water,
+allowing the nomads to bathe and relax in a land where water is too rare to
+use for anything but drinking.  The ground here is cracked and dry, though
+thankfully not as hot here away from the sun.  
+~
+0 D inside
+S
+#19556
+The Warriors' Tent~
+The warriors' tent is fairly large, among the biggest in the camp.  It
+mainly serves as a meeting and resting place for the warriors among the
+nomads, who live separately from the others.  The far north end is where the
+warriors sleep, on rolls that look as though they could barely provide any
+comfort.  The rest of the tent has a carpeted floor, where the warriors sit
+to have thier meals and share a laugh with their comrades.  
+~
+0 D inside
+E
+rolls~
+The rolls are thin and lumpy, hardly any better than the ground to sleep on.
+~
+S
+#19557
+The Supply Tent~
+The supply tent is filled with crates, some of them left carelessly open.
+Most appear to contain food; dried meats and vegetables, flasks of wine and
+water.  Some appear to hold goods bought from the passing caravans, or
+crafts that the nomads themselves intend to trade.  At first glance, it
+doesn't appear as though they hold anything of much worth.  
+~
+0 D inside
+E
+food dried meats vegetables wine water~
+The crates are filled with food and water, most probably acquired through
+trade.  
+~
+S
+#19558
+By the Camels~
+Tents are spread out to the east, where several hundred nomads have set
+up camp.  Though nomad warriors walk past you, they hardly spare you a
+glance, accustomed to outsiders and confident in their numbers.  This area
+seems to be used to keep the camels, of which there are over two dozen. 
+They are tied up next to posts thrust firmly into the ground, grazing on the
+hard, dry grass growing out of the cracked earth.  Voices from the nomad
+camp drift up here every now and then, men and women calling out to each
+other.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19619
+0 0
+D1
+~
+~
+Z 0 19560
+0 0
+D2
+~
+~
+Z 0 19559
+0 0
+D3
+~
+~
+Z 0 19627
+0 0
+S
+#19559
+By the Camels~
+Tents are spread out to the east, where several hundred nomads have set
+up camp.  Though nomad warriors walk past you, they hardly spare you a
+glance, accustomed to outsiders and confident in their numbers.  This area
+seems to be used to keep the camels, of which there are over two dozen. 
+They are tied up next to posts thrust firmly into the ground, grazing on the
+hard, dry grass growing out of the cracked earth.  Every now and then a
+camel looks up, glaring at you in warning if you approach too close.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19558
+0 0
+D1
+~
+~
+Z 0 19563
+0 0
+D2
+~
+~
+Z 0 19648
+0 0
+D3
+~
+~
+Z 0 19640
+0 0
+S
+#19560
+Among the Tents~
+Tents are spread out throughout the camp, seemingly erected wherever a
+convenient spot could be found, with little attention payed to organization.
+Sentries are placed at the edge of the camp, hands on their sword hilts and
+watching the desert for any signs of danger.  People move about the camp,
+going about their daily tasks.  The smell of camels is thick in the air, and
+every now and again a nomad leads one through the camp, bearing supplies in
+preparation for a trip.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19620
+0 0
+D1
+~
+~
+Z 0 19561
+0 0
+D2
+~
+~
+Z 0 19563
+0 0
+D3
+~
+~
+Z 0 19558
+0 0
+S
+#19561
+Among the Tents~
+Tents are spread out throughout the camp, seemingly erected wherever a
+convenient spot could be found, with little attention payed to organization.
+Sentries are placed at the edge of the camp, hands on their sword hilts and
+watching the desert for any signs of danger.  People move about the camp,
+going about their daily tasks.  Every now and again, the sentries call out
+to each other, keeping an eye out for rival nomads.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19621
+0 0
+D1
+~
+~
+Z 0 19562
+0 0
+D2
+~
+~
+Z 0 19564
+0 0
+D3
+~
+~
+Z 0 19560
+0 0
+S
+#19562
+Among the Tents~
+Tents are spread out throughout the camp, seemingly erected wherever a
+convenient spot could be found, with little attention payed to organization.
+Sentries are placed at the edge of the camp, hands on their sword hilts and
+watching the desert for any signs of danger.  People move about the camp,
+going about their daily tasks.  The hot sun beats down, causing the desert
+in the distance to shimmer slightly.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19622
+0 0
+D1
+~
+~
+Z 0 19633
+0 0
+D2
+~
+~
+Z 0 19565
+0 0
+D3
+~
+~
+Z 0 19561
+0 0
+S
+#19563
+Among the Tents~
+Tents are spread out throughout the camp, seemingly erected wherever a
+convenient spot could be found, with little attention payed to organization.
+Sentries are placed at the edge of the camp, hands on their sword hilts and
+watching the desert for any signs of danger.  People move about the camp,
+going about their daily tasks.  Children run between the tents, laughing
+gaily as they chase each other about.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19560
+0 0
+D1
+~
+~
+Z 0 19564
+0 0
+D2
+~
+~
+Z 0 19647
+0 0
+D3
+~
+~
+Z 0 19559
+0 0
+S
+#19564
+Among the Tents~
+Tents are spread out throughout the camp, seemingly erected wherever a
+convenient spot could be found, with little attention payed to organization.
+Sentries are placed at the edge of the camp, hands on their sword hilts and
+watching the desert for any signs of danger.  People move about the camp,
+going about their daily tasks.  Every now and then someone opens a tent flap
+to find some shade away from the sun, revealing cool-looking interiors
+filled with bright rugs and cushions.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19561
+0 0
+D1
+~
+~
+Z 0 19565
+0 0
+D2
+~
+~
+Z 0 19646
+0 0
+D3
+~
+~
+Z 0 19563
+0 0
+S
+#19565
+Among the Tents~
+Tents are spread out throughout the camp, seemingly erected wherever a
+convenient spot could be found, with little attention payed to organization.
+Sentries are placed at the edge of the camp, hands on their sword hilts and
+watching the desert for any signs of danger.  People move about the camp,
+going about their daily tasks.  Women walk past, carrying buckets of water
+to their tents.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19562
+0 0
+D1
+~
+~
+Z 0 19634
+0 0
+D2
+~
+~
+Z 0 19645
+0 0
+D3
+~
+~
+Z 0 19564
+0 0
+S
+#19566
+Hidden Room~
+You are floating in a void, darkness all around you.
+~
+0 NX inside
+S
+#19567
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19655
+0 0
+D1
+~
+~
+Z 0 19568
+0 0
+D2
+~
+~
+Z 0 19589
+0 0
+D3
+~
+~
+Z 0 19578
+0 0
+S
+#19568
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19654
+0 0
+D1
+~
+~
+Z 0 19569
+0 0
+D2
+~
+~
+Z 0 19588
+0 0
+D3
+~
+~
+Z 0 19567
+0 0
+S
+#19569
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19653
+0 0
+D1
+~
+~
+Z 0 19570
+0 0
+D2
+~
+~
+Z 0 19587
+0 0
+D3
+~
+~
+Z 0 19568
+0 0
+S
+#19570
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19652
+0 0
+D1
+~
+~
+Z 0 19571
+0 0
+D2
+~
+~
+Z 0 19586
+0 0
+D3
+~
+~
+Z 0 19569
+0 0
+S
+#19571
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19651
+0 0
+D1
+~
+~
+Z 0 19572
+0 0
+D2
+~
+~
+Z 0 19585
+0 0
+D3
+~
+~
+Z 0 19570
+0 0
+S
+#19572
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19650
+0 0
+D1
+~
+~
+Z 0 19573
+0 0
+D2
+~
+~
+Z 0 19584
+0 0
+D3
+~
+~
+Z 0 19571
+0 0
+S
+#19573
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19649
+0 0
+D1
+~
+~
+Z 0 19574
+0 0
+D2
+~
+~
+Z 0 19583
+0 0
+D3
+~
+~
+Z 0 19572
+0 0
+S
+#19574
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19648
+0 0
+D1
+~
+~
+Z 0 19576
+0 0
+D2
+~
+~
+Z 0 19582
+0 0
+D3
+~
+~
+Z 0 19573
+0 0
+S
+#19576
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19647
+0 0
+D1
+~
+~
+Z 0 19577
+0 0
+D2
+~
+~
+Z 0 19581
+0 0
+D3
+~
+~
+Z 0 19574
+0 0
+S
+#19577
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19646
+0 0
+D1
+~
+~
+Z 0 19578
+0 0
+D2
+~
+~
+Z 0 19580
+0 0
+D3
+~
+~
+Z 0 19576
+0 0
+S
+#19578
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19645
+0 0
+D1
+~
+~
+Z 0 19567
+0 0
+D2
+~
+~
+Z 0 19579
+0 0
+D3
+~
+~
+Z 0 19577
+0 0
+S
+#19579
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19578
+0 0
+D1
+~
+~
+Z 0 19589
+0 0
+D2
+~
+~
+Z 0 19600
+0 0
+D3
+~
+~
+Z 0 19580
+0 0
+S
+#19580
+{CThe Oasis{x~
+There is a pool of clear blue water here, reflecting the cloudless sky. 
+The water appears to be quite deep, welling up from a hidden source far
+underground.  A few flowers with bright red petals bloom next to the pool,
+all the more beautiful for the barren landscape around them.  The desert
+heat here is intense, though the water feels strangely cool to the touch,
+instantly refreshing.  
+ 
+~
+0 CNX field
+D0
+The desert spreads before you.
+~
+~
+Z 0 19577
+0 0
+D1
+The desert spreads before you.
+~
+~
+Z 0 19579
+0 0
+D2
+The desert spreads before you.
+~
+~
+Z 0 19599
+0 0
+D3
+The desert spreads before you.
+~
+~
+Z 0 19581
+0 0
+S
+#19581
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19576
+0 0
+D1
+~
+~
+Z 0 19580
+0 0
+D2
+~
+~
+Z 0 19598
+0 0
+D3
+~
+~
+Z 0 19582
+0 0
+S
+#19582
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19574
+0 0
+D1
+~
+~
+Z 0 19581
+0 0
+D2
+~
+~
+Z 0 19597
+0 0
+D3
+~
+~
+Z 0 19583
+0 0
+S
+#19583
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19573
+0 0
+D1
+~
+~
+Z 0 19582
+0 0
+D2
+~
+~
+Z 0 19596
+0 0
+D3
+~
+~
+Z 0 19584
+0 0
+S
+#19584
+{yBefore a Wall of Stone{x~
+A tall wall of rock rises up out of the ground, its stone sand-coloured
+and uneven.  The wall rises up about a hundred feet into the air, and seems
+to be roughly circular in shape, ending in a sharp point and standing out
+distinctly against the desert sky.  The stone at the base of the wall has
+been worn smooth by countless sandstorms, so that it is almost impossible to
+find a grip along its length.  Higher up, there seem to be several ledges,
+one of which leads up to a large opening, though it is difficult to make out
+any more than that from this vantage point.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19572
+0 0
+D1
+~
+~
+Z 0 19583
+0 0
+D2
+~
+~
+Z 0 19595
+0 0
+D3
+~
+~
+Z 0 19585
+0 0
+D4
+~
+~
+Z 0 19623
+0 0
+S
+#19585
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19571
+0 0
+D1
+~
+~
+Z 0 19584
+0 0
+D2
+~
+~
+Z 0 19594
+0 0
+D3
+~
+~
+Z 0 19586
+0 0
+S
+#19586
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19570
+0 0
+D1
+~
+~
+Z 0 19585
+0 0
+D2
+~
+~
+Z 0 19593
+0 0
+D3
+~
+~
+Z 0 19587
+0 0
+S
+#19587
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19569
+0 0
+D1
+~
+~
+Z 0 19586
+0 0
+D2
+~
+~
+Z 0 19592
+0 0
+D3
+~
+~
+Z 0 19588
+0 0
+S
+#19588
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19568
+0 0
+D1
+~
+~
+Z 0 19587
+0 0
+D2
+~
+~
+Z 0 19591
+0 0
+D3
+~
+~
+Z 0 19589
+0 0
+S
+#19589
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19567
+0 0
+D1
+~
+~
+Z 0 19588
+0 0
+D2
+~
+~
+Z 0 19590
+0 0
+D3
+~
+~
+Z 0 19579
+0 0
+S
+#19590
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19589
+0 0
+D1
+~
+~
+Z 0 19591
+0 0
+D2
+~
+~
+Z 0 19611
+0 0
+D3
+~
+~
+Z 0 19600
+0 0
+S
+#19591
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19588
+0 0
+D1
+~
+~
+Z 0 19592
+0 0
+D2
+~
+~
+Z 0 19610
+0 0
+D3
+~
+~
+Z 0 19590
+0 0
+S
+#19592
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19587
+0 0
+D1
+~
+~
+Z 0 19593
+0 0
+D2
+~
+~
+Z 0 19609
+0 0
+D3
+~
+~
+Z 0 19591
+0 0
+S
+#19593
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19586
+0 0
+D1
+~
+~
+Z 0 19594
+0 0
+D2
+~
+~
+Z 0 19608
+0 0
+D3
+~
+~
+Z 0 19592
+0 0
+S
+#19594
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19585
+0 0
+D1
+~
+~
+Z 0 19595
+0 0
+D2
+~
+~
+Z 0 19607
+0 0
+D3
+~
+~
+Z 0 19593
+0 0
+S
+#19595
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19584
+0 0
+D1
+~
+~
+Z 0 19596
+0 0
+D2
+~
+~
+Z 0 19606
+0 0
+D3
+~
+~
+Z 0 19594
+0 0
+S
+#19596
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19583
+0 0
+D1
+~
+~
+Z 0 19597
+0 0
+D2
+~
+~
+Z 0 19605
+0 0
+D3
+~
+~
+Z 0 19595
+0 0
+S
+#19597
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19582
+0 0
+D1
+~
+~
+Z 0 19598
+0 0
+D2
+~
+~
+Z 0 19604
+0 0
+D3
+~
+~
+Z 0 19596
+0 0
+S
+#19598
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19581
+0 0
+D1
+~
+~
+Z 0 19599
+0 0
+D2
+~
+~
+Z 0 19603
+0 0
+D3
+~
+~
+Z 0 19597
+0 0
+S
+#19599
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19580
+0 0
+D1
+~
+~
+Z 0 19600
+0 0
+D2
+~
+~
+Z 0 19602
+0 0
+D3
+~
+~
+Z 0 19598
+0 0
+S
+#19600
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19579
+0 0
+D1
+~
+~
+Z 0 19590
+0 0
+D2
+~
+~
+Z 0 19601
+0 0
+D3
+~
+~
+Z 0 19599
+0 0
+S
+#19601
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19600
+0 0
+D1
+~
+~
+Z 0 19611
+0 0
+D2
+~
+~
+Z 0 19622
+0 0
+D3
+~
+~
+Z 0 19602
+0 0
+S
+#19602
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19599
+0 0
+D1
+~
+~
+Z 0 19601
+0 0
+D2
+~
+~
+Z 0 19621
+0 0
+D3
+~
+~
+Z 0 19603
+0 0
+S
+#19603
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19598
+0 0
+D1
+~
+~
+Z 0 19602
+0 0
+D2
+~
+~
+Z 0 19620
+0 0
+D3
+~
+~
+Z 0 19604
+0 0
+S
+#19604
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19597
+0 0
+D1
+~
+~
+Z 0 19603
+0 0
+D2
+~
+~
+Z 0 19619
+0 0
+D3
+~
+~
+Z 0 19605
+0 0
+S
+#19605
+Among the Sand Dunes~
+The hot desert sun beats down on you, its heat almost unbearable.  Sweat
+evaporates almost as fast as it appears, and it seems that no amount of
+water would be enough to quench your thirst.  Off in the distance, there
+appears to be a large body of water, though no matter how long or far you
+walk, it always seems to stay as distant as ever.  The sand dunes continue
+in every direction, an endless shifting sea.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19596
+0 0
+D1
+~
+~
+Z 0 19604
+0 0
+D2
+~
+~
+Z 0 19618
+0 0
+D3
+~
+~
+Z 0 19606
+0 0
+S
+#19606
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19595
+0 0
+D1
+~
+~
+Z 0 19605
+0 0
+D2
+~
+~
+Z 0 19617
+0 0
+D3
+~
+~
+Z 0 19607
+0 0
+S
+#19607
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19594
+0 0
+D1
+~
+~
+Z 0 19606
+0 0
+D2
+~
+~
+Z 0 19616
+0 0
+D3
+~
+~
+Z 0 19608
+0 0
+S
+#19608
+Among the Sand Dunes~
+Tall sand dunes spread before you, seeming like an ocean of sand, with
+waves shifting as a soft desert wind blows across them.  The slight breeze
+brings no relief from the relentless sun, carrying hot desert air across the
+dunes to assault you.  The desert spreads in every direction, seemingly
+without end, and everywhere you turn seems to look exactly the same, endless
+waves of sand with no signs of civilization.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19593
+0 0
+D1
+~
+~
+Z 0 19607
+0 0
+D2
+~
+~
+Z 0 19615
+0 0
+D3
+~
+~
+Z 0 19609
+0 0
+S
+#19609
+{yA Trail Between the Dunes{x~
+Another signpost stands to the side of the road, marking a curve in the
+trail.  A tall sand dune lies to the north and east, making passage in that
+direction difficult.  The trail winds beside another sand dune to the south,
+not as tall as the first but high enough to offer some protection from the
+sun.  
+~
+0 C road
+E
+signpost~
+The signpost is made of a hard, sand-coloured stone, and seems to have
+stood in place for quite some time.  
+ 
+{YThe Muthafna Road{x
+ 
+<----
+    |
+    |
+    v
+~
+E
+signpost~
+~
+D0
+A tall dune hides what lies beyond.
+~
+~
+Z 0 19592
+0 0
+D1
+A large sand dune hides what lies beyond it.
+~
+~
+Z 0 19608
+0 0
+D2
+The trail weaves along, climbing up a small sand dune.
+~
+~
+Z 0 19614
+0 0
+D3
+A path weaves its way through the dunes.
+~
+~
+Z 0 19610
+0 0
+S
+#19610
+{yA Trail Between the Dunes{x~
+The tall dunes to either side of the path provide some blessed shade and
+respite from the scorching sun above, though the heat is still harsh and
+uncomfortable.  Sweat evaporates as soon as it appears, and not a single
+breeze moves across the dunes to offer relief.  The trail continues to the
+east and west, winding along the base of the sand dunes.  
+~
+0 C road
+D0
+A tall sand dune blocks any view of what lies further to the north.  
+~
+~
+Z 0 19591
+0 0
+D1
+The trail continues eastward between the dunes.
+~
+~
+Z 0 19609
+0 0
+D2
+There doesn't appear to be much to see other than more sand.
+~
+~
+Z 0 19613
+0 0
+D3
+The trail continues to the west, following the base of the dunes.  
+~
+~
+Z 0 19611
+0 0
+S
+#19611
+{yA Trail Between the Dunes{x~
+A signpost stands just off the southern edge of the path through the
+dunes, announcing the Muthafna Road and directing travelers along its path. 
+In reality the road is little more than a trail through two particularly
+tall sand dunes, which thankfully provide a little shade and relief from the
+hot, unrelenting sun.  Judging by the foot and hoof prints along the sand,
+it would seem as though this road is well-traveled.  
+~
+0 C road
+E
+hoof foot prints~
+Sand has blown over and obscured many of them, but it seems as though a
+large group of people have recently traveled along the road.  
+~
+E
+signpost~
+The signpost is made of a hard, sand-coloured stone, and seems
+to have stood in place for quite some time.
+
+{YThe Muthafna Road{x 
+ 
+<------------>
+~
+D0
+Tall dunes block any sight of what lies to the north.
+~
+~
+Z 0 19590
+0 0
+D1
+The trail winds its way eastward, following the curve of the dunes.  
+~
+~
+Z 0 19610
+0 0
+D2
+All that can be seen is sand.
+~
+~
+Z 0 19612
+0 0
+D3
+~
+~
+Z 0 10868
+0 0
+S
+#19612
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19611
+0 0
+D1
+~
+~
+Z 0 19613
+0 0
+D2
+~
+~
+Z 0 19633
+0 0
+D3
+~
+~
+Z 0 19622
+0 0
+S
+#19613
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19610
+0 0
+D1
+~
+~
+Z 0 19614
+0 0
+D2
+~
+~
+Z 0 19632
+0 0
+D3
+~
+~
+Z 0 19612
+0 0
+S
+#19614
+{yA Trail Between the Dunes{x~
+Sand dunes rise up on every side here, forcing the trail to climb over
+one of the smaller dunes, exposing it to the harsh desert sun.  A signpost
+is clearly placed at the top of the dune, directing travelers wishing to
+travel further along the trail.  The desert spreads out on every side, sand
+dunes stretching out as far as the eye can see.  
+~
+0 C road
+E
+signpost~
+The signpost is made of a hard, sand-coloured stone, and seems to have
+stood in place for quite some time.  
+ 
+{YThe Muthafna Road{x
+ 
+A
+|
+|
+---->
+~
+D0
+The path continues through the dunes.
+~
+~
+Z 0 19609
+0 0
+D1
+A caravan seems to have stopped to rest on the side of the trail.  
+~
+~
+Z 0 19615
+0 0
+D2
+Dunes stretch out in the distance, standing pure and untouched.  
+~
+~
+Z 0 19631
+0 0
+D3
+The desert stretches before you, seeming to be endless.
+~
+~
+Z 0 19613
+0 0
+S
+#19615
+{gThe Caravan{x~
+A caravan has stopped here in the shade between two particularly large
+dunes.  It appears to be a fairly large train, camels carrying silks bound
+up in rolls, and large casks and crates strapped to their backs, whose
+contents are hidden from sight.  Most of the camels are resting by the side
+of the road, their burdens removed for the moment.  People move about the
+caravan, checking on their goods and ensuring that everything is in order.  
+~
+0 C road
+E
+casks silks rolls crates~
+The merchants watch their goods carefully, keeping a suspicious eye on
+you.  
+~
+E
+camels~
+The camels look fairly tame, but it wouldn't be a good idea to go within
+biting range.  
+~
+D0
+Tall sand dunes obscure what lies beyond them.
+~
+~
+Z 0 19608
+0 0
+D1
+The trail weaves its way through the eastern dunes.
+~
+~
+Z 0 19616
+0 0
+D2
+A tall dune blocks any view of what lies to the south.
+~
+~
+Z 0 19630
+0 0
+D3
+The trail continues to wind its way westward.
+~
+~
+Z 0 19614
+0 0
+S
+#19616
+{gThe Head of the Caravan{x~
+Tracks across the sand show that several people have recently traveled
+along this trail, though a soft wind has blown sand over many of them and
+eliminated any trace.  The dunes to either side of the path provide some
+shade, though it is fairly inconsistent, the harsh sun's rays breaking throw
+in several places where the dunes lie too low to block it.  The trail winds
+its way eastward around a small dune, and continues to the west as well.  A
+few people seem to have wandered ahead of the caravan to the west, and are
+resting on the side of the trail.  
+~
+0 C road
+E
+people~
+They all appear to be native to the desert, wearing the traditional garb
+of the nomads.  
+~
+D0
+A sand dune barely stands tall enough to provide some shade.
+~
+~
+Z 0 19607
+0 0
+D1
+The trail continues to the east, barely visible.
+~
+~
+Z 0 19617
+0 0
+D2
+The small dunes allow for a decent view of the desert beyond, which seems
+to be an endless ocean of sand.  
+~
+~
+Z 0 19629
+0 0
+D3
+Camels and people are visible resting off the side of the trail.  
+~
+~
+Z 0 19615
+0 0
+S
+#19617
+{yA Trail Between the Dunes{x~
+A tall signpost here marks a trail in the curve, simultaneously serving
+as a warning to travelers to keep to the path.  The dunes here are barely
+tall enough to block out the sun, and a soft desert wind moves across the
+dunes, blowing sand over the trail to cover its tracks, and making it almost
+impossible to discern without the signposts to guide.  
+~
+0 C road
+E
+signpost~
+The signpost is made of a hard, sand-coloured stone, and seems to have
+stood in place for quite some time.  
+ 
+{YThe Muthafna Road{x
+ 
+<----
+    |
+    |
+    v
+~
+D0
+Tall dunes stand out ahead.
+~
+~
+Z 0 19606
+0 0
+D1
+The vast desert stretches beyond, seemingly without end.
+~
+~
+Z 0 19618
+0 0
+D2
+The trail continues southward, growing faint.
+~
+~
+Z 0 19628
+0 0
+D3
+A small trail weaves its way through the dunes.
+~
+~
+Z 0 19616
+0 0
+S
+#19618
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19605
+0 0
+D1
+~
+~
+Z 0 19619
+0 0
+D2
+~
+~
+Z 0 19627
+0 0
+D3
+~
+~
+Z 0 19617
+0 0
+S
+#19619
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19604
+0 0
+D1
+~
+~
+Z 0 19620
+0 0
+D2
+~
+~
+Z 0 19558
+0 0
+D3
+~
+~
+Z 0 19618
+0 0
+S
+#19620
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19603
+0 0
+D1
+~
+~
+Z 0 19621
+0 0
+D2
+~
+~
+Z 0 19560
+0 0
+D3
+~
+~
+Z 0 19619
+0 0
+S
+#19621
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19602
+0 0
+D1
+~
+~
+Z 0 19622
+0 0
+D2
+~
+~
+Z 0 19561
+0 0
+D3
+~
+~
+Z 0 19620
+0 0
+S
+#19622
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19601
+0 0
+D1
+~
+~
+Z 0 19612
+0 0
+D2
+~
+~
+Z 0 19562
+0 0
+D3
+~
+~
+Z 0 19621
+0 0
+S
+#19623
+{yInside the Dragon's Cave{x~
+An almost overpowering stench fills the cave, smelling of rotting
+carcasses and things better left unmentioned.  Light filters in from the
+entrance, and the remnants of the strong wind outside flow through the
+opening, though the breezes are not enough to dispel any part of the
+unpleasant odor.  The cave appears to be quite large, much bigger than it
+appears from outside, with the far end lost in darkness.  It appears as
+though something very large makes its home in this cave.  
+ 
+~
+0 ACDNTX mountain
+E
+carcasses rotting~
+They appear to belong mostly to camels, though some skeletons appear to
+be human.  
+~
+D5
+Light filters through the opening of the cave, and a soft breeze blows in
+from outside.  
+~
+~
+Z 0 19584
+0 0
+S
+#19624
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 19643
+0 0
+D3
+~
+~
+Z 0 19625
+0 0
+S
+#19625
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 19624
+0 0
+D2
+~
+~
+Z 0 19642
+0 0
+D3
+~
+~
+Z 0 19626
+0 0
+S
+#19626
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 19625
+0 0
+D2
+~
+~
+Z 0 19641
+0 0
+S
+#19627
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19618
+0 0
+D1
+~
+~
+Z 0 19558
+0 0
+D2
+~
+~
+Z 0 19640
+0 0
+D3
+~
+~
+Z 0 19628
+0 0
+S
+#19628
+{yA Trail Between the Dunes{x~
+Sand dunes rise on either side of the trail, tall enough to block out the
+sun and provide some much-needed shade.  A light breeze shifts the dunes
+above, causing sand to trickle down the slope and collect along the side of
+the trail.  Footprints can be seen along the path, where the sand hasn't
+covered them up, showing that this road has been traveled through recently. 
+
+~
+0 C road
+D0
+~
+~
+Z 0 19617
+0 0
+D1
+~
+~
+Z 0 19627
+0 0
+D2
+~
+~
+Z 0 19639
+0 0
+D3
+A caravan can be seen further down the trail.
+~
+~
+Z 0 19629
+0 0
+S
+#19629
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19616
+0 0
+D1
+~
+~
+Z 0 19628
+0 0
+D2
+~
+~
+Z 0 19638
+0 0
+D3
+~
+~
+Z 0 19630
+0 0
+S
+#19630
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19615
+0 0
+D1
+~
+~
+Z 0 19629
+0 0
+D2
+~
+~
+Z 0 19637
+0 0
+D3
+~
+~
+Z 0 19631
+0 0
+S
+#19631
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19614
+0 0
+D1
+~
+~
+Z 0 19630
+0 0
+D2
+~
+~
+Z 0 19636
+0 0
+D3
+~
+~
+Z 0 19632
+0 0
+S
+#19632
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19613
+0 0
+D1
+~
+~
+Z 0 19631
+0 0
+D2
+~
+~
+Z 0 19635
+0 0
+D3
+~
+~
+Z 0 19633
+0 0
+S
+#19633
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19612
+0 0
+D1
+~
+~
+Z 0 19632
+0 0
+D2
+~
+~
+Z 0 19634
+0 0
+D3
+~
+~
+Z 0 19562
+0 0
+S
+#19634
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19633
+0 0
+D1
+~
+~
+Z 0 19635
+0 0
+D2
+~
+~
+Z 0 19655
+0 0
+D3
+~
+~
+Z 0 19565
+0 0
+S
+#19635
+{cBy the Magic Caves{x~
+A large cliff rises up ahead, its dusty brown stone standing out amongst
+all the sand dunes.  The stone has been worn smooth by countless years of
+wind and sand storms, revealing a pale, glittering surface that seems to
+glow as light falls upon it.  At the very base of the cliff lies an opening,
+shrouded in darkness.  
+~
+0 C desert
+D0
+~
+~
+Z 0 19632
+0 0
+D1
+~
+~
+Z 0 19636
+0 0
+D2
+~
+~
+Z 0 19654
+0 0
+D3
+~
+~
+Z 0 19634
+0 0
+D5
+What lies beyond the opening is shrouded in darkness.
+~
+~
+Z 0 19657
+0 0
+S
+#19636
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19631
+0 0
+D1
+~
+~
+Z 0 19637
+0 0
+D2
+~
+~
+Z 0 19653
+0 0
+D3
+~
+~
+Z 0 19635
+0 0
+S
+#19637
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19630
+0 0
+D1
+~
+~
+Z 0 19638
+0 0
+D2
+~
+~
+Z 0 19652
+0 0
+D3
+~
+~
+Z 0 19636
+0 0
+S
+#19638
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19629
+0 0
+D1
+~
+~
+Z 0 19639
+0 0
+D2
+~
+~
+Z 0 19651
+0 0
+D3
+~
+~
+Z 0 19637
+0 0
+S
+#19639
+{yA Trail Between the Dunes{x~
+The dunes here are low, so that the trail is open to the sun, and barely
+visible for the wind that blows across it, carrying sand grains to cover up
+almost any trace of the path.  A weathered-looking signpost stands by the
+side of the trail, but whatever words or signs it once held have become
+unreadable.  The trail seems to continue to the south, weaving its way
+between the dunes.  
+~
+0 C road
+D0
+The trail is more apparent to the north.
+~
+~
+Z 0 19628
+0 0
+D1
+All that seems to lie to the east is an endless supply of sand.  
+~
+~
+Z 0 19640
+0 0
+D2
+A faint hint of a trail continues southward.
+~
+~
+Z 0 19650
+0 0
+D3
+The desert spreads before you, an endless sea of sand.
+~
+~
+Z 0 19638
+0 0
+S
+#19640
+Among the Sand Dunes~
+The dunes here are low, so that the trail is open to the sun, and barely
+visible for the wind that blows across it, carrying sand grains to cover up
+almost any trace of the path.  A weathered-looking signpost stands by the
+side of the trail, but whatever words or signs it once held have become
+unreadable.  The trail seems to continue to the south, weaving its way
+between the dunes.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19627
+0 0
+D1
+~
+~
+Z 0 19559
+0 0
+D2
+~
+~
+Z 0 19649
+0 0
+D3
+~
+~
+Z 0 19639
+0 0
+S
+#19641
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 19626
+0 0
+D1
+~
+~
+Z 0 19642
+0 0
+S
+#19642
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 19625
+0 0
+D1
+~
+~
+Z 0 19643
+0 0
+D3
+~
+~
+Z 0 19641
+0 0
+S
+#19643
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 19624
+0 0
+D1
+~
+~
+Z 0 19644
+0 0
+D3
+~
+~
+Z 0 19642
+0 0
+S
+#19644
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 19643
+0 0
+S
+#19645
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19565
+0 0
+D1
+~
+~
+Z 0 19655
+0 0
+D2
+~
+~
+Z 0 19578
+0 0
+D3
+~
+~
+Z 0 19646
+0 0
+S
+#19646
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19564
+0 0
+D1
+~
+~
+Z 0 19645
+0 0
+D2
+~
+~
+Z 0 19577
+0 0
+D3
+~
+~
+Z 0 19647
+0 0
+S
+#19647
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19563
+0 0
+D1
+~
+~
+Z 0 19646
+0 0
+D2
+~
+~
+Z 0 19576
+0 0
+D3
+~
+~
+Z 0 19648
+0 0
+S
+#19648
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19559
+0 0
+D1
+~
+~
+Z 0 19647
+0 0
+D2
+~
+~
+Z 0 19574
+0 0
+D3
+~
+~
+Z 0 19649
+0 0
+S
+#19649
+Among the Sand Dunes~
+The sun's rays beat down mercilessly upon you, with no sign of shade or
+relief in sight.  A soft wind tosses sand across the dunes, threatening to
+blow sharp grains into eyes and mouths that aren't suitably protected.  The
+desert is an ocean of sand as far as the eye can see, waves shifting as the
+wind blows across them.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19640
+0 0
+D1
+~
+~
+Z 0 19648
+0 0
+D2
+~
+~
+Z 0 19573
+0 0
+D3
+~
+~
+Z 0 19650
+0 0
+S
+#19650
+{yA Trail Between the Dunes{x~
+The trail from the north ends here, though it is obvious that it wasn't
+meant to.  The dunes here lie fairly low, providing no protection from the
+sun nor the desert wind, which has blown sand over the trail so that it has
+become indistinguishable from the rest of the desert.  There is no signpost
+or marking in sight to give a hint as to where the trail continues.  
+~
+0 C road
+D0
+A faint trail winds its way northward.
+~
+~
+Z 0 19639
+0 0
+D1
+The desert continues, seemingly endless.
+~
+~
+Z 0 19649
+0 0
+D2
+~
+~
+Z 0 19572
+0 0
+D3
+A sea of sand dunes lies to the west.
+~
+~
+Z 0 19651
+0 0
+S
+#19651
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19638
+0 0
+D1
+~
+~
+Z 0 19650
+0 0
+D2
+~
+~
+Z 0 19571
+0 0
+D3
+~
+~
+Z 0 19652
+0 0
+S
+#19652
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19637
+0 0
+D1
+~
+~
+Z 0 19651
+0 0
+D2
+~
+~
+Z 0 19570
+0 0
+D3
+~
+~
+Z 0 19653
+0 0
+S
+#19653
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19636
+0 0
+D1
+~
+~
+Z 0 19652
+0 0
+D2
+~
+~
+Z 0 19569
+0 0
+D3
+~
+~
+Z 0 19654
+0 0
+S
+#19654
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19635
+0 0
+D1
+~
+~
+Z 0 19653
+0 0
+D2
+~
+~
+Z 0 19568
+0 0
+D3
+~
+~
+Z 0 19655
+0 0
+S
+#19655
+Among the Sand Dunes~
+The desert heat is almost unbearable, the sun a giant flaming ball in the
+sky, offering no respite.  The wind that blows across the dunes does nothing
+but bring more heat and sweep the desert sand up into unprotected eyes. 
+Dunes rise all around, each looking the same as the next, offering no
+landmarks to judge progress or by which to find a way back to more
+hospitable lands.  
+~
+0 0 desert
+D0
+~
+~
+Z 0 19634
+0 0
+D1
+~
+~
+Z 0 19654
+0 0
+D2
+~
+~
+Z 0 19567
+0 0
+D3
+~
+~
+Z 0 19645
+0 0
+S
+#19656
+~
+~
+0 0 inside
+S
+#19657
+{cA Dark Passageway{x~
+The passageway is narrow, and shrouded in complete darkness.  An
+unnatural, mystical power seems to flow from its depths, dousing any light,
+magical or natural.  The air here is startlingly cold, a sharp contrast to
+the harsh desert heat just a few feet away.  Strange sounds come from the
+darkness, impossible to identify, sometimes seeming as if they are just
+ahead, other times sounding as though they are right behind you.  The path
+ahead is completely black, not a single ray of light penetrating through the
+darkness.  
+~
+0 ADX inside
+D1
+It is impossible to see anything through the unnatural darkness.
+~
+~
+DZ 0 19668
+0 0
+D4
+Faint light comes from above, barely piercing through the darkness.
+~
+~
+Z 0 19635
+0 0
+S
+#19664
+Useless mistake room~
+If the ability to delete rooms is ever added, delete this one!
+~
+0 X inside
+S
+#19668
+{cOn a Swaying Bridge{x~
+An old, wooden bridge sways over a deep chasm, its bottom lost in
+darkness.  Every sound you make echoes along the stone walls, almost
+sounding mocking as it reaches your ears.  The bridge creaks and sways,
+moved by a breeze that seems to come from nowhere.  To the west, an
+unnatural darkness covers the passageway leading out of the caves, while to
+the east the bridge leads to a large stone gate on solid ground.  
+~
+0 ADX inside
+E
+wooden bridge~
+The bridge is obviously very old, but it looks strong enough to support
+your weight.  
+~
+E
+gate stone~
+It is difficult to make out any details from here.  The gate appears to
+be more of an arch, rising about fifteen feet up into the air.  
+~
+D1
+A stone island rises above the darkness, a tall arched gate visible at
+its center.  
+~
+~
+Z 0 19669
+0 0
+D3
+The passageway to the west, beyond the bridge, is shrouded in a deep,
+unnatural darkness.  
+~
+~
+DZ 0 19657
+0 0
+S
+#19669
+{cAn Island over the Darkness{x~
+A tall gate arches overhead, covered in ancient runes, half of which are
+barely visible.  The ground beneath is solid, rising straight up out of the
+chasm, made of hard, rough stone.  To the west a wooden bridge sways and
+creaks, leading back towards a dark passageway, while to the east lies
+another bridge, looking like it would barely be able to support a child's
+weight.  
+~
+0 DX inside
+E
+bridges~
+The bridges sway back and forth, moved by a wind that seems to come from
+the chasm itself.  
+~
+E
+gate stone runes~
+The stone arch is covered in runes, few of which are recognizable.  A few
+seem to be runes of protection, but many of the unidentifiable ones have a
+more sinister feel to them.  
+~
+D1
+A decaying wooden bridge leads to another stone island, swaying gently
+and looking ready to fall apart at any moment.  
+~
+~
+DZ 0 19670
+0 0
+D3
+A wooden bridge sways to the west, the only way through to the other side
+of the cavern.  
+~
+~
+Z 0 19668
+0 0
+S
+#19670
+{cA Decaying Bridge{x~
+This wooden rope bridge looks very old, and it creaks unsteadily as the
+wind from below sways it back and forth.  Several planks are missing
+completely, long since fallen into the inky darkness below, and many of
+those that are remaining seem to be loose.  To the east the bridge ends,
+tied to two stone pillars standing right at the edge of an island of land
+that rises up out of the chasm, while to the west another island stands
+above the darkness, almost seeming to float from this perspective.  
+~
+0 ADX inside
+E
+stone pillars~
+The rope bridge is tied to the pillars, which thankfully appear to be
+quite solid.  
+~
+E
+rope bridge planks~
+Several of the planks appear to be rotting, and the rope is a little
+frayed in some places.  The bridge looks likely to fall at any moment.  
+~
+D1
+A tall gate is visible from this vantage point, though it is difficult to
+make out any more details from here.  
+~
+~
+Z 0 19671
+0 0
+D3
+A small island of stone rises up from the chasm, offering solid ground
+to rest your feet on.  
+~
+~
+DZ 0 19669
+0 0
+S
+#19671
+{cBefore the Magic Cave{x~
+A large archway stands overhead, the stone carved to look like vines and
+flowers, so delicate they almost seem real despite the lack of colour.  To
+the west, a decaying bridge sways over a dark, seemingly endless chasm.  The
+ground here is solid, and the air is warm, almost unpleasantly so.  Every
+now and then, a breeze rises up, swaying the bridge and offering a moment's
+relief from the heat.  To the east, a small passageway leads to a cavern
+brightly lit with flickering torchlight.  
+~
+0 DX inside
+E
+stone archway vines flowers~
+The archway hardly looks like something made in the desert, carved with
+vines and flowers as it is.  They are so well done that it is almost a
+wonder you cannot smell the flower petals.  
+~
+D1
+The small passageway seems to open up on a brightly lit cavern, the torch
+light reflecting off something glittering on the cavern floor.  
+~
+~
+DZ 0 19672
+0 0
+D3
+An unsteady wooden rope bridge leads to an island above the chasm to the
+west.  
+~
+~
+Z 0 19670
+0 0
+S
+#19672
+{cInside the Magic Cave{x~
+The small passageway opens up into a large, high-ceilinged cavern.  The
+floor of the cavern is filled with countless piles of treasure, seemingly
+strewn about at random.  Sparkling gems sit atop piles of gleaming gold
+coins, next to crowns and scepters and riches enough to purchase and feed a
+small kingdom.  Rolls of silk and finely dyed linens are piled together,
+somehow still in perfect condition.  Tall chests lie about the cavern, some
+open to reveal unimaginable riches, others closed tightly, hiding their
+secrets within.  Ancient tomes and scrolls lie among the piles, excellently
+preserved, though a loose page on the cavern floor shows that not all has
+survived intact.  
+~
+0 DJX inside
+E
+gems coins~
+Beautiful gems sit atop the coins, the likes of which even a king would
+drool over.  
+~
+E
+page loose~
+The page itself is in good condition, though there is no sign of the
+original book from which it came.  
+ 
+{W..but the warrior tried to take more than her share, thinking to
+herself, '{CI'm the one who did all the work! I should get the reward.
+I'm the one who discovered it, so it rightly belongs to me. The others
+will just have to live without it!{W'.
+
+  Reaching down, she grabbed everything she could find, fitting it all
+in her backpack. Diamonds, gold, books, daggers...all sorts of things,
+some of which she had no use for, but all she could think of was the
+wealth that would be hers. She didn't notice the door slipping closed
+behind her, or the ancient bones of the adventurers who had come before
+her, too intent on grabbing all the most valuable treasure before anyone
+else could get to it.
+
+  No one even knew she had gone down to the caverns, because she hadn't
+wished to reveal her secret to anyone, wanting all the treasures for
+herself. No one was there to hear her screams.
+ 
+Such is the price of greed.
+{x
+~
+E
+ancient tomes scrolls~
+Some of them appear to be magical, others appear to be lost histories
+valuable enough that any scholar would jump at a chance to read through
+their pages.  
+~
+E
+silks linens~
+Silks and fine linens are piled next to each other in large rolls, their
+quality fit for a queen.  
+~
+D3
+A small passageway leads back out of the cavern, ending right at the tall
+stone arch.  
+~
+~
+DZ 0 19671
+0 0
+S
+#0
+
+#SPECIALS
+M 19568 spec_breath_fire	* {ythe golden dragon{x
+M 19571 spec_poison	* a desert snake
+S
+
+#RESETS
+O 0 19557 0 19550	* an opening in the tent (Inside the Princess' Tent)
+M 0 19554 1 19550 1	* a bodyguard (Inside the Princess' Tent)
+M 0 19558 1 19550 1	* a mob (Inside the Princess' Tent)
+M 0 19555 1 19550 1	* a bodyguard (Inside the Princess' Tent)
+M 0 19556 1 19551 1	* the nomad princess (Inside the Princess' Tent)
+E 0 19568 0 3		*	a half-moon pendant: around the neck (1)
+O 0 19566 0 19551	* a hole in the tent (Inside the Princess' Tent)
+O 0 19582 0 19551	* a bed of pillows (Inside the Princess' Tent)
+O 0 19558 0 19552	* an opening in the tent (Inside the Vizier's Tent)
+M 0 19560 1 19553 1	* the vizier (Inside the Vizier's Tent)
+E 0 19573 0 16		*	the vizier's staff: wielded
+M 0 19561 1 19553 1	* a summoned demon (Inside the Vizier's Tent)
+O 0 19561 0 19554	* an opening in the tent (Inside the Chief's Tent)
+O 0 19582 0 19554	* a bed of pillows (Inside the Chief's Tent)
+M 0 19567 1 19554 1	* the nomad chief (Inside the Chief's Tent)
+O 0 19559 0 19555	* an opening in the tent (Steam Tent)
+M 0 19562 1 19555 1	* the nomad (Steam Tent)
+M 0 19557 1 19556 1	* Khalimi (The Warriors' Tent)
+O 0 19562 0 19556	* an opening in the tent (The Warriors' Tent)
+M 0 19553 1 19557 1	* a mob loader (The Supply Tent)
+O 0 19560 0 19557	* an opening in the tent (The Supply Tent)
+O 0 19563 0 19557	* a crate (The Supply Tent)
+P 0 19564 1 19563 1	* a crate: dried meat
+P 0 19565 1 19563 1	* a crate: a golden figurine
+M 0 19550 20 19558 1	* a domesticated camel (By the Camels)
+M 0 19550 20 19559 1	* a domesticated camel (By the Camels)
+M 0 19551 6 19560 1	* a nomad (Among the Tents)
+O 0 19556 0 19560	* an opening in the tent (Among the Tents)
+M 0 19551 6 19561 1	* a nomad (Among the Tents)
+O 0 19553 0 19561	* an opening in the tent (Among the Tents)
+M 0 19551 6 19562 1	* a nomad (Among the Tents)
+O 0 19551 0 19562	* an opening in the tent (Among the Tents)
+O 0 19567 0 19562	* a hole in the tent (Among the Tents)
+M 0 19551 6 19563 1	* a nomad (Among the Tents)
+O 0 19555 0 19563	* an opening in the tent (Among the Tents)
+M 0 19551 6 19564 1	* a nomad (Among the Tents)
+O 0 19554 0 19564	* an opening in the tent (Among the Tents)
+M 0 19551 6 19565 1	* a nomad (Among the Tents)
+O 0 19552 0 19565	* an opening in the tent (Among the Tents)
+M 0 19573 15 19568 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19573 15 19571 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19584 1 19572 1	* a lost mob (Among the Sand Dunes)
+O 0 19591 0 19573	* {YA Desert Rose{x (Among the Sand Dunes)
+M 0 19590 1 19574 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19574 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19578 1 19577 1	* a lost mob (Among the Sand Dunes)
+M 0 19573 15 19578 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19579 1 19579 1	* a lost mob (Among the Sand Dunes)
+M 0 19569 1 19580 1	* {Bthe woman in the {Cwater{x ({CThe Oasis{x)
+O 0 19583 0 19580	* {ra flower with {Rred petals{x ({CThe Oasis{x)
+O 0 19585 0 19580	* the oasis ({CThe Oasis{x)
+M 0 19581 1 19581 1	* a lost mob (Among the Sand Dunes)
+M 0 19571 10 19582 1	* a desert snake (Among the Sand Dunes)
+M 0 19585 1 19583 1	* a lost mob (Among the Sand Dunes)
+M 0 19575 1 19584 1	* the stone climbing mob ({yBefore a Wall of Stone{x)
+M 0 19583 1 19585 1	* a lost mob (Among the Sand Dunes)
+M 0 19573 15 19586 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19571 10 19587 1	* a desert snake (Among the Sand Dunes)
+M 0 19591 1 19588 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19588 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19572 10 19589 1	* a wild camel (Among the Sand Dunes)
+M 0 19571 10 19590 1	* a desert snake (Among the Sand Dunes)
+M 0 19594 1 19591 1	* a lost mob (Among the Sand Dunes)
+M 0 19572 10 19592 1	* a wild camel (Among the Sand Dunes)
+M 0 19573 15 19594 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19582 1 19595 1	* a lost mob (Among the Sand Dunes)
+M 0 19571 10 19595 1	* a desert snake (Among the Sand Dunes)
+M 0 19574 12 19597 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19580 1 19599 1	* a lost mob (Among the Sand Dunes)
+M 0 19573 15 19600 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19573 15 19602 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+G 0 19589 0		*	{Ra {Rf{ro{Rr{rc{Re {Rs{rt{Ro{rn{Re{x
+M 0 19571 10 19604 1	* a desert snake (Among the Sand Dunes)
+O 0 19591 0 19605	* {YA Desert Rose{x (Among the Sand Dunes)
+M 0 19592 1 19606 1	* a lost mob (Among the Sand Dunes)
+M 0 19572 10 19607 1	* a wild camel (Among the Sand Dunes)
+M 0 19574 12 19612 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+O 0 19591 0 19613	* {YA Desert Rose{x (Among the Sand Dunes)
+M 0 19572 10 19613 1	* a wild camel (Among the Sand Dunes)
+M 0 19570 1 19615 1	* the head merchant ({gThe Caravan{x)
+M 0 19576 1 19616 1	* a nomad merchant ({gThe Head of the Caravan{x)
+M 0 19572 10 19618 1	* a wild camel (Among the Sand Dunes)
+M 0 19596 1 19619 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19620 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19600 1 19622 1	* a lost mob (Among the Sand Dunes)
+M 0 19568 1 19623 1	* {ythe golden dragon{x ({yInside the Dragon's Cave{x)
+G 0 19590 0		*	A Shield of {YGold{yen Dr{Yagon{x Scales
+M 0 19595 1 19627 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19627 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19593 1 19629 1	* a lost mob (Among the Sand Dunes)
+M 0 19573 15 19631 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19588 1 19632 1	* a lost mob (Among the Sand Dunes)
+M 0 19571 10 19632 1	* a desert snake (Among the Sand Dunes)
+M 0 19601 1 19633 1	* a lost mob (Among the Sand Dunes)
+M 0 19587 1 19634 1	* a lost mob (Among the Sand Dunes)
+M 0 19589 1 19636 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19636 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19571 10 19637 1	* a desert snake (Among the Sand Dunes)
+M 0 19573 15 19638 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+G 0 19588 0		*	a grappling hook
+M 0 19597 1 19640 1	* a lost mob (Among the Sand Dunes)
+M 0 19571 10 19640 1	* a desert snake (Among the Sand Dunes)
+M 0 19599 1 19645 1	* a lost mob (Among the Sand Dunes)
+M 0 19573 15 19646 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+G 0 19587 0		*	some thick, sturdy rope
+M 0 19571 10 19647 1	* a desert snake (Among the Sand Dunes)
+M 0 19598 1 19648 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19649 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19572 10 19651 1	* a wild camel (Among the Sand Dunes)
+M 0 19573 15 19653 1	* a dajarra nomad (Among the Sand Dunes)
+E 0 19586 0 16		*	twin ivory-hilted blades: wielded
+M 0 19586 1 19654 1	* a lost mob (Among the Sand Dunes)
+M 0 19574 12 19655 1	* {ya {Ys{yan{Yd {yd{Ye{ym{Yo{yn{x (Among the Sand Dunes)
+M 0 19563 1 19657 1	* something ({cA Dark Passageway{x)
+M 0 19564 1 19669 1	* the wind ({cAn Island over the Darkness{x)
+M 0 19565 1 19671 1	* the final guardian ({cBefore the Magic Cave{x)
+O 0 19574 0 19672	* a pile of gold ({cInside the Magic Cave{x)
+P 0 19575 1 19574 1	* a pile of gold: a small pile of gems and coins
+O 0 19576 0 19672	* a tall chest ({cInside the Magic Cave{x)
+P 0 19577 1 19576 1	* a tall chest: a {Wplatinum{x axe
+O 0 19578 0 19672	* {ma pair of mystical bracers{x ({cInside the Magic Cave{x)
+O 0 19579 0 19672	* the elixer of immortality ({cInside the Magic Cave{x)
+O 0 19580 0 19672	* a large {gemerald{x ring ({cInside the Magic Cave{x)
+M 0 19566 1 19672 1	* the greed monster ({cInside the Magic Cave{x)
+O 0 19581 0 19672	* a tiny pouch of golden thread ({cInside the Magic Cave{x)
+S
+
+#OLIMITS
+O 19550 0	* twin ivory-hilted blades
+O 19590 1	* A Shield of {YGold{yen Dr{Yagon{x Scales
+S
+
+#MOBPROGS
+#19550
+if carries $n 19564
+or carries $n 19565
+if mobhere 19552
+mob echo An angry nomad yells '{MThief!{x'
+mob vforce 19552 murder $n
+else
+mob remember $n
+mob mload 19552
+mob mload 19552
+mob delay 1
+endif
+endif
+~
+#19551
+if carries $q 19564
+or carries $q 19565
+mob echoat $q Voices can be heard outside the tent, just as you reach into the crate.
+mob echoaround $q Voices can be heard outside the tent, just as $q reaches into the crate.
+mob echoat $q Two nomads walk into the tent, and catch you red-handed.
+mob echoaround $q Two nomads walk into the tent, and catch $q red-handed.
+mob echo An angry nomad yells '{MThief!{x'
+mob vforce 19552 murder $q
+endif
+~
+#19552
+mob echo The camel falters for a moment, then hits the ground hard.
+~
+#19553
+mob echo The nomad lets out a cry of pain, then falls to the ground.
+~
+#19554
+mob echo The nomad glares balefully at you, then collapses to the ground.
+~
+#19555
+if wears $i 19568
+mob goto 19566
+mob remove princess 19568
+mob junk pendant
+mob oload 19571
+mob oload 19569
+mob goto 19551
+endif
+mob echo The princess tries to scream, but can't find the breath, and dies before she hits the ground.
+~
+#19556
+if carries $i 19570
+say This...This is from Amaelka. Is she alright? Please, take me to her!
+follow $n
+mob junk letter
+else
+say What do I need with this?
+give $o $n
+endif
+~
+#19557
+if mobhere 19557
+mob echo A bodyguard spots Khalimi entering the tent, and growls.
+mob echo '{GYou've no place here, Khalimi. Go back to your tent!{x'{x
+mob echoat $n Khalimi looks at you helplessly and heads back to the warrior's tent.
+mob echoaround $n Khalimi looks at $n helplessly and heads back to the warrior's tent.
+mob transfer khalimi 19556
+endif
+~
+#19558
+if mobhere 19557
+end
+else
+if mobhere 19559
+end
+else
+if isevil $n
+mob echo The princess begins to scream loudly, and before you know it, guards have rushed into the tent
+mob mload 19559
+mob mload 19559
+mob echo Bodyguards come running to defend the princess.
+mob vforce 19559 murder $n
+else
+mob echoat $n The princess looks up as you enter, and gets to her feet. Looking you over closely, she suddenly bursts into tears.
+mob echoaround $n The princess looks up as $n enters, and gets to her feet. Looking $n over closely, she suddenly bursts into tears.
+say Oh please, you must help me! I cannot bear this any longer! Are you willing to help me?
+endif
+endif
+endif
+~
+#19559
+if isevil $n
+murder $n
+endif
+~
+#19560
+mob echo Khalimi stumbles forward, trying to get one final blow in, before he falls to the ground.
+~
+#19561
+mob echo The bodyguard growls at you, holding his side, before crashing to the ground.
+~
+#19562
+if mobhere 19556
+follow $i
+mob echo The princess cries out, '{GKhalimi, my love!{x'
+mob echo The lovers run to each other and embrace, laughing and crying at once.
+mob echoat $q The princess turns to you, smiling.
+mob echoaround $q The princess turns to $q, smiling.
+mob echo '{GI don't have much to offer, but please, take this.{x'
+mob echo The princess runs to the side of her bed, searches under the pillow for something, and then hands you a piece of parchment.
+mob echo '{GPerhaps you will find a use for this{x,' she says.
+mob vforce 19556 mob oload 19571
+mob vforce 19556 give parchment $q
+endif
+~
+#19563
+mob echoat $n The Princess turns away from you, sobbing pitifully.
+mob echoaround $n The Princess turns away from $n, sobbing pitifully.
+~
+#19564
+say My father refuses to let me see Khalimi anymore. He wants me to marry a prince from one of our enemy tribes, so that he can take over their lands. He doesn't think Khalimi is fit for a princess, being only a warrior, but I will never love another. My bodyguards prevent him from seeing me whenever he comes, but I've cut a hole in the back of my tent, and now he will be able to come whenever he wants. All he needs is this letter.
+mob echoat $n The princess reaches down and gets a letter hidden under a pillow. Handing it to you, she says '{GPlease, take this to Khalimi in the warrior's tent. He's the youth with the shaved head. He has promised to cut his hair every day until we are together again, even though it shames him and the other warriors laugh at him. Give him this letter, and take him to my tent. Make sure you enter through this hole in the back, or the guards will see you. Be careful!{x{x{x
+mob echoaround $n The princess reaches down and gets a letter hidden under a pillow. Handing it to $n, she says '{GPlease, take this to Khalimi in the warrior's tent. He's the youth with the shaved head. He has promised to cut his hair every day until we are together again, even though it shames him and the other warriors laugh at him. Give him this letter, and take him to my tent. Make sure you enter through this hole in the back, or the guards will see you. Be careful!
+mob oload 19570
+give letter $n
+~
+#19565
+mob echo The vizier glares at you balefully as he collapses to the ground in a pool of blood.
+mob oload 19572
+~
+#19566
+mob echo The demon lets out a roar of range, then vanishes into nothingness.
+mob goto 19566
+~
+#19567
+if carries $n 19569
+or wears $n 19569
+say Ah, you've done it! Excellent work. Now for your reward. You've heard of the Magic Caves in the desert, yes? I know the way past the past the second gate. Utter the words 'Bnasza Curmith' and you shall pass. Satisfied? Excellent. Now, be on your way.'
+mob echoat $n The vizier turns his back to you, apparently already forgetting your presence. All of a sudden, he raises his voice in a chant, and before you know it, he attacks!
+mob echoaround $n The vizier turns his back to $n, apparently already forgetting $s presence. All of a sudden, he raises his voice in a chant, and before you know it, he attacks!
+say Do you really think I'll share power with anyone? The wealth within those caves is MINE!
+mob echo At a sharp command from the wizard, the demon steps out of its circle and attacks!
+mob vforce 19561 murder $n
+murder $n
+else
+mob echo The Vizier turns and stares at you sharply as you enter, lips curled in a snarl.
+if isevil $n
+or isneutral $n
+say Perhaps you could serve a purpose. You look like the type who wouldn't mind getting their hands dirty for a great reward. What do you say, are you interested?
+else
+say How dare you think yourself worthy to stand in my presence? You've disturbed my work!
+murder $n
+endif
+endif
+~
+#19568
+say You think you can refuse me? You're worth as much to me as a beetle crushed beneath my feet. Very well. If you'll serve no useful purpose, I'll treat you as I treat anyone who wastes my time.
+murder $n
+~
+#19569
+say Excellent. You must have seen our princess by now, yes? Her tent is just to the north of mine. Her presence...complicates my plans. I need you to get rid of her. Kill her, and bring me her half-moon pendant. If you do, I will give you a great reward.
+grin
+~
+#19570
+if carries $n 19569
+or if wears $n 19569
+say Ah, you've done it! Excellent work. Now for your reward. You've heard of the Magic Caves in the desert, yes? I know the way past the past the second gate. Utter the words 'Bnasza Curmith' and he shall let you pass. Satisfied? Excellent. Now, be on your way.'
+mob echoat $n The vizier turns his back to you, apparently already forgetting your presence. All of a sudden, he raises his voice in a chant, and before you know it, he attacks!
+say Do you really think I'll share power with anyone? The wealth within those caves is MINE!
+mob echoaround $n The vizier turns his back to $n, apparently already forgetting $s presence. All of a sudden, he raises his voice in a chant, and before you know it, he attacks!
+say Do you really think I'll share power with anyone? The wealth within those caves is MINE!
+mob echo At a sharp command from the wizard, the demon steps out of its circle and attacks!
+mob vforce 19561 murder $n
+murder $n
+~
+#19571
+if hpcnt $i == 40
+mob vforce 19561 murder $n
+endif
+~
+#19572
+if carries $q 19578
+and carries $q 19579
+and carries $q 19580
+mob echo A soft voice whispers in your ear. '{GBeware the price of greed.{x'
+mob echo A terrible pain fills your head, bringing you to your knees.
+mob force $q drop bracers
+mob force $q drop elixer
+mob force $q drop emerald
+mob damage $q 30000 30000
+endif
+~
+#19573
+mob remember $n
+mob delay 1
+~
+#19574
+mob echoaround $r One of the planks beneath $r's feet suddenly comes loose and begins to fall, spinning end over end before it is swallowed up by the chasm's darkness.
+mob echoat $r One of the planks beneath your feet suddenly comes loose and begins to fall, spinning end over end before it is swallowed up by the chasm's darkness.
+mob remember $r
+mob delay 5
+~
+#19575
+if rand 50
+mob echoat $q With a loud snap, the planks beneath your feet give way, sending you tumbling down into the dark chasm.
+mob echoaround $q With a loud snap, the planks beneath $q's feet give way, sending $Y tumbling down into the dark chasm.
+mob transfer $q 10742
+~
+#19576
+mob echo Looking you right in the eye, the woman slowly sinks down into the water.
+if rand 75
+mob oload 19584
+endif
+~
+#19577
+if carries $n 10605
+say Are those the spices? Ah, what a relief!
+else
+say You there! You look able-bodied enough. Interested in doing a job for me? The rewards will be great, I assure you.
+endif
+~
+#19578
+say No? What if I told you I might know a way into those magic caves you young adventurers are always looking to get into?
+~
+#19579
+say Excellent! Well you see, I'm on my way back from a trip to several nearby cities, where I make a tidy sum of money bringing in luxury goods for trade. My wife isn't too happy that I'm gone so long, but usually I can placate her by bringing back some of her favorite spices. I picked up several barrels during my trip, but well...{x
+mob echo The merchant blushes, and wipes at his face with a cloth.
+mob echo '{GYou see, we were nearing the end of our trip, and the other merchants and I decided to leave the camel handlers to take care of the caravan while we went to an inn to have a celebration. Things got a little out of hand, and I may have had a bit too much to drink. I ran into a merchant, and got to talking with him. He told me he worked nearby, and we got into a discussion about his business. Before I knew it, I'd sold him all my wife's spices.{x
+mob echo The merchant flinches and runs his hand through his thinning hair.
+say I can't count on the rest of these guys for help. They have a running joke about my relationship with my wife, and if they find out what happened, I'll never hear the end of it. As I said, I'd been drinking quite a bit, and I barely remember anything about that night, not even which city I was in. All I remember is that the inn I went to had something to do with a laughing pig, and the man I sold the spices to works nearby.
+mob echo The merchant leans forward secretively.
+say All I need is one barrel of spices. If you can bring it to me, I'll make it worth your while. I know the way inside the magic caves. No one else in all the deserts can tell you what I know. Unimaginable riches. Just think about it!
+mob echoat $n The merchant winks at you, then heads away to speak to another member of the caravan.
+~
+#19580
+if carries $i 10605
+mob echo The merchant lets out a cry of joy, and looks immensely relieved.
+say Thank the gods! My wife would have skinned me alive if I came back without her spices! Now, I know you're thinking you deserve a bag of gold for your services, but believe me, I have something much better for you.
+mob echoat $n Looking around to make sure no one is listening, he leans close towards you.
+mob echoaround $n The merchant whispers something to $n, speaking too low to be made out.
+tell $n If you ever find yourself in the Magic Caves, speak the word 'mzirrah' and the way forward will be revealed.
+mob echo A camel handler walks up to the merchant to ask him a question, and he politely excuses himself as they walk off towards the other end of the caravan.
+mob purge $o
+else
+mob echoat $n The merchant looks at you strangely.
+mob echoaround $n The merchant looks at $n strangely.
+say I have no use for this.
+give $o $n
+~
+#19581
+mob echoat $n A strong force grabs hold of you and propels you forward.
+mob echoaround $n A strong force grabs hold of $n and propels $s forward.
+mob transfer $n 19668
+~
+#19582
+say {CDo not try that with me, little one. I am immortal.{x
+~
+#19583
+mob echoat $n As you try to move to the east, a force knocks you back violently.
+mob echoaround $n As $n tries to move to the east, a force knocks $s back violently.
+say You cannot pass.
+~
+#19584
+mob echoat $n A strong wind propels you forward before you can act.
+mob echoaround $n A strong wind propels $n forward before $e can act.
+mob transfer $n 19670
+~
+#19585
+mob echoat $n Flames suddenly engulf you, throwing you forward and disappearing before they have time to singe you.
+mob echoaround $n Flames suddenly engulf $n, throwing $m forward and disappearing before they have time to singe $m.
+mob transfer $n 19672
+~
+#19586
+if level $n > 70
+mob echoat $n The wind knocks you back whenever you try to climb up, and you begin to think that perhaps you are wasting your time.
+mob echoaround $n The wind knocks $n back every time $e tries to climb up.
+else
+if affected $n 'flying'
+mob echoat $n As you try to reach the opening, a strong gust of wind snatches you away, and you lose control for a moment before you manage to get back down to the ground.
+mob echoaround $n As $n floats towards the opening, a strong gust of wind catches hold of $m, pulling $m away.
+else
+if carries $n 19589
+and carries $n 19588
+and carries $n 19587
+mob echoat $n Attaching the rope firmly to the grappling hook, you throw it as high as you can, watching it fly over the ledge and catch itself just on the edge, allowing you to climb slowly up to the opening. The force stone in your hands suddenly seems to hum, and the shimmering curtain blocking the opening suddenly vanishes, allowing you to enter.
+mob echoaround $n Attaching the rope firmly to the grappling hook, $n throws it as high as $e can, watching it fly over the ledge and catch itself just on the edge, allowing $m to climb slowly up to the opening. The force stone in $s hands suddenly seems to hum, and the shimmering curtain blocking the opening suddenly vanishes, allowing $m to enter.
+mob transfer $n 19623
+else
+if carries $n 19589
+and carries $n 19588
+mob echoat $n You vainly try to find a way to the top, but the grappling hook is useless without a rope.
+mob echoaround $n $n vainly tries to find a way to the top, but soon gives up.
+else
+if carries $n 19587
+and carries $n 19589
+mob echoaround $n $n holds the coil of rope for a moment, looking up at the ledge above, but soon shakes $s head, giving up on $s idea.
+mob echoat $n You try to figure out a way to use the rope to reach the opening on the ledge above, but soon give up, realizing there is no way to do so at the moment.
+else
+if carries $n 19587
+and carries $n 19588
+mob echoat $n You attach the rope firmly to the grappling hook, and throw it over the ledge. The hook gets caught right over the edge, allowing you to slowly climb up, only to find that the opening is blocked by a shimmering {Rr{re{Rd{x curtain that you cannot break through.
+mob echoaround $n $n attaches the rope firmly to the grapply hook, and throws it over the ledge, climbing up slowly, only to come back down moments later, face painted with frustration.
+else
+mob echoat $n There doesn't seem to be a way up the stone to the opening with the tools you currently have.
+mob echoaround $n $n looks up towards the opening, but looks confused as to how to get up there.
+endif
+endif
+endif
+endif
+endif
+endif
+~
+#19587
+mob echoat $n The merchant grins and pulls out a map from a pack tied to one of the camels. Handing it to you, he says '{GWatch out for the snakes, friend. Both the walking and the crawling kind!{x'
+mob echoaround $n The merchant grins and pulls out a map from a pack tied to one of the camels. Handing it to $n, he says '{GWatch out for the snakes, friend. Both the walking and the crawling kind!{x'
+mob oload 19592
+give map $n
+~
+#19588
+if carries $n 19592
+end
+else
+say Ho there! You look like you wouldn't last an hour in the desert! Give me 500 silver and I'll give you a map to help you find your way through.
+endif
+~
+#19589
+if carries $n 19592
+mob gtransfer $n 19580
+else
+if rand 90
+mob gtransfer $n 19580
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 60
+mob gtransfer $n 19606
+else
+if rand 30
+mob gtransfer $n 19652
+else
+mob gtransfer $n 19640
+endif
+endif
+endif
+endif
+~
+#19590
+if carries $n 19592
+mob gtransfer $n 19584
+else
+if rand 50
+mob gtransfer $n 19584
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19606
+else
+if rand 30
+mob gtransfer $n 19640
+else
+mob gtransfer $n 19640
+endif
+endif
+endif
+endif
+~
+#19591
+if carries $n 19592
+mob gtransfer $n 19635
+else
+if rand 50
+mob gtransfer $n 19635
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19606
+else
+if rand 30
+mob gtransfer $n 19640
+else
+mob gtransfer $n 19640
+endif
+endif
+endif
+endif
+~
+#19592
+if carries $n 19592
+mob gtransfer $n 19576
+else
+if rand 50
+mob gtransfer $n 19576
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19638
+else
+mob gtransfer $n 19612
+endif
+endif
+endif
+endif
+~
+#19593
+if carries $n 19592
+mob gtransfer $n 19573
+else
+if rand 50
+mob gtransfer $n 19573
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19638
+else
+mob gtransfer $n 19612
+endif
+endif
+endif
+endif
+~
+#19594
+if carries $n 19592
+mob gtransfer $n 19582
+else
+if rand 50
+mob gtransfer $n 19582
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19638
+else
+mob gtransfer $n 19612
+endif
+endif
+endif
+endif
+~
+#19595
+if carries $n 19592
+mob gtransfer $n 19568
+else
+if rand 50
+mob gtransfer $n 19568
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19605
+else
+if rand 30
+mob gtransfer $n 19592
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19596
+if carries $n 19592
+mob gtransfer $n 19589
+else
+if rand 50
+mob gtransfer $n 19589
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19605
+else
+if rand 30
+mob gtransfer $n 19592
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19597
+if carries $n 19592
+mob gtransfer $n 19587
+else
+if rand 50
+mob gtransfer $n 19587
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19605
+else
+if rand 30
+mob gtransfer $n 19592
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19598
+if carries $n 19592
+mob gtransfer $n 19607
+else
+if rand 50
+mob gtransfer $n 19607
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19599
+if carries $n 19592
+mob gtransfer $n 19595
+else
+if rand 50
+mob gtransfer $n 19595
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19600
+if carries $n 19592
+mob gtransfer $n 19617
+else
+if rand 50
+mob gtransfer $n 19617
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19601
+if carries $n 19592
+mob gtransfer $n 19616
+else
+if rand 50
+mob gtransfer $n 19616
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19652
+endif
+endif
+endif
+endif
+~
+#19602
+if carries $n 19592
+mob gtransfer $n 19628
+else
+if rand 50
+mob gtransfer $n 19628
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19603
+if carries $n 19592
+mob gtransfer $n 19638
+else
+if rand 50
+mob gtransfer $n 19638
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19604
+if carries $n 19592
+mob gtransfer $n 19630
+else
+if rand 50
+mob gtransfer $n 19630
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19605
+if carries $n 19592
+mob gtransfer $n 19610
+else
+if rand 50
+mob gtransfer $n 19610
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19606
+if carries $n 19592
+mob gtransfer $n 19590
+else
+if rand 50
+mob gtransfer $n 19590
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19607
+if carries $n 19592
+mob gtransfer $n 19592
+else
+if rand 50
+mob gtransfer $n 19592
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19608
+if carries $n 19592
+mob gtransfer $n 19558
+else
+if rand 50
+mob gtransfer $n 19558
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19612
+else
+if rand 30
+mob gtransfer $n 19569
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19609
+mob echo With a sigh, the nomad falls backward, never to breathe again.
+~
+#19610
+if carries $n 19592
+mob gtransfer $n 19559
+else
+if rand 50
+mob gtransfer $n 19559
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19612
+else
+if rand 30
+mob gtransfer $n 19569
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19611
+if carries $n 19592
+mob gtransfer $n 19565
+else
+if rand 50
+mob gtransfer $n 19565
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19612
+else
+if rand 30
+mob gtransfer $n 19569
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19612
+if carries $n 19592
+mob gtransfer $n 19562
+else
+if rand 50
+mob gtransfer $n 19562
+else
+mob echoat $n Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19612
+else
+if rand 30
+mob gtransfer $n 19569
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#19613
+mob echo With an incredibly dignified air, the chief fixes you with a calm stare, then collapses in a heap.
+~
+#19614
+mob echo The dragon lets out a thunderous roar, then crashes to the ground hard.
+~
+#19615
+mob echo The merchant tries to call out for help, but chokes on his words, falling backwards.
+~
+#19616
+mob echo The nomad merchant looks surprised as he falls to the ground, dead before he even hits it.
+~
+#19617
+mob echo The snake suddenly stops moving, going absolutely still.
+~
+#19618
+mob echo The camel stumbles, then finally falls over.
+~
+#19619
+mob echo With a cry of rage, the nomad falls, ivory blades in hand.
+~
+#19620
+mob echo The sand demon spins faster for a moment, the wind screaming, then suddenly dissipates, leaving a withered corpse behind.
+~
+#19697
+if mobhere 19577
+mob echo The nomad guide stops you just as you are about to head in a direction that would have gotten you hopelessly lost
+mob gtransfer $n 19605
+mob transfer ppp 19605
+else
+if rand 50
+mob gtransfer $n 19605
+else
+mob echo Every dune looks the same as the next, and you soon find yourself lost, wandering the desert.
+if rand 70
+mob gtransfer $n 19618
+else
+if rand 30
+mob gtransfer $n 19588
+else
+mob gtransfer $n 19651
+endif
+endif
+endif
+endif
+~
+#0
+
+#$

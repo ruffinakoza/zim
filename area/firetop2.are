@@ -1,0 +1,4504 @@
+#AREADATA
+Name Firetop Mountain~
+VNUMs 5700 5849
+Credits Yaegar~
+Security 9
+LevelRange 10 20
+End
+
+#MOBILES
+#5735
+sentry orc~
+an Orc sentry~
+An Orc sentry has fallen asleep at his post here.
+~
+This vile creature has been assigned to prevent unwanted visitors, but innate
+laziness combined with generous servings of Orcish Ale have rendered him
+quite ineffective at even this simple task.
+~
+orc~
+ABCFG R -400 5701
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+CFI AB K P
+stand stand male 20
+0 0 medium flesh~
+~
+#5736
+orc~
+a sleeping Orc~
+An off-duty Orc sleeps here.
+~
+This vile creature has been assigned to prevent unwanted visitors, but innate
+laziness combined with generous servings of Orcish Ale have rendered him
+quite ineffective at even this simple task.
+~
+orc~
+ABCFG R -400 5701
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+CFI AB K P
+sleep sleep male 20
+0 0 medium flesh~
+~
+#5737
+snake~
+a small snake~
+A small snake hisses and strikes!
+~
+This serpent has been placed here by the occupant of this room to guard the
+box it is coiled about, and although it is quite small, its bite can be 
+lethal!
+~
+snake~
+ABFG J 0 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+FIN AB K P
+stand stand either 20
+0 0 medium flesh~
+~
+#5738
+orc~
+a drunken Orc~
+A drunken Orc breaks off in mid-song and lunges at you!
+~
+This foul drunk is quite possibly the worst singer you have ever heard in 
+your life! And he smells even worse than he sings! Fortunately he is not a
+very effective combatant, as the alcohol he has imbibed has dulled his 
+senses.
+~
+orc~
+ABCFG M -400 5701
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+CFI AB K P
+stand stand either 20
+0 0 medium flesh~
+~
+#5739
+orc chieftain~
+an Orcish chieftain~
+An Orcish chieftain snarls and cracks his whip at you angrily.
+~
+This evil chieftain was busy whipping his hapless servant when you entered,
+and he is glad for a more challenging foe. He is the leader of the Orcs in
+this area, and as such will be a tough foe.
+~
+orc~
+ABCFG u -400 5701
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+CFI AB K P
+stand stand male 100
+0 0 medium flesh~
+~
+#5740
+orc servant~
+an orcish servant~
+An Orcish servant moans piteously as his master beats him.
+~
+This pathetic whelp was been flogged by his demanding master as you entered,
+but despite this he still leaps up to defend the chieftain against you. Best
+to slay the ungrateful little wretch.
+~
+orc~
+ABCFH 0 0 5701
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+CFI AB K P
+stand stand male 20
+0 0 medium flesh~
+~
+#5741
+orc~
+an eating Orc~
+An Orc busily slurps up his rat stew.
+~
+This Orc is so busy eating that he doesn't even notice you enter. You could
+easily leap in and have a hack before he was even prepared. However, he does
+have several companions...
+~
+orc~
+ABCG 0 -400 5701
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+CFI AB K P
+stand stand male 20
+0 0 medium flesh~
+~
+#5742
+prisoner~
+A deranged prisoner~
+A wild-eyed man lunges insanely at you!
+~
+Ack! Watch out! He's going to...Oh. You realize, as the deranged figure
+suddenly collapses sobbing at your feet that this man is not aggressive or
+seeking to attack you but was simply overjoyed at beign released. He is
+quite harmless, but very filthy.
+~
+human~
+ABCH JX 0 0
+8 8 21d8+0 40d10+85 2d4+9 none
+3 3 3 5
+IR A 0 Y
+stand stand male 10
+0 0 medium flesh~
+~
+#5743
+goblin torturer~
+a Goblin torturer~
+A Goblin torturer is angry that his victim has suddenly died.
+~
+This sadistic creature was busy torturing a captured Dwarf when you entered,
+and the Dwarf died moments later. The creature is angered, and blames you 
+for the Dwarf's premature death!
+~
+goblin~
+ABCFG 0 -600 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+CIR A 0 Y
+stand stand male 10
+0 0 medium flesh~
+~
+#5744
+cyclops iron~
+an iron Cyclops~
+A Huge iron Cyclops with a single huge gem serving as an eye towers over you.
+~
+This specially made Iron Golem is extremely tough and powerful. Although not
+aggressive, it will certainly attack if you seek to take its gem.
+~
+giant~
+ABG DHJNO 0 0
+15 0 3d9+208 149d1+1 2d6+3 none
+-2 -2 -2 7
+CIR A 0 Y
+stand stand male 10
+0 0 gargantuan flesh~
+~
+#5745
+barbarian~
+an insane Barbarian~
+An insane Barbarian leaps out and attacks you!
+~
+This demented berserker has been trapped in this dungeon for days and is
+taking out his frustrations on you! Towering over you at six feet tall and
+weighing in at 280 lbs, he is certainly a force to be reckoned with.
+~
+giant~
+ABFG JNO 0 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+CIR A 0 Y
+stand stand male 10
+0 0 gargantuan flesh~
+~
+#5746
+old man~
+an old man~
+An old man clad in a dirty nightrobe welcomes you to his shop.
+~
+"Oh my, a visitor! We don't get much of them these days...". Despite his
+appearance, this elderly gentleman is more than capable of taking care of 
+himself. He can sell you lighting equipment for the journey ahead.
+~
+human~
+ABCGRe CDEFHNO 400 0
+30 30 67d30+0 300d11+95 11d2+27 none
+-12 -12 -12 -6
+0 0 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+#5747
+old man wererat~
+an old man who is a Wererat~
+An old man standing here gradually transforms into a wererat!
+~
+This seemingly harmless old coot is actually a powerful lycanthrope, who 
+will not hesitate to kill you if you threaten him.
+~
+human~
+ABCG DFHJNO 0 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+IR A L NPY
+stand stand male 20
+0 0 medium flesh~
+~
+#5748
+neanderthal caveman man~
+A lumbering Neanderthal~
+A primitive Neanderthal swings his stone club at your head!
+~
+This dim-witted cave man is possessed of only the most primitive instincts,
+but has a blow like a sledgehammer and a hide like a stone wall, so fight 
+well!
+~
+human~
+ABCFG EJNO 0 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+CIR AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#5749
+bat giant~
+a giant Bat~
+A giant Bat swoops down to attack you.
+~
+This bat is almost as big as you are, and with its huge black wings and long,
+pointy fangs dripping potent venom, it is quite a formidable sight. Better 
+be careful with this one.
+~
+bat~
+ABCFG DJNO -400 0
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+IR AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#5750
+spider giant~
+a giant Spider~
+A loathsome spider the size of a small pony scuttles towards you.
+~
+You are not sure which scares you the most about this horrible arachnid-
+The way its 2 feet long furry legs scuttle on the rock as it races at you,
+the way its beady eyes stare evilly at you as is approaches, or the way the
+venom dripping from its maw burns into the stone as it falls...
+~
+human~
+ABFG DJ -400 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+IR AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#5751
+ogre~
+an Ogre~
+An Ogre lumbers about here.
+~
+This huge dullard is so big and so dense that he doesn't seem to have even
+registered your presence. You could easily sneak past and escape his lair
+should you so wish...
+~
+troll~
+ABCG NO 0 5702
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+IR 0 0 0
+stand stand male 20
+0 0 medium flesh~
+~
+#5752
+troll~
+a Troll~
+A Troll with very long, powerful arms lopes toward you.
+~
+This ugly monster is only 5 feet tall, but its arms are also nearly five
+feet long, and end with wicked, sharp claws that could cut stone. Yellow
+mucous drips from the fevered beast's slavering maw, and you shudder to
+think fo the germs you could be infecte dwith by this grotesque.
+~
+troll~
+ABCFGQ NO -500 5702
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+IR 0 0 0
+stand stand male 20
+0 0 medium flesh~
+~
+#5753
+rat giant~
+a giant Rat~
+A Rat the size of an Alsatian leaps at you!
+~
+This huge rodent has long, pointed teeth that are discolored with dried 
+blood. It lashes at you with its sharp claws and seeks to clamp its fangs
+around your neck!
+~
+human~
+ABFG DJ -400 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 0 AB 0
+stand stand male 30
+0 0 medium flesh~
+~
+#5754
+giant~
+a burly Giant~
+A burly Giant hurls a leg of lamb at you before attacking!
+~
+You have disturbed this big fellow's evening repast, and he is not happy 
+about it.
+~
+giant~
+ABFG JNO 0 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+CIR AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#5755
+piranha~
+a vicious Piranha~
+A vicious Piranha sinks its teeth into your leg!
+~
+You scream in pain as this savage little fish tears out a chunk of flesh.
+It moves almsot too fast for you to catch it in the water, but eventually
+returns for another bite, which gives you a chance to attack it.
+~
+human~
+ABFG J 0 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+IR 0 0 P
+stand stand either 30
+0 0 medium flesh~
+~
+#5756
+sandworm giant~
+a giant Sandworm~
+A giant Sandworm rears up out of the sand and attacks!
+~
+This big fellow makes sea serpents of old look tiny. His circular maw is
+lined with rows and rows of teeth, all ready to bite into you!.
+~
+human~
+ABFG DJNO 0 0
+16 16 32d16+0 80d10+85 5d3+13 none
+-1 -1 -1 1
+IR 0 0 0
+stand stand male 10
+0 0 gargantuan flesh~
+~
+#5757
+skeleton~
+a Skeleton worker~
+A Skeleton worker busily helps assemble a boat.
+~
+This undead servant of the Warlock is far too busy engaging in its set tasks
+to pay any mind to you. It will, however, act to defend itself if assaulted,
+as will its many comrades.
+~
+human~
+ABCG DNO 0 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+R 0 0 N
+stand stand male 10
+0 0 medium flesh~
+~
+#5758
+wight~
+a Wight~
+A Wight, a fell undead servant of the Warlock, grins evilly at you.
+~
+This foul creature is not exceptionally strong or tough, but it has many
+special abilities which make it more than a match for the average adventurer,
+including its long, sharp, poisoned fangs and claws, its resistance to 
+physical blows, and its nauseating stench.
+~
+human~
+ABCFGO DJNOu -1000 0
+14 14 30d14+0 70d10+85 4d3+12 none
+0 0 0 2
+IR AB 0 KN
+stand stand male 100
+0 0 medium flesh~
+~
+#5759
+zombie~
+a Zombie~
+The physical form of a slain adventurer has been re-animated as a Zombie.
+~
+This poor fellow was once an eager young treasure-and-glory-seeker like 
+yourself, who fell foul of the Warlock's minions, and has been damned to a
+perpetual undead existence.
+~
+human~
+ABFG J -5000 0
+11 11 26d11+0 55d10+85 3d3+10 none
+1 1 1 4
+R A 0 N
+stand stand male 30
+0 0 medium flesh~
+~
+#5760
+dog~
+a Guard Dog~
+A savage Guard Dog barks to alert its master of your intrusion!
+~
+Despite appearances, this Dog will not attack unless provoked. If it does, 
+you may find that it is not like msot other Dogs, in that it is very tough 
+and has certain abilities that may catch you by surprise...
+~
+dog~
+ABG DFJNO 0 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+0 H 0 0
+stand stand male 10
+0 0 medium flesh~
+~
+#5761
+werewolf man~
+a Werewolf~
+The man before you transforms into a Werewolf as you watch!
+~
+This dour old man is the chief ship-builder for the Warlock, and despite his
+unfortunate curse (Lycanthropy), he is not a bad guy, and will only attack if
+you initiate hostilities by attacking him or his dog.
+~
+human~
+ABG HJNOR 0 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+I AB 0 NPY
+stand stand male 50
+0 0 medium flesh~
+~
+#5762
+ghoul~
+a Ghoul~
+Hidden among the corpses is a sadistic Ghoul!
+~
+This decaying corpse-like undead slashes at you with its filthy fingernails,
+attempting to slay and devour you!
+~
+human~
+ABFG DJNO -500 0
+13 13 28d13+0 65d10+85 4d3+11 none
+0 0 0 3
+I AB 0 N
+stand stand male 10
+0 0 medium flesh~
+~
+#5763
+vampire~
+an evil Vampire~
+An evil Vampire attempts to drink your blood!
+~
+Rising from its coffin like Bela Lugosi in Dracula, the Vampire floats
+towards you, attempting to make eye contact with you, so that it can charm
+you and then feat upon you at its leisure.
+~
+human~
+ABCFGO DFJTu -1000 0
+17 17 33d17+0 85d10+85 5d3+13 none
+-2 -2 -2 1
+IR AB K N
+stand stand male 200
+0 0 medium flesh~
+~
+#5764
+dwarf~
+a Dwarf~
+A Dwarven gambler offers you a seat in his game.
+~
+This amiable fellow is leaning back in his chair at a table with three other
+Dwarfs playing Five Card Stud. He draws deeply on a long pipe, exhaling some
+noxious smoke, and invites you to join in.
+~
+dwarf~
+ABCG 0 400 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+0 AB P 0
+stand stand male 40
+0 0 medium flesh~
+~
+#5765
+minotaur~
+a mighty Minotaur~
+A mighty Minotaur threatens to tear you apart with his bare hands!
+~
+This Minotaur is quite insane and, lost in his delirium, he provokes all who
+enter into battling with him. Although unarmed and unarmored, he is still a
+potentially dangerous foe.
+~
+human~
+ABFG J -400 0
+14 14 30d14+0 70d10+85 4d3+12 none
+0 0 0 2
+CR AB 0 0
+stand stand male 40
+0 0 large flesh~
+~
+#5766
+dragon~
+an enormous Red Dragon~
+An enormous Red Dragon belches forth fire and smoke at you!
+~
+You are Dead. This Dragon can tear apart whole armies of Orcs, and eats
+adventurers like you for breakfast. His huge, yellow, heavy-lidded eyes
+glare balefully at you as he swings his massive claws at your head!
+
+
+an enormous Red Dragon's blast *** JOLTS *** you!
+Ouch! That attack hurt your Silver Bracer!
+That sure did HURT!
+You sure are BLEEDING!
+You have been KILLED!!!
+
+
+BATTLE UPDATE : adventurer killed by an enormous red dragon.
+~
+dragon~
+ABCFG CDEFNOu -1000 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+R AB 0 K
+stand stand male 500
+0 0 medium flesh~
+~
+#5767
+warlock firetop~
+the Warlock of Firetop Mountain~
+The Warlock of Firetop Mountain stands proudly before you.
+~
+The Warlock has taken the form of a well-built young man, clad in robes of
+Velvet and Gold. Sparks fly from his gloved hands as he stares grimly at you,
+waiting for you to move. Already, you know you are in for a heck of a fight...
+~
+human~
+ABCGR CDEFJNOUu -1000 0
+23 23 41d23+0 115d10+85 7d3+16 none
+-5 -5 -5 -1
+R AB 0 K
+stand stand male 800
+0 0 medium flesh~
+~
+#5768
+hand~
+a hand~
+An animated Hand strikes at you!
+~
+This hand rises up from the floor and begins to beat you!
+~
+human~
+ABCFGS DJ 0 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#5769
+crocodile croc~
+a crocodile~
+An angry crocodile lurches at your boat!
+~
+This huge reptile is hideous and mean, and it looks eager to bury its many
+pointed teeth in your body!
+~
+human~
+ABFG DJ 0 0
+12 12 27d12+0 60d10+85 4d3+11 none
+1 1 1 3
+O 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#5770
+gas beast~
+a gas beast~
+A gas beast wraps itself around you and attempts to smother you!
+~
+This horrid creature is little more than a gas cloud with a will of its own,
+and as such is very hard to kill.
+~
+human~
+ABFG DFJNOTu -1000 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+0 0 0 0
+stand stand either 10
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#5735
+armor leather~
+a suit of leather armor~
+A suit of dirty Orcish leather armor has been (intentionally?) left here.~
+iron~
+~
+armor 0 AD
+4 4 4 3 'none' 0
+10 11 7854 G
+A
+18 2
+E
+armor leather~
+This armor has been worn by a filthy Orc sentry. it is vermin-infested, moldy
+and covered with dried ale, blood and various food stains.
+~
+G none
+G none
+G none
+G none
+#5736
+polearm~
+a polearm~
+A battered Orcish polearm is here.~
+iron~
+~
+weapon 0 AN
+polearm 1 15 slash F
+10 11 3657 P
+A
+18 1
+A
+19 1
+E
+polearm~
+This polearm is old, rusty and in bad need of repair.
+~
+G none
+G none
+G none
+G none
+#5737
+grog bottle~
+a bottle of Orc grog~
+A bottle of Orc grog is here.~
+glass~
+~
+drink 0 AO
+5 5 'ale' 0
+1 5 337 G
+E
+grog~
+This is the staple drink of the Orcs of Firetop Mountain and it is FOUL.
+~
+G none
+G none
+G none
+G none
+#5738
+box cache~
+an Orc's box~
+This box serves as the Orc's cache.~
+iron~
+~
+container 0 AO
+20 0 0 5 85 0
+0 10 3218 G
+E
+box~
+This box contains all the Orc's personal possessions.
+~
+G none
+G none
+G none
+G none
+#5739
+gold~
+a single gold piece~
+A single gold piece rests here.~
+gold~
+~
+money 0 A
+0 1
+0 0 0 P
+G none
+G none
+G none
+G none
+#5740
+mouse~
+a dead mouse~
+A dead mouse lies here.~
+meat~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+0 10 0 P
+E
+mouse~
+The Orc who put this in the box thought it'd be a good place for it to live,
+but forgot about things like food, water, oxygen, love, etc...
+~
+G none
+G none
+G none
+G none
+#5741
+key~
+a bronze-coloured key~
+A bronze-coloured key is here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 10 0 P
+E
+key~
+Upon closer examination, you notice that this key has the number 99 carved 
+into it.
+~
+G none
+G none
+G none
+G none
+#5742
+box~
+a small wooden box with crude hinges~
+A small wooden box with crude hinges rests here.~
+wood~
+~
+container 0 AO
+50 0 0 50 120 0
+0 10 5 G
+E
+box~
+A brass name plate on the lid of this box is inscribed with then name 
+"Farrio Di Maggio".
+~
+G none
+G none
+G none
+G none
+#5743
+book tome small~
+a small leather-bound book~
+A small leather-bound book entitled "The Making and Casting of Dragonfire".~
+paper~
+~
+scroll G AO
+12 'fire breath' 'reserved' 'reserved' 'reserved'
+12 50 300 P
+A
+12 10
+E
+book~
+This book tells of the life work of the Mage Farrio Di Maggio- the creation
+of the Dragonfire spell, for use against Dragons, capable of dealing out
+significant amounts of damage to them, by speaking the words-
+
+  "Ekil Erif,
+   Ekam Erif,
+   Erif Erif,
+   Di Maggio"
+~
+G none
+G none
+G none
+G none
+#5744
+chest~
+a sturdy chest~
+A sturdy chest made of oak and iron rests here.~
+meat~
+~
+container 0 0
+500 0 0 500 100 0
+0 10 0 G
+E
+chest~
+This chest looks extremely heavy and you are quite sure you couldn't budge 
+it.
+~
+G none
+G none
+G none
+G none
+#5745
+gold~
+a fair number of gold pieces~
+A fair number of Gold pieces are scattered here.~
+silver~
+~
+money 0 A
+0 3
+0 0 0 P
+G none
+G none
+G none
+G none
+#5746
+bottle black potion~
+a small black bottle with a tight glass stopper~
+A small black bottle with a tight glass stopper containing black liquid is 
+here.~
+glass~
+~
+potion 0 AO
+8 'invisibility' '' '' ''
+10 10 200 P
+E
+vial~
+The liquid in the vial looks vile but is in fact quite palatable.
+~
+G none
+G none
+G none
+G none
+#5747
+glove~
+a black velvet glove~
+A black velvet glove is here.~
+velvet~
+~
+armor C AH
+4 4 4 3 'none' 0
+10 11 4618 G
+A
+13 10
+A
+19 1
+E
+glove~
+You have no idea what this glove may do...
+~
+G none
+G none
+G none
+G none
+#5748
+mattress~
+a staw mattress~
+A straw mattress stained with various substances is here.~
+wood~
+~
+furniture 0 0
+B EHI FHIKLN CFG CFG B EHI
+0 0 0 P
+E
+mattress~
+This foul bed serves as the resting place for an Orc...
+~
+G none
+G none
+G none
+G none
+#5749
+case leather~
+a tattered leather case~
+A tattered leather case half a meter long is here.~
+leather~
+~
+container 0 AO
+10 0 0 5 85 0
+10 10 3276 G
+E
+case~
+This case looks like it could hold a short bow. It is inscribed-
+
+"The giver of sleep to those who never can..."
+
+~
+G none
+G none
+G none
+G none
+#5750
+bow wand~
+a small bowlike wand with a single silver arrow~
+A bowlike wand with a single silver arrow rests here.~
+silver~
+~
+wand AG AO
+10 1 1 'lightning bolt'
+10 38 110 P
+E
+bow~
+This bow and silver arrow can inflict damage upon any foe it is used against,
+especially the undead.
+~
+G none
+G none
+G none
+G none
+#5751
+leg club~
+a chair leg~
+A chair leg that has been fashioned into a crude club is here.~
+iron~
+~
+weapon 0 AN
+hammer 1 7 thwack 0
+7 8 2460 P
+A
+19 2
+E
+leg~
+This really is a pathetic attempt at a weapon...
+~
+G none
+G none
+G none
+G none
+#5752
+rack~
+a torture rack~
+A torture rack holds a dead Dwarf here.~
+iron~
+~
+furniture 0 0
+A CDFI BEHK CFG CFG A CDFI
+0 0 0 P
+E
+rack~
+This wicked-looking rack is surrounded by a variety of evil-looking tools,
+all guaranteed to inflict excruciating pain.
+~
+G none
+G none
+G none
+G none
+#5753
+knife~
+a wicked-looking knife~
+A wicked-looking knife is here.~
+iron~
+~
+weapon 0 AN
+dagger 2 3 pierce D
+9 10 1190 P
+A
+13 10
+E
+knife~
+This vicious little Goblin weapon would make a GREAT backstabbing weapon...
+~
+G none
+G none
+G none
+G none
+#5754
+cheese~
+a piece of sweet-smelling cheese~
+A piece of sweet-smelling cheese is here.~
+food~
+~
+food 0 AO
+AC AC 0 0 0 AC AC
+0 10 45 P
+E
+cheese~
+Must be the Goblin's lunch...
+~
+G none
+G none
+G none
+G none
+#5755
+shield~
+a shield~
+A bronze shield bearing a crescent moon device has been left here.~
+iron~
+~
+armor AG AJ
+5 5 5 4 'none' 0
+12 13 9857 G
+A
+18 1
+A
+17 -2
+A
+2 -1
+A
+13 5
+A
+19 2
+E
+shield~
+This shield seems to be a very good one, if rather large and cumbersome.
+~
+G none
+G none
+G none
+G none
+#5756
+gem jewel stick~
+a darkened stick~
+A darkened stick rests here.~
+gold~
+~
+staff A AO
+5 1 1 'blindness'
+10 10 5000 P
+A
+12 25
+E
+jewel~
+This Jewel once served as the eye of an Iron Cyclops, and as such has potent
+magical properties...
+~
+G none
+G none
+G none
+G none
+#5757
+key~
+a small key~
+A small key is here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+key~
+Upon cloer inspection, you notice that this key as the number 111 engraved
+on it.
+~
+G none
+G none
+G none
+G none
+#5758
+box~
+an old box~
+An old box has been discarded here.~
+iron~
+~
+container G AO
+50 0 0 50 90 0
+12 20 2635 G
+E
+box~
+This box looks like it once contained carpentry tools.
+~
+G none
+G none
+G none
+G none
+#5759
+mallet~
+a wooden mallet~
+A wooden mallet is here.~
+wood~
+~
+weapon 0 AN
+hammer 1 13 slash 0
+12 13 590 P
+E
+mallet~
+This mallet looks PERFECT for driving wooden stakes...
+~
+G none
+G none
+G none
+G none
+#5760
+stump stake~
+a stump of wood~
+A stump of wood sharpened into a stake is here.~
+wood~
+~
+weapon 0 AN
+dagger 2 3 pierce D
+11 12 1673 P
+A
+19 2
+A
+18 -2
+E
+stump stake~
+This stump has a nasty point which could cause a LOT of damage if rammed 
+into someone's back...
+~
+G none
+G none
+G none
+G none
+#5761
+painting~
+a painting of the Warlock~
+A painting of the Warlock hangs on a wall here.~
+paper~
+~
+furniture BEM AO
+0 0 0 0 0 0 0
+0 25 0 P
+A
+1 -1
+A
+5 -1
+A
+13 -10
+E
+painting~
+Just looking at this painting makes you feel sick and uneasy.
+~
+G none
+G none
+G none
+G none
+#5762
+candle~
+a blue candle~
+A magical Blue Candle flames on command!~
+iron~
+~
+light A AO
+540
+0 10 1205 P
+A
+18 2
+E
+candle~
+This candle is an exceptional one, flaming on command as it does. It used to
+be a LOT cheaper, but since the Long Dark Night candlewax prices have 
+soared...
+~
+G none
+G none
+G none
+G none
+#5763
+club~
+a crude stone club~
+A crude stone club lies here.~
+stone~
+~
+weapon 0 AN
+mace 1 12 crush 0
+12 13 615 P
+E
+club~
+The Neanderthal who owns this doubtless would like it back...
+~
+G none
+G none
+G none
+G none
+#5764
+wood~
+a piece of y-shaped wood~
+This would make an excellent frame for a slingshot. ~
+wood~
+~
+weapon 0 AO
+exotic 1 10 thwack 0
+10 11 1287 P
+A
+19 1
+A
+18 -1
+E
+wood~
+This piece of Y-shaped wood is so fashioned that you could use it for a
+slingshot once you fitted a rubber band...
+~
+G none
+G none
+G none
+G none
+#5765
+rope~
+a piece of rope~
+This piece of rope looks rather sinister...~
+linen~
+~
+trash EHM AO
+0 0 0 0 0 0 0
+5 10 0 P
+A
+12 -50
+A
+13 -25
+E
+rope~
+This rope is magically cursed!
+~
+G none
+G none
+G none
+G none
+#5766
+sword~
+a magnificent-looking sword~
+A magnificent-looking sword is here. Pick it up!~
+iron~
+~
+weapon AG AN
+longsword 1 22 slash D
+18 19 8157 P
+A
+17 -2
+A
+19 1
+A
+18 1
+A
+1 1
+E
+sword~
+This sword looks as if it would GREATLY aid you in combat...
+~
+G none
+G none
+G none
+G none
+#5767
+boots~
+a pair of boots~
+A pair of red boots sit innocently here.~
+leather~
+~
+armor M AG
+4 4 4 3 'none' 0
+10 11 14 G
+A
+14 -150
+E
+boots~
+These boots are finely crafted from deep red leather.
+~
+G none
+G none
+G none
+G none
+#5768
+chisel~
+a chisel with a silver blade~
+A chisel with a silver blade is here.~
+iron~
+~
+weapon AG AN
+dagger 2 4 pierce 0
+12 30 1042 P
+A
+18 1
+A
+19 1
+E
+chisel~
+This chisel has been enchanted to make it a decent weapon.
+~
+G none
+G none
+G none
+G none
+#5769
+helmet~
+a bronze helmet~
+A bronze helmet is here.~
+bronze~
+~
+armor EGM AE
+4 4 4 3 'none' 0
+10 11 3123 G
+A
+19 1
+A
+18 1
+E
+helmet~
+This helmet looks like it would be a good fit.
+~
+G none
+G none
+G none
+G none
+#5770
+helmet~
+an iron helmet~
+An Iron helmet is here.~
+iron~
+~
+armor GK AE
+5 5 5 4 'none' 0
+12 13 3180 G
+A
+3 1
+E
+helmet~
+This helmet looks like it would be a good fit.
+~
+G none
+G none
+G none
+G none
+#5771
+table~
+a sturdy oak table~
+A sturdy oak table is here.~
+wood~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+table~
+This table looks quite sturdy, as I said previously.
+~
+G none
+G none
+G none
+G none
+#5772
+armor leather~
+a suit of leather armor~
+A suit of leather armor is here.~
+leather~
+~
+armor 0 AD
+4 4 4 3 'none' 0
+10 11 9688 G
+A
+19 1
+A
+13 10
+E
+armor~
+By the look of it, this armor didnt do its previous owner much good...
+~
+G none
+G none
+G none
+G none
+#5773
+shield~
+a wooden shield~
+A simple wooden shield has been abandoned here.~
+wood~
+~
+armor 0 AJ
+4 4 4 3 'none' 0
+10 11 3738 G
+A
+17 -5
+A
+19 1
+E
+shield~
+This shield probably isn't much use for anything beyond practice sessions...
+~
+G none
+G none
+G none
+G none
+#5774
+sword~
+a steel sword~
+A thin steel sword is resting here.~
+steel~
+~
+weapon 0 AN
+shortsword 2 4 slice 0
+10 30 1727 P
+A
+18 2
+E
+sword~
+Although in good condition, this is by all accounts an unremarkable blade...
+~
+G none
+G none
+G none
+G none
+#5775
+crucifix~
+a silver crucifix~
+You spy a silver crucifix on the ground here.~
+silver~
+~
+treasure A AC
+0 0 0 0 0
+0 10 2000 P
+A
+1 2
+A
+6 -1
+A
+13 -10
+E
+crucifix~
+This crucifix is dedicated to St. Christopher, patron saint of travellers.
+~
+G none
+G none
+G none
+G none
+#5776
+corpse~
+a decaying corpse~
+Some poor adventurer's decaying corpse rests here.~
+meat~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 70 0 P
+E
+corpse~
+Although decayed, the corpse still looks cumbersome...
+~
+G none
+G none
+G none
+G none
+#5777
+gold~
+gold!~
+Gold!~
+gold~
+~
+money 0 A
+0 1
+0 0 0 P
+G none
+G none
+G none
+G none
+#5778
+barrel rum~
+a barrel of rum~
+A barrel of good rum is here.~
+wood~
+~
+drink 0 AO
+8 8 'rum' 0
+0 20 1142 G
+E
+rum~
+This is tasty stuff!
+~
+G none
+G none
+G none
+G none
+#5779
+key keys bunch~
+a bunch of keys~
+A bunch of keys has been left here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 20 0 P
+E
+key keys bunch~
+One of these keys is labelled "Boat House"...
+~
+G none
+G none
+G none
+G none
+#5780
+boots~
+a pair of unlaced boots~
+Someone forgot to tie their laces up on these boots...~
+plastic~
+~
+armor G AG
+4 4 4 3 'none' 0
+11 12 2825 G
+A
+14 20
+E
+boots~
+These boots, once laced up properly, would make a great pair of hiking 
+boots.
+~
+G none
+G none
+G none
+G none
+#5781
+eggs~
+some pickled eggs~
+Some pickled eggs have fallen out of their jar.~
+food~
+~
+food 0 A
+AC AC 0 0 0 AC AC
+0 5 54 P
+E
+eggs~
+Whew! Whoever eats these will fart up a storm!
+~
+G none
+G none
+G none
+G none
+#5782
+jar~
+a jar~
+This jar is commonly used to hold pickled eggs and other preserved foods.~
+paper~
+~
+container G AO
+10 0 0 10 100 0
+5 20 91 G
+E
+jar~
+A label on the side says "Rumblebottom's Fine Foods".
+~
+G none
+G none
+G none
+G none
+#5783
+earrings~
+a pair of cheap earrings~
+Someone's cheap earrings have been left here.~
+wool~
+~
+armor 0 AE
+5 5 5 4 'none' 0
+12 13 8 P
+E
+earrings~
+They look tacky and worthless, but one man's trash is another man's 
+treasure, so...
+~
+G none
+G none
+G none
+G none
+#5784
+liquid~
+a vial of liquid~
+A vial of liquid glows strangely here...~
+glass~
+~
+potion A AO
+10 'bless' 'cure serious' 'cure poison' 'refresh'
+10 10 100 P
+E
+vial~
+This vial actually contains Holy Water, blessed by the Overpriest of
+Kaynlesh-Ma. It will cure your injuries, including any inflicted by the 
+poisonous touch of its undead owner, and bless you.
+~
+G none
+G none
+G none
+G none
+#5785
+parchment~
+a badly-damaged sheet of parchment~
+A badly-damaged sheet of parchment is here.~
+paper~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+0 10 0 P
+E
+parchment~
+This parchment is almost illegible, but you can make out a map of this area,
+with one section to the north of here marked "THE MAZE OF ZAGOR", with two
+rooms marked "...GER" and "SM... P...LE".
+~
+G none
+G none
+G none
+G none
+#5786
+book~
+the Warlock's spellbook~
+The Warlock's spellbook has been lost by its guardian.~
+paper~
+~
+scroll EGJ AO
+10 'magic missile' 'fly' 'reserved' 'reserved'
+10 10 100 P
+E
+book~
+The Warlock entrusted this book to his faithful Vampire Guardian to guard
+for him.
+~
+G none
+G none
+G none
+G none
+#5787
+cards~
+a deck of cards~
+A deck of dog-eared cards has been scattered here.~
+paper~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 10 0 P
+E
+cards~
+This is an unremarkable deck of Dwarven playing cards.
+~
+G none
+G none
+G none
+G none
+#5788
+pipe~
+a Dwarven pipe~
+A Dwarven pipe has been left here.~
+wood~
+~
+wand G AO
+8 4 4 'faerie fog'
+10 75 1650 P
+E
+pipe~
+The smoke that this pipe belches forth can detect magically concealed
+creatures.
+~
+G none
+G none
+G none
+G none
+#5789
+vase~
+a vase full of liquid~
+This vase is full of a liquid that looks suspiciously like plain water...~
+glass~
+~
+drink 0 AO
+10 6 'water' 0
+0 10 566 G
+E
+vase~
+This vase is only half-full.
+~
+G none
+G none
+G none
+G none
+#5790
+bowl~
+a red clay bowl~
+A red clay bowl rests here.~
+clay~
+~
+container 0 AO
+100 0 0 50 85 0
+10 10 3805 G
+E
+bowl~
+This red clay bowl is used to store coins.
+~
+G none
+G none
+G none
+G none
+#5791
+coins~
+some coins~
+Some coins have been scattered here.~
+silver~
+~
+money 0 AO
+20 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#5792
+fountain~
+a fountain~
+A small stone fish spurts water into a stone bowl. It looks drinkable.~
+stone~
+~
+drink 0 0
+100000 100000 'water' 0
+0 0 0 G
+E
+fountain~
+This fountain bears a sign, written in the Goblin tongue, which reads "DO
+NOT DRINK!".
+~
+G none
+G none
+G none
+G none
+#5793
+cards~
+a deck of magical cards~
+A deck of magical cards covered in strange runes and glyphs is here.~
+paper~
+~
+scroll GJ AO
+10 'sleep' 'curse' 'blindness' 'cause critical'
+10 90 1450 P
+E
+cards~
+These cards serve as a focus of the Warlock's power.
+~
+G none
+G none
+G none
+G none
+#5794
+robes~
+the Warlock's robes~
+The Warlock's robes have been torn from his body.~
+wool~
+~
+clothing GJ AK
+D D D ABC 0 D D
+21 22 10192 G
+A
+3 1
+A
+4 1
+E
+robes~
+These robes contain a portion of the Warlock's power.
+~
+G none
+G none
+G none
+G none
+#5795
+sword~
+the Warlock's sword~
+The Warlock's sword has been dropped here.~
+iron~
+~
+weapon GJ AN
+longsword 2 12 slice C
+21 50 24879 P
+A
+19 3
+A
+5 -2
+A
+12 10
+A
+13 10
+E
+sword~
+This sword looks quite sharp.
+~
+G none
+G none
+G none
+G none
+#5796
+chest~
+a solid iron-bound oak chest~
+A solid iron-bound oak chest rests in a corner.~
+meat~
+~
+container G 0
+100 A 0 50 90 0
+10 30 100 G
+E
+chest~
+This chest is securely locked.
+~
+G none
+G none
+G none
+G none
+#5797
+loot~
+loot!~
+The Warlock's Loot!~
+nothingness~
+~
+treasure A AO
+0 0 0 0 0
+20 10 1000 P
+A
+19 2
+A
+18 2
+A
+3 1
+E
+loot~
+This is part of the Warlock's wealth.
+~
+G none
+G none
+G none
+G none
+#5798
+gold~
+gold!~
+The Warlock's Gold!~
+gold~
+~
+money 0 A
+300 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#5799
+key~
+a red key~
+A red key~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+key~
+This key looks like it must open a BIG lock.
+~
+G none
+G none
+G none
+G none
+#5800
+bullwhip whip~
+a bullwhip~
+A piece of leather nearly ten feet long has been curled up here.~
+linen~
+~
+weapon 0 AN
+whip 1 8 whip 0
+12 36 1314 P
+A
+19 3
+A
+18 -2
+E
+bullwhip whip~
+This bullwhip once belonged to the Orc Chieftain of Firetop Mountain...
+Perhaps it still does.
+~
+G none
+G none
+G none
+G none
+#5801
+cloak~
+an Orcish cloak~
+An Orc chieftain's cloak is crumpled up into a ball here.~
+iron~
+~
+clothing G AK
+AC AC AC C 0 AC AC
+12 13 2175 G
+A
+5 1
+E
+cloak~
+Despite its owner, this cloak is in reasonably good shape.
+~
+G none
+G none
+G none
+G none
+#5802
+belt pouch~
+a pouch belt~
+A small pouch belt is here.~
+iron~
+~
+container G AL
+25 A 0 5 90 0
+11 10 2448 G
+G none
+G none
+G none
+G none
+#5803
+bench~
+a wooden bench~
+A wooden bench is here. It has a small inscription carved into it.~
+wood~
+~
+furniture A 0
+B EHI EHK CFG CFG B EHI
+0 0 0 P
+E
+inscription bench~
+The inscription says-
+
+     "REST YE HERE YE WEARY TRAVELLER"
+~
+G none
+G none
+G none
+G none
+#5804
+boat punt~
+a punt~
+A small punt has been moored here.~
+wood~
+~
+boat 0 A
+0 0 0 0 0 0 0
+10 100 193636 G
+E
+punt boat~
+This punt is a servicable enough boat.
+~
+G none
+G none
+G none
+G none
+#5805
+ale jack~
+a jack of ale~
+A giant-sized jack of ale rests here.~
+glass~
+~
+drink 0 AO
+10 10 'white wine' 0
+15 30 840 G
+E
+jack ale~
+This jack of ale is very big but it holds a LOT of wine.
+~
+G none
+G none
+G none
+G none
+#5806
+key~
+a gold key~
+A gold key hangs from a hook here.~
+gold~
+~
+key A AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+key~
+This key has the number 125 inscribed upon it.
+~
+G none
+G none
+G none
+G none
+#5807
+key~
+a copper key~
+A copper key hangs from a hook here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+key~
+This key has the number 66 inscribed upon it.
+~
+G none
+G none
+G none
+G none
+#5808
+key~
+a red key~
+A red key is here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+key~
+This key has the number 66 inscribed upon it.
+~
+G none
+G none
+G none
+G none
+#5809
+cabinet glass~
+a glass cabinet~
+A glass cabinet full of curios rests against one wall.~
+glass~
+~
+container 0 0
+10000 A 0 10000 100 0
+0 0 0 G
+E
+cabinet~
+This cabinet contains the various mementoes of the Warlock.
+~
+G none
+G none
+G none
+G none
+#5810
+mementoes curios curio~
+one of the Warlock's curios~
+You see one of the Warlock's curios here.~
+paper~
+~
+treasure 0 AO
+0 0 0 0 0
+0 10 800 P
+A
+4 1
+E
+curio~
+You are lookign at one of the curios of the Warlock of Firetop Mountain, 
+which may be of value to someone.
+~
+G none
+G none
+G none
+G none
+#5811
+book~
+a book~
+A book is here.~
+paper~
+~
+scroll AG AO
+15 'armor' 'bless' 'stone skin' 'haste'
+15 10 10 P
+E
+book~
+This heavy book deals with the magical science of Abjuration.
+~
+G none
+G none
+G none
+G none
+#5812
+desk~
+a massive desk~
+This massive desk looks far too heavy to even budge.~
+wood~
+~
+furniture AG 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+desk~
+This desk is a magnificently carved oak affair, made with exquisite detail
+by the OOkers of NarHn.
+~
+G none
+G none
+G none
+G none
+#5813
+chair~
+a comfortable-looking chair~
+This chair looks very comfortable.~
+nothingness~
+~
+furniture AR 0
+0 0 0 0 0 0 0
+0 50 50 P
+E
+chair~
+This chair is actually quite beneficial if held.
+~
+G none
+G none
+G none
+G none
+#5830
+box~
+big box~
+A big box with a large sword is here.~
+wood~
+~
+container 0 0
+10 0 0 100 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#5735
+Path to Firetop Mountain~
+You have reached the base of Firetop Mountain. The steep impenetrable face
+that rises before you is deeply gouged, as if by the claws of a gargantuan
+beast. Strange red vegetation grows at the peak, hence the mountain's name.
+A small dark opening in front of you allows you to enter the depths of
+Firetop Mountain, domain of the evil Warlock.
+You see a small sign stuck to a nearby withered tree.
+     There is a small (Glowing) (Humming) tablet.
+~
+0 C forest
+E
+sign~
+The sign says-
+
+     "Welcome to Firetop Mountain, a fun- and excitement-filled area brought
+to you by the Mad Elf. He hopes you enjoy yourself".
+
+and below that-
+
+     "Firetop Mountain was built on a DOS text-editor in November 1995 by
+Yaegar for AnonyMud, though any Merc 2.2 Mud can (and is indeed welcome to)
+use it".
+~
+E
+small tablet~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++                                                                  +
++            This area has been converted and adapted by           +
++                             Kajko                                +
++                                                                  +
++                               &                                  +
++                                                                  +
++                 revised, modified, debugged (?:)                 +
++                strongly enhanced and balanced by                 +
++                             jaceks                               +
++                                                          july'96 +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+D0
+inside the mountain
+~
+~
+Z 0 5736
+0 0
+D2
+~
+~
+Z 0 8854
+0 0
+S
+#5736
+Inside the Mountain~
+You are heading north along a gloomy stone passageway. Your footsteps echo
+in the eerie silence, which is broken only by the distant sound of running
+water. You soon reach a junction where you can head east or west.
+~
+0 AD inside
+D1
+a door
+~
+~
+Z 0 5737
+0 0
+D2
+the entrance
+~
+~
+Z 0 5735
+0 0
+D3
+a guard post
+~
+~
+Z 0 5739
+0 0
+S
+#5737
+A Door~
+You are standing before a wooden door, set flush with the stone wall that
+marks the end of the passageway. It looks solid, but you get the idea that
+it would give easily to a good shove from your shoulder. Or, you could try
+just opening it with the handle...
+~
+0 AD inside
+D1
+a pit
+~
+~
+ABZ 0 5738
+0 0
+D3
+inside the mountain
+~
+~
+Z 0 5736
+0 0
+S
+#5738
+A Pit~
+Ack! As you open the door and pass through, you fall into a deep pit! The 
+sides are smooth and unscaleable, and for some reason your magic doesn't
+seem to work here. Looks like you might need to recall.
+~
+0 ACD inside
+D3
+~
+~
+Z -1 5737
+0 0
+D5
+a trapdoor
+~
+~
+ABZ -1 13400
+0 0
+S
+#5739
+A Guard Post~
+After a short distance, the westward passage that you are following bends to
+the north. At the bend there is a small niche in the wall, just large enough
+for a medium-sized humanoid to stand in. A stone stool is in this niche, as
+is a half-drunk flagon of some unknown alcohol, and you (correctly) assume 
+that this alcove is used as a sentry post. Its inebriated occupant may be
+around, so keep alert.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5740
+0 0
+D1
+inside the mountain
+~
+~
+Z 0 5736
+0 0
+S
+#5740
+A Corridor~
+You are advancing down a long north-south corridor lined by several wooden
+doors to the west. The corridor is unlit- evidently it is either rarely
+used or the occupants of this place have no need for light...
+You hear loud snoring from behind the door nearest you.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5742
+0 0
+D2
+a guard post
+~
+~
+Z 0 5739
+0 0
+D3
+a door
+~
+~
+ABZ 0 5741
+0 0
+S
+#5741
+Orc Sleeping Quarters~
+This room evidently serves as sleeping quarters for some of the foul Orcs
+that reside in this place. Loud snoring echoes around this room, coming from
+its single sleeping occupant, who lies with his arms curled about an
+interesting-looking box...
+~
+0 AD inside
+D1
+a corridor
+~
+~
+Z 0 5740
+0 0
+S
+#5742
+A Corridor~
+You are advancing down a long north-south corridor lined by several wooden
+doors to the west. The corridor is unlit- evidently it is either rarely
+used or the occupants of this place have no need for light...
+No sound comes from behind the door nearest you.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5744
+0 0
+D2
+a corridor
+~
+~
+Z 0 5740
+0 0
+D3
+a door
+~
+~
+ABZ 0 5743
+0 0
+S
+#5743
+Guards' Quarters~
+This room seems to function as quarters for the Orcish soldiers that guard
+the entrance here. From what you've seen so far of the Warlock's "Guards",
+you think that maybe he should reconsider his choices for protection...
+There is a small snake curled up around a box in the far corner of this room.
+~
+0 AD inside
+D1
+a corridor
+~
+~
+Z 0 5742
+0 0
+S
+#5744
+A Corridor~
+You are advancing down a long north-south corridor lined by several wooden
+doors to the west. The corridor is unlit- evidently it is either rarely
+used or the occupants of this place have no need for light...
+You hear loud raucous drunken singing coming from behind the door nearest you.
+There is a junction to the north of here.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5746
+0 0
+D2
+a corridor
+~
+~
+Z 0 5742
+0 0
+D3
+a door
+~
+~
+ABZ 0 5745
+0 0
+S
+#5745
+A Party~
+You are hit by the combined stench of Orc Grog, sweat, vomit, urine and
+blood as soon as you enter. Repulsed, you glance about and quickly gather
+that this foul place serves as some sort of recreation area for the Orcish
+soldiers. If you are lucky, you will be spared an encounter with the vile
+drunkards.
+~
+0 AD inside
+D1
+a corridor
+~
+~
+Z 0 5744
+0 0
+S
+#5746
+A Junction~
+You have reached a T-junction in the passageway, where passages run to the
+west, east and south. You can hear screaming and what sounds like a whip
+cracking to the west, while the sound of many Orcs slurping and chomping
+on their vile food emanates from the east. A variety of sounds come from
+the south. In the distance, you can hear what sounds like running water.
+~
+0 AD inside
+D1
+another junction
+~
+~
+Z 0 5748
+0 0
+D2
+a corridor
+~
+~
+Z 0 5744
+0 0
+D3
+a westward corridor
+~
+~
+Z 0 5747
+0 0
+S
+#5747
+A Westward Corridor~
+You are advancing along an east-west corridor that ends at the east in a
+juction and at the west in a solid oak portal. From behind the portal you
+can hear screams, apparently being elicited by the bullwhip you hear cracking
+just before each cry.
+~
+0 AD inside
+D1
+a junction
+~
+~
+Z 0 5746
+0 0
+D3
+a door
+~
+~
+ABZ 0 5799
+0 0
+S
+#5748
+Another Junction~
+You have reached another junction. From here you can go north, toward a huge
+iron portcullis, west, toward a branch in the corridor to the south, or east,
+toward what sounds like a kitchen/dining area, judging by the clangour of
+rattling pots and pans, and the shouts and grunts of the diners.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5750
+0 0
+D1
+a door
+~
+~
+Z 0 5749
+0 0
+D3
+a junction
+~
+~
+Z 0 5746
+0 0
+S
+#5749
+Outside the Kitchen~
+The noises of the kitchen are loudest here. Behind this door there must be
+some very nauseating dinner parties, if the noises and the *SMELL* are 
+anything to go by.
+~
+0 AD inside
+D1
+the kitchen
+~
+~
+ABZ 0 5800
+0 0
+D3
+another junction
+~
+~
+Z 0 5748
+0 0
+S
+#5750
+A Corridor~
+You are advancing along a long north-south corridor lined by several wooden
+doors to the east. The corridor is unlit- evidently it is either rarely
+used or the occupants of this place have no need for light...
+You hear dreadful screaming coming from behind the door to the east.
+There are junctions to the north and south of here.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5752
+0 0
+D1
+a door
+~
+~
+ABZ 0 5751
+0 0
+D2
+another junction
+~
+~
+Z 0 5748
+0 0
+S
+#5751
+A Cell~
+Eeyew! This foul place obviously serves as a combined garbage room/prison
+cell, for several skeletons manacled to the walls are half-buried in all
+manner of disgusting refuse that has been hurled into here by the Orcs.
+Just looking at the evil mess makes you want to vomit, and by the looks of
+it you haven't been the first to so react...
+~
+0 AD inside
+D3
+a corridor
+~
+~
+Z 0 5750
+0 0
+S
+#5752
+A Corridor~
+You are advancing along a long north-south corridor lined by several wooden
+doors to the east. The corridor is unlit- evidently it is either rarely
+used or the occupants of this place have no need for light...
+There are junctions to the north and south of here.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5754
+0 0
+D1
+a door
+~
+~
+ABZ 0 5753
+0 0
+D2
+another junction
+~
+~
+Z 0 5750
+0 0
+S
+#5753
+Armory~
+You have entered an armory. Most of the weapons here are of Orcish make,
+crude and clumsy-looking, and you ignore them. However, a few weapons of
+human and elf make are also stored here- perhaps you may find one of use
+to you...
+~
+0 AD inside
+D3
+a corridor
+~
+~
+Z 0 5752
+0 0
+S
+#5754
+A Corridor~
+You are advancing along a long north-south corridor lined by several wooden
+doors to the east. The corridor is unlit- evidently it is either rarely
+used or the occupants of this place have no need for light... You hear piteous 
+moans and cries of pain, followed by insane cackling, coming from the door 
+nearest you. There are junctions to the north and south of here.
+~
+0 AD inside
+D0
+a junction
+~
+portcullis~
+ABZ 0 5756
+0 0
+D1
+a door
+~
+~
+ABZ 0 5755
+0 0
+D2
+another junction
+~
+~
+Z 0 5752
+0 0
+S
+#5755
+A Torture Chamber~
+You have entered a torture chamber, currently being used by the Warlock's
+Goblin torturers to extract information from intruders or confessions from
+crooked or incompetent Orcish sentries. Of course, they don't really care
+what you know, they are going to torture you anyway :).
+~
+0 AD inside
+D3
+a corridor
+~
+~
+Z 0 5754
+0 0
+S
+#5756
+A Junction~
+You have reached a T-Junction which allows you to travel east, west or south.
+The corridor to the south is lined with doors to the east, while the east
+and west branches of the junction disappear into the darkness which is barely
+penetrated by your light source. You fancy that you can hear the sounds of 
+a river to the far north.
+~
+0 AD inside
+D1
+a bend in the corridor
+~
+~
+Z 0 5757
+0 0
+D2
+a corridor
+~
+portcullis~
+Z 0 5754
+0 0
+D3
+a long passageway~
+~
+Z 0 5779
+0 0
+S
+#5757
+A Bend in the Corridor~
+You have reached a bend in the corridor where you can head north to another
+junction or back west to a southern branch of the corridor. The sound of 
+running water seems to be coming directly from the north now.
+You get the feeling this may be a good place to rest and collect yourself.
+~
+0 ACD inside
+D0
+a junction
+~
+~
+Z 0 5758
+0 0
+D3
+a junction
+~
+~
+Z 0 5756
+0 0
+S
+#5758
+A Junction~
+You have reached yet another junction, where you can head east, west, or 
+south to a strange-looking bench. There is a door to the far east, but you 
+can hear nothing coming from that direction.
+~
+0 AD inside
+D1
+a junction
+~
+~
+Z 0 5759
+0 0
+D2
+a bench
+~
+~
+Z 0 5757
+0 0
+D3
+a bend
+~
+~
+Z 0 5761
+0 0
+S
+#5759
+A Junction~
+At this point, a long, dark passageway stretches off to the north, ending at
+a wooden door. You fancy that you can hear heavy breathing coming from
+behind it. You can still hear naught from behind the eastern door, which you
+are standing before now.
+~
+0 AD inside
+D0
+a door
+~
+~
+ABZ 0 5765
+0 0
+D1
+a door
+~
+~
+ABZ 0 5760
+0 0
+D3
+a junction
+~
+~
+Z 0 5758
+0 0
+S
+#5760
+An Ornate Room~
+You enter a room heavily decorated by ornate stonework and detailed murals
+and reliefs, crafted and colored in a style you have never seen before, 
+giving the room an unearthly beauty. A pedestal has been placed in the
+center of the room, and atop it is an iron statue of what looks like a 
+one-eyed demon.
+~
+0 AD inside
+D3
+a junction
+~
+~
+Z 0 5759
+0 0
+S
+#5761
+A Bend~
+At this point the corridor bends sharply to the north, heading past doors
+to the east and west toward some distant point, lost in the all-encompassing
+murky darkness. You are thankful for your light.
+~
+0 AD inside
+D0
+outside three doors
+~
+~
+Z 0 5762
+0 0
+D1
+a junction
+~
+~
+Z 0 5758
+0 0
+S
+#5762
+Outside Three Doors~
+You are standing in a north-south running corridor between two doors. The
+one to the east has a small sign upon it, while the one to the west is
+blank. You can here a gentle humming noise, as if of someone singing to
+themself, behind the east door. There is another, pitch-black portal to 
+the north. It looks ominous...
+~
+0 AD inside
+E
+sign~
+The sign says, in large, neatly-scribed letters-
+
+       "T H E     H O U S E     O F      C A N D L E S"
+     
+     Visitors welcome. Please leave your children and pets outside.
+     No Hawkers or Canvassers. Shoplifters WILL be prosecuted.
+
+~
+D0
+a pitch-black portal
+~
+~
+ABZ 0 5766
+0 0
+D1
+a shop
+~
+~
+ABZ 0 5764
+0 0
+D2
+a bend
+~
+~
+Z 0 5761
+0 0
+D3
+a door
+~
+~
+ABZ 0 5763
+0 0
+S
+#5763
+A Cavern~
+The door opens onto a rough-hewn cavern, dark and dreary as the rest of the
+dungeon, save that it has more than the usual amount of cobwebs, and also
+sports a fair collection of Orcish, Dwarven and Human bones. You enter
+cautiously, well aware that this may be the lair of a Huge SPIDER.
+~
+0 AD inside
+D1
+outside three doors
+~
+~
+Z 0 5762
+0 0
+S
+#5764
+A Shop~
+You have entered a brightly-lit shop, an oddity in this place made even
+stranger by the bizarre array of goods available. However, what interests
+you most in this normally black dungeon is the availability of magic candles
+that can help light your way.
+~
+0 D inside
+D3
+outside three doors
+~
+~
+Z 0 5762
+0 0
+S
+#5765
+A Barbarian!~
+You have entered the quarters of an insane barbarian, who by now is attacking
+you if he has not already been slain by another adventurer before you. There
+is little of interest in this dingy room. A passage runs from here to another 
+door to the north.
+~
+0 AD inside
+D0
+a short passage
+~
+~
+Z 0 5801
+0 0
+D2
+a door
+~
+~
+Z 0 5759
+0 0
+S
+#5766
+A Black Corridor~
+As you enter this foreboding place, your light source dwindles to a faint
+glimmer, threatening to go out entirely at any moment. In its bleak glare
+you manage to make out hideous murals on the walls depicting people being
+maimed and tortured, and you could swear that they are actually MOVING. 
+You feel a sudden urge to flee this horrid place.
+~
+0 AD inside
+D0
+a fountain room
+~
+~
+ABZ 0 5768
+0 0
+D2
+outside three doors
+~
+~
+ABZ 0 5762
+0 0
+S
+#5767
+A Gallery~
+You have entered what appears to be an art gallery. Paintings of various old
+men and women of noble birth line the whitewashed walls and you supress a
+yawn as you walk past. However, one portrait here appears to be different...
+Doors to the north and south allow you to leave this place.
+~
+0 D inside
+D0
+a short corridor
+~
+~
+Z 0 5802
+0 0
+D2
+a short corridor
+~
+~
+Z 0 5801
+0 0
+S
+#5768
+A Fountain~
+You have entered a small room, no more than a slight broadening of the 
+passage, with a fountain in the middle of it. The passage continues to the
+north and terminates at a pitch-black portal to the south.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+Z 0 5770
+0 0
+D2
+a pitch-black portal
+~
+~
+ABZ 0 5766
+0 0
+S
+#5769
+A Pear-Shaped Room~
+You have entered a pear-shaped room, with the south entrance opening into
+the wide base and a door to the north exiting at the top of the fruit shape.
+Several items of interest are scattered on the floor here..
+The sound of flowing water is stronger than ever here. It appears to be
+coming from directly beyond the door in the north wall.
+~
+0 AD inside
+D0
+a door
+~
+~
+ABZ 0 5773
+0 0
+D2
+a short corridor
+~
+~
+Z 0 5802
+0 0
+S
+#5770
+A Corridor~
+You are marching along a long north-south corridor, which ends near a 
+fountain to the south, and a small door to the north. A second door is in the 
+eastern wall near you.
+~
+0 AD inside
+D0
+a door
+~
+~
+ABZ 0 5803
+0 0
+D1
+a door
+~
+~
+ABZ 0 5771
+0 0
+D2
+a fountain
+~
+~
+Z 0 5768
+0 0
+S
+#5771
+A Bare Room~
+You have entered a room that is completely unrearkable save for a table and
+some interesting items upon it.
+~
+0 AD inside
+D3
+a corridor
+~
+~
+Z 0 5770
+0 0
+S
+#5772
+A Junction~
+You have reached a junction in the passageway, where you may go east, west
+or south. The sound of running water is unmistakable now, and seems to be
+coming from the western passage, which bends to the north. Bestial grunts 
+echo from the passage to the east.
+~
+0 AD inside
+D1
+a cave
+~
+~
+Z 0 5775
+0 0
+D2
+a door
+~
+~
+ABZ 0 5803
+0 0
+D3
+a bend
+~
+~
+Z 0 5774
+0 0
+S
+#5773
+A Ferryman and a Bridge~
+You have finally reached the source of the sound of running water- a broad
+underground river that cuts through the dungeons of Firetop Mountain. You
+peer into it but can see nothing in its icy black depths, but doubtless this
+river sports its own particular little nasties like all the other parts of
+the dungeon have so far.
+A rickety bridge allows you to cross to the other side if you wish, or you
+may wish to go boating using a nearby punt.
+A sign says- "Don't Pay the Ferryman...till he gets you to the other side..."
+~
+0 AD inside
+D0
+the other side
+~
+~
+Z 0 5798
+0 0
+D1
+river
+~
+~
+Z 0 5778
+0 0
+D2
+pear room
+~
+~
+Z 0 5769
+0 0
+D3
+river
+~
+~
+Z 0 5777
+0 0
+S
+#5774
+On the Banks of the River~
+You have finally reached the river you have been hearing for so long. It
+looks deep, dark and unswimmable, though if you had a boat you may be able
+to cross it, though at this point there appears to be nothing of interest
+on the other side. Perhaps you may find a crossing further down?
+~
+0 AD inside
+D0
+the river
+~
+~
+Z 0 5777
+0 0
+D1
+a junction
+~
+~
+Z 0 5772
+0 0
+S
+#5775
+A Cave~
+You have entered a huge cave, cut from the rock face by Gods-know what force.
+There is a campfire burning in the center of the room, and several hides and
+rocks are scattered about the area, along with several bones and chewed
+strips of half-cooked meat.
+~
+0 AD inside
+D3
+a junction
+~
+~
+Z 0 5772
+0 0
+S
+#5776
+The River~
+You are sailing along the mighty underground river that cuts through the
+dungeons of Firetop Mountain. To the west you can see a rocky beach, while
+to the east the river flows into the murky darkness that pervades here.
+~
+0 AD noswim
+D1
+river
+~
+~
+Z 0 5777
+0 0
+D3
+a rocky beach
+~
+~
+Z 0 5797
+0 0
+S
+#5777
+The River~
+You are sailing along the mighty underground river that cuts through the
+dungeons of Firetop Mountain. To the west you can see a rocky beach, while
+to the east the river flows towards what looks like a bridge.
+There is a small alcove to the south at which you could dock.
+~
+0 AD noswim
+D1
+bridge
+~
+~
+Z 0 5773
+0 0
+D2
+alcove
+~
+~
+Z 0 5774
+0 0
+D3
+river
+~
+~
+Z 0 5776
+0 0
+S
+#5778
+The River~
+You are sailing along the mighty underground river that cuts through the
+dungeons of Firetop Mountain. To the west you can see a rickety bridge, 
+while to the east the river down a narrow crevice and is impassable.
+~
+0 AD noswim
+D3
+bridge
+~
+~
+Z 0 5773
+0 0
+S
+#5779
+A Long Passageway~
+You are heading along a long east-west passageway which meets a junction to
+the east and bends sharply to the north to the west.
+~
+0 AD inside
+D1
+a junction
+~
+~
+Z 0 5756
+0 0
+D3
+entrance to a cave
+~
+~
+Z 0 5780
+0 0
+S
+#5780
+Entrance to a Cave~
+You are passing by the entrance to a small cave, on the northern side of
+this long east-west passage. A vile smell wafts from this dark place, and
+you fancy that you can hear bestial gruntings.
+~
+0 AD inside
+D0
+cave
+~
+~
+Z 0 5781
+0 0
+D1
+a passage
+~
+~
+Z 0 5779
+0 0
+D3
+a passage
+~
+~
+Z 0 5782
+0 0
+S
+#5781
+Ogre Cave~
+Whew! What a smell! This cave, littered as it is with garbage, offal and 
+half-eaten body parts, smells atrocious. And so does its inhabitant! Too
+bad for you he's very sensitive about it all, and when he sees you gag and
+retch, he leaps forward to attack. A traveller once told you that he found 
+a gateway to another dimension in an Ogre cave in these parts...
+~
+0 AD inside
+E
+floor ground~
+There is a circular scorch mark on the floor here.
+~
+D2
+entrance to a cave
+~
+~
+Z 0 5780
+0 0
+S
+#5782
+A Bend~
+You have reached a bend in the passageway, where you can continue to the 
+north or the east, depending on which way you were travelling. You can hear
+faint laughter coming from the north.
+~
+0 AD inside
+D0
+a junction
+~
+~
+Z 0 5783
+0 0
+D1
+entrance to a cave
+~
+~
+Z 0 5780
+0 0
+S
+#5783
+A Junction~
+The passage continues here, running to the north and south.  It looks as
+if there was once a branch in the passageway that allowed you to head west,
+but it has been covered up and there is now no way through.  
+~
+0 AD inside
+D0
+a t-junction
+~
+~
+Z 0 5785
+0 0
+D2
+a bend
+~
+~
+Z 0 5782
+0 0
+S
+#5784
+A Narrow Passageway~
+You didn't listen, did you? You decided to try and worm your way down this
+NARROW (That is a six letter adjective meaning not very freaking wide), and
+now you're trapped, with only the mocking laughter you heard earlier to
+keep you company. I hope for your sake you have a spell that enables you
+to escape...
+~
+0 ACD inside
+S
+#5785
+A T-Junction~
+You have come to a T-Junction where an east-west passageway is met by a
+north-south one. The north-south passage terminates at the meeting-point. To
+the south it runs past another side passage before turning sharply to the east.
+The east-west passage bends to the north in both directions. You see a small 
+recess in the north wall here and think this would be a good place to rest 
+your weary bones.
+~
+0 ACD inside
+D1
+a bend
+~
+~
+Z 0 5786
+0 0
+D2
+a side passage
+~
+~
+Z 0 5783
+0 0
+D3
+a bend
+~
+~
+Z 0 5788
+0 0
+S
+#5786
+A Bend~
+The passage you are following bends sharply here, and you have the option of
+going west or north, depending on which direction you were coming from. The
+north passage looks particularly dull and empty, while the west leads to a
+junction near a small recess in the north wall.
+~
+0 AD inside
+D0
+a long passageway
+~
+~
+Z 0 5787
+0 0
+D3
+a junction
+~
+~
+Z 0 5785
+0 0
+S
+#5787
+A Long Passageway~
+This passageway is the longest straight-running passageway you have so far
+encountered, running without interruption for at least 250 metres. It 
+continues in both directions.
+~
+0 AD inside
+D0
+a bend
+~
+~
+Z 0 5794
+0 0
+D2
+a bend
+~
+~
+Z 0 5786
+0 0
+S
+#5788
+A Bend~
+Turning the bend in the corridor, you sunndenly notice that the floor in the
+bend has collapsed, making a gaping huge hole. Peering down into the hole,
+you notice that there is another passageway below this one, running north.
+Since the hole is far too big to leap over, and the passage beyond is blocked
+by rubble, your only options are to go down or head back east. A horrid stench 
+from the pit below suddenly wafts upward, making your eyes water.
+~
+0 AD inside
+D1
+a junction
+~
+~
+Z 0 5785
+0 0
+S
+#5789
+The Troll Den~
+While climbing down, you misjudge your step, and go tumbling down into the
+hole, which is a LOT deeper than you originally thought. Stunned, you 
+slowly turn over, and find yourself staring into the vacant eye sockets of a
+half-eaten decomposing corpse! Leaping back, you fall onto a pile of whitened
+bones, and in a panicked state you suddenly recognise the odor you detected
+earlier - TROLL.
+~
+0 AD inside
+D0
+a rough cavern
+~
+~
+Z 0 5790
+0 0
+S
+#5790
+A Rough Cavern~
+Proceeding away from the Troll den, you come into a long, rough cavern,
+littered with decaying corpses and shards of broken bones and weapons.
+Remembering the previous occupant of this foul place you encountered, you
+grip your trusty weapons firmly and glare about, ready for anything. A
+distant howl suddenly echoes about the cavern, and you tense, sweat beading
+on your brow.You spy a set of steps leading up to a door in the far wall, to 
+the north, and step up to it.
+~
+0 AD inside
+D0
+a door
+~
+~
+ABZ 0 5791
+0 0
+S
+#5791
+Rat Room~
+You cautiously step through the door and enter a room which is knee-deep in
+bones! Several dark shapes move about amongst the bones, and with growing
+alarm you realize that you have entered the lair of some giant rats! The door
+to the south appears jammed from this side, and you realize you will 
+probably have to fight your way out of here.
+~
+0 AD inside
+D0
+a giant's room
+~
+~
+ABZ 0 5792
+0 0
+D1
+a junction
+~
+~
+Z 0 5793
+0 0
+S
+#5792
+A Giant Room~
+Fee Fi Fo Fum! You have entered a huge room filled with huge furniture. 
+Obviously you have stumbled into the lair of a giant! He probably uses the
+giant rats in the room you just exited as a food supply. Foul creature!
+~
+0 AD inside
+D2
+rat room
+~
+~
+Z 0 5791
+0 0
+S
+#5793
+A Junction~
+At this junction, you have the option of going north, where the sound of
+running water is once more clearly audible, or east, towards a bend in the
+passage to the south. Alternatively, you could step through a door to the
+west, from which the sounds of scratching and high-pitched squeaking emanate.
+~
+0 AD inside
+D0
+a passageway
+~
+~
+Z 0 5796
+0 0
+D1
+a bend
+~
+~
+Z 0 5794
+0 0
+D3
+a door
+~
+~
+ABZ 0 5791
+0 0
+S
+#5794
+A Bend~
+You have entered into a bend in the passage, where you can head west toward
+a junction, or south along a long dark passageway. There is also a heavy
+oaken portal to the north, wich has a rubber skirt along the base, and heavy
+rubber insulation along the sides...
+~
+0 AD inside
+D0
+gas room
+~
+~
+ABZ 0 5795
+0 0
+D2
+a long passageway
+~
+~
+Z 0 5787
+0 0
+D3
+a junction
+~
+~
+Z 0 5793
+0 0
+S
+#5795
+A Gas Room!~
+*Cough* This room is filled with gas. And it's attacking you!
+
+
+There is a niche on the far wall, which looks like it could contain a key.
+~
+0 AD inside
+D2
+a bend
+~
+~
+Z 0 5794
+0 0
+S
+#5796
+A Long Passageway~
+This passageway is running south to a junction and north toward the sound
+of running water. You can smell fresh water on the breeze, which blows
+cold from the river to the north.
+~
+0 AD inside
+D0
+a rocky beach
+~
+~
+Z 0 5797
+0 0
+D2
+a junction
+~
+~
+Z 0 5793
+0 0
+S
+#5797
+A Rocky Beach~
+You have come to a rocky beach, set in a hollowed-out portion of the south
+wall which the river runs past. From the look of the huge holes in the
+ground, you aren't the only one who comes here...
+~
+0 AD inside
+D1
+the river
+~
+~
+Z 0 5776
+0 0
+D2
+a passageway
+~
+~
+Z 0 5796
+0 0
+S
+#5798
+The Other Side~
+You have reached the other side of the river. From here you can progress
+east towards a secure-looking door, or west towards what looks like a door
+to living quarters. Alternatively, there is a door set flush in the north
+wall directly ahead of you.
+~
+0 AD inside
+D0
+a door
+~
+~
+ABZ 0 5807
+0 0
+D1
+towards a door
+~
+~
+Z 0 5815
+0 0
+D2
+a bridge to the south bank
+~
+~
+Z 0 5773
+0 0
+D3
+towards living quarters
+~
+~
+Z 0 5804
+0 0
+S
+#5799
+The Chieftain's Quarters~
+You have entered the quarters of the leader of the Orcs of Firetop Mountain.
+He is standing here brandishing a big bullwhip, which he is using to beat
+another, smaller Orc, presumably his batman or servant. A chest in the far
+corner catches you eye, and you wonder what wealth this Chieftain may 
+possess...
+~
+0 AD inside
+D1
+a westward corridor
+~
+~
+Z 0 5747
+0 0
+S
+#5800
+The Orc Kitchen~
+It is here that the Orcs prepare their meals and partake of them, seated at
+long filthy benches deeply scarred and stained. Pots and pans bubble and fry
+atop a wood-burning cast-iron stove, and from it an Orc occasionally serves
+himself some rat stew and grits. The Orcs in here seem far too engrossed in
+their gastronomic acitivities to notice your presence, though doubtless they
+would react strongly were you to disturb their meals.
+~
+0 AD inside
+D3
+outside the kitchen
+~
+~
+Z 0 5749
+0 0
+S
+#5801
+A Short Corridor~
+A short, unremarkable corridor that terminates to the north at a solid oak
+door and to the south in a small room.
+~
+0 AD inside
+D0
+a gallery
+~
+~
+ABZ 0 5767
+0 0
+D2
+a barbarian
+~
+~
+Z 0 5765
+0 0
+S
+#5802
+A Short Corridor~
+A short, unremarkable corrdior that terminates to the north at a pear-shaped
+room and to the south at a solid oak door.
+~
+0 AD inside
+D0
+a pear-shaped room
+~
+~
+Z 0 5769
+0 0
+D2
+a gallery
+~
+~
+ABZ 0 5767
+0 0
+S
+#5803
+Room of Hands and Stars~
+You have entered a room with a floor decorated with a mural of hands and
+stars. Something about this room strikes you as being not quite right, and
+you get the strange feeling that the hands are somehow ALIVE...
+~
+0 AD inside
+D0
+a junction
+~
+~
+ABZ 0 5772
+0 0
+D2
+a corridor
+~
+~
+ABZ 0 5770
+0 0
+S
+#5804
+Outside a Door~
+You are standing at the end of a short east west corrdior, outside a door
+set in the north wall. You can open this door, or head back to the east,
+where you can see a bridge crossing a wide river.
+~
+0 AD inside
+D0
+a door
+~
+~
+ABZ 0 5805
+0 0
+D1
+a junction on the north bank near a bridge
+~
+~
+Z 0 5798
+0 0
+S
+#5805
+Inside the Shipbuilder's Quarters~
+This room houses the shipbuilder and his faithful dog. There are bits of
+wood and tools lying about everywhere, and a section of hull serves as a 
+resting bench for the shipbuilder, who can usually be found sprawled over 
+it. There is a door to the west, as well as the southern one you originally
+came through.
+~
+0 AD inside
+D2
+outside a door
+~
+~
+Z 0 5804
+0 0
+D3
+a pantry
+~
+~
+ABZ 0 5806
+0 0
+S
+#5806
+Pantry~
+This well-stocked larder is full of jars of preserved foods and jacks of ale,
+but most of it looks inedible. There are a couple of jars, however, that
+seem to contain palatable foodstuffs.
+~
+0 AD inside
+D1
+the shipbuilder's quarters
+~
+~
+Z 0 5805
+0 0
+S
+#5807
+A Short Dark Corridor~
+You are heading along a short dark corridor with doors at either end.
+~
+0 ACD inside
+D0
+a zombie room
+~
+~
+ABZ 0 5808
+0 0
+D2
+a junction on the north bank near a bridge
+~
+~
+Z 0 5798
+0 0
+S
+#5808
+A Zombie Room~
+You have entered the quarters of some of the Warlock's many undead servants.
+Several Zombies reside here, along with some interesting-looking items
+belonging to past adventurers which have been scattered on the floor here.
+
+There is a door in the north wall.
+~
+0 AD inside
+D0
+a crypt
+~
+~
+ABZ 0 5809
+0 0
+D2
+a short dark corridor
+~
+~
+Z 0 5807
+0 0
+S
+#5809
+A Crypt~
+You have entered a Gothic-looking crypt, which currently houses three 
+ornately-fashioned marble coffins, one of which is open. You glance about
+nervously, seeking its owner, who must be nearby...
+~
+0 AD inside
+D2
+a zombie room
+~
+~
+Z 0 5808
+0 0
+D3
+a junction
+~
+~
+ABZ 0 5810
+0 0
+S
+#5810
+A Junction~
+You have reached a junction, a crossroads this time, where you may proceed
+in any of the four cardinal directions. A door blocks the passage to the 
+east, and you can hear sounds of construction to the west. No sound comes
+from the northern or southern branches.
+~
+0 AD inside
+D0
+a bend
+~
+~
+Z 0 5813
+0 0
+D1
+a door
+~
+~
+ABZ 0 5809
+0 0
+D2
+dead end
+~
+~
+Z 0 5811
+0 0
+D3
+construction
+~
+~
+Z 0 5812
+0 0
+S
+#5811
+A Dead End~
+You have reached a dead end, utterly devoid of anything whatsoever of the
+slightest interest. Go back. Now.
+
+
+
+
+
+
+
+
+
+
+
+
+You're still here?
+~
+0 AD inside
+D0
+a junction
+~
+~
+Z 0 5810
+0 0
+S
+#5812
+A Construction Site~
+You have come across a construction site, where an effort is being made to
+construct a tunnel downwards from this passage. This in itself isn't unusual-
+what makes this so weird is the fact that the laborers are animated tools,
+industrious picks, shovels and spades, working and singing merrily as they 
+do! Some of them even stop to make smalltalk with you. You may rest here as
+long as you want, as the toosl will prevent you from any harm. However, you
+cannot attack them, as they are quite immune to your puny efforts.
+~
+0 ACD inside
+D1
+a junction
+~
+~
+Z 0 5810
+0 0
+S
+#5813
+A Bend in the Passageway~
+You have come to a bend, where you may proceed south toward a junction, or
+east toward a hole in the north wall. The sounds one would normally associate
+with heavy excavation echo from the south somewhere.
+~
+0 AD inside
+D1
+a hole
+~
+~
+Z 0 5814
+0 0
+D2
+a junction
+~
+~
+Z 0 5810
+0 0
+S
+#5814
+A Hole in the Wall~
+You are passing by a hole in the north wall in this east west passageway.
+You can feel a strangely warm breeze blowing from this direction. You can
+enter if you wish, or proceed east or west. A junction lies to the east,
+while to the west the passage bends sharply to the south.
+~
+0 AD inside
+D1
+a junction
+~
+~
+Z 0 5820
+0 0
+D3
+a bend
+~
+~
+Z 0 5813
+0 0
+D5
+a creepy room
+~
+~
+Z 0 5823
+0 0
+S
+#5815
+A Door~
+You have reached a securely-locked door. Through a small hole in the door,
+you can see a group of skeletons industriously working on a large boat,
+moving about with practiced efficiency as they hammer, saw and sand the
+boat into shape.
+~
+0 AD inside
+D1
+a shipbuilding room
+~
+~
+ABCIZ 5779 5816
+0 0
+D3
+a junction on the north bank near a bridge
+~
+~
+Z 0 5798
+0 0
+S
+#5816
+A Shipbuilding Room~
+This room is scattered with tools, planks, nails, rivets and sailcloth. You
+see desks, tables and deck plans for various ships strewn about. Evidently
+the Warlock is something of a nautical man. This room is usually filled
+with skeletons busily constructing boats for the Warlock, and occasionally
+the chief ship-builder will actually be doing his job here.
+There are doors to the north and west.
+~
+0 D inside
+D0
+a door
+~
+~
+ABZ 0 5817
+0 0
+D3
+a door
+~
+~
+AIZ 5779 5815
+0 0
+S
+#5817
+A Corridor~
+You have entered a short corridor that runs between the boathouse to the
+south and the quarters of shipbuilders to the north.
+~
+0 AD inside
+D0
+a room
+~
+~
+ABZ 0 5818
+0 0
+D2
+a boathouse
+~
+~
+Z 0 5816
+0 0
+S
+#5818
+A Room~
+You have entered a sleeping room of some sort. Juding by the smell, the only
+creatures that ever rest here are undead ones...There is a tatty wall-hanging
+one one wall that has a faded representation of the Mountain woven into it,
+and some scraps of cloth on the other wall contained some image that no-one
+will ever see again. A small door is set into the north wall.
+~
+0 AD inside
+D0
+a corridor
+~
+~
+ABZ 0 5819
+0 0
+D2
+a corridor
+~
+~
+Z 0 5817
+0 0
+S
+#5819
+A Corridor~
+You have entered a short corridor that runs north to a junction and south to
+a sturdy oak door. You fancy you can hear raspy breathing coming from behind
+it.
+~
+0 AD inside
+D0
+junction
+~
+~
+Z 0 5820
+0 0
+D2
+a room
+~
+~
+Z 0 5818
+0 0
+S
+#5820
+A Junction~
+You have reached a junction, where you may go west, east or south.
+~
+0 AD inside
+D1
+a door
+~
+~
+Z 0 5821
+0 0
+D2
+a corridor
+~
+~
+Z 0 5819
+0 0
+D3
+a long passageway and a hole
+~
+~
+Z 0 5814
+0 0
+S
+#5821
+A Door~
+You are standing outside a huge studded metal door, set firmly into the
+south wall. It has a massive golden keyhole. You know just by looking at it
+that you have scant hopes of forcing it down.
+~
+0 AD inside
+D2
+loot room
+~
+~
+ABCFZ 5806 5822
+0 0
+D3
+a junction
+~
+~
+Z 0 5820
+0 0
+S
+#5822
+Loot Room~
+You have found the treasury of the Warlock! Congratulations! Now...quickly
+fill your sacks with gold and your packs with gems, before he finds you 
+here...
+~
+0 D inside
+D0
+outside the loot room
+~
+~
+AFZ 5806 5821
+0 0
+S
+#5823
+A Creepy Room~
+You have entered a creepy-looking room, littered with corpses and various
+items of rubbish. Shadows flicker and dance in the glare of your wavering
+light source, and you fancy you can feel a palpable aura of evil in this
+place. You may hurry quickly north to a passage there, or back up to the
+safety of the corridor you just left.
+~
+0 AD inside
+D0
+a bend
+~
+~
+Z 0 5824
+0 0
+D4
+a passage
+~
+~
+Z 0 5814
+0 0
+S
+#5824
+A Bend~
+You have entered a bend in the passage, where you can head east toward a
+wide section of the passage, or back south towards a ghastly smell...
+~
+0 AD inside
+D1
+a widening of the passage
+~
+~
+Z 0 5825
+0 0
+D2
+a creepy room
+~
+~
+Z 0 5823
+0 0
+S
+#5825
+A Widening in the Passage~
+*>CLANG<*! As soon as you enter this area, a huge, heavy portcullis slams
+down into place behind you, preventing your returning in that direction,
+meaning you have no choice but to continue east into a sinister-looking area
+of the dungeons of Firetop Mountain. You pray that you will find the key
+to the portcullis somewhere in here...
+~
+0 AD inside
+D1
+junction
+~
+~
+Z 0 5826
+0 0
+D3
+a bend
+~
+~
+ABCFZ 5808 5824
+0 0
+S
+#5826
+A Junction~
+You have come to a junction. From here you can head east or south, or through
+a door to the north.
+~
+0 AD inside
+D0
+dwarf room
+~
+~
+ABZ 0 5827
+0 0
+D1
+another door
+~
+~
+Z 0 5828
+0 0
+D2
+a bend
+~
+~
+Z 0 5830
+0 0
+D3
+portcullis
+~
+~
+Z 0 5825
+0 0
+S
+#5827
+The Dwarf Room~
+You open this door to be greeted by a very odd sight. Several Dwarves, 
+smoking pipes and playing poker, are seated about a table. There is a deck
+of cards scattered about, and as you watch the last player folds and the
+dealer collects. Spying you they offer a cordial greeting and ask you if
+you would like to join them.
+~
+0 D inside
+D2
+a junction
+~
+~
+Z 0 5826
+0 0
+S
+#5828
+Another Door~
+You are standing outside another door. From behind this one you can hear
+the sounds of pots being smashed and what sounds like the snortings of a 
+bull...
+~
+0 AD inside
+D0
+a minotaur room
+~
+~
+ABZ 0 5829
+0 0
+D2
+a junction
+~
+~
+Z 0 5831
+0 0
+D3
+a junction
+~
+~
+Z 0 5826
+0 0
+S
+#5829
+A Minotaur Room~
+You have entered the lair of a MINOTAUR! And he will sure be pissed if he
+catches you here, so you'd better leave real quick or get ready for a fight.
+>From the looks of things, he has been mad for a while- broken pots scatter
+the floor, and several smashed cups and plates are piled in one corner.
+~
+0 AD inside
+D2
+another door
+~
+~
+Z 0 5828
+0 0
+S
+#5830
+A Bend~
+You are standing at a bend in the corridor, where you can head north to a
+junction or east to another junction. You fancy you can smell brimstone...
+~
+0 AD inside
+D0
+a junction
+~
+~
+Z 0 5826
+0 0
+D1
+a junction
+~
+~
+Z 0 5831
+0 0
+S
+#5831
+A Junction~
+You are standing at a junction, where you can proceed north towards a door,
+west towards a bend in the corridor, or down into a lower passage, from which 
+waves of heat and the stench of brimstone emanate...
+~
+0 AD inside
+D0
+another door
+~
+~
+Z 0 5828
+0 0
+D3
+a bend
+~
+~
+Z 0 5830
+0 0
+D5
+dragon cave
+~
+~
+Z 0 5832
+0 0
+S
+#5832
+A Dragon Cave~
+Oh Dear...As you progress, you begin to feel uneasy, due to both the heat 
+and smell, and the huge claw marks on the walls of this downward-sloping 
+passage. Reaching the bottom, your worst fears are confirmed- you have 
+entered the lair of a dragon! A passage leading to a locked steel door in 
+the south wall offers itself as a possible escape route, as does a sloping 
+passage that leads back up.
+~
+0 AD inside
+D2
+a locked steel door
+~
+~
+Z 0 5833
+0 0
+D4
+a junction
+~
+~
+Z 0 5831
+0 0
+S
+#5833
+A Locked Steel Door~
+This hefty portal blocks any further progress in this direction, unless
+you have a skeleton key...:)
+~
+0 AD inside
+D0
+dragon cave
+~
+~
+Z 0 5832
+0 0
+D1
+the warlock's chambers
+~
+chamber door~
+ABCGJZ 5807 5834
+0 0
+S
+#5834
+The Warlock's Chambers~
+You have finally discovered the Chambers of the Warlock of Firetop Mountain.
+This room is a huge study, lined with shelves full of books of lore, a glass
+cabinet full of curios, and a massive desk, behind which sits an impressive-
+looking padded chair. You better hope that you have entered on one of the
+rare occasions that the Warlock is absent...
+~
+0 D inside
+D3
+a door
+~
+door~
+AGJZ 5807 5833
+0 0
+S
+#0
+
+#SPECIALS
+M 5737 spec_poison	* a small snake
+M 5742 spec_fido	* A deranged prisoner
+M 5744 spec_cast_judge	* an iron Cyclops
+M 5746 spec_cast_mage	* an old man
+M 5747 spec_poison	* an old man who is a Wererat
+M 5749 spec_poison	* a giant Bat
+M 5750 spec_poison	* a giant Spider
+M 5752 spec_poison	* a Troll
+M 5753 spec_poison	* a giant Rat
+M 5758 spec_cast_undead	* a Wight
+M 5760 spec_breath_fire	* a Guard Dog
+M 5761 spec_executioner	* a Werewolf
+M 5762 spec_poison	* a Ghoul
+M 5763 spec_cast_undead	* an evil Vampire
+M 5766 spec_breath_any	* an enormous Red Dragon
+M 5767 spec_cast_mage	* the Warlock of Firetop Mountain
+M 5768 spec_thief	* a hand
+M 5770 spec_breath_gas	* a gas beast
+S
+
+#RESETS
+D 0 5737 1 1	* A Door: door to the east: closed
+D 0 5738 5 1	* A Pit: door to the down: closed
+D 0 5740 3 1	* A Corridor: door to the west: closed
+D 0 5742 3 1	* A Corridor: door to the west: closed
+D 0 5744 3 1	* A Corridor: door to the west: closed
+D 0 5747 3 1	* A Westward Corridor: door to the west: closed
+D 0 5749 1 1	* Outside the Kitchen: door to the east: closed
+D 0 5750 1 1	* A Corridor: door to the east: closed
+D 0 5752 1 1	* A Corridor: door to the east: closed
+D 0 5754 0 1	* A Corridor: door to the north: closed
+D 0 5754 1 1	* A Corridor: door to the east: closed
+D 0 5759 0 1	* A Junction: door to the north: closed
+D 0 5759 1 1	* A Junction: door to the east: closed
+D 0 5762 0 1	* Outside Three Doors: door to the north: closed
+D 0 5762 1 1	* Outside Three Doors: door to the east: closed
+D 0 5762 3 1	* Outside Three Doors: door to the west: closed
+D 0 5766 0 1	* A Black Corridor: door to the north: closed
+D 0 5766 2 1	* A Black Corridor: door to the south: closed
+D 0 5768 2 1	* A Fountain: door to the south: closed
+D 0 5769 0 1	* A Pear-Shaped Room: door to the north: closed
+D 0 5770 0 1	* A Corridor: door to the north: closed
+D 0 5770 1 1	* A Corridor: door to the east: closed
+D 0 5772 2 1	* A Junction: door to the south: closed
+D 0 5790 0 1	* A Rough Cavern: door to the north: closed
+D 0 5791 0 1	* Rat Room: door to the north: closed
+D 0 5793 3 1	* A Junction: door to the west: closed
+D 0 5794 0 1	* A Bend: door to the north: closed
+D 0 5798 0 1	* The Other Side: door to the north: closed
+D 0 5801 0 1	* A Short Corridor: door to the north: closed
+D 0 5802 2 1	* A Short Corridor: door to the south: closed
+D 0 5803 0 1	* Room of Hands and Stars: door to the north: closed
+D 0 5803 2 1	* Room of Hands and Stars: door to the south: closed
+D 0 5804 0 1	* Outside a Door: door to the north: closed
+D 0 5805 3 1	* Inside the Shipbuilder's Quarters: door to the west: closed
+D 0 5807 0 1	* A Short Dark Corridor: door to the north: closed
+D 0 5808 0 1	* A Zombie Room: door to the north: closed
+D 0 5809 3 1	* A Crypt: door to the west: closed
+D 0 5810 1 1	* A Junction: door to the east: closed
+D 0 5815 1 2	* A Door: door to the east: closed and locked
+D 0 5816 0 1	* A Shipbuilding Room: door to the north: closed
+D 0 5817 0 1	* A Corridor: door to the north: closed
+D 0 5818 0 1	* A Room: door to the north: closed
+D 0 5821 2 2	* A Door: door to the south: closed and locked
+D 0 5825 3 2	* A Widening in the Passage: door to the west: closed and locked
+D 0 5826 0 1	* A Junction: door to the north: closed
+D 0 5828 0 1	* Another Door: door to the north: closed
+D 0 5833 1 2	* A Locked Steel Door: door to the east: closed and locked
+M 0 5735 2 5739 2	* an Orc sentry (A Guard Post)
+E 0 5735 0 8		*	a suit of leather armor: on the feet
+E 0 5736 0 16		*	a polearm: wielded
+O 0 5737 0 5739	* a bottle of Orc grog (A Guard Post)
+M 0 5736 4 5741 1	* a sleeping Orc (Orc Sleeping Quarters)
+O 0 5738 0 5741	* an Orc's box (Orc Sleeping Quarters)
+P 0 5740 -1 5738 1	* an Orc's box: a dead mouse
+O 0 5748 0 5741	* a staw mattress (Orc Sleeping Quarters)
+M 0 5737 1 5743 1	* a small snake (Guards' Quarters)
+G 0 5741 0		*	a bronze-coloured key
+O 0 5748 0 5743	* a staw mattress (Guards' Quarters)
+M 0 5738 3 5745 3	* a drunken Orc (A Party)
+E 0 5735 0 8		*	a suit of leather armor: on the feet
+G 0 5737 0		*	a bottle of Orc grog
+O 0 5742 0 5745	* a small wooden box with crude hinges (A Party)
+P 0 5743 1 5742 1	* a small wooden box with crude hinges: a small leather-bound book
+O 0 5748 0 5745	* a staw mattress (A Party)
+M 0 5742 1 5751 1	* A deranged prisoner (A Cell)
+E 0 5751 0 16		*	a chair leg: wielded
+O 0 5755 0 5753	* a shield (Armory)
+M 0 5743 2 5755 2	* a Goblin torturer (A Torture Chamber)
+E 0 5753 0 16		*	a wicked-looking knife: wielded
+G 0 5754 0		*	a piece of sweet-smelling cheese
+O 0 5752 0 5755	* a torture rack (A Torture Chamber)
+O 0 5803 0 5757	* a wooden bench (A Bend in the Corridor)
+M 0 5744 1 5760 1	* an iron Cyclops (An Ornate Room)
+G 0 5756 0		*	a darkened stick
+G 0 5757 0		*	a small key
+M 0 5750 1 5763 1	* a giant Spider (A Cavern)
+O 0 5767 0 5763	* a pair of boots (A Cavern)
+M 0 5746 1 5764 1	* an old man (A Shop)
+G 0 5762 0		*	a blue candle
+M 0 5745 1 5765 1	* an insane Barbarian (A Barbarian!)
+O 0 5758 0 5765	* an old box (A Barbarian!)
+P 0 5759 -1 5758 1	* an old box: a wooden mallet
+P 0 5760 -1 5758 1	* an old box: a stump of wood
+O 0 5761 0 5767	* a painting of the Warlock (A Gallery)
+O 0 5792 0 5768	* a fountain (A Fountain)
+O 0 5764 0 5769	* a piece of y-shaped wood (A Pear-Shaped Room)
+O 0 5765 0 5769	* a piece of rope (A Pear-Shaped Room)
+O 0 5771 0 5771	* a sturdy oak table (A Bare Room)
+O 0 5769 0 5771	* a bronze helmet (A Bare Room)
+O 0 5770 0 5771	* an iron helmet (A Bare Room)
+M 0 5747 1 5773 1	* an old man who is a Wererat (A Ferryman and a Bridge)
+O 0 5804 0 5773	* a punt (A Ferryman and a Bridge)
+M 0 5749 2 5774 2	* a giant Bat (On the Banks of the River)
+M 0 5748 2 5775 2	* A lumbering Neanderthal (A Cave)
+E 0 5763 0 16		*	a crude stone club: wielded
+M 0 5769 1 5776 1	* a crocodile (The River)
+O 0 5830 0 5777	* big box (The River)
+P 0 5766 1 5830 1	* big box: a magnificent-looking sword
+M 0 5755 3 5778 3	* a vicious Piranha (The River)
+M 0 5751 1 5781 1	* an Ogre (Ogre Cave)
+M 0 5752 1 5789 1	* a Troll (The Troll Den)
+M 0 5753 3 5791 3	* a giant Rat (Rat Room)
+M 0 5754 1 5792 1	* a burly Giant (A Giant Room)
+G 0 5805 0		*	a jack of ale
+M 0 5770 1 5795 1	* a gas beast (A Gas Room!)
+O 0 5806 0 5795	* a gold key (A Gas Room!)
+M 0 5756 1 5797 1	* a giant Sandworm (A Rocky Beach)
+M 0 5739 1 5799 1	* an Orcish chieftain (The Chieftain's Quarters)
+E 0 5800 0 16		*	a bullwhip: wielded
+E 0 5801 0 3		*	an Orcish cloak: around the neck (1)
+E 0 5802 0 13		*	a pouch belt: around the waist
+M 0 5740 1 5799 1	* an orcish servant (The Chieftain's Quarters)
+O 0 5744 0 5799	* a sturdy chest (The Chieftain's Quarters)
+P 0 5745 -1 5744 1	* a sturdy chest: a fair number of gold pieces
+P 0 5746 -1 5744 1	* a sturdy chest: a small black bottle with a tight glass stopper
+P 0 5747 -1 5744 1	* a sturdy chest: a black velvet glove
+O 0 5748 0 5799	* a staw mattress (The Chieftain's Quarters)
+M 0 5741 4 5800 4	* an eating Orc (The Orc Kitchen)
+O 0 5749 0 5800	* a tattered leather case (The Orc Kitchen)
+P 0 5750 -1 5749 2	* a tattered leather case: a small bowlike wand with a single silver arrow
+M 0 5768 5 5803 5	* a hand (Room of Hands and Stars)
+M 0 5760 1 5805 1	* a Guard Dog (Inside the Shipbuilder's Quarters)
+M 0 5761 1 5805 1	* a Werewolf (Inside the Shipbuilder's Quarters)
+E 0 5780 0 8		*	a pair of unlaced boots: on the feet
+G 0 5779 0		*	a bunch of keys
+O 0 5782 0 5806	* a jar (Pantry)
+P 0 5781 -1 5782 2	* a jar: some pickled eggs
+M 0 5759 4 5808 4	* a Zombie (A Zombie Room)
+E 0 5772 0 5		*	a suit of leather armor: on the body
+E 0 5773 0 11		*	a wooden shield: as a shield
+E 0 5774 0 16		*	a steel sword: wielded
+O 0 5775 0 5808	* a silver crucifix (A Zombie Room)
+O 0 5776 0 5808	* a decaying corpse (A Zombie Room)
+O 0 5777 0 5808	* gold! (A Zombie Room)
+O 0 5778 0 5808	* a barrel of rum (A Zombie Room)
+M 0 5763 1 5809 1	* an evil Vampire (A Crypt)
+G 0 5786 0		*	the Warlock's spellbook
+M 0 5757 5 5816 5	* a Skeleton worker (A Shipbuilding Room)
+O 0 5768 0 5816	* a chisel with a silver blade (A Shipbuilding Room)
+O 0 5759 0 5816	* a wooden mallet (A Shipbuilding Room)
+O 0 5807 0 5816	* a copper key (A Shipbuilding Room)
+M 0 5758 1 5818 1	* a Wight (A Room)
+O 0 5748 0 5818	* a staw mattress (A Room)
+O 0 5796 0 5822	* a solid iron-bound oak chest (Loot Room)
+P 0 5797 -1 5796 1	* a solid iron-bound oak chest: loot!
+P 0 5798 -1 5796 1	* a solid iron-bound oak chest: gold!
+M 0 5762 1 5823 1	* a Ghoul (A Creepy Room)
+E 0 5783 0 6		*	a pair of cheap earrings: over the head
+G 0 5784 0		*	a vial of liquid
+G 0 5785 0		*	a badly-damaged sheet of parchment
+M 0 5764 4 5827 4	* a Dwarf (The Dwarf Room)
+G 0 5788 0		*	a Dwarven pipe
+O 0 5771 0 5827	* a sturdy oak table (The Dwarf Room)
+O 0 5793 0 5827	* a deck of magical cards (The Dwarf Room)
+M 0 5765 1 5829 1	* a mighty Minotaur (A Minotaur Room)
+G 0 5808 0		*	a red key
+O 0 5789 0 5829	* a vase full of liquid (A Minotaur Room)
+O 0 5790 0 5829	* a red clay bowl (A Minotaur Room)
+P 0 5791 -1 5790 1	* a red clay bowl: some coins
+M 0 5766 1 5832 1	* an enormous Red Dragon (A Dragon Cave)
+M 0 5767 1 5834 1	* the Warlock of Firetop Mountain (The Warlock's Chambers)
+E 0 5794 0 12		*	the Warlock's robes: about the shoulders
+E 0 5795 0 16		*	the Warlock's sword: wielded
+G 0 5799 0		*	a red key
+O 0 5809 0 5834	* a glass cabinet (The Warlock's Chambers)
+P 0 5810 -1 5809 1	* a glass cabinet: one of the Warlock's curios
+O 0 5811 0 5834	* a book (The Warlock's Chambers)
+O 0 5812 0 5834	* a massive desk (The Warlock's Chambers)
+O 0 5813 0 5834	* a comfortable-looking chair (The Warlock's Chambers)
+S
+
+#SHOPS
+5746 1 8 12 13 18 180 14 0 23
+0
+
+#HELPS
+-1 0 'MELD INTO STONE'~
+Syntax: cast 'meld'
+
+A Rockseer elf can use his close connection with the Elemental Plane of
+Earth to 'meld to stone'.  While affected by this spell, a Rockseer's
+hardened flesh improves his armor class by 100.  
+~
+0 0 STONESKIN 'STONE SKIN'~
+Syntax: cast 'stone skin'
+ 
+This spell hardens the skin of the caster, making him much more difficult to
+injure. The caster's AC improves more as their level goes up.
+~
+-1 $~
+
+#$

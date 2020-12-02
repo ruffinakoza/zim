@@ -1,0 +1,34 @@
+#RACE
+Name halfling~
+Aff infrared sneak~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Halfl~
+Points 500
+AgeModifier 40
+Class 'cleric' 110
+Class 'dark-knight' 100
+Class 'necromancer' 140
+Class 'ninja' 100
+Class 'paladin' 150
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 140
+Class 'witch' 140
+Class 'warrior' 100
+BonusSkills dodge steal~
+Skill 'peek' 1
+Stats 35 50 40 75 45 50 60
+MaxStats 17 20 19 25 20 25 25
+Size small
+HPBonus -10
+PracBonus 3
+RestrictAlign good neutral~
+RestrictEthos neutral chaotic~
+Slang human
+End
+
+#$

@@ -1,0 +1,42 @@
+#CLAN
+Name Shadow~
+Item 95765
+Mark 95703
+Altar 95703
+Donate 95706
+#Skill 'find object' 20 1
+#Skill 'hunt' 20 1
+#Skill 'phantasm' 25 1
+#Skill 'take revenge' 30 1
+#Skill 'world find' 50 1
+Title 13 male Patron~
+Title 13 female Patron~
+Title 12 male Capo Crimini~
+Title 12 female Capo Crimini~
+Title 11 male Capo Pensionato~
+Title 11 female Capo Pensionata~
+Title 10 male Capo Bastone~
+Title 10 female Capo Bastone~
+Title 9 male Consigliere~
+Title 9 female Consigliere~
+Title 8 male Ambasciatore~
+Title 8 female Ambasciatora~
+Title 7 male Vassal~
+Title 7 female Vassal~
+Title 6 male Capitano~
+Title 6 female Capitana~
+Title 5 male Tenete~
+Title 5 female Tenete~
+Title 4 male Veterano~
+Title 4 female Veterana~
+Title 3 male Soldato del Piede~
+Title 3 female Soldato del Piede~
+Title 2 male Recluta Nuova~
+Title 2 female Recluta Nuova~
+Title 1 male Probation~
+Title 1 female Probation~
+Title 0 male Outcast~
+Title 0 female Outcast~
+End
+
+#$

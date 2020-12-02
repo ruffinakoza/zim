@@ -1,0 +1,207 @@
+#CLASS
+Name ninja~
+ShortName Nin~
+PrimeStat dex
+Description masters of the hidden fist~
+SchoolWeapon 17635
+GuildRoom 3062
+GuildRoom 3086
+GuildRoom 9574
+GuildRoom 9761
+GuildRoom 10723
+GuildRoom 10724
+GuildRoom 10725
+GuildRoom 10726
+SkillAdept 75
+Thac0_00 18
+Thac0_32 -6
+HPRate 80
+ManaRate 50
+DamRate 80
+NimRate 100
+AcRate 90
+AddExp 0
+StatMod 1 0 0 2 0 0 0
+Skill 'dagger'			 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'longsword'		 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'shortsword'		 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'kick'			 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'dodge'			 2  1  20  -  -  - 0  0  0  0  0  0  0
+Skill 'hand to hand'		 3  1  10  -  -  - 0  0  0  0  0  0  0
+Skill 'dirt kicking'		 5  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'spear'			 6  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'trip'			 8  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'fast healing'		 9  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'detect hide'		10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'hand block'		10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'hide'			10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'scalp'			10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'blind fighting'		11  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'vanish'			15  1   0  -  -  - 0 55  0 70  0  0  0
+Skill 'enhanced damage'		16  1 -10  -  -  - 0  0  0  0  0  0  0
+Skill 'sneak'			18  1   0  -  -  - 0  0  0 62  0  0  0
+Skill 'caltrops'		19  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'endure'			20  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'shuriken'		22  1   0  -  -  - 0  0  0 60  0  0  0
+Skill 'make shuriken'		22  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'disarm'			23  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'second attack'		24  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'throw'			25  1   0  -  -  - 0  0  0 70  0  0  0
+Skill 'strangle'		26  1   0  -  -  - 0  0  0 50  0  0  0
+Skill 'meditation'		27  2   0  -  -  - 0  0  0  0  0  0  0
+Skill 'nerve'			29  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'poison smoke'		30  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'staves'			32  2   0  -  -  - 0  0  0  0  0  0  0
+Skill 'pick lock'		34  1   0  -  -  - 0  0  0 70  0  0  0
+Skill 'blindness dust'		38  1   0  -  -  - 0 57  0  0  0  0  0
+Skill 'master hand'		40  1   0  -  -  - 0  0  0 75  0  0  0
+Skill 'escape'			42  1   0  -  -  - 0  0  0 65  0  0  0
+Skill 'sakura'			45  2   0  -  -  - 0 55  0  0  0  0  0
+Skill 'third attack'		50  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'critical strike'		55  1   0  -  -  - 0  0  0 78  0  0  0
+Skill 'assassinate'		60  1   0  -  -  - 0  0  0  0  0  0  0
+Title 0 male the Man~
+Title 0 female the Woman~
+Title 1 male the Uke~
+Title 1 female the Uke~
+Title 2 male the Tori~
+Title 2 female the Tori~
+Title 3 male the White Belt~
+Title 3 female the White Belt~
+Title 4 male the Yellow belt~
+Title 4 female the Yellow Belt~
+Title 5 male the Green Belt~
+Title 5 female the Green Belt~
+Title 6 male the 3rd Brown~
+Title 6 female the 3rd Brown~
+Title 7 male the 2nd Brown~
+Title 7 female the 2nd Brown~
+Title 8 male the 1st Brown~
+Title 8 female the 1st Brown~
+Title 9 male the 3rd Black~
+Title 9 female the 3rd Black~
+Title 10 male the 2nd Black~
+Title 10 female the 2nd Black~
+Title 11 male the Okuiri~
+Title 11 female the Okuiri~
+Title 12 male the Okuiri~
+Title 12 female the Okuiri~
+Title 13 male the Shuto~
+Title 13 female the Shuto~
+Title 14 male the Shuto~
+Title 14 female the Shuto~
+Title 15 male the Uraken~
+Title 15 female the Uraken~
+Title 16 male the Uraken~
+Title 16 female the Uraken~
+Title 17 male the Shotei~
+Title 17 female the Shotei~
+Title 18 male the Shotei~
+Title 18 female the Shotei~
+Title 19 male the Tateken~
+Title 19 female the Tateken~
+Title 20 male the Tateken~
+Title 20 female the Tateken~
+Title 21 male the Seiken~
+Title 21 female the Seiken~
+Title 22 male the Seiken~
+Title 22 female the Seiken~
+Title 23 male the Ude~
+Title 23 female the Ude~
+Title 24 male the Ude~
+Title 24 female the Ude~
+Title 25 male the Empi~
+Title 25 female the Empi~
+Title 26 male the Empi~
+Title 26 female the Empi~
+Title 27 male the Josokutei~
+Title 27 female the Josokotei~
+Title 28 male the Josokutei~
+Title 28 female the Josokotei~
+Title 29 male the Kasokutei~
+Title 29 female the Kasokutei~
+Title 30 male the Kasokutei~
+Title 30 female the Kasokutei~
+Title 31 male the Master of Atemi Waza~
+Title 31 female the Mistress of Atemi Waza~
+Title 32 male the Master of Atemi Waza~
+Title 32 female the Mistress of Atemi Waza~
+Title 33 male the Master of Kotegaeshi~
+Title 33 female the Mistress of Kotegaeshi~
+Title 34 male the Master of Kotegaeshi~
+Title 34 female the Mistress of Kotegaeshi~
+Title 35 male the Master of Kansetsuwaza~
+Title 35 female the Mistress of Kansetsuwaza~
+Title 36 male the Master of Kansetsuwaza~
+Title 36 female the Mistress of Kansetsuwaza~
+Title 37 male the Master of Taisabaki~
+Title 37 female the Mistress of Taisabaki~
+Title 38 male the Master of Taisabaki~
+Title 38 female the Mistress of Taisabaki~
+Title 39 male the Master of Kyusho~
+Title 39 female the Mistress of Kyusho~
+Title 40 male the Master of Kyusho~
+Title 40 female the Mistress of Kyusho~
+Title 41 male the Student of Kamae~
+Title 41 female the Student of Kamae~
+Title 42 male the Student of Kamae~
+Title 42 female the Student of Kamae~
+Title 43 male the Master of Kamae~
+Title 43 female the Mistress of Kamae~
+Title 44 male the Master of Kamae~
+Title 44 female the Mistress of Kamae~
+Title 45 male the Master of Ukemi~
+Title 45 female the Master of Ukemi~
+Title 46 male the Master of Ukemi~
+Title 46 female the Master of Ukemi~
+Title 47 male the Mokuroku~
+Title 47 female the Mokuroku~
+Title 48 male the Mokuroku~
+Title 48 female the Mokuroku~
+Title 49 male the Ogoshi~
+Title 49 female the Ogoshi~
+Title 50 male the Ogoshi~
+Title 50 female the Ogoshi~
+Title 51 male the Ippon Seinage~
+Title 51 female the Ippon Seinage~
+Title 52 male the Ippon Seinage~
+Title 52 female the Ippon Seinage~
+Title 53 male the Koshi Garuma~
+Title 53 female the Koshi Garuma~
+Title 54 male the Koshi Garuma~
+Title 54 female the Koshi Garuma~
+Title 55 male the Sukuinage~
+Title 55 female the Sukuinage~
+Title 56 male the Sukuinage~
+Title 56 female the Sukuinage~
+Title 57 male the Osotogari~
+Title 57 female the Osotogari~
+Title 58 male the Osotogari~
+Title 58 female the Osotogari~
+Title 59 male the Uki Goshi~
+Title 59 female the Uki Goshi~
+Title 60 male the Master Hand~
+Title 60 female the Master Hand~
+Title 61 male the Ninja Helper~
+Title 61 female the Ninja Helper~
+Title 62 male the Ninja Avatar~
+Title 62 female the Ninja Avatar~
+Title 63 male the Ninja Angel~
+Title 63 female the Ninja Angel~
+Title 64 male the Ninja Demigod~
+Title 64 female the Ninja Demigoddess~
+Title 65 male the Immortal Ninja~
+Title 65 female the Immortal Ninja~
+Title 66 male the Ninja God~
+Title 66 female the Ninja God~
+Title 67 male the Ninja Deity~
+Title 67 female the Ninja Deity~
+Title 68 male the Supreme Ninja~
+Title 68 female the Supreme Ninja~
+Title 69 male the Creator~
+Title 69 female the Creator~
+Title 70 male the Implementor~
+Title 70 female the Implementress~
+End
+
+#$

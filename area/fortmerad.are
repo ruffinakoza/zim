@@ -1,0 +1,5320 @@
+#AREADATA
+Name Fortress of Meradriel~
+Builders cadul sadin~
+VNUMs 8400 8599
+Credits Cadul~
+Security 9
+LevelRange 81 91
+ResetMessage {BThe very ground around you shifts, and everything resets to its former state{x~
+Flags closed~
+End
+
+#MOBILES
+#8400
+test mob 1~
+test mob 1~
+testy the test mob 1
+~
+~
+human~
+A 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#8401
+test mob 2~
+test mob 2~
+test mob 2
+~
+~
+lich~
+A 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#8424
+guardian lich~
+Guardian Lich~
+A powerful undead being guards the entrance to the camp.
+~
+The Guardian Lich stands here waiting for any of its leader's foes to
+even try and enter this encampment.  Its skin is falling off of its body,
+and bones can be seen beginning to protrude from exposed muscle.  There are
+some scraps of clothing left on its body, but those look as though a hard
+wind will rip them off.  
+~
+lich~
+ABCFLO DFVlm -1000 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#8425
+vampire knight~
+A Vampire Knight~
+A vampire knight roves about looking for a victim for its hungry blade.
+~
+~
+undead~
+ACL lm 0 0
+92 92 411d92+0 460d10+85 30d3+51 none
+-52 -52 -52 -33
+HQ 0 0 0
+stand stand none 4038
+0 0 medium flesh~
+~
+F aff DF
+M greet 8435 100~
+#8427
+bard elven~
+an {YE{xlvis{Yh{x Bard~
+An {YE{xlvis{Yh{x Bard sits on the edge of the {gg{ya{gz{ye{gb{yo{x regaling those around with beautiful elven music.
+~
+Before you is a beautiful elvish bard, draped in white silk.  Her almond
+eyes are purple in colour, and beautiful to gaze into.  Her flesh is smooth
+and slightly tanned, her hair, bleached by the suns rays, hangs down to the
+middle of her back.  Her voice is enchanting and her skill in music is
+unmatched.  
+~
+elf~
+ABQRTa 0 1000 0
+116 116 629d116+0 1160d11+95 39d2+84 none
+-73 -73 -73 -50
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8428
+vampire rekzhazek leader~
+The {wvampire{x leader, Rekzhazek~
+Murmuring over the pentagram in the center of the room, is the {wvampire{x leader.
+~
+This large vampire is cloaked in {wblack{x, with his hood donned. 
+{rGlowing{x red eyes are visible in the darkness of his cowled face.  The
+robes are {wblacker{x than night, and seem to suck all light from the room. 
+He is {bevil{x incarnate.  The wretched hands that extend out of his sleeves
+are dessicated and look {ccold{x.  There is the smell of {gdecay{x emanating
+from his body.  
+~
+undead~
+ABCO OTVmu -1000 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+P 0 0 0
+stand stand male 4463
+0 0 large flesh~
+~
+#8430
+vampire warrior~
+A Vampire Warrior~
+A Vampire Warrior stands guard here.
+~
+A simple slave to the more powerful vampire lords, this pathetic being
+looks at you only as lunch.  Rarely allowed to feed, the vampire warriors
+are kept bloodthirsty waiting for the opportunity to bare fangs.  
+~
+undead~
+AO Vi -1000 0
+99 99 451d99+0 495d10+85 33d3+54 none
+-57 -57 -57 -36
+0 0 0 0
+stand stand none 4921
+0 0 medium flesh~
+~
+#8432
+vampire dreadnaught~
+{DVampire {BDread{bnaught{x~
+A {DVampire {BDread{bnaught{x, is here planning the doom of Meradriel.
+~
+The {DVampire {BDread{bnaught{x is a marvelously evil being.  It wears
+black armor plating covering its muscular body.  They look well fed, and
+taken care of.  It is obvious that they are at the upper crust of the
+vampire society.  It eyes you warily as you come towards it.  The smell of
+roses emanates from its body, and its hair is pulled back in a ponytail
+highlighting its gleaming white fangs protruding from its mouth.  
+~
+undead~
+ACLO 0 -1000 0
+95 95 428d95+0 475d10+85 31d3+52 none
+-54 -54 -54 -35
+Q 0 0 0
+stand stand none 3793
+0 V medium flesh~
+~
+#8436
+underling vampire~
+A vampire knight's underling~
+A vampire knight's underling is here to assist his master.
+~
+~
+undead~
+A 0 -1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand none 1000
+0 0 medium flesh~
+~
+M act 8436 ATTACK!!!!~
+#8441
+captain defender~
+{BCaptain{x of the {YDefenders{x~
+An important looking man is here ordering about the troops.
+~
+This six foot tall warrior seems to be in charge here.
+~
+human~
+ABT V 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#8443
+defender guard queen~
+{YDefender{x of the {CQueen{x~
+A {YDefender{x of the {CQueen{x searches for any intruder.
+~
+This warrior carries himself with the gait of the well trained.  His
+armor is forged of fine mithril, and his steely gaze sizes you up quickly. 
+For his entire life, he has been prepared for a situation just like this,
+and is eager to prove himself once again in battle.  
+~
+human~
+AT a 1000 0
+99 99 451d99+0 495d10+85 33d3+54 none
+-57 -57 -57 -36
+T 0 DK F
+stand stand male 150
+0 0 medium flesh~
+~
+F for AHV
+F par DEGHJK
+#8456
+healer gibraldain cleric~
+Gibraldain~
+A wise old healer, awaits the arrival of the wounded.
+~
+This wizened old man is well muscled for his age.  While he wears the
+traditional {ygolden{x robes of a priest of Atum'Ra, you can tell the power
+that rests in his arms.  {CSilvery{x hair flows down over his shoulders, and
+his angular, well kept beard is snow white.  He carries a knotted oaken
+staff that is topped with a sun icon.  He is of average height, and for one
+of his age, stands very straight, with his shoulders back.  
+~
+human~
+ABa DFHlm 1000 0
+106 106 490d106+0 530d10+85 35d3+58 none
+-62 -62 -62 -39
+T 0 0 0
+stand stand male 1595
+0 0 medium flesh~
+~
+M grall 8456 75~
+#8459
+shop kalinda~
+Kalinda the Pawnbroker~
+Kalinda, The Pawnbroker is here, selling her wares.
+~
+A petite human female, Kalinda is 5 feet tall, with dark brown hair.  Her
+complexion is ashen, and her eyes are hazel.  She is wearing a black apron
+with ink smudges and various other smears on it.  Observing the way she
+carries herself, it is obvious that she is confidant in her abilities, and
+one would be hard pressed to fool her.  
+~
+human~
+AB DFlmu 0 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHM
+F par DEFGHIJ
+#8460
+graciella~
+Graciella, the sous chef~
+Graciella, the sous chef has sweets for her sweets.
+~
+~
+human~
+AB 0 0 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 CD 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#8463
+ezakail~
+Ezakail, The Bartender~
+Ezakail, a huge rockseer is behind the bar.
+~
+This massive rockseer looks cramped standing behind the bar.  He stands 7
+foot tall, and is covered with rippling muscles.  A stained white tunic
+covers his burly chest, and his bicepts threaten to rip through the taut
+fabric.  Leaning against the wall next to him is his massive stone club. 
+Ezakail eyes you up with a glance and determines you need to have a drink.  
+~
+rockseer~
+ABC DFHVlm 0 0
+106 106 490d106+0 530d10+85 35d3+58 none
+-62 -62 -62 -39
+AKOP 0 D J
+stand stand male 10000
+0 0 medium flesh~
+~
+#8464
+bartender wizi mob~
+Ezakail~
+Ezakail
+~
+~
+human~
+AB 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 92
+#8467
+thief gomadon~
+Gomadon the {DN{Ya{Ds{Yt{Dy{x~
+Gomadon seeks to deprive you of your wealth.
+~
+This catlike humanoid is 7 feet tall, and extremely well muscled.  His
+fur is thick and well kempt.  A simple black tunic covers his chest, and
+black leggings are specially made for his tail to protrude freely.  Whatever
+you do, don't get him wet, he does not like that.  His feral eyes are
+{Yyellow{x, and his face whiskers look as though he proudly combs them
+daily.  His pointy ears are perked up listening for any sound of his next
+victim approaching.  
+~
+felar~
+ABCFS BDFQVlmu 0 0
+85 85 371d85+0 425d10+85 28d3+47 none
+-48 -48 -48 -30
+B 0 0 0
+stand stand male 2306
+0 0 medium flesh~
+~
+#8486
+warrior queen meradriel~
+{MM{me{Mr{ma{Md{mr{Mi{Me{ml{x~
+{MM{me{Mr{ma{Md{mr{Mi{Me{ml{x, Queen of the Fortress notices your arrival.
+~
+Dark brown tresses flow down from her {Ma{mm{Me{mt{Mh{My{ms{Mt{x tiara,
+to rest gently upon {Yg{xl{Ye{xa{Ym{xi{Yn{xg {Csilver{x armor.  Her deep
+green eyes catch the sunight and make it more beautiful.  Her stance is that
+of a skilled swordsmistress, ready to spring into action.  A full six feet
+tall, she rises from the ground in an elgeantly deadly manner.  She eyes you
+up as youapproach her.  
+~
+human~
+ABQ DFHTVlm 1000 0
+115 115 541d115+0 575d10+85 38d3+62 none
+-68 -68 -68 -43
+AHJ 0 0 0
+stand stand female 5366
+0 0 medium flesh~
+~
+F for AHM
+F par ADGHIJ
+#8490
+kinzara queen advisor~
+Kinzara, Advisor to the Queen~
+Kinzara, Advisor to the Queen is here fussing over supply allocations.
+~
+A woman of slight build, Kinzara is pretty but not beautiful.  She wears
+spectacles, and has long flowing brown hair, kept back with a clip worn to
+the back of her head.  Her hands, while delicate have ink stains on her
+fingers, evidence of all the work she does with paper.  Her eyes are a
+{Bblue{x-{Ggreen{x and they add much to her physical appearance.  She works
+with her shoulder back, a sign of pride and confidence.  Kinzara looks to be
+very competent.  
+~
+human~
+ABC DFHVlm 1000 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 BJ D MP
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHM
+F par EFGHIJK
+#8495
+rexardius dragon silver~
+Rexardius, The Queen's {CS{Wi{Cl{Cv{We{Cr{G Dragon{x~
+Rexardius, The Queen's {CS{xi{Cl{xv{Ce{xr{x {GDragon{x is here guarding the tower.
+~
+Gleaming {CS{xi{Cl{xv{Ce{xr{x scales cover this dragon, as though it were
+covered in beautiful shields.  The proud creature crouches with its long
+serpantine neck crooked to examine all who enter this tower.  It takes it's
+job seriously, and it is here to guard the Queen.  
+~
+silver dragon~
+ABR DFHVlm 0 1
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+AMO 0 J H
+stand stand none 1817
+0 0 gargantuan flesh~
+~
+#8508
+wizard rubrikal~
+Rubrikal, the {YGold{x~
+Rubrikal, the {YGold{x is here selling magik.
+~
+In {Ygolden{x robes, this white haired old wizard, is muddling about his
+shop fixing this and that.  His eyes are a deep {Gem{ger{Gald{x, and his
+white bead flows down to his chest, with a meticulously groomed mustache. 
+He has the trademark pointy hat of the wizard, which is slightly rumpled and
+the point is cocked to one side.  
+~
+human~
+ABR DFHVlm 0 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 0 C 0
+stand stand male 10000
+0 0 medium flesh~
+~
+F for AHM
+F par ABEFHIJ
+#8515
+etenda giant warrioress cloud~
+Etenda, The {cCloud Giant{x Warrioress~
+Etenda, The {cCloud Giant{x Warrioress scoffs at you.
+~
+Sixteen feet of beauty coupled with steel, this lovely cloud giant is
+truly a battlemistress.  With soft features hiding the powerful muscles
+underneath, she might be prone to underestimation.  One look at her weapon
+though, a finely crafted warhammer, and you know just what she is capable
+of.  Her soft white hair rests gently on the shouldplates of her armor, and
+looks to be very fine and wispy.  Her cheekbones are just barely touched
+with a blush of red, and her lips are full and supple.  She stands ready for
+battle.  
+~
+cloud giant~
+AB DFHlm 0 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 0 0 0
+stand stand female 2911
+0 0 gargantuan flesh~
+~
+#8517
+giant leader adreahan cloud~
+Adreahan, The {YKing{x of the {CCloud Giants{x~
+Adreahan, The {YKing{x of the {CCloud Giants{x prepares to make war on the vampire horde.
+~
+Standing eighteen feet tall, this huge cloud giant is busy with
+preparations for the coming warfare.  He is spectacularly muscled, with
+biceps of steel.  His white hair flows down upon his shoulders held back
+with a circlet of {wgrey{x metal.  He wields a massive sword that could cut
+an orc in half with one blow.  His armor is well made, and kept polished. 
+It is grey in color and emblazoned on the breastplate is a crest of a
+lightning bolt striking a circle of half black and half white.  
+~
+cloud giant~
+ABCL DFHlm 0 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 0 0 0
+stand stand male 3043
+0 0 gargantuan flesh~
+~
+#8519
+giant warrior cloud~
+A {CCloud Giant{x Warrior{x~
+A massive {CCloud Giant{x Warrior is here preparing for the upcoming battle.
+~
+This massive cloud giant is making small preparations for the coming
+battle.  It stands about 17 feet tall, and is well muscled.  The chainmail
+that protects it seems to have a dull grey coloration, possibly unpolished
+mithril.  The crest on its shield it that of a lighting bolt striking a
+circle that is half black and half white.  
+~
+cloud giant~
+A V 0 0
+92 92 411d92+0 460d10+85 30d3+51 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand none 3525
+0 0 gargantuan flesh~
+~
+#8537
+drekzak commander undead~
+Drekzak, the {DUn{wdead{x Commander~
+Drekzak, the {DUn{wdead{x Commander is here maintaining his troops.
+~
+Drekzak is a very old lich.  It is cloaked in some very old gray robes,
+that were obviously in style many hundreds of years ago.  Its face has
+deteriorated to the point that it is a thin layer of dead skin covering the
+skull, and the cheekbones have begun to protrude.  In its eyesockets {rred{x
+globes burn with undead energy and power.  The smell of rotting flesh wafts
+from its body, assaulting your nostrils.  Very little sound can be heard
+from the otherworldly whispers which come from its mouth.  
+~
+lich~
+ABCLO Vu -1000 0
+115 115 541d115+0 575d10+85 38d3+62 none
+-68 -68 -68 -43
+0 0 0 0
+stand stand none 5157
+0 0 medium flesh~
+~
+#8539
+undead knight death~
+A {DDeath Knight{x~
+A {DDeath Knight{x approaches{x.
+~
+Covered from head to toe in body armor, this undead knight stalks the
+realm looking to deal death to all who cross its path.  It is faceless, and
+dark with every inch of its body covered in black armor.  The breastplate of
+the being has a bloody drenched rose on it.  
+~
+death knight~
+A UV -1000 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand none 0
+0 0 large flesh~
+~
+#8540
+ghast undead~
+A Ghast~
+A Ghast, conscripted into the vampire's service wails in displeasure.
+~
+This Ghast has been forced into service of the vampires, and is very
+unhappy about having its normal haunting grounds disturbed.  An ethereal
+being, it has no solid form whatsoever but you can feel the cold touch of
+death that is its favorite method of torture.  
+~
+undead~
+ALO 0 0 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#8545
+gate guard meradriel~
+A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard~
+A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard stands here keeping watch.
+~
+This seven-foot tall human, is armed and armored to the hilt.  There is
+no doubt that he intends to defend his post with his life.  A massive sword
+at his side, the guard eyes you up warily.  Emblazoned on his breastplate is
+the crest of his queen.  
+~
+human~
+ABT 0 1000 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+QTU 0 0 0
+stand stand male 100
+0 0 gargantuan flesh~
+~
+#8546
+gate guard meradriel~
+A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard~
+A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard is here defending the fortress.
+~
+This seven-foot tall human, is armed and armored to the hilt.  There is
+no doubt that he intends to defend his post with his life.  A massive sword
+at his side, the guard eyes you up warily.  Emblazoned on his breastplate is
+the crest of his queen.  
+~
+human~
+ABT 0 1000 0
+100 100 456d100+0 500d10+85 33d3+55 none
+-58 -58 -58 -37
+QTU 0 0 0
+stand stand male 100
+0 0 gargantuan flesh~
+~
+#8554
+undead dracolich tzakteklikog~
+Tzakteklikog, the {gDraco{Dlich{x~
+A huge dracolich begins to destroy you!
+~
+Rotting scales cover the undead body of this huge dracolich.  Its eyes
+low with a sickly {Ggreen{x hue.  Its claws are five feet long, and could
+skewer most living creatures.  The maw of the dragon is lined with
+razorsharp black fangs, and could gulp up a warhorse.  The long snakelike
+tail ends in a barbed point, and it flicks it like a whip.  It's greedy
+mouth searches not for flesh but for souls.  
+~
+dracolich~
+ABCFO u 0 0
+110 110 589d110+0 1100d11+95 37d2+80 none
+-69 -69 -69 -47
+A 0 K 0
+stand stand none 3598
+0 0 medium flesh~
+~
+M death 8554 5~
+#8560
+whirmaldung mystic~
+Whirmaldung, the mystic~
+Whirmaldung, the mystic is here slobbering on himself.
+~
+This befuddled old man looks harmless.  His cloak is very rumpled and his
+floppy had hangs down over his ears.  He is muttering about something, but
+it is almost inaudible.  There is a smell coming from his breath that reeks
+of rotten teeth, and his eyes are glossy and grey.  
+~
+human~
+ABS HI 0 0
+110 110 513d110+0 550d10+85 36d3+60 none
+-64 -64 -64 -41
+0 0 0 0
+stand stand male 427
+0 0 medium flesh~
+~
+M death 8560 10~
+#8564
+al'rashem priest sun~
+Al'Rashem, High Priest of Atum'Ra~
+The High Priest of Atum'Ra is here consoling the townspeople.
+~
+In robes of white, this middle aged human stands among the townsfolk who
+have gathered here to receive his blessing.  His eyes are tired, and he
+looks as though he bears the burdens of the whole city on his back.  The
+comforting words that flow eloquently from his mouth seem to fall on many
+deaf ears, from the sounds of sobbing that comes from his flock.  
+~
+human~
+ABQ DFHTUVlm 1000 0
+106 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+FK 0 0 0
+stand stand male 3402
+0 0 medium flesh~
+~
+F for AHM
+F par BGHJ
+#8569
+pholpis shop~
+Pholpis, the Gearseller~
+Pholpis is here selling his wares.
+~
+~
+human~
+AB HV 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 CD 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHM
+F par EFGHIJ
+#0
+
+#OBJECTS
+#8400
+a map of za'hara~
+a map of Za'hara~
+a map of Za'hara lies here~
+unknown~
+~
+map 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+E
+map za'hara village~
+-------------------
+           Za'hara Village
+     ---------------------------
+ 
+ 
+ 
+              O-O-O     O-O-O
+              | | |     | | |
+              O-O-O     O-O-O
+              | | |     | | |
+          O   O-O-O     O-O-O
+          |     |         | 
+          M     D         D 
+          |     |         | 
+        O-O-O-O-O-O-O-O-O-O-O-O-O 
+        |   |       |   |   |   |
+O-O-O   O   N       O-P B   F   O-G-O
+| | |   |   |       |       |   |
+O-O-O-D-O   O     Z-O     O-O L-O
+| | |   |           |       |   |
+O-O-O   O           O       O   O
+        |           |           | 
+        O       Q   O           O
+        |       |   |           |
+        O-O-O-O-O-O-O-O-O-O-O-O-O
+        |   |       |     |     |
+        O   J       O     O     O   O-O-O
+        |   |       |     |     |   | | |
+        O   O-O   U-O-S   I     O-D-O-O-O
+        |   |       |     |     |   | | |
+O-O-O   O   O   O-R-O-H-O O-O   O   O-O-O
+| | |   |           |     |     |
+O-O-O-D-O       O-C-O-P-O O     O
+| | |   |           |           |
+O-O-O   O   X   O-T-O-W-O       O
+        |   |       |           |
+        O-O-O-O-O-O-O-O-O-O-O-O-O-V-O
+        |           |       |
+        E           O       A
+        |           |       |
+        O           O       O
+                    |        
+                O-O-O
+                |
+                O
+                |
+                O
+                |
+                O
+                |
+                O
+ 
+      To the Tar'zia Jungle
+ 
+ 
+ 
+-----------------------------------------------
+ 
+A= Anti Paladin Guild
+V= Vampires Guild
+W= Warriors Guild
+T= Thiefs Guild
+P= Paladins Guild
+C= Clerics Guild 
+R= Warlocks guild
+H= Witchs Guild 
+G= Rangers Guild
+N= Ninja's Guild
+M= Samuri's Guild
+E= Necromansers Guild
+D=Enchant Caves of the Shapeshifters
+ 
+S= Supplies Store
+B= Bar  
+X= Wespons Store
+U= Food Supplies
+K= Potion Shop
+Z= Herb Tent
+L= Armory
+Q= Leader of the Za'haras Home
+ 
+F= The Temple of the Black Dragon (Evil)
+I= The Temple of the Blue Dragon (Neutral)
+J= The Temple of the White Dragon (good)                    
+----------------------------------------------- 
+~
+G none
+G none
+G none
+G none
+#8401
+fire ring~
+a fire ring~
+A {rfire{x ring is here for your use.~
+unknown~
+~
+furniture 0 0
+BD GJOQRST JK CFG CFG BD GJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#8402
+token quest~
+{yA Quest Token Worth 1 QP{x~
+{YA Quest Token Worth 20 QP{x~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8420
+black box~
+{DThe Black Box{x~
+{DThe Black Box{x~
+unknown~
+~
+container R 0
+0 AC 0 1 100 0
+100 0 0 P
+E
+box~
+It is breathing, and with each breath, you feel weaker. This
+box is made of some material not of this earth, and it seems
+to be growing in size. It is small still, only a cubic foot
+in area, and yet it seems so much larger in scope. It smells
+of magic.
+~
+G none
+G none
+G none
+G none
+#8426
+bench~
+{WA limestone bench{x~
+{WA beautifully crafted elven bench sits here, waiting to be sat upon.{x~
+unknown~
+limestone~
+furniture 0 0
+BC ABCDEFGHIJKLMNOPQRSTUVWXYZabcde DEGHJK CFG CFG BC ABCDEFGHIJKLMNOPQRSTUVWXYZabcde
+0 0 0 P
+G none
+G none
+G none
+G none
+#8427
+vine vines ivy hammock~
+an {GI{gv{Gy {gV{Gi{gn{Ge{x hammock~
+{GI{gv{Gy {gv{Gi{gn{Ge{gs{x hang from the ceiling here, forming a chair like hammock~
+unknown~
+~
+furniture 0 0
+BC ABCDEFJOQRST FIL BDEFGH BDEFGH BC ABCDEFJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#8428
+cowl rekzhazek~
+An {wU{Dn{wH{Do{wl{Dy {wC{Do{ww{Dl{x~
+A {Dblack{x cowl lies here sucking in the light.~
+unknown~
+~
+armor EJLQY AE
+38 38 38 37 'none' 0
+106 107 294795 P
+A
+17 -7
+A
+13 70
+A
+19 5
+E
+cowl~
+The cowl is as black as a starless night, and seems to actually suck in light. It 
+is very lightweight, and seems to be made of some otherworldly cloth.
+~
+G none
+G none
+G none
+G none
+#8429
+sphere generator key~
+The {DSphere{x {wGeneration{x Unit~
+A magical component of some sort lies here, useless.~
+unknown~
+~
+armor 0 AO
+33 33 33 32 'none' 0
+90 92 95 P
+G none
+G none
+G none
+G none
+#8432
+black breastplate despair~
+A {wBreastplate {Wof {DDespair{x~
+A {wBreastplate {Wof {DDespair{x is laying on the ground.~
+unknown~
+~
+armor 0 AD
+34 34 34 33 'none' 0
+95 96 442588 P
+A
+17 -10
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#8434
+black steel blacksteel greaves~
+{DB{cl{Da{cc{Dk{cS{Dt{ce{De{cl {wGreaves{x~
+A set of greaves made of the blackest steel lies on the ground here.~
+unknown~
+~
+armor EJ AF
+34 34 34 33 'none' 0
+95 96 335105 P
+A
+13 40
+A
+18 5
+A
+20 -3
+A
+17 -5
+G none
+G none
+G none
+G none
+#8445
+fountain~
+the fountain of the warrior queen~
+A m{wa{xr{wb{xl{we{x fountain depiciting a warrior queen.~
+unknown~
+~
+fountain 0 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8456
+leveling sphere~
+leveling sphere~
+leveling sphere~
+unknown~
+~
+light 0 A
+0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8459
+canvas satchel container~
+a canvas satchel~
+A container with many pockets lies here.~
+unknown~
+~
+container Y A
+100000 AHIJK 0 100 100 0
+10 10 13621324 P
+G none
+G none
+G none
+G none
+#8460
+shortsword sword~
+A well made shortsword~
+A well made shortsword rests here.~
+unknown~
+~
+weapon 0 AN
+shortsword 6 12 stab D
+81 82 97805 P
+A
+19 5
+A
+18 7
+G none
+G none
+G none
+G none
+#8461
+staff faerie king~
+The Staff of the Faerie King~
+@eng A pink green and fuscia staff carved with faerie dragons lies here.~
+wood~
+~
+staff 0 AO
+91 10 10 'faerie fire'
+80 100 10000 P
+G none
+G none
+G none
+G none
+#8462
+scroll many funs~
+a scroll of many {rf{bu{yn{gs{x~
+A many colored piece of papyrus is here.~
+unknown~
+~
+scroll 0 AO
+91 'faerie fire' 'faerie fog' 'blindness' 'curse'
+81 0 10000 P
+G none
+G none
+G none
+G none
+#8463
+club smacker~
+A Club Named "{BS{bm{Ba{b{Bc{bk{Be{br{x"~
+A huge club with a spiked head is leaning against the wall.~
+unknown~
+~
+weapon 0 AN
+mace 6 18 beating K
+106 108 191403 P
+A
+19 15
+G none
+G none
+G none
+G none
+#8464
+~
+~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8465
+beer~
+a beer~
+A cold draught of beer is here getting warm.~
+unknown~
+~
+drink A AO
+1 1 'beer' 0
+0 0 75 P
+G none
+G none
+G none
+G none
+#8466
+pint dark ale~
+a pint of dark ale~
+A pint of dark ale is here getting warm.~
+unknown~
+~
+drink 0 0
+1 1 'dark ale' 0
+0 0 100 P
+G none
+G none
+G none
+G none
+#8467
+glamcatil dagger~
+A Serrated {wDirk{x named {DG{rl{Da{rm{Dc{ra{Dt{ri{Dl{x~
+A long serrated dirk is here.~
+unknown~
+~
+weapon 0 AN
+dagger 6 11 pierce H
+85 86 78548 P
+A
+17 -10
+A
+19 8
+A
+18 8
+G none
+G none
+G none
+G none
+#8468
+canoli~
+a canoli~
+A canoli is here, who would have dropped such a treat!~
+unknown~
+~
+food 0 0
+BD B 0 0 0 BD B
+0 0 100 P
+G none
+G none
+G none
+G none
+#8469
+gelato cup~
+a cup of gelato~
+a cup of gelato is melting.~
+unknown~
+~
+food 0 0
+BD B 0 0 0 BD B
+0 0 100 P
+G none
+G none
+G none
+G none
+#8486
+tiara~
+{Ma{mm{Me{mt{Mh{My{ms{Mt{x {Ct{ci{Ca{cr{Ca{x~
+An {Ma{mm{Me{mt{Mh{My{ms{Mt{x {Ct{ci{Ca{cr{Ca{x lies here collecting dust.~
+unknown~
+~
+armor AIK AE
+38 38 38 37 'none' 0
+106 107 371549 P
+A
+17 -10
+A
+13 70
+A
+19 8
+G none
+G none
+G none
+G none
+#8487
+ring sun flare solar radiation~
+A {YS{Co{Yl{Ca{Yr F{Cl{Ya{Cr{Ye{x~
+Radiation directly from the sun is here mutating you.~
+unknown~
+radiation~
+jewelry AY AB
+CF CF CF ABF 0 CF CF
+100 101 96 P
+A
+18 6
+A
+17 -5
+A
+13 30
+A
+19 10
+G none
+G none
+G none
+G none
+#8488
+ring time warp temporal~
+a {BT{be{Bm{bp{Bo{br{Ba{bl {DW{Wa{Dr{Wp{x~
+A {BT{be{Bm{bp{Bo{br{Ba{bl{x {DW{Wa{Dr{Wp{x is here floating in mid-air.~
+unknown~
+~
+portal 0 AB
+2 B C 8486 0
+100 100 10000 P
+G none
+G none
+G none
+G none
+#8489
+dagger crystalline~
+The {bCr{Bys{ctal{Bli{bne{x Dagger~
+A beautiful dagger made of crystal is here.~
+unknown~
+~
+weapon ABT AN
+dagger 7 12 pierce D
+106 107 132117 P
+A
+17 -20
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#8490
+tortoise spectacles~
+A pair of tortoise-shell spectacles~
+A pair of delicate spectacles rests here.~
+unknown~
+~
+armor 0 AE
+29 29 29 28 'none' 0
+81 82 167541 P
+A
+19 6
+A
+18 3
+A
+12 50
+G none
+G none
+G none
+G none
+#8495
+beacon meradriel~
+The {YB{ye{Ya{yc{Yo{yn{x of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x~
+The {YB{ye{Ya{yc{Yo{yn{x of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x is floating here.~
+unknown~
+magic~
+light A A
+1000
+106 10 15835 P
+A
+20 -2
+A
+13 50
+A
+12 50
+A
+19 5
+A
+18 5
+A
+17 -20
+G none
+G none
+G none
+G none
+#8515
+warhammer mace glamithas rex~
+{CG{Bl{Ca{Bm{Ci{Bt{Ch{Ba{Cs{x {DR{we{Dx{x~
+A massive warhammer rests on the ground.~
+unknown~
+~
+weapon 0 AN
+mace 6 18 smash GK
+106 107 223935 P
+A
+12 50
+A
+18 9
+G none
+G none
+G none
+G none
+#8517
+stormbringer sword~
+{CS{Dt{Co{Dr{Cm{Db{Cr{Di{Cn{Dg{Ce{Dr{x~
+A longsword is driven into the ground here, it has a cloud emblazoned on the pommel.~
+unknown~
+~
+weapon ABJK AN
+longsword 6 21 shbite G
+106 107 328053 P
+A
+19 7
+A
+18 7
+G none
+G none
+G none
+G none
+#8518
+circlet clouds~
+The {CCirclet {xof the {CClouds{x~
+A dull grey circlet lies here, it has a cloud emblazoned on it.~
+unknown~
+~
+armor 0 AE
+38 38 38 37 'none' 0
+106 10 358099 P
+A
+13 80
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#8519
+shield thunder~
+The {CShield{x of {YT{yh{YU{yn{YD{ye{YR{x~
+A shield made from the clap of lightning is here.~
+unknown~
+~
+armor JK AJ
+36 36 36 35 'none' 0
+100 101 529142 P
+A
+13 50
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#8554
+talon dracolich~
+{wTalon{x of the {DDraco{Dlich{x~
+A huge talon from some massive beast is here.~
+unknown~
+~
+weapon Jh AN
+dagger 7 12 pierce CD
+106 107 285149 P
+A
+18 8
+A
+19 8
+A
+20 -3
+A
+17 -20
+G none
+G none
+G none
+G none
+#8556
+~
+~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8560
+cloak fool~
+{BF{Co{BO{Cl{B'{cS {MC{ml{MO{ma{Mk{x~
+A multi-colored cloak lies upon the ground. You think it's laughing at you.~
+unknown~
+~
+clothing 0 AK
+BCF BCF BCF ACF 0 BCF BCF
+106 107 249362 P
+A
+18 10
+A
+12 30
+A
+19 10
+G none
+G none
+G none
+G none
+#8564
+sundial~
+{YSundial{x~
+A {YSundial{x is here.~
+unknown~
+~
+armor AK AO
+36 36 36 35 'none' 0
+100 101 307687 P
+A
+13 50
+A
+12 110
+G none
+G none
+G none
+G none
+#8565
+coal hot~
+A {rhot {wcoal{x~
+A {rhot {wcoal{x is burning itself out on the ground.~
+unknown~
+~
+pill 0 A
+50 'fire breath' 'reserved' 'reserved' 'reserved'
+80 1 0 P
+G none
+G none
+G none
+G none
+#8566
+censer~
+a cencer~
+A cencer containing {rhot{x {wcoals{x stand in the center of the room.~
+iron~
+~
+container R 0
+100 0 0 10 0 0
+0 100 0 P
+G none
+G none
+G none
+G none
+#8569
+wrist meradriel wristband~
+A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Guard Wrisband~
+A wristband lies here, marked with the crest of Meradriel.~
+mithril~
+~
+armor ABGS AM
+29 29 29 28 'none' 0
+81 82 155893 P
+A
+18 5
+A
+13 40
+A
+19 5
+G none
+G none
+G none
+G none
+#8570
+full plate meradriel~
+Full Platemail of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x~
+A full set of platemail lies here in a heap.~
+mithril~
+~
+armor AB AD
+29 29 29 28 'none' 0
+81 82 426582 P
+A
+19 13
+A
+17 -16
+G none
+G none
+G none
+G none
+#8571
+diamond encrusted gloves~
+{WD{Yi{Wa{Ym{Wo{Yn{Wd{x Encrusted Gloves~
+Glittering on the ground is a pair of bejeweled gloves.~
+diamond~
+~
+armor AB AH
+29 29 29 28 'none' 0
+81 82 231691 P
+A
+19 7
+A
+13 40
+A
+20 -2
+A
+17 -5
+G none
+G none
+G none
+G none
+#8572
+black leather couch~
+A {wBlack{x Leather Couch~
+A comfortable {wblack{x leather couch is here.~
+unknown~
+~
+furniture 0 0
+AB EFIKMNO EHK DGH DGH AB EFIKMNO
+81 100 10000 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#8400
+A Path Through Dense {gForest{x~
+You are following a tree lined path through the forest.  The forest is
+impenetrable on either side, and the path shows signs that it is well
+maintained.  The Forest is composed primarily of pine trees with a few great
+oaks scattered throughout.  The treetops above you look lush with life, and
+the forest looks very healthy.  The path continues north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 8401
+0 0
+D3
+~
+~
+Z 0 2300
+0 0
+S
+#8401
+A Path Through Dense {gForest{x~
+You are following a tree lined path through the forest. The forest is 
+impenetrable on either side, and the path shows signs that it is well
+maintained. The Forest is composed primarily of pine trees with a few
+great oaks scattered throughout. The treetops above you look lush with
+life, and the forest looks very healthy. The path continues north.
+~
+0 0 forest
+D0
+~
+~
+Z 0 8402
+0 0
+D2
+~
+~
+Z 0 8400
+0 0
+S
+#8402
+a {RRusty{x Gate in the {gForest{x~
+While the gate before you is rusty, it is well oiled and does not squeak
+when you open it.  The forest is kept trimmed back from the path you are
+following and a small {Ysign{x gives you some useful information.  The gate
+swings open and the path northward appears to be just as well maintained,
+and bodes for easy traveling.  
+~
+0 0 forest
+E
+sign~
+{c################################
+{yThe Fortress of Meradriel
+Levels 81 though 106 live here.
+This area is for HEROS and soon to
+be HEROS only!
+Anything less will die.
+Cadul, The Hunter.
+{c################################{x
+~
+D0
+~
+~
+ABZ 0 8403
+0 0
+D2
+~
+~
+Z 0 8401
+0 0
+S
+#8403
+The Path Through the {gForest{x~
+You pass through the gate and find the forest is thinning out, though you
+still can travel only north or south.  Ahead you can see some sort of guard
+post.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 8404
+0 0
+D2
+~
+~
+ABZ 0 8402
+0 0
+S
+#8404
+Abandoned Guard Post~
+The guard post is composed of minor fortifications only.  A wooden
+pallisade surrounds a small lookout post.  The entrance to the guardpost is
+on the north side, away from the pathway it is supposed to defend.  The post
+looks as though it was left in a hurry.  Plates are left on the table, and
+there are personal effects scattered around the inside.  The path turns east
+here.  
+~
+0 D inside
+D1
+~
+~
+Z 0 8405
+0 0
+D2
+~
+~
+Z 0 8403
+0 0
+S
+#8405
+A Fork in the Path~
+The forest path splits here. The trees are thinning out, and you can
+almost see through them. To the east is a clearing of some sort
+and to the north you can see some construction.
+~
+0 0 forest
+D0
+~
+~
+Z 0 8407
+0 0
+D1
+~
+~
+Z 0 8406
+0 0
+D3
+~
+~
+Z 0 8404
+0 0
+S
+#8406
+A {gForest{x Grove~
+A circle of trees line this grove and protect it from the inhabitants of
+the forest.  There is a fire ring in the center to protect the woodlands
+from the hungry flames.  You are confidant that this is a good place to
+rest.  The cover is good, the dirt is soft, and the shelter of the trees
+provide a break from the elements.  
+~
+0 0 forest
+D3
+~
+~
+Z 0 8405
+0 0
+S
+#8407
+A Fortified Gate~
+Built with large timbers, this gate is hanging from a hinge.  The
+defenders did not abandon this post, they fought it out.  There is evidence
+of a battle that lasted quite some time.  There are arrows sticking out of
+the fortifications and there are claw marks everywhere.  The tracks look to
+be from some sort of animal.  The gate, after a good push, opens and the path
+continues north.  
+~
+0 0 forest
+D0
+~
+~
+ABZ 0 8408
+0 0
+D2
+~
+~
+Z 0 8405
+0 0
+S
+#8408
+Inside the Fortified Gate~
+There are no bodies around but the signs of battle are everywhere.  Blood
+however is noticably absent.  Surely some blood was spilled here.  There are
+various types of broken weapons scattered about.  In the distance you can
+hear the beating of massive war drums.  To the north is a vast plain
+surrounding a great city.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8409
+0 0
+D2
+~
+~
+ABZ 0 8407
+0 0
+S
+#8409
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+ 
+To the south is a Fortified Gate, which protects the solitary path into
+these plains.
+~
+0 0 field
+D0
+~
+~
+ABZ 0 8471
+0 0
+D1
+~
+~
+Z 0 8410
+0 0
+D2
+~
+~
+Z 0 8408
+0 0
+D3
+~
+~
+Z 0 8476
+0 0
+S
+#8410
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8411
+0 0
+D3
+~
+~
+Z 0 8409
+0 0
+S
+#8411
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8412
+0 0
+D3
+~
+~
+Z 0 8410
+0 0
+S
+#8412
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8413
+0 0
+D3
+~
+~
+Z 0 8411
+0 0
+S
+#8413
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8416
+0 0
+D3
+~
+~
+Z 0 8412
+0 0
+S
+#8414
+Before the Cobblestone Path~
+Before you lay vistas of splendor and beauty.  Through the a{ci{xr, the
+mighty winged creatures of past and present, dragons, dominate the s{ck{xi{ce{xs,
+playing peacefully.  From time to time in the distances, flashes of bright
+{Bblues{x, {Ggreens{x, {Yyellows{x, and {Rreds{x can be seen followed by a loud, {Yt{Dh{Yu{Dn{Yd{De{Yr{Do{Yu{Ds{x
+crash of noise.  Closer to the {ge{ya{gr{yt{gh{x, {gtrees{x of all sorts can be seen
+blossoming before your very existence.  A {Yyellow{x cottage, trimmed in {Dwhite{x,
+rests at the end of this cobblestone path.  {WN{xy{Wm{xp{Wh{xs, {Yp{yi{Yx{yi{Ye{ys{x, {Gd{Yr{Gy{Ya{Gd{Ys{x, {mf{Ma{mi{Mr{mi{Me{ms{x,
+{ybrownies{x, and {gs{xp{gr{xi{gt{xe{gs{x can be seen frolicking gaily on the {Ge{gmeral{Gd{x {ggreen{x
+grass of the well kept lawn.  All about you, creatures of all sorts can be
+found.  Here and there, the alluring scent of fresh, ripe fruit can be smelt
+faintly on the warm b{cr{xe{ce{xze.  The sound of trickling {Bw{ba{Bt{be{Br{x can be heard
+faintly not too far away.  A bridge connects to the beginning of the
+cobblestone path.  The sweet sound of laughter can be heard coming from the
+open cottage windows.  A {Dwhite{x picket fence is the only thing that appears
+to be keeping you from what just might be your pleasant stay in this little
+slice of {Ch{ce{Ca{cv{Ce{cn{x.  
+~
+0 NX road
+D0
+~
+~
+Z 0 8415
+0 0
+D4
+~
+~
+Z 0 8488
+0 0
+S
+#8415
+On a Cobblestone {yBridge{x~
+The {ybridge{x that arcs over the {Bs{ct{Br{ce{Ba{cm{x of {Bw{ba{Bt{Be{br{x below you is made up of the
+same cobblestone that the following path with made of.  {MBaby{x dragons swoop
+down and dance playfully overhead as {Yp{yi{Yx{yi{Ye{ys{x and {Wn{xy{Wm{xp{Wh{xs prance about giggling
+at each other as they play hide and seek.  The potent scent of fresh, ripe
+fruit is now accompanied by the scent of ever-blooming roses.  Entrapping
+voices and the occasional enchanting laughter is still heard coming from
+within the cottage.  The {Bs{ct{Br{ce{Ba{cm{x, trickling louder than before, can be seen,
+bubbling under the bridge.  {BEl{Gem{Ren{Yta{Mls{x of all sorts dance wildly around you
+in a ballad of gaiety and amusement.  Just beyond the {ybridge{x, to the left,
+benches and chairs made out of all sorts of materials can be seen, awaiting
+company.  Off to the right, a large, {go{ya{gk{x gazebo can be seen, shading its
+occupants from the light in the s{Yk{xy.  The bright flashes of {Bblues{x, {Ggreens{x,
+{Yyellows{x, and {Rreds{x can still be seen and the {Yt{Dh{Yu{Dn{Yd{De{Yr{Do{Yu{Ds{x noises can still be
+heard.  
+~
+0 NX road
+D0
+~
+~
+Z 0 8445
+0 0
+D2
+~
+~
+Z 0 8414
+0 0
+S
+#8416
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8417
+0 0
+D3
+~
+~
+Z 0 8413
+0 0
+S
+#8417
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun. 
+ 
+To the east, is a tent made of some sort of hide.
+~
+0 0 field
+D0
+~
+~
+Z 0 8420
+0 0
+D1
+~
+~
+Z 0 8418
+0 0
+D3
+~
+~
+Z 0 8416
+0 0
+S
+#8418
+A Subcommander's Tent~
+This tent houses the second in command of the vampire's army.  The
+hide-like material it is comprised of is not from any woodland or pasture
+creature that you know of.  It is quite possible that it is human skin. 
+Scrawled in blood on the outside of the tent are some unintelligible words,
+possibly of magical origin.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8419
+0 0
+D3
+~
+~
+Z 0 8417
+0 0
+S
+#8419
+The Sub Commander's Tent~
+This is the vampire sub-commander's quarters, if you can call them that. 
+The bed is instead a coffin, made of mahogany, and placed in the center of
+the tent.  There are no personal effects of any kind, and the room is quite
+sparse.  On either side of the coffin, standing tall is a pair of
+candleholders, with black candles.  They are burning but the flames are
+{wblack{x.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8418
+0 0
+S
+#8420
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8421
+0 0
+D2
+~
+~
+Z 0 8417
+0 0
+S
+#8421
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8422
+0 0
+D2
+~
+~
+Z 0 8420
+0 0
+S
+#8422
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8423
+0 0
+D2
+~
+~
+Z 0 8421
+0 0
+S
+#8423
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+ 
+To the east is the main camp of the vampire army, guarded by their servants.
+~
+0 0 field
+D0
+~
+~
+Z 0 8434
+0 0
+D1
+~
+~
+Z 0 8424
+0 0
+D2
+~
+~
+Z 0 8422
+0 0
+S
+#8424
+The Vampire Base~
+The base is little more than hastily erected black stone walls, with flat
+stone tiles inset into the dirt.  The vampires must not plan on staying here
+long.  
+~
+0 ANX inside
+D1
+~
+~
+Z 0 8425
+0 0
+D3
+~
+~
+Z 0 8423
+0 0
+S
+#8425
+Inside The Vampire Base~
+The base is little more than hastily erected black stone walls, with flat
+stone tiles inset into the dirt.  The vampires must not plan on staying here
+long.  
+~
+0 ANX inside
+D0
+~
+~
+Z 0 8432
+0 0
+D1
+~
+~
+Z 0 8430
+0 0
+D3
+~
+~
+Z 0 8424
+0 0
+S
+#8426
+A Rose Garden off the Cobblestone Path~
+Thorny {rrose{x {gbushes{x abound in majestically manicured perfection.  The
+sweet sweet smell permeates this open air rose garden.  There are {Yp{yi{Yx{yi{Ye{ys{x
+flitting about from {rrose{x to {rrose{x pollinating the flowers.  It seems as
+though they are the gardeners.  Softly whispered {clullabies{x can be heard
+flowing along with the {Bbreeze{x.  
+~
+0 NX inside
+D1
+~
+~
+Z 0 8445
+0 0
+S
+#8427
+{WA beautifully crafted {gg{ya{gz{ye{gb{yo{W off the Cobblestone Path{x~
+Inside this magnificent structure you can see that even more pictures of
+{Ca{cn{Cg{ce{Cl{cs{x have been carved into its {gw{yo{go{yd{x.  Great care and many years have been
+put into its making.  The {Mbaby{x dragons and drakes sweep through whatever
+openings they can find, casting a quick {Dshadow{x over a {gli{Wmesto{gne{x pedestal
+encased in a pillar of {Ylight{x in the center of the {gg{ya{gz{ye{gb{yo{x.  The {ybronze{x plaque
+on it gleams brightly in the {Ylight{x.  {BEl{Gem{Ren{Yta{Mls{x dance wildly about you in a
+ballad of gaiety and amusement as {ybrownies{x and {gs{xp{gr{xi{gt{xe{gs{x swing from {Gi{gv{Gy {gv{Gi{gn{Ge{gs{x
+to whisper sweet nothings in your ear.  The wild scent of fresh, ripe fruit
+is nearly breath-taking as the fruit orchards just beyond the {gg{ya{gz{ye{gb{yo{x
+flourish with undiminished success.  The bright flashes of {Bblues{x, {Ggreens{x,
+{Yyellows{x, and {Rreds{x can still be seen accompanied by the {Yt{Dh{Yu{Dn{Yd{De{Yr{Do{Yu{Ds{x crash of
+noise.  
+~
+0 NX inside
+D3
+~
+~
+Z 0 8445
+0 0
+S
+#8428
+The Office of the Vampire Commander~
+Along either side of the room are rows of black candles, four to a row. 
+The candles are burning but the flames are {wblack{x.  There is a pentagram
+drawn in chalk in the center of the room.  Set into the far south room is an
+open coffin.  The air is very still here, and the stench of {wdark{x {mmagic{x is
+strong.  The walls look to be hastily constructed of some sort of black
+stone, and the floor is little more than flat stones laid in the dirt.  A
+presence is near, you can sense it.  
+~
+0 ANQX inside
+E
+pentagram~
+The pentragram is drawn in black chalk, and seems to be a symobl of power.  
+~
+D0
+~
+~
+Z 0 8429
+0 0
+S
+#8429
+Inside The Vampire Base~
+The base is little more than hastily erected black stone walls, with flat
+stone tiles inset into the dirt.  The vampires must not plan on staying here
+long.  
+~
+0 ANX inside
+E
+south~
+The Vampire Leader's Quarters.
+~
+D2
+~
+~
+Z 0 8428
+0 0
+D3
+~
+~
+Z 0 8430
+0 0
+S
+#8430
+Inside The Vampire Base~
+The base is little more than hastily erected black stone walls, with flat
+stone tiles inset into the dirt.  The vampires must not plan on staying here
+long.  
+~
+0 ANX inside
+D1
+~
+~
+Z 0 8429
+0 0
+D3
+~
+~
+Z 0 8425
+0 0
+S
+#8431
+Inside The Vampire Base~
+The base is little more than hastily erected black stone walls, with flat
+stone tiles inset into the dirt.  The vampires must not plan on staying here
+long.  
+~
+0 ANX inside
+D1
+~
+~
+Z 0 8433
+0 0
+D3
+~
+~
+Z 0 8432
+0 0
+S
+#8432
+Inside The Vampire Base~
+The base is little more than hastily erected black stone walls, with flat
+stone tiles inset into the dirt.  The vampires must not plan on staying here
+long.  
+~
+0 ANX inside
+D1
+~
+~
+Z 0 8431
+0 0
+D2
+~
+~
+Z 0 8425
+0 0
+S
+#8433
+A Guarded Door~
+Something of great import must be behind this door.  Quite alot of
+resources have been spent in guarding it.  The door itself is made of some
+type of amalgamation of mithril and adamantite, and looks to be
+impenetrable.  
+~
+0 ANX inside
+D0
+~
+~
+ABZ 0 8571
+0 0
+D3
+~
+~
+Z 0 8431
+0 0
+S
+#8434
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8435
+0 0
+D2
+~
+~
+Z 0 8423
+0 0
+S
+#8435
+East Gate of The Fortress~
+The gate to the fortress is made of granite, like the walls.  There are
+no hinges and you wonder how it is possible to open.  The guards above you
+are stoically waiting for the approaching marauders to attack.  Each arrow
+their archers shoot is almost wasted on the undead flesh of their enemies. 
+The vampires are biding their time and waiting for some unknown event to
+transpire before assaulting the gate.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8436
+0 0
+D2
+~
+~
+Z 0 8434
+0 0
+D3
+~
+~
+ABZ 0 8442
+0 0
+S
+#8436
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8572
+0 0
+D2
+~
+~
+Z 0 8435
+0 0
+S
+#8437
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8567
+0 0
+D2
+~
+~
+Z 0 8572
+0 0
+S
+#8438
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+ 
+To the east is a massive Siege Tower looming over the fortress walls.
+~
+0 0 field
+D1
+~
+~
+Z 0 8439
+0 0
+D2
+~
+~
+Z 0 8437
+0 0
+D3
+~
+~
+Z 0 8562
+0 0
+S
+#8439
+Entrance to the Siege Tower~
+You stand before a great construction of metal and wood.  A siege tower
+on wheels.  The various servants of the vampires are making ready to push
+the tower against the walls of the fortress, thus bypassing the formidable
+granite walls, and the impenetrable gate.  The entrance to the tower is to
+the east, and it is filled with all types of evil creatures.  
+~
+0 0 field
+D1
+~
+~
+ABZ 0 8440
+0 0
+D2
+~
+~
+Z 0 8567
+0 0
+D3
+~
+~
+Z 0 8438
+0 0
+S
+#8440
+The Base of The Seige Tower~
+The base of the tower is filled with evil beings, drooling at the chance
+to get into the fortress.  Some mighty magic is holding them back, and even
+more impressively preventing them from tearing each other apart.  A ladder
+leads up into the belly of the tower filled with even more of the vampire
+kin.  
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 8439
+0 0
+D4
+~
+~
+Z 0 8451
+0 0
+S
+#8441
+The Bunk Room~
+Bunk beds line the walls of the room, and are perfectly made up in tight
+military fashion.  The Guard's footlockers are at the foot of the beds, and
+are locked up tightly.  There is a very sterile smell about the room, and
+the floors are polished to a high shine.  Even in the midst of this seige,
+discipline has not faltered.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8504
+0 0
+S
+#8442
+The Eastern Gate~
+The massive obsidian gates are shored up from the inside.  Timbers hung
+with pullies and rope bar the great gates.  There is no sign of damage from
+this side.  The obsidian is polished to a high sheen, and they glow in the
+dim light from the street globes.  
+~
+0 0 city
+D1
+~
+~
+ABZ 0 8435
+0 0
+D3
+~
+~
+Z 0 8443
+0 0
+S
+#8443
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D1
+~
+~
+Z 0 8442
+0 0
+D3
+~
+~
+Z 0 8444
+0 0
+S
+#8444
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D0
+~
+~
+ABZ 0 8504
+0 0
+D1
+~
+~
+Z 0 8443
+0 0
+D3
+~
+~
+Z 0 8454
+0 0
+S
+#8445
+The Cobblestone Square~
+To the east is a {gg{ya{yz{ge{yb{go{x carved of oak.  The magnificent structure seems
+to provide solitude from the busy affairs of the kingdom.  To the west is a
+{rrose{x garden which has been lovingly nurtured.  In the center of the square
+itself is a m{wa{xr{wb{xl{we{x fountain depicting a warrior queen holding a unsheathed
+sword pointing at the sun in one hand, and a shield in the other hand held
+as if sheltering a miniature version of the city.  To the north is a
+terraced garden.  
+~
+0 0 inside
+E
+fountain~
+The fountain depticts in marble a warrior queen pointing an unsheathed sword at the sky. With her other hand she shields
+a miniature version of the city from harm.
+~
+D0
+~
+~
+Z 0 8447
+0 0
+D1
+~
+~
+Z 0 8427
+0 0
+D2
+~
+~
+Z 0 8415
+0 0
+D3
+~
+~
+Z 0 8426
+0 0
+S
+#8446
+A beautifully decorated Study~
+~
+0 X inside
+S
+#8447
+The Terraced {gG{Ga{gr{Gd{ge{Gn{gs{x~
+Lining the path through the gardens are dogwood trees in alternating
+colors of white and {Ggreen{x.  There are two rows of {Ysunflowers{x beyond the
+trees on either side of the path.  The flowering bushes and perennials that
+make up this garden have been magnificently manicured to produce a {Cd{ca{Cz{Cz{cl{Ci{cn{Cg{x
+display of horticulture the likes of which are extremely rare.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 8445
+0 0
+D4
+~
+~
+Z 0 8450
+0 0
+D5
+~
+~
+Z 0 8464
+0 0
+S
+#8448
+Cadul's House~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8473
+0 0
+D2
+~
+~
+Z 0 8530
+0 0
+D3
+~
+~
+Z 0 8465
+0 0
+D5
+~
+~
+Z 0 8456
+0 0
+S
+#8449
+delete this room~
+~
+0 X inside
+S
+#8450
+The Top of the Terraced {gG{Ga{gr{Gd{ge{Gn{gs{x~
+Lining the path through the gardens are dogwood trees in alternating
+colors of white and {Ggreen{x.  There are two rows of {Ysunflowers{x beyond the
+trees on either side of the path.  The flowering bushes and perennials that
+make up this garden have been magnificently manicured to produce a {Cd{ca{Cz{Cz{cl{Ci{cn{Cg{x
+display of horticulture the likes of which are extremely rare.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8529
+0 0
+D5
+~
+~
+Z 0 8447
+0 0
+S
+#8451
+The Middle of The Seige Tower~
+The center of the siege engine is little more than a wooden chute, with a
+ladder to climb up.  There is a landing to provide momentary balance before
+the ladder continues up.  The rough hewn wood is very splinter friendly, and
+the slippery nature of the flam retardant that was used to protect the wood
+does not help your climb.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 8452
+0 0
+D5
+~
+~
+Z 0 8440
+0 0
+S
+#8452
+The Top of The Seige Tower~
+From this perch at the top of the seige tower, you can see for miles
+around.  It is quite a vantage point from which to assess the defenses of
+the tower.  It is very possible that this is the only method that would
+allow the assailants to win.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8453
+0 0
+D5
+~
+~
+Z 0 8451
+0 0
+S
+#8453
+The Platform of The Seige Tower~
+From this platfrom, once pushed against the granite walls of the
+fortress, the invaders will be able to pour out of it, and make their
+assault.  The platform is constructed of reinforced wood, coated with some
+sort of fire retardant lacquer to protect it from the wood hungry flaming
+arrows of the defenders of the fortress.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8452
+0 0
+S
+#8454
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D1
+~
+~
+Z 0 8444
+0 0
+D3
+~
+~
+Z 0 8455
+0 0
+S
+#8455
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D1
+~
+~
+Z 0 8454
+0 0
+D3
+~
+~
+Z 0 8456
+0 0
+S
+#8456
+{MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Towne Square~
+This is the Grand Square of the Fortress of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x.  There are four
+pillars around you, which support the colossal tower above.  The pillars are
+made of marble, and they are etched with runes of many types.  The runes
+seem to glow in the gray darkness that covers the city.  The square is
+almost deserted as the citizens huddle in the homes to protect them from the
+advancing army of evil.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8547
+0 0
+D1
+~
+~
+Z 0 8455
+0 0
+D2
+~
+~
+Z 0 8457
+0 0
+D3
+~
+~
+Z 0 8509
+0 0
+D4
+~
+~
+Z 0 8495
+0 0
+S
+#8457
+{CV{Wa{Cl{Wo{Cr{x Road~
+Statues depicting the past heroes and rulers of this Fortress stand
+eternally vigilant on either side of this street.  The statues are made
+skillfully, with the features done stunningly well.  The names of those
+immortalised in the stone are chiseled on the base.  The street is made of
+obsidian brick, laid in a precise fashion.  Wagon tracks have slowly etched
+their mark on either side of the street.  With a pedestrian pathway on the
+easterly side.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8456
+0 0
+D2
+~
+~
+Z 0 8458
+0 0
+S
+#8458
+{CV{Wa{Cl{Wo{Cr{x Road~
+Statues depicting the past heroes and rulers of this Fortress stand
+eternally vigilant on either side of this street.  The statues are made
+skillfully, with the features done stunningly well.  The names of those
+immortalised in the stone are chiseled on the base.  The street is made of
+obsidian brick, laid in a precise fashion.  Wagon tracks have slowly etched
+their mark on either side of the street.  With a pedestrian pathway on the
+easterly side.  
+ 
+To the west is a restaurant.
+~
+0 0 city
+D0
+~
+~
+Z 0 8457
+0 0
+D2
+~
+~
+Z 0 8461
+0 0
+D3
+~
+~
+Z 0 8460
+0 0
+S
+#8459
+The {wPawn{x Shop~
+The shop is dingy, and the inventory varied.  Hanging from the walls, on
+top of tables, and just laying on the floor are tons of worthless pieces of
+junk.  Wherever there is space, something covers it, wheter it is stacks of
+docuemnts or weapons and armor, you get the feeling that anything can be
+bought here.  Shadowy deeds and hot deals abound.  
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 8468
+0 0
+S
+#8460
+El Dolce Vendetta~
+This beautiful cafe, specialising in desserts is decked out in
+avant-garde decor.  The tables are a beautiful beaten tin, roughly hammered,
+and left nicely flawed.  Patrons sit around sipping capuccino and coffee as
+they discuss the troubles that plague the town.  It is odd that the
+atmosphere is so non-chalant considering the army of darkess that sits
+outside.  Maybe the walls will hold.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8458
+0 0
+S
+#8461
+{cV{Wa{cl{Wo{cr{x Road at {wShady{x Lane~
+Statues depicting the past heroes and rulers of this Fortress stand
+eternally vigilant on either side of this street.  The statues are made
+skillfully, with the features done stunningly well.  The names of those
+immortalised in the stone are chiseled on the base.  The street is made of
+obsidian brick, laid in a precise fashion.  Wagon tracks have slowly etched
+their mark on either side of the street.  With a pedestrian pathway on the
+easterly side.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8458
+0 0
+D1
+~
+~
+Z 0 8467
+0 0
+D2
+~
+~
+Z 0 8466
+0 0
+D3
+~
+~
+Z 0 8469
+0 0
+S
+#8462
+Ezakail's Tavern~
+The tavern is almost filled to capacity with the less reputable
+townspeople trying to drink away their fear or imbibe liquid {Bcourage{x.  The
+air is thick with hushed conversation and murmers of the evil horde
+gathering outside the walls.  The tables are made of some sort of molded
+rock, and the chairs of iron, both are stained and it looks as if they
+havent been wiped in years.  The floor is sprinkled with sawdust to catch
+falling ale.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 8470
+0 0
+D3
+~
+~
+Z 0 8463
+0 0
+S
+#8463
+The Barroom of Ezakail's Tavern~
+This dark, {wseedy{x bar is frequented by the locals who seem not to care
+about the cleanliness.  A perfect place for discreet talking, the booths are
+enclosed by alcoves hiding faces and muffling voices.  Although Ezekiel, a
+massive Rockseer is very formidable, he doesn't look very concerned about
+who patronizes his establishment, except in fact that they do.  On the wall
+to the south is scribbled on some {yparchment{x the rules of the bar.  
+~
+0 0 inside
+E
+parchment~
+THE RULES OF EZAKAIL'S BAR
+#1 Do not pass out, you will wake up naked and pennyless.
+#2 No fighting or Ezakail will crush you.
+#3 Do not go home with girls named Earl.
+#4 No stealing in the bar, this is a fine establishment!
+#5 This bar is for paying customers only, no drink no stay.
+#6 Ezakail reserves the right to change the rules or just make them up.
+~
+D1
+~
+~
+Z 0 8462
+0 0
+S
+#8464
+Lower Level of the Terraced {gG{Ga{gr{Gd{ge{Gn{gs{x~
+Lining the path through the gardens are dogwood trees in alternating
+colors of white and {Ggreen{x.  There are two rows of {Ysunflowers{x beyond the
+trees on either side of the path.  The flowering bushes and perennials that
+make up this garden have been magnificently manicured to produce a {Cd{ca{Cz{Cz{cl{Ci{cn{Cg{x
+display of horticulture the likes of which are extremely rare.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 8447
+0 0
+S
+#8465
+A very dark Intersection~
+~
+0 0 inside
+D1
+~
+~
+Z 0 8448
+0 0
+S
+#8466
+{CV{Wa{Cl{Wo{Cr{x Road~
+Statues depicting the past heroes and rulers of this Fortress stand
+eternally vigilant on either side of this street.  The statues are made
+skillfully, with the features done stunningly well.  The names of those
+immortalised in the stone are chiseled on the base.  The street is made of
+obsidian brick, laid in a precise fashion.  Wagon tracks have slowly etched
+their mark on either side of the street.  With a pedestrian pathway on the
+easterly side.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8461
+0 0
+D2
+~
+~
+Z 0 8471
+0 0
+S
+#8467
+{wShady{x Lane~
+Little more than an alleyway, this lane spans all of thirty feet.  There
+is barely enough room for merchants to pass through with a wagon.  Puddles
+form in the street from drainage off of the adjacent buildings.  The path is
+dimly lit, and most noticably the globes that line the other streets in this
+fortress are absent.  Unlike the rest of the city bits of garbage are strewn
+about.  The air is dank and laden with a tinge of decay.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8468
+0 0
+D3
+~
+~
+Z 0 8461
+0 0
+S
+#8468
+{wShady{x Lane~
+Little more than an alleyway, this lane spans all of thirty feet.  There
+is barely enough room for merchants to pass through with a wagon.  Puddles
+form in the street from drainage off of the adjacent buildings.  The path is
+dimly lit, and most noticably the globes that line the other streets in this
+fortress are absent.  Unlike the rest of the city bits of garbage are strewn
+about.  The air is dank and laden with a tinge of decay.  To the east is the
+{wPawn{x Shop.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 8459
+0 0
+D3
+~
+~
+Z 0 8467
+0 0
+S
+#8469
+{wShady{x Lane~
+Little more than an alleyway, this lane spans all of thirty feet.  There
+is barely enough room for merchants to pass through with a wagon.  Puddles
+form in the street from drainage off of the adjacent buildings.  The path is
+dimly lit, and most noticably the globes that line the other streets in this
+fortress are absent.  Unlike the rest of the city bits of garbage are strewn
+about.  The air is dank and laden with a tinge of decay.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8461
+0 0
+D3
+~
+~
+Z 0 8470
+0 0
+S
+#8470
+{wShady{x Lane~
+Little more than an alleyway, this lane spans all of thirty feet.  There is
+barely enough room for merchants to pass through with a wagon.  Puddles form
+in the street from drainage off of the adjacent buildings.  The path is
+dimly lit, and most noticably the globes that line the other streets in this
+fortress are absent.  Unlike the rest of the city bits of garbage are strewn
+about.  The air is dank and laden with a tinge of decay.  
+ 
+To the north is the door of a Tavern, with a sign hanging above it.
+~
+0 0 inside
+E
+sign~
+,~~~~~~~~.
+i====i_
+|{ycccc{x|_)
+|{ycccc{x|
+`-==-'
+Ezakial's Tavern
+~
+D0
+~
+~
+ABZ 0 8462
+0 0
+D1
+~
+~
+Z 0 8469
+0 0
+S
+#8471
+The Gate of {CV{Wa{Cl{Wo{Cr{x~
+The gate itself is in the form of a shield, massive in stature, it
+obstructs all who would bash their way though.  The shield is etched in
+runes, cryptically communicating the powerful enchantments on it.  The
+shield is split down the middle where it can open as double-doors, and the
+hinges are of the same obsidian as the walls.  Guards protect the entrance
+with their lives.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8466
+0 0
+D2
+~
+~
+ABZ 0 8409
+0 0
+S
+#8472
+The {GLawn{x~
+This field is a lawn of tightly cut grass.  It is as if someone made a
+natural carpet and laid it here for all to enjoy.  This would be the perfect
+site for a picnic or any sort of small celebration to revel in the beauty of
+the outdoors.  There are {Yb{we{Ye{ws{x buzzing about, safely keeping their distance. 
+The {mb{Bu{mt{Bt{me{Br{mf{Bl{mi{Be{ms{x are merrily bouncing from place to place completely unaware
+of the peril that is besieging the fortress.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8529
+0 0
+D2
+~
+~
+Z 0 8475
+0 0
+S
+#8473
+A beautifully decorated Office~
+~
+0 0 inside
+D2
+~
+~
+Z 0 8448
+0 0
+S
+#8474
+The {GLawn{x~
+This field is a lawn of tightly cut grass.  It is as if someone made a
+natural carpet and laid it here for all to enjoy.  This would be the perfect
+site for a picnic or any sort of small celebration to revel in the beauty of
+the outdoors.  There are {Yb{we{Ye{ws{x buzzing about, safely keeping their distance. 
+The {mb{Bu{mt{Bt{me{Br{mf{Bl{mi{Be{ms{x are merrily bouncing from place to place completely unaware
+of the peril that is besieging the fortress.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8529
+0 0
+D3
+~
+~
+Z 0 8475
+0 0
+S
+#8475
+The {GLawn{x~
+This field is a lawn of tightly cut grass.  It is as if someone made a
+natural carpet and laid it here for all to enjoy.  This would be the perfect
+site for a picnic or any sort of small celebration to revel in the beauty of
+the outdoors.  There are {Yb{we{Ye{ws{x buzzing about, safely keeping their distance. 
+The {mb{Bu{mt{Bt{me{Br{mf{Bl{mi{Be{ms{x are merrily bouncing from place to place completely unaware
+of the peril that is besieging the fortress.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8472
+0 0
+D1
+~
+~
+Z 0 8474
+0 0
+S
+#8476
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8409
+0 0
+D3
+~
+~
+Z 0 8477
+0 0
+S
+#8477
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8476
+0 0
+D3
+~
+~
+Z 0 8478
+0 0
+S
+#8478
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8477
+0 0
+D3
+~
+~
+Z 0 8479
+0 0
+S
+#8479
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8568
+0 0
+D1
+~
+~
+Z 0 8478
+0 0
+D3
+~
+~
+Z 0 8480
+0 0
+S
+#8480
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8484
+0 0
+D1
+~
+~
+Z 0 8479
+0 0
+S
+#8481
+The Bad Person Prison~
+If you've found yourself in this room, you've really screwed up.  Nuff
+said.  
+~
+0 X inside
+S
+#8482
+The Name Prison~
+If you've found yourself in this room, it is because the immortals do not
+find the name you chose acceptable.  Please choose another.  A fantasy name
+generator of acceptable names can be found at the following website: 
+ 
+http://spitfire.ausys.se/johan/names/
+ 
+and.....
+ 
+http://rinkworks.com/namegen/
+~
+0 X inside
+S
+#8483
+The Description Prison~
+If you've found yourself in this room, it is because the immortals do not
+find your description, or lack thereof, acceptable.  Please read "{Rhelp
+personal{x" and "{Rhelp personal2{x" for guidelines and help.  If you still
+do not understand what is wrong with your description, please feel free to
+ask the immortal and the immortal will be more than glad to point out what
+might need to be re-written and do their best to help you fix it.  
+~
+0 NTWX inside
+S
+#8484
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8485
+0 0
+D2
+~
+~
+Z 0 8480
+0 0
+S
+#8485
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8496
+0 0
+D2
+~
+~
+Z 0 8484
+0 0
+S
+#8486
+Apex of the {bCr{Bys{ctal{Bli{bne{x Tower~
+The view of the landscape surrounding the fortess is impecable here.  The
+vastness of the area is astounding.  Here one can watch over the kingdom
+with ease.  The room itself is spacious and well kempt.  The crystal walls
+are almost translucent here, and there is a balcony on the each of the sides
+of the square room, which affords the opportunity to look in any direction. 
+~
+0 0 inside
+D5
+~
+~
+Z 0 8596
+0 0
+S
+#8487
+{bCr{Bys{ctal{Bli{bne{x Hallway~
+The hallway is comprised of the same {bCr{Bys{ctal{x as the tower, and
+stretched from west to east.  There is the sweet smell of {Mlilac{x through
+the halls.  You can hear the bustling of the ruling class of the fortress
+engaging in conversations in the distance.  By the snippets of the
+conversations that you can make out, the rulers of this fine city seem to be
+proud of their achievements, and are dedicated to its preservation.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8488
+0 0
+D3
+~
+~
+Z 0 8495
+0 0
+S
+#8488
+End of The Hall~
+The crystalline hallway ends with a lovely stairwell that is carved in
+such a way that it appears to have been a natural formation of the crystal. 
+The stairwell winds its way down to a beautiful garden at the bottom.  Above
+the stairwell is a large tapestry depicting white clad knights fighting off
+a large complement of evil troops including drow and orcs.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8487
+0 0
+D5
+~
+~
+Z 0 8414
+0 0
+S
+#8489
+Before Kinzara's Chambers~
+Every sound made in this hallway echoes off the crystal walls.  Capping
+off the hallway is a door made of beryl which is a beautiful {Gg{gree{Gn{x hue.  The
+door is unlocked, and the sign on the door says "Office of the Queen's
+Advisor."  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 8490
+0 0
+D2
+~
+~
+Z 0 8495
+0 0
+S
+#8490
+Office of The Queen's Advisor~
+This office has a spectacular view of the northern portion of the city. 
+The walls however block any further view.  It is apparent that Kinzara is
+held in high esteem in the eyes of the queen, as the furnishings here are of
+highest quality wood inlay.  Much skill and craftsmanship went into making
+the major piece, her desk, which is the centerpiece of the room.  Documents
+are stacked neatly in order, and a map of the city is spread open on the
+desk.  The walls are tastefully bare, save for a single portrait of the
+queen, on the east wall.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 8489
+0 0
+S
+#8491
+Alcove in the {bCr{Bys{ctal{Bli{bne{x Tower~
+This alcove is simply furnished, with several chairs for sitting as well
+as some small tables placed strategically to catch drinks.  The room is well
+designed and planned so as to foster intimate conversation and to provide an
+escape from the bustle of the tower's day to day affairs.  The west wall is
+dominated by a window through which can be seen the better portion of the
+city.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8495
+0 0
+S
+#8492
+Knight's Quarters~
+Every surface of this barracks is shined to a mirrorlike gleam. The floor
+is covered with a thick rug that deadens your footfalls. The bunks are all
+made in military fashion, and there are not many personal effects visible.
+A spare set of armor is in the midst of repairs, and is hanging on a dummy
+in the south west corner of the room. The room smells of armor, oil, and 
+leather.
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 8493
+0 0
+S
+#8493
+Barracks of the {CQueen's{x Guard~
+This is the barracks of the Knights of Meradriel.  The queen's personal
+guard.  The doors to the east and south lead to some of the knights'
+quarters.  The hallway shines from fresh polish and the walls gleam from
+thorough washing.  The air has the pungent smell of a mix of cleaning
+products, and the distinct scent of armor.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8495
+0 0
+D2
+~
+~
+ABZ 0 8494
+0 0
+D3
+~
+~
+ABZ 0 8492
+0 0
+S
+#8494
+Knight's Quarter's~
+Every surface of this barracks is shined to a mirrorlike gleam.  The
+floor is covered with a thick rug that deadens your footfalls.  The bunks
+are all made in military fashion, and there are not many personal effects
+visible.  A spare set of armor is in the midst of repairs, and is hanging on
+a dummy in the south west corner of the room.  The room smells of armor,
+oil, and leather.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 8493
+0 0
+S
+#8495
+{bCr{Bys{ctal{Bli{bne{x Tower~
+Brilliant {CQu{car{Ctz{x was the building material of choice for this majestic
+tower.  Truly this tower is fit for the {CQueen{x of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x.  The crystal
+itself is cut flawlessly, and was used for the walls, ceiling, and floors of
+the tower.  You cannot see through the tower as the crystal is not
+transparent enough for that, but in better times, the sunlight flowing
+through this structure must create a thing of pure beauty.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8489
+0 0
+D1
+~
+~
+Z 0 8487
+0 0
+D2
+~
+~
+Z 0 8493
+0 0
+D3
+~
+~
+Z 0 8491
+0 0
+D4
+~
+~
+Z 0 8596
+0 0
+D5
+~
+~
+Z 0 8456
+0 0
+S
+#8496
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8497
+0 0
+D2
+~
+~
+Z 0 8485
+0 0
+S
+#8497
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8498
+0 0
+D2
+~
+~
+Z 0 8496
+0 0
+S
+#8498
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8499
+0 0
+D2
+~
+~
+Z 0 8497
+0 0
+S
+#8499
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8510
+0 0
+D2
+~
+~
+Z 0 8498
+0 0
+S
+#8500
+The Vestibule of Atum'Ra ~
+This is the minor entryway to the temple of the Sun God, Atum'Ra.  The
+walls are marble, as are the pillars which have scrollwork at the top and
+bottom.  The floor is worn from the footsteps of pilgrims making their
+regular treck here.  Various depictions of the sun at dawn, at noon, and at
+sunset are etched into the floor tiles.  The temple continues north.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8563
+0 0
+D1
+~
+~
+ABZ 0 8501
+0 0
+S
+#8501
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D1
+~
+~
+Z 0 8506
+0 0
+D3
+~
+~
+ABZ 0 8500
+0 0
+S
+#8502
+The Guard Barracks~
+This is the barracks of the defenders of the fortress, the place is
+almost deserted as most are positioned on the wall to defend them.  Weapons
+line the walls of the room, and various types of armor are on a table in the
+east corner of the room.  There is a large scrap of paper nailed to the
+north wall which details the plans of defence for the fortress.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 8506
+0 0
+D2
+~
+~
+Z 0 8503
+0 0
+S
+#8503
+Officer's Quarters~
+This room is spartan in its lack of personal effects, however everything
+seems to be well made, and adequate to provide the necessities of life as
+well as some measure of comfort.  Beds are made and the tabletops are clean.
+Each living space is kept exactly like the other in true military fashion. 
+One item is out of place here however, a small {Ygold{x medallion lies on
+top of one nightstands.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8502
+0 0
+D1
+~
+~
+Z 0 8505
+0 0
+S
+#8504
+Guard's Barracks~
+This is the barracks of the defenders of the fortress, the place is
+almost deserted as most are positioned on the wall to defend them.  Weapons
+line the walls of the room, and various types of armor are on a table in the
+east corner of the room.  There is a large scrap of paper nailed to the
+north wall which details the plans of defence for the fortress.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8441
+0 0
+D2
+~
+~
+ABZ 0 8444
+0 0
+S
+#8505
+General Izenrog's Quarters~
+The general's quarters are only distinguishable from the officers in that
+the quality of the furniture is better, and there are some minor personal
+effects laying around.  A sword hangs above the single bed, and is
+reminicent of some trophy won on the field of battle.  Each wall has maps
+and charts of the city dominating them.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8503
+0 0
+S
+#8506
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D1
+~
+~
+Z 0 8507
+0 0
+D2
+~
+~
+ABZ 0 8502
+0 0
+D3
+~
+~
+Z 0 8501
+0 0
+S
+#8507
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8508
+0 0
+D1
+~
+~
+Z 0 8509
+0 0
+D3
+~
+~
+Z 0 8506
+0 0
+S
+#8508
+The Fortress Magik Shop~
+Scores of spell components are organized and labeled on the shelves which
+line the walls on the east and west side of the shop.  Behind the counter,
+are more rare items.  Most notably, what looks like a very large claw,
+possibly from a dragon, is hanging behind the counter.  Wings from some sort
+of flying creature hang limp from a hook.  The smell from some sort of
+preservative pervades the room, and you are not sure which items are
+trinkets for the small minded, and which are true items of power.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 8507
+0 0
+S
+#8509
+The Path of The {YSun{x~
+This street is lined with tall lampposts topped with golden icons
+depicting the sun.  The icons are enchanted to give off a dim glow, lighting
+the street around you.  The cobblestones have been painted gold, and are
+tiled in concentric circles.  Not many people are traveling however, and the
+city is quite quiet.  There is the occasional barking of orders in the
+distance, but otherwise silence reigns, save for the beating of the wardrums
+from outside the wall.  
+~
+0 0 city
+D1
+~
+~
+Z 0 8456
+0 0
+D3
+~
+~
+Z 0 8507
+0 0
+S
+#8510
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8511
+0 0
+D2
+~
+~
+Z 0 8499
+0 0
+S
+#8511
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8512
+0 0
+D2
+~
+~
+Z 0 8510
+0 0
+S
+#8512
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8523
+0 0
+D2
+~
+~
+Z 0 8511
+0 0
+D3
+~
+~
+Z 0 8513
+0 0
+S
+#8513
+An Imposing Looking Cloud~
+You are on the fringe of a dense cloudcover that has somehow drifted
+down to the ground. It is not all that astonishing considering the
+fact that the sun is currently blocked by a large {wBlack Sphere{x. The
+mist that surrounds you is cool and damp, there is a large amount of
+static electricity building as your hair is starting to stand on end.
+You believe you can continue through the cloud to the west.
+~
+0 0 field
+D1
+~
+~
+Z 0 8512
+0 0
+D3
+~
+~
+Z 0 8514
+0 0
+S
+#8514
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8515
+0 0
+D1
+~
+~
+Z 0 8513
+0 0
+D2
+~
+~
+Z 0 8521
+0 0
+D3
+~
+~
+Z 0 8522
+0 0
+S
+#8515
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D2
+~
+~
+Z 0 8514
+0 0
+D3
+~
+~
+Z 0 8516
+0 0
+S
+#8516
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8515
+0 0
+D2
+~
+~
+Z 0 8522
+0 0
+D3
+~
+~
+Z 0 8517
+0 0
+S
+#8517
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8516
+0 0
+D2
+~
+~
+Z 0 8518
+0 0
+S
+#8518
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8517
+0 0
+D1
+~
+~
+Z 0 8522
+0 0
+D2
+~
+~
+Z 0 8519
+0 0
+S
+#8519
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8518
+0 0
+D1
+~
+~
+Z 0 8520
+0 0
+S
+#8520
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8522
+0 0
+D1
+~
+~
+Z 0 8521
+0 0
+D3
+~
+~
+Z 0 8519
+0 0
+S
+#8521
+Deep Into the Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8514
+0 0
+D3
+~
+~
+Z 0 8520
+0 0
+S
+#8522
+The Center of The Cloud~
+Wisps of cloud tickle your nose as you wade through the morass.  The
+clouds are dense, and visibility is extremely impaired.  The floor itself is
+not visible let alone the walls.  The cool damp air chills you to the bone,
+and each step is more confusing than the last.  Finding your way out might
+be challenging.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8516
+0 0
+D1
+~
+~
+Z 0 8514
+0 0
+D2
+~
+~
+Z 0 8520
+0 0
+D3
+~
+~
+Z 0 8518
+0 0
+S
+#8523
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8524
+0 0
+D2
+~
+~
+Z 0 8512
+0 0
+S
+#8524
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8525
+0 0
+D2
+~
+~
+Z 0 8523
+0 0
+S
+#8525
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8528
+0 0
+D3
+~
+~
+Z 0 8524
+0 0
+S
+#8526
+{CFREE ROOM{X~
+~
+0 X inside
+D0
+~
+~
+Z 0 8527
+0 0
+S
+#8527
+{CFREE ROOM{X~
+~
+0 X inside
+D2
+~
+~
+Z 0 8526
+0 0
+S
+#8528
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8531
+0 0
+D3
+~
+~
+Z 0 8525
+0 0
+S
+#8529
+The {GLawn{x~
+This field is a lawn of tightly cut grass.  It is as if someone made a
+natural carpet and laid it here for all to enjoy.  This would be the perfect
+site for a picnic or any sort of small celebration to revel in the beauty of
+the outdoors.  There are {Yb{we{Ye{ws{x buzzing about, safely keeping their distance. 
+The {mb{Bu{mt{Bt{me{Br{mf{Bl{mi{Be{ms{x are merrily bouncing from place to place completely unaware
+of the peril that is besieging the fortress.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8450
+0 0
+D2
+~
+~
+Z 0 8474
+0 0
+D3
+~
+~
+Z 0 8472
+0 0
+S
+#8530
+At the Universes Epicenter~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8448
+0 0
+S
+#8531
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8532
+0 0
+D3
+~
+~
+Z 0 8528
+0 0
+S
+#8532
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8533
+0 0
+D1
+~
+~
+Z 0 8543
+0 0
+D3
+~
+~
+Z 0 8531
+0 0
+S
+#8533
+The Undead Command Post~
+What once was lush ground has been trod down by the souless feet of the
+undead.  The earth itself seems to die at their touch.  Eerie silence
+pervades, and the whispers of souls trapped into service utter
+unintelligable pleas.  Calls from the walls of the defenders fortress reach
+your ears as they prepare for battle.  Here though there is no reaction. 
+The dark forces are awaiting their commands.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8534
+0 0
+D2
+~
+~
+Z 0 8532
+0 0
+S
+#8534
+Camp Of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8542
+0 0
+D1
+~
+~
+Z 0 8535
+0 0
+D2
+~
+~
+Z 0 8533
+0 0
+D3
+~
+~
+Z 0 8541
+0 0
+S
+#8535
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8536
+0 0
+D3
+~
+~
+Z 0 8534
+0 0
+S
+#8536
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8537
+0 0
+D2
+~
+~
+Z 0 8535
+0 0
+D3
+~
+~
+Z 0 8542
+0 0
+S
+#8537
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D2
+~
+~
+Z 0 8536
+0 0
+D3
+~
+~
+Z 0 8538
+0 0
+S
+#8538
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8537
+0 0
+D2
+~
+~
+Z 0 8542
+0 0
+D3
+~
+~
+Z 0 8539
+0 0
+S
+#8539
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8538
+0 0
+D2
+~
+~
+Z 0 8540
+0 0
+D5
+~
+~
+Z 0 8552
+0 0
+S
+#8540
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8539
+0 0
+D1
+~
+~
+Z 0 8542
+0 0
+D2
+~
+~
+Z 0 8541
+0 0
+S
+#8541
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8540
+0 0
+D1
+~
+~
+Z 0 8534
+0 0
+S
+#8542
+Camp of The Undead~
+Various animated corpses representative of all of the races of Thera
+stagger about here.  The stench is unbearable.  Pieces of rotting flesh are
+strewn about the floor, being trod upon by all.  The undead muddle about in
+a mindless fashion, and many have arrows sticking out of them.  Their hollow
+souless eyes show no expression, and their gaping mouths utter no sound.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8538
+0 0
+D1
+~
+~
+Z 0 8536
+0 0
+D2
+~
+~
+Z 0 8534
+0 0
+D3
+~
+~
+Z 0 8540
+0 0
+S
+#8543
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8544
+0 0
+D3
+~
+~
+Z 0 8532
+0 0
+S
+#8544
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8548
+0 0
+D2
+~
+~
+ABZ 0 8545
+0 0
+D3
+~
+~
+Z 0 8543
+0 0
+S
+#8545
+The Grand Gate of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x~
+The massive obsidian gates are shored up from the inside.  Timbers hung
+with pulleus and rope bar the great gates.  There is no sign of damage from
+this side.  The obsidian is polished to a high sheen, and they glow in the
+dim light from the street globes.  
+~
+0 0 city
+D0
+~
+~
+ABZ 0 8544
+0 0
+D1
+~
+~
+Z 0 8570
+0 0
+D2
+~
+~
+Z 0 8546
+0 0
+S
+#8546
+{CV{Wa{Cl{Wo{Cr{x Road~
+Statues depicting the past heroes and rulers of this Fortress stand
+eternally vigilant on either side of this street.  The statues are made
+skillfully, with the features done stunningly well.  The names of those
+immortalised in the stone are chiseled on the base.  The street is made of
+obsidian brick, laid in a precise fashion.  Wagon tracks have slowly etched
+their mark on either side of the street.  With a pedestrian pathway on the
+easterly side.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8545
+0 0
+D2
+~
+~
+Z 0 8547
+0 0
+D3
+~
+~
+Z 0 8569
+0 0
+S
+#8547
+{CV{Wa{Cl{Wo{Cr{x Road~
+Statues depicting the past heroes and rulers of this Fortress stand
+eternally vigilant on either side of this street.  The statues are made
+skillfully, with the features done stunningly well.  The names of those
+immortalised in the stone are chiseled on the base.  The street is made of
+obsidian brick, laid in a precise fashion.  Wagon tracks have slowly etched
+their mark on either side of the street.  With a pedestrian pathway on the
+easterly side.  
+~
+0 0 city
+D0
+~
+~
+Z 0 8546
+0 0
+D2
+~
+~
+Z 0 8456
+0 0
+S
+#8548
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8549
+0 0
+D3
+~
+~
+Z 0 8544
+0 0
+S
+#8549
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8551
+0 0
+D2
+~
+~
+Z 0 8550
+0 0
+D3
+~
+~
+Z 0 8548
+0 0
+S
+#8550
+The Griffin Inn~
+~
+0 0 inside
+D0
+~
+~
+Z 0 8549
+0 0
+S
+#8551
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8562
+0 0
+D3
+~
+~
+Z 0 8549
+0 0
+S
+#8552
+Entrance to a Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8553
+0 0
+D4
+~
+~
+Z 0 8539
+0 0
+S
+#8553
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+The cavern seems to widen ahead into a much more expansive space.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8561
+0 0
+D2
+~
+~
+Z 0 8552
+0 0
+S
+#8554
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+The cavern seems to widen ahead into a much more expansive space.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8555
+0 0
+S
+#8555
+A Crytalline Grotto~
+The grotto is a natural wonder.  Depsoits of minerals have crystalized
+into varoious colors.  The splendor of the sight is breathaking.  The
+ceiling of the grotto drips with stalagtites, and many connect with
+stalagmites on the floor.  Dampness is everywhere, and the air is very cool
+and musty.  
+~
+0 0 mountain
+D2
+~
+~
+Z 0 8554
+0 0
+D3
+~
+~
+Z 0 8561
+0 0
+S
+#8556
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+To the east is a grotto of some sorts.  
+~
+0 0 mountain
+D2
+~
+~
+Z 0 8557
+0 0
+S
+#8557
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+To the east is a grotto of some sorts.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8556
+0 0
+D2
+~
+~
+Z 0 8561
+0 0
+S
+#8558
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+To the east is a grotto of some sorts.  
+~
+0 0 mountain
+D2
+~
+~
+Z 0 8559
+0 0
+S
+#8559
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+To the east is a grotto of some sorts.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8558
+0 0
+D1
+~
+~
+Z 0 8561
+0 0
+D2
+~
+~
+Z 0 8560
+0 0
+S
+#8560
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+To the east is a grotto of some sorts.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8559
+0 0
+S
+#8561
+A Large Cavern~
+Dripping water draining from above has created an opening in the earth. 
+The dank smell of fungus and mold is thick in the air.  Various mineral
+deposits have been revealed from the effects of the water, and the cavern
+walls are a many hued earth tones.  The pitter patter of the dripping water
+echoes softly around you as it plunks into the puddles on the cave floor. 
+To the east is a grotto of some sorts.  
+~
+0 0 mountain
+D0
+~
+~
+Z 0 8557
+0 0
+D1
+~
+~
+Z 0 8555
+0 0
+D2
+~
+~
+Z 0 8553
+0 0
+D3
+~
+~
+Z 0 8559
+0 0
+S
+#8562
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8438
+0 0
+D3
+~
+~
+Z 0 8551
+0 0
+S
+#8563
+The Grand Vestibule of Atum'Ra ~
+In huge iconic fashion the sun is depicted in many ways, with clouds
+partially covering it, with birds flying in front of it, and in its pristine
+beauty.  The west wall of this temple is the granite of the outer walls, and
+the largest icon is affixed to it.  The north and south walls are comprised
+of the whitests marble, no veins defile its pureness.  Many of the citizens
+have gathered here in hopes that their prayers will be answered and the sun
+shall return.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8564
+0 0
+D2
+~
+~
+Z 0 8500
+0 0
+S
+#8564
+The Cathedral of Atum'Ra ~
+Vaulted ceilings open to the air at parts, are high above you.  The
+vastness openess is awe inspiring.  The walls are carved with hands reaching
+upward to the sky.  Each arm is different and unique from the rest, and seem
+to represent all of the surface dwelling races.  Many have gathered here and
+are murmuring prayers to the god of the sun to bring back its glory and
+defeat the magical {wBlack Sphere{x hiding the sun.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 8566
+0 0
+D1
+~
+~
+Z 0 8565
+0 0
+D3
+~
+~
+Z 0 8563
+0 0
+S
+#8565
+Altar of {CLife{x~
+There is a palpable {ysp{cir{yit{cua{yl{x connection that is found in this room,
+which is dedicated to the lifegiving aspect of the sunlight.  The world is
+dependant on light, all life whether plant or animal thrives on it. 
+Regardless of who or what you worship, the sun is there for you.  There are
+not as many of the townspeople here.  Most have chosen to pray for the
+destruction of the gathering horde of undead outside the walls by fire.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8564
+0 0
+S
+#8566
+Altar of {RFire{x~
+This portion of the temple has at is center, and altar dedicated to one
+of the sun's aspects, {Rfire{x.  The sun brings life and can also bring death,
+through its burning rays.  Walls covered in murals which depict rising
+{Rflames{x, and {ws{Wco{wrc{Wh{we{Wd{x earth.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 8564
+0 0
+S
+#8567
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8439
+0 0
+D2
+~
+~
+Z 0 8437
+0 0
+S
+#8568
+The Seige Plains~
+~
+0 0 field
+D2
+~
+~
+Z 0 8479
+0 0
+S
+#8569
+Sturdy Gear, By Pholpis~
+This is the shop of Pholpis, the outfitter for the city.  Displayed on
+the walls are the various sorts of equipment that he sells.  Leather goods,
+armors, and cloaks all make up his inventory.  The shop is well kept, and
+there are many items that look useful.  Everything seems very well made, and
+fairly pricey.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8546
+0 0
+S
+#8570
+The Gate House~
+This room contains the mechanism to open the gates to the fortress.  Huge
+gears, with a well oiled sheen are placed at various angles within the room.
+Hanging from the south wall is an assortment of tools and oil cans that look
+well used.  The mechanism is in perfect working order.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 8545
+0 0
+S
+#8571
+The Source of the {wBlack Sphere{x~
+A soft chanting seems to be coming from a box in the center of the room.
+The box emanates a pulsing darkness like a beating heart.  With each pulse,
+the box emits a "pufflike" breath.  The walls seem to expand and contract in
+cadence with the box, even though they are made of stone.  {mMagic{x is ripe
+in this room, and {wdeath{x is present.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 8433
+0 0
+S
+#8572
+The Seige Plains~
+This is a vast plain surrounding the Fortress of Merdriel.  There are
+broken weapons scattered around you, and the sounds of battle are coming
+from the east.  The beat of the war drums is disheartening.  The stench of
+burned flesh mixes with the smell of death.  Looming above the fortress is a
+{wBlack Sphere{x blocking out the sun.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8437
+0 0
+D2
+~
+~
+Z 0 8436
+0 0
+S
+#8596
+Second Floor~
+This is the nerve center of the kingdom. Many of the administrative 
+functions of the daily business of ruling seem to be carried out here.
+This from this room there is access to the various offices of those
+who hold power here. The hallways themselves are of a darker crystal than
+the rest, lending itself to more privacy while still offering a spectacular
+effect.
+A stairway leads up to the top of the tower. 
+~
+0 0 inside
+D0
+~
+~
+Z 0 8597
+0 0
+D1
+~
+~
+ABZ 0 8598
+0 0
+D3
+~
+~
+Z 0 8599
+0 0
+D4
+~
+~
+Z 0 8486
+0 0
+D5
+~
+~
+Z 0 8495
+0 0
+S
+#8597
+The Meeting Chambers~
+A table of solid quartz runs from one end of the room to another flanked
+on either side with chairs made from the same material.  The walls on either
+side of the long table have identical maps of the city proper, with detailed
+drawings of the defenses available to the city's protectors.  There are
+charts and lists scattered about the table, as thought a meeting has just
+broken up.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 8596
+0 0
+S
+#8598
+A Storage Closet~
+Various cleaning products are stored here along with mops buckets and
+other supplies.  There is a sink dominating the room placed in the center of
+the east wall.  On the north and south walls are shelves containing a
+multitude of objects from quills paper and ink to bags of sand to blot ink. 
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 8596
+0 0
+S
+#8599
+Office of the Chancellor~
+The desk and the bookshelves of this office are made of mahogany with
+{ybrass{x accents.  Hanging on the walls are several landscape scenes
+depicting the surrounding countryside.  Each of the scenes is painted from
+the perspective of the top of this tower, and is the view of that particular
+direction.  In fact they are hung from on the corresponding walls.  Beneath
+the desk is a marvelous burnt orange rug with a geometric pattern.  From the
+looks of the neatness of the office, the owner is meticulous in their
+recordkeeping as well as their attention to detail.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 8596
+0 0
+S
+#0
+
+#SPECIALS
+M 8400 spec_troll_member	* test mob 1
+M 8401 spec_ogre_member	* test mob 2
+M 8424 spec_ogre_member	* Guardian Lich
+M 8425 spec_ogre_member	* A Vampire Knight
+M 8427 spec_special_guard	* an {YE{xlvis{Yh{x Bard
+M 8428 spec_cast_mage	* The {wvampire{x leader, Rekzhazek
+M 8430 spec_ogre_member	* A Vampire Warrior
+M 8432 spec_ogre_member	* {DVampire {BDread{bnaught{x
+M 8443 spec_troll_member	* {YDefender{x of the {CQueen{x
+M 8456 spec_troll_member	* Gibraldain
+M 8463 spec_executioner	* Ezakail, The Bartender
+M 8467 spec_nasty	* Gomadon the {DN{Ya{Ds{Yt{Dy{x
+M 8486 spec_cast_cleric	* {MM{me{Mr{ma{Md{mr{Mi{Me{ml{x
+M 8495 spec_troll_member	* Rexardius, The Queen's {CS{Wi{Cl{Cv{We{Cr{G Dragon{x
+M 8508 spec_cast_mage	* Rubrikal, the {YGold{x
+M 8515 spec_cast_judge	* Etenda, The {cCloud Giant{x Warrioress
+M 8517 spec_breath_lightning	* Adreahan, The {YKing{x of the {CCloud Giants{x
+M 8519 spec_troll_member	* A {CCloud Giant{x Warrior{x
+M 8537 spec_cast_beholder	* Drekzak, the {DUn{wdead{x Commander
+M 8540 spec_ogre_member	* A Ghast
+M 8545 spec_troll_member	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard
+M 8546 spec_troll_member	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard
+M 8554 spec_breath_any	* Tzakteklikog, the {gDraco{Dlich{x
+M 8564 spec_cast_cleric	* Al'Rashem, High Priest of Atum'Ra
+S
+
+#RESETS
+D 0 8402 0 1	* a {RRusty{x Gate in the {gForest{x: door to the north: closed
+D 0 8403 2 1	* The Path Through the {gForest{x: door to the south: closed
+D 0 8407 0 1	* A Fortified Gate: door to the north: closed
+D 0 8408 2 1	* Inside the Fortified Gate: door to the south: closed
+D 0 8409 0 1	* The Seige Plains: door to the north: closed
+D 0 8433 0 1	* A Guarded Door: door to the north: closed
+D 0 8435 3 1	* East Gate of The Fortress: door to the west: closed
+D 0 8439 1 1	* Entrance to the Siege Tower: door to the east: closed
+D 0 8440 3 1	* The Base of The Seige Tower: door to the west: closed
+D 0 8442 1 1	* The Eastern Gate: door to the east: closed
+D 0 8444 0 1	* The Path of The {YSun{x: door to the north: closed
+D 0 8459 3 1	* The {wPawn{x Shop: door to the west: closed
+D 0 8462 2 1	* Ezakail's Tavern: door to the south: closed
+D 0 8468 1 1	* {wShady{x Lane: door to the east: closed
+D 0 8470 0 1	* {wShady{x Lane: door to the north: closed
+D 0 8471 2 1	* The Gate of {CV{Wa{Cl{Wo{Cr{x: door to the south: closed
+D 0 8489 0 1	* Before Kinzara's Chambers: door to the north: closed
+D 0 8490 2 1	* Office of The Queen's Advisor: door to the south: closed
+D 0 8492 1 1	* Knight's Quarters: door to the east: closed
+D 0 8493 2 1	* Barracks of the {CQueen's{x Guard: door to the south: closed
+D 0 8493 3 1	* Barracks of the {CQueen's{x Guard: door to the west: closed
+D 0 8494 0 1	* Knight's Quarter's: door to the north: closed
+D 0 8500 1 1	* The Vestibule of Atum'Ra : door to the east: closed
+D 0 8501 3 1	* The Path of The {YSun{x: door to the west: closed
+D 0 8502 0 1	* The Guard Barracks: door to the north: closed
+D 0 8504 2 1	* Guard's Barracks: door to the south: closed
+D 0 8506 2 1	* The Path of The {YSun{x: door to the south: closed
+D 0 8544 2 1	* The Seige Plains: door to the south: closed
+D 0 8545 0 1	* The Grand Gate of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x: door to the north: closed
+D 0 8571 2 1	* The Source of the {wBlack Sphere{x: door to the south: closed
+D 0 8596 1 1	* Second Floor: door to the east: closed
+D 0 8598 3 1	* A Storage Closet: door to the west: closed
+O 0 8401 0 8406	* a fire ring (A {gForest{x Grove)
+M 0 8432 4 8418 1	* {DVampire {BDread{bnaught{x (A Subcommander's Tent)
+M 0 8430 10 8418 1	* A Vampire Warrior (A Subcommander's Tent)
+M 0 8430 10 8419 1	* A Vampire Warrior (The Sub Commander's Tent)
+M 0 8430 10 8423 1	* A Vampire Warrior (The Seige Plains)
+M 0 8424 4 8424 2	* Guardian Lich (The Vampire Base)
+M 0 8425 8 8425 1	* A Vampire Knight (Inside The Vampire Base)
+O 0 8427 0 8427	* an {GI{gv{Gy {gV{Gi{gn{Ge{x hammock ({WA beautifully crafted {gg{ya{gz{ye{gb{yo{W off the Cobblestone Path{x)
+M 0 8427 1 8427 1	* an {YE{xlvis{Yh{x Bard ({WA beautifully crafted {gg{ya{gz{ye{gb{yo{W off the Cobblestone Path{x)
+M 0 8428 1 8428 1	* The {wvampire{x leader, Rekzhazek (The Office of the Vampire Commander)
+E 0 8428 0 6		*	An {wU{Dn{wH{Do{wl{Dy {wC{Do{ww{Dl{x: over the head
+E 0 8429 0 17		*	The {DSphere{x {wGeneration{x Unit: held in the hands
+M 0 8432 4 8429 1	* {DVampire {BDread{bnaught{x (Inside The Vampire Base)
+M 0 8432 1 8429 1	* {DVampire {BDread{bnaught{x (Inside The Vampire Base)
+M 0 8430 10 8430 1	* A Vampire Warrior (Inside The Vampire Base)
+M 0 8432 4 8432 1	* {DVampire {BDread{bnaught{x (Inside The Vampire Base)
+E 0 8432 0 5		*	A {wBreastplate {Wof {DDespair{x: on the body
+E 0 8434 0 7		*	{DB{cl{Da{cc{Dk{cS{Dt{ce{De{cl {wGreaves{x: on the legs
+M 0 8430 10 8436 1	* A Vampire Warrior (The Seige Plains)
+M 0 8430 10 8440 1	* A Vampire Warrior (The Base of The Seige Tower)
+M 0 8443 20 8441 1	* {YDefender{x of the {CQueen{x (The Bunk Room)
+M 0 8441 1 8441 1	* {BCaptain{x of the {YDefenders{x (The Bunk Room)
+E 0 8570 0 5		*	Full Platemail of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x: on the body
+E 0 8571 0 9		*	{WD{Yi{Wa{Ym{Wo{Yn{Wd{x Encrusted Gloves: on the hands
+E 0 8569 0 15		*	A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Guard Wrisband: on the right wrist
+M 0 8545 6 8442 1	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard (The Eastern Gate)
+M 0 8546 6 8442 1	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard (The Eastern Gate)
+M 0 8443 20 8443 2	* {YDefender{x of the {CQueen{x (The Path of The {YSun{x)
+M 0 8430 10 8451 1	* A Vampire Warrior (The Middle of The Seige Tower)
+M 0 8456 1 8456 1	* Gibraldain ({MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Towne Square)
+M 0 8459 1 8459 1	* Kalinda the Pawnbroker (The {wPawn{x Shop)
+G 0 8459 0		*	a canvas satchel
+G 0 8460 0		*	A well made shortsword
+G 0 8461 0		*	The Staff of the Faerie King
+G 0 8462 0		*	a scroll of many {rf{bu{yn{gs{x
+M 0 8460 1 8460 1	* Graciella, the sous chef (El Dolce Vendetta)
+G 0 8468 0		*	a canoli
+G 0 8469 0		*	a cup of gelato
+M 0 8463 1 8463 1	* Ezakail, The Bartender (The Barroom of Ezakail's Tavern)
+G 0 8465 0		*	a beer
+G 0 8466 0		*	a pint of dark ale
+E 0 8463 0 16		*	A Club Named "{BS{bm{Ba{b{Bc{bk{Be{br{x": wielded
+M 0 8467 1 8467 1	* Gomadon the {DN{Ya{Ds{Yt{Dy{x ({wShady{x Lane)
+E 0 8467 0 16		*	A Serrated {wDirk{x named {DG{rl{Da{rm{Dc{ra{Dt{ri{Dl{x: wielded
+M 0 8545 6 8471 1	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard (The Gate of {CV{Wa{Cl{Wo{Cr{x)
+M 0 8546 6 8471 1	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard (The Gate of {CV{Wa{Cl{Wo{Cr{x)
+M 0 8486 1 8486 1	* {MM{me{Mr{ma{Md{mr{Mi{Me{ml{x (Apex of the {bCr{Bys{ctal{Bli{bne{x Tower)
+E 0 8486 0 6		*	{Ma{mm{Me{mt{Mh{My{ms{Mt{x {Ct{ci{Ca{cr{Ca{x: over the head
+E 0 8487 0 1		*	A {YS{Co{Yl{Ca{Yr F{Cl{Ya{Cr{Ye{x: on the left finger
+E 0 8488 0 2		*	a {BT{be{Bm{bp{Bo{br{Ba{bl {DW{Wa{Dr{Wp{x: on the right finger
+E 0 8489 0 16		*	The {bCr{Bys{ctal{Bli{bne{x Dagger: wielded
+M 0 8490 1 8490 1	* Kinzara, Advisor to the Queen (Office of The Queen's Advisor)
+E 0 8490 0 6		*	A pair of tortoise-shell spectacles: over the head
+M 0 8495 1 8495 1	* Rexardius, The Queen's {CS{Wi{Cl{Cv{We{Cr{G Dragon{x ({bCr{Bys{ctal{Bli{bne{x Tower)
+E 0 8495 0 0		*	The {YB{ye{Ya{yc{Yo{yn{x of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x: as a light
+M 0 8443 20 8502 2	* {YDefender{x of the {CQueen{x (The Guard Barracks)
+M 0 8443 20 8503 1	* {YDefender{x of the {CQueen{x (Officer's Quarters)
+M 0 8443 20 8504 2	* {YDefender{x of the {CQueen{x (Guard's Barracks)
+M 0 8443 20 8506 1	* {YDefender{x of the {CQueen{x (The Path of The {YSun{x)
+M 0 8508 1 8508 1	* Rubrikal, the {YGold{x (The Fortress Magik Shop)
+G 0 8462 0		*	a scroll of many {rf{bu{yn{gs{x
+G 0 8461 0		*	The Staff of the Faerie King
+M 0 8443 20 8509 1	* {YDefender{x of the {CQueen{x (The Path of The {YSun{x)
+M 0 8515 1 8515 1	* Etenda, The {cCloud Giant{x Warrioress (Deep Into the Cloud)
+E 0 8515 0 16		*	{CG{Bl{Ca{Bm{Ci{Bt{Ch{Ba{Cs{x {DR{we{Dx{x: wielded
+M 0 8517 1 8517 1	* Adreahan, The {YKing{x of the {CCloud Giants{x (Deep Into the Cloud)
+E 0 8517 0 16		*	{CS{Dt{Co{Dr{Cm{Db{Cr{Di{Cn{Dg{Ce{Dr{x: wielded
+E 0 8518 0 6		*	The {CCirclet {xof the {CClouds{x: over the head
+M 0 8519 10 8519 1	* A {CCloud Giant{x Warrior{x (Deep Into the Cloud)
+E 0 8519 0 11		*	The {CShield{x of {YT{yh{YU{yn{YD{ye{YR{x: as a shield
+M 0 8519 1 8521 1	* A {CCloud Giant{x Warrior{x (Deep Into the Cloud)
+E 0 8519 0 11		*	The {CShield{x of {YT{yh{YU{yn{YD{ye{YR{x: as a shield
+M 0 8519 1 8521 1	* A {CCloud Giant{x Warrior{x (Deep Into the Cloud)
+E 0 8519 0 11		*	The {CShield{x of {YT{yh{YU{yn{YD{ye{YR{x: as a shield
+M 0 8540 4 8534 1	* A Ghast (Camp Of The Undead)
+M 0 8430 10 8534 1	* A Vampire Warrior (Camp Of The Undead)
+M 0 8432 4 8534 1	* {DVampire {BDread{bnaught{x (Camp Of The Undead)
+M 0 8540 4 8536 1	* A Ghast (Camp of The Undead)
+M 0 8540 4 8537 1	* A Ghast (Camp of The Undead)
+M 0 8537 1 8537 1	* Drekzak, the {DUn{wdead{x Commander (Camp of The Undead)
+M 0 8539 4 8539 2	* A {DDeath Knight{x (Camp of The Undead)
+M 0 8540 4 8540 1	* A Ghast (Camp of The Undead)
+M 0 8546 6 8545 1	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard (The Grand Gate of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x)
+M 0 8545 6 8545 1	* A {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x Gate Guard (The Grand Gate of {MM{me{Mr{ma{Md{mr{Mi{me{Ml{x)
+M 0 8430 10 8551 1	* A Vampire Warrior (The Seige Plains)
+M 0 8554 1 8554 1	* Tzakteklikog, the {gDraco{Dlich{x (A Large Cavern)
+M 0 8560 1 8560 1	* Whirmaldung, the mystic (A Large Cavern)
+M 0 8539 4 8561 2	* A {DDeath Knight{x (A Large Cavern)
+M 0 8564 1 8564 1	* Al'Rashem, High Priest of Atum'Ra (The Cathedral of Atum'Ra )
+E 0 8564 0 17		*	{YSundial{x: held in the hands
+O 0 8566 0 8566	* a cencer (Altar of {RFire{x)
+P 0 8565 2 8566 2	* a cencer: A {rhot {wcoal{x
+M 0 8430 10 8567 1	* A Vampire Warrior (The Seige Plains)
+M 0 8569 1 8569 1	* Pholpis, the Gearseller (Sturdy Gear, By Pholpis)
+G 0 8572 0		*	A {wBlack{x Leather Couch
+O 0 8420 0 8571	* {DThe Black Box{x (The Source of the {wBlack Sphere{x)
+S
+
+#SHOPS
+8459 15 2 -1 3 9 100 13 0 23
+8460 0 0 0 0 0 100 16 0 23
+8463 0 17 0 0 0 100 14 0 23
+8464 0 0 0 0 0 100 10 0 23
+8508 0 0 0 0 0 100 10 0 23
+8569 0 0 0 0 0 100 11 0 23
+0
+
+#OLIMITS
+O 8420 1	* {DThe Black Box{x
+S
+
+#MOBPROGS
+#8435
+if isgood $n
+yell We are under attack!
+murder $n
+mob echo Reinforcements quickly arrive.
+if mobhere 8436
+else
+mob transfer zapper
+mob mload 8436
+mob mload 8436
+point $n
+say ATTACK!!!!
+else
+say Have you come to join us against Meradriel?
+endif
+endif
+~
+#8436
+murder $r
+~
+#8456
+say Times are troubled, but I am here to assist with the wounded.
+~
+#8554
+mob oload 8554
+~
+#8560
+mob oload 8560 
+~
+#0
+
+#$

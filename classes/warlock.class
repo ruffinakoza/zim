@@ -1,0 +1,324 @@
+#CLASS
+Name warlock~
+ShortName WrK~
+PrimeStat int
+Description offensive spellcasters~
+SchoolWeapon 17635
+GuildRoom 3073
+GuildRoom 3074
+GuildRoom 9618
+GuildRoom 9617
+GuildRoom 9648
+GuildRoom 7596
+GuildRoom 7597
+GuildRoom 10639
+GuildRoom 10640
+SkillAdept 75
+Thac0_00 18
+Thac0_32 2
+HPRate 50
+ManaRate 100
+DamRate 30
+NimRate 20
+AcRate 90
+Flags magic~
+AddExp 0
+StatMod 0 3 0 0 0 1 0
+RestrictSex male~
+Skill 'dagger'			 1  3   0  -  -  -  0  0  0  0  0  0  0
+Skill 'whip'			 1  3   0  -  -  -  0  0  0  0  0 50  0
+Skill 'ventriloquate'		 1  1   0  -  -  -  0  0  0  0  0 55  0 
+Skill 'magic missile'		 1  1   0  -  -  -  0 50  0 40  0  0  0
+Skill 'wands'			 2  1   0  -  -  -  0 40  0  0  0  0  0
+Skill 'blink'			 3  1   0  -  -  -  0  0  0  0  0  0  0
+Skill 'scrolls'			 3  1   0  -  -  -  0 50  0  0  0  0  0
+Skill 'staves'			 4  1   0  -  -  -  0 45  0  0  0  0  0
+Skill 'chill touch'		 5  1   0  -  -  -  0 35  0 40  0  0  0
+Skill 'detect magic'		 6  1   0  -  -  -  0 40  0  0  0  0  0
+Skill 'meditation'		 6  1   0  -  -  -  0 60  0  0  0  0  0
+Skill 'knock'			 7  1   0  -  -  -  0 60  0 52  0  0  0
+Skill 'shocking grasp'		 9  1   0  -  -  -  0 44  0 50  0  0  0
+Skill 'spell craft'		10  1   0  -  -  -  0 65  0  0  0  0  0
+Skill 'detect invis'		10  1   0  -  -  -  0 51  0  0  0  0  0
+Skill 'scalp'			10  1   0  -  -  -  0  0  0  0  0  0  0
+Skill 'continual light'		11  1   0  -  -  -  0 20  0  0  0  0  0
+Skill 'armor'			13  1   0  -  -  -  0 35  0  0  0  0  0
+Skill 'invisibility'		13  1   0  -  -  -  0 45  0  0  0  0  0
+Skill 'burning hands'		14  1   0  -  -  -  0 42  0 40  0  0  0
+Skill 'fast healing'		15  1   0  -  -  -  0  0  0  0  0  0  0
+Skill 'faerie fire'		15  1   0  -  -  -  0 43  0 55  0  0  0
+Skill 'enchant weapon'		17  1   0  -  -  -  0 54  0  0  0  0  0
+Skill 'infravision'		18  1   0  -  -  -  0 30  0  0  0  0  0
+Skill 'fly'			19  1   0  -  -  -  0 42  0  0  0  0  0
+Skill 'blindness'		20  1   0  -  -  -  0 53  0  0  0  0  0
+Skill 'fireproof'		21  1   0  -  -  -  0 39  0  0  0  0  0
+Skill 'colour spray'		22  1   0  -  -  -  0 48  0 48  0  0  0
+Skill 'farsight'		22  1   0  -  -  -  0 52  0  0  0  0  0
+Skill 'teleport'		23  1   0  -  -  -  0 55  0 55  0  0  0 
+Skill 'haste'			24  1   0  -  -  -  0 48  0 40  0  0  0
+Skill 'pass door'		24  1   0  -  -  -  0 60  0 50  0  0  0
+Skill 'identify'		25  1   0  -  -  -  0 63  0  0  0  0  0
+Skill 'protective shield'	26  1   0  -  -  -  0 65  0 53  0  0  0
+Skill 'faerie fog'		27  1   0  -  -  -  0 55  0 52  0  0  0
+Skill 'cancellation'		28  1   0  -  -  -  0 40  0 42  0  0  0
+Skill 'sulfurus spray'		28  1   0  -  -  -  0 50  0 50  0  0  0
+Skill 'locate object'		29  1   0  -  -  -  0 58  0  0  0  0  0
+Skill 'recharge'		29  1   0  -  -  -  0 54  0  0  0  0  0
+Skill 'giant strength'		30  1   0  -  -  -  0 57  0 53  0  0  0
+Skill 'shield'			30  1   0  -  -  -  0 45  0 48  0  0  0
+Skill 'curse'			31  1   0  -  -  -  0 50  0 48  0  0  0
+Skill 'energy drain'		31  1   0  -  -  -  0 46  0 42  0  0  0
+Skill 'chain lightning'		33  1   0  -  -  -  0 49  0 47  0  0  0
+Skill 'link'			33  1   0  -  -  -  0 40  0  0  0  0  0
+Skill 'trance'			34  1   0  -  -  -  0 70  0  0  0  0  0
+Skill 'summon'			35  1   0  -  -  -  0 54  0  0  0  0  0
+Skill 'charm monster'		35  2   0  -  -  -  0 62  0 40  0 45  0
+Skill 'slow'			38  1   0  -  -  -  0 40  0 42  0  0  0
+Skill 'shocking trap'		40  1   0  -  -  -  0 56  0 44  0  0  0
+Skill 'improved detect'		40  1   0  -  -  -  0 62  0  0  0  0  0
+Skill 'dispel magic'		41  1   0  -  -  -  0 54  0 48  0  0  0
+Skill 'mass invis'		42  1   0  -  -  -  0 58  0  0  0  0  0
+Skill 'improved invis'		43  1   0  -  -  -  0 80  0 55  0  0  0
+Skill 'acid arrow'		44  1   0  -  -  -  0 60  0 50  0  0  0
+Skill 'scream'			48  1   0  -  -  -  0 64  0  0  0  0  0
+Skill 'fireball'		49  1   0  -  -  -  0 62  0 53  0  0  0
+Skill 'mend'			50  1   0  -  -  -  0 40  0  0  0  0  0
+Skill 'acid blast'		50  1   0  -  -  -  0 75  0 60  0  0  0
+Skill 'nexus'			51  1   0  -  -  -  0 62  0 58  0  0  0
+Skill 'fire shield'		52  1   0  -  -  -  0 60  0 50  0  0  0
+Skill 'dragons breath'		53  1   0  -  -  -  0 64  0  0  0  0  0
+Skill 'web'			54  1   0  -  -  -  0 40  0 65  0  0  0
+Skill 'shielding'		55  1   0  -  -  -  0 80  0  0  0  0  0
+Skill 'magic resistance'	58  1   0  -  -  -  0 63  0  0  0  0  0
+Skill 'polymorph'		59  1   0  -  -  -  0 72  0  0  0  0  0
+Skill 'prismic beam'		60  1   0  -  -  -  0 85  0 65  0  0  0
+Title 0 male the Man~
+Title 0 female the Woman~
+Title 1 male the Apprentice of Magic~
+Title 1 female the Apprentice of Magic~
+Title 2 male the Spell Student~
+Title 2 female the Spell Student~
+Title 3 male the Scholar of Magic~
+Title 3 female the Scholar of Magic~
+Title 4 male the Delver in Spells~
+Title 4 female the Delveress in Spells~
+Title 5 male the Medium of Magic~
+Title 5 female the Medium of Magic~
+Title 6 male the Scribe of Magic~
+Title 6 female the Scribess of Magic~
+Title 7 male the Seer~
+Title 7 female the Seeress~
+Title 8 male the Sage~
+Title 8 female the Sage~
+Title 9 male the Illusionist~
+Title 9 female the Illusionist~
+Title 10 male the Abjurer~
+Title 10 female the Abjuress~
+Title 11 male the Invoker~
+Title 11 female the Invoker~
+Title 12 male the Invoker~
+Title 12 female the Invoker~
+Title 13 male the Enchanter~
+Title 13 female the Enchantress~
+Title 14 male the Enchanter~
+Title 14 female the Enchantress~
+Title 15 male the Conjurer~
+Title 15 female the Conjuress~
+Title 16 male the Conjurer~
+Title 16 female the Conjuress~
+Title 17 male the Magician~
+Title 17 female the Witch~
+Title 18 male the Magician~
+Title 18 female the Witch~
+Title 19 male the Creator~
+Title 19 female the Creator~
+Title 20 male the Creator~
+Title 20 female the Creator~
+Title 21 male the Savant~
+Title 21 female the Savant~
+Title 22 male the Savant~
+Title 22 female the Savant~
+Title 23 male the Magus~
+Title 23 female the Craftess~
+Title 24 male the Magus~
+Title 24 female the Craftess~
+Title 25 male the Wizard~
+Title 25 female the Wizard~
+Title 26 male the Wizard~
+Title 26 female the Wizard~
+Title 27 male the Warlock~
+Title 27 female the War Witch~
+Title 28 male the Warlock~
+Title 28 female the War Witch~
+Title 29 male the Sorcerer~
+Title 29 female the Sorceress~
+Title 30 male the Sorcerer~
+Title 30 female the Sorceress~
+Title 31 male the Elder Sorcerer~
+Title 31 female the Elder Sorceress~
+Title 32 male the Elder Sorcerer~
+Title 32 female the Elder Sorceress~
+Title 33 male the Grand Sorcerer~
+Title 33 female the Grand Sorceress~
+Title 34 male the Grand Sorcerer~
+Title 34 female the Grand Sorceress~
+Title 35 male the Great Sorcerer~
+Title 35 female the Great Sorceress~
+Title 36 male the Great Sorcerer~
+Title 36 female the Great Sorceress~
+Title 37 male the Golem Maker~
+Title 37 female the Golem Maker~
+Title 38 male the Golem Maker~
+Title 38 female the Golem Maker~
+Title 39 male the Greater Golem Maker~
+Title 39 female the Greater Golem Maker~
+Title 40 male the Greater Golem Maker~
+Title 40 female the Greater Golem Maker~
+Title 41 male the Maker of Stones~
+Title 41 female the Maker of Stones~
+Title 42 male the Maker of Stones~
+Title 42 female the Maker of Stones~
+Title 43 male the Maker of Potions~
+Title 43 female the Maker of Potions~
+Title 44 male the Maker of Potions~
+Title 44 female the Maker of Potions~
+Title 45 male the Maker of Scrolls~
+Title 45 female the Maker of Scrolls~
+Title 46 male the Maker of Scrolls~
+Title 46 female the Maker of Scrolls~
+Title 47 male the Maker of Wands~
+Title 47 female the Maker of Wands~
+Title 48 male the Maker of Wands~
+Title 48 female the Maker of Wands~
+Title 49 male the Maker of Staves~
+Title 49 female the Maker of Staves~
+Title 50 male the Maker of Staves~
+Title 50 female the Maker of Staves~
+Title 51 male the Demon Summoner~
+Title 51 female the Demon Summoner~
+Title 52 male the Demon Summoner~
+Title 52 female the Demon Summoner~
+Title 53 male the Greater Demon Summoner~
+Title 53 female the Greater Demon Summoner~
+Title 54 male the Greater Demon Summoner~
+Title 54 female the Greater Demon Summoner~
+Title 55 male the Dragon Charmer~
+Title 55 female the Dragon Charmer~
+Title 56 male the Dragon Charmer~
+Title 56 female the Dragon Charmer~
+Title 57 male the Greater Dragon Charmer~
+Title 57 female the Greater Dragon Charmer~
+Title 58 male the Greater Dragon Charmer~
+Title 58 female the Greater Dragon Charmer~
+Title 59 male the Master of Sorcery~
+Title 59 female the Mistress of Sorcery~
+Title 60 male the Master Wizard~
+Title 60 female the Master Wizard~
+Title 61 male the Warlock Helper~
+Title 61 female the Warlock Helper~
+Title 62 male the Avatar of Magic~
+Title 62 female the Avatar of Magic~
+Title 63 male the Angel of Magic~
+Title 63 female the Angel of Magic~
+Title 64 male the Demigod of Magic~
+Title 64 female the Demigoddess of Magic~
+Title 65 male the Immortal of Magic~
+Title 65 female the Immortal of Magic~
+Title 66 male the God of Magic~
+Title 66 female the Goddess of Magic~
+Title 67 male the Deity of Magic~
+Title 67 female the Deity of Magic~
+Title 68 male the Supremity of Magic~
+Title 68 female the Supremity of Magic~
+Title 69 male the Creator~
+Title 69 female the Creator~
+Title 70 male the Implementor~
+Title 70 female the Implementress~
+End
+
+#POSE
+Self You sizzle with energy.~
+Others $n sizzles with energy.~
+End
+
+#POSE
+Self You turn into a butterfly, then return to your normal shape.~
+Others $n turns into a butterfly, then returns to $s normal shape.~
+End
+
+#POSE
+Self Blue sparks fly from your fingers.~
+Others Blue sparks fly from $n's fingers.~
+End
+
+#POSE
+Self Little red lights dance in your eyes.~
+Others Little red lights dance in $n's eyes.~
+End
+
+#POSE
+Self A slimy green monster appears before you and bows.~
+Others A slimy green monster appears before $n and bows.~
+End
+
+#POSE
+Self You turn everybody into a little pink elephant.~
+Others You are turned into a little pink elephant by $n.~
+End
+
+#POSE
+Self A small ball of light dances on your fingertips.~
+Others A small ball of light dances on $n's fingertips.~
+End
+
+#POSE
+Self Smoke and fumes leak from your nostrils.~
+Others Smoke and fumes leak from $n's nostrils.~
+End
+
+#POSE
+Self The light flickers as you rap in magical languages.~
+Others The light flickers as $n raps in magical languages.~
+End
+
+#POSE
+Self Your head disappears.~
+Others $n's head disappears.~
+End
+
+#POSE
+Self A fire elemental singes your hair.~
+Others A fire elemental singes $n's hair.~
+End
+
+#POSE
+Self The sky changes color to match your eyes.~
+Others The sky changes color to match $n's eyes.~
+End
+
+#POSE
+Self The stones dance to your command.~
+Others The stones dance to $n's command.~
+End
+
+#POSE
+Self The heavens and grass change colour as you smile.~
+Others The heavens and grass change colour as $n smiles.~
+End
+
+#POSE
+Self Everyone's clothes are transparent, and you are laughing.~
+Others Your clothes are transparent, and $n is laughing.~
+End
+
+#POSE
+Self A black hole swallows you.~
+Others A black hole swallows $n.~
+End
+
+#POSE
+Self The world shimmers in time with your whistling.~
+Others The world shimmers in time with $n's whistling.~
+End
+
+#$

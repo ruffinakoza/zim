@@ -1,0 +1,491 @@
+#AREADATA
+Name The Road to Caerlon~
+VNUMs 10881 10897
+Credits Nalaeya~
+Security 1
+LevelRange 1 1
+End
+
+#OBJECTS
+#10891
+bales hay~
+a bale of hay~
+~
+unknown~
+~
+furniture OR 0
+AB EIJKN EHK ABEFG BCDFG AB EIJKN
+0 0 0 P
+E
+bales hay~
+They look like a comfortable place to rest, if you can avoid getting
+caught by an angry farmer.  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#10881
+Before the Gates of New Thalos~
+The northern gates of New Thalos lie directly to the south, a line of
+people waiting to enter as the guards pass a lazy eye over their belongings,
+stopping those who have to pay duties.  The air is hot here, and thick with
+the smell of sweat and tired bodies, but there is a sense of excitement in
+the air, and a steady buzz coming from the crowds within the lively city.  
+~
+0 0 field
+D0
+A crowd of people tries to move forward to reach the gates.
+~
+~
+Z 0 10882
+0 0
+D2
+~
+~
+Z 0 9522
+0 0
+D3
+~
+~
+Z 0 9667
+0 0
+S
+#10882
+The Road to New Thalos~
+The road becomes more crowded as the city of New Thalos comes into view
+to the south.  Wagons pass by, filled with goods, and a growing crowd of
+people walks alongside them, making progress slow.  The air grows hot and
+dusty from all the bodies moving along the road, raising up dirt and filling
+the air with the scent of sweat.  
+~
+0 0 field
+D0
+Farmhouses stand to the north.
+~
+~
+Z 0 10883
+0 0
+D2
+The city of New Thalos is visible off in the distance.
+~
+~
+Z 0 10881
+0 0
+S
+#10883
+The Road Between the Farmhouses~
+Farmhouses grow to either side of the road, spaced well apart but
+becoming more frequent to the south.  Every now and then a farmer rides by,
+horses dragging along their carts filled with vegetables and farming
+supplies, turning down side roads to head towards the farms.  A few people
+seem to be traveling the road on foot, most of them appearing to be locals
+from nearby villages.  
+~
+0 0 field
+D0
+A forest stands to the north.
+~
+~
+Z 0 10884
+0 0
+D2
+The crowd grows thicker as the city of New Thalos nears.
+~
+~
+Z 0 10882
+0 0
+S
+#10884
+The Beginning of the Forest~
+The forest to the north becomes thicker, but here the trees are growing
+more sparsely and to the south, off in the distance, the rooftops of
+farmhouses are becoming visible.  The forest seems to be clearing here,
+fading away and becoming flat farmland as the road progresses southward.  
+~
+0 0 field
+D0
+A beautiful forest lies north.
+~
+~
+Z 0 10885
+0 0
+D2
+Farmhouses stand to the south, beyond the forest.
+~
+~
+Z 0 10883
+0 0
+S
+#10885
+A Road Through the Forest~
+Small trails branch off from the main road here, leading to small streams
+or cliffs where people can stop and enjoy the view of the forest.  Signs of
+habitation increase further to the south, as more and more trails appear,
+and it becomes obvious that this area of the forest is frequently traveled..
+To the north the forest grows thicker, hiding any view of what lies beyond,
+while to the south the trees thin out, growing further and further apart
+from each other.  
+~
+0 0 forest
+D0
+The road to the north is illuminated by strands of light drifting through
+the trees.  
+~
+~
+Z 0 10886
+0 0
+D2
+The forest clears to the south.
+~
+~
+Z 0 10884
+0 0
+S
+#10886
+A Peaceful Road Through the Forest~
+Light drifts down through the trees, their strands reaching the road and
+dancing as the wind shakes leaves and branches above.  While the forest to
+the north is darker, thick trees blocking out most of the sky’s light, the
+forest here is light and airy, the trees growing further apart and allowing
+a clearer view of what lies beyond them.  
+~
+0 0 forest
+D0
+Trees grow thickly to the north.
+~
+~
+Z 0 10887
+0 0
+D2
+The trees to the south begin to grow further apart.
+~
+~
+Z 0 10885
+0 0
+S
+#10887
+Within the Thick Forest~
+A thick forest rises all around, trees of all kinds growing on either
+side of the road and leaving it shrouded in shadow except for a few stray
+strands of light that manage to slip through and illuminate the path ahead. 
+The smell of the forest is strong here, wildflowers mixing with leaves and
+moss and a thousand other growing things to fill the air with a strong but
+pleasant scent.  
+~
+0 0 forest
+D0
+The forest to the north is shrouded in darkness.
+~
+~
+Z 0 10888
+0 0
+D1
+~
+~
+Z 0 19411
+0 0
+D2
+The forest grows lighter to the south.
+~
+~
+Z 0 10886
+0 0
+S
+#10888
+A Shadowed Road in the Forest~
+The forest trees rise high here, some reaching over a hundred feet and
+blocking out most of the light that tries to pierce through their leaves and
+branches, leaving the road ahead shrouded in shadow.  Every now and then
+something rustles amidst the trees, though it’s difficult to tell the source
+and to guess what caused it, as there is no wind blowing along the road. 
+The feeling of being watched is strong here, and the trees offer a perfect
+place for someone to hide and prepare an ambush.  
+~
+0 A forest
+D2
+The forest grows a bit lighter to the south.
+~
+~
+Z 0 10887
+0 0
+D3
+The trees begin to grow more sparsely to the west.
+~
+~
+Z 0 10889
+0 0
+S
+#10889
+Approaching the Dark Forest~
+The road here grows darker, kept in the shade of tall trees that rise up
+to either side.  The trees here are still somewhat sparse, as they are often
+cut down by nearby farmers for firewood or for adding rooms to their homes,
+but to the east a large forest rises up, trees growing thick and close
+together, the road barely able to pierce through the wilderness.  Few people
+travel along this road, though every now and then a fellow traveler can be
+seen, well-armed and eyeing you warily.
+~
+0 A forest
+D1
+The trees grow thicker to the east, shrouding the forest in shadow.  
+~
+~
+Z 0 10888
+0 0
+D3
+The trees clear and smoke can be seen coming from the chimneys of
+farmhouses.  
+~
+~
+Z 0 10890
+0 0
+S
+#10890
+Along the Road to Caerlon~
+A few wagons make their way down the road, raising dust as they pass, but
+for the most part the only travelers are weary men and women heading to the
+city in search of wealth and adventure.  A few farms can by seen in the
+distance, though they grow more scarce to the east where a thick forest
+replaces the flat farmland that stretches out to the west towards the city
+of Caerlon.  
+~
+0 0 field
+D1
+A dark forest begins to the east.
+~
+~
+Z 0 10889
+0 0
+D3
+Farms become more frequent to the west.
+~
+~
+Z 0 10891
+0 0
+S
+#10891
+Along the Road to Caerlon~
+Farms stand to either side of the road, bent wooden fences marking the
+beginnings of farmers’ properties, and a vain attempt to keep those
+traveling down the road off their land.  Several bales of hay placed close
+by the road seem to be a good place to rest, and from the looks of it, many
+people have taken advantage of them, some still sleeping where they can get
+some shade and be somewhat removed from the dust of the road.  
+~
+0 0 field
+D1
+A forest lies far off in the distance.
+~
+~
+Z 0 10890
+0 0
+D3
+Farms dot the horizon to either side of the road.
+~
+~
+Z 0 10892
+0 0
+S
+#10892
+Along the Road to Caerlon~
+Farms begin to appear more frequently here, set a good distance from the
+distractions of the city to the west but still close enough to be able to
+bring surplus produce to market for a few extra coins.  A few wagons rumble
+by, along with men on horseback, and every now and then a guard in uniform
+can be seen patrolling the road, but for the most part those who travel here
+are farmers with their carts, and men on foot, heading towards the city for
+a day of trading or back home to rest weary feet.  
+~
+0 0 field
+E
+guard~
+The guard nods at you, eyeing you warily and then scanning the rest of
+the road.  
+~
+D1
+A thick forest lies in the distance.
+~
+~
+Z 0 10891
+0 0
+D3
+Farmland begins to the west.
+~
+~
+Z 0 10893
+0 0
+S
+#10893
+Along the Road to Caerlon~
+Every now and then a wagon rolls by, heading down the road loaded with
+goods and raising up dust that chokes the air and brings curses from the
+others traveling the road.  The road here is quite busy, farmers driving
+their vegetable filled carts towards the city to the west, or bringing back
+their empty ones towards the farms that begin to appear more frequently to
+the east.  Men on horseback move through the crowd, picking their way
+carefully around the wagons and travelers sharing the road.  
+~
+0 0 field
+E
+travelers~
+They seem to have come from many different lands, some with very strange
+fashion sense.  
+~
+D1
+The crowd begins to thin to the east.
+~
+~
+Z 0 10892
+0 0
+D3
+The crowds grow even thicker to the west.
+~
+~
+Z 0 10894
+0 0
+S
+#10894
+Along the Road to Caerlon~
+A glint far off in the distance to the west is all that can be seen of
+Caerlon’s famed city walls from here.  The road is crowded here, with many
+people heading to and from the city, packed with goods meant for trade. 
+Wagons roll by, their wheels creaking as the drivers crack their whips and
+curse at anyone walking in their way.  Every now and then a guard in uniform
+can be seen walking through the crowd, patrolling the roads to Caerlon to
+insure that they are kept safe from highwaymen.  
+~
+0 0 field
+E
+guard~
+The crowd clears for the guards as they pass through, making sure
+everything is in order.  
+~
+D1
+Farms begin to appear more frequently to the east.
+~
+~
+Z 0 10893
+0 0
+D3
+Wagons roll by, bringing goods to and from the city.
+~
+~
+Z 0 10895
+0 0
+S
+#10895
+Along the Road to Caerlon~
+The city walls of Caerlon can be seen to the west, glittering as light
+hits them.  Even this far from the city, the roads are still crowded, the
+throng progressing slowly as people try to make their way past cursing wagon
+drivers forced to lower their speed to move through the crowd.  The air is
+thick with dust brought up by the steady beating of foot, wheel and hoof on
+the ground, combining with the heat to make it difficult to get a breath of
+fresh air.  
+~
+0 0 field
+E
+wagon drivers~
+Many of them seem to be a surly lot.
+~
+D1
+The land to the east seems to dominated by farms.
+~
+~
+Z 0 10894
+0 0
+D3
+Wagons roll by, heading into the city.
+~
+~
+Z 0 10896
+0 0
+S
+#10896
+Along the Road to Caerlon~
+The sharp crack of whips wielded by wagon drivers is accompanied by their
+sharp orders as they barrel down the road, threatening to run over anyone
+not quick enough to move out of their paths.  The traffic here is heavy,
+people moving to and from the great city of Caerlon, many of them carrying
+goods meant for trade.  The road here is paved with stone, with ruts where
+the wagons commonly pass by.  The sounds of the wagons as they pass by
+mingles with the voices of the crowd moving along on foot and on horseback,
+creating a steady din that makes it difficult to make out anything quieter
+than a shout.  
+~
+0 0 field
+E
+crowd~
+Some move on foot, others on horseback, but progress is slow for everyone.  
+~
+E
+wagon drivers~
+Wagon drivers curse at the crowd, trying to frighten them out of the way
+with whips.  
+~
+D1
+The crowds are still thick to the east.
+~
+~
+Z 0 10895
+0 0
+D3
+Crowds of people can be seen waiting to enter the city.
+~
+~
+Z 0 10897
+0 0
+S
+#10897
+Outside the Eastern Gate~
+Wagons and people on horseback or on foot wait by the gates, all
+clamoring to get in or trying to force their way out through the crowd.  The
+guards on duty try to bring some order to the confusion, inspecting everyone
+who passes through, but there is little they can do about the sheer volume
+of people trying to make their way past them.  The creak of wagon wheels
+mingles with the sounds of horses and the voices of the throng of people
+trying to move forward, creating a steady buzz.  The pungent odor of sweat,
+from horse and men alike, fills the air, combining with the dust and heat to
+make it difficult to breathe.  
+~
+0 0 field
+E
+wagons horses people~
+Wagons, horses and people are all crowded together, trying to make their
+way through the gates.  
+~
+E
+guards~
+They do their best to bring some order, but they are quite simply
+outnumbered and can do little more than watch as the crowd moves forward.  
+~
+D1
+Thick crowds move along the road to the east.
+~
+~
+Z 0 10896
+0 0
+D3
+The walls of Caerlon stand to the west.
+~
+~
+Z 0 10616
+0 0
+S
+#0
+
+#RESETS
+O 0 10891 0 10891	* a bale of hay (Along the Road to Caerlon)
+S
+
+#MOBPROGS
+#10890
+mob echo The cooks hands grow numb, and the spoon falls from her fingers as she hits the ground.
+~
+#0
+
+#$

@@ -1,0 +1,2903 @@
+#AREADATA
+Name Rotting Spine Village~
+Builders thornan slothe~
+VNUMs 98700 98900
+Credits Thornan~
+Security 9
+LevelRange 1 91
+End
+
+#MOBILES
+#98700
+rabbit~
+A red rabbit~
+A red rabbit is here trying to find food.
+~
+Here is a red rabbit looking for some food.  He looks hungry.  He has
+blood all over his body.  
+~
+rabbit~
+A 0 0 0
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+0 0 0 0
+stand stand male 10
+0 0 medium flesh~
+~
+#98701
+gate guard rotting spine village~
+The Gate Guard~
+Here stands the Gate Guard waiting for someone to question his orders.
+~
+This Guard has a Helmet on his head but you notice that he is ugly.  Way
+too ugly for a guard.  
+~
+orc~
+AB 0 -100 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98704 100~
+M grall 98713 100~
+#98702
+erik'uk~
+The Priestess Erik'uk~
+The Priestess stands here waiting for more of her people to heal them.
+~
+The Priestess Erik'uk is a female Orc, the most powerful Healer of all
+Orcs.  She stands 5'30 feet tall, and you notice her powers by every spur of
+her skin.  Her knowledge of Healing is impressive, her role as The Healer of
+all Orcs is unchallenged.  She heals everyone from here to the far east
+lands.  
+~
+orc~
+ABa Ou -200 0
+89 89 394d89+0 445d10+85 29d3+49 none
+-50 -50 -50 -32
+FJKR 0 0 0
+stand stand female 200
+0 0 large flesh~
+~
+F vul N
+#98703
+orc~
+An Orc~
+An Orc stands here searching for fresh meat
+~
+This is an Orc.  The orcs are divided in 3 parts.  The healers the
+villagers and the fighters.  Orcs are battleman by birth, but sometimes they
+escape to their destiny and become magic beings.  Only few or none of them
+have those skills, only in few exceptions.  This is an orc fighter.  
+~
+orc~
+AB 0 -500 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand male 40
+0 0 medium flesh~
+~
+M grall 98707 100~
+#98704
+urukhai~
+An UrukHai~
+An UrukHai is standing here looking at you waiting for the right moment to attack
+~
+This is an UrukHai.  The most powerful battle orcs.  Orcs have an
+Heriarchy.  The Urukhai are the head of that Heriarchy.  They are ruthless
+warriors and kill everything in their way.  
+~
+orc~
+ABT 0 -400 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98706 100~
+#98705
+osor'uk~
+The Village Shaman Osor'uk~
+The Village Shaman Osor'uk is here waiting for new orcs to talk.
+~
+This is the Shaman of the Rotting Spine Village.  He is called Osor'uk
+and he is here when you need him.  
+~
+orc~
+Aa u -300 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#98706
+guard~
+An Orc Guard~
+An Orc is standing here watching to the horizon looking for enemies
+~
+This is an orc guard.  He is watching into the horizon.  He is filthy and
+ugly.  
+~
+orc~
+AT 0 0 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M grall 98708 100~
+#98707
+village guard~
+A Village Guard~
+Here stands a Village Guard.
+~
+This is a village guard.  He is here to guard the village and protect it
+from intruders.  
+~
+orc~
+A 0 0 0
+25 25 43d25+0 125d10+85 8d3+17 none
+-7 -7 -7 -1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98708
+orc villager~
+An Orc Villager~
+Here is a villager from Rotting Spine
+~
+You look at him and you see an orc.  A filthy orc, ugly and smelly. 
+Disgusting!  
+~
+orc~
+A 0 -100 0
+19 19 36d19+0 95d10+85 6d3+14 none
+-3 -3 -3 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98709
+guard tower~
+Guard of the Northwest Tower~
+Here is an orc looking to the horizon, watching his territory.
+~
+This is one of the four orcs chosen to be in the most important towers of
+the Rotting Spine Village.  
+~
+orc~
+A u -100 0
+76 76 368d76+0 760d11+95 26d2+58 none
+-45 -45 -45 -29
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98705 100~
+#98710
+guard tower~
+Guard of the Northeast Tower~
+Here is an Orc looking to the Horizon watching his territory
+~
+This is one of the four orcs chosen to be in the most important towers of
+the Rotting Spine Village.  
+~
+orc~
+A u -100 0
+76 76 368d76+0 760d11+95 26d2+58 none
+-45 -45 -45 -29
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98705 100~
+#98711
+guard tower~
+Guard of the Southwest Tower~
+Here is an Orc looking to the Horizon watching his territory
+~
+This is one of the four orcs chosen to be in the most important towers of
+the Rotting Spine Village.  
+~
+orc~
+A u -100 0
+76 76 368d76+0 760d11+95 26d2+58 none
+-45 -45 -45 -29
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98705 100~
+#98712
+guard tower~
+Guard of the Southeast Tower~
+Here is an Orc looking to the Horizon watching his territory
+~
+This is one of the four orcs chosen to be in the most important towers of
+the Rotting Spine Village.  
+~
+orc~
+A u -100 0
+76 76 368d76+0 760d11+95 26d2+58 none
+-45 -45 -45 -29
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98705 100~
+#98713
+lik'ok~
+the Armorer Lik'Ok~
+Here stands an orc with a funny face trying to sell something to you
+~
+~
+orc~
+AB u -200 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98700 100~
+#98714
+lok'ik~
+the Magician Lok'ik~
+Here stands an orc with a face very similiar to the one in the armory
+~
+~
+orc~
+AB u -200 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98701 100~
+#98715
+olik~
+The Weaponmaster Olik~
+Here stands the weaponmaster of the Rotting Spine Village
+~
+~
+orc~
+AB u 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 4000
+0 0 medium flesh~
+~
+M grall 98703 100~
+#98716
+sid'lik~
+the Seller Sid'lik~
+Here stands the seller of the general store in Rotting Spine
+~
+~
+orc~
+AB u -200 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98702 100~
+#98717
+wakboth~
+Wakboth~
+Here stands the master of war Wakboth
+~
+~
+orc~
+AT u -500 0
+91 94 422d94+0 470d10+85 31d3+52 none
+-54 -54 -54 -34
+CDEHIJKLRW 0 B 0
+stand stand male 3203
+0 0 large flesh~
+~
+#98718
+wikbith~
+Wikbith~
+Here stands the sister of the master of war, Wikbith.
+~
+~
+orc~
+AT x -500 0
+91 91 405d91+0 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CDEFIJKR 0 0 0
+stand stand female 30
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#98700
+pit~
+A {ypit{x~
+{yA pit is here on the floor waiting to be opened{x~
+gold~
+~
+container Cg 0
+10000 A 0 20000 10 0
+100 10000 900 P
+G none
+G none
+G none
+G none
+#98701
+sword gate~
+the Gate Sword~
+A sword is here on the floor~
+unknown~
+~
+weapon EJ AN
+longsword 4 20 slice D
+65 100 34485 P
+G none
+G none
+G none
+G none
+#98702
+rotting sword~
+Rotting Sword~
+A sword is here on the floor~
+metal~
+~
+weapon EJ AN
+longsword 2 12 slice D
+20 21 3273 W
+G none
+G none
+G none
+G none
+#98703
+armplates~
+Rusty armplates~
+There are armplates on the floor~
+unknown~
+~
+armor EJ AI
+-3 -2 -1 -2 'none' 0
+10 30 10000 P
+G none
+G none
+G none
+G none
+#98704
+boots~
+Rusty Boots~
+Some rusty boots are here on the floor~
+unknown~
+~
+armor EJ AG
+-1 -1 -1 -1 'none' 0
+20 50 10000 P
+G none
+G none
+G none
+G none
+#98705
+leggings~
+Rusty Leggings~
+Some rusty leggings are here on the floor~
+unknown~
+~
+armor EJ AF
+-2 -2 -2 -2 'none' 0
+20 60 10000 P
+G none
+G none
+G none
+G none
+#98706
+gloves~
+Rusty Gloves~
+Some rusty gloves are here on the floor~
+unknown~
+~
+armor EJ AH
+-2 -2 -2 -2 'none' 0
+20 10 10000 P
+G none
+G none
+G none
+G none
+#98707
+helmet~
+Rusty Helmet~
+A rusty helmet is here on the floor~
+unknown~
+~
+armor EJ AE
+-2 -2 -2 -2 'none' 0
+20 30 10000 P
+G none
+G none
+G none
+G none
+#98708
+flying potion~
+A potion of flying~
+Here's a potion~
+unknown~
+~
+potion 0 AO
+10 'fly' 'reserved' 'reserved' 'reserved'
+10 5 1600 P
+G none
+G none
+G none
+G none
+#98709
+potion armor~
+A potion of armor~
+Here's a potion~
+unknown~
+~
+potion 0 AO
+10 'armor' 'reserved' 'reserved' 'reserved'
+10 5 1600 P
+G none
+G none
+G none
+G none
+#98710
+wand acid~
+A wand of acid arrows~
+Here's a wand on the floor~
+unknown~
+~
+wand 0 AO
+60 6 6 'acid arrow'
+60 100 900000 P
+G none
+G none
+G none
+G none
+#98711
+leg human~
+A leg of a human~
+Here is a leg of a human on the floor~
+unknown~
+~
+food 0 A
+BD AC 0 0 0 BD AC
+0 10 112 P
+G none
+G none
+G none
+G none
+#98712
+rum~
+A bottle with rum~
+A bottle of rum is here on the floor~
+unknown~
+~
+drink 0 A
+10 10 'rum' 0
+0 8 1437 P
+G none
+G none
+G none
+G none
+#98713
+little container~
+A little container~
+A little container is here on the floor~
+unknown~
+~
+container 0 AQ
+200 0 0 100 90 0
+15 100 4240 P
+G none
+G none
+G none
+G none
+#98714
+potion cure light~
+A potion for cure light wounds~
+A potion is on the floor~
+unknown~
+~
+potion 0 AO
+10 'cure light' 'reserved' 'reserved' 'reserved'
+10 20 16000 P
+G none
+G none
+G none
+G none
+#98715
+huge axe~
+A rusty huge axe~
+A huge axe is here on the floor~
+unknown~
+~
+weapon 0 AN
+axe 2 15 chop 0
+26 27 1270 P
+G none
+G none
+G none
+G none
+#98716
+giant sword~
+A rusty giant sword~
+A giant sword is here on the floor~
+unknown~
+~
+weapon 0 AN
+bastardsword 1 29 slice F
+20 21 1300 P
+G none
+G none
+G none
+G none
+#98717
+sword~
+A rusty sword~
+A sword is here on the floor~
+unknown~
+~
+weapon 0 AN
+longsword 1 12 slice 0
+10 11 575 P
+G none
+G none
+G none
+G none
+#98718
+flail~
+A rusty flail~
+A flail is here on the floor~
+unknown~
+~
+weapon 0 AN
+flail 1 10 crush 0
+10 11 450 P
+G none
+G none
+G none
+G none
+#98719
+axe~
+A rusty axe~
+An axe is here on the floor~
+unknown~
+~
+weapon 0 AN
+axe 1 12 chop 0
+10 11 500 P
+G none
+G none
+G none
+G none
+#98720
+potion cure critical~
+A potion for cure critical wounds~
+A potion is here on the floor~
+unknown~
+~
+potion 0 AO
+10 'cure critical' 'reserved' 'reserved' 'reserved'
+10 20 16000 P
+G none
+G none
+G none
+G none
+#98721
+potion return~
+A magic potion of return~
+A potion is here on the floor~
+unknown~
+~
+potion 0 AO
+20 'word of recall' 'reserved' 'reserved' 'reserved'
+20 5 26000 P
+G none
+G none
+G none
+G none
+#98722
+dagger~
+A rusty dagger~
+A dagger is here on the floor~
+unknown~
+~
+weapon 0 AN
+dagger 2 3 stab 0
+10 11 400 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#98700
+A Grizzly and Bloody trail~
+You have entered in a trail, in a Grizzly and Bloody trail.  You look
+around and it's covered with red leafs.  It looks like they were completely
+souped with blood.  The trail continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98701
+0 0
+D3
+~
+~
+Z 0 3588
+0 0
+S
+#98701
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98702
+0 0
+D3
+~
+~
+Z 0 98700
+0 0
+S
+#98702
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98703
+0 0
+D3
+~
+~
+Z 0 98701
+0 0
+S
+#98703
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues south.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98704
+0 0
+D3
+~
+~
+Z 0 98702
+0 0
+S
+#98704
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98703
+0 0
+D2
+~
+~
+Z 0 98705
+0 0
+S
+#98705
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues east.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98704
+0 0
+D1
+~
+~
+Z 0 98706
+0 0
+S
+#98706
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues up.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98705
+0 0
+D4
+~
+~
+Z 0 98707
+0 0
+S
+#98707
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues up.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 98708
+0 0
+D5
+~
+~
+Z 0 98706
+0 0
+S
+#98708
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues east 
+~
+0 0 inside
+D1
+~
+~
+Z 0 98709
+0 0
+D5
+~
+~
+Z 0 98707
+0 0
+S
+#98709
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues east 
+~
+0 0 inside
+D1
+~
+~
+Z 0 98710
+0 0
+D3
+~
+~
+Z 0 98708
+0 0
+S
+#98710
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues down.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98709
+0 0
+D5
+~
+~
+Z 0 98711
+0 0
+S
+#98711
+A Grizzly and Bloody trail~
+You continue in a trail, in a Grizzly and Bloody trail.  You look around
+and it's covered with red leafs.  It looks like they were completely souped
+with blood.  The trail continues down.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 98710
+0 0
+D5
+~
+~
+Z 0 98712
+0 0
+S
+#98712
+A Grizzly and Bloody trail~
+As you come forth in your journey in the Grizzly and Bloody trail, you
+can see Wooden Gates south of you.  What is behind those gates?  Try to pass
+them.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98713
+0 0
+D4
+~
+~
+Z 0 98711
+0 0
+S
+#98713
+Massive Iron Bound Wooden Gates~
+You arrive to the front of the Iron Bound Wooden Gates.  These Gates are
+huge, you try to guess what is behind it, no ideas come to you.  Try to open
+the gates and adventure yourself.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98712
+0 0
+D2
+~
+~
+ABFZ 0 98714
+0 0
+S
+#98714
+Mud path through the village~
+You have entered in the Rotting Spine Village.  Here smells like rotten
+corpses and blood, disgusting.  Consider going south, adventure yourself
+into this smelly village.  
+~
+0 0 inside
+D0
+~
+~
+ABFZ 0 98713
+0 0
+D2
+~
+~
+Z 0 98715
+0 0
+S
+#98715
+Mud path through the village~
+You continue your adventure in the Rotting Spine Village.  The smell of
+rotten corpses and blood, continues in here, you feel sick.  Consider going
+south, adventure yourself to go deeper to the village.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98714
+0 0
+D2
+~
+~
+Z 0 98716
+0 0
+S
+#98716
+Intersection in the Mud path~
+This is an intersection.  The floor here is covered with mud and the
+smell of rotten corpses and blood turns to a vision of corpses in front of
+you.  Human corpses, animal corpses, everything dies here.  "Who lives in
+this village?"  You ask yourself.  Go deeper to find out!  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98715
+0 0
+D2
+~
+~
+Z 0 98717
+0 0
+D3
+~
+~
+Z 0 98724
+0 0
+S
+#98717
+Inside The Gates of the Temple of Evil~
+You have arrived to the Gates of The Temple of Evil.  Here you will find
+the Priestess.  And you can pray to stay alive in this village.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98716
+0 0
+D1
+~
+~
+ABFZ 0 98718
+0 0
+D2
+~
+~
+ABZ 0 98721
+0 0
+D3
+~
+~
+Z 0 98719
+0 0
+S
+#98718
+Village Shamans quarters~
+This is the Shamans quarters.  The Shaman that lives in here, is an
+Uruk-Hai, created by one of the most stronger and intelligent breeds.  His
+name is Osor'uk.  
+~
+0 0 inside
+D3
+~
+~
+ABFZ 0 98717
+0 0
+S
+#98719
+Donation room~
+This is a Donation room.  Everytime an orc comes here to pray and to
+consult their Priestess or their Shaman, they come here and put something to
+honor their God, Wakboth.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98717
+0 0
+D3
+~
+~
+Z 0 98720
+0 0
+S
+#98720
+Vestibules of the Shaman~
+This is where the Shaman dresses and get some visitors, when he gets a
+short period of time without preeching to other orcs.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98719
+0 0
+S
+#98721
+Priestess's Healing room~
+This is where the Priestess welcomes new visitors and heals their pains,
+and hears them.  It's a little bit STRANGE...  They are orcs.  They don't
+have feelings!  But maybe there will be some surprises.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98717
+0 0
+D2
+~
+~
+Z 0 98722
+0 0
+S
+#98722
+Hallway in the Temple of Evil~
+You have entered in the hallway of the Temple of Evil.  This is all
+filled with shadows and black candles are the only light you'll see.  Try to
+adventure yourself into the village or stay here if you feel confortable.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98721
+0 0
+D2
+~
+~
+ABCFGZ 0 98723
+0 0
+S
+#98723
+Temple of Evil~
+This is the temple of Evil.  If you are here, your heart is black as the
+heart of all the orcs in the world.  If you proceed north you will find the
+Priestess Erik'uk.  
+~
+0 0 inside
+D0
+~
+~
+ABCFGZ 0 98722
+0 0
+S
+#98724
+Mud path in the Village~
+You decide to continue the mud path.  There's nothing interesting here
+try to advance further in your journey.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98731
+0 0
+D1
+~
+~
+Z 0 98716
+0 0
+D2
+~
+~
+ABZ 0 98733
+0 0
+D3
+~
+~
+Z 0 98725
+0 0
+S
+#98725
+Mud path in the Village~
+You decide to continue the mud path.  There's nothing interesting here
+try to advance further in your journey.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98735
+0 0
+D1
+~
+~
+Z 0 98724
+0 0
+D2
+~
+~
+ABZ 0 98737
+0 0
+D3
+~
+~
+Z 0 98726
+0 0
+S
+#98726
+Mud path in the Village~
+You decide to continue the mud path.  There's nothing interesting here
+try to advance further in your journey.  The exits are north east and west
+to turn back.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98727
+0 0
+D1
+~
+~
+Z 0 98725
+0 0
+D3
+~
+~
+Z 0 98730
+0 0
+S
+#98727
+Entrance to The Cave House~
+You have entered in a House.  You think it is a house, you look better
+and you realize that this is a cave.  An ugly and filthy cave.  Who lives in
+here?  Maybe the Devil himself...  No one got here alive before.  They were
+always getting killed before they could see this ugly cave house.  Maybe
+they saw, only they were dead when they got here.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98728
+0 0
+D2
+~
+~
+ABZ 0 98726
+0 0
+S
+#98728
+The Meat Room~
+As you enter in this room you feel like your corpse is like one more of
+at least one hundread corpses that are here on the ground.  You feel
+disgusted, you see blood, bones, skulls, arms, legs, endless parts of bodies
+are here on the ground.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98729
+0 0
+D2
+~
+~
+ABZ 0 98727
+0 0
+D3
+~
+~
+Z 0 98732
+0 0
+S
+#98729
+Preparation To War~
+You have entered in a room where Orcs Preparate to war against their
+enemy, most of times Elfs.  This is a sort of Sanctuary, where they pray to
+their God of War.  You see a statue of an Orc, maybe it is that God.  Look
+at it, and see if you find something about Orcs past, present and future.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98728
+0 0
+S
+#98730
+Mud path in the Village~
+You decide to continue the mud path.  There's nothing interesting here
+try to advance further in your journey.  The exits are north east and west
+to turn back.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98726
+0 0
+D3
+~
+~
+Z 0 98734
+0 0
+S
+#98731
+Magic Shop~
+You are in a small room that smells of chemicals and old spices. 
+Dividing the room in two is a large desk, and on the wall behind it are
+numerous shelves crammed with jars, bottles, books and scrolls of all sorts
+and sizes.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 98724
+0 0
+S
+#98732
+An Intersection on The Cave House~
+You are in an intersection.  You can go south, but there's a closed door
+or you can continue west.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98728
+0 0
+D3
+~
+~
+Z 0 98736
+0 0
+S
+#98733
+Armory~
+You now are in the Armory of Rotting Spine Village, this is a large,
+spacious room filled with armor of every imaginable type.  Full suits of
+chainmail, helmets, shields, greaves, bracers and others are on display,
+their metal and wooden surfaces polished to a shine.  Try to buy some to
+improve your battle skills.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98724
+0 0
+S
+#98734
+Mud path in the Village~
+You decide to continue the mud path.  There's nothing interesting here
+try to advance further in your journey.  The exits are north east and west
+to turn back.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98730
+0 0
+D3
+~
+~
+Z 0 98738
+0 0
+S
+#98735
+General Store~
+You are inside the general store.  All sorts of items are stacked on
+shelves behind the counter, safely out of your reach.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 98725
+0 0
+S
+#98736
+The Weapon's Room~
+This is the Weapon's Room.  Here is where Orcs come and get one weapon
+when they go to War.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98732
+0 0
+S
+#98737
+Weapon Shop~
+You have entered the weapon shop.  As you enter the room you notice that
+there are a lot of destructive weapons around it.  Large heavy war axes,
+spears, longswords, clubs, flails, daggers, throwing knives, and stilettos
+are on display and you notice a lot of arrows stacked neatly in the corner. 
+A hot fire blazes in the fireplace set into the west wall.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98725
+0 0
+S
+#98738
+Mud path in the Village~
+Here is the end of the muddy path that came through all village.  West
+from here is the entrance to the Trash Pits.  Try to go there to finally
+discover what creatures live in places like this.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98734
+0 0
+D3
+~
+~
+Z 0 98739
+0 0
+S
+#98739
+Down to the Trash Pits~
+This is the entrance to the Trash Pits.  Here there are three different
+smells.  The smell of blood, of rotten corpses and of garbage.  Now you feel
+very, very disgusted.  You think twice before you go in there.  The smell
+will get worse!  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98738
+0 0
+D5
+~
+~
+ABZ 0 98740
+0 0
+S
+#98740
+Trash and Waste Pits~
+You are inside the Trash and Waste Pits.  This is where you feel really
+disgusted.  All orc's trash is here.  All the blood, the bones, the skulls,
+are all here.  You feel scared and you feel like that poor people that were
+slaughtered and were left here.  But you gain the strenght to move on.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98746
+0 0
+D4
+~
+~
+ABZ 0 98739
+0 0
+S
+#98741
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98745
+0 0
+D2
+~
+~
+Z 0 98785
+0 0
+S
+#98742
+Trash and Waste Pits~
+You are inside the Trash and Waste Pits.  This is where you feel really
+disgusted.  All orc's trash is here.  All the blood, the bones, the skulls,
+are all here.  You feel scared and you feel like that poor people that were
+slaughtered and were left here.  But you gain the strenght to move on.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98743
+0 0
+D3
+~
+~
+Z 0 98746
+0 0
+S
+#98743
+Trash and Waste Pits~
+You are inside the Trash and Waste Pits.  This is where you feel really
+disgusted.  All orc's trash is here.  All the blood, the bones, the skulls,
+are all here.  You feel scared and you feel like that poor people that were
+slaughtered and were left here.  But you gain the strenght to move on.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98742
+0 0
+D3
+~
+~
+Z 0 98744
+0 0
+S
+#98744
+End of the Trash and Waste Pits~
+You have made it to the End of the Trash and Waste Pits.  This is where
+you feel really disgusted.  All orc's trash is here.  All the blood, the
+bones, the skulls, are all here.  You feel scared and you feel like that
+poor people that were slaughtered and were left here.  But you gain the
+strenght to move on.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98743
+0 0
+D4
+~
+~
+Z 0 98748
+0 0
+S
+#98745
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98784
+0 0
+D2
+~
+~
+Z 0 98741
+0 0
+S
+#98746
+Trash and Waste Pits~
+You are inside the Trash and Waste Pits.  This is where you feel really
+disgusted.  All orc's trash is here.  All the blood, the bones, the skulls,
+are all here.  You feel scared and you feel like that poor people that were
+slaughtered and were left here.  But you gain the strenght to move on.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98740
+0 0
+D1
+~
+~
+Z 0 98742
+0 0
+D3
+~
+~
+Z 0 98747
+0 0
+S
+#98747
+Trash and Waste Pits~
+You are inside the Trash and Waste Pits.  This is where you feel really
+disgusted.  All orc's trash is here.  All the blood, the bones, the skulls,
+are all here.  You feel scared and you feel like that poor people that were
+slaughtered and were left here.  But you gain the strenght to move on.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98746
+0 0
+D4
+~
+~
+ABZ 0 98779
+0 0
+S
+#98748
+A dark path~
+You have entered in a dark path.  Where does it lead?!?  Your fear is
+getting stronger and stronger inside you.  You can't see a thing.  There are
+a lot of trees here that don't let you see the sun light.  You see that this
+path continues east 
+~
+0 0 inside
+D1
+~
+~
+Z 0 98749
+0 0
+D4
+~
+~
+ABZ 0 98803
+0 0
+D5
+~
+~
+Z 0 98744
+0 0
+S
+#98749
+A dark path~
+You continue the dark path.  Where does it lead?!?  Your fear is getting
+stronger and stronger inside you.  You can't see a thing.  There are a lot
+of trees here that don't let you see the sun light.  You see that this path
+continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98750
+0 0
+D3
+~
+~
+Z 0 98748
+0 0
+S
+#98750
+A dark path~
+You continue the dark path.  Where does it lead?!?  Your fear is getting
+stronger and stronger inside you.  You can't see a thing.  There are a lot
+of trees here that don't let you see the sun light.  You see that this path
+continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98751
+0 0
+D3
+~
+~
+Z 0 98749
+0 0
+S
+#98751
+The Dark Consumes you~
+You continue the dark path.  Where does it lead?!?  The Darkness has
+consumed you.  You don't see anything around you only dark and bloody trees
+with no life at all.  It looks like a swamp.  You look down and you see that
+it is a swamp with blood instead of water.  You see that this path continues
+east and you decide to proceed.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98752
+0 0
+D3
+~
+~
+Z 0 98750
+0 0
+S
+#98752
+The Swamp of Blood~
+You are getting deeper and deeper in the swamp of blood and you pray that
+you go home without being killed by some monster.  Better keep the faith all
+the time.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98753
+0 0
+D3
+~
+~
+Z 0 98751
+0 0
+S
+#98753
+The Swamp of Blood~
+You are completely envolved on the Swamp.  You look at your body and you
+only see the blood of others on it.  You feel disgusted and think of
+stoping.  Better keep going say a voice inside your head.  Move!  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98754
+0 0
+D3
+~
+~
+Z 0 98752
+0 0
+S
+#98754
+The End of The Swamp of Blood~
+Finally you are at the end of this Swamp.  If you didn't get killed and
+didn't go back you are a true bealiver of your skills.  Try to continue up
+to see what happens next.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98753
+0 0
+D4
+~
+~
+Z 0 98755
+0 0
+S
+#98755
+A Strange path~
+You arrived into a really strange path.  Where does it lead?!?  Now you
+see the sun, but you don't hear a thing.  What happened to the orcs?  Where
+are they?  Are they dead?  You feel suddenly a rush coming through your
+body.  You hear voices.  You decide to follow the voices!  The path
+continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98756
+0 0
+D5
+~
+~
+Z 0 98754
+0 0
+S
+#98756
+A Strange path~
+The voices are getting stronger.  The Path continues east.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98757
+0 0
+D3
+~
+~
+Z 0 98755
+0 0
+S
+#98757
+A Strange path~
+Now you know what the voices are saying!  "Kill!  Kill!  Kill!  KILL!" 
+And it's getting nearer.  Continue the path to see what's happening.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98758
+0 0
+D3
+~
+~
+Z 0 98756
+0 0
+S
+#98758
+A Strange path~
+The Path gets to an end.  And now you can hear pretty well all those
+voices, and you know now from who are those voices.  Orc's, HUNGRY ORCS. 
+They surely got another prisioner and they are killing him to eat him, or
+them...  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98757
+0 0
+D4
+~
+~
+Z 0 98759
+0 0
+S
+#98759
+At the hill~
+You have arrived at a hill.  In front of you you see an enourmous group
+of Orcs around four people.  Four elves.  They Will kill those elfs.  Do you
+want to stay here and watch at front line?  Or will you do something?!?  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98760
+0 0
+D5
+~
+~
+Z 0 98758
+0 0
+S
+#98760
+Down We Go Again~
+This is the entrance to The Orcs camp.  Go Ahead!  And save those elves.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98759
+0 0
+D5
+~
+~
+Z 0 98761
+0 0
+S
+#98761
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98762
+0 0
+D2
+~
+~
+Z 0 98768
+0 0
+D3
+~
+~
+Z 0 98764
+0 0
+D4
+~
+~
+Z 0 98760
+0 0
+S
+#98762
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98763
+0 0
+D2
+~
+~
+Z 0 98769
+0 0
+D3
+~
+~
+Z 0 98761
+0 0
+S
+#98763
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98770
+0 0
+D3
+~
+~
+Z 0 98762
+0 0
+S
+#98764
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98761
+0 0
+D2
+~
+~
+Z 0 98767
+0 0
+D3
+~
+~
+Z 0 98765
+0 0
+S
+#98765
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98764
+0 0
+D2
+~
+~
+Z 0 98766
+0 0
+S
+#98766
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98765
+0 0
+D1
+~
+~
+Z 0 98767
+0 0
+S
+#98767
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98764
+0 0
+D1
+~
+~
+Z 0 98768
+0 0
+D3
+~
+~
+Z 0 98766
+0 0
+S
+#98768
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98761
+0 0
+D1
+~
+~
+Z 0 98769
+0 0
+D2
+~
+~
+Z 0 98771
+0 0
+D3
+~
+~
+Z 0 98767
+0 0
+S
+#98769
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98762
+0 0
+D1
+~
+~
+Z 0 98770
+0 0
+D3
+~
+~
+Z 0 98768
+0 0
+S
+#98770
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98763
+0 0
+D3
+~
+~
+Z 0 98769
+0 0
+S
+#98771
+Through The Uruk-Hai Camp~
+This is the Uruk-Hai Camp.  You see a lot of fires and a lot of ORCS. 
+They are Ugly, filthy, and they look like they have no mercy, and kill
+anyone who stands in their way.  Advance...  But BE CAREFUL with those
+creatures from Hell.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98768
+0 0
+D2
+~
+~
+ABZ 0 98773
+0 0
+S
+#98772
+UrukHai Base~
+You Have come to the UrukHai Base.  UrukHai are known as being the
+masters of Orcs.  A more intelligent, more strong race than Orcs.  Through
+the time, on this land, UrukHai have made a difference in battles.  This is
+their Base.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98773
+0 0
+S
+#98773
+UrukHai Base~
+You Have come to the UrukHai Base.  UrukHai are known as being the
+masters of Orcs.  A more intelligent, more strong race than Orcs.  Through
+the time, on this land, UrukHai have made a difference in battles.  This is
+their Base.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98771
+0 0
+D1
+~
+~
+Z 0 98772
+0 0
+D2
+~
+~
+ABZ 0 98775
+0 0
+D3
+~
+~
+Z 0 98774
+0 0
+S
+#98774
+UrukHai Base~
+You Have come to the UrukHai Base.  UrukHai are known as being the
+masters of Orcs.  A more intelligent, more strong race than Orcs.  Through
+the time, on this land, UrukHai have made a difference in battles.  This is
+their Base.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98773
+0 0
+S
+#98775
+The Tent's Path~
+This is the way to the UrukHai tents.  Go a little bit more south to see
+them.  To see the Best UrukHai.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98773
+0 0
+D2
+~
+~
+Z 0 98776
+0 0
+S
+#98776
+The UrukHai Tents~
+You have come to the UrukHai tents.  There is one tent east and another
+one west.  Adventure yourself to see who's inside!  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98775
+0 0
+D1
+~
+~
+ABZ 0 98777
+0 0
+D2
+~
+~
+Z 0 98779
+0 0
+D3
+~
+~
+ABZ 0 98778
+0 0
+S
+#98777
+UrukHai Tent~
+This is an UrukHai Tent.  There's only blood around.  Orc Blood, human
+blood, rabbit blood.  Only Blood!  You feel disgusted and you think how to
+get out of this horrible place.  
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 98776
+0 0
+S
+#98778
+UrukHai Tent~
+This is an UrukHai Tent.  There's only blood around.  Orc Blood, human
+blood, rabbit blood.  Only Blood!  You feel disgusted and you think how to
+get out of this horrible place.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98776
+0 0
+S
+#98779
+The Camp's End~
+This is the end of the UrukHai Camp.  You are in a dead end, you look all
+around and you notice that there is an entrance down of you.  Go down and
+check it out!  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98776
+0 0
+D5
+~
+~
+ABZ 0 98747
+0 0
+S
+#98780
+Northwest Vigilance Tower~
+This is the Northwest Vigilance Tower.  This is where Orcs, by shifts,
+see if any enemy will come to their village and attack.  Most of enemies are
+afraid, so the Vigilant Orcs are almost every day too sleepy to see
+anything!  
+~
+0 0 inside
+D5
+~
+~
+ABZ 0 98803
+0 0
+S
+#98781
+Northeast Vigilance Tower~
+This is the Northeast Vigilance Tower.  This is where Orcs, by shifts,
+see if any enemy will come to their village and attack.  Most of enemies are
+afraid, so the Vigilant Orcs are almost every day too sleepy to see
+anything!  
+~
+0 0 inside
+D5
+~
+~
+ABZ 0 98797
+0 0
+S
+#98782
+Southeast Vigilance Tower~
+This is the Southeast Vigilance Tower.  This is where Orcs, by shifts,
+see if any enemy will come to their village and attack.  Most of enemies are
+afraid, so the Vigilant Orcs are almost every day too sleepy to see
+anything!  
+~
+0 0 inside
+D5
+~
+~
+ABZ 0 98791
+0 0
+S
+#98783
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98803
+0 0
+D2
+~
+~
+Z 0 98784
+0 0
+S
+#98784
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98783
+0 0
+D2
+~
+~
+Z 0 98745
+0 0
+S
+#98785
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98741
+0 0
+D1
+~
+~
+Z 0 98786
+0 0
+D4
+~
+~
+ABZ 0 98804
+0 0
+S
+#98786
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98787
+0 0
+D3
+~
+~
+Z 0 98785
+0 0
+S
+#98787
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98788
+0 0
+D3
+~
+~
+Z 0 98786
+0 0
+S
+#98788
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98789
+0 0
+D3
+~
+~
+Z 0 98787
+0 0
+S
+#98789
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98790
+0 0
+D3
+~
+~
+Z 0 98788
+0 0
+S
+#98790
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98791
+0 0
+D3
+~
+~
+Z 0 98789
+0 0
+S
+#98791
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98792
+0 0
+D3
+~
+~
+Z 0 98790
+0 0
+D4
+~
+~
+ABZ 0 98782
+0 0
+S
+#98792
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98793
+0 0
+D2
+~
+~
+Z 0 98791
+0 0
+S
+#98793
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98794
+0 0
+D2
+~
+~
+Z 0 98792
+0 0
+S
+#98794
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98795
+0 0
+D2
+~
+~
+Z 0 98793
+0 0
+S
+#98795
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98796
+0 0
+D2
+~
+~
+Z 0 98794
+0 0
+S
+#98796
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98797
+0 0
+D2
+~
+~
+Z 0 98795
+0 0
+S
+#98797
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98796
+0 0
+D3
+~
+~
+Z 0 98798
+0 0
+D4
+~
+~
+ABZ 0 98781
+0 0
+S
+#98798
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98797
+0 0
+D3
+~
+~
+Z 0 98799
+0 0
+S
+#98799
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98798
+0 0
+D3
+~
+~
+Z 0 98800
+0 0
+S
+#98800
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98799
+0 0
+D3
+~
+~
+Z 0 98801
+0 0
+S
+#98801
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98800
+0 0
+D3
+~
+~
+Z 0 98802
+0 0
+S
+#98802
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98801
+0 0
+D3
+~
+~
+Z 0 98803
+0 0
+S
+#98803
+The Walls of the Rotting Spine~
+These are the Walls of the Rotting Spine Village.  The Orc Village.  From
+here you can see everything.  You can smell everything but still, you feel
+fear.  These walls were made with wood, they look fragile, but they are not!
+This is crowded by guards.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98802
+0 0
+D2
+~
+~
+Z 0 98783
+0 0
+D4
+~
+~
+ABZ 0 98780
+0 0
+D5
+~
+~
+ABZ 0 98748
+0 0
+S
+#98804
+Southwest Vigilance Tower~
+This is the Southwest Vigilance Tower.  This is where Orcs, by shifts,
+see if any enemy will come to their village and attack.  Most of enemies are
+afraid, so the Vigilant Orcs are almost every day too sleepy to see
+anything!  
+~
+0 0 inside
+D5
+~
+~
+ABZ 0 98785
+0 0
+S
+#0
+
+#SPECIALS
+M 98702 spec_cast_adept	* The Priestess Erik'uk
+S
+
+#RESETS
+D 0 98713 2 1	* Massive Iron Bound Wooden Gates: door to the south: closed
+D 0 98714 0 1	* Mud path through the village: door to the north: closed
+D 0 98717 1 1	* Inside The Gates of the Temple of Evil: door to the east: closed
+D 0 98717 2 1	* Inside The Gates of the Temple of Evil: door to the south: closed
+D 0 98718 3 1	* Village Shamans quarters: door to the west: closed
+D 0 98721 0 1	* Priestess's Healing room: door to the north: closed
+D 0 98722 2 2	* Hallway in the Temple of Evil: door to the south: closed and locked
+D 0 98723 0 2	* Temple of Evil: door to the north: closed and locked
+D 0 98724 0 1	* Mud path in the Village: door to the north: closed
+D 0 98724 2 1	* Mud path in the Village: door to the south: closed
+D 0 98725 0 1	* Mud path in the Village: door to the north: closed
+D 0 98725 2 1	* Mud path in the Village: door to the south: closed
+D 0 98726 0 1	* Mud path in the Village: door to the north: closed
+D 0 98727 0 1	* Entrance to The Cave House: door to the north: closed
+D 0 98727 2 1	* Entrance to The Cave House: door to the south: closed
+D 0 98728 2 1	* The Meat Room: door to the south: closed
+D 0 98731 2 1	* Magic Shop: door to the south: closed
+D 0 98733 0 1	* Armory: door to the north: closed
+D 0 98735 2 1	* General Store: door to the south: closed
+D 0 98737 0 1	* Weapon Shop: door to the north: closed
+D 0 98739 5 1	* Down to the Trash Pits: door to the down: closed
+D 0 98740 4 1	* Trash and Waste Pits: door to the up: closed
+D 0 98747 4 1	* Trash and Waste Pits: door to the up: closed
+D 0 98748 4 1	* A dark path: door to the up: closed
+D 0 98771 2 1	* Through The Uruk-Hai Camp: door to the south: closed
+D 0 98773 0 1	* UrukHai Base: door to the north: closed
+D 0 98773 2 1	* UrukHai Base: door to the south: closed
+D 0 98775 0 1	* The Tent's Path: door to the north: closed
+D 0 98776 1 1	* The UrukHai Tents: door to the east: closed
+D 0 98776 3 1	* The UrukHai Tents: door to the west: closed
+D 0 98777 3 1	* UrukHai Tent: door to the west: closed
+D 0 98778 1 1	* UrukHai Tent: door to the east: closed
+D 0 98779 5 1	* The Camp's End: door to the down: closed
+D 0 98780 5 1	* Northwest Vigilance Tower: door to the down: closed
+D 0 98781 5 1	* Northeast Vigilance Tower: door to the down: closed
+D 0 98782 5 1	* Southeast Vigilance Tower: door to the down: closed
+D 0 98785 4 1	* The Walls of the Rotting Spine: door to the up: closed
+D 0 98791 4 1	* The Walls of the Rotting Spine: door to the up: closed
+D 0 98797 4 1	* The Walls of the Rotting Spine: door to the up: closed
+D 0 98803 4 1	* The Walls of the Rotting Spine: door to the up: closed
+D 0 98803 5 1	* The Walls of the Rotting Spine: door to the down: closed
+D 0 98804 5 1	* Southwest Vigilance Tower: door to the down: closed
+M 0 98700 1 98704 1	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98700 15 98705 3	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98700 1 98706 1	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98700 1 98706 1	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98700 15 98707 3	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98700 15 98711 3	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98700 15 98712 3	* A red rabbit (A Grizzly and Bloody trail)
+M 0 98701 2 98713 2	* The Gate Guard (Massive Iron Bound Wooden Gates)
+E 0 98701 0 16		*	the Gate Sword: wielded
+M 0 98708 20 98714 1	* An Orc Villager (Mud path through the village)
+M 0 98707 10 98714 1	* A Village Guard (Mud path through the village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98707 10 98715 1	* A Village Guard (Mud path through the village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98715 1	* An Orc Villager (Mud path through the village)
+M 0 98707 10 98716 1	* A Village Guard (Intersection in the Mud path)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98716 1	* An Orc Villager (Intersection in the Mud path)
+M 0 98705 1 98718 1	* The Village Shaman Osor'uk (Village Shamans quarters)
+M 0 98702 1 98721 1	* The Priestess Erik'uk (Priestess's Healing room)
+O 0 98700 0 98723	* A {ypit{x (Temple of Evil)
+M 0 98707 10 98724 1	* A Village Guard (Mud path in the Village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98724 1	* An Orc Villager (Mud path in the Village)
+M 0 98707 10 98725 1	* A Village Guard (Mud path in the Village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98725 1	* An Orc Villager (Mud path in the Village)
+M 0 98707 10 98726 1	* A Village Guard (Mud path in the Village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98726 1	* An Orc Villager (Mud path in the Village)
+M 0 98708 20 98727 1	* An Orc Villager (Entrance to The Cave House)
+M 0 98703 50 98728 4	* An Orc (The Meat Room)
+M 0 98708 20 98728 1	* An Orc Villager (The Meat Room)
+M 0 98703 50 98729 4	* An Orc (Preparation To War)
+M 0 98708 20 98729 1	* An Orc Villager (Preparation To War)
+M 0 98707 10 98730 1	* A Village Guard (Mud path in the Village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98730 1	* An Orc Villager (Mud path in the Village)
+M 0 98714 1 98731 1	* the Magician Lok'ik (Magic Shop)
+G 0 98709 0		*	A potion of armor
+G 0 98708 0		*	A potion of flying
+G 0 98710 0		*	A wand of acid arrows
+G 0 98721 0		*	A magic potion of return
+G 0 98720 0		*	A potion for cure critical wounds
+G 0 98714 0		*	A potion for cure light wounds
+M 0 98703 50 98732 4	* An Orc (An Intersection on The Cave House)
+M 0 98708 20 98732 1	* An Orc Villager (An Intersection on The Cave House)
+M 0 98713 1 98733 1	* the Armorer Lik'Ok (Armory)
+G 0 98703 0		*	Rusty armplates
+G 0 98707 0		*	Rusty Helmet
+G 0 98706 0		*	Rusty Gloves
+G 0 98705 0		*	Rusty Leggings
+G 0 98704 0		*	Rusty Boots
+M 0 98707 10 98734 1	* A Village Guard (Mud path in the Village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98734 1	* An Orc Villager (Mud path in the Village)
+M 0 98716 1 98735 1	* the Seller Sid'lik (General Store)
+G 0 98711 0		*	A leg of a human
+G 0 98712 0		*	A bottle with rum
+G 0 98713 0		*	A little container
+M 0 98703 50 98736 4	* An Orc (The Weapon's Room)
+M 0 98715 1 98737 1	* The Weaponmaster Olik (Weapon Shop)
+G 0 98719 0		*	A rusty axe
+G 0 98718 0		*	A rusty flail
+G 0 98717 0		*	A rusty sword
+G 0 98716 0		*	A rusty giant sword
+G 0 98715 0		*	A rusty huge axe
+G 0 98722 0		*	A rusty dagger
+M 0 98707 10 98738 1	* A Village Guard (Mud path in the Village)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98708 20 98738 1	* An Orc Villager (Mud path in the Village)
+M 0 98707 10 98739 1	* A Village Guard (Down to the Trash Pits)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98741 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98745 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98703 50 98753 7	* An Orc (The Swamp of Blood)
+M 0 98703 50 98754 7	* An Orc (The End of The Swamp of Blood)
+M 0 98703 50 98761 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98761 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98762 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98762 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98763 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98763 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98764 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98764 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98765 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98765 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98766 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98766 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98767 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98767 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98768 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98768 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98769 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98769 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98770 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98770 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98703 50 98771 1	* An Orc (Through The Uruk-Hai Camp)
+M 0 98704 50 98771 1	* An UrukHai (Through The Uruk-Hai Camp)
+M 0 98704 50 98772 1	* An UrukHai (UrukHai Base)
+M 0 98704 50 98773 1	* An UrukHai (UrukHai Base)
+M 0 98704 50 98774 1	* An UrukHai (UrukHai Base)
+M 0 98703 50 98775 1	* An Orc (The Tent's Path)
+M 0 98703 50 98776 1	* An Orc (The UrukHai Tents)
+M 0 98717 1 98777 1	* Wakboth (UrukHai Tent)
+M 0 98718 1 98778 1	* Wikbith (UrukHai Tent)
+M 0 98703 50 98779 1	* An Orc (The Camp's End)
+M 0 98709 1 98780 1	* Guard of the Northwest Tower (Northwest Vigilance Tower)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98710 1 98781 1	* Guard of the Northeast Tower (Northeast Vigilance Tower)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98712 1 98782 1	* Guard of the Southeast Tower (Southeast Vigilance Tower)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98783 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98784 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98785 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98786 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98787 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98788 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98789 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98790 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98791 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98792 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98793 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98794 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98795 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98796 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98797 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98798 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98799 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98800 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98801 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98802 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98706 50 98803 1	* An Orc Guard (The Walls of the Rotting Spine)
+E 0 98702 0 16		*	Rotting Sword: wielded
+M 0 98711 1 98804 1	* Guard of the Southwest Tower (Southwest Vigilance Tower)
+E 0 98702 0 16		*	Rotting Sword: wielded
+S
+
+#SHOPS
+98713 9 0 0 0 0 100 16 0 23
+98714 10 2 3 0 0 100 18 0 23
+98715 5 0 0 0 0 100 13 0 23
+98716 19 15 17 0 0 100 17 0 23
+0
+
+#MOBPROGS
+#98700
+if sex $n == 2
+say Hey Ther lady, how can Lik'ok be usefl to ye?
+else
+say Hey Ther sir, how can Lik'ok be usefl to ye?
+end
+endif
+~
+#98701
+if sex $n == 2
+say Hey Cutie! What do ye want te buy?
+else
+say Hey boy! What do ye want te buy?
+end
+endif
+~
+#98702
+say Hey!? How about a fresh leg?!?!? Or maybe some Rum?!?
+end
+endif
+~
+#98703
+say Hey! Me have som good weapen... chekem 'ut!
+end
+endif
+~
+#98704
+say Who wants to pass the gates?!? Better have a good excuse!
+end
+endif
+~
+#98705
+say Stop! Someones on the Far LANDS!!! To yer posts Scum!
+end
+endif
+~
+#98706
+say KILL! KILL! KILL! KILL! URUK! URUK! URUK!
+end
+endif
+~
+#98707
+say FRESH MEAT!!!! I'M SOOOO HUNGRY!!! KILL!!!!!
+end
+endif
+~
+#98708
+say Hungry! Me hungry! Orc need food! Food!!
+end
+endif
+~
+#98713
+if mobhere Gate hastarget $n
+nod gate
+else
+say What does yous want!!
+~
+#0
+
+#$

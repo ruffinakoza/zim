@@ -1,0 +1,4986 @@
+#AREADATA
+Name Skyflash Domain~
+Builders angelo~
+VNUMs 98000 98099
+Credits Angelo~
+Security 9
+LevelRange 15 91
+ResetMessage A cool breeze flows over the floating island.~
+End
+
+#MOBILES
+#98000
+shopkeeper chef~
+the chef Teshubu~
+The chef Teshubu is here, waiting to prepare your order.
+~
+An apt chef indeed, he twirls and flicks his knives as he cuts his vegitables,
+and handles flaming pans of delicious-smelling food on the side.
+~
+arial~
+ABT 0 0 0
+70 70 243d70+0 70d9+60 21d3+35 none
+-35 -35 -35 -20
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98001
+bartender~
+the bartender~
+The bartender stands behind the bar, serving drinks.
+~
+He looks pretty damn tough. You best not mess with him.
+~
+arial~
+ABT H 0 0
+95 95 492d95+35000 950d11+95 32d2+70 none
+-59 -59 -59 -39
+CEFKN 0 0 0
+stand stand male 5038
+0 0 medium flesh~
+~
+M fight 98001 50~
+#98002
+shopkeeper magician store fuxxx shuxxx suxxx~
+the magician Fu-Shu Su~
+Fu-Shu Su is here, arranging some flowers.
+~
+~
+arial~
+ABR 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M fight 98001 20~
+#98003
+silk shopkeeper storeowner owner beautiful oriental woman~
+a beautiful oriental woman~
+A beautiful oriental woman sits at a loom.
+~
+She's a human woman around the ages of 30, who's clearly spent her entire
+life learning how to make the most perfect silk she can.  Her hands move
+with speed and skill, and her face betrays her intense concentration on the
+duties before her.  
+~
+human~
+ABRT 0 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+FHK 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#98004
+wuxxx renxxx smithy shopkeeper storekeeper~
+Wu-Ren~
+Wu-Ren attends his forge here.
+~
+~
+arial~
+ABT HVc 0 0
+80 80 394d80+0 800d11+95 27d2+60 none
+-48 -48 -48 -32
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98005
+smithy shopkeeper storekeeper tenxxx guxxx~
+Ten-Gu~
+Ten-Gu attends his forge here.
+~
+~
+arial~
+ABT HVc 0 0
+80 80 394d80+0 800d11+95 27d2+60 none
+-48 -48 -48 -32
+CDFHK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98006
+koxxx suxxx storekeeper shopkeeper general~
+Ko-Su~
+Ko-Su stands at the counter, looking at you expectantly.
+~
+~
+arial~
+AB HV 0 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+DFH 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98007
+commoner skyflash~
+a commoner of Skyflash~
+A commoner is here, going about their business.
+~
+An arial with a simple life, the commoner of Skyflash farms, or hunts in
+the woods, but has very little else to offer the world.  
+~
+arial~
+AG 0 0 0
+20 20 31d20+0 20d9+60 5d4+12 none
+-2 -2 -2 1
+0 0 0 0
+stand stand either 45
+0 0 medium flesh~
+~
+M fight 98007 50~
+#98008
+lord skyflash~
+the lord of Skyflash~
+The nameless, timeless lord of Skyflash rests here.
+~
+The rulership of Skyflash is passed down from heir to heir, but not
+necessarily by birth; lords, when they are crowned, must pick the person
+they wish to succeed them.  When they are crowned, they undergo a glorious
+religious rite that leaves them a completely different person; their
+features are changed to mimic that of the eternal lord, and their
+distinctive characteristics and mannerisms are erased.  Thus, the lord is
+released of all previous identity and bonds, and becomes the next in the
+line of nameless rulers of Skyflash.  This is the fourteenth ruler.  
+~
+arial~
+ABQe 0 0 0
+105 105 557d105+0 1050d11+95 36d2+77 none
+-66 -66 -66 -44
+0 0 0 0
+rest rest male 0
+0 0 medium flesh~
+~
+M speech 98008 the lode relics~
+M kill 98000 100~
+#98009
+gateguard guard~
+a gateguard~
+A gateguard of Skyflash leans against the wall, relaxing.
+~
+Guards of this city-state lead a pretty calm existence, since they live
+on a floating island...  Not many armies can attack this place.  They just
+relax, joke around, and generally have a good time.  There's a small sign
+near where he's standing; it says: "If you need assistance with the gate,
+just ask the gateguard:
+
+'Can you unlock the gate?'"
+~
+arial~
+ABT 0 0 0
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+H 0 0 0
+stand stand either 424
+0 0 medium flesh~
+~
+M speech 98009 can you unlock the gate?~
+M delay 98010 100~
+#98010
+captain guard~
+a captain of the guard~
+One of the captains of the guard stands here, smoking a pipe.
+~
+A rougher sort of guard than the average of Skyflash, he's more muscular
+and less social than the typical.  Seems his group has picked up a nasty
+habit. He's standing next to a small sign. It reads:
+ 
+"If you need assistance with the gate, please simply as the guard,
+'Can you unlock the gate?'"
+~
+arial~
+ABT 0 0 0
+25 25 36d25+0 25d9+60 7d3+14 none
+-6 -6 -6 0
+CDEFHIJKO 0 0 0
+stand stand male 468
+0 0 medium flesh~
+~
+M speech 98009 can you unlock the gate?~
+M delay 98010 100~
+#98011
+dog puppy lost~
+a wandering puppy~
+A puppy wanders around, looking lost.
+~
+How cuuuuuuuuuuuuute!
+~
+dog~
+AY 0 0 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#98012
+sleepy soldier sleeping~
+a sleepy soldier~
+A soldier sleeps in one of the bunkbeds.
+~
+Wow, all that standing around and playing cards really can wear an arial out.
+~
+arial~
+AB 0 0 0
+20 20 31d20+0 20d9+60 5d4+12 none
+-2 -2 -2 1
+0 0 0 0
+sleep sleep either 0
+0 0 medium flesh~
+~
+#98013
+elite guard royal~
+an elite royal guard~
+An arial of the elite royal guard stands beside his lord.
+~
+An incredibly muscular arial, he is no doubt one of the finest soldiers
+of the Skyflash militia.  A staunch 6-foot-6, he is statuesque, and seems
+larger than life.  For an arial, he's incredibly imposing.  
+~
+arial~
+ABTe 0 0 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+CDFHKNQU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 98000 100~
+#98014
+guildmaster ranger~
+the great ranger~
+The great ranger of the floating island nods to you.
+~
+A rugged man of his mid-40s, he seems well-traveled and very tough.  He
+blends into his surroundings very well, seemingly by accident.  He's managed
+to make this dwelling inside this tree without harming the tree itself,
+which is quite a feat.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FHIK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98015
+guildmaster smuggler~
+the great smuggler~
+The great smuggler of Skyflash is here, teaching his theiving pupils.
+~
+The smuggler is a very thin man in his late 20s.  With sharp features and
+a bird-like sneer, he glances you over and sizes you up.  He makes his
+living off of illegal imports and exports, and feels no shame in what he
+does for profit.  The rulers of Skyflash have worked hard to track him down,
+but to no avail.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+BFHIKNV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98016
+guildmaster ninja dark figure~
+the great ninja~
+A dark figure can barely be seen in the corner.
+~
+It's awfully dark in here.  The figure is shadowy and dark.  You're
+pretty sure he's a ninja.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+BFHIKNV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98017
+guildmaster witch~
+the great witch~
+A frazzle-haired woman stirs the cauldron.
+~
+She looks a little...  Crazy.  Stirring the cauldron violently, adding
+things to it intermittantly...  She seems very concentrated on what she's
+doing.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FH 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#98018
+guildmaster warlock~
+the great warlock~
+A man in dark robes stands in the center of the circle.
+~
+Standing in the center of the circle, this dark, tall man looks to be in
+his late 50s, though his aging doesn't look natural.  He has a thin, gray
+beard down to his waist, and a black robe encompassing his wiry frame. 
+Surrounded by candles, he chants and waves his arms to and fro, invoking
+god-knows-what.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FH 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98019
+guildmaster vampire~
+the great vampire~
+A dark figure crouches in the corner. You catch a glimpse of fangs.
+~
+A dark, imposing figure, he is fearsome and repulsive.  His muscles bulge
+with power, and his eyes gleam with evil, bestial intent.  Long dark hair
+trickles down his back, and an out-dated, frayed wardrobe from centuries ago
+covers the majority of his pale yellow skin.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FHIKNV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98020
+guildmaster necromancer~
+the great necromancer~
+An ashen-skinned man in dark robes stands here, building a golem.
+~
+This pale-looking man is completely preoccupied with what he's
+assembling.  Using body parts of any and every sort of beast, he seems to be
+creating a flesh golem.  It's truly disgusting to behold, and fearsome at
+the same time.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FHIKNV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98021
+guildmaster antipaladin paladin~
+the great antipaladin~
+A muscular man in shining black armor wipes blood from his sword.
+~
+Standing at an imposing 7 feet tall, his stern glare falls upon you as
+soon as you enter the room.  Among his traditional weapons are more sadistic
+implements of distruction, such as whips and sourges.  You see he carries a
+hammer and a set of nails with him, suggesting he is ready to crucify good
+anywhere at any time.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CDEFHIKV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98022
+guildmaster warrior~
+the great warrior~
+A muscular man practices with a sword here.
+~
+A strong man of his mid-30s, he's presumably the general of Skyflash's
+meager military.  Regardless the strength of his army, he exudes confidence,
+strength, and grace, and seems truly mastered with the sword he wields.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CDEFHIKV 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98023
+guildmaster cleric man great priest~
+the great priest~
+A man in white robes sits before the altar.
+~
+An old man of the ways of the cloth, he serves as the religious advisor
+to the ruler.  He's a gentle and kind individual, a good man with a sense of
+compassion and justice.  He smiles at you as you glance at him.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FHK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98024
+guildmaster paladin~
+the great paladin~
+A great figure in bright shining armor prays at the altar.
+~
+An imposing figure at nearly 7 feet tall, he's one of the few remaining
+holy crusaders of the early holy wars of Skyflash.  After the great ascent,
+the need to defend the land from evil diminished greatly, and the ranks of
+the order have dwindled significantly.  One of a handful, he still takes his
+duties very seriously, and would gladly lay down his life for his lord.  
+~
+human~
+ABJKe 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CEFHIK 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98025
+shadowy figure demonic beast~
+the demonic beast~
+A shadowy figure rises from his work at the chest and attacks!
+~
+You can hardly get a good look at this shifty, dark figure, but his skin
+seems to be scaley, like a lizard, and his eyes glow red.  He looks fearsome
+and crafty.  
+~
+draconian~
+ABSe BDFPQVclm -1000 0
+92 500 2724d500+250000 2500d10+85 1d1+100 none
+0 0 0 0
+BCDEHIMNO BMQ 0 CDEFGHLNO
+stand stand either 0
+0 0 medium flesh~
+~
+F res GL
+M fight 98026 50~
+M death 98025 40~
+M grall 98035 100~
+M delay 98036 100~
+M fight 98037 20~
+#98026
+palace guard~
+a palace guard~
+A palace guard roams the halls on his watch, looking bored.
+~
+Being that the palace hasn't been under attack for the last 200 years
+(naturally much longer than his lifetime), he hasn't had much to do.  Ever. 
+
+~
+arial~
+AT 0 0 0
+20 20 31d20+0 20d9+60 5d4+12 none
+-2 -2 -2 1
+FKU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98027
+elite guard royal~
+an elite royal guard~
+An arial of the elite royal guard stands in the entrance.
+~
+An incredibly muscular arial, he is no doubt one of the finest soldiers
+of the Skyflash militia.  A staunch 6-foot-6, he is statuesque, and seems
+larger than life.  For an arial, he's incredibly imposing.  
+~
+arial~
+ABTe DFHVlm 0 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+CFHIJKNOQU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 98028 100~
+M exit 98029 1~
+M fight 98027 30~
+#98028
+shopkeeper magician store~
+the dark figure~
+A dark figure sorts through crates and crates of ancient scrolls.
+~
+~
+arial~
+ABR 0 0 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98029
+bird exotic red~
+an exotic {Rred{z bird~
+An exotic bird with beautiful {Rred{z feathers nibbles at a berry.
+~
+A beautiful breed unique to Skyflash, it seems to thrive on the
+atmosphere's proximity to the sun.  You notice the entire place is much
+warmer than places on the surface, and it's kind of nice.  
+~
+song bird~
+AH 0 0 0
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 98032 20~
+#98030
+bird exotic blue~
+an exotic {Bblue{z bird~
+An exotic bird with beautiful {Bblue{z feathers preens himself on a branch.
+~
+A beautiful breed unique to Skyflash, it seems to thrive on the
+atmosphere's proximity to the sun.  You notice the entire place is much
+warmer than places on the surface, and it's kind of nice.  
+~
+song bird~
+AH 0 0 0
+15 15 26d15+0 15d9+60 4d3+9 none
+0 0 0 3
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 98030 20~
+#98031
+bird exotic black~
+an exotic {Dblack{z bird~
+An exotic bird with beautiful {Dblack{z feathers gazes at you coldly.
+~
+A beautiful breed unique to Skyflash, it seems to thrive on the
+atmosphere's proximity to the sun.  You notice the entire place is much
+warmer than places on the surface, and it's kind of nice.  
+~
+song bird~
+AH 0 0 0
+20 20 31d20+0 20d9+60 5d4+12 none
+-2 -2 -2 1
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M death 98031 20~
+#98032
+chef palace~
+the palace chef~
+The chef of the palace runs around franticly, trying to find some olive oil.
+~
+A high-strung arial of his mid-40s, he seems to have ascended to a job he
+was a little too eager to have, and a little too nervous to handle.  He runs
+with great speed from one end of the kitchen to the other, trying to make
+everything just right, but he doesn't seem to ever actually DO anything. 
+Instead, he tells his servants what do do.  
+ 
+~
+arial~
+ABe 0 0 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M greet 98033 100~
+#98033
+cooking servant~
+a cooking servant~
+A servant of the chef is here, doing whatever he tells him to do.
+~
+An arial of his mid-teens, he seems rather annoyed to be constantly
+taking orders.  Ironicly, he looks to be a bit more in shape than the
+soldiers of this place; perhaps all the exercise he's getting from his
+internship would make him a better fighter.  
+~
+arial~
+AB 0 0 0
+20 20 31d20+0 20d9+60 5d4+12 none
+-2 -2 -2 1
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98034
+general army skyflash kaguxxx maruxxx~
+the general Kagu-Maru~
+The general of the lord's army stands by his side, polishing his polearm.
+~
+He is, by far, the largest arial you have ever seen.  At an immense 8
+feet tall, he towers over the lord and his men.  His physique is truly
+fearsome, and you catch the glimmer of slight fanaticism in his eyes.  
+~
+arial~
+ABTe 0 0 0
+106 106 416d106+0 106d9+60 33d3+52 none
+-58 -58 -58 -36
+CDFHKNQU 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 98034 20~
+M kill 98000 100~
+#0
+
+#OBJECTS
+#98000
+kung pow chicken plate~
+a plate of kung-pow chicken~
+A dish of kung-pow chicken rests on the ground.~
+unknown~
+chicken~
+food 0 A
+BD A 0 0 0 BD A
+0 6 114 P
+G none
+G none
+G none
+G none
+#98001
+stir fried vegies fry~
+a plate of stir-fry~
+A plate of stir-fried rice and vegetables rests here.~
+unknown~
+rice~
+food 0 A
+AC BCDE 0 0 0 AC BCDE
+0 50 31 P
+G none
+G none
+G none
+G none
+#98002
+sushi tastey delicacy~
+a plate of sushi~
+Some tastey sushi, an oriental delicacy, rests here on a plate.~
+unknown~
+~
+food 0 A
+BD B 0 0 0 BD B
+0 5 104 P
+G none
+G none
+G none
+G none
+#98003
+bowl rice white~
+a bowl of white rice~
+A bowl of white rice is here.~
+unknown~
+~
+food 0 A
+AC ABCD 0 0 0 AC ABCD
+0 15 31 P
+G none
+G none
+G none
+G none
+#98004
+saki bottle small oriental rice wine~
+a small bottle of saki~
+A small bottle of oriental rice-wine rests here.~
+unknown~
+~
+drink 0 A
+6 6 'icewine' 0
+0 10 604 P
+G none
+G none
+G none
+G none
+#98005
+ale bottle~
+a bottle of ale~
+A bottle of ale rests here.~
+unknown~
+~
+drink 0 A
+9 9 'ale' 0
+0 0 678 P
+G none
+G none
+G none
+G none
+#98006
+rice vodka shot~
+a shot of rice-vodka~
+A shot of a strange alcohol rests here.~
+unknown~
+~
+drink 0 A
+2 2 'vodka' 0
+0 0 284 P
+G none
+G none
+G none
+G none
+#98007
+bottle wine rose~
+a bottle of rose wine~
+A bottle of rose wine rests here.~
+unknown~
+~
+drink 0 A
+40 40 'rose wine' 0
+0 50 2990 P
+G none
+G none
+G none
+G none
+#98008
+barrel rose wine~
+a barrel of rose wine~
+A barrel of a sweet-smelling wine rests here.~
+unknown~
+~
+drink 0 A
+415 415 'rose wine' 0
+0 500 35320 P
+G none
+G none
+G none
+G none
+#98009
+ornate wineglass~
+an ornately-etched glass~
+An ornate glass with etching is here.~
+glass~
+~
+drink 0 A
+9 0 'water' 0
+0 10 578 P
+E
+etching~
+The etching reads:
+        'The Spinning Dragon :: Skyflash'
+~
+G none
+G none
+G none
+G none
+#98010
+katana sharp~
+a finely-crafted katana~
+A katana rests here. It looks nasty.~
+iron~
+~
+weapon NP AN
+longsword 6 21 slash D
+106 107 378044 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98011
+gem emerald~
+a beautiful emerald~
+A beautiful emerald rests here. It seems to pulse with energy.~
+unknown~
+mineral~
+treasure AG AO
+0 0 0 0 0
+100 0 328543 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98012
+black pill essence poppy~
+the essence of poppy~
+You hardly notice this little black pill.~
+unknown~
+opium~
+pill 0 A
+50 'haste' 'refresh' 'reserved' 'reserved'
+50 100 1000 P
+G none
+G none
+G none
+G none
+#98013
+pill grey essence mineral~
+the essence of mineral~
+A little grey pill lies in the dust.~
+unknown~
+vitamens~
+pill 0 A
+25 'shield' 'armor' 'stone skin' 'reserved'
+50 50 1000 P
+G none
+G none
+G none
+G none
+#98014
+essence feather~
+the essence of feather~
+A small capsule containing what looks to be a feather is here.~
+feathers~
+feather~
+pill 0 A
+25 'fly' 'reserved' 'reserved' 'reserved'
+50 10 1000 P
+G none
+G none
+G none
+G none
+#98015
+rose red~
+{ra red rose{z~
+A beautiful red rose lies here.~
+organics~
+organic~
+staff G AO
+25 12 12 'attract other'
+50 5 23849 P
+G none
+G none
+G none
+G none
+#98016
+blue sweet vial extract lilac~
+a blue vial of lilac extract~
+A sweet-smelling vial of a blue liquid rests here.~
+unknown~
+mojo~
+potion G A
+50 'heal' 'inspire' 'refresh' 'create rose'
+50 20 9147 P
+G none
+G none
+G none
+G none
+#98017
+pill glowing essence lichen~
+the essence of lichen~
+A glowing pill rests here.~
+unknown~
+phospherous~
+pill A A
+50 'bark skin' 'reserved' 'reserved' 'reserved'
+50 15 5000 P
+G none
+G none
+G none
+G none
+#98018
+clear pill essence lotus~
+the essence of lotus~
+A clear pill almost escapes your notice.~
+glass~
+~
+pill 0 A
+25 'invisibility' 'reserved' 'reserved' 'reserved'
+50 6 5000 P
+G none
+G none
+G none
+G none
+#98019
+scroll tattered old~
+a tattered scroll~
+A tattered scroll rests here. It looks old.~
+paper~
+~
+scroll AG AO
+50 'word of recall' 'refresh' 'cure critical' 'invisibility'
+50 40 35000 P
+E
+scroll tattered old~
+You don't know much oriental, but your rough translation skills yield the word,
+"PANIC."
+~
+G none
+G none
+G none
+G none
+#98020
+kimono silk beautiful purple~
+a beautiful {msilk{z kimono~
+A beautiful oriental kimono of the finest {msilk{z is here.~
+silk~
+~
+clothing 0 AK
+0 0 0 0 0 0 0
+50 30 56826 P
+A
+3 2
+A
+12 50
+E
+silk kimono beautiful~
+It's quite beautiful, and has many brilliant colors and designs worked
+into it's fabric.  The most promenant on this particular kimono is large
+purple dragon on the back.  
+~
+G none
+G none
+G none
+G none
+#98021
+kimono silk beautiful red~
+a beautiful {rsilk{z kimono~
+A beautiful oriental kimono of the finest {rsilk{z is here.~
+silk~
+~
+clothing 0 AK
+0 0 0 0 0 0 0
+50 40 67490 P
+A
+5 1
+A
+13 50
+E
+silk kimono beautiful~
+It's quite beautiful, and has many brilliant colors and designs worked
+into it's fabric.  The most promenant on this particular kimono is large
+red lion on the back.
+~
+G none
+G none
+G none
+G none
+#98022
+kimono silk beautiful blue~
+a beautiful {Bsilk{z kimono~
+A beautiful oriental kimono of the finest {Bsilk{z is here.~
+silk~
+~
+clothing 0 AK
+0 0 0 0 0 0 0
+50 45 74251 P
+A
+6 3
+A
+19 5
+E
+beautiful silk kimono~
+It's quite beautiful, and has many brilliant colors and designs worked
+into it's fabric.  The most promenant on this particular kimono is large
+blue bear on the back.
+~
+G none
+G none
+G none
+G none
+#98023
+silk hakama loose~
+some loose silk Hakama~
+A large, loose silk pair of pants, usually worn by Samurai, are here.~
+silk~
+~
+clothing 0 AF
+0 0 0 0 0 0 0
+50 45 88470 P
+A
+2 2
+A
+18 5
+A
+19 4
+G none
+G none
+G none
+G none
+#98024
+oriental brigandine~
+some oriental brigandine~
+Some oriental brigandine armor rests here.~
+leather~
+~
+armor 0 AD
+13 13 13 12 'none' 0
+35 36 54296 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#98025
+silk sash battle~
+a silk battle-sash~
+A beautiful silk sash with oriental symbols lies here.~
+silk~
+~
+clothing 0 AL
+0 0 0 0 0 0 0
+50 15 45389 P
+A
+18 5
+A
+19 5
+E
+silk sash battle~
+It's got oriental characters sewn into the pattern down the complete
+length of the garment.  It's quite beautiful, and seems to radiate an aura
+of energy, though you don't think it's magical.  
+~
+G none
+G none
+G none
+G none
+#98026
+cord armor oriental~
+some oriental cord armor~
+Some armor of roplelike intertwining fibers rests here.~
+unknown~
+cloth~
+armor 0 AD
+6 6 6 5 'none' 0
+15 16 13931 P
+A
+13 7
+A
+12 10
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#98027
+ashigaru suit breastplate~
+an ashigaru breastplate~
+A suit of oriental armor lies here.~
+steel~
+~
+armor 0 AD
+9 9 9 8 'none' 0
+25 26 40057 P
+A
+13 10
+A
+12 10
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#98028
+oriental great armor breastplate~
+the breastplate of some great-armor~
+The breastplate of a suit of oriental great-armor lies here.~
+steel~
+~
+armor 0 AD
+18 18 18 17 'none' 0
+50 51 164847 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98029
+chahar aina armor steel plates oriental~
+some chahar-aina armor~
+Some plates of steel with oriental characters on them lie here, tied together.~
+steel~
+~
+clothing 0 AK
+BE BE BE AE 0 BE BE
+50 51 53696 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98030
+tessen~
+a tessen~
+An oriental shield lies here.~
+steel~
+~
+armor 0 AJ
+9 9 9 8 'none' 0
+25 26 14436 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#98031
+arm dastana~
+some arm dastanas~
+Some oriental dastanas for the arm lie here.~
+unknown~
+~
+armor 0 AI
+11 11 11 10 'none' 0
+30 31 31679 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#98032
+dastana wrist~
+a wrist dastana~
+An oriental dastana for the wrist lies here.~
+steel~
+~
+armor 0 AM
+11 11 11 10 'none' 0
+30 31 20979 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#98033
+wakizashi finely crafter~
+a finely crafted wakizashi~
+A finely crafted oriental blade lies here.~
+steel~
+~
+weapon 0 AN
+shortsword 4 11 slash D
+50 100 45537 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98034
+tonfa~
+a tonfa~
+A polished piece of wood with a handle lies here.~
+wood~
+~
+weapon 0 AN
+mace 2 15 pound 0
+30 31 17130 P
+A
+20 -1
+A
+5 1
+A
+19 3
+G none
+G none
+G none
+G none
+#98035
+sai dagger points 3~
+a sai~
+An oriental dagger with 3 points lies here.~
+steel~
+~
+weapon 0 AN
+dagger 3 8 pierce 0
+30 30 13763 P
+A
+20 -1
+A
+17 -6
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#98036
+jitte dagger oriental guard~
+a jitte~
+An oriental dagger with a sharp, elongated guard lies here.~
+unknown~
+~
+weapon 0 AN
+dagger 3 8 pierce 0
+30 31 9288 P
+A
+2 1
+A
+17 -6
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#98037
+beautiful oriental fan ornate colorful~
+a beautiful warfan~
+A beautiful oriental fan lies here, with an ornate and colorful picture.~
+steel~
+~
+weapon 0 AN
+exotic 2 26 stab D
+50 50 74867 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98038
+naginata oriental polearm~
+a naginata~
+An oriental polearm lies here.~
+steel~
+~
+weapon 0 AN
+polearm 1 79 slash DF
+50 50 120192 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98039
+3 three sectioned staff~
+a three-section staff~
+3 staff-like pieces of wood are chained together in a row on the ground.~
+wood~
+~
+weapon 0 AN
+staff 2 25 thwack F
+40 41 33749 P
+A
+18 4
+A
+19 4
+G none
+G none
+G none
+G none
+#98040
+sodegarami polearm oriental brutal sinister~
+a sinister-looking sodegarami~
+An incredibly brutal-looking oriental polearm lies here.~
+steel~
+~
+weapon 0 AN
+polearm 1 119 smash DF
+75 76 275630 P
+A
+18 7
+A
+19 7
+G none
+G none
+G none
+G none
+#98041
+lajatang oriental staff bladed~
+a lajatang~
+An oriental bladed staff lies here.~
+steel~
+~
+weapon 0 AN
+staff 3 28 slash DF
+65 66 105978 P
+A
+12 30
+A
+18 6
+A
+19 6
+G none
+G none
+G none
+G none
+#98042
+nagamaki oriental bastard sword~
+a nagamaki~
+An oriental bastard sword lies here.~
+unknown~
+~
+weapon 0 AN
+bastardsword 2 36 slash DF
+50 51 114516 P
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+G none
+#98043
+dragon lantern~
+a dragon lantern~
+A lantern in the shape of an oriental dragon rests here.~
+steel~
+~
+light 0 AO
+304
+40 10 7342 P
+A
+1 4
+A
+18 -10
+A
+19 2
+G none
+G none
+G none
+G none
+#98044
+robe hooded holding dark black~
+a dark hooded robe~
+A black hooded robe lies here.~
+unknown~
+cloth~
+container GIY AK
+100 0 0 50 50 0
+40 0 54954 P
+E
+black dark hooded robe holding~
+As you reach your hands into the pockets, you realize they are far deeper
+than they should be, seriously violating the laws of physics.  You presume
+that it must be magical.  
+~
+G none
+G none
+G none
+G none
+#98045
+straw hat~
+a commoner's wide-brimmed straw hat~
+A wide-brimmed, pointy straw hat lies here.~
+unknown~
+~
+clothing 0 AE
+0 0 0 0 0 0 0
+20 0 11736 P
+A
+20 -1
+A
+14 20
+A
+12 20
+G none
+G none
+G none
+G none
+#98046
+throne lord~
+the throne of the lord of Skyflash~
+The throne of the lord of Skyflash rests here.~
+unknown~
+~
+furniture 0 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#98047
+crown skyflash ruler~
+the crown of Skyflash~
+The crown of the ruler of Skyflash is here.~
+platinum~
+~
+armor A AE
+33 33 33 32 'none' 0
+90 92 333360 P
+A
+13 45
+A
+19 9
+A
+12 90
+E
+crown skyflash ruler~
+A platinum crown inlaid with gems and jewels, it's main distinctive
+characteristic is a pair of small shimmering golden wings; in the right
+light, they seem to cast the illusion that they are actually beating.  
+~
+G none
+G none
+G none
+G none
+#98048
+sword skyflash blade long slender~
+the ruling blade of Skyflash~
+A long, slender blade of diamond rests on the ground.~
+unknown~
+~
+weapon AI AN
+longsword 5 22 pierce G
+90 91 385609 P
+A
+12 30
+A
+18 9
+A
+19 9
+G none
+G none
+G none
+G none
+#98049
+key painted~
+a painted key necklace~
+A key with a small picture painted on it rests on a chain.~
+unknown~
+~
+key 0 AC
+0 0 0 0 0 0 0
+90 0 1010 P
+A
+19 9
+E
+painted key~
+The painting appears to be of an arial holding a scroll in one hand, and
+a sword in another.  
+~
+G none
+G none
+G none
+G none
+#98050
+iron blackened key~
+a blackened iron key~
+A blackened key of heavy iron rests here.~
+iron~
+~
+key ITUf AO
+0 0 0 0 0 0 0
+90 0 1010 P
+A
+13 40
+A
+19 9
+A
+12 90
+G none
+G none
+G none
+G none
+#98051
+small banzai tree~
+a small {ybanzai{z {gtree{z~
+A small potted tree catches your eye.~
+unknown~
+~
+container R AO
+50 A 0 10 100 0
+45 100 13595 P
+A
+5 2
+A
+18 4
+A
+19 4
+G none
+G none
+G none
+G none
+#98052
+key gate~
+a gate key~
+A large key on a ring rests here.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+10 0 10 P
+A
+13 10
+G none
+G none
+G none
+G none
+#98053
+mansion key~
+the mansion key~
+A large golden key lies discarded here.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+30 0 0 P
+A
+13 10
+G none
+G none
+G none
+G none
+#98054
+green herbs leaves~
+some glowing {Ggreen{z herb~
+Some glowing {Ggreen{z leaves rest on the ground.~
+unknown~
+~
+pill AG A
+25 'refresh' 'reserved' 'reserved' 'reserved'
+50 20 4505 P
+G none
+G none
+G none
+G none
+#98055
+bunk bed~
+a bunk bed~
+A few bunk-beds line the walls.~
+unknown~
+~
+furniture PTUYa 0
+AC EHIJKLMOQ EHL DGH DGH AC EHIJKLMOQ
+0 10 0 P
+G none
+G none
+G none
+G none
+#98056
+chest heavy wooden~
+a heavy wooden chest~
+A heavy wooden chest rests at one of the walls.~
+unknown~
+~
+container 0 A
+500 ACD 98088 20 85 0
+0 0 8141 P
+G none
+G none
+G none
+G none
+#98057
+gold coins silver money~
+some gold coins~
+A pile of golden coins shimmer in the sun.~
+unknown~
+~
+money 0 A
+482 24
+0 0 0 P
+G none
+G none
+G none
+G none
+#98058
+gem diamond beautiful~
+a beautiful diamond~
+A beautiful gem rests upon the ground.~
+diamond~
+~
+gem 0 A
+0 0 0 0 0 0 0
+0 0 6500 P
+G none
+G none
+G none
+G none
+#98059
+gem beautiful pearl~
+a beautiful pearl~
+A beautiful gem rests upon the ground.~
+pearl~
+~
+gem 0 A
+0 0 0 0 0 0 0
+0 0 2500 P
+G none
+G none
+G none
+G none
+#98060
+gem beautiful emerald~
+a beautiful emerald~
+A beautiful gem rests upon the ground.~
+emerald~
+~
+gem 0 A
+0 0 0 0 0 0 0
+0 0 3200 P
+G none
+G none
+G none
+G none
+#98061
+gem beautiful ruby~
+a beautiful ruby~
+A beautiful gem rests upon the ground.~
+unknown~
+ruby~
+gem 0 A
+0 0 0 0 0 0 0
+0 0 4500 P
+G none
+G none
+G none
+G none
+#98062
+necklace simple string iron charm small~
+an iron charm~
+A small, simple iron charm on a string lies here.~
+unknown~
+~
+jewelry GINPU AC
+0 0 0 0 0 0 0
+100 0 140 P
+A
+19 10
+A
+18 10
+E
+small iron charm simple~
+It appears to be some sort of symbol for an ancient god or goddess.  You
+feel mischevious and lucky just holding it.  
+~
+G none
+G none
+G none
+G none
+#98063
+luckstone dull gray stone~
+a dull gray stone~
+A random stone sits on the ground, neglected.~
+stone~
+~
+treasure GHIMZf AO
+0 0 0 0 0
+70 0 100 P
+A
+20 -2
+A
+13 35
+A
+12 70
+E
+luckstone dull gray stone~
+As you look closer at this seemingly unremarkable stone, you realize it's
+true nature...  You've found a luckstone!  Good things are sure to happen
+now!  
+~
+G none
+G none
+G none
+G none
+#98064
+mirror wall~
+a large mirror~
+A very large mirror rests against the northern wall.~
+unknown~
+~
+portal 0 0
+0 0 AB 3014 0
+0 0 0 P
+E
+mirror wall large~
+Looking into the mirror, you see your reflection in clear, unmistakeable
+detail, but the background seems fuzzy, and constantly warping...  There's
+obviously something very odd going on.  When you go to touch it, your
+fingers pass right through...  
+~
+G none
+G none
+G none
+G none
+#98065
+luxurious comfortable king bed~
+the ruler's bed~
+A luxurious king-sized bed sits in the center of the room.~
+silk~
+~
+furniture 0 0
+B FHJKPQ EHK CDFI CDFI B FHJKPQ
+0 0 0 P
+E
+luxurious comfortable king bed~
+It looks ridiculously comfortable...  Your eyelids are getting heavy just
+thinking about it.  
+~
+G none
+G none
+G none
+G none
+#98066
+armor elite guard breastplate arial~
+an elite arial breastplate~
+An expertly-crafted breastplate, designed for a winged wearer, is here.~
+unknown~
+~
+armor GI AD
+26 26 26 25 'none' 0
+70 71 415190 P
+A
+13 70
+A
+19 7
+G none
+G none
+G none
+G none
+#98067
+armor elite guard arial shield~
+an elite arial shield~
+An expertly-crafted shield, designed for a winged wearer, is here.~
+unknown~
+~
+armor GI AJ
+26 26 26 25 'none' 0
+70 71 262084 P
+A
+13 70
+A
+19 7
+G none
+G none
+G none
+G none
+#98068
+armor elite guard arial wing~
+wing guards~
+Some wing guards, designed for an arial, rest here.~
+unknown~
+~
+clothing GI AK
+BDE BDE BDE ADE 0 BDE BDE
+70 71 167423 P
+A
+13 70
+A
+19 7
+G none
+G none
+G none
+G none
+#98069
+chest jade solid~
+a chest of {gsolid jade{z~
+A large chest of {gsolid jade{z sits in the center of the room.~
+unknown~
+jade~
+container 0 0
+500 ABCD 98074 500 100 0
+0 1000000 0 P
+G none
+G none
+G none
+G none
+#98070
+bow lode scared legendary sacred~
+the legendary {YL{z{Wod{z{Ye{z bow~
+A perfectly crafted metal bow floats in mid-air here.~
+unknown~
+~
+weapon AIKL AN
+bow 4 33 divine F
+106 107 338246 P
+A
+18 24
+G none
+G none
+G none
+G none
+#98071
+legendary lode arrow~
+a legendary {YL{z{Wod{z{Ye{z arrow~
+A metal arrow floats in the air nearby.~
+unknown~
+~
+weapon AIKL AO
+arrow 8 14 divine DI
+106 107 49971 P
+A
+19 5
+A
+18 10
+G none
+G none
+G none
+G none
+#98072
+legendary lode guisarme~
+the legendary {YL{z{Wod{z{Ye{z guisarme~
+A blade on a large metal pole floats nearby.~
+unknown~
+~
+weapon AIKLh AN
+polearm 18 10 divine DFI
+106 107 2265107 P
+A
+13 20
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98073
+legendary lode breastplate~
+the legendary {YL{z{Wod{z{Ye{z breastplate~
+A shining metal breastplate floats a few inches off the ground.~
+unknown~
+~
+armor AIKL AD
+38 38 38 37 'none' 0
+106 107 575953 P
+A
+19 8
+A
+18 10
+G none
+G none
+G none
+G none
+#98074
+key jade solid~
+a {gsolid jade{z key~
+A key of the finest {gjade{z rests here.~
+unknown~
+~
+key GIKLPUf AO
+0 0 0 0 0 0 0
+96 0 0 P
+A
+19 9
+A
+6 2
+A
+1 1
+G none
+G none
+G none
+G none
+#98075
+legendary lode legplates plates~
+the legendary {YL{z{Wod{z{Ye{z legplates~
+A few plates of shining metal, held together by a chain, float here.~
+unknown~
+~
+armor AIKL AF
+38 38 38 37 'none' 0
+106 107 367042 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98076
+legendary lode chain sleeves~
+the legendary {YL{z{Wod{z{Ye{z chain sleeves~
+Some plates of shining chain sleeves float in the air here.~
+unknown~
+~
+armor AGIKL AI
+38 38 38 37 'none' 0
+106 107 379807 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98077
+beast voulge~
+the {Dvoulge{z of the {Rbeast{z~
+A red-tinged blade on a pole pulses and twitches on the ground.~
+adamantite~
+~
+weapon CEJLh AN
+polearm 2 83 flbite AF
+106 1000 1224619 P
+A
+13 30
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98078
+legendary lode quiver~
+the legendary {YL{z{Wod{z{Ye{z quiver~
+A metallic quiver floats in midair here.~
+unknown~
+~
+container AIKL AC
+500 F 0 20 50 0
+106 107 71439 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98079
+scroll green inked~
+a green-inked scroll~
+A scroll with green ink sits here.~
+paper~
+~
+scroll AG AO
+100 'poison' 'poison' 'poison' 'poison'
+60 20 50000 P
+G none
+G none
+G none
+G none
+#98080
+many missiles scroll~
+a scroll of many missiles~
+A scroll with a picture of many arrows rests here.~
+unknown~
+~
+scroll G AO
+80 'magic missile' 'magic missile' 'magic missile' 'magic missile'
+80 20 250000 P
+G none
+G none
+G none
+G none
+#98081
+flaming scroll flickering~
+a perpetually {rf{z{Rl{z{Ya{z{Wm{z{Yi{z{Rn{z{rg{z scroll~
+A scroll enveloped in fire burns endlessly here.~
+unknown~
+~
+scroll 0 AO
+91 'burning hands' 'burning hands' 'burning hands' 'burning hands'
+91 20 500000 P
+G none
+G none
+G none
+G none
+#98082
+forbidden words scroll~
+a scroll of forbidden words~
+A scroll of the most profane words utterable lies here.~
+unknown~
+~
+scroll 0 AO
+91 'demonfire' 'plague' 'poison' 'acid arrow'
+91 50 100000 P
+G none
+G none
+G none
+G none
+#98083
+scroll gentle blue glowing~
+a scroll with a gentle {Bblue{z glow~
+A scroll lies here, giving off a gentle {Bblue{z aura.~
+unknown~
+~
+scroll AGI AO
+91 'bless' 'heal' 'heal' 'reserved'
+91 50 100000 P
+G none
+G none
+G none
+G none
+#98084
+red feather~
+a {Rred{z feather~
+A beautiful {Rred{z feather sits here.~
+feathers~
+feather~
+armor GI AO
+6 6 6 5 'none' 0
+15 16 3035 P
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#98085
+feather blue~
+a {Bblue{z feather~
+A beautiful {Bblue{z feather sits here.~
+feathers~
+feather~
+armor I AO
+8 8 8 7 'none' 0
+20 21 11713 P
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#98086
+feather black~
+a {Dblack{z feather~
+A beautiful {Dblack{z feather rests here.~
+feathers~
+feather~
+armor I AO
+9 9 9 8 'none' 0
+25 26 17197 P
+A
+20 -1
+A
+18 2
+A
+19 2
+G none
+G none
+G none
+G none
+#98087
+dinner table~
+the dinner table~
+A table with some silverware and a napkin sits in the center of the room.~
+wood~
+~
+furniture 0 0
+C INOPQSUVWXYa DG CFG CFG C INOPQSUVWXYa
+0 0 0 P
+G none
+G none
+G none
+G none
+#98088
+key small chest~
+a small chest key~
+A small key for a chest lies here.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#98089
+bathtub tub~
+a bathtub~
+A claw-footed bathtub sits in the center of the bathroom, filled with warm water.~
+unknown~
+~
+furniture 0 0
+B ABCDEFGHIJKLMNOPQRSTUVWXYZabcde FI BDEFGH BDEFGH B ABCDEFGHIJKLMNOPQRSTUVWXYZabcde
+0 0 0 P
+G none
+G none
+G none
+G none
+#98090
+bed guest~
+a small guest bed~
+A small bed for a guest sits here, looking very comfortable.~
+unknown~
+~
+furniture 0 0
+B GIKLQR EHK BDEFGH BDEFGH B GIKLQR
+0 0 0 P
+G none
+G none
+G none
+G none
+#98091
+legplates general kagu maru leggings~
+{WKagu-Maru's leggings{z~
+The leggings of the famed arial general, Kagu-Maru, rest here.~
+adamantite~
+~
+armor A AF
+38 38 38 37 'none' 0
+106 107 596870 P
+A
+13 50
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98092
+general kagu maru gauntlets~
+{WKagu-Maru's gauntlets{z~
+The gauntlets of the famed arial general, Kagu-Maru, rest here.~
+adamantite~
+~
+armor A AH
+38 38 38 37 'none' 0
+106 107 471132 P
+A
+13 50
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98093
+general kagu maru armplates~
+{WKagu-Maru's armplates{z~
+The armplates of the famed arial general, Kagu-Maru, rest here.~
+adamantite~
+~
+armor A AI
+38 38 38 37 'none' 0
+106 107 509915 P
+A
+13 40
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#98094
+general kagu maru breastplate~
+{WKagu-Maru's breastplate{z~
+The breastplate of the famed arial general, Kagu-Maru, rest here.~
+adamantite~
+~
+armor A AD
+38 38 38 37 'none' 0
+106 107 912641 P
+A
+13 58
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#98000
+Edge of a Cliff~
+You are standing on the very edge of a cliff.  Below you, thousands and
+thousands of feet down, you can see the forests of the lands far west of
+Midgaard.  You feel an overwhelming sense of vertigo, and immediately step
+back from the edge.  Surrounding this clearing to the north, south and west,
+is a thick and lush forest; to the west, you see a path barely kept from
+overgrowth.  
+ 
+You see a sign nearby. It says:
+{W
+    +----------------+
+    |   WELCOME TO   |
+    |    SKYFLASH    |
+    |       --       |
+    |   KEEP  AWAY   |
+    |   FROM LEDGE   |
+    +----------------+{x
+~
+0 0 forest
+D1
+~
+~
+Z 0 97992
+0 0
+D3
+~
+~
+Z 0 98001
+0 0
+S
+#98001
+Path in the forest of Skyflash~
+You are wandering down a path in a lush, beautiful forest.  It's amazing
+to see the glorious wildlife that's survived on this floating island.  To
+the east, you can see a clearing, and what seems to be a cliff.  To the
+west, the path continues.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98000
+0 0
+D3
+~
+~
+Z 0 98002
+0 0
+S
+#98002
+Path in the forest of Skyflash~
+You are wandering down a path in a lush, beautiful forest.  It's amazing
+to see the glorious wildlife that's survived on this floating island.  To
+the east and west the path continues.  There's a lot of birdcalls in the
+surrounding forest, though you think you hear what sounds like voices to the
+west.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98001
+0 0
+D3
+~
+~
+Z 0 98003
+0 0
+S
+#98003
+Path in the forest of Skyflash~
+You are wandering down a path in a lush, beautiful forest.  It's amazing
+to see the glorious wildlife that's survived on this floating island.  To
+the east and west the path continues.  There's a lot of birdcalls in the
+surrounding forest, though you think you hear what sounds like voices to the
+west.  They seem louder than before.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98002
+0 0
+D3
+~
+~
+Z 0 98004
+0 0
+S
+#98004
+Path in the forest of Skyflash~
+You are wandering down a path on the floating island of Skyflash.  There
+is a plethera of life in this land, but you think you can hear the sounds of
+a city to the west.  To the east and west the path continues, though you
+cannot see how far, since the path is very overgrown.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98003
+0 0
+D3
+~
+~
+Z 0 98005
+0 0
+S
+#98005
+Path in the forest of Skyflash~
+You are wandering down a path on the floating island of Skyflash.  There
+is a plethera of life in this land, but you think you can hear the sounds of
+a city to the west.  To the east and west the path continues, though you
+cannot see how far, since the path is very overgrown.  You notice a strange
+tree to the north.  
+~
+0 0 forest
+D0
+~
+tree~
+ABZ 0 98037
+0 0
+D1
+~
+~
+Z 0 98004
+0 0
+D3
+~
+~
+Z 0 98006
+0 0
+S
+#98006
+Path in the forest of Skyflash~
+You are wandering down a path on the floating island of Skyflash.  The
+birds are very loud and plentiful here, but you have yet to see any sort of
+non-avian lifeform.  You wonder whether or not there are any; perhaps the
+noise you hear to the west is just your imagination.  To the east and west,
+the path continues.
+~
+0 0 forest
+D1
+~
+~
+Z 0 98005
+0 0
+D3
+~
+~
+Z 0 98007
+0 0
+S
+#98007
+Path in the forest of Skyflash~
+You are wandering down a path on the floating island of Skyflash. 
+There's an amazing amount of sound coming from everywhere around you, but it
+seems to all be from wind or birdcalls.  You still think you hear some sort
+of distant humanoid voice from the west, but you can't be sure.  The path
+continues to the east and west.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98006
+0 0
+D3
+~
+~
+Z 0 98008
+0 0
+S
+#98008
+Path in the forest of Skyflash~
+The birds here are everywhere!  It's no wonder; there's an overabundance
+of berry bushes and fruit trees they can feast upon on this strange floating
+island.  To the east, the path continues a ways, and to the west, you think
+you see some sort of man-made structure.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98007
+0 0
+D3
+~
+~
+Z 0 98009
+0 0
+S
+#98009
+Path in the forest of Skyflash~
+You continue down the path through the forest of Skyflash.  To the west,
+you can distinctly see a set of gates and a wall, as well as a lack of trees
+beyond the wall.  To the east, everything looks the same; trees and birds,
+everywhere.  The path continues in both directions.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98008
+0 0
+D3
+~
+~
+Z 0 98010
+0 0
+S
+#98010
+At the Gates of Skyflash~
+You are standing at the gates of a wall; behind them looks to be a city. 
+The forest doesn't extend beyond the wall, except for a tree here or there. 
+Looks like it was cleared, and the wall was put up to keep it from growing
+in again.  To the east, a path goes off into the wilderness.  
+~
+0 0 forest
+E
+sign gate~
+There's a sign next to the gate. It reads:
+ 
+{WIf you need assistance with the gate, just ask the gateguards:
+ 
+'{BCan you unlock the gate?{z'
+{x
+~
+D1
+~
+~
+Z 0 98009
+0 0
+D3
+~
+gate~
+ABZ 98052 98011
+0 0
+S
+#98011
+Inside the Gates of Skyflash~
+You are standing inside the gates of the city of Skyflash.  It must be
+strange, living on a small floating continent; the days must seem longer. 
+It also seems unusually warm here; perhaps being closer to the sun accounts
+for the tropical environment.  To the west, a street stretches towards a
+palace, with small shops and houses lining it.  To the east, through the
+gates, a small path disappears into the wilderness.  
+~
+0 0 inside
+E
+gate sign~
+There's a sign next to the gate. It reads:
+{W
+If you need assistance with the gate, just ask the gateguards:
+ 
+{x'{BCan you unlock the gate?{x'
+~
+D0
+~
+~
+Z 0 98013
+0 0
+D1
+~
+gate~
+ABZ 98052 98010
+0 0
+D3
+~
+~
+Z 0 98012
+0 0
+S
+#98012
+Lilac Street~
+You are walking down a road through the city of Skyflash.  A small
+street-sign on the edge of the curb reads "Lilac Street".  To the east, you
+can see the gates leading out of the city, and to the west, you can see
+stores lining either side of the street, as well as a palace in the
+distance.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98011
+0 0
+D3
+~
+~
+Z 0 98014
+0 0
+S
+#98013
+The Guard House~
+You are standing inside a small guard bunkhouse.  Four beds are set in
+the walls, and a small table rests in the center of the room.  A card game
+in progress looks to have been abandoned on the table.  To the south, you
+see the door through which you came, back out to the gates.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98011
+0 0
+S
+#98014
+Lilac Street~
+Walking down the street, you immediately spot what seems to be an
+influence in the architecture from the eastern continent.  Your suspicions
+are confirmed when you read the shop signs: "The Taste of Teshubu" to the
+north, and "The Spinning Dragon" to the south.  The scent of delicious
+eastern food comes from the north, and you hear the distinct sounds of a bar
+to the south.  To the west, the street continues, with more shops lining it.
+~
+0 0 inside
+D0
+~
+~
+Z 0 98015
+0 0
+D1
+~
+~
+Z 0 98012
+0 0
+D2
+~
+~
+Z 0 98016
+0 0
+D3
+~
+~
+Z 0 98017
+0 0
+S
+#98015
+The Taste of Teshubu~
+You are standing inside a small eastern-looking restaraunt.  Behind a
+counter, a man you presume to be Teshubu grills and fries and bakes things
+in a small kitchen.  There are a couple chairs nearby, but you get the
+impression that this place is take-out, rather than dine-in.  To the south,
+you see Lilac Street.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98014
+0 0
+S
+#98016
+The Spinning Dragon~
+You find yourself in a dark, seedy-looking bar.  Patrons of all types
+laugh and drink their alcohol around you, and the room certainly seems to
+have the scent of a liquor establishment.  Behind the counter, a bartender
+of the arial race handles all drink requests.  He carries a katana, and
+looks very tough; it seems that fights break out pretty frequently here.  
+~
+0 D inside
+D0
+~
+~
+Z 0 98014
+0 0
+D2
+~
+door~
+ABZ 0 98038
+0 0
+D5
+~
+trapdoor~
+ABZ 0 98039
+0 0
+S
+#98017
+Lilac Street~
+You continue down Lilac Street.  To the north, the exotic scents of
+Fu-Shu Su's floral shop entice you; to the south, you here the rythmic
+tink-tink-tink of someone working on metal.  The street continues east
+towards the gates and west towards an intersection at the palace.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98018
+0 0
+D1
+~
+~
+Z 0 98014
+0 0
+D2
+~
+~
+Z 0 98019
+0 0
+D3
+~
+~
+Z 0 98020
+0 0
+S
+#98018
+Fu-Shu Su's Den~
+As soon as you step inside this large shop, the scent of all sorts of
+flowers and fragrences assaults you.  Incense burns in atleast four places,
+and behind the counter, the man you assume is Fu-Shu Su as at work crushing
+a lilac flower for it's juice.  Bins of strange pills and vials line the
+walls; the only whole flower you see for sale is a red rose, and even they
+strike you as odd, though you aren't sure why.  A door behind the counter
+reads, "Arcanes Only."  
+~
+0 0 inside
+D0
+~
+door~
+ABZ 0 98032
+0 0
+D2
+~
+~
+Z 0 98017
+0 0
+S
+#98019
+Wu-Ren's Smithy~
+You are standing in a rather crude building with a rather crude interior;
+the walls bear no paint or decoration, as ther mere purpose seems to be to
+hang completed weapons on them.  Behind a counter, a man you assume is
+Wu-Ren hammers some sort of implement of destruction to perfection on a
+large anvil.  A door in the west wall leads to Wu-Ren's brother's shop, an
+armory.  To the north, you see Lilac Street.  
+ 
+There is a sign on the counter. You feel you should read it.
+~
+0 0 inside
+E
+sign counter~
+The sign on the counter is in crude common. It reads:
+ 
+{WWe know western customers not familiar with our weapons, so we make clear
+for you what ask for:
+ 
+Dagger: Sai, Jitte
+ 
+Mace: Tonfa
+ 
+Short Sword: Wakizashi
+ 
+Bastard Sword: Nagimaki
+ 
+Polearm: Naginata, Sodegarami
+ 
+Staff: Three-Section Staff, Lajatang
+ 
+Other: Warfan{x
+~
+D0
+~
+~
+Z 0 98017
+0 0
+D3
+~
+~
+Z 0 98022
+0 0
+S
+#98020
+Lilac Street~
+You are standing near the end of Lilac Street.  To the west, you see an
+intersection at the gates of the palace.  To the east, you see stores lining
+the side of Lilac Street.  To the north, you see what looks like a clothing
+shop; silk robes hang in the windows.  To the south, you hear the rythmic
+tink-tink-tink of a smithery.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98021
+0 0
+D1
+~
+~
+Z 0 98017
+0 0
+D2
+~
+~
+Z 0 98022
+0 0
+D3
+~
+~
+Z 0 98023
+0 0
+S
+#98021
+The Silk Shop~
+You are standing inside the silk shop.  Beautiful silk clothing for
+warriors hang from hooks around the walls; there's an item perfect for
+nearly every wardrobe, from the kimonos to wear over armor, to the battle
+sashes, to the silk hakama, which are the pants samurai wear into battle. 
+To the south, you see Lilac Street, and to the west, you see Lotus Street.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98020
+0 0
+D3
+~
+~
+Z 0 98024
+0 0
+D5
+~
+trapdoor~
+ABZ 0 98040
+0 0
+S
+#98022
+Ten-Gu's Smithy~
+You are standing in a rather crude building with a rather crude interior;
+the walls bear no paint or decoration, as ther mere purpose seems to be to
+hang completed armor on them.  Behind a counter, a man you assume is Ten-Gu
+hammers some sort of implement of protection to perfection on a large anvil.
+A door in the east wall leads to Ten-Gu's brother's shop, an armory.  To the
+north, you see Lilac Street, and to the west, you see Lotus Street.  
+ 
+There's a sign on the counter. You feel you should read it.
+~
+0 0 inside
+E
+counter sign~
+The sign is written in crude common. It reads:
+ 
+{WA tessen is a shield, and chahar-aina armor is worn about the body.
+ 
+Now quit asking. Jeez.{x
+~
+D0
+~
+~
+Z 0 98020
+0 0
+D1
+~
+~
+Z 0 98019
+0 0
+D3
+~
+~
+Z 0 98025
+0 0
+S
+#98023
+Intersection of Lilac and Lotus~
+You are standing at the intersection of Lotus Street and Lilac Street. 
+To the east, Lilac Street continues towards the entrance of the city; to the
+north and south, Lotus Street runs parallel to the walls of the palace.  To
+the west is the gate into the palace's gardens.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98024
+0 0
+D1
+~
+~
+Z 0 98020
+0 0
+D2
+~
+~
+Z 0 98025
+0 0
+D3
+~
+gate~
+ABCZ 98052 98041
+0 0
+S
+#98024
+Lotus Street~
+You are walking down Lotus Street, north of it's intersection with Lilac
+Street.  To the north, you see what looks to be a couple more shops, and
+then the northern wall of the city.  To the east, you see an entrance into
+the silk shop.  To the south is the intersection, and to the west is the
+wall of the palace.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98026
+0 0
+D1
+~
+~
+Z 0 98021
+0 0
+D2
+~
+~
+Z 0 98023
+0 0
+S
+#98025
+Lotus Street~
+You are standing on Lotus Street, just south of it's intersection with
+Lilac Street.  To the east, an entranceway leads into the town's armory.  To
+the south, you see another store, and then the wall that holds out the
+wilderness.  To the west is another wall, seperating the city from the
+ruler's palace.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98023
+0 0
+D1
+~
+~
+Z 0 98022
+0 0
+D2
+~
+~
+Z 0 98027
+0 0
+S
+#98026
+Lotus Street~
+You continue down Lotus Street.  To the east, you can see the entrance to
+the city's bank, a simple building that gets very little use in this
+tropical little town.  To the north and south the street continues. 
+Southward you can see the town's only intersection, and to the north, you
+can see another building's entrance before the wall keeping out the
+wilderness.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98030
+0 0
+D1
+~
+~
+Z 0 98028
+0 0
+D2
+~
+~
+Z 0 98024
+0 0
+S
+#98027
+Lotus Street~
+You are at the south end of Lotus Street.  To the south, a wall holds
+back the wilderness from growing in on the city.  To the north, the road
+continues towards the intersection with Lilac Street.  To the east, you see
+Ko-Su's general store.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98025
+0 0
+D1
+~
+~
+Z 0 98029
+0 0
+S
+#98028
+The Bank~
+You are standing inside the bank of Skyflash.  A rather simple building
+with little more than a counter and a vault, it seems underdecorated for
+such a culturally vivrant city.  You suppose that few people spend any
+amount of time here, and the establishment's owners decided that there was
+little use in dolling the place up.  To the west, you see Lotus Street.  
+~
+0 U inside
+D3
+~
+~
+Z 0 98026
+0 0
+S
+#98029
+Ko-Su's General Store~
+You are standing inside a simple general store, run by Ko-Su.  A lot of
+random things are sold here, but most of them wouldn't be any use to an
+adventurer such as yourself.  The few items you would be interested in are
+right up at the counter.  To the west, you see Lotus Street.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98027
+0 0
+S
+#98030
+Lotus Street~
+You are standing outside a very large, ornately decorated house at the
+end of Lotus Street.  To the north, the city walls hold out the wilderness
+from overgrowing it's boundries, and to the south, you can see a couple
+shops lining the eastern side of the street before and after it's
+intersection with Lilac Street.  The house to the east seems erie and
+foreboding, though you aren't sure why.  
+~
+0 0 inside
+D1
+~
+door~
+ABZ 0 98031
+0 0
+D2
+~
+~
+Z 0 98026
+0 0
+S
+#98031
+A dark house~
+You are standing inside an empty room of a very creepy house.  To the
+north you see a door; inside, you hear what sounds like the cries of someone
+being tortured, along with laughter.  To the east lies another door, behind
+which you hear what sounds like someone sawing something in half, along with
+the dripping noise of what sounds like blood.  
+~
+0 0 inside
+D0
+~
+door~
+ABZ 0 98036
+0 0
+D1
+~
+door~
+ABZ 0 98035
+0 0
+D3
+~
+door~
+ABZ 0 98030
+0 0
+S
+#98032
+Back Room~
+You are standing inside the back room of the flower shop.  Strewn about
+are crates and crate of random arcane objects and foci; there's a crate of
+scrolls here, a crate of potions there, a crate of pills there.  It's truly
+an amazing sight.  To the east and west are doors; behind the east you hear
+sounds you'd hear in a kitchen, and from the west come sounds of chanting.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98033
+0 0
+D2
+~
+door~
+ABZ 0 98018
+0 0
+D3
+~
+~
+Z 0 98034
+0 0
+M 191 H 100
+S
+#98033
+The Cauldron Room~
+You are standing inside what can only be described as a 'kitchen from
+hell.' All around you are random disgusting incredients that the woman in
+the center of the room takes from freely; toad eyes, chicken feet, goat
+blood.  It's pretty disgusting to watch.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98032
+0 0
+S
+#98034
+The Power Ritual Room~
+You are standing inside a room filled with strange arcane symbols and
+objects; there's a giant circle in the center of the room, surrounded by
+candles and marked with white dust.  All around the room are small altars to
+random powers and gods.  It seems to be a room entirely dedicated to
+invoking power.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98032
+0 0
+S
+#98035
+The Summoning Chamber~
+You are standing inside the laboratory of a necromancer.  In the middle
+is a circle used to summon spirits to inhabit his creations; at the moment,
+he is working on building a flesh golem.  Corpses and body parts lie strewn
+about, while he saws off what he doesn't want and sews what he does onto his
+creation.  It's pretty disgusting.  
+~
+0 0 inside
+D3
+~
+door~
+ABZ 0 98031
+0 0
+S
+#98036
+The Crucifixion Gallery~
+You are standing inside a room that seems to be some sort of gallery;
+there are rows and rows of crosses, each with a body crucified on them. 
+Some are fresher than others; while those in the back seem to be decades
+old, the ones in the forefront look like they've just been killed.  The
+smell in here is truly awful.  
+~
+0 0 inside
+D2
+~
+door~
+ABZ 0 98031
+0 0
+S
+#98037
+The Giant Tree~
+You are standing inside a small shack carved out of a tree.  You'd have
+hardly noticed it; the door, also made from the same tree, is barely
+visible.  Here, you see the very simple tools needed to live the life of an
+outdoorsman; a bow and arrow, a small pot for cooking, and a small bed.  A
+fresh kill hangs from the cieling; you presume it's dinner.  
+~
+0 0 inside
+D2
+~
+door~
+ABZ 0 98005
+0 0
+S
+#98038
+The Smuggler's Room~
+You are standing in the back room of The Spinning Dragon.  An assortmant
+of crates and barrels lie here and there, most marked with some sort of
+price-tag.  You get the distinct impression that there is some sort of
+illegal trade going on here; it looks like these items are either from the
+land below, or intended to be taken there.  
+~
+0 0 inside
+D0
+~
+door~
+ABZ 0 98016
+0 0
+S
+#98039
+Beneath the Bar~
+You are standing in a small basement below The Spinning Dragon.  Some
+various practice dummies stand here and there; you spot one with atleast 30
+shuriken stuck in it.  It seems whoever is throwing these items is very good
+at it.  Above, you hear the sounds of the bar; sounds pretty rough up there.
+~
+0 0 inside
+D4
+~
+trapdoor~
+ABZ 0 98016
+0 0
+S
+#98040
+The Crypt~
+You are standing in a crypt blow the silk shop.  The air is damp and
+stagnant, making it hard to breathe; but then again, if you're down here,
+you don't need to breathe, because you're a vampire.  A coffin sits in a
+corner, and a small table and chair sit in the center of the room.  A simple
+lamp gives off a small amount of light, just enough to write to.  A pen and
+ink sit on the table; perhaps he's an author as well as a cursed
+abomination.  
+~
+0 0 inside
+D4
+~
+trapdoor~
+ABZ 0 98021
+0 0
+S
+#98041
+The Garden~
+You are standing inside the gates of the palace, in it's beautiful
+gardens.  There are amazing displays of banzai as well as an assortment of
+cherry trees in perpetual blossom.  The scenery here is truly amazing, and a
+feeling of serenity overcomes you.  To the east are the gates, and to the
+west you can see the entrance to the palace; the garden extends north and
+south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98043
+0 0
+D1
+~
+gate~
+ABCZ 98052 98023
+0 0
+D2
+~
+~
+Z 0 98044
+0 0
+D3
+~
+~
+Z 0 98042
+0 0
+S
+#98042
+The Garden~
+You are standing before the grand doors of the palace, in the garden
+outsiode.  To the west, the amazing palace looms before you, an architectual
+marvel of wood and stone.  All around you, the beautiful plantlife of the
+island has been planted, giving the place a serene feeling.  The garden
+extends north and south, and to the east you can see the gates leading out
+to the city.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98046
+0 0
+D1
+~
+~
+Z 0 98041
+0 0
+D2
+~
+~
+Z 0 98045
+0 0
+D3
+~
+~
+ABCZ 98053 98047
+0 0
+S
+#98043
+The Garden~
+You are standing at the north-east corner of the gardens of the palace. 
+Here, there's a beautiful display of roses of an assortment of colors;
+blues, reds, yellows, whites.  It's an amazing rainbow of natural beauty. 
+The garden extends west and south.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98041
+0 0
+D3
+~
+~
+Z 0 98046
+0 0
+S
+#98044
+The Garden~
+You are standing in the south-east corner of the gardens outside the
+palace.  Here, there are an assortment of trees natural to the island, all
+in a perpetual state of blossom.  The scenery is truly amazing; you wonder
+how long it took for these trees to grow to their towering height and
+beauty.  The garden extends to the west and north.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98041
+0 0
+D3
+~
+~
+Z 0 98045
+0 0
+S
+#98045
+The Garden~
+You are standing in the south-west corner of the gardens outside the
+palace.  Here, there seems to be a central theme of poppies, a traditional
+eastern bloom used for it's medicinal purposes.  The blooms are an
+assortment of breath-taking colors, and the scent is amazing.  The garden
+extends north and east.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98042
+0 0
+D1
+~
+~
+Z 0 98044
+0 0
+S
+#98046
+The Garden~
+You are standing in the north-west corner of the gardens of the palace. 
+Here, there seems to be an assortment of beautiful lotus blooming on the
+banks of a very small pond, undoubtedly created just for them.  There's a
+lot of beautiful blooms everywhere here, and the feeling is very peaceful. 
+The garden extends east and south.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98043
+0 0
+D2
+~
+~
+Z 0 98042
+0 0
+S
+#98047
+The Foyer~
+You are standing inside the grand foyer of the palace of Skyflash's
+ruler.  The architecture of this looming building is astounding; it seems
+there's an incredible amount of effort in every little inch.  The
+entranceways are tall, arching exercises in style and utilty.  There's
+engravings over nearly everything, as though the entire palace is an epic
+story.  To the west you see the hall, and to the east is the entrance.  
+~
+0 0 inside
+D1
+~
+~
+ABCZ 98053 98042
+0 0
+D3
+~
+~
+Z 0 98048
+0 0
+S
+#98048
+The Grand Hall~
+You are standing inside the grand hall of the palace; it's truly amazing.
+A balcony extends around the west, north and south walls, looming far above
+your head; above you, a giant stained-glass skylight casts beautiful shades
+of red, green, and blue into the room.  To the west is a staircase leading
+up to the balcony, and the west wall has 3 doors in it.  North and south,
+the hall extends.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98049
+0 0
+D1
+~
+~
+Z 0 98047
+0 0
+D2
+~
+~
+Z 0 98050
+0 0
+D3
+~
+~
+Z 0 98052
+0 0
+S
+#98049
+The Grand Hall~
+You are standing in the north-east corner of the grand hall of the
+palace.  To the west, you can see a hallway leading up to a door.  South
+leads back into the wide-open space of the hall; above you, a balcony
+extends around the north, west, and south walls.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98048
+0 0
+D3
+~
+~
+Z 0 98051
+0 0
+S
+#98050
+The Grand Hall~
+You are standing in the south-east corner of the grand hall of the
+palace.  To the west, you can see a half-open door leading into what looks
+like a barracks.  The hall extends north and west into a very wide-open
+space.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98048
+0 0
+D3
+~
+~
+Z 0 98053
+0 0
+S
+#98051
+The Grand Hall~
+You are standing in the north-west corner of the grand hall, on the first
+level.  Above you, the balcony that extends around the room looms over your
+head, blocking out the beautiful light of the skylight.  To the east is the
+north-eastern corner of the hall, and to the west, a hallway extends to a
+door.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98049
+0 0
+D2
+~
+~
+Z 0 98052
+0 0
+D3
+~
+~
+Z 0 98080
+0 0
+S
+#98052
+The Grand Hall~
+You are standing near the foot of the giant staircase leading up to the
+balcony of the grand hall.  All around you, the entire hall is cast in the
+beautiful light of the stained-glass skylight above you.  Above, at the top
+of the staircase, you can see a beautiful painting of what you presume is
+the ruler.  Behind the staircase, to the west, you see another door. 
+Eastward leads back into the hall, towards the entrance of the palace.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98051
+0 0
+D1
+~
+~
+Z 0 98048
+0 0
+D2
+~
+~
+Z 0 98053
+0 0
+D3
+~
+door~
+ABCZ 98053 98084
+0 0
+D4
+~
+~
+Z 0 98054
+0 0
+S
+#98053
+The Grand Hall~
+You are standing in the south-west corner of the grand hall, under the
+looming balcony that extends all around above you.  To the north you can see
+the staircase, and to the west, you see a door leading into what looks like
+a barracks.  All around you, the walls are covered in beautiful engravings,
+depictions of battles, rituals of ascentions, family lines, and other bits
+and pieces of history.  The architecture is amazing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98052
+0 0
+D1
+~
+~
+Z 0 98050
+0 0
+D3
+~
+~
+Z 0 98081
+0 0
+S
+#98054
+The Balcony~
+You are standing at the top of the staircase, on the balcony around the
+great hall.  Here, a grand painting sits on the wall to your west; it's an
+amazing depiction of what you'd guess is a former ruler of Skyflash, perhaps
+even it's founder.  To the north and south, the balcony extends and wraps
+around the hall.  Doors from the balcony exit into the north and south wings
+of the palace at each end.  Down the staircase is the floor of the hall.  
+~
+0 A inside
+E
+painting art~
+The painting appears to be of an arial holding a scroll in one hand, and
+a sword in another.  The arial seems very stately and regal, as though he's
+a noble of some sort.  He also wears the armor of a Samurai, and the scroll
+he's has some visible text refering to the Bushido.  
+ 
+Upon closer inspection, you see a hole in the painting in the lower-right
+corner. How odd...
+~
+D0
+~
+~
+Z 0 98055
+0 0
+D2
+~
+~
+Z 0 98056
+0 0
+D3
+The painting appears to be of an arial holding a scroll in one hand, and
+a sword in another.  The arial seems very stately and regal, as though he's
+a noble of some sort.  He also wears the armor of a Samurai, and the scroll
+he's has some visible text refering to the Bushido.
+ 
+You see a keyhole in the lower-right corner of the painting, and you presume
+that the torch scone in the wall is a latch of sorts.
+~
+painting~
+ABCZ 98049 98092
+0 0
+D5
+~
+~
+Z 0 98052
+0 0
+S
+#98055
+The Balcony~
+You are standing at the bend in the balcony at the north-west corner of
+the hall.  To the south, the grand painting sits on display, and the
+staircase leads down to the floor.  To the east, the balcony continues
+towards the door leading into the hallway of the northern wing.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98057
+0 0
+D2
+~
+~
+Z 0 98054
+0 0
+S
+#98056
+The Balcony~
+You are standing at the bend in the balcony at the south-west corner of
+the hall.  To the north, the grand painting sits on display, and the
+staircase leads down to the floor.  To the east, the balcony continues
+towards the door leading into the hallway of the southern wing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98054
+0 0
+D1
+~
+~
+Z 0 98058
+0 0
+S
+#98057
+The Balcony~
+You are standing at the end of the northern half of the balcony, in front
+of the door leading into the hallway of the northern wing of the palace.  To
+the west, the balcony extends and wraps around towards the staircase leading
+down to the floor of the hall.  Above, the beautiful light of the
+stained-glass skylight filters down on you.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98059
+0 0
+D3
+~
+~
+Z 0 98055
+0 0
+S
+#98058
+The Balcony~
+You are standing at the end of the southern half of the balcony, in
+front of the door leading into the hallway of the southern wing of the
+palace.  To the west, the balcony extends and wraps around towards the
+staircase leading down to the floor of the hall.  Above, the beautiful light
+of the stained-glass skylight filters down on you.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 98065
+0 0
+D3
+~
+~
+Z 0 98056
+0 0
+S
+#98059
+The North Wing~
+You are standing at the beginning of the northern wing of the palace. 
+Beautiful artwork adorns the walls, and there's a plush red carpet beneath
+your feet.  To the west, the hallway extends on, and to the south a door
+leads onto the balcony over the grand hall.  To the east is a window, and to
+the north, there's a painting on the wall.  
+~
+0 0 inside
+E
+window east wall~
+The window looks over the beautiful gardens outside the eastern end of
+the palace.  The view is magnificent here, but you feel a yearning to go
+down and get a closer look.  
+~
+E
+painting north wall~
+The painting seems to be of a young arial of the old race, the race that
+disappeared centuries ago.  The painting seems very old, but not old enough
+to be from that era.  He's sitting on a rock near a flock of sheep, playing
+some pan-pipes.  There's no indication he's actually on Skyflash; the earth
+extends to the horizon.  
+~
+D2
+~
+~
+ABZ 0 98057
+0 0
+D3
+~
+~
+Z 0 98060
+0 0
+S
+#98060
+The North Wing~
+You continue down the hallway of the northern wing.  Here, there are two
+paintings, one on the north wall, and one on the south.  To the east you see
+the end of the hallway, where a door leads back onto the balcony of the
+grand hall.  To the west, the hallway extends on.  
+~
+0 0 inside
+E
+painting south wall~
+This seems to be a painting detailing one of the last remaining arials of
+the old race.  His grey feathers and more predatory features stand out among
+the black-feathered arials standing around him.  No one knows exactly why
+the grey-feathered arials died out; when a black-feather and a grey-feather
+would have a child, it'd always be a black-feather, and for some unknown
+reason, the grey-feathers were unable to have children with eachother.  
+~
+E
+painting north wall~
+This painting seems to be of the ascention of the land of Skyflash; the
+painting is of a fissure in the ground, where the two pieces of earth were
+ripped apart.  An arial priest in dark robes can be seen on the other side
+of the fissure, holding his staff high.  
+~
+D1
+~
+~
+Z 0 98059
+0 0
+D3
+~
+~
+Z 0 98061
+0 0
+S
+#98061
+The North Wing~
+You proceed down the hallway of the northern wing of the palace.  Two
+more paintings adorn the north and south walls, and a beautiful chandileer
+hangs from the ceiling, giving the hallway it's light.  To the east, you see
+a few more paintings as the hallway proceeds to it's end, and to the west,
+you see a few more paintings as the hallways proceeds to another door.  
+~
+0 0 inside
+E
+painting south wall~
+This painting seems to be a depiction of the crowning of one of the many
+rulers of Skyflash, possibly it's first.  The sword is presented to him in
+one hand, and the crown in another.  The man handing it to him is the head
+of the Crusaders of Lode.  Many of the crusaders stand looking on; it seems
+there were far more of them in the past.  
+~
+E
+painting north wall~
+This painting seems to be a depiction of one of the many wars the
+Crusaders of Lode faught.  A tide of undead surges from the bowels of a
+cave, and the crusaders are standing staunch in the center of a field,
+slaying every one that comes near them.  It's rumored that this cave is now
+the house that the imfamous Azureth resides in, but no one knows for sure.  
+~
+D1
+~
+~
+Z 0 98060
+0 0
+D3
+~
+~
+Z 0 98062
+0 0
+S
+#98062
+The North Wing~
+You continue down the northern wing's hallway.  This section, like the
+others, has paintings on it's walls; seems the ruler is an artistic man, or
+atleast a sophisticated one.  To the east and west, the hallway extends,
+with paintings lining the north and south walls, all the way to the doors on
+either end.  
+~
+0 0 inside
+E
+painting south wall~
+This one is a clear depiction of the blade of the ruler of Skyflash.  The
+beautiful weapon has been passed down from lord to lord, it's blade
+unnaturally sharp and deadly.  An inscription on the sword in the ancient
+eastern language is translated at the bottom of the painting: "We Have
+Ascended, And We Will Fall, But We Will Always Know Who We Are."  
+~
+E
+painting north wall~
+This one seems to be a depiction of the great flight, a migration from
+the island that happened about a century ago.  Skyflash had become
+overpopulated, so many of it's residents were forced to find homes on the
+earth below.  People are seen leaping from the edge of the island and
+soaring away from it towards their new earthly homes, with their meager
+possessions in their hands.  
+~
+D1
+~
+~
+Z 0 98061
+0 0
+D3
+~
+~
+Z 0 98063
+0 0
+S
+#98063
+The North Wing~
+You are walking down the hallway of the northern wing of the palace. 
+Here, like all other sections of the hallway, there are paintings hung on
+the north and south wall.  To the east, at the end of the corridor, there's
+a door back out to the balcony of the grand hall, and to the west, there's a
+door into what you presume is the master bedroom.  
+~
+0 0 inside
+E
+painting south wall~
+This painting seems to be a depiction of the legendary Lode Relics being
+sealed away in what looks to be a jade chest, somewhere underground.  The
+lord stands above them, side by side with the last remaining crusader hero,
+looking on in sadness, and a single tear trickles down his cheek.  Below the
+painting, an inscription reads, "{WThe Lode Relics{x were sealed away when
+there was no longer a need.  They silently wait for their call into arms on
+the fateful day they're summoned again."  
+~
+E
+painting north wall~
+This one seems to depict the attack of the Hunters, a legendary event
+that took place centuries ago.  Allegedly, a raid was conducted by the
+Hunter (now known as Shadow) clan to take everything in the city that wasn't
+nailed down.  The people of Skyflash had become so accustomed to isolation
+that they had let their guard down, and weren't prepared for the onslaught;
+however, the Crusaders of Lode and the ruler himself were able to defend and
+repel the attacking force before anything significant was taken.  
+~
+D1
+~
+~
+Z 0 98062
+0 0
+D3
+~
+~
+Z 0 98064
+0 0
+S
+#98064
+The End of the North Wing~
+You are standing at the western end of the northern wing of the palace. 
+Before you to the north is the door into the master bedroom; to the south, a
+lone painting is hung.  Eastward, the hall extends towards the exit onto the
+balcony of the grand hall.  
+~
+0 0 inside
+E
+painting south wall~
+This painting seems to be a self-portrait of the current ruler of
+Skyflash.  The painting show a mirror, reflecting the image of an arial in a
+crown painting on a canvas.  The furniture of the room looks very current,
+and shows no sign of being antique.  It seems the current ruler is indeed a
+talented artist himself; the painting is very artfully done.  
+~
+D0
+~
+~
+ABZ 0 98077
+0 0
+D1
+~
+~
+Z 0 98063
+0 0
+S
+#98065
+The South Wing~
+You are standing at the end of the the hallway in the southern wing of
+the palace.  As you look westward, you see doors lining the wall; seems this
+is the guest wing, where all the extra bedrooms are for people visiting the
+ruler.  To the north is the door leading back onto the balcony of the grand
+hall.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98058
+0 0
+D2
+~
+~
+ABZ 0 98071
+0 0
+D3
+~
+~
+Z 0 98066
+0 0
+S
+#98066
+The South Wing~
+You continue down the hallway of the southern wing of the palace.  To
+your south, all along the wall are doors into what you guess to be guest
+bedrooms for people visiting the ruler.  The hall itself is rather drab
+compared to the rest of the mansion, but you get the impression that not a
+whole lot of time a guest spends here is spent sleeping.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98065
+0 0
+D2
+~
+~
+ABZ 0 98072
+0 0
+D3
+~
+~
+Z 0 98067
+0 0
+S
+#98067
+The South Wing~
+You continue down the hall of the southern wing.  By now you've realized
+that this is the wing where the ruler's guests spend their nights, and given
+how generous the ruler is, it's surprising that there isn't more art in this
+wing of the palace.  Perhaps he hasn't gotten around to putting it up yet. 
+The hallways continues east and west.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98066
+0 0
+D2
+~
+~
+ABZ 0 98073
+0 0
+D3
+~
+~
+Z 0 98068
+0 0
+S
+#98068
+The South Wing~
+You continue down the hallway.  The hallway runs east and west, and there
+are quite a few doors coming off of it to the south; you infer that the
+ruler must have many high-profile guests at a time.  Skyflash has always
+been a good place for warring kings to meet to negotiate a peace, since it's
+hard for anyone without flight to get there; many assassins can't fly.  Go
+figure.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98067
+0 0
+D2
+~
+~
+ABZ 0 98074
+0 0
+D3
+~
+~
+Z 0 98069
+0 0
+S
+#98069
+The South Wing~
+You continue down the hallway.  Honestly, you're feeling a bit sick of
+hallways; you feel like this palace has far too many of them.  Perhaps thats
+what the workers who built this palace also felt; it seems like this wing
+was more hastily constructed than the others.  The hallway continues east
+and west, and there's yet another door to the south.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98068
+0 0
+D2
+~
+~
+ABZ 0 98075
+0 0
+D3
+~
+~
+Z 0 98070
+0 0
+S
+#98070
+The End of the South Wing~
+You are standing at the western end of the hallway of the southern wing. 
+Seems you've come to the last guest bedroom to see; looking through the
+keyhole, it appears to be the ...  Guest bathroom?  Wow, the ruler seems to
+treat his guests well.  The hallway stretches east, back towards the
+balcony.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98069
+0 0
+D2
+~
+~
+ABZ 0 98076
+0 0
+S
+#98071
+The {RRed{z Guest Room~
+You're standing inside a guest bedroom of the palace.  This room seems to
+have a distinct {Rred{z theme; the carpet is red, the walls are painted red,
+and there's a red piano in the corner.  The whole vibe is a little strange,
+but very interesting.  To the north there's a door leading back out to the
+hallway.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98065
+0 0
+S
+#98072
+The {BBlue{z Guest Room~
+This particular guest bedroom has a distinct {Bblue{z theme; blue
+bedsheets, blue walls, and a blue chair sitting next to an as-yet-unpainted
+canvas.  The vibe is pretty calm, if a bit sparse.  The bed looks
+comfortable, and you consider a nap without even thinking about it.  To the
+north, a door leads back into the hallway.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98066
+0 0
+S
+#98073
+The {gGreen{z Guest Room~
+This room, like the others, has it's own colored theme; this one happens
+to be {ggreen{z.  Green chairs, green walls, a green amoir, and other green
+objects litter the space; even the carpet is green.  It reminds you faintly
+of the forest.  To the north, a door leads out into the hallway.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98067
+0 0
+S
+#98074
+The {YGolden{z Guest Room~
+You are standing in what appears to be a {Ygold{z-themed guest bedroom. 
+This one, unlike the others, has a very rich feel to it; the candleholders,
+the lantern, the mirror, they're all made out of or atleast trimmed in gold.
+There's got to be thousands of gold pieces worth of the raw material here,
+but they're all on objects far to heavy for you to carry out without someone
+noticing.  Oh well; you can atleast still get a nice nap.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98068
+0 0
+S
+#98075
+The {mPurple{z Guest Room~
+You are standing inside the {mpurple{z-themed guest room.  Having seen
+the others, you are no longer surprised; it follows the same pattern: purple
+carpet, purple bedsheets, and a purple desk and chair.  You get a slightly
+rich vibe from this room; the objects in it seem more expensive than the
+objects of the others, save for the {Ygolden{z room.  The door to the north
+leads back out into the hallway.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98069
+0 0
+S
+#98076
+The Guest Bathroom~
+You are standing inside the guest bathroom. A simple bathtub has been placed in the center of the room, and a small stove sits on the eastern wall for heating water. To the south is the sink, and to the west is the toilet. Towels of assorted colors hang from the walls; at least everyone should know which is there's. The door to the north leads back out to the hallway.
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98070
+0 0
+S
+#98077
+The Master Foyer~
+You are standing inside the foyer of the master bedroom.  Here, a small
+chair sits, presumably for the guard that is supposed to stand at the
+entrance and protect the ruler and his bride.  To the east, through an
+entranceway, the master bedroom extends into a massively wide space, filled
+with beautiful pieces of art and comfortable-looking furniture.  It
+certainly seems nicer than any place you've slept.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98078
+0 0
+D2
+~
+~
+ABZ 0 98064
+0 0
+S
+#98078
+The Master Bedroom~
+You are standing inside the master bedroom of the ruler of Skyflash. 
+Beautiful art-objects lie strewn about; golden candle holders,
+leather-backed chairs, and a beautiful cherry-wood bed with silken covers. 
+To sleep here would be a luxury unimaginable.  To the west is the foyer of
+the bedroom, and to the east you see a door with what you think must be the
+bathroom.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98079
+0 0
+D3
+~
+~
+Z 0 98077
+0 0
+S
+#98079
+The Master Bathroom~
+You're standing inside the bathroom of the ruler of Skyflash.  In the
+center of the room, a large claw-foot bathtub sits, awaiting anyone who
+wants a nice bath.  On the eastern wall is a stove to heat the water, and a
+sink sits on the southern wall.  The northern wall got the tail end of the
+deal: the toilet (no pun intended, of course).  The master bedroom looms
+through the door to the west.  
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 98078
+0 0
+S
+#98080
+Northern Hallway~
+You're walking down a hallway that extends westward from the north-west
+corner of the grand hall.  To the west there's a door, leading into what you
+guess is the kitchen; the sound of pots, pans, and silverware can be heard. 
+Eastward is the hall.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98051
+0 0
+D3
+~
+~
+ABZ 0 98082
+0 0
+S
+#98081
+Southern Hallway~
+You are standing in a hallway extending off the southern end of the grand
+hall.  To the west, you see a door which you think leads into the soldier's
+barracks.  The sound of snoring can be heard.  To the east, the hall
+extends.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98053
+0 0
+D3
+~
+~
+ABZ 0 98083
+0 0
+S
+#98082
+The Kitchen~
+You are standing in what seems to be the dining section of the kitchen of
+the palace.  A table sits in the center of the room, with silverware,
+plates, and eating utensils.  The smell of freshly-prepared food comes from
+the western end of the kitchen, where you can see a chef preparing food in a
+rather frenzied manner.  To the east is the door leading out of the kitchen.
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98080
+0 0
+D3
+~
+~
+Z 0 98085
+0 0
+S
+#98083
+Guard Barracks~
+You are standing inside the large barracks of the soldiers of Skyflash. 
+Most of them are on duty at any given moment, but a few are sleeping in the
+bunk-beds provided for them.  A rather sparse display of art, presumably
+painted by the children of these soldiers, are tacked to the walls.  To the
+west, you see what seems to be a practice room.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98081
+0 0
+D3
+~
+~
+Z 0 98086
+0 0
+S
+#98084
+The Courtyard~
+You are standing inside the courtyard of the palace.  Entirely surrounded
+by the palace structure, it's a beautiful place for the ruler and his men to
+enjoy the day without leaving the premises.  Plants are artfully placed and
+upkept.  To the west, a path leads down the courtyard's length.  To the
+east, a door leads back into the grand hall.  
+~
+0 0 inside
+D1
+~
+door~
+ABCZ 98053 98052
+0 0
+D3
+~
+~
+Z 0 98087
+0 0
+S
+#98085
+The Kitchen~
+You are at the cooking station of the kitchen of the palace.  Here is
+where all meals for the soliders and leaders of Skyflash are prepared;
+there's a great many pots and pans strewn about, as well as a great many
+food-items for them to be cooked in.  A chef and a few work-hands run to and
+fro franticly preparing food; you assume there's a meal coming up.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98082
+0 0
+S
+#98086
+Guard Barracks~
+You are standing inside what seems to be the practice room for the
+soldiers of Skyflash.  A few wooden weapons and pieces of armor lie strewn
+about; they look rather dusty.  Seems they aren't used very often.  The
+floor is padded to guard against hard falls, as are the walls.  To the east,
+you see the sleeping quarters.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98083
+0 0
+S
+#98087
+The Sycamore Tree~
+You are standing underneith one of the most massive Sycamore trees you
+have ever seen.  The folliage is so thick as to blot out almost all light
+that would fall upon you from the sky.  In the tree's branches, you can here
+a lone bird calling out; the feeling of serenity you felt earlier in the
+gardens comes over you again.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98084
+0 0
+D3
+~
+~
+Z 0 98088
+0 0
+S
+#98088
+The Courtyard~
+You continue down the path through the courtyard.  Here, there seems to
+be a small intersection of sorts; a path leads off both to the north and the
+south, towards two small structures.  The northern seems to be a small
+chapal; the southern looks more like a temple to a war god, with statues of
+grand epic soldiers standing guard.  The path continues east and west
+through the courtyard.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98097
+0 0
+D1
+~
+~
+Z 0 98087
+0 0
+D2
+~
+~
+Z 0 98090
+0 0
+D3
+~
+~
+Z 0 98089
+0 0
+S
+#98089
+The Bridge~
+You continue down the path in the courtyard.  Here, there's a bridge over
+a small moat that needs to be crossed to gain access to the small gazebo to
+the west.  The creek's clear waters are inhabited by many golden and orange
+fish, who swim merrily to and fro, snacking on any insects or treats that
+land on the creek's surface.  The path continues east and west.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98088
+0 0
+D3
+~
+~
+Z 0 98091
+0 0
+S
+#98090
+The Crusader's Altar~
+Here, in this small stone building, you find the altar to the mystical
+crusaders that Skyflash used to be known for; they were famous for hunting
+down evil whereever it may be.  There used to be an expression parents told
+their children, along the lines of "knock it off, or the crusaders will
+descend on you!"  The tradition has all but died in the past century or so,
+and there hasn't been a hero to wear the Lode Relics for a long time.  This
+seems to be the last refuge for them.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98088
+0 0
+S
+#98091
+The Banzai House~
+You are standing inside a gazebo on a small moat-enclosed island.  Here,
+the lord of Skyflash seems to have made a banzai-house into his throne room;
+it's probably more relaxing than being cramped in the palace all the time. 
+A few banzai trees sit about, perfectly trimmed and shaped to accent their
+natural structure.  To the east, a bridge leads off the small island, and
+back towards the palace.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98089
+0 0
+S
+#98092
+Behind the Painting~
+You are standing behind the massive painting of the ruler of Skyflash. 
+What a bizarre thing to have for a door!  Basicly just a small ledge, this
+room has a lone spiral staircase descending towards who-knows-what.  The
+walls and floor are crude stone, and have absolutely no decoration anywhere.
+Everything seems very dusty.  The exit through the painting is to the east. 
+~
+0 0 inside
+D1
+You see the back of the painting from whence you came.
+~
+painting~
+ABCZ 98049 98054
+0 0
+D5
+~
+~
+Z 0 98093
+0 0
+S
+#98093
+The Spiral Staircase~
+You descend down the spiral staircase behind the painting.  The walls are
+crude stone, and seem to have not been touched for years.  The stairs are
+slippery from the damp and dusty environment.  You should proceed carefully.
+The stairs continue up and down.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 98092
+0 0
+D5
+~
+~
+Z 0 98094
+0 0
+S
+#98094
+The Spiral Staircase~
+You continue along the spiraling staircase as it descends (or ascends,
+take your pick) from one floor to the next.  It seems to be a continuous
+stairway completely from the far basement all the way to the second floor of
+the palace; very curious.  It continues up and down.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 98093
+0 0
+D5
+~
+~
+Z 0 98095
+0 0
+S
+#98095
+The Cellar~
+You are standing at the bottom of a spiral staircase leading up to the
+ledge behind the painting.  Above, dust trickles down on you, slowly falling
+from your disturbance when you descended.  To the east, a small, cramped
+hallway leads off towards what looks like a door.  It's very dark and dreary
+down here; almost like a cave.  You wonder why this cellar exists, since
+there are no signs of anything ever being stored down here.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98096
+0 0
+D4
+~
+~
+Z 0 98094
+0 0
+S
+#98096
+A Hallway in the Cellar~
+You are walking down a narrow hallway in the cellar below the palace. 
+The dark, lichen-covered walls are cold and slimey to the touch, and you do
+your best to avoid them.  To the west, you see the staircase from whence you
+came, and to the east, you see a door a ways down.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98098
+0 0
+D3
+~
+~
+Z 0 98095
+0 0
+S
+#98097
+The Temple~
+You are standing inside the small temple of Skyflash's head priest.  The
+walls are adorned in beautiful religious artwork, and the windows are
+stained-glass.  You sense an aura of peace in the room, and feel at home. 
+Outside, to the south, you see the path through the courtyard.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98088
+0 0
+S
+#98098
+A Hallway in the Cellar~
+You are standing at a door at the end of the hallway in the cellar.  The
+door is plain but strong, and seems to be constructed of iron.  You doubt
+you could bash your way through it.  The lock looks very complex, and you
+doubt you could pick it.  Sadly, you even notice some magical runes above
+the door, so you begin to doubt you could magically pass through it.  It
+looks like you'll be needing the key.  
+~
+0 0 inside
+D1
+~
+~
+ABCFGJZ 98050 98099
+0 0
+D3
+~
+~
+Z 0 98096
+0 0
+S
+#98099
+The Room of Ancestors~
+You are standing inside a dark, dank room in the cellar of the palace. 
+Unlike the others, it seems completely free of the slimey lichen or dust,
+and it's walls are painted in murals depicting the adventures of the
+Crusaders of Lode.  In the center of the room, you see a solid jade chest;
+this must be where the relics are kept!  But where is the key?  
+~
+0 0 inside
+D3
+~
+~
+ABCFGJZ 98050 98098
+0 0
+S
+#0
+
+#SPECIALS
+M 98002 spec_cast_mage	* the magician Fu-Shu Su
+M 98003 spec_cast_mage	* a beautiful oriental woman
+M 98008 spec_cast_cleric	* the lord of Skyflash
+M 98017 spec_cast_mage	* the great witch
+M 98018 spec_cast_mage	* the great warlock
+M 98019 spec_cast_undead	* the great vampire
+M 98020 spec_cast_mage	* the great necromancer
+M 98023 spec_cast_cleric	* the great priest
+M 98024 spec_cast_cleric	* the great paladin
+M 98025 spec_thief	* the demonic beast
+M 98027 spec_cast_mage	* an elite royal guard
+M 98028 spec_cast_mage	* the dark figure
+S
+
+#RESETS
+D 0 98005 0 1	* Path in the forest of Skyflash: door to the north: closed
+D 0 98010 3 1	* At the Gates of Skyflash: door to the west: closed
+D 0 98011 1 1	* Inside the Gates of Skyflash: door to the east: closed
+D 0 98016 2 1	* The Spinning Dragon: door to the south: closed
+D 0 98016 5 1	* The Spinning Dragon: door to the down: closed
+D 0 98018 0 1	* Fu-Shu Su's Den: door to the north: closed
+D 0 98021 5 1	* The Silk Shop: door to the down: closed
+D 0 98023 3 2	* Intersection of Lilac and Lotus: door to the west: closed and locked
+D 0 98030 1 1	* Lotus Street: door to the east: closed
+D 0 98031 0 1	* A dark house: door to the north: closed
+D 0 98031 1 1	* A dark house: door to the east: closed
+D 0 98031 3 1	* A dark house: door to the west: closed
+D 0 98032 2 1	* Back Room: door to the south: closed
+D 0 98035 3 1	* The Summoning Chamber: door to the west: closed
+D 0 98036 2 1	* The Crucifixion Gallery: door to the south: closed
+D 0 98037 2 1	* The Giant Tree: door to the south: closed
+D 0 98038 0 1	* The Smuggler's Room: door to the north: closed
+D 0 98039 4 1	* Beneath the Bar: door to the up: closed
+D 0 98040 4 1	* The Crypt: door to the up: closed
+D 0 98041 1 2	* The Garden: door to the east: closed and locked
+D 0 98042 3 2	* The Garden: door to the west: closed and locked
+D 0 98047 1 2	* The Foyer: door to the east: closed and locked
+D 0 98052 3 2	* The Grand Hall: door to the west: closed and locked
+D 0 98054 3 2	* The Balcony: door to the west: closed and locked
+D 0 98057 0 1	* The Balcony: door to the north: closed
+D 0 98058 2 1	* The Balcony: door to the south: closed
+D 0 98059 2 1	* The North Wing: door to the south: closed
+D 0 98064 0 1	* The End of the North Wing: door to the north: closed
+D 0 98065 0 1	* The South Wing: door to the north: closed
+D 0 98065 2 1	* The South Wing: door to the south: closed
+D 0 98066 2 1	* The South Wing: door to the south: closed
+D 0 98067 2 1	* The South Wing: door to the south: closed
+D 0 98068 2 1	* The South Wing: door to the south: closed
+D 0 98069 2 1	* The South Wing: door to the south: closed
+D 0 98070 2 1	* The End of the South Wing: door to the south: closed
+D 0 98071 0 1	* The {RRed{z Guest Room: door to the north: closed
+D 0 98072 0 1	* The {BBlue{z Guest Room: door to the north: closed
+D 0 98073 0 1	* The {gGreen{z Guest Room: door to the north: closed
+D 0 98074 0 1	* The {YGolden{z Guest Room: door to the north: closed
+D 0 98075 0 1	* The {mPurple{z Guest Room: door to the north: closed
+D 0 98076 0 1	* The Guest Bathroom: door to the north: closed
+D 0 98077 2 1	* The Master Foyer: door to the south: closed
+D 0 98078 1 1	* The Master Bedroom: door to the east: closed
+D 0 98079 3 1	* The Master Bathroom: door to the west: closed
+D 0 98080 3 1	* Northern Hallway: door to the west: closed
+D 0 98081 3 1	* Southern Hallway: door to the west: closed
+D 0 98082 1 1	* The Kitchen: door to the east: closed
+D 0 98083 1 1	* Guard Barracks: door to the east: closed
+D 0 98084 1 2	* The Courtyard: door to the east: closed and locked
+D 0 98092 1 2	* Behind the Painting: door to the east: closed and locked
+D 0 98098 1 2	* A Hallway in the Cellar: door to the east: closed and locked
+D 0 98099 3 2	* The Room of Ancestors: door to the west: closed and locked
+M 0 98030 10 98000 1	* an exotic {Bblue{z bird (Edge of a Cliff)
+M 0 98029 10 98000 1	* an exotic {Rred{z bird (Edge of a Cliff)
+M 0 98029 10 98000 1	* an exotic {Rred{z bird (Edge of a Cliff)
+M 0 98029 10 98001 1	* an exotic {Rred{z bird (Path in the forest of Skyflash)
+M 0 98029 10 98001 1	* an exotic {Rred{z bird (Path in the forest of Skyflash)
+M 0 98030 10 98002 1	* an exotic {Bblue{z bird (Path in the forest of Skyflash)
+M 0 98029 10 98003 1	* an exotic {Rred{z bird (Path in the forest of Skyflash)
+M 0 98030 10 98004 1	* an exotic {Bblue{z bird (Path in the forest of Skyflash)
+M 0 98031 10 98005 1	* an exotic {Dblack{z bird (Path in the forest of Skyflash)
+M 0 98031 10 98005 1	* an exotic {Dblack{z bird (Path in the forest of Skyflash)
+M 0 98029 10 98005 1	* an exotic {Rred{z bird (Path in the forest of Skyflash)
+M 0 98030 10 98006 1	* an exotic {Bblue{z bird (Path in the forest of Skyflash)
+M 0 98029 10 98006 1	* an exotic {Rred{z bird (Path in the forest of Skyflash)
+M 0 98029 10 98007 1	* an exotic {Rred{z bird (Path in the forest of Skyflash)
+M 0 98031 10 98008 1	* an exotic {Dblack{z bird (Path in the forest of Skyflash)
+M 0 98030 10 98008 1	* an exotic {Bblue{z bird (Path in the forest of Skyflash)
+M 0 98030 10 98008 1	* an exotic {Bblue{z bird (Path in the forest of Skyflash)
+M 0 98030 10 98010 1	* an exotic {Bblue{z bird (At the Gates of Skyflash)
+M 0 98009 6 98010 6	* a gateguard (At the Gates of Skyflash)
+E 0 98035 0 16		*	a sai: wielded
+E 0 98035 0 20		*	a sai: second wielded
+G 0 98052 0		*	a gate key
+M 0 98009 6 98010 6	* a gateguard (At the Gates of Skyflash)
+E 0 98035 0 16		*	a sai: wielded
+E 0 98035 0 20		*	a sai: second wielded
+M 0 98009 6 98011 6	* a gateguard (Inside the Gates of Skyflash)
+E 0 98035 0 16		*	a sai: wielded
+E 0 98035 0 20		*	a sai: second wielded
+M 0 98009 6 98011 6	* a gateguard (Inside the Gates of Skyflash)
+E 0 98035 0 20		*	a sai: second wielded
+E 0 98035 0 16		*	a sai: wielded
+M 0 98007 15 98012 15	* a commoner of Skyflash (Lilac Street)
+M 0 98010 3 98013 1	* a captain of the guard (The Guard House)
+E 0 98039 0 16		*	a three-section staff: wielded
+M 0 98031 10 98014 1	* an exotic {Dblack{z bird (Lilac Street)
+M 0 98031 10 98014 1	* an exotic {Dblack{z bird (Lilac Street)
+M 0 98030 10 98014 1	* an exotic {Bblue{z bird (Lilac Street)
+M 0 98007 15 98014 15	* a commoner of Skyflash (Lilac Street)
+M 0 98007 15 98014 15	* a commoner of Skyflash (Lilac Street)
+M 0 98007 15 98015 15	* a commoner of Skyflash (The Taste of Teshubu)
+M 0 98007 15 98015 15	* a commoner of Skyflash (The Taste of Teshubu)
+M 0 98000 1 98015 1	* the chef Teshubu (The Taste of Teshubu)
+G 0 98003 0		*	a bowl of white rice
+G 0 98000 0		*	a plate of kung-pow chicken
+G 0 98001 0		*	a plate of stir-fry
+G 0 98002 0		*	a plate of sushi
+M 0 98001 1 98016 1	* the bartender (The Spinning Dragon)
+E 0 98011 0 17		*	a beautiful emerald: held in the hands
+E 0 98010 0 16		*	a finely-crafted katana: wielded
+G 0 98009 0		*	an ornately-etched glass
+G 0 98008 0		*	a barrel of rose wine
+G 0 98007 0		*	a bottle of rose wine
+G 0 98004 0		*	a small bottle of saki
+G 0 98006 0		*	a shot of rice-vodka
+G 0 98005 0		*	a bottle of ale
+M 0 98007 15 98017 15	* a commoner of Skyflash (Lilac Street)
+M 0 98007 15 98017 15	* a commoner of Skyflash (Lilac Street)
+M 0 98007 15 98018 15	* a commoner of Skyflash (Fu-Shu Su's Den)
+M 0 98007 15 98018 15	* a commoner of Skyflash (Fu-Shu Su's Den)
+M 0 98002 1 98018 1	* the magician Fu-Shu Su (Fu-Shu Su's Den)
+G 0 98015 0		*	{ra red rose{z
+G 0 98016 0		*	a blue vial of lilac extract
+G 0 98018 0		*	the essence of lotus
+G 0 98017 0		*	the essence of lichen
+G 0 98014 0		*	the essence of feather
+G 0 98013 0		*	the essence of mineral
+G 0 98012 0		*	the essence of poppy
+M 0 98007 15 98019 15	* a commoner of Skyflash (Wu-Ren's Smithy)
+M 0 98007 15 98019 15	* a commoner of Skyflash (Wu-Ren's Smithy)
+M 0 98004 1 98019 1	* Wu-Ren (Wu-Ren's Smithy)
+G 0 98040 0		*	a sinister-looking sodegarami
+G 0 98041 0		*	a lajatang
+G 0 98038 0		*	a naginata
+G 0 98042 0		*	a nagamaki
+G 0 98033 0		*	a finely crafted wakizashi
+G 0 98037 0		*	a beautiful warfan
+G 0 98039 0		*	a three-section staff
+G 0 98034 0		*	a tonfa
+G 0 98036 0		*	a jitte
+G 0 98035 0		*	a sai
+M 0 98031 10 98020 1	* an exotic {Dblack{z bird (Lilac Street)
+M 0 98007 15 98020 15	* a commoner of Skyflash (Lilac Street)
+M 0 98003 1 98021 1	* a beautiful oriental woman (The Silk Shop)
+G 0 98023 0		*	some loose silk Hakama
+G 0 98022 0		*	a beautiful {Bsilk{z kimono
+G 0 98021 0		*	a beautiful {rsilk{z kimono
+G 0 98020 0		*	a beautiful {msilk{z kimono
+G 0 98025 0		*	a silk battle-sash
+M 0 98007 15 98022 15	* a commoner of Skyflash (Ten-Gu's Smithy)
+M 0 98005 1 98022 1	* Ten-Gu (Ten-Gu's Smithy)
+G 0 98029 0		*	some chahar-aina armor
+G 0 98028 0		*	the breastplate of some great-armor
+G 0 98024 0		*	some oriental brigandine
+G 0 98032 0		*	a wrist dastana
+G 0 98031 0		*	some arm dastanas
+G 0 98030 0		*	a tessen
+G 0 98027 0		*	an ashigaru breastplate
+G 0 98026 0		*	some oriental cord armor
+M 0 98009 6 98023 6	* a gateguard (Intersection of Lilac and Lotus)
+E 0 98035 0 16		*	a sai: wielded
+E 0 98035 0 20		*	a sai: second wielded
+G 0 98052 0		*	a gate key
+M 0 98009 6 98023 6	* a gateguard (Intersection of Lilac and Lotus)
+E 0 98035 0 16		*	a sai: wielded
+E 0 98035 0 20		*	a sai: second wielded
+M 0 98007 15 98024 15	* a commoner of Skyflash (Lotus Street)
+M 0 98007 15 98025 15	* a commoner of Skyflash (Lotus Street)
+M 0 98007 15 98025 15	* a commoner of Skyflash (Lotus Street)
+M 0 98007 15 98027 15	* a commoner of Skyflash (Lotus Street)
+M 0 98006 1 98029 1	* Ko-Su (Ko-Su's General Store)
+G 0 98043 0		*	a dragon lantern
+G 0 98044 0		*	a dark hooded robe
+G 0 98045 0		*	a commoner's wide-brimmed straw hat
+M 0 98028 1 98032 1	* the dark figure (Back Room)
+G 0 98081 0		*	a perpetually {rf{z{Rl{z{Ya{z{Wm{z{Yi{z{Rn{z{rg{z scroll
+G 0 98082 0		*	a scroll of forbidden words
+G 0 98083 0		*	a scroll with a gentle {Bblue{z glow
+G 0 98080 0		*	a scroll of many missiles
+G 0 98079 0		*	a green-inked scroll
+G 0 98019 0		*	a tattered scroll
+M 0 98017 1 98033 1	* the great witch (The Cauldron Room)
+M 0 98018 1 98034 1	* the great warlock (The Power Ritual Room)
+M 0 98020 1 98035 1	* the great necromancer (The Summoning Chamber)
+M 0 98021 1 98036 1	* the great antipaladin (The Crucifixion Gallery)
+M 0 98014 1 98037 1	* the great ranger (The Giant Tree)
+M 0 98015 1 98038 1	* the great smuggler (The Smuggler's Room)
+M 0 98016 1 98039 1	* the great ninja (Beneath the Bar)
+M 0 98019 1 98040 1	* the great vampire (The Crypt)
+M 0 98010 3 98042 1	* a captain of the guard (The Garden)
+G 0 98053 0		*	the mansion key
+E 0 98039 0 16		*	a three-section staff: wielded
+M 0 98031 10 98043 1	* an exotic {Dblack{z bird (The Garden)
+M 0 98031 10 98044 1	* an exotic {Dblack{z bird (The Garden)
+M 0 98031 10 98045 1	* an exotic {Dblack{z bird (The Garden)
+M 0 98031 10 98046 1	* an exotic {Dblack{z bird (The Garden)
+M 0 98010 3 98047 1	* a captain of the guard (The Foyer)
+E 0 98039 0 16		*	a three-section staff: wielded
+G 0 98053 0		*	the mansion key
+M 0 98026 10 98047 1	* a palace guard (The Foyer)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98026 10 98048 1	* a palace guard (The Grand Hall)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98011 1 98048 1	* a wandering puppy (The Grand Hall)
+E 0 98049 0 3		*	a painted key necklace: around the neck (1)
+M 0 98026 10 98052 1	* a palace guard (The Grand Hall)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98026 10 98054 1	* a palace guard (The Balcony)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98026 10 98057 1	* a palace guard (The Balcony)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98026 10 98061 1	* a palace guard (The North Wing)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98026 10 98065 1	* a palace guard (The South Wing)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+M 0 98026 10 98068 1	* a palace guard (The South Wing)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+O 0 98090 0 98071	* a small guest bed (The {RRed{z Guest Room)
+M 0 98026 10 98071 1	* a palace guard (The {RRed{z Guest Room)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+O 0 98090 0 98072	* a small guest bed (The {BBlue{z Guest Room)
+O 0 98090 0 98073	* a small guest bed (The {gGreen{z Guest Room)
+O 0 98090 0 98074	* a small guest bed (The {YGolden{z Guest Room)
+M 0 98026 1 98074 10	* a palace guard (The {YGolden{z Guest Room)
+E 0 98034 0 16		*	a tonfa: wielded
+E 0 98034 0 20		*	a tonfa: second wielded
+O 0 98090 0 98075	* a small guest bed (The {mPurple{z Guest Room)
+O 0 98089 0 98076	* a bathtub (The Guest Bathroom)
+M 0 98027 1 98077 1	* an elite royal guard (The Master Foyer)
+E 0 98068 0 12		*	wing guards: about the shoulders
+E 0 98067 0 11		*	an elite arial shield: as a shield
+E 0 98066 0 5		*	an elite arial breastplate: on the body
+E 0 98040 0 16		*	a sinister-looking sodegarami: wielded
+O 0 98065 0 98078	* the ruler's bed (The Master Bedroom)
+O 0 98064 0 98078	* a large mirror (The Master Bedroom)
+O 0 98089 0 98079	* a bathtub (The Master Bathroom)
+O 0 98087 0 98082	* the dinner table (The Kitchen)
+O 0 98055 0 98083	* a bunk bed (Guard Barracks)
+O 0 98056 0 98083	* a heavy wooden chest (Guard Barracks)
+P 0 98057 1 98056 1	* a heavy wooden chest: some gold coins
+P 0 98058 1 98056 1	* a heavy wooden chest: a beautiful diamond
+P 0 98059 1 98056 1	* a heavy wooden chest: a beautiful pearl
+P 0 98060 1 98056 1	* a heavy wooden chest: a beautiful emerald
+P 0 98061 1 98056 1	* a heavy wooden chest: a beautiful ruby
+P 0 98063 1 98056 1	* a heavy wooden chest: a dull gray stone
+M 0 98012 4 98083 4	* a sleepy soldier (Guard Barracks)
+M 0 98012 4 98083 4	* a sleepy soldier (Guard Barracks)
+M 0 98012 4 98083 4	* a sleepy soldier (Guard Barracks)
+M 0 98012 4 98083 4	* a sleepy soldier (Guard Barracks)
+G 0 98088 0		*	a small chest key
+M 0 98032 1 98085 1	* the palace chef (The Kitchen)
+M 0 98033 3 98085 3	* a cooking servant (The Kitchen)
+M 0 98033 3 98085 3	* a cooking servant (The Kitchen)
+M 0 98033 3 98085 3	* a cooking servant (The Kitchen)
+M 0 98022 1 98086 1	* the great warrior (Guard Barracks)
+M 0 98024 1 98090 1	* the great paladin (The Crusader's Altar)
+O 0 98051 0 98091	* a small {ybanzai{z {gtree{z (The Banzai House)
+P 0 98054 1 98051 1	* a small {ybanzai{z {gtree{z: some glowing {Ggreen{z herb
+O 0 98046 0 98091	* the throne of the lord of Skyflash (The Banzai House)
+M 0 98008 1 98091 1	* the lord of Skyflash (The Banzai House)
+E 0 98050 0 17		*	a blackened iron key: held in the hands
+E 0 98048 0 16		*	the ruling blade of Skyflash: wielded
+E 0 98047 0 6		*	the crown of Skyflash: over the head
+M 0 98013 2 98091 2	* an elite royal guard (The Banzai House)
+E 0 98068 0 12		*	wing guards: about the shoulders
+E 0 98067 0 11		*	an elite arial shield: as a shield
+E 0 98066 0 5		*	an elite arial breastplate: on the body
+E 0 98040 0 16		*	a sinister-looking sodegarami: wielded
+M 0 98013 2 98091 2	* an elite royal guard (The Banzai House)
+E 0 98068 0 12		*	wing guards: about the shoulders
+E 0 98067 0 11		*	an elite arial shield: as a shield
+E 0 98066 0 5		*	an elite arial breastplate: on the body
+E 0 98040 0 16		*	a sinister-looking sodegarami: wielded
+M 0 98034 1 98091 1	* the general Kagu-Maru (The Banzai House)
+E 0 98091 0 7		*	{WKagu-Maru's leggings{z: on the legs
+E 0 98092 0 9		*	{WKagu-Maru's gauntlets{z: on the hands
+E 0 98093 0 10		*	{WKagu-Maru's armplates{z: on the arms
+E 0 98094 0 5		*	{WKagu-Maru's breastplate{z: on the body
+E 0 98067 0 11		*	an elite arial shield: as a shield
+E 0 98040 0 16		*	a sinister-looking sodegarami: wielded
+M 0 98023 1 98097 1	* the great priest (The Temple)
+M 0 98025 1 98099 1	* the demonic beast (The Room of Ancestors)
+G 0 98074 0		*	a {gsolid jade{z key
+O 0 98069 0 98099	* a chest of {gsolid jade{z (The Room of Ancestors)
+P 0 98076 1 98069 1	* a chest of {gsolid jade{z: the legendary {YL{z{Wod{z{Ye{z chain sleeves
+P 0 98073 1 98069 1	* a chest of {gsolid jade{z: the legendary {YL{z{Wod{z{Ye{z breastplate
+P 0 98075 1 98069 1	* a chest of {gsolid jade{z: the legendary {YL{z{Wod{z{Ye{z legplates
+P 0 98071 10 98069 10	* a chest of {gsolid jade{z: a legendary {YL{z{Wod{z{Ye{z arrow
+P 0 98078 1 98069 1	* a chest of {gsolid jade{z: the legendary {YL{z{Wod{z{Ye{z quiver
+P 0 98070 1 98069 1	* a chest of {gsolid jade{z: the legendary {YL{z{Wod{z{Ye{z bow
+S
+
+#SHOPS
+98000 19 0 0 0 0 100 16 0 23
+98001 17 0 0 0 0 100 15 0 23
+98002 26 2 3 10 4 100 19 0 23
+98003 0 11 0 0 0 120 12 0 23
+98004 0 5 0 0 0 130 16 0 23
+98005 0 9 0 0 0 95 15 0 23
+98006 0 11 15 1 0 130 17 0 23
+98028 2 0 0 0 0 100 16 0 23
+0
+
+#OLIMITS
+O 98062 0	* an iron charm
+O 98072 1	* the legendary {YL{z{Wod{z{Ye{z guisarme
+S
+
+#MOBPROGS
+#98000
+yell I'm being attacked!
+mob force kagu murder $n
+mob force elite murder $n
+mob force 2.elite murder $n
+mob force lord stand
+mob force lord murder $n
+~
+#98001
+cast 'fireball'
+~
+#98007
+if rand 50
+  if rand 50
+    bash
+  else
+    kick
+  endif
+else
+  if rand 50
+    cast 'magic missile'
+  else
+    cast 'burning'
+  endif
+endif
+~
+#98008
+mob echoat $n The lord looks at you long and hard, sizing you up.
+mob echoaround $n The lord looks at $n long and hard.
+if level $n >= 91
+say You are worthy...
+mob echoat $n The lord looks into your eyes.
+mob echoaround $n The lord looks long into the face of $n.
+if isgood $n
+say You are pure. I give you my blessing.
+say You can find the legendary Lode relics in the cellar of this castle.
+remove key
+give key $n
+To reach the cellar, you will be forced to commit an act you won't approve of... but it is necessary.
+say Good luck, and beware; there is evil everywhere.
+else
+if isneutral $n
+sigh
+say I admire your spirit, but you are not pure.
+say I cannot give you my blessing.
+else
+say You are scum. You can pry the key from my dead cold fingers...
+stand
+cast 'blue' $n
+say ...if I don't kill you first!
+endif
+endif
+else
+say You are not worthy.
+endif
+~
+#98009
+if carries $i key
+if isevil $n
+say Get lost, creep, or I'll slay you where you stand.
+end
+else
+say As you wish.
+unlock east
+unlock west
+open east
+open west
+bow
+mob delay 2
+end
+endif
+end
+endif
+say I don't have the key...
+shrug
+~
+#98010
+if carries $i key
+close east
+close west
+lock east
+lock west
+endif
+~
+#98025
+if rand 50 
+mob oload 98072
+else
+mob oload 98077
+endif
+~
+#98026
+if isnpc $n
+mob echo {WThe demonic beast launches a frenzy of kung-fu!{z
+kick
+kick
+kick
+kick
+kick
+kick
+kick
+kick
+kick
+kick
+endif
+~
+#98027
+if rand 50
+cast 'fireball'
+else
+if rand 50
+cast 'acid blast'
+else
+cast 'hell'
+endif
+endif
+~
+#98028
+say HALT! Who goes there?
+look $n
+say You have no business in these quarters.
+if isevil $n
+echoat $n The guard gazes hard at you.
+echoaround $n The guard gazes hard at $n.
+say I sense EVIL! BANZAI!!!
+cast 'fireball' $n
+else
+emote points towards the exit to the south.
+say Go.
+~
+#98029
+say You have no business there! Leave!
+~
+#98030
+mob oload 98085
+~
+#98031
+mob oload 98086
+~
+#98032
+mob oload 98084
+~
+#98033
+say $n! You hungry? Why you always pester me?
+say Take this, get out of my way!
+
+if rand 50
+  if rand 50
+    mob oload 98000
+  else
+    mob oload 98001
+  endif
+else
+  if rand 50
+    mob oload 98002
+  else
+    mob oload 98003
+  endif
+endif
+ 
+give sushi $n
+give rice $n
+give chicken $n
+give stir $n
+~
+#98034
+mob oload 98062
+~
+#98035
+emote utters the words, 'vpmkitr dso'.
+emote has conjured {Da{z {Wglowing{z {Dsai{z.
+mob delay 1
+~
+#98036
+mob oload 98095
+wield sai
+backstab $r
+remove sai
+drop sai
+sac sai
+mob junk sai
+~
+#98037
+if rand 25
+
+yell Feel my wrath!
+if isnpc $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+cast nowait 'fireball' $n
+else
+cast nowait 'fireball' $n
+endif
+ 
+else
+yell You'll never defeat me!
+cast 'heal'
+endif
+~
+#0
+
+#$

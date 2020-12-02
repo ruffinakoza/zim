@@ -1,0 +1,886 @@
+#AREADATA
+Name Slaughter House~
+Builders kira~
+VNUMs 110000 110099
+Credits Kira~
+Security 1
+LevelRange 80 91
+Flags closed~
+End
+
+#MOBILES
+#110007
+grubby doorknocker~
+{3The Grubby Doorknocker{x~
+A {^face {xrests in the door. They call him "The {3Grubby Doorknocker{x."
+~
+An incredibly dirty yellow face rests in the seed of
+the door. He is the Doorknocker. You want in, he is
+the key. {#Talk to him{x, and maybe he will lend you a
+helping hand. He smells rancid, so you have the sudden
+urge to take a few steps back, but hey, you'd be dirty
+too for not having showered in years!
+~
+unique~
+ABT 0 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 A 0 CD
+stand stand male 200
+0 K medium flesh~
+~
+M greet 110007 100~
+M delay 110006 100~
+M speech 110005 open up~
+M speech 110004 yes~
+M speech 110003 open the door~
+M speech 110002 Yes~
+#0
+
+#OBJECTS
+#110000
+block letter lettera~
+{#A Block Letter{x~
+{#A Block Letter {&floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+0 0 0 P
+E
+letter~
+Letter: {#A{x
+~
+E
+block~
+Letter: {#A{x
+~
+G none
+G none
+G none
+G none
+#110001
+block letter letterb~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+trash Tj A
+0 0 0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#B{x
+~
+E
+block~
+Letter: {#B{x
+~
+G none
+G none
+G none
+G none
+#110002
+block letter letterc~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#C{x
+~
+E
+block~
+Letter: {#C{x
+~
+G none
+G none
+G none
+G none
+#110003
+block letter letterd~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#D{x
+~
+E
+block~
+Letter: {#D{x
+~
+G none
+G none
+G none
+G none
+#110004
+block letter lettere~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#E{x
+~
+E
+block~
+Letter: {#E{x
+~
+G none
+G none
+G none
+G none
+#110005
+block letter letterf~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#F{x
+~
+E
+block~
+Letter: {#F{x
+~
+G none
+G none
+G none
+G none
+#110006
+block letter letterg~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#G{x
+~
+E
+block~
+Letter: {#G{x
+~
+G none
+G none
+G none
+G none
+#110007
+block letter letterh~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#H{x
+~
+E
+block~
+Letter: {#H{x
+~
+G none
+G none
+G none
+G none
+#110008
+block letter letteri~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#I{x
+~
+E
+block~
+Letter: {#I{x
+~
+G none
+G none
+G none
+G none
+#110009
+block letter letterj~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#J{x
+~
+E
+block~
+Letter: {#J{x
+~
+G none
+G none
+G none
+G none
+#110010
+block letter letterk~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#K{x
+~
+E
+block~
+Letter: {#K{x
+~
+G none
+G none
+G none
+G none
+#110011
+block letter letterl~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#L{x
+~
+E
+block~
+Letter: {#L{x
+~
+G none
+G none
+G none
+G none
+#110012
+block letter letterm~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#M{x
+~
+E
+block~
+Letter: {#M{x
+~
+G none
+G none
+G none
+G none
+#110013
+block letter lettern~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#N{x
+~
+E
+block~
+Letter: {#N{x
+~
+G none
+G none
+G none
+G none
+#110014
+block letter lettero~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#O{x
+~
+E
+block~
+Letter: {#O{x
+~
+G none
+G none
+G none
+G none
+#110015
+block letter letterp~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#P{x
+~
+E
+block~
+Letter: {#P{x
+~
+G none
+G none
+G none
+G none
+#110016
+block letter letterq~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#Q{x
+~
+E
+block~
+Letter: {#Q{x
+~
+G none
+G none
+G none
+G none
+#110017
+block letter letterr~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#R{x
+~
+E
+block~
+Letter: {#R{x
+~
+G none
+G none
+G none
+G none
+#110018
+block letter letters~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#S{x
+~
+E
+block~
+Letter: {#S{x
+~
+G none
+G none
+G none
+G none
+#110019
+block letter lettert~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#T{x
+~
+E
+block~
+Letter: {#T{x
+~
+G none
+G none
+G none
+G none
+#110020
+block letter letteru~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#U{x
+~
+E
+block~
+Letter: {#U{x
+~
+G none
+G none
+G none
+G none
+#110021
+block letter letterv~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#V{x
+~
+E
+block~
+Letter: {#V{x
+~
+G none
+G none
+G none
+G none
+#110022
+block letter letterw~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#W{x
+~
+E
+block~
+Letter: {#W{x
+~
+G none
+G none
+G none
+G none
+#110023
+block letter letterx~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#X{x
+~
+E
+block~
+Letter: {#X{x
+~
+G none
+G none
+G none
+G none
+#110024
+block letter lettery~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#Y{x
+~
+E
+block~
+Letter: {#Y{x
+~
+G none
+G none
+G none
+G none
+#110025
+block letter letterz~
+{#A Block Letter{x~
+{#A Block Letter{& floats in the air here.{x~
+unknown~
+~
+treasure Tj A
+0 0 0 0 0
+1 0 0 P
+E
+letter~
+Letter: {#Z{x
+~
+E
+block~
+Letter: {#Z{x
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#110000
+Tennebrose Walkway~
+What a strange path leading to the Slaughter House. It is as
+if the owners of the place do not want to be seen. Overgrown
+shrubbery aligns the path making it rather hard to see what
+lies ahead. There must be another way to get in because it 
+looks as if no one has been through this path in a long time.
+Thorny bushes have been placed to your left and right, and not 
+by accident. Dead silence is the only thing imminent.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110001
+0 0
+S
+#110001
+Tennebrose Walkway~
+What a strange path leading to the Slaughter House. It is as
+if the owners of the place do not want to be seen. Overgrown
+shrubbery aligns the path making it rather hard to see what
+lies ahead. There must be another way to get in because it 
+looks as if no one has been through this path in a long time.
+Thorny bushes have been placed to your left and right, and not 
+by accident. Dead silence is the only thing imminent.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110002
+0 0
+D2
+~
+~
+Z 0 110000
+0 0
+S
+#110002
+Tennebrose Walkway~
+What a strange path leading to the Slaughter House. It is as
+if the owners of the place do not want to be seen. Overgrown
+shrubbery aligns the path making it rather hard to see what
+lies ahead. There must be another way to get in because it 
+looks as if no one has been through this path in a long time.
+Thorny bushes have been placed to your left and right, and not 
+by accident. Dead silence is the only thing imminent.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110003
+0 0
+D2
+~
+~
+Z 0 110001
+0 0
+S
+#110003
+Out from the {^Thorny Brush{x~
+After battling your way through the thorny brush, you are now
+in the middle of what looks like a forgotten, and very grubby
+cement patio. Scattered trash and rubbish lie here and there.
+Obviously the cleaning lady has not made her way around this
+area for several weeks. The debris of a shattered office 
+window lies on the ground. Shards of it can be seen poking out
+from rocks and pieces of wood. To the south lies the {^thorny
+bushes {xand to the north is the rundown {1Slaughter House{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110004
+0 0
+D2
+~
+~
+Z 0 110002
+0 0
+S
+#110004
+Out from the {^Thorny Brush{x~
+After battling your way through the thorny brush, you are now
+in the middle of what looks like a forgotten, and very grubby
+cement patio. Scattered trash and rubbish lie here and there.
+Obviously the cleaning lady has not made her way around this
+area for several weeks. The debris of a shattered office 
+window lies on the ground. Shards of it can be seen poking out
+from rocks and pieces of wood. To the south lies the {^thorny
+bushes {xand to the north is the rundown {1Slaughter House{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110005
+0 0
+D2
+~
+~
+Z 0 110003
+0 0
+S
+#110005
+A Pathetic View~
+Upon entering this dilapidated building you observe the 
+crumpling of bricks in the walls and what looks like windows
+that have never been washed. Smudges of blood and handprints
+are pressed against the panes.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110006
+0 0
+D2
+~
+~
+Z 0 110004
+0 0
+S
+#110006
+A Pathetic View~
+Upon entering this dilapidated building you observe the 
+crumpling of bricks in the walls and what looks like windows
+that have never been washed. Smudges of blood and handprints
+are pressed against the panes.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110007
+0 0
+D2
+~
+~
+Z 0 110005
+0 0
+S
+#110007
+{3Grubby Doorknocker's {xDwelling{x~
+What an odd building. There appears to be no way in.
+The door looks to be sealed shut with a strong melted
+metal substance. If you rub the window you can see a
+dim light swinging somewhere inside, but other than
+that, all is dark. You suddenly notice a repulsive,
+tremendously wrinkled, grimy face settled in the door
+frame. It stares at you with its bottom lip pulled
+over the top lip. Maybe you should tell him to
+{#open the door{x for you.
+~
+0 0 inside
+D2
+~
+~
+Z 0 110006
+0 0
+S
+#110008
+Inside the {1Slaughter House{x~
+A raunchy smell fills your nostrils, the smell of rotting
+flesh and decomposing corpses. A heavy tenebrous feeling
+hangs in the air. From the looks of it, this business has
+gone out and long been forgotten, but in the crack of a
+red door at the far end of the room you can see a swinging
+{3dim {#light{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110009
+0 0
+S
+#110009
+Inside the {1Slaughter House{x~
+A raunchy smell fills your nostrils, the smell of rotting
+flesh and decomposing corpses. A heavy tenebrous feeling
+hangs in the air. From the looks of it, this business has
+gone out and long been forgotten, but in the crack of a
+red door at the far end of the room you can see a swinging
+{3dim {#light{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110010
+0 0
+D2
+~
+~
+Z 0 110008
+0 0
+S
+#110010
+{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110011
+0 0
+D2
+~
+~
+Z 0 110009
+0 0
+S
+#110011
+{!R{1ed {bC{Barpet {xUpon a {&C{7l{^o{6u{Bd{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110012
+0 0
+D2
+~
+~
+Z 0 110010
+0 0
+S
+#110012
+{!R{1ed {bC{Barpet {xUpon a {&C{7l{^o{6u{Bd{x~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110013
+0 0
+D2
+~
+~
+Z 0 110011
+0 0
+S
+#110013
+{!R{1ed {bC{Barpet {xUpon a {&C{7l{^o{6u{Bd{x~
+~
+0 0 inside
+D2
+~
+~
+Z 0 110012
+0 0
+S
+#0
+
+#RESETS
+M 0 110007 1 110007 30	* {3The Grubby Doorknocker{x ({3Grubby Doorknocker's {xDwelling{x)
+S
+
+#MOBPROGS
+#110002
+say Fine, have it your way...I don' reckon yull be comin' back oot, though! Goodluck $n...
+emote makes a nervous glance to the left and right.
+say Off you go then.
+mob trans $n 110008
+~
+#110003
+Say Naaaw...You don' wanta go in thar now, do yeh?
+~
+#110004
+say Fine, have it your way...I don' reckon yull be comin' back oot, though! Goodluck $n...{x
+emote makes a nervous glance to the left and right.
+say Off you go then.
+mob trans $n 110008
+~
+#110005
+Say Naaaw...You don' wanta go in thar now, do yeh?
+~
+#110006
+emote sneezes violently!
+say Whhhhoa! Will you please clean me nose? I haven't any arms.
+sigh
+~
+#110007
+mob delay 1
+~
+#0
+
+#HELPS
+0 0 none~
+~
+-1 $~
+
+#$

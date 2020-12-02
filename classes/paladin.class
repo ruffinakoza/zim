@@ -1,0 +1,231 @@
+#CLASS
+Name paladin~
+ShortName Pal~
+PrimeStat str
+Description warriors of godly virtue~
+SchoolWeapon 17614
+GuildRoom 3063
+GuildRoom 3064
+GuildRoom 9607
+GuildRoom 9779
+GuildRoom 7553
+GuildRoom 7555
+SkillAdept 75
+Thac0_00 18
+Thac0_32 -10
+HPRate 90
+ManaRate 70
+DamRate 90
+NimRate 60
+AcRate 100
+Flags magic~
+AddExp 0
+StatMod 2 0 1 0 1 3 0
+RestrictAlign good~
+RestrictEthos lawful~
+Skill 'know alignment'		 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'scrolls'			 1  2   0  -  -  - 0  0  0  0  0  0  0
+Skill 'dagger'			 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'mace'			 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'longsword'		 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'shortsword'		 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'rescue'			 1  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'create food'		 3  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'create water'		 4  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'parry'			 4  1  20  -  -  - 0  0  0  0  0  0  0
+Skill 'cure light'		 5  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'staves'			 5  2   0  -  -  - 0  0  0  0  0  0  0
+Skill 'hammer'			 5  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'bash'			 6  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'bash door'		 6  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'enhanced damage'		 6  1  -5  -  -  - 0  0  0  0  0  0  0
+Skill 'shield block'		 7  1 -10  -  -  - 0  0  0  0  0  0  0
+Skill 'cure blindness'		 7  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'fast healing'		 7  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'wands'			 8  3   0  -  -  - 0  0  0  0  0  0  0
+Skill 'sobriety'		 9  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'bastardsword'		10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'cure serious'		10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'scalp'			10  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'hand to hand'		11  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'protection evil'		11  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'armor'			12  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'remove curse'		13  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'bless'			14  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'meditation'		14  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'disarm'			20  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'detect invis'		23  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'minor sanctuary'		27  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'heal'			29  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'shield cleave'		29  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'cure critical'		30  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'improved benediction'	30  2   0  -  -  - 0  0  0  0  0  0  0
+Skill 'blind fighting'		32  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'cure poison'		33  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'second attack'		31  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'flamestrike'		32  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'cure disease'		33  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'weapon cleave'		34  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'wrath'			34  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'dispel evil'		35  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'counter'			35  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'holy word'		38  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'turn'			40  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'remove fear'		41  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'third attack'		44  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'anathema'		45  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'ray of hope'		45  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'calm'			50  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'summon'			51  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'sanctify lands'		53  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'bless weapon'		55  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'resilience'		56  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'fourth attack'		56  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'superior heal'		57  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'group heal'		59  1   0  -  -  - 0  0  0  0  0  0  0
+Skill 'lay hands'		60  1   0  -  -  - 0  0  0  0  0  0  0
+Title 0 male the Man~
+Title 0 female the Woman~
+Title 1 male the Paladin Pupil~
+Title 1 female the Paladin Pupil~
+Title 2 male the Scullery Man~
+Title 2 female the Scullery Maid~
+Title 3 male the Squire Candidate~
+Title 3 female the Squire Candidate~
+Title 4 male the Shield Bearer~
+Title 4 female the Shield Bearer~
+Title 5 male the Sword Bearer~
+Title 5 female the Sword Bearer~
+Title 6 male the Bow Bearer~
+Title 6 female the Bow Bearer~
+Title 7 male the Standard Bearer~
+Title 7 female the Standard Bearer~
+Title 8 male the Horseman~
+Title 8 female the Horsewoman~
+Title 9 male the Squire Initiate~
+Title 9 female the Squire Initiate~
+Title 10 male the Squire~
+Title 10 female the Squire~
+Title 11 male the Footman~
+Title 11 female the Footwoman~
+Title 12 male the Footman~
+Title 12 female the Footwoman~
+Title 13 male the Pikeman~
+Title 13 female the Pikewoman~
+Title 14 male the Pikeman~
+Title 14 female the Pikewoman~
+Title 15 male the Bowman~
+Title 15 female the Bowwoman~
+Title 16 male the Bowman~
+Title 16 female the Bowwoman~
+Title 17 male the Swordsman~
+Title 17 female the Swordswoman~
+Title 18 male the Swordsman~
+Title 18 female the Swordswoman~
+Title 19 male the Honorable~
+Title 19 female the Honorable~
+Title 20 male the Honorable~
+Title 20 female the Honorable~
+Title 21 male the Noble~
+Title 21 female the Noble~
+Title 22 male the Noble~
+Title 22 female the Noble~
+Title 23 male the Trustworthy~
+Title 23 female the Trustworthy~
+Title 24 male the Trustworthy~
+Title 24 female the Trustworthy~
+Title 25 male the Truthful~
+Title 25 female the Truthful~
+Title 26 male the Truthful~
+Title 26 female the Truthful~
+Title 27 male the Chivalrous~
+Title 27 female the Chivalrous~
+Title 28 male the Chivalrous~
+Title 28 female the Chivalrous~
+Title 29 male the Paladin~
+Title 29 female the Paladin~
+Title 30 male the Paladin~
+Title 30 female the Paladin~
+Title 31 male the Questor~
+Title 31 female the Questor~
+Title 32 male the Questor~
+Title 32 female the Questor~
+Title 33 male the Cavalier~
+Title 33 female the Cavalier~
+Title 34 male the Cavalier~
+Title 34 female the Cavalier~
+Title 35 male the Champion~
+Title 35 female the Champion~
+Title 36 male the Champion~
+Title 36 female the Champion~
+Title 37 male the Knight of Renown~
+Title 37 female the Knight of Renown~
+Title 38 male the Knight of Renown~
+Title 38 female the Knight of Renown~
+Title 39 male the Paladin Knight~
+Title 39 female the Paladin Lady~
+Title 40 male the Paladin Knight~
+Title 40 female the Paladin Lady~
+Title 41 male the Templar Initiate~
+Title 41 female the Templar Initiate~
+Title 42 male the Templar Initiate~
+Title 42 female the Templar Initiate~
+Title 43 male the Priest-Knight~
+Title 43 female the Priestess-Knight~
+Title 44 male the Priest-Knight~
+Title 44 female the Priestess-Knight~
+Title 45 male the Knight of the Cross~
+Title 45 female the Lady of the Cross~
+Title 46 male the Knight of the Cross~
+Title 46 female the Lady of the Cross~
+Title 47 male the Champion of the Cross~
+Title 47 female the Champion of the Cross~
+Title 48 male the Champion of the Cross~
+Title 48 female the Champion of the Cross~
+Title 49 male the Knight Templar~
+Title 49 female the Lady Templar~
+Title 50 male the Knight Templar~
+Title 50 female the Lady Templar~
+Title 51 male the Templar~
+Title 51 female the Templar~
+Title 52 male the Templar~
+Title 52 female the Templar~
+Title 53 male the Templar Footman~
+Title 53 female the Templar Footwoman~
+Title 54 male the Templar Footman~
+Title 54 female the Templar Footwoman~
+Title 55 male the Templar Lieutenant~
+Title 55 female the Templar Lieutenant~
+Title 56 male the Templar Lieutenant~
+Title 56 female the Templar Lieutenant~
+Title 57 male the Templar Captain~
+Title 57 female the Templar Captain~
+Title 58 male the Templar Captain~
+Title 58 female the Templar Captain~
+Title 59 male the Templar Colonel~
+Title 59 female the Templar Colonel~
+Title 60 male the Champion of Light~
+Title 60 female the Champion of Light~
+Title 61 male the Paladin Hero~
+Title 61 female the Paladin Heroine~
+Title 62 male the Avatar of Honor~
+Title 62 female the Avatar of Honor~
+Title 63 male the Angel of Honor~
+Title 63 female the Angel of Honor~
+Title 64 male the Demigod of Honor~
+Title 64 female the Demigoddess of Honor~
+Title 65 male the Immortal Knight~
+Title 65 female the Immortal Knight~
+Title 66 male the God of Honor~
+Title 66 female the God of Honor~
+Title 67 male the Deity of Honor~
+Title 67 female the Deity of Honor~
+Title 68 male the Supreme Master of Honor~
+Title 68 female the Supreme Mistress of Honor~
+Title 69 male the Creator~
+Title 69 female the Creator~
+Title 70 male the Implementor~
+Title 70 female the Implementress~
+End
+
+#$

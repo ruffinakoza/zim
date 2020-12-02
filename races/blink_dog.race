@@ -1,0 +1,12 @@
+#RACE
+Name blink dog~
+Dodge 110
+Sex either
+Size medium
+DamType bite
+Off dodge fast assist_race assist_guard~
+Form magical animal mammal~
+Parts head legs heart brains guts feet ear eye~
+End
+
+#$

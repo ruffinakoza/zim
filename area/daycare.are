@@ -1,0 +1,737 @@
+#AREADATA
+Name Dwarven Daycare~
+VNUMs 6600 6699
+Credits Sandman~
+Security 9
+LevelRange 1 5
+End
+
+#MOBILES
+#6600
+youth dwarven dwarf~
+the dwarven youth~
+A young dwarf plays with a toy axe.
+~
+This is a young but not totally harmless creature.
+~
+dwarf~
+ACGT 0 500 0
+3 3 9d3+0 3d9+60 1d3+3 claw
+7 7 7 8
+DJR 0 0 0
+sit stand either 10
+0 0 large flesh~
+~
+#6601
+teddy bear~
+a teddy bear~
+A cute and fuzzy teddy bear stands here.
+~
+This is a tiny little bear with a heart on his chest.
+~
+doll~
+ACG 0 500 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+NR 0 0 0
+stand stand male 0
+0 0 large flesh~
+~
+#6602
+doll raggedy anne~
+a raggedy anne doll~
+A raggedy anne doll is sitting here.
+~
+You see a small little cute rag doll.
+~
+doll~
+ACG 0 300 0
+2 2 9d2+0 10d10+85 1d2+6 none
+7 7 7 8
+FHR 0 0 0
+sit stand female 0
+0 0 large flesh~
+~
+#6603
+soldier toy~
+a toy soldier~
+A toy soldier is standing here.
+~
+The toy is looking for target practice.
+~
+doll~
+ACGT 0 -300 0
+3 3 11d3+0 15d10+85 1d3+6 none
+7 7 7 7
+IR 0 G E
+stand stand male 0
+0 0 large flesh~
+~
+#6604
+bear ugly~
+the ugly bear~
+An ugly stuffed bear stands here.
+~
+This is obviously a reject from the factory.
+He snarls and growls at you.
+~
+doll~
+ACF 0 -400 0
+3 3 11d3+0 15d10+85 1d3+6 none
+7 7 7 7
+DJNR 0 0 0
+stand stand male 5
+0 0 large flesh~
+~
+#6605
+doll old~
+an old doll~
+An abused and old doll is here.
+~
+This doll has been hugged and played with until there is almost nothing left.
+~
+doll~
+ACG 0 -2 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+R 0 0 0
+stand stand none 0
+0 0 large flesh~
+~
+#6606
+nanny~
+the nanny~
+An old wrinkled nanny stands here, looking over the little ones.
+~
+You see an old dwarven lady who has been hunched over with age.  However, it
+appears that there is still some fight left in her.
+~
+dwarf~
+AG 0 10 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+CDR 0 0 0
+stand stand female 50
+0 0 medium flesh~
+~
+#6607
+guard~
+the armed guard~
+An armed guard stands here looking lost.
+~
+This is a big mean bully who is tired of being lost in this maze.
+You suddenly think that you had better flee.
+~
+dwarf~
+ABCT D -800 0
+8 8 21d8+0 40d10+85 2d4+9 none
+3 3 3 5
+CDJR 0 0 0
+stand stand male 120
+0 0 medium flesh~
+~
+#6608
+brat spoiled~
+the spoiled brat~
+A spoiled brat is crying here.
+~
+You see a little tyke who has always gotten what he wanted.  You have the
+biggest urge to put him out of his misery.
+~
+dwarf~
+ABC 0 -400 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+IJN 0 0 0
+stand stand male 50
+0 0 large flesh~
+~
+#0
+
+#OBJECTS
+#6600
+axe toy~
+a toy axe~
+An axe made of wood lies here.~
+wood~
+~
+weapon 0 AN
+axe 1 2 chop 0
+1 10 120 G
+E
+axe toy~
+A small label says 'made in Taiwan'.
+~
+G none
+G none
+G none
+G none
+#6601
+ring pink ice~
+a pink ice ring~
+A pink ice ring draws your eye.~
+ice~
+~
+treasure G AB
+0 0 0 0 0
+3 10 620 G
+A
+13 4
+A
+1 1
+E
+ring pink ice~
+How strange...it's made of ice, but it doesn't melt. It feels pleasantly 
+cool to the touch.
+~
+G none
+G none
+G none
+G none
+#6621
+robe linen~
+a linen robe~
+A linen robe is crumpled into a ball here.~
+unknown~
+cloth~
+clothing G AK
+AB AB AB B A AB AB
+7 8 2866 G
+A
+12 5
+A
+4 1
+E
+robe linen~
+It radiates an aura of peace and wisdom.  The perfect garb for a teacher.
+~
+G none
+G none
+G none
+G none
+#6622
+broom~
+a broom~
+A stout straw broom lies on the floor.~
+wood~
+~
+weapon 0 AN
+spear 1 13 pound F
+10 11 2863 W
+A
+18 -1
+A
+17 -1
+E
+broom~
+It's worn and tired, probably from swatting too many children.
+~
+G none
+G none
+G none
+G none
+#6644
+meat steak~
+a juicy steak~
+A juicy steak sits on a plate here.~
+meat~
+~
+food 0 A
+ADE ADE 0 0 0 ADE ADE
+0 20 237 P
+G none
+G none
+G none
+G none
+#6645
+steak rotten~
+a rotten steak~
+A dry steak lies on the floor.~
+meat~
+~
+food 0 A
+C C 0 A 0 C C
+0 20 40 W
+G none
+G none
+G none
+G none
+#6646
+potion amber~
+an amber potion~
+An amber potion sits in a corner.~
+glass~
+~
+potion 0 A
+5 'cure light' 'armor' '' ''
+0 10 150 G
+E
+potion~
+It's a tight-stoppered glass bottle with a thick amber liquid inside. It
+tastes kind of like whiskey.
+~
+G none
+G none
+G none
+G none
+#6647
+toy crossbow~
+a toy crossbow~
+A toy crossbow is here with a sharp bolt attached.~
+wood~
+~
+weapon 0 AN
+spear 2 2 stab F
+10 5 186 G
+A
+17 -1
+E
+gun toy~
+It's just a toy...but the point looks kind of sharp.
+You'll put your eye out, kid!
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#6601
+The Dwarven Drop Off~
+This is where the dwarven mommies and daddies come to drop off their
+annoying little brats.  You have the urge to leave.  There is a sign here.
+~
+0 CD inside
+E
+sign~
+This is an area for newbies, so have fun.  -- Sandman
+~
+D0
+~
+~
+Z -1 6500
+0 0
+D2
+You see a large room full of noisy brats.
+~
+~
+Z -1 6602
+0 0
+S
+#6602
+Day Care Center~
+You are in the north-east corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a kitchen to the east.
+~
+0 D inside
+D0
+You see the drop off.
+~
+~
+Z -1 6601
+0 0
+D1
+You see an extremely messy kitchen.
+~
+~
+Z -1 6626
+0 0
+D2
+You see a large room full of noisy brats.
+~
+~
+Z -1 6604
+0 0
+D3
+You see a large room full of noisy brats.
+~
+~
+Z -1 6603
+0 0
+S
+#6603
+Day Care Center~
+You are in the north-west corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a bathroom to the west.
+~
+0 D inside
+D1
+You see a large room full of noisy brats.
+~
+~
+Z -1 6602
+0 0
+D2
+You see a large room full of noisy brats.
+~
+~
+Z -1 6605
+0 0
+D3
+You see a messy bathroom.
+~
+~
+Z -1 6606
+0 0
+S
+#6604
+Day Care Center~
+You are in the south-east corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a playground to the east.
+~
+0 D inside
+D0
+You see a large room full of noisy brats.
+~
+~
+Z -1 6602
+0 0
+D1
+You see the playground.
+~
+~
+Z -1 6610
+0 0
+D3
+You see a large room full of noisy brats.
+~
+~
+Z -1 6605
+0 0
+S
+#6605
+Day Care Center~
+You are in the south-west corner of the main part of the center.  Toys and
+toddlers are all over the room.  There is a staircase to the west.
+~
+0 D inside
+D0
+You see a large room full of noisy brats.
+~
+~
+Z -1 6603
+0 0
+D1
+You see a large room full of noisy brats.
+~
+~
+Z -1 6604
+0 0
+D3
+You see a staircase leading down.
+~
+~
+Z -1 6607
+0 0
+S
+#6606
+The Messy Bathroom~
+You hold your nose as you realize you have made the worst mistake of your
+life.  The air is rancid and the walls are stained.
+~
+0 D inside
+D1
+You see a large room full of noisy brats.
+~
+~
+Z -1 6603
+0 0
+S
+#6607
+The Staircase~
+You stand on top of a staircase leading down, and wonder what mystery could
+lie down under.  Beware!
+~
+0 D inside
+D1
+You see a large room full of noisy brats.
+~
+~
+Z -1 6605
+0 0
+D5
+You see the entrance to something.
+~
+~
+Z -1 6612
+0 0
+S
+#6608
+The Playground~
+You are in the north-west corner of the playground.
+~
+0 0 field
+D1
+You see the playground.
+~
+~
+Z -1 6609
+0 0
+D2
+You see the playground.
+~
+~
+Z -1 6610
+0 0
+S
+#6609
+The Playground~
+You are in the north-east corner of the playground.
+~
+0 0 field
+D2
+You see the playground.
+~
+~
+Z -1 6611
+0 0
+D3
+You see the playground.
+~
+~
+Z -1 6608
+0 0
+S
+#6610
+The Playground~
+You are in the south-west corner of the playground.
+~
+0 0 field
+D0
+You see the playground.
+~
+~
+Z -1 6608
+0 0
+D1
+You see the playground.
+~
+~
+Z -1 6611
+0 0
+D3
+You see a large room full of noisy brats.
+~
+~
+Z -1 6604
+0 0
+S
+#6611
+The Playground~
+You are in the south-east corner of the playground.
+~
+0 0 field
+D0
+You see the playground.
+~
+~
+Z -1 6609
+0 0
+D3
+You see the playground.
+~
+~
+Z -1 6610
+0 0
+S
+#6612
+Entrance to the Mini-Maze~
+You stand in the entrance to a small, but confusing maze.  You really hope
+that you don't get lost.
+~
+0 ACD field
+D1
+~
+~
+Z -1 6613
+0 0
+D4
+You see some stairs.
+~
+~
+Z -1 6607
+0 0
+S
+#6613
+Mini-Maze~
+You are in a small passage that looks just like every other one.
+~
+0 AD field
+D1
+~
+~
+Z -1 6614
+0 0
+D2
+~
+~
+Z -1 6615
+0 0
+D3
+~
+~
+Z -1 6612
+0 0
+S
+#6614
+Mini-Maze~
+You are in a small passage that looks just like every other one.
+~
+0 AD field
+D2
+~
+~
+Z -1 6616
+0 0
+D3
+~
+~
+Z -1 6613
+0 0
+S
+#6615
+Mini-Maze~
+You are in a small passage that looks just like every other one.
+~
+0 AD field
+D0
+~
+~
+Z -1 6613
+0 0
+D1
+~
+~
+Z -1 6616
+0 0
+S
+#6616
+Mini-Maze~
+You are in a small passage that looks just like every other one.
+~
+0 AD field
+D0
+~
+~
+Z -1 6614
+0 0
+D2
+~
+~
+Z -1 6624
+0 0
+D3
+~
+~
+Z -1 6615
+0 0
+S
+#6624
+End of the Mini-Maze~
+You stand at the end of your journey.  There is a big sign here and you had
+better read it!
+~
+0 AD field
+E
+sign~
+If you are not level 6 or above, then don't go south!!!!  It is a dangerous
+area, but congrats for getting this far - Sandman
+~
+D0
+~
+~
+Z -1 6616
+0 0
+D2
+~
+~
+Z -1 6631
+0 0
+S
+#6626
+Messy Kitchen~
+You stand in the kitchen and eating area of the day care center.  Pots and
+pans are everywhere, while the toddlers continue to create chaos.
+~
+0 D inside
+D3
+You see a large room full of noisy brats.
+~
+~
+Z -1 6602
+0 0
+S
+#6631
+The End?~
+You have reached the final lair.  It is dominated by a huge five headed
+dragon (actually an overgrown brat with a Halloween mask).
+~
+0 AD field
+D0
+~
+~
+Z -1 6624
+0 0
+S
+#0
+
+#SPECIALS
+M 6600 spec_thief	* the dwarven youth
+M 6604 spec_thief	* the ugly bear
+M 6608 spec_thief	* the spoiled brat
+S
+
+#RESETS
+M 0 6600 7 6602 1	* the dwarven youth (Day Care Center)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6601 2 6602 1	* a teddy bear (Day Care Center)
+M 0 6606 2 6602 1	* the nanny (Day Care Center)
+G 0 6646 0		*	an amber potion
+G 0 6644 0		*	a juicy steak
+E 0 6621 0 12		*	a linen robe: about the shoulders
+M 0 6600 7 6603 1	* the dwarven youth (Day Care Center)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6600 7 6604 1	* the dwarven youth (Day Care Center)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6602 2 6604 1	* a raggedy anne doll (Day Care Center)
+M 0 6606 2 6604 1	* the nanny (Day Care Center)
+G 0 6646 0		*	an amber potion
+E 0 6622 0 16		*	a broom: wielded
+M 0 6600 7 6605 1	* the dwarven youth (Day Care Center)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6602 2 6605 1	* a raggedy anne doll (Day Care Center)
+G 0 6645 0		*	a rotten steak
+M 0 6605 3 6605 1	* an old doll (Day Care Center)
+E 0 6601 0 1		*	a pink ice ring: on the left finger
+M 0 6605 3 6606 1	* an old doll (The Messy Bathroom)
+M 0 6601 2 6606 1	* a teddy bear (The Messy Bathroom)
+M 0 6600 7 6608 1	* the dwarven youth (The Playground)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6603 4 6608 1	* a toy soldier (The Playground)
+E 0 6647 0 16		*	a toy crossbow: wielded
+M 0 6600 7 6609 1	* the dwarven youth (The Playground)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6604 2 6609 1	* the ugly bear (The Playground)
+M 0 6603 3 6609 1	* a toy soldier (The Playground)
+E 0 6647 0 16		*	a toy crossbow: wielded
+M 0 6603 4 6609 1	* a toy soldier (The Playground)
+E 0 6647 0 16		*	a toy crossbow: wielded
+M 0 6600 7 6610 1	* the dwarven youth (The Playground)
+E 0 6600 0 16		*	a toy axe: wielded
+M 0 6603 4 6610 1	* a toy soldier (The Playground)
+E 0 6647 0 16		*	a toy crossbow: wielded
+M 0 6605 3 6610 1	* an old doll (The Playground)
+M 0 6604 2 6611 1	* the ugly bear (The Playground)
+M 0 6603 4 6611 1	* a toy soldier (The Playground)
+E 0 6647 0 16		*	a toy crossbow: wielded
+R 0 6613 4	* Mini-Maze: randomize
+R 0 6614 4	* Mini-Maze: randomize
+R 0 6615 4	* Mini-Maze: randomize
+R 0 6616 4	* Mini-Maze: randomize
+M 0 6607 1 6624 1	* the armed guard (End of the Mini-Maze)
+E 0 3023 0 16		*	a club: wielded
+M 0 6608 1 6631 1	* the spoiled brat (The End?)
+S
+
+#$

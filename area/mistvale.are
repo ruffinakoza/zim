@@ -1,0 +1,903 @@
+#AREADATA
+Name Mistvale~
+Builders aamon~
+VNUMs 100861 100920
+Credits Aamon~
+Security 1
+LevelRange 20 30
+Flags closed noquest~
+End
+
+#OBJECTS
+#100861
+growth~
+the growth~
+~
+unknown~
+~
+portal ORY 0
+0 0 0 100862 0
+0 0 0 P
+E
+growth~
+The growth is dense and blocks the passage into the valley.  However it
+appears as if someone or something has forced its way through.  Perhaps one
+can enter the growth and get into the valley?  
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100861
+Overlooking a lush valley~
+You are at the top of a large valley.  Below you the valley extends
+towards the south and it is overgrown with lush jungle.  In the midst of the
+jungle a small clearing can be spotted in the eastern part of the valley. 
+The path leading down into the valley is blocked by jungle growth although a
+couple of branches are broken off, as if someone has forced their way
+through.  
+~
+0 0 forest
+S
+#100862
+{gI{Gn{g a l{Gu{gsh j{Gu{gngl{Ge{x~
+You are in the midst of a lush tropical jungle.  Tall growth-covered
+trees towers into the sky and the tops meet high above you as a natural
+ceiling.  Small hummingbirds are flying around, sucking the nectar out of
+the colourful flowers, filling the air with peaceful chirps.  A single
+bananatree is growing in solitude in the middle of the dense growth.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 100863
+0 0
+S
+#100863
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100862
+0 0
+D1
+~
+~
+Z 0 100864
+0 0
+S
+#100864
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100865
+0 0
+D3
+~
+~
+Z 0 100863
+0 0
+S
+#100865
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100864
+0 0
+D1
+~
+~
+Z 0 100870
+0 0
+D3
+~
+~
+Z 0 100866
+0 0
+S
+#100866
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100865
+0 0
+D2
+~
+~
+Z 0 100867
+0 0
+S
+#100867
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100866
+0 0
+D3
+~
+~
+Z 0 100868
+0 0
+S
+#100868
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100867
+0 0
+D3
+~
+~
+Z 0 100869
+0 0
+S
+#100869
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100868
+0 0
+S
+#100870
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100871
+0 0
+D3
+~
+~
+Z 0 100865
+0 0
+S
+#100871
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100870
+0 0
+D2
+~
+~
+Z 0 100872
+0 0
+S
+#100872
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100871
+0 0
+D1
+~
+~
+Z 0 100873
+0 0
+D2
+~
+~
+Z 0 100891
+0 0
+S
+#100873
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100874
+0 0
+D3
+~
+~
+Z 0 100872
+0 0
+S
+#100874
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100875
+0 0
+D3
+~
+~
+Z 0 100873
+0 0
+S
+#100875
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100889
+0 0
+D1
+~
+~
+Z 0 100887
+0 0
+D2
+~
+~
+Z 0 100876
+0 0
+D3
+~
+~
+Z 0 100874
+0 0
+S
+#100876
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100875
+0 0
+D2
+~
+~
+Z 0 100877
+0 0
+S
+#100877
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100876
+0 0
+D2
+~
+~
+Z 0 100878
+0 0
+S
+#100878
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100877
+0 0
+D3
+~
+~
+Z 0 100879
+0 0
+S
+#100879
+banan city~
+this is where banan city will be.
+~
+0 0 inside
+D1
+~
+~
+Z 0 100878
+0 0
+D3
+~
+~
+Z 0 100880
+0 0
+S
+#100880
+main street in banan city~
+main street in banan city.
+medic to the south.
+medecine woman to the north.
+~
+0 0 inside
+D0
+~
+~
+Z 0 100885
+0 0
+D1
+~
+~
+Z 0 100879
+0 0
+D2
+~
+~
+Z 0 100886
+0 0
+D3
+~
+~
+Z 0 100881
+0 0
+S
+#100881
+main street in banan city~
+chieftain to the north.
+voltaire's school of monkey spanking to the south.
+~
+0 0 inside
+D0
+~
+~
+Z 0 100882
+0 0
+D1
+~
+~
+Z 0 100880
+0 0
+D2
+~
+~
+Z 0 100883
+0 0
+S
+#100882
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100881
+0 0
+S
+#100883
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100881
+0 0
+D1
+~
+~
+Z 0 100884
+0 0
+S
+#100884
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100883
+0 0
+S
+#100885
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100880
+0 0
+S
+#100886
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100880
+0 0
+S
+#100887
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100888
+0 0
+D3
+~
+~
+Z 0 100875
+0 0
+S
+#100888
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 100887
+0 0
+S
+#100889
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100890
+0 0
+D2
+~
+~
+Z 0 100875
+0 0
+S
+#100890
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100889
+0 0
+S
+#100891
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100872
+0 0
+D2
+~
+~
+Z 0 100892
+0 0
+S
+#100892
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100891
+0 0
+D3
+~
+~
+Z 0 100893
+0 0
+S
+#100893
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100892
+0 0
+D3
+~
+~
+Z 0 100894
+0 0
+S
+#100894
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100897
+0 0
+D1
+~
+~
+Z 0 100893
+0 0
+D2
+~
+~
+Z 0 100895
+0 0
+S
+#100895
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100894
+0 0
+D2
+~
+~
+Z 0 100896
+0 0
+S
+#100896
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100895
+0 0
+S
+#100897
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100898
+0 0
+D2
+~
+~
+Z 0 100894
+0 0
+S
+#100898
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100897
+0 0
+D3
+~
+~
+Z 0 100899
+0 0
+S
+#100899
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100898
+0 0
+D3
+~
+~
+Z 0 100900
+0 0
+S
+#100900
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100899
+0 0
+D2
+~
+~
+Z 0 100901
+0 0
+S
+#100901
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100900
+0 0
+D2
+~
+~
+Z 0 100902
+0 0
+S
+#100902
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100901
+0 0
+D2
+~
+~
+Z 0 100903
+0 0
+S
+#100903
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100902
+0 0
+D1
+~
+~
+Z 0 100904
+0 0
+S
+#100904
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100905
+0 0
+D3
+~
+~
+Z 0 100903
+0 0
+S
+#100905
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100904
+0 0
+D2
+~
+~
+Z 0 100906
+0 0
+S
+#100906
+entrance to mines~
+mines to the east
+~
+0 0 inside
+D0
+~
+~
+Z 0 100905
+0 0
+D1
+~
+~
+Z 0 100907
+0 0
+S
+#100907
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100908
+0 0
+D2
+~
+~
+Z 0 100912
+0 0
+D3
+~
+~
+Z 0 100906
+0 0
+S
+#100908
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100909
+0 0
+D2
+~
+~
+Z 0 100907
+0 0
+S
+#100909
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100910
+0 0
+D3
+~
+~
+Z 0 100908
+0 0
+S
+#100910
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100911
+0 0
+D3
+~
+~
+Z 0 100909
+0 0
+S
+#100911
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100910
+0 0
+D1
+~
+~
+Z 0 100915
+0 0
+D2
+~
+~
+Z 0 100914
+0 0
+S
+#100912
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100907
+0 0
+D1
+~
+~
+Z 0 100913
+0 0
+S
+#100913
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100914
+0 0
+D3
+~
+~
+Z 0 100912
+0 0
+S
+#100914
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100911
+0 0
+D3
+~
+~
+Z 0 100913
+0 0
+S
+#100915
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 100916
+0 0
+D3
+~
+~
+Z 0 100911
+0 0
+S
+#100916
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 100917
+0 0
+D3
+~
+~
+Z 0 100915
+0 0
+S
+#100917
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 100916
+0 0
+S
+#0
+
+#RESETS
+O 0 100861 0 100861	* the growth (Overlooking a lush valley)
+S
+
+#$

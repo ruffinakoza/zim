@@ -1,0 +1,33 @@
+#RACE
+Name elf~
+Aff infrared sneak~
+Res charm~
+Vuln iron~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Elf~
+Points 500
+AgeModifier 500
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 100
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 100
+Class 'witch' 100
+Class 'warrior' 100
+Stats 40 75 50 60 40 50 50
+MaxStats 18 25 21 23 16 25 25
+Size medium
+HPBonus -10
+ManaBonus 30
+RestrictAlign good~
+Slang elvish
+End
+
+#$

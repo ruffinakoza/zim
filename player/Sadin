@@ -1,0 +1,101 @@
+#PLAYER
+Name Sadin~
+Passwd Sa8mC0dtp4VdE~
+Born 1164603569
+LogO 1166933276
+Level 66
+Race felar~
+Sex  1
+Class ninja~
+Ethos none
+Hometown New Thalos~
+Room 99201
+Gold 0
+Silv 19
+Exp 525937
+ExpTL 0
+Drain_level 0
+Conf nosummon~
+State log~
+Comm prompt long combine color~
+AffectedBy infrared~
+Invi 61
+Pos  8
+Prac 5
+Alig  0
+ACs 100 100 100 100
+Relig 0
+Attr 41 52 39 70 63 47 53
+AttrTrend 2665 3380 2535 4550 4095 3055 3445
+AttrAvgTot 41 53 39 70 63 47 53
+AttrAvgNum 1 1 1 1 1 1 1
+AMod 0 0 0 0 0 0 0
+HMV  786 786 663 663 1190 1190
+Scro 22
+ShD Sadin~
+HMVDNP 786 663 1190 65 169
+CndC  0 46 48 48 48 48
+Plyd 81283
+Not  1166907259 1166547945 1165723462 1166815857 1166815002 
+NoteCrime 0
+NoteEvent 1165723464
+Title  the Ninja God~
+Pnts 250
+TrueSex 1
+LastLevel 22
+Lang 0
+StalkersSaved 0
+PK_Kills 0
+PK_Deaths 0
+GoodKilled 0
+NeutKilled 0
+EvilKilled 0
+NoAlignKilled 0
+Dead 0
+GoodStanding 0
+NeutStanding 0
+EvilStanding 0
+Granted music affrooms force goto herotitle holylight imotd immtalk : incognito inform invis mpstat noaffect peace penalty penalties poofin poofout questtalk qt rename smote teleport transfer wizcom wizinvis wiznet clone dmtalk load mwhere pecho purge osockets scatter silence sockets stat alist asave ashow create edit resets at echo owhere prefi prefix smite switch warena addlag anoncolor award noexp notitle string version gecho > vnum zecho~
+Usage 100 0 0 0 0 0 0 0 0 0 136 0 0 470 340 0 0 0 448 0 0 0 0 0 0 0 0 79~
+Sk 1 'detect hide'
+Sk 1 'sakura'
+Sk 40 'dagger'
+Sk 100 'hand to hand'
+Sk 1 'longsword'
+Sk 1 'shortsword'
+Sk 1 'spear'
+Sk 1 'second attack'
+Sk 1 'third attack'
+Sk 1 'master hand'
+Sk 1 'staves'
+Sk 1 'assassinate'
+Sk 1 'blind fighting'
+Sk 1 'blindness dust'
+Sk 1 'caltrops'
+Sk 1 'critical strike'
+Sk 1 'dirt kicking'
+Sk 1 'disarm'
+Sk 1 'dodge'
+Sk 1 'endure'
+Sk 1 'enhanced damage'
+Sk 1 'escape'
+Sk 1 'fast healing'
+Sk 1 'hand block'
+Sk 1 'hide'
+Sk 1 'kick'
+Sk 1 'make shuriken'
+Sk 1 'meditation'
+Sk 1 'nerve'
+Sk 1 'pick lock'
+Sk 1 'poison smoke'
+Sk 1 'scalp'
+Sk 1 'sneak'
+Sk 1 'shuriken'
+Sk 1 'strangle'
+Sk 100 'tail'
+Sk 1 'throw'
+Sk 1 'trip'
+Sk 1 'vanish'
+End
+
+#END

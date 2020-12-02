@@ -1,0 +1,484 @@
+#AREADATA
+Name The Forest of Caerlon~
+VNUMs 10909 10918
+Credits Nalaeya~
+Security 1
+LevelRange 0 0
+ResetMessage A soft soft shakes the tree branches above, bringing a fresh breeze to refresh you.~
+End
+
+#MOBILES
+#10909
+man guildmaster master ranger woodsman~
+The Old Woodsman~
+A middle-aged man rests on a boulder, carving a bow.
+~
+Dressed in various shades of green and gray, it’s difficult to see him
+from afar, as he seems to be a part of the surroundings, and only the soft
+whisk of his carving knife against the wood he holds gives him away.  His
+hair is short and gray, but his piercing green eyes show that he is as sharp
+as ever.  There is a look of experience about him, and he seems to be
+completely at home in the forest.  
+~
+human~
+ABJKVbef Dlmt 0 0
+96 100 499d96+11000 960d11+95 33d4+100 none
+-59 -59 -59 -40
+ACEK AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M death 10691 100~
+#10910
+ranger woman elven elf~
+the elven woman~
+A young woman rests on the boulder, starting up at the sky.
+~
+Long brown hair cascades down her back as she rests on the rock, softly
+humming to herself.  A longbow lies beside her, along with a journey pack. 
+Her clothes are all in shades of green and brown, allowing her to hide
+easily among the trees.  She looks completely at peace as she stares up at
+the sky, a smile on her face.  
+~
+elf~
+ABe et 0 0
+106 106 563d106+15000 1060d11+95 33d3+65 none
+-66 -66 -66 -45
+ACEIK AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 10692 100~
+#0
+
+#OBJECTS
+#10909
+pond~
+the pond~
+~
+water~
+~
+fountain OR 0
+0 0 'water' 0
+0 0 0 P
+E
+pond~
+A soft wind causes ripples across the pond's surface.
+~
+G none
+G none
+G none
+G none
+#10910
+boulder~
+a boulder~
+~
+unknown~
+~
+furniture OR 0
+AC EIJKN EHK CFG CFG AC EIJKN
+0 0 0 P
+E
+boulder~
+Protective runes have been scratched into the boulder, prayers for the
+continued health and life of the forest.  
+~
+G none
+G none
+G none
+G none
+#10911
+bubbling stream cool~
+the cool stream~
+~
+water~
+~
+fountain OR 0
+0 0 'water' 0
+0 0 0 P
+E
+bubbling stream cool~
+A cool stream flows northward here, its water cool and refreshing.  
+~
+G none
+G none
+G none
+G none
+#10912
+boulder circle~
+a boulder~
+~
+unknown~
+~
+furniture OR 0
+ABCD EIJKN EHK BCDFG ADFG ABCD EIJKN
+0 0 0 P
+E
+boulder circle~
+Large boulders have been arranged in a circle here, looking like a
+comfortable place to rest.  
+~
+G none
+G none
+G none
+G none
+#10913
+blackberry bush~
+a blackberry bush~
+~
+unknown~
+plant~
+container R 0
+100 0 0 100 0 0
+0 0 0 P
+E
+blackberry bush~
+A blackberry bush grows by the side of the road, heavy with ripe berries.  
+~
+G none
+G none
+G none
+G none
+#10914
+handful blackberries berries~
+a handful of blackberries~
+A handful of freshly picked blackberries are scattered on the ground.~
+unknown~
+blackberry~
+food 0 A
+AC AC 0 0 0 AC AC
+0 4 54 P
+E
+berries~
+The berries look quite tasty.
+~
+E
+blackberries berries handful~
+These blackberries have just become ripe, and seem to have been freshly
+picked.  
+~
+G none
+G none
+G none
+G none
+#10915
+elven quiver~
+{GAn Elven Quiver{x~
+An elven quiver has been left behind.~
+unknown~
+~
+container 0 AC
+250 F 0 100 80 0
+106 25 63813 P
+A
+17 -35
+A
+20 -2
+A
+19 5
+A
+1 1
+A
+12 5
+A
+13 7
+A
+18 10
+E
+quiver elven~
+Made of a flexible white material, it looks as if it can hold several
+arrows at once.
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#10909
+A Quiet Glade~
+The soft wind brushing through the trees and the calls of birds and wild
+animals are the only sounds to be heard in this glade.  A small pond lies
+between the trees, its surface clear and blue, reflecting its surroundings,
+and gently rippling as a breeze passes through.  The forest surrounding this
+place is untouched and pure, and even in these quiet surroundings the forest
+is full of life and energy.  
+~
+0 CSTXY forest
+D1
+~
+~
+Z 0 10910
+0 0
+S
+#10910
+A Clearing in the Thick Forest~
+The forest suddenly opens up into a clearing, the thick trees replaced by
+tall grass and wildflowers.  Small animals stand on hind legs, watching you
+curiously, showing no signs of fear or caution.  Birds call out to each
+other, filling the air with their song, adding to the sense of peace and
+harmony that permeates the clearing.  A large boulder rests at its center,
+offering a place to rest.  Thick trees grow all around the clearing, growing
+tightly together and making it almost impossible for anyone who is not an
+experienced woodsman to reach this place.  
+~
+0 CSTXY forest
+E
+animals~
+Chipmunks, squirrels and field mice run about the clearing, stopping to
+watch you curiously as if not used to being threatened.  
+~
+E
+grass wildflowers~
+Patches of wildflowers are nestled among the tall grasses, adding lovely
+shades of blue and violet to the clearing.
+~
+D2
+Thick trees lie to the south, hiding the clearing from those who don't
+know to look for it.  
+~
+~
+Z 0 10912
+0 0
+D3
+~
+~
+Z 0 10909
+0 0
+S
+#10911
+The Rocks by the Stream~
+The trail comes to an end here, stopped by a small stream that flows
+gently northward, its waters bubbling over rocks.  Though it appears to be
+quite shallow and is only a few feet across, a steep hill rises up on its
+western side, making passage in that direction impossible.  The forest to
+the north and south is thick, tall trees growing close together, soft ferns
+and thorny bushes growing beside them.  Several large boulders lie by the
+stream, arranged in a circle.  The remains of a recent campfire can be close
+by them, covered with dirt and leaves, giving the impression that this is a
+popular spot to rest at.  
+~
+0 0 forest
+E
+campfire~
+Someone has recently camped here, judging by the remains of a fire hidden
+beneath a pile of dirt and leaves.  
+~
+D1
+A faded path leads east through the trees.
+~
+~
+Z 0 10912
+0 0
+D3
+~
+~
+Z 0 2503
+0 0
+S
+#10912
+A Fading Trail~
+A small dirt path weaves through the forest here, making its way among
+the tall pale trunks of the trees that rise up on either side of it.  To the
+east the path gradually widens, becoming a road of hard packed earth, but
+few travel this deep into the forest to justify the upkeep of anything more
+than a light trail.  There are few signs of travel along the trail; most of
+the tracks are those of small animals, with a few larger tracks that appear
+to belong to a deer passing across one section.  Trees rise up all around,
+growing closely together and making it difficult to travel anywhere beyond
+the trail.  
+~
+0 0 forest
+D0
+Thick trees lie to the north, growing closely together.
+~
+~
+Z 0 10910
+0 0
+D1
+Light filters through the trees to fall upon the dirt path to the east.  
+~
+~
+Z 0 10913
+0 0
+D3
+The sounds of a stream come from the west.
+~
+~
+Z 0 10911
+0 0
+S
+#10913
+Passing Through the Forest~
+A dirt road passes through the trees here, winding around boulders and
+roots.  The sky is barely visible above the treetops, but light still
+filters down through the leaves to fall upon the bushes and wildflowers
+growing among the trees.  The air is fresh with the scents of new life, and
+soft gusts of wind passing through the trees bring a refreshingly cool
+breeze.  A large blackberry bush grows by the road, its berries looking
+fresh and ripe.  
+~
+0 0 forest
+D1
+The road continues through the forest to the east.
+~
+~
+Z 0 10914
+0 0
+D3
+A path leads deeper into the forest.
+~
+~
+Z 0 10912
+0 0
+S
+#10914
+A Road Through the Forest~
+A cobblestone road begins here, heading eastward through the forest. 
+Beyond the trees lies the city of Caerlon, though it cannot be seen from
+here.  Although few travel this way, and still fewer make their homes in
+this forest, the road is there to remind those who pass through that a great
+city is nearby, able to extend its civilizing force even in the depths of a
+thick and almost untouched forest.  To the west the road continues, though
+it narrows and is made of packed dirt, no longer paved with cobblestones.  
+~
+0 0 forest
+D1
+A cobblestone road winds through the forest.
+~
+~
+Z 0 10915
+0 0
+D3
+The road narrows to the west, cutting a small path through the forest.
+~
+~
+Z 0 10913
+0 0
+S
+#10915
+Down the Forest Road~
+Thick trees rise up to either side of the road, growing closely together,
+their thin trunks rising high above to spread thick branches full of shiny
+green leaves.  Light filters down from the sky above, creating tiny dancing
+patterns along the road.  Birds fly among the treetops, their song filling
+the air and bringing the forest to life.  
+~
+0 0 forest
+E
+birds~
+Flitting from branch to branch, their song fills the forest, comforting
+weary souls after their long journeys.  
+~
+D1
+The forest ends to the east, becoming a field of wildflowers.
+~
+~
+Z 0 10916
+0 0
+D3
+The cobblestone road grows fainter to the west.
+~
+~
+Z 0 10914
+0 0
+S
+#10916
+Before the Forest~
+Thick trees rise up here, growing closely together and allowing little
+room for passage other than through the cobblestone road that cuts through
+them.  An invisible line seems to have been drawn between the forest to the
+west, and the field of wildflowers before the city to the east.  Nothing
+taller than a bush grows in the field, providing little cover for anyone
+trying to sneak up to the gates.  Beautiful flowers in shades of blue,
+purple, yellow and red are spread out between the forest and the city walls,
+filling the air with a lovely scent.  
+~
+0 0 forest
+E
+flowers~
+Wildflowers cover the field, their scents mingling together to create a
+lovely fragrance to compliment the beauty of their colours.
+~
+D1
+A lovely field of wildflowers lies before the city.
+~
+~
+Z 0 10917
+0 0
+D3
+A cobblestone road cuts through the thick forest.
+~
+~
+Z 0 10915
+0 0
+S
+#10917
+A Road to Caerlon~
+Soft grass and wildflowers grow in the field by the road here, providing
+a pleasant scent and a lovely view.  The walls of Caerlon rise up to the
+east, their pale white stone glittering and reflecting any light that falls
+upon them.  To the west stands a lush forest, trees thick and green,
+branches swaying with every gust of wind.  The road here doesn’t look
+well-traveled, though it remains paved with cobblestones.  
+~
+0 0 field
+D1
+The gates of Caerlon lie to the east.
+~
+~
+Z 0 10918
+0 0
+D3
+A thick forest begins to the west.
+~
+~
+Z 0 10916
+0 0
+S
+#10918
+Before the Western Gate~
+The tall gates of Caerlon rise up, set into the glittering stone walls of
+the city.  Little traffic passes through the gates here, since the lands to
+the west of the city are for the most part uninhabited, except for a few
+rangers and isolated farms.  The land here is flat and bare of anything
+taller than a bush, a measure meant to allow those patrolling the walls to
+see anyone who approaches while they are still well away from the gates, as
+well as to protect the city in the case of a forest fire.  
+~
+0 0 field
+D1
+The tall gates of Caerlon rise up to the east.
+~
+~
+Z 0 10608
+0 0
+D3
+A field of wildflowers lies before the forest.
+~
+~
+Z 0 10917
+0 0
+S
+#0
+
+#RESETS
+M 0 10752 20 10909 1	* the trainer (A Quiet Glade)
+O 0 10909 0 10909	* the pond (A Quiet Glade)
+M 0 10909 1 10909 1	* The Old Woodsman (A Quiet Glade)
+O 0 10910 0 10910	* a boulder (A Clearing in the Thick Forest)
+M 0 10910 1 10910 1	* the elven woman (A Clearing in the Thick Forest)
+E 0 10915 0 3		*	{GAn Elven Quiver{x: around the neck (1)
+O 0 10911 0 10911	* the cool stream (The Rocks by the Stream)
+O 0 10912 0 10911	* a boulder (The Rocks by the Stream)
+M 0 10650 1 10912 1	* the ranger (A Fading Trail)
+O 0 10913 0 10913	* a blackberry bush (Passing Through the Forest)
+P 0 10914 5 10913 1	* a blackberry bush: a handful of blackberries
+S
+
+#PRACTICERS
+M 10909 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* The Old Woodsman
+S
+
+#$

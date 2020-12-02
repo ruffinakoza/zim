@@ -1,0 +1,1089 @@
+#AREADATA
+Name Lich Tower~
+VNUMs 29350 29399
+Credits Ryzen~
+Security 9
+LevelRange 45 75
+End
+
+#MOBILES
+#29350
+Death Knight~
+a death knight~
+An undead, skeletal knight guards this room.
+~
+Death Knights are a powerful enemy.  Turned undead by powerful
+necromancy, they were the most renown knights of their day.  
+~
+death knight~
+AFG 0 -750 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+CDIU 0 0 0
+stand stand none 800
+0 0 medium flesh~
+~
+#29351
+torturer inquisitor ~
+The Inquisitor~
+The Inquisitor is here preparing various torture devices.
+~
+This evil creature looks like a zombie but acts much more sinister.  It
+uses its magical abilities to keep its victims alive while it's torturing
+them.  
+~
+human~
+ABOQ cu -1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+CN ILQ P HN
+stand stand none 800
+I 0 medium flesh~
+~
+#29352
+demon minor~
+A Minor Demon~
+A minor demon stands here surrounded in flames.
+~
+An aggresive looking demon stands here in the brazier's flames.  It
+appears to have been summoned and is quite angry about it.  The long claws
+and fangs it uses as weapons make you consider running as fast as posible.  
+~
+human~
+ABT T -1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CDFHK H LPQ IN
+stand stand none 800
+C 0 medium flesh~
+~
+#29353
+demon major~
+A Major Demon~
+A Major Demon floats here in the flames.
+~
+A large wicked looking demon floats here in the fire.  He has wings, a
+tail, claws, fangs, he is everything you have pictured a demon would be. 
+His black scaled skin gleams in the firelight The burning flames in his eyes
+corrupt your soul.  Fear him mortal for you are about to die.  
+~
+dragon~
+ABOT u -1000 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+CFKM HLQ DIJK CN
+stand stand none 800
+Cc L large flesh~
+~
+#29354
+lich lord myzelak~
+Myzelak the Lich Lord~
+Myzelak the Lich Lord stands here by his throne.
+~
+Evil incarnate, Myzelak spent years of his life perfecting his magical
+abilities to grant him life after death.  The result of his work stands
+before you, a rotting representation of what the wizard used to be.  Myzelak
+now spends his time searching for ways to end all life in StormFront.  
+~
+lich~
+A Ju -1000 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+0 0 C 0
+stand stand none 800
+0 0 medium flesh~
+~
+F res D
+#29355
+dracolich mount dragon~
+The Dracolich~
+Myzelak's ancient dracolich mount.
+~
+Myzelak's Dracolich mount towers above you.  Fiery red lights gleam in
+its hollow eye sockets as it growls at you.  The undead dragon is monstrous,
+perhaps you should run now, before you're dead.  ;> 
+~
+dragon~
+ABOT 0 -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+CDFMO 0 IJK KN
+stand stand none 800
+c L unknown flesh~
+~
+#29356
+elite death knight~
+An Elite Death Knight~
+An Elite Death Knight laughs an unholy cackle and attacks.
+~
+A huge skeletal figure confronts you.  He wields an old longsword covered
+in runes and carries a large black shield that can only be a dragon's scale.
+He looks very much like the Death Knights you encountered earlier except he
+is much larger and appears to be more powerful as well.  
+~
+giant~
+ABOT 0 -900 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+CDFIKO 0 C HN
+stand stand none 800
+0 0 large flesh~
+~
+#0
+
+#OBJECTS
+#29350
+black mace ~
+an old black mace~
+An old, black iron mace lies here undisturbed~
+iron~
+~
+weapon B AN
+mace 3 13 pound 0
+40 90 2300 P
+G none
+G none
+G none
+G none
+#29351
+glowing skull~
+a Flaming Skull~
+A human skull floats here, outlined in blue flames.~
+stone~
+~
+light AG AO
+493
+48 5 8521 P
+A
+3 1
+A
+19 4
+A
+18 3
+A
+5 -2
+A
+13 25
+A
+12 25
+G none
+G none
+G none
+G none
+#29352
+wand golden~
+a golden wand~
+A small golden wand lies amongst the treasure~
+gold~
+~
+wand 0 AO
+50 10 10 'shield'
+50 3 500 P
+G none
+G none
+G none
+G none
+#29353
+staff crystal~
+a crystal staff~
+A beautiful crystaline staff lies here amongst the treasure.~
+stone~
+~
+staff G AO
+60 5 5 'heal'
+60 10 800 P
+G none
+G none
+G none
+G none
+#29354
+garnet ring~
+a Garnet Ring~
+A small garnet ring lies here amongst the treasure.~
+gold~
+~
+treasure 0 AB
+0 0 0 0 0
+58 1 900 P
+A
+18 5
+A
+19 4
+A
+12 50
+A
+3 1
+G none
+G none
+G none
+G none
+#29355
+bracer night~
+the Bracer of the Night~
+A black bracer covered in ancient runes lies here.~
+unknown~
+admantite~
+armor BG AM
+20 20 20 19 'none' 0
+54 55 61650 P
+A
+19 5
+A
+18 4
+A
+5 1
+G none
+G none
+G none
+G none
+#29356
+amulet night~
+the Amulet of the Night~
+An old amulet lies here glowing in unnatural blue light.~
+silver~
+~
+armor AG AC
+23 23 23 22 'none' 0
+64 65 89218 P
+A
+12 60
+A
+14 25
+A
+3 1
+A
+4 1
+G none
+G none
+G none
+G none
+#29357
+ancient longsword sword~
+an Ancient Longsword~
+An old longsword floats here, glowing slightly.~
+unknown~
+admantite~
+weapon AG AN
+longsword 4 21 slash DH
+70 75 138193 P
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#29358
+black scale dragon~
+a black dragon scale~
+A black dragon scale that's been torn from one of the beasts.~
+unknown~
+admantite~
+armor 0 AJ
+24 24 24 23 'none' 0
+65 66 218568 P
+A
+18 3
+A
+19 5
+A
+13 25
+A
+1 2
+A
+3 -2
+G none
+G none
+G none
+G none
+#29359
+hell sword wraith~
+the Hell's Wraith~
+This sword was supposedly forged in the depths of Hell. It's wavy blade makes it appear much like a large kris. It is a bit unwieldly at first but the damage it inflicts is unbelievable.~
+unknown~
+admantite~
+weapon ABEGJMh AN
+bastardsword 2 36 bite CF
+50 51 247823 P
+A
+2 1
+A
+1 1
+A
+18 5
+A
+19 5
+A
+4 -1
+A
+3 -1
+G none
+G none
+G none
+G none
+#29360
+robes sorceror~
+{Ds{Yorce{Dror{w'{Ds r{Yo{Dbes{x~
+Long black robes covered in moons and stars.~
+unknown~
+~
+clothing G AK
+0 0 0 0 0 0 0
+72 73 177160 P
+A
+3 2
+A
+12 150
+G none
+G none
+G none
+G none
+#29361
+infinity scroll~
+the {mI{Mn{wfini{Mt{my {WScroll{x~
+The old scroll rumored to have answers to all questions. (Unfortunately you just killed the last thing in existance that could read it.)~
+silver~
+~
+treasure ABG AO
+0 0 0 0 0
+74 75 78 P
+A
+19 2
+A
+2 -2
+A
+1 -2
+A
+4 2
+A
+3 2
+A
+13 50
+A
+12 50
+G none
+G none
+G none
+G none
+#29362
+silvery potion~
+a silvery potion ~
+A silvery potion has been left in the desk~
+glass~
+~
+potion AG AO
+40 'invisibility' 'detect invis' 'detect magic' 'detect poison'
+40 2 1000 P
+G none
+G none
+G none
+G none
+#29363
+key golden~
+a golden key~
+A golden key lies here in the book.~
+gold~
+~
+key 0 A
+0 0 0 0 0 0 0
+40 1 0 P
+G none
+G none
+G none
+G none
+#29364
+boots water walking waterwalking~
+boots of waterwalking~
+Some old leather boots with fish painted on them rest here in the closet.~
+mithril~
+~
+boat G AG
+0 0 0 0 0 0 0
+40 5 421026 P
+A
+18 2
+A
+2 1
+A
+17 -5
+G none
+G none
+G none
+G none
+#29365
+thieve's tunic~
+a Thieve's Tunic~
+A black shirt with many pockets.~
+unknown~
+admantite~
+armor G AD
+15 15 15 14 'none' 0
+40 41 142589 P
+A
+18 3
+A
+2 3
+G none
+G none
+G none
+G none
+#29366
+paper blank~
+a blank piece of paper~
+A deteriorating piece of blank paper rests here on a shelf.~
+paper~
+~
+gem 0 AO
+0 0 0 0 AB 0 0
+35 1 2000 P
+G none
+G none
+G none
+G none
+#29367
+chair wooden~
+a large wooden chair~
+A large wooden chair sits here at the head of the table~
+wood~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+30 50 0 P
+G none
+G none
+G none
+G none
+#29368
+table dining~
+a huge dining table~
+A huge dining table~
+wood~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+30 100 0 P
+G none
+G none
+G none
+G none
+#29369
+book shelf bookshelf~
+an old wooden bookshelf~
+An old wooden bookshelf lining the eastern wall~
+wood~
+~
+container 0 0
+10 0 0 0 75 0
+40 200 0 P
+G none
+G none
+G none
+G none
+#29370
+desk mahogany~
+a large mahogany desk~
+A large mahogany desk rests against the western wall~
+wood~
+~
+container 0 0
+999 0 22001 499 75 0
+40 150 0 P
+G none
+G none
+G none
+G none
+#29371
+closet~
+a closet carved into the wall~
+A large closet, carved into the wall.~
+stone~
+~
+container 0 0
+999 0 29363 499 75 0
+40 999 0 P
+G none
+G none
+G none
+G none
+#29372
+grimoire~
+a powerful grimoire~
+An ancient and powerful grimoire beckons for you to open it~
+leather~
+~
+container AG 0
+100 0 0 50 75 0
+40 50 0 P
+G none
+G none
+G none
+G none
+#29373
+cross obsidian~
+a large obsidian cross~
+A large obsidian cross~
+stone~
+~
+furniture 0 0
+0 0 0 0 0 0 0
+1 200 0 P
+E
+cross~
+This Area is high level only, level 45-75.  There are aggressive mobs,
+anyone under level 45 is recomended to avoid this area.  ===RYZEN <=== 
+~
+E
+cross~
+This Area, "The Lich's Tower" has been designed by Ryzen for HIGH level
+characters.  Recomended levels for this area are 45-75, anyone under that, I
+suggest strongly that you avoid this area as there are several aggresive
+mobs.  However, as this area is the only way to get to a few others, the
+mobs do NOT detect invis, so as long as you are invis you should be able to
+get where you want to go, Alive.  ===> RYZEN <=== 
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#29350
+Before the Tower~
+You stand before a grand, black tower.  The terror rising up inside of
+your soul is nearly overwhelming as you stare at its obsidian form.  The
+tower walls project an aura of death and evil making you feel quite
+insignificant.  To the north a large mountain has sprouted from the ground
+to block all hopes of passage.  You may go back east to the path, or
+continue west under an archway.  (LOOK CROSS!!!) 
+~
+0 0 inside
+D1
+~
+~
+Z 0 2309
+0 0
+D3
+~
+~
+Z 0 29351
+0 0
+S
+#29351
+Beneath the Archway~
+The walls of this room disappear above you, completing an arch somewhere
+in the darkness over your head.  Thorn covered vines hang from the walls in
+thick entanglements; you find yourself getting scratched in the most
+annoying of places.  From the west comes the faint light of torches, and
+from the north you hear what can only be described as an unholy growl.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29352
+0 0
+D1
+~
+~
+Z 0 29350
+0 0
+D3
+~
+~
+Z 0 29353
+0 0
+S
+#29352
+The Dracolich's Lair~
+You find yourself in awe of the treasure and artifacts amassed in this
+room.  One object of truly unusual looks catches your eye.  It appears to be
+a set of gigantic riding equipment, including a large saddle.  Just as you
+are wondering what could possibly fill that saddle, you notice the tremendous
+form of a dracolich towering above you.  The only exit is south, under the
+archway.  
+~
+0 D inside
+D2
+~
+~
+Z 0 29351
+0 0
+S
+#29353
+The Entrance Hall~
+A large carpet covers the floor in this room.  The carpet depicts armies
+of humans and demi-humans being slaughtered by horrible undead hoards. 
+Torches hang on the walls surrounded by old shields and weapons, artifacts
+from battles long past.  Two exits lead from the room, one south and one
+west.  From where you stand it is impossible to see what type of rooms lie
+beyond.  
+~
+0 D inside
+D1
+~
+~
+Z 0 29351
+0 0
+D2
+~
+~
+Z 0 29354
+0 0
+D3
+~
+~
+Z 0 29356
+0 0
+S
+#29354
+The Dining Hall~
+This room looks like what used to be a dining hall.  A thick layer of
+dust lines the table settings, stating that the hall is never used anymore. 
+To the west is the entrance to the kitchen and to your north is the entrance
+hall.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29353
+0 0
+D3
+~
+~
+Z 0 29355
+0 0
+S
+#29355
+The Kitchen~
+You reflexively reach for your nose as the stench of rotting food
+assaults your senses.  You break into a run towards the nearest exit, hoping
+for fresh air.  To the north are the stairs, east is the dining hall, and a
+large storage room lies open to the south.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29356
+0 0
+D1
+~
+~
+Z 0 29354
+0 0
+D2
+~
+~
+Z 0 29369
+0 0
+S
+#29356
+The Bottom of the Stairs~
+A flight of stairs winds away into the darkness above you.  A stronger
+sense of evil comes from up the steps.  You can go south to the kitchen,
+east to the entrance hall, or up into the unknown.  
+~
+0 D inside
+D1
+~
+~
+Z 0 29353
+0 0
+D2
+~
+~
+Z 0 29355
+0 0
+D4
+~
+~
+Z 0 29357
+0 0
+S
+#29357
+On the Stairs~
+The steps continue into blackness up or down and there is a small flicker
+of light entering the room from a doorway east.  This whole area seems
+unnaturally quiet scaring you more than any screams of death you have ever
+heard.  
+~
+0 D inside
+D1
+~
+~
+Z 0 29362
+0 0
+D4
+~
+~
+Z 0 29358
+0 0
+D5
+~
+~
+Z 0 29356
+0 0
+S
+#29358
+On the Stairs~
+You continue your way on the stairs.  Listening intently, you think you
+hear what sounds like the screams of damned and tortured souls to the south
+and east.  
+~
+0 D inside
+D1
+~
+~
+Z 0 29365
+0 0
+D2
+~
+~
+Z 0 29363
+0 0
+D4
+~
+~
+Z 0 29359
+0 0
+D5
+~
+~
+Z 0 29357
+0 0
+S
+#29359
+The Top of the Stairs~
+You have reached the top of the stairs.  To the south and east are long
+hallways and the stairs lead back down into darkness.  
+~
+0 D inside
+D1
+~
+~
+Z 0 29368
+0 0
+D2
+~
+~
+Z 0 29366
+0 0
+D5
+~
+~
+Z 0 29358
+0 0
+S
+#29360
+Lich's Study~
+This small room is virtually covered in books and scrolls, each marked in
+various places with notes.  A few oil lamps burn here and there, providing
+light for the owner of the tower.  A large desk sits near the western wall,
+while a closet has been carved into the wall to the south.  The only exit
+appears to be back into the library to the east.  
+~
+0 D inside
+D1
+~
+~
+Z 0 29361
+0 0
+S
+#29361
+The Library~
+Even after seeing the first room of the library, you are still in
+astonishment of the racks of scrolls that are scattered about this room. 
+Various tables line the walls, providing study space for anyone doing
+research here.  The library continues to the north and a small archway leads
+west into a study.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29362
+0 0
+D3
+~
+~
+Z 0 29360
+0 0
+S
+#29362
+The Library~
+The size of the shelves in this library is astounding.  They span the
+entire length of both the north and east walls.  The collection of books
+accumulated here is amazing.  To the south the library continues, while the
+stairs are back to the west.  
+~
+0 D inside
+D2
+~
+~
+Z 0 29361
+0 0
+D3
+~
+~
+Z 0 29357
+0 0
+S
+#29363
+A Summoning Room~
+Various runes and pentagrams have been scrawled into the stone at your
+feet.  A large golden brazier blasts flames in the middle of the room.  The
+only exits are north, to the stairs, and east, to the torture chamber.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29358
+0 0
+D1
+~
+~
+Z 0 29364
+0 0
+S
+#29364
+The Torture Chamber~
+Assorted torture devices clutter this room.  Against the eastern wall,
+three rotting bodies hang, each with its guts strewn across the floor.  You
+feel a tinge of remorse for the poor men before your heart rises in anger,
+now the only thing that matters to you is to avenge their deaths.  The
+summoning rooms provide exit to the north and west.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29365
+0 0
+D3
+~
+~
+Z 0 29363
+0 0
+S
+#29365
+A Summoning Room~
+Various runes and pentagrams have been scrawled into the stone at your
+feet.  Towards the middle of the room, a large silver brazier spouts fire. 
+The only exits are west, back to the stairs, and south, to the torture
+chamber.  
+~
+0 D inside
+D2
+~
+~
+Z 0 29364
+0 0
+D3
+~
+~
+Z 0 29358
+0 0
+S
+#29366
+A Large Hall~
+You stand in a large, elaborately decorated hallway.  The stairs are back
+to the north and a large set of double doors are to the east.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29359
+0 0
+D1
+~
+~
+ABZ 0 29367
+0 0
+S
+#29367
+The Lich's Throne Room~
+Entering this room, your eyes lock on a large bone throne and its
+occupent sitting against the eastern wall.  The room is handsomely decorated.
+Ancient grimoires and scrolls catch your eye for a brief second, just long
+enough for Myzelak the Lich Lord to attack.  The only exits are through the
+doors to your north or west.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 29368
+0 0
+D3
+~
+~
+ABZ 0 29366
+0 0
+S
+#29368
+A Large Hall~
+You stand in a large, elaborately decorated hallway.  The stairs are back
+to the west and a large set of doors block your way south.  
+~
+0 D inside
+D2
+~
+~
+ABZ 0 29367
+0 0
+D3
+~
+~
+Z 0 29359
+0 0
+S
+#29369
+A Storage Room~
+This room appears to be what is left of the kitchen's storage room.  An
+old door has been knocked off of its hinges to the south, revealing an
+ancient tunnel sloping down into the ground.  You can go back north to the
+kitchen or south into the dark tunnel.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29355
+0 0
+D2
+~
+~
+Z 0 29370
+0 0
+S
+#29370
+Above a Pit~
+A large torch hangs against the wall glowing brightly.  In front of you
+the floor disappears, leaving a large hole in the ground.  You can go north
+into the storage room, or down an old rope ladder into the blackness of the
+pit.  
+~
+0 D inside
+D0
+~
+~
+Z 0 29369
+0 0
+D5
+~
+~
+Z 0 29371
+0 0
+S
+#29371
+Under a Pit~
+You stand underneath the pit.  In this pitch black room the only thing
+that you can make out is a tunnel running in a south direction.  
+~
+0 D inside
+D2
+~
+~
+Z 0 29372
+0 0
+D4
+~
+~
+Z 0 29370
+0 0
+S
+#29372
+A Darkened Tunnel~
+You stand in an ancient and dark tunnel.  From the south light shines
+into the room.  You may go back north to the pit, or, south towards
+the light.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 29371
+0 0
+D2
+~
+~
+Z 0 29373
+0 0
+S
+#29373
+Before the Caverns~
+You have found it and it's just as the legends say.  This is the entrance
+to the Caverns of the Damned.  A large pit lies hollowed into the ground,
+magical glyphs and wards surround it, keeping this realm safe from any
+wandering spirits.  It is said that the only way for a mortal to enter the
+realms of hell is for them to make it through the maze of caverns below you.
+~
+0 D inside
+D0
+~
+~
+Z 0 29372
+0 0
+D5
+~
+~
+Z 0 22000
+0 0
+S
+#0
+
+#SPECIALS
+M 29353 spec_cast_undead	* A Major Demon
+M 29354 spec_cast_mage	* Myzelak the Lich Lord
+S
+
+#RESETS
+D 0 29366 1 1	* A Large Hall: door to the east: closed
+D 0 29367 0 1	* The Lich's Throne Room: door to the north: closed
+D 0 29367 3 1	* The Lich's Throne Room: door to the west: closed
+D 0 29368 2 1	* A Large Hall: door to the south: closed
+O 0 29373 0 29350	* a large obsidian cross (Before the Tower)
+M 0 29355 1 29352 1	* The Dracolich (The Dracolich's Lair)
+M 0 29350 4 29353 1	* a death knight (The Entrance Hall)
+E 0 29350 0 16		*	an old black mace: wielded
+O 0 29367 0 29354	* a large wooden chair (The Dining Hall)
+O 0 29368 0 29354	* a huge dining table (The Dining Hall)
+M 0 29350 4 29360 1	* a death knight (Lich's Study)
+E 0 29350 0 16		*	an old black mace: wielded
+O 0 29370 0 29360	* a large mahogany desk (Lich's Study)
+O 0 29371 0 29360	* a closet carved into the wall (Lich's Study)
+P 0 29361 0 29370 1	* a large mahogany desk: the {mI{Mn{wfini{Mt{my {WScroll{x
+P 0 29362 0 29370 1	* a large mahogany desk: a silvery potion 
+P 0 29363 0 29372 1	* a powerful grimoire: a golden key
+P 0 29364 0 29371 1	* a closet carved into the wall: boots of waterwalking
+P 0 29365 0 29371 1	* a closet carved into the wall: a Thieve's Tunic
+P 0 29366 0 29369 1	* an old wooden bookshelf: a blank piece of paper
+O 0 29372 0 29361	* a powerful grimoire (The Library)
+M 0 29350 4 29362 1	* a death knight (The Library)
+E 0 29350 0 16		*	an old black mace: wielded
+O 0 29369 0 29362	* an old wooden bookshelf (The Library)
+M 0 29353 1 29363 1	* A Major Demon (A Summoning Room)
+E 0 29356 0 3		*	the Amulet of the Night: around the neck (1)
+M 0 29351 1 29364 1	* The Inquisitor (The Torture Chamber)
+E 0 29351 0 0		*	a Flaming Skull: as a light
+M 0 29352 1 29365 1	* A Minor Demon (A Summoning Room)
+E 0 29355 0 14		*	the Bracer of the Night: on the left wrist
+M 0 29356 2 29366 1	* An Elite Death Knight (A Large Hall)
+E 0 29357 0 16		*	an Ancient Longsword: wielded
+E 0 29358 0 11		*	a black dragon scale: as a shield
+M 0 29354 1 29367 1	* Myzelak the Lich Lord (The Lich's Throne Room)
+E 0 29359 0 16		*	the Hell's Wraith: wielded
+E 0 29360 0 12		*	{Ds{Yorce{Dror{w'{Ds r{Yo{Dbes{x: about the shoulders
+M 0 29356 2 29368 1	* An Elite Death Knight (A Large Hall)
+E 0 29357 0 16		*	an Ancient Longsword: wielded
+E 0 29358 0 11		*	a black dragon scale: as a shield
+M 0 29350 4 29369 1	* a death knight (A Storage Room)
+E 0 29350 0 16		*	an old black mace: wielded
+S
+
+#$

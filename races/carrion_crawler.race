@@ -1,0 +1,12 @@
+#RACE
+Name carrion crawler~
+Dodge 70
+Size large
+DamType thwack
+Act noalign~
+Aff detect_hidden~
+Form insect worm~
+Parts head legs heart brains guts eyestalks~
+End
+
+#$

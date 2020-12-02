@@ -1,0 +1,482 @@
+#AREADATA
+Name Malakai's House~
+Builders malakai~
+VNUMs 62301 62330
+Credits malakai~
+Security 1
+LevelRange 1 91
+Flags noquest playerhouse~
+End
+
+#MOBILES
+#62301
+reaper~
+Grim Reaper~
+A {Ddark {wcloaked person is here, standing in front of the gate.
+~
+~
+golem~
+ABcef DFRVZclmnpqsu -1000 0
+110 220 589d110+50000 1100d11+95 37d2+190 none
+-69 -69 -69 -47
+ACHIO 0 C 0
+stand stand none 0
+0 0 medium flesh~
+~
+F vul CP
+M exit 62302 2~
+M greet 62303 100~
+M kill 62304 100~
+#62302
+julianna servant~
+Malakai's Servant~
+A beautiful woman is here, all dressed in {Wwhite{x.
+~
+~
+human~
+ABQeh DFTlmtu -1000 0
+106 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+EFKV A CD 0
+stand stand none 0
+0 0 medium flesh~
+~
+M speech 62301 Feed me.~
+#0
+
+#OBJECTS
+#62301
+coffin malakai~
+Malakai's Coffin~
+A coffin lies here, waiting for his master.~
+unknown~
+~
+furniture CEJLRT 0
+A GJOQRST FIL CDFI BGHI A GJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#62302
+virgin heart burning~
+{WLord Malakai{x's {RBurning {WVirgin {rHeart{x~
+{WLord Malakai{x's {RBurning {WVirgin {rHeart{x lies here.~
+unknown~
+flame~
+light AJNTU A
+281
+106 0 19279 P
+A
+20 -10
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#62303
+malakai's armplates doom~
+{WLord Malakai{x's {RArmplates {Wof {rDoom{x~
+{WLord Malakai{x's {RArmplates {Wof {rDoom{x are here on the ground.~
+steel~
+~
+armor CGNP AI
+38 38 38 37 'none' 0
+106 107 724610 P
+A
+13 100
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#62304
+virgin's embrace~
+A {WVirgin's {REmbrace{x~
+A {WVirgin's {REmbrace{x lies here on the ground.~
+unknown~
+~
+armor CGNP AD
+38 38 38 37 'none' 0
+106 107 1185198 P
+A
+13 100
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#62305
+hole~
+A small hole~
+A fake hole is on the ground.~
+iron~
+~
+armor CFGJP AC
+38 38 38 37 'none' 0
+106 107 853742 P
+A
+17 -30
+A
+20 -10
+A
+12 100
+A
+19 10
+A
+18 10
+A
+13 100
+G none
+G none
+G none
+G none
+#62306
+legplates dark~
+{WLord Malakai{x's {DDark {RLegplates{x~
+{WLord Malakai{x's {DDark {RLegplates{x are here on the floor.~
+bone~
+~
+armor CGNP AF
+38 38 38 37 'none' 0
+106 107 2679539 P
+A
+26 1
+A
+13 100
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#62307
+shield dark bone~
+{WLord Malakai{x's {RBlood {WSplattered {WShield{x~
+{WLord Malakai{x's {RBlood {WSplattered {WShield{x is here.~
+unknown~
+Ancient Bones~
+armor ACGNP AJ
+38 38 38 37 'none' 0
+106 107 809094 P
+A
+19 10
+A
+18 10
+A
+13 100
+G none
+G none
+G none
+G none
+#62308
+malakai's crown~
+{WLord Malakai{x's {RCrown{x~
+{WLord Malakai{x's {RCrown{x is here on the floor.~
+bone~
+~
+armor CJNTU AE
+38 38 38 37 'none' 0
+106 107 680783 P
+A
+20 -5
+A
+13 70
+A
+19 9
+A
+18 9
+G none
+G none
+G none
+G none
+#62309
+malakai's plated gloves~
+{WLord Malakai{x's {RPlated {rGloves{x~
+{WLord Malakai{x's {RPlated {rGloves{x lie here.~
+unknown~
+~
+armor CGNP AH
+38 38 38 37 'none' 0
+106 107 713862 P
+A
+18 10
+A
+20 -10
+A
+19 10
+G none
+G none
+G none
+G none
+#62310
+malakai's dark plated boots~
+{WLord Malakai{x's {DDark {RPlated {rBoots{x~
+{WLord Malakai{x's {DDark {RPlated {rBoots{x lie here.~
+unknown~
+~
+armor CGNP AG
+38 38 38 37 'none' 0
+106 107 633149 P
+A
+20 -10
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#62311
+malakai's cloak~
+{WLord Malakai{x's {DDark {RLeather {rCloak{x~
+{WLord Malakai{x's {DDark {RLeather {rCloak{x lies here.~
+unknown~
+~
+clothing CGNP AK
+BCF BCF BCF ACF 0 BCF BCF
+106 107 448800 P
+A
+19 10
+A
+18 10
+A
+13 100
+G none
+G none
+G none
+G none
+#62312
+touch death~
+{WLord Malakai{x's {RTouch {Wof {rDeath{x~
+{WLord Malakai{x's {RTouch {Wof {rDeath{x lies here.~
+unknown~
+Ancient Bones~
+armor CFGNPY AM
+38 38 38 37 'none' 0
+106 107 484924 P
+A
+19 10
+A
+18 10
+A
+13 100
+G none
+G none
+G none
+G none
+#62313
+virgin head~
+A {Wvirgin's {rhead{x~
+A {Wvirgin's {rhead {wlies here on the floor.~
+steel~
+~
+staff CNY AO
+90 10 10 'dragon skin'
+90 0 0 P
+A
+17 -30
+A
+12 100
+A
+13 100
+A
+20 -10
+A
+19 10
+A
+18 10
+G none
+G none
+G none
+G none
+#62314
+black iron vault~
+a black iron vault~
+At one corner lies a {Dblack {wiron vault.~
+iron~
+~
+container CER 0
+1000000000 0 0 100 100 0
+106 107 5695 P
+G none
+G none
+G none
+G none
+#62329
+portal~
+a portal~
+{WA mystical door surrounded by mist hovers here.{x~
+unknown~
+~
+portal 0 0
+0 0 A 3257 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#62330
+masoki katana~
+{rBlade {xof {RRighteousness{x~
+{rBlade {xof {RRighteousness{x lies here.~
+unknown~
+Admantium~
+weapon AN AN
+longsword 6 22 divine 0
+108 109 6360 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#62301
+At the entrance of {WLord {RM{ra{Rl{ra{Rk{ra{Ri{W's Mausoleum{x~
+A dark and creepy mausoleum lies in front of you.  To each side of the
+black mithril gate are two statues.  Looking closely they look to be an
+image of the same person although there is a contrast between the two. 
+Above the gate there is an inscription, carved in the rock.  
+~
+0 ANX inside
+E
+inscription~
+{R"Here lies the resting place of Lord Malakai of the Vladescu dinasty. 
+Died in the Year of the B..."  {x.  The rest of the inscription seems to be
+erased.  
+~
+E
+statue~
+The left statue is the image of a young noble man with good appearance. 
+He looks peaceful and smiling.  The right statue, on the other hand, is the
+same young man but with a darker look and a couple of holes on his neck.  
+~
+D2
+~
+~
+ABDFGJZ 0 62302
+0 0
+D4
+~
+~
+Z 0 3602
+0 0
+S
+#62302
+Inside the Mausoleum~
+Fine tapestries hang from the walls of the mausoleum.  They seem to tell
+a story as they look to be connected in some way.  Darkness surrounds the
+room as no light can enter this room.  
+~
+0 0 inside
+D0
+~
+~
+ABDFGJZ 0 62301
+0 0
+D5
+~
+~
+Z 0 62303
+0 0
+S
+#62303
+{WLord {RM{ra{Rl{ra{Rk{ra{Ri{W's Resting Place{x~
+The floor can't be seen for a thick layer of mist surrounds you.  Like
+the rooms before, this one is as dark and as sinister as the valley of
+death.  
+~
+0 A inside
+D4
+~
+~
+Z 0 62302
+0 0
+S
+#0
+
+#RESETS
+D 0 62301 2 1	* At the entrance of {WLord {RM{ra{Rl{ra{Rk{ra{Ri{W's Mausoleum{x: door to the south: closed
+D 0 62302 0 1	* Inside the Mausoleum: door to the north: closed
+M 0 62301 1 62301 1	* Grim Reaper (At the entrance of {WLord {RM{ra{Rl{ra{Rk{ra{Ri{W's Mausoleum{x)
+O 0 62329 0 62302	* a portal (Inside the Mausoleum)
+M 0 62302 1 62303 1	* Malakai's Servant ({WLord {RM{ra{Rl{ra{Rk{ra{Ri{W's Resting Place{x)
+O 0 62301 0 62303	* Malakai's Coffin ({WLord {RM{ra{Rl{ra{Rk{ra{Ri{W's Resting Place{x)
+S
+
+#MOBPROGS
+#62301
+if name $n Malakai
+say As you command it, my Lord.
+bow $n
+mob mload 95720
+mob mload 95720
+mob mload 95720
+mob mload 95720
+mob mload 95720
+end
+endif
+~
+#62302
+if name $n Malakai
+tell $n Welcome home my Lord.
+mob transfer $n 62302
+else
+if name $n Mierin
+tell Malakai My Lord, your beloved lady Mierin has arrived.
+tell $n So milady, when will you move here permanentely, my Lord Malakai feels very lonely without you...
+mob transfer $n 62302
+else
+t malakai My Lord! $n has tried to enter your mausoleum!
+mob echoat $n The cloaked figure suddenly stands between you and the gate and says: {G'STOP, you are not worthy of entering Lord Malakai's domains! BEGONE!'{x
+endif
+endif
+end
+~
+#62303
+if name $n Malakai
+bow $n
+end
+endif
+if clan $n Warlock
+say YOU ARE UNWORTHY OF BEING HERE! SUFFER!
+bash $n
+tell Malakai My Lord, I am getting my hands dirty with $n.
+end
+endif
+if isimmort $n
+tell Malakai My Lord, the great $n has arrived at your doorstep.
+say Hello mighty one, try not to touch anything.
+wink $n
+end
+endif
+if clan $n Chaos
+tell Malakai My Lord, your clan member $n has arrived.
+say Welcome $n! Feeling chaotic today?
+punch $n
+else
+say What business have you here?
+tell Malakai My Lord, $n has arrived at your doorstep!
+end
+endif
+~
+#62304
+tell Malakai My Lord, I am under attack! Aid me now!
+end
+~
+#0
+
+#$

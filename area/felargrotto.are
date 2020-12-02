@@ -1,0 +1,6099 @@
+#AREADATA
+Name Felar Grotto~
+Builders kira~
+VNUMs 2502 2799
+Credits Kira~
+Security 9
+LevelRange 40 60
+End
+
+#MOBILES
+#2502
+waffles~
+{&W{7a{8ffl{7e{&s{x~
+{&W{7a{8ffl{7e{&s{x, {^K{6ir{^a{6'{^s {xguardian {8food {xfloats here.
+~
+~
+human~
+ABIa 0 1000 0
+300 93 479d93+0 930d11+95 32d2+69 none
+-57 -57 -57 -38
+0 0 0 0
+stand stand female 10000
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 2502 100~
+M give 2600 catnip~
+#2503
+felar gates guard~
+{8the {7F{&ela{7r {8Gates Guard{x~
+{8The {7F{&ela{7r {8Gates Guard {xflicks his tail {1ominously{x upon your presence.
+~
+A large Felar stands on all fours before you. His thick tail seizing your gaze as
+it flicks back and forth. He looks like he could take care of himself quite well.
+~
+felar~
+ABT 0 1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+0 0 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+F par ACDEFHJKV
+M grall 2503 100~
+#2505
+syrup~
+{$S{%y{$r{%u{$p{x~
+{$S{%y{$r{%u{$p{x is above you, dripping from the {^skies{x.
+~
+~
+human~
+AI 0 1000 0
+93 93 479d93+0 930d11+95 32d2+69 none
+-57 -57 -57 -38
+0 0 0 0
+stand stand none 1000
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2506
+kitty traveler~
+a {^K{6i{^tt{6y {#T{3ravele{#r{x~
+{xA {^K{6i{^tt{6y {#T{3ravele{#r {xis walking along the path here.{x
+~
+This little kitten is walking the path with her little walking stick.
+She is humming a happy tune on her way.
+~
+cat~
+ABT 0 1000 0
+40 40 133d40+0 400d11+95 14d2+34 none
+-20 -20 -20 -11
+0 0 0 0
+stand stand female 200
+0 0 medium flesh~
+~
+F par ACDEFHJKUV
+M grall 2506 100~
+#2507
+buzzing dragonfly~
+a buzzing {%d{5r{%a{5g{%o{5n{&f{8l{&y{x~
+A {%d{5r{%a{5g{%o{5n{&f{8l{&y{x buzzes around the {Bwatering {8h{&o{8l{&e{x.
+~
+She is buzzing happily around the watering hole, teasing the
+thirsty animals and flitting from shoulder to shoulder.
+~
+sprite~
+ABT 0 1000 0
+41 41 122d41+0 205d10+85 13d3+25 none
+-18 -18 -18 -9
+0 A 0 0
+stand stand female 60
+0 0 medium flesh~
+~
+F par BCDEFGHIJK
+M greet 2509 100~
+#2508
+friendly felar~
+{8the {8friendly {5felar{x~
+{8A friendly {5felar {8welcomes you to the {2Forest {&of {&Rec{7onci{8liat{&ion{8.{x
+~
+He looks kind and welcoming. He wears a glowing red key around his neck.
+~
+felar~
+ABT 0 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 200
+0 0 medium flesh~
+~
+F par ACDEFHJKQV
+M grall 2508 100~
+#2510
+leopard frog~
+a {3l{#e{7o{3p{#a{7r{#d {@@f{2r{@@o{2g{x~
+A {3l{#e{7o{3p{#a{7r{#d {@@f{2r{@@o{2g{x jumps happily here.{x
+~
+This happy frog is hiding behind a cat tail pretending you don't notice him.
+His vibrant {#yellow{x and {@@green{x skin fades into the colors of all around
+him. He looks friendly, but unwilling to share his personal space.
+~
+fish~
+ABT 0 1000 0
+40 40 133d40+0 400d11+95 14d2+34 none
+-20 -20 -20 -11
+0 0 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+F for AZ
+F par ADEJKOX
+#2511
+metallic silver snake~
+a {8met{&all{7ic {&si{8lv{7er {!s{1n{!a{1k{!e{x~
+A {8met{&all{7ic {&si{8lv{7er {!s{1n{!a{1k{!e{x is slithering around a cat tail.
+~
+Slithering up a cat tail, this sneaky snake makes his way out of sight...
+or so she thinks. Her metallic coating makes her have the appearance as
+though she is one with the cat tail.
+~
+snake~
+ABT V 1000 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+FHKN 0 0 0
+stand stand female 50
+0 0 medium flesh~
+~
+F par ADEFKQVX
+#2512
+hidden turtle~
+a {&revealed {@@t{2ur{@@tl{2e{x~
+A {@@t{2ur{@@tl{2e{x {8hides{x here behind an oversized cat tail.
+~
+This turtle is trying quite hard to hide in the shelter of the cat
+tails and if it weren't so slow to getting behind one you wouldn't
+have seen it!
+~
+fish~
+ABT d 1000 0
+48 48 185d48+0 480d11+95 17d2+39 none
+-25 -25 -25 -15
+0 R DFG 0
+stand stand female 50
+0 0 medium flesh~
+~
+F for Z
+F par ADEFJOX
+#2514
+rennie~
+{$R{4en{$n{4ie{x~
+{$R{4en{$n{4ie{x is here selling beautiful {4La {$M{4er {xboats.
+~
+~
+cat~
+ABCT 0 1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+D R 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+F par ACDEFHKQUV
+#2516
+walking stick~
+a {3walking {#stick{x~
+A tiny {3walking {#stick{x is climbing the {#beech tree{x.{x
+~
+A barely visible walking stick is slowly walking up the
+smooth bark of the {#beech tree{x. It takes no notice of
+you.
+~
+unique~
+ABT 0 1000 0
+45 45 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+0 A 0 0
+stand stand male 10
+0 0 medium flesh~
+~
+#2523
+dogfish~
+{&a {^slippery {@@d{2og{#fi{3sh{x~
+{&A {^slippery {@@d{2og{#fi{3sh{x swims here chasing the {8minnows.{x
+~
+~
+fish~
+ABT 0 1000 0
+45 45 122d45+0 45d9+60 14d3+23 none
+-19 -19 -19 -9
+HK R 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+F par ADEFJKX
+#2524
+catfish fish~
+{&a {#flopping {5c{%at{#fi{3sh{x~
+{&A {#happy {5c{%at{#fi{3sh{x is swimming freely here.{x
+~
+This catfish looks very pleased with the warm waters today. It
+doesn't want to be disturbed, but will flop back at you if it has to!
+~
+fish~
+ABT 0 1000 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+HK R 0 J
+stand stand female 50
+0 0 medium flesh~
+~
+F for AZ
+F par ADEFJKX
+#2525
+fat mouse~
+{xa {!fat {&mouse{x~
+A disgustingly {!fat {&mouse{x rolls on his belly here.{x
+~
+This mouse looks as if it is having no fun at all.
+Its stomach is the only thing that touches the ground, not
+even his chubby legs. He seems to be quite vulnerable.
+~
+unique~
+ABT d 1000 0
+43 43 113d43+0 43d9+60 13d3+22 none
+-18 -18 -18 -9
+V 0 0 F
+stand stand male 600
+G Q medium flesh~
+~
+#2526
+sleeping cat~
+{xthe {!wakened {&cat{x~
+A {&sleeping {7cat {xis snoring here on a shelf of wood.{x
+~
+There is a bowl of milk resting under this cat's arm. Looks as though
+he just finished eating some fat mice from down below.
+~
+cat~
+ABT 0 1000 0
+50 44 159d44+0 440d11+95 15d2+36 none
+-22 -22 -22 -13
+M 0 F L
+stand stand none 500
+0 0 large flesh~
+~
+F par ACDEFHJKUV
+#2528
+warm kitten cat~
+{7a {!w{1a{3r{#m {6k{^itte{6n{x~
+{7A {!w{1a{3r{#m {6k{^itte{6n {xis curled up in a {&tight {8ball{x here.{x
+~
+She is purring quietly next to her sister and is taking no
+notice of you making your way into the room. She looks
+innocent and cuddly.
+~
+felar~
+ABT 0 1000 0
+49 49 141d49+0 49d9+60 15d3+25 none
+-21 -21 -21 -11
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par ACDEFHJKQV
+#2529
+mother feline cat~
+{7a {%m{5othe{%r {^c{6a{^t{x~
+{7A {%m{5othe{%r {^c{6a{^t {xis here tending to her children.
+~
+She is sprawled out onto her side and her children are drinking
+her delicious milk.
+~
+felar~
+ABT 0 1000 0
+55 55 231d55+0 550d11+95 19d2+44 none
+-30 -30 -30 -19
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F par ACDEFHJKUV
+#2530
+fish jellyfish~
+{&a {#s{3quish{#y {!jelly{1fish{x~
+{&A {#s{3quish{#y {!jelly{1fish{x floats here.{x
+~
+A very squishy looking jellyfish floats in place here. It is
+translucent and surging with deadly energy.{x
+~
+fish~
+ABT 0 1000 0
+48 48 185d48+0 480d11+95 17d2+39 none
+-25 -25 -25 -15
+F R T J
+stand stand female 40
+0 0 medium flesh~
+~
+F for AZ
+F par AEFJKOX
+#2531
+tiny kitten cat~
+{7a {^t{6in{^y {^k{6itte{^n{x~
+{7A {^t{6in{^y {^k{6itte{^n{x is drinking her mother's milk here.{x
+~
+He is lying lazily on his mother's stomach and drinking
+her milk.
+~
+felar~
+ABT 0 1000 0
+49 49 141d49+0 49d9+60 15d3+25 none
+-21 -21 -21 -11
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+M kill 2531 100~
+#2532
+father kitten~
+{2F{@@athe{2r {6k{^itte{6n{x~
+{2F{@@athe{2r {6k{^itte{6n{x is fixing up a bed for his {%c{5hildre{%n{x.{x
+~
+A cute male kitten is pushing out the wrinkles in
+the sheets of a bed.
+~
+felar~
+ABT a 1000 0
+43 43 133d43+0 215d10+85 14d3+26 none
+-19 -19 -19 -10
+K A 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+M greet 2532 100~
+M speech 2533 Yes~
+#2533
+shark~
+a {^s{&h{^a{&r{^k{x~
+A {^s{&h{^a{&r{^k{x {8fin{x pokes at the water here.
+~
+All you can see is a shark fin, but it seems to be coming closer to
+your whereabouts.
+~
+fish~
+ABT 0 1000 0
+51 51 204d51+0 510d11+95 18d2+41 none
+-27 -27 -27 -17
+CDM R 0 0
+stand stand none 50
+0 0 medium flesh~
+~
+F par ADEFJKX
+#2536
+mr fishie goodins~
+{@@Mr{2. {$F{4ishi{$e {!G{1oodin{!s{x~
+{@@Mr{2. {$F{4ishi{$e {!G{1oodin{!s{x stands here selling you fish scales.{x
+~
+~
+cat~
+ABCT 0 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+D 0 0 0
+stand stand male 500
+0 0 medium flesh~
+~
+F par ADEFHJKQUV
+#2541
+duck~
+{7a {#d{3uc{#k{x~
+{7A {#d{3uc{#k {xis floating from wave to wave here.{x
+~
+This little duck is floating around aimlessly from wake to
+wake. Her little feathers flutter from time to time as she
+gets nervous from the sudden dips in the water.
+~
+fish~
+ABT 0 1000 0
+48 48 136d48+0 48d9+60 15d3+25 none
+-21 -21 -21 -11
+K R I 0
+stand stand female 50
+0 0 medium flesh~
+~
+F par DEFJKOX
+#2544
+whale~
+{7a {$w{4hal{$e{x~
+{7A {!vigorous {$w{4hal{$e{x circles here.{x
+~
+This whale is gigantic in size. He is bullheaded and stronger
+than most his age. His thick body is just screaming for you to
+stay out of his way.
+~
+fish~
+ABT 0 1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+0 R I 0
+stand stand male 50
+0 0 large flesh~
+~
+F par ADFJKOX
+#2545
+crab~
+{7a {!c{1ra{!b{x~
+{7A {!c{1ra{!b {xbathing in the {#sun{x.
+~
+Her eyes are barely open as you peer at her. Her claws look
+rather harmless at this angle. She is sprawled out lazily not
+taking notice of you.
+~
+fish~
+ABT 0 1000 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+DK R F 0
+stand stand female 20
+0 0 medium flesh~
+~
+F par ADEFJOX
+#2546
+lobster lazy~
+{7a {#l{&a{#z{&y {^l{6obste{^r{x~
+{7A {#l{&a{#z{&y {^l{6obste{^r{x is lying rather dramatically with his claw raised here.{x
+~
+This lobster is lying lazily in the heat of the sun. How lethargic
+he looks, his claw raised over his head to block the sun from
+his eyes.
+~
+fish~
+ABT 0 0 0
+53 53 161d53+0 53d9+60 16d3+27 claw
+-24 -24 -24 -13
+M R F 0
+stand stand male 20
+0 U medium flesh~
+~
+F par ADEFJKOX
+#2549
+unforgiving squid~
+{xthe {!Unforgiving {&Squid{x~
+{&King {%K{#a{%t{&'{#s {!Unforgiving {&Squid{x holds the key to what you want.{x
+~
+thin body. It is the master guard before King Kat's Isle. If you wish
+This squid's gigantic tentacles flail dangerously around its long,
+thin body. It is the master guard before {&King {%K{#a{%t{&'{#s{x Isle. If you wish
+for a match, he is definitely not a forgiving animal to fight.
+~
+fish~
+ABFT 0 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+CDEFHK AR I JT
+stand stand male 500
+0 0 medium flesh~
+~
+F for AZ
+F par ADEFJOX
+M grall 2549 100~
+#2561
+welcoming felar~
+{&the {%d{5a{$n{^c{%i{5n{$g {&welcomer{x~
+{&The {%d{5a{$n{^c{%i{5n{$g {&welcomer {7is here, throwing ribbons and confetti.{x
+~
+An extremely welcoming felar he is, wearing a tall, colorful
+and poofy hat. He wears a vest and golden slippers, and is dancing
+and waving you into the beautiful city.
+~
+felar~
+ABT 0 1000 0
+55 55 170d55+0 55d9+60 17d3+28 none
+-25 -25 -25 -14
+0 0 0 0
+stand stand male 300
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+#2569
+madame marguerite~
+{5M{8a{&d{5a{8m{&e {5M{8a{&r{5g{8u{&e{5r{8i{&t{5e{x~
+{5M{8a{&d{5a{8m{&e {5M{8a{&r{5g{8u{&e{5r{8i{&t{5e{x is here, ready to serve you some feline delicacies.
+~
+A beautiful long-haired feline is lying on the glass counter with a {%p{5in{%k {xbow{x
+between her ears. She is ready to sell you whatever it is you desire!
+~
+human~
+ABC 0 1000 0
+91 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand female 50
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2570
+kate~
+{%K{5ate{x~
+{%K{5ate{8, the coffee girl, stands here serving drinks.{x
+~
+{%K{5ate {8is a beautiful, intelligent looking felar. She is wearing{x
+{8glasses and a short plaid skirt. Held up by her petite paw, is a{x
+{8platter full of all sorts of coffees and mochas.{x
+~
+felar~
+ABCT 0 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+0 0 0 0
+stand stand female 1000
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+#2571
+fleuranna~
+{%F{5l{&e{%u{5r{&a{%n{5n{&a{x~
+{%F{5l{&e{%u{5r{&a{%n{5n{&a{x is here looking {^c{6ut{^e{x in a summerdress, selling {#f{&l{7o{#w{&e{7r{#s{x.
+~
+Lovely smells fill the air and tiny petals lay scattered on the
+ground. There is a glass case full of beautiful flowers.  Many of
+them are in-season ones, and many that are out-of-season or hard to 
+find. {%F{5l{&e{%u{5r{&a{%n{5n{&a{x is highly trained in her craft, and knows how to cut
+a rose in hundreds of different ways.
+~
+felar~
+ABC 0 1000 0
+150 150 850d150+0 1500d11+95 51d2+107 none
+-98 -98 -98 -67
+0 0 0 0
+stand stand female 1000
+0 0 medium flesh~
+~
+#2572
+delilah~
+{%D{5el{%i{5la{%h{x~
+{%D{5el{%i{5la{%h{x, the weapons mistress is here, flicking her tail.{x
+~
+A sturdy young felar, {%D{5el{%i{5la{%h {xis. She has strong paws and a
+thick tail, which flicks dangerously at you as she gives you
+the details of her merchandise.
+~
+felar~
+ABCT 0 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+0 0 0 0
+stand stand female 200
+0 0 medium flesh~
+~
+F par ACDEFHJKQV
+#2576
+krystania~
+{%K{5rystani{%a{x~
+{%K{5rystani{%a {xis here, gnawing on a twisted ball of {#s{3t{#r{3i{#n{3g{x.{x
+~
+{%K{5rystani{%a {xstands gleaming behind the counter, grinning at
+the insane amount of customers. She wears an oversized pink bow in
+her fur just to the left of her right ear. All the felars of the
+grotto absolutely love this young kitty.
+~
+felar~
+ABCT 0 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 F 0 0
+stand stand female 300
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+#2579
+kats royal guardians~
+{!R{&o{1y{7a{!l {!G{&u{1a{7r{!d{&i{1a{7n {&of {%K{&a{%t{&'{%s {^K{6i{&n{7g{^d{6o{&m{x~
+A {!R{&o{1y{7a{!l {!G{&u{1a{7r{!d{&i{1a{7n {&of {%K{&a{%t{&'{%s {^K{6i{&n{7g{^d{6o{&m{x guards the {#golden {3g{#a{&t{#e{7s{x.
+~
+Standing just before the glorious gates of Kat's Kingdom stands this
+beastly felar guard. He wears shimmering metal armor and raised tightly
+against his chest is a gigantic {#gold {3a{&x{#e{x.
+~
+felar~
+ABT 0 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 200
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+M greet 2579 100~
+#2580
+trumpeter~
+{xa {#trumpeter{x~
+{xA {#Trumpeter{x is boasting out some beautiful tunes as a {!w{3a{1r{#m {xgreeting.
+~
+This trumpeter's cheeks are a bright shade of red as he boasts
+out some beautiful tunes for those who are entering the gates
+of {%K{&a{%t{&'{%s {xKingdom. He raises a long, slender trumpet to his lips
+and notes are sent flying into the air.
+~
+felar~
+ABT 0 1000 0
+59 59 224d59+0 295d10+85 19d3+34 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 200
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+M greet 2580 100~
+#2589
+playful lark~
+a playful lark~
+{MA playful lark tweets at you from the railing.{x
+~
+A playful lark insists that she owns this terrace and tweets at you to
+make sure you know this.  Around her neck she wears a delicate key with a
+small {W'{MK{W'{x engraved in bright {Mpink{x.  She chirps happily at you and says you
+should find the proper keyhole, what lies inside is something rather
+amazing.  
+~
+arial~
+AB 0 1000 0
+48 48 161d48+0 240d10+85 16d3+29 none
+-23 -23 -23 -13
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#2596
+blind cashus cat beggar~
+{8Little {%B{5lind {$C{4ashus{x~
+{8Little {%B{5lind {$C{4ashus{7, the wandering {&beggar cat {xrests on some roots here.{x
+~
+Cashus, the little blind cat, is resting up against some upturned roots.
+He holds a wooden cane and a cup of coins that passerbys toss change
+into. He looks frail, but content in his old age. Please, be kind to this
+elderly soul.
+~
+felar~
+ABT A 1000 0
+55 55 170d55+0 55d9+60 17d3+28 none
+-25 -25 -25 -14
+0 0 0 0
+stand stand male 300
+0 0 medium flesh~
+~
+F aff J
+F par ACDEFHJKQV
+M grall 2596 100~
+#2597
+wombat~
+{7a {&w{8ombat{x~
+{7A curious {&w{8ombat {7is here, nibbling on some {#l{3eaves{7.{x
+~
+He looks pretty damn special because he's Australian of course!
+~
+unique~
+ABT V 1000 0
+60 60 195d60+0 60d9+60 19d3+31 none
+-28 -28 -28 -16
+0 0 0 0
+stand stand male 100
+0 A medium flesh~
+~
+#2599
+pokemon 256~
+{!Pokemon {1#{&256{x~
+{!Pokemon {1#{&256{x is here.
+~
+{!I am #256, hear me roar!{x
+~
+human~
+ABT 0 0 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 0
+stand stand female 0
+0 M medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2600
+innocent lark~
+{8an {&innocent {#l{3ark{x~
+{8An {&innocent {#l{3ark {8is peeking out from a hollow in the {@@fallen tree{8.{x
+~
+This tiny lark is shy and innocent. She is peering out from inside the tree,
+taking a coy peek at you, and disappearing from sight.
+~
+cat~
+ABT 0 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand female 200
+0 0 large flesh~
+~
+F par CDEFHJKQUV
+#2602
+blah~
+Blah~
+Blah is here.
+~
+~
+human~
+AB 0 -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+0 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 2602 100~
+M speech 2603 tell me this forest's burden~
+#2603
+tree~
+a dead tree~
+A dead tree wavers in the breeze.
+~
+~
+unique~
+A 0 0 0
+45 45 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2606
+dead undergrowth~
+some dead undergrowth~
+Some dead undergrowth flops on the ground here.
+~
+~
+unique~
+AB 0 0 0
+47 47 156d47+0 235d10+85 15d3+28 none
+-22 -22 -22 -12
+0 0 0 0
+stand stand none 17
+0 0 medium flesh~
+~
+#2607
+stinky air~
+stinky air~
+A stinky cloud of air floats around, you can't seem to get away from it.
+~
+~
+unique~
+AB 0 -1000 0
+48 48 161d48+0 240d10+85 16d3+29 none
+-23 -23 -23 -13
+0 0 0 0
+stand stand none 7
+0 0 medium flesh~
+~
+#2610
+cat skeleton~
+the skeleton of a cat~
+The skeleton of a cat quivers and shakes, its bones loudly clammering.
+~
+~
+felar~
+AB 0 -1000 0
+49 49 167d49+0 245d10+85 16d3+29 none
+-23 -23 -23 -13
+0 0 0 0
+stand stand male 40
+0 0 medium flesh~
+~
+#2611
+zombie felar andronias~
+{8Andronias{x~
+{8Andronias, the {1zombie {8felar is crouched over a dead body.{x
+~
+Andronias, the resident Exile zombie, is drooling over a bloody carcass.
+His body reeks of death and rotting fur.  I wouldn't get too close to him.
+~
+zombie~
+ABT 0 -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+0 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F par ABCDEFGHIJ
+#2628
+servant~
+a servant~
+A servant is scrubbing away at the glass floor.
+~
+~
+felar~
+AB 0 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand female 50
+0 0 medium flesh~
+~
+F par ACDEFHJKQV
+#2648
+queen kat~
+The {Mb{me{Wa{wu{Mt{mi{Wf{wu{Ml {BQ{bueen {MK{wa{Mt{x~
+The {Mb{me{Wa{wu{Mt{mi{Wf{wu{Ml {BQ{bueen {MK{wa{Mt{x is rubbing up against a bedpost.
+~
+~
+felar~
+AB 0 1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+0 0 0 0
+stand stand female 250
+0 0 medium flesh~
+~
+#2649
+king kat~
+The {CR{co{By{ba{Bl {BK{bing {MK{wa{Mt{x~
+The {CR{co{By{ba{Bl {BK{bing {MK{wa{Mt{x purrs on the windowsill, looking mighty.
+~
+The heart and pride of the Felar Grotto is right before you.
+You would do best to show some respect!
+~
+felar~
+AB H 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+0 0 0 0
+stand stand male 200
+0 0 medium flesh~
+~
+#2650
+enchantia~
+{RE{rn{Mc{mh{Ra{rn{Mt{mi{Ra{x~
+{RE{rn{Mc{mh{Ra{rn{Mt{mi{Ra{x meows and perks up as you enter the room.
+~
+~
+felar~
+ABT H 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#2651
+eshmirelda~
+{CE{cs{bh{Bm{Ci{cr{be{Bl{Cd{ca{x~
+{CE{cs{bh{Bm{Ci{cr{be{Bl{Cd{ca{x looks up at you with huge, cute eyes. Meeeeow!
+~
+~
+felar~
+AB 0 1000 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand female 45
+0 0 medium flesh~
+~
+#2652
+everetta~
+{#E{3v{&e{7r{#e{3t{&t{7a{x~
+{#E{3v{&e{7r{#e{3t{&t{7a{3 is playing on her little {!red {3rocking horse.{x
+~
+{#E{3v{&e{7r{#e{3t{&t{7a {3is a beautiful young girl with shiny {#blonde {3hair{x
+{3in pigtails. She is the youngest of the {54 {%K{&a{%t {3daughters.{x
+~
+felar~
+ABT H 1000 0
+58 58 218d58+0 290d10+85 19d3+34 none
+-29 -29 -29 -17
+0 A 0 0
+stand stand female 200
+0 0 medium flesh~
+~
+F par CDEFHJKQUV
+#2653
+eseilia~
+{GE{gs{be{Bi{Gl{gi{ba{x~
+{GE{gs{be{Bi{Gl{gi{ba{x is looking cute all wrapped up in a green ball of string.
+~
+~
+felar~
+AB 0 1000 0
+52 52 184d52+0 260d10+85 17d3+31 none
+-25 -25 -25 -14
+0 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+#2655
+vehemian~
+{bV{Be{bh{Be{bm{Bi{ba{Bn{x~
+{bV{Be{bh{Be{bm{Bi{ba{Bn{x is painting a picture of La Mer.{x
+~
+~
+felar~
+AB 0 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#2656
+vroshima~
+{RV{rr{Wo{ws{Rh{ri{Wm{wa{x~
+{RV{rr{Wo{ws{Rh{ri{Wm{wa{x roars as he plays with the flickering flame of a candle.
+~
+~
+felar~
+AB 0 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 39
+0 0 medium flesh~
+~
+#2657
+vischuu~
+{8Vi{xsc{Whu{xu{x~
+{8Vi{xsc{Whu{xu{x is picking up tiny pieces of lint from off the floor.
+~
+~
+felar~
+AB 0 1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+#2658
+varune~
+{CV{ca{bru{Bne{x~
+{CV{ca{bru{Bne{x is bouncing on his bed.
+~
+~
+felar~
+AB 0 1000 0
+53 53 190d53+0 265d10+85 17d3+31 none
+-26 -26 -26 -15
+0 0 0 0
+stand stand male 50
+0 0 medium flesh~
+~
+#2664
+white wolf~
+{xa beautiful {&White Wolf{x~
+{7A beautiful {&White Wolf {7is curled up next to the {@@Tree of Life{x.{x
+~
+This wolf of the Grotto is the only animal related to the canine
+species in this area. It is a peaceful wolf of {&snow white fur{x, and
+piercing {Bb{^l{bu{6e {xeyes. He is a quiet wolf that can always be found at
+the {@@Tree of Life{x. No one knows why he rests before this tree and
+protects its beauty and epic.
+~
+wolf~
+ABT H 1000 0
+50 50 173d50+0 250d10+85 16d3+30 bite
+-24 -24 -24 -14
+0 A 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F par CDEFJKQV
+#2665
+fish~
+a fish out of water~
+A fish out of water flops about on the ground here.
+~
+Obviously this fish hasn't been flopping around here for
+very long, but the castle gardner must not have seen it.
+Please don't let it die like this.
+~
+fish~
+AB 0 1000 0
+53 53 190d53+0 265d10+85 17d3+31 none
+-26 -26 -26 -15
+0 0 0 0
+stand stand male 10
+0 0 medium flesh~
+~
+#2668
+hummingbird~
+a hummingbird~
+A hummingbird flits its wings and buzzes about the courtyard.
+~
+~
+arial~
+AB 0 1000 0
+57 57 212d57+0 285d10+85 19d3+33 none
+-29 -29 -29 -17
+0 0 0 0
+stand stand female 40
+0 0 medium flesh~
+~
+F par ABCDEFGHIJ
+#2672
+giant red hummingbird~
+{7The {&Giant {!Red {1Humm{!ing{1bird{x~
+{7The {&Giant {!Red {1Humm{!ing{1bird{x is perched on the highest branch of the {@@Tree of Life{x.{x
+~
+~
+song bird~
+ABT H 1000 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 A 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+F par ACDEFHK
+M greet 2672 100~
+M speech 2673 yes~
+#0
+
+#OBJECTS
+#2502
+plush satin pillows~
+{xsome {5p{%l{5ush {6pill{^ows{x~
+{5P{%l{5ush {&sa{7ti{&n {6pill{^ows {xare thrown messily around the room.{x~
+unknown~
+~
+furniture MY 0
+CFG ABCDEFGJKMPTUX BEHK DEFG DEFG CFG ABCDEFGJKMPTUX
+1 0 0 P
+G none
+G none
+G none
+G none
+#2503
+knothole knot tree~
+{xa {8knot hole{x~
+A gigantic {2tree {xstands here with a large {8knot hole{x just in reach.{x~
+unknown~
+~
+portal MY 0
+0 0 0 2525 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2504
+multicolored pillow~
+{7a {1m{!u{3l{#t{2i{@@c{6o{^l{4o{$r{5e{%d {@@pillow{x~
+{7A {1m{!u{3l{#t{2i{@@c{6o{^l{4o{$r{5e{%d {@@pillow{x lies here. Dangerous!{x~
+unknown~
+~
+weapon ABGTY AN
+dagger 6 12 divine 0
+93 0 5435 P
+G none
+G none
+G none
+G none
+#2505
+rose~
+{6---{^'{6--{^,{6-{^@@{x~
+A beautiful {6---{^'{6--{^,{6-{^@@{x lies here.{x~
+unknown~
+~
+armor ABIT AR
+90 90 90 90 'none' 0
+93 1 67253 P
+A
+5 2
+G none
+G none
+G none
+G none
+#2506
+poop~
+poop~
+Poopie lies here.~
+unknown~
+~
+food ABNRTY AO
+CE CE 0 0 0 CE CE
+1 0 191 P
+G none
+G none
+G none
+G none
+#2507
+bling~
+{5B{%l{!i{5n{%g {5B{!l{1i{%n{5g{x~
+Some {5B{%l{!i{5n{%g {5B{!l{1i{%n{5g{x glimmers here.~
+unknown~
+~
+treasure ABNRY AC
+0 0 0 0 0
+95 0 0 P
+G none
+G none
+G none
+G none
+#2508
+between breasts edible undies~
+{bE{Bdible {mU{Mndies{x~
+Edible undies lie here.~
+unknown~
+~
+food ABIN AO
+BCDE BCDE 0 0 0 BCDE BCDE
+93 5 296 P
+G none
+G none
+G none
+G none
+#2509
+watering hole~
+{8the {$watering {8h{&o{8l{&e{x~
+{xA {^refreshing{x {$watering {8h{&o{8l{&e{x sinks {8deep{x into the ground here.{x~
+unknown~
+~
+fountain ABMY P
+-1 0 'water' 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2510
+key kitty~
+{^Kitty {%Key{x~
+{xThe key to {^Kira{6'{^s{x room lies here.{x~
+unknown~
+~
+key TY A
+0 0 0 0 0 0 0
+1 1 0 P
+G none
+G none
+G none
+G none
+#2514
+diamond fish scales~
+{&D{7i{&a{7m{&o{7n{&d {@@Fi{2sh {^Sca{6les{x~
+{&D{7i{&a{7m{&o{7n{&d {@@Fi{2sh {^Sca{6les{x lie here.{x~
+diamond~
+~
+jewelry ABG AC
+0 0 0 0 0 0 0
+40 41 23000 P
+A
+13 10
+A
+19 4
+A
+18 4
+G none
+G none
+G none
+G none
+#2515
+starry blanket~
+{xa {$s{4t{$a{4r{$r{4y {&blan{7ket{x~
+A {5plu{%sh {$s{4t{$a{4r{$r{4y {&blan{7ket {xrests here.{x~
+unknown~
+~
+furniture ABMY P
+CE ABCDEFGJKMPTUX BEHK CFG CFG CE ABCDEFGJKMPTUX
+1 0 0 P
+G none
+G none
+G none
+G none
+#2516
+boat mer~
+{$La {4M{$er {4B{$oa{4t{x~
+A {$La {4M{$er {4B{$oa{4t{x is ready to sail away here.{x~
+wood~
+~
+boat Y A
+0 0 0 0 0 0 0
+1 855 27811 P
+G none
+G none
+G none
+G none
+#2517
+pearl fish scales~
+{&P{7e{8a{7r{&l {@@Fish {^Sca{6les{x~
+{&P{7e{8a{7r{&l {@@Fish {^Sca{6les{x glimmer on the ground here.{x~
+pearl~
+Fish Scale~
+jewelry AB AC
+0 0 0 0 0 0 0
+50 11 5200 P
+A
+19 2
+A
+6 3
+G none
+G none
+G none
+G none
+#2518
+crystal fish scales~
+{7C{&rysta{7l {2Fi{@@sh {6S{^c{6a{^l{6e{^s{x~
+{7C{&rysta{7l {2Fi{@@sh {6S{^c{6a{^l{6e{^s{x glimmer here.{x~
+crystal~
+~
+jewelry 0 AC
+0 0 0 0 0 0 0
+60 41 33000 P
+A
+13 10
+A
+18 6
+A
+19 6
+G none
+G none
+G none
+G none
+#2519
+weeping willow~
+a weeping willow~
+A weeping willow tree casts darkness in every direction.~
+unknown~
+~
+trash M 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2525
+cheese~
+{#Cheese{x~
+{xSome {#cheese {xlies here.{x~
+unknown~
+cheese~
+food Y A
+BD BD 0 0 0 BD BD
+43 1 92 P
+G none
+G none
+G none
+G none
+#2526
+claw slumber~
+{!Claw {&of {1Slumber{x~
+The {!Claw {&of {1Slumber{x lies on the ground here.{x~
+unknown~
+~
+weapon 0 AN
+exotic 2 26 pierce K
+50 51 67304 P
+A
+5 1
+A
+2 2
+G none
+G none
+G none
+G none
+#2528
+potion testing~
+potion testing~
+potion testing~
+unknown~
+~
+potion 0 A
+1 'heal' 'heal' 'heal' 'heal'
+1 0 0 P
+G none
+G none
+G none
+G none
+#2529
+twisty slide~
+{xa {%t{5w{%i{5s{%t{5y {%slide{x~
+{xA winding {%t{5w{%i{5s{%t{5y {%slide{x shoots downward from the {2tree.{x~
+unknown~
+~
+portal 0 0
+0 0 0 2515 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2535
+dragonfly~
+{5K{%i{5ra's {&Pet {@@D{!r{#a{@@g{!o{#n{@@f{!l{#y{x~
+{xA {@@D{!r{#a{@@g{!o{#n{@@f{!l{#y{x buzzes here.~
+light~
+~
+light ABITY AO
+448
+93 0 50000 P
+G none
+G none
+G none
+G none
+#2540
+larks bidding~
+{YA Lark's Bidding {B-- {W'{MK{W'{x~
+A lark's bidding to someone's room lies here.~
+unknown~
+~
+key AB A
+0 0 0 0 0 0 0
+0 1 0 P
+G none
+G none
+G none
+G none
+#2542
+man-made waterfall~
+a man-made {cw{Ca{xt{We{cr{Cf{xa{Wl{cl{x~
+A man-made {cw{Ca{xt{We{cr{Cf{xa{Wl{cl{x shimmers here, parting in the middle for your entrance.~
+unknown~
+~
+portal 0 0
+0 0 0 2670 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2549
+island acceptance key~
+{@@I{#s{@@l{#a{@@n{#d {&Acceptance{x~
+The {@@I{#s{@@l{#a{@@n{#d {&Acceptance{x key lies here for the taking.{x~
+unknown~
+~
+key D AO
+0 0 0 0 0 0 0
+10 1 100 P
+G none
+G none
+G none
+G none
+#2556
+healing bed flowers~
+a {&healing bed {xof {%f{1l{!o{5w{%e{1r{!s{x~
+A {&healing bed {xof {%f{1l{!o{5w{%e{1r{!s{x rests here.~
+unknown~
+~
+furniture M 0
+CEFGHI ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK DGH DGH CEFGHI ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2557
+shell conch~
+{7a {&s{8h{7i{8n{&y {#conch {&shell{x~
+{7A {&s{8h{7i{8n{&y {#conch {&shell{x glimmers in the sun.{x~
+shell~
+~
+treasure ABY AO
+0 0 0 0 0
+1 2 200 P
+G none
+G none
+G none
+G none
+#2558
+nine lives~
+{1N{!ine {$L{4i{$ves{x~
+{1N{!ine {$L{4i{$ves{x has been dropped here.{x~
+unknown~
+Magical Claws~
+weapon ABY AN
+exotic 3 21 claw 0
+60 20 130500 P
+A
+13 60
+A
+18 5
+A
+17 -6
+G none
+G none
+G none
+G none
+#2559
+letter block letterz~
+{#A Block Letter{x~
+{xA {&little wooden {#Block Letter {xfloats here.~
+unknown~
+~
+treasure T A
+0 0 0 0 0
+1 0 0 P
+E
+block~
+Letter: {#Z{x
+~
+E
+letter~
+Letter: {#Z{x
+~
+G none
+G none
+G none
+G none
+#2567
+<kirasocialquestmedal> holy pendant honor~
+{&H{7ol{&y {^P{6endan{^t {8of {#H{3o{#n{3o{#r{x~
+{&H{7ol{&y {^P{6endan{^t {8of {#H{3o{#n{3o{#r{x has been dropped here.{x~
+unknown~
+Magical Material~
+armor AKLTY AC
+33 33 33 32 'none' 0
+91 92 293687 P
+A
+13 40
+A
+18 9
+A
+19 9
+G none
+G none
+G none
+G none
+#2568
+cajun catnip~
+{!C{1a{!j{1u{!n {1Cat{3Nip{x~
+{!C{1a{!j{1u{!n {1Cat{3Nip{x lies here.{x~
+unknown~
+~
+pill 0 A
+4 'haste' 'bless' 'reserved' 'reserved'
+20 4 9000 P
+G none
+G none
+G none
+G none
+#2569
+catnip nip~
+{1Cat{3Nip{x~
+{1Cat{3Nip{x lies here.{x~
+food~
+~
+food 0 A
+BD BD 0 0 0 BD BD
+1 3 97 P
+G none
+G none
+G none
+G none
+#2570
+sunflower flower~
+a {#s{3u{&n{#f{3l{&o{#w{3e{&r{x~
+A {#s{3u{&n{#f{3l{&o{#w{3e{&r{x lies here.{x~
+unknown~
+~
+treasure Y AO
+0 0 0 0 0
+1 1 200 P
+G none
+G none
+G none
+G none
+#2571
+chrysanthemum flower beautiful~
+a beautiful {^chrysan{6themum {%flow{5er{x~
+A beautiful {^chrysan{6themum {%flow{5er{x lies here.~
+unknown~
+~
+treasure Y AO
+0 0 0 0 0
+1 1 200 P
+G none
+G none
+G none
+G none
+#2572
+black coffee~
+{7a {!s{1t{!e{1a{!m{1i{!n{1g {7cup of {8black coffee{x~
+A cup of black coffee is on the ground here getting cold.{x~
+unknown~
+~
+drink 0 AO
+30 30 'coffee' 0
+1 1 2038 P
+G none
+G none
+G none
+G none
+#2573
+tea steaming mug~
+{8a {#steaming {!m{1ug {8of {#t{3ea{x~
+{8A {#steaming {!m{1ug {8of {#t{3ea{x lies here.{x~
+unknown~
+~
+drink 0 AO
+30 30 'tea' 0
+1 1 1690 P
+G none
+G none
+G none
+G none
+#2574
+milk fresh bowl~
+{8a fresh bowl of {&mi{7l{8k{x~
+A fresh bowl of milk lies here.~
+unknown~
+~
+drink 0 A
+30 30 'milk' 0
+1 1 1742 P
+G none
+G none
+G none
+G none
+#2575
+obelisk garland~
+{xa {2g{5a{2r{5l{2a{5n{2d {xpost{x~
+{xA beautifully decorated {2o{5b{2e{5l{2i{5s{2k {xstands tall here.{x~
+unknown~
+~
+trash ABM 0
+0 0 0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2576
+claw idle~
+{@@Idle {!Claw{x~
+{@@Idle {!Claw{x has been dropped here.{x~
+unknown~
+Felar Claw~
+weapon ABY AN
+exotic 2 21 claw 0
+40 30 61445 P
+A
+20 -4
+A
+12 40
+G none
+G none
+G none
+G none
+#2577
+plush paw~
+{xa {5p{%lu{5sh {%p{5a{%w{x~
+A cute {5p{%lu{5sh {%p{5a{%w {xis curled up here.~
+unknown~
+~
+weapon ABK AN
+exotic 3 21 claw 0
+60 12 105073 P
+A
+13 35
+A
+4 1
+A
+2 1
+A
+1 1
+G none
+G none
+G none
+G none
+#2578
+stuffed mouse~
+{xa {#stuffed {&m{5o{1u{&s{8e{x~
+{xA {#stuffed {&m{5o{1u{&s{8e{x has been left here for a felar to find.~
+unknown~
+Catnip Substance~
+food 0 A
+CE CE 0 0 0 CE CE
+1 20 218 P
+G none
+G none
+G none
+G none
+#2579
+piece shredded furniture~
+{xa {&piece {xof {#shredded {%furniture{x~
+{xThe corner {xof some {#shredded {%furniture{x has been dropped here.~
+unknown~
+Crappy Material~
+food 0 AO
+CE CE 0 0 0 CE CE
+1 1 181 P
+G none
+G none
+G none
+G none
+#2580
+royal guardian axe~
+{!R{&o{1y{7a{!l G{&u{1a{7r{!d{&i{1a{7n {3A{&x{#e{x~
+A {!R{&o{1y{7a{!l G{&u{1a{7r{!d{&i{1a{7n {3A{&x{#e{x leaves a huge hole in the ground here.~
+unknown~
+Pure Gold~
+weapon ABK AN
+axe 4 19 slice 0
+60 61 148165 P
+A
+20 -6
+G none
+G none
+G none
+G none
+#2581
+sugar cane catnip style~
+{5S{%ug{5a{%r {bC{Ban{be {8({1Cat{3Nip {&Style{8){x~
+A {5S{%ug{5a{%r {bC{Ban{be {8({1Cat{3Nip {&Style{8){x has been left on the ground here.~
+food~
+~
+food 0 AO
+CE CE 0 0 0 CE CE
+1 3 207 P
+G none
+G none
+G none
+G none
+#2590
+fallen tree~
+{@@a huge, fallen tree{x~
+{@@A huge, fallen tree lies here, covered in {2undergrowth{@@.{x~
+unknown~
+~
+furniture ABM 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK 0 0 BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2591
+rose glass~
+{^a {8glass {@@---{2'{@@--{2,{@@-{!@@{x~
+{^A {8glass {@@---{2'{@@--{2,{@@-{!@@{x rests here on the ground.~
+unknown~
+~
+treasure B AO
+0 0 0 0 0
+1 1 90 P
+G none
+G none
+G none
+G none
+#2592
+iris~
+{8an {%i{8r{%i{8s{x~
+{8An {%i{8r{%i{8s lies here on the ground.{x~
+unknown~
+~
+treasure AB AO
+0 0 0 0 0
+1 1 10 P
+G none
+G none
+G none
+G none
+#2593
+penance secret key~
+{&Se{7c{^re{6t {xof {$P{4e{2n{&a{2n{4c{$e{x~
+The {&Se{7c{^re{6t {xof {$P{4e{2n{&a{2n{4c{$e{x key lies here.{x~
+unknown~
+~
+key D A
+0 0 0 0 0 0 0
+1 1 20 P
+G none
+G none
+G none
+G none
+#2594
+sparkling waterfall~
+{^sp{6ar{&kl{7in{6g w{&at{6er{^f{&a{^l{6l{x~
+A {^sp{6ar{&kl{7in{6g w{&at{6er{^f{&a{^l{6l{x emits a prism.{x~
+unknown~
+~
+trash AM 0
+0 0 0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2595
+glimmering stone~
+{^gl{6im{&me{7ri{7n{6g s{^to{&n{7e{x~
+A smooth, round {^gl{6im{&me{7ri{7n{6g s{^to{&n{7e{x is here embedded in the ground.{x~
+unknown~
+~
+furniture AM 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK CEFGHI CEFGHI BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2596
+moon reflection pool~
+the {&re{7fl{8ec{7ti{&on{x of the {&m{8oo{&n in the {&p{7o{8ol{x~
+An image of the {&m{8oo{&n {xreflects light in the {&p{7o{8ol{x.~
+unknown~
+~
+furniture 0 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz CFI 0 0 BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+0 0 0 P
+G none
+G none
+G none
+G none
+#2597
+water crystal~
+~
+~
+unknown~
+~
+treasure 0 A
+0 0 0 0 0
+1 0 1 P
+G none
+G none
+G none
+G none
+#2598
+uber geekette kitty~
+{%[ {#U{&be{#R{&-{@@G{&ee{@@K{&e{@@TT{&e {^K{&i{^TT{&y{% ]{x~
+An {%[ {#U{&be{#R{&-{@@G{&ee{@@K{&e{@@TT{&e {^K{&i{^TT{&y{% ]{x patch lies here.{x~
+unknown~
+~
+armor AB AR
+300 300 300 300 'none' 0
+93 1 1 P
+G none
+G none
+G none
+G none
+#2599
+green beanbag bag~
+{7a {@@Green {$Bean {%Bag{x~
+{7A {@@Green {$Bean {%Bag{x rests here.{x~
+unknown~
+~
+furniture MTY 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK CDEGH CDEGH BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2600
+couch comfy blue leather~
+{^Kira{6'{^s {4Comfy {$Blue {4L{$eather {4Couch{x~
+{^Kira{6'{^s {4Comfy {$Blue {4L{$eather {4Couch{x lies here.{x~
+unknown~
+~
+furniture MY 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz 0 ABEFG ABEFG BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2601
+comfy blue leather couch~
+{^Kira{6'{^s {4Comfy {$Blue {4L{$eather {4Couch{x~
+{^Kira{6'{^s {4Comfy {$Blue {4L{$eather {4Couch{x rests here.{x~
+unknown~
+~
+furniture MTY 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK CFG CFG BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2602
+wooden bench~
+{7a {8wooden bench{x~
+{7A {8wooden bench{x made for {!t{1w{!o{x is here.{x~
+unknown~
+~
+furniture AM 0
+BCDE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK 0 0 BCDE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2603
+big green boogar~
+{&a {!BIG {2green {3BOOGAR{x~
+{&A {!BIG {2green {3BOOGAR{x jiggles here.{x~
+unknown~
+~
+food 0 AB
+ABCD ABCD 0 0 0 ABCD ABCD
+1 1 151 P
+G none
+G none
+G none
+G none
+#2604
+fried baby~
+{1a {!fr{1ie{!d b{1ab{!y{x~
+{1A {!fr{1ie{!d b{1ab{!y{x lies here.{x~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+1 15 164 P
+G none
+G none
+G none
+G none
+#2605
+hammock~
+{&a hammock{x~
+{&A hammock lies here, swinging softly in the gentle breeze.{x~
+unknown~
+~
+furniture ABMT 0
+BCDE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK DEFG DEFG BCDE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+0 0 0 P
+G none
+G none
+G none
+G none
+#2606
+jacuzzi~
+{8a {^J{6a{%c{5u{$z{4z{%i{x~
+{8A {^J{6a{%c{5u{$z{4z{%i{x is steaming here.{x~
+unknown~
+~
+furniture 0 A
+ADE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz CFIL CFG CFG ADE ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2607
+left paw~
+{^K{6ir{^a{6'{^s {#L{3eft {%P{5a{%w{x~
+A small, cute paw lies here.~
+unknown~
+~
+weapon ABT AN
+exotic 4 24 pierce G
+93 1 63066 P
+G none
+G none
+G none
+G none
+#2608
+grass tuft~
+{7a {2tuft {7of {@@grass{x~
+{7A {2tuft {7of soft {@@grass{x cushions the ground here.{x~
+unknown~
+~
+food 0 A
+BD BD 0 0 0 BD BD
+1 1 91 P
+G none
+G none
+G none
+G none
+#2609
+key love~
+{&Key of {!L{1ov{!e{x~
+{&The Key of {!L{1ov{!e{x {&lies here.{x~
+unknown~
+~
+key ABT AO
+0 0 0 0 0 0 0
+1 1 10 P
+G none
+G none
+G none
+G none
+#2610
+sink water~
+{7a natural sink of {^water{x~
+{7A fresh sink of {^water {xdips into the soft {@@grass{x.{x~
+unknown~
+~
+fountain ABM 0
+-1 -1 'water' 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2611
+beggars cup mug~
+{8A {&Beggar{7'{&s {8Mug{x~
+{8A {&Beggar{7'{&s {8Mug {7lies here empty.{x~
+unknown~
+~
+container ABY AO
+100 0 0 1000 70 0
+40 1 32095 P
+G none
+G none
+G none
+G none
+#2612
+catnip cookie~
+{%Cat{^nip {%Coo{^kie{x~
+{7A {%Cat{^nip {%Coo{^kie{x has been left here.~
+unknown~
+~
+food 0 AO
+ABCD ABCD 0 0 0 ABCD ABCD
+1 1 147 P
+G none
+G none
+G none
+G none
+#2613
+nine lives~
+{$Nine {%Lives{x~
+{$Nine {%Lives{x is left here.{x~
+unknown~
+~
+pill 0 A
+91 'heal' 'heal' 'reserved' 'reserved'
+1 100 0 P
+G none
+G none
+G none
+G none
+#2614
+drunken college student~
+{1D{!runken {$C{4ollege {%S{5tudent{x~
+A drunken college student lies here.~
+nothingness~
+~
+armor TY AJ
+34 34 34 33 'none' 0
+95 96 91 P
+G none
+G none
+G none
+G none
+#2615
+dragonfly choker~
+{7A {2D{4r{1a{2g{4o{1n{2f{4l{1y {^C{6hoker{x~
+A dragonfly choker lies here.{x~
+unknown~
+~
+armor TY AC
+34 34 34 33 'none' 0
+95 96 91 P
+G none
+G none
+G none
+G none
+#2616
+milky eyeball~
+{7A {&M{7i{8l{&k{7y {8Eyeball{x~
+A milky eyeball lies here.{x~
+unknown~
+~
+jewelry TY AB
+BF BF BF AF 0 BF BF
+95 96 91 P
+G none
+G none
+G none
+G none
+#2617
+blood kira bag scrabble letters~
+{^Bag of {#Scrabble Letters{x~
+The {^Bag of {#Scrabble Letters{x has been dropped here.~
+unknown~
+~
+container T AD
+100000 0 0 10000 10 0
+95 0 1126472 P
+G none
+G none
+G none
+G none
+#2618
+bird feathers~
+Tasty {mB{Mird {yF{Yeathers{x~
+Some tasty bird feathers scatter the ground here.~
+unknown~
+~
+armor T AJ
+0 0 0 0 'none' 0
+95 0 4275 P
+G none
+G none
+G none
+G none
+#2619
+roleplaying rp stage great performance medal~
+{8a {%"{^G{6reat {%S{5tage {$P{4erf{$orm{4an{$ce{%" {#m{3edal{x~
+A great stage performance medal has been left here.~
+unknown~
+~
+treasure ABTY A
+0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2620
+cave wonders~
+{^Kira's {8Cave {&of {%W{$O{!N{%D{$E{!R{%S{x~
+{^Kira's {8Cave {&of {%W{$O{!N{%D{$E{!R{%S{x lies here.{x~
+unknown~
+~
+trash TY AE
+0 0 0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2621
+quest blessing~
+{^Kira's {%Q{5uest {&Blessing{x~
+{^Kira's {%Q{5uest {&Blessing{x has been left here.~
+unknown~
+Ribbon~
+treasure ABTY A
+0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2622
+doll blowup~
+{%Blowup {^Kira {&Doll{x~
+{xA blowup Kira doll has been left here.{x~
+unknown~
+Doll~
+trash BTY AD
+0 0 0 0 0 0 0
+1 0 0 P
+E
+doll~
+This doll is inflated and covered in a gooey white substance.
+It has been with too many men, AND women. Be careful of what you
+put into it.
+~
+G none
+G none
+G none
+G none
+#2623
+kiwa combat boot~
+{^Kiwa's {8Combat {%Boot{x~
+{^Kiwa's {8Combat {%Boot{x lies here.~
+unknown~
+~
+treasure TY A
+0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2649
+canopy bed~
+a heart-shaped canopy bed~
+An oversized, heart-shaped canopy bed rests in the center of this bedroom.~
+unknown~
+~
+furniture M 0
+C ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK BEGH BEGH C ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+0 0 0 P
+G none
+G none
+G none
+G none
+#2659
+bed~
+a frilly bed~
+A frilly pink bed with plush pillows rests next to a candle-lit nightstand.~
+unknown~
+~
+furniture M 0
+B ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK CFG CDH B ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+0 0 0 P
+G none
+G none
+G none
+G none
+#2664
+tree life branch limb~
+{3a root of {@@the Tree of Life{x~
+{@@The Tree of Life{2 is etched and pitted with carvings.{x~
+unknown~
+~
+furniture M 0
+CFG CFG BEHK BCEH BCEH CFG CFG
+1 0 0 P
+E
+tree~
+You can depict an etching of the {8Goddess {6Ki{^ra {xin a small
+section of this tree. Complex shapes and symbols are carved
+into its tough bark. This tree was born before time was ever
+counted.
+~
+G none
+G none
+G none
+G none
+#2665
+passport sky key~
+{%P{5assport {&to the {^S{6ky{x~
+{%P{5assport {&to the {^S{6ky{x has been dropped here.~
+unknown~
+~
+key Y AO
+0 0 0 0 0 0 0
+1 1 100 P
+G none
+G none
+G none
+G none
+#2670
+hammock~
+a hammock~
+A hammock swings in the gentle breeze.~
+unknown~
+~
+furniture ABM 0
+C ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK CFG CFG C ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2671
+squishy couch~
+{8the {%s{5q{$u{4i{&s{7h{7y {8couch{x~
+{8A {%s{5q{$u{4i{&s{7h{7y {8couch{x rests {8before a glass coffee table.{x~
+unknown~
+fuz~
+furniture ABM 0
+BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz BEHK DEFG DEFG BEF ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2672
+tiara rose pedals~
+{^T{6i{7a{&r{^a {7of {5R{%o{5se {bP{Be{bda{Bl{bs{x~
+A {^t{6i{7a{&r{^a {7of {5r{%o{5se {bp{Be{bda{Bl{bs{x has been dropped here.~
+unknown~
+~
+armor 0 AE
+0 0 0 0 'none' 0
+95 0 0 P
+G none
+G none
+G none
+G none
+#2673
+fluffy white cloud~
+{^a fluffy {&white {^cloud{x~
+{^A fluffy {&white {^cloud {^floats in midair.{x~
+unknown~
+~
+furniture M 0
+CDFI ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK CDH CDH CDFI ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+1 0 0 P
+G none
+G none
+G none
+G none
+#2674
+bed made fluffballs~
+a {^bed {xof {%fluffballs{x~
+{xA {^bed {xmade of soft {%fluffballs {xfloats idly above the floor.~
+unknown~
+~
+furniture M 0
+CEFGHI ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz EHK DEFG DEFG CEFGHI ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+0 0 0 P
+G none
+G none
+G none
+G none
+#2676
+colorful sign~
+{&A {%C{5o{$l{^o{%r{5f{$u{^l {&Sign{x~
+{&A {%C{5o{$l{^o{%r{5f{$u{^l {&Sign{x is posted here.{x~
+unknown~
+~
+trash MY 0
+0 0 0 0 0 0 0
+1 0 0 P
+E
+sign~
+{&Dear Metropolis,{x
+{&There are many wonderful sights in town, and we want
+{&to give you a complete list of all of them:{x
+ 
+{5L{8a {5M{8a{&i{5s{8o{&n {5d{8e{&s {5C{8h{&a{5t{8s{x
+{$The {%Litter {^Box{x
+{8The {$Common {8Spot {7(East of La Maison des Chats){x
+{$F{4elars{$' {!W{1eapon {8Shop{x
+~
+G none
+G none
+G none
+G none
+#2677
+gazebo key~
+{&White Gazebo {%K{5e{%y{x~
+{7The {&white gazebo {%k{5e{%y {xhas been dropped here.~
+unknown~
+~
+key AY AO
+0 0 0 0 0 0 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#2680
+middle finger~
+{6K{^i{6ra's {#Middle {@@Finger{x~
+{6K{^i{6ra's {#Middle {@@Finger{x has been dropped here.~
+unknown~
+~
+jewelry T AB
+BF BF BF AF 0 BF BF
+95 96 91 P
+G none
+G none
+G none
+G none
+#2681
+cup wtf~
+a nice cup of wtf~
+A refreshing cup of wtf has been cast aside.~
+unknown~
+~
+drink 0 AO
+10 10 'salt water' 0
+1 1 638 P
+G none
+G none
+G none
+G none
+#2682
+multicolored pillow~
+a {rm{Ru{yl{Yt{gi{Gc{co{Cl{bo{Br{me{Md {Gpillow{x~
+A {rm{Ru{yl{Yt{gi{Gc{co{Cl{bo{Br{me{Md {Gpillow{x has been tossed aside.~
+unknown~
+~
+weapon 0 AN
+exotic 1 1 none 0
+1 2 70 P
+G none
+G none
+G none
+G none
+#2683
+voodoo doll~
+a voodoo doll of {CK{Wira{x~
+A voodoo doll of the goddess {CK{Wira{x lies here.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+1 1 5000 P
+G none
+G none
+G none
+G none
+#2684
+icy grillz~
+{CI{Wc{xy {CG{cr{Wi{xl{Cl{cz{x~
+Some icy grillz lie here looking blingful.~
+unknown~
+~
+treasure AB AE
+0 0 0 0 0
+1 1 200 P
+G none
+G none
+G none
+G none
+#2685
+anal abyss~
+her {Ma{mna{Ml {Dabyss{x~
+Kira's panties lie here!~
+unknown~
+~
+container 0 A
+9000 0 0 1000 100 0
+94 0 90380 P
+G none
+G none
+G none
+G none
+#2686
+balls~
+some discrete balls~
+Some balls.~
+unknown~
+~
+trash 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2687
+sparkler lit <kira quest>~
+a {Yl{yi{Yt {Msp{ma{Wrk{ml{Mer{x {W[{MK{CQ{W]{x~
+{W[{MK{mira {CQ{cuest{W]{x A {Yl{yi{Yt {Msp{ma{Wrk{ml{Mer{x crackles and flicks {Ms{mp{War{mk{Ms{x everywhere.~
+unknown~
+~
+treasure ABTcj A
+0 0 0 0 0
+1 0 100 P
+G none
+G none
+G none
+G none
+#2688
+pack snaps <kira quest>~
+a {Wpack{x of {Rs{rn{Wa{rp{Rs{x {W[{MK{CQ{W]{x~
+{W[{MK{mira {CQ{cuest{W]{x A {Wpack{x of unused {Rs{rn{Wa{rp{Rs{x {W[{MK{CQ{W]{x has not yet been discovered.~
+unknown~
+~
+treasure ABTcj A
+0 0 0 0 0
+1 0 100 P
+G none
+G none
+G none
+G none
+#2689
+roman candle <kira quest>~
+a {Dr{Wo{xm{Wa{Dn {Yc{ya{Wnd{yl{Ye{x {W[{MK{CQ{W]{x~
+{W[{MK{mira {CQ{cuest{W]{x A {Wr{wo{Wm{wa{Wn {Yc{yandl{Ye{x is here undiscovered.~
+unknown~
+~
+treasure ABTcj A
+0 0 0 0 0
+1 0 100 P
+G none
+G none
+G none
+G none
+#2690
+sign~
+a {Mq{muest{x sign~
+A {MQ{mUEST{x sign has been posted - read your events!~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#2502
+{^K{6ir{^a{6'{^s {5Ca{%ve{x~
+You are in a cave overlooking {&Felar Grotto{x.  The view is absolutely
+breathtaking.  You hear the sounds of rushing waterfalls and singing birds. 
+The walls of the cave are covered in a light pink satin, and there there is
+a window on the northern wall looking out onto the {BL{ba {BC{boeur {Bd{be {Bl{ba {BM{ber{x.  A
+picture of {&Sadin {xhangs on the western wall with lovely {^crystal {xroses
+encrusting the edges.  There's an oversized couch overflowing with plush
+pillows and blankets.  Silky furs and rugs lie all around the room.  This is
+the place to relax.  Rumor has it that the great {5f{%e{5lar {xherself comes to
+lounge here sometimes.  
+~
+0 DNS inside
+D0
+~
+~
+ABZ 0 2599
+0 0
+D3
+~
+~
+Z 0 2620
+0 0
+D4
+~
+~
+Z 0 2556
+0 0
+D5
+~
+~
+ABZ 2540 2503
+0 0
+S
+#2503
+{7F{&ela{7r {8Grotto {7Entrance {8Gates{x~
+{@@L{2e{@@a{2f{@@y {2vines {xslither around and across the cast-iron gates sprouting
+beautiful {8black{x and {&white{x lotus flowers. Two powerful looking felar
+guards stand watch at the gate, tails flicking ominously. Peeking
+between the grates a bridge can be seen overhead and far into the
+distance {$L{4a {$C{4ouer {$de {4la {$M{4er{x. Just up from here is the Great Felar's 
+cave.
+~
+0 0 inside
+D0
+~
+~
+Z 2540 2504
+0 0
+D4
+~
+~
+ABZ 2540 2502
+0 0
+S
+#2504
+{&Just {7Beyond {&the {8Great Iron Gates{x~
+You've taken one step north of the entrance to the grotto and a
+subtle sense of light and purity washes over you as if cleansing
+your soul of impurities and evil. A grassy path is just ahead of
+you, well lit and welcoming. The sky is cloudless from straight
+overhead. Every day in the Grotto seems like a {%perfect {^day{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2505
+0 0
+D1
+~
+~
+Z 0 2571
+0 0
+D2
+~
+~
+Z 0 2503
+0 0
+S
+#2505
+{#Brightly {3Lit {2G{@@rassy {4P{$a{4t{$h{x~
+This bright path leads further into the grotto. The air is brisk
+and chilly like the morning air. Flowers align the path and tiny
+paw prints are pressed vaguely into the grass here. The sun shines
+down on you from overhead in patches, as the trees hide and reveal
+its {3light{x. All around you lies the thick forests of {&Penance{x and {!Exile{x, 
+the entrance is somewhere north.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2506
+0 0
+D2
+~
+~
+Z 0 2504
+0 0
+S
+#2506
+{#Brightly {3Lit {2G{@@rassy {4P{$a{4t{$h{x~
+This bright path leads further into the grotto. The air is brisk
+and chilly like the morning air. Flowers align the path and tiny
+paw prints are pressed vaguely into the grass here. The sun shines
+down on you from overhead in patches, as the trees hide and reveal
+its {#light{x. All around you lies the thick forests of {&Reconciliation{x
+and {!Exile{x. The entrances are somewhere north.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2507
+0 0
+D2
+~
+~
+Z 0 2505
+0 0
+S
+#2507
+{8The {4W{$atering {8H{&o{8l{&e{x~
+Between the {8evil {2forest {xand {7neutral{x forest is this watering
+hole you see here. Its surrounded by well trimmed spruce and
+budding flowers. In spots there are openings for animals to
+refresh themselves with the clean water. {%D{5r{%a{5g{%o{5n{&f{7l{&i{7e{&s{x buzz
+pleasantly at the edge of the hole. Just ahead is the {&co{7ve{x.
+~
+0 0 field
+D0
+~
+~
+Z 0 2510
+0 0
+D1
+~
+~
+Z 0 2508
+0 0
+D2
+~
+~
+Z 0 2506
+0 0
+D3
+~
+~
+Z 0 2509
+0 0
+S
+#2508
+{&Eastern {2Forest {7of {&Rec{7onci{8liat{&ion{x~
+Thin {&Victorian {xgates are showered with beautiful {1rose {xbuds and
+plush, flowing {2vines{x. Every direction you look there are flowers
+and beautiful spruce. This {2forest {xgives off an aura that makes you
+feel like at one point in its existence, it carried a great burden.
+There is a great story behind this {2forest{x, as there is to the {2forest{x
+to the west. Be careful of what you say and do here, but feel free to
+make yourself at home as well, for you are greatly welcomed.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2590
+0 0
+D3
+~
+~
+Z 0 2507
+0 0
+S
+#2509
+{8Western {2Forest {8of {!Exile{x~
+Rusted {1bronze {xgates allow your entrance if you can cut through the
+thick vines and brushwood that has made its way into your path as
+to make your journey far more difficult.  Dead plants, dead trees,
+dead undergrowth, the stench of stuffy air, and saddened, bitter
+cries are all around you.  Upon entering, watch your step, for the
+things you take as being dead, are only watching your every move,
+in hopes to pull you down into the underbrush.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2507
+0 0
+D3
+~
+~
+Z 0 2602
+0 0
+S
+#2510
+{#Abnormally {&Tall {%Cat {5Tails{x~
+It looks as though these cat tails were planted by farmers.
+They are so carefully spread apart from each other by about
+a foot for rows and rows and are as tall as the eye can see
+that you wonder what kind of water they soak up with the
+powerful roots. The roots go down for a dozen feet to keep
+them tightly snug in the ground. Make your way into the next
+set of {%cat {5tails{x and beware the creatures that make this place
+their home. They're friendly yet jumpy and don't allow others
+to invade their precious personal space.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2511
+0 0
+D2
+~
+~
+Z 0 2507
+0 0
+S
+#2511
+{6Next {&Row {7of {%Cat {5Tails{x~
+This row of cat tails isn't much different from the last,
+except for one slight change in detail. They are no longer
+the usual {3brown {xcat tails, but are a strange {8glossy grey{x,
+almost transparent. You can see yourself in them, but as
+if looking into a bent metal, your appearance is {!w{&a{!r{&p{!e{&d{x.
+There is a quiet hissing that slithers by your ear and up
+a {%cat {5tail{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2512
+0 0
+D2
+~
+~
+Z 0 2510
+0 0
+S
+#2512
+{@@Thinning {%Cat {5Tails{x~
+The cat tails are starting to thin out here. A clear vision
+of the ocean sprouts before your eyes. Its almost cinematic
+the way the ocean moves, as if it isn't real. All around you
+are cat tails of a rich green. These cat tails, if you haven't
+noticed, are magical. They morph into the colors of the creatures
+that surround them like a chameleon's way of {2c{@@a{&m{@@o{2u{@@f{&l{@@a{2g{@@e{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2514
+0 0
+D2
+~
+~
+Z 0 2511
+0 0
+S
+#2513
+{$L{4a {$C{4oeur {$de {4la {$M{4er {2Bri{@@dge{x~
+Made out of cobblestone and expensive, solid oak, this bridge overlooks
+La Couer de la Mer. It extends as far as the eye allows. Looking into the
+distance, passerby's can be seen, coming into view. The fog and mist are
+heavily brewing around you, as if you are a sponge of sorts. Small carriages
+are being pulled by horses and strong, busty felines, full of delicious
+catnip entrees and fresh barrels of creamy milk.
+asave changed
+~
+0 0 inside
+D0
+~
+~
+Z 0 2517
+0 0
+D5
+~
+~
+Z 0 2514
+0 0
+S
+#2514
+{$La {$Mer {&Co{7ve{x~
+How romantic! The sand sticks under your feet gently and a quiet
+undertone of waves thrashing is heard not far away. Take one more
+step north to indulge a refreshing swim in the famous {$La Mer{x. Off
+in the distance is a wafting hazy cloud, it travels above the bridge
+but mostly just above the water. A wavering flag can be seen poking
+out above it all.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2524
+0 0
+D1
+~
+~
+ABZ 0 2515
+0 0
+D2
+~
+~
+Z 0 2512
+0 0
+D3
+~
+~
+Z 0 2516
+0 0
+D4
+~
+~
+Z 0 2513
+0 0
+S
+#2515
+{&Und{7er {8The {3Sta{#rs{x~
+*                            .                .         .          +
+ .  .         *     + . .        _|_      *        .   +      *   .         .
+       .  +       .         .     |   +     .  .      .    .     .    +   {3@@{x
++   .         . +   {3.{x    .  *   .    .        +    *          .     .         .
+          .               .             .       .         .             .    .
+        *   +        .+ .  *.     {3+{x     +  .  *    .   ..+  *     .    *    .
+{1+{x  .   .      _|_      .      *      .     .    .           .     +  .     .
+*.      +      |     .      ..  .      *       .   . ..*      +        .     *
+.       .      .+       .     . .         *      ..      +     ..       .   .
+    +                    .  +             +.      .           .    *        .
+ .           *.   *   +      ..    *   . .      *        +       .      .     {3.{x
+*      +                   .     .            .     ..      *      .      +    *
+   .          .   .     *    {#_|_{x   +        +     *       .   @@      .     .
+     ..   *        +   .      {#|{x  .    .       .        +            +     *  .
+.       .      .+       .     . .         *      ..      +     ..      {1 .{x   .
+~
+0 0 field
+D3
+~
+~
+ABZ 0 2514
+0 0
+S
+#2516
+{&Under the {#Beech Tree{x~
+A calm breeze passes through the leaves of this beech tree.
+This thin-trunked tree offers a gentle relaxing spot for the
+wandering travellers who come through the {&Felar Grotto{x.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2514
+0 0
+S
+#2517
+{$A{4long {4t{$he {$B{4ridge{x~
+Made out of cobblestone and expensive, solid oak, this bridge overlooks
+La Couer de la Mer. It extends as far as the eye allows. Looking into the
+distance, passerby's can be seen, coming into view. The fog and mist are
+heavily brewing around you, as if you are a sponge of sorts. Small carriages
+are being pulled by horses and strong, busty felines, full of delicious
+catnip entrees and fresh barrels of creamy milk.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2518
+0 0
+D2
+~
+~
+Z 0 2513
+0 0
+S
+#2518
+{$A{4long {4t{$he {$B{4ridge{x~
+Made out of cobblestone and expensive, solid oak, this bridge overlooks
+La Couer de la Mer. It extends as far as the eye allows. Looking into the
+distance, passerby's can be seen, coming into view. The fog and mist are
+heavily brewing around you, as if you are a sponge of sorts. Small carriages
+are being pulled by horses and strong, busty felines, full of delicious
+catnip entrees and fresh barrels of creamy milk.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2519
+0 0
+D2
+~
+~
+Z 0 2517
+0 0
+S
+#2519
+{$A{4long {4t{$he {$B{4ridge{x~
+Fairies, sprites and little fays bounce and zip passed your ears as you
+make your way along the bridge, leaving trails of shimmering dust in the
+air. Mischievous, young kittens are hurling themselves off the side of
+the bridge without a care, making little plinks and splashes down below.
+The fish don't seem to be bothered by those who dwell in the forest.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2520
+0 0
+D2
+~
+~
+Z 0 2518
+0 0
+S
+#2520
+{$A{4long {4t{$he {$B{4ridge{x~
+Fairies, sprites and little fays bounce and zip passed your ears as you
+make your way along the bridge, leaving trails of shimmering dust in the
+air. Mischievous, young kittens are hurling themselves off the side of
+the bridge without a care, making little plinks and splashes down below.
+The fish don't seem to be bothered by those who dwell in the forest.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2521
+0 0
+D2
+~
+~
+Z 0 2519
+0 0
+S
+#2521
+{$B{4ridge {&E{7pi{&c{x~
+Claw marks, and carvings of hearts and initials are engraved into the
+wooden railing along the edge of the bridge. Little paw prints are pressed
+against the sides of the bridge in all sorts of paint colors. As the bridge
+authorities try to keep up the standards to the bridge, more and more artwork
+seems to mysteriously appear on the cobblestone and oak. Over time, the art
+has become a scenic pleasure, and many travelers come just to indulge in its
+beauty and epic.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2522
+0 0
+D2
+~
+~
+Z 0 2520
+0 0
+S
+#2522
+{&Vi{7ew {&Poi{7nt{x~
+What a beautiful view, the {1heart {xof the {4se{4a {xis in the palm of
+your hand. For leagues and leagues all you can see is the vast
+{$bl{4ue{x. Small boats disappear just under the bridge with content
+felars resting in their vessels, most of them snatching fish
+from just below the surface of the water. A translucent mist
+surrounds you and sinks into the pores of your skin. On the west
+side of the bridge a quivering flag is quite noticeable. It isn't 
+engulfed in the {8haze{x like everything else around you.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2523
+0 0
+D2
+~
+~
+Z 0 2521
+0 0
+S
+#2523
+{$B{4ridge {&E{7pi{&c{x~
+Claw marks, and carvings of hearts and initials are engraved into the
+wooden railing along the edge of the bridge. Little paw prints are pressed
+against the sides of the bridge in all sorts of paint colors. As the bridge
+authorities try to keep up the standards to the bridge, more and more artwork
+seems to mysteriously appear on the cobblestone and oak. Over time, the art
+has become a scenic pleasure, and many travelers come just to indulge in its
+beauty and epic. Further down the bridge, a metropolis can be seen.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2553
+0 0
+D2
+~
+~
+Z 0 2522
+0 0
+S
+#2524
+{@@Foot {&Deep {$Water{x~
+The water goes just up to your shins and the {3sand{x is
+clearly visible under your feet. Innocent catfish and
+dogfish are swimming around your ankles in a friendly
+sort of manner and tiny shells are poking out from the
+grainy {3sand{x. A little farther off into the water is a
+steep {8drop-off{x.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2532
+0 0
+D2
+~
+~
+Z 0 2514
+0 0
+S
+#2525
+{8S{&e{8c{&r{8e{&t {#K{3no{#t {8H{&o{8l{&e{x~
+It looks as though a felar found this knot hole to store
+his dinner in. Mice are hiding in the corners of the {2tree{x
+and some are too fat to move. Maybe the owner of this hole
+is trying to fatten them up for a feast. There are carvings
+on the walls of the past wars between {8Western{x and {&Eastern{x
+Felar Forest, and a family tree of the King who dwells on
+an {2Island{x of {$La Mer{x.
+~
+0 0 inside
+D4
+~
+~
+Z 0 2526
+0 0
+S
+#2526
+{#T{&w{#i{&s{#t{&i{#n{&g {!Higher {&in the {2Tree{x~
+This shelf of wood in the {2tree{x is warm. It's a place where
+cats come to sleep and rest their tired bodies after whatever
+{!m{&i{!s{&c{!h{&i{!e{&f{x they've been up to. It's {8dark{x except for a single
+candle emitting a dim flickering {!f{#l{&a{#m{!e{x. You find it easy to
+relax in this little room as there are fresh bowls of {&mi{7lk{x
+lying around and mice just below. The carvings on these walls
+speak of the ancient stories of the {%K{#a{%t {&Ki{&ng{8d{&om{x.
+~
+0 0 inside
+D4
+~
+~
+Z 0 2527
+0 0
+D5
+~
+~
+Z 0 2525
+0 0
+S
+#2527
+{#T{&w{#i{&s{#t{&i{#n{&g {8Even {!Higher{x~
+{^U{6p{x, {%u{5p{x, {$u{4p{x, {xthis tall {2tree {xtwists. The shelves are warm and
+welcoming. Cats are drinking from saucers and resting
+their little bodies in the corners of the tree. It is dim and
+comforting up in these ledges. There is an undertone and
+rumbling of deep-throated {%pu{5rrs{x.
+~
+0 0 inside
+D4
+~
+~
+Z 0 2528
+0 0
+D5
+~
+~
+Z 0 2526
+0 0
+S
+#2528
+{&A {^Snug {%Shelf{x~
+Small, cozy looking {6k{^itten{6s {xare curled up into little
+tight balls in this shelf. They are as cute as a button.
+little balls of {3y{#e{3ll{#o{3w {xstring are entangled in their
+fur, and shredded pieces of material can be found
+in bits and pieces around the room.
+~
+0 0 inside
+D4
+~
+~
+Z 0 2529
+0 0
+D5
+~
+~
+Z 0 2527
+0 0
+S
+#2529
+Up in the Top of the Tree~
+A {%t{5w{%i{5s{%t{5y {%slide{x made out of smooth wood is sent whirling
+{8down{x, {8down{x, {8down{x, way beyond some {2trees{x. A small family of
+{6kittens{x have made this shelf in the tree their own. As
+you look down the slide, your stomach gets rather {5q{3u{5e{3a{5s{3y{x,
+as it is a long drop down.
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 2530
+0 0
+D3
+~
+~
+ABZ 0 2531
+0 0
+D5
+~
+~
+Z 0 2528
+0 0
+S
+#2530
+{&A {^T{6i{^ny {%C{5ubb{%y {7H{8o{7l{8e{x~
+Pictures of {&h{7a{&pp{7y{x, content families are placed neatly
+on the walls. A small clock is ticking quietly in the
+back ground, and the scattering feet of mice can be
+heard in a small box in the corner of the room. They
+are saving dinner for later.
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 2529
+0 0
+S
+#2531
+{&A {^T{6i{^ny {%C{5ubb{%y {7H{8o{7l{8e{x~
+Pictures of {&h{7a{&pp{7y{x, content families are placed neatly
+on the walls. A small clock is ticking quietly in the
+back ground, and the scattering feet of mice can be
+heard in a small box in the corner of the room. They
+are saving dinner for later.
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 2529
+0 0
+S
+#2532
+{8Steep {&Drop{7-{&off {8in {$La Mer{x~
+The water is no longer light blue, but a deep {8black{x.
+The mist ahead is coming closer and the color {2green{x
+is coming into view. Larger fish swim back and forth
+menacingly, chomping on minnows that get in their way.
+There is a floating buoy that has a simple warning
+printed on it: {!SWIM FURTHER FROM THIS POINT AT YOUR{x
+{!OWN RISK{x.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2533
+0 0
+D2
+~
+~
+Z 0 2524
+0 0
+S
+#2533
+{8Gigantic {&W{7h{&i{7r{&l {$Pool{x~
+A menacing whirl pool is sucking down every moving thing
+in its wake. Soon you will be down at its core if you aren't
+careful of where you swim. Surrounding this in slow circling
+are a gang of mischievous {^s{&h{^a{&r{^k{&s{x with only their sharp fins
+penetrating the water's surface.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2534
+0 0
+D1
+~
+~
+Z 0 2548
+0 0
+D2
+~
+~
+Z 0 2532
+0 0
+D3
+~
+~
+Z 0 2539
+0 0
+S
+#2534
+{&Outer Rim {7of the {8Gigantic {&W{7h{&i{7r{&l {$Pool{x~
+A menacing whirl pool is sucking down every moving thing
+in its wake. Soon you will be down at its core if you aren't
+careful of where you swim. Surrounding this in slow circling
+are a gang of mischievous {^s{&h{^a{&r{^k{&s{x with only their sharp fins
+penetrating the water's surface.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2535
+0 0
+D1
+~
+~
+Z 0 2540
+0 0
+D2
+~
+~
+Z 0 2533
+0 0
+D3
+~
+~
+Z 0 2541
+0 0
+S
+#2535
+{&Gen{7tle {$Wav{4es{x~
+The slurping and whirling of the {$pool{x behind is still
+menacing, but the {$w{4a{$v{4e{$s{x here and ahead are {&calm{x and
+gentle, willing to let you pass peacefully. Calm swaying
+of boats and humming of passerby's fill the air.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2536
+0 0
+D1
+~
+~
+Z 0 2542
+0 0
+D2
+~
+~
+Z 0 2534
+0 0
+D3
+~
+~
+Z 0 2543
+0 0
+S
+#2536
+{@@F{2ishes {4H{$angout{x~
+This boat is laden with chests of glimmering {@@fish {xscales and
+beautiful antiques that Mr. Goodins has saved over the years.
+Several cats are drooling over the merchandise and spending
+handfuls of money on the goods. This is the place to be if you
+are a cat that enjoys their fancy looking {%j{5e{&w{7e{&l{5r{%y{x.
+~
+0 0 noswim
+D0
+~
+~
+Z 0 2537
+0 0
+D1
+~
+~
+Z 0 2544
+0 0
+D2
+~
+~
+Z 0 2535
+0 0
+D3
+~
+~
+Z 0 2545
+0 0
+S
+#2537
+{!Dead {8Silent {$Water{x~
+For once in La Mer, there is no sound of waves nor boats
+passing. It is an eerie sort of silence, for it feels as
+if you are being followed or are completely alone in the
+world. There must be a reason for this. Keep heading north
+to find some {#dry {@@land{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2549
+0 0
+D1
+~
+~
+Z 0 2546
+0 0
+D2
+~
+~
+Z 0 2536
+0 0
+D3
+~
+~
+Z 0 2547
+0 0
+S
+#2538
+~
+~
+0 0 inside
+S
+#2539
+{8Gigantic {&W{7h{&i{7r{&l {$Pool {8Rim{x~
+A menacing whirl pool is sucking down every moving thing
+in its wake. Soon you will be down at its core if you aren't
+careful of where you swim. Surrounding this in slow circling
+are a gang of mischievous {^s{&h{^a{&r{^k{&s{x with only their sharp fins
+penetrating the water's surface.
+~
+0 0 swim
+D1
+~
+~
+Z 0 2533
+0 0
+S
+#2540
+{!C{#h{!o{#p{!p{#y {$Waves{x~
+These waves seem to be undergoing turbulence from the
+whirl pool not too far away. Ducks are floating up and
+down, gently gliding from wake to wake. It is more
+difficult trying to keep your head above water than
+the other subtle areas of the {$ocean{x.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2542
+0 0
+D2
+~
+~
+Z 0 2548
+0 0
+D3
+~
+~
+Z 0 2534
+0 0
+S
+#2541
+{!C{#h{!o{#p{!p{#y {$Waves{x~
+These waves seem to be undergoing turbulence from the
+whirl pool not too far away. Ducks are floating up and
+down, gently gliding from wake to wake. It is more
+difficult trying to keep your head above water than
+the other subtle areas of the {$ocean{x.
+~
+0 0 swim
+D1
+~
+~
+Z 0 2534
+0 0
+S
+#2542
+{&Gen{7tle {$Wav{4es{x~
+The slurping and whirling of the {$pool{x behind is still
+menacing, but the {$w{4a{$v{4e{$s{x here and ahead are {&calm{x and
+gentle, willing to let you pass peacefully. Calm swaying
+of boats and humming of passerby's fill the air.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2544
+0 0
+D2
+~
+~
+Z 0 2540
+0 0
+D3
+~
+~
+Z 0 2535
+0 0
+S
+#2543
+{&Gen{7tle {$Wav{4es{x~
+The slurping and whirling of the {$pool{x behind is still
+menacing, but the {$w{4a{$v{4e{$s{x here and ahead are {&calm{x and
+gentle, willing to let you pass peacefully. Calm swaying
+of boats and humming of passerby's fill the air.
+~
+0 0 swim
+D1
+~
+~
+Z 0 2535
+0 0
+S
+#2544
+{8Dark {4Blue {$Water{x~
+The {8darkness{x of the water chills your bones at the thought
+of how deep it is. You can't see your hand when you dip it
+just below the surface, so beware of what you're getting
+yourself into. Only large sea creatures roam beneath you here.
+~
+0 0 swim
+D2
+~
+~
+Z 0 2542
+0 0
+D3
+~
+~
+Z 0 2536
+0 0
+S
+#2545
+{&S{7h{8i{7m{&m{7e{8r{7i{&n{7g {&in the {#Sun{x~
+This little island is about 10 feet around. It is a nice
+snug place for crabs and lobsters to bath in the warm
+heat of the {#sun{x. The water sparkles and shimmers like
+a broken {&mi{8rr{&or{x, shining patches of light all across
+your body.
+~
+0 0 noswim
+D1
+~
+~
+Z 0 2536
+0 0
+S
+#2546
+{8Quiet {!Zone {&in the {$Water{x~
+For once in La Mer, there is no sound of waves nor boats
+passing. It is an eerie sort of silence, for it feels as
+if you are being followed or are completely alone in the
+world. There must be a reason for this. Nearby you shall
+find some {#dry {@@land{x.
+~
+0 0 inside
+D3
+~
+~
+Z 0 2537
+0 0
+S
+#2547
+{8Quiet {!Zone {&in the {$Water{x~
+For once in La Mer, there is no sound of waves nor boats
+passing. It is an eerie sort of silence, for it feels as
+if you are being followed or are completely alone in the
+world. There must be a reason for this. Nearby you shall
+find some {#dry {@@land{x.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2537
+0 0
+S
+#2548
+{8Gigantic {&W{7h{&i{7r{&l {$Pool{x {8Rim{x~
+A menacing whirl pool is sucking down every moving thing
+in its wake. Soon you will be down at its core if you aren't
+careful of where you swim. Surrounding this in slow circling
+are a gang of mischievous {^s{&h{^a{&r{^k{&s{x with only their sharp fins
+penetrating the water's surface.
+~
+0 0 swim
+D0
+~
+~
+Z 0 2540
+0 0
+D3
+~
+~
+Z 0 2533
+0 0
+S
+#2549
+{$Proving {^Your {&Ho{7n{8or{x~
+This is where the sea's waves crash against the shores of
+the island. {%B{#e{&a{#u{%t{#i{&f{#u{%l{x conch shells and flowers float on the
+surface of the water here. Don't be fooled though, only those
+who are pure of heart are wanted beyond this point, and the
+creatures down below seem fit to keep it that way.
+~
+0 0 inside
+D2
+~
+~
+Z 0 2537
+0 0
+S
+#2550
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2551
+0 0
+D2
+~
+~
+Z 0 2552
+0 0
+S
+#2551
+The King's Lobby~
+The luster of the floor is so polished that you can see your reflection
+in its midst. Glimmering diamond chandeliers hang on thin, decorated
+harness, giving the room a dim, yet romantic and soft lighting. In an
+undertone, a concord arpeggio is being boosted into the pleasant air.
+Classical garments are being flaunted by royalty and those who come
+to pay salutation and thanks to the King.
+~
+0 0 inside
+D2
+~
+~
+Z 0 2550
+0 0
+S
+#2552
+{&Fresh {2Green {@@G{2r{@@a{2s{@@s {8Upon {&King {%K{#a{%t{&'{#s {6Is{^le{x~
+You've proven yourself honorable for passing the great squid,
+but many more guards surround this area for the protection
+of {&King {%K{#a{%t{x. The {2grass{x is plush and relieving beneath your
+traveling feet. It's nice to finally set foot upon dry land. A 
+beautiful place this island is. There are {5flowers {xand {2trees{x and
+{@@v{2i{@@n{2e{@@s{x covering the land. Shells are packed against the {2grass{x and
+a welcoming feeling floats in the air, but you get the feeling
+that you should not step out of place either.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2550
+0 0
+S
+#2553
+{#F{3urthe{#r {$A{4long {4t{$he {$B{4ridge{x~
+Fairies, sprites and little fays bounce and zip passed your ears as you
+make your way along the bridge, leaving trails of shimmering dust in the
+air. Mischievous, young kittens are hurling themselves off the side of
+the bridge without a care, making little plinks and splashes down below.
+The fish don't seem to be bothered by those who dwell in the forest.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2554
+0 0
+D2
+~
+~
+Z 0 2523
+0 0
+S
+#2554
+{$C{@@o{$m{@@i{$n{@@g {&to a {8C{7l{8o{7s{8e{x~
+The bridge is starting to come to a close. It opens up at the mouth
+into a sandy area with small pebbles. Sand is scattered around lightly
+at your feet, and begins to grow deep and more vast as you continue
+northward. The sun beats down on your back, and the heat can be seen
+as it rises from the streets just ahead.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2555
+0 0
+D2
+~
+~
+Z 0 2553
+0 0
+S
+#2555
+{^R{6ock{^s {&and {#S{3an{#d{x~
+Ebony rocks, tiny twisted shells, and clumps of wet sand
+disperse across the ground. Happy felars pounce back and
+forth, kicking sand high into the air. Nearby, wagons are
+being loaded with boxes of {%cat{^nip{x, balls of {#y{3e{#l{3l{#o{3w {xstring
+and other loved toys amongst the cats.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2557
+0 0
+D2
+~
+~
+Z 0 2554
+0 0
+S
+#2556
+The Loft~
+A quiet and peaceful room rests here for those who are wounded
+and weary.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2502
+0 0
+S
+#2557
+Along the Sand~
+Beautiful conche shells, spiral shells, and tropical mollusks can be
+found lying along the beach here. Fishing poles and buckets full of
+delicious fish align the sand next to striped chairs, each occupied by
+a lazy feline or forest creature, bathing in the warm rays of the {#s{3un{x.
+Cheerful market music can be heard flowing through the air from
+just ahead.
+~
+0 0 desert
+D2
+~
+~
+Z 0 2555
+0 0
+D5
+~
+~
+Z 0 2558
+0 0
+S
+#2558
+A Bustling Cobblestone Street~
+Wagons and workers are bustling along this cobblestone road.
+Cheerful flutes and tambourines can be heard just up the street,
+and beautiful dancers twirling upon rugs and decorative mats
+are just inside the city gates. There are rugs along these roads
+with felars selling trinkets and toys.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2559
+0 0
+D4
+~
+~
+Z 0 2557
+0 0
+S
+#2559
+A Bustling Cobblestone Street~
+Wagons and workers are bustling along this cobblestone road.
+Cheerful flutes and tambourines can be heard just up the street,
+and beautiful dancers twirling upon rugs and decorative mats
+are just inside the city gates. There are rugs along these roads
+with felars selling trinkets and toys.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2560
+0 0
+D3
+~
+~
+Z 0 2558
+0 0
+S
+#2560
+{%F{5ela{%r {^Met{6ro{^po{6li{^s {%E{5xtraordinar{%e{x~
+Beautiful golden gates are open here, waiting for your arrival.
+Ribbons and confetti are being showered from at the tops of the
+gate lookout.  The flutes and tambourines are becoming quite
+loud, and it is hard to hear above all the excitement. Traders,
+entertainers, and artists align the streets, along with felars from
+all over the world.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2561
+0 0
+D3
+~
+~
+Z 0 2559
+0 0
+S
+#2561
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2562
+0 0
+D3
+~
+~
+Z 0 2560
+0 0
+S
+#2562
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2563
+0 0
+D2
+~
+~
+Z 0 2561
+0 0
+S
+#2563
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2564
+0 0
+D2
+~
+~
+Z 0 2562
+0 0
+S
+#2564
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2567
+0 0
+D2
+~
+~
+Z 0 2563
+0 0
+S
+#2567
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2568
+0 0
+D2
+~
+~
+Z 0 2564
+0 0
+S
+#2568
+{&A {^Sign {%Post{x~
+Standing here is a decorated sign with all of the shops in town.
+Further north, small huts and tents can be seen. Wafting the
+delicious scents to your nose, your attention is seized to the
+east. The famous Coffee House, La Maison des Chats, stands
+in bright colors, quite welcoming to all.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2575
+0 0
+D1
+~
+~
+Z 0 2569
+0 0
+D2
+~
+~
+Z 0 2567
+0 0
+S
+#2569
+{5L{8a {5M{8a{&i{5s{8o{&n {5d{8e{&s {5C{8h{&a{5t{8s{x~
+The {1s{3p{7i{3c{1e{3s{x are strong to your nostrils in this snug shop. The walls
+have happy tapestries of different cat delicacies. A shiny glass 
+counter displays a whole selection of intricate toys and foods.
+A cat is lying on the counter nonchalantly gazing at you, hoping
+for another purchase from a buyer. Carefully carved and adorned
+pillars stand in the corner, {2g{5a{2r{5l{2a{5n{2d{x twisting around them festively.
+~
+0 DKS inside
+D1
+~
+~
+Z 0 2570
+0 0
+D3
+~
+~
+Z 0 2568
+0 0
+S
+#2570
+{8The {$Common {8Spot{x~
+{8Chairs are assembled around glass coffee tables, and fuzzy cup holders{x
+{8are strewn across each. Intelligent looking felines are conversing with{x
+{8one another, over a cup of steaming tea and mocha. Some are zonked{x
+{8or resting comfortably on the {%c{5o{$l{4o{&r{7f{^u{6l{8, cushioned couches, taking heed{x
+{8in the beautiful tapestries and artwork on the walls.{x
+~
+0 0 inside
+D3
+~
+~
+Z 0 2569
+0 0
+S
+#2571
+{%L{&a {%M{&a{8i{%s{&o{8n{%s {%d{&e{8s {%F{&l{8e{%u{&r{8s{x~
+Lovely smells fill the air and tiny petals lay scattered on the ground. 
+There is a glass case full of beautiful flowers.  Many of them are in-season
+ones, and many that are out-of-season or hard to find.  Fleuranna is highly
+trained in her craft, and knows how to cut a rose in hundreds of different
+ways.  
+~
+0 D inside
+D3
+~
+~
+Z 0 2504
+0 0
+S
+#2572
+{$F{4elars{$' {!W{1eapon {8Shop{x~
+Large claws, small claws, any types of paw claws, all align the
+walls in a disorderly fashion. Delilah has a small metal file she
+is scraping at her piercing claws, and as she does so, sparks fly
+up in the air. It makes you cringe, but she doesn't seem to mind.
+~
+0 0 inside
+D3
+~
+~
+Z 0 2573
+0 0
+S
+#2573
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2577
+0 0
+D1
+~
+~
+Z 0 2572
+0 0
+D2
+~
+~
+Z 0 2574
+0 0
+D3
+~
+~
+Z 0 2576
+0 0
+S
+#2574
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2573
+0 0
+D2
+~
+~
+Z 0 2575
+0 0
+S
+#2575
+{&Into {^the {%City{x~
+What a beautiful city this is! It is by far the most colorful
+metropolis in all of Thera. Just to the north are shops full of
+trinkets and toys, and a coffee house with the most delicious
+catnip a felar has ever tasted. There are signs along the city
+walls that tell about the most amazing balls and banquets
+the King throws every night.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2574
+0 0
+D2
+~
+~
+Z 0 2568
+0 0
+S
+#2576
+{$The {%Litter {^Box{x~
+There are excited young felars clobbering the floors here,
+tackling other children, and staring lustfully at all the toys
+aligned on the shelves. Yellow balls of string, all kinds of
+colorful scratching posts, feather dusters, and delicious looking
+stuffed mice are what they are begging their parents for. {%K{5rystani{%a{x
+is smiling playfully at you from in the corner of the room. Her
+pink, summer dress poofed out about her.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2573
+0 0
+S
+#2577
+{&Nearing {#Golden {3G{#a{&t{#e{7s{x~
+Trumpeters arrange in two rows with large ribbons hanging from
+their instruments here. Felars can be seen with a pad of thick
+paper and a paintbrush, painting away the beauty of the golden
+gates just ahead.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2578
+0 0
+D2
+~
+~
+Z 0 2573
+0 0
+S
+#2578
+{&Nearing {#Golden {3G{#a{&t{#e{7s{x~
+Trumpeters arrange in two rows with large ribbons hanging from
+their instruments here. Felars can be seen with a pad of thick
+paper and a paintbrush, painting away the beauty of the golden
+gates just ahead.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2579
+0 0
+D2
+~
+~
+Z 0 2577
+0 0
+S
+#2579
+{%G{5a{^z{6i{&n{7g {&Upon {8the {#Golden {3G{#a{&t{#e{7s{x~
+Traveling far and deep into the Felar Grotto and through
+the streets of the Metropolis has led you finally to the
+elegant gates of Kat's Kingdom. Two beefy looking felars
+stand guard these gates holding golden axes. The gates
+are covered ornately in large flowers: {1r{!os{1es{!, {#sun{3flo{#we{3rs{x,
+and the King's personal favorite, the {^ch{6ry{^sa{&nt{^he{6mu{6m{x. Cards,
+plushies, and gifts of praise have been scattered to the
+left and right of the gates.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2580
+0 0
+D2
+~
+~
+Z 0 2578
+0 0
+S
+#2580
+{1I{!n{3s{#i{1d{!e {7the {3G{#a{&t{#e{7s {8of {%K{&a{%t{&'{%s {^K{6i{&n{7g{^d{6o{&m{x~
+Trumpeters welcome you warmly to the Kingdom of the {%K{&a{%t{x
+family. A castle with such grandeur pierces the underside
+of the clouds, reaching so far into the sky one must
+squint to see the balconies and archways built into its
+majesty. Long {#golden {xpoles, resembling that of trumpets,
+reach out from the sides of the castle, each with an
+extraordinarily vibrant flag cast upon the ends. Brightly
+painted white walls shoot off into the never-ending zen.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2581
+0 0
+D2
+~
+~
+Z 0 2579
+0 0
+S
+#2581
+{5F{%i{5n{%e {&M{7a{#r{8b{&l{7e {8Walkway{x~
+Aligning the path of polished marble stone are sweet-smelling
+{^chrysan{6themum {%flow{5ers {xand {&white lilies{x. Looking around the
+castle patio, there are gardens by the plenty, being watered
+and maintained by the exterior workers of the King.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2582
+0 0
+D2
+~
+~
+Z 0 2580
+0 0
+S
+#2582
+{5F{%i{5n{%e {&M{7a{#r{8b{&l{7e {8Walkway{x~
+Aligning the path of polished marble stone are sweet-smelling
+{^chrysan{6themum {%flow{5ers {xand {&white lilies{x. Looking around the
+castle patio, there are gardens by the plenty, being watered
+and maintained by the exterior workers of the King.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2583
+0 0
+D2
+~
+~
+Z 0 2581
+0 0
+S
+#2583
+{5F{%i{5n{%e {&M{7a{#r{8b{&l{7e {8Walkway{x~
+Aligning the path of polished marble stone are sweet-smelling
+{^chrysan{6themum {%flow{5ers {xand {&white lilies{x. Looking around the
+castle patio, there are gardens by the plenty, being watered
+and maintained by the exterior workers of the King.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2584
+0 0
+D2
+~
+~
+Z 0 2582
+0 0
+S
+#2584
+{5F{%i{5n{%e {&M{7a{#r{8b{&l{7e {8Walkway{x~
+Aligning the path of polished marble stone are sweet-smelling
+{^chrysan{6themum {%flow{5ers {xand {&white lilies{x. Looking around the
+castle patio, there are gardens by the plenty, being watered
+and maintained by the exterior workers of the King.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2585
+0 0
+D2
+~
+~
+Z 0 2583
+0 0
+S
+#2585
+{5F{%i{5n{%e {&M{7a{#r{8b{&l{7e {8Walkway{x~
+Aligning the path of polished marble stone are sweet-smelling
+{^chrysan{6themum {%flow{5ers {xand {&white lilies{x. Looking around the
+castle patio, there are gardens by the plenty, being watered
+and maintained by the exterior workers of the King.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2586
+0 0
+D2
+~
+~
+Z 0 2584
+0 0
+S
+#2586
+{&Upon the {BC{ba{%s{5t{Bl{be {8Steps{x~
+Rose petals scatter the steps alongside the legendary red carpet.
+A sense of royalty and humbleness can be felt as you make your way
+through here. Only those pure of heart have made their way up these
+very steps, as they are the only ones welcome in these parts. The Kat
+family is somewhere nearby.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2587
+0 0
+D2
+~
+~
+Z 0 2585
+0 0
+S
+#2587
+{&Upon the {BC{ba{%s{5t{Bl{be {8Steps{x~
+Rose petals scatter the steps alongside the legendary red carpet.
+A sense of royalty and humbleness can be felt as you make your way
+through here. Only those pure of heart have made their way up these
+very steps, as they are the only ones welcome in these parts. The Kat
+family is somewhere nearby.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2588
+0 0
+D2
+~
+~
+Z 0 2586
+0 0
+S
+#2588
+{%K{&a{%t {bF{Ba{%m{5i{bl{By {%Cas{5tle {#Entrance{x~
+Enormous bags of catnip rest in piles to the left and right. Guardians
+and Kat family protectors are examining each bag as to make sure none
+of the delicious catnips have been poisoned. Towering before you are two
+glorious white doors. A large 'K' has been engraved in the center of the
+two for 'Kat'. Enter and see what luxuries this family has to enjoy.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2624
+0 0
+D2
+~
+~
+Z 0 2587
+0 0
+S
+#2589
+{%Bea{5uti{!ful {1Ter{%race{x~
+A beautiful view of all Thera can be seen upon this balcony.  Transparent,
+{&shimmering {xglobes rest on the corners of this half-moon shaped veranda. 
+This place could possibly be the most peaceful and quiet in all of the Felar
+Grotto, besides the view from under the stars near Rennie's boat shop.  A
+cloudless heaven is laid out before you.  The King often finds himself
+pondering his duties out on this half-circle.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2629
+0 0
+S
+#2590
+{$Path Through the {2Forest{x~
+The foliage along this path is exotic and fruitful.
+Great {2trees{x with swaying branches hover above you like
+curtains on windows. Leaves and fruit come plunging
+down from these {2trees{x from time to time. Randomly
+you find catnip scattered about, and strangely you
+find it growing from these trees. This is surely
+a land of felars.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2591
+0 0
+D3
+~
+~
+Z 0 2508
+0 0
+S
+#2591
+{$Path Through the {2Forest{x~
+The foliage along this path is exotic and fruitful.
+Great {2trees{x with swaying branches hover above you like
+curtains on windows. Leaves and fruit come plunging
+down from these {2trees{x from time to time. Randomly
+you find catnip scattered about, and strangely you
+find it growing from these trees. This is surely
+a land of felars.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2592
+0 0
+D3
+~
+~
+Z 0 2590
+0 0
+S
+#2592
+{@@A Thriving, Green Path{x~
+{2Thick green grass softens each step along this path. The comfortable breeze{x
+{2ruffles the undergrowth all around, providing a song for the quiet atmosphere,{x
+{2accompanied by the beautiful vocals of the doves. The basin is to the north.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2598
+0 0
+D1
+~
+~
+Z 0 2593
+0 0
+D3
+~
+~
+Z 0 2591
+0 0
+S
+#2593
+{@@A Thriving, Green Path{x~
+{2Thick green grass softens each step along this path. The comfortable breeze
+{2ruffles the undergrowth all around, providing a song for the quiet atmosphere,
+{2accompanied by the beautiful vocals of the doves. The basin is to the north.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2595
+0 0
+D3
+~
+~
+Z 0 2592
+0 0
+S
+#2594
+{&The {^W{6a{&t{7e{&r{8f{^a{6l{^l{x~
+{8The sun peeks over the cliff face, staring down at the {&gl{6ad{^e {8below as it
+{8has done since the dawn of time.  {&Wa{6te{^r {8from a stream above takes a leap{x
+{8down countless feet to rest in the {&p{7o{8ol below.  Ancient trees look down{x
+from above, watching the {&gl{6ad{^e {8creatures, bards and lovers that find{x
+{&sa{7n{8c{6tu{^ar{&y {8here.  If only the trees could share these stories, So much to{x
+{8say, so much to give away.{x
+~
+0 0 inside
+D3
+~
+~
+ABCFJZ 2593 2596
+0 0
+S
+#2595
+{^A Small Basin{x~
+{6A little watering hole sinks into the ground here. The surface appears
+{6to look like glass, but as soon as a forest animal dips into it, it quivers
+{6gently and little rings expand in the water. At the bottom of the hole
+{6you can see twinkling rocks and pebbles.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2596
+0 0
+D2
+~
+~
+Z 0 2593
+0 0
+S
+#2596
+{$Bef{4ore {&a {8Huge {@@Tree{x~
+A beautiful winding {@@tree{x stands just before you. It blocks out the
+{#sun{x, leaving the ground {^ch{6il{^ly{x and {&r{7e{8f{7r{&e{7s{8h{7i{&n{7g{x. This {@@tree{x is surrounded
+by silence and {&tranquility{x. A thin gully runs through the ground here
+and tracing its edges ferns are growing. Hares and squirrels run wildly
+through the spruce and {%fl{#o{&w{#e{%rs{x. It took great effort to locate this naturally
+secluded and protected spot in the {2forest{x and if there is a key to allow
+entrance, you wont find it with ease. To the south is a {^small basin{x.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2597
+0 0
+D1
+~
+~
+ABCFJZ 2593 2594
+0 0
+D2
+~
+~
+Z 0 2595
+0 0
+S
+#2597
+{8A Huge, Winding {@@Tree{x~
+Up, up, up. Towering over you like a fierce dragon before a mouse,
+this tree is at least 30 feet wide. Its branches jet out threateningly,
+so thick that they do not move in the fiercest winds. Each branch
+is about the size of an oak tree's trunk, and they span out nearly 40
+feet, making the tree's base moan and creak in its wake.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2663
+0 0
+D2
+~
+~
+Z 0 2596
+0 0
+S
+#2598
+{%A Plush, Bed of Flowers{x~
+{5There are all sorts of chrysanthemums, irises, lilies, daffodils, sunflowers,{x
+{5and midnight orchids flourishing in the soft tufts of grass here. Red, purple,{x
+{5yellow, pink, and black roses are all scattered about the ground. There is a{x
+{5melody of daisies formed into a heart in the center of it all.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2600
+0 0
+D2
+~
+~
+Z 0 2592
+0 0
+S
+#2599
+{#Sec{3ret {2T{@@ree{2H{@@ouse{x~
+{8High up in the trees is this little wooden treehouse made for {^K{6ira{x
+{8and her friends. A juke box rests in the corner of the room blasting
+{8out some tunes. Some empty photographs hang crookedly from the walls
+{8waiting to be filled with pictures. A large comfy couch rests in the
+center of it all next to a squishy green bean bag. A beautiful view
+{8of Midgaard Market Square is below you from the look out.{
+~
+0 0 inside
+D0
+~
+~
+Z 0 2605
+0 0
+D2
+~
+~
+ABZ 0 2502
+0 0
+D5
+~
+~
+Z 0 3014
+0 0
+S
+#2600
+{@@A Huge, Fallen Tree{x~
+{2Squirrels, innocent larks, and tiny kittens wander in and out of the fallen{x
+{2tree. Vines and undergrowth seem to swallow up the tree, leaving the bark{x
+{2barely visible. Little bugs crawl into the slits in the tree, making for{x
+{2a delicious meal for the sneaky animals inside.{x
+~
+0 0 inside
+D0
+~
+~
+ABCFJZ 2677 2601
+0 0
+D2
+~
+~
+Z 0 2598
+0 0
+S
+#2601
+{&A White Gazebo{x~
+This quiet, comfortable gazebo stands in the {8mist{x as a monument of
+{!l{1ov{!e{x. Finely crafted wooden supports twist like {@@v{2ine{@@s {xup into a gently
+flowing, silky drape. The {&in{7it{&ia{7ls{x of {1l{!o{1ve{!r{1s{x are carved into the posts as
+reminiscences and memories of their past stories.
+~
+0 0 inside
+D2
+~
+~
+ABCFJZ 2609 2600
+0 0
+S
+#2602
+{8Death To the {@@T{2ree{@@s{x~
+Limp trees that look something like weeping willows, though they are not
+what they seem to be, align this dark and dreary path.  A strong haze engulfs
+your vision and as you struggle to see further north, and bone chilling moans
+can be heard nearby.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2509
+0 0
+D3
+~
+~
+Z 0 2603
+0 0
+S
+#2603
+{8Death To the {@@T{2ree{@@s{x~
+Limp trees that look something like weeping willows, though they are not
+what they seem to be, align this dark and dreary path.  A strong haze engulfs
+your vision and as you struggle to see further north, and bone chilling moans
+can be heard nearby.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2602
+0 0
+D3
+~
+~
+Z 0 2604
+0 0
+S
+#2604
+{8Death To The {#U{3ndergrow{#th{x~
+There are plants sprouting from the ground lifelessly. These
+plants are almost undistinguishable, as they are flowers, but
+look more like muddied shoe laces that are shredded at the
+tips. They used to be as lively as the King himself, but expired
+yhe day the King stepped up and claimed the throne again.
+A troublesome and bloody day that was.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2603
+0 0
+D3
+~
+~
+Z 0 2606
+0 0
+S
+#2605
+{%K{5i{Br{^a{B'{%s {&Balcony{x~
+{8This beautiful balcony captures the allure of the land of Thera in a{x
+{8single glance. The wondrous solemnity of Midgaard can be seen, as well as{x
+{8the mystery of Everlasting Silence. The balcony itself is not without beauty{x
+{8of its own. The balcony railing is made from the most solid oak, which has{x
+{8been polished and stained to absolute perfection. Off to the left is a little{x
+{8hammock to catch a quick nap in while surrounded by such beauty. The{x
+{8door leading between the house and the balcony has an intricately ornate{x
+{8stained glass window depicting the moon rising over the {#s{3un{8. There is a{x
+{8sense of peace and calm to all who enter here.{x
+~
+0 0 inside
+D2
+~
+~
+Z 0 2599
+0 0
+D4
+~
+~
+Z 0 2674
+0 0
+S
+#2606
+{8Death To The {#U{3ndergrow{#th{x~
+There are plants sprouting from the ground lifelessly. These
+plants are almost undistinguishable, as they are flowers, but
+look more like muddied shoe laces that are shredded at the
+tips. They used to be as lively as the King himself, but expired
+yhe day the King stepped up and claimed the throne again.
+A troublesome and bloody day that was.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2604
+0 0
+D3
+~
+~
+Z 0 2607
+0 0
+S
+#2607
+{8Death To The {^A{6ir{x~
+The air's stench is anything but voluptuous here.  Taking a deep
+breath, you almost feel as if you are being choked, and gag slightly
+on the taste of the air.  You feel as if you have entered a box that
+hasn't been open for hundreds of years.  Stagnant, stuffy, and
+utterly stifling, the air around you is absolutely unsettling.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2606
+0 0
+D3
+~
+~
+Z 0 2608
+0 0
+S
+#2608
+{8Death To The {^A{6ir{x~
+The air's stench is anything but voluptuous here.  Taking a deep
+breath, you almost feel as if you are being choked, and gag slightly
+on the taste of the air.  You feel as if you have entered a box that
+hasn't been open for hundreds of years.  Stagnant, stuffy, and
+utterly stifling, the air around you is absolutely unsettling.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2610
+0 0
+D1
+~
+~
+Z 0 2607
+0 0
+S
+#2609
+{x~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2617
+0 0
+S
+#2610
+{8The Weeping {&W{8illo{&w{x~
+In the shade of the willow, reconciliation can be found in this place
+of misery. The memories of those lost in the battle of the King's throne
+have been etched into the bark of this willow, and no matter how hard
+the felars of this forest try to cut the tree down, it seems to have an
+impenetrable force around it, and refuses to be carried away. It is
+a medal of honor for the felars who stood up for what is lawful, and
+you will not see many evils hanging around it.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2611
+0 0
+D2
+~
+~
+Z 0 2608
+0 0
+S
+#2611
+{8Stagnant Chamber{x~
+The ground here is covered in fur, damp from the forever overcast of
+midnight darkness.  The stale musk air, from the many feces sprawled
+about, makes you vomit slightly in your throat.  You notice that many
+trees are missing their bark, which is replaced with deep cuts and scratches.
+Under some of the fur, bones of animals lie decaying.  You haven't seen
+any living creatures yet.  Not once since you have entered this area of the
+forest
+~
+0 0 inside
+D0
+~
+~
+Z 0 2612
+0 0
+D2
+~
+~
+Z 0 2610
+0 0
+S
+#2612
+{!B{1loo{!d {8Stained {@@T{2ree{x~
+Everything here is covered in dark red blood. Something was
+slaughtered here without mercy. The smell is overwhelming
+but you still trudge through. Intestines are stretched throughout
+the limbs of the trees, dripping with blood. Some strange animal's
+skin has been crudely nailed to the nearest, and bloodiest, tree. Near
+the base of the tree, tooth after tooth lie, stained blood red from the
+beating this animal had taken. The ground has been flung about,
+showing the animal did put up a fight before its untimely demise.
+In the distance you can hear another shriek as some other animal
+is meeting the same fate.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2613
+0 0
+D2
+~
+~
+Z 0 2611
+0 0
+S
+#2613
+{@@S{2a{&cr{7i{&f{8i{2c{&i{2a{@@l {8Room{x~
+The grass here is matted down in spots, looks like something
+sleeps here. Again, the trees have no bark, only deep cuts and
+scratches that make you quiver in your armor. The lush forest
+around this opening makes it hard to see more then eight feet
+in any direction. In the middle of this darkened area is a small
+lit candle near some shredded old books. The title of the only
+readable cover says "Blood Mystics." You read some of the
+torn pages, and it talks all about casting necromancer spells,
+sacrificial rituals, and self mutilation. This is a strange area
+indeed.
+~
+0 0 inside
+D2
+~
+~
+Z 0 2612
+0 0
+S
+#2614
+~
+~
+0 0 inside
+S
+#2615
+{8A Fork in the {#T{3rail{x~
+~
+0 NX inside
+D3
+~
+~
+Z 0 2617
+0 0
+D4
+~
+~
+Z 0 2617
+0 0
+S
+#2616
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 2618
+0 0
+S
+#2617
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2615
+0 0
+D3
+~
+~
+Z 0 2609
+0 0
+D5
+~
+~
+Z 0 2615
+0 0
+S
+#2618
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2616
+0 0
+D2
+~
+~
+Z 0 2619
+0 0
+S
+#2619
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 2618
+0 0
+S
+#2620
+{DThe {rM{Ru{yl{Yt{gi{Gc{co{Cl{bo{Br{me{Md {GPillow {DFighting Arena{x~
+Competitors from all around the world come to view the fierce pillow
+fights of Thera.  
+ 
+                   {rW{Rh{ya{Yp{r! {gW{Gh{ca{Cp{g! {bW{Bh{ma{Mp{b!{x
+~
+0 d inside
+D1
+~
+~
+Z 0 2502
+0 0
+S
+#2621
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2622
+0 0
+S
+#2622
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2623
+0 0
+D3
+~
+~
+Z 0 2621
+0 0
+S
+#2623
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 2622
+0 0
+S
+#2624
+{&I{7n{5si{7d{&e {8the {#Royal {%K{&a{%t {bF{Ba{%m{5i{bl{By {%Cas{5tle{x~
+This palace is what most cats would call 'heavenly'. Strong scents of
+catnip waft through the air from all directions and as if a child had
+been here, cat toys are scattered all around the castle: balls of yarn,
+scratching posts, little bells that jingle, and stuffed mice.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2625
+0 0
+D2
+~
+~
+Z 0 2588
+0 0
+S
+#2625
+{7G{&la{7ss {5F{%l{bo{^o{6r{x~
+An odd room this is.  Glass floor stretches to all corners of this area. 
+It is completely polished without a tiny smudge.  Below it can be seen
+dancers and entertainment that never ceases to please the Kat family and
+their visitors.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2626
+0 0
+D2
+~
+~
+Z 0 2624
+0 0
+S
+#2626
+{7G{&la{7ss {5F{%l{bo{^o{6r{x~
+An odd room this is. Glass floor stretches to all corners of this
+area. It is completely polished without a tiny smudge. Below it
+can be seen dancers and entertainment that never cease to
+please the Kat family and their visitors.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2627
+0 0
+D2
+~
+~
+Z 0 2625
+0 0
+S
+#2627
+{7G{&la{7ss {5F{%l{bo{^o{6r{x~
+An odd room this is. Glass floor stretches to all corners of this
+area. It is completely polished without a tiny smudge. Below it
+can be seen dancers and entertainment that never cease to
+please the Kat family and their visitors.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2628
+0 0
+D2
+~
+~
+Z 0 2626
+0 0
+S
+#2628
+{7G{&la{7ss {5F{%l{bo{^o{6r{x~
+An odd room this is. Glass floor stretches to all corners of this
+area. It is completely polished without a tiny smudge. Below it
+can be seen dancers and entertainment that never cease to
+please the Kat family and their visitors.
+~
+0 0 inside
+D2
+~
+~
+Z 0 2627
+0 0
+D4
+~
+~
+Z 0 2629
+0 0
+D5
+~
+~
+Z 0 2665
+0 0
+S
+#2629
+Up the Winding Staircase~
+A picture frame of Kat relatives hangs perfectly straight on the wall
+where the staircase begins to curve.  Upwards leads to the servants' living
+quarters, the sons and daughters housing and the king and queen's royal
+bedroom.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2589
+0 0
+D4
+~
+~
+Z 0 2630
+0 0
+D5
+~
+~
+Z 0 2628
+0 0
+S
+#2630
+{%Second Floor {&of the {bC{Ba{%s{5t{bl{Be{x~
+To the south you may find the living quarters of the Kat
+servants. They are simple and clean rooms, but the Kat family
+allows them luxury as well.
+~
+0 0 inside
+D2
+~
+~
+Z 0 2631
+0 0
+D5
+~
+~
+Z 0 2629
+0 0
+S
+#2631
+{#Y{3e{#llow {bH{Ba{%l{5l{bw{Ba{%y{x~
+{yPainted a lush yellow shade, these walls encompass the rooms of{x
+{ythose who uphold this castle, the servants, butlers and maids.
+{yCandles are placed inbetween each door giving the walls a soft
+{ygolden appearance.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2630
+0 0
+D2
+~
+~
+Z 0 2632
+0 0
+S
+#2632
+{#Y{3e{#llow {bH{Ba{%l{5l{bw{Ba{%y{x~
+{yPainted a lush yellow shade, these walls encompass the rooms of{x
+{ythose who uphold this castle, the servants, butlers and maids.
+{yCandles are placed inbetween each door giving the walls a soft
+{ygolden appearance.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2631
+0 0
+D1
+~
+~
+Z 0 2661
+0 0
+D2
+~
+~
+Z 0 2633
+0 0
+D3
+~
+~
+Z 0 2662
+0 0
+S
+#2633
+{#Y{3e{#llow {bH{Ba{%l{5l{bw{Ba{%y{x~
+{yPainted a lush yellow shade, these walls encompass the rooms of{x
+{ythose who uphold this castle, the servants, butlers and maids.
+{yCandles are placed inbetween each door giving the walls a soft
+{ygolden appearance.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2632
+0 0
+D2
+~
+~
+Z 0 2635
+0 0
+S
+#2634
+~
+~
+0 0 inside
+S
+#2635
+{#Y{3e{#llow {bH{Ba{%l{5l{bw{Ba{%y{x~
+{yPainted a lush yellow shade, these walls encompass the rooms of{x
+{ythose who uphold this castle, the servants, butlers and maids.
+{yCandles are placed inbetween each door giving the walls a soft
+{ygolden appearance.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2633
+0 0
+D1
+~
+~
+Z 0 2659
+0 0
+D2
+~
+~
+Z 0 2636
+0 0
+D3
+~
+~
+Z 0 2660
+0 0
+S
+#2636
+{#Y{3e{#llow {bH{Ba{%l{5l{bw{Ba{%y{x~
+{yPainted a lush yellow shade, these walls encompass the rooms of{x
+{ythose who uphold this castle, the servants, butlers and maids.
+{yCandles are placed inbetween each door giving the walls a soft
+{ygolden appearance.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2635
+0 0
+D4
+~
+~
+Z 0 2637
+0 0
+S
+#2637
+{%Third Floor {&of the {bC{Ba{%s{5t{bl{Be{x~
+Another picture of the large Kat family hangs perfectly on the
+wall where the staircase begins to curve. This time there is a
+row of young female felars and a row of young male felars below
+them. Could this possibly be the king and queen's offspring?
+~
+0 0 inside
+D0
+~
+~
+Z 0 2638
+0 0
+D5
+~
+~
+Z 0 2636
+0 0
+S
+#2638
+{BB{bl{Bue {bH{Ba{%l{5l{bw{Ba{%y{x~
+{bA boyish blue color is painted on the walls here symbolizing
+the sons that live in this hallway away from the daughters just
+overhead. To the east and west lie the young boys' rooms. You
+may find them rough housing and causing havoc, even as
+the sons of prestigious parents. Paw prints have been printed
+on the doors, each belonging to the owner of the room that
+{blies behind the door.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2639
+0 0
+D1
+~
+~
+Z 0 2658
+0 0
+D2
+~
+~
+Z 0 2637
+0 0
+D3
+~
+~
+Z 0 2657
+0 0
+S
+#2639
+{BB{bl{Bue {bH{Ba{%l{5l{bw{Ba{%y{x~
+{bA boyish blue color is painted on the walls here symbolizing
+the sons that live in this hallway away from the daughters just
+overhead. To the east and west lie the young boys' rooms. You
+may find them rough housing and causing havoc, even as
+the sons of prestigious parents. Paw prints have been printed
+on the doors, each belonging to the owner of the room that
+{blies behind the door.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2640
+0 0
+D2
+~
+~
+Z 0 2638
+0 0
+S
+#2640
+{bB{Bl{bue {bH{ba{%l{5l{bw{Ba{%y{x~
+{bA boyish blue color is painted on the walls here symbolizing
+the sons that live in this hallway away from the daughters just
+overhead. To the east and west lie the young boys' rooms. You
+may find them rough housing and causing havoc, even as
+the sons of prestigious parents. Paw prints have been printed
+on the doors, each belonging to the owner of the room that
+{blies behind the door.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2641
+0 0
+D1
+~
+~
+Z 0 2656
+0 0
+D2
+~
+~
+Z 0 2639
+0 0
+D3
+~
+~
+Z 0 2655
+0 0
+S
+#2641
+{BB{bl{Bue {bH{Ba{%l{5l{bw{Ba{%y{x~
+{bA boyish blue color is painted on the walls here symbolizing
+the sons that live in this hallway away from the daughters just
+overhead. To the east and west lie the young boys' rooms. You
+may find them rough housing and causing havoc, even as
+the sons of prestigious parents. Paw prints have been printed
+on the doors, each belonging to the owner of the room that
+{blies behind the door.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2642
+0 0
+D2
+~
+~
+Z 0 2640
+0 0
+S
+#2642
+{BB{bl{Bue {bH{Ba{%l{5l{bw{Ba{%y{x~
+{bA boyish blue color is painted on the walls here symbolizing
+the sons that live in this hallway away from the daughters just
+overhead. To the east and west lie the young boys' rooms. You
+may find them rough housing and causing havoc, even as
+the sons of prestigious parents. Paw prints have been printed
+on the doors, each belonging to the owner of the room that
+{blies behind the door.{x
+~
+0 0 inside
+D2
+~
+~
+Z 0 2641
+0 0
+D4
+~
+~
+Z 0 2643
+0 0
+S
+#2643
+{%Fourth Floor {&of the {bC{Ba{%s{5t{bl{Be{x~
+{5To the left and right are the rooms of King {%K{&a{%t{&'{%s {5daughters.
+{5Giggling emits from each room as well as an aura of happiness.
+{5Along the walls, between doors, are brightly lit candles that
+{5never cease to {#shine{5.{x
+~
+0 0 inside
+D2
+~
+~
+Z 0 2644
+0 0
+D5
+~
+~
+Z 0 2642
+0 0
+S
+#2644
+{&The {5P{%i{5nk {bH{Ba{%l{5l{bw{Ba{%y{x~
+{5A {5p{%i{5nk {5hallway is laid out before you, simply decorated yet
+{5still opulent as the previous halls. Marble tiles pattered in
+{5chrysanthemum flowers line the floor, their polished surfaces
+{5reflecting the bright light of the crystal chandeliers hanging
+{5just overhead. A large glass pane window emits light from the
+{5south end of the hall, and sheer {5p{%i{5nk {5curtains cascade down its
+{5front. A faint giggling can be heard from the rooms to the east
+{5and west, along with a beautiful {#aria {5being played from an unknown
+{5source. These halls seems so {7ser{&en{7e{5.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2643
+0 0
+D2
+~
+~
+Z 0 2645
+0 0
+S
+#2645
+{&The {5P{%i{5nk {bH{Ba{%l{5l{bw{Ba{%y{x~
+{5A {5p{%i{5nk {5hallway is laid out before you, simply decorated yet
+{5still opulent as the previous halls. Marble tiles pattered in
+{5chrysanthemum flowers line the floor, their polished surfaces
+{5reflecting the bright light of the crystal chandeliers hanging
+{5just overhead. A large glass pane window emits light from the
+{5south end of the hall, and sheer {5p{%i{5nk {5curtains cascade down its
+{5front. A faint giggling can be heard from the rooms to the east
+{5and west, along with a beautiful {#aria {5being played from an unknown
+{5source. These halls seems so {7ser{&en{7e{5.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2644
+0 0
+D1
+~
+~
+Z 0 2652
+0 0
+D2
+~
+~
+Z 0 2646
+0 0
+D3
+~
+~
+Z 0 2653
+0 0
+S
+#2646
+{&The {5P{%i{5nk {bH{Ba{%l{5l{bw{Ba{%y{x~
+{5A {5p{%i{5nk {5hallway is laid out before you, simply decorated yet
+{5still opulent as the previous halls. Marble tiles pattered in
+{5chrysanthemum flowers line the floor, their polished surfaces
+{5reflecting the bright light of the crystal chandeliers hanging
+{5just overhead. A large glass pane window emits light from the
+{5south end of the hall, and sheer {5p{%i{5nk {5curtains cascade down its
+{5front. A faint giggling can be heard from the rooms to the east
+{5and west, along with a beautiful {#aria {5being played from an unknown
+{5source. These halls seems so {7ser{&en{7e{5.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2645
+0 0
+D2
+~
+~
+Z 0 2647
+0 0
+S
+#2647
+{&The {5P{%i{5nk {bH{Ba{%l{5l{bw{Ba{%y{x~
+{5A {5p{%i{5nk {5hallway is laid out before you, simply decorated yet
+{5still opulent as the previous halls. Marble tiles pattered in
+{5chrysanthemum flowers line the floor, their polished surfaces
+{5reflecting the bright light of the crystal chandeliers hanging
+{5just overhead. A large glass pane window emits light from the
+{5south end of the hall, and sheer {5p{%i{5nk {5curtains cascade down its
+{5front. A faint giggling can be heard from the rooms to the east
+{5and west, along with a beautiful {#aria {5being played from an unknown
+{5source. These halls seems so {7ser{&en{7e{5.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2646
+0 0
+D1
+~
+~
+Z 0 2650
+0 0
+D2
+~
+~
+Z 0 2648
+0 0
+D3
+~
+~
+Z 0 2651
+0 0
+S
+#2648
+{&The {5P{%i{5nk {bH{Ba{%l{5l{bw{Ba{%y{x~
+{5A {5p{%i{5nk {5hallway is laid out before you, simply decorated yet
+{5still opulent as the previous halls. Marble tiles pattered in
+{5chrysanthemum flowers line the floor, their polished surfaces
+{5reflecting the bright light of the crystal chandeliers hanging
+{5just overhead. A large glass pane window emits light from the
+{5south end of the hall, and sheer {5p{%i{5nk {5curtains cascade down its
+{5front. A faint giggling can be heard from the rooms to the east
+{5and west, along with a beautiful {#aria {5being played from an unknown
+{5source. These halls seems so {7ser{&en{7e{5.
+~
+0 0 inside
+D0
+~
+~
+Z 0 2647
+0 0
+D4
+~
+~
+Z 0 2649
+0 0
+S
+#2649
+{%[ {bK{Bi{%n{5g {%K{&a{%t{&'{%s {bC{Bh{%a{5m{bb{Be{%r{5s {%]{x~
+{bA high-ceilinged bedroom this is, with deep blue painted walls
+{band magically enchanted stars on the ceiling to look like the
+{bnight {6s{^ky{b. An oversized canopy bed with diamonds encrusted into
+{bthe bed frame is placed on the far wall. Beautiful paintings
+{bcover the walls of his many sons and daughters and relatives.
+{bA large glass box of catnip has been left next to the bed with
+{ba large blue bow on top. This is where King {%K{&a{%t {bcomes to rest
+{band speak alone with his wife.{x
+~
+0 0 inside
+D5
+~
+~
+Z 0 2648
+0 0
+S
+#2650
+{!E{1n{%c{5h{!a{1n{%t{5i{!a{1'{%s {5Bedroom {3Quarters{x~
+{rThis bedroom belongs to the lovely Enchantia. Crayons, paints and
+{roils scatter the room. Some markings and scribbles have been made
+{ron the walls. Obviously the maids have not made their way into this
+{rroom yet today, else it would have been cleaned in no time.{x
+~
+0 0 inside
+D3
+~
+~
+Z 0 2647
+0 0
+S
+#2651
+{^E{6s{bh{Bm{^i{6r{be{Bl{^d{6a{b'{Bs {bBedroom {6Quarters{x~
+{cIt is said that Eshmirelda is the cutest of the Kat daughters.
+{cThis is her own personal space in the kingdom. It is wrought{x
+{cwith the smell of catnip and treats. Odd though how Eshmirelda can
+{cmunch continuously on catnip and not be the most stout of the bunch.{x
+~
+0 0 inside
+D1
+~
+~
+Z 0 2647
+0 0
+S
+#2652
+{#E{3v{&e{7r{#e{3t{&t{7a{#'{3s {#Bedroom {7Quarters{x~
+{3A shelf of little porcelain dolls are displayed in a square
+{3shape around the boarders of the room. {%P{5i{%nk {3unicorns have been
+{3painted delightfully on the walls. A comfortable pink bed is
+{3situated off to the right side, covered in a canopy of white
+{3curtain. On the left side is a varnished desk and a {!red {3rocking
+{3horse.{x
+~
+0 0 inside
+D3
+~
+~
+Z 0 2645
+0 0
+S
+#2653
+{@@E{2s{be{Bi{@@l{2i{ba{B'{2s {@@Bedroom {bQuarters{x~
+{2Green, sponge-painted walls surround you. A large
+{2fuzzy blanket lies before this room's bay window.
+{2Toys of a plenty are scattered about sloppily and
+{2the smell of sweet sugars emits from a {bb{Bl{bu{Be {2wooden
+{2box full of {%K{5rystani{%a{5'{%s {5S{%hop {2goodies.{x
+~
+0 0 inside
+D1
+~
+~
+Z 0 2645
+0 0
+S
+#2654
+~
+~
+0 0 inside
+S
+#2655
+{bV{Be{bh{Be{bm{Bi{ba{Bn{b'{Bs {bAbode{x~
+{BA soft undertone of water surrounds you as you enter the room.
+Vehemian has learned to enchant his room with the sounds of
+the famous La Mer. He seems to have a fixation with the color
+blue and the paradox of water.{x
+~
+0 0 inside
+D1
+~
+~
+Z 0 2640
+0 0
+S
+#2656
+{!V{1r{&o{7s{!h{1i{&m{7a{!'{1s {!Abode{x~
+{RVroshima's room is almost blinding as you enter. The shade of red{x
+{Ris almost ridiculous. He loves fire, some could consider him a pyro.{x
+{RHis bedsheets have flames embroidered into them along with a{x
+{Rpicture of himself with flaming fur. He is the most conceited of{x
+{Rthe bunch. Never-the-less, he is still respected.{x
+~
+0 0 inside
+D3
+~
+~
+Z 0 2640
+0 0
+S
+#2657
+{8Vi{7sc{&hu{7u'{8s {&Abode{x~
+{WVischuu's room is the cleanliest of all the boys' rooms. Even with
+{Whis parents' wealth he refuses to be spoiled with all the cat-made
+{Wdelights of the world. A humble white bed and a nighstand rest against
+{Wthe wall and a window on the opposite wall overlooks the glass floor.
+{WVischuu is a boy with the most creative mind of the bunch.{x
+~
+0 0 inside
+D1
+~
+~
+Z 0 2638
+0 0
+S
+#2658
+{^V{6a{bru{Bne's {^Abode{x~
+{CGlowing stars and planets swirl and revolve on the enchanted
+{Cceiling. If you blew out the candle on Varune's nightstand, you
+{Ccould see astroids and shooting stars painted on the walls.{x
+{CVarune's love for the solar system is evident in this room.{x
+~
+0 0 inside
+D3
+~
+~
+Z 0 2638
+0 0
+S
+#2659
+{5M{%a{bi{Bd{5'{%s {bB{Bo{%u{5d{bo{Bi{%r{x~
+Lovely smelling roses rest in a diamond vase on a nightstand
+next to a picture frame of a young maiden. She wears a frilly white maid's
+uniform and black saddle shoes. A classy looking cloth sheathes the
+nightstand with flowers and stars embroidered in its hemming. Soft
+pink bedding and plush pillows make up a cushioned bed for one.
+~
+0 0 inside
+D3
+~
+~
+Z 0 2635
+0 0
+S
+#2660
+{5M{%a{bi{Bd{5'{%s {bB{Bo{%u{5d{bo{Bi{%r{x~
+Lovely smelling roses rest in a diamond vase on a nightstand next to a
+picture frame of a young maiden.  She wears a frilly white maid's uniform
+and black saddle shoes.  A classy looking cloth sheathes the nightstand with
+flowers and stars embroidered in its hemming.  Soft pink bedding and plush
+pillows make up a cushioned bed for one.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2635
+0 0
+S
+#2661
+{&The {!Butler's {#S{3l{#e{7e{#p{3i{#n{7g {bC{Bh{%a{5m{bb{Be{%r{x~
+A humble little room this is, but full of beautiful linens, soft
+carpet, and gentle blue satin cloth that encompasses the top
+of a comfortable looking canopy bed are what make this room look
+like it belongs in the presence of the Kat family palace.
+A single candle wavers on a nighstand giving the room a calm
+feeling.
+~
+0 0 inside
+D3
+~
+~
+Z 0 2632
+0 0
+S
+#2662
+{@@T{Bh{#e {%T{!o{5y {bR{Bo{%o{5m{x~
+Toys crafted from the paws of cats all across Thera have been
+left in this room for the many children of king and queen Kat.
+Trinkets made to entertain newborn felars, yellow balls of string,
+stuffed mice, little bags of catnip, jingling bells and a slew of
+felar scratching posts occupy the majority of the toy room space.
+~
+0 0 inside
+D1
+~
+~
+Z 0 2632
+0 0
+S
+#2663
+{&In the {8Shadow {7of the {@@Tree of Life{x~
+{8You feel a chill upon your body as you step into the shadow
+{8of the {@@Tree of Life{8. Even in the darkness of this area, the
+{2grass {8and {%flowers {8still bloom just as ostentatiously. Various
+{8animal foot prints are pressed into the ground here. This spot
+{8is an often traced zone, as many travelers come from afar to see
+{8the anecdote of this {@@tree{8. You notice that almost everywhere
+{8you look around the shadow there are giant trees growing, as if
+{8to imitate the grandeur of the {@@tree {8just ahead.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2664
+0 0
+D2
+~
+~
+Z 0 2597
+0 0
+S
+#2664
+{@@The Tree of Life{x~
+{2An unidentifiable tree with carvings and etches of hearts,
+{2symbols, animals, and gods has been grown here. Its thick
+{2girth makes it almost impossible to climb and almost blocks
+{2out the {#sun {2completely. Dozens of different delicious fruits
+{2hang from its limbs, and flowers speckle its branches. Legend
+{2has it that this tree was the first to inhibit {&Thera{2. They
+{2call it the {@@Tree of life{2.{x
+~
+0 0 inside
+E
+carvings~
+You can depict an etching of the {8Goddess {6Ki{^ra {xin a small
+section of this tree. Complex shapes and symbols are carved
+into its tough bark. This tree was born before time was ever
+counted.
+~
+E
+etch~
+You can depict an etching of the {8Goddess {6Ki{^ra {xin a small
+section of this tree. Complex shapes and symbols are carved
+into its tough bark. This tree was born before time was ever
+counted.
+~
+E
+life~
+You can depict an etching of the {8Goddess {6Ki{^ra {xin a small
+section of this tree. Complex shapes and symbols are carved
+into its tough bark. This tree was born before time was ever
+counted.
+~
+E
+tree~
+You can depict an etching of the {8Goddess {6Ki{^ra {xin a small
+section of this tree. Complex shapes and symbols are carved
+into its tough bark. This tree was born before time was ever
+counted.
+~
+D2
+~
+~
+Z 0 2663
+0 0
+D4
+~
+~
+ABCZ 2665 2671
+0 0
+S
+#2665
+{&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x~
+A beautiful construction of stones and gems, the courtyard is
+an excellent reminder of the grandeur and tiresome effort that
+has been put into this castle. Plush grass blankets the ground,
+flowers outlining the marble stepping stones. A bubbling man-made
+{6w{^a{7t{&e{6r{^f{7a{&l{6l{x catches your eye at the small, well-kept pond at the
+far end of the courtyard. The water shimmers and sweeps with
+every gush. A hammock has been placed in the center of the
+courtyard and a beautiful young felar is resting in its solace.
+~
+0 0 inside
+E
+waterfall~
+A beautiful bubbling and splashing waterfall appears at the far
+end of the courtyard. A {#fis{3h {xjumps up the {#fis{3h {xladder!
+~
+D0
+~
+~
+Z 0 2666
+0 0
+D4
+~
+~
+Z 0 2628
+0 0
+S
+#2666
+{&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x~
+A beautiful construction of stones and gems, the courtyard is
+an excellent reminder of the grandeur and tiresome effort that
+has been put into this castle. Plush grass blankets the ground,
+flowers outlining the marble stepping stones. A bubbling man-made
+{6w{^a{7t{&e{6r{^f{7a{&l{6l{x catches your eye at the small, well-kept pond at the
+far end of the courtyard. The water shimmers and sweeps with
+every gush. A hammock has been placed in the center of the
+courtyard and a beautiful young felar is resting in its solace.
+~
+0 0 inside
+E
+waterfall~
+A beautiful bubbling and splashing waterfall appears at the far
+end of the courtyard. A {#fis{3h {xjumps up the {#fis{3h {xladder!
+~
+D0
+~
+~
+Z 0 2667
+0 0
+D2
+~
+~
+Z 0 2665
+0 0
+S
+#2667
+{&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x~
+A beautiful construction of stones and gems, the courtyard is
+an excellent reminder of the grandeur and tiresome effort that
+has been put into this castle. Plush grass blankets the ground,
+flowers outlining the marble stepping stones. A bubbling man-made
+{6w{^a{7t{&e{6r{^f{7a{&l{6l{x catches your eye at the small, well-kept pond at the
+far end of the courtyard. The water shimmers and sweeps with
+every gush. A hammock has been placed in the center of the
+courtyard and a beautiful young felar is resting in its solace.
+~
+0 0 inside
+E
+waterfall~
+A beautiful bubbling and splashing waterfall appears at the far
+end of the courtyard. A {#fis{3h {xjumps up the {#fis{3h {xladder!
+~
+D0
+~
+~
+Z 0 2668
+0 0
+D2
+~
+~
+Z 0 2666
+0 0
+S
+#2668
+{&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x~
+A beautiful construction of stones and gems, the courtyard is
+an excellent reminder of the grandeur and tiresome effort that
+has been put into this castle. Plush grass blankets the ground,
+flowers outlining the marble stepping stones. A bubbling man-made
+{6w{^a{7t{&e{6r{^f{7a{&l{6l{x catches your eye at the small, well-kept pond at the
+far end of the courtyard. The water shimmers and sweeps with
+every gush. A hammock has been placed in the center of the
+courtyard and a beautiful young felar is resting in its solace.
+~
+0 0 inside
+E
+waterfall~
+A beautiful bubbling and splashing waterfall appears at the far
+end of the courtyard. A {#fis{3h {xjumps up the {#fis{3h {xladder!
+~
+D0
+~
+~
+Z 0 2669
+0 0
+D2
+~
+~
+Z 0 2667
+0 0
+S
+#2669
+{&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x~
+A beautiful construction of stones and gems, the courtyard is
+an excellent reminder of the grandeur and tiresome effort that
+has been put into this castle. Plush grass blankets the ground,
+flowers outlining the marble stepping stones. A bubbling man-made
+{6w{^a{7t{&e{6r{^f{7a{&l{6l{x catches your eye at the small, well-kept pond at the
+far end of the courtyard. The water shimmers and sweeps with
+every gush. A hammock has been placed in the center of the
+courtyard and a beautiful young felar is resting in its solace.
+~
+0 0 inside
+E
+waterfall~
+A beautiful bubbling and splashing waterfall appears at the far
+end of the courtyard. A {#fis{3h {xjumps up the {#fis{3h {xladder!
+~
+D0
+~
+~
+Z 0 2670
+0 0
+D2
+~
+~
+Z 0 2668
+0 0
+S
+#2670
+{&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x~
+A beautiful construction of stones and gems, the courtyard is
+an excellent reminder of the grandeur and tiresome effort that
+has been put into this castle. Plush grass blankets the ground,
+flowers outlining the marble stepping stones. A bubbling man-made
+{6w{^a{7t{&e{6r{^f{7a{&l{6l{x catches your eye at the small, well-kept pond at the
+far end of the courtyard. The water shimmers and sweeps with
+every gush. A hammock has been placed in the center of the
+courtyard and a beautiful young felar is resting in its solace.
+~
+0 0 inside
+E
+waterfall~
+A beautiful bubbling and splashing waterfall appears at the far
+end of the courtyard. A {#fis{3h {xjumps up the {#fis{3h {xladder!
+~
+D2
+~
+~
+Z 0 2669
+0 0
+S
+#2671
+{#On a Shelf {xof the {@@Tree of Life{x~
+~
+0 0 inside
+D4
+~
+~
+Z 0 2672
+0 0
+D5
+~
+~
+ABCZ 0 2664
+0 0
+S
+#2672
+{#Highest Branch {7of the {@@Tree of Life{x~
+~
+0 0 inside
+D5
+~
+~
+Z 0 2671
+0 0
+S
+#2673
+{^On a Cloud{x~
+You are now upon a marshmallow {^cloud{x. It feels soft and cuddly
+to the touch. The {@@Tree of Life {xis just below you, but you have
+a strong feeling that this {^cloud {xwould be a nice spot for a nap.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2672
+0 0
+S
+#2674
+{5[ {%* {5K{%i{5ra's {5O{%f{5fice {%* {5]{x~
+A very meek room this is. There is a small picture frame on a desk
+next to a dead mouse. Inside of it a small message reads, {&If you can{x
+{&hold sand, you can hold time.{x
+~
+0 0 inside
+D5
+~
+~
+Z 0 2605
+0 0
+S
+#0
+
+#RESETS
+D 0 2502 0 1	* {^K{6ir{^a{6'{^s {5Ca{%ve{x: door to the north: closed
+D 0 2502 5 1	* {^K{6ir{^a{6'{^s {5Ca{%ve{x: door to the down: closed
+D 0 2503 4 1	* {7F{&ela{7r {8Grotto {7Entrance {8Gates{x: door to the up: closed
+D 0 2514 1 1	* {$La {$Mer {&Co{7ve{x: door to the east: closed
+D 0 2515 3 1	* {&Und{7er {8The {3Sta{#rs{x: door to the west: closed
+D 0 2529 1 1	* Up in the Top of the Tree: door to the east: closed
+D 0 2529 3 1	* Up in the Top of the Tree: door to the west: closed
+D 0 2530 3 1	* {&A {^T{6i{^ny {%C{5ubb{%y {7H{8o{7l{8e{x: door to the west: closed
+D 0 2531 1 1	* {&A {^T{6i{^ny {%C{5ubb{%y {7H{8o{7l{8e{x: door to the east: closed
+D 0 2594 3 2	* {&The {^W{6a{&t{7e{&r{8f{^a{6l{^l{x: door to the west: closed and locked
+D 0 2596 1 2	* {$Bef{4ore {&a {8Huge {@Tree{x: door to the east: closed and locked
+D 0 2599 2 1	* {#Sec{3ret {2T{@ree{2H{@ouse{x: door to the south: closed
+D 0 2600 0 2	* {@A Huge, Fallen Tree{x: door to the north: closed and locked
+D 0 2601 2 2	* {&A White Gazebo{x: door to the south: closed and locked
+D 0 2664 4 2	* {@The Tree of Life{x: door to the up: closed and locked
+D 0 2671 5 2	* {#On a Shelf {xof the {@Tree of Life{x: door to the down: closed and locked
+O 0 2502 0 2502	* {xsome {5p{%l{5ush {6pill{^ows{x ({^K{6ir{^a{6'{^s {5Ca{%ve{x)
+M 0 2502 1 2502 1	* {&W{7a{8ffl{7e{&s{x ({^K{6ir{^a{6'{^s {5Ca{%ve{x)
+G 0 2603 0		*	{&a {!BIG {2green {3BOOGAR{x
+G 0 2681 0		*	a nice cup of wtf
+G 0 2682 0		*	a {rm{Ru{yl{Yt{gi{Gc{co{Cl{bo{Br{me{Md {Gpillow{x
+G 0 2604 0		*	{1a {!fr{1ie{!d b{1ab{!y{x
+G 0 2591 0		*	{^a {8glass {@---{2'{@--{2,{@-{!@{x
+G 0 2683 0		*	a voodoo doll of {CK{Wira{x
+G 0 2684 0		*	{CI{Wc{xy {CG{cr{Wi{xl{Cl{cz{x
+M 0 2503 2 2503 2	* {8the {7F{&ela{7r {8Gates Guard{x ({7F{&ela{7r {8Grotto {7Entrance {8Gates{x)
+O 0 2503 0 2503	* {xa {8knot hole{x ({7F{&ela{7r {8Grotto {7Entrance {8Gates{x)
+M 0 2506 50 2505 2	* a {^K{6i{^tt{6y {#T{3ravele{#r{x ({#Brightly {3Lit {2G{@rassy {4P{$a{4t{$h{x)
+M 0 2506 50 2506 2	* a {^K{6i{^tt{6y {#T{3ravele{#r{x ({#Brightly {3Lit {2G{@rassy {4P{$a{4t{$h{x)
+O 0 2509 0 2507	* {8the {$watering {8h{&o{8l{&e{x ({8The {4W{$atering {8H{&o{8l{&e{x)
+M 0 2507 1 2507 30	* a buzzing {%d{5r{%a{5g{%o{5n{&f{8l{&y{x ({8The {4W{$atering {8H{&o{8l{&e{x)
+M 0 2508 1 2508 1	* {8the {8friendly {5felar{x ({&Eastern {2Forest {7of {&Rec{7onci{8liat{&ion{x)
+E 0 2609 0 3		*	{&Key of {!L{1ov{!e{x: around the neck (1)
+M 0 2510 2 2510 2	* a {3l{#e{7o{3p{#a{7r{#d {@f{2r{@o{2g{x ({#Abnormally {&Tall {%Cat {5Tails{x)
+M 0 2511 2 2511 2	* a {8met{&all{7ic {&si{8lv{7er {!s{1n{!a{1k{!e{x ({6Next {&Row {7of {%Cat {5Tails{x)
+M 0 2512 2 2512 2	* a {&revealed {@t{2ur{@tl{2e{x ({@Thinning {%Cat {5Tails{x)
+M 0 2514 1 2514 1	* {$R{4en{$n{4ie{x ({$La {$Mer {&Co{7ve{x)
+G 0 2516 0		*	{$La {4M{$er {4B{$oa{4t{x
+O 0 2515 0 2515	* {xa {$s{4t{$a{4r{$r{4y {&blan{7ket{x ({&Und{7er {8The {3Sta{#rs{x)
+M 0 2516 1 2516 30	* a {3walking {#stick{x ({&Under the {#Beech Tree{x)
+M 0 2523 2 2524 2	* {&a {^slippery {@d{2og{#fi{3sh{x ({@Foot {&Deep {$Water{x)
+M 0 2524 2 2524 2	* {&a {#flopping {5c{%at{#fi{3sh{x ({@Foot {&Deep {$Water{x)
+M 0 2525 4 2525 4	* {xa {!fat {&mouse{x ({8S{&e{8c{&r{8e{&t {#K{3no{#t {8H{&o{8l{&e{x)
+G 0 2525 0		*	{#Cheese{x
+M 0 2526 25 2526 2	* {xthe {!wakened {&cat{x ({#T{&w{#i{&s{#t{&i{#n{&g {!Higher {&in the {2Tree{x)
+E 0 2526 0 16		*	{!Claw {&of {1Slumber{x: wielded
+M 0 2528 2 2528 2	* {7a {!w{1a{3r{#m {6k{^itte{6n{x ({&A {^Snug {%Shelf{x)
+O 0 2529 0 2529	* {xa {%t{5w{%i{5s{%t{5y {%slide{x (Up in the Top of the Tree)
+M 0 2529 1 2529 1	* {7a {%m{5othe{%r {^c{6a{^t{x (Up in the Top of the Tree)
+M 0 2531 3 2529 3	* {7a {^t{6in{^y {^k{6itte{^n{x (Up in the Top of the Tree)
+M 0 2532 50 2531 1	* {2F{@athe{2r {6k{^itte{6n{x ({&A {^T{6i{^ny {%C{5ubb{%y {7H{8o{7l{8e{x)
+M 0 2530 2 2532 2	* {&a {#s{3quish{#y {!jelly{1fish{x ({8Steep {&Drop{7-{&off {8in {$La Mer{x)
+M 0 2533 3 2533 3	* a {^s{&h{^a{&r{^k{x ({8Gigantic {&W{7h{&i{7r{&l {$Pool{x)
+M 0 2533 2 2534 2	* a {^s{&h{^a{&r{^k{x ({&Outer Rim {7of the {8Gigantic {&W{7h{&i{7r{&l {$Pool{x)
+M 0 2536 1 2536 1	* {@Mr{2. {$F{4ishi{$e {!G{1oodin{!s{x ({@F{2ishes {4H{$angout{x)
+G 0 2514 0		*	{&D{7i{&a{7m{&o{7n{&d {@Fi{2sh {^Sca{6les{x
+G 0 2517 0		*	{&P{7e{8a{7r{&l {@Fish {^Sca{6les{x
+G 0 2518 0		*	{7C{&rysta{7l {2Fi{@sh {6S{^c{6a{^l{6e{^s{x
+M 0 2541 2 2540 2	* {7a {#d{3uc{#k{x ({!C{#h{!o{#p{!p{#y {$Waves{x)
+M 0 2541 2 2541 2	* {7a {#d{3uc{#k{x ({!C{#h{!o{#p{!p{#y {$Waves{x)
+M 0 2544 2 2544 2	* {7a {$w{4hal{$e{x ({8Dark {4Blue {$Water{x)
+M 0 2545 2 2545 2	* {7a {!c{1ra{!b{x ({&S{7h{8i{7m{&m{7e{8r{7i{&n{7g {&in the {#Sun{x)
+M 0 2546 2 2545 2	* {7a {#l{&a{#z{&y {^l{6obste{^r{x ({&S{7h{8i{7m{&m{7e{8r{7i{&n{7g {&in the {#Sun{x)
+M 0 2549 1 2549 1	* {xthe {!Unforgiving {&Squid{x ({$Proving {^Your {&Ho{7n{8or{x)
+E 0 2549 0 17		*	{@I{#s{@l{#a{@n{#d {&Acceptance{x: held in the hands
+O 0 2542 0 2552	* a man-made {cw{Ca{xt{We{cr{Cf{xa{Wl{cl{x ({&Fresh {2Green {@G{2r{@a{2s{@s {8Upon {&King {%K{#a{%t{&'{#s {6Is{^le{x)
+O 0 2556 0 2556	* a {&healing bed {xof {%f{1l{!o{5w{%e{1r{!s{x (The Loft)
+O 0 2557 0 2557	* {7a {&s{8h{7i{8n{&y {#conch {&shell{x (Along the Sand)
+M 0 2561 1 2561 1	* {&the {%d{5a{$n{^c{%i{5n{$g {&welcomer{x ({&Into {^the {%City{x)
+O 0 2676 0 2568	* {&A {%C{5o{$l{^o{%r{5f{$u{^l {&Sign{x ({&A {^Sign {%Post{x)
+M 0 2569 1 2569 1	* {5M{8a{&d{5a{8m{&e {5M{8a{&r{5g{8u{&e{5r{8i{&t{5e{x ({5L{8a {5M{8a{&i{5s{8o{&n {5d{8e{&s {5C{8h{&a{5t{8s{x)
+G 0 2568 0		*	{!C{1a{!j{1u{!n {1Cat{3Nip{x
+G 0 2569 0		*	{1Cat{3Nip{x
+O 0 2575 0 2569	* {xa {2g{5a{2r{5l{2a{5n{2d {xpost{x ({5L{8a {5M{8a{&i{5s{8o{&n {5d{8e{&s {5C{8h{&a{5t{8s{x)
+M 0 2570 1 2570 1	* {%K{5ate{x ({8The {$Common {8Spot{x)
+G 0 2572 0		*	{7a {!s{1t{!e{1a{!m{1i{!n{1g {7cup of {8black coffee{x
+O 0 2671 0 2570	* {8the {%s{5q{$u{4i{&s{7h{7y {8couch{x ({8The {$Common {8Spot{x)
+G 0 2573 0		*	{8a {#steaming {!m{1ug {8of {#t{3ea{x
+G 0 2574 0		*	{8a fresh bowl of {&mi{7l{8k{x
+M 0 2571 1 2571 1	* {%F{5l{&e{%u{5r{&a{%n{5n{&a{x ({%L{&a {%M{&a{8i{%s{&o{8n{%s {%d{&e{8s {%F{&l{8e{%u{&r{8s{x)
+G 0 2571 0		*	a beautiful {^chrysan{6themum {%flow{5er{x
+G 0 2570 0		*	a {#s{3u{&n{#f{3l{&o{#w{3e{&r{x
+M 0 2572 1 2572 1	* {%D{5el{%i{5la{%h{x ({$F{4elars{$' {!W{1eapon {8Shop{x)
+G 0 2558 0		*	{1N{!ine {$L{4i{$ves{x
+G 0 2577 0		*	{xa {5p{%lu{5sh {%p{5a{%w{x
+M 0 2576 1 2576 1	* {%K{5rystani{%a{x ({$The {%Litter {^Box{x)
+G 0 2578 0		*	{xa {#stuffed {&m{5o{1u{&s{8e{x
+G 0 2581 0		*	{5S{%ug{5a{%r {bC{Ban{be {8({1Cat{3Nip {&Style{8){x
+M 0 2579 3 2579 30	* {!R{&o{1y{7a{!l {!G{&u{1a{7r{!d{&i{1a{7n {&of {%K{&a{%t{&'{%s {^K{6i{&n{7g{^d{6o{&m{x ({%G{5a{^z{6i{&n{7g {&Upon {8the {#Golden {3G{#a{&t{#e{7s{x)
+E 0 2580 0 16		*	{!R{&o{1y{7a{!l G{&u{1a{7r{!d{&i{1a{7n {3A{&x{#e{x: wielded
+M 0 2580 2 2580 30	* {xa {#trumpeter{x ({1I{!n{3s{#i{1d{!e {7the {3G{#a{&t{#e{7s {8of {%K{&a{%t{&'{%s {^K{6i{&n{7g{^d{6o{&m{x)
+M 0 2589 1 2589 1	* a playful lark ({%Bea{5uti{!ful {1Ter{%race{x)
+G 0 2540 0		*	{YA Lark's Bidding {B-- {W'{MK{W'{x
+M 0 2506 50 2590 2	* a {^K{6i{^tt{6y {#T{3ravele{#r{x ({$Path Through the {2Forest{x)
+M 0 2506 50 2591 2	* a {^K{6i{^tt{6y {#T{3ravele{#r{x ({$Path Through the {2Forest{x)
+O 0 2608 0 2592	* {7a {2tuft {7of {@grass{x ({@A Thriving, Green Path{x)
+O 0 2608 0 2593	* {7a {2tuft {7of {@grass{x ({@A Thriving, Green Path{x)
+O 0 2596 0 2594	* the {&re{7fl{8ec{7ti{&on{x of the {&m{8oo{&n in the {&p{7o{8ol{x ({&The {^W{6a{&t{7e{&r{8f{^a{6l{^l{x)
+O 0 2595 0 2594	* {^gl{6im{&me{7ri{7n{6g s{^to{&n{7e{x ({&The {^W{6a{&t{7e{&r{8f{^a{6l{^l{x)
+O 0 2594 0 2594	* {^sp{6ar{&kl{7in{6g w{&at{6er{^f{&a{^l{6l{x ({&The {^W{6a{&t{7e{&r{8f{^a{6l{^l{x)
+O 0 2610 0 2595	* {7a natural sink of {^water{x ({^A Small Basin{x)
+M 0 2596 1 2596 1	* {8Little {%B{5lind {$C{4ashus{x ({$Bef{4ore {&a {8Huge {@Tree{x)
+G 0 2611 0		*	{8A {&Beggar{7'{&s {8Mug{x
+M 0 2597 2 2597 2	* {7a {&w{8ombat{x ({8A Huge, Winding {@Tree{x)
+O 0 2592 0 2598	* {8an {%i{8r{%i{8s{x ({%A Plush, Bed of Flowers{x)
+O 0 2599 0 2599	* {7a {@Green {$Bean {%Bag{x ({#Sec{3ret {2T{@ree{2H{@ouse{x)
+O 0 2600 0 2599	* {^Kira{6'{^s {4Comfy {$Blue {4L{$eather {4Couch{x ({#Sec{3ret {2T{@ree{2H{@ouse{x)
+O 0 2590 0 2600	* {@a huge, fallen tree{x ({@A Huge, Fallen Tree{x)
+M 0 2600 50 2600 2	* {8an {&innocent {#l{3ark{x ({@A Huge, Fallen Tree{x)
+G 0 2677 0		*	{&White Gazebo {%K{5e{%y{x
+O 0 2602 0 2601	* {7a {8wooden bench{x ({&A White Gazebo{x)
+M 0 2603 10 2602 1	* a dead tree ({8Death To the {@T{2ree{@s{x)
+M 0 2603 10 2603 1	* a dead tree ({8Death To the {@T{2ree{@s{x)
+M 0 2603 10 2604 1	* a dead tree ({8Death To The {#U{3ndergrow{#th{x)
+O 0 2605 0 2605	* {&a hammock{x ({%K{5i{Br{^a{B'{%s {&Balcony{x)
+M 0 2606 10 2606 1	* some dead undergrowth ({8Death To The {#U{3ndergrow{#th{x)
+M 0 2607 10 2607 1	* stinky air ({8Death To The {^A{6ir{x)
+M 0 2607 10 2608 1	* stinky air ({8Death To The {^A{6ir{x)
+O 0 2519 0 2610	* a weeping willow ({8The Weeping {&W{8illo{&w{x)
+M 0 2611 1 2611 1	* {8Andronias{x ({8Stagnant Chamber{x)
+M 0 2628 10 2625 1	* a servant ({7G{&la{7ss {5F{%l{bo{^o{6r{x)
+M 0 2628 10 2627 1	* a servant ({7G{&la{7ss {5F{%l{bo{^o{6r{x)
+M 0 2628 10 2628 1	* a servant ({7G{&la{7ss {5F{%l{bo{^o{6r{x)
+O 0 2649 0 2649	* a heart-shaped canopy bed ({%[ {bK{Bi{%n{5g {%K{&a{%t{&'{%s {bC{Bh{%a{5m{bb{Be{%r{5s {%]{x)
+M 0 2649 1 2649 1	* The {CR{co{By{ba{Bl {BK{bing {MK{wa{Mt{x ({%[ {bK{Bi{%n{5g {%K{&a{%t{&'{%s {bC{Bh{%a{5m{bb{Be{%r{5s {%]{x)
+M 0 2650 1 2650 1	* {RE{rn{Mc{mh{Ra{rn{Mt{mi{Ra{x ({!E{1n{%c{5h{!a{1n{%t{5i{!a{1'{%s {5Bedroom {3Quarters{x)
+M 0 2651 1 2651 1	* {CE{cs{bh{Bm{Ci{cr{be{Bl{Cd{ca{x ({^E{6s{bh{Bm{^i{6r{be{Bl{^d{6a{b'{Bs {bBedroom {6Quarters{x)
+M 0 2652 1 2652 1	* {#E{3v{&e{7r{#e{3t{&t{7a{x ({#E{3v{&e{7r{#e{3t{&t{7a{#'{3s {#Bedroom {7Quarters{x)
+M 0 2655 1 2655 1	* {bV{Be{bh{Be{bm{Bi{ba{Bn{x ({bV{Be{bh{Be{bm{Bi{ba{Bn{b'{Bs {bAbode{x)
+M 0 2656 1 2656 1	* {RV{rr{Wo{ws{Rh{ri{Wm{wa{x ({!V{1r{&o{7s{!h{1i{&m{7a{!'{1s {!Abode{x)
+M 0 2657 1 2657 1	* {8Vi{xsc{Whu{xu{x ({8Vi{7sc{&hu{7u'{8s {&Abode{x)
+M 0 2658 1 2658 1	* {CV{ca{bru{Bne{x ({^V{6a{bru{Bne's {^Abode{x)
+O 0 2659 0 2659	* a frilly bed ({5M{%a{bi{Bd{5'{%s {bB{Bo{%u{5d{bo{Bi{%r{x)
+O 0 2664 0 2664	* {3a root of {@the Tree of Life{x ({@The Tree of Life{x)
+M 0 2664 1 2664 30	* {xa beautiful {&White Wolf{x ({@The Tree of Life{x)
+G 0 2665 0		*	{%P{5assport {&to the {^S{6ky{x
+M 0 2665 10 2665 1	* a fish out of water ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+M 0 2665 10 2666 1	* a fish out of water ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+M 0 2668 10 2667 2	* a hummingbird ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+M 0 2668 10 2668 2	* a hummingbird ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+M 0 2665 10 2669 1	* a fish out of water ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+M 0 2668 10 2670 2	* a hummingbird ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+O 0 2670 0 2670	* a hammock ({&The {bC{Bo{%u{5r{bt{By{%a{5r{bd{x)
+M 0 2672 1 2672 1	* {7The {&Giant {!Red {1Humm{!ing{1bird{x ({#Highest Branch {7of the {@Tree of Life{x)
+O 0 2673 0 2673	* {^a fluffy {&white {^cloud{x ({^On a Cloud{x)
+O 0 2674 0 2674	* a {^bed {xof {%fluffballs{x ({5[ {%* {5K{%i{5ra's {5O{%f{5fice {%* {5]{x)
+S
+
+#SHOPS
+2502 0 0 0 0 0 100 13 0 23
+2514 0 22 -1 -1 0 100 18 0 23
+2536 0 33 33 33 0 110 15 0 23
+2569 0 0 0 0 0 100 11 0 23
+2570 17 17 17 17 17 100 14 0 23
+2571 0 0 0 0 0 100 11 0 23
+2572 5 5 0 0 0 100 20 0 23
+2576 19 19 0 0 0 100 15 0 23
+0
+
+#MOBPROGS
+#2502
+say If you're being naughty...I'll tell Kira on you!
+pout
+~
+#2503
+if isevil $n
+say Welcome, evil one...
+say Prepare yourself for the beautiful Felar Grotto...And a battle of the guards!
+endif
+if isgood $n
+say Welcome, pure one, please make yourself at home in the Grotto.
+endif
+end
+~
+#2506
+emote waves a warm hello.
+say I hear there's a mighty King somewhere to the north! With servants, and operas...and a beautiful castle...
+emote smiles dreamily.
+~
+#2507
+~
+#2508
+say I wish you a wonderful stay in the Forest of Reconciliation!
+~
+#2509
+emote flits onto your shoulder and {%g{5i{%gg{5l{%es{x.
+~
+#2529
+ifisvisible S*
+kill 100
+endif
+end
+c
+~
+#2531
+mob remember mother
+mob force $q mob kill $n
+mob forget
+end
+~
+#2532
+say Oh hello, dear. Do you need a place to stay for the night?
+smile $n
+~
+#2533
+say You are welcome in my home, $n.
+~
+#2549
+if isevil $n
+say Goodluck trying to pass me if that's what you're up to.
+end
+say The king would never allow this, you know!
+endif
+end
+~
+#2579
+beam $n
+say What a wonderful day to be wandering the Metropolis!
+~
+#2580
+emote raises his trumpet and tiny {#golden {xnotes float into the air!
+~
+#2596
+say Please...be so kind as to give me some change...I am but a poor and blind cat.
+sulk
+~
+#2600
+pillow $n
+~
+#2602
+say If you want to know the history of my darkness, say "Tell me this forest's burden."
+~
+#2603
+say "You are not welcome here," Once said the Angel Kira, "Please leave or there will be many days mirroring the inescapable bloody nights some wish to never remember." This statue found its spot in the ground through blood and guts. No one knows why Elial made the decision to make a pact with the evil King of Exile. Good verses evil is what it came down to that day, and Elial found his heart slaughtering the innocence of this city.
+~
+#2657
+say I'm a clean freak!!!
+emote hastily zooooooms around his room picking up lint and barely noticeable things from his carpet.
+~
+#2672
+say Hello, $n! I see you've been climbing the Tree of Life! Would you like me to take you even further? Say, into the clouds, perhaps?
+~
+#2673
+say Alright! Well then? Alley-oop!
+emote grasps you by the shoulders with his enormous claws and shoots way up into the {^s{6ky{x!
+mob trans $n 2673
+~
+#0
+
+#$

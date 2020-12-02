@@ -1,0 +1,1624 @@
+/*-
+ * Copyright (c) 1998 fjoe <fjoe@iclub.nsu.ru>
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ * $Id: olc_mob.c 928 2006-11-05 21:44:44Z zsuzsu $
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "merc.h"
+#include "olc.h"
+#include "db/db.h"
+
+#define EDIT_MOB(ch, mob)	(mob = (MOB_INDEX_DATA*) ch->desc->pEdit)
+
+/*
+ * Mobile Editor Prototypes
+ */
+DECLARE_OLC_FUN(mobed_create		);
+DECLARE_OLC_FUN(mobed_edit		);
+DECLARE_OLC_FUN(mobed_touch		);
+DECLARE_OLC_FUN(mobed_show		);
+DECLARE_OLC_FUN(mobed_list		);
+DECLARE_OLC_FUN(mobed_list_brief	);
+
+DECLARE_OLC_FUN(mobed_name		);
+DECLARE_OLC_FUN(mobed_short		);
+DECLARE_OLC_FUN(mobed_long		);
+DECLARE_OLC_FUN(mobed_shop		);
+DECLARE_OLC_FUN(mobed_desc		);
+DECLARE_OLC_FUN(mobed_dodge		);
+DECLARE_OLC_FUN(mobed_level		);
+DECLARE_OLC_FUN(mobed_align		);
+DECLARE_OLC_FUN(mobed_spec		);
+DECLARE_OLC_FUN(mobed_attr		);
+
+DECLARE_OLC_FUN(mobed_sex		);  /* ROM */
+DECLARE_OLC_FUN(mobed_act		);  /* ROM */
+DECLARE_OLC_FUN(mobed_affect		);  /* ROM */
+DECLARE_OLC_FUN(mobed_ac		);  /* ROM */
+DECLARE_OLC_FUN(mobed_form		);  /* ROM */
+DECLARE_OLC_FUN(mobed_part		);  /* ROM */
+DECLARE_OLC_FUN(mobed_imm		);  /* ROM */
+DECLARE_OLC_FUN(mobed_res		);  /* ROM */
+DECLARE_OLC_FUN(mobed_vuln		);  /* ROM */
+DECLARE_OLC_FUN(mobed_material		);
+DECLARE_OLC_FUN(mobed_matdesc		);
+DECLARE_OLC_FUN(mobed_off		);  /* ROM */
+DECLARE_OLC_FUN(mobed_size		);  /* ROM */
+DECLARE_OLC_FUN(mobed_hitdice		);  /* ROM */
+DECLARE_OLC_FUN(mobed_manadice		);  /* ROM */
+DECLARE_OLC_FUN(mobed_damdice		);  /* ROM */
+DECLARE_OLC_FUN(mobed_race		);  /* ROM */
+DECLARE_OLC_FUN(mobed_startpos		);  /* ROM */
+DECLARE_OLC_FUN(mobed_defaultpos	);  /* ROM */
+DECLARE_OLC_FUN(mobed_gold		);  /* ROM */
+DECLARE_OLC_FUN(mobed_hitroll		);  /* ROM */
+DECLARE_OLC_FUN(mobed_damtype		);  /* ROM */
+DECLARE_OLC_FUN(mobed_group		);  /* ROM */
+DECLARE_OLC_FUN(mobed_trigadd		);  /* ROM */
+DECLARE_OLC_FUN(mobed_trigdel		);  /* ROM */
+DECLARE_OLC_FUN(mobed_prac		); 
+DECLARE_OLC_FUN(mobed_clan		);
+DECLARE_OLC_FUN(mobed_clone		);
+DECLARE_OLC_FUN(mobed_invis		);
+DECLARE_OLC_FUN(mobed_fvnum		);
+DECLARE_OLC_FUN(mobed_autoset		);
+DECLARE_OLC_FUN(mobed_autohard		);
+DECLARE_OLC_FUN(mobed_autoeasy		);
+DECLARE_OLC_FUN(mobed_hitdicebonus	);
+
+DECLARE_VALIDATE_FUN(validate_fvnum	);
+
+olc_cmd_t olc_cmds_mob[] =
+{
+/*	{ sec, command	function		args		}, */
+	{ 2, "create",	mobed_create				},
+	{ 2, "edit",	mobed_edit				},
+	{ 2, "touch",	mobed_touch				},
+	{ 0, "show",	mobed_show				},
+	{ 0, "list",	mobed_list				},
+	{ 2, "brief",	mobed_list_brief			},
+
+	{ 2, "alignment",mobed_align				},
+	{ 2, "desc",	mobed_desc				},
+	{ 2, "dodge",	mobed_dodge				},
+	{ 2, "level",	mobed_level				},
+	{ 2, "long",	mobed_long				},
+	{ 2, "name",	mobed_name				},
+	{ 2, "shop",	mobed_shop				},
+	{ 2, "short",	mobed_short				},
+	{ 2, "spec",	mobed_spec				},
+
+	{ 2, "sex",	mobed_sex,		sex_table	},
+	{ 2, "act",	mobed_act,		act_flags	},
+	{ 2, "affect",	mobed_affect,		affect_flags	},
+	{ 2, "prac",	mobed_prac,		skill_groups	},
+	{ 2, "armor",	mobed_ac				},
+	{ 2, "form",	mobed_form,		form_flags	},
+	{ 2, "part",	mobed_part,		part_flags	},
+	{ 2, "attributes",mobed_attr,		mob_attr_flags	},
+	{ 2, "imm",	mobed_imm,		imm_flags	},
+	{ 2, "res",	mobed_res,		res_flags	},
+	{ 2, "vuln",	mobed_vuln,		vuln_flags	},
+	{ 2, "material",mobed_material				},
+	{ 2, "matdesc",	mobed_matdesc				},
+	{ 2, "off",	mobed_off,		off_flags	},
+	{ 2, "size",	mobed_size,		size_table	},
+	{ 2, "hpbonus",	mobed_hitdicebonus			},
+	{ 2, "manadice",mobed_manadice				},
+	{ 2, "damdice",	mobed_damdice				},
+	{ 2, "race",	mobed_race				},
+	{ 2, "startpos",mobed_startpos,		position_table	},
+	{ 2, "defaultpos",mobed_defaultpos,	position_table	},
+	{ 2, "wealth",	mobed_gold				},
+	{ 2, "hitroll",	mobed_hitroll				},
+	{ 2, "damtype",	mobed_damtype				},
+	{ 2, "group",	mobed_group				},
+	{ 2, "clan",	mobed_clan				},
+	{ 2, "trigadd",	mobed_trigadd				},
+	{ 2, "trigdel",	mobed_trigdel				},
+	{ 0, "clone",	mobed_clone				},
+	{ 2, "invis",	mobed_invis				},
+	{ 2, "autoset",	mobed_autoset				},
+	{ 2, "autohard",mobed_autohard				},
+	{ 2, "autoeasy",mobed_autoeasy				},
+	{ 2, "fvnum",	mobed_fvnum,		validate_fvnum	},
+
+	{ 0, "commands",show_commands				},
+	{ 0, "version",	show_version				},
+
+	{ 0, NULL }
+};
+
+static void show_spec_cmds(CHAR_DATA *ch);
+
+OLC_FUN(mobed_create)
+{
+	MOB_INDEX_DATA *pMob;
+	AREA_DATA *pArea;
+	int  value;
+	int  iHash;
+	char arg[MAX_STRING_LENGTH];
+
+	one_argument(argument, arg, sizeof(arg));
+	value = atoi(arg);
+	if (!value) {
+		do_help(ch, "'OLC CREATE'");
+		return FALSE;
+	}
+
+	pArea = area_vnum_lookup(value);
+	if (!pArea) {
+		char_puts("MobEd: That vnum is not assigned an area.\n", ch);
+		return FALSE;
+	}
+
+	if (!IS_BUILDER(ch, pArea)) {
+		char_puts("MobEd: Insufficient security.\n", ch);
+		return FALSE;
+	}
+
+	if (get_mob_index(value)) {
+		char_puts("MobEd: Mobile vnum already exists.\n", ch);
+		return FALSE;
+	}
+
+	pMob			= new_mob_index();
+	pMob->vnum		= value;
+		 
+	if (value > top_vnum_mob)
+		top_vnum_mob = value;        
+
+	pMob->act		= ACT_NPC;
+	iHash			= value % MAX_KEY_HASH;
+	pMob->next		= mob_index_hash[iHash];
+	mob_index_hash[iHash]	= pMob;
+
+	ch->desc->pEdit		= (void*) pMob;
+	OLCED(ch)		= olced_lookup(ED_MOB);
+	touch_area(pArea);
+	char_puts("MobEd: Mobile created.\n", ch);
+	return FALSE;
+}
+
+OLC_FUN(mobed_edit)
+{
+	MOB_INDEX_DATA *pMob;
+	AREA_DATA *pArea;
+	int value;
+	char arg[MAX_INPUT_LENGTH];
+
+	one_argument(argument, arg, sizeof(arg));
+	if (arg[0] == '\0') {
+		do_help(ch, "'OLC EDIT'");
+		return FALSE;
+	}
+
+	value = atoi(arg);
+	if ((pMob = get_mob_index(value)) == NULL) {
+		char_puts("MobEd: Vnum does not exist.\n", ch);
+		return FALSE;
+	}
+
+	pArea = area_vnum_lookup(pMob->vnum);
+	if (!IS_BUILDER(ch, pArea)) {
+		char_puts("MobEd: Insufficient security.\n", ch);
+	       	return FALSE;
+	}
+
+	ch->desc->pEdit	= (void*) pMob;
+	OLCED(ch)	= olced_lookup(ED_MOB);
+	return FALSE;
+}
+
+OLC_FUN(mobed_touch)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return touch_vnum(pMob->vnum);
+}
+
+OLC_FUN(mobed_show)
+{
+	char arg[MAX_INPUT_LENGTH];
+	MOB_INDEX_DATA	*pMob;
+	AREA_DATA	*pArea;
+	MPTRIG *mptrig;
+	BUFFER *buf;
+	clan_t *clan;
+
+	one_argument(argument, arg, sizeof(arg));
+	if (arg[0] == '\0') {
+		if (IS_EDIT(ch, ED_MOB))
+			EDIT_MOB(ch, pMob);
+		else {
+			do_help(ch, "'OLC ASHOW'");
+			return FALSE;
+		}
+	}
+	else {
+		int value = atoi(arg);
+		if ((pMob = get_mob_index(value)) == NULL) {
+			char_puts("MobEd: Vnum does not exist.\n", ch);
+			return FALSE;
+		}
+	}
+
+	buf = buf_new(-1);
+
+	pArea = area_vnum_lookup(pMob->vnum);
+	buf_printf(buf, "Name:        [%s]\nArea:        [%5d] %s\n",
+		pMob->name, pArea->vnum, pArea->name);
+
+	buf_printf(buf, "Act:         [%s]\n",
+		flag_string(act_flags, pMob->act));
+
+	buf_printf(buf, "Attributes:  [%s]\n",
+		flag_string(mob_attr_flags, pMob->attr_flags));
+
+	buf_printf(buf, "Vnum:        [%5d] Sex:   [%s]   Race: [%s]\n",
+		pMob->vnum,
+		flag_string(sex_table, pMob->sex),
+		race_name(pMob->race));
+
+	if (pMob->clan && (clan = clan_lookup(pMob->clan))) 
+		buf_printf(buf, "Clan:        [%s]\n", clan->name);
+
+	buf_printf(buf, "Level:       [%2d]    Align: [%4d]      Hitroll: [%2d] Dam Type:    [%s]\n",
+		pMob->level,	pMob->alignment,
+		pMob->hitroll,	attack_table[pMob->dam_type].name);
+
+	if (pMob->group)
+		buf_printf(buf, "Group:       [%5d]\n", pMob->group);
+
+	buf_printf(buf, "Hit dice:    [%2dd%-3d+%4d] ",
+			 pMob->hit[DICE_NUMBER],
+			 pMob->hit[DICE_TYPE],
+			 pMob->hit[DICE_BONUS]);
+
+	buf_printf(buf, "Damage dice: [%2dd%-3d+%4d] ",
+			 pMob->damage[DICE_NUMBER],
+			 pMob->damage[DICE_TYPE],
+			 pMob->damage[DICE_BONUS]);
+
+	buf_printf(buf, "Mana dice:   [%2dd%-3d+%4d]\n",
+			 pMob->mana[DICE_NUMBER],
+			 pMob->mana[DICE_TYPE],
+			 pMob->mana[DICE_BONUS]);
+
+/* ROM values end */
+	buf_printf(buf, "Affected by: [%s]\n",
+		flag_string(affect_flags, pMob->affected_by));
+
+/* ROM values: */
+
+	buf_printf(buf, "Armor:       [pierce: %d  bash: %d  slash: %d  magic: %d]\n",
+		pMob->ac[AC_PIERCE], pMob->ac[AC_BASH],
+		pMob->ac[AC_SLASH], pMob->ac[AC_EXOTIC]);
+
+	buf_printf(buf, "Dodge Skill: [%d]\n",
+			pMob->dodge);
+
+	buf_printf(buf, "Form:        [%s]\n",
+		flag_string(form_flags, pMob->form));
+
+	buf_printf(buf, "Parts:       [%s]\n",
+		flag_string(part_flags, pMob->parts));
+
+	buf_printf(buf, "Imm:         [%s]\n",
+		flag_string(imm_flags, pMob->imm_flags));
+
+	buf_printf(buf, "Res:         [%s]\n",
+		flag_string(res_flags, pMob->res_flags));
+
+	buf_printf(buf, "Vuln:        [%s]\n",
+		flag_string(vuln_flags, pMob->vuln_flags));
+
+	buf_printf(buf, "Off:         [%s]\n",
+		flag_string(off_flags,  pMob->off_flags));
+
+	buf_printf(buf, "Size:        [%s]\n",
+		flag_string(size_table, pMob->size));
+
+	buf_printf(buf, "Material:    [%s]\n",
+		 (pMob->material) ? pMob->material->name : "null");
+
+	buf_printf(buf, "MatDesc:     [%s]\n",
+		 pMob->material_descr);
+
+	buf_printf(buf, "Start pos:   [%s]\n",
+		flag_string(position_table, pMob->start_pos));
+
+	buf_printf(buf, "Default pos: [%s]\n",
+		flag_string(position_table, pMob->default_pos));
+
+	buf_printf(buf, "Wealth:      [%5d]\n", pMob->wealth);
+
+		buf_printf(buf, "Invis level: [%d]\n", pMob->invis_level);
+
+	if (pMob->fvnum)
+		buf_printf(buf, "Female vnum: [%d]\n", pMob->fvnum);
+
+/* ROM values end */
+
+		buf_printf(buf, "Spec fun:    [%s]\n",  spec_name(pMob->spec_fun));
+		buf_printf(buf, "Practicer:   [%s]\n",
+			flag_string(skill_groups, pMob->practicer));
+
+	mlstr_dump(buf, "Short descr: ", pMob->short_descr);
+	mlstr_dump(buf, "Long descr: ", pMob->long_descr);
+	mlstr_dump(buf, "Description: ", pMob->description);
+
+	if (pMob->pShop) {
+		SHOP_DATA *pShop;
+		int iTrade;
+
+		pShop = pMob->pShop;
+
+		buf_printf(buf, "Shop data for [%5d]:\n"
+				"  Markup for purchaser: %d%%\n"
+				"  Markdown for seller:  %d%%\n",
+			pShop->keeper, pShop->profit_buy, pShop->profit_sell);
+		buf_printf(buf, "  Hours: %d to %d.\n",
+			pShop->open_hour, pShop->close_hour);
+
+		for (iTrade = 0; iTrade < MAX_TRADE; iTrade++) {
+			if (pShop->buy_type[iTrade] != 0) {
+			if (iTrade == 0) {
+				buf_add(buf, "  Number Trades Type\n");
+				buf_add(buf, "  ------ -----------\n");
+			}
+			buf_printf(buf, "  [%4d] %s\n", iTrade,
+				flag_string(item_types, pShop->buy_type[iTrade]));
+			}
+		}
+	}
+
+	if (pMob->mptrig_list) {
+		int cnt = 0;
+
+		buf_printf(buf, "\nMOBPrograms for [%5d]:\n", pMob->vnum);
+
+		for (mptrig = pMob->mptrig_list; mptrig; mptrig = mptrig->next) {
+			if (cnt ==0) {
+				buf_add(buf, " Number Vnum Trigger Phrase [Flags]\n");
+				buf_add(buf, " ------ ---- ------- ----------------------------------------------------------\n");
+			}
+
+			buf_printf(buf, "[%5d] %4d %7s %s [%s]\n", cnt,
+			mptrig->vnum, flag_string(mptrig_types, mptrig->type),
+			mptrig->phrase,
+			flag_string(mptrig_flags, mptrig->flags));
+			cnt++;
+		}
+	}
+
+	page_to_char(buf_string(buf), ch);
+	buf_free(buf);
+
+	return FALSE;
+}
+
+OLC_FUN(mobed_list)
+{
+	MOB_INDEX_DATA	*pMobIndex;
+	AREA_DATA	*pArea;
+	BUFFER		*buffer;
+	char		arg  [MAX_INPUT_LENGTH];
+	bool 		fAll, found;
+	int 		vnum;
+	int  		col = 0;
+	const char 	*name;
+	char		buf  [MAX_INPUT_LENGTH];
+	int 		ansi_len = 0;
+
+
+	argument = one_argument(argument, arg, sizeof(arg));
+/*
+	if (arg[0] == '\0') {
+		arg = "all";
+		do_help(ch, "'OLC ALIST'");
+		return FALSE;
+	}
+*/
+
+	if (!str_cmp("brief", arg)) {
+		return mobed_list_brief(ch, argument, cmd);
+	}
+
+	if ((pArea = get_edited_area(ch)) == NULL)
+		pArea = ch->in_room->area;
+
+	buffer = buf_new(-1);
+	fAll    = arg[0] == '\0' || !str_cmp(arg, "all");
+	found   = FALSE;
+
+	for (vnum = pArea->min_vnum; vnum <= pArea->max_vnum; vnum++) {
+		if ((pMobIndex = get_mob_index(vnum)) != NULL) {
+			if (fAll || is_name(arg, pMobIndex->name)) {
+				found = TRUE;
+
+				/*format: "{D[{W%5d{D]{x %-17.16s{x"*/
+				name = mlstr_mval(pMobIndex->short_descr);
+				ansi_len = astrlen(name, 17);
+
+				snprintf(buf, sizeof(buf),
+					"{D[{W%%5d{D]{x %%-%d.%ds{x",
+					17 + ansi_len,
+					16 + ansi_len);
+
+				buf_printf(buffer, buf,
+					   vnum,
+					   name);
+
+				if (++col % 3 == 0)
+					buf_add(buffer, "\n");
+			}
+		}
+	}
+
+	if (!found) 
+		char_puts("MobEd: No mobiles in this area.\n", ch);
+	else {
+		if (col % 3 != 0)
+			buf_add(buffer, "\n");
+
+		page_to_char(buf_string(buffer), ch);
+	}
+
+	buf_free(buffer);
+	return FALSE;
+}
+
+/*
+ * gives a brief rundown of the mobs in the area and their attributes
+ */
+OLC_FUN(mobed_list_brief)
+{
+	MOB_INDEX_DATA	*pMobIndex;
+	AREA_DATA	*pArea;
+	BUFFER		*buffer;
+	char		arg  [MAX_INPUT_LENGTH];
+	bool 		fAll, found;
+	int 		vnum;
+	const char 	*name;
+	char		buf  [MAX_INPUT_LENGTH];
+	int 		ansi_len = 0;
+
+
+	one_argument(argument, arg, sizeof(arg));
+
+	if ((pArea = get_edited_area(ch)) == NULL)
+		pArea = ch->in_room->area;
+
+	buffer = buf_new(-1);
+	fAll    = arg[0] == '\0' || !str_cmp(arg, "all");
+	found   = FALSE;
+
+	for (vnum = pArea->min_vnum; vnum <= pArea->max_vnum; vnum++) {
+		if ((pMobIndex = get_mob_index(vnum)) != NULL) {
+			if (fAll || is_name(arg, pMobIndex->name)) {
+				found = TRUE;
+
+				/*format: "{D[{W%5d{D]{x %-17.16s{x"*/
+				name = mlstr_mval(pMobIndex->short_descr);
+				ansi_len = astrlen(name, 17);
+
+				snprintf(buf, sizeof(buf),
+					"{D[{W%%5d{D]{x %%-%d.%ds{x",
+					17 + ansi_len,
+					16 + ansi_len);
+
+				buf_printf(buffer, buf,
+					   vnum,
+					   name);
+
+				buf_printf(buffer, 
+					"%3d "
+					"%c%c%c%c%c-"
+					"%c%c%c-"
+					"%c%c%c-"
+					"%c%c%c%c%c-"
+					"%c%c%c%c%c "
+					"%5d%c %5d\n",
+					pMobIndex->level,
+					IS_SET(pMobIndex->act, ACT_WARRIOR) ? 'W': '.',
+					IS_SET(pMobIndex->act, ACT_CLERIC)  ? 'C': '.',
+					IS_SET(pMobIndex->act, ACT_THIEF)   ? 'T': '.',
+					IS_SET(pMobIndex->act, ACT_MAGE)    ? 'M': '.',
+					IS_SET(pMobIndex->act, ACT_UNDEAD)  ? 'U': '.',
+
+					IS_SET(pMobIndex->act, ACT_AGGRESSIVE) ? 'A': '.',
+					IS_SET(pMobIndex->act, ACT_AGGRO_RELATIVE) ? 'a': '.',
+					IS_SET(pMobIndex->act, ACT_CLAN_GUARD)  ? 'C': '.',
+
+					IS_SET(pMobIndex->act, ACT_TRAIN)   ? 'T': '.',
+					IS_SET(pMobIndex->act, ACT_PRACTICE)? 'P': '.',
+					IS_SET(pMobIndex->act, ACT_GAIN)    ? 'G': '.',
+
+					IS_SET(pMobIndex->act, ACT_QUESTOR) ? 'Q': '.',
+					IS_SET(pMobIndex->act, ACT_SAGE)    ? 'S': '.',
+					IS_SET(pMobIndex->act, ACT_CHANGER) ? 'C': '.',
+					IS_SET(pMobIndex->act, ACT_HEALER)  ? 'H': '.',
+					IS_SET(pMobIndex->act, ACT_GAMBLER) ? 'G': '.',
+
+					IS_SET(pMobIndex->affected_by, AFF_DETECT_INVIS)  ? 'i': '.',
+					IS_SET(pMobIndex->affected_by, AFF_DETECT_HIDDEN) ? 'H': '.',
+					IS_SET(pMobIndex->affected_by, AFF_ACUTE_VISION)  ? 'C': '.',
+					IS_SET(pMobIndex->affected_by, AFF_DETECT_IMP_INVIS)  ? 'I': '.',
+					IS_SET(pMobIndex->affected_by, AFF_DETECT_FADE)   ? 'F': '.',
+
+					pMobIndex->alignment,
+					IS_SET(pMobIndex->act, ACT_NOALIGN) ? '*' : ' ',
+					pMobIndex->wealth);
+			}
+
+		}
+	}
+
+	if (!found) 
+		char_puts("MobEd: No mobiles in this area.\n", ch);
+	else
+		page_to_char(buf_string(buffer), ch);
+
+	buf_free(buffer);
+	return FALSE;
+}
+
+OLC_FUN(mobed_spec)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+
+	if (argument[0] == '\0') {
+		char_puts("Syntax:  spec [special function]\n", ch);
+		return FALSE;
+	}
+
+	if (!str_cmp(argument, "?")) {
+		show_spec_cmds(ch);
+		return FALSE;
+	}
+
+	if (!str_cmp(argument, "none")) {
+		 pMob->spec_fun = NULL;
+
+		 char_puts("Spec removed.\n", ch);
+		 return TRUE;
+	}
+
+	if (spec_lookup(argument)) {
+		pMob->spec_fun = spec_lookup(argument);
+		char_puts("Spec set.\n", ch);
+		return TRUE;
+	}
+
+	char_puts("MobEd: No such special function.\n", ch);
+	return FALSE;
+}
+
+OLC_FUN(mobed_damtype)
+{
+	char arg[MAX_INPUT_LENGTH];
+	int dt;
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+
+	one_argument(argument, arg, sizeof(arg));
+	if (arg[0] == '\0') {
+		char_puts("Syntax: damtype [damage message]\n", ch);
+		char_puts("Syntax: damtype ?\n", ch);
+		return FALSE;
+	}
+
+	if (!str_cmp(arg, "?")) {
+		BUFFER *output = buf_new(-1);
+		show_attack_types(output);
+		page_to_char(buf_string(output), ch);
+		buf_free(output);
+		return FALSE;
+	}
+
+	if ((dt = attack_lookup(arg)) < 0) {
+		char_printf(ch, "MobEd: %s: unknown damtype.\n", arg);
+		return FALSE;
+	}
+
+	pMob->dam_type = dt;
+	char_puts("Damage type set.\n", ch);
+	return TRUE;
+}
+
+OLC_FUN(mobed_align)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->alignment);
+}
+
+OLC_FUN(mobed_dodge)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->dodge);
+}
+
+OLC_FUN(mobed_level)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->level);
+}
+
+OLC_FUN(mobed_desc)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_mlstr_text(ch, argument, cmd, &pMob->description);
+}
+
+OLC_FUN(mobed_long)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_mlstrnl(ch, argument, cmd, &pMob->long_descr);
+}
+
+OLC_FUN(mobed_short)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_mlstr(ch, argument, cmd, &pMob->short_descr);
+}
+
+OLC_FUN(mobed_name)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_name(ch, argument, cmd, &pMob->name);
+}
+
+OLC_FUN(mobed_shop)
+{
+	MOB_INDEX_DATA *pMob;
+	char command[MAX_INPUT_LENGTH];
+	char arg1[MAX_INPUT_LENGTH];
+
+	argument = one_argument(argument, command, sizeof(command));
+	argument = one_argument(argument, arg1, sizeof(arg1));
+
+	EDIT_MOB(ch, pMob);
+
+	if (command[0] == '\0')
+	{
+		char_puts("Syntax:  shop hours [#xopening] [#xclosing]\n", ch);
+		char_puts("         shop profit [#xbuying%] [#xselling%]\n", ch);
+		char_puts("         shop type [#x0-4] [item type]\n", ch);
+		char_puts("         shop assign\n", ch);
+		char_puts("         shop remove\n", ch);
+		return FALSE;
+	}
+
+
+	if (!str_cmp(command, "hours"))
+	{
+		if (arg1[0] == '\0' || !is_number(arg1)
+		|| argument[0] == '\0' || !is_number(argument))
+		{
+			char_puts("Syntax:  shop hours [#xopening] [#xclosing]\n", ch);
+			return FALSE;
+		}
+
+		if (!pMob->pShop)
+		{
+			char_puts("MobEd:  Debes crear un shop primero (shop assign).\n", ch);
+			return FALSE;
+		}
+
+		pMob->pShop->open_hour = atoi(arg1);
+		pMob->pShop->close_hour = atoi(argument);
+
+		char_puts("Shop hours set.\n", ch);
+		return TRUE;
+	}
+
+
+	if (!str_cmp(command, "profit"))
+	{
+		if (arg1[0] == '\0' || !is_number(arg1)
+		|| argument[0] == '\0' || !is_number(argument))
+		{
+			char_puts("Syntax:  shop profit [#xbuying%] [#xselling%]\n", ch);
+			return FALSE;
+		}
+
+		if (!pMob->pShop)
+		{
+			char_puts("MobEd:  Debes crear un shop primero (shop assign).\n", ch);
+			return FALSE;
+		}
+
+		pMob->pShop->profit_buy     = atoi(arg1);
+		pMob->pShop->profit_sell    = atoi(argument);
+
+		char_puts("Shop profit set.\n", ch);
+		return TRUE;
+	}
+
+
+	if (!str_cmp(command, "type"))
+	{
+		int value;
+
+		if (arg1[0] == '\0' || !is_number(arg1)
+		|| argument[0] == '\0')
+		{
+			char_puts("Syntax:  shop type [#x0-4] [item type]\n", ch);
+			return FALSE;
+		}
+
+		if (atoi(arg1) >= MAX_TRADE)
+		{
+			char_printf(ch, "MobEd:  May sell %d items max.\n", MAX_TRADE);
+			return FALSE;
+		}
+
+		if (!pMob->pShop)
+		{
+			char_puts("MobEd:  Debes crear un shop primero (shop assign).\n", ch);
+			return FALSE;
+		}
+
+		if ((value = flag_value(item_types, argument)) == 0)
+		{
+			char_puts("MobEd:  That type of item is not known.\n", ch);
+			return FALSE;
+		}
+
+		pMob->pShop->buy_type[atoi(arg1)] = value;
+
+		char_puts("Shop type set.\n", ch);
+		return TRUE;
+	}
+
+	/* shop assign && shop delete by Phoenix */
+
+	if (!str_prefix(command, "assign"))
+	{
+		if (pMob->pShop)
+		{
+		 	char_puts("Mob already has a shop assigned to it.\n", ch);
+		 	return FALSE;
+		}
+
+		pMob->pShop		= new_shop();
+		if (!shop_first)
+		 	shop_first	= pMob->pShop;
+		if (shop_last)
+			shop_last->next	= pMob->pShop;
+		shop_last		= pMob->pShop;
+
+		pMob->pShop->keeper	= pMob->vnum;
+
+		char_puts("New shop assigned to mobile.\n", ch);
+		return TRUE;
+	}
+
+	if (!str_prefix(command, "remove"))
+	{
+		SHOP_DATA *pShop;
+
+		pShop		= pMob->pShop;
+		pMob->pShop	= NULL;
+
+		if (pShop == shop_first)
+		{
+			if (!pShop->next)
+			{
+			shop_first = NULL;
+			shop_last = NULL;
+			}
+			else
+			shop_first = pShop->next;
+		}
+		else
+		{
+			SHOP_DATA *ipShop;
+
+			for (ipShop = shop_first; ipShop; ipShop = ipShop->next)
+			{
+			if (ipShop->next == pShop)
+			{
+				if (!pShop->next)
+				{
+					shop_last = ipShop;
+					shop_last->next = NULL;
+				}
+				else
+					ipShop->next = pShop->next;
+			}
+			}
+		}
+
+		free_shop(pShop);
+
+		char_puts("Mobile is no longer a shopkeeper.\n", ch);
+		return TRUE;
+	}
+
+	mobed_shop(ch, str_empty, cmd);
+	return FALSE;
+}
+
+OLC_FUN(mobed_sex)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->sex);
+}
+
+OLC_FUN(mobed_act)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag64(ch, argument, cmd, &pMob->act);
+}
+
+OLC_FUN(mobed_affect)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag64(ch, argument, cmd, &pMob->affected_by);
+}
+
+OLC_FUN(mobed_prac) 
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->practicer);
+}
+
+OLC_FUN(mobed_ac)
+{
+	MOB_INDEX_DATA *pMob;
+	char arg[MAX_INPUT_LENGTH];
+	int pierce, bash, slash, exotic;
+
+	do   /* So that I can use break and send the syntax in one place */
+	{
+		if (argument[0] == '\0')  break;
+
+		EDIT_MOB(ch, pMob);
+		argument = one_argument(argument, arg, sizeof(arg));
+
+		if (!is_number(arg))  break;
+		pierce = atoi(arg);
+		argument = one_argument(argument, arg, sizeof(arg));
+
+		if (arg[0] != '\0')
+		{
+			if (!is_number(arg))  break;
+			bash = atoi(arg);
+			argument = one_argument(argument, arg, sizeof(arg));
+		}
+		else
+			bash = pMob->ac[AC_BASH];
+
+		if (arg[0] != '\0')
+		{
+			if (!is_number(arg))  break;
+			slash = atoi(arg);
+			argument = one_argument(argument, arg, sizeof(arg));
+		}
+		else
+			slash = pMob->ac[AC_SLASH];
+
+		if (arg[0] != '\0')
+		{
+			if (!is_number(arg))  break;
+			exotic = atoi(arg);
+		}
+		else
+			exotic = pMob->ac[AC_EXOTIC];
+
+		pMob->ac[AC_PIERCE] = pierce;
+		pMob->ac[AC_BASH]   = bash;
+		pMob->ac[AC_SLASH]  = slash;
+		pMob->ac[AC_EXOTIC] = exotic;
+		
+		char_puts("Ac set.\n", ch);
+		return TRUE;
+	} while (FALSE);    /* Just do it once.. */
+
+	char_puts("Syntax:  ac [ac-pierce [ac-bash [ac-slash [ac-exotic]]]]\n"
+			  "help MOB_AC  gives a list of reasonable ac-values.\n", ch);
+	return FALSE;
+}
+
+OLC_FUN(mobed_form)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->form);
+}
+
+OLC_FUN(mobed_part)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->parts);
+}
+
+OLC_FUN(mobed_attr)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag64(ch, argument, cmd, &pMob->attr_flags);
+}
+
+OLC_FUN(mobed_imm)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->imm_flags);
+}
+
+OLC_FUN(mobed_res)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->res_flags);
+}
+
+OLC_FUN(mobed_vuln)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->vuln_flags);
+}
+
+OLC_FUN(mobed_material)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_material(ch, argument, cmd, &pMob->material);
+}
+
+OLC_FUN(mobed_matdesc)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_str(ch, argument, cmd, &pMob->material_descr);
+}
+
+OLC_FUN(mobed_off)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->off_flags);
+}
+
+OLC_FUN(mobed_size)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->size);
+}
+
+OLC_FUN(mobed_hitdice)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_dice(ch, argument, cmd, pMob->hit);
+}
+
+OLC_FUN(mobed_hitdicebonus)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->hit[DICE_BONUS]);
+}
+
+OLC_FUN(mobed_manadice)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_dice(ch, argument, cmd, pMob->mana);
+}
+
+OLC_FUN(mobed_damdice)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_dice(ch, argument, cmd, pMob->damage);
+}
+
+OLC_FUN(mobed_race)
+{
+	MOB_INDEX_DATA *pMob;
+	int race = 0;
+
+	if (argument[0]
+	&&  (!str_prefix(argument, "unique") || ((race = rn_lookup(argument)) > 0))) {
+		race_t *r;
+		EDIT_MOB(ch, pMob);
+
+		pMob->race = race;
+		r = RACE(race);
+		pMob->act	  |= r->act;
+		pMob->dodge	  = r->dodge;
+		pMob->sex	  = r->sex;
+		pMob->size	  = r->size;
+		pMob->alignment	  = r->alignment;
+		pMob->dam_type	  = r->dam_type;
+		pMob->affected_by |= r->aff;
+		pMob->off_flags   |= r->off;
+		pMob->imm_flags   |= r->imm;
+		pMob->res_flags   |= r->res;
+		pMob->vuln_flags  |= r->vuln;
+		pMob->form        = r->form;
+		pMob->parts       = r->parts;
+
+		char_puts("Race set.\n", ch);
+		return TRUE;
+	}
+
+	if (argument[0] == '?') {
+		char_puts("Available races are:", ch);
+
+		for (race = 0; race < races.nused; race++) {
+			if ((race % 3) == 0)
+				char_puts("\n", ch);
+			char_printf(ch, " %-15s", RACE(race)->name);
+		}
+
+		char_puts("\n", ch);
+		return FALSE;
+	}
+
+	char_puts("Syntax:  race [race]\n"
+		  "Type 'race ?' for a list of races.\n", ch);
+	return FALSE;
+}
+
+OLC_FUN(mobed_startpos)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->start_pos);
+}
+
+OLC_FUN(mobed_defaultpos)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_flag32(ch, argument, cmd, &pMob->default_pos);
+}
+
+OLC_FUN(mobed_gold)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->wealth);
+}
+
+OLC_FUN(mobed_hitroll)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->hitroll);
+}
+
+OLC_FUN(mobed_group)
+{
+	MOB_INDEX_DATA *pMob;
+	MOB_INDEX_DATA *pMTemp;
+	char arg[MAX_STRING_LENGTH];
+	int temp;
+	BUFFER *buffer;
+	bool found = FALSE;
+	
+	EDIT_MOB(ch, pMob);
+	
+	if (argument[0] == '\0') {
+		char_puts("Syntax: group [number]\n", ch);
+		char_puts("        group show [number]\n", ch);
+		return FALSE;
+	}
+	
+	if (is_number(argument))
+	{
+		pMob->group = atoi(argument);
+		char_puts("Group set.\n", ch);
+		return TRUE;
+	}
+	
+	argument = one_argument(argument, arg, sizeof(arg));
+	
+	if (!strcmp(arg, "show") && is_number(argument)) {
+		if (atoi(argument) == 0) {
+			char_puts("Are you crazy?\n", ch);
+			return FALSE;
+		}
+
+		buffer = buf_new(-1);
+
+		for (temp = 0; temp < 65536; temp++) {
+			pMTemp = get_mob_index(temp);
+			if (pMTemp && (pMTemp->group == atoi(argument))) {
+				found = TRUE;
+				buf_printf(buffer, "[%5d] %s\n",
+					   pMTemp->vnum, pMTemp->name);
+			}
+		}
+
+		if (found)
+			page_to_char(buf_string(buffer), ch);
+		else
+			char_puts("No mobs in that group.\n", ch);
+
+		buf_free(buffer);
+		return FALSE;
+	}
+	
+	return FALSE;
+}
+
+OLC_FUN(mobed_clan)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_clan(ch, argument, cmd, &pMob->clan);
+}
+
+OLC_FUN(mobed_trigadd)
+{
+	int value;
+	MOB_INDEX_DATA *pMob;
+	MPTRIG *mptrig;
+	MPCODE *mpcode;
+	char trigger[MAX_STRING_LENGTH];
+	char num[MAX_STRING_LENGTH];
+
+	EDIT_MOB(ch, pMob);
+	argument = one_argument(argument, num, sizeof(num));
+	argument = one_argument(argument, trigger, sizeof(trigger));
+
+	if (!str_cmp(num, "?")) {
+		show_flags(ch, mptrig_types);
+		return FALSE;
+	}
+
+	if (!is_number(num) || trigger[0] =='\0' || argument[0] =='\0') {
+		 char_puts("Syntax: trigadd [vnum] [trigger] [phrase]\n",ch);
+		 return FALSE;
+	}
+
+	if ((value = flag_value(mptrig_types, trigger)) < 0) {
+		char_puts("Invalid trigger type.\n"
+			  "Use 'trigadd ?' for list of triggers.\n", ch);
+		return FALSE;
+	}
+
+	if ((mpcode = mpcode_lookup(atoi(num))) == NULL) {
+		 char_puts("No such MOBProgram.\n", ch);
+		 return FALSE;
+	}
+
+	mptrig = mptrig_new(value, argument, atoi(num));
+	mptrig_add(pMob, mptrig);
+	char_puts("Trigger added.\n",ch);
+	return TRUE;
+}
+
+OLC_FUN(mobed_trigdel)
+{
+	MOB_INDEX_DATA *pMob;
+	MPTRIG *mptrig;
+	MPTRIG *mptrig_next;
+	char mprog[MAX_STRING_LENGTH];
+	int value;
+	int cnt = 0;
+
+	EDIT_MOB(ch, pMob);
+
+	one_argument(argument, mprog, sizeof(mprog));
+	if (!is_number(mprog) || mprog[0] == '\0') {
+		char_puts("Syntax:  trigdel [#mprog]\n",ch);
+		return FALSE;
+	}
+
+	value = atoi (mprog);
+
+	if (value < 0) {
+		 char_puts("Only non-negative mprog-numbers allowed.\n",ch);
+		 return FALSE;
+	}
+
+	if (!(mptrig = pMob->mptrig_list)) {
+		 char_puts("MobEd:  Nonexistent trigger.\n",ch);
+		 return FALSE;
+	}
+
+	if (value == 0) {
+		REMOVE_BIT(pMob->mptrig_types, pMob->mptrig_list->type);
+		mptrig = pMob->mptrig_list;
+		pMob->mptrig_list = mptrig->next;
+		mptrig_free(mptrig);
+	}
+	else {
+		while ((mptrig_next = mptrig->next) && (++cnt < value))
+			mptrig = mptrig_next;
+
+		if (mptrig_next) {
+			REMOVE_BIT(pMob->mptrig_types, mptrig_next->type);
+		        mptrig->next = mptrig_next->next;
+			mptrig_free(mptrig_next);
+		}
+		else {
+		        char_puts("No such trigger.\n",ch);
+		        return FALSE;
+		}
+	}
+	mptrig_fix(pMob);
+
+	char_puts("Trigger removed.\n", ch);
+	return TRUE;
+}
+
+OLC_FUN(mobed_clone)
+{
+	MOB_INDEX_DATA *pMob;
+	MOB_INDEX_DATA *pFrom;
+	char arg[MAX_INPUT_LENGTH];
+	int i;
+
+	one_argument(argument, arg, sizeof(arg));
+	if (!is_number(arg)) {
+		char_puts("Syntax: clone <vnum>\n", ch);
+		return FALSE;
+	}
+
+	i = atoi(arg);
+	if ((pFrom = get_mob_index(i)) == NULL) {
+		char_printf(ch, "MobEd: %d: Vnum does not exist.\n", i);
+		return FALSE;
+	}
+
+	EDIT_MOB(ch, pMob);
+	if (pMob == pFrom) 
+		return FALSE;
+
+	free_string(pMob->name);
+	pMob->name		= str_qdup(pFrom->name);
+	pMob->material		= pFrom->material;
+	free_string(pMob->material_descr);
+	pMob->material_descr	= str_qdup(pFrom->material_descr);
+	mlstr_free(pMob->short_descr);
+	pMob->short_descr	= mlstr_dup(pFrom->short_descr);
+	mlstr_free(pMob->long_descr);
+	pMob->long_descr	= mlstr_dup(pFrom->long_descr);
+	mlstr_free(pMob->description);
+	pMob->description	= mlstr_dup(pFrom->description);
+
+	pMob->spec_fun		= pFrom->spec_fun;
+	pMob->group		= pFrom->group;
+	pMob->act		= pFrom->act;
+	pMob->attr_flags	= pFrom->attr_flags;
+	pMob->affected_by	= pFrom->affected_by;
+	pMob->alignment		= pFrom->alignment;
+	pMob->level		= pFrom->level;
+	pMob->hitroll		= pFrom->hitroll;
+	pMob->dam_type		= pFrom->dam_type;
+	pMob->off_flags		= pFrom->off_flags;
+	pMob->imm_flags		= pFrom->imm_flags;
+	pMob->res_flags		= pFrom->res_flags;
+	pMob->vuln_flags	= pFrom->vuln_flags;
+	pMob->start_pos		= pFrom->start_pos;
+	pMob->default_pos	= pFrom->default_pos;
+	pMob->sex		= pFrom->sex;
+	pMob->race		= pFrom->race;
+	pMob->wealth		= pFrom->wealth;
+	pMob->form		= pFrom->form;
+	pMob->parts		= pFrom->parts;
+	pMob->size		= pFrom->size;
+	pMob->practicer		= pFrom->practicer;
+	pMob->clan		= pFrom->clan;
+	pMob->invis_level	= pFrom->invis_level;
+	pMob->fvnum		= pFrom->fvnum;
+
+	for (i = 0; i < 3; i++)
+		pMob->hit[i]	= pFrom->hit[i];
+	for (i = 0; i < 3; i++)
+		pMob->mana[i]	= pFrom->mana[i];
+	for (i = 0; i < 3; i++)
+		pMob->damage[i]	= pFrom->damage[i];
+	for (i = 0; i < 4; i++)
+		pMob->ac[i]	= pFrom->ac[i];
+
+	return TRUE;
+}
+
+OLC_FUN(mobed_invis)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->invis_level);
+}
+
+OLC_FUN(mobed_fvnum)
+{
+	MOB_INDEX_DATA *pMob;
+	EDIT_MOB(ch, pMob);
+	return olced_number(ch, argument, cmd, &pMob->fvnum);
+}
+
+OLC_FUN(mobed_autoset)
+{
+	MOB_INDEX_DATA *pMob;
+	char temp[MAX_STRING_LENGTH];
+	int dice, size, bonus;
+	int ac_n, ac_x;
+	EDIT_MOB( ch, pMob );
+ 
+	if (pMob->level < 1)
+	{
+		send_to_char("Set a level on the mob first!!!\n\r", ch);
+		return FALSE;
+	}
+
+	/* adjust these next 2 lines to affect ACs */
+	ac_n = 95 - (pMob->level * 6.67) - ((pMob->level/10)^2);
+	ac_x = 95 - (pMob->level * 4.57) - ((pMob->level/10)^2);
+
+	pMob->ac[AC_PIERCE] = ac_n;
+	pMob->ac[AC_BASH]   = ac_n;
+	pMob->ac[AC_SLASH]  = ac_n;
+	pMob->ac[AC_EXOTIC] = ac_x;
+
+	send_to_char("AC Values set.\n\r", ch);
+
+	dice = pMob->level * 5;
+	size = 10;
+	bonus = 85;
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_manadice(ch, temp, olc_cmds_mob);
+
+	dice = pMob->level/3;
+
+	if (dice < 1)
+		dice = 1;
+
+	size = (.87 + pMob->level/dice);
+
+	if (size < 2)
+		size = 2;
+
+	bonus = (5.5 + pMob->level/2);
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_damdice(ch, temp, olc_cmds_mob);
+
+	/* hitpoint generation */
+	bonus = 0;
+	size = pMob->level;
+
+	if ( pMob->level < 10 )
+		dice = (1.9 * (pMob->level - 1)) + 8;
+	else if ( pMob->level < 30 )
+		dice = (1.25 * (pMob->level - 10)) + 25;
+	else
+		dice = (5.67 * (pMob->level - 60)) + 230;
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_hitdice(ch, temp, olc_cmds_mob);
+
+	sprintf(temp, "%d", pMob->level);
+	mobed_hitroll(ch, temp, olc_cmds_mob);
+
+	send_to_char("Values set, check for accuracy.\n\r", ch);
+
+	return TRUE;
+}
+
+OLC_FUN(mobed_autohard)
+{
+	MOB_INDEX_DATA *pMob;
+	char temp[MAX_STRING_LENGTH];
+	int dice, size, bonus;
+	int ac_n, ac_x;
+	EDIT_MOB( ch, pMob );
+
+	if (pMob->level < 1)
+	{
+		send_to_char("Set a level on the mob first!!!\n\r", ch);
+		return FALSE;
+	}
+
+	ac_n = 88 - (pMob->level * 7.05) - ((pMob->level/10)^2);
+	ac_x = 88 - (pMob->level * 5.02) - ((pMob->level/10)^2);
+
+	/* sprintf(temp, "%d %d %d %d", ac_n, ac_n, ac_n, ac_x); */
+	pMob->ac[AC_PIERCE] = ac_n;
+	pMob->ac[AC_BASH]   = ac_n;
+	pMob->ac[AC_SLASH]  = ac_n;
+	pMob->ac[AC_EXOTIC] = ac_x;
+
+	send_to_char("AC Values set.\n\r", ch);
+
+	dice = pMob->level * 10;
+	size = 11;
+	bonus = 95;
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_manadice(ch, temp, olc_cmds_mob);
+
+	dice = pMob->level/3;
+
+	if (dice < 1)
+		dice = 1;
+
+	dice++;
+	size = (.87 + pMob->level/dice);
+
+	if (size < 2)
+		size = 2;
+
+	bonus = (7.5 + pMob->level/1.5);
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_damdice(ch, temp, olc_cmds_mob);
+
+	/* hitpoint generation */
+	bonus = 0;
+	size = pMob->level;
+
+	if ( pMob->level < 10 )
+		dice = (1.9 * (pMob->level - 1)) + 8;
+	else if ( pMob->level < 30 )
+		dice = (1.25 * (pMob->level - 10)) + 25;
+	else
+		dice = (5.67 * (pMob->level - 60)) + 230;
+
+	dice += dice * 0.15; 
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_hitdice(ch, temp, olc_cmds_mob);
+
+	sprintf(temp, "%d", pMob->level);
+	mobed_hitroll(ch, temp, olc_cmds_mob);
+
+	send_to_char("Hard values set, check for accuracy.\n\r", ch);
+	return TRUE;
+}
+
+OLC_FUN(mobed_autoeasy)
+{
+	MOB_INDEX_DATA *pMob;
+	char temp[MAX_STRING_LENGTH];
+	int dice, size, bonus;
+	int ac_n, ac_x;
+	EDIT_MOB( ch, pMob );
+
+	if (pMob->level < 1)
+	{
+		send_to_char("Set a level on the mob first!!!\n\r", ch);
+		return FALSE;
+	}
+
+	ac_n = 99 - (pMob->level * 6.37) - ((pMob->level/10)^2);
+	ac_x = 99 - (pMob->level * 4.27) - ((pMob->level/10)^2);
+
+	/* sprintf(temp, "%d %d %d %d", ac_n, ac_n, ac_n, ac_x); */
+	pMob->ac[AC_PIERCE] = ac_n;
+	pMob->ac[AC_BASH]   = ac_n;
+	pMob->ac[AC_SLASH]  = ac_n;
+	pMob->ac[AC_EXOTIC] = ac_x;
+	send_to_char("AC Values set.\n\r", ch);
+
+	dice = pMob->level;
+	size = 9;
+	bonus = 60;
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_manadice(ch, temp, olc_cmds_mob);
+	dice = pMob->level/3 * .95;
+
+	if (dice < 1)
+		dice = 1;
+
+	size = (.87 + pMob->level/dice) * .95;
+
+	if (size < 2)
+		size = 2;
+
+	bonus = (2.5 + pMob->level/2.1);
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_damdice(ch, temp, olc_cmds_mob);
+
+	/* hitpoint generation */
+	bonus = 0;
+	size = pMob->level;
+
+	if ( pMob->level < 10 )
+		dice = (1.9 * (pMob->level - 1)) + 8;
+	else if ( pMob->level < 30 )
+		dice = (1.25 * (pMob->level - 10)) + 25;
+	else
+		dice = (5.67 * (pMob->level - 60)) + 230;
+
+	dice -= dice * 0.15; 
+	if ( dice < 1 )
+		dice = 1;
+
+	sprintf(temp, "%dd%d+%d", dice, size, bonus);
+	mobed_hitdice(ch, temp, olc_cmds_mob);
+
+	sprintf(temp, "%d", pMob->level);
+	mobed_hitroll(ch, temp, olc_cmds_mob);
+
+	send_to_char("Easy values set, check for accuracy.\n\r", ch);
+	return TRUE;
+}
+
+/* Local functions */
+
+static void show_spec_cmds(CHAR_DATA *ch)
+{
+	int  spec;
+	int  col;
+	BUFFER *output;
+
+	output = buf_new(-1);
+	col = 0;
+	buf_add(output, "Preceed special functions with 'spec_'\n\n");
+	for (spec = 0; spec_table[spec].function != NULL; spec++) {
+		buf_printf(output, "%-19.18s", &spec_table[spec].name[5]);
+		if (++col % 4 == 0)
+			buf_add(output, "\n");
+	}
+ 
+	if (col % 4 != 0)
+		buf_add(output, "\n");
+
+	char_puts(buf_string(output), ch);
+	buf_free(output);
+}
+
+VALIDATE_FUN(validate_fvnum)
+{
+	int fvnum = *(int*) arg;
+
+	if (!get_mob_index(fvnum)) {
+		char_printf(ch, "MobEd: %d: no such vnum.\n", fvnum);
+		return FALSE;
+	}
+
+	return TRUE;
+}

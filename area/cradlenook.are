@@ -1,0 +1,4308 @@
+#AREADATA
+Name Cradlenook~
+Builders kira~
+VNUMs 2900 2999
+Credits Kira~
+Security 1
+LevelRange 30 40
+ResetMessage {CA wind of creativity and magic dances through Cradlenook.{x~
+End
+
+#MOBILES
+#2904
+barnicle~
+Barnicle~
+Barnicle is scribbling on a scroll with a feathered quill.
+~
+This dull, bespectacled man does not seem like he would be much enthused
+about everything.  With scrolls all around his tiny thin body, and his
+fingers calloused from tons of copying and writing, it is amazing this old
+fool is still alive.  
+~
+human~
+AB DF 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 A 0 0
+stand stand male 50000
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2909
+~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2910
+girl~
+a golden haired girl~
+A golden haired girl wearing a short tartan skirt carries a plate of drinks.
+~
+This blonde girl probably makes more money in tips than the owner of this
+bar does from her selling the drinks.  It is a good ploy to use her though. 
+
+~
+human~
+AB 0 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 A 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2911
+faerie~
+a merry faerie~
+A merry faerie who appears to have been soused in liquor flits about.
+~
+With small delicate wings and a colourful outfit, the faerie zips about,
+although none too gracefully.  
+~
+unique~
+AB T 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+F 0 0 0
+stand stand either 2430
+0 0 medium flesh~
+~
+#2913
+canda~
+Canda~
+Canda, the potion maker and gnome caretaker is stirring a cauldron's contents.
+~
+In stature, she is short and rather fat, but that's normal among her
+people and for gnomes a rather attractive one.  While Canda's fingers look a
+bit burnt and scarred, her physical appearance has not been altered by the
+dangerous magics and chemicals she works with.  Which may or may not be a
+good sign for her customers.  
+~
+gnome~
+AB 0 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 A 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#2915
+rupert~
+Rupert~
+Rupert the robes maker and craftsman is arranging some boots on a shelf.
+~
+From behind a delicious mess of amber-red hair and sea-blue eyes, this
+young chap strides toward you, on his arm an assortment of fine wizarding
+robes.  His charming grin is what conjures most women into buying his goods,
+though they really are fine goods.  Whenever a young woman strides in the
+shop, her lover is sure to meander in after her, making sure she doesn't
+leer at Rupert for too long.  He is, how you say, gorgeous in the eyes of
+all the women of Cradlenook, and that could very well be the reason why his
+shop is prospering so well.  He wears a pair of fine, forest green robes and
+dull black boots on his feet.  
+~
+human~
+AB 0 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2917
+hedgehog~
+a hedgehog~
+A tiny hedgehog is curled up on the wooden stump.
+~
+Covered in thorns as a self-defense mechanism, one must wonder how
+painful it must be for two hedgehogs to procreate.  
+~
+unique~
+AB 0 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+V 0 0 0
+stand stand female 91
+0 0 large flesh~
+~
+#2919
+primary teacher~
+a primary school teacher~
+A primary school teacher taps away at the blackboard with a piece of chalk.
+~
+Her fingers are covered in white chalk, probably from the lessons she
+teaches all days.  Even her face seems a bit pasty white, perhaps she is
+doing something she should not with the chalk?  While she may be sniffing
+chalk, her senses remain acute to naughty children or angry parents.  
+~
+human~
+AB 0 1000 0
+30 30 59d30+0 150d10+85 10d3+20 slap
+-10 -10 -10 -4
+0 0 0 0
+stand stand female 90
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#2920
+lunch lady~
+the lunch lady~
+The Cradlenook lunch lady stands behind an open window serving food.
+~
+Meet the large and rather angry looking lunch lady who scars the little
+children of Cradlenook for life.  The food she serves is just as disgusting
+looking as the lunch lady's pus-filled boils and her pimpled face.  Ahh, the
+wonders of a fine school lunch.  
+~
+human~
+AB 0 0 0
+31 31 65d31+0 155d10+85 10d3+20 none
+-11 -11 -11 -4
+0 0 0 0
+stand stand none 90
+0 0 medium flesh~
+~
+#2921
+angry parent~
+an angry parent~
+An angry parent is searching crazily for a Cradlenook teacher.
+~
+Get out of the way of this deranged mother.  One can only wonder why she
+is so angry, perhaps her child's grades were lower than she wanted them to
+be, or that the teacher is not doing well enough in teaching her child the
+fundamentals.  Whatever the problem, it's none of your yours, and it would
+be a good idea not to get involved.  
+~
+human~
+AB a 0 0
+31 31 65d31+0 155d10+85 10d3+20 punch
+-11 -11 -11 -4
+0 0 0 0
+stand stand none 80
+0 0 medium flesh~
+~
+#2922
+girl~
+a girl in pigtails~
+A girl with cute blond pigtails is playing in a sandbox.
+~
+With a bright yellow shovel in one hand, this pigtailed girl shovels sand
+into a castle form and then molds it with her bright red bucket.  Like all
+the other little girls around, she is content with the idea of play, rather
+than any social appearances.  
+~
+human~
+AB 0 0 0
+32 32 71d32+0 160d10+85 10d3+21 slap
+-11 -11 -11 -5
+0 0 0 0
+stand stand none 70
+0 0 medium flesh~
+~
+#2923
+adolescent~
+an adolescent~
+An adolescent is kicking her legs back and forth on the swings.
+~
+There is nothing like the youth to invigorate the spirits of another. 
+With almost no cares in the world, save cooties, this little girl can play
+in the mud, run in the dirt, and ride her swings without being marked as
+unpopular or ugly.  
+~
+human~
+AB 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 punch
+-12 -12 -12 -5
+0 0 0 0
+stand stand none 70
+0 0 medium flesh~
+~
+#2924
+ghost aldina~
+the ghost of Aldina Sophry~
+The ghost of Aldina Sophry floats towards you eerily.
+~
+During her lifetime, Aldina Sophry molded many minds at Cradlenook, and
+inspired many of its youth to become educated statesmen and business owners.
+While her teachings were limited to history, english, and art, many of her
+students remember her kind voice and spirit.  The warmth she shared in life
+continues to grace the graveyard she was buried in.  
+~
+ghost~
+AG 0 0 0
+35 35 88d35+0 175d10+85 11d3+22 chill
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 80
+0 0 medium flesh~
+~
+#2925
+ghost girl~
+the ghost of little girl~
+The ghost of a little girl floats about the graveyard, giggling.
+~
+While the little boys who are out here seem to be devoid of happiness in
+death, the little girl who died out here retains her youthful innocence and
+joy from her short life.  Though one can only assume that her apparition's
+existence can only be derived from a painful and tragic death.  
+~
+ghost~
+AG 0 0 0
+35 35 88d35+0 175d10+85 11d3+22 chill
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 90
+0 0 medium flesh~
+~
+#2935
+guardian apparition~
+a {rguardian{x apparition~
+An apparition shrouded in a green light guards an ornate tombstone without yield.
+~
+Standing silently by the tombstone, the apparition watches you, its eyes
+devoid of life.  
+~
+ghost~
+ABF DFV 0 0
+35 35 88d35+0 175d10+85 11d3+22 chill
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff T
+#2937
+ghost frederik~
+the ghost of Frederik May~
+The ghost of Frederik May bobs aimlessly through the headstones.
+~
+The infamous Frederik May who terrorized this school while he was its
+janitor.  While most parents no longer remember his sordid escapades with
+the little girls in the bathroom stalls or with little boys in his janitor's
+closet, Frederik's memory and his ghost live amongst the ghosts of many of
+his former victims, each with their own sad tales about this ghastly
+character.  Luckily for the children of Cradlenook today, Frederik May was
+hunted down and executed by a mob of angry parents and some soldiers and now
+his floating spirit remains trapped on this plane.  
+~
+ghost~
+AG 0 1000 0
+34 34 82d34+0 170d10+85 11d3+22 chill
+-13 -13 -13 -6
+0 0 0 0
+stand stand male 90
+0 0 medium flesh~
+~
+#2939
+tombstone secret epitaph~
+A bony hand~
+The secret {Ggreen{x light that blows a wind of {Ygold{x.
+~
+~
+human~
+AB DF 0 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 2939 art~
+I 92
+#2940
+light~
+a {Ggreen{x light~
+This mob gives the epitaph light.
+~
+~
+human~
+AB DF 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 2940 art~
+I 92
+#2941
+bramber~
+Bramber~
+Bramber is bending over to pick up a piece of trash.
+~
+One can't help but notice Bramber.  Is she picking up trash as part of
+her civic duty or is she just looking for scraps of food to be her next
+meal.  Or perhaps she is just the paid help to maintain the cleanliness of
+Cradlenook.  
+~
+human~
+AG 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 slap
+-12 -12 -12 -5
+0 0 0 0
+stand stand none 120
+0 0 medium flesh~
+~
+#2945
+cradlenook citizen~
+a {DC{Wradle{Yn{yook{x citizen~
+A {DC{Wradle{Yn{yook{x citizen is taking a stroll through the Wee Boulevard.
+~
+Dressed in clothes that finely made but humble, this citizen beams a
+smile at every face they pass.  
+~
+human~
+AT 0 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+I 0 0 G
+stand stand none 130
+0 0 medium flesh~
+~
+#2950
+gnome~
+a curious gnome~
+A curious gnome sits in a wooden chair fiddling with springs and screws.
+~
+~
+gnome~
+AB 0 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2957
+cradlenook child~
+a Cradlenook child~
+A child of Cradlenook is running havok amok through the boulevard.
+~
+Screaming happily at everyone who walks by, including you, she waves her
+arms about in a wild flailing motion, throwing pebbles and stones at stray
+cats and dogs, not knowing exactly what she's doing in her juvenile age. 
+Her hair comes down to her chin and looks tousled from rough housing.  Upon
+her feet are two cute, tiny pink sandals that make a tapping noise when she
+scampers on by.  
+~
+human~
+AG 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 slap
+-12 -12 -12 -5
+0 0 0 0
+stand stand none 50
+0 0 medium flesh~
+~
+#2964
+boy~
+a little boy~
+A little boy splashes his feet in the basin happily.
+~
+Paddling away at the refreshing water in the basin, he invites you to
+join him.  A happy grin is stretched across his little face, so big that he
+could very well take on the stature of a joker.  He wears a set of jean
+overalls that come up far above his small ankles; one strap hangs over his
+chest, revealing a wife-beater tank top.  
+~
+human~
+AB 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand none 50
+0 0 medium flesh~
+~
+#2965
+swan~
+a beautiful swan~
+A beautiful swan is floating upon the basin.
+~
+Unlike how a playful duck would paddle and splash in the water, she
+merely grazes the surface of the water with her beak, never fully submersing
+herself in it.  She floats gracefully and serenely across the basin,
+enjoying the quietness of the area.  She doesn't seem to take any notice of
+your presence, perhaps she is trying to pretend you don't exist; this is,
+after all, her territory.  
+~
+water fowl~
+AB 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 peck
+-12 -12 -12 -5
+0 0 0 0
+stand stand female 90
+0 0 medium flesh~
+~
+F aff T
+#2969
+crow~
+a black crow~
+A black crow is hovering over the desk's wooden cup with greedy eyes.
+~
+Under metallic black feathers and behind beady black eyes stares down the
+black crow in an influx of greed at Sailie's cup of pens and quills.  One
+shiny one catches his eye in particular and he reaches up and snatches it. 
+Sailie had always wondered where her favorite writing quill had gone, and
+right here is the answer.  
+~
+unique~
+AB T 0 0
+31 31 65d31+0 155d10+85 10d3+20 peck
+-11 -11 -11 -4
+0 0 0 0
+stand stand male 100
+0 0 large flesh~
+~
+#2970
+alibaster~
+Alibaster Franks~
+Alibaster Franks is sleeping on a padded wooden chair, mouth half open.
+~
+It is obvious this middle aged man has a dire love for hunting.  A
+camouflage overcoat consumes his bulky, muscular body, and beneath it a
+bright orange t-shirt.  On his feet he wears two heavy leather boots which
+have been cleaned to a tee as to not muck up the cabin.  An old pot-shaped
+cap rests just over his rectangular-shaped face to block out any light as he
+rests.  Cradled in his left arm is an eight-barrel gun; he always brings it
+with him anywhere he goes.  
+~
+human~
+AB 0 0 0
+32 32 71d32+0 160d10+85 10d3+21 punch
+-11 -11 -11 -5
+F 0 0 0
+sleep stand none 80
+0 0 medium flesh~
+~
+#2971
+emilie dragon~
+Emilie, the dragon~
+The waitress' pet dragon, Emilie, is curled up in a ball on some blankets.
+~
+She's sexy.  She's cute.  She's popular to boot.  
+~
+dragon~
+AB 0 1000 0
+34 34 82d34+0 170d10+85 11d3+22 flame
+-13 -13 -13 -6
+0 0 0 0
+stand stand female 100
+0 0 medium flesh~
+~
+#2972
+stone~
+a {Dm{Wi{xrr{Wo{Dr{x faced stone~
+A {Dm{Wi{xrr{Wo{Dr{x faced stone (healer) is here.
+~
+It appears to be a statue, though there is something mystical about it.  
+~
+human~
+ABQa DF 0 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 92
+#2977
+mr falook~
+Mr. Falook~
+Mr. Falook is puffing on a thick, oaken flavored cigar.
+~
+He wears a loosened pinstriped black and white tie, a mint black suit
+with the collar flipped up as if he has just gotten out of a hard day's
+work, and a pair of well ironed black slacks.  He chuckles from time to
+time, placing his hand over his mouth as if he just did something
+outrageously wild.  
+~
+human~
+AB 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+C 0 0 0
+stand stand none 90
+0 0 medium flesh~
+~
+#2978
+mrs falook~
+Mrs. Falook~
+Mrs. Falook smiles gently as her fingers dance away on the grand piano.
+~
+With her head held high and her nostrils aimed directly at you, Mrs. 
+Falook is your typical upper-class woman: loaded.  While the question about
+the ownership of the actual wealth between herself and her husband may be a
+juggle, it is most certainly a fact that she touts her lavish lifestyle not
+only with her clothing but also with her attitude.  
+~
+human~
+AB 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand none 90
+0 0 medium flesh~
+~
+#2979
+francis~
+pot-bellied Francis~
+Pot-bellied Francis sits in a chair with a bottle of ale resting on his gut.
+~
+Disgusting hacks and coughs emit from Francis' mouth nearly every other
+second.  He glares at you through beady brown eyes and a greasy face,
+wondering why you've stepped into his not-so-lovely home.  On his belly
+rests a bottle of ale which he glugs on every now and then, never flinching
+at its awful taste.  He wears a beat up and holey old white t-shirt, well,
+now its sort of yellow and stained brown in spots.  Dark green pants save
+you from seeing his heavily hairy legs, and a pair of black old boots saves
+you the joy of inhaling the scent of his mold-smelling feet.  
+~
+human~
+AB 0 0 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand none 90
+0 0 medium flesh~
+~
+#2980
+lyllie~
+Lyllie, the cat~
+A purring cat named Lyllie is nibbling quietly on some cat food.
+~
+Greatly spoiled, she purrrrrs contentedly and scrapes her sandpaper like
+cat tongue across the delicious food that has been laid out before her.  Fur
+of vivid orange and eyes of emerald green, she gets the more comments than
+her old mistress, Cnora, does herself.  Her claws have been shaved down as
+to not wreck any of the furniture.  Though she may appear as a spoiled
+rotten brat cat, she is actually quite kind and loving of all visitors.  
+~
+felar~
+AB 0 1000 0
+31 31 65d31+0 155d10+85 10d3+20 none
+-11 -11 -11 -4
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#2981
+woman cnora~
+Cnora~
+An old woman named Cnora is staring fondly at some picture frames.
+~
+Wrinkled, happy eyes sag in her old age as she peers with great fondness
+at the picture frames on the windowsill.  Her fingers are crooked and skinny
+like the roots of a tree, and her hair has gotten wispy, gray and thin over
+the passing years.  
+~
+human~
+AB 0 0 0
+34 34 82d34+0 170d10+85 11d3+22 slap
+-13 -13 -13 -6
+H 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2982
+butler~
+the butler~
+A butler dressed in a mint black suit welcomes you to the mayor's home.
+~
+Wearing a fine black suit, he waves a graceful, slow arm at you to
+welcome you to the mayor's beautiful home.  Black, shiny shoes are worn on
+his feet, which cannot be too comfortable after wearing them for 10 hours a
+day; they appear stiff and tight.  He appears well fed; his stomach
+protrudes a bit beneath his black tux coat like a bowling ball, and his
+cheeks appear bloated, as if he had been munching on something salty, but
+really they are just chubby.  
+~
+human~
+AB 0 0 0
+32 32 71d32+0 160d10+85 10d3+21 cleave
+-11 -11 -11 -5
+0 0 0 0
+stand stand male 200
+0 0 medium flesh~
+~
+#2983
+wife~
+the mayor's wife~
+The mayor's wife is wandering about the home, dusting the upholstery.
+~
+Her light brown hair is poofed out in a graceful bouffant, and around her
+dainty neck she wears a necklace of fine pearls.  She sports a soft white
+overcoat about her body and a pair of black, perfectly ironed pants.  She
+seems a bit crazy about keeping the house in mint condition, and scampers
+about in white socks dusting the upholstery and polishing the floors.  
+~
+human~
+A 0 0 0
+34 34 82d34+0 170d10+85 11d3+22 slap
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 120
+0 0 medium flesh~
+~
+#2984
+fat cat~
+a fat {Wwhite{x cat~
+A beautiful {Wwhite persian{x the size of a small dog slumps on a {Cf{clu{mff{My{x pillow.
+~
+Fat, but beautiful and brilliantly white in color, she wears a tiny pink
+bow on her head and a diamond encrusted kitty collar around her plump neck. 
+A loud rumble generates from her chest, shaking her body gently as she
+purrs.  Her paws are tiny in comparison to the rest of her body, so tiny
+that they look as if she switched paws with a baby kitten.  Her claws have
+been chiseled down to keep them from damaging any of the rich upholstery in
+the mayor's house.  
+~
+cat~
+ABT J 0 0
+35 35 88d35+0 175d10+85 11d3+22 claw
+-13 -13 -13 -6
+M 0 IJ HR
+stand stand none 0
+0 0 medium flesh~
+~
+#2986
+mayor~
+the mayor himself~
+The great mayor of Cradlenook is snoozing in his comfortable bed.
+~
+A middle aged man wearing silky blue pajamas and a dark blue nightcap is
+curled up on the king size bed.  His name is Albus Frenwick, mayor of
+Cradlenook.  Some like him, most don't, mainly because of where he spends
+his money, and that is quite obvious taking in the mint upholstery of his
+fine home.  A long, grey, curling mustache flickers on his lips as he snores
+loudly in his sleep, and from time to time, grunts.  
+~
+human~
+AB 0 0 0
+34 34 82d34+0 170d10+85 11d3+22 none
+-13 -13 -13 -6
+0 0 0 0
+sleep stand none 150
+0 0 medium flesh~
+~
+#2990
+cat painter~
+a beautiful {Bblue{x cat~
+A beautiful {Bblue{x cat is curled up at the edge of a painting.
+~
+~
+cat~
+AB DF 0 0
+35 35 88d35+0 175d10+85 11d3+22 claw
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2991
+aleya~
+{MA{mleya{x~
+Aleya, the bakery woman, is making up some roffles and syrup.
+~
+A long, brown, thick french-braid falls perfectly straight down her back.
+She comes up to about 5'7 in height, and her legs are slender and graceful,
+making her appear much taller than she really is.  She bounces around the
+bakery happily, patiently helping customers.  
+~
+human~
+AB DF 0 0
+35 35 101d35+0 350d11+95 12d2+30 none
+-15 -15 -15 -8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2992
+alrich~
+{RA{rlrich{x~
+Alrich, the local butcher man stands here being all butcher man like.
+~
+Covered in blood and sweat, Alrich wipes his forehead and continues to
+chop up thick slabs of meat, handing them off to his worker bees to wrap and
+toss in the glass display out front.  His white working uniform is stained
+in red and brown blood and tied around the middle with a tight white belt.  
+~
+human~
+AB DF 0 0
+65 65 296d65+0 650d11+95 22d2+50 cleave
+-37 -37 -37 -24
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2993
+jared~
+Jared, the skinny skinny skinny dude~
+Jared stands here, shoveling fresh subs into his abyss of a mouth.
+~
+He's skinny.  REAL skinny.  Maybe it would be a good idea to lay off the
+skinny subs.  His ribcage can be seen through his tight uniform and his
+cheeks have sunken in like a skeleton.  His fingers appear old like a
+grandma's fingers, crooked, skinny and bent out of shape.  He encourages you
+to try the sub that changed his life.  
+~
+human~
+AB DF 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#2996
+sailie~
+Sailie~
+Sailie, an established artist and writer, is climbing up the wall ladder.
+~
+Short, red spiky hair juts out from her head naturally as if she has just
+rolled out of bed.  Around her neck she wears a paint pallet shaped pendant
+with tiny specs of color representing paint.  She is the great great grand
+daughter of Jaken Leidig, the well known artisan of many art pieces in
+Cradlenook, including the mirror faced stone and marble statue.  Her eyes
+radiate a love for painting and writing, they seem to always be washed in a
+wild haze when she is thinking of a new project to begin.  Lr 1 Short, red
+spiky hair juts out from her head naturally as if she has 
+~
+human~
+AB 0 0 0
+34 34 82d34+0 170d10+85 11d3+22 slap
+-13 -13 -13 -6
+I 0 0 0
+stand stand none 80
+0 0 medium flesh~
+~
+#2997
+lollers~
+{RLollers{x~
+{RLollers{x, the dragonling, sits on her fat arse with a bowl of {RDragon{YNip{x.
+~
+~
+dragon~
+AB 0 0 0
+65 65 296d65+0 650d11+95 22d2+50 none
+-37 -37 -37 -24
+0 A 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#2998
+minion~
+{MK{mi{Br{Ca{M'{ms {Dminion{x~
+{MK{mi{Br{Ca{M'{ms {Dminion{x is squatting over a toilet.
+~
+~
+human~
+AB DF 0 0
+35 91 465d91+0 910d11+95 31d2+68 slap
+-56 -56 -56 -37
+I 0 0 D
+stand stand none 100
+0 0 medium flesh~
+~
+M grall 2998 100~
+#2999
+hoe~
+{MK{mi{Br{Ca{M'{ms {xhoe~
+{MK{mi{Br{Ca{M'{ms {xhoe is praying to the {Wporcelain gods{x, it must have been a long night.
+~
+~
+human~
+AB DF 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+0 0 0 0
+stand stand none 100
+0 0 medium flesh~
+~
+M grall 2999 100~
+#0
+
+#OBJECTS
+#2900
+token catch typo cup wtf~
+a nice cup of wtf~
+A nice soothing cup of wtf lies here.~
+unknown~
+~
+drink 0 AO
+10 10 'milk' 0
+1 0 669 P
+G none
+G none
+G none
+G none
+#2906
+hardcover book~
+an unfinished hardcover book~
+An unfinished hardcover book lies open here.~
+unknown~
+~
+armor 0 AJ
+13 13 13 12 'none' 0
+34 35 43738 P
+A
+19 3
+A
+18 1
+A
+20 -2
+G none
+G none
+G none
+G none
+#2909
+bench cedar~
+a polished cedar bench~
+A cedar bench has been polished to a point that it looks like wax.~
+unknown~
+~
+furniture 0 0
+BD ABCDEHJKPQ EH 0 0 BD ABCDEHJKPQ
+1 0 0 P
+G none
+G none
+G none
+G none
+#2910
+couch~
+a {Rred{x and {Yyellow{x patched couch~
+An aged couch patched in {Rred{x and {Yyellow{x rests before a table.~
+unknown~
+~
+furniture 0 0
+AC ABCDEHJKPQ EHK 0 0 AC ABCDEHJKPQ
+1 0 0 P
+G none
+G none
+G none
+G none
+#2911
+mug whisky~
+a mug of whisky~
+A mug filled to the brim with whisky has been set aside.~
+unknown~
+~
+drink 0 A
+20 20 'whisky' 0
+5 1 2665 P
+G none
+G none
+G none
+G none
+#2912
+float~
+a bit of {Mp{mi{Mx{mi{Me {Wd{wu{Ys{Wt{x~
+Some glittering pixie dust has been dispersed about the room.~
+unknown~
+~
+armor 0 AQ
+11 11 11 10 'none' 0
+30 31 59347 P
+A
+18 3
+A
+13 20
+G none
+G none
+G none
+G none
+#2915
+boots leather~
+leather boots with {Cw{Wings{x sketched into the tongue~
+A set of fine leather boots with wings sketched into the tongue have been cast aside.~
+leather~
+~
+armor I AG
+13 13 13 12 'none' 0
+35 36 30610 P
+A
+18 2
+A
+2 1
+A
+13 15
+G none
+G none
+G none
+G none
+#2916
+robe~
+a {yf{go{Gre{gs{yt {ggr{Gee{gn{x robe~
+A beautiful, flowing, forest green robe made to fit a wizard has been cast aside.~
+unknown~
+~
+clothing 0 AK
+ACD ACD ACD CD 0 ACD ACD
+35 36 33102 P
+A
+3 2
+A
+13 25
+G none
+G none
+G none
+G none
+#2920
+bench~
+a bench~
+Three rows of long benches are laid out evenly side by side.~
+unknown~
+~
+furniture 0 0
+BCDE ABCDIJKN EH 0 0 BCDE ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#2921
+desk chair~
+a desk~
+Three rows of desks, three chairs in each, are lined up facing the blackboard.~
+unknown~
+~
+furniture 0 0
+AD ABCDIJKN D 0 0 AD ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#2923
+stake~
+a stake~
+A stake has been thrust into the ground as a site marker.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2939
+artists inspiration~
+an {Ma{mrt{Mi{mst{M'{ms {Winspiration{x~
+Thoughts which inspire any struggling artist float here.~
+unknown~
+~
+armor 0 AE
+13 13 13 12 'none' 0
+35 36 42680 P
+A
+13 40
+G none
+G none
+G none
+G none
+#2940
+painting sun~
+a {Mpa{min{Wt{Mi{mng{x of the {Ysun{x~
+A {Mpa{min{Wt{Mi{mng{x of the {Ysun{x lights up the area.~
+unknown~
+~
+light 0 A
+-1
+35 1 12699 P
+A
+2 1
+A
+6 1
+A
+4 1
+A
+3 1
+G none
+G none
+G none
+G none
+#2944
+marble statue~
+a marble statue~
+A marble statue of the Goddess Kira is impeccably chiseled.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+statue~
+Whoever created this statue must have had a skewed vision of who the
+Goddess Kira is, or perhaps was making a mockery of felines altogether.  A
+wobbly bow about the size of the goddess' head itself has been plopped down
+between two perky cat ears.  Two overly large teary eyes take up a great
+portion of her face, giving the statue a somewhat kitten-ish appearance. 
+From behind the statue a long slick tail hangs loosely from the body.  The
+fur appears almost mop-like and wild, tousled and sprouting out in every
+direction as if she had been rubbing up against something.  She appears
+nothing more than a commoner feline in the artist's depiction.  Quite
+possibly that is how the goddess really appears and the artist had no
+intention of making a mockery, but it surely does not have the stereotypical
+celestial appearance of a goddess.  Nevertheless, the talent put into the
+statue is impeccable and flawless.  
+~
+G none
+G none
+G none
+G none
+#2948
+look beyond identify~
+a look into the {Bb{beyond{x~
+A scroll of identification lies here.~
+unknown~
+~
+scroll 0 AO
+20 'identify' 'reserved' 'reserved' 'reserved'
+20 1 500 P
+G none
+G none
+G none
+G none
+#2949
+wicker chair~
+a wicker chair~
+A wicker chair is bolted to the pinnacle of the roof.~
+unknown~
+~
+furniture 0 0
+A ABCDIJKN EH 0 0 A ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#2950
+desk~
+a workshop desk~
+A workshop desk littered with screws and springs sits at the north end of the room.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2951
+box wooden screws~
+a giant wooden box of screws~
+A wooden box of screws has been cast aside.~
+wood~
+~
+container AG AO
+1000 0 0 1000 100 0
+35 25 9603 P
+G none
+G none
+G none
+G none
+#2952
+bauble necklace~
+a necklace of {Mb{ma{Cu{Mb{cl{Me{Cs{x~
+An interesting necklace of baubles made by a gnome has been left behind.~
+unknown~
+~
+treasure 0 AC
+0 0 0 0 0
+35 36 39 P
+A
+20 -2
+A
+3 2
+G none
+G none
+G none
+G none
+#2953
+chocolate frog~
+a chocolate {yt{goa{yd{x~
+A delicious chocolate toad has been left behind.~
+unknown~
+~
+pill 0 A
+31 'giant strength' 'stone skin' 'poison' 'reserved'
+31 1 9000 P
+G none
+G none
+G none
+G none
+#2954
+dragons blood~
+{Gd{grag{Bo{gn'{Gs {Bb{bloo{Bd{x~
+A vial of dragon's blood has been set aside.~
+unknown~
+~
+potion 0 A
+35 'heal' 'cure serious' 'cure poison' 'reserved'
+35 0 9050 P
+G none
+G none
+G none
+G none
+#2955
+quill jewel charm jeweled paint brush~
+a {Cj{Me{mwel{Me{Cd {Dblack {Cp{Ma{Ci{Mn{Ct{Mb{Cr{Mu{Cs{Mh{x with a {Mc{mat-ea{Mr {cc{Char{cm{x~
+A mysterious black paintbrush with a cat-ear charm lies here.~
+unknown~
+~
+wand 0 AO
+30 5 5 'chain lightning'
+30 3 8000 P
+A
+3 2
+G none
+G none
+G none
+G none
+#2956
+page book spells~
+a page from an {Me{mn{Ychant{me{Md{x book of spells~
+A page ripped out of an enchanted book of spells lies here.~
+unknown~
+~
+scroll 0 A
+30 'faerie fire' 'poison' 'corruption' 'dispel magic'
+30 1 15000 P
+G none
+G none
+G none
+G none
+#2957
+swing set~
+a swing~
+~
+unknown~
+~
+furniture R 0
+B FHJKPQ EH BCDFG BCDFG B FHJKPQ
+0 0 0 P
+E
+swing set~
+Despite the rusted chains supporting the two planks used for seats, it
+looks comfortable and useable, still.  
+ 
+A plaque at the top of the swingset reads,
+"This swing set donated to the children by the mayor of Midgaard."
+~
+G none
+G none
+G none
+G none
+#2958
+roffles syrup~
+{Mroffles {Band {Csyrup{x~
+A delicious platter of roffles and syrup graces you with its presence.~
+unknown~
+~
+food 0 A
+ACD ACD 0 0 0 ACD ACD
+1 0 117 P
+G none
+G none
+G none
+G none
+#2959
+lmaonade~
+a refreshing cup of {Ylmaonade{x~
+A refreshing cup of lmaonade looks like it can wash down any type of food.~
+unknown~
+~
+drink 0 A
+30 30 'lemonade' 0
+1 1 1890 P
+G none
+G none
+G none
+G none
+#2960
+lollerpop~
+a {Mlickable lollerpop{x~
+A lickable lollerpop has been tossed aside for the birds.~
+unknown~
+~
+food 0 A
+BE BE 0 0 0 BE BE
+1 1 186 P
+G none
+G none
+G none
+G none
+#2961
+spinach leaf~
+a {Gspinach {Yleaf{x~
+A delicious spinach leaf has been tossed aside carelessly.~
+unknown~
+~
+pill 0 A
+30 'cure disease' 'detect invis' 'detect undead' 'infravision'
+30 5 3000 P
+G none
+G none
+G none
+G none
+#2962
+porcelain toilet~
+a toilet~
+A porcelain {Rtoilet{x shimmers and looks squeaky clean.~
+unknown~
+~
+furniture 0 0
+A ABCDEHJKPQ EH CFG CFG A ABCDEHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#2963
+poisoned sushi~
+some poisoned {Gs{gu{Ys{gh{Gi{x~
+Some food poisoned sushi has been dropped here.~
+unknown~
+~
+food 0 A
+BD BD 0 A 0 BD BD
+1 0 102 P
+G none
+G none
+G none
+G none
+#2964
+puke barf chunks~
+{Gb{Ya{Gr{Yf {xchunks~
+Someone has puked here, for barf chunks are scattered about.~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+1 0 161 P
+G none
+G none
+G none
+G none
+#2965
+wooden bench~
+a wooden {Gb{ge{yn{gc{Gh{x~
+A smooth wooden {Gb{ge{yn{gc{Gh{x rests on the cobblestone.~
+unknown~
+~
+furniture 0 0
+AC ABCDEHJKPQ EH CFG CFG AC ABCDEHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#2966
+spin wheel~
+a {Ms{mpi{Mn {Mw{mh{We{me{Ml{x~
+A {Ms{mpi{Mn w{mh{We{me{Ml{x has been thrust into the ground.~
+unknown~
+~
+treasure 0 AO
+0 0 0 0 0
+35 92 4820 P
+A
+1 1
+A
+13 35
+G none
+G none
+G none
+G none
+#2967
+little key paw~
+a {ml{Mi{mttle{x key {Wsh{wap{Wed{x like a {mp{Ma{mw{x~
+A brilliant pink key shaped like a paw has been tossed here.~
+unknown~
+~
+key 0 A
+0 0 0 0 0 0 0
+1 1 100 P
+G none
+G none
+G none
+G none
+#2968
+dragonnip nip~
+{RDragon{YNip{x~
+Some {RDragon{YNip{x has been dropped here.~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+1 1 161 P
+G none
+G none
+G none
+G none
+#2969
+dragonbeer~
+{RDragon{YBeer{x~
+A refreshing mug of cold {RDragon{YBeer{x lies here.~
+unknown~
+~
+drink 0 A
+20 20 'beer' 0
+1 0 1473 P
+G none
+G none
+G none
+G none
+#2970
+tail~
+the dragon's tail~
+The dragon's tail makes a half-circle to be used as a sitting spot.~
+unknown~
+~
+furniture 0 0
+BD ABCDEHJKPQ EH 0 0 BD ABCDEHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#2971
+lustrous quill~
+a shimmering {Dlu{Ws{xtr{Wo{Dus{x quill~
+A shimmering {Dlu{Ws{xtr{Wo{Dus{x quill has been tossed aside carelessly.~
+unknown~
+~
+weapon 0 AN
+exotic 1 33 stab 0
+31 32 32781 P
+A
+13 3
+A
+20 -1
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#2972
+stone~
+a {Dm{Wi{xrr{Wo{Dr{x faced stone~
+A {Dm{Wi{xrr{Wo{Dr{x faced stone distorts your image and heals the ill.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2974
+diamond cat collar~
+a {Dd{Mi{Wa{xmon{Dd {Men{mcr{Wu{mst{Med {cc{Ca{ct{x collar~
+A beautiful, diamond encrusted cat collar has been tossed aside.~
+unknown~
+~
+jewelry 0 AC
+0 0 0 0 0 0 0
+31 32 27 P
+A
+20 -4
+G none
+G none
+G none
+G none
+#2975
+paint pallet necklace~
+a {Rp{Ya{Gi{Cn{Mt {Rp{Ya{Gl{Cl{Me{Rt{x necklace~
+A {Rp{Ya{Gi{Cn{Mt {Rp{Ya{Gl{Cl{Me{Rt{x necklace has been left behind~
+unknown~
+~
+jewelry 0 AC
+0 0 0 0 0 0 0
+34 35 38 P
+A
+13 30
+G none
+G none
+G none
+G none
+#2978
+couch~
+a smelly old couch~
+A smelly old couch with stuffing poking out at every inch rests here.~
+unknown~
+~
+furniture 0 0
+AC ABCDEHJKPQ EHK 0 0 AC ABCDEHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#2979
+chair~
+a wooden chair~
+A delicately carved wooden chair rests next to a small desk.~
+unknown~
+~
+furniture 0 0
+A ABCDIJKN EH 0 0 A ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#2980
+roast beef sammich~
+a {yroast beef{x sammich~
+An untouched roast beef sammich rests on a tabletop.~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+1 1 135 P
+G none
+G none
+G none
+G none
+#2981
+seat table~
+a seat at the table~
+A table for two with a checkered tablecloth rests here.~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#2982
+chair table~
+an ornate chair at the dining table~
+A grand dining table fit to seat twenty stretches across the room.~
+unknown~
+~
+furniture 0 0
+CE ABCDIJKN EH 0 0 CE ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#2986
+king bed~
+a king sized bed~
+A king size bed made of solid, bleached white oak rests here.~
+unknown~
+~
+furniture 0 0
+AB ABCDIJKN EHK BEF BEF AB ABCDIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#2987
+nightcap cap~
+a {Dnight{bcap{x~
+A nightcap with a yarn ball at the tip lies here.~
+unknown~
+~
+armor 0 AE
+32 32 32 31 'none' 0
+34 89 31765 P
+A
+13 35
+G none
+G none
+G none
+G none
+#2990
+painting cat~
+a {Cpainting{x by {MK{mira{x~
+A beautiful painting by {MK{mira{x has been left here.~
+unknown~
+~
+treasure 0 A
+0 0 0 0 0
+1 3 200 P
+G none
+G none
+G none
+G none
+#2992
+chop suey~
+{Gchop {Ysuey{x~
+A delicious plate of chicken and bean sprouts lies here.~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+1 0 165 P
+G none
+G none
+G none
+G none
+#2993
+platter meat cubes~
+a platter of {Rm{reat {Dc{Wubes{x~
+A platter of perfectly square meat cubes rests here.~
+unknown~
+~
+food 0 A
+ACD ACD 0 0 0 ACD ACD
+1 1 133 P
+G none
+G none
+G none
+G none
+#2994
+~
+a slice of ham~
+A slice of delicious ham has splat on the ground.~
+unknown~
+~
+food 0 A
+BD BD 0 0 0 BD BD
+1 1 98 P
+G none
+G none
+G none
+G none
+#2995
+sub jareds~
+Jared's {Cfresh{x sub~
+A fresh sub from Jared's sub shop has been tossed aside for the birds.~
+unknown~
+~
+food 0 A
+CD CD 0 0 0 CD CD
+1 1 122 P
+G none
+G none
+G none
+G none
+#2996
+skinny sub~
+a {Gs{gkinn{Gy {xsub~
+A skinny sub which apparently makes you lose weight lies here.~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+1 1 162 P
+G none
+G none
+G none
+G none
+#2997
+pizza sub~
+a {Rp{ri{Rzz{ra {xsub~
+A delicious pizza sub crammed full of pepporonies lies here.~
+unknown~
+~
+food 0 A
+CE CE 0 0 0 CE CE
+1 1 195 P
+G none
+G none
+G none
+G none
+#2998
+footlong vegetarian sub~
+a footlong {Gve{gge{Wta{gri{Gan{x sub~
+A footlong vegetarian sub crammed full of vegetables lies here.~
+unknown~
+~
+food 0 A
+BE BE 0 0 0 BE BE
+1 1 182 P
+G none
+G none
+G none
+G none
+#2999
+seafood sensation~
+a {Bs{bea{Yf{yood {Mse{mns{Wa{mti{Mon{x~
+A seafood sensation sub has been tossed aside for the birds.~
+unknown~
+~
+food 0 A
+ABE ABE 0 0 0 ABE ABE
+1 1 185 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#2900
+{DC{Wradle{Yn{yook {DT{Whres{Yh{yold{x~
+A smooth oak sign with careful bold etchings of the words {YWelcome to{x
+{YCradlenook{x in it, the C on Cradlenook the most prominent and painted black,
+has been placed in an arch over a pebbled trail; it beckons passerby
+northward into the villa Cradlenook.  Running in a small rivulet below the
+path from west to east is the river Songuia.  Its waters flow about
+Cradlenook's borders, flooding in from the west, and gurgling back in a
+stream near its inlet, making a giant circle around the villa.  
+~
+0 C inside
+D0
+~
+~
+Z 0 2901
+0 0
+D2
+~
+~
+Z 0 6131
+0 0
+S
+#2901
+{yC{Yranny {yW{Yay {y- {D180 N{x~
+Fluttering in with the winds dance leaves and blades of green grass from
+the flourished nooks and crannies of the villa's forested areas.  Floating
+along with them are the sounds of deep bellied laughter and the smells of
+liquor and bread flour; the wind must be coming in from the east through the
+trees.  Small wooden signs have been planted into the soil next to small
+clusters of flowers, labeling each group with the species name and a small
+description of each.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2902
+0 0
+D2
+~
+~
+Z 0 2900
+0 0
+D3
+~
+~
+Z 0 2903
+0 0
+S
+#2902
+{yC{Yranny {yW{Yay {y- {D190 N{x~
+Groups of small pedaled flowers sprinkle either side of the way.  Thin
+white bark trees have been planted to keep the area cool and well shaded;
+the flowers border the roots of the trees and circle the trunks as if they
+have been planted carefully to do just so.  Spirits street, home to the
+Fox's Beard, extends off to the east.  Flour and liquor float through the
+air, filling the nostrils of hungry passerby.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2907
+0 0
+D1
+~
+~
+Z 0 2905
+0 0
+D2
+~
+~
+Z 0 2901
+0 0
+S
+#2903
+Widget Way - 200 W~
+A thin pebbled path lined with shops full of goods for the students of
+Cradlenook extends on to the east with Cranny Way just back to the west. 
+Streams of smoke puff steadily out from chimneys in the brick faced shops,
+and rise into the air and disappear above the treetops.  Hanging in each
+doorway is a sign with the name of the shop one is about to enter, and the
+goods they have in stock.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2901
+0 0
+D2
+~
+~
+Z 0 2904
+0 0
+D3
+~
+~
+Z 0 2912
+0 0
+S
+#2904
+Barnicle's Books and Scrolls~
+Very close in resemblance to a library, Barnicle's Books and Scrolls is
+laden with long wooden shelves covered in alphabetized spell books.  Coiled
+carefully and placed into vases are dozens of scrolls; each rests upon a
+long wooden table on the back wall with a piece of brilliant white ribbon
+tied about the midriff.  Lamps hang from hooks on the ceiling in every
+corner of the shop as well as in the very center, keeping the shop well lit.
+Quills with glitzy charms and beautiful white feathers are placed carefully
+in tiny holsters upon the eastern wall.  Underneath is a single scroll upon
+which one can test out its ink.  Barnicle makes his way through the isles of
+shelves, peeking through the books for incoming customers.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2903
+0 0
+S
+#2905
+Spirits Street - 190 W~
+A bitter smell of high proof liquor rises into your nostrils; along with
+it is a trace of flour scent and the smell of fresh milk.  Spirits Way runs
+into the Fox's Beard not far to the west, where many social on goers of
+Cradlenook like to mingle.  Small pubs and shacks line up down the way, each
+filled with shelves of rum and different kinds of beer.  Those who are known
+to not hold their alcohol well will be laughed at in places of such.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2906
+0 0
+D3
+~
+~
+Z 0 2902
+0 0
+S
+#2906
+Spirits Street - 200 W~
+The starchy smell of old pubs fills the air, mixed in it a rich smell of
+bread flour coming from a cedar pub to the north.  The sound of mugs
+clashing together with high pitched clinks come from the Fox's Beard nearby;
+an occasional smash rings out as a glass mug shatters on the floors inside. 
+Constant thuds from fists banging on tables make the earth outside feel as
+if it were about to begin shaking; in the Fox's Beard, drinking contests are
+almost always on the go.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2909
+0 0
+D3
+~
+~
+Z 0 2905
+0 0
+S
+#2907
+{yC{Yranny {yW{Yay {y- {D200 N{x~
+The path ascends in a gradual uphill slant to the center of the village. 
+The path slowly transforms from a sandy walk into a cobblestoned street. 
+The further into the village, the more industrialized things will become. 
+Deep green moss from beneath the stately trees encroaches on the
+cobblestones in cracks and crannies.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2908
+0 0
+D2
+~
+~
+Z 0 2902
+0 0
+S
+#2908
+{DC{Wradle{Yn{yook {DS{Wquare{x~
+The small square of Cradlenook is encompassed on each corner with trees
+and shrubberies; to the north an old graveyard bearing the dead of the
+village can be found fenced with needle spires.  Off to the east and west
+the Villa Promenade shoots off.  The open-air of the square skirts a small
+granite fountain which is surrounded by benches.  The fountain shoots a
+constant spray of crystal water ten feet into the air.  The cobblestone of
+the square has grayed with time, and in between the cracks of the stone,
+moss can be seen flourishing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2923
+0 0
+D1
+~
+~
+Z 0 2940
+0 0
+D2
+~
+~
+Z 0 2907
+0 0
+D3
+~
+~
+Z 0 2943
+0 0
+S
+#2909
+The Fox's Beard~
+Prominent scents of ale, stew, and bread flour linger in the air in the
+Fox's Beard.  The walls, floorboards, ceiling and bar frame are all
+constructed from fine cedar, and have been polished to such a point they
+almost appear to be wax.  Solid oak casks peek out from behind the bar where
+they have been gathered in stock; a few of them have been placed atop the
+bar, and merry folks rosy in the cheeks press the taps as they stumble on
+by.  Natural light pours in from the several windows of the tavern,
+revealing dust particles in the air.  Tables and benches have been placed
+about the room to provide seating for social on goers.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2906
+0 0
+D4
+~
+~
+Z 0 2910
+0 0
+D5
+~
+~
+Z 0 2970
+0 0
+S
+#2910
+A Comfortable Loft~
+A red, brick chimney pokes through the fine cedar flooring along the
+western wall and out through the angled wood ceiling.  A worn couch patched
+together with a fool's motley of red and yellow scraps rests before the
+chimney way.  A hinged door, bent upward on one corner from old age, is
+built into the floor in the southeast corner of the room; smells from the
+bar below waft in through it, enveloping the room in an aroma of liquor and
+bread flour.  A simple oak table rests before the old couch.  Strewn upon it
+are a variety of pints and mugs, once filled with spirits; each cup has been
+drank completely dry.  Overhead in the northeast corner of the room is
+another hatchback door leading to the roof; below it, a wooden ladder has
+been nailed to the wall.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 2911
+0 0
+D5
+~
+~
+Z 0 2909
+0 0
+S
+#2911
+A Well Maintained Shingled Roof~
+Thick clouds of steamy white smoke billow from the fireplace chimney and
+rise into the sky.  A limited view of the city of Midgaard opens up beyond
+the roof line, but the Fox's Beard is not built quite high enough to see
+beyond city buildings and walls.  Just northwestward lies the Market Square,
+its premise bustling away as it always is.  The roof tiles of the bar are
+painted a dark shade of turquoise.  It is obvious the roof is often
+maintained and washed clean of pigeon scrap, as it is easy to slip and fall
+astray from its smooth tiles.  
+~
+0 0 inside
+D5
+~
+~
+Z 0 2910
+0 0
+S
+#2912
+Widget Way - 190 W~
+Small, smooth round pebbles have been tossed on the path, forming a layer
+about three inches thick.  With each step a passerby takes, a grinding
+crunch can be heard.  Warmth radiates from shops on either side of the way;
+from inside one of them, brilliant explosions and flashes of light can be
+seen.  Someone must be working on making potions for buyers.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2903
+0 0
+D2
+~
+~
+Z 0 2913
+0 0
+D3
+~
+~
+Z 0 2914
+0 0
+S
+#2913
+Canda's Cauldrons and Concoctions~
+A quaint little cabin, which appears to be half house half shop, glints
+with shiny vials of swirling potions.  Up a small flight of stairs onto a
+wooden plateau on the west corner of the room is Canda's simple bed and
+dresser.  Below it a small wooden door is cracked open under the stairs
+where an interesting gnome spends his time crafting baubles and trinkets.  A
+stove rests at the north end of the room upon which a pan bubbles a blue
+liquid.  Beside it a cauldron gurgles away, gigantic silvery bubbles popping
+in the heat of a fire lit beneath it.  With all of the lit stoves, lanterns
+and cauldrons, the shop is quite a steamy, sweaty place to be.  All the
+windows in the cabin remain open, and a fan, crafted by the handy gnome
+under the stairs, pushes a constant breeze through the room.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2912
+0 0
+D3
+~
+~
+ABZ 0 2950
+0 0
+S
+#2914
+Widget Way - 180 W~
+An abrupt end in the trail takes place where the pebbles of the path meet
+the edge of a grassy knoll.  The sounds of explosions and conversation have
+faded to the east; the prominent sounds apparent now are those of feet
+stomping on up the knoll and fading over the top.  Weeds have grown thick
+where the pebbles meet the grass; a row of dandelions has grown as if
+someone had gone along and planted a line of seeds.  A dark wooden shop with
+curtains drawn over the windows lies southward.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2912
+0 0
+D2
+~
+~
+Z 0 2915
+0 0
+D4
+~
+~
+Z 0 2916
+0 0
+S
+#2915
+Rupert's Robes and More~
+A dark wooded room lit only by two brass hooded lanterns, which hang from
+hooks on the ceiling, opens up before you.  Upon the walls robes and wizard
+hats are hung on display to show what is on sale.  The finest of the robes
+and hats can be found safely protected behind cubicles of glass.  The most
+prominent of robe colors is brown, but that is no surprise, as the entire
+shop seems to be clan in dark forest colors.  On the back wall beneath a
+display of forest green robes is a wooden shelf laden with a discord of
+boots.  Some of the boots have wings etched into the leather tongue flaps,
+others appear so heavy that it is a wonder how anyone could ever wear them
+and walk properly and not stumble about.  The man who owns the shop spends
+his time gathering around the world the proper materials to craft such top
+mage wear.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2914
+0 0
+S
+#2916
+Across a Grassy Knoll~
+A clear, natural path in the knoll about two feet wide extends upward
+where feet have pressed the grass into the ground, smashing it completely
+flat.  A few ground holes surround the area, exposing a dark brown soil,
+where burrowing animals have dug homes for themselves.  A cool breeze sweeps
+over the knoll, tickling the grass blades and sending them into a dancing
+frenzy.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 2917
+0 0
+D5
+~
+~
+Z 0 2914
+0 0
+S
+#2917
+Nearing the Knoll Landing~
+Beside the path, full body imprints have been pressed into the grass from
+tired climbers and playful children.  A single tree stump sanded to
+perfection to be used as a makeshift chair is rooted in the ground to the
+west of the foot pressed path.  A few hedgehog needles can be seen left on
+the edge of the stump, be careful not to sit on them.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2918
+0 0
+D5
+~
+~
+Z 0 2916
+0 0
+S
+#2918
+A Limited View of Widget Way~
+The rooftops of the shops below can be seen from the top of the knoll. 
+Barnicle's shop chimney sends smoke into the air and it nearly floats to
+this knoll before it disperses and fades into nothing.  Canda's Cauldron
+shop can be seen glowing from its windows in a brilliant green light, often
+flashing white from a potion explosion, and returning to its normal state. 
+Just north of here an old school house stands; it appears quite old, but
+still in use.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2919
+0 0
+D2
+~
+~
+Z 0 2917
+0 0
+S
+#2919
+Cradlenook School House of Spellcasting~
+Just beyond the Widget Way outlook an old school house stands.  Its
+floors have been polished and waxed in attempt to look a bit newer, as it is
+decades old.  Only a few children of Cradlenook still attend, and two
+teachers uphold it alone.  It consists of two rooms, one of which is a tiny
+classroom, and the other a lunch room full of simple bench tables.  On the
+north wall a rickety old door with hangs open; behind it is a playground for
+the schoolhouse children on recess.  A hatch door has been integrated into
+the floorboards, leading down into an oil lamp lit tunnel which opens up
+into Villa Promenade; its large brass handle is rusty and very heavy, making
+it quite a job to hoist it open.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 2922
+0 0
+D1
+~
+~
+Z 0 2921
+0 0
+D2
+~
+~
+Z 0 2918
+0 0
+D3
+~
+~
+Z 0 2920
+0 0
+D5
+~
+~
+ABZ 0 2942
+0 0
+S
+#2920
+A Room of Benches~
+A single, long table stretches nearly from one end of the room to the
+other, surrounded by equally long benches to either side.  At one end,
+however, sits a rather comfortable-by-comparison chair for an adult to focus
+attention on the eating manners of the students.  On the side of the table
+opposite from the teacher's seat is an open window to the kitchen, where
+servers may pass trays of nourishment to the children.  On the wall is a
+menu.
+~
+0 0 inside
+E
+menu wall~
+{g--------------------------------------{x
+{g| {w     Cradlenook Daily Bread        {g|{x
+{G|------------------------------------|{x
+{G|{D---{wTurk{D-{wy{D-{wMelt{D----------------------{G|{x
+{G|{D---{wSweet{D-{wCorn{D-----------------------{G|{x
+{G|{D---{wMilk{D-----------------------------{G|{x
+{G|{D---{wVege{D-{wtabl{D--{wcAsserole{D-------------{G|{x
+{G|{D------------------------------------{G|{x
+{G|{D------------------------------------{G|{x
+{G|{D------------------------------------{G|{x
+{G|{D------------------------------------{G|{x
+{G|{D------------------------------------{G|{x
+{G|{D------------------------------------{G|{x
+{G|____________________________________|{x
+ 
+A note next to the menu says,
+"If you find our missing letters, please
+return them to the cafeteria lady."
+~
+D1
+~
+~
+Z 0 2919
+0 0
+S
+#2921
+A Small Classroom~
+Years of use has made the black chalkboard faded to charcoal at the head
+of the classroom, behind the teacher's desk.  Equally worn crooked rows of
+small children's desks line the classroom depicting the numbers of students
+they have seen over the lifetime of Cradlenook.  
+Something appears to be written on one of the children's desks.
+~
+0 0 inside
+E
+child desk~
+Written on the desk, you read,
+ 
+"Tania is a meanie poo-poo head."
+~
+D3
+~
+~
+Z 0 2919
+0 0
+S
+#2922
+Cradlenook Playground~
+A dull white picketed fence seperates the playground here from the rest
+of the world, so the rambunctious children may play their childhood games in
+relative peace.  The center of the playground has been reduced to mere dust
+from the myriads of little footprints that've found their way etched into
+the ground, while off to the side, a small swingset rests.  
+~
+0 0 inside
+D2
+~
+door~
+ABZ 0 2919
+0 0
+S
+#2923
+Eidolon Footpath~
+A long path descending subtly towards the village graveyard gates slowly
+turns from white cobblestone to soot black cobblestone.  As one moves on
+down Eidolon Footpath, it may become noticeable that not many people take
+the way to the graveyard.  The majority of the new villagers have no
+relation to any of the dead, as it has been several decades since the
+graveyard has been used.  Cradlenook must have been a bustling city, as the
+graveyard is jam packed with headstones with no room left for any new dead. 
+~
+0 C inside
+D0
+~
+~
+Z 0 2924
+0 0
+D2
+~
+~
+Z 0 2908
+0 0
+S
+#2924
+Eidolon Footpath~
+Slowly graying cobblestones extend onward to the old Cradlenook
+graveyard.  The air feels damp and cool, and the lighting has darkened
+drastically, as if the graveyard surroundings are not even remotely a part
+of the happy little village to the south.  A stagnant smell of iron and
+decaying plants fills the air; the graveyard must not be very well taken
+care of.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2925
+0 0
+D2
+~
+~
+Z 0 2923
+0 0
+S
+#2925
+Eidolon Footpath~
+The thin trees that surround Cradlenook not far southward have grown
+quite thick on either side of the path and have taken on the shape of great
+maple trees; with each stroke forward their leaves darken and the shade
+grows cooler and damper.  The cobblestones have turned into a dark soot
+color; whether they've been painted like so, have not been maintained, or
+have been so near to the graveyard that over time have become afflicted with
+darkness, it is hard to say.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2926
+0 0
+D2
+~
+~
+Z 0 2924
+0 0
+S
+#2926
+Cradlenook Cemetery Gates~
+Metal gates painted every few months in rich silver and a glossy overcoat
+are clasped shut, but a lock is amiss giving anyone the right to enter. 
+Circling the mess of tombstones and dead flowers are iron-barred walls with
+needle thin pointed spires.  Along the inside wall are neatly trimmed hedge
+plants, possibly the only well maintained things in the entire yard.  
+~
+0 C inside
+D0
+~
+~
+Z 0 2927
+0 0
+D2
+~
+~
+Z 0 2925
+0 0
+S
+#2927
+A Desultory Row of Stone Epitaphs~
+A desultory graveyard, obviously unkempt and dilapidated with age, opens
+up before you in a large circle.  Tombstones have been placed randomly all
+throughout the yard, bearing no pattern whatsoever.  Several of the epitaphs
+are unreadable, even though they have all been carved right in the
+gravestones; many appear jaded and unpolished.  Graves of all sizes have
+been dug deep into the soil all over the place, but somehow all have managed
+to keep out of the way of other graves.  A few expensive looking caskets
+bound in a marble material rest upon plateaus of elevated land and carefully
+carved bedrock.  The graves are not often visited and paid respects, for
+most of the descendants and families of relation have died off over time;
+the villa of Cradlenook has been in existence for ages.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2928
+0 0
+D1
+~
+~
+Z 0 2937
+0 0
+D2
+~
+~
+Z 0 2926
+0 0
+D3
+~
+~
+Z 0 2933
+0 0
+S
+#2928
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2936
+0 0
+D1
+~
+~
+Z 0 2933
+0 0
+D2
+~
+~
+Z 0 2927
+0 0
+D3
+~
+~
+Z 0 2931
+0 0
+S
+#2929
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2936
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2928
+0 0
+D3
+~
+~
+Z 0 2935
+0 0
+S
+#2930
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master. 
+~
+0 0 inside
+D0
+~
+~
+Z 0 2932
+0 0
+D1
+~
+~
+Z 0 2934
+0 0
+D2
+~
+~
+Z 0 2938
+0 0
+D3
+~
+~
+Z 0 2927
+0 0
+S
+#2931
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master. 
+~
+0 0 inside
+D0
+~
+~
+Z 0 2933
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2937
+0 0
+D3
+~
+~
+Z 0 2931
+0 0
+S
+#2932
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2929
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2930
+0 0
+D3
+~
+~
+Z 0 2932
+0 0
+S
+#2933
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2934
+0 0
+D1
+~
+~
+Z 0 2927
+0 0
+D2
+~
+~
+Z 0 2932
+0 0
+D3
+~
+~
+Z 0 2930
+0 0
+S
+#2934
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2935
+0 0
+D1
+~
+~
+Z 0 2934
+0 0
+D2
+~
+~
+Z 0 2930
+0 0
+D3
+~
+~
+Z 0 2930
+0 0
+S
+#2935
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  Just westward
+a tombstone enveloped with {Ggreen{x light is pitched in the ground.  It appears
+to be angled a bit differently from the rest of the mess of stones.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2936
+0 0
+D1
+~
+~
+Z 0 2936
+0 0
+D2
+~
+~
+Z 0 2934
+0 0
+D3
+~
+~
+Z 0 2939
+0 0
+S
+#2936
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2931
+0 0
+D1
+~
+~
+Z 0 2936
+0 0
+D2
+~
+~
+Z 0 2927
+0 0
+D3
+~
+~
+Z 0 2935
+0 0
+S
+#2937
+A Desultory Row of Stone Epitaphs~
+A strangely disorderly row of tombstones is scattered about in a mess. 
+Upon each stone is carved a person of Cradlenook who long past died, and a
+respectful epitaph beneath.  The tombstones are predominantly simple and
+generic, only sanded down to create a smooth surface and top shaped like a
+half moon.  A few of the stone tablets that tower over surrounding tombs and
+are carved a bit more ornately; the entombed must have been more wealthy and
+established in Cradlenook.  Many of the larger tombstones have engravings of
+names prefixed with words such as Lady, Sir and Young Master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2931
+0 0
+D1
+~
+~
+Z 0 2931
+0 0
+D2
+~
+~
+Z 0 2936
+0 0
+D3
+~
+~
+Z 0 2938
+0 0
+S
+#2938
+A Desultory Row of Stone Epitaphs~
+Browned flowers which were once beautiful and vivid have wilted next to
+their beloved tombstones and fallen limp in molded and mossy vases.  The
+grass has grown thick between and over graves, making it very difficult to
+see the names on tombstones and even worse trying not to step upon the
+peacefully resting dead.  At this point it may be quite a hassle trying to
+find one's way about the yard; a jargoned mess of stones and graves lies in
+every direction.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2930
+0 0
+D1
+~
+~
+Z 0 2937
+0 0
+D2
+~
+~
+Z 0 2938
+0 0
+D3
+~
+~
+Z 0 2931
+0 0
+S
+#2939
+The Secret Epitaph~
+Amongst the chaotic rows of headstones, you have come across a very
+special one.  Surrounded by weeds and muddy, crooked undergrowth roots, the
+headstone glows in an eerie green light.  Upon the headstone an epitaph
+reads, "{YHe Lived His Life Like a Constant Painting.{x" With the right word,
+something special may happen at this very spot.  
+~
+0 0 inside
+D5
+~
+~
+Z 0 2926
+0 0
+S
+#2940
+{CV{Willa {CP{Wromenade {C- {W190 W{x~
+Midway between two different paths, Villa Promenade stretches out to the
+east and west.  Northward the Mayor's home can be seen nestled in a circle
+of thick trunked trees, before it a fine brick path lit by glistening
+tear-shaped bulbs.  Small strands of grass and chunks of blanket-like moss
+peek out and flourish between the cracks in the cobblestone path below. 
+Overhead the sun shines down, ricocheting off the polished stones, creating
+a blinding reflection into passerby eyes.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2981
+0 0
+D1
+~
+~
+Z 0 2941
+0 0
+D2
+~
+~
+Z 0 2987
+0 0
+D3
+~
+~
+Z 0 2908
+0 0
+S
+#2941
+{CV{Willa {CP{Wromenade {C- {W200 W{x~
+The sounds of ducks splashing in the basin just north can be heard dully
+echoing between the surrounding hills.  Just up and nestled in a steep knoll
+is a wooden door shrouded in long strands of meadow-like grass.  Cobblestone
+rocks polished to a tee are cradled between grass on either side of the
+promenade; their surfaces shine brilliantly in comparison to the other
+passages around Cradlenook.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2963
+0 0
+D3
+~
+~
+Z 0 2940
+0 0
+D4
+~
+~
+Z 0 2951
+0 0
+S
+#2942
+Inside the Schoolhouse Tunnel~
+The schoolhouse tunnel resembles closely to a mini-mining passageway. 
+Many have to creep down, back hunched, to make it through properly without
+bumping into the ceiling.  Wooden steps have been crafted into the dirt
+floor, and the walls have been packed with large stones to keep everything
+in place.  Hanging from a long strip of wood on the ceiling are oil lamps to
+keep the passage lit.  The air feels cool and damp, and them stones in the
+walls are chilly to the touch, as the earth around them are keeping them
+cool.  This passage is often used by teacher and student alike as a shortcut
+into the city.  
+~
+0 0 inside
+D4
+~
+~
+ABZ 0 2919
+0 0
+D5
+~
+~
+Z 0 2951
+0 0
+S
+#2943
+{CV{Willa {CP{Wromenade {C- {W180 E{x~
+Brilliant white cobblestone tiles are pressed together along Villa
+Promenade; they are packed together so tightly it appears they may be
+winning the battle of weeds growing in the stone cracks, but in spots little
+blankets of moss can be seen like sponges on their surfaces.  A flourishing
+green path stretches off to the north where the tip of a small, grassy
+mountain can be seen.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2946
+0 0
+D1
+~
+~
+Z 0 2908
+0 0
+D3
+~
+~
+Z 0 2944
+0 0
+S
+#2944
+{CV{Willa {CP{Wromenade {C- {W170 E{x~
+A nearly vertical wall of grass and jagged rocks stretches for about
+thirty feet in the air at the far west side of the promenade.  It is
+impossible to see over even from standing at a distance.  Little man made
+foot holes can be seen dug into its face for climbing purposes.  Southward
+lies Wee Boulevard, home to all citizens of Cradlenook aside from the mayor.
+~
+0 C inside
+D1
+~
+~
+Z 0 2943
+0 0
+D2
+~
+~
+Z 0 2945
+0 0
+S
+#2945
+{cW{mee {cB{moulevard {c- {m200 N{x~
+Off of Villa Promenade shoots Wee Boulevard, stretching southward into a
+small square of homes.  The cobblestone continues to the south, shining just
+as brightly as it does on Villa Promenade.  On either side of the boulevard
+is a slim margin of bright flowers that have been planted to make the street
+look a bit more homely and alive.  Beyond the flower patches heading away
+from Cradlenook is a rolling hill with maple trees shooting up from it.  On
+the other side a small forested area has flourished, making for a fun play
+area for the Cradlenook children.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2944
+0 0
+D2
+~
+~
+Z 0 2952
+0 0
+S
+#2946
+A Verdant Path~
+Lush green grass pads the earth just beyond Villa Promenade, making a
+sharp cut between earth and cobblestone.  The sounds of birds chirping and
+woodpeckers pecking away at tree bark is more resonant in these parts. 
+Rustling noises in the surrounding bushes are apparent, and are probably
+coming from that off forest floor creatures such as bunnies and snakes, and
+from time to time, birds; they peck their beaks sporadically at seeds in the
+soil and pull worms up from the dirt.  Off to the northwest a small cabbage
+patch lies clobbered in healthy bunnies.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2947
+0 0
+D2
+~
+~
+Z 0 2943
+0 0
+S
+#2947
+A Verdant Path~
+Tall stalks of grass and berry covered brambles make up the flourishing
+path.  In some areas the grass sticks to your body.  Rubbing these blades of
+grass from bottom to top is like sliding your fingers across adhesive
+rubber.  Small spines on their surface make them tear away at any soft
+fabric, leaving the material tousled and worn-looking.  Tiny creek toads can
+be seen hopping through the moist spots in soil, relishing in the cool
+earth.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2946
+0 0
+D3
+~
+~
+Z 0 2948
+0 0
+S
+#2948
+A Verdant Path~
+Dense, overgrown grass comes up to an average human's knees along this
+path.  Sprinkled in with the grass stalks are hundreds of yellow daisies and
+white chrysanthemums.  The surrounding bushes and undergrowth are
+flourishing in an unstoppable frenzy; vines and bramble are wrapped around
+tree trunks, sprouting tiny yellow flowers.  Moss covered rocks are strewn
+through the undergrowth, half their mass hidden in the soil.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2949
+0 0
+D1
+~
+~
+Z 0 2947
+0 0
+S
+#2949
+A Small Grassy Opening in the Forest~
+A dilapidated stone archway stands about fifteen feet tall before a
+grassy mountain.  Encompassing its base in a wide circle are beautiful white
+and soft coral flowers.  The arc was built years ago by an artist who lived
+on the street Wee Boulevard in Cradlenook.  Other art pieces of his are said
+to be hidden within forested areas.  The body of earth just northward has
+had conflicting names for as long as it existed, namely because of its
+stature.  No one is quite sure if it is a mountain or a hill.  Some have
+called it the vista hill because of its beautiful view of the treetops. 
+Others have called it the the forest's-eye mountain.  It stands only sixty
+feet into the air, but its mass is so large that it gives reason for some to
+consider it a mountain.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2966
+0 0
+D2
+~
+~
+Z 0 2948
+0 0
+S
+#2950
+A Gnome's Workshop Under the Stairs~
+A small wooden desk littered with screws, springs and other contraptions
+rests at the north end of the room, lit by a small oil lamp hanging
+overhead.  In front of it a tiny gnome sits upon a wooden chair, kicking his
+legs back and forth mindlessly, as they are not long enough to reach the
+cabin floor.  A mess of plush blankets appears to have been thrown
+carelessly in the corner of the room like a giant pillow; the gnome uses it
+as a place to sleep.  The room appears to be nothing more than a simple work
+shop, scattered with junk and trinket making tools; to the gnome, however,
+it is a place of paradise.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 2913
+0 0
+S
+#2951
+An Old Wooden Knoll Door~
+Nestled in the side of a grassy knoll, this door is clad in white paint
+which has chipped in places and is peeling away in others.  To open it one
+must pull on the heavy brass handle, which can become quite a job trying to
+keep it open, as the door is built on a slant along with the hill and the
+latch is quite heavy.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 2942
+0 0
+D5
+~
+~
+Z 0 2941
+0 0
+S
+#2952
+{cW{mee {cB{moulevard {c- {m190 N{x~
+Smooth wooden benches rest in rows on the cobblestone in front of the
+flower patches on both sides of the path every ten feet or so.  Bird
+droppings can be seen dried on a few of them where passerby make sure not to
+rest.  Tall spin wheels which have been planted on tall sticks line the
+exterior of the cobblestone between benches and are painted in {Dm{We{xt{Mal{xl{Wi{Dc{x
+colors; they rotate wildly in the breeze, making a soft rattling noise.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2945
+0 0
+D2
+~
+~
+Z 0 2953
+0 0
+S
+#2953
+{cW{mee {cB{moulevard {c- {m180 N{x~
+After branching off to the east and west, Wee Boulevard sprouts in
+multiple directions, hosting all sorts of humble homes and abodes for the
+citizens of Cradlenook.  Not far to the west a hill stands tall with a
+beautiful white home atop it; the view must be astonishing from all the way
+up there.  To the south a large hill with a bowl shaped center resides;
+trees climb up its body and make a complete, organized circle around the
+middle.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2952
+0 0
+D1
+~
+~
+Z 0 2975
+0 0
+D3
+~
+~
+Z 0 2954
+0 0
+S
+#2954
+{cW{mee {cB{moulevard {c- {m170 W{x~
+On either side of the boulevard trees stand tall, wavering in unexpected,
+gentle breezes.  Leaves and pine needles spin and float from the them with
+every blow of the wind, blanketing the cobblestone in green, yellow, and
+orange colors.  The boulevard appears rather clear today; city maintenance
+must have swept and polished the stones.  The sounds of clunking shoes,
+tapping canes and creaking doors echoes throughout the outlying area.  Upon
+a hill northward lies a beautiful white house that overlooks the residential
+area.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2953
+0 0
+D3
+~
+~
+Z 0 2958
+0 0
+D4
+~
+~
+Z 0 2976
+0 0
+S
+#2955
+Emilie's Tunnel~
+~
+0 0 inside
+D3
+~
+~
+Z 0 2970
+0 0
+S
+#2956
+{cW{mee {cB{moulevard {c- {m100 E{x~
+A gigantic stretching shadow spans nearly half the southern boulevard,
+giving off a cooler temperature.  The grassy areas before resident homes is
+so cool it almost feels wet, and is somewhat shocking on bare skin.  Where
+homes have not yet progressed, trees take up the expanse.  A few yards host
+cherry trees which, in the summer, bloom so much that the entire Wee
+Boulevard makes of it a chore to pick them and have a bit of a picnic in the
+bowl center of the hill to the north.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2973
+0 0
+D3
+~
+~
+Z 0 2957
+0 0
+S
+#2957
+{cW{mee {cB{moulevard {c- {m110 E{x~
+On either side of the boulevard trees stand tall, wavering in unexpected,
+gentle breezes.  Leaves and pine needles spin and float from the them with
+every blow of the wind, blanketing the cobblestone in green, yellow, and
+orange colors.  The boulevard appears rather clear today; city maintenance
+must have swept and polished the stones.  The sounds of clunking shoes,
+tapping canes and creaking doors echoes throughout the outlying area.  One
+of the only locked homes lies to the south; a strong smell of catnip
+radiates from the cracks in between the exterior wood boards.  Most homes in
+Cradlenook are kept unlocked, as it is such a small town, everyone knows
+everyone else and their brother.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2956
+0 0
+D2
+~
+~
+ABCZ 2967 2997
+0 0
+D3
+~
+~
+Z 0 2960
+0 0
+S
+#2958
+{cW{mee {cB{moulevard {c- {m160 W{x~
+A small field with large stalks of ripe corn rests at the edge of a hill
+to the north where a slope bends upward to meet a beautiful, rich-looking,
+white home.  A scarecrow has been nailed to a tall wooden post to keep away
+crows; its head rests on one shoulder, nearly pulling right off its body. 
+Stuffing and hay pokes out from its flannel shirt; it must have been here
+for years.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2954
+0 0
+D2
+~
+~
+Z 0 2959
+0 0
+S
+#2959
+{cW{mee {cB{moulevard {c- {m150 S{x~
+Almost completely wrecked and dilapidated, the shanty to the east smells
+of stagnant air and rotted wood.  Unlike every other house in the
+neighborhood, the shanty has stones and pebbles used as makeshift grass. 
+Its roof is painted a misfit of colors: red, yellow, brown, black.  Its
+almost as if the owners of the house were too poor to buy enough paint at a
+time to maintain the place.  The cobblestone path takes a bend to the east
+not far north and heads back around the square or north to Villa Promenade. 
+
+~
+0 0 inside
+D0
+~
+~
+Z 0 2958
+0 0
+D1
+~
+~
+Z 0 2978
+0 0
+D2
+~
+~
+Z 0 2961
+0 0
+S
+#2960
+{cW{mee {cB{moulevard {c- {m120 E{x~
+On either side of the boulevard trees stand tall, wavering in unexpected,
+gentle breezes.  Leaves and pine needles spin and float from the them with
+every blow of the wind, blanketing the cobblestone in green, yellow, and
+orange colors.  The boulevard appears rather clear today; city maintenance
+must have swept and polished the stones.  The sounds of clunking shoes,
+tapping canes and creaking doors echoes throughout the outlying area.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2957
+0 0
+D3
+~
+~
+Z 0 2962
+0 0
+S
+#2961
+{cW{mee {cB{moulevard {c- {m140 S{x~
+Huffing and puffing steady streams of smoke, the log house to the south
+stands about fifteen feet tall and forty feet wide.  A single window in the
+dark wood front exterior gives way to a small peek into the cabin.  A dream
+catcher hangs in the upper right corner of the window and the back of a
+picture frame can be seen in the lower left; further in a gray stone
+fireplace is seen crackling away.  The cobblestone takes a sharp turn
+northward here, leading up and around to the start of the residential
+square.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2959
+0 0
+D1
+~
+~
+Z 0 2962
+0 0
+D2
+~
+~
+Z 0 2979
+0 0
+S
+#2962
+{cW{mee {cB{moulevard {c- {m130 E{x~
+A flourishing {Rcherry{x tree grows in the front yard of the den southward. 
+Its berries are so vivid in color that it is nearly hard to pay any
+attention to the actual tree itself.  Some of the berries have strayed from
+the tree and ended up on the cobblestone where passerby have smashed them on
+their way down the boulevard, leaving little blood red stains on the rock. 
+Bird scrap spatters the top of the den, as a giant tree hovers over the top,
+nests burrowed in its branches and leaves.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2960
+0 0
+D2
+~
+~
+Z 0 2980
+0 0
+D3
+~
+~
+Z 0 2961
+0 0
+S
+#2963
+A Grassy Slope~
+Where the cobblestone meets the lavish green grass, a steep rolling slope
+begins.  On the eastern half of the basin, the water reaches a knoll, atop
+which a children's schoolhouse and playground reside.  The slope is so steep
+and bears no tree roots that it may be a nearly impossible climb without
+some proper hiking boots.  At the very bottom of the slope a bowl shaped
+basin delves into the earth; it encompasses a dark, shallow pool of water.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2941
+0 0
+D5
+~
+~
+Z 0 2964
+0 0
+S
+#2964
+A Bowl Shaped Basin~
+Just before you a circle of cool, refreshing water is cupped in the
+earth, bordered by a thin edge of damp sand.  The grass seems to be the most
+vivid and fresh around the basin, as the surrounding earth has sponged up
+the basin's water, giving it proper nutrients.  A small circle of soft grass
+around the basin offers a place for resting, making it possible to sit at
+the basin's egg and dip one's feet into its cool surface.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 2963
+0 0
+D5
+~
+~
+Z 0 2965
+0 0
+S
+#2965
+In the Refreshing Basin~
+The basin slopes gradually to a maxim of about three feet deep in the
+very middle.  In recent years, as it has filled up more and more from
+rainfall and the coalescence of dribbling water in the grass, swans have
+made it their humble home.  One may also notice the silvery glint of a fish
+scale zipping by in the water.  Children have taken fish from other streams
+in nearby forests and dumped them into the basin.  
+~
+0 0 swim
+D4
+~
+~
+Z 0 2964
+0 0
+S
+#2966
+A Flower Blanketed Mountain~
+It is nearly impossible to walk in a straight line without taking any
+huge steps up the mountain and avoid stepping on any flowers, they are
+sprouted all over the place.  Large moss covered boulders are half hidden in
+the mountain's surface as they have sunk into its soft mass over time. 
+Birds have nested in a single, tall, tawny tree; its trunk is so thin that
+it could very well fit in with a cluster of beach trees and an average human
+could touch ring finger to thumb around its center.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2949
+0 0
+D4
+~
+~
+Z 0 2968
+0 0
+S
+#2967
+A View of the Graveyard~
+Tiny specs of gray signify the scattered rows of tombstones so far below
+in the village graveyard.  From here a brilliant green light can be seen
+shining out from one headstone in particular, but from below it would be
+quite a task at finding which tombstone it is.  The village schoolhouse is
+visible from atop a hill to the south west; the playground toys appear only
+as tiny colorful flecks.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2968
+0 0
+S
+#2968
+A Large Landing Leading up to a Gradual Slope~
+Branching out in every direction, the landing opens up like a small
+field.  Off to the east a beautiful view of Wee Boulevard is at your
+disposal, and to the west an eerie overlook of the village graveyard.  The
+entire landing seems to be shrouded in a silver pool of light.  The sun
+seems closer than ever, but rather, something in the area is reflecting the
+clouds brilliant white color and sunlight onto the mountain; that could very
+well be the reason for such well nourished plant life.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2971
+0 0
+D3
+~
+~
+Z 0 2967
+0 0
+D4
+~
+~
+Z 0 2972
+0 0
+D5
+~
+~
+Z 0 2966
+0 0
+S
+#2969
+Upon the Beach House Roof~
+A wicker chair has been bolted to the pinnacle of the gradually slanting
+roof.  Nailed to the arm of the chair is a small, smoothed piece of plywood
+which appears to be used as a desk.  A delicate cup, carefully whittled from
+oakwood, rests on the piece of plywood, holding an odd assortment of pens
+and colorful quills.  A beautiful view of the boulevard is at your disposal.
+~
+0 0 inside
+D5
+~
+~
+Z 0 2996
+0 0
+S
+#2970
+The Fox's Beard Basement~
+A small bed fit for one rests up against the northwest corner; upon it is
+a singl e white sheet, a thick, soft-pink duvet, a fluffy white pillow and a
+stuffed dragon.  In the opposite corner is a gigantic mess of dozens of
+blankets, in the center of it is an annular dip where the dragon sleeps.  On
+a circular wooden table in the southwest corner next to a mini-fridge is a
+vast selection of liquor drinks from the bar above which the waitress has
+taken upon herself to adopt.  Footsteps can be heard pounding on the wood
+floor above, sometimes sending streams of dust through the cracks in the
+ceiling.  A picture frame of Emilie and the waitress rests on a small shelf
+on the wall.  A strong scent of dragonnip is apparent in the air.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2955
+0 0
+D4
+~
+~
+Z 0 2909
+0 0
+S
+#2971
+A View of Wee Boulevard~
+A view of the square-shaped Wee Boulevard is at your disposal, along with
+a limited view of a sparkling body of water to towards the back of the
+mountain.  The six tiers of trees surrounding the bowl-shaped dip in the
+center of Wee Boulevard are in sight, as well as a view of about half of the
+east and west lanes.  Villa Promenade is impossible to make out, safe a few
+slivers of space between tree branches, as the tops of the trees reach too
+high to see anything nearby.  Passerby walking along the boulevard appear as
+tiny critters from this height and distance.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 2968
+0 0
+S
+#2972
+A Giant Mirror Faced Stone~
+Upon the exterior of a tall, flat-faced stone, a metallic substance has
+been melted and dried.  Your vision in it is skewed and distorted as if you
+were looking at a spoon layered in water.  The surrounding area has
+flourished into a beautiful garden because of the light radiating off the
+stone.  Rumor has it that the stone has secret healing powers and that the
+sick have come to the top of this mountain and prayed to be cured of
+illness, and to avail they were.  Down the backside of the mountain a
+waterfront is visible just beyond a row of trees.  The sound of water
+splashing up against the shore can be heard in a dull undertone.  
+~
+0 0 inside
+D5
+~
+~
+Z 0 2968
+0 0
+M 300 H 300
+S
+#2973
+{cW{mee {cB{moulevard {c- {m90 N{x~
+Directly to the east, glaring down at you from about seventy feet in the
+air, is a gigantic and brilliant stone faced cliff.  Its face is smooth save
+a few thin ledges which are too slim for just about any small human to
+grasp.  It is curious how the residents of the house atop the hill find
+their way to the top, from all around it the steep stone continues. 
+Passerby noticeably walk with a quickened pace below the cliff, as anything
+dropped from it would be a mortal disaster if someone collided with it.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2974
+0 0
+D2
+~
+~
+Z 0 2956
+0 0
+D3
+~
+~
+Z 0 2994
+0 0
+S
+#2974
+{cW{mee {cB{moulevard {c- {m80 N{x~
+A brilliant stone faced rock stands about seventy feet tall southwest of
+this corner.  It is far too steep to climb and the ledges jutting out of it
+too thin for even a small sized human to grasp.  Atop it what looks like a
+beautiful beach house stands, its porch very close to the edge of the cliff.
+A family without children must live there, for it is too dangerous for any
+younglings to be wandering about at such height.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2973
+0 0
+D3
+~
+~
+Z 0 2975
+0 0
+S
+#2975
+{cW{mee {cB{moulevard {c- {m70 W{x~
+On either side of the boulevard trees stand tall, wavering in unexpected,
+gentle breezes.  Leaves and pine needles spin and float from the them with
+every blow of the wind, blanketing the cobblestone in green, yellow, and
+orange colors.  The boulevard appears rather clear today; city maintenance
+must have swept and polished the stones.  The sounds of clunking shoes,
+tapping canes and creaking doors echoes throughout the outlying area.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2974
+0 0
+D3
+~
+~
+Z 0 2953
+0 0
+S
+#2976
+Nearing a House Upon a Hill~
+Northwest from the cornfield, a wide path leading to a beautiful white
+house stretches in a hook shaped curve.  Lining the path on either side are
+rows of daisies, the house tenant's favorite flower.  At the end of the path
+two tall silver posts stand, one on either side, topped with human head
+sized bulbs which are perfectly round and glowing brightly.  The trees are
+thick around the path, making it impossible to see anything but a portion of
+the house ahead and a bit of the cobblestone below.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2977
+0 0
+D5
+~
+~
+Z 0 2954
+0 0
+S
+#2977
+A Beautiful White House Upon a Hill~
+Nearly equivalent to the grandeur of the mayor's home, the Falook's
+radiates a rich and classy aura.  Grandfather clocks, heavily polished oak
+tables, comfortable leather upholstery, and mint looking brown carpet makes
+up most of the house.  The Falook's generally keep the house in a quiet and
+controlled environment; even when parties are thrown and several drinks are
+consumed, only the lowest chuckle and chortle emit from party guest voices;
+they are quite possibly the most prude beings in Cradlenook.  
+~
+0 C inside
+D3
+~
+~
+Z 0 2976
+0 0
+S
+#2978
+A Small Shanty~
+Nearly everything in here is blanketed in a thick layer of dust.  It is
+almost as if you had walked into a winter wonderland.  No cleaning supplies
+exist in this awful, stagnant-aired shanty.  The only upholstery in the
+entire shanty, which consists of a single room, is a smelly old yarn couch
+with stuffing poking out on nearly every inch of it, a wooden stump used as
+a makeshift chair, and a three-legged wooden table, which appears to have
+been chewed on each corner by a dog or some other animal with sharp teeth. 
+From the light on the ceiling an enormous drapery of a spider webs hang,
+attaching themselves to each corner of the room.  Tossed in a rampant mess
+are shattered beer bottles and coke cans; the tenant of the shanty may very
+well be an alcoholic as the room suggests.  Upon the windowsill a row of
+disorderly bottles both large and small, all alcohol based, rest, each
+collecting dust.  Sleeping here {ycannot{x be healthy, as the dust is so thick
+staying for a short period of time could cause anyone to catch a cold.  
+~
+0 C inside
+D3
+~
+~
+Z 0 2959
+0 0
+M -50 H -50
+S
+#2979
+A Log House~
+A simple little log house opens up before you.  Nearly every piece of
+upholstery is made of oakwood, and it is obvious that each piece was crafted
+with loving hands.  The arms of the wooden chairs curl at the ends into
+small swirls, tightening until only a pin could fit through the center.  The
+neck rests on each chair are carved and sanded so beautifully that it almost
+looks as though someone had taken a scroll and ironed it into a perfectly
+shaped cylinder roll.  Two large oil lamps hang from the east and west
+walls, and a single bronze oil lamp shaped like a gravy dispenser rests on a
+table next to a padded wooden couch.  On the far wall a pair of bush buck
+horns hangs perfectly center and straight; below it on a long wooden table
+is a set of hunting gear: a bow and arrow, a sheathed knife, and a pair of
+camouflage trousers.  On the eastern wall below a hearth of thin sticks is a
+stone fireplace blocked off with a metal net.  
+~
+0 C inside
+D0
+~
+~
+Z 0 2961
+0 0
+S
+#2980
+A Maroon-Roofed Chalet~
+The exterior of the chalet is shaped like a gigantic, thin triangle, its
+roof sloping at a steep, quick angle.  The roof shingles have been painted a
+dark shade of maroon along with the window shutters.  Carved in the shutters
+are large, round hearts.  Nearly blocking any sunlight from coming in
+through the front window is a filled out cherry tree; its thin branches
+dance in the gentle breeze.  Inside the home in various places are small
+bowls of candy and goodies.  The air smells somewhat geriatric as if elderly
+folks have been living here for ages.  A cat bowl with the words “Lyllie”
+across the front rests before a window, crammed full with star shaped cat
+food.  A soft spun wool couch rests up against the far wall before a coffee
+table of magazines and books.  Pictures rest on each windowsill, in each of
+them are children and young adults, probably family to the tenants of the
+chalet.  The overall feel of the room suggests that the folks who live here
+are kindhearted, welcoming people.  
+~
+0 C inside
+D0
+~
+~
+Z 0 2962
+0 0
+S
+#2981
+The Path to the Mayor's House~
+Fine red brick is packed into the earth as a walkway to the mayor's
+living quarters.  On either side of the path, small bulbs of light are
+placed in the grass every two feet as guides for night time strollers.  Well
+fertilized grass is laid out all around the house and kept perfectly
+trimmed.  Beyond the path, a beautiful, white two story home stands taller
+than a normal two story home.  The rooftop reaches far beyond any
+surrounding trees.  Green strands of heavy garland hang from the front porch
+banisters in the shape of a stretched letter “U”.  The porch stretches all
+the way around the home in a giant square; upon it are rich cedar benches
+which have been polished to perfection.  The stairs leading up to the front
+porch are about fifteen feet wide and thin, like giant slabs of fine cut
+cement.  A crystal fixture which looks like a mini-chandelier, hangs from
+the ceiling before the great wooden door as a welcome light.  Surrounding
+the door to the left, top and right, are three windows; the window over the
+door is shaped like a half-moon and through it can be seen a twisting
+staircase which leads to the second floor.  Behind the closed white curtains
+lights can be seen turned on, glowing and filling the house with a warm
+golden light.  
+~
+0 C inside
+D0
+~
+~
+Z 0 2982
+0 0
+D2
+~
+~
+Z 0 2940
+0 0
+S
+#2982
+The Mayor's House~
+Undoubtedly the richest and largest house in all of Cradlenook is the
+mayor's home.  A twisting staircase lies directly ahead of the front door
+beyond a rich tawny rug.  The soft sounds of a grand piano can be heard
+floating from room to room, but it is difficult to decipher which room it is
+coming from exactly.  To the left of the staircase is a white wall covered
+in brilliant paintings; beyond it, a large dining room with a table that
+could fit twenty rests, taking up about half the room.  A large leafy
+wreathe sprinkled with berries and a candle in the middle, have been placed
+in the center for looks.  A low rumbling sound from a kitten's throat can be
+heard in the living room on west.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2983
+0 0
+D2
+~
+~
+Z 0 2981
+0 0
+D3
+~
+~
+Z 0 2984
+0 0
+D4
+~
+~
+Z 0 2985
+0 0
+S
+#2983
+The Grand Dining Room~
+A grand dining table fit to seat twenty people stretches across the
+dining room, its wider half parallel to the western wall.  A large leafy
+wreathe sprinkled with berries and a candle in the middle has been placed
+in the center for looks.  Much like every other main room in the house, a
+crystalline chandelier hangs from the ceiling above the table.  Two chairs
+noticeably larger than any of the other chairs rest at both ends of the
+table, signifying where the mayor and his wife are seated for meals.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 2982
+0 0
+S
+#2984
+The Living Room~
+Fine brick red leather couches with not a crease in the upholstery make a
+half square about a shiny wooden coffee table.  A large bay window,
+sprinkled with heavily stuffed white pillows that have ruse, tasseled
+corners, is set into the front of the room, overlooking the porch and the
+brick path to the house.  A fresh bowl of fruit rests on the coffee table,
+overflowing with grapes, apples, and bananas.  From time to time a butler
+strides into the living room, replacing the perfectly good fruit with
+another bowl hardly a wee bit fresher.  A crystal chandelier hangs from the
+middle of the room, casting rainbow colored patches of light about the room.
+The brilliant white carpet is in mint condition, it almost appears as if the
+house is brand new.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2982
+0 0
+S
+#2985
+A Long Hall Clad in Paintings~
+Rich, polished cedar planks make up the floor of the hall; they have been
+polished so much that walking in socks would be a dangerous idea, and one
+could easily slip and fall.  Large bordered paintings hang perfectly level
+on the white walls, each encompassing beautiful green landscapes and past
+mayors of Cradlenook.  Silver candle holsters are nailed on the walls every
+five feet, producing a warm guiding light to the mayor's bedroom.  A tall
+elegant hutch mounted with large, leather bound books is backed against the
+wall at the end of the hall next to the top of the staircase.  Upon it a
+book reading “How to Mayor for Dummies” rests; from it, one could infer that
+like many other politicians of Thera, the mayor has little knowledge of how
+to uphold a city, but nevertheless, has the most beautiful and rich home in
+the entire village; how odd.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2986
+0 0
+D5
+~
+~
+Z 0 2982
+0 0
+S
+#2986
+The Mayor's Bedroom~
+A king size bed made of solid, bleached white oak rests up against the
+north wall below a wide window; the view from the window overlooks a short
+span of Villa Promenade and the bulb lit path leading up to the mayor's
+home.  Brown painted walls surround the off white carpeted room of which the
+mayor has made his bedroom quarters.  Hardwood furniture is pushed up
+against each wall.  On the western wall a gigantic bookcase buried in
+leather bound and hardcover books rests, spanning nearly the entire length
+of the wall.  On the eastern wall a desk with a silver metal lamp on it
+rests with a chain dangling from the light cap; below it a stack of papers
+rests, some of them have signatures scribbled across a wide blank space on
+the bottom of the page.  On the southern wall beyond the foot of the bed and
+to the left of a gigantic closet is a grandfather clock; it appears brand
+new, but has been in this room for ages.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2985
+0 0
+S
+#2987
+Merchant Lane - 200 N~
+A mixture of smells wafts into the air through Merchant Lane.  The most
+prominent of smells, as it is nearest by 200 N, is the smell of raw meat and
+animal blood.  Not far southward a butcher's shop stands where it has been
+for ages and ages, but has taken on new names over time as owners have
+passed on.  The cobblestone from Villa Promenade continues on down the
+curving path here and off beyond a large group of stalking trees.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2940
+0 0
+D2
+~
+~
+Z 0 2988
+0 0
+S
+#2988
+Merchant Lane - 190 S~
+The sound of hacking kitchen knives, though still distant, comes clearer
+with each step southward.  The smell of raw meat becomes a bit more brutal
+and thick in the air as well.  From time to time the butchery door creeks
+open and slams shut as citizens and passerby of Cradlenook come stalking out
+with a thin white wrapping about a slab of raw meat cradled in their arms. 
+On either side of the path tall pine trees grow, their sappy smell mixing in
+with the scent of blood.  When not maintained, the path appears like a giant
+green mess; pine needles spindle and fall from the surrounding trees and
+land in a messy heap on the cobblestones.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2987
+0 0
+D1
+~
+~
+Z 0 2989
+0 0
+S
+#2989
+Merchant Lane - 180 E~
+Chop, chop, chop, goes the butcher's knife to the south.  The noise is
+almost disturbing; it sounds somewhat of a fleshy hack.  From here a mess of
+smells wafts into your nostrils: fresh subs, lmaonade powder drinks,
+vegetarian salad, raw meat.  The surrounding trees waver a bit in the fickle
+wind, sending a cool breeze through the curves of the lane and pine needles
+spinning to the cobblestone.  A one story wooden building to the south
+stretches longer along the sides than it does on the front.  Its surface was
+at one time painted, but has not been maintained in many years, so now
+appears a bit dilapidated in its old age.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 2990
+0 0
+D2
+~
+~
+Z 0 2992
+0 0
+D3
+~
+~
+Z 0 2988
+0 0
+S
+#2990
+Merchant Lane - 170 E~
+Branching off to the north and the east, the lane ends.  Much fresher
+smells are apparent here verses near the butchery where blood and raw meat
+smells are thick in the air.  A modest little bakery stands to the north in
+all its one story glory, its exterior painted in a soft pink color, and the
+roof shingles painted a brilliant white.  The cobblestone of the lane ends
+where it meets up with large, black stone slabs leading to the bakery
+entrance.  Grey stone slabs are cut and set into the soil in front of the
+sub shop and outlined in a misfit variety of brilliantly vivid flowers.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2991
+0 0
+D1
+~
+~
+Z 0 2993
+0 0
+D3
+~
+~
+Z 0 2989
+0 0
+S
+#2991
+{MA{mleya's {MB{makery{x~
+An overload of pink meets your eyes upon entry to Aleya's bakery.  Bright
+pink curtains sheath every window, casting pink lighting onto the hard white
+carpet.  Even the circular customer tables have been painted pink.  A glass
+case encompasses a variety of different foods that have been specially
+prepared in the bakery.  A jar atop the case holds a dozen swirly lollerpops
+on wooden sticks.  A frilly smell which resembles roses wafts through the
+bakery and meets your nose strongly as a curtain flickers on a window,
+pushing in a breeze.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2990
+0 0
+S
+#2992
+The Local Butcher's Shop~
+Hanging from the ceiling behind a bloody white counter are racks of lamb,
+cow and pigs.  Any vegetarian would do well to steer clear of Alrich's
+butchery for that reason.  Blood drips savagely from the animal carcasses
+onto the knife strewn white table, staining it in a bright red color, which
+transforms into a dark brown over time.  A rounded glass case is built onto
+the front of the white table displaying all the slaughtered meats in
+paper-backed baskets.  From time to time a worker scampers through the shop,
+spraying an air freshener to keep the room from smelling completely dank,
+but it doesn't seem to be working very well.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2989
+0 0
+S
+#2993
+{WJ{xared's {CFresh {YSubs{x~
+Two enormous bread ovens stand backed up against the far wall.  On either
+side of them two bare tables are built; they appear to have been recently
+cleaned as they shine wetly.  A hole in the sub making buffet is edged with
+mayonnaise, it must be used for sub scraps.  Periodically a sharp binging
+noise rings out in the shop, signifying the success of more freshly risen
+loaves of bread.  Posters line the walls, some of them portraying sub
+specials such as the seafood sensation and the pizza sub.  On either side of
+the entryway small tables made for two people have been set up.  A paper
+sign hangs from a ceiling fan which reads, '{gEnjoy Jared's specially made
+{gskinny sub, it really works!{x'.
+~
+0 0 inside
+D3
+~
+~
+Z 0 2990
+0 0
+S
+#2994
+{DA Stone Faced Rock{x~
+Attempting to climb the rock would be nearly impossible; it would take
+incredible climbing skills to make it successfully to the top.  Small stone
+ledges only a few centimeters wide protrude from its surface, giving it a
+somewhat jagged appeal.  At the top, large blades of grass hang limply over
+the edge of the cliff, making it look as though the edge of the earth had
+been reached.  Atop the cliff is a house which looks quite close in
+resemblance to a beach house.  
+~
+0 C inside
+D1
+~
+~
+Z 0 2973
+0 0
+D4
+~
+~
+Z 0 2995
+0 0
+S
+#2995
+{DA Stone Cliff{x~
+Overlooking the square-shaped Wee Boulevard, the cliff stands about
+seventy feet tall and hovers above an expanse of grass.  Thick strands of
+healthy green grass drape the edge of the cliff like the trimming of a yarn
+blanket, and in places dirt-covered roots can be seen poking out like
+crooked fingers.  Just north lies a house which could very well fit in next
+to a row of beach houses on a lakeside.  A large timbered porch with a
+white-net hammock and wooden swing juts out from its face, and in the very
+center a simple white-painted, wooden door is swung open with a thin screen
+in the entryway to keep out bugs.  Two mini-gardens have been planted on
+either side of the walkway before the house, consisting of daisies, orchids,
+lilies, and gigantic sunflowers.  From the edge of the cliff, the
+bowl-shaped center of Wee Boulevard beyond the circle of trees is visible.  
+~
+0 C inside
+D0
+~
+~
+Z 0 2996
+0 0
+D5
+~
+~
+Z 0 2994
+0 0
+S
+#2996
+{WA {MH{mouse{W Overlooking the {DCliff{x~
+A lovely scent of roses reaches your nostrils as soon as you've entered
+the house.  Simple white vases rest upon shelves, windowsills and tables,
+holding fresh smelling flowers and roses.  Upon a short wicker table before
+a padded wooden bench is a small, sparkling, golden sandcastle and a bowl of
+metallic and dull-colored shells.  A warm breeze grades through the screen
+door every now and then, ruffling papers and pages from open magazines and
+books that lie on a simple wooden shelf on the eastern wall.  A queen sized
+mattress lies on the floor on the western corner, covered in a patchwork
+quilt; upon the mattress is a worn, tawny teddy bear, a pair of square brown
+glasses, and an unfinished book that the tenant has been plotting away at
+for several weeks.  A ladder in the eastern corner of the room pokes through
+the ceiling and gives way to the beach house roof.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 2995
+0 0
+D4
+~
+~
+Z 0 2969
+0 0
+S
+#2997
+{MK{mi{Br{Ca{M'{ms {DSneaky {mL{Mi{mttle {MH{mouse{x~
+There's like....a dragon d00d sitting in Kira's house.  Wtf, get it
+out!..  And it's selling DragonNip!!!2@@!1  Not CatNip.  Something is not
+right!  
+~
+0 C inside
+D0
+~
+~
+ABCZ 0 2957
+0 0
+D1
+~
+~
+Z 0 2998
+0 0
+D2
+~
+~
+Z 0 2999
+0 0
+S
+#2998
+The {mL{Mi{mttle {mG{Mi{mrl's{W Room{x~
+There's a toilet and a cupboard crammed full of cleaning supplies.  In
+the cupboard, the supplies consist of: Orange Glow, Mountain Fresh Bathroom
+Spray, Arm & Hammer, Windsoft, Armor All, Bravo Aerosols, Clorox
+Professional, Dixie, Gojo, Krystal, Procter and Gamble, Windex, RL
+Flo-Master, Windsoft, and Cactus Mat.  Damn, I didn't know those kinds of
+cleaning materials existed in D&D!  
+~
+0 0 inside
+D3
+~
+~
+Z 0 2997
+0 0
+S
+#2999
+{MK{mi{Br{Ca{M'{ms {cPa{Ci{cnting {CR{coom{x~
+A beautiful portrait of her ideal {Rlove{x has been painted upon a wall.
+ 
+            _             _
+           | '-.       .-' |
+            \'-.'-"""-'.-'/    _
+             |= _:'.':_ =|    /:`)
+{x             \ <{G6{x>   <{G6{x> /   /  /
+{x             |=   |_|   =|   |:'\
+{x             >\:.  "  .:/<    ) .|
+              /'-._^_.-'\    /.:/
+             /::.     .::\  /' /
+           .| '::.  .::'  |;.:/
+          /`\:.         .:/`\(
+         |:. | ':.   .:' | .:|
+         | ` |:.;     ;.:| ` |
+          \:.|  |:. .:|  |.:/
+           \ |:.|     |.:| /
+{x           /'|  |\   /|  |`\
+{x          (,,/:.|.-'-.|.:\,,)
+            (,,,/     \,,,)
+ 
+{C- {WPainted by {CKira: {MJuly 2, 2006{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 2997
+0 0
+S
+#0
+
+#SPECIALS
+M 2935 spec_cast_mage	* a {rguardian{x apparition
+M 2941 spec_janitor	* Bramber
+M 2971 spec_breath_fire	* Emilie, the dragon
+M 2972 spec_cast_adept	* a {Dm{Wi{xrr{Wo{Dr{x faced stone
+S
+
+#RESETS
+D 0 2913 3 1	* Canda's Cauldrons and Concoctions: door to the west: closed
+D 0 2919 0 1	* Cradlenook School House of Spellcasting: door to the north: closed
+D 0 2919 5 1	* Cradlenook School House of Spellcasting: door to the down: closed
+D 0 2922 2 1	* Cradlenook Playground: door to the south: closed
+D 0 2942 4 1	* Inside the Schoolhouse Tunnel: door to the up: closed
+D 0 2950 1 1	* A Gnome's Workshop Under the Stairs: door to the east: closed
+D 0 2957 2 2	* {cW{mee {cB{moulevard {c- {m110 E{x: door to the south: closed and locked
+D 0 2997 0 2	* {MK{mi{Br{Ca{M'{ms {DSneaky {mL{Mi{mttle {MH{mouse{x: door to the north: closed and locked
+M 0 2904 1 2904 1	* Barnicle (Barnicle's Books and Scrolls)
+G 0 2955 0		*	a {Cj{Me{mwel{Me{Cd {Dblack {Cp{Ma{Ci{Mn{Ct{Mb{Cr{Mu{Cs{Mh{x with a {Mc{mat-ea{Mr {cc{Char{cm{x
+G 0 2956 0		*	a page from an {Me{mn{Ychant{me{Md{x book of spells
+G 0 2948 0		*	a look into the {Bb{beyond{x
+O 0 2909 0 2909	* a polished cedar bench (The Fox's Beard)
+M 0 2910 1 2909 1	* a golden haired girl (The Fox's Beard)
+G 0 2911 0		*	a mug of whisky
+O 0 2910 0 2910	* a {Rred{x and {Yyellow{x patched couch (A Comfortable Loft)
+M 0 2911 1 2911 1	* a merry faerie (A Well Maintained Shingled Roof)
+E 0 2912 0 18		*	a bit of {Mp{mi{Mx{mi{Me {Wd{wu{Ys{Wt{x: floating nearby
+M 0 2913 1 2913 1	* Canda (Canda's Cauldrons and Concoctions)
+G 0 2953 0		*	a chocolate {yt{goa{yd{x
+G 0 2954 0		*	{Gd{grag{Bo{gn'{Gs {Bb{bloo{Bd{x
+M 0 2915 1 2915 1	* Rupert (Rupert's Robes and More)
+G 0 2915 0		*	leather boots with {Cw{Wings{x sketched into the tongue
+G 0 2916 0		*	a {yf{go{Gre{gs{yt {ggr{Gee{gn{x robe
+M 0 2917 1 2917 1	* a hedgehog (Nearing the Knoll Landing)
+M 0 2921 1 2919 1	* an angry parent (Cradlenook School House of Spellcasting)
+M 0 2920 1 2920 1	* the lunch lady (A Room of Benches)
+O 0 2920 0 2920	* a bench (A Room of Benches)
+O 0 2921 0 2921	* a desk (A Small Classroom)
+M 0 2919 1 2921 1	* a primary school teacher (A Small Classroom)
+O 0 2957 0 2922	* a swing (Cradlenook Playground)
+M 0 2922 1 2922 1	* a girl in pigtails (Cradlenook Playground)
+M 0 2923 1 2922 1	* an adolescent (Cradlenook Playground)
+M 0 2924 1 2924 1	* the ghost of Aldina Sophry (Eidolon Footpath)
+M 0 2925 1 2925 1	* the ghost of little girl (Eidolon Footpath)
+O 0 2923 0 2927	* a stake (A Desultory Row of Stone Epitaphs)
+M 0 2935 2 2935 2	* a {rguardian{x apparition (A Desultory Row of Stone Epitaphs)
+M 0 2937 1 2937 1	* the ghost of Frederik May (A Desultory Row of Stone Epitaphs)
+M 0 2939 1 2939 1	* A bony hand (The Secret Epitaph)
+M 0 2940 1 2939 1	* a {Ggreen{x light (The Secret Epitaph)
+G 0 2940 0		*	a {Mpa{min{Wt{Mi{mng{x of the {Ysun{x
+M 0 2941 1 2940 1	* Bramber ({CV{Willa {CP{Wromenade {C- {W190 W{x)
+M 0 2945 20 2945 1	* a {DC{Wradle{Yn{yook{x citizen ({cW{mee {cB{moulevard {c- {m200 N{x)
+E 0 2966 0 16		*	a {Ms{mpi{Mn {Mw{mh{We{me{Ml{x: wielded
+O 0 2950 0 2950	* a workshop desk (A Gnome's Workshop Under the Stairs)
+M 0 2950 1 2950 1	* a curious gnome (A Gnome's Workshop Under the Stairs)
+G 0 2951 0		*	a giant wooden box of screws
+G 0 2952 0		*	a necklace of {Mb{ma{Cu{Mb{cl{Me{Cs{x
+O 0 2965 0 2952	* a wooden {Gb{ge{yn{gc{Gh{x ({cW{mee {cB{moulevard {c- {m190 N{x)
+M 0 2945 20 2953 1	* a {DC{Wradle{Yn{yook{x citizen ({cW{mee {cB{moulevard {c- {m180 N{x)
+M 0 2957 10 2953 1	* a Cradlenook child ({cW{mee {cB{moulevard {c- {m180 N{x)
+M 0 2945 20 2954 1	* a {DC{Wradle{Yn{yook{x citizen ({cW{mee {cB{moulevard {c- {m170 W{x)
+G 0 2967 0		*	a {ml{Mi{mttle{x key {Wsh{wap{Wed{x like a {mp{Ma{mw{x
+M 0 2957 10 2956 1	* a Cradlenook child ({cW{mee {cB{moulevard {c- {m100 E{x)
+M 0 2945 20 2957 2	* a {DC{Wradle{Yn{yook{x citizen ({cW{mee {cB{moulevard {c- {m110 E{x)
+M 0 2957 10 2957 1	* a Cradlenook child ({cW{mee {cB{moulevard {c- {m110 E{x)
+M 0 2957 10 2958 1	* a Cradlenook child ({cW{mee {cB{moulevard {c- {m160 W{x)
+M 0 2957 10 2960 1	* a Cradlenook child ({cW{mee {cB{moulevard {c- {m120 E{x)
+M 0 2945 20 2961 3	* a {DC{Wradle{Yn{yook{x citizen ({cW{mee {cB{moulevard {c- {m140 S{x)
+M 0 2964 1 2964 1	* a little boy (A Bowl Shaped Basin)
+M 0 2965 1 2965 1	* a beautiful swan (In the Refreshing Basin)
+O 0 2949 0 2969	* a wicker chair (Upon the Beach House Roof)
+M 0 2969 1 2969 1	* a black crow (Upon the Beach House Roof)
+E 0 2971 0 16		*	a shimmering {Dlu{Ws{xtr{Wo{Dus{x quill: wielded
+M 0 2971 1 2970 1	* Emilie, the dragon (The Fox's Beard Basement)
+O 0 2972 0 2972	* a {Dm{Wi{xrr{Wo{Dr{x faced stone (A Giant Mirror Faced Stone)
+M 0 2972 1 2972 1	* a {Dm{Wi{xrr{Wo{Dr{x faced stone (A Giant Mirror Faced Stone)
+M 0 2945 20 2973 1	* a {DC{Wradle{Yn{yook{x citizen ({cW{mee {cB{moulevard {c- {m90 N{x)
+M 0 2957 10 2975 1	* a Cradlenook child ({cW{mee {cB{moulevard {c- {m70 W{x)
+M 0 2977 1 2977 1	* Mr. Falook (A Beautiful White House Upon a Hill)
+M 0 2978 1 2977 1	* Mrs. Falook (A Beautiful White House Upon a Hill)
+O 0 2978 0 2978	* a smelly old couch (A Small Shanty)
+M 0 2979 1 2978 1	* pot-bellied Francis (A Small Shanty)
+M 0 2970 1 2979 1	* Alibaster Franks (A Log House)
+O 0 2979 0 2979	* a wooden chair (A Log House)
+M 0 2980 1 2980 1	* Lyllie, the cat (A Maroon-Roofed Chalet)
+E 0 2974 0 3		*	a {Dd{Mi{Wa{xmon{Dd {Men{mcr{Wu{mst{Med {cc{Ca{ct{x collar: around the neck (1)
+M 0 2981 1 2980 1	* Cnora (A Maroon-Roofed Chalet)
+M 0 2982 1 2982 1	* the butler (The Mayor's House)
+M 0 2982 1 2983 1	* the butler (The Grand Dining Room)
+M 0 2983 1 2983 1	* the mayor's wife (The Grand Dining Room)
+M 0 2984 1 2984 1	* a fat {Wwhite{x cat (The Living Room)
+O 0 2986 0 2986	* a king sized bed (The Mayor's Bedroom)
+M 0 2986 1 2986 1	* the mayor himself (The Mayor's Bedroom)
+E 0 2987 0 6		*	a {Dnight{bcap{x: over the head
+M 0 2991 1 2991 1	* {MA{mleya{x ({MA{mleya's {MB{makery{x)
+G 0 2958 0		*	{Mroffles {Band {Csyrup{x
+G 0 2959 0		*	a refreshing cup of {Ylmaonade{x
+G 0 2960 0		*	a {Mlickable lollerpop{x
+M 0 2992 1 2992 1	* {RA{rlrich{x (The Local Butcher's Shop)
+G 0 2992 0		*	{Gchop {Ysuey{x
+G 0 2993 0		*	a platter of {Rm{reat {Dc{Wubes{x
+G 0 2994 0		*	a slice of ham
+M 0 2993 1 2993 1	* Jared, the skinny skinny skinny dude ({WJ{xared's {CFresh {YSubs{x)
+G 0 2995 0		*	Jared's {Cfresh{x sub
+G 0 2996 0		*	a {Gs{gkinn{Gy {xsub
+G 0 2997 0		*	a {Rp{ri{Rzz{ra {xsub
+G 0 2998 0		*	a footlong {Gve{gge{Wta{gri{Gan{x sub
+G 0 2999 0		*	a {Bs{bea{Yf{yood {Mse{mns{Wa{mti{Mon{x
+G 0 2961 0		*	a {Gspinach {Yleaf{x
+O 0 2981 0 2993	* a seat at the table ({WJ{xared's {CFresh {YSubs{x)
+O 0 2980 0 2993	* a {yroast beef{x sammich ({WJ{xared's {CFresh {YSubs{x)
+O 0 2944 0 2994	* a marble statue ({DA Stone Faced Rock{x)
+M 0 2996 1 2996 1	* Sailie ({WA {MH{mouse{W Overlooking the {DCliff{x)
+E 0 2906 0 11		*	an unfinished hardcover book: as a shield
+E 0 2975 0 3		*	a {Rp{Ya{Gi{Cn{Mt {Rp{Ya{Gl{Cl{Me{Rt{x necklace: around the neck (1)
+M 0 2997 1 2997 1	* {RLollers{x ({MK{mi{Br{Ca{M'{ms {DSneaky {mL{Mi{mttle {MH{mouse{x)
+G 0 2968 0		*	{RDragon{YNip{x
+G 0 2969 0		*	{RDragon{YBeer{x
+O 0 2970 0 2997	* the dragon's tail ({MK{mi{Br{Ca{M'{ms {DSneaky {mL{Mi{mttle {MH{mouse{x)
+M 0 2998 1 2998 1	* {MK{mi{Br{Ca{M'{ms {Dminion{x (The {mL{Mi{mttle {mG{Mi{mrl's{W Room{x)
+O 0 2962 0 2998	* a toilet (The {mL{Mi{mttle {mG{Mi{mrl's{W Room{x)
+M 0 2999 1 2998 1	* {MK{mi{Br{Ca{M'{ms {xhoe (The {mL{Mi{mttle {mG{Mi{mrl's{W Room{x)
+G 0 2963 0		*	some poisoned {Gs{gu{Ys{gh{Gi{x
+G 0 2964 0		*	{Gb{Ya{Gr{Yf {xchunks
+M 0 2990 1 2999 1	* a beautiful {Bblue{x cat ({MK{mi{Br{Ca{M'{ms {cPa{Ci{cnting {CR{coom{x)
+G 0 2990 0		*	a {Cpainting{x by {MK{mira{x
+S
+
+#SHOPS
+2904 0 0 0 0 0 100 14 0 23
+2909 17 0 0 0 0 100 15 0 23
+2910 0 0 0 0 0 100 20 0 23
+2913 0 0 0 0 0 120 17 0 23
+2915 0 0 0 0 0 100 15 0 23
+2950 0 0 0 0 0 100 13 0 23
+2990 0 0 0 0 0 100 13 0 23
+2991 0 0 0 0 0 100 15 0 23
+2992 0 0 0 0 0 100 19 0 23
+2993 0 0 0 0 0 100 18 0 23
+2997 0 0 0 0 0 100 12 0 23
+2999 0 0 0 0 0 100 20 0 23
+0
+
+#OLIMITS
+O 2940 1	* a {Mpa{min{Wt{Mi{mng{x of the {Ysun{x
+S
+
+#MOBPROGS
+#2939
+if carries $n 2939
+mob echo You only need one {Cp{Ma{Ci{Mn{Ct{Mb{Cr{Mu{Cs{Mh{x to have a fulfilling life.
+break
+else
+mob echo A {Cb{Wrilliant{x wind of {Mcreativity{x blows from a corner of the tombstone.
+mob oload 2939
+give inspiration $n
+mob echo You are filled with an ephermal {Rh{Ya{Bp{Gp{Ri{Yn{Be{Gs{Rs{x and it quickly fades.
+mob purge secret
+endif
+end
+~
+#2940
+if carries $n 2940
+mob echo The {Mpa{min{Wt{Mi{mng{x of the {Ysun{x radiates brightly.
+break
+else
+mob echo The darkness grows thick and out of nowhere, there is a flash of {Ggreen{x light.
+mob oload 2940
+give sun $n
+mob purge light
+endif
+end
+~
+#2998
+say EW! Get out!
+mob echo She covers crotchal region and waves her hand at you wildly.
+say Can't you see I'm trying to take care of business here?!
+~
+#2999
+emote grips the edge of the toilet and nearly hurls her entrails into them.
+puke
+~
+#0
+
+#$

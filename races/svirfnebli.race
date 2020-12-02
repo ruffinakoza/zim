@@ -1,0 +1,33 @@
+#RACE
+Name svirfnebli~
+Aff infrared~
+Res poison disease~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Svirf~
+Points 250
+AgeModifier 60
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 100
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 100
+Class 'witch' 100
+Class 'warrior' 100
+Skill 'lore' 20
+Stats 50 45 65 50 50 50 50
+MaxStats 20 19 23 18 19 25 25
+Size small
+HPBonus 10
+PracBonus 2
+RestrictAlign neutral evil~
+Slang gnomish
+End
+
+#$

@@ -1,0 +1,355 @@
+#CLASS
+Name cleric~
+ShortName Cle~
+PrimeStat wis
+Description god-worshipping healers~
+SchoolWeapon 17610
+GuildRoom 3003
+GuildRoom 3002
+GuildRoom 7557
+GuildRoom 7558
+GuildRoom 9619
+GuildRoom 9603
+GuildRoom 10748
+GuildRoom 10749
+SkillAdept 75
+Thac0_00 18
+Thac0_32 2
+HPRate 60
+ManaRate 95
+DamRate 40
+NimRate 30
+AcRate 90
+Flags magic~
+AddExp 0
+StatMod 0 0 3 0 0 2 0
+Skill 'mace'			 1  2   0  -  -  -  0  0  0  0  0  0  0
+Skill 'staff'			 1  1   0  -  -  -  0  0  0  0  0  0  0
+Skill 'armor'			 1  1   0  -  -  -  0  0 30  0  0  0  0
+Skill 'create water'		 3  1   0  -  -  -  0  0 30  0  0  0  0
+Skill 'cure light'		 4  1   0  -  -  GN 0  0 35  0  0  0  0
+Skill 'cause light'		 4  1   0  -  -  E  0  0 35  0  0  0  0
+Skill 'continual light'		 5  1   0  -  -  -  0  0 35  0  0  0  0
+Skill 'hammer'			 5  2   0  -  -  -  0  0  0  0  0  0  0
+Skill 'meditation'		 6  1   0  -  -  -  0  0 60  0  0  0  0
+Skill 'faerie fire'		 6  1   0  -  -  -  0  0 40  0  0  0  0
+Skill 'wands'			 6  1   0  -  -  -  0 45  0  0  0  0  0
+Skill 'scrolls'			 7  1   0  -  -  -  0 50  0  0  0  0  0
+Skill 'sobriety'		 7  1   0  -  -  -  0  0 40  0  0  0  0
+Skill 'refresh'			 7  1   0  -  -  -  0  0 42  0  0  0  0
+Skill 'staves'			 7  1   0  -  -  -  0 48  0  0  0  0  0
+Skill 'whip'			 8  2   0  -  -  -  0  0  0 50  0  0  0
+Skill 'create food'		 8  1   0  -  -  -  0  0 35  0  0  0  0
+Skill 'fast healing'		 9  1   0  -  -  -  0  0  0  0  0  0  0
+Skill 'protection evil'		 9  1   0  -  -  GN 0  0 55  0  0  0  0
+Skill 'protection good'		 9  1   0  -  -  NE 0  0 55  0  0  0  0
+Skill 'cure serious'		10  1   0  -  -  -  0  0 38  0  0  0  0
+Skill 'cause serious'		10  1   0  -  -  E  0  0 38  0  0  0  0
+Skill 'flail'			10  2   0  -  -  -  0  0  0  0  0  0  0
+Skill 'scalp'			10  1   0  -  -  -  0  0  0  0  0  0  0
+Skill 'cure blindness'		11  1   0  -  -  -  0  0 52  0  0  0  0
+Skill 'detect evil'		11  1   0  -  -  -  0  0 51  0  0  0  0
+Skill 'detect good'		11  1   0  -  -  -  0  0 51  0  0  0  0
+Skill 'kick'			12  1   0  -  -  -  0  0  0 50  0  0  0
+Skill 'know alignment'		13  1   0  -  -  -  0  0 40  0  0  0  0
+Skill 'bless'			14  1   0  -  -  -  0  0 35  0  0  0  0
+Skill 'blindness'		14  1   0  -  -  -  0  0 52  0  0  0  0
+Skill 'spell craft'		15  1   0  -  -  -  0 40 70  0  0  0  0
+Skill 'minor sanctuary'		16  1   0  -  -  GN 0  0 58  0  0  0  0
+Skill 'minor black shroud'	16  1   0  -  -  E  0  0 58  0  0  0  0
+Skill 'fireproof'		16  1   0  -  -  -  0  0 45  0  0  0  0
+Skill 'detect invis'		17  1   0  -  -  -  0  0 50  0  0  0  0
+Skill 'shield block'		17  1   0  -  -  - 40  0  0  0  0  0  0
+Skill 'cure critical'		18  1   0  -  -  -  0  0 45  0  0  0  0
+Skill 'cause critical'		18  1   0  -  -  E  0  0 45  0  0  0  0
+Skill 'cure disease'		19  1   0  -  -  -  0  0 54  0  0  0  0
+Skill 'earthquake'		19  1   0  -  -  -  0  0 62  0  0  0  0
+Skill 'improved benediction'	20  1   0  -  -  G  0  0 70  0  0  0  0
+Skill 'improved curative'	20  1   0  -  -  N  0  0 70  0  0  0  0
+Skill 'improved maladiction'	20  1   0  -  -  E  0  0 70  0  0  0  0
+Skill 'summon'			22  1   0  -  -  -  0  0 52  0  0  0  0
+Skill 'cure poison'		23  1   0  -  -  -  0  0 48  0  0  0  0
+Skill 'harm'			24  1   0  -  -  E  0  0 54  0  0  0  0
+Skill 'infravision'		25  1   0  -  -  -  0  0 40  0  0  0  0
+Skill 'calm'			26  1   0  -  -  N  0  0 62  0  0  0  0
+Skill 'protective shield'	26  1   0  -  -  -  0  0 67  0  0  0  0
+Skill 'heat metal'		26  1   0  -  -  -  0  0 71  0  0  0  0
+Skill 'dispel evil'		27  1   0  -  -  GN 0  0 52  0  0  0  0
+Skill 'dispel good'		27  1   0  -  -  NE 0  0 52  0  0  0  0
+Skill 'create spring'		27  1   0  -  -  -  0  0 47  0  0  0  0
+Skill 'delve'			28  1   0  -  -  -  0  0 72  0  0  0  0
+Skill 'heal'			28  1   0  -  -  -  0  0 63  0  0  0  0
+Skill 'word of recall'		28  1   0  -  -  -  0  0 60  0  0  0  0
+Skill 'sanctuary'		29  1   0  -  -  GN 0  0 75  0  0  0  0
+Skill 'black shroud'		29  1   0  -  -  E  0  0 75  0  0  0  0
+Skill 'fly'			30  1   0  -  -  -  0  0 50  0  0  0  0
+Skill 'locate object'		30  1   0  -  -  -  0  0 72  0  0  0  0
+Skill 'hellfire'		30  1   0  -  -  E  0  0 65  0  0  0  0
+Skill 'improved healing'	30  1   0  -  -  N  0  0 78  0  0  0  0
+Skill 'trance'			31  1   0  -  -  -  0  0 73  0  0  0  0
+Skill 'faerie fog'		31  1   0  -  -  -  0  0 57  0  0  0  0
+Skill 'remove curse'		32  1   0  -  -  -  0  0 62  0  0  0  0
+Skill 'cancellation'		32  1   0  -  -  -  0  0 56  0  0  0  0
+Skill 'pass door'		32  1   0  -  -  -  0  0 66  0  0  0  0
+Skill 'teleport'		32  1   0  -  -  -  0  0 62  0  0  0  0
+Skill 'curse'			33  1   0  -  -  -  0  0 54  0  0  0  0
+Skill 'remove fear'		34  1   0  -  -  GN 0  0 68  0  0  0  0
+Skill 'group defense'		35  1   0  -  -  -  0  0 70  0  0  0  0
+Skill 'identify'		36  1   0  -  -  -  0  0 74  0  0  0  0
+Skill 'ray of hope'		37  1   0  -  -  G  0  0 70  0  0  0  0
+Skill 'ray of truth'		37  1   0  -  -  N  0  0 70  0  0  0  0
+Skill 'ray of terror'		37  1   0  -  -  E  0  0 70  0  0  0  0
+Skill 'slow'			38  1   0  -  -  -  0  0 59  0  0  0  0
+Skill 'superior heal'		38  1   0  -  -  -  0  0 64  0  0  0  0
+Skill 'cursed lands'		41  1   0  -  -  NE 0  0 67  0  0  0  0
+Skill 'sanctify lands'		41  1   0  -  -  GN 0  0 67  0  0  0  0
+Skill 'healing light'		41  1   0  -  -  GN 0  0 71  0  0  0  0
+Skill 'plague'			41  1   0  -  -  E  0  0 55  0  0  0  0
+Skill 'demonfire'		42  1   0  -  -  E  0  0 58  0  0  0  0
+Skill 'energy drain'		42  1   0  -  -  E  0  0 60  0  0  0  0
+Skill 'dispel magic'		43  1   0  -  -  -  0  0 67  0  0  0  0
+Skill 'second attack'		44  1   0  -  -  -  0  0  0 50  0  0  0
+Skill 'mass invis'		45  1   0  -  -  -  0  0 58  0  0  0  0
+Skill 'holy word'		46  1   0  -  -  G  0  0 72  0  0  0  0
+Skill 'fear'			47  1   0  -  -  E  0  0 72  0  0  0  0
+Skill 'gate'			49  1   0  -  -  -  0  0 69  0  0  0  0
+Skill 'turn'			50  1   0  -  -  GN 0  0 75  0  0  0  0
+Skill 'aid'			51  1   0  -  -  N  0  0 66  0  0  0  0
+Skill 'mass healing'		52  1   0  -  -  -  0  0 62  0  0  0  0
+Skill 'master healing'		53  1   0  -  -  GN 0  0 80  0  0  0  0
+Skill 'blade barrier'		54  1   0  -  -  -  0  0 60  0  0  0  0
+Skill 'anathema'		55  1   0  -  -  -  0  0 72  0  0  0  0
+Skill 'mass sanctuary'		56  1   0  -  -  GN 0  0 72  0  0  0  0
+Skill 'group heal'		58  1   0  -  -  -  0  0 70  0  0  0  0
+Skill 'restoring light'		59  1   0  -  -  N  0  0 65  0  0  0  0
+Skill 'benediction'		60  1   0  -  -  -  0  0 80  0  0  0  0
+Title 0 male the Man~
+Title 0 female the Woman~
+Title 1 male the Believer~
+Title 1 female the Believer~
+Title 2 male the Attendant~
+Title 2 female the Attendant~
+Title 3 male the Acolyte~
+Title 3 female the Acolyte~
+Title 4 male the Novice~
+Title 4 female the Novice~
+Title 5 male the Missionary~
+Title 5 female the Missionary~
+Title 6 male the Adept~
+Title 6 female the Adept~
+Title 7 male the Deacon~
+Title 7 female the Deaconess~
+Title 8 male the Vicar~
+Title 8 female the Vicaress~
+Title 9 male the Priest~
+Title 9 female the Priestess~
+Title 10 male the Minister~
+Title 10 female the Lady Minister~
+Title 11 male the Canon~
+Title 11 female the Canon~
+Title 12 male the Canon~
+Title 12 female the Canon~
+Title 13 male the Levite~
+Title 13 female the Levitess~
+Title 14 male the Levite~
+Title 14 female the Levitess~
+Title 15 male the Curate~
+Title 15 female the Curess~
+Title 16 male the Curate~
+Title 16 female the Curess~
+Title 17 male the Monk~
+Title 17 female the Nun~
+Title 18 male the Monk~
+Title 18 female the Nun~
+Title 19 male the Healer~
+Title 19 female the Healess~
+Title 20 male the Healer~
+Title 20 female the Healess~
+Title 21 male the Chaplain~
+Title 21 female the Chaplain~
+Title 22 male the Chaplain~
+Title 22 female the Chaplain~
+Title 23 male the Expositor~
+Title 23 female the Expositress~
+Title 24 male the Expositor~
+Title 24 female the Expositress~
+Title 25 male the Bishop~
+Title 25 female the Bishop~
+Title 26 male the Bishop~
+Title 26 female the Bishop~
+Title 27 male the Arch Bishop~
+Title 27 female the Arch Lady of the Church~
+Title 28 male the Arch Bishop~
+Title 28 female the Arch Lady of the Church~
+Title 29 male the Patriarch~
+Title 29 female the Matriarch~
+Title 30 male the Patriarch~
+Title 30 female the Matriarch~
+Title 31 male the Elder Patriarch~
+Title 31 female the Elder Matriarch~
+Title 32 male the Elder Patriarch~
+Title 32 female the Elder Matriarch~
+Title 33 male the Grand Patriarch~
+Title 33 female the Grand Matriarch~
+Title 34 male the Grand Patriarch~
+Title 34 female the Grand Matriarch~
+Title 35 male the Great Patriarch~
+Title 35 female the Great Matriarch~
+Title 36 male the Great Patriarch~
+Title 36 female the Great Matriarch~
+Title 37 male the Demon Killer~
+Title 37 female the Demon Killer~
+Title 38 male the Demon Killer~
+Title 38 female the Demon Killer~
+Title 39 male the Greater Demon Killer~
+Title 39 female the Greater Demon Killer~
+Title 40 male the Greater Demon Killer~
+Title 40 female the Greater Demon Killer~
+Title 41 male the Cardinal of the Sea~
+Title 41 female the Cardinal of the Sea~
+Title 42 male the Cardinal of the Sea~
+Title 42 female the Cardinal of the Sea~
+Title 43 male the Cardinal of the Earth~
+Title 43 female the Cardinal of the Earth~
+Title 44 male the Cardinal of the Earth~
+Title 44 female the Cardinal of the Earth~
+Title 45 male the Cardinal of the Air~
+Title 45 female the Cardinal of the Air~
+Title 46 male the Cardinal of the Air~
+Title 46 female the Cardinal of the Air~
+Title 47 male the Cardinal of the Ether~
+Title 47 female the Cardinal of the Ether~
+Title 48 male the Cardinal of the Ether~
+Title 48 female the Cardinal of the Ether~
+Title 49 male the Cardinal of the Heavens~
+Title 49 female the Cardinal of the Heavens~
+Title 50 male the Cardinal of the Heavens~
+Title 50 female the Cardinal of the Heavens~
+Title 51 male the Enlightened~
+Title 51 female the Enlightened~
+Title 52 male the Enlightened~
+Title 52 female the Enlightened~
+Title 53 male the Sacred~
+Title 53 female the Sacred~
+Title 54 male the Sacred~
+Title 54 female the Sacred~
+Title 55 male the Saint~
+Title 55 female the Saint~
+Title 56 male the Saint~
+Title 56 female the Saint~
+Title 57 male the Divine~
+Title 57 female the Divine~
+Title 58 male the Divine~
+Title 58 female the Divine~
+Title 59 male the Cardinal of Flowers~
+Title 59 female the Cardinal of Flowers~
+Title 60 male the Holy~
+Title 60 female the Holy~
+Title 61 male the Holy Helper~
+Title 61 female the Holy Helper~
+Title 62 male the Holy Avatar~
+Title 62 female the Holy Avatar~
+Title 63 male the Angel~
+Title 63 female the Angel~
+Title 64 male the Demigod~
+Title 64 female the Demigoddess~
+Title 65 male the Immortal~
+Title 65 female the Immortal~
+Title 66 male the God~
+Title 66 female the Goddess~
+Title 67 male the Deity~
+Title 67 female the Deity~
+Title 68 male the Supreme Master~
+Title 68 female the Supreme Mistress~
+Title 69 male the Creator~
+Title 69 female the Creator~
+Title 70 male the Implementor~
+Title 70 female the Implementress~
+End
+
+#POSE
+Self You feel very holy.~
+Others $n looks very holy.~
+End
+
+#POSE
+Self You nonchalantly turn wine into water.~
+Others $n nonchalantly turns wine into water.~
+End
+
+#POSE
+Self A halo appears over your head.~
+Others A halo appears over $n's head.~
+End
+
+#POSE
+Self You recite words of wisdom.~
+Others $n recites words of wisdom.~
+End
+
+#POSE
+Self Deep in prayer, you levitate.~
+Others Deep in prayer, $n levitates.~
+End
+
+#POSE
+Self An angel consults you.~
+Others An angel consults $n.~
+End
+
+#POSE
+Self Your body glows with an unearthly light.~
+Others $n's body glows with an unearthly light.~
+End
+
+#POSE
+Self A spot light hits you.~
+Others A spot light hits $n.~
+End
+
+#POSE
+Self Everyone levitates as you pray.~
+Others You levitate as $n prays.~
+End
+
+#POSE
+Self A cool breeze refreshes you.~
+Others A cool breeze refreshes $n.~
+End
+
+#POSE
+Self The sun pierces through the clouds to illuminate you.~
+Others The sun pierces through the clouds to illuminate $n.~
+End
+
+#POSE
+Self The ocean parts before you.~
+Others The ocean parts before $n.~
+End
+
+#POSE
+Self A thunder cloud kneels to you.~
+Others A thunder cloud kneels to $n.~
+End
+
+#POSE
+Self The Burning Man speaks to you.~
+Others The Burning Man speaks to $n.~
+End
+
+#POSE
+Self An eye in a pyramid winks at you.~
+Others An eye in a pyramid winks at $n.~
+End
+
+#POSE
+Self Valentine Michael Smith offers you a glass of water.~
+Others Valentine Michael Smith offers $n a glass of water.~
+End
+
+#POSE
+Self Gods give you a staff.~
+Others Gods give $n a staff.~
+End
+
+#$

@@ -1,0 +1,3231 @@
+#AREADATA
+Name Wildlife Sanctuary~
+Builders sadin shaelindra~
+VNUMs 8200 8299
+Credits sadin~
+Security 9
+LevelRange 35 91
+ResetMessage With the howl of a wolf and roar of the lions, the cycle of life begins anew.~
+End
+
+#MOBILES
+#8200
+goblin gatekeeper keeper~
+Goblin Gatekeeper~
+A short smelly goblin stands here, collecting the fees to visit the park.
+~
+This little guys takes the money from people and allows them entrance into the park.
+~
+goblin~
+ABGTe H 2344 0
+85 85 426d85+30000 850d11+95 29d2+64 none
+-52 -52 -52 -34
+DFIJNT ABU 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M exit 8210 Zisou~
+M bribe 8209 200 silver~
+#8201
+guard ranger park enforcer felar~
+The Enforcer~
+A deadly looking felar guards makes sure you follow the rules.
+~
+This large furry creature wear a nicely pressed rangers uniform with the Park seal stitched onto the front pocket.
+~
+felar~
+ABTe H 3500 0
+91 91 405d91+46000 455d10+85 30d3+50 none
+-52 -52 -52 -33
+CDEFIKOV B B 0
+stand stand male 100
+0 0 medium flesh~
+~
+#8202
+small green harmless twigs twig~
+A small twig~
+A small twig reaches toward you and cackles
+~
+A small leaf twig, it looks innocent enough.
+~
+unique~
+ABe JZcdt -1000 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+ANU ABPT Q HK
+stand stand none 0
+CEH N large flesh~
+~
+#8203
+panther black large~
+a large panther~
+A large black panther rests here.
+~
+What panther?? I see nothing but a black blur with killer claws.
+~
+tiger~
+AB Qe 0 0
+55 55 201d55+8000 275d10+85 20d4+45 none
+-27 -27 -27 -16
+DMN 0 0 H
+stand stand female 0
+0 0 large flesh~
+~
+M act 8200 is zapped by A maggot infested corpse is here, partly eaten and drops it.~
+#8204
+cute puppy little dog~
+A puppy dog~
+A cute little puppy looks up at you with those "melt your heart" eyes.
+~
+This little brown and white puppy is pretending to guard his masters home, how cute.
+~
+dog~
+AFHY V 50 0
+50 50 173d50+0 250d10+85 19d4+50 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+#8205
+mommy dragon huge multi-color~
+Mommy~
+This mother dragon is VERY unhappy you are here.
+~
+Looks like you pissed off the wrong dragon today.  She is an Multi-hued
+dragon, capable to breathing any number of attacks from fire, ice, acid or
+lighting.  She glares at you then with a deep breath, prepares to blast you
+with god knows what.  
+~
+dragon~
+AB DFu -1000 0
+78 78 381d78+30500 780d11+95 30d5+100 claw
+-46 -46 -46 -30
+ACMR 0 0 0
+stand stand female 50023
+0 0 gargantuan flesh~
+~
+F attr+ A
+M speech 8205 I wish to speak to the Grand Master, Please.~
+#8206
+sleeping man poacher~
+a poacher~
+An evil poacher is here relaxing after a long day of killing animals.
+~
+The poacher looks tired and dirty.  Maybe a nap would help.
+~
+human~
+AB R -2500 8206
+45 45 144d45+2000 225d10+85 15d3+27 none
+-21 -21 -21 -11
+IJN 0 0 0
+sleep sleep either 100
+0 0 medium flesh~
+~
+#8207
+guard unhappy orc~
+Orc Guard~
+This rather unhappy guard makes sure the poachers are safe, for a fee.
+~
+A large smelly orc with a BIG mace wanders arounds.
+~
+orc~
+AB u -5000 0
+55 55 201d55+5060 275d10+85 18d3+32 none
+-27 -27 -27 -16
+CIJ 0 0 0
+stand stand male 0
+0 0 large flesh~
+~
+#8208
+baby dragon lizard~
+the baby dragon~
+a small scaly lizard looks at you and smiles.
+~
+This lizard looks like a scaled down version of a dragon. As you look at him 
+he burps and a cloud of smoke comes outa of his mouth.
+~
+dragon~
+AB 0 2 0
+55 55 201d55+0 275d10+85 18d3+32 none
+-27 -27 -27 -16
+CMU 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8209
+elephant large grey~
+the elephant~
+A elephant stands here.
+~
+A gray elephant with big ears.
+~
+pig~
+A 0 100 0
+85 85 371d85+0 425d10+85 28d3+47 none
+-48 -48 -48 -30
+0 0 E 0
+stand stand female 0
+0 0 large flesh~
+~
+#8210
+deer small spotted~
+A deer~
+A small spotted deer is here getting a drink.
+~
+The deer perks up her hairs at your approach but does not flee.
+~
+unique~
+ABH 0 2300 0
+38 38 105d38+0 190d10+85 12d3+24 none
+-15 -15 -15 -7
+IJ X 0 0
+stand stand female 0
+GHV ACDKQ medium flesh~
+~
+#8211
+powerful puma deadly~
+a deadly puma~
+A powerful looking puma stares at you then lunges toword you.
+~
+This puma is not pleased you have entered its lair during dinner time.
+~
+tiger~
+ABj Q 0 0
+80 80 343d80+0 400d10+85 27d5+65 none
+-44 -44 -44 -28
+O 0 BI 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8212
+wolf strong~
+a strong wolf~
+A growling wolf stares at you.
+~
+This black wolf is unsure of what to do about you here.
+~
+wolf~
+AHW 0 -200 0
+35 35 88d35+0 175d10+85 11d3+22 bite
+-13 -13 -13 -6
+0 0 I H
+stand stand either 0
+0 0 medium flesh~
+~
+#8213
+pissed off demon angry~
+An angry demon~
+A very pissed off demon is here, waiting to kill you.
+~
+Have fun dying.
+~
+undead~
+ABFR u -5000 0
+98 98 511d98+50000 980d11+95 40d7+175 none
+-61 -61 -61 -41
+ACO 0 0 0
+stand stand none 5323
+0 0 unknown flesh~
+~
+M grall 8201 100~
+#8214
+security patrol guard great tree storm giant~
+Great Tree Security Patrol~
+A tough looking storm giant wanders the ground, keeping the peace.
+~
+The guards look very formal all dressed up, but will to keep the peace at any cost.
+~
+storm giant~
+ATW DHN 5000 0
+85 85 371d85+10000 425d10+85 28d3+47 none
+-48 -48 -48 -30
+CDEFIKNOTW 0 0 0
+stand stand either 200
+0 0 medium flesh~
+~
+#8215
+grass plains ranger protector guard satyr~
+a ranger protector~
+This well hidden ranger ensures the animals are kept safe.
+~
+This ranger looks tough and willing to protect the grasslands, to the death.
+~
+satyr~
+AW Pet 3450 0
+75 75 315d75+7500 375d10+85 25d3+42 none
+-41 -41 -41 -25
+CIJT 0 0 0
+stand stand either 432
+0 0 medium flesh~
+~
+#8216
+gazelle~
+A striped gazelle~
+A nimble gazelle is here grazing on the grass.
+~
+This humble animal is equipped with some very long and pointy horns.
+~
+horse~
+AW 0 200 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#8217
+small noisy laughing hyena~
+a laughing hyena~
+A scrawny looking dog creature sit here, laughing at you.
+~
+He think you are funny looking, who can blame him.
+~
+dog~
+ACW V -2000 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+FV 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#8218
+roc large~
+The Roc~
+A large roc sit here, considering you for dinner.
+~
+This large bird is quite able to eat you, be careful.
+~
+song bird~
+AB u -3000 0
+80 80 343d80+20000 400d10+85 26d3+45 none
+-44 -44 -44 -28
+0 0 I H
+stand stand male 0
+0 0 medium flesh~
+~
+#8219
+ostrich large bulky bird flightless~
+An Ostrich~
+This dumb looking bird looks at you then sticks its head in the ground.
+~
+This bird, while unusual looks very strong.
+~
+unique~
+AB V 200 0
+65 65 258d65+5000 325d10+85 21d3+37 none
+-34 -34 -34 -20
+FIJ PT I H
+stand stand either 0
+GMW ACKP large flesh~
+~
+#8220
+burly guard gate watcher tough~
+A centaur guard~
+This tough guard keeps the animals in thier place.
+~
+Although this guard has no weapon, he looks able to hold his own.
+~
+centaur~
+AB H 4000 0
+88 88 388d88+10000 440d10+85 29d3+49 none
+-50 -50 -50 -31
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#8221
+large grey griffin~
+A Grey Griffin~
+This large magical griffin is attempting to shoo you from his home.
+~
+You thought all the griffins had been killed off, yet here one is; Maybe
+the last of its breed.  From what you can remember they are very talented
+fighter with dangerous poison sacks in there beaks and immune to all most
+all kinds of magical attacks, since they are magic in nature.  Might wish to
+leave this one alone.  
+~
+unique~
+ABCRTef DHT 0 0
+103 103 543d103+86500 1030d11+95 42d5+180 none
+-64 -64 -64 -43
+ACFHIMOV ABC KMP 0
+stand stand female 4939
+GHVW ADFPUV unknown flesh~
+~
+#8222
+stone golem guard guardian~
+A stone golem~
+A faithful guardian of the temple stand here.
+~
+This golem faithfully stands guard, despite the fact the temple has
+fallen into ruin.  He appears to be partly in the wall, as if carved right
+from the rock its self.  
+~
+golem~
+ABTe U 150 0
+65 75 258d65+0 325d10+85 22d4+50 none
+-34 -34 -34 -20
+CIO 0 E 0
+stand stand none 0
+0 0 medium flesh~
+~
+#8223
+undead priest protector quate skeleton~
+A holy priest~
+This loyal priest to the order; now guards it in death.
+~
+Despite the fact he is an undead being, his God has granted him goodly
+powers to help defend the temple for invaders.  
+~
+elf~
+ABOQ H 3000 0
+84 84 366d84+5000 420d10+85 28d3+47 none
+-47 -47 -47 -29
+HIV T 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M exall 8203 5~
+#8224
+wizi mob church bewew~
+spirit of the temple~
+spirit of the temple
+~
+~
+human~
+AB 0 0 0
+100 1 6d1+-5 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 8202 5~
+I 96
+#8225
+guardian tomb death knights~
+A loyal bodyguard~
+This bodyguard, turned undead, still guards his master.
+~
+The frightening being before you wear the tattered remains of his royal
+uniform.  The weapon has rotted away, but he may not really need it.  
+~
+death knight~
+ABTe U 1000 0
+80 80 343d80+10000 400d10+85 26d3+45 none
+-44 -44 -44 -28
+LR 0 0 0
+stand stand either 500
+0 0 medium flesh~
+~
+F vul N
+#8226
+grand master knight elf elven bladeslinger thardotrem death~
+Thardotrem~
+The Grand Master Knight lies in his coffin.
+~
+This elven bladeslinger was rumored to have mastered swordplay as well as
+the school of magic.  He does not appear to have died, only having fallen
+asleep.  It appears as if death has corrupted his soul and his weapons, both
+are now pure evil.  
+~
+death knight~
+ABRT u 0 0
+95 95 492d95+20000 950d11+95 32d2+70 none
+-59 -59 -59 -39
+HIJ A 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F vul N
+M kill 8204 100~
+#8227
+qwer~
+qwer~
+~
+~
+human~
+A 0 0 0
+5 5 15d5+0 25d10+85 1d5+7 none
+5 5 5 7
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 8207 ÷/!~
+M exall 8207 Zisou~
+I 96
+#8230
+pig~
+a pig~
+A pig is here, wallowing in mud.
+~
+This is a small pink pig. Nothing more, Nothing less.
+~
+pig~
+AB 0 0 0
+3 3 9d3+0 3d9+60 1d3+3 none
+7 7 7 8
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8231
+small bird~
+a small bird~
+A small bird flies around here.
+~
+The little birdy flies merily around in the sky twerping and whistling.
+~
+song bird~
+A 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+#8232
+baby goat~
+a baby goat~
+A small baby goat chews a piece of grass here.
+~
+fox~
+unique~
+ABG 0 0 8232
+2 2 7d2+0 2d9+60 1d2+3 none
+8 8 8 8
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8233
+mother goat~
+a mother goat~
+A medium sized goat stands here chewing.
+~
+The goat has a large round belly. As you stand looking at the goat it 
+wanders over and stats chewing at your clothes.
+~
+fox~
+ABG 0 0 8232
+3 3 11d3+0 15d10+85 1d3+6 none
+7 7 7 7
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8234
+father goat~
+a father goat~
+A large goat stands here.
+~
+The large goat stands in front of you and stares right into your eyes. His 
+large horns look as if they could do a nasty bit of damage.
+~
+fox~
+ABG 0 0 8232
+4 4 14d4+0 40d11+95 2d2+10 none
+5 5 5 6
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8235
+sad sorry donkey~
+a donkey~
+A sad sorry looking donkey is here.
+~
+The donkey looks sad and miserable. Its eyes have sleep in the corners and 
+its right ears has a chunk missing from it.
+~
+dog~
+AB 0 0 0
+5 5 12d5+0 5d9+60 1d5+4 none
+6 6 6 7
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8236
+old horse~
+an old horse~
+An old horse stands here. 
+~
+The horse looked as if it was once a war horse. It is big and muscular and 
+can proberly still do a lot of damage despite being retired.
+~
+fox~
+AB 0 0 0
+6 6 14d6+0 6d9+60 1d6+5 none
+5 5 5 7
+I 0 C 0
+stand stand female 0
+0 0 medium flesh~
+~
+#8237
+parrot harvey~
+Harvey the parrot~
+Harvey the green parrot sits on a perch here.
+~
+This green parrot is sitting on its perch. It watches your every move. Below 
+the parrot, fixed to its perch is a name plaque. The plaque reads 'Harvey the 
+talking parrot, please mind your fingers'.
+~
+song bird~
+AB 0 0 0
+8 8 24d8+0 80d11+95 3d2+12 none
+2 2 2 4
+0 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+#0
+
+#OBJECTS
+#8200
+sign glowing glow~
+A glowing sign~
+A glowing sign~
+wood~
+~
+trash A 0
+0 0 0 0 0 0 0
+1 10 4 P
+G none
+G none
+G none
+G none
+#8201
+corpse partly eaten dead animal~
+A maggot infested corpse is here, partly eaten~
+A maggot infested corpse is here, partly eaten~
+unknown~
+Decaying Flesh~
+trash CJKLR AP
+0 0 0 0 0 0 0
+1 20 0 A
+G none
+G none
+G none
+G none
+#8202
+large spiked mace big~
+A heavy spiked mace~
+A large mace with a nasty looking spiked ball on the end, rests here.~
+steel~
+~
+weapon CE AN
+mace 3 25 smash FK
+60 35 130482 P
+A
+13 40
+A
+19 6
+G none
+G none
+G none
+G none
+#8203
+fountain water~
+a fountain~
+A small white fountain gushes forth here.~
+stone~
+~
+fountain A 0
+0 0 'water' 0
+0 0 0 G
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+G none
+G none
+G none
+G none
+#8204
+brook babbling clear~
+a babbling brook~
+A babbling brooks splashes alongside the path.~
+water~
+~
+fountain BR 0
+0 0 'water' 0
+1 12 200 P
+G none
+G none
+G none
+G none
+#8205
+pool small clear refreshing~
+a sparkling pool of clear water~
+A clear refreshing pool of water is here, created by the brook.~
+water~
+~
+fountain A 0
+0 0 'water' 0
+1 11 450 P
+G none
+G none
+G none
+G none
+#8206
+fresh kill bleed bleeding corpse~
+a bloody corpse~
+A bloody corpse lies on the ground, still warm.~
+flesh~
+~
+container C 0
+86 0 0 500 0 0
+0 0 0 G
+G none
+G none
+G none
+G none
+#8207
+runed longsword glowing~
+A runed longsword~
+A glowing longsword with mystic runes on the blade sits on the ground.~
+steel~
+~
+weapon AIK AN
+longsword 4 23 slash I
+75 76 205059 P
+A
+12 30
+A
+19 4
+A
+3 2
+A
+18 4
+G none
+G none
+G none
+G none
+#8208
+drink pond water hole~
+A relaxing drinking pond~
+A relaxing watering hole~
+water~
+~
+fountain A 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8209
+staff wooden polished~
+A highly polished staff~
+A brillently shined staff rest on the ground.~
+wood~
+~
+weapon IKS AN
+staff 2 35 pound FK
+55 10 64440 P
+A
+2 2
+A
+17 -5
+A
+19 5
+G none
+G none
+G none
+G none
+#8210
+portal feathers glowing~
+A feathered portal~
+A glowing portal covered in feathers waits for you,~
+feathers~
+~
+portal A 0
+0 A A 8285 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8211
+portal feathers glowing~
+A feathered portal~
+A glowing portal covered in feathers waits for you,~
+feathers~
+~
+portal A 0
+0 A A 8284 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8212
+ostrich egg~
+An Ostrich Egg~
+A very big egg lies on the ground.~
+flesh~
+~
+food 0 A
+CFG BD 0 0 0 CFG BD
+0 100 1215 P
+G none
+G none
+G none
+G none
+#8213
+glowing demon arm plate armplates~
+A pair of {Cglowing{x {Ddemon{x armplates~
+A pair of evil looking armplates, glows on the ground.~
+energy~
+~
+armor AEJ AI
+38 38 38 37 'none' 0
+106 30 514577 P
+A
+13 50
+A
+18 6
+A
+19 10
+G none
+G none
+G none
+G none
+#8214
+griffin claw sharp shining~
+{yGr{Yi{yf{Yf{yins {DCl{waw{Ws{x~
+A set of shining griffin's claws hovers above the ground.~
+claw~
+~
+armor GISY AG
+38 38 38 37 'none' 0
+104 40 1404881 P
+A
+20 -6
+A
+13 30
+A
+12 75
+A
+18 8
+A
+19 10
+G none
+G none
+G none
+G none
+#8215
+unholy cursed flail death~
+An {DUnholy{x Flail~
+A evil looking flail, black with evil, sits on the ground.~
+fire~
+~
+weapon CEJ AN
+flail 5 30 shock CFG
+106 107 1777554 P
+A
+18 10
+A
+19 10
+A
+13 40
+G none
+G none
+G none
+G none
+#8216
+dead dried-up skeleton~
+A dried skeleton lie near the altar.~
+A dried skeleton lie near the altar.~
+bone~
+~
+trash A 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8217
+portal hovering green great tree~
+A Hovering Green Portal~
+A magical portal with an image of the Great Tree hovers here.~
+energy~
+~
+portal A 0
+0 A A 8247 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#8218
+soul sucker~
+The {WSoul {DSucker{x~
+A net of webbing lies on the ground~
+webbing~
+~
+weapon AB AN
+exotic 5 32 suction CGH
+111 112 1381020 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#8200
+Entrance to the Wild Animal Sanctuary~
+A very large gate block any further northward, along with the tall wooden
+blockades on either side, which prevents you from entering and animals from
+escaping.  A small hut stands just in front of the gate, with a small little
+goblin manning it.  There is a sign posted on the hut for you to read.  
+~
+0 0 field
+E
+sign~
+To gain admittance to the park, simply give 200 silvers to the smelly goblin and he will allow you entrance.
+ 
+Have a pleaseant stay.
+~
+D0
+~
+~
+Z 0 8201
+0 0
+D2
+~
+~
+Z 0 8281
+0 0
+S
+#8201
+Path Toward the Great Tree~
+This simple dirt path leads directly toward a huge tree, located in the
+center of the reserve.  From here, you notice several paths leading off
+toward various areas including a forest and a large caged area.  A tough
+looking ranger keeps an eye on the visitors, making sure the animals are not
+harmed or stolen.  Off in the distance, the sounds of animal's calls can be
+heard.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8202
+0 0
+D2
+~
+~
+Z 0 8200
+0 0
+S
+#8202
+Fork in the Road~
+The main path continues toward the Great Tree while a smaller path heads
+off to the east into a rather dark looking forest.  A few glowing red eyes
+can be seen peering out from the darkness of the evil forest, sending a
+shiver down your spine.  The joyful call of a tropical bird snaps your
+attention back toward the more pleasant areas of this place.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8236
+0 0
+D1
+~
+~
+Z 0 8203
+0 0
+D2
+~
+~
+Z 0 8201
+0 0
+S
+#8203
+Toward the Dark Woods~
+The path goes from smooth dirt to loose gravel with many small holes,
+which you have to avoid tripping in.  The sun seems to vanish behind dark
+clouds that seemed to form from nothing, adding a bitter wind to the already
+unpleasant walk.  The soulful howl of a wolf echoes out from the beyond the
+darkened trees line ahead, as if warning you to turn back.  
+~
+0 A field
+D1
+~
+~
+Z 0 8204
+0 0
+D3
+~
+~
+Z 0 8202
+0 0
+S
+#8204
+Entrance to the Dark Woods~
+Towering trees stretch as far as the eye can see, despite the fact they
+all seem dead.  The sunlight has completely been blocked out by the trees
+and the eerie darkness surrounds you.  A small path leads eastward, deeper
+into the dark and scary woods.  A sign has been attached to one of the
+nearby trees.  If you have been frightened off, you can retreat toward the
+light to the west.  
+~
+0 AD forest
+E
+sign~
+***{RWarning{x***
+ 
+By order of the Park Rangers, this area has been declared off limits due to strange deaths in the area.
+ 
+Any persons entering these woods do so at thier own risk.
+ 
+Recent rumors of an evil undead demon to the southern part of the forest  Only high ranking adventurers should attempt to explore those areas.
+~
+D1
+~
+~
+Z 0 8205
+0 0
+D3
+~
+~
+Z 0 8203
+0 0
+S
+#8205
+In the Dark Woods~
+Shadows from the trees cast frightening shapes upon the ground and many
+rock formations.  The underbrush blows in the wind and shrubs shake
+violently as hidden animals races past you.  An undead silence fills the
+area and your breath creates small clouds in the chilly air.  A small and
+very sickly raccoon glances at you from a hole in a tree, before ducking out
+of sight.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8229
+0 0
+D1
+~
+~
+Z 0 8206
+0 0
+D2
+~
+~
+Z 0 8230
+0 0
+D3
+~
+~
+Z 0 8204
+0 0
+S
+#8206
+Path Through the Dark Woods~
+The path weaves back and forth around trees and fallen logs, rotting away
+into piles of disgusting mass of bugs and musty fungus.  A crow caws at you
+from the trees above, as if mocking you for being here.  Off in the
+distance, the path splits, heading north and south.  
+~
+0 A forest
+D1
+~
+~
+Z 0 8207
+0 0
+D3
+~
+~
+Z 0 8205
+0 0
+S
+#8207
+Split in the Path~
+The eastern path has reached a dead-end at the base of a very large tree,
+although several branches are low enough to reach.  The path goes in
+opposite directions, leading north and south.  An ominous aura seems to
+shroud this part of the forest, for reason you are unsure about.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8217
+0 0
+D3
+~
+~
+Z 0 8206
+0 0
+D4
+~
+~
+Z 0 8208
+0 0
+S
+#8208
+Climbing the Living Tree~
+You clamber up the tree and lift yourself onto the lowest set of
+branches.  Several small birds take flight in cowardly fashion as you
+startle them.  The branches above you seem to beckon you to climb further up
+the tree, and it seems the trees keeps moving in time with your step.  A few
+small twigs seem to reach toward you, as if to grab you.  
+~
+0 A forest
+D1
+~
+~
+Z 0 8209
+0 0
+D4
+~
+~
+Z 0 8210
+0 0
+D5
+~
+~
+Z 0 8207
+0 0
+S
+#8209
+Along the Lower Branches~
+The branch extend far over the ground, allowing you to see further along
+the roads below.  A large dead carcass is resting here, partly eaten.  There
+are lots of claw marks dug into the branches near here; hope what ever made
+them is gone.  A slight snapping noise is heard above you, yet when you look
+you see nothing.  
+~
+0 0 forest
+D3
+~
+~
+Z 0 8208
+0 0
+S
+#8210
+Higher in the Living Tree~
+The tree seems to anticipate your needs and branches always are located
+where you need them, which can't really be happening since tree are not
+alive; or are they.  A large vulture glares at you from above, hoping that
+you slip and kill yourself.  A series of intertwined branches lead off to
+the west, toward a small tree house.  
+~
+0 A forest
+D3
+~
+~
+Z 0 8211
+0 0
+D4
+~
+~
+Z 0 8215
+0 0
+D5
+~
+~
+Z 0 8208
+0 0
+S
+#8211
+Door of a Tree House~
+A stout wooden door has been build into the large trunk of a neighboring
+tree.  The craftsmanship is so superb you nearly missed the outline,
+although the knocker and doorknob helps you find it.  Using the manners your
+parent taught you; you knock on the door, but there is no answer.  A high
+pitch yapping starts as soon as you knock however, meaning something is
+inside.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 8210
+0 0
+D3
+~
+~
+ABZ 0 8212
+0 0
+S
+#8212
+Inside the Tree House~
+A cluttered disaster waits whoever enters this house.  It would appear
+that a magical force of wind has ripped through the room and scattered
+everything from its rightful place.  There is a small room off to one side,
+which appears to be clean.  A large wooly rug covers the center of the room,
+and seems free of any debris.  A fire roars in the fireplace keeping the
+outside chill from entering the rest of the house.  
+~
+0 D inside
+D0
+~
+~
+Z 0 8213
+0 0
+D1
+~
+~
+ABZ 0 8211
+0 0
+D5
+~
+~
+ABGZ 0 8214
+0 0
+S
+#8213
+Tree House Bedroom~
+A simple yet comfortable looking bed takes on the majority of the room's
+free space.  A small round cushion rests in one corner of the room, about
+the size for a small pet dog.  A small window allows sunlight to shine onto
+the bed and provide a warm feel to the room.  
+~
+0 D inside
+D2
+~
+~
+Z 0 8212
+0 0
+S
+#8214
+Inside the Dead Tree~
+Someone has gone to great efforts to conceal this part of the house from
+the ranger patrols and for good reason.  Several pelts hang on the wall
+drying, and a multitude of animal parts line the shelves from toes, eyes and
+noses.  A fresh kill lies on the tables waiting to be dissected; you notice
+it is on the protected species list, hence the great secrecy behind this
+room.  
+~
+0 A forest
+D4
+~
+~
+ABGZ 0 8212
+0 0
+S
+#8215
+Atop the Living Tree~
+You have reached the upper branches of the tree and the view is amazing. 
+You can see all the way to the town of New Thalos and just make out the
+sparkling waters of the Dragon Sea.  A large birds nest is here, should you
+wish to climb in and explore it, however the birds that live here must be
+huge, the nest is bigger then you.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 8216
+0 0
+D5
+~
+~
+Z 0 8210
+0 0
+S
+#8216
+Inside the Nest~
+Congratulations, you made it into the huge bird nest, the only problem is
+the current occupants are a family of dragons.  The "baby" dragons are a
+bright yellow and look quite helpless, however "Mommy" is standing right
+behind them; and she is not so helpless.  A few trinkets litter the bottom
+of the nest; otherwise the dragons are the only things of interest.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 8215
+0 0
+S
+#8217
+Eastern Edge of the Dark Woods~
+Gloom and dismay seem linger in the air like a stale odor.  The silence
+is broken only with the occasional call of a bird or howling wolf, making
+this forest seem even deader.  No sunlight reaches the ground and the
+darkness joins with the everlasting chill to dampen your spirits.  All round
+you, the forest looks the same: dark, dreary and dead.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8218
+0 0
+D2
+~
+~
+Z 0 8207
+0 0
+S
+#8218
+Eastern Edge of the Dark Woods~
+Dead leaves and broken sticks litters the poorly maintained path.  Once
+in a while, a dead animals can be seen, victim to the circle of life and
+death.  Ahead you can see a faint glow of a campfire, partly hidden behind a
+rock.  A large form is outlined by the faint firelight, although you are
+unable to make out what it is.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8219
+0 0
+D2
+~
+~
+Z 0 8217
+0 0
+S
+#8219
+Poorly Hidden Campsite~
+A blazing campfire lights up the entire area, which is surrounded by
+large boulders to help protect it from wind and prying eyes.  A large
+blanket has been laid out with five pillows in a row, apparently a makeshift
+bed.  A pot of stew is simmering over the fire and the smell of roasted meat
+and veggies fills the air.  A large guard circles around the area,
+protecting the other in the group.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8220
+0 0
+D2
+~
+~
+Z 0 8218
+0 0
+S
+#8220
+Corner of the Dark Woods~
+The bush and trees seem to have grown together, forming a natural curve
+in the path leading south and west.  The brush along the eastern side of the
+path seems a little greener then the rest of this area of the forest.  A
+small brook runs along side the path-leading west creating a much-needed
+calming effect on your nerves.  
+~
+0 A forest
+D2
+~
+~
+Z 0 8219
+0 0
+D3
+~
+~
+Z 0 8221
+0 0
+S
+#8221
+Northern Edge of the Dark Woods~
+This pathway seems to have more life, mainly to its proximity to the
+stream.  The stream babbles along to the west leading you toward the Great
+Tree, which can be seen just peeking out over the tops of the surrounding
+forest.  Several prints in the dirt point out the abundance of life in the
+forest, despite the lack proof you have seen.  
+~
+0 A forest
+D1
+~
+~
+Z 0 8220
+0 0
+D3
+~
+~
+Z 0 8222
+0 0
+S
+#8222
+Three Way Split~
+The trail suddenly branches off into three directions: east and west,
+which follows a sparkling little stream and southward leading deeper into
+the inky blackness of the Dark Woods.  Far off the to the north the sound of
+children laughing can be heard, a pleasant break from the eerie silence of
+this forsaken forest.  A small pool has formed near the shore should you
+need a drink or fill your containers.  
+~
+0 A forest
+D1
+~
+~
+Z 0 8221
+0 0
+D2
+~
+~
+Z 0 8223
+0 0
+D3
+~
+~
+Z 0 8226
+0 0
+S
+#8223
+Path Toward the Dark Cave~
+The closer the path leads to the cave, the more dark and silent the
+forest becomes.  There are no animals around and even the birds seem to
+avoid flying over the cave, adding to the sinking feeling in your stomach. 
+Peer toward the cave, you see nothing.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8222
+0 0
+D2
+~
+~
+Z 0 8224
+0 0
+S
+#8224
+Cave Entrance~
+A new sound can be heard, this time from the cave not the forest.  A low
+rumbling, almost a snore, can be heard reverberating off the caves walls.  A
+large pile of dried bones and dismembered bodies lie all around the
+entrance, as if a warning against entering the cave.  You notice several
+burn marks on the cave walls as well, but no fire pit.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8223
+0 0
+D2
+~
+~
+Z 0 8225
+0 0
+S
+#8225
+Lair of the Puma~
+A mass of soft grass and brush covers the floor, creating a bed for the
+occupant of the cave.  A fresh kill lies in one corner, blood still oozing
+out of the wounds.  Your light does little to brighten the darkness and even
+less to dispel the shadows from the far reaches of the cave.  The outside of
+the cave suddenly looks very inviting.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 8224
+0 0
+D2
+~
+~
+Z 0 8296
+0 0
+S
+#8226
+Northern Edge of the Dark Woods~
+The brook continues to babble long small rocks, forming mini rapids,
+before settling down into a slow crawl closer toward the Great Tree. 
+Sunlight seems to shine more brightly the closer you get to the exit of this
+evil place.  Songbirds fill the air with the cheerful sounds of happiness
+and joy.  
+~
+0 A forest
+D1
+~
+~
+Z 0 8222
+0 0
+D3
+~
+~
+Z 0 8227
+0 0
+S
+#8227
+Northern Corner of the Dark Woods~
+Through the thinning tree line, you can see the wide-open plains beyond
+the Great Tree.  East leads toward darkness, while to the south the exit can
+be seen exiting onto the plains.  A soulful howling echoes from somewhere
+deep in the forest, urging you to leave.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 8226
+0 0
+D2
+~
+~
+Z 0 8228
+0 0
+S
+#8228
+Western Edge of the Dark Woods~
+The forest seems far less frightening on this side, with sunshine and
+happy birds chirping away at you.  Life seems to be winning the struggle for
+survival along the outer fringe of the death found deeper in the forest.  A
+light fog seems to hover all around, a gentle reminder of the possible
+dangers hiding within.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 8227
+0 0
+D2
+~
+~
+Z 0 8229
+0 0
+S
+#8229
+Western Edge of the Dark Woods~
+The forest seems far less frightening on this side, with sunshine and
+happy birds chirping away at you.  Life seems to be winning the struggle for
+survival along the outer fringe of the death found deeper in the forest.  A
+light fog seems to hover all around, a gentle reminder of the possible
+dangers hiding within.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 8228
+0 0
+D2
+~
+~
+Z 0 8205
+0 0
+S
+#8230
+Western Edge of the Dark Woods~
+The forest seems far less frightening on this side, with sunshine and
+happy birds chirping away at you.  Life seems to be winning the struggle for
+survival along the outer fringe of the death found deeper in the forest.  A
+light fog seems to hover all around, a gentle reminder of the possible
+dangers hiding within.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 8205
+0 0
+D2
+~
+~
+Z 0 8231
+0 0
+S
+#8231
+Approaching a Dark Clearing~
+The path suddenly starts to widen into a huge open clearing, completely
+devoid of any light or life.  A charred remain of a large bonfire can be
+seen in the center with figures sitting around it.  All the grass has been
+burned to a crisp and crunches under foot, making the scene even less
+inviting.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8230
+0 0
+D2
+~
+~
+Z 0 8232
+0 0
+S
+#8232
+Remains of a Demon Summoning Ceremony~
+The charred remains of three humans sit around the cold bonfire.  Based
+on the runes and ruined candles, it appears they were attempting to summon a
+demon from the neither world.  The destroyed tress to the east leads you to
+think they succeeded but lost control of it.  
+~
+0 A field
+D0
+~
+~
+Z 0 8231
+0 0
+D1
+~
+~
+Z 0 8233
+0 0
+S
+#8233
+Destroyed Section of the Forest~
+There was no path till what ever came trough here created it, and it
+still looks poorly designed.  An opening leads northward into a very dark
+area with burn marks on all the surrounding trees.  A faint glow can be seen
+to the northeast but you are not sure you really want to find out what is
+creating it.  
+~
+0 A forest
+D0
+~
+~
+Z 0 8234
+0 0
+D3
+~
+~
+Z 0 8232
+0 0
+S
+#8234
+Darkest Part of the Forest~
+The path through here is non-existent; you are forced to follow the
+direction of the broken branches and shattered tress.  A faint glow emanates
+from the north sending a shiver of fear down your back.  A sense of magical
+power fills the air, making your hair stand on end, maybe you should leave
+now, before it is too late.  
+~
+0 AW forest
+D1
+~
+~
+Z 0 8235
+0 0
+D2
+~
+~
+Z 0 8233
+0 0
+S
+#8235
+The Last Place You Ever Want To Be~
+{RYou are in a lot of trouble.  {x The largest and most pissed off demon
+you have ever seen stand before you, glowing with a hatred that makes your
+knees weak.  The demon takes on look at you and unleashes a cone of {RFIRE{x
+at your head.  Hope you made peace with your Gods this morning when you woke
+up.  
+~
+0 A field
+D3
+~
+~
+Z 0 8234
+0 0
+S
+#8236
+Closer to the Great Tree~
+The path here has been paved with cobblestones, easing the travel. 
+Colorful flowers and pruned brush lines the way, creating a relaxing walk. 
+Small butterflies and humming bird dart around, sipping neuter and
+pollinating various flowers.  A small fountain has been placed here to
+quench your thirst during the walk.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8237
+0 0
+D2
+~
+~
+Z 0 8202
+0 0
+D4
+~
+~
+Z 0 8283
+0 0
+S
+#8237
+Entrance to the Never Ending Grasslands~
+A fancy wooden gate blocks the path west, into the plains.  Rumor has it
+that you can see every type of peaceful animal in the realms in this
+protected area, while they are living in their natural environment.  A burly
+guard stands before the gate making sure all animals are kept in the
+grasslands.  A LARGE sign is post in the ground next to the gate.  
+~
+0 D field
+E
+sign~
+Please observe the following rules while roaming the grasslands.
+ 
+1) No feeding the animals
+2) No killing the animals
+4) Make sure the gate closes behind you.
+ 
+Thank you and have a nice day.
+~
+D0
+~
+~
+Z 0 8238
+0 0
+D2
+~
+~
+Z 0 8236
+0 0
+D3
+~
+~
+ABZ 0 8248
+0 0
+S
+#8238
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8291
+0 0
+D2
+~
+~
+Z 0 8237
+0 0
+D3
+~
+~
+Z 0 8239
+0 0
+S
+#8239
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8240
+0 0
+D1
+~
+~
+Z 0 8238
+0 0
+S
+#8240
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8241
+0 0
+D2
+~
+~
+Z 0 8239
+0 0
+S
+#8241
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8287
+0 0
+D2
+~
+~
+Z 0 8240
+0 0
+S
+#8242
+Path to the Inner Ring~
+The single path to the Inner Ring is located behind the trunk of the tree
+for some reason.  A single guard is here, making sure all moves along
+smoothly and urging slow pokes to move along.  This path is one way only,
+since the only way out is through the gift shop located inside the tree
+itself.  Once again a small fountain has been placed here, in case of a long
+wait.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8287
+0 0
+D2
+~
+~
+Z 0 8243
+0 0
+S
+#8243
+Inner Ring of the Great Tree~
+This path brings you within touch distance of the tree, yet just out of
+range of being able to reach the tree.  All over the bark strange glyphs,
+which have a warm glow to them, have been carved into the bark.  The wonder
+of the Great Tree is that despite the damage, from nature and man, it seems
+to continue to grow and flourish.  Guards wander about to make sure no one
+tries to change that.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8242
+0 0
+D1
+~
+~
+Z 0 8244
+0 0
+D2
+~
+~
+Z 0 8246
+0 0
+S
+#8244
+Inner Ring of the Great Tree~
+This path brings you within touch distance of the tree, yet just out of
+range of being able to reach the tree.  All over the bark strange glyphs,
+which have a warm glow to them, have been carved into the bark.  The wonder
+of the Great Tree is that despite the damage, from nature and man, it seems
+to continue to grow and flourish.  Guards wander about to make sure no one
+tries to change that.  
+~
+0 0 field
+D2
+~
+~
+Z 0 8245
+0 0
+D3
+~
+~
+Z 0 8243
+0 0
+S
+#8245
+Inner Ring of the Great Tree~
+This path brings you within touch distance of the tree, yet just out of
+range of being able to reach the tree.  All over the bark strange glyphs,
+which have a warm glow to them, have been carved into the bark.  The wonder
+of the Great Tree is that despite the damage, from nature and man, it seems
+to continue to grow and flourish.  Guards wander about to make sure no one
+tries to change that.  Unlike the rest of the tree, the markings glow
+{Rred{x here, for some odd reason.  
+~
+0 0 field
+E
+markings~
+The ancient multi-hued dragon has the power to enter the secret temple. 
+To gain access, say to her "I wish to speak to the Grand Master, Please." 
+She will then deem you worthy or not.  
+~
+D0
+~
+~
+Z 0 8244
+0 0
+D3
+~
+~
+Z 0 8246
+0 0
+S
+#8246
+Inner Ring of the Great Tree~
+This path brings you within touch distance of the tree, yet just out of
+range of being able to reach the tree.  All over the bark strange glyphs,
+which have a warm glow to them, have been carved into the bark.  The wonder
+of the Great Tree is that despite the damage, from nature and man, it seems
+to continue to grow and flourish.  Guards wander about to make sure no one
+tries to change that.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8243
+0 0
+D1
+~
+~
+Z 0 8245
+0 0
+S
+#8247
+Great Tree Gift Shop~
+Well, every tourist trap has one and this is not exception.  This shop is
+filled with trinkets and other small objects that have no use and are
+grossly overpriced.  Despite that obvious fact, the line to purchase stuff
+is quite long.  A small sign on the counter displays the short list of items
+they wish to sell you, if you are a sucker.  
+~
+0 D inside
+D3
+~
+~
+ABZ 0 8289
+0 0
+S
+#8248
+Start of the Never Ending Grasslands~
+The sea of grass leads off all directions, save east that leads back to
+the path for the Great Tree.  An invisible force field extends around the
+entire area, preventing you from leaving any way other then the gate and
+keeps animals from wandering off.  A sign warns that rangers patrol the
+grasslands at all times, and just because you can't see them does not mean
+they are not there.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8249
+0 0
+D1
+~
+~
+ABZ 0 8237
+0 0
+D2
+~
+~
+Z 0 8256
+0 0
+D3
+~
+~
+Z 0 8254
+0 0
+S
+#8249
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8250
+0 0
+D2
+~
+~
+Z 0 8248
+0 0
+D3
+~
+~
+Z 0 8253
+0 0
+S
+#8250
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8251
+0 0
+D2
+~
+~
+Z 0 8249
+0 0
+D3
+~
+~
+Z 0 8252
+0 0
+S
+#8251
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D2
+~
+~
+Z 0 8250
+0 0
+D3
+~
+~
+Z 0 8276
+0 0
+S
+#8252
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8276
+0 0
+D1
+~
+~
+Z 0 8250
+0 0
+D2
+~
+~
+Z 0 8253
+0 0
+D3
+~
+~
+Z 0 8264
+0 0
+S
+#8253
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8252
+0 0
+D1
+~
+~
+Z 0 8249
+0 0
+D2
+~
+~
+Z 0 8254
+0 0
+D3
+~
+~
+Z 0 8278
+0 0
+S
+#8254
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 inside
+D0
+~
+~
+Z 0 8253
+0 0
+D1
+~
+~
+Z 0 8248
+0 0
+D2
+~
+~
+Z 0 8255
+0 0
+D3
+~
+~
+Z 0 8263
+0 0
+S
+#8255
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8254
+0 0
+D1
+~
+~
+Z 0 8256
+0 0
+D2
+~
+~
+Z 0 8259
+0 0
+D3
+~
+~
+Z 0 8262
+0 0
+S
+#8256
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8248
+0 0
+D2
+~
+~
+Z 0 8257
+0 0
+D3
+~
+~
+Z 0 8255
+0 0
+S
+#8257
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8256
+0 0
+D2
+~
+~
+Z 0 8277
+0 0
+D3
+~
+~
+Z 0 8259
+0 0
+S
+#8258
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8259
+0 0
+D1
+~
+~
+Z 0 8277
+0 0
+D3
+~
+~
+Z 0 8260
+0 0
+S
+#8259
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8255
+0 0
+D1
+~
+~
+Z 0 8257
+0 0
+D2
+~
+~
+Z 0 8258
+0 0
+D3
+~
+~
+Z 0 8261
+0 0
+S
+#8260
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8261
+0 0
+D1
+~
+~
+Z 0 8258
+0 0
+D3
+~
+~
+Z 0 8271
+0 0
+S
+#8261
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8262
+0 0
+D1
+~
+~
+Z 0 8259
+0 0
+D2
+~
+~
+Z 0 8260
+0 0
+D3
+~
+~
+Z 0 8279
+0 0
+S
+#8262
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8263
+0 0
+D1
+~
+~
+Z 0 8255
+0 0
+D2
+~
+~
+Z 0 8261
+0 0
+D3
+~
+~
+Z 0 8270
+0 0
+S
+#8263
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8278
+0 0
+D1
+~
+~
+Z 0 8254
+0 0
+D3
+~
+~
+Z 0 8269
+0 0
+S
+#8264
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8265
+0 0
+D1
+~
+~
+Z 0 8252
+0 0
+D2
+~
+~
+Z 0 8278
+0 0
+D3
+~
+~
+Z 0 8267
+0 0
+S
+#8265
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D1
+~
+~
+Z 0 8276
+0 0
+D2
+~
+~
+Z 0 8264
+0 0
+D3
+~
+~
+Z 0 8266
+0 0
+S
+#8266
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D1
+~
+~
+Z 0 8265
+0 0
+D2
+~
+~
+Z 0 8267
+0 0
+S
+#8267
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8266
+0 0
+D1
+~
+~
+Z 0 8264
+0 0
+D2
+~
+~
+Z 0 8268
+0 0
+S
+#8268
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8267
+0 0
+D1
+~
+~
+Z 0 8278
+0 0
+D2
+~
+~
+Z 0 8269
+0 0
+S
+#8269
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8268
+0 0
+D1
+~
+~
+Z 0 8263
+0 0
+D2
+~
+~
+Z 0 8270
+0 0
+S
+#8270
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8269
+0 0
+D1
+~
+~
+Z 0 8262
+0 0
+D2
+~
+~
+Z 0 8279
+0 0
+S
+#8271
+Lost in the Never Ending Grasslands~
+They should have provided a map with the tour package, it seems you have
+lost your way.  No matter which direction you look, there is nothing but
+grass, shrubs and the occasional tree.  Once in a while you stumble upon
+some local wildlife, yet have yet to see any of the rangers that guard them.
+
+~
+0 0 field
+D0
+~
+~
+Z 0 8279
+0 0
+D1
+~
+~
+Z 0 8260
+0 0
+S
+#8272
+Lost Temple of a Dead Cult~
+As your eyes adjust to sudden darkness, large statues seem to grow out of
+the walls.  A short passage leads toward a stone door, which appears to have
+not been opened for a very long time.  Torches light as you approach as if
+an invisible hand had ignited them for you.  A loud thumping can be heard
+bouncing around the stone walls, as if a heart was beating rapidly.  
+~
+0 D inside
+D3
+~
+~
+Z 0 8273
+0 0
+S
+#8273
+Entrance to the Lost Temple~
+A massive stone door lies to your west, etched upon the door is a figure
+riding upon a mighty warhorse armed with a lance with appears to be covered
+in flames.  Above the door, written is a fancy script reads "Knights of the
+Flaming Lance" with the seal of the order on either side of the name.  A
+solemn looking stone golem stands guard over the door.  
+~
+0 D inside
+D1
+~
+~
+Z 0 8272
+0 0
+D3
+~
+~
+ABFGZ 0 8274
+0 0
+S
+#8274
+The Ruined Cathedral~
+The rotted remains of once elegant wooden pews litter the floor.  There
+is no visible exit, save the doorway to the east, although there is a large
+hole in the floor in front of the altar.  A skeleton is leaning against the
+far side of the altar, his robes eaten away by time and moths.  A faint glow
+emanates from behind the altar, however you can't reach it due to the damage
+in the room.  
+~
+0 D inside
+D1
+~
+~
+ABFGZ 0 8273
+0 0
+D5
+~
+~
+Z 0 8275
+0 0
+S
+#8275
+The Catacombs~
+Stone walls with body-sized cavities surround you, and continue northward
+to a large open coffin.  The passage way south has been blocked off by a
+cave-in, and there are no other doors that you can see.  The only light
+comes from the flickering of your lone torch, which seems unable to remove a
+bone-numbing chill from the air.  The hairs on the back of your neck start
+to stand on end, creating a feeling of dread in your mind.  
+~
+0 ADW inside
+D0
+~
+~
+Z 0 8297
+0 0
+D4
+~
+~
+Z 0 8274
+0 0
+S
+#8276
+Local Watering Hole~
+A large pond has been created and fill with water to provide the animals
+with a gathering area to drink and socialize.  Several animals scatter as
+you approach leaving you staring at a mostly deserted lake.  A small hut has
+been set up nearby for the rangers to monitor and treat any wounded animal;
+unfortunately the door is locked and look very sturdy.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8251
+0 0
+D2
+~
+~
+Z 0 8252
+0 0
+D3
+~
+~
+Z 0 8265
+0 0
+S
+#8277
+Local Watering Hole~
+A large pond has been created and fill with water to provide the animals
+with a gathering area to drink and socialize.  Several animals scatter as
+you approach leaving you staring at a mostly deserted lake.  A small hut has
+been set up nearby for the rangers to monitor and treat any wounded animal;
+unfortunately the door is locked and look very sturdy.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8257
+0 0
+D3
+~
+~
+Z 0 8258
+0 0
+S
+#8278
+Local Watering Hole~
+A large pond has been created and fill with water to provide the animals
+with a gathering area to drink and socialize.  Several animals scatter as
+you approach leaving you staring at a mostly deserted lake.  A small hut has
+been set up nearby for the rangers to monitor and treat any wounded animal;
+unfortunately the door is locked and look very sturdy.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8264
+0 0
+D1
+~
+~
+Z 0 8253
+0 0
+D2
+~
+~
+Z 0 8263
+0 0
+D3
+~
+~
+Z 0 8268
+0 0
+S
+#8279
+Local Watering Hole~
+A large pond has been created and fill with water to provide the animals
+with a gathering area to drink and socialize.  Several animals scatter as
+you approach leaving you staring at a mostly deserted lake.  A small hut has
+been set up nearby for the rangers to monitor and treat any wounded animal;
+unfortunately the door is locked and look very sturdy.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8270
+0 0
+D1
+~
+~
+Z 0 8261
+0 0
+D2
+~
+~
+Z 0 8271
+0 0
+S
+#8281
+Path Toward the Wild Animal Sanctuary~
+A wide dirt paths lead northward toward a large wooden gate with several
+people wandering outside of it.  Seeing beyond the gate, you can tree a huge
+tree standing tall and proud, with the top of it reaching hundreds of feet
+into the air.  A {Cglowing{x sign is here, screaming that you look at it. 
+
+~
+0 0 field
+E
+sign~
+Welcome to the Theras Original Free Roaming Wildlife Sanctuary.
+ 
+Months of Operation: All Year
+Hours of Operation: 24 hours
+ 
+Fee: 200 silver per person, no group discounts.
+ 
+Rules:
+1) No killing local or any other wildlife.
+2) No criminals allowed
+3) No littering
+4) No outside drinks or food.
+5) No feeding the Animals
+ 
+Please enjoy your visit and have a nice day.
+~
+D0
+~
+~
+Z 0 8200
+0 0
+D2
+~
+~
+Z 0 3525
+0 0
+S
+#8283
+Stairway to the Bird Cage~
+A large set of stairs leads up to a floating birdcage, filled with all
+kinds of winged creatures.  The cage itself is well made, with a magical
+force field to keep the animals from escaping and it somehow keeps the cage
+hovering forty feet above the ground.  Due to the inline of the stairs and
+peoples willingness to get to the cage or ground, there is no guard posted
+at the entrance.  
+~
+0 D inside
+D1
+~
+~
+Z 0 8284
+0 0
+D5
+~
+~
+Z 0 8236
+0 0
+S
+#8284
+Entrance to the Bird Cage~
+A shimmering portal stands before you; apparently this is used instead of
+a door to prevent the accidental release of the animals.  A small man is
+here sells special food you can feed to the birds inside, should you wish to
+better commune with nature.  A small sign explains the bird feeding policy. 
+
+~
+0 D inside
+E
+sign~
+NO FEEDING THE BIRD!!!
+~
+D3
+~
+~
+Z 0 8283
+0 0
+S
+#8285
+Portal Room of the Bird Cage~
+This small and cramped room is the only way to enter or exit the bird
+cage, as the creators made it a god forsaken area to prevent some the
+smarter animals from escaping using spells.  An archway leads west into the
+walkway that travels the entire cage area.  A small fountain bubbles over in
+the corner, should you become parched from the journey in the cage.  
+~
+0 DNX inside
+D1
+~
+~
+Z 0 8286
+0 0
+S
+#8286
+Walkway in the Bird Cage~
+A transparent path with bright red lines to indicate the edges leads
+around the birdcage, traveling north, which slopes upward, and south, which
+slopes downward.  It seems almost as if you are flying with the birds as
+they swoop around your head.  There is a sign here, a type of warning for
+the visitors.  
+~
+0 DNX inside
+E
+sign~
+North leads to the great birds of Prey
+South leads to the birds of scavengers
+~
+D0
+~
+~
+Z 0 8292
+0 0
+D2
+~
+~
+Z 0 8294
+0 0
+D3
+~
+~
+Z 0 8285
+0 0
+S
+#8287
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8288
+0 0
+D2
+~
+~
+Z 0 8242
+0 0
+D3
+~
+~
+Z 0 8241
+0 0
+S
+#8288
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D2
+~
+~
+Z 0 8289
+0 0
+D3
+~
+~
+Z 0 8287
+0 0
+S
+#8289
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8288
+0 0
+D1
+~
+~
+ABZ 0 8247
+0 0
+D2
+~
+~
+Z 0 8290
+0 0
+S
+#8290
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D0
+~
+~
+Z 0 8289
+0 0
+D3
+~
+~
+Z 0 8291
+0 0
+S
+#8291
+Outer Ring of the Great Tree~
+In order to better move people all, the designer created a multi-ring
+system around the massive tree.  The outer ring allows visitors to view the
+entire tree from top to bottom while the inner ring allows a more detailed
+examination of the tree, including the mystic runes etched on the trees
+bark.  Several guards patrol the area, ensuring no trouble breaks out.  
+~
+0 0 field
+D1
+~
+~
+Z 0 8290
+0 0
+D3
+~
+~
+Z 0 8238
+0 0
+S
+#8292
+Walkway in the Bird Cage~
+- A transparent path with bright red lines to indicate the edges leads
+around the birdcage, traveling north, which slopes upward, and south, which
+slopes downward.  It seems almost as if you are flying with the birds as
+they swoop around your head.  A large nest can be seen above you to the
+north.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 8293
+0 0
+D2
+~
+~
+Z 0 8286
+0 0
+S
+#8293
+Roc's Nest~
+The nest is huge, big enough for a storm giant to sit in.  A large bird,
+at least twenty-five feet tall stares down at you and licks its beak.  A
+small collection of cows, horses and other livestock lie dead in the back of
+the nest, for later consumption.  Maybe you should leave before it gets mad
+and attacks you.  
+~
+0 DNX inside
+D2
+~
+~
+Z 0 8292
+0 0
+S
+#8294
+Walkway in the Bird Cage~
+A transparent path with bright red lines to indicate the edges leads
+around the birdcage, traveling north, which slopes upward, and south, which
+slopes downward.  It seems almost as if you are flying with the birds as
+they swoop around your head.  Several large ground dwellings have been made
+on the floor of the cage.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 8286
+0 0
+D2
+~
+~
+Z 0 8295
+0 0
+S
+#8295
+Ostrich Nesting Grounds~
+Several nest litter the ground here, many with broken eggshells in them. 
+A few large bulky birds run around, seemingly unable to fly.  The ground is
+transparent which is a little unnerving since it seems as if you shall fall
+to your death.  The large birds squeal in protest at your arrival.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 8294
+0 0
+S
+#8296
+Griffins Lair~
+A large grey giffins hovers over a huge pile of treasure it has
+collected over the years.  His razor sharp talons gleam brightly off the
+torchlight as he starts to beat his huge wings.  With a loud squak, it tries
+to drive out of its home and starts to fly toward you.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 8225
+0 0
+S
+#8297
+Coffin of the Master Knight~
+A richly detailed stone coffin with the scenes of great battles and
+ancient dragons sits before you.  Peering inside you can see a body, not a
+skeleton as with the other dead bodies scattered around the area.  I large
+steel lance lies next to the body while a rusted shield covers the chest. 
+Two mummies stand on either side of the coffin, silently guarding the
+occupant for all eternity.  As you approach, you think they twitch with
+life, but you are unsure.  
+~
+0 D inside
+D2
+~
+~
+Z 0 8275
+0 0
+S
+#8298
+Holding Area~
+~
+0 0 inside
+S
+#0
+
+#SPECIALS
+M 8201 spec_guard	* The Enforcer
+M 8205 spec_breath_any	* Mommy
+M 8213 spec_cast_mage	* An angry demon
+M 8214 spec_guard	* Great Tree Security Patrol
+M 8215 spec_guard	* a ranger protector
+M 8221 spec_cast_mage	* A Grey Griffin
+M 8223 spec_cast_cleric	* A holy priest
+M 8226 spec_cast_mage	* Thardotrem
+S
+
+#RESETS
+D 0 8211 3 1	* Door of a Tree House: door to the west: closed
+D 0 8212 1 1	* Inside the Tree House: door to the east: closed
+D 0 8212 5 1	* Inside the Tree House: door to the down: closed
+D 0 8214 4 1	* Inside the Dead Tree: door to the up: closed
+D 0 8237 3 1	* Entrance to the Never Ending Grasslands: door to the west: closed
+D 0 8247 3 1	* Great Tree Gift Shop: door to the west: closed
+D 0 8248 1 1	* Start of the Never Ending Grasslands: door to the east: closed
+D 0 8273 3 1	* Entrance to the Lost Temple: door to the west: closed
+D 0 8274 1 1	* The Ruined Cathedral: door to the east: closed
+D 0 8289 1 1	* Outer Ring of the Great Tree: door to the east: closed
+M 0 8200 1 8200 1	* Goblin Gatekeeper (Entrance to the Wild Animal Sanctuary)
+M 0 8201 1 8200 1	* The Enforcer (Entrance to the Wild Animal Sanctuary)
+M 0 8212 5 8206 5	* a strong wolf (Path Through the Dark Woods)
+M 0 8202 4 8208 4	* A small twig (Climbing the Living Tree)
+O 0 8201 0 8209	* A maggot infested corpse is here, partly eaten (Along the Lower Branches)
+M 0 8203 1 8209 1	* a large panther (Along the Lower Branches)
+M 0 8204 1 8213 1	* A puppy dog (Tree House Bedroom)
+M 0 8208 5 8216 3	* the baby dragon (Inside the Nest)
+M 0 8205 1 8216 1	* Mommy (Inside the Nest)
+M 0 8212 5 8217 5	* a strong wolf (Eastern Edge of the Dark Woods)
+M 0 8206 4 8219 4	* a poacher (Poorly Hidden Campsite)
+M 0 8207 1 8219 1	* Orc Guard (Poorly Hidden Campsite)
+E 0 8202 0 16		*	A heavy spiked mace: wielded
+O 0 8204 0 8220	* a babbling brook (Corner of the Dark Woods)
+O 0 8204 0 8221	* a babbling brook (Northern Edge of the Dark Woods)
+M 0 8210 2 8221 1	* A deer (Northern Edge of the Dark Woods)
+O 0 8205 0 8222	* a sparkling pool of clear water (Three Way Split)
+O 0 8206 0 8225	* a bloody corpse (Lair of the Puma)
+P 0 8207 1 8206 1	* a bloody corpse: A runed longsword
+M 0 8211 1 8225 1	* a deadly puma (Lair of the Puma)
+O 0 8204 0 8226	* a babbling brook (Northern Edge of the Dark Woods)
+M 0 8210 2 8226 2	* A deer (Northern Edge of the Dark Woods)
+M 0 8212 5 8227 5	* a strong wolf (Northern Corner of the Dark Woods)
+M 0 8212 5 8229 5	* a strong wolf (Western Edge of the Dark Woods)
+M 0 8213 1 8235 1	* An angry demon (The Last Place You Ever Want To Be)
+E 0 8213 0 10		*	A pair of {Cglowing{x {Ddemon{x armplates: on the arms
+O 0 8203 0 8236	* a fountain (Closer to the Great Tree)
+M 0 8220 1 8237 1	* A centaur guard (Entrance to the Never Ending Grasslands)
+M 0 8214 6 8238 6	* Great Tree Security Patrol (Outer Ring of the Great Tree)
+M 0 8214 6 8241 6	* Great Tree Security Patrol (Outer Ring of the Great Tree)
+O 0 8203 0 8242	* a fountain (Path to the Inner Ring)
+M 0 8214 6 8243 6	* Great Tree Security Patrol (Inner Ring of the Great Tree)
+M 0 8214 6 8245 6	* Great Tree Security Patrol (Inner Ring of the Great Tree)
+M 0 8209 2 8249 2	* the elephant (Lost in the Never Ending Grasslands)
+M 0 8215 6 8251 6	* a ranger protector (Lost in the Never Ending Grasslands)
+E 0 8209 0 16		*	A highly polished staff: wielded
+M 0 8217 5 8252 5	* a laughing hyena (Lost in the Never Ending Grasslands)
+M 0 8215 6 8254 6	* a ranger protector (Lost in the Never Ending Grasslands)
+E 0 8209 0 16		*	A highly polished staff: wielded
+M 0 8217 5 8255 5	* a laughing hyena (Lost in the Never Ending Grasslands)
+M 0 8216 7 8258 7	* A striped gazelle (Lost in the Never Ending Grasslands)
+M 0 8209 2 8259 2	* the elephant (Lost in the Never Ending Grasslands)
+M 0 8215 6 8266 6	* a ranger protector (Lost in the Never Ending Grasslands)
+E 0 8209 0 16		*	A highly polished staff: wielded
+M 0 8216 7 8269 7	* A striped gazelle (Lost in the Never Ending Grasslands)
+M 0 8215 6 8271 6	* a ranger protector (Lost in the Never Ending Grasslands)
+E 0 8209 0 16		*	A highly polished staff: wielded
+O 0 8217 0 8272	* A Hovering Green Portal (Lost Temple of a Dead Cult)
+M 0 8222 1 8273 1	* A stone golem (Entrance to the Lost Temple)
+O 0 8216 0 8274	* A dried skeleton lie near the altar. (The Ruined Cathedral)
+M 0 8224 1 8274 1	* spirit of the temple (The Ruined Cathedral)
+O 0 8208 0 8276	* A relaxing drinking pond (Local Watering Hole)
+M 0 8215 6 8277 6	* a ranger protector (Local Watering Hole)
+E 0 8209 0 16		*	A highly polished staff: wielded
+O 0 8208 0 8277	* A relaxing drinking pond (Local Watering Hole)
+O 0 8208 0 8278	* A relaxing drinking pond (Local Watering Hole)
+O 0 8208 0 8279	* A relaxing drinking pond (Local Watering Hole)
+O 0 8210 0 8284	* A feathered portal (Entrance to the Bird Cage)
+O 0 8211 0 8285	* A feathered portal (Portal Room of the Bird Cage)
+O 0 8203 0 8285	* a fountain (Portal Room of the Bird Cage)
+M 0 8214 6 8290 6	* Great Tree Security Patrol (Outer Ring of the Great Tree)
+M 0 8231 4 8292 4	* a small bird (Walkway in the Bird Cage)
+M 0 8218 1 8293 1	* The Roc (Roc's Nest)
+M 0 8231 4 8294 4	* a small bird (Walkway in the Bird Cage)
+M 0 8219 2 8295 2	* An Ostrich (Ostrich Nesting Grounds)
+G 0 8212 0		*	An Ostrich Egg
+M 0 8221 1 8296 1	* A Grey Griffin (Griffins Lair)
+E 0 8214 0 8		*	{yGr{Yi{yf{Yf{yins {DCl{waw{Ws{x: on the feet
+M 0 8225 2 8297 2	* A loyal bodyguard (Coffin of the Master Knight)
+M 0 8226 1 8297 1	* Thardotrem (Coffin of the Master Knight)
+E 0 8215 0 16		*	An {DUnholy{x Flail: wielded
+M 0 8223 1 8298 1	* A holy priest (Holding Area)
+S
+
+#OLIMITS
+O 8201 1	* A maggot infested corpse is here, partly eaten
+O 8214 2	* {yGr{Yi{yf{Yf{yins {DCl{waw{Ws{x
+O 8215 1	* An {DUnholy{x Flail
+O 8218 1	* The {WSoul {DSucker{x
+S
+
+#MOBPROGS
+#8200
+mob echo A angry snarl from behind startles you, as you spin around a black blur slashes at you.
+murder $n
+end
+~
+#8201
+scream
+cast 'fireball' $n
+~
+#8202
+mob echo The skeleton suddenly rises from the floor and charges at you, mouth open in a silent scream.
+mob purge dried-up
+mob mload 8223
+mob purge self
+end
+~
+#8203
+commune earthquake
+~
+#8204
+yell Guards, I am under attack.  To arms!!
+mob echo The sounds of running footstep alerts you to the arrivial of more guards.
+mob mload 8225
+~
+#8205
+mob trans $n 8272
+end
+~
+#8206
+rescue Thardotrem
+bash $n
+done
+~
+#8207
+mob purge bewew
+~
+#8208
+mob oload 8215
+if carries $i 8215
+mob echoat $n As Thardotrem takes his last breath, he hurls the flail at you, which you  deftly catch in midair.
+mob echoaround $n As Thardotrem takes his last breath, he hurls the flail at $n, who deftly catches it in midair.
+
+endif
+end
+~
+#8209
+'Proceed into the park, and enjoy your visit.
+mob echoat $n $I moves aside and allows you to enter.
+mob echoaround $n $I moves aside and allows $n to enter the park.
+mob trans $n 8201
+~
+#8210
+if clan $n sylvan
+bow $n
+say Greetings Warden $n, your assistance is always welcomed.
+mob gtrans $n 8201
+else
+poke $n
+'Ahem, you must PAY 200 silver to visit the Park
+emote extends a dirty sweaty hand toward you.
+endif
+end
+~
+#0
+
+#$

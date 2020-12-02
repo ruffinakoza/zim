@@ -1,0 +1,876 @@
+#AREADATA
+Name Horde Clanhall~
+Builders thornan~
+VNUMs 51420 51520
+Credits Thornan~
+Security 9
+LevelRange 20 100
+ResetMessage {wSounds of Battle and Fights in orcish and trollish can be heard all around you{x~
+Flags closed noquest~
+Clan Horde~
+End
+
+#MOBILES
+#51420
+horde centurion guard guardian orc orcish~
+A Horde Centurion~
+A Huge Orc Centurion stands here waving his axe at nothing in particular
+~
+With skin that looks to be the color of mud and ash and blood mixed
+together you see a massive orc with an axe to match.  His eyes glow an eerie
+{YYellow{x and his body is covered in filth and grim.  His armor is
+cumbersome and looks to be too big and too small depending on which piece it
+is you look at, his armor is also very poorly taken care of, dents, cracks,
+and rust cover this once mighty armor.  His axe is a massive axe indeed, a
+two bladed half moon axe made from Mithril, the only thing he has that seems
+to be some what well taken care of.  You notice him waving his axe at
+nothing in particular and boasting his great victory over something....  Too
+bad you do not speak orcish or trollish.  
+~
+orc~
+ACFGTcef DGOVac -1000 0
+34 34 82d34+500 170d10+85 11d3+22 none
+-13 -13 -13 -6
+CEFHJKOQR 0 0 0
+stand stand male 100
+0 0 large flesh~
+~
+#51421
+orc hord fortress guardian centurion grave bite blacktongue~
+Grave Bite the Blacktongue~
+Grave Bite the Blacktongue stands here Guarding the Horde Entrance
+~
+Towering over you at an astonishing seven feet eight inches tall, Grave
+Bite the Blacktongue makes for a very formidable opponent on or off the
+battlefield.  His skin is the color of bloody mud, and as tough and thick as
+raw hide.  His eyes glow an errie bright Orange.  He wears his massive armor
+proudly, bowing his chest out for all to see.  
+~
+orc~
+ABSTcef CDEFGNOPVZct -1000 0
+100 100 524d100+2000 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+ACDEFHJKOV ABU 0 0
+stand stand male 1
+0 0 large flesh~
+~
+#0
+
+#OBJECTS
+#51420
+rotting~
+Rotting Corpses~
+~
+unknown~
+Rotting Corpse~
+container CJ 0
+10000 0 0 10000 0 0
+20 0 0 P
+E
+rotting~
+Amongst the rotting corpses you find one that seems to contain a few
+usefull objects and or items 
+~
+G none
+G none
+G none
+G none
+#51421
+swirling green potion~
+A {RS{Mw{ri{Yr{Gl{Bi{Cn{Wg{x {GGreen{x potion~
+A violently swirling potion sits here seemingly about to explode~
+unknown~
+Glass and elixir~
+potion ABFG A
+25 'create rose' 'create rose' 'create rose' 'bless'
+25 0 250 P
+E
+swirling~
+The colors that you can make out in this potion are {GGreen{x {RRed{x
+{BBlue{x {MMagenta{x {YYellow{x {WWhite{x and many other shades of these
+colors, some mix to create new colors, vibrant colors, dark and mysterious
+colors.  
+~
+E
+potion~
+This potion seems to be swirling with different colors of every kind,
+then it settles to a bright green and starts swirling once again, only to
+settle to a bright green.  
+~
+G none
+G none
+G none
+G none
+#51422
+axe two double blade bladed half moon mithril~
+A Huge Double Bladed Half Moon Axe~
+A huge axe with two blades shaped like Half moons made from mithril lies here waiting for an owner~
+mithril~
+~
+weapon CEJY AN
+axe 2 21 cleave D
+34 35 9178 P
+E
+axe~
+This axe was once the proud weapon of a Duergar who kept it clean and
+polished.  Now it still carries it's shine, being it is made from Mithril
+and will never dull, But on top of it's indestructable shine you see filth,
+and grim, and dirt, and blood covering it.  The axe still retains it's
+deadly sharpened edge for mithril weapons will never dull in edge or shine. 
+
+~
+G none
+G none
+G none
+G none
+#51423
+bird dead eagle~
+The corpse of an Eagle~
+~
+flesh~
+~
+npc_corpse 0 AO
+0 0 0 0 0 0 0
+30 10 0 P
+F
+A 3 -1 M
+E
+bird~
+This once majestic bird now lies here dead and poisoned from an arrow
+stuck in his back.  The feathers are starting to turn colors from the fast
+acting poison and the birds feet have clenched shut so tightly they look
+like fists 
+~
+G none
+G none
+G none
+G none
+#51424
+donation pit~
+Horde Donation Pit~
+Donation pit for the Horde clan~
+unknown~
+big hole in the ground~
+container Rg P
+100000 0 0 100000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#51420
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  
+~
+0 0 inside
+E
+south~
+To the south you can see the road that leads to this path.  
+~
+E
+up~
+As you look up into the sky, you notice that it is a beautiful day, the
+sky is clear, with small clouds floating by.  
+~
+E
+down~
+As you look down you can see many foot prints and wagon tracks in the
+road.  
+~
+E
+west~
+To the west you see that the way is blocked by the brushline and the
+filth.  
+~
+E
+east~
+To the east you see that the way is blocked by the brushline and the
+filth.  
+~
+E
+treeline~
+You look to your east and west and notice that the treelines are so built
+up by the dead trees and underbrush and trash and filth and the collection
+of crap, that passage in these directions would be impossible.
+~
+E
+sky~
+You look into the sky to see the birds and white fluffy clouds.  This is
+the only way while you are here that you will know that there is some good
+left in the world.  Then suddenly while you are looking up a bird suddenly
+stops flying and you hear cackling in the background and the bird falls dead
+to the ground with a "THUD!!"  
+~
+E
+ground~
+The ground here is trampled down flat.  You can see the foot and boot
+prints of the orcs and trolls and uruk'hai that have marched along this path
+for many ages.  
+~
+E
+weapons~
+Weapons of all sorts lie here, broken, and bent, unused for ages.  Most
+of what you see here is beyond repair, and the rest you wouldn't touch if your
+life depended on it.  
+~
+E
+armor~
+There are pieces of once great armor here that has been destroyed or
+broken by the orcs or Uruk'Hai.  The armor has been here for a long time,
+rusty and broken, with huge dents or breaks from weapons striking against it
+with a furious blow.  
+~
+E
+bones~
+Bones, Bones, And more Bones.  Every where you find bones from all races
+of the world.  Some bones look as if they have been here for a very long
+time, and others look as if they had just been lain there not 5 miutes ago. 
+Some of the bones from the poor victims would not reliquish it's grip upon
+the weapon that being wielded.  
+~
+E
+waste~
+There are disgusting piles of bodily waste all over the place, it makes
+your stomache churn and makes you gag from the sight and smell of the fecal
+matter all over the place.  It coveres the rotting corpses, the filth, the
+garbage, the trees the underbrush, and everything even your boots and cloak
+hems.  
+~
+E
+garbage~
+Garbage has been thrown here amongst the underbrush and the trees.  It
+seems to be comprised of old food, paper, pieces of cloth, old clothing, torn
+and tattered orcish toys from the orc children, bones and other disgusting
+things.  
+~
+E
+corpses~
+There are corpses here of just about every race strewn along the side of
+the road.  They are bloated from the heat, stinking, rotting, and carrion
+birds are pecking at the bodies in an attempt to get the flesh from the
+corpses bones.  The corpses are giving off a horrible stench, it is almost
+unbearable.  
+~
+E
+filth~
+Filth and Disgust are scattered all over the sides of the road.  It is so
+thick and abundant that it is even spilling into the roadway where you walk
+or convey your ride.
+~
+E
+trash~
+Trash has been thrown here amongst the underbrush and the trees.  It
+seems to be comprised of old food, paper, pieces of cloth old clothing, torn
+and tattered orcish toys from the orc children, bones and other disgusting
+things.  
+~
+E
+underbrush~
+The Underbrush here once flourished with the wilds and was green and
+healthy, now they are all brown, yellow, wilting and dieng.  You can barely
+see the Underbrush from all the filth and garbage and corpses and bones and
+old armor and weapons that have been flung here to be left to rot 
+~
+E
+trees~
+The trees here were once large and very old.  They once stood proud
+against the forces of nature and man.  But now they sag low, and are dieing
+from all the filth and garbage around them.  The Leaves of the trees have
+all turned brown and black and are falling off, The bark of the tree is
+starting to grow diseases on it and fall from the tree.  
+~
+D0
+The Path continues to the north, Towards the Horde Foretress
+~
+~
+Z 0 51421
+0 0
+S
+#51421
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  To the
+east and west the trees, underbrush, and collection of trash and filth block
+your way and make an impassable treeline.
+~
+0 0 inside
+E
+treeline~
+You look to your east and west and notice that the treelines are so buit
+up by the dead trees and underbrush and trash and filth and the collection
+of crap, that passage in these directions would be impossible.  
+~
+E
+ground~
+The ground here is trampled down flat.  You can see the foot and boot
+prints of the orcs and trolls and uruk'hai that have marched along this path
+for many ages.  
+~
+E
+sky~
+You look into the sky to see the birds and white fluffy clouds.  This is
+the only way while you are here that you will know that there is some good
+left in the world.  Then suddenly while you are looking up a bird suddenly
+stops flying and you hear cackling in the background and the bird falls dead
+to the ground with a "THUD!!"
+~
+E
+weapon~
+Weapons of all sorts lie here, broken, and bent, unused for ages.  Most
+of what you see here is beyond repair, and the rest you would touch if your
+life depended on it. 
+~
+E
+armor~
+There are pieces of once great armor here that has been destroyed or
+broken by the orcs or Uruk'Hai.  The armor has been here for a long time,
+rusty and broken, with huge dents or breaks from weapons striking against it
+with a furious blow. 
+~
+E
+bones~
+Bones, Bones, And more Bones.  Every where you find bones from all races
+of the world.  Some bones look as if they have been here for a very long
+time, and others look as if they had just been lain there not 5 miutes ago. 
+Some of the bones from the poor victims would not reliquish it's grip upon
+the weapon that being wielded.  
+~
+E
+waste~
+There are disgusting piles of bodily waste all over the place, it makes
+your stomache churn and makes you gag from the sight and smell of the fecal
+matter all over the place.  It coveres the rotting corpses, the filth, the
+garbage, the trees the underbrush, and everything even your boots and cloak
+hems.
+~
+E
+garbage~
+Garbage has been thrown here amongst the underbrush and the trees.  It
+seems to be comprised of old food, paper, pieces of cloth old clothing, torn
+and tattered orcish toys from the orc children, bones and other disgusting
+things.
+~
+E
+corpses~
+There are corpses here of just about every race strewn along the side of
+the road.  They are bloated from the heat, stinking, rotting, and carrion
+birds are pecking at the bodies in an attempt to get the flesh from the
+corpses bones.  The corpses are giving off a horrible stench, it is almost
+unbearable.  
+~
+E
+filth~
+Filth and Disgust are scattered all over the sides of the road.  It is so
+thick and abundant that it is even spilling into the roadway where you walk
+or convey your ride.
+~
+E
+trash~
+Trash has been thrown here amongst the underbrush and the trees.  It
+seems to be comprised of old food, paper, pieces of cloth, old clothing,
+torn and tattered orcish toys from the orc children, bones and other
+disgusting things.  
+~
+E
+underbrush~
+The Underbrush here once flourished with the wilds and was green and
+healthy, now they are all brown, yellow, wilting and dieng.  You can barely
+see the Underbrush from all the filth and garbage and corpses and bones and
+old armor and weapons that have been flung here to be left to rot. 
+~
+E
+trees~
+The trees here were once large and very old.  They once stood proud
+against the forces of nature and man.  But now they sag low, and are dieing
+from all the filth and garbage around them.  The Leaves of the trees have
+all turned brown and black and are falling off, The bark of the tree is
+starting to grow diseases on it and fall from the tree.  
+~
+D0
+~
+~
+Z 0 51422
+0 0
+D2
+~
+~
+Z 0 51420
+0 0
+S
+#51422
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  To the
+east and west the trees, underbrush, and collection of trash and filth block
+your way and make an impassable treeline.
+~
+0 0 inside
+E
+rut~
+These ruts look to be fairly fresh as they seem to have slowly filled in
+a little from the mud walls.  The ruts are clearly deep and worn into the
+road over and over again.  
+~
+E
+footprint~
+These foot prints are deeply set and very large.  They seem to hold the
+shame of a humanoid but the overall shape does not seem much like that of a
+Man at all.  
+~
+D0
+~
+~
+Z 0 51423
+0 0
+D2
+~
+~
+Z 0 51421
+0 0
+S
+#51423
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  To the
+east and west the trees, underbrush, and collection of trash and filth block
+your way and make an impassable treeline.
+~
+0 0 inside
+D0
+~
+~
+Z 0 51424
+0 0
+D2
+~
+~
+Z 0 51422
+0 0
+S
+#51424
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  To the
+east and west the trees, underbrush, and collection of trash and filth block
+your way and make an impassable treeline.
+~
+0 0 inside
+D0
+~
+~
+Z 0 51425
+0 0
+D2
+~
+~
+Z 0 51423
+0 0
+S
+#51425
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  To the
+east and west the trees, underbrush, and collection of trash and filth block
+your way and make an impassable treeline.
+~
+0 0 inside
+D0
+~
+~
+Z 0 51426
+0 0
+D2
+~
+~
+Z 0 51424
+0 0
+S
+#51426
+Path nearing a great horde fortress~
+Along this path you notice that the ground has been trampled down by the
+feet of many orcs and trolls.  The trees and underbrush here are all but
+dead.  You see large amounts of Trash and Filth along the side of the path,
+corpses, garbage, waste, bones, old and no good armor and weapons.  To the
+east and west the trees, underbrush, and collection of trash and filth block
+your way and make an impassable treeline.  To the north lies the gates of
+the horde compound.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 51427
+0 0
+D2
+~
+~
+Z 0 51425
+0 0
+S
+#51427
+Horde fortress entrance~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51428
+0 0
+D2
+~
+~
+Z 0 51426
+0 0
+S
+#51428
+Begginings of the Horde Fortress~
+~
+0 C inside
+D0
+~
+~
+Z 0 51429
+0 0
+D2
+~
+~
+Z 0 51427
+0 0
+S
+#51429
+Intersection of Tribes~
+The center room of the horde fortress is a massive room.  Decorating the
+walls are Dwarven Skulls, Elven Skulls, Giants' Skulls, Gnome Skulls, and
+other races.  There are rows and rows of seats along the walls for the three
+tribes to sit and meet and talk (fight & argue) about what to do next and
+battle tactics and who should be the Leader this day.  
+~
+0 0 inside
+E
+dwarf~
+Nailed to the wall you see a Dwarven Skull, it has been bleeched white
+and in it's eye sockets it adorns the finger bones of the dwarf that once
+owned this skull as his "HEAD".  Protruding from his mouth is a large iron
+spike it seems that was the way he was killed for it looks as if he was
+trying to bite it.  
+~
+D0
+~
+~
+Z 0 51442
+0 0
+D1
+~
+~
+Z 0 51430
+0 0
+D2
+~
+~
+Z 0 51428
+0 0
+D3
+~
+~
+Z 0 51436
+0 0
+S
+#51430
+Orc Tribe: Blacktongue Tribe~
+~
+0 0 inside
+D1
+~
+~
+Z 0 51431
+0 0
+D3
+~
+~
+Z 0 51429
+0 0
+S
+#51431
+Orc Tribe: Blacktongue Tribe~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51432
+0 0
+D3
+~
+~
+Z 0 51430
+0 0
+S
+#51432
+Orc Tribe: Blacktongue Tribe~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51433
+0 0
+D1
+~
+~
+Z 0 51435
+0 0
+D2
+~
+~
+Z 0 51431
+0 0
+D3
+~
+~
+Z 0 51434
+0 0
+S
+#51433
+Orc Tribe: Blacktongue Tribe~
+~
+0 0 inside
+D2
+~
+~
+Z 0 51432
+0 0
+S
+#51434
+Orc Tribe: Blacktongue Tribe~
+~
+0 0 inside
+D1
+~
+~
+Z 0 51432
+0 0
+S
+#51435
+Orc Tribe: Blacktongue Tribe~
+~
+0 0 inside
+D3
+~
+~
+Z 0 51432
+0 0
+S
+#51436
+Troll Tribe: Ooozing Wound Tribe ~
+~
+0 0 inside
+D1
+~
+~
+Z 0 51429
+0 0
+D3
+~
+~
+Z 0 51437
+0 0
+S
+#51437
+Troll Tribe: Ooozing Wound Tribe ~
+~
+0 0 inside
+D1
+~
+~
+Z 0 51436
+0 0
+D3
+~
+~
+Z 0 51438
+0 0
+S
+#51438
+Troll Tribe: Ooozing Wound Tribe ~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51439
+0 0
+D1
+~
+~
+Z 0 51437
+0 0
+D2
+~
+~
+Z 0 51440
+0 0
+D3
+~
+~
+Z 0 51441
+0 0
+S
+#51439
+Troll Tribe: Ooozing Wound Tribe ~
+~
+0 0 inside
+D2
+~
+~
+Z 0 51438
+0 0
+S
+#51440
+Troll Tribe: Ooozing Wound Tribe ~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51438
+0 0
+S
+#51441
+Troll Tribe: Ooozing Wound Tribe ~
+~
+0 0 inside
+D1
+~
+~
+Z 0 51438
+0 0
+S
+#51442
+Uruk'Hai Tribe: Mark of the Red Fist Tribe~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51443
+0 0
+D2
+~
+~
+Z 0 51429
+0 0
+S
+#51443
+Uruk'Hai Tribe: Mark of the Broke Blade Tribe~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51444
+0 0
+D2
+~
+~
+Z 0 51442
+0 0
+S
+#51444
+Uruk'Hai Tribe: Mark of the Broke Blade Tribe~
+~
+0 0 inside
+D0
+~
+~
+Z 0 51445
+0 0
+D1
+~
+~
+Z 0 51446
+0 0
+D2
+~
+~
+Z 0 51443
+0 0
+D3
+~
+~
+Z 0 51447
+0 0
+S
+#51445
+Uruk'Hai Tribe: Mark of the Broke Blade Tribe~
+~
+0 0 inside
+D2
+~
+~
+Z 0 51444
+0 0
+S
+#51446
+Uruk'Hai Tribe: Mark of the Broke Blade Tribe~
+~
+0 0 inside
+D3
+~
+~
+Z 0 51444
+0 0
+S
+#51447
+Uruk'Hai Tribe: Mark of the Broke Blade Tribe~
+~
+0 0 inside
+D1
+~
+~
+Z 0 51444
+0 0
+S
+#0
+
+#SPECIALS
+M 51420 spec_thief	* A Horde Centurion
+S
+
+#RESETS
+O 0 51420 0 51420	* Rotting Corpses (Path nearing a great horde fortress)
+P 0 51421 4 51420 4	* Rotting Corpses: A {RS{Mw{ri{Yr{Gl{Bi{Cn{Wg{x {GGreen{x potion
+M 0 51420 20 51420 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+O 0 51423 0 51420	* The corpse of an Eagle (Path nearing a great horde fortress)
+M 0 51420 20 51421 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+M 0 51420 20 51422 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+M 0 51420 20 51423 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+M 0 51420 20 51424 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+M 0 51420 20 51425 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+M 0 51420 20 51426 1	* A Horde Centurion (Path nearing a great horde fortress)
+E 0 51422 0 16		*	A Huge Double Bladed Half Moon Axe: wielded
+M 0 51421 1 51427 1	* Grave Bite the Blacktongue (Horde fortress entrance)
+S
+
+#$

@@ -1,0 +1,2254 @@
+#AREADATA
+Name The Forest of Slethrin~
+Builders angelo~
+VNUMs 110600 110699
+Credits Angelo~
+Security 9
+LevelRange 50 91
+Flags closed noquest~
+End
+
+#MOBILES
+#110600
+quicksand death trap~
+the quicksand~
+The quicksand death-trap mob is here, shocked that you see him.
+~
+~
+human~
+ABGe DFZlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M grall 110600 100~
+I 92
+#110601
+bridge death trap~
+the bridge~
+The bridge death-trap mob is here. He looks bored.
+~
+~
+human~
+ABGe DFZlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M grall 110601 100~
+I 92
+#110602
+dart death trap~
+the dart~
+The death trap dart mob is here, waiting to hit someone in the neck.
+~
+~
+human~
+ABGe DFZlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M grall 110602 100~
+I 92
+#110603
+magic death trap~
+the magic~
+The magical death-trap is here. He smells like crisco.
+~
+~
+human~
+ABGe DFZlmt 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M grall 110603 100~
+I 92
+#110604
+boar wild~
+the vicious wild boar~
+A dangerous looking wild boar is here, looking very angry.
+~
+He looks like a very, very large pig, with very, very large tusks, and a very,
+very large vendetta.
+~
+pig~
+A 0 0 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+CORU 0 0 0
+stand stand either 0
+0 0 medium unknown
+M grall 110604 100~
+#110605
+bear black~
+the vicious black bear~
+A vicious black bear stands here, ready to eat you.
+~
+He looks hungry.  Very, very hungry.  And angry.  Why do all these forest
+animals look angry?  
+~
+bear~
+A 0 0 0
+60 60 195d60+0 60d9+60 19d3+31 none
+-28 -28 -28 -16
+CRU 0 0 0
+stand stand either 0
+0 0 medium unknown
+M grall 110604 100~
+#110606
+bat small~
+a small bat~
+A small bat with pointy fangs flaps around.
+~
+It looks like a little rat with wings and vampire teeth.
+~
+bat~
+AFR 0 -500 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+QU 0 0 0
+stand stand either 0
+0 0 medium unknown
+#110607
+zombie ugly~
+an ugly zombie~
+An ugly zombie stands here, gnawing on another adventurer's detatched arm.
+~
+He looks like he might have been a fine fellow when he was alive, but he
+isn't quite so fine now; his gray skin smells of disease, his eyes glow an
+unnatural red, and he's feasting on the flesh of another dead adventurer.  
+~
+undead~
+AF 0 -500 0
+70 70 243d70+0 70d9+60 21d3+35 none
+-35 -35 -35 -20
+QU 0 0 0
+stand stand none 0
+0 0 medium unknown
+F aff U
+#110608
+skeleton animated~
+an animated skeleton~
+An animated skeleton wanders around, looking for something to attack.
+~
+It's a bit hard to see any emotion in the unmoving bone structure, but
+you imagine that if you could, he's look angry.  
+~
+undead~
+AF 0 -500 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+QU 0 0 0
+stand stand none 0
+0 0 medium unknown
+F aff U
+#110609
+dragon green~
+the green dragon of Slethrin~
+The green dragon sleeps here, guarding his vault.
+~
+He looks peaceful in his sleep, but he still reaks of rotting flesh.  You
+imagine that leaving him sleeping might be a good idea.  
+~
+green dragon~
+ABF 0 -500 0
+80 80 394d80+0 800d11+95 27d2+60 none
+-48 -48 -48 -32
+0 0 0 0
+sleep sleep none 3143
+0 0 medium unknown
+#110610
+golem stone~
+the stone golem~
+A stone golem stands here, guarding the entryway.
+~
+He looks like a giant stone man; a bit like Eddu, but angrier.
+~
+golem~
+ABF 0 -500 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+CHIOU 0 0 0
+stand stand none 0
+0 0 medium unknown
+M exall 110610 0~
+#110611
+slethrin necromancer~
+Slethrin~
+The ancient necromancer Slethrin stands here. He looks pissed.
+~
+An old, old man or probably 100, he seems spry and agile for his age... 
+Perhaps unnaturally so.  He's surrounded by ancient books and altars to dead
+gods, where he spends most his time raising hell (literally).  He seems
+very, very angry at your intrusion.  
+~
+human~
+ABFGLR DOTUVclu 0 0
+115 115 622d115+0 1150d11+95 10d10+10 none
+50 50 50 50
+AFH 0 DHIJLMQ N
+stand stand none 6290
+0 0 medium unknown
+F for AHMV
+F par ABCDEFGHIJK
+M fight 110612 20~
+M death 110613 20~
+M greet 110611 100~
+#0
+
+#OBJECTS
+#110600
+key small silver~
+a small silver key~
+A small silver key sits here, unused and unloved.~
+silver~
+key AEJ AO
+0 0 0 0 0
+50 0 6523 P
+F
+V 0 0 J
+F
+V 0 0 Q
+F
+V 0 0 L
+F
+V 0 0 H
+A
+13 25
+A
+18 5
+A
+19 5
+G none
+G none
+G none
+#110601
+key vault slethrin dragon green~
+the vault key~
+The key to the green dragon of Slethrin's vault lies here.~
+unknown~
+key GUf AO
+0 0 0 0 0
+50 0 0 P
+G none
+G none
+G none
+#110602
+vault green dragon~
+the vault of the green dragon~
+The door to the vault of the green dragon sits at the northern wall.~
+unknown~
+container 0 0
+100000 ABCD 110601 1000 100
+0 0 0 P
+G none
+G none
+G anti_paladin
+#110603
+crown golden~
+a {Ygolden{z crown~
+A {Ygolden{z crown of a forgotten king lies here.~
+gold~
+treasure IK AE
+0 0 0 0 0
+75 0 125000 P
+A
+11 5000
+A
+13 -50
+A
+12 -50
+A
+18 10
+A
+19 10
+A
+20 10
+F
+V 0 0 C
+G none
+G none
+G none
+#110604
+sword golden~
+a {Ygolden{z sword~
+A {Ygolden{z sword of a forgotten king lies here.~
+unknown~
+weapon IK AN
+longsword 4 23 slash D
+75 76 3700 P
+A
+11 5000
+A
+13 -50
+A
+12 -50
+A
+18 10
+A
+19 10
+F
+V 0 0 Q
+F
+V 0 0 N
+F
+V 0 0 M
+F
+V 0 0 L
+F
+V 0 0 K
+F
+V 0 0 J
+F
+V 0 0 I
+F
+V 0 0 H
+G none
+G none
+G anti_paladin
+#110605
+gold coins hoard dragon~
+the dragon's hoard~
+The green dragon's hoard of coins is here.~
+unknown~
+money 0 A
+238321 3847 0 0 0
+75 0 0 P
+G none
+G none
+G none
+#110606
+chalice golden~
+a {Ygolden{z chalice~
+A {Ygolden{z chalice of some forgotten king sits here.~
+gold~
+potion IK AO
+75 'master healing' 'reserved' 'reserved' 'reserved'
+75 0 0 P
+G none
+G none
+G none
+#110607
+bronze breastplate~
+a {ybronze{z breastplate~
+A {ybronze{z breastplate sits here.~
+bronze~
+armor GIK AD
+18 18 18 17 0
+50 51 54 P
+A
+18 5
+A
+19 5
+A
+17 -25
+G none
+G none
+G none
+#110608
+bronze tipped spear~
+a {ybronze{z-tipped spear~
+A {ybronze{z-tipped spear has been abandoned here.~
+unknown~
+weapon IK AN
+spear 3 17 pierce 0
+50 51 2800 P
+A
+18 5
+A
+19 5
+A
+17 -25
+G none
+G none
+G none
+#110609
+tome ancient~
+an ancient tome~
+An ancient tome has been abandoned here.~
+paper~
+treasure 0 A
+0 0 0 0 0
+50 0 10400 P
+E
+tome ancient~
+You aren't sure what language it's written in, but it sure does look old.
+It doesn't look as magical as your ordinary ancient tome, though.  A lot of
+the pages resemble lists of what seem to be names; perhaps a general's
+record of his army?  
+~
+G none
+G none
+G none
+#110610
+scroll ancient evil~
+an ancient scroll~
+An ancient scroll radiates evil here.~
+unknown~
+scroll 0 AO
+91 'plague' 'slow' 'poison' 'corruption'
+91 0 382934 P
+G none
+G none
+G anti_paladin
+#110611
+staff gnarled metal~
+a staff of gnarled metal~
+A staff of gnarled, blackened metal sits here.~
+unknown~
+staff 0 AO
+45 15 15 'acid arrow' 0
+91 0 0 P
+A
+12 90
+A
+18 9
+A
+19 9
+G none
+G none
+G necromancer
+#110612
+cloak golden~
+a {Ygolden{z cloak~
+A {Ygolden{z cloak flutters a bit in the wind.~
+cloth~
+armor AGIKL AK
+24 24 24 23 0
+65 66 69 P
+A
+13 35
+A
+18 6
+A
+19 6
+G none
+G none
+G none
+#110613
+symbol holy golden~
+a {Ygolden{z holy symbol~
+A holy symbol from a long-forgotten god sits here.~
+unknown~
+armor AGIKL AC
+24 24 24 23 0
+65 66 69 P
+A
+13 35
+A
+18 6
+A
+19 6
+G none
+G none
+G none
+#110614
+siebele iron scale~
+the iron scale of Siebele~
+A {Wglowing{z iron scale lies discarded here.~
+iron~
+light AGJKi AO
+0 0 292 0 0
+106 0 0 P
+A
+18 10
+A
+19 10
+F
+A 0 0 N
+F
+A 0 0 O
+G none
+G none
+G none
+#110615
+holy zeus hammer~
+the {Yholy{z hammer of {BZeus{z~
+Someone seems to have been quite silly and dropped a hammer.~
+unknown~
+weapon AGIKL AN
+mace 25 5 pound GIK
+106 107 4745 P
+A
+13 45
+A
+12 45
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+#110616
+slethrin dagger ritual~
+{DSlethrin's{z dagger of {Rrituals{z~
+A sinister-looking dagger sits here, unused.~
+steel~
+weapon AEGJ AN
+dagger 7 12 stab 0
+106 107 4570 P
+A
+20 -5
+A
+19 10
+A
+12 100
+G none
+G none
+G necromancer
+#110617
+key small blackened metal~
+a small key of {Dblackened{z metal~
+A small key of blackened metal sits here.~
+steel~
+key EG AO
+0 0 0 0 0
+106 0 0 P
+A
+12 100
+G none
+G none
+G none
+#0
+
+#ROOMS
+#110600
+Through the Trees~
+You find yourself in a lush and expansive forest, almost tropical in
+nature.  A heavy mist fills the air, and every breath fills your lungs with
+the heavy tropical scent of the strange fauna growing around you.  To the
+north, a small path can be seen going off as far as the mist allows the eye
+to see, and to the south, you see a more well-traveled road.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110601
+0 0
+S
+#110601
+A Branch in the Path~
+Here, the path continues bost east and north.  To the north, you see what
+apears to be a strange formation of sand in the path, quite unlike the dirt
+of the path to the east and south.  The trees around you are tall and wide;
+a lumberjack would have a very good time here.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110652
+0 0
+D1
+~
+~
+Z 0 110602
+0 0
+D2
+~
+~
+Z 0 110600
+0 0
+S
+#110602
+The Path~
+The path continues east and west here; to the east, you see it fork
+gently north, and to the west, you see it split off north and south.  The
+wildlife of the forest are alert and noisy; it seems every time you pass a
+tree close to the path, some sort of bird or rodent sounds a warning at you
+and flies or scutters off.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110603
+0 0
+D3
+~
+~
+Z 0 110601
+0 0
+S
+#110603
+A Turn in the Path~
+Here, the path gently arcs to the north, where it continues as far as the
+mist permits you to see.  The wind is gentle and playful; the thick trees of
+the forest only permit it to travel through it in certain avenues, so some
+spots are mistier than others.  The sounds of wildlife are all around you.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110604
+0 0
+D3
+~
+~
+Z 0 110602
+0 0
+S
+#110604
+The Path~
+That path continues it's gentle weave as it makes it's way from north to
+south; occasionally, it makes a sharp detour around an ancient tree, but
+usually, it's pretty straight.  It seems whoever blazed this trail knew what
+they were doing.  Perhaps it was the work of a ranger.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110605
+0 0
+D2
+~
+~
+Z 0 110603
+0 0
+S
+#110605
+A Turn in the Path~
+The path continues along, gently arcing from west to south in it's long
+and casual route.  The trees to the sides of the path are nigh on
+impasseable, but you here what sounds like running water from the north;
+perhaps there's a river here, supplying these trees and the wildlife with
+their much-needed water.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 110604
+0 0
+D3
+~
+~
+Z 0 110606
+0 0
+S
+#110606
+The Path~
+The lazy path continues east and west through the thick mist; here, it's
+almost so thick as to be choking, but it seems it's just water, rather than
+anything more dangerous.  To the east, you see the path gently curve to the
+south, and to the west, you see what looks like an intersection of sorts.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110605
+0 0
+D3
+~
+~
+Z 0 110607
+0 0
+S
+#110607
+The Intersection at the Bridge~
+Here, the path splits off in four directions; to the north, you see an
+old rope bridge over what appears to be a large chasm of sorts.  You hear
+running water to the north, so you'd imagine the chasm was created over
+centuries by a river below.  To the east, south and west, the path continues
+through the forest, through the mist; to the south, though, a strange
+formation of sand has overtaken the path.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110609
+0 0
+D1
+~
+~
+Z 0 110606
+0 0
+D2
+~
+~
+Z 0 110652
+0 0
+D3
+~
+~
+Z 0 110608
+0 0
+S
+#110608
+The Path~
+You continue down the path.  To the west, the path leads on to a darker
+part of the forest.  To the east, an intersection can be seen at what looks
+like the edge of a bridge over the chasm to the north.  The sound of running
+water can also be heard from that direction; you can only assume there's a
+river at the bottom of the chasm.  The sounds of the wildlife fill the area
+around you, and you feel overwhelmed with the feeling of being alive.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110607
+0 0
+D3
+~
+~
+Z 0 110610
+0 0
+S
+#110609
+The Bridge~
+You are on the very beginning of the south end of a bridge over a very
+large, very deep canyon; below, you see the walls of the cliffs, and farther
+down, you see a large, lazy river.  The forest has grown to the edge of
+either side, and even on the canyon walls, to some degree; lichen and small
+bonsai trees have begun to creep down the lip of the edge.  The bridge
+continues north over the chasm, and you can see a path to the south.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110638
+0 0
+D2
+~
+~
+Z 0 110607
+0 0
+S
+#110610
+The Path~
+You continue down the path, leading east and west.  Here, a small break
+in the treetops have lent this area with ample sunlight for a grove of fern
+plants to take hold.  The smell of flowers is sweet to the west, and to the
+east, the forest seems to thin and lighten a bit.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110608
+0 0
+D3
+~
+~
+Z 0 110611
+0 0
+S
+#110611
+A Turn in the Path~
+Here, the path turns from east to south, and in the corner of the bend, a
+clump of sweet smelling flowers of an assortment of colors have taken
+hold...  Perhaps taking one or two wouldn't hurt, and might even win some
+points with the significant other.  Go on, take one.  To the east, the path
+continues for a ways, and to the south, the path continues into a darker
+part of the forest; another bend can be seen in the distance.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110610
+0 0
+D2
+~
+~
+Z 0 110612
+0 0
+S
+#110612
+A Turn in the Path~
+The path takes another of one of its numerous turns here, from north to
+west.  Along the edge, an assortment of smaller ferns and bushes have been
+beaten back, and beyond them, trees of incalculable height and age stoicly
+stand, untouched by the ravages of weather and time.  The forest gets
+thicker and darker to the west, but grows a bit lighter to the north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110611
+0 0
+D3
+~
+~
+Z 0 110613
+0 0
+S
+#110613
+A Turn in the Path~
+Here, the path through the forest halts abruptly at the truck of an
+ancient and truly massive tree trunk, and breaks north at an extreme angle. 
+The tree itself, though, is what really catches your eye; no matter how you
+work the math in your head, you can figure this tree has to be at least a
+thousand years old, towering hundreds of feet into the air and shading a
+circle that seems to be almost a mile across.  If only you could live that
+long, you casually ponder.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110614
+0 0
+D1
+~
+~
+Z 0 110612
+0 0
+S
+#110614
+The Path~
+Here, the path continues north and south through the thick vegitation. 
+You can't imagine what time and effort the man or woman who forged this path
+had to endure; the growth is so thick and strong that you can't imagine it
+even being penetrable for a few feet, let alone an entire path miles in
+length.  Whoever did this must have been legendary, or had help.  The path
+gets darker to the north, and lighter to the south.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110615
+0 0
+D2
+~
+~
+Z 0 110613
+0 0
+S
+#110615
+A Turn in the Path~
+The path turns AGAIN, this time from south to west.  This never-ending
+winding path is quite disorienting; were it not the ocassional glimpse of
+the sky, you're sure you'd be lost for direction by now.  To the west, the
+forest gets even thicker, whereas to the south, the forest thins a bit.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 110614
+0 0
+D3
+~
+~
+Z 0 110616
+0 0
+S
+#110616
+A Turn in the Path~
+Here, the path leads you to yet another turn.  In the distance to the
+east, you see what looks like the thinner part of the forest; to the west
+and across the chasm to the north, you see thicker, more dense vegitation. 
+The path bends from east to south.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110615
+0 0
+D2
+~
+~
+Z 0 110617
+0 0
+S
+#110617
+A Turn in the Path~
+Here, you come to another of the innumerable turns in the ridiculously
+windy path you're following.  A sign of some sort has been posted here, but
+the paint has long since cracked and peeled almost completely off, and even
+the wood is rotting.  You mutter hopefully that it didn't say anything
+important and continue on.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110616
+0 0
+D3
+~
+~
+Z 0 110618
+0 0
+S
+#110618
+A Turn in the Path~
+You casually stroll down another twist in the dark forest; here, you spot
+the remains of what looks like a wild boar, which is actually a bit
+alarming; after all, those boars are vicious.  In order for something to
+kill it, it would obviously have to be more vicious, and that doesn't quite
+sit well with you.  The path continues north and east.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110619
+0 0
+D1
+~
+~
+Z 0 110617
+0 0
+S
+#110619
+The Path~
+The beaten and worn path continues north and south here.  By the looks of
+it, it seems that it's been traveled quite a bit in the recent past; perhaps
+this path leads somewhere, afterall.  To the north, the forest gets even
+thicker (it's quite thick here), and to the south, it gets a smidgeon
+lighter.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110620
+0 0
+D2
+~
+~
+Z 0 110618
+0 0
+S
+#110620
+A Turn in the Path~
+Arriving at another twist in the path, you can't help but feel like
+you're quite sick of twisting this way and that; it'd be honestly refreshing
+to walk in a straight line, and you can't help but wonder if even the
+divinity who created this forest perhaps got sick of creating these annoying
+little dips to-and-fro as well.  The path continues west and south.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 110619
+0 0
+D3
+~
+~
+Z 0 110621
+0 0
+S
+#110621
+A Turn in the Path~
+Here, another turn in the path bends around what looks like a large
+boulder sunken into the ground, almost as though it fell from the sky. 
+Instantly, without even knowing why, the image of a vengeful god hurling
+meteors at the earth below enters your head, and you suddenly feel the urge
+to continue along at a quicker pace than you had been.  The path leads east
+and south.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110620
+0 0
+D2
+~
+~
+Z 0 110622
+0 0
+S
+#110622
+A Turn in the Path~
+The path bends yet again here, from north to west.  To the north, the
+forest yields the view of what looks like a giant boulder, and to the west,
+you see yet another turn towards the north, around a very large tree.  You
+hear running water in the very near distance; perhaps you'll be able to get
+a drink soon.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110621
+0 0
+D3
+~
+~
+Z 0 110623
+0 0
+S
+#110623
+A Turn in the Path~
+Here, the path bends from east to north.  To the north, you can see water
+in the distance, no doubt the river flowing through the chasm farther east. 
+To the east, the path bends and continues a lazy route through the forest.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110624
+0 0
+D1
+~
+~
+Z 0 110622
+0 0
+S
+#110624
+The Path~
+Here, the path continues north and south; to the north, the view of the
+river, a lazy but wide body of water running west to east, is clear, and on
+the other side a small landing can be seen.  To the south, you see a bend in
+the path, arcing eastward.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110625
+0 0
+D2
+~
+~
+Z 0 110623
+0 0
+S
+#110625
+At the Riverbank~
+Here, the land meets the water at the riverbank.  To the north, across
+the river, you can see a landing where you could easily get up to and
+continue north-east deeper into the forest; to the south, a path leads into
+the woods, and in the distance, you can see it hook towards the east.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110626
+0 0
+D2
+~
+~
+Z 0 110624
+0 0
+S
+#110626
+Crossing the River~
+Floating on the river, a lazy feeling enters you; you feel like you could
+drift here forever.  However, looking eastward, you hear the unmistakeable
+sound of a waterfall, and quickly snap out of it; going east would be folly,
+and nothing of real interest lurks to the west.  To the north, a landing can
+be accessed, to continue deeper into the forest; to the south, a riverbank
+is accessible as well, leading back into the lighter end of the forest.  
+~
+0 0 swim
+D0
+~
+~
+Z 0 110627
+0 0
+D2
+~
+~
+Z 0 110625
+0 0
+S
+#110627
+At the Riverbank~
+You arrive at the northern riverbank.  To the east, a trail winds up and
+up and up the side of the face of the cliff, and to the south, you see
+another riverbank where you could set down upon if you wanted to enter the
+southern half of the forest.  Between you and that riverbank is a
+eastward-flowing river.  A waterfall can be heard to the distant east.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 110628
+0 0
+D2
+~
+~
+Z 0 110626
+0 0
+S
+#110628
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110629
+0 0
+D3
+~
+~
+Z 0 110627
+0 0
+S
+#110629
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110630
+0 0
+D3
+~
+~
+Z 0 110628
+0 0
+S
+#110630
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110631
+0 0
+D3
+~
+~
+Z 0 110629
+0 0
+S
+#110631
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110632
+0 0
+D3
+~
+~
+Z 0 110630
+0 0
+S
+#110632
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110633
+0 0
+D3
+~
+~
+Z 0 110631
+0 0
+S
+#110633
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110634
+0 0
+D3
+~
+~
+Z 0 110632
+0 0
+S
+#110634
+The Path Near the Riverbank~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110635
+0 0
+D3
+~
+~
+Z 0 110633
+0 0
+S
+#110635
+The Fork at the Bridge~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110639
+0 0
+D2
+~
+~
+Z 0 110636
+0 0
+D3
+~
+~
+Z 0 110634
+0 0
+S
+#110636
+The Bridge~
+The bridge continues north and south over the chasm.  It doesn't look
+like it was made of the best material; in fact, you'd wager to say it's a
+bit unsafe.  The wood is old and weathered, and the rope is frayed at
+points.  Perhaps this isn't such a good idea, ay?  The center of the bridge
+is south, and the lip of the chasm is north.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110635
+0 0
+D2
+~
+~
+Z 0 110637
+0 0
+S
+#110637
+The Break in the Bridge~
+Suddenly, as you make your way across the bridge, you find yourself
+stepping on nothing...  THIN AIR!  You've proceeded too brazenly!  You grasp
+frantically for the ropes of the side of the bridge; hopefully, your hands
+are fast and strong enough to save you, otherwise, you're in deep trouble. 
+The bridge carries on north and south across the chasm.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110636
+0 0
+D2
+~
+~
+Z 0 110638
+0 0
+S
+#110638
+The Bridge~
+The bridge continues north and south over the chasm.  It doesn't look
+like it was made of the best material; in fact, you'd wager to say it's a
+bit unsafe.  The wood is old and weathered, and the rope is frayed at
+points.  Perhaps this isn't such a good idea, ay?  The center of the bridge
+is north, and the lip of the chasm is south.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110637
+0 0
+D2
+~
+~
+Z 0 110609
+0 0
+S
+#110639
+The Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110640
+0 0
+D2
+~
+~
+Z 0 110635
+0 0
+S
+#110640
+A Fork in the Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110651
+0 0
+D1
+~
+~
+Z 0 110641
+0 0
+D2
+~
+~
+Z 0 110639
+0 0
+S
+#110641
+The Path~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110642
+0 0
+D3
+~
+~
+Z 0 110640
+0 0
+S
+#110642
+A Turn in the Path~
+~
+0 0 forest
+D2
+~
+~
+Z 0 110643
+0 0
+D3
+~
+~
+Z 0 110641
+0 0
+S
+#110643
+A Turn in the Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110642
+0 0
+D1
+~
+~
+Z 0 110644
+0 0
+S
+#110644
+A Turn in the Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110645
+0 0
+D3
+~
+~
+Z 0 110643
+0 0
+S
+#110645
+The Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110646
+0 0
+D2
+~
+~
+Z 0 110644
+0 0
+S
+#110646
+A Turn in the Path~
+~
+0 0 forest
+D2
+~
+~
+Z 0 110645
+0 0
+D3
+~
+~
+Z 0 110647
+0 0
+S
+#110647
+A Turn in the Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110648
+0 0
+D1
+~
+~
+Z 0 110646
+0 0
+S
+#110648
+A Turn in the Path~
+~
+0 0 forest
+D2
+~
+~
+Z 0 110647
+0 0
+D3
+~
+~
+Z 0 110649
+0 0
+S
+#110649
+The Path~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110648
+0 0
+D3
+~
+~
+Z 0 110650
+0 0
+S
+#110650
+An Intersection of Paths~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110653
+0 0
+D1
+~
+~
+Z 0 110649
+0 0
+D2
+~
+~
+Z 0 110651
+0 0
+D3
+~
+~
+Z 0 110654
+0 0
+S
+#110651
+The Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110650
+0 0
+D2
+~
+~
+Z 0 110640
+0 0
+S
+#110652
+Quicksand~
+As soon as you step onto the sand, you suddenly realize what it is:
+QUICKSAND!  Hopefully you're very dextrous, otherwise you're in deep
+trouble.  The path continues north and south beyond the pit.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 110607
+0 0
+D2
+~
+~
+Z 0 110601
+0 0
+S
+#110653
+A Circle of Trees~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110657
+0 0
+D2
+~
+~
+Z 0 110650
+0 0
+S
+#110654
+A Turn in the Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110655
+0 0
+D1
+~
+~
+Z 0 110650
+0 0
+S
+#110655
+The Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110656
+0 0
+D2
+~
+~
+Z 0 110654
+0 0
+S
+#110656
+A Turn in the Path~
+~
+0 0 forest
+D1
+~
+~
+Z 0 110657
+0 0
+D2
+~
+~
+Z 0 110655
+0 0
+S
+#110657
+A Fork in the Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110658
+0 0
+D2
+~
+~
+Z 0 110653
+0 0
+D3
+~
+~
+Z 0 110656
+0 0
+S
+#110658
+The Path~
+~
+0 0 forest
+D0
+~
+~
+Z 0 110659
+0 0
+D2
+~
+~
+Z 0 110657
+0 0
+S
+#110659
+The End of the Path~
+~
+0 0 forest
+D2
+~
+~
+Z 0 110658
+0 0
+D5
+~
+~
+Z 0 110660
+0 0
+S
+#110660
+In the Well~
+~
+0 0 inside
+D1
+~
+~
+ABCZ 0 110661
+0 0
+D4
+~
+~
+Z 0 110659
+0 0
+S
+#110661
+The Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110662
+0 0
+D3
+~
+~
+ABCZ 0 110660
+0 0
+S
+#110662
+The Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110663
+0 0
+D3
+~
+~
+Z 0 110661
+0 0
+S
+#110663
+A Turn in the Cave~
+~
+0 AD inside
+D2
+~
+~
+Z 0 110664
+0 0
+D3
+~
+~
+Z 0 110662
+0 0
+S
+#110664
+Some Stairs in the Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110663
+0 0
+D5
+~
+~
+Z 0 110665
+0 0
+S
+#110665
+Deeper in the Cave~
+~
+0 AD inside
+D2
+~
+~
+Z 0 110666
+0 0
+D4
+~
+~
+Z 0 110664
+0 0
+S
+#110666
+A Turn in the Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110665
+0 0
+D1
+~
+~
+Z 0 110667
+0 0
+S
+#110667
+A Turn in the Cave~
+~
+0 AD inside
+D2
+~
+~
+Z 0 110668
+0 0
+D3
+~
+~
+Z 0 110666
+0 0
+S
+#110668
+A Turn in the Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110667
+0 0
+D3
+~
+~
+Z 0 110669
+0 0
+S
+#110669
+A Turn in the Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110668
+0 0
+D2
+~
+~
+Z 0 110670
+0 0
+S
+#110670
+The Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110669
+0 0
+D2
+~
+~
+Z 0 110671
+0 0
+S
+#110671
+A Turn in the Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110670
+0 0
+D3
+~
+~
+Z 0 110672
+0 0
+S
+#110672
+The Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110671
+0 0
+D3
+~
+~
+Z 0 110673
+0 0
+S
+#110673
+The Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110672
+0 0
+D3
+~
+~
+Z 0 110674
+0 0
+S
+#110674
+An Intersection in the Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110676
+0 0
+D1
+~
+~
+Z 0 110673
+0 0
+D2
+~
+~
+Z 0 110675
+0 0
+D3
+~
+~
+Z 0 110678
+0 0
+S
+#110675
+A Turn in the Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110674
+0 0
+D1
+~
+~
+Z 0 110679
+0 0
+S
+#110676
+At the Edge of the Pit~
+~
+0 AD inside
+D2
+~
+~
+Z 0 110674
+0 0
+D5
+~
+~
+Z 0 110677
+0 0
+S
+#110677
+In the Pit~
+~
+0 AD inside
+D4
+~
+~
+Z 0 110676
+0 0
+S
+#110678
+A Deadend~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110674
+0 0
+S
+#110679
+The Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110680
+0 0
+D3
+~
+~
+Z 0 110675
+0 0
+S
+#110680
+The Cave~
+~
+0 AD inside
+D1
+~
+~
+Z 0 110681
+0 0
+D3
+~
+~
+Z 0 110679
+0 0
+S
+#110681
+At the Top of the Spiral Staircase~
+~
+0 AD inside
+D3
+~
+~
+Z 0 110680
+0 0
+D5
+~
+~
+Z 0 110682
+0 0
+S
+#110682
+A Spiral Staircase~
+~
+0 AD inside
+D4
+~
+~
+Z 0 110681
+0 0
+D5
+~
+~
+Z 0 110683
+0 0
+S
+#110683
+A Spiral Staircase~
+~
+0 AD inside
+D4
+~
+~
+Z 0 110682
+0 0
+D5
+~
+~
+Z 0 110684
+0 0
+S
+#110684
+At the Bottom of a Spiral Staircase~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110685
+0 0
+D4
+~
+~
+Z 0 110683
+0 0
+S
+#110685
+The Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110686
+0 0
+D2
+~
+~
+Z 0 110684
+0 0
+S
+#110686
+The Cave~
+~
+0 AD inside
+D0
+~
+~
+Z 0 110687
+0 0
+D2
+~
+~
+Z 0 110685
+0 0
+S
+#110687
+The Crypt~
+~
+0 AD inside
+D2
+~
+~
+Z 0 110686
+0 0
+S
+#0
+
+#SPECIALS
+M 110606 spec_cast_mage	* a small bat
+M 110609 spec_breath_gas	* the green dragon of Slethrin
+M 110611 spec_cast_mage	* Slethrin
+S
+
+#RESETS
+D 0 110660 1 2	* In the Well: door to the east: closed and locked
+D 0 110661 3 2	* The Cave: door to the west: closed and locked
+M 0 110604 20 110603 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110605 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110607 1	* the vicious wild boar (The Intersection at the Bridge)
+M 0 110604 20 110611 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110611 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110613 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110616 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110619 1	* the vicious wild boar (The Path)
+M 0 110604 20 110620 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110621 1	* the vicious wild boar (A Turn in the Path)
+M 0 110604 20 110625 1	* the vicious wild boar (At the Riverbank)
+M 0 110601 1 110637 1	* the bridge (The Break in the Bridge)
+M 0 110605 15 110639 1	* the vicious black bear (The Path)
+M 0 110605 15 110640 1	* the vicious black bear (A Fork in the Path)
+M 0 110605 15 110641 1	* the vicious black bear (The Path)
+M 0 110605 15 110642 1	* the vicious black bear (A Turn in the Path)
+M 0 110605 15 110644 1	* the vicious black bear (A Turn in the Path)
+M 0 110605 15 110645 1	* the vicious black bear (The Path)
+M 0 110605 15 110648 1	* the vicious black bear (A Turn in the Path)
+M 0 110605 15 110650 1	* the vicious black bear (An Intersection of Paths)
+M 0 110602 1 110651 1	* the dart (The Path)
+M 0 110600 1 110652 1	* the quicksand (Quicksand)
+M 0 110605 15 110653 1	* the vicious black bear (A Circle of Trees)
+M 0 110605 15 110653 1	* the vicious black bear (A Circle of Trees)
+M 0 110603 1 110653 1	* the magic (A Circle of Trees)
+M 0 110605 15 110654 1	* the vicious black bear (A Turn in the Path)
+M 0 110605 15 110656 1	* the vicious black bear (A Turn in the Path)
+M 0 110605 15 110657 1	* the vicious black bear (A Fork in the Path)
+M 0 110605 15 110659 1	* the vicious black bear (The End of the Path)
+O 0 110600 0 110660	* a small silver key (In the Well)
+M 0 110608 10 110662 1	* an animated skeleton (The Cave)
+M 0 110608 10 110662 1	* an animated skeleton (The Cave)
+M 0 110608 10 110662 1	* an animated skeleton (The Cave)
+M 0 110606 10 110664 1	* a small bat (Some Stairs in the Cave)
+M 0 110606 10 110664 1	* a small bat (Some Stairs in the Cave)
+M 0 110608 10 110665 1	* an animated skeleton (Deeper in the Cave)
+M 0 110608 10 110665 1	* an animated skeleton (Deeper in the Cave)
+M 0 110608 10 110665 1	* an animated skeleton (Deeper in the Cave)
+M 0 110608 10 110665 1	* an animated skeleton (Deeper in the Cave)
+M 0 110608 10 110665 1	* an animated skeleton (Deeper in the Cave)
+M 0 110606 10 110666 1	* a small bat (A Turn in the Cave)
+M 0 110606 10 110667 1	* a small bat (A Turn in the Cave)
+M 0 110606 10 110668 1	* a small bat (A Turn in the Cave)
+M 0 110608 10 110669 1	* an animated skeleton (A Turn in the Cave)
+M 0 110608 10 110669 1	* an animated skeleton (A Turn in the Cave)
+M 0 110606 10 110669 1	* a small bat (A Turn in the Cave)
+M 0 110606 10 110670 1	* a small bat (The Cave)
+M 0 110606 10 110671 1	* a small bat (A Turn in the Cave)
+M 0 110606 10 110672 1	* a small bat (The Cave)
+M 0 110606 10 110673 1	* a small bat (The Cave)
+M 0 110607 10 110674 1	* an ugly zombie (An Intersection in the Cave)
+M 0 110607 10 110674 1	* an ugly zombie (An Intersection in the Cave)
+M 0 110607 10 110674 1	* an ugly zombie (An Intersection in the Cave)
+M 0 110607 10 110674 1	* an ugly zombie (An Intersection in the Cave)
+M 0 110607 10 110674 1	* an ugly zombie (An Intersection in the Cave)
+M 0 110606 10 110674 1	* a small bat (An Intersection in the Cave)
+M 0 110609 1 110677 1	* the green dragon of Slethrin (In the Pit)
+E 0 110601 0 17		*	the vault key: held in the hands
+O 0 110602 0 110677	* the vault of the green dragon (In the Pit)
+P 0 110609 1 110602 1	* the vault of the green dragon: an ancient tome
+P 0 110608 1 110602 1	* the vault of the green dragon: a {ybronze{z-tipped spear
+P 0 110607 1 110602 1	* the vault of the green dragon: a {ybronze{z breastplate
+P 0 110606 1 110602 1	* the vault of the green dragon: a {Ygolden{z chalice
+P 0 110605 1 110602 1	* the vault of the green dragon: the dragon's hoard
+P 0 110604 1 110602 1	* the vault of the green dragon: a {Ygolden{z sword
+P 0 110603 1 110602 1	* the vault of the green dragon: a {Ygolden{z crown
+M 0 110607 10 110679 1	* an ugly zombie (The Cave)
+M 0 110607 10 110680 1	* an ugly zombie (The Cave)
+M 0 110607 10 110681 1	* an ugly zombie (At the Top of the Spiral Staircase)
+M 0 110610 3 110686 3	* the stone golem (The Cave)
+M 0 110610 3 110686 3	* the stone golem (The Cave)
+M 0 110610 3 110686 3	* the stone golem (The Cave)
+M 0 110611 1 110687 1	* Slethrin (The Crypt)
+E 0 110616 0 16		*	{DSlethrin's{z dagger of {Rrituals{z: wielded
+S
+
+#OLIMITS
+O 110614 1	* the iron scale of Siebele
+O 110615 1	* the {Yholy{z hammer of {BZeus{z
+S
+
+#MOBPROGS
+#110600
+if class $n ranger
+  mob echoat $n You carefully skirt around the quicksand, avoiding certain death.
+else
+  if class $n thief
+    mob echoat $n You carefully skirt around the quicksand, avoiding certain death.
+  else
+    if class $n ninja
+      mob echoat $n You carefully skirt around the quicksand, avoiding certain death.
+    else
+      mob echoat $n You fall into the quicksand! You are enveloped, and quickly succumb to death.
+      mob echoaround $n $n falls into the quicksand, and is swallowed up!
+      mob damage $n 30000 30001
+      mob transfer $n 3054
+    endif
+  endif
+endif
+~
+#110601
+if class $n ranger
+  mob echoat $n You slip, but catch the ropes and pull yourself back up.
+else
+  if class $n warrior
+    mob echoat $n You slip, but catch the ropes and pull yourself back up.
+  else
+    if class $n samurai
+      mob echoat $n You slip, but catch the ropes and pull yourself back up.
+    else
+      mob echoat $n You slip and fall through a gap! You fall to your death on the rocks below.
+      mob echoaround $n $n slips and falls through a gap, to his death below.
+      mob damage $n 30000 30001
+      mob transfer $n 3054
+    endif
+  endif
+endif
+~
+#110602
+if class $n ranger
+end
+endif
+
+if class $n paladin
+  mob echoat $n A dart sails through the trees, but you easily deflect it with your armor.
+else
+  if class $n warrior
+    mob echoat $n A dart sails through the trees, but you easily deflect it with your armor.
+  else
+    if class $n antipaladin
+      mob echoat $n A dart sails through the trees, but you easily deflect it with your armor.
+    else
+      mob echoat $n A dart strikes you in the neck! You quickly succumb to poison.
+      mob echoaround $n A dart strikes $n! He withers in pain as the poison slowly kills him.
+      mob damage $n 30000 30001
+      mob transfer $n 3054
+    endif
+  endif
+endif
+~
+#110603
+if class $n ranger
+end
+endif
+if class $n warlock
+  mob echoat $n You feel the burning power of magic, but repell it.
+else
+  if class $n witch
+    mob echoat $n You feel the burning power of magic, but repell it.
+  else
+    if class $n cleric
+      mob echoat $n You feel the burning power of magic, but repell it.
+    else
+      mob echoat $n You feel a searing pain as the magic of the room tears you to pieces!
+      mob echoaround $n The magic of the room tears $n to pieces! 
+      mob damage $n 30000 30001
+      mob transfer $n 3054
+    endif
+  endif
+endif
+~
+#110604
+if class $n ranger
+nod $n
+else
+bash $n
+endif
+~
+#110610
+mob echoat $n $I blocks your path.
+mob echoaround $n $I blocks $n's path.
+~
+#110611
+growl
+cast nowait 'blood'
+cast nowait 'flesh'
+cast nowait 'skeleton warrior'
+cast nowait 'skeleton mage'
+cast nowait 'slow' $n
+cast nowait 'curse' $n
+cast nowait 'corruption' $n
+cast nowait 'plague' $n
+cast nowait 'poison' $n
+cast nowait 'blind' $n
+~
+#110612
+if rand 50
+cast nowait 'blind' $r
+cast nowait 'fireball' $r
+else
+cast nowait 'colour spray' $r
+cast nowait 'magic missile' $r
+cast nowait 'magic missile' $r
+endif
+~
+#110613
+if isgood $n
+mob oload 110615
+end
+endif
+if isneutral $n
+mob oload 110614
+end
+endif
+~
+#0
+
+#$

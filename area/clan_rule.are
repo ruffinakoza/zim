@@ -1,0 +1,1805 @@
+#AREADATA
+Name Ruler Clanhall~
+Builders cuthulo sadin nalaeya tidus~
+VNUMs 95100 95199
+Credits Chronos~
+Security 9
+LevelRange 1 100
+ResetMessage Footfalls echo across the halls as guards patroll the fortress.~
+Flags closed noquest nosummon clanhall~
+Clan Ruler~
+End
+
+#MOBILES
+#95100
+kallila ruler rulerguard clan guard~
+Kallila~
+Kallila patrols the entrance to the Rulers' fortress, guarding it with her life.
+~
+A tall, stately woman stands before the fortress of the Rulers, keeping
+watch and guarding the entrance with her life.  Long black hair falls to her
+waist, unprotected by any helmet.  Her body is lean but well-muscled, and
+she holds herself up with an easy confidence, wielding her sword and keeping
+her shield raised like she was born with them.  A pronounced limp is evident
+as she patrols the entrance, likely an injury from a past battle, but it
+doesn't seem to inhibit her fighting ability to any great extent.  
+~
+human~
+ABef DFHJZlmt 1000 0
+100 100 1d500+25000 1d200+1600 42d2+75 none
+-70 -70 -70 -20
+ACEFIKNO ABLQ 0 0
+stand stand female 5000
+0 0 medium flesh~
+~
+M greet 95100 100~
+M kill 95102 100~
+M delay 95110 100~
+M exall 95101 1~
+C Ruler~
+#95101
+clan cleric healer ruler rulercleric~
+the elderly cleric~
+The healer of the {YR{Bu{Yl{Be{Yr{x Clan lays his words of hope upon his fellow brethren.
+~
+He is an old, wise cleric serving the Ruler Council, and praying to his
+gods to see justice kept in the lands.  He is willing to guard the rulers
+with his life, fighting to his last breath to ensure that peace and justice
+remain throughout the realm.  
+~
+human~
+ABKQaef DFHVlm 1000 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M give 95121 all~
+M speech 95122 give me the elidodi item~
+M speech 95123 give me the shadow item~
+M speech 95124 give me the nigthfall item~
+M speech 95125 give me the chaos item~
+M speech 95127 give me the barbarian item~
+M speech 95126 give me the knight item~
+M speech 95129 give me the sylvan item~
+M speech 95126 give me the sentinel item~
+C Ruler~
+#95102
+judge brothlem brother henrik ruler~
+Judge Brothlem,brother of Henrik~
+Judge Brothlem,brother of Henrik is here sentencing the wanted
+~
+~
+storm giant~
+ABCJKTVcef CDFGHJNOVclmt 1000 0
+100 100 524d100+250000 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 ABCD 0 0
+stand stand male 0
+0 0 unknown flesh~
+~
+M delay 95104 100~
+M act 95103 point~
+M exit 95108 2~
+C Ruler~
+#95103
+holder justice godly~
+Justice!~
+He is the justice laid bare!
+~
+~
+human~
+A 0 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M delay 95107 100~
+I 92
+#95104
+gailo warrior~
+Gailo~
+A tall warrior stands at the center of the hallway, arms crossed.
+~
+A tall, heavily-muscled warrior stands here, patrolling the halls of the
+fortress.  Gleaming armor offers him protection from physical blows, and the
+many scars criss-crossing his face prove that he is no stranger to combat.  
+~
+human~
+ABGTef 0 1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACD ABLQ 0 0
+stand stand male 0
+0 0 large flesh~
+~
+#95108
+callan guard man lean~
+Callan~
+A lean man with short red curls eyes you lazily, hand resting on his sword hilt.
+~
+A lean, red-headed man patrols the hallway, keeping watch for any
+intruders who would seek to harm the Ruler clan.  He doesn't seem to be very
+well armored, but moves with a speed and agility rare in a human.  He wields
+his longsword with an easy confidence, moving swiftly and surely.  
+~
+human~
+ABef DFlm 1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+AFHN ABLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95112
+kavlai elven woman~
+Kavlai~
+A slight woman stands by the wall, eyeing a crystal pendant to search for intruders.
+~
+A tiny elven woman stands in the hallway, barely reaching five feet in
+height.  She wears a soft silk gown, hardly dressed for a battle.  She
+whispers words of magic, using her spells to determine where any intruders
+might be hiding in the fortress, and prepared to stop their progress forward
+with her life.  
+ 
+~
+elf~
+ABRef 0 1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+AFG ABLQ 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#95113
+stablemaster master~
+the stablemaster~
+The stablemaster is here, grooming one of the horses.
+~
+The stablemaster is a tall, thin man, looking as if he hasn't allowed
+himself to enjoy a good meal in ages.  He keeps mostly to himself, greeting
+most who enter the stables with a simple nod, and a spoken greeting if he's
+in a particularly good mood.  Despite his taciturn nature he takes great
+care of his horses, seeing to their every need and making sure they get
+enough food and exercise to keep them in the best shape possible.  
+~
+human~
+ABef N 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+IJ AB LQ 0
+stand stand male 100
+0 0 medium flesh~
+~
+M speech 95112 take me to midgaard~
+M speech 95114 take me to caerlon~
+M speech 95117 take me to the valley of the titans~
+M speech 95118 take me to new thalos~
+#95114
+wizi ruler exit guy~
+the wizi ruler exit guy~
+An invisible mob is here, letting people leave the fortress.
+~
+He's just here to get people past the door.
+~
+human~
+ABef DFlm 0 0
+150 150 740d150+0 750d10+85 50d3+80 none
+-91 -91 -91 -60
+0 ABCDELQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M kill 95114 100~
+M exall 95115 3~
+I 92
+#95116
+old gruff soldier taril~
+Taril~
+A gruff old soldier is here, wielding a huge bastardsword and resting against a chair.
+~
+Taril has guarded the Rulers' fortress longer than anyone can remember,
+providing years of loyal service and thwarting more invasion attempts than
+can be counted.  Though he may be getting on in years, he looks as strong as
+any youth, and wields a bastardsword as if it was as light as a feather.  
+~
+human~
+ABef DFlm 1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 ABLQ 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#95117
+~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+#OBJECTS
+#95100
+book stand bookstand altar~
+the bookstand~
+A tall stand holds the Book of Laws, the most sacred possession of the Ruler clan.~
+ivory~
+~
+container ORY P
+10 ABCD 95122 15 100 0
+60 1 20 P
+C Ruler~
+G none
+G none
+G none
+G none
+#95101
+crumbling old book~
+a crumbling old book~
+A crumbling old book is left here on the floor.~
+paper~
+~
+trash Pf AO
+0 0 0 0 0 0 0
+60 1 1 P
+G none
+G none
+G none
+G none
+#95102
+crystalline key crystal ruler clankey~
+{YR{Bu{Yl{Be{Yr{B'{Ys {cc{Crystallin{Ce{x key~
+{YR{Bu{Yl{Be{Yr{B'{Ys {cc{Crystallin{Ce{x key has been left on the ground.~
+crystal~
+~
+key UVYf AO
+0 0 0 0 0 0 0
+40 4 0 P
+E
+paper~
+There are some secret codes written here, in order to open something.
+~
+G none
+G none
+G none
+G none
+#95103
+soft rug cozy~
+a soft, cozy rug~
+A soft cozy rug lies before the fireplace, offering a nice place to relax.~
+silk~
+~
+furniture 0 0
+AB DFGHIJ EHK BDEFGH BDEFGH AB DFGHIJ
+20 400 100000 P
+G none
+G none
+G none
+G none
+#95104
+mark chosen ruler symbol~
+{Dthe mark of the Chosen{x~
+{DThe holy crest of the Chosen hovers here.{x~
+energy~
+~
+armor AGIMORTYZa AS
+25 25 25 25 'none' 0
+15 0 100871 P
+A
+13 55
+A
+20 -8
+A
+12 50
+A
+4 2
+A
+19 7
+A
+18 4
+G none
+G none
+G none
+G none
+#95105
+donation pit chest~
+the donation chest~
+A large chest has been placed against the western wall.~
+stone~
+~
+container ORSTYg P
+100000 AC 0 100000 1 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95106
+chicken wings~
+a chicken wing~
+A mouth-watering chicken wing waits to be eaten.~
+unknown~
+chicken~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+0 5 145 P
+E
+chicken wing~
+Cooked by the resident chef of the ruler fortress, it is a simple recipe
+but the combination of spices and experience make it absolutely delicious.  
+~
+G none
+G none
+G none
+G none
+#95107
+stew bowl food~
+A small bowl of stew~
+A small bowl of stew is here steaming~
+unknown~
+stew~
+food a A
+CE CE 0 0 0 CE CE
+0 10 220 P
+E
+bowl stew~
+A small bowl of vegetable stew, it smells wonderful and looks quite
+filling.  
+~
+G none
+G none
+G none
+G none
+#95108
+fruit law~
+fruit of the law~
+A basket of fresh fruit has been placed here.~
+unknown~
+~
+food 0 A
+ADE ADE 0 0 0 ADE ADE
+0 20 275 P
+E
+fruit law~
+The 'fruit of the law' is a basket of fruits carefully arranged by the
+chef of the Rulers' fortress.  Apples, bananas, raspberries, strawberries,
+peaches...  Almost anything that can be named is found in this very filling
+basket.  
+~
+G none
+G none
+G none
+G none
+#95109
+gavel of the justicator mace hammer~
+{WGavel{x of the {YJ{Bu{Yd{Bi{Yc{Ba{Yt{Bo{Yr{x~
+A small {WGavel{x shaped hammer sits here radiating an aura of justice~
+unknown~
+Ash Wood~
+weapon ABGT AN
+mace 3 17 blast AE
+50 51 499477 P
+A
+1 2
+A
+19 5
+A
+18 5
+C Ruler~
+G none
+G none
+G none
+G none
+#95110
+garlic bread~
+a loaf of garlic bread~
+A loaf of mouth-watering garlic bread is here, freshly made.~
+bread~
+~
+food 0 A
+ACE BE 0 0 0 ACE BE
+0 10 218 P
+E
+garlic bread~
+It doesn't look very healthy, practically dripping in garlic and butter,
+but it looks very delicious.  
+~
+G none
+G none
+G none
+G none
+#95111
+orange juice~
+a pitcher of orange juice~
+~
+metal~
+~
+drink R 0
+-1 -1 'orange juice' 0
+0 0 0 P
+E
+orange juice~
+It looks freshly squeezed, with drops of condensation gathering on the
+outside.  
+~
+G none
+G none
+G none
+G none
+#95112
+fine red wine~
+a bottle of fine red wine~
+~
+unknown~
+wine~
+fountain R 0
+-1 -1 'water' 0
+0 15 0 P
+E
+fine red wine~
+From the label, it appears as if this wine comes from a vineyard just
+outside the city of Caerlon.  
+~
+G none
+G none
+G none
+G none
+#95113
+imported white wine~
+some imported white wine~
+~
+unknown~
+white wine~
+fountain R 0
+-1 -1 'water' 0
+0 0 0 P
+E
+white wine imported~
+The label marks it as coming from a land you can't even recognize.  It is
+quite expensive, but apparently the chef has connections that allow him to
+get it at a much lower price.  
+~
+G none
+G none
+G none
+G none
+#95114
+pitcher water~
+a pitcher of water~
+~
+water~
+~
+fountain R 0
+-1 -1 'water' 0
+0 0 0 P
+E
+pitcher water~
+The water is perfectly cool and clear, perfect for quenching any thirst.
+~
+G none
+G none
+G none
+G none
+#95115
+gift elven wine~
+a gift of elven wine~
+~
+unknown~
+elven wine~
+fountain R 0
+-1 -1 'elvish wine' 0
+0 0 0 P
+E
+gift elven wine~
+A few delicate bottles of fine elven wine have been given to the Rulers
+as a gift from the elven people.  
+~
+G none
+G none
+G none
+G none
+#95116
+defenders word untold~
+The Defenders Word~
+The word of a defender lies here, speaking stories untold.~
+unknown~
+moss~
+portal BGINQRTYa AO
+0 D CE 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95117
+book laws rulers clanitem~
+the {Wbook{x of {YL{Ba{Yw{Bs{x~
+A hefty tome is here in the dust.~
+paper~
+~
+treasure AIORYaef AOP
+0 0 0 0 0
+60 0 10000 P
+C Ruler~
+G none
+G none
+G none
+G none
+#95118
+simple table~
+a simple wooden table~
+A simple wooden table stands at the center of the room, covered in maps.~
+wood~
+~
+furniture R 0
+ABCD FHJKPQ DGJ CFG CFG ABCD FHJKPQ
+0 0 0 P
+E
+simple table~
+A simple wooden table, it is made of strong, sturdy wood, but free of any
+decorations.  
+~
+G none
+G none
+G none
+G none
+#95119
+wooden chairs~
+a simple wooden chair~
+Simple wooden chairs have been set next to the table, offering places to sit.~
+wood~
+~
+furniture R 0
+ABCD EIJKN EHK CFG CFG ABCD EIJKN
+0 0 0 P
+E
+wooden chair~
+The chairs don't look comfortable, but they're sturdy and help to keep
+meetings brief.  
+~
+G none
+G none
+G none
+G none
+#95120
+large rug~
+a large, comfortable rug~
+{mA large, comfortable-looking rug is before the fireplace.{x~
+unknown~
+~
+furniture R 0
+BCDE FHJKPQ EHK BDEFGH BDEFGH BCDE FHJKPQ
+0 0 0 P
+E
+rug~
+The rug is large and unbelievably soft, making it feel as though you lie
+on a feathered mattress.  
+~
+G none
+G none
+G none
+G none
+#95121
+dishes~
+the many dishes across the table~
+~
+glass~
+~
+container R 0
+1000 E 0 1000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95122
+ruler's key clankey ruler_altar_key~
+the key to the altar of {YR{Bu{Yl{Be{Yr{x~
+The key to the altar of {YR{Bu{Yl{Be{Yr{x lies here.~
+metal~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#95100
+Entrance to the Ruler's Palace~
+A tall fortress stands before you, made of the same pale, glittering
+stone as the walls of Caerlon.  It appears to be quite sturdy and strong,
+and looks as if it could easily withstand a siege from any fair-sized army,
+though the instances where such an attack occured are few and far between. 
+No moat surrounds the fortress; rather, a beautiful grove of trees has been
+planted and cared for by the citizens of Caerlon, as a gift to the Rulers to
+express their gratitude at being under their protection.  The gates to the
+fortress are closed, and under heavy guard, so that none but a Ruler may
+enter without permission.  
+ 
+~
+0 NSXcd inside
+D1
+~
+~
+DMZ 95102 95101
+0 0
+D3
+~
+~
+Z 0 10781
+0 0
+S
+#95101
+The Entrance Hallway~
+A narrow hallway leads away from the gates, heading deeper into the
+fortress.  The walls here are bare of any decoration, serving only the
+practical function of adding to the fortress' defense.  Lanterns are placed
+in brackets along the wall, causing them to glitter under their light.  The
+gates stand to the west, while to the east the hallway expands and branches
+off into two seperate directions.  
+~
+0 DNXd inside
+E
+shards light~
+The shards of light are perhaps two inches wide, very bright, yet thin
+and transparent.  They seem to reflect off of any surface, and becomes more
+colorful each time.  
+~
+E
+down~
+There is a red carpet on the ground.  
+~
+E
+ceiling~
+The ceiling has been made out of pure crystal.  It isnt rough as crystal
+usually is, but smooth, as if sanded down by the hands of a master sculptor.
+
+~
+E
+up~
+The ceiling has been made out of pure crystal.  They are not rough as
+crystal is, but smooth, as if sanded down by the hands of a master sculptor.
+
+~
+E
+carpet~
+This is a very beautiful carpet.  The sides are embriodered in gold,
+woven in intriquate patterns where the carpet meets the crystalline walls. 
+The carpet itself seems rather thick, but not course, very fine to be padded
+and look good.  Cleanliness of it as well seems very important, as it is
+very, very clean.  
+~
+E
+red~
+This is a very beautiful carpet.  The sides are embriodered in gold,
+woven in intriquate patterns where the carpet meets the crystalline walls. 
+The carpet itself seems rather thick, but not course, very fine to be padded
+and look good.  Cleanliness of it as well seems very important, as it is
+very, very clean.  
+~
+E
+lush~
+This is a very beautiful carpet.  The sides are embriodered in gold,
+woven in intriquate patterns where the carpet meets the crystalline walls. 
+The carpet itself seems rather thick, but not course, very fine to be padded
+and look good.  Cleanliness of it as well seems very important, as it is
+very, very clean.  
+~
+E
+white~
+The miniscule white orbs seem very much alive.  The way they zigzag
+around, through, and away from each other greatly resembles that of children
+at a game of tag.  Each time they pass through a shard of light, they take
+on its colors briefly for a moment.  
+~
+E
+miniscule~
+The miniscule white orbs seem very much alive.  The way they zigzag
+around, through, and away from each other greatly resembles that of children
+at a game of tag.  Each time they pass through a shard of light, they take
+on its coors briefly for a moment.  
+~
+E
+orbs~
+The miniscule white orbs seem very much alive.  The way they zigzag
+around, through, and away from each other greatly resembles that of children
+at a game of tag.  Each time they pass through a shard of light, they take
+on its colors briefly for a moment.  
+~
+E
+north~
+To the north lay the Hall of Justice.  
+~
+E
+south~
+To the south lay the entrance to the Crystalline Palace.  
+~
+E
+west~
+To the west lay the Hall of Enlightenment.  
+~
+E
+east~
+To the east lay the Hall of Champions.  
+~
+D1
+~
+~
+Z 0 95102
+0 0
+D3
+~
+~
+DMZ 0 95100
+0 0
+C Ruler~
+S
+#95102
+A Branch in the Hallway~
+A large bronze plaque has been fixed along the eastern wall, displaying
+the laws of the protected cities.  The ceiling rises up high, giving the
+fortress an airy, open feel.  A vibrant red carpet covers the stone floor,
+softening the footfalls of any traveling along the hallway, and adding some
+colour and life to the fortress' cold stone surroundings.  The wide hallway
+here branches off into three directions.  To the west lies the entrance to
+the fortress, tall gates that are normally kept under heavy guard.  To the
+north and south the hallway continues, leading deeper into the fortress.  
+~
+0 DNXd inside
+E
+bronze plaque~
+{CAll formal Laws extend from one simple foundation.  Each person has the
+right to live their life and go about their business as they see fit, as
+long as you do not infringe on that same equal right of others.{x
+ 
+{R*************************************************************************{x
+{R**  {WThe areas that are defined as protected by the jurisdiction of     {R**{x
+{R**  {Wthe Law are the entirety of Midgaard, New Thalos, Caerlon, and the {R**{x
+{R**  {WValley of Titans. All recognisable individuals and inhabitants of  {R**{x
+{R**  {Wthe city are protected by the law.                                 {R**{x
+{R*************************************************************************{x
+ 
+1.  Murder, Theft or fraud in any protected area is against the law.
+    Theft includes taking taking items from a protected person's corpse,
+    disarmed items, or their items appearing in any donation pit. The 
+    stealing of services is considered theft.  Attempted murder and 
+    theft are similarly against the law.
+ 
+2.  Any act which could or does provoke a fight, or inhibits the free 
+    will of a protected being, in a protected area is illegal.
+    This includes offensive magic, special abilities, or triggering
+    any non magical offensive abilities.
+ 
+3.  Any act that removes a protected individual from a protected area
+    without his consent is against the law. This includes, but is not
+    limited to summon, recall, teleport, colour spray, and others. 
+    Similarly summoning any aggressive mobile into a protected area is
+    against the law.
+ 
+4.  Any act that could or would prevent someone from witnessing or 
+    reporting some other crime is against the law. This includes, but 
+    is not limited to blindness, blackjack, and vampires touch.
+ 
+5.  Because it disturbs the peace, fighting within the city limits is 
+    not permitted.  If you are able to abandon combat you must.  Any 
+    commands from a Ruler to this end must be heeded.  If you are 
+    unable to flee and slay your attacker, the Law will not look down 
+    upon this unfortunate incident.
+ 
+6.  The Law's jurisdiction extends to the enforcers themselves while
+    they are pursuing their duties. This includes conducting 
+    investigations in any protected area, or while in transit to a 
+    protected area to pursue an investigation.  Any attempt to interfere 
+    with an investigation is against the law.
+ 
+7.  Any intrusion into the Ruler clan hall is considered an attack
+    against the Law itself, and therefore against the law.  The 
+    exception to this is to retrieve ones clan item.  If the attacker 
+    removes anything from the clan hall other than their item then 
+    they forego this exemption.  Any member of a clan that holds the 
+    Ruler clan item has no rights under the law.
+ 
+8.  Aiding and abetting any known or wanted criminal is against the
+    law. This includes but is not limited to assisting them in combat,
+    healing them, giving them equipment, concealing knowledge or 
+    evidence of a crime. This includes being in the same group --you 
+    are liable for actions taken by your group mates, pets, and 
+    followers.
+ 
+9.  It is permissible to help a victim to survive an attack through
+    healing and beneficial spells. Rescuing is permitted only until 
+    the victim has a chance to escape, at which point the rescuer must
+    make every effort to break combat. Anyone who kills an attacker 
+    must be ready to answer for it.
+ 
+10. These laws are to be enforced by the Rulers and guards only, 
+    unless others are specifically deputized to assist. Vigilantism 
+    within protected areas is illegal outside it is different thing.
+ 
+11. The summoning of aggressive creatures with lesser souls into a
+    protected area is completely forbidden.  You are responsible for 
+    the actions of any summoned or charmed creatures within a 
+    protected area.
+ 
+  ** {WRulers may temporarily set aside the above laws at their 
+  ** discretion, insofar as they are prosecuting a crime or recovering
+  ** items stolen in a protected area.{x
+~
+D0
+~
+~
+Z 0 95103
+0 0
+D2
+~
+~
+Z 0 95116
+0 0
+D3
+~
+~
+Z 0 95101
+0 0
+S
+#95103
+A Hallway in the Fortress~
+Thick and colourful tapestries hang along the walls of the fortress,
+depicting scenes of valor along with those of peaceful day-to-day life in
+the cities.  The vibrant red carpet continues underfoot, covering the hard
+stone floor.  Lanterns placed in brackets along the wall provide plenty of
+light, and cause the pale stone to glitter and sparkle with a thousand
+different colours.  
+~
+0 DNXd inside
+D0
+~
+~
+Z 0 95104
+0 0
+D2
+~
+~
+Z 0 95102
+0 0
+S
+#95104
+A Turn in the Hallway~
+The hallway takes a turn here, heading north and south.  A large
+painting is on the northern wall, depicting the beautiful city of Caerlon,
+with the salty river running through it, and the Fortress of Justice rising
+high above it.  The red carpet ends here, flowing right up to the wall,
+under a small wooden table placed beneath the painting.  A set of spiral
+stairs set into the western wall leads higher into the keep.  The hallway
+continues to the south and to the east.  
+ 
+~
+0 DNXd inside
+E
+painting~
+The painting is exquisitely done, and looks like it would be right at
+home in an art museum.  
+~
+E
+table~
+An ornate but small wooden table is placed beneath the painting, holding
+nothing of particular interest.  It is likely a gift from one of the noble
+families of the protected cities.  
+~
+D1
+~
+~
+DZ 0 95106
+0 0
+D2
+~
+~
+Z 0 95103
+0 0
+D4
+~
+~
+Z 0 95105
+0 0
+S
+#95105
+The Dining Hall~
+A grand rectangular table stands at the center of the large dining hall,
+filled with too many dishes to count, all cooked up by the fortress'
+resident chef.  The scents coming from the plates are simply mouth-watering,
+and several varieties of wine have been placed in buckets of ice, available
+to any who wish to drink.  
+~
+0 DNXd inside
+E
+buckets ice~
+Buckets of ice have been placed across the table, filled with various
+drinks, most of them fine wines.  
+ 
+Among the choices are:
+ 
+a bottle of fine red wine
+a pitcher of orange juice
+imported white wine
+a pitcher of water
+a gift of elven wine
+~
+D5
+~
+~
+Z 0 95104
+0 0
+C Ruler~
+S
+#95106
+A Hallway in the Fortress~
+The hallway runs east to west here, the pale stone of the walls
+glittering under the light of lanterns placed in brackets along its length,
+and on tall stands situated at regular intervals.  Your footsteps echo
+across the hard stone floors, and off in the distance you can hear sounds of
+activity as those residing in the fortress continue with their day-to-day
+living.  
+~
+0 DNXd inside
+D1
+~
+~
+Z 0 95107
+0 0
+D3
+~
+~
+DZ 0 95104
+0 0
+C Ruler~
+S
+#95107
+A Hallway in the Fortress~
+The hallway splits into three separate directions, continuing east and
+west down the main hallway of the fortress, and turning northward towards
+the prison located at the top floor.  A large, thick metal door blocks any
+progress to the north, built to withstand any attempts to break through.  It
+is heavily locked and barred, and doesn't appear to have been opened
+recently.  
+~
+0 DNXd inside
+D1
+~
+~
+Z 0 95118
+0 0
+D3
+~
+~
+Z 0 95106
+0 0
+S
+#95108
+A Turn in the Hallway~
+The hallway takes a turn here, continuing to the south and west.  A
+spiral staircase is set into the eastern wall, winding its way upward to a
+higher level of the fortress.  A large painting has been set on the northern
+wall, depicting the city of Caerlon in its infancy, when it was nothing but
+a small trading village on the banks of the river.  
+ 
+~
+0 DNXd inside
+D2
+~
+~
+DZ 0 95110
+0 0
+D3
+~
+~
+Z 0 95118
+0 0
+D4
+~
+~
+Z 0 95109
+0 0
+C Ruler~
+S
+#95109
+The Meeting Hall~
+The meeting room of the Rulers is sparsely decorated, free of any
+decorations or distractions.  A simple wooden table stands at its center,
+accompanied by wooden chairs built more for practicality than comfort.  Maps
+are spread out over the table, held down by stones or ink jars, or whatever
+object was available at the time.  This is where the Rulers come to plan
+their course of action whenever a threat arises that puts lawful citizens at
+risk.  A large chest has been placed against the far wall, containing items
+donated by Rulers for the benefit of the clan.  
+~
+0 DNXd inside
+D5
+~
+~
+Z 0 95108
+0 0
+S
+#95110
+A Hallway in the Fortress~
+The hallway runs to the north and south here, torches placed in stands
+along its length providing plenty of light.  The walls here are devoid of
+decoration, though the way the torchlight causes the stone to shine and glow
+adds a startling beauty that spreads throughout the hall.  Footsteps can be
+heard in the distance, as guards patrol the hallways of the fortress.  
+~
+0 DNXd inside
+E
+walls~
+These walls are carved from the stone itself.  They are very damp and
+very cold.  They seem to bring an aura of gloom to the room.  
+~
+E
+torch~
+These torches are rather plain in design.  They are large pieces of stone
+shaped like cones with a bowl at the top.  In the bowl is an oil that seems
+to burn constantly and never go out 
+~
+D0
+~
+~
+DZ 0 95108
+0 0
+D2
+~
+~
+Z 0 95111
+0 0
+S
+#95111
+A Branch in the Hallway~
+The hallway splits in three directions here, continuing north and south
+and branching off to the west, where wide double doors lead into a large
+library.  A single tapestry is placed on the eastern wall, skillfully woven
+to create a scene depicting the construction of the Ruler's Fortress by the
+citizens and nobility of Caerlon.  
+~
+0 DNXd inside
+D0
+~
+~
+Z 0 95110
+0 0
+D2
+~
+~
+DZ 0 95112
+0 0
+D3
+~
+~
+Z 0 95121
+0 0
+S
+#95112
+A Turn in the Hallway~
+The hallway takes a turn here, continuing to the north and west.  A large
+window stands open on the eastern wall, giving a magnificent view of the
+rooftops of several prominent shops in Caerlon, as well as the farmland far
+in the distance beyond the city's gates.  To the south, a spiral staircase
+leads downward towards the fortress' stables.  
+ 
+~
+0 DNXd inside
+D0
+~
+~
+DZ 0 95111
+0 0
+D3
+~
+~
+Z 0 95114
+0 0
+D5
+~
+~
+Z 0 95113
+0 0
+S
+#95113
+The Stables~
+The stables are small but lovingly tended, containing six stalls that
+house tall and sturdy riding horses, among the fastest in the lands. 
+Saddles are placed on a wide shelf on the eastern wall, ready to be used at
+a moment's notice.  The smell is strong, but not overpowering, and open
+windows along the stables length let in fresh air to keep the stables cool
+and comfortable.  
+~
+0 DNXd inside
+E
+horses~
+These horses are finely bred, among the fastest in the lands.  They are
+carefully taken care of in the stables, getting daily exercise and constant
+attention.  
+~
+D4
+~
+~
+Z 0 95112
+0 0
+S
+#95114
+A Hallway in the Fortress~
+The hallway continues to the east and west, the stone floor echoing with
+every footfall along its length.  A pair of longswords has been hung on the
+wall here, their blades crossed and shining as brightly as the day they were
+forged.  A small plaque beneath them identifies them as having once belonged
+to one of the founding members of the Rulers.  Torches have been placed at
+regular intervals along the walls, keeping the hallway brightly lit.  
+~
+0 DNXd inside
+D1
+~
+~
+Z 0 95112
+0 0
+D3
+~
+~
+Z 0 95115
+0 0
+S
+#95115
+A Hallway in the Fortress~
+A tall sculpture has been placed on the northern wall of the hallway
+here, exquisitely carved from marble.  It depicts a mother and child,
+standing together.  The child stands at the mother's side, grasping her
+skirt as she smiles peacefully at what she sees in the distance.  A small
+silver plaque is placed at the foot of the statue.  
+~
+0 DNXd inside
+E
+silver plaque~
+Donated by Mahan ath Limi, for the great service of the Ruler clan in
+keeping the peace in the city of Caerlon.  
+~
+E
+statue mother child~
+The statue has been carved by a very skilled artist.  It seems so
+lifelike, from the small curve of the mother's lips to the folds of her
+skirt and the child's clothing.  
+~
+D1
+~
+~
+Z 0 95114
+0 0
+D3
+~
+~
+DZ 0 95116
+0 0
+S
+#95116
+A Turn in the Hallway~
+The hallway turns to the north and east here.  A vibrant red carpet runs
+underfoot, ending right at the southern wall.  A wide, open window looks out
+over the city of Caerlon, giving a grand view of the homes and businesses of
+many of its citizens.  A small table stands against the wall, along with a
+dark wooden chair.  Nothing decorates the table but a simple vase, made of
+fine porcelain and carefully painted to depict a lovely flower garden.  
+ 
+~
+0 DNXd inside
+E
+table~
+A simple wooden table is placed against the wall.  It is simply designed,
+but elegantly carved.  
+~
+E
+chair~
+The chair is made of dark wood, with a soft cushion for added comfort.
+~
+D0
+~
+~
+Z 0 95102
+0 0
+D1
+~
+~
+DZ 0 95115
+0 0
+D4
+~
+~
+Z 0 95117
+0 0
+S
+#95117
+Coats of Arms~
+The spiral stairs have led up to a decent-sized, square room.  It seems
+to be used solely for the purpose of honouring rulers from the past and
+present.  Various shields have been hung along the walls of the room,
+bearing the coats of arms of the Rulers they belong to.  This is a place
+where many rulers come for guidance, hoping to draw upon the strength and
+courage of their fellows and those who came before them.  
+~
+0 DNXd inside
+D5
+~
+~
+Z 0 95116
+0 0
+C Ruler~
+S
+#95118
+A Hallway in the Fortress~
+The hallway continues to the east and west, the pale glittering stone
+broken to the north by a small window that looks out over the palaces of
+Caerlon's nobility and wealthy citizens.  The window is equipped with strong
+shutters that can be closed in times of poor weather, but is normally left
+open as it allows a greater view of the surroundings and a good place to
+watch any who would wish to enter uninvited.  
+~
+0 DNXd inside
+D1
+~
+~
+Z 0 95108
+0 0
+D3
+~
+~
+Z 0 95107
+0 0
+C Ruler~
+S
+#95119
+Hall of Justice~
+~
+0 DNSX inside
+C Ruler~
+S
+#95120
+A Spot Before the Fireplace~
+A small, cozy fireplace is placed on the far wall of the library,
+carefully kept a good distance away from any shelves or books.  Before the
+fireplace is a large rug, perfect for any Ruler wishing to take a rest at
+the end of the day, whether by reading one of the lively adventure books
+that seem to be kept in this corner of the library, or just curling up to
+sleep before the fire's warmth and comfort.  
+ 
+~
+0 DNXd inside
+E
+fireplace~
+Several logs are aflame in the fireplace, providing just the right amount
+of warmth to make the room perfectly cozy.  
+~
+D1
+~
+~
+DZ 0 95121
+0 0
+S
+#95121
+The Library~
+Several shelves have been placed across the room, holding thick, heavy
+volumes that have been carefully organized according to subject matter.  The
+majority of books seem to be rather dry, dealing with the intricacies of law
+and law enforcement, but one book seems to stand out above the rest, placed
+on its very own stand at the center of the room, and kept locked up under a
+glass case.  
+~
+0 DNXd inside
+D1
+~
+~
+Z 0 95111
+0 0
+D3
+~
+~
+DZ 0 95120
+0 0
+S
+#0
+
+#SPECIALS
+M 95112 spec_cast_mage	* Kavlai
+S
+
+#RESETS
+M 0 95100 1 95100 1	* Kallila (Entrance to the Ruler's Palace)
+E 0 95102 0 17		*	{YR{Bu{Yl{Be{Yr{B'{Ys {cc{Crystallin{Ce{x key: held in the hands
+M 0 95104 1 95104 1	* Gailo (A Turn in the Hallway)
+O 0 95121 0 95105	* the many dishes across the table (The Dining Hall)
+P 0 95106 5 95121 5	* the many dishes across the table: a chicken wing
+P 0 95107 3 95121 3	* the many dishes across the table: A small bowl of stew
+P 0 95108 2 95121 2	* the many dishes across the table: fruit of the law
+P 0 95110 4 95121 4	* the many dishes across the table: a loaf of garlic bread
+O 0 95111 0 95105	* a pitcher of orange juice (The Dining Hall)
+O 0 95112 0 95105	* a bottle of fine red wine (The Dining Hall)
+O 0 95113 0 95105	* some imported white wine (The Dining Hall)
+O 0 95114 0 95105	* a pitcher of water (The Dining Hall)
+O 0 95116 0 95105	* The Defenders Word (The Dining Hall)
+M 0 95108 1 95108 1	* Callan (A Turn in the Hallway)
+O 0 95105 0 95109	* the donation chest (The Meeting Hall)
+O 0 95118 0 95109	* a simple wooden table (The Meeting Hall)
+O 0 95119 0 95109	* a simple wooden chair (The Meeting Hall)
+M 0 95112 1 95112 1	* Kavlai (A Turn in the Hallway)
+M 0 95113 1 95113 1	* the stablemaster (The Stables)
+M 0 95116 1 95116 1	* Taril (A Turn in the Hallway)
+O 0 95120 0 95120	* a large, comfortable rug (A Spot Before the Fireplace)
+O 0 95100 0 95121	* the bookstand (The Library)
+P 0 95117 1 95100 1	* the bookstand: the {Wbook{x of {YL{Ba{Yw{Bs{x
+M 0 95101 1 95121 1	* the elderly cleric (The Library)
+E 0 95122 0 17		*	the key to the altar of {YR{Bu{Yl{Be{Yr{x: held in the hands
+S
+
+#MOBPROGS
+#95100
+if clan $n Ruler
+'Welcome to the Realms of Rulers.
+emote salutes sharply.
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+clan  {xLet it be known that {R$n{x stands at the entrance to the fortress!
+pmote extends her arm outward, mailed fist opening palm toward $n.
+'Visitors may not pass beyond this point without invitation.
+end
+~
+#95101
+if clan $n Ruler
+if ischarm $n
+say My apologies, $n, but I cannot let you in while you're in such a state.
+else
+mob echoat $n Kallila steps aside, allowing you to pass.
+mob echoaround $n Kallila gazes at $n as they proceed into the fortress.
+mob gtransfer $n 95101
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95100
+endif
+end
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n Kallila steps aside as $n sweeps swiftly past him.
+mob trans $n 95101
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95100
+end
+endif
+mob echoat $n Kallila frowns and shakes her head.
+mob echoaround $n Kallila steps in front of $n barring their entry into the fortress.
+'{xBeyond these gates lies the fortress of the Rulers.  {BYOU{x may not pass therein.
+~
+#95102
+clan {xWe are under {RATTACK{x all officials report to the fortress immediately!!!!!
+clan {xThe villian {R$n{x attacks us now!!!!!
+~
+#95103
+if clan $n Ruler
+pmote looks at $t carefully...
+mob remember $t
+mob delay 2
+end
+endif
+'$n, you have no such power!
+~
+#95104
+'You have been found guilty for breaking the law in one of the areas protected by it.
+'You will serve your sentence in solitary until the law removes all charges from you.
+mob echoaround $q $q gets locked away.
+mob echoat $q The Judge locks you away.
+mob trans $q 95113
+mob goto $q
+mob echoaround $q $q has arrived.
+mob goto 95118
+mob forget
+~
+#95105
+if clan $n Ruler
+mob goto 95113
+nod
+mob goto 95118
+end
+endif
+'You have no such power.
+~
+#95106
+if clan $n Ruler
+tell $n As you command!
+tell $t By the will of $n you are being freed.
+mob remember $t
+mob delay 3
+end
+endif
+pmote lays on $n his icey gaze...
+~
+#95107
+mob transfer $q 95100
+mob goto $q
+mob echoaround $q $q has arrived.
+mob echoat $q You are standing before the Ruler palace, enjoying your freedom.
+mob forget
+~
+#95108
+if clan $n Ruler
+or isimmort $n
+mob transfer $n 95108
+mob goto $n
+mob echoat $n You leave the court.
+mob echoaround $n $n has arrived.
+mob goto 95118
+end
+endif
+~
+#95109
+if clan $n Ruler
+mob remember $t
+mob delay 1
+'You shall be sent to the Judge at once.
+mob transfer $n 95118
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95100
+end
+endif
+~
+#95110
+if isfollow $q
+mob transfer $q 95118
+mob goto $q
+mob echoaround $q $q has arrived.
+mob goto 95100
+mob forget
+end
+endif
+~
+#95111
+if clan $n Ruler
+mob oload 95102
+give key $n
+'Keep this $n, and use it well.
+end
+endif
+~
+#95112
+if clan $n ruler
+mob echoat $n The stablemaster quickly saddles a mare and prepares her for riding. You seat yourself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob echoaround $n The stablemaster quickly saddles a mare and prepares her for riding. $n seats $mself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob gtransfer $n 3014
+mob goto $n
+mob echoat $n The horse speeds across the land, moving faster than you could ever believe. Soon you have reached your destination, and dismount. At a word from you, the horse turns and gallops back towards the stables, quickly disappearing from sight.
+mob echoaround $n $n arrives on a galloping horse, dismounting with ease and sending the horse speeding away with a whispered order and a pat on the neck.
+mob goto 95113
+end
+endif
+~
+#95113
+if isnpc $n
+if rand 50
+emote raises her sword high and plunges it down into $N's body.
+else
+emote let's out a battle cry and rams her sword straight through $N.
+endif
+mob damage $n 1000 5000
+endif
+~
+#95114
+if clan $n ruler
+mob echoat $n The stablemaster quickly saddles a mare and prepares her for riding. You seat yourself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob echoaround $n The stablemaster quickly saddles a mare and prepares her for riding. $n seats $mself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob gtransfer $n 10600
+mob goto $n
+mob echoat $n The horse speeds across the land, moving faster than you could ever believe. Soon you have reached your destination, and dismount. At a word from you, the horse turns and gallops back towards the stables, quickly disappearing from sight.
+mob echoaround $n $n arrives on a galloping horse, dismounting with ease and sending the horse speeding away with a whispered order and a pat on the neck.
+mob goto 95113
+end
+endif
+~
+#95115
+mob echoaround $n $n leaves the fortress.
+mob gtransfer $n 95100
+mob goto $n
+mob echoaround $n $n has arrived from the east.
+mob goto 95101
+~
+#95116
+if clan $n ruler
+else
+if mobexists callan
+and mobexists gailo
+or mobexists taril
+and mobexists kavlai
+mob echoat $n Taking strength in the fact that his brothers and sisters still stand in the hall to defend him, the cleric utters a prayer and before you know it you find yourself back at the entrance to the fortress.
+~
+#95117
+if clan $n ruler
+mob echoat $n The stablemaster quickly saddles a mare and prepares her for riding. You seat yourself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob echoaround $n The stablemaster quickly saddles a mare and prepares her for riding. $n seats $mself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob gtransfer $n 18059
+mob goto $n
+mob echoat $n The horse speeds across the land, moving faster than you could ever believe. Soon you have reached your destination, and dismount. At a word from you, the horse turns and gallops back towards the stables, quickly disappearing from sight.
+mob echoaround $n $n arrives on a galloping horse, dismounting with ease and sending the horse speeding away with a whispered order and a pat on the neck.
+mob goto 95113
+end
+endif
+~
+#95118
+if clan $n ruler
+mob echoat $n The stablemaster quickly saddles a mare and prepares her for riding. You seat yourself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob echoaround $n The stablemaster quickly saddles a mare and prepares her for riding. $n seats $mself comfortably, and then with a sharp order from the stablemaster, the horse sets off at a gallop, bursting through the stable doors and speeding towards her destination.
+mob gtransfer $n 9668
+mob goto $n
+mob echoat $n The horse speeds across the land, moving faster than you could ever believe. Soon you have reached your destination, and dismount. At a word from you, the horse turns and gallops back towards the stables, quickly disappearing from sight.
+mob echoaround $n $n arrives on a galloping horse, dismounting with ease and sending the horse speeding away with a whispered order and a pat on the neck.
+mob goto 95113
+end
+endif
+~
+#95121
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the book for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock book
+open book
+put $o in book
+close book
+lock book
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#95122
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get elidodi altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give elidodi $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95123
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95124
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95125
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95126
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95127
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95128
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95129
+if clan $n ruler
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#0
+
+#PRACTICERS
+M 95101 clan~	* the elderly cleric
+S
+
+#$

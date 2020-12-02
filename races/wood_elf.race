@@ -1,0 +1,35 @@
+#RACE
+Name wood-elf~
+Aff infrared snea~
+Res charm~
+Vuln iron~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname WoodE~
+Points 500
+AgeModifier 50
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 100
+Class 'ninja' 100
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 100
+Class 'warlock' 100
+Class 'witch' 100
+Class 'warrior' 100
+Stats 45 55 55 60 45 50 50
+MaxStats 19 21 21 23 18 25 25
+BonusSkills creep bow~
+Size medium
+HPBonus -10
+ManaBonus 10
+RestrictAlign neutral~
+RestrictEthos neutral chaotic~
+Slang elvish
+End
+
+#$

@@ -1,0 +1,40 @@
+#WorldAffectsFor Mon May 12 22:19:15 2008
+WorldEpoc 1210645155
+
+#WORLD_AFFECT
+Player Zsuzsu~
+Level 92
+Type exp~
+Modifier 200
+Duration 60
+Interval 0
+Timer 45
+Chance 100
+MinLevel 0
+MaxLevel 60
+VisLevel 0
+StartHour 0
+Repeat 0
+Active 1
+Notify A
+End
+
+#WORLD_AFFECT
+Player Zsuzsu~
+Level 92
+Type auction~
+Modifier 1
+Duration -1
+Interval 0
+Timer -1
+Chance 100
+MinLevel 0
+MaxLevel 60
+VisLevel 0
+StartHour 0
+Repeat 0
+Active 1
+Notify A
+End
+
+#END

@@ -1,0 +1,1642 @@
+#AREADATA
+Name Scion Clanhall~
+Builders cuthulo loviatar~
+VNUMs 95600 95699
+Credits thornan~
+Security 9
+LevelRange 1 100
+ResetMessage {DDarkness{x envelops the chasm, restoring its {revil{x.~
+Flags closed noquest nosummon clanhall~
+Clan Scion~
+End
+
+#MOBILES
+#95600
+clan guard nightwalker scion form scionguard~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTef DFclmu -1000 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 95602 100~
+M exit 95601 2~
+M kill 95605 100~
+C Scion~
+#95601
+clan cleric scion dark woman scioncleric~
+the {rd{Rar{rk{x cleric~
+The dark cleric of the {rS{Rc{ri{Ro{rn{x clan is here, working her unholy magic.
+~
+This cleric of darkness is a powerful healer.  She practices her healing
+abilities on slaves by bringing them to the brink of death and then
+restoring their health, only to do it all over again.  Once a powerful
+adventurer who lived to bring pain and suffering to the realms, she was
+recruited by Scion and now protects their power with her life, waiting
+for the day when the whole land is enslaved, and helpless to resist her
+every whim.  
+~
+human~
+ABJKQaef DFVZlmu -1000 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M give 95620 all~
+M speech 95624 give me the elidodi item~
+M speech 95625 give me the shadow item~
+M speech 95626 give me the ruler item~
+M speech 95627 give me the chaos item~
+M speech 95628 give me the barbarian item~
+M speech 95629 give me the knight item~
+M speech 95631 give me the sylvan item~
+M speech 95632 give me the sentinel item~
+C Scion~
+#95602
+transfermob~
+Transfermob~
+Transfermob is here to transfer falling victims.
+~
+Transfermob's only purpose is to transfer players from room 95620 to
+95606, to simulate falling into a pit.  
+~
+human~
+ABGV DFJlmt 0 0
+80 100 100d100+20000 1d1+99 50d50+200 none
+-100 -100 -100 -100
+0 CDLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 95610 100~
+M delay 95611 100~
+M delay 95612 100~
+M delay 95613 100~
+I 92
+#95603
+scion bellhop~
+Scion's bellhop~
+Scion's bellhop is here to perform the transfer
+~
+~
+drow~
+ABe DFZlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 ABCD 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff J
+M exit 95614 ~
+I 92
+#95604
+slave giant food~
+Kidnapped giant~
+A kidnapped giant is chained here awaiting his fate
+~
+This once pround and strong giant can barely move a muscle.  He has been
+chained to the floor for many years.  He may have once been a warrior
+prince.  But now he commands very little respect.  
+~
+storm giant~
+ABQ AKLMYdhk 1000 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 BCDFGM
+incap incap male 0
+0 0 gargantuan flesh~
+~
+F res J
+F vul P
+#95605
+slave serving wench~
+~
+~
+~
+human~
+AB 0 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHM
+F par ABCDEFGHIJK
+#95606
+greedious pit fiend pitfiend~
+Greedious~
+{gGreedious the Pit Fiend{x
+~
+This large green demon has slimy scales.  He has huge wings and a tail. 
+Horns similar to goats horns crown his head.  He sits at a counter dealing
+with money with extraordinary speed with his deft claws.  
+~
+dragon~
+ABCTde 0 -1000 0
+98 98 511d98+0 980d11+95 33d2+72 none
+-61 -61 -61 -41
+GHIMNO 0 0 0
+sit sit male 4289
+0 0 medium flesh~
+~
+#95607
+giant princess~
+princess giant~
+A kidnapped giant princes is trapped in the stocks
+~
+Once a beautiful giant in all her finery, now the grime that covers her
+covers her beauty.  The finery has been turned to rags over time and
+beatings.  Ants crawl all over her, tormenting her.  It may be time to end
+her suffering.  
+~
+storm giant~
+ABQ AKLMYdhk 1000 0
+1 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 BCDFGM
+incap incap female 0
+0 0 gargantuan flesh~
+~
+F res J
+F vul P
+#95608
+man shifty-eyed eyed~
+{DThe shifty-eyed man{x~
+A shifty-eyed man stands here, eyeing your money eagerly.
+~
+Before you stoops a short male human, very greasy and evil looking.  His
+clothes are of fine make, made of soft velvet despite his raggedy
+appearance.  You hear coins clinking merrily in his pockets.  
+~
+human~
+AB DFPVlmu -1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+ACEFJKN AU 0 F
+stand stand male 100000
+0 0 medium flesh~
+~
+F for AHM
+F par GHIJK
+M grall 95615 100~
+C Scion~
+#95609
+slavedriver slave driver arnor~
+Arnor the Slavedriver~
+Arnor the slavedriver is here, hustling in some new slaves.
+~
+You see a rugged man, hardened from years of illegal dealings and
+smuggling.  He carries a long whip at his side, and he is constantly smiling
+cruelly.
+~
+human~
+AB DFlm -1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+CEFHIJK ABU 0 0
+stand stand male 10
+0 0 medium flesh~
+~
+F for AHM
+M greet 95623 100~
+#95699
+crying weeping virgin girl~
+The virgin~
+A crying girl, suspended by her toes over a silver fountain.
+~
+This poor girl is suspended upside down by her toes.  Her tears are being
+collected in a {Wsilver fountain{x.  Her torn clothes seem to suggest that
+they were once clothes of exquisite elegance.  She may have been royalty or
+a priestess of some wealthy god.  Rumour has it that Loviatar was jealous of
+the young ladies beauty, but it isn't wise to bring this up with the goddess
+of pain.  
+~
+human~
+ABTe AH 5000 0
+30 60 50d30+9000 30d9+60 1d11+1 none
+-9 -9 -9 -3
+0 ANQ D 0
+incap incap female 0
+0 0 medium flesh~
+~
+C Scion~
+#0
+
+#OBJECTS
+#95600
+altar~
+the skull~
+On the altar are grey bones scattered all about the top~
+bone~
+~
+container CEORY P
+10 ABCD 95602 15 100 0
+60 2 20 P
+C Scion~
+G none
+G none
+G none
+G none
+#95601
+globe sphere clanitem scion nothing~
+the {Dn{wo{Dthing {Wgl{wo{Wbe{x~
+A small, {Ws{wp{Where{x shaped, {Dun{we{Dxistance{x floats in the air.~
+unknown~
+~
+treasure CEORYaef AO
+0 0 0 0 0
+60 2 10000 P
+C Scion~
+G none
+G none
+G none
+G none
+#95602
+skull grayish jaw scion clankey key scion_altar_key~
+a grayish jaw of a {rS{Rc{ri{Ro{rn{x skull~
+A grayish jaw of a {rS{Rc{ri{Ro{rn{x skull is on the ground.~
+bone~
+~
+key CEUYf AO
+0 0 0 0 0 0 0
+40 2 0 P
+G none
+G none
+G none
+G none
+#95603
+white object portal~
+Magical White Portal~
+A magically created white object casts strange shadows across the clearing.~
+energy~
+~
+portal A 0
+0 0 B 95600 0
+0 0 0 P
+C Scion~
+G none
+G none
+G none
+G none
+#95604
+dark object portal~
+Dark Portal~
+A magically created dark object casts strange shadows across the clearing.~
+energy~
+~
+portal A 0
+0 0 E 0 0
+0 0 0 P
+C Scion~
+G none
+G none
+G none
+G none
+#95605
+green object portal~
+Magical Green Portal~
+A magically created green object casts strange shadows across the clearing.~
+energy~
+~
+portal A 0
+0 0 B 3124 0
+0 0 0 P
+C Scion~
+G none
+G none
+G none
+G none
+#95606
+scion slaver mark~
+the {DMark{x of a {rSlaver{x~
+{cYour heart begins to fill with avarice as you approach this symbol.{x~
+energy~
+~
+treasure ABEMORYZa AS
+0 0 0 0 0
+30 5 1 P
+A
+20 -5
+A
+18 5
+A
+19 5
+A
+13 50
+F
+A 0 0 Z
+A
+6 2
+A
+14 50
+G none
+G none
+G none
+G none
+#95608
+sword hellslayer~
+The {RHell{yslayer{x~
+This sword seems to scream from the sounds of all it has slain.~
+steel~
+~
+weapon ABGJMRTUY AN
+longsword 4 19 thrust AC
+63 100 1122611 P
+A
+12 30
+A
+18 6
+A
+19 6
+C Scion~
+G none
+G none
+G none
+G none
+#95610
+storm spire staff~
+The {WS{Yt{wo{Wr{Ym {CSpire{x~
+Here sits a staff that seems to tower up higer and higer.~
+wood~
+~
+staff ABJRTUY AO
+35 2 2 'dragon skin'
+50 100 75000 P
+A
+18 5
+A
+19 5
+A
+12 50
+C Scion~
+G none
+G none
+G none
+G none
+#95611
+black razor dagger~
+The {DBlack {mRazor{x~
+Here sits a dark black razor.~
+steel~
+~
+weapon ABJMRTU AN
+dagger 4 8 pierce D
+40 41 23512 P
+A
+12 20
+A
+18 3
+A
+19 4
+C Scion~
+G none
+G none
+G none
+G none
+#95618
+sign~
+A Sign~
+A Sign~
+unknown~
+~
+trash RY 0
+0 0 0 0 0 0 0
+15 10000 0 P
+E
+sign~
+If you wish to buy something please contact an immortal the prices for
+each item are.  
+Storm Spire (Staff)---1700
+Hellslayer (Sword)---2500
+Black Razor (Dagger)---2000
+~
+G none
+G none
+G none
+G none
+#95619
+vault pit~
+The Adamantite Vault~
+The Adamantite Vault is gigantic in size.~
+adamantite~
+~
+container ORTYbg 0
+10000000 A 0 1000 100 0
+0 10000 0 P
+G none
+G none
+G none
+G none
+#95620
+mahogany boardroom table~
+A {ymahogany boardroom table{x~
+A {ymahogany boardroom table{x is in the centre of the room~
+unknown~
+mahogany~
+furniture EGRb 0
+BD EIJKN ABDEGHN CFG CFG BD EIJKN
+0 10000 10000 P
+G none
+G none
+G none
+G none
+#95621
+leaders chair north gold golden~
+{YG{yo{Yl{yd{Ye{yn{x chair of Zanzabar~
+Zanzabars {YG{yo{Yl{yd{Ye{yn{x chair is the most magnificent, and is at the northern end of the table~
+gold~
+~
+furniture AER 0
+A FHJKPQ BFIL BDEFGH BDEFGH A FHJKPQ
+64 100 0 P
+G none
+G none
+G none
+G none
+#95622
+glinting silver~
+The {Wg{wl{Wi{wn{Wt{wi{Wn{wg {Ws{wi{Wl{wv{We{wr{x chair of Pomo~
+The {Wg{wl{Wi{wn{Wt{wi{Wn{wg {Ws{wi{Wl{wv{We{wr{x chair of Pomo sit at the south end of the table ~
+silver~
+~
+furniture ER 0
+A FHJKPQ BFIL BDEFGH BDEFGH A FHJKPQ
+70 100 0 P
+G none
+G none
+G none
+G none
+#95623
+ethreal~
+The {cethereal{x chair of Genevieve ~
+The {cethereal{x chair of Genevieve surges with magic and is at the east end of the table.~
+etherealness~
+ethereal~
+furniture BER 0
+A FHJKPQ BFIL BDEFGH BDEFGH A FHJKPQ
+70 100 0 P
+G none
+G none
+G none
+G none
+#95624
+mithril bladed~
+{DBladed Mithril{x chair of Sasaki~
+The {DBladed Mithril{x chair of Sasaki sits at the west end of the table~
+mithril~
+~
+furniture ER 0
+A FHJKPQ BFIL BDEFGH BDEFGH A FHJKPQ
+70 100 0 P
+G none
+G none
+G none
+G none
+#95625
+scion clanhall key~
+A discreet, small, {Dblack{x key.~
+A small dark key glints in the dust here.~
+unknown~
+~
+key QUf AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95626
+scion history tome book~
+{WS{xc{Di{xo{Wn's T{xo{Dm{xe{x~
+{WS{xc{Di{xo{Wn's T{xo{Dm{xe{x lays here gathering dust.~
+unknown~
+~
+treasure ET A
+0 0 0 0 0
+35 30 2000 P
+E
+page~
+In a time long, there was a town called Scion.  They were a simple folk, in a simple town.  They were farmers and fishers, tanners and butchers.  Much like many towns of the area they were all human and not welcoming of any other race.  They all so were very fearful of magic.  Even travelling side-show magicians were driven out.   As time grew on they grew more intolerant.
+ 
+One stormy night a dairy-maid gave birth to a slightly deformed child. The child had pointy ears and slanted eyes. Fearing that the child would be a victim of the town, the dairymaid took him to the temple in Scion to be raised.  She hoped that the priests of Ahuramazda would protect him and as he grew in his faith that the gods would protect him too.  It was the priests that named the child Demus.
+
+Demus kept his ears covered in a hood and kept to himself.  The priests were particularly hard on him, they carried the towns prejudices and punished Demus twice as severely as any other child.  He was also made to work harder, pray longer and behave meeker than any other child in the hope that it would keep his soul pure.
+ 
+~
+E
+tome scion book~
+{WTo read type{G read 'page #'  {R(where # is 1,2,3 or 4){x
+~
+E
+page 4~
+The ball in the sky became chaotic.  It continued to grow of its own accord, but now in surges of unstable power.  Thorel prayed for the power to control the magic. The gods seeing the danger united to feed him the power to control it.  Thorel cast all the members of Scion into the 1666 level of the Abyss using their own spell.  Then cast the citadel into a dark chasm.  Then dispersed the spell harmlessly.  For their help in saving the world, Thorel and Thornan were made gods.
+ 
+In the 1666 level of the abyss, it was dark, and filled with the most evil of spirits.  Most members of Scion died within hours of being cast in this abyss.  Though a few managed to survive.  Some learned to communicate with the dark spirits.  The spirits helped them to learn how to adapt to the dark plane.  The dark spirits taught them to ways of seeing into the land of Thera from the Abyss. They then taught them how to fade between the abyss and Thera. Some powerful Scions can still call on the dark spirits to aid them in times of trouble.  With their new skills they planned to rebuild. One day they will be all powerful again. Until then they will wait in the dark and plan.  Killing one by one like their first leader Demus. 
+
+As for what happened to Demus. Well no one knows.  But one day they will find him or he will find them.  The return has been foretold.
+~
+E
+page 3~
+Demus quickly became powerful and Malarice began fearful of Demus, for as he became more powerful than his master, so did his heart become darker.  Some say that Demus accidently got himself possessed by a demon of the ninth level of hell. But that isn't true. As he grew, the hate for the town of Scion inspired him.
+
+Demus killed his master and used him for a puppet to enter the town of Scion.  Slowly, one by one, Demus turned the town of Scion into undead pawns.  He also summoned Demons and enslaved Angels.  Scion grew quickly. The undead worked tirelessly to create a great citadel. From this citadel they planed to lay siege to heaven.  The counsel of Scion was formed from the most powerful of the evil members of Scion.
+
+Demus decided the best way to attack heaven was to realign the realms.  With all of the dark magic users' power, they sought to cast all in heaven into hell, and all in hell into heaven.   From heaven Scion would have the power to control the world. 
+
+The spell was to take many weeks.  A dark ball of power formed in the sky growing slowly each day. The forces of good revealed its intent and united to combat this spell.  The knights and the rulers stormed the citadel.  All but a few died.  The one knight that made it into the summoning chamber was a young knight named Thorel.  While a young man named Thornan battled in the summoning chamber to distract Demus, Thorel charged Demus and bashed into him, sending him into a rift that had formed.  
+ 
+~
+E
+page 2~
+At Demus' coming of age he had to participate in a ceremony with other boys of the village who were coming of age.  The ceremony consisted of challenges that the boys were to compete in front of the guild-masters so that the guild-masters could decide who to chose as apprentices.  The first event was a wrestling match.  Demus wore a scarf to cover his ears.  Demus, who was very meek from the way he was raised, lost quickly.  The victor, a childhood friend of his named Tilli, took off Demus' scarf as a show of victory.
+ 
+The crowd saw Demus' ears, there was panic, fear and then anger.  The crowd stormed the event and chained Demus up in the town centre.  They then flogged him as an example to any outsiders.  The priests prayed over him. They prayed for a quick death for him. At night they left him to bleed to death.
+Tilli came at the darkest hour of the night.  Filled with guilt at what he had done, he freed Demus.  He put Demus on a horse and helped him escape.  When some villagers caught up Tilli slapped the horse on the rump and Demus escaped them.  Tilli was slain.
+ 
+Demus travelled through the realm. Going from village to village.  Stealing to survive.  Until one day he stole from a cruel magician, Malarice.  At first the Malarice enslaved him, but seeing a great talent in Demus, decided to teach him the dark arts of Necromancy.  
+~
+E
+page 1~
+In a time long, there was a town called Scion.  They were a simple folk, in a simple town.  They were farmers and fishers, tanners and butchers.  Much like many towns of the area they were all human and not welcoming of any other race.  They all so were very fearful of magic.  Even travelling side-show magicians were driven out.   As time grew on they grew more intolerant.
+ 
+One stormy night a dairy-maid gave birth to a slightly deformed child. The child had pointy ears and slanted eyes. Fearing that the child would be a victim of the town, the dairymaid took him to the temple in Scion to be raised.  She hoped that the priests of Ahuramazda would protect him and as he grew in his faith that the gods would protect him too.  It was the priests that named the child Demus.
+
+Demus kept his ears covered in a hood and kept to himself.  The priests were particularly hard on him, they carried the towns prejudices and punished Demus twice as severely as any other child.  He was also made to work harder, pray longer and behave meeker than any other child in the hope that it would keep his soul pure.
+~
+G none
+G none
+G none
+G none
+#95627
+bookshelf shelf~
+the {yBookshelf{x ~
+{xthe {yBookshelf{x of the Scion clan~
+wood~
+~
+container 0 0
+1000 E 0 100 1 0
+0 100 3000 P
+G none
+G none
+G none
+G none
+#95628
+regal high backed high-backed chair black leather spike lord night talis~
+The {Dblack leather {xchair of {DTalis{x~
+{WA {Rregal {yhigh-backed {Wchair, covered in {Dblack leather {Wand {rbloody spikes{W waits here for the {rL{Ro{rrd{D of the N{Wi{wg{Wh{Dt{x.~
+leather~
+~
+furniture BC 0
+A FHJKPQ EFHIKL BDEFGH BDEFGH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#95629
+soul axe unholy~
+The {CS{mo{cu{Cl {Raxe{x~
+An unholy axe lies here, producing a stream of {Csouls{x.~
+unknown~
+souls~
+weapon ACEFJMRTUY AN
+axe 4 21 cleave CD
+70 200 156245 P
+A
+19 5
+A
+18 4
+C Scion~
+G none
+G none
+G none
+G none
+#95630
+mace blade crusher bladecrusher~
+The {rBlade{Rcrusher{x~
+A huge mace rests here, spiked and bloody.~
+steel~
+~
+weapon CEGJMRTUY AN
+mace 3 19 crush HK
+55 56 85505 P
+A
+19 4
+A
+1 3
+A
+18 4
+C Scion~
+G none
+G none
+G none
+G none
+#95691
+sign~
+{cThe Sign{x~
+{cThe Sign{x~
+unknown~
+~
+trash R P
+0 0 0 0 0 0 0
+0 0 0 P
+E
+sign~
+Grey portal..............Old Midgaard
+silver portal..............Shadow grove
+Red portal................Hell
+golden portal............Valley of the titans
+blue portal...............Freeport city
+~
+G none
+G none
+G none
+G none
+#95692
+watery blue~
+A {bWet Blue{x Portal~
+The {bWet Blue{x Portal smells of salt water.~
+unknown~
+~
+portal BEGRTY P
+0 0 A 29246 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95693
+golden large~
+A {yL{Ya{yr{Yg{ye {YG{yo{Yl{yd{Ye{yn{x Portal~
+A {yL{Ya{yr{Yg{ye {YG{yo{Yl{yd{Ye{yn{x Portal seems to lead to a large city~
+unknown~
+~
+portal BEGRTY P
+0 0 A 18049 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95694
+red flaming~
+A {RFlaming Red{x Portal~
+The {RFlaming Red{x Portal seems to lead into a hellish inferno~
+unknown~
+~
+portal BEGRTY P
+0 0 A 22049 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95695
+silver misty~
+A {WMisty Silver{x portal~
+A {WMisty Silver{x portal seems to shift and change~
+unknown~
+~
+portal BEGRTY P
+0 0 A 1300 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95696
+grey gray old~
+An {DOld Grey{x portal~
+An {DOld Grey{x portal seems to bend time and space~
+unknown~
+~
+portal BEGRTY P
+0 0 A 5381 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95697
+sacrificed halfling~
+The remains of a sacrificed halfling~
+The remains of a sacrificed halfling lays in the centre of a pentagram on the floor.~
+flesh~
+~
+food 0 A
+DE DE 0 0 0 DE DE
+0 1 231 P
+G none
+G none
+G none
+G none
+#95698
+fountain virgin tears~
+{bFountain of Tears{x~
+A {WSilver {bFountain {x is filled with the tears of a virgin.~
+unknown~
+Tears silver~
+fountain GIRS 0
+-1 -1 'water' 0
+0 1000 0 P
+G none
+G none
+G none
+G none
+#95699
+bubbly spa~
+A {BB{bu{Bb{bb{Bl{by{B S{bp{Ba{x~
+A {BB{bu{Bb{bb{Bl{by{B S{bp{Ba{x looks so warm and inviting. ~
+unknown~
+bubbles water air~
+furniture GIRS P
+BD EIJKN FIL BDEFGH BDEFGH BD EIJKN
+0 2000 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#95600
+Before an Evil Chasm~
+In the distance you see a dark chasm that seems to be where, even here,
+you can sense much evil has radiates from it.  There is a strange dark
+creature that stands in front of the chasm but you can only make out the a
+shadow.  The chasm seems to go down for miles and miles with no end in site.
+There is a strange sound that you can only just hear.  It seems to come from
+with in the chasm.  It sounds like a steady chanting.  Sometimes there is
+even a scream.  Is it just demons talking or maybe something even worse.  A
+strange scent that you can't quit place.  You may need to go closer to find
+out what it is.  You would have to be of an evil persuasion to feel at home
+in a place like this.  
+~
+0 ADX inside
+D2
+~
+~
+Z 0 16219
+0 0
+D5
+~
+~
+Z 0 95601
+0 0
+S
+#95601
+Entrance to the Dark Chasm~
+There is a large dark monster here guarding the entrance of the chasm. 
+Evil power radiates from this being.  It stands there in anticipation of a
+fight.  There is a line in the dirt that he is just waiting for you to
+cross.  Down past the guardian are sounds of chanting and the occasional
+tortured scream.  The smell of blood waft out of the entrance.  This place
+is a place of dread, which lowers the spirits of all but the most corrupt
+and devious beings.  
+~
+0 ADXcd inside
+D2
+~
+the~
+ADFGMZ 95625 95602
+0 0
+D4
+The staircase fades into the blackness as it ascends above.
+~
+~
+Z 0 95600
+0 0
+S
+#95602
+Top of Stairs into the Chasm~
+Here is the top of the staircase.  There are no hand railings to begin
+with and it seems to just be chiselled out of the stone, but as it goes down
+it become more defined and more detailed.  To the north is the entrance
+where the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x is.  The chanting you hear is
+louder, and the smell of blood is stronger.  
+~
+0 ADXd inside
+D0
+~
+~
+ADFGMZ 95625 95601
+0 0
+D5
+~
+~
+Z 0 95603
+0 0
+S
+#95603
+Midway of Stairs into the Chasm~
+Here is the middle of the staircase, and this is where you can see the
+greatest contrast.  Above you is a crumbling entrance to the chasm, where
+you are now is the beginning of handrails.  The stairs become more evenly
+cut.  Candles now line the walls.  The walls are changing from uncut rock to
+Black marble and not much farther down the stairs are covered in red carpet.
+You can still hear the chanting but it now sounds more harmonious and the
+smell the blood seems sweeter.  
+~
+0 ADXd inside
+D4
+~
+~
+Z 0 95602
+0 0
+D5
+~
+~
+Z 0 95604
+0 0
+S
+#95604
+Lower Stairs into the Chasm~
+The shadows of the beast seem to be moving quickly along with you and
+they look at you hungerly and yet they are not attacking you wonder why when
+they surly could take you.  There is the sound of hammering coming in
+clearly now.  It seems that a great black smith must be working for these
+legions of evil beast.  
+~
+0 ADXd inside
+D4
+~
+~
+Z 0 95603
+0 0
+D5
+~
+~
+Z 0 95605
+0 0
+S
+#95605
+Bottom of the Stairs into the Chasm~
+This is the true entrance to Scion.  The handrails are silver, the red
+carpet is lush and thick.  This is a place of power.  Red candles light the
+room.  Black gargoyles hang from the black marble walls.  Their eyes follow
+your movements.  A large {ygolden archway{x with satanic symbols marks the
+entrance to the inner sanctum.  The chanting is now more than music, it is
+now a powerful energy that washes over you.  The smell of blood is now
+intoxicating and makes you a little giddy.  
+~
+0 ADXd inside
+D2
+~
+~
+Z 0 95606
+0 0
+D4
+~
+~
+Z 0 95604
+0 0
+S
+#95606
+Grand Entrance to the Underground Headquarters~
+This is the entrance hall to the headquarters of Scion.  You can hear
+the bustle of a slave auction in progress off in the distance.
+~
+0 ADXd inside
+E
+bones~
+Grey and white bones litter the floor of this foul pit.  Some are
+bleached by the ravages of time, but others look quite fresh....  
+~
+E
+up~
+Far above you hangs the entrance through which you fell.  Perhaps if you
+could sprout wings, you might fly back up there.  
+~
+D0
+~
+~
+Z 0 95605
+0 0
+D2
+~
+~
+Z 0 95607
+0 0
+S
+#95607
+Heart of the Chasm~
+This room seems to be the heart of the chasm and it looks like you can go
+east west south north or down.  Down you can go into the smith and east you
+can go into the clerics room.  While you can always got west where is looks
+like training rooms.  
+~
+0 ADXd inside
+D0
+~
+~
+Z 0 95606
+0 0
+D1
+~
+~
+Z 0 95614
+0 0
+D2
+~
+~
+Z 0 95608
+0 0
+D3
+~
+~
+Z 0 95616
+0 0
+S
+#95608
+Southern cavern of the Chasm~
+You have reached the south end of the cave.  It looks like only 3 ways to
+go back north or up to the donation pit or down to the heros meeting room. 
+There is cold dark shadow here muttering something over and over.  It seems
+that you feel dizzy and you mind is playing tricks on you.  You wake up and
+you notice that you have fallen down and had a nice nap but you have no idea
+why.  
+~
+0 ADXd inside
+D0
+~
+~
+Z 0 95607
+0 0
+D1
+~
+~
+Z 0 95612
+0 0
+D2
+~
+~
+Z 0 95621
+0 0
+D3
+~
+~
+Z 0 95613
+0 0
+D4
+~
+~
+Z 0 95610
+0 0
+D5
+~
+~
+Z 0 95611
+0 0
+S
+#95609
+Meeting chambers~
+~
+0 ADX inside
+M 50 H 50
+S
+#95610
+The Vault Room~
+A large adamantite vault is here.  This is where the Scion clan members
+store their dark treasures.  The riches aren't always of the gold and silver
+type.  Dark magics are what the Scion clan covets most.  Items of power and
+cruelty lie in the depths of this vault.  
+~
+0 ADXd inside
+D5
+~
+~
+Z 0 95608
+0 0
+S
+#95611
+The Dark Dungeon~
+You are in a dark room.  The pungent stench of mildew emanates from the
+wet dungeon walls.  This is where slaves and prisoners of Scion are kept. 
+This is also where Scions' vampires come to feed.  There is very little down
+here.  There you can hear pleading from some of the slaves.  
+~
+0 ADX inside
+D4
+~
+~
+Z 0 95608
+0 0
+S
+#95612
+The Dark Nexus~
+This is the largest room in the clan hall.  The room is filled with a
+humming sound, and an occasional flash of light.  In the centre of the room
+is the Dark Nexus.  This is portal to key strategic areas.  It looks like a
+spinning crystal that reaches the ceiling.  Around it are five portals. 
+There is a sign at the entrance of the room.  
+~
+0 ADXd inside
+D3
+~
+~
+Z 0 95608
+0 0
+S
+#95613
+The Inner Sanctum~
+Here is where the wicked of heart relax.  At the far end of the room is a
+large spa that has steam rising from it.  In the centre of the room,
+suspended from the ceiling by her toes, is a girl crying into a silver
+fountain.  The fountain is full of tears.  
+~
+0 ADXd inside
+D1
+~
+~
+Z 0 95608
+0 0
+S
+#95614
+The Mystic Chambers~
+Mystic forces swirl around the room.  Around the room are hooded monks,
+each holding candles and chanting.  In the centre of the room is a summoning
+circle with a pentagram.  Blood is splattered in the centre of the pentagram
+where there if often a sacrifice.  Standing just outside the summoning
+circle is a cleric of Loviatar.  
+~
+0 ADXd inside
+D3
+~
+~
+Z 0 95607
+0 0
+S
+#95615
+Altar room of the Chasm~
+~
+0 ADX inside
+S
+#95616
+Dark hall of Arcane Studies~
+This room seems to be used for the magic beast they can study here and
+here they can talk about what they wish to.  There is a shadow the lurks in
+the room covering it completely.  To the east or west is ways to go but to
+dark to see either way.  
+~
+0 ADXd inside
+D1
+~
+~
+Z 0 95607
+0 0
+D3
+~
+~
+Z 0 95617
+0 0
+S
+#95617
+The Dark Meeting Room~
+Blood red candles line the walls revealing the Scion's meeting chamber. 
+In the centre of the room is a large mahogany boardroom table.  There is a
+small summoning circle in the centre of the table that they use for
+communicating to dark powers.  Around the table are many small chairs with
+the chairs of the leaders at elevated ends of the table.  Many plans and
+plots have been hatched in this very room.  
+~
+0 ADX inside
+D1
+~
+~
+Z 0 95616
+0 0
+S
+#95618
+Chasm Smith~
+This room seems to be where the sounds of weapon making came from.  There
+is a black smith standing here looking at you making you quake in fear. 
+Theres such a smell from him that it makes you fall to the ground in tears. 
+He has a strange feel come off him that makes you feel uneasy but still able
+to speak.  He goes back to work slowly and starts to make a brand to make a
+sword for all his evil friends to use.  It looks like this sword could go
+through a rock and still be as sharp as ever.  There is the sounds of a evil
+priest someone near and it sounds like there people working on magic and
+working on the physical skills as well.  
+~
+0 d inside
+S
+#95619
+A Leap of Faith~
+You are standing at the bottom of a long staircase that disappears into
+the blackness above.  Your light reflects off the smooth rock wall to the
+west, its rays glimmering upward feebly to reveal the dome-like structure of
+the cavern that you are in.  A doorway opens into the wall toward the west,
+but beyond the opening, there is nothing to see.  Your light simply can not
+penetrate the darkness.  
+~
+0 ADX inside
+D5
+~
+~
+Z 0 95620
+0 0
+S
+#95620
+You Are Falling....~
+~
+0 APX inside
+D4
+~
+~
+Z 0 95619
+0 0
+S
+#95621
+Dark Legion Bank~
+The Steel walls fortify this bank for the clan Scion.  Tapestries
+depicting scenes from the history of Scion line the walls.  There is a
+teller at the far end of the room.  He is a large green pit fiend waiting to
+take your money.  
+~
+0 ADUXd inside
+D0
+~
+~
+Z 0 95608
+0 0
+S
+#0
+
+#RESETS
+M 0 95600 1 95601 1	* the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x (Entrance to the Dark Chasm)
+G 0 95625 0		*	A discreet, small, {Dblack{x key.
+O 0 95619 0 95610	* The Adamantite Vault (The Vault Room)
+M 0 95609 1 95611 1	* Arnor the Slavedriver (The Dark Dungeon)
+O 0 95696 0 95612	* An {DOld Grey{x portal (The Dark Nexus)
+O 0 95695 0 95612	* A {WMisty Silver{x portal (The Dark Nexus)
+O 0 95694 0 95612	* A {RFlaming Red{x Portal (The Dark Nexus)
+O 0 95693 0 95612	* A {yL{Ya{yr{Yg{ye {YG{yo{Yl{yd{Ye{yn{x Portal (The Dark Nexus)
+O 0 95692 0 95612	* A {bWet Blue{x Portal (The Dark Nexus)
+O 0 95691 0 95612	* {cThe Sign{x (The Dark Nexus)
+O 0 95699 0 95613	* A {BB{bu{Bb{bb{Bl{by{B S{bp{Ba{x (The Inner Sanctum)
+O 0 95698 0 95613	* {bFountain of Tears{x (The Inner Sanctum)
+O 0 95697 0 95614	* The remains of a sacrificed halfling (The Mystic Chambers)
+M 0 95601 1 95614 1	* the {rd{Rar{rk{x cleric (The Mystic Chambers)
+E 0 95602 0 17		*	a grayish jaw of a {rS{Rc{ri{Ro{rn{x skull: held in the hands
+O 0 95600 0 95614	* the skull (The Mystic Chambers)
+P 0 95601 1 95600 1	* the skull: the {Dn{wo{Dthing {Wgl{wo{Wbe{x
+O 0 95627 0 95616	* the {yBookshelf{x  (Dark hall of Arcane Studies)
+P 0 95626 0 95627 1	* the {yBookshelf{x : {WS{xc{Di{xo{Wn's T{xo{Dm{xe{x
+O 0 95620 0 95617	* A {ymahogany boardroom table{x (The Dark Meeting Room)
+M 0 95608 1 95618 1	* {DThe shifty-eyed man{x (Chasm Smith)
+G 0 95608 0		*	The {RHell{yslayer{x
+G 0 95610 0		*	The {WS{Yt{wo{Wr{Ym {CSpire{x
+G 0 95611 0		*	The {DBlack {mRazor{x
+G 0 95629 0		*	The {CS{mo{cu{Cl {Raxe{x
+G 0 95630 0		*	The {rBlade{Rcrusher{x
+M 0 95602 1 95620 1	* Transfermob (You Are Falling....)
+M 0 95606 1 95621 1	* Greedious (Dark Legion Bank)
+S
+
+#SHOPS
+95605 0 0 0 0 0 100 17 0 23
+95608 0 0 0 0 0 100 16 0 23
+0
+
+#MOBPROGS
+#95600
+if clan $n Shadow
+mob echoaround $n $I watches $n through slitted eyes, but does not move.
+mob echoat $n $I eyes you warily, but does not move.
+end
+endif
+if isimmort $n
+mob echoaround $n $I slinks into the deepest shadows as $n approaches.
+mob echoat $n $I slinks into the deepest shadows as you approach.
+end
+endif
+~
+#95601
+if clan $n Scion
+if ischarm $n
+say I would let you in, but I do not believe you are in control of yourself.
+else
+mob echoat $n the {RN{Di{Rg{Dh{RT{x {DW{Ra{Dl{Rk{De{Rr{x steps aside, allowing you to pass.
+mob echoaround $n {RN{Di{Rg{Dh{RT{x {DW{Ra{Dl{Rk{De{Rr{x gazes at $n as they proceed into the Chasm.
+mob gtransfer $n 95602
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95601
+endif
+end
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n {RN{Di{Rg{Dh{RT{x {DW{Ra{Dl{Rk{De{Rr{x steps aside as $n sweeps swiftly past him.
+mob gtransfer $n 95602
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95601
+end
+endif
+mob echoat $n {RN{Di{Rg{Dh{RT{x {DW{Ra{Dl{Rk{De{Rr{x frowns and shakes his head.
+mob echoaround $n {RN{Di{Rg{Dh{RT{x {DW{Ra{Dl{Rk{De{Rr{x steps in front of $n barring their entry into the Chasm.
+'Beyond this point is the Chasm of the Scions. {RYou may not pass.{x
+mob echoat $n A wall of evil magic stops your progress into the chasm.
+end
+endif
+~
+#95602
+if clan $n Scion
+mob echoat $n the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x grins evilly, baring its spiked, {yy{Ye{yll{Yo{yw{x teeth at you.
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+clan $n has arrived at the entrance to our Chasm!!!!!
+pmote eyes $n suspiciously and lowers gaze as he snarls barring his yellow teeth.
+'You are not welcome beyond this point.
+ 
+~
+#95603
+clan {RRAAAAAAAAAAAAAAAAAAAAOWRRRGH!!!!!{x (We are attacked)
+clan {RGRAAAAAAAAOUURGGGH!!!!!{x  (Help)
+~
+#95604
+if rand 35
+clan {RPPFFFFFT!!!!!{x
+if rand 30
+clan {RHIISSSSSSSSSSSSTTT!!!!!{x
+end
+endif
+if rand 20
+ clan {RGRAAAAAAAAOUURGGGH!!!!!
+end
+endif
+~
+#95605
+clan {DCome to my side! We are under {RATTACK{x!!!!
+clan {R$n{D, the fool, thinks $e can stand against us{x!
+~
+#95610
+if clan $n Invader
+mob echoat $n A premonition of danger stabs at your awareness like a knife to the vitals, and you step back just in time.
+mob transfer $n 95605
+end
+endif
+if affected $n fly
+mob transfer $n 95606
+mob echoat $n You land heavily on the ground, shaken, but unhurt.
+end
+endif
+mob echoat $n You are falling...
+mob delay 1
+~
+#95611
+mob remember $q
+mob echoat $q {x                                         .........Falling
+say This is REALLY going to hurt $q!
+mob damage $q 3000 9000 lethal
+mob forget
+mob delay 1
+~
+#95612
+mob remember $q
+say This is gonna hurt pretty bad
+slap $q
+mob forget
+mob delay 1
+~
+#95613
+say I AM ALIVE!
+mob remember $q
+mob snicker $q
+mob forget
+end
+~
+#95614
+mob echoaround $n $N leaves north.
+mob gtransfer $n 95601
+mob goto 95601
+mob echoaround $n $N has arrived.
+mob goto 95602
+~
+#95615
+if clan $n scion
+bow $n
+say How can I serve ye, master $n?
+end
+endif
+say You are not of Scion!
+clan {R$n{C has arrived at the smith! I shall keep our weapons safe from this scum!{x
+drop all
+end
+~
+#95620
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#95621
+if clan $N scion
+say As you command, $n.
+mob goto 95621
+mob delay 1
+endif
+end
+~
+#95622
+mob goto 95601 
+emote returns to its original position.
+~
+#95623
+if class $n vampire
+grin
+say Greetins, $n, I've got some new slaves for ya!
+cackle
+mob mload 95604
+mob mload 95607
+endif
+end
+~
+#95624
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get elidodi altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give elidodi $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95625
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95626
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95627
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95628
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95629
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95630
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95631
+if clan $n nighfall
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95632
+if clan $n scion
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#0
+
+#PRACTICERS
+M 95601 clan~	* the {rd{Rar{rk{x cleric
+S
+
+#HELPS
+0 0 submit~
+{CSyntax: SUBMIT
+ 
+{wSubmitting allows one to be taken as a slave by Scion. This is
+beneficial to those unable to stand up to their bullying, for slaves will
+not be harmed by Scion. Typing submit will toggle your submissive state,
+if you are currently enslaved you will break free of your bonds, if not
+you will become submissive and able to be enslaved.{x
+~
+-1 $~
+
+#$

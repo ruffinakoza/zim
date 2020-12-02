@@ -1,0 +1,3273 @@
+#AREADATA
+Name Shadow Stalkers Clanhall~
+Builders angelo cuthulo shaelindra~
+VNUMs 95700 95799
+Credits Asena~
+Security 9
+LevelRange 1 100
+Flags closed noquest nosummon clanhall~
+Clan Shadow~
+End
+
+#MOBILES
+#95700
+vhloughveng shadowguard clan guard~
+Vhloughveng the {DShadow{x~
+Vhloughveng the {DShadow{x Guardian of the temple of Shadows is here.
+~
+A tall and slender figure stands here in the shadows.  He watches
+everyone that approaches him and determines whether he should greet them or
+just kill them.  
+~
+human~
+ABTef DFHclm 0 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 95701 100~
+M speech 95704 Greetings Vhloughveng, I have returned home!~
+M kill 95733 100~
+M speech 95751 I have come to test a new recruit.~
+M exall 95755 5~
+M speech 95756 I have come for honor.~
+M exall 95702 ~
+C Shadow~
+#95701
+cleric healer shadowcleric shadowhealer~
+the {DShadow{x healer~
+The {DShadow{x clan healer is here, providing help to his brothers and sisters.
+~
+Dressed in regular traveling clothes, this man has obviously been around
+the lands and knows them well, but has decided that he can best serve his
+clan by providing healing to the members and helping to guard their powers
+in times of need.  
+~
+human~
+ABKQaef DFHVlm 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ C 0
+stand stand male 0
+0 0 medium flesh~
+~
+M give 95740 all~
+M speech 95741 give me the elidodi item~
+M speech 95742 give me the ruler item~
+M speech 95743 give me the scion item~
+M speech 95744 give me the chaos item~
+M speech 95745 give me the barbarian item~
+M speech 95746 give me the knight item~
+M speech 95747 give me the sylvan item~
+M speech 95748 give me the sentinel item~
+C Shadow~
+#95702
+keeper guardian hunter~
+the guardian~
+The guardian of Hunter Palace is here, serving his cabal.
+~
+After joining so many safaris, the guardian know implements what he
+learned as guarding this palace for very very much amounts of gold. 
+~
+human~
+ABWef DFJVZlmtu -1000 0
+92 40 2d500+22000 1d200+600 5d35+50 none
+-77 -77 -77 -32
+CEFKNU AB 0 S
+stand stand male 4502
+0 0 medium flesh~
+~
+M grall 95700 100~
+C Shadow~
+#95703
+hunter store owner golem~
+A large stone golem~
+A large stone golem is here acting as a store owner
+~
+There is a large mass of stone here.  He is the store owner for the
+Hunter clan.  He has large arms and legs that seem to be held together with
+magic, becuase there is nothing there 
+~
+golem~
+ABCJKT 0 100 0
+97 300 10d20+25000 0d0+0 35d35+100 none
+-150 -150 -150 -150
+ACDEFHKO AB FGT E
+stand stand none 1000000
+0 0 large flesh~
+~
+#95704
+bartender shadow phantom~
+a {Dshadow{z {bphantom{z~
+A {Dshadow{z {bphantom{z is here, serving drinks.
+~
+He's a shadow summoned from the shadow plane and forced into servitude. He's
+not much to look at, being completely black, and he doesn't say much, either.
+~
+gargoyle~
+AB DFJZlm 0 0
+80 80 394d80+0 800d11+95 27d2+60 none
+-48 -48 -48 -32
+0 0 0 0
+stand stand none 4208
+0 0 medium flesh~
+~
+F act F
+M speech 95703 the key~
+#95705
+avatar shadow~
+the shadow avatar~
+The shadow avatar stands here, watching over the treasury.
+~
+Hardly more than a dark shape in dark surroundings, he'd be hard to even spot
+if he weren't standing in the light.
+~
+gargoyle~
+ABdeh DFJVZlm 0 0
+91 0 1503d250+500000 2500d11+95 1d1+1 none
+4 4 4 4
+AEFK 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F act F
+F res D
+F vul HI
+M speech 95705 i've come for a clan weapon.~
+M give 95706 9603~
+M give 95707 18087~
+M give 95708 29521~
+M give 95709 13031~
+M give 95711 14759~
+M give 95712 6113~
+M give 95713 9604~
+M give 95715 31094~
+M greet 95716 100~
+M speech 95703 i need the key~
+M give 95718 3155~
+M give 95719 8300~
+M give 95714 99100~
+M give 95714 99100~
+M give 95710 99384~
+#95714
+~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#95715
+mpcode mob butler~
+Mpcode Mob that lets people out.~
+Mpcode Mob lets everyone out.
+~
+~
+unique~
+ABUe DFlmt 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCD 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M exit 95717 2~
+I 100
+#95716
+everence lady shadow~
+{rE{Rv{re{Rr{re{Rn{rc{Re{x~
+{rE{Rv{re{Rr{re{Rn{rc{Re{x the {mLady {DShadow{x stands here awaiting her orders.
+~
+Everence the Lady Shadow stands before you smileing to herself.  
+~
+half-elf~
+ABe 0 0 0
+90 90 460d90+0 900d11+95 31d2+67 none
+-55 -55 -55 -37
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M speech 95720 Feed me.~
+#95717
+passage guard dark shadow~
+A dark shadow~
+A dark being steps out from the alcove, blocking your path to the door.
+~
+This being has no solid form and floats silently toward you.  Wisps of mist drift behind his lifeless body.
+~
+undead~
+ABTef u -1500 0
+90 90 459d90+0 900d11+95 31d2+67 none
+-55 -55 -55 -37
+CDEHIKNO 0 0 0
+stand stand male 0
+0 0 large flesh~
+~
+M grall 95721 100~
+M speech 95722 Kira~
+M speech 95722 Sadin~
+M speech 95722 Angelo~
+#95718
+room shadow guard guardian~
+A shadow guardian~
+This undead being watchs over the room, preventing any problems.
+~
+~
+undead~
+AB 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 95723 100~
+#95719
+wizi vamp feeder~
+Guardian Shadow~
+~
+~
+undead~
+ABe 0 0 0
+100 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95724 Feed me, Master Sadin~
+I 100
+#95720
+bloody scion defeated~
+A Scion~
+A bloody defeated Scion is here, ripe for the sucking.
+~
+This foolish fellow attacked our clan hall, now he serves as food you the vamps of the Shadows.
+~
+human~
+AB KYdhj 0 0
+0 1 6d1+0 1d9+60 1d2+2 none
+9 9 9 9
+0 0 0 ABCDEFGHIJKLMNOPQT
+stand stand either 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#95721
+kirniq blind trainer shadow stalker~
+Kirniq~
+A {Dblind{x old {WS{wh{Dad{wo{Ww{x Stalker is here leaning heavily on the bar.
+~
+The old felar was one of the first Elders in the Shadow Stalker clan.  He
+had amassed a great amount of wealth for the clan, and during his time
+had the most recorded assassination of any member.  But that was long ago.
+His fur has since gone grey, and a thick white film over his eyes tell you
+he's stone blind.  And other than some hard drinking, he's still helping
+out the clan by training new recruits.  If you have any questions you can
+just ask him to {Gtell you about{x whatever you want to know.
+~
+felar~
+ABKSe DFPVZl 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+EFNV 0 C 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95725 about shadow cloak~
+M speech 95726 about hunt~
+M speech 95727 about find~
+M speech 95728 about phan~
+M speech 95729 about sling~
+M speech 95730 about world~
+M speech 95731 about take~
+M speech 95731 about reven~
+M speech 95725 about cloak~
+M speech 95732 about armor~
+#95722
+shadow exit mob~
+exit mob~
+exit mob
+~
+~
+human~
+ABce DFlmst 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 ABCDEFGHIJKLMNOPQRTUXYZa 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+I 100
+#95723
+shadow scribe~
+the {Dshadow {Wscribe{x~
+The {Dshadow {Wscribe {xis here, scribbling on a piece of parchment.
+~
+This shadow is a very odd sight--since when are gargoyles exceptional at
+reading and writing?  He looks rather irritated, so it would be best not to
+ask him.  
+~
+gargoyle~
+ABTe DFJZl 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+0 0 0 0
+stand stand male 976
+0 0 medium flesh~
+~
+F act F
+F aff T
+#95724
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTef DFVclmx -5000 0
+22 22 34d22+0 22d9+60 6d3+12 none
+-4 -4 -4 0
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95725
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclm -5000 0
+29 29 40d29+0 29d9+60 8d3+16 none
+-8 -8 -8 -2
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95726
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclm -5000 0
+36 36 79d36+0 36d9+60 11d3+19 none
+-13 -13 -13 -5
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95727
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclm -5000 0
+43 43 113d43+0 43d9+60 13d3+22 none
+-18 -18 -18 -9
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95728
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclm -5000 0
+50 50 147d50+0 50d9+60 15d3+26 none
+-22 -22 -22 -12
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95729
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclm -5000 0
+57 57 180d57+0 57d9+60 18d3+29 none
+-27 -27 -27 -15
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95730
+battle master dwarf tough~
+the battle master~
+A tough looking dwarf stands here, waiting to test your battle skills.
+~
+This dwarf has been appointed to the tast of testing the battle skills of all new applicants, his knowledge is unmatched.  He can defeat you with one arm chopped off and his ability to teach is just as immpressive.
+~
+dwarf~
+ABTef Zu -1500 0
+100 400 524d100+100000 1000d11+95 50d10+500 none
+-62 -62 -62 -42
+CDEFIJKNOW ABCDEGLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95749 I have come to test my battle skills.~
+M exall 95754 ØÈÂ	!~
+M give 95753 95776~
+#95731
+shadow watcher gdfw avatar felar~
+the Avatar of Sadin~
+A felar of golden color stands in the corner, watching the testing process.
+~
+This felar is the personal avatar of Sadin, patron God of Shadow.  It would be best to not upset her in any way.
+~
+felar~
+ABe H 3000 0
+105 105 557d105+0 1050d11+95 36d2+77 none
+-66 -66 -66 -44
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 95750 100~
+C Shadow~
+#95735
+shadow member injured hurt wounded~
+an injured Shadow~
+A badly wounded Shadow member lies on the ground bleeding.
+~
+This must be the person you have been sent to find.  Better give him that package quick and get out of here before his attacker shows up.
+~
+arial~
+ABe FIYZd 1200 0
+85 85 371d85+20000 425d10+85 28d3+47 none
+-48 -48 -48 -30
+ENO ABLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M give 95752 package~
+C Shadow~
+#95736
+huge killer troll qpwo~
+a huge troll~
+A huge killer troll wanders round, looking for something to smash.
+~
+This is the largest troll you have ever seen, and it looks angry at you.  You are about to die, sorry.
+~
+troll~
+A Zx -3000 0
+150 500 851d150+0 1500d11+95 100d50+1000 none
+-98 -98 -98 -67
+CEFO A 0 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+#95737
+wizi mob ghost check key drop~
+~
+~
+~
+ghost~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+I 95
+#95738
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclmx -5000 0
+64 64 214d64+0 64d9+60 19d3+32 none
+-31 -31 -31 -17
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95739
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclmx -5000 0
+71 71 248d71+0 71d9+60 21d3+36 none
+-35 -35 -35 -20
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95740
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclmx -5000 0
+78 78 282d78+0 78d9+60 24d3+39 none
+-40 -40 -40 -23
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95741
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclmx -5000 0
+85 85 315d85+0 85d9+60 26d3+42 none
+-45 -45 -45 -27
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#95742
+nightwalker scion form captured~
+the {DN{Ri{Dg{Rh{Dt {RW{Da{Rl{Dk{Re{Dr{x~
+This tall form towers over you with an acrid fluid dripping from its mouth and claws.
+~
+This Nightwalker stands at a towering 14 feet tall, a frightening undead
+knight of darkness.  His armor is hall, with the exception of the pale bones
+that fill it.  An aura of darkness surrounds him, sending a deep chill into
+even the darkest of hearts.  
+~
+human~
+ABTe DFVclmx -5000 0
+91 91 344d91+0 91d9+60 28d3+45 none
+-49 -49 -49 -30
+ACEFHJK ABLQT C 0
+stand stand male 0
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#95700
+platinum altar container~
+the altar of the Shadow~
+On the altar, the sign of shadow is engraved in platinum.~
+platinum~
+~
+container CEORY P
+10 ABCD 95702 10000 100 0
+0 0 0 P
+C Shadow~
+G none
+G none
+G none
+G none
+#95701
+golden tattoo shriveled zmxn~
+a shriveled up tattoo~
+A shriveled up tattoo floats in the air.~
+unknown~
+shadow~
+key APUfk AO
+0 0 0 0 0 0 0
+20 1 0 P
+G none
+G none
+G none
+G none
+#95702
+gray bone clankey shadow key shadow_altar_key~
+{WS{wh{Dad{wo{Ww{w'{Ds{x grey bone~
+{WS{wh{Dad{wo{Ww{w'{Ds{x grey bone is left on the floor.~
+bone~
+~
+key CEUVYf A
+0 0 0 0 0 0 0
+40 4 0 P
+G none
+G none
+G none
+G none
+#95703
+black hand~
+{DThe Bl{wack Ha{Dnd{x~
+You can barely make out a strange hand shape symble resting here.~
+energy~
+~
+treasure ABGMORTYZa AS
+0 0 0 0 0
+15 0 315782 P
+A
+20 -5
+A
+14 100
+A
+19 5
+A
+18 5
+A
+13 50
+A
+2 2
+G none
+G none
+G none
+G none
+#95704
+fire campfire~
+the fire~
+A large fire burns in the fireplace.~
+unknown~
+burnt wood and ashes~
+container ABGOR P
+8 AC 0 100 9 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95705
+bunk bed~
+a bunk bed~
+A few bunk-beds line the walls.~
+unknown~
+~
+furniture PTUYa 0
+AC EHIJKLMOQ EHL BDEFGH BDEFGH AC EHIJKLMOQ
+0 10 0 P
+G none
+G none
+G none
+G none
+#95706
+large piece of venison~
+a piece of venison~
+A large, juicy piece of venison is here, sizzling.~
+meat~
+~
+food GY A
+C ABF 0 0 0 C ABF
+0 1 5 P
+G none
+G none
+G none
+G none
+#95707
+donation pit~
+a small pit~
+A small donation pit for extra belongings is here.~
+unknown~
+~
+container COYg P
+10000 AC 0 1000 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95708
+obsidian arrow head table~
+an obsidian arrow-head table~
+A large, arrow-head-shaped table made from obsidian sits here.~
+unknown~
+obsidian stone~
+portal ABGTY 0
+0 0 0 3077 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95709
+chair angelo ninja ninjato~
+the {DDark God{z's chair~
+A chair bearing the insignia of Angelo floats above the room.~
+unknown~
+Shadow~
+furniture ABGTY 0
+A EIJKN EHK BEF BEF A EIJKN
+97 0 0 P
+G none
+G none
+G none
+G none
+#95710
+chair gerad consigliere purple~
+the Consigliere's chair~
+A regal chair adorned in {mpurple{z silk is here, for Gerad.~
+silk~
+~
+furniture ABGRT 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95711
+chair goltarth guerrero sombra~
+el Guerrero de la Sombra's chair~
+A chair of {Wshining mithril{z, padded in {rred silk{z, awaits Goltarth.~
+unknown~
+tiki wood~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95712
+sword dark whisper claneq~
+{DDark{x {rWhispers{x~
+{wA sword lies here whispering of dark powers untold{x~
+unknown~
+Dark energy~
+weapon ABGRTY AN
+longsword 2 15 slash DH
+25 26 18829 P
+A
+18 3
+C Shadow~
+G none
+G none
+G none
+G none
+#95713
+hunters hand dagger claneq~
+{rThe{x {mShadows{x {DHand{x~
+{wThe shadows hand lies here waiting for an owner{x~
+unknown~
+Dark energy~
+weapon ABGRTY AN
+dagger 3 5 pierce DH
+20 50 4144 P
+A
+18 2
+C Shadow~
+G none
+G none
+G none
+G none
+#95714
+hunters keen edge claneq axe~
+{rThe{x {mShadows{x {DKeen{x {rEdge{x~
+{wThe Shadows keen edge lies here waiting to taste blood once again{x~
+unknown~
+~
+weapon ABGRTY AN
+axe 3 16 cleave DH
+40 70 56968 P
+A
+18 3
+A
+19 3
+C Shadow~
+G none
+G none
+G none
+G none
+#95715
+bottle black ale fourty 40~
+a fourty-ounce bottle of the {Dblackest{z ale~
+A very large bottle of the {Dblackest{z ale sits here.~
+unknown~
+~
+drink CU A
+40 40 'ale' 0
+0 0 3064 P
+E
+bottle black ale fourty 40~
+That's a lot of cheap alcohol.
+~
+G none
+G none
+G none
+G none
+#95716
+eternity bottle distilled~
+a vial of distilled {geternity{z~
+A green vial bearing the mark of the Shadow is here.~
+glass~
+~
+drink CU A
+5 5 'local specialty' 0
+10 0 756 P
+G none
+G none
+G none
+G none
+#95717
+flaming angelo drunken ninja bottle~
+a {rf{z{Rl{z{Ya{z{Wm{z{Yi{z{Rn{z{rg{z {DAngelo{z~
+A small bottle shaped as a ninja breathing fire is here.~
+unknown~
+~
+drink ACU A
+2 2 'firebreather' 0
+30 0 375 P
+G none
+G none
+G none
+G none
+#95718
+tablet rule~
+a tablet of laws~
+A tablet of clan laws rests against the wall.~
+granite~
+~
+treasure ABR 0
+0 0 0 0 0
+0 0 0 P
+E
+laws~
+Upon induction into the Family of Shadow, you shall be required to follow the laws laid down by the patron Gods of Shadow.
+
+Sadin, {BGod{x of the {mForgotten {DSouls{x is the god of this clan. His word is law.
+
+1.You will not inflict harm or dishonor any member of the Shadow family; this includes public humiliation, attacking, or speaking ill of them to any other person.
+
+2. Shadow's participation in the wars of other clans will be limited. We shall not accept contract for the duration of a war, only individual raids. We shall never place another clans item in our altar, unless we are at war with them. Any violation of this will be instant removal from the clan.
+
+3.In the event if an attack upon our home, you should immediately come to the assistance of Vhloughveng.  Even if you unable to slay the invaders, you can loot their corpses and steal their disarmed weapons.
+
+4.You are to follow the instructions of any Shadow of a higher rank.  Should you have an issue or complaints, please speak to the rank above the person with whom the disagreement is with.
+
+5.You are not to assist any applicant with finding the location of the Temple, nor are you allowed to assist them during the testing phase of their training.  Any one is caught doing this; they may be removed or demoted.
+~
+C Shadow~
+G none
+G none
+G none
+G none
+#95719
+fountain liquad water~
+a small fountain~
+A small fountain bubbles in the center of the room.~
+stone~
+~
+fountain 0 0
+-1 -1 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95720
+soul vigilant clan item~
+Eternally Vigilant Soul of the Hunters~
+The Eternally Vigilant Soul of the Hunters hovers here radiating immence power~
+unknown~
+~
+treasure ABFGPRSTUYaef A
+0 0 0 0 0
+106 500 0 P
+G none
+G none
+G none
+G none
+#95721
+barstool bar~
+the bar~
+The long, obisidian bar runs the length of the north wall.~
+unknown~
+Obisidian~
+furniture 0 0
+ABCD EGIJOP DGJ BDEFGH BDEFGH ABCD EGIJOP
+0 0 0 P
+G none
+G none
+G none
+G none
+#95722
+barbeque bbq ribs tastey~
+some tastey barbeque ribs~
+Some tastey barbeque ribs sit on a plate here.~
+unknown~
+~
+food 0 A
+AC DF 0 0 0 AC DF
+0 0 5 P
+G none
+G none
+G none
+G none
+#95723
+baked potatoe~
+a baked potatoe~
+A baked potatoe sits on a plate, waiting to be eaten.~
+unknown~
+~
+food 0 A
+B CE 0 0 0 B CE
+0 0 5 P
+G none
+G none
+G none
+G none
+#95724
+ninja teku taru~
+{DTeku-Taru{z~
+A black-bladed ninja-to rests on the ground.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+longsword 2 22 slash AH
+36 37 534441 P
+A
+18 3
+A
+19 3
+C Shadow~
+G none
+G none
+G none
+G none
+#95725
+teku tani ninja~
+{DTeku-Tani{z~
+A black-bladed ninja-to rests on the ground.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+longsword 3 18 slash AH
+46 47 654859 P
+A
+18 4
+A
+19 4
+C Shadow~
+G none
+G none
+G none
+G none
+#95726
+dagger cercatore del cuore~
+{DCercatore del Cuore{z~
+A black-bladed dagger lies here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+dagger 4 11 stab AH
+56 57 306714 P
+A
+18 5
+A
+19 5
+C Shadow~
+G none
+G none
+G none
+G none
+#95727
+creatore della vedova dagger~
+{DCreatore della Vedova{z~
+A black-bladed dagger rests here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+dagger 5 10 stab DH
+66 67 56694 P
+A
+18 6
+A
+19 6
+C Shadow~
+G none
+G none
+G none
+G none
+#95728
+teku ninja tsunami~
+{DTeku-Tsunami{z~
+A black-bladed ninja-to rests here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+longsword 4 23 slash DH
+76 50 223780 P
+A
+18 7
+A
+19 7
+C Shadow~
+G none
+G none
+G none
+G none
+#95729
+tappo futuro dagger~
+{DTappo Futuro{z~
+A black-bladed dagger rests here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+dagger 6 11 stab EH
+86 87 541486 P
+A
+18 8
+A
+19 8
+C Shadow~
+G none
+G none
+G none
+G none
+#95730
+assassino dagger di leggenda~
+{DAssassino di Leggenda{z~
+A black-bladed dagger rests here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+dagger 6 13 stab EH
+96 97 652583 P
+A
+18 9
+A
+19 9
+C Shadow~
+G none
+G none
+G none
+G none
+#95731
+antenati dimenticati dagger~
+{DAntenati Dimenticati{z~
+A black-bladed dagger sits here.~
+unknown~
+~
+weapon CGIJNPTUYa AN
+dagger 7 12 stab EH
+106 107 669213 P
+A
+18 10
+A
+19 10
+C Shadow~
+G none
+G none
+G none
+G none
+#95732
+akidu suto ninja~
+{DAkidu-Suto{z~
+A black-bladed ninja-to lies here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+longsword 6 21 slash DH
+106 107 481812 P
+A
+18 10
+A
+19 10
+C Shadow~
+G none
+G none
+G none
+G none
+#95733
+timore nero whip~
+{DTimore Nero{z~
+A black metallic whip lies coiled on the ground.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+whip 6 13 whip EH
+106 107 442945 P
+A
+18 10
+A
+19 10
+C Shadow~
+G none
+G none
+G none
+G none
+#95734
+key book legend clan weapons~
+a metal-bound book~
+A metal-bound book lies here.~
+adamantite~
+~
+key U A
+0 0 0 0 0 0 0
+0 0 0 P
+E
+metal bound book clan weapons~
+The book is very long, and you don't think you could stand reading it all in
+one sitting... however, a particular page is marked. It seems to be a chart.
+ 
+"List of known weapons forged by the duergar for the clan Shadow:
+ 
+The ninja-to Teku-Taru, for those of rank 21...
+The ninja-to Teku-Tani, for those of rank 31...
+The dagger Cercatore del Cuore, for those of rank 41...
+The dagger Creatore della Vedova, for those of rank 51...
+The ninja-to Teku-Tsunami, for those of rank 61...
+The dagger Tappo Futuro, for those of rank 71...
+The dagger Assassino de Leggende, for those of rank 81...
+
+ 
+ There were five copies of each item forged by the deurgar, save for the truly
+unique weapons for the heros, for which only 1 of each was forged:
+ 
+The dagger Antenati Dimenticati...
+The ninja-to Akidu-Suto...
+The whip Timore Nero...
+The axe Ascia die Re...
+The nunchaku Ryukyu Kyoshi..."
+ 
+Scribbled in the margin of the page in red ink:
+ 
+{Rfire       is  -|--
+
+frost      is  -/-----
+
+lightning  is  /~~~~~~~~~~~~~~*
+
+piece      is  --X
+
+shadow     is  ==-==
+{z
+~
+C Shadow~
+G none
+G none
+G none
+G none
+#95735
+ascia dei re~
+{DAscia dei Re{z~
+A black-handled axe of fine quality lies here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+axe 6 21 cleave DE
+106 107 2150036 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#95736
+ryukyu kiyoshi~
+{DRyukyu-Kiyoshi{z~
+A pair of black-handled nunchuku rest here.~
+adamantite~
+~
+weapon CGIJNPTUYa AN
+exotic 5 22 beating EH
+106 107 1751756 P
+A
+18 10
+A
+19 10
+G none
+G none
+G none
+G none
+#95737
+chair bone soul collector malakai~
+the Soul Collector's throne~
+A {rblood-drenched{z throne of human {Wbones{z waits for Malakai.~
+bone~
+~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95738
+grave marker angelo stone tomb slab obsidian~
+Angelo's grave~
+A long slab of obsidian sits in the center of the room.~
+stone~
+~
+treasure 0 0
+0 0 0 0 0
+0 0 0 P
+E
+grave marker angelo stone tomb slab obsidian~
+It appears to be about the size of a coffin. There are words inscribed on it's
+surface:
+ 
+{WHere lies the body of the Great Creator Angelo Akidu-Suto, God of Darkness.
+A brother who became our Patron God, he was called to fight in the Grand War,
+like all eventually are. He was fearless and fair, and a friend to all who
+knew that light blinds us from truth.
+{z
+
+ 
+Below it, someone has scrawled in what seems to be charcoal:
+{D
+My mind is bending from black to white
+and alarms are sounding, but I continue to fight
+They're dropping like flies all around me
+oh, the passionate are few and far between
+{z
+~
+G none
+G none
+G none
+G none
+#95739
+chair fingdor cleaner~
+the Cleaner's chair~
+A simple chair of dark {yoak{z sits here, for Fingdor.~
+unknown~
+oak~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95740
+chair kikuchiyo seventh~
+the Seventh's chair~
+A fine {csteel{z chair for the Seventh Samurai Kikuchiyo rests here.~
+steel~
+~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95741
+chair rhajaat throne flesh bone~
+the Veleno delle Anime's throne~
+A grotesque throne of {Yflesh{z and {Wbone{z awaits Rhajaat.~
+bone~
+~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95742
+bench~
+a comfortable bench~
+A long bench for the Soldiers of Shadow sits here.~
+wood~
+~
+furniture ABGRTY 0
+ADE EIJKN EH BDEFGH BDEFGH ADE EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95743
+shoji chair teak wood~
+the Ryu No Arashi's chair~
+A chair of {Ddark{z Teak {ywood{z for Shoji is here.~
+wood~
+~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95744
+sadin's cover throne chair~
+the Toraneko Kouken's throne~
+A throne covered in {Ygolden fur{z of a lion is here, awaiting Sadin.~
+fur~
+~
+furniture ABGRTY 0
+A EIJKN E BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95745
+chair goff il ministro della difesa~
+Il Ministro della Difesa's chair~
+A chair of {Ddark grey granite{z rests in the shadows, awaiting Goff.~
+unknown~
+hemp wood granite~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95746
+chair abogado de los contractos protagoras throne~
+the Abogado de los Contractos' chair~
+A throne of {Wsilver{z and {Ygold{z coins awaits Protagoras.~
+unknown~
+hemp wood~
+furniture ABGRTY 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95747
+portal out front entrance~
+a portal to the entrance~
+~
+unknown~
+~
+portal 0 0
+0 0 A 95700 0
+0 0 0 P
+C Shadow~
+G none
+G none
+G none
+G none
+#95748
+soul filler drink~
+A {DSoul {CFiller{x~
+This syrup like drink fills your soul with a warm burning sensation.~
+unknown~
+Syrup~
+drink U A
+10 5 'local specialty' 0
+21 1 1492 P
+E
+filler~
+A bottle shaped like a small spider web is filled with a clear syrup.
+~
+E
+soul~
+A bottle shaped like a small spider web is filled with a clear syrup.
+~
+E
+soul~
+A bottle shaped like a small spider web is filled with a clear syrup.
+~
+G none
+G none
+G none
+G none
+#95749
+shadow key~
+The shadow key~
+A key which seems to blows in the wind.~
+unknown~
+shadows~
+key FHMNU A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95750
+council meeting table~
+The table of {Ddarkness{x~
+A faintly glowing table sits here, a dark beacon in the light of the room.~
+darkness~
+~
+portal AC 0
+0 0 0 3054 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95751
+prime-minister~
+the {BPrime{W-{DM{Ri{Dn{Ris{Dt{Re{Dr{x's chair~
+A tall backed chair cover in a plush velvet is here. The words {BPrime{W-{DM{Ri{Dn{Ris{Dt{Re{Dr{x are engraved in gold at the top of the arch.~
+steel~
+~
+furniture A 0
+A CDEGHIK EH BDEFGH BDEFGH A CDEGHIK
+0 0 0 P
+G none
+G none
+G none
+G none
+#95752
+recruitment~
+the {BRecruitment{x's chair~
+A tall backed chair cover in a plush velvet is here. The word {BRecruitment{x is engraved in gold at the top of the arch.~
+steel~
+~
+furniture A 0
+A CDEGHIK EH BDEFGH BDEFGH A CDEGHIK
+0 0 0 P
+G none
+G none
+G none
+G none
+#95753
+defense~
+the {RDefense{x's chair~
+A tall backed chair cover in a plush velvet is here. The word {RDefense{x is engraved in gold at the top of the arch.~
+steel~
+~
+furniture A 0
+A CDEGHIK EH BDEFGH BDEFGH A CDEGHIK
+0 0 0 P
+G none
+G none
+G none
+G none
+#95754
+diplomacy~
+the {mDiplomat{x's chair~
+A tall backed chair cover in a plush velvet is here. The word {mDiplomacy{x is engraved in gold at the top of the arch.~
+steel~
+~
+furniture A 0
+A CDEGHIK EH BDEFGH BDEFGH A CDEGHIK
+0 0 0 P
+G none
+G none
+G none
+G none
+#95755
+business~
+the {YBusiness{x's chair~
+A tall backed chair cover in a plush velvet is here. The word {YBusiness{x is engraved in gold at the top of the arch.~
+steel~
+~
+furniture A 0
+A CDEGHIK EH BDEFGH BDEFGH A CDEGHIK
+0 0 0 P
+G none
+G none
+G none
+G none
+#95756
+advisor~
+the {WAdvisor{x's chair~
+A plush chair is here, just right of the Prime Minister's chair.  The word {WAdvisor{x is engraved on to the back arch.~
+steel~
+~
+furniture A 0
+A CDEGHIK EH BDEFGH BDEFGH A CDEGHIK
+0 0 0 P
+G none
+G none
+G none
+G none
+#95757
+keg~
+~
+~
+unknown~
+Magic~
+portal 0 0
+0 A A 95712 0
+0 0 0 P
+E
+keg~
+When you turn the handle nothing comes out, it must be empty.  You do however notice a faint humming from inside the container.
+~
+G none
+G none
+G none
+G none
+#95758
+midgaard portal yellow~
+A bright {Yyellow{x portal~
+A bright {Yyellow{x portal~
+unknown~
+Magic~
+portal A 0
+0 A A 98000 0
+0 0 0 P
+E
+yellow~
+A voice echos in your head "I will transport you to the birthplace of Lord Angelo".
+~
+G none
+G none
+G none
+G none
+#95759
+midgaard portal old grey~
+A dark {Dgrey{x portal~
+A dark {Dgrey{x portal~
+unknown~
+Magic~
+portal C 0
+0 A A 5381 0
+0 0 0 P
+E
+grey~
+A voices echos in your head "I will transport you to the city of the dead".
+~
+G none
+G none
+G none
+G none
+#95760
+blue portal new thalos~
+A humming {Bblue{x portal~
+A humming {Bblue{x portal~
+unknown~
+magic~
+portal B 0
+0 A A 9506 0
+0 0 0 P
+E
+blue~
+A voice echoes in your head "I will transport you to the nearest town".
+~
+G none
+G none
+G none
+G none
+#95761
+sparkling clear pirate sea cove~
+A sparkling {Cclear{x portal~
+A sparkling {Cclear{x portal~
+unknown~
+magic~
+portal A 0
+0 A A 17171 0
+0 0 0 P
+E
+clear~
+A voice echoes in your head "I shall transport you to the Pirates Cove, near the sea".
+~
+G none
+G none
+G none
+G none
+#95762
+multi-hued portal~
+A {Rm{Cu{Ml{Bt{Gi{x-{mh{Du{ge{Wd{x portal~
+A {Rm{Cu{Ml{Bt{Gi{x-{mh{Du{ge{Wd{x portal~
+unknown~
+magic~
+portal ABC 0
+0 A E 0 0
+0 0 0 P
+E
+multi-hued~
+A voice echos in your head "I will transport you...wherever please ME!!!!!"
+~
+G none
+G none
+G none
+G none
+#95763
+carpet rug secret~
+~
+~
+unknown~
+Cloth~
+portal 0 0
+0 A A 95715 0
+0 0 0 P
+E
+carpet~
+A notice a slight shimmer around the outer edge of the rug, how very strange.
+~
+G none
+G none
+G none
+G none
+#95764
+throne lorath scrollwork raven-eye~
+The Knight of the Black Raven's chair~
+A throne engraved with {mraven-{geye{x scrollwork waits for Lorath.~
+silk~
+~
+furniture ABGRT 0
+A EFIKMNO EHK BDEFGH BDEFGH A EFIKMNO
+0 0 0 P
+E
+raven-eye~
+The black and yellow {mraven-{yeye{x is dark and shiny, and made of
+obsidian.  
+~
+E
+lorath throne~
+A throne with exquisitely engraved scrollwork in the likeness of
+raven-eyes is here.  
+~
+G none
+G none
+G none
+G none
+#95765
+tattoo pattern black hand clanitem shadow~
+a tattoo pattern of a {DBla{wck Ha{Dnd{x~
+A tattoo pattern of a {DBla{wck Ha{Dnd{x is on the ground.~
+silk~
+~
+treasure CRYef AO
+0 0 0 0 0
+60 0 0 P
+C Shadow~
+G none
+G none
+G none
+G none
+#95766
+lucian chair~
+Pugnus de Veneratio chair~
+A {cgr{ga{cni{bt{ce-{gp{cer{bc{ch{x is here suspended by {Yg{yo{Dld-trimmed-black-si{yl{Yk{x.~
+stone~
+~
+furniture AB 0
+A DHIJM EHK BDEFGH BDEFGH A DHIJM
+0 0 0 P
+G none
+G none
+G none
+G none
+#95767
+tieran charred chair fire flame~
+Tieran's flaming chair~
+A huge {Dcharred{x chair of {Rflames{x sits here awaiting Tieran.~
+fire~
+~
+furniture AB 0
+A DHIJM EH CDFI CDFI A DHIJM
+0 0 0 P
+G none
+G none
+G none
+G none
+#95768
+flyer recruitment invitation shadow~
+A formal looking invitation~
+A {Dshadowy {Wparchment{x lies on the ground, bearing the mark of the {DShadow{x Stalkers.~
+unknown~
+Shadows~
+trash TUY AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+parchment~
+Your truly remarkable skills as a hunter of people and finder for lost
+and stolen items have reached the ear of the mighty {DShadow{x Stalkers. 
+Therefore, it gives us great pleasure to present you with a great
+opportunity, an invitation to join our family.  Should you wish to pursue
+this course, merely seek of a member of the {DShadow{x Clan and present this
+invitation to them.  From there, they will inform you of what shall be done.
+
+~
+E
+invitation~
+Your truly remarkable skills as a hunter of people and finder for lost
+and stolen items have reached the ear of the mighty {DShadow{x Stalkers. 
+Therefore, it gives us great pleasure to present you with a great
+opportunity, an invitation to join our family.  Should you wish to pursue
+this course, merely seek of a member of the {DShadow{x Clan and present this
+invitation to them.  From there, they will inform you of what shall be done.
+
+~
+G none
+G none
+G none
+G none
+#95770
+gray bone clankey shadow door key~
+Dark Shadow Door key.~
+A Dark Shadow Door key is left on the floor.~
+bone~
+~
+key CEORUYf AO
+0 0 0 0 0 0 0
+40 4 0 P
+G none
+G none
+G none
+G none
+#95771
+shadow sheaf~
+a sheaf of {Dshadowy {xpaper~
+A sheaf of paper blends into the {Dshadows{x.~
+paper~
+~
+parchment C A
+0 0 0 0 0 0 0
+0 5 1000 P
+G none
+G none
+G none
+G none
+#95772
+sheet black parchment quality~
+a sheet of high-quality {Dblack{x parchment~
+A glossy sheet of high-quality {Dblack{x parchment is here.~
+unknown~
+~
+parchment C A
+0 A 0 0 0 0 A
+0 5 10000 P
+G none
+G none
+G none
+G none
+#95773
+shadowy bulletin dark~
+a {Dshadowy{x bulletin~
+A dark bulletin resting in the {Dshadows{x catches your eye.~
+paper~
+~
+parchment C AP
+0 B 0 0 0 0 B
+0 5 10000 P
+G none
+G none
+G none
+G none
+#95774
+client request shadow parchment~
+a client's request~
+A request from a {Dshadow{x client is here.~
+paper~
+~
+parchment C A
+0 A 0 0 0 0 A
+0 5 100 P
+G none
+G none
+G none
+G none
+#95775
+shadow receipt parchment~
+a shadow receipt~
+A {Dshadow{x receipt flutters here.~
+paper~
+~
+parchment C A
+0 A 0 0 0 0 A
+0 5 10 P
+G none
+G none
+G none
+G none
+#95776
+shadow treasure testing process reward~
+Shadows reward~
+A glowing mass of mist floats above the ground.~
+unknown~
+Shadow~
+trash A A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95777
+package~
+a package~
+A neatly wrapped package lies on the ground.~
+unknown~
+cloth~
+trash A A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95778
+dragon tamer marble~
+a cool comfy marble chair~
+A {Yshiny {Gmarble {Rchair {Yshaped {Gcomfortably {xfor its {Rowner {YShadas.~
+marble~
+~
+furniture AB P
+A DEGIJLM EH DGH DGH A DEGIJLM
+0 0 0 P
+G none
+G none
+G none
+G none
+#95779
+opposite demonskin angel feather jerin~
+his chair of {Ro{rpp{Ro{Ds{yi{Yte{ys{x and his tormentors are silenced.~
+A {Rde{rm{Dons{rk{Rin{x and {ya{Ynge{xl fea{Ythe{yr {xrug is draped over a {Dchair{x, awaiting Jerin.~
+unknown~
+skin~
+furniture AG 0
+A DFGHIJ EH BCDFG BCDFG A DFGHIJ
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#95700
+The bottom of {mEternal{x {DVigilance{x~
+You are standing near a shiny gold well blocked by a big boulder on
+the well mouth. A golden aura fills your body.
+Up north is the Shadow clan guild. {RNon-Shadow Stalkers You have been warned...{x
+~
+0 ADNSXcd inside
+D0
+~
+~
+DMZ 95770 95701
+0 0
+D2
+~
+~
+Z 0 9783
+0 0
+D5
+~
+~
+ABCFGZ 95701 95720
+0 0
+C Shadow~
+S
+#95701
+Entrance to the Shadow Clan~
+This place is dimly lit by a flickering torch from a doorway leading
+north.  The guardians are keeping the hunters from enemies.  
+~
+0 ACDNXd inside
+D0
+~
+~
+DZ 0 95702
+0 0
+D2
+~
+~
+DMZ 95770 95700
+0 0
+S
+#95702
+Main Chambers of the Shadows~
+You are inside well lit chamber, with golden plates on the walls. 
+All three corridors connecting this hall, proves how easy hunters can
+find their way.
+~
+0 ADNXd inside
+D0
+~
+~
+Z -1 95703
+0 0
+D1
+~
+~
+Z 0 95704
+0 0
+D2
+~
+~
+DZ 0 95701
+0 0
+D3
+~
+~
+Z 0 95705
+0 0
+S
+#95703
+Altar Room of the Shadow~
+The room is lit by many shiny golden objects glowing on the walls...  The
+air is cooler here, and you sense the presence of something powerful.  On
+the north wall, there's a large skin sheet with blood script on it.  
+~
+0 DNXd inside
+E
+blood sheet script~
+The blood reads:
+ 
+{reternally vigalant
+eternally awake
+eternally hunting
+their eternal fate{z
+~
+D2
+~
+~
+Z -1 95702
+0 0
+M 110 H 100
+S
+#95704
+A well-lit hallway~
+This is a plain looking hallway with smooth rounding walls that lead to a
+ceiling that is domed high above your head.  The walls are grey and smooth
+to the touch.  Back to the west is the main chambers, and to the east is the
+donation room.  To the north you see the bar, and to the south is the
+parchment store.  
+~
+0 ADNXd inside
+D0
+~
+~
+Z 0 95711
+0 0
+D1
+~
+~
+Z 0 95706
+0 0
+D2
+~
+~
+Z 0 95719
+0 0
+D3
+~
+~
+Z 0 95702
+0 0
+S
+#95705
+A well-lit hallway~
+This is a plain looking hallway with smooth rounding walls that lead to a
+cieling that is domed high above your head.  The walls are grey and smooth
+to the touch.  Back to the east is the main chambers, and to the west is the
+end of the hall 
+~
+0 ADNXd inside
+D1
+~
+~
+Z 0 95702
+0 0
+D3
+~
+~
+Z 0 95707
+0 0
+S
+#95706
+Donation Room~
+This is a very large room with a pit in the center; the pit serves as a place
+to safely leave items that are no longer needed, or extras you may have. The
+walls are high, and the ceiling is domed. The walls have been polished to an
+extremely smooth surface.
+~
+0 ADNXd inside
+D3
+~
+~
+Z 0 95704
+0 0
+S
+#95707
+An intersecting hallway~
+You come to the end of the hall and it splits North and South.  To the
+North you can see a large wooden door with the clan symbol burned into it's
+face.  To the south you can smell the scents of food cooking and feel the
+warmth from the campfire in the center of the room.  A slight glow comes
+from the room to the south allowing enough light in here to see.  This room
+is rather plain, the walls are smooth as glass and nearly polished to a
+mirror surface.  The ceiling is tall and polished in the same way.  You
+notice only one thing that is different in this room.  On the far end of the
+wall is a statue of the lord of this clan. It's a striking resembalence of
+Angelo Akidu-Suto, God of Darkness.
+~
+0 ADNWXd inside
+D0
+~
+~
+Z 0 95708
+0 0
+D1
+~
+~
+Z 0 95705
+0 0
+D2
+~
+~
+Z 0 95709
+0 0
+D3
+~
+~
+Z 0 95718
+0 0
+D5
+~
+statue~
+ABCFGJZ 95734 95712
+0 0
+S
+#95708
+Meeting Chambers of the Shadows~
+This room has a large table in the center of the room.  It is shaped like
+the head of an arrow.  The surface of the table seems to be polished to an
+extremly smooth surface.  As you look into the surface of the table you
+notice there is no reflection, it seems to absorb all light and your
+reflection as well.  There are large chairs surrounding the table Three
+along each side, one at the head of the arrow head and another at the Point
+of the arrow head.  The chair at the point of the arrow head is larger than
+the rest.  It has the symbol of Angelo carved into the headpiece.  The
+symbol of a Ninja-To hanging from a belt.  It would not be a good idea to
+sit in his chair.  The chair at the head of the arrow head is for the clan
+leader.  The room is shaped like an arrow head as well.  The cieling is high
+and seems to allow light in through the rough rock.  Like a translucent
+piece of granite.  The light illuminates the room in a soft glow keeping it
+warm, but not too warm.  
+~
+0 ACDNXd inside
+D0
+~
+~
+Z 0 95710
+0 0
+D2
+~
+~
+Z 0 95707
+0 0
+S
+#95709
+Home away from Home~
+This room reminds you of a home you never had, but also always wanted. 
+The room has an aura of safety about it which allows you to become more
+relaxed and rest here.  
+~
+0 ADNXd inside
+D0
+~
+~
+Z 0 95707
+0 0
+S
+#95710
+The Elder's Room~
+You step through the portal into a different part of the cave.  It's much
+cooler here; you get the feeling you are much further underground.  The
+walls here are much smoother than the other unfinished parts of the cave,
+and the humid air smells of deep earth.  It almost feels like a tomb...  
+~
+0 ACDNTXd inside
+D2
+~
+~
+Z 0 95708
+0 0
+C Shadow~
+S
+#95711
+Shadow Tavern~
+Carved out of the stone, this room has a rectangular shape, with a bar running
+the length of the north wall. Behind the bar, there are shelves of various
+bottles and vials, as well as a small grill for food preparation. There's a
+sunlight in this room, allowing the sun and moonlight into the bar. There are
+torches as well. At the entrance, a small carpet bears the insignia of Shadow
+stitched into it.
+~
+0 ADNXd inside
+D1
+~
+~
+Z 0 95716
+0 0
+D2
+~
+~
+Z 0 95704
+0 0
+S
+#95712
+The Cellar~
+You descend the spiral staircase into the cellar. The walls are made of the
+blackest obsidian, and there's no light other than the small amount creeping
+in from the cracks in the trapdoor above. Here, the treasury of the Shadow Clan
+resides.
+~
+0 DNTUXd inside
+D4
+~
+staircase~
+ABCFGJZ 95734 95707
+0 0
+S
+#95713
+Dark Tunnel~
+Faint light from the torchs to the south provides the little amount of
+light in the passage, although it is not enough to see any details with.  A
+small alcove lies to the right of a large door that shows a faint shine,
+beneath the layers of dust covering it.  Above the handle you notice some
+scratchs, but are not sure from what.  As you approach the door, a noise
+startles you.  
+~
+0 ADNWXd inside
+D0
+~
+~
+ABCFGZ 95749 95714
+0 0
+D2
+~
+~
+Z 0 95718
+0 0
+S
+#95714
+Hall of Rememberance~
+This chamber is quite large and round.  The outer wall is filled with
+alcoves, each with a statue of a current or former Hero of the Shadow Clan. 
+As you glance around the room, you see the statues of Rhajaat, Goff,
+Protagoras, Gerad, Fingdor, Sadin, Shoji, Goltarth, Angelo and many other
+that you do not recognize.  A large table in the center of the room, shaped
+like a hexagon, emits a faint glow.  You see six chairs around the table,
+each with a name engraved on it.  A large keg sits on the far wall, waiting
+to be tapped.  
+~
+0 DNXd inside
+E
+keg~
+When you turn the handle nothing comes out, it must be empty.  You do however notice a faint humming from inside the container.
+~
+D2
+~
+~
+ABCFGZ 95749 95713
+0 0
+S
+#95715
+Chamber of Portals~
+A large chamber filled with torches that glow so brightly it hurts your
+eyes greets you.  All around you, pictures of epic battles between the
+forces of darkness and light are painted on the walls, thankfully darkness
+seems to win most of them it seems.  Along the back wall stand five
+glimmering portals, each a different color of the rainbow.  There is also a
+small bunk bed located off to one side, should you need to rest your weary
+bones.  
+~
+0 DW inside
+S
+#95716
+Vampire Feeding Room~
+This room is here for all vampires of the Shadow Clan.  Mearly say "Feed me, Master Sadin" and you shall be rewarded.
+~
+0 ANWXd inside
+D3
+~
+~
+Z 0 95711
+0 0
+S
+#95718
+Passage of Remembrance~
+This long passageway slopes downward as it curves around a large pillar
+of rock.  Statues of figures shrouded in darkness hold torchs, lighting the
+way.  You can hear the voices of fallen and slain brothers and sisters of
+Shadow, giving you strength in your journeys.  As you approach the bottom a
+tunnel start to form, leading northward into the darkness.  
+~
+0 DNWXd inside
+E
+statues~
+The statues seem to resemble former members of the Great Shadow clan, however the names are escaping you at the time.
+~
+D0
+~
+~
+Z 0 95713
+0 0
+D1
+~
+~
+Z 0 95707
+0 0
+S
+#95719
+Shadow Parchments~
+The local parchment store is a fairly small room drilled into the solid
+stone of the clanhall.  A variety of torches burn quietly in wall-brackets,
+their flickering and wavering light leaving little of the room in darkness
+for optimal reading and writing conditions.  A stone slab of a counter
+separates the front of the room from the rear, where sheaf upon sheaf of
+parchment are stacked in neat shelves lining the bottom of the walls.  
+~
+0 ADNXd inside
+D0
+~
+~
+Z 0 95704
+0 0
+S
+#95720
+Passage to the Proving Grounds~
+You are standing in a roughly dug earthern chamber which seems to run
+directly under the Shadow Clan temple.  Torches seem to light as you
+approach, filling the area with light and a faint black smoke.  The
+passageway leads northward into nothingness, not even your footsteps seem to
+echo within this grave-like place.  
+~
+0 DNTX inside
+D0
+~
+~
+Z 0 95721
+0 0
+S
+#95721
+A Twisting Passageway~
+The passage seems to lead on forever, turning this way and that.  At
+times it climbs up then swiftly plunges back into the bowels of the earth. 
+After countless turns and more walking then you cared to do, you can spot a
+bright light to the west.  
+~
+0 DNX inside
+D2
+~
+~
+Z 0 95720
+0 0
+D3
+~
+~
+Z 0 95722
+0 0
+S
+#95722
+Shadow's Proving Grounds~
+A huge underground cavern carved from the natural bedrock of the area
+opens into a massive wide space, which is divided into three sections.  A
+large arena type building lies to the south, a dark tunnel leads northward
+deeper into the bedrock and a wide river lies to the west, beyond which lies
+a great expanse of rocky terrian.  A stairway has been carved into one of
+the natural walls, leading upward toward the surface.  
+~
+0 ADNTX inside
+D0
+~
+~
+DZ 0 95724
+0 0
+D1
+~
+~
+Z 0 95721
+0 0
+D2
+~
+~
+Z 0 95723
+0 0
+D4
+~
+~
+ABDGZ 0 10772
+0 0
+S
+#95723
+The Battle Arena~
+You have entered a small but very functionable arena, with tall walls and
+sand covering the ground.  There is nothing of any major intrest here, other
+then the few blood stains with soak the sand in several places.  
+~
+0 DJNX inside
+D0
+~
+~
+Z 0 95722
+0 0
+S
+#95724
+Test of Honor~
+The tunnel is filled with large boulders from a prior cave-in, although
+it is hard to find a way other then south in which to go.  A faint odor
+lingers in the air, but you are unable to place it off the top of your head.
+You feel like you should complete your task and leave quickly.  
+~
+0 DNTX inside
+D2
+~
+~
+DZ 0 95722
+0 0
+S
+#0
+
+#SPECIALS
+M 95703 spec_repairman	* A large stone golem
+M 95716 spec_cast_seneschal	* {rE{Rv{re{Rr{re{Rn{rc{Re{x
+S
+
+#RESETS
+D 0 95700 5 2	* The bottom of {mEternal{x {DVigilance{x: door to the down: closed and locked
+D 0 95707 5 2	* An intersecting hallway: door to the down: closed and locked
+D 0 95712 4 2	* The Cellar: door to the up: closed and locked
+D 0 95713 0 2	* Dark Tunnel: door to the north: closed and locked
+D 0 95714 2 2	* Hall of Rememberance: door to the south: closed and locked
+D 0 95722 4 1	* Shadow's Proving Grounds: door to the up: closed
+M 0 95700 1 95700 1	* Vhloughveng the {DShadow{x (The bottom of {mEternal{x {DVigilance{x)
+E 0 95770 0 17		*	Dark Shadow Door key.: held in the hands
+O 0 95747 0 95701	* a portal to the entrance (Entrance to the Shadow Clan)
+M 0 95701 1 95703 1	* the {DShadow{x healer (Altar Room of the Shadow)
+E 0 95702 0 17		*	{WS{wh{Dad{wo{Ww{w'{Ds{x grey bone: held in the hands
+O 0 95700 0 95703	* the altar of the Shadow (Altar Room of the Shadow)
+P 0 95765 1 95700 1	* the altar of the Shadow: a tattoo pattern of a {DBla{wck Ha{Dnd{x
+O 0 95718 0 95703	* a tablet of laws (Altar Room of the Shadow)
+O 0 95707 0 95706	* a small pit (Donation Room)
+O 0 95744 0 95708	* the Toraneko Kouken's throne (Meeting Chambers of the Shadows)
+O 0 95710 0 95708	* the Consigliere's chair (Meeting Chambers of the Shadows)
+O 0 95741 0 95708	* the Veleno delle Anime's throne (Meeting Chambers of the Shadows)
+O 0 95745 0 95708	* Il Ministro della Difesa's chair (Meeting Chambers of the Shadows)
+O 0 95767 0 95708	* Tieran's flaming chair (Meeting Chambers of the Shadows)
+O 0 95766 0 95708	* Pugnus de Veneratio chair (Meeting Chambers of the Shadows)
+O 0 95711 0 95708	* el Guerrero de la Sombra's chair (Meeting Chambers of the Shadows)
+O 0 95742 0 95708	* a comfortable bench (Meeting Chambers of the Shadows)
+O 0 95708 0 95708	* an obsidian arrow-head table (Meeting Chambers of the Shadows)
+O 0 95709 0 95708	* the {DDark God{z's chair (Meeting Chambers of the Shadows)
+O 0 95778 0 95708	* a cool comfy marble chair (Meeting Chambers of the Shadows)
+O 0 95779 0 95708	* his chair of {Ro{rpp{Ro{Ds{yi{Yte{ys{x and his tormentors are silenced. (Meeting Chambers of the Shadows)
+O 0 95704 0 95709	* the fire (Home away from Home)
+O 0 95705 0 95709	* a bunk bed (Home away from Home)
+P 0 95706 1 95704 1	* the fire: a piece of venison
+O 0 95719 0 95709	* a small fountain (Home away from Home)
+O 0 95738 0 95710	* Angelo's grave (The Elder's Room)
+M 0 95721 95711 95711 1	* Kirniq (Shadow Tavern)
+M 0 95704 1 95711 1	* a {Dshadow{z {bphantom{z (Shadow Tavern)
+G 0 95722 0		*	some tastey barbeque ribs
+G 0 95706 0		*	a piece of venison
+G 0 95723 0		*	a baked potatoe
+G 0 95717 0		*	a {rf{z{Rl{z{Ya{z{Wm{z{Yi{z{Rn{z{rg{z {DAngelo{z
+G 0 95748 0		*	A {DSoul {CFiller{x
+G 0 95716 0		*	a vial of distilled {geternity{z
+G 0 95715 0		*	a fourty-ounce bottle of the {Dblackest{z ale
+O 0 95721 0 95711	* the bar (Shadow Tavern)
+O 0 95763 0 95711	*  (Shadow Tavern)
+M 0 95705 1 95712 1	* the shadow avatar (The Cellar)
+G 0 95736 0		*	{DRyukyu-Kiyoshi{z
+G 0 95735 0		*	{DAscia dei Re{z
+G 0 95733 0		*	{DTimore Nero{z
+G 0 95732 0		*	{DAkidu-Suto{z
+G 0 95731 0		*	{DAntenati Dimenticati{z
+G 0 95730 0		*	{DAssassino di Leggenda{z
+G 0 95730 0		*	{DAssassino di Leggenda{z
+G 0 95730 0		*	{DAssassino di Leggenda{z
+G 0 95729 0		*	{DTappo Futuro{z
+G 0 95729 0		*	{DTappo Futuro{z
+G 0 95729 0		*	{DTappo Futuro{z
+G 0 95728 0		*	{DTeku-Tsunami{z
+G 0 95728 0		*	{DTeku-Tsunami{z
+G 0 95728 0		*	{DTeku-Tsunami{z
+G 0 95727 0		*	{DCreatore della Vedova{z
+G 0 95727 0		*	{DCreatore della Vedova{z
+G 0 95727 0		*	{DCreatore della Vedova{z
+G 0 95726 0		*	{DCercatore del Cuore{z
+G 0 95726 0		*	{DCercatore del Cuore{z
+G 0 95726 0		*	{DCercatore del Cuore{z
+G 0 95725 0		*	{DTeku-Tani{z
+G 0 95725 0		*	{DTeku-Tani{z
+G 0 95725 0		*	{DTeku-Tani{z
+G 0 95724 0		*	{DTeku-Taru{z
+G 0 95724 0		*	{DTeku-Taru{z
+G 0 95724 0		*	{DTeku-Taru{z
+G 0 95734 0		*	a metal-bound book
+M 0 95717 1 95713 1	* A dark shadow (Dark Tunnel)
+G 0 95749 0		*	The shadow key
+M 0 95718 1 95714 1	* A shadow guardian (Hall of Rememberance)
+G 0 95749 0		*	The shadow key
+O 0 95750 0 95714	* The table of {Ddarkness{x (Hall of Rememberance)
+O 0 95751 0 95714	* the {BPrime{W-{DM{Ri{Dn{Ris{Dt{Re{Dr{x's chair (Hall of Rememberance)
+O 0 95752 0 95714	* the {BRecruitment{x's chair (Hall of Rememberance)
+O 0 95753 0 95714	* the {RDefense{x's chair (Hall of Rememberance)
+O 0 95754 0 95714	* the {mDiplomat{x's chair (Hall of Rememberance)
+O 0 95755 0 95714	* the {YBusiness{x's chair (Hall of Rememberance)
+O 0 95756 0 95714	* the {WAdvisor{x's chair (Hall of Rememberance)
+O 0 95757 0 95714	*  (Hall of Rememberance)
+O 0 95705 0 95715	* a bunk bed (Chamber of Portals)
+O 0 95758 0 95715	* A bright {Yyellow{x portal (Chamber of Portals)
+O 0 95759 0 95715	* A dark {Dgrey{x portal (Chamber of Portals)
+O 0 95760 0 95715	* A humming {Bblue{x portal (Chamber of Portals)
+O 0 95761 0 95715	* A sparkling {Cclear{x portal (Chamber of Portals)
+O 0 95762 0 95715	* A {Rm{Cu{Ml{Bt{Gi{x-{mh{Du{ge{Wd{x portal (Chamber of Portals)
+M 0 95719 1 95716 1	* Guardian Shadow (Vampire Feeding Room)
+M 0 95723 1 95719 1	* the {Dshadow {Wscribe{x (Shadow Parchments)
+G 0 95771 0		*	a sheaf of {Dshadowy {xpaper
+G 0 95772 0		*	a sheet of high-quality {Dblack{x parchment
+G 0 95773 0		*	a {Dshadowy{x bulletin
+G 0 95774 0		*	a client's request
+G 0 95775 0		*	a shadow receipt
+M 0 95730 1 95722 1	* the battle master (Shadow's Proving Grounds)
+M 0 95731 1 95722 1	* the Avatar of Sadin (Shadow's Proving Grounds)
+S
+
+#SHOPS
+95703 9 5 19 17 15 100 14 0 23
+95704 17 19 0 0 0 100 19 0 23
+95723 37 0 0 0 0 100 17 0 23
+0
+
+#OLIMITS
+O 95720 1	* Eternally Vigilant Soul of the Hunters
+S
+
+#MOBPROGS
+#95700
+if clan $n Hunter     
+'Welcome, brother.     
+end
+endif
+if isimmort $n 
+bow $n
+end
+endif
+if level $n < 10
+mob transfer $n 9783 
+end
+endif
+if ischarm $n 
+say Charmies are not allowed in this place!
+mob transfer $n 9783 
+end
+endif
+if isghost $n
+say Ghosts are not allowed in this place!
+mob slay $n
+end
+endif
+clan We are attacked by $n !
+mob attack $n
+~
+#95701
+if clan $n shadow
+'Welcome home $n'
+pmote stands to attention and bows to $n.
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+clan $n has arrived at the entrance to our clan hall!!!!!
+pmote eyes $n suspiciously and lowers his hands to the pomel of his swords.
+'You are not welcome beyond this point.
+~
+#95702
+if clan $n shadow
+if ischarm $n
+say I would let you in, {DShadow{x, {Gbut I fear you know not what you do.{x
+else
+mob echoat $n Vhloughveng the {DShadow{x steps aside, allowing you to pass.
+mob echoaround $n Vhloughveng the {DShadow{x gazes at $n as they proceed into the temple.
+mob gtransfer $n 95701
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95700
+end
+endif
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n Vhloughveng the {DShadow{x steps aside as $n sweeps swiftly past him.
+mob gtransfer $n 95701
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95700
+end
+endif
+mob echoat $n Vhloughveng the {DShadow{x frowns and shakes his head.
+mob echoaround $n Vhloughveng the {DShadow{x steps in front of $n barring their entry into the temple.
+'Beyond this point is the temple of the {DShadow{x. You may not pass.
+~
+#95703
+if clan $n shadow
+say Here you go. Be sure to lock up and destroy the key when you're done.
+mob oload 95734
+give key $n
+end
+endif
+mob oload 95734
+say You can pry it from my dead, cold fingers, $n.
+end
+endif
+~
+#95704
+if clan $n Shadow
+mob echoat $n $I Steps into the {Dshadows{x and suddenly disapeares from sight.
+mob echoat $n $I You feel an invisible hand grab you and you feel your body start to tingle.
+mob echoaround $n $I comes alive at $n's command.
+mob trans $n 95701
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95700
+end
+end if
+~
+#95705
+if clan $n shadow
+  nod
+  say Go to the warehouse manager in Freeport. Ask him, 'Do you know anything about any opium?'
+  say Pursued to the end, this quest will lead you far and wide; every item you come across along the way is worth something to me... and worth something to someone else, too. When you decide you want to stop, just come back here with the item you've got, and cash it in, and I will give you the weapon you've earned.
+  say Good luck.
+end
+endif
+~
+#95706
+if carries $i 95724
+give taru $n
+say Take good care of it.
+mob junk opium
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give opium $n
+~
+#95707
+if carries $i 95725
+give tani $n
+mob junk ring
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give ring $n
+~
+#95708
+if carries $i 95726
+give cuore $n
+mob junk book
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give book $n
+~
+#95709
+if carries $i 95727
+give vedova $n
+mob junk gem
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give gem $n
+~
+#95710
+if carries $i 95728
+give tsunami $n
+mob junk necklace
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give necklace $n
+~
+#95711
+if carries $i 95729
+give tappo $n
+mob junk flower
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give flower $n
+~
+#95712
+if carries $i 95730
+give assassino $n
+mob junk crown
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have the clan weapon of this level.
+say You're going to have to wait and earn the next one.
+give crown $n
+~
+#95713
+if carries $i 95731
+give antenati $n
+mob junk orb
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have this weapon.
+give orb $n
+~
+#95714
+if carries $i 95732
+give akidu $n
+mob junk orb3
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have this weapon.
+give orb3 $n
+~
+#95715
+if carries $i 95733
+give nero $n
+mob junk orb
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have this weapon.
+give orb $n
+~
+#95716
+if clan $n shadow
+bow $n
+end
+endif
+emote raises an eyebrow at your instrusion.
+say You cannot defeat me. But I will not harm you.
+~
+#95717
+mob gtransfer $n 95700
+~
+#95718
+if carries $i 95735
+give ascia $n
+mob junk piece
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have this weapon.
+give piece $n
+~
+#95719
+if carries $i 95736
+give ryukyu $n
+mob junk orb
+say Take good care of it.
+end
+endif
+say I am sorry. I no longer have this weapon.
+give orb $n
+~
+#95720
+if clan $n Shadow
+say As you command it.
+bow $n
+mob mload 95720
+mob mload 95720
+mob mload 95720
+mob mload 95720
+mob mload 95720
+end
+endif
+~
+#95721
+close north
+lock north
+if clan $n shadow
+'Welcome $n, If you desire entrance speak one of the names of the Patron Gods of the Great Shadow Clan.'
+pmote looks at $n and waits for the correct response.
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+pmote eyes $n suspiciously.
+'You are not welcome beyond this point.
+~
+#95722
+unlock north
+open north
+say Enter faithful follower of Shadow.  May you always be cloaked in darkness.
+~
+#95723
+close south
+lock south
+~
+#95724
+'I am sorry to inform you....but the well of defeated Scions has been depleted.  I have nothing left to give you.
+~
+#95725
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a veiled look in $l eye and whispers something about cloaks in $n's ear.
+mob echoat $n $I gets a veiled look in $l eye and whispers:
+mob echoat $n {rLiving a life in the perifery of society has given the Shadow stalker an
+mob echoat $n intimate knowledge of the darkness.  So much that they can enshroud themselves
+mob echoat $n with a cloak of shadows that makes it harder for enemy to hit them.{x
+else
+glare $n
+endif
+~
+#95726
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a vigilant look in $l eye and whispers something about tracking in $n's ear.
+mob echoat $n $I gets a vigilant look in $l eye and whispers:
+mob echoat $n {rIt's often been said that the hardest part of a hit is finding the mark.  The
+mob echoat $n Shadow Stalker elders, therefore, developed a way to track a mark no matter
+mob echoat $n where he might hide.  When first learned a mark can only be hunted if his
+mob echoat $n location has already been narrowed down to a particular forest, or city.{x
+else
+glare $n
+endif
+~
+#95727
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a knowing look in $l eye and whispers something about locating things in $n's ear.
+mob echoat $n $I gets a knowing look in $l eye and whispers:
+mob echoat $n {rThe Shadow Stalkers have long had a reputation as a people who know how to
+mob echoat $n get things.  Every member of the clan seems to possess a 6th sense on who
+mob echoat $n might be walking around with what, and where a certain lost heirloom might
+mob echoat $n be found laying on the ground.  This 6th sense is even better than the mages
+mob echoat $n have been able to muster.{x
+else
+glare $n
+endif
+~
+#95728
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a friendly look in $l eye and whispers something about phantasms in $n's ear.
+mob echoat $n $I gets a friendly look in $l eye and whispers:
+mob echoat $n {rWhen on a stakeout, waiting for a mark to leave the safty of the guildhall,
+mob echoat $n it's often good to have someone to talk to, someone to share the time with.
+mob echoat $n The Shadow Stalkers have been blessed the ability to conjure phantasms from
+mob echoat $n the shadows.  These beings, though not great conversationalists, will assist
+mob echoat $n in combat, and are good for knocking down doors.{x
+else
+glare $n
+endif
+~
+#95729
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a darting look in $l eye and whispers something about daggers in $n's ear.
+mob echoat $n $I gets a darting look in $l eye and whispers:
+mob echoat $n {rMany times, when confronted by a Shadow Stalker, a mark tries to flee his fate.
+mob echoat $n Running after quarry is such a nuisance that a deterant was developed.  While
+mob echoat $n in the same room you can sling a dagger into the mark's leg.  If the dagger
+mob echoat $n sticks the mark won't be able to move without a great deal of suffering.{x
+else
+glare $n
+endif
+~
+#95730
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a global look in $l eye and whispers something about the world in $n's ear.
+mob echoat $n $I gets a global look in $l eye and whispers:
+mob echoat $n {rJourneymen of the Shadow Stalkers are not limited to hunting within a certain
+mob echoat $n locale, but instead are able to track their mark no matter where he hides in
+mob echoat $n the entire world.{x
+else
+glare $n
+endif
+~
+#95731
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a vengeful look in $l eye and whispers something about revenge in $n's ear.
+mob echoat $n $I gets a vengeful look in $l eye and whispers:
+mob echoat $n {rThough it is rare, occationally a Shadow Stalker is bested in combat.  When
+mob echoat $n this happens it is always prudent to return to the scene of death and recover
+mob echoat $n belongings so that they do not fall in your enemy's hands.  When you take
+mob echoat $n revenge you are instantly transported to your corpse.{x
+else
+glare $n
+endif
+~
+#95732
+if clan $n shadow
+or isimmort $n
+mob echoaround $n $I gets a useful look in $l eye and whispers something about armor in $n's ear.
+mob echoat $n $I gets a useful look in $l eye and whispers:
+mob echoat $n {rBefore sending Shadow Stalkers out to their first job, each on is instructed
+mob echoat $n on a special way to handle their armor for maximium effect.  When this skill
+mob echoat $n succeeds, the individual is harder to hit.  The more proficient the Shadow
+mob echoat $n Stalker in combat, the better the protection.{x
+else
+glare $n
+endif
+~
+#95733
+clan {DShadows, our home is under {RATTACK{x!!!!!
+clan {DThe coward {R$n{D attacks us, come to my aid and let us teach $m a lesson{x!
+~
+#95740
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks $n I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks $n I will put this in the alter for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#95741
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get elidodi altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give elidodi $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95742
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95743
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95744
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95745
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95746
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95747
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95748
+if clan $n shadow
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95749
+if level $n <= 20
+mob goto 95723
+mob mload 95724
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 27
+mob goto 95723
+mob mload 95725
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 34
+mob goto 95723
+mob mload 95726
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 41
+mob goto 95723
+mob mload 95727
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 48
+mob goto 95723
+mob mload 95728
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 55
+mob goto 95723
+mob mload 95729
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 62
+mob goto 95723
+mob mload 95738
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 69
+mob goto 95723
+mob mload 95739
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 76
+mob goto 95723
+mob mload 95740
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 83
+mob goto 95723
+mob mload 95741
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+else
+if level $n <= 91
+mob goto 95723
+mob mload 95742
+mob oload 95776
+give treasure to nightwalker
+mob goto gdfw
+say You must prove your worth in battle, defeat the creature to the south and bring back his treasure.
+Endif
+End
+ 
+~
+#95750
+clan $n has attacked Sadins faithful servant, they are no longer welcome into the Shadow Family.  Consider them Shadows enemy number one, Kill on sight!!
+say You have forfeited your entry into the Shadow Family, as well as your life.
+mob slay $n
+~
+#95751
+if clan $n Shadow
+say Very Well $n, here is the key to the training grounds.
+clan $n has started to train a new recruit.
+mob oload 95701
+give tattoo to $n
+else
+say You are not Welcome here, be gone or else!
+endif
+end
+~
+#95752
+emote quickly takes the package and reads a small card on the side, which you did not even notice.
+nw
+say Thank you for bringing this to me, however a huge troll is around here hunting me.  I will need you to distract him while I escape and take this to its owner.
+emote turns around suddenly as a snarling is heard behind a large boulder.
+say I only need a minute to escape, remember Family protects Family.  Hold him off then escape after me.
+clan $n has sacrficed thier life so that I may survive.  They have shown true honor in protecting the Family.
+emote wishes you good luck, then races off down the tunnel.
+mob mload 95736
+mob force troll murder $n
+mob purge self
+~
+#95753
+say Well done, your skills with a weapon are impressive indeed.
+clan $n has passed the battle test.
+say There is a task I need you to attend to, an urgent one at that.
+say A Shadow member has been ambushed to the north and need assisstance.  Take this package to him and help him escape, quickly now.
+mob goto 95724
+mob mload 95735
+mob goto gdfw
+mob oload 95777
+give package to $n
+~
+#95754
+if isghost $n
+mob trans $n 95724
+else
+if carries $n package
+mob trans $n 95724
+else
+say That is a restricted area.
+endif
+end
+~
+#95755
+if clan $n shadow
+say You have already proven yourself, you have no need to enter again.
+else
+if carries $n 95701
+say Proceed recruite.
+mob trans $n 95720
+else
+say You have not proven yourself worthy, leave now.
+endif
+endif
+end
+~
+#95756
+if objexists zmxn
+trans $n 95724
+else
+say I am unsure what you mean, I order you to leave....or else.
+endif
+end
+~
+#0
+
+#PRACTICERS
+M 95701 clan~	* the {DShadow{x healer
+S
+
+#$

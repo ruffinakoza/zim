@@ -1,0 +1,1067 @@
+The following are a list of changes Zsuzsu made to the mud during
+her tenure as IMM and then head DM from 2004-2007.  Also, at the bottom
+is a list of outstanding defects and some todo items she was working on.
+
+20041011 - Zsuzsu becomes an IMM
+20041025 - Zsuzsu becomes a coder for the DnD: Legends and Lore
+20041026 - code   removed all warnings and errors from MUD source
+20041026 - code   helped Daphias get the mud to recomile after half a change
+                  was added and he lost a file
+20041028 - build  Yurikesh invasion force complete
+20041030 - code   Added anti-doppel changes for OOC, Newbie and Clan Channel
+                  Also OOC and Newbie no longer Unhide you
+20041031 - bpmax  Changed Air-Dragon gear to meet Barbarian conducts
+		  Also made it fit BP max
+		  And changed Blade of Shimmering Waters for the same
+20041031 - mobs   Changed chaos cityguards to be in the right spots, see
+		  the right things.
+20041031 - code   Paladins now get Superior Heal instead of Master Heal
+		  And bless weapon now works on Blessed weapons and those
+		  with the "sharp" flag as well
+20041031 - code   eliminated color bleed on several OLC commands
+20041031 - code   match "curse" with the benefits of "bless"
+20041101 - mobs   fixing Chaos Dragon Ogres, which are really screwed up
+20041101 - code   quest item balance fix
+20041102 - build  beautifying Limbo Objects
+20041102 - build  Tree Fort
+20041103 - code   spell craft - paladins/AP/cleric changes
+20041104 - items  autoed a lot of stray eq
+20041104 - items  beautified clan generated items
+20041104 - items  eliminate antievil flag off ruler gear
+20041104 - items  changed all Hero gear, and Drako gear to meet new BP spec
+20041104 - mpcod  fixed the Kassandra Quest by adding the trig to the Knight
+20041105 - code   Added New God: Sirala
+20041105 - code   Activated: Sirala
+20041107 - build  re-key Shadow & Warlock clan doors
+20041107 - code   paranoia - anti BJ/VTouch/Strangle affect
+20041107 - forum  cleaned up the forum, adding all IMMs to the Imortals
+                  moderators' group.
+20041107 - code   helping Pyriel debug his code and test it on the 6666 port
+20041108 - code   quest list now provides levels
+20041108 - code   paranoia now variable 2-6ticks.
+20041109 - mud down
+20041110 - code   unique messages for spell feedback, for ALL spells. Ugh
+20041112 - code   Good & Evil no group around Neut
+20041112 - code   vampiric touch now dispelable
+20041112 - code   attract other now has timeout equal to vampiric touch
+20041112 - code   IMM who improvement to see race/align
+20041112 - code   added age modifier to races
+20041112 - code   increased damage on holy cloak
+20041113 - code   anti-evils message fixed
+20041113 - code   typo in vampire suck fixed, also min POS_ fixed
+20041113 - code   added saving throw to Witch Curse
+20041113 - code   added "warena" IMM ability, for World Arena to assist quests
+20041113 - olc    fixed AP, Ranger, Ninja guild halls to prevent against ranged
+20041114 - code   fixed "mwhere"
+20041114 - code   typos in de-camo
+20041114 - code   camo no lag
+20041114 - code   added flamestrike to clerics
+20041115 - code   cleaned up the code structure.  Enabled "depend"
+20041115 - code   gender/race/class restricted objects
+20041115 - code   status indicator fo arena
+20041116 - c-dm   helped Alamor get "wild swing" into the code   
+20041116 - code   looked up what all the flags mean and wrote the help file
+20041116 - code   minor pronoun fixes
+20041116 - code   added arrival directions
+20041116 - code   added twohanded adjustment for auto
+20041116 - code   added avg dam display for auto weapon
+20041116 - code   colorized note output
+20041116 - code   "note list from zsuzsu"
+20041116 - code   transfer now tells the room they came from
+20041117 - code   religion check in MP codes
+20041117 - code   fixed 2H autoweapon
+20041118 - code   added Sylvan: clairvoyance
+20041118 - code   added Sylvan: bush sense
+20041118 - code   added Sylvan: pollen
+20041118 - code   added Necro: Poison Bolt
+20041124 - code   fixed the crashed mud
+20041124 - code   fixed mob gtransfer
+20041125 - code   fixed no-dispel Black Shroud
+20041125 - code   added BS,Ambush,VBite logs
+20041125 - code   fixed pollen so blind wears off in town
+20041126 - code   fixed auto
+20041126 - code   fixed female HP penalty
+20041127 - code   imported into CVS
+20041127 - code   made portable to Linux
+20041127 - code   pets now recall with their master
+20041127 - code   pets now gate and astral walk with their pets
+20041127 - code   healers now commune
+20041128 - code   13 ranked clan system with offline promotions and
+		  per clan customizable rank titles.
+20041129 - code   pets nuked on player quit
+20041129 - code   fixed pet recall but for Word of Recall
+20041129 - code   clantitle: now your rank is highlited
+20041129 - code   clanlist: now your name is highlited
+20041129 - code   bugfix: underflow bug from do_score on long mob title
+20041201 - code   added: CLAN_ELDER
+20041201 - code   added: noreply
+20041201 - code   fixed: clan titles weren't saved on clan edit
+20041201 - code   added: can now edit Titles in OLC
+20041201 - code   vampire nerfs
+20041201 - code   fixed: clairvoyance so it doesn't see immortals
+20041201 - code   fixed: now can cleave with bastardswords
+20041201 - code   fixed: sanctuary no longer stacks with enhanced armor
+20041201 - code   fixed: sanctuary stacks with resistance for the caster
+20041201 - code   fixed: sanctuary replaces resistance for others
+20041201 - code   fixed: owhere now not level restricted for IMMs
+20041201 - code   added: IMMs now see who the auction seller is
+20041201 - code   added: new stat roller
+20041202 - code   added: 'minor sanctuary'
+20041202 - code   added: 'minor black shroud'
+20041202 - code   added: 'minor black shroud'
+20041202 - code   added: minor sanc to Cleric & Paladin
+20041202 - code   added: minor shroud to Necro AP Vamp
+20041202 - code   remov: shroud from AP Vamp
+20041202 - code   remov: sanc from Pal
+20041202 - code   fixed: clan double entry bug
+20041202 - code   fixed: pets nuking on master death
+20041202 - code   modif: vampires now only get +level to damroll
+20041203 - code   ci:    Alamor's code
+20041203 - code   fixed: Thornan & Thorel up for the CVS
+20041205 - code   fixed: multiple clan entry bug
+20041209 - code   sling and shuriken made pull skills, rather than PK skills
+20041210 - code   fixed: double-grip bug
+20041210 - code   fixed: double-grip now does 20% damage w/ 1H weapon
+20041211 - code   fixed: clan bug where pfile was not updated if promoter
+		  couldn't see promotee
+20041211 - code   fixed: minor sanc/shroud to show up on affects list after
+		  logout/in
+20041211 - code   modif: 'meld to stone' now a skill
+20041211 - code   modif: fixed missing skills.conf skills
+20041211 - code   fixed: quiet movement
+20041211 - code   fixed: stat command gender
+20041211 - code   added: award prac
+20041212 - code   added: wiznet promotions
+20041212 - code   added: 1/2 exp gain for all levels above 10
+20041212 - code   remov: all exp penalties for classes except samurai
+20041212 - code   added: 'herotitle'
+20041212 - code   remov: ability for IMMs to set their own titles
+20041212 - code   added: worn location to spell_identify
+20041212 - code   added: 20% bid necessary to win item
+20041213 - code   modif: transform nerfed
+20051616 - code   Zsuzsu's Holiday changes:
+moved: all healing spells to magic.c
+added: healing feedback
+added: characters with delve will auto-get healed victim's status
+chang: delve spell to delving
+added: delve skill
+chang: clerics get the skill, not the spell
+
+fixed: BASTARDSWORD added to shield cleave
+
+chang: areas list now sorted by average level
+added: AREA_HIDDEN flag
+added: AREA_PLAYERHOUSE flag
+chang: areas list now hides CLOSED and HIDDEN areas from morts
+chang: areas list now puts PLAYERHOUSEs at the end
+
+added: clan specific helpfiles
+
+fixed: the duplicate code of "do_commune" and "do_cast"
+	now it's all under one "cast_common" function.
+added: do_channel for Ninja and Samurai.  These do not
+	activate spellbane.
+chang: commune emote changed and words added
+added: channel emote
+
+chang: all cast emote words are jumbled unless
+	1. you have holy light
+	2. you do the same casting type and
+		a. either have the skill
+		b. or have spell craft
+
+added: effects for drunkeness
+	-ht/+dm +ac -saves +str -dex
+	10% dam reduct 
+	20% casting fail, 15% channel fail, 10% commune fail
+	dwarves get -5% casting penalty from drunkeness
+	15% scroll recite penalty
+
+added: drinking skill (modifies effects of intoxication)
+added: drinking tolerance
+       modified by: con, race, size and drinking skill
+added: intoxication spell
+added: intoxication to delve list
+added: sobriety spell
+
+added: Barbarians can no longer wear magic items
+
+added: damnation spell which prevents healing by spell
+added: damnation to delve
+
+added: untrainable skill flag for skills that can't be practiced
+
+added: 'noreply all'
+added: replyimm - which replies to the last imm whom you spoke with
+	it also replies without unhiding you.
+
+added: "transfer player" if the player is in the same room it will
+	transfer them back to wear they were transfered from.
+
+fixed: 'animate dead' now drops belongings to the floor
+	instead of wearing them all.
+
+added: anoncolor - IMMs are autoassigned a random color that will
+	be used for OOC and and TELLs.  This will allow morts to
+	descern if several IMMs are taking part in the same 
+	conversation.  "anoncolor list" and "anoncolor set" 
+	have been added as well.
+
+fixed: formatting problems due to printf not accounting for invisibl
+	ANSI characters in determining string length (alist obj, etc)
+
+fixed: editor ":format" to adjust for ANSI coloring when calculating
+	max col length
+
+added: build point calculation, visible in object editor
+added: colors to object editor
+
+added: number of stalkers hunting you is now saved when you quit.
+	the next time a Ruler sends stalkers, the old one will
+	rejoin the hunt.
+added: ruler stalkers now report to the clan where they found the criminal
+	when they are initially summoned.
+
+added: death of witch now cures your curse
+added: if the witch logs out, the curse is removed on PCs
+
+chang: enslave now works differently.
+	A scion can enslave anyone who's HPs are below 5% if the scion's
+	are above 20% and greater than the victims.  This is PK range
+	restricted.
+added: auto enslavement - an auto flag
+	when the flag is set instead of killing your victim, you enslave
+	them.  Currently this: stops combat, makes them a ghost (kludge to 
+	survive spammed area spells), stuns them for a turn, and enslaves
+	them to the slayer.
+added: enslavement will be broken upon the enlsaver's death, or the death
+	of the slave.
+added: you can free slaves with "enslave player"
+added: "enslave" w/o arguments will tell you who your enslaver is
+	or if scion, give you a list of current slaves and their owners.
+remov: submit / enslave bits
+
+fixed: weapon cleave bug - bad conditional
+fixed: mastering sword - bad conditional
+fixed: double_grip - didn't exclude for holding object
+
+20050122 - code fixed: spellbane fixed and small re-write
+20050122 - code added: limited reclaim code
+20050124 - code added: re-wrote quest buy, so can only get one weapon
+		infinite troubles, and added new weapons
+20050126 - code added: ofind
+20050126 - code modif: protective shield modified
+20050127 - code fixed: knights no longer immune to witch curse
+
+20050130 - code  fixed: ranger's "forest fighting" bug (caused crash)
+20050131 - code  fixed: auction limited bug (caused crash)
+20050203 - code chang: mortal strike now works for ninja, and does 1/2 to PC
+		also cuts through damage-shields
+20050203 - code added: multikiller flag
+20050203 - code revie: dissention code for Kiuto
+20050204 - code added: questus give exp, adjusted quest timer 
+20050205 - code modif: new samurai dishonor code
+20050207 - code modif: summon now has timeout & spellbane works against it
+20050207 - code fixed: spellbane no longer 100%
+20050207 - code fixed: vampire touch no longer 90%
+20050207 - code fixed: trophy had double fail check
+20050207 - code fixed: faerie fire had no saves
+20050207 - code added: align/ethos/sex specific skills for classes
+20050211 - code added: the license and other documentation that was removed
+		from the original codebase.
+20050211 - code added: mudcheck.pl to start the mud for us
+20050212 - code added: funny messages for slay
+20050213 - code reviewed Alamor's trap and lash code -- and added it to cvs
+20050214 - code charisma now affects exp earned for kills
+20050215 - code scatter & quest return
+20050215 - code fixed summon NPC lag
+20050215 - code fixed katana getting Magic flag for Barbs
+20050215 - code fixed spellbane going off even if they didn't have clan item
+20050216 - code chang format of stat mob
+20050216 - code fixed set sex problem
+20050216 - code added crime board for rulers
+20050216 - code chang re-formated the Notes presentation
+20050217 - code added str modifier for damage
+20050217 - code added move cost for hide abilities
+20050218 - code added new container types and restrictions
+20050218 - code added bp calc for containers and furniture
+20050218 - code fixed summon problem
+20050218 - code fixed who list PK problem
+20050218 - code added encumberance to stat and score
+20050218 - code added encumberance to prompt
+20050218 - code added shield_block now affected by STR diff and giant_str
+20050218 - code added parry now affected by STR diff, DEX diff and giant_str
+20050218 - code added wait-state for flee and escape
+20050218 - code fixed bag in bag poof bug
+20050218 - code fixed +2 mana tax for invis
+20050218 - code added 'nofind' flag for items
+20050218 - code fixed quest item reclaim again
+20050222 - code added 'matchup'
+20050223 - code added can only get one item from corpse at a time
+20050223 - code added movement costs
+20050223 - code chang fireproof
+20050224 - code fixed wizhelp formatting
+20050224 - code fixed who bug
+20050224 - code added 'reclaim'
+20050224 - mud  removed all limiteds
+20050224 - mud  removed all character limiteds as well as dead area limiteds
+20050225 - mud  colored many limiteds
+20050225 - code chang order of eq list
+20050301 - code rewrote award
+20050301 - code fixed no longer 'get all 2.song'
+20050301 - code added small lag to PK looting
+20050301 - code added newbie guide to newbies
+20050301 - code fixed you can only poison someone to half their strength
+20050301 - code fixed holy word no longer sends tell through
+20050301 - code fixed gtransfer no longer takes anyone but standing
+20050302 - code added builder wiznet
+20050302 - code modif sage cost now based on level
+20050302 - code modif healer cost now based on level
+20050302 - code modif added colors to healer's display
+20050302 - code modif you can now buy items at +15 your level
+20050302 - code added encumberance now affects movement
+20050302 - code added encumberance now affects dodge & tumble
+20050302 - code fixed no longer rains in the desert, nor arcticm
+20050302 - code added SECT_ROAD
+20050302 - code chang you can now only 'get all pit' from your own recall pit
+20050302 - code chang players under 20 can only loot corpse in their PK
+20050302 - code chang you can no longer steal coins from shop-keepers
+
+20050319 - code added Alamor's weapon fighting mods -- re-writing some of it.
+20050320 - code chang no longer can you cast 'drain energy' on yourself
+20050320 - code fixed anonymous quest channel fixed
+20050320 - code fixed no longer yell when asleep
+20050320 - code added no longer quest while dishonored
+20050320 - code added dishonored with honor-tattoo take minor damage instead of
+		getting an extra strike.
+20050320 - code added WEAPON_TAINTED
+20050320 - code added WEAPON_KATANA, changed old one to WEAPON_KATANA_QUEST
+20050320 - code chang no dex bonus if prot-shield is up
+20050320 - code chang bash and tail only do a max of 2 rounds of lag
+20050320 - code chang vampiric now 20% dam 10% heal off damage done
+20050320 - code added tohit_chance() and matchup() additions
+20050320 - code chang thief backstab to 60%, knife under 20%
+20050320 - code added continual light now recharges dead lights
+20050320 - code chang nightfall now has longer timeout
+20050320 - code added auction now tells how much fuel in light left
+20050321 - code chang lights going out no longer disappear
+20050321 - code chang quest weapons now use set_autoweapon() to get avg dam
+20050321 - code fixed dishonored samurai group wasn't getting exp
+			but sam got exp if didn't get the kill.
+20050321 - code added can no longer improve skills when dishonored
+20050321 - code added can no longer practice skills when dishonored
+20050321 - code fixed groups can gain exp, just not dishonored samurai
+20050321 - code added dishonored samurai can't form new groups
+20050321 - code fixed poison only takes you down to 2/3 natural str
+20050321 - code fixed samurai dishonor assessment
+20050321 - code added escape chances halved when blind
+20050321 - code fixed rewrote backstab stuff, so it is now readable
+20050321 - code fixed ambush now does less damage to PCs, like backstab
+20050321 - code fixed ambush and deadlyblow calculated before damroll.
+20050321 - code fixed melee with bow does little damage
+20050321 - code added new quest weapons to questus
+20050321 - code added _zzoneshot - to autoweapon everything
+20050321 - code added ip address to wiznet login/logout
+20050321 - code fixed ranger staffs sooper crazy damroll
+20050321 - code fixed vampric weapons 1/3 of the time and only max hp to 120%
+20050324 - code fixed katana mastering sword problem
+20050324 - code fixed wearing a katana will change its type to KATANA now
+20050324 - code chang curse actually curses.  Weapons hit less, Armor is worse
+20050324 - code chang bless weapons now increase tohit
+20050324 - code added wiznet to mstat
+20050324 - code fixed why newbies couldn't hit beetle
+20050324 - code chang skill gain exp 25-75
+20050324 - code fixed ponchos now same as dragonplate
+20050324 - code fixed ueber blessing items now have timer
+20050329 - code fixed new item flags not showing up on instances
+20050329 - code added 'nobag' for items
+20050329 - code fixed 'web' success feedback
+20050329 - code found there already is an ISGHOST check
+20050329 - code fixed typo in enslaved
+20050329 - code fixed dual wield bug
+20050329 - code fixed formating for "overflow" message
+20050329 - code added charm mob respect master's nosummon toggle
+20050421 - code added 'scratch' to remove tattoos
+20050421 - code added 'repudiate' become an atheist
+20050421 - code added clerics must choose a religion to commune spells
+20050421 - code added 'arial' language
+20050425 - code added 'arial' slang translation "cherp"
+20050425 - code fixed you can no longer speak a language you don't know
+20050425 - code fixed double-grip, wrong conditional on holding
+20050425 - code fixed OOC and Newbie are nolonger in slang
+20050425 - code chang 2nd attack and others are given later, warlock/witch lost
+		second attack.  warrior lost scrolls, samurai lost wands, 
+		sam+ninja lost healing/cure blind spells.  vampire got 
+		'create rose', warriors got 'smithing'
+20050425 - code chang no exp-penalty for pets/charmies
+20050425 - code added 'sakura' healing spell for samurai & ninja
+20050425 - code chang necros get skeleton warrior much sooner
+20050425 - code fixed pet kill ghost bug
+20050425 - code fixed suicide unenslave bug
+20050425 - code chang arials vuln to lightning, stats adjusted
+		gnomes skills ident & lore, not vuln to bash
+		svir get lore
+		rockseer dex lower, no-wands
+		felars get +3 dex
+		arials can now be paladins
+		dwarves cannot be warlocks/witches but can be paladins
+		orcs got a dex bonus
+		trolls now uglier than ever
+20050425 - code chang bash skills now based on 2/3 skill level.  Also, now
+		harder to bash little people.
+20050425 - code chang noexp penalty for warlocks and witches with charmies
+20050425 - code fixed imms can now unenslave people
+20050425 - code chang assist now has longer timeout
+20050425 - code fixed re-wrote the whole align and ethos choosing in
+		character creation.  Now, you can be restricted to multiple
+		ethos/align
+20050425 - code chang thief can no longer be lawful.  dwarf can't be evil.
+20050425 - code added wood-elf
+20050425 - code chang donated items now go to your own pit
+20050425 - code added timeout for recall
+20050426 - code chang withdrawl now gives you the right ammount
+20050426 - code added newbies can't join clans
+20050426 - code added newbies can't buy auctioned artifacts
+20050426 - code added isnewbie MPCode
+20050426 - code added 'aschar' imm command to see skill practices
+20050426 - code fixed title limitations
+20050426 - code added auto withdrawl from the bank in an auction
+20050426 - code added "The ghost of" if you are in ghost form
+20050427 - code fixed sakura healing only hit not max_hit 1/3
+20050427 - code fixed newbie quest items costed the same
+20050427 - code added bug and typo go to WIZ_ANNOUNCE
+20050427 - code chang titles now can only be 35 real characters long
+20050427 - code fixed bash weight_carried calc fixed
+20050427 - code chang all lag skills have max 80% success rate
+20050427 - code added newbie welcome announcement
+20050427 - code added ANSI detection at character creation
+20050427 - code chang you now unfade/hide/camo on rest/sleep/list
+20050427 - code fixed newbie vampires going to midgaard bug
+20050427 - code chang newbies have OOC turned off to start
+
+20050430 - code chang spellbane percent is now 1/2 skill
+20050430 - code fixed spellbane no longer wakes you up
+20050430 - code chang deadlyblow now does +20% damage
+20050430 - code chang eye of intrigue now has timer
+20050430 - code chang eye of intrigue now notifies the person
+		they are being watched
+20050430 - code chang randomized room now hints to char why he's lost
+20050430 - code chang can't randomize LAW rooms again
+20050505 - code chang mastering_spell now gives a smaller bonus to level
+		of the spell.
+20050505 - code chang mental-knife damage reduced a little, duration reduced
+		a lot (to around lvl/15 ticks instead of level ticks), and
+		now only -3 modifier to INT/WIS.
+20050505 - code chang scourge only poisons now.
+20050505 - code chang stalkers no longer can be summoned to PEACE or SAFE rooms
+20050505 - code chang stalkers now weaker in PK range
+20050505 - code chang stalkers now MUCH weaker if you are not in PK range
+		and is based on the level of the victim.  This will need
+		tweeking, but hopefully lowbies won't get owned by stalkers
+		now.
+20050505 - code chang stalkers now reduced in level if there are many saved
+		stalkers from a logout.
+20050505 - code chang garble now works 50% against spell casting
+20050505 - code chang disperse now only works against PK-range
+
+20050505 - buil chang squire gets minor sanc
+20050505 - buil chang no summoned pets have a lag skill
+20050505 - code chang knight sword no longer resurrects
+20050505 - code chang knight sword casts weaker healing spells
+20050505 - code chang probabilities for tattoos more normalized
+20050505 - code chang sylvan no longer get lions and bears (oh my!)
+20050505 - code added rangers now get lion call
+20050505 - code chang clannies can't buy non-clan pets, 
+		though can buy those of other clans
+20050505 - code chang knight sword no longer resurrects
+20050505 - code chang demonfire on tattoo needed to be toned down 
+		because demonfire was increased in damage for APs a while ago.
+20050506 - code added clan_requirement code, to check for 'Warlock' atheists
+20050511 - code fixed dark_vision, it now does something!
+20050511 - code fixed if char has invalid clan the clan mark is removed
+20050511 - code added feedback message for double-grip
+20050511 - code fixed reset coloring and formatting
+20050511 - code chang spellbane now benefits you in inverse porportion to	
+		the amount of magic your class uses.
+		war/thi 40%, ninj/sam/rang 30%, cler/pal 20%
+20050511 - code added now [common] is no longer shown to IMMs when slang 
+		is common
+20050511 - code added now you see what language you are speaking
+20050511 - code added IMMs can now speak slang
+20050511 - code added you see what language you are hearing if it's not 
+		common, even if you understand it.
+20050511 - code added timeout for all travel spells (varies with spell)
+20050511 - code chang all clan skills now spread out by levels
+20050511 - code fixed matandra no longer affects goods
+20050512 - code added ofind now differentiates for closed areas
+20050512 - code added ofind now has a bp variable
+20050512 - code chang nightfall spell to 'snuff light'
+20050512 - code added midnight spell
+20050512 - code added visible room flags for special rooms
+20050714 - code fixed mirror crash (was error in russian text for mob)
+20050718 - code fixed maladiction bug
+20050718 - code fixed clan buy_pet bug
+20050718 - code fixed calm feedback, and no longer affects caster.
+20050719 - code fixed clan eq restrictions, Shadow, Sent, Knight now "about"
+		chaos now "legs"
+20050719 - code fixed spell_resist_magic feedback messages
+20050719 - code fixed do_crush feedback typo
+20050719 - code fixed cursed_by_witch now an NPC variable, not PC
+		So, witches will get mesg on NPC death.
+20050719 - code fixed mpkill no longer attacks ghosts
+20050719 - code added AFK for morts, with recommendation for safe room
+20050719 - code added quest_buy_con for heros
+20050725 - code added progressive questing
+20050725 - code added cooldown for mirror
+20050725 - code added more room flags in do_look for immortals
+20050725 - code chang pure_sight duration
+20050725 - code chang can't imp_invis a clan guard
+20050725 - code fixed knight sword had wrong damage
+20050725 - code added enslave to wiz_death
+20050725 - code fixed enslave now no-affects
+20050726 - code added 'summon zombie' for AP and Necro to replace animate dead
+20050726 - code added reset mesg display for area edit
+20050726 - code fixed the 2nd kill CON loss bug
+20050726 - code added pc_death counter
+20050727 - code added pk_deaths, pk_kills.  Old kills on pc_killed
+20050727 - code added medal awards, pin and unpin
+20050727 - code added skill bonuses for spells
+20050727 - code added 'bestow' for 'awards'
+20050727 - code added mob attributes
+20050727 - code added mob attribute 'noquest'
+20050727 - code added mob attribute 'nofind' (no EoI, or hunt)
+20050727 - code fixed obj nosac extra_flag (didn't do anything)
+20050727 - code fixed sacing invisible items no longer gives message
+20050729 - code added flag for commands allowed to order a PC to do
+20050729 - code chang charmed players will not uncharm when attacked
+20050730 - code added usage to pfiles
+20050730 - code added mpcode isonquest isquestcomplete
+20050730 - code added players under level 5 do not get hungry/thirsty
+20050730 - code added mpcode hometown
+20050730 - code fixed mayor friendly being KOed and walking
+
+20050730 - code added ofind affect [loc] [min] [max]
+20050730 - code fixed buffer limitation
+20050730 - code fixed alist area buffer bug
+20050730 - code fixed notes list buffer bug
+20050730 - code chang groups now show percentage HP etc
+20050730 - code fixed group alignment bug
+20050730 - code added pload & puload
+20050731 - code added log switched mob if player was logged
+
+20050816 - code fixed quest requard maxes at index cost
+20050816 - code fixed auctioning noremove items
+20050816 - code fixed 2h dual wielding
+20050816 - code fixed excalibur weapon progs
+20050816 - code added BP color granularity
+20050817 - code chang wake to sit
+20050817 - code remov bash debugs non PvP
+20050817 - code fixed +chance for sleeping archers
+20050817 - code remov barb catch arrow skill
+20050817 - code added advice channel for newbies
+20050817 - code fixed group formating
+20050817 - code fixed can't grant above your level
+20050819 - code added world affects
+20050820 - code added world arena
+20050824 - code added world exp modifier
+20050824 - code fixed warlock & witch's charmies don't count for exp
+20050824 - code chang no longer a group multiplier for number of members
+		no idea how this was left in there.  4*exp for 4 members?!
+		Instead, now get percentage boost for members.
+20050830 - code added exp debug
+20050830 - code added record of align kills
+20050830 - code added detailed boot log so areas are easier to debug
+20050830 - code added waffect for turning auction off
+20050830 - code added waffect for PVP damage modifier
+20050830 - code added waffect for PVM damage modifier
+20050830 - code added waffect for QP modifier
+20050830 - code fixed kills <victim> vs. target <victim> bug
+20050830 - code fixed put sanity restraints on gold amount for otho.
+20050830 - code added waffect inflation for shop prices
+20050830 - code added lowbie lights don't expire
+20050830 - code fixed failed trip now inits combat
+20050830 - code fixed unghost leaving passdoor + fly, I think
+20050830 - code added imm "inform" to force someone to read a helpfile
+20050830 - code added seperate "new" from "newbie" declaration
+20050830 - code added "true lifer" code
+20050830 - code fixed wiznet mobdeaths
+20050830 - code added debug for excessive gold being dropped by mobs
+20050831 - code fixed no-quest problem, I think, by eliminating restriction
+		on max level for area for a quest.
+20050902 - code added new log file for true-lifers
+20050902 - code fixed think I fixed the quest timer bug
+20050902 - code chang arena fights nolonger disband pets
+20050902 - code chang arena fights now quest_quit
+20050902 - code fixed no-wanted upon arena death
+20050904 - code fixed force all bug
+20050904 - code fixed waffect crash bug on duration timeout
+20050904 - area added goblin_stronghold, shaolin, cloudymt
+20050904 - code added areatool.pl, to sort areas by vnum
+20050904 - code fixed can now see humming objects while blind
+20050904 - code added PET_WEAPONED & PET_ARMORED to eq pets
+20050904 - code added FFA Room flag
+20050904 - code added MOB_ATTR_BASHES_DOORS
+20050904 - code chang guard mobs prefer Rulers, then align, then level
+20050904 - code added ACT_AGGRO_RELATIVE
+20050904 - code chang breath code to do less dam to PCs
+20050904 - code fixed protection_cold, protection_heat
+		& protection_neg is now resist
+20050904 - code chang vuln only adds 33% to dam, instead of 50%
+20050905 - code added [{rF] for FFA rooms
+20050905 - code fixed camo after portal into non-camo room
+20050906 - code added alt-dropping record
+20050906 - code added 'scalp' to take PvP trophies
+20050911 - code fixed 'deadly blow'
+20050911 - code chang added color to altdrops
+20050911 - code fixed medals and awards recycling and obj_from_char code
+20050911 - code added exp bonus for certain affects and ACTs
+20050911 - code fixed katana doing insane dam w/ master_sword
+20050913 - code added half-orc
+20050913 - code added halflings can now be samurai
+20050913 - code added trade channel (offer)
+20050913 - code fixed vamp exhausted light bug
+20050913 - code chang default auction is off
+20050913 - code chang charmed people can now eat and drink
+20051117 - code chang usage output now by week and with hr/day avg
+20051126 - code added 'pdata' command
+20051126 - code added persistant data (pdata) for users
+20051126 - code added 'repossess' to get limiteds from pfiles
+20051126 - code added 'artifacts' command to see how many you can have
+20051126 - code fixed mob-kill command ignores ghosted players
+20051126 - code fixed medals coming off at logout
+20060208 - code fixed usage time now recorded after relogin following
+		dropped link.
+20060208 - code fixed wrong names getting usage time and pdata for clanlists?
+20060208 - code chang deleted people are now RIP instead of KIA
+20060208 - code fixed can no longer cast 'enhanced armor' on shrouded mobs
+20060208 - code fixed charmed NPCs now do half damage to PC with PVP waff
+20060208 - code fixed excalibur no longer gives free silver when saccing it
+20060208 - code fixed cursed mobs no longer recall with owner
+20060208 - code fixed can't request off charmed mob
+20060208 - code chang vampiric suck only 1/5 from NPCs instead of 1/2
+20060208 - code chang empty handed damage for non-masterhand is meek
+20060208 - code chang samurai no longer lose CHA nor CON for deaths
+20060208 - code added samurai now lose CHA for dishonor, and gain it for
+		reclaiming their honor at a lower rate
+20060208 - code fixed guards can't attack what they can't see
+20060210 - code chang charm doesn't compare CHA, just the charmer's
+20060210 - code chang dissent affects charm negatively.  
+20060210 - code chang charm now can dispel dissent
+20060210 - code chang half the time you will lose CHA if you dishonor in PK
+20060210 - code chang svir can now be evil
+20060210 - code chang svir no longer resist magic, nor vuln bash
+20060210 - area fixed mobs with the 'pet' act can't wear all
+20060211 - code chang cloud giant resist bash, vuln pierce
+20060211 - code fixed act flag wasn't really giving +exp
+20060211 - code chang no longer 'die' from a duel (keep eq, no corpse)
+20060211 - code chang lag on death
+20060211 - code added borders to help
+20060211 - code added color to show_skills
+20060211 - code added terrain to prompt
+20060211 - code added trust aligns
+20060211 - code fixed atheist spelling
+20060215 - code fixed summoned mobs now respect petarmor etc
+20060225 - code chang no more gold and quest economy mixing
+20060226 - code added detect_invis / invis now level dependant
+20060226 - code fixed can no longer pray when KOed
+20060226 - code chang athiest prayers labeled "ElidoDi"
+20060226 - code chang consider no longer reveals PC align
+20060226 - code fixed can no longer issue orders from a trap
+20060226 - code fixed waff add only notifies w/in level params
+20060226 - code fixed no longer see waff that aren't in your level range
+20060226 - code chang can now auction medal items (ears)
+20060226 - code chang clan areas with interlopers do not reset
+20060226 - code added interlopers to ashow area
+20060226 - code added sector coloring for room list
+20060226 - code chang skills harder to master
+20060303 - code chang wisdom affects mana-cost
+20060303 - code chang detect_invis can be intensified
+20060303 - code fixed polymorph bug
+20060303 - code chang skill learning curve not so steep
+20060303 - code chang tangle now does more resonable modification to move
+20060303 - code chang deafen a bit stronger vs mobs
+20060303 - code chang INT lesser affect on practice %
+20060305 - code chang skill learning curve to +5 level of skill
+20060305 - code chang ray of hope/truth/terror
+20060305 - code chang clerics minus flamestrike
+20060305 - code chang clerics minus bluefire
+20060305 - code chang clerics minus demonfire
+20060305 - code chang dispel good/evil buffed
+20060305 - code chang evil clerics get cause spells, hellfire, demonfire, fear
+20060305 - code chang evil clerics don't get as many curative spells
+20060305 - code chang spellbane damage increased
+20060305 - code chang good get improve bene, neut curative, evil mala
+20060305 - code chang moral standing added.  Affects the power
+		of clerical abilities, including paladins.
+20060305 - code added moral standing affected by killing things
+20060306 - code added moral standing adds to level of spells
+20060306 - code chang evil barbs get vampiric quest weapon
+20060306 - code chang imms now channel in bold white
+20060306 - code added wiznet quest reporting
+20060306 - code chang detect invis got a +2 level boost
+20060306 - code chang crucifixtions have a timer based on level
+20060306 - code added 'consume dead' for necros to heal undead pets
+20060306 - code chang undead cannot be healed
+20060306 - code chang necros lost 'shadow'
+20060306 - code chang power word kill now has a cooldown
+20060306 - code chang golem creation has a quicker lag & better messages
+20060306 - code added 'improved healing' new neutral cleric ability
+20060306 - code remov clerics don't get stone-skin
+20060306 - code chang assassinate and cleave only insta-kill NPCs
+20060306 - code chang order of evade skills
+20060306 - code chang handblock is at 1/3rd skill instead of 1/2
+20060306 - code fixed OLC compile warnings
+20060306 - code chang only clerics can commune sanc/black shroud on another
+20060306 - code added 'prismic beam' for warlocks
+20060306 - code remov 'desert fist' and 'hand to hand' from 
+		witchs/warlocks/necro/cleric
+20060306 - code chang only moral impact for mobs -5 your level or more
+20060306 - code chang skills harder to learn by default
+20060308 - code chang warlocks no longer get create-spring
+20060308 - code remov floating disc
+20060308 - code chang auction no longer identifies
+20060311 - code added messages for prismic beam
+20060311 - code fixed RoT detect evil
+20060311 - code fixed shouldn't autoassist out of a trap
+20060311 - code chang corruption and insanity upped in cost
+20060311 - code fixed some morality stuff
+20060311 - code chang questors only send to non-same align
+20060311 - code fixed detect invis stacking problem
+20060311 - code chang detect_invis now bigger bonus
+20060311 - code chang lag on move is a bit more
+20060311 - code fixed layhands, now costs half your mana, and uses heal().
+		also now once per day.
+20060311 - code added global wealth reduction (zzoneshot)
+20060312 - code fixed mana costs misreported on "spells"
+20060312 - code fixed hide/fade/camo now costs move even if you fail
+20060402 - code added gambling - shell game
+20060402 - code fixed camo cost lifted after change of room on non-forest
+20060402 - code fixed mob now does the greater of natural and weapon damage
+20060402 - code added outcasts are now auto-ejected from the clan upon login
+20060402 - code added event notes
+20060402 - code fixed outcasts not saved after getting booted
+20060402 - code fixed can't donate while asleep
+20060402 - code fixed can't donate while pumping
+20060402 - code added imms can not fake the author of a note
+20060402 - code chang EoI now has reduced cool-down
+20060402 - code fixed interloper count now correctly adjusted on link-loss
+20060402 - code chang all IMMs can change their titles with herotitle
+20060420 - code moved all code over to subversion
+20060503 - code added do_version()
+20060503 - code chang "nothing special" now says what it's looking at.
+20060503 - code fixed mob dam_type wasn't being saved
+20060503 - code added new clan-raid code.  item knows when it's raided, 
+		starts a timer, and purges all mobs of that clan, as well 
+		as freeing slaves.
+20060503 - code chang slave only freed from death to nightfall, killing
+		their enlsaver, or clan-raid
+20060507 - code chang all clan raids no longer need cleric
+20060507 - code added alist mob brief
+20060507 - code fixed double obj_from_char(obj) in bestow()
+20060522 - code added peek inside / worn
+20060522 - code remov the half-done 'plant form'
+20060522 - code chang AFF_DETECT_FEAR to AFF_FEAR
+20060522 - code added pk_ok list
+20060524 - code added skills pilfer, featherlift
+20060524 - code added runtime toggleable debug system
+20060524 - code added skills steal, guile
+20060525 - code added skill pickpocket
+20060525 - code added stolen flag and concequences
+20060525 - code added wiznet theft
+20060525 - code added mob BLACKMARKET flag
+20060525 - code added gems are now basically currency
+20060525 - code added 'norange' doors
+20060526 - code added skill: switcheroo
+20060526 - code added skill: plant, nestle, chumpchange
+20060526 - code added levels for door locks
+20060526 - code added door traps + levels for traps
+20060528 - code added lock and trap levels to OLC output
+20060625 - code added clan activity = more artifacts
+20060625 - code added clan raid now removes all clan marked items
+20060625 - code added fip for players
+20060625 - code chang sockets
+20060625 - code chang OLC mob set race, flags now additive
+20060625 - code added debug linkdead to see linkdead characters
+20060625 - code fixed socials now remove hide affect
+20060625 - code fixed locate doesn't show empty buffer if IMMs have items
+20060625 - code fixed plague no longer stacks with itself
+20060625 - code fixed guarding bug when guarded logs out
+20060626 - code chang clan obj now poof on log in, as well as pets
+20060626 - code chang EoI notification message changed
+20060626 - code fixed locate bug fixed
+20060704 - code fixed clan raid item return bug
+20060704 - code added mesg to olc_obj to tell about quest items QP system
+20060704 - code chang mob damage has damage reduction flag now
+20060923 - code added consecration of weapons
+20060923 - code fixed ghosts cannot demand or get plague
+20060923 - code added consecration items vaporize on first non-owner use
+20060925 - code added focus augments
+20060925 - code added racial hatred for weapon augments 
+20060925 - code chang removed ethos
+20060926 - code chang dying WANTED now drops level
+20060926 - code chang allowed limiteds now includes raided clan item
+20060926 - code fixed chars uncharm after receiving damage
+20060927 - code added config options for only TLers and no Newbies
+20060927 - code fixed who alignment incorrectly assessed
+20060927 - code chang initial move points now 200 + bonus for stats
+20060929 - code added waffects now have intervals and repeats and starthours
+20061012 - code fixed lots of TLer delete bugs
+20061013 - code added waffect modify PK range
+20070120 - code fixed detect invis bug
+20070120 - code fixed damroll per level
+20070120 - code fixed HP per level
+20070208 - code added global configs, do_gconfig
+20070208 - code added global melee damage modifier
+20070209 - code fixed feedback on stats to low to learn skill
+20070209 - code added global configs for new things in const.h
+20070214 - code fixed wset del of affects
+20070214 - code added persistance for waffects
+20070214 - code added persistance for global config
+
+----
+
+Bugs:
+   imp_invis added mana while walking?
+   get all from a closed container uses name instead of short-descr
+   interlopers needs to adjust for new clan members / and clan boots
+   samurai enchant weapon works for non-swords
+   if a person goes idle and has limiteds, he won't auto-logout
+   miss with critical strike and still says hits?
+   Legerdemain - slight of hand
+   Skullduggery - trick
+   guard doesn't null out pointer when logging out
+   clan altars don't re-lock after item is taken?
+   pdata / usage after reboot
+   feedback on full light with continual light spell
+   traps don't set player to null when the log out
+   tattoo rates (Enki) ?
+   IS_GOOD() etc should account for noalign
+   brandish hits group-mates?
+   combat sac ?
+   auto-adjusting weapons need to reset their levels
+   auction channel off
+   shoot percentages
+   THAC0
+   switch needs to see IMM stuff.
+   ? reply while KOed
+   judgement doing scratches, and giving HPs ?
+   feedback on nouncurse items
+   see healing feedback when sleeping?
+   strip-affect mpcode bug?
+   fireblind not stripped on death
+   charm too restrictive to charmed
+   no reset of objects in containers
+   deathrot (works?)
+   scavenger mobs, if they have a lot of gold, will drop it when the pick up
+   	the new gold.
+   saving throws on ingested maldictions
+   new item affects: regen mana/health/move, charm(lower cost), focus
+   * fixed? pits go negative costs
+   locate object on no-locate item gives no feedback (which indicates
+   	something exists)
+   fireblind after death
+   vampire shows up with real name on scan?
+
+   ranging a 'notrack' guard?
+   witch-curse not aggro?
+
+   pets nofollowed need to be pissed at their owners not who they
+   	are fighting.
+   add a flag for players involved in the IMM quest.
+      And waffs that affect only them.
+      to disallow teleportation
+   ventriloquate shouldn't un-hide/un-imp upon success
+   can't set ffa for under 10
+   silence unsilenced noemotes?
+
+check:
+   rand ?  to see if it works in mpcodes
+
+ToDo:
+   guild hall raids
+   augment - racial hatred
+   percentage HP/Mana/Move
+   time of day ranges for waffs
+   mobs speak languages
+   light repair guy
+   look at item tells some details
+   mwhere should work with vnums
+   sayto
+   "snuff" add dark flag to items?
+   pets should vaporize after PK but leave EQ
+   util-function to find out how many artifacts for the world.
+   delete OLC ROOMS and MOBS!
+
+   items on the ground, not in pits, need to deteriorate
+   
+   Shae's maps
+   Materials
+   Page player command "OOC: can I speak with you"
+   osay
+   collect all items of type: X
+   slay all mobs of type: X (genocide)
+   quest affect so you have to wait N turns to do the quest again.
+   one-time quests
+   "substate" "current-job" so you need to do multiple of a tast to get
+   	something done "mine" "mine" "mine" success!
+   when limiteds are reclaimed, keep list of the limiteds so players
+   	can't go back and get them immediately.
+   items restricted to race/class/size
+   requested items don't repop
+   iceball - range of one?
+   pdata containing last 3 IP addresses
+
+Ideas:
+   traps on doors/containers.  System where player needs to
+   	guess what the combo is "KFW".  Combos are random but
+	preset.  Using the 'inspect' command to assess the trap.
+	Needs picks and bars(?) to pick locks and traps.
+
+---------------------------------------------
+ofind area 44
+
+mobs say their affects in gtells
+nofol one pet
+
+window quest -(vision quest) look window - get a room name, look window etc
+
+-----
+'stone skin' vuln to bash
+increase BP cost of vampiric
+animate/control undead - with undead already
+web needs feedback
+blind can see "red eyes"
+can't inchant summoned items that don't vanish -- shurikin vanish?
+shouldn't practice if mob is significantly lower and immune
+if ghost
+Talet in enslaved by you
+'shielding' isn't in affects list
+web needs a successs echo
+summon check "to" instead of "too"
+overflow needs \n
+charmed pets no-summon (assume trust of the master)
+
+
+
+BUGS--------------------------------------
+anti-paladin change to dark-knight in mpcodes
+death-traps - need to consider enhanced armor
+enslave - doesnt' take away auto-target?
+:f eats \n
+mob act - is triggered by speech :(
+gender items - work?
+hadtimer ?
+"rating" command -> show PKs
+questitem names when looking at them
+
+unAFK before reboot
+to sleeping players - stunning force
+
+----
+mounting for all
+mob - time of day check
+lore - for thieves -- more accurate, confidence rating
+
+Knight KOed, vamp goes to KO horse and misses, Knight autoawoke and attacked
+   Horse was being ridden at the time.
+
+---
+
+IMM NEW---------------------------------------
+can't change ethos/align for morts
+"check player" - view their desc (lvl 95)
+mounting for all
+tick - add vnum to arg list
+set - should use vnum as well
+deny foo 14 (should ban for 14 days)
+
+clone room should also copy over EXD info
+   Approval: Thornan
+
+iname: ban this name (add to area file (so you can edit from mud)
+   Approval: Thornan
+
+---MOB
+----
+single - item flag where you can only own one of something.
+one-time use keys
+
+Herb Objects:
+   Approval: Thornan
+
+[262] From: Thornan, Fri Nov 12 03:20:21 2004
+      To  : zsuzsu
+      Subj: warrior spec stuff
+What I wanted for the spec skills/spells was that when someone typed
+skills or spells they showed up only if they were at the level for them to
+show up.  So if you are to gain a skill for the axe spec at lvl 44 and you
+are only lvl 42 then you wouldn't see the lvl 44 skill until you reached lvl
+44.  Also in the skills/spells list the skill or spell from the spec will
+show up as this: 
+Level 44 Spec: Axe Tornado
+ 
+Instead of this:
+Level 44: Axe Tornado
+
+post note as mob / use immtalk
+
+Tree Fort Area:
+   Approval: Daphais
+   Haven't started, since I'm working on coding stuff
+   Forest of Illuren
+   Forest of 
+
+delay in MPCode
+
+-------------------------------------------------
+Materials:
+   default free-string
+   material type:
+
+   elemental resist: ranges -10 to 10 (10 impervious, -10 instant vapor)
+      acid
+      mental
+      frost
+      fire
+      lightining
+      harm
+
+   default ac:
+      bash
+      slash
+      pierce
+      magic
+
+   weight:
+
+   default armor type: (cloth, light, medium, heavy)
+   magical disruption:
+
+   float time
+   fragility: (how easy does it become worn)
+   evaporates
+   melts
+   cleaveable
+   repaircost (-1 can't be repaired.  -2 can't be repaired by magic)
+   normal BP cost
+
+
+AC:
+   tohit + 1d(tohit - constant) vs. ac
+   if tohit + 1d(tohit - constant) > ac, hit = true
+   where you fidget the constant based on how ac's damage 
+       reduction applies, as well as a generalized constant
+
+Idea:
+   You can only equip items that you've killed the mob for?
+   "You see nothing special about it" (replace "it" with the short name)
+
+Usages:
+   for affects, and for items
+
+Bounties:
+   in pdata.
+   see on who list, or "bounty" list.
+   see value, date issued, by whom
+   Shadow gets to see bounties first?
+   Bonding agency takes a cut

@@ -1,0 +1,17 @@
+#AREADATA
+Name Wild Elves~
+VNUMs 18251 18500
+Security 1
+LevelRange 0 0
+Flags closed noquest~
+End
+
+#ROOMS
+#18251
+~
+~
+0 0 inside
+S
+#0
+
+#$

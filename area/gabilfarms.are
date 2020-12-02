@@ -1,0 +1,25 @@
+#AREADATA
+Name Gabilgathol Farms~
+Builders thornan~
+VNUMs 5500 5599
+Credits Thornan~
+Security 1
+LevelRange 1 15
+ResetMessage As the women prepare supper for the tired workers the farmers turn in for the night~
+Flags closed noquest nosummon~
+End
+
+#ROOMS
+#5500
+The end of Harvest row and the beginning of Citadel Street~
+~
+0 0 field
+D0
+~
+~
+Z 0 6200
+0 0
+S
+#0
+
+#$

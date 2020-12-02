@@ -1,0 +1,2577 @@
+#AREADATA
+Name Player Houses~
+Builders cadul sadin shaelindra~
+VNUMs 28000 28999
+Credits Thornan~
+Security 9
+LevelRange 0 0
+Flags closed noquest playerhouse~
+End
+
+#MOBILES
+#28000
+holy knight guardian derek~
+{WHoly{x {wGuardian{x of the {RArcane{x~
+The {WHoly{x {wGuardian{x of the {RArcane{x stands here guarding Aida's house
+~
+As you look up into the eyes, of this huge giant, you realize that you
+are not going to pass him by very easily.  He wields a lance, like none you
+have ever seen before, one that you can almost feel penitrating your very
+being.  As you try to slowly sneak by him.  He says in a very innocent
+sounding tone "What are the magic words?  
+~
+storm giant~
+ABCTcef CDEFHJNOPUVaclmt 1000 0
+91 91 465d91+250000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFHIJKLNO ABCD 0 0
+stand stand male 0
+0 0 unknown flesh~
+~
+M exit 28000 ò'è
+!~
+M speech 28001 Honor and Goodness!~
+#28001
+mistress elf rachell~
+{mMistress{x of the {rArcanist{x {RAida{x~
+{RAida's{x {DTask{x {mMistress{x is here cracking a whip at your {rass{x as you enter {YHER{x world!!!!
+~
+Before you stands one of the most beautiful Elven Women you have ever
+laid eyes on.  She has long blond hair, deep blue eyes, and is wearing a
+very short tight leather outfit.  Brandishing a whip she look you right in
+the eye, and your knees tremble in anticipation.  She grins evily and looks
+over at the table in the center of the room 
+~
+elf~
+ABCcef CDFGHNOVclmt 1000 0
+91 91 465d91+250000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#28002
+nimili draconian witch~
+{BNimili{x the {GDraconian{x potion brewer~
+{BNimili{x the {GDraconian{x potion brewer is here grinning a toothless grin
+~
+A large bright green scaley female stands before you.  She is slumped
+over from the years taking thier toll on her body.  She looks to be
+extremely old, much older than any {GDraconian{x should ever be.  She has
+small bright {Ggreen{x scales covering her entire body.  She grins at you
+and you notice that she has no teeth at all, apparently they have all fallen
+out long, long, long ago.  She cackles as you approach her and points to her
+wares.  
+~
+draconian~
+ABCRce BH 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand female 4661
+0 0 large flesh~
+~
+#28003
+gimili draconian witch~
+{BGimili{x the {GDraconian{x Scroll maker~
+{BGimili{x the {GDraconian{x Scroll maker stands here snorting at you as she writes a scroll of magic
+~
+This {GDraconian{x female is the {YTWIN{x sister of {BNimili{x.  Well she
+is supposed to be her twin, but {BGimili{x is extremly fat, while her sister
+is of average size.  She sits here on a very large chair which looks like it
+will break any second.  Her body is covered in dull {yyellow{x scales.  Her
+body is very fat and very large.  She smells of old moth balls and ink.  Her
+hands are covered in inks which seem to glow different colors of the
+spectrum.  She notices you approach and she snorts at you as she finishes
+the magical runes on the scroll in front of her.  
+~
+draconian~
+ABCRce BH 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+M speech 28002 I need water please?~
+M speech 28003 I need food please?~
+M speech 28004 Send me to Sieghurd!~
+M speech 28005 Send me to Vaultess!~
+#28020
+drider drow spider guardian~
+A {DDrider{x Guardian~
+A {DDrider{x Guardian keeps a vigilant eye on his masters dwelling
+~
+Standing here on eight chitinous legs is a cross between a giant spider
+and a drow elf.  The upper body - that of a drow, is visible to the point
+where the it fuses with the arachnid body.  While extremely muscled, the
+drider appears to be able to move fairly rapidly.  The creature is over 6
+feet tall when the torso is upright and slightly wider if its legs are
+spread.  The drider's white hair flows over its face, which also frames his
+piercing eyes.  The creature appears to remain as unobtrusive as possible,
+but will inhibit anyone from descending the column to the darkness below. 
+Normally, the drider keeps a pair of blades sheathed along the sides of his
+body unless danger approaches.  
+~
+drow~
+ABCTcef BCDFGNOPQTUVcflmt -1000 0
+100 150 524d100+30000 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+ACDEFGHIJKMNOQ ABCDEFGHIJKLMNOPQRTUXYZ 0 0
+stand stand male 0
+P 0 large flesh~
+~
+F res B
+F vul Z
+F for M
+F par J
+M exit 28021 5~
+M speech 28020 I have come to worship Lloth the Spider Queen!~
+#28021
+servant drow food and liquad getter~
+A drow servant~
+A drow servant is here waiting for his orders
+~
+~
+drow~
+ABTcef BCDFGNOPQTUVcflmt -1000 0
+91 100 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFGHIJKNOQ ABCDU 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F aff J
+F res B
+M speech 28022 food~
+#28022
+drow acolyte~
+A drow acolyte~
+a drow acolyte stands here greeting all worshipers
+~
+~
+drow~
+ABCTcef BCDFGNOPQTUVcflmt -1000 0
+91 100 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 ABCD 0 0
+stand stand male 0
+0 0 large flesh~
+~
+F aff J
+F res B
+F vul Z
+M grall 28023 100~
+#28023
+shopkeeper urnzi'ith blackshade~
+Urnzi'ith Blackshade the shopkeeper ~
+Urnzi'ith Blackshade the shopkeeper is here offering you his wares
+~
+A rather outlandish looking figure stands here, selling his various
+wares.  Counter to the standard garb worn by most drow, this mechant appears
+swathed in an array of colorful clothes.  A myriad of gems and jewels
+sparkle from various points on his body, indicating an obvious ability at
+his job.  A near-constant grin plays across his face as he attempts to
+encourage anyone who ventures near enough to make a purchase.  The majority
+of his wares are on behalf of the temple, but he is a drow who is known to
+find places to sell things.  
+~
+drow~
+ABCTce BCDFGNOPQTUVcflmt -1000 0
+91 400 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFGHIJKNOQ ABCD 0 0
+stand stand male 5036
+0 0 large flesh~
+~
+F aff J
+F res B
+F vul Z
+#28024
+gilzn't vanliir weapons master weaponsmaster~
+gilzn't vanliir the weaponsmaster~
+A tall drow male wielding weapons of destruction stands here with glowing red eyes
+~
+Going through an endless series of practice routines is Glizn't, the
+temple's weaponsmaster.  The drow is slim but muscular, his body toned from
+hours upon hours of precise movement in both lethal and non-lethal combat. 
+His hair is cropped short, though white like most of his race.  His face is
+angular and quite often worn as if tired from his exertions.  His time is
+spent either instructing those he is told need guidance, or aiding in
+matters of the temple.  He has been known to tell a story or two if in the
+right mood.  
+~
+drow~
+ABCTcef BCDFGNOPQTUVcflmt -1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFGHIJKNOR ABCD 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F res B
+F vul Z
+#28025
+hezinth azurelash drow torturer~
+Hezinth Azurelash Drow Torturer~
+A tall malicious looking drow stands here with an evil looking whip in hand
+~
+Standing here is a malicious-looking drow.  His eyes glow in the
+semi-darkness with an daunting red glow indicating infravision.  His face is
+slender and angular, his eyes gleam with a sort of glee in his element.  His
+hands clench periodically, especially when preparing to engage in his duty. 
+White hair rests atop his head of normal length.  His body is otherwise in
+shape and average for a drow.  His clothes are simple, yet offer enough
+protection against those he engages with.  
+~
+drow~
+ABCTcef BCDFGNOPQTUVcflmt -1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFGHIJKNOR ABCD 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F res B
+F vul Z
+#28026
+kursa ulkendros drow priestess~
+Kursa Ulkendros priestess of Lloth~
+A tall slender female drow is here offering the blessings of Lloth to all those who believe
+~
+Standing before the altar in the middle of the sanctuary is a solitary
+drow.  Shrouded in vestments indicating her rank of Priestess, the female
+drow appears intent on her prayers.  Her hair is untied and gives her a
+somewhat Chaotic look.  Her figure, while not as toned as many of the other
+drow in the temple, has not suffered too much from inactivity.  A multiple
+snake-headed whip normally is fastened to her hip, and writhes in agitation
+to assist in warning her of danger.  
+~
+drow~
+ABCQTacef BCDFGNOPQTUVcflmt -1000 0
+91 91 465d91+30000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFGHIJKNOR ABCD 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F res B
+F vul Z
+M exit 28025 ò'è
+!~
+M speech 28024 The Demonweb protects all who fall within!~
+#28040
+iron golem~
+{CI{cr{Co{cn {DGolem{x~
+A massive automaton of magic, an {CI{cr{Co{cn{D Golem{x guards the door.
+~
+The silvery-blue golem before you is massive and powerful. 
+Spikes protrude  from its back and shoulders. Its sheer
+weight has made imprints in the granite where it stands 
+motionless. It will stop at nothing to defend itís master's
+house from intruders.
+~
+golem~
+ABTef JOZpqu -1000 0
+100 100 524d100+0 1000d11+95 1d1+0 none
+-62 -62 -62 -42
+CFHK AB 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F attr+ AB
+F imm LQ
+F vul CP
+M greet 28041 100~
+M speech 28043 relinquish~
+M exall 28040 3~
+#28041
+fire elemental~
+{RF{Yi{Rr{Ye{x {RElemental{x~
+A large burst of {Rflames{x burns in the middle of the room.
+~
+The immense heat of this elemental causes you to recoil.
+~
+fire elemental~
+ABG DFu -1000 0
+90 90 400d90+0 450d10+85 30d3+50 none
+-51 -51 -51 -32
+CFN 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F attr+ AB
+M greet 28042 100~
+#28042
+ice dragon~
+{BAn {CIce {BDragon{x~
+A {BDragon{x made of {CIce{x rests here lazily
+~
+This large dragon appears to be made completely of ice.
+~
+white dragon~
+AB 0 0 0
+90 90 400d90+0 450d10+85 30d3+50 none
+-51 -51 -51 -32
+CFN 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+F attr+ AB
+M greet 28042 100~
+#28043
+lesser skeleton~
+{yLesser {DSkeleton{x~
+A {yLesser {DSkeleton{x wanders around sluggishly.
+~
+This skeleton is well armored and prepared to fight.  It will give its
+all to destroy any intruders.  
+~
+undead~
+AG u -1000 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CFN 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F attr+ AB
+F aff U
+M greet 28042 100~
+#28044
+~
+~
+~
+~
+undead~
+A 0 0 0
+0 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff CDFGJU
+F imm LQR
+F res MO
+F vul JNY
+F for AHMV
+F par ABCDEFGHIJK
+#28045
+mantis manstis~
+~
+~
+~
+unique~
+A 0 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+#28046
+~
+~
+~
+~
+human~
+A 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+I 92
+#28047
+~
+~
+~
+~
+school monster~
+A 0 -5000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F act U
+F imm AB
+F vul C
+F for AMV
+F par ABCDEFHJKQU
+#28049
+~
+~
+~
+~
+unique~
+A 0 -5000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+#28050
+~
+~
+~
+~
+fish~
+A 0 -5000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand male 0
+0 0 gargantuan flesh~
+~
+F aff b
+F vul HI
+F for AHZ
+F par ADEFJKOX
+#28051
+~
+~
+~
+~
+zombie~
+A 0 -5000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff d
+F imm BCL
+F res I
+F vul D
+F for AHMV
+F par ABCDEFGHIJK
+#28052
+~
+~
+~
+~
+dragon~
+A 0 -5000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F aff JT
+F res BEH
+F vul FI
+F for AHZ
+F par ACDEFGHIJKPQUVX
+#28053
+~
+~
+~
+~
+snake~
+A 0 -5000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F res L
+F vul I
+F for AGXYc
+F par ADEFKLQVX
+#0
+
+#OBJECTS
+#28000
+portal home~
+A {WPortal{x {RHome{x~
+A {WPortal{x {RHome{x rests here glowing {WBrightly{x~
+unknown~
+puffy clouds~
+portal ABFGRSTYa APQ
+10000 ABDFG C 28000 0
+106 0 0 P
+G none
+G none
+G none
+G none
+#28001
+lance holy kissy~
+{WHoly{x {YLance{x of the {RArcanist{x {rAida{x~
+{WHoly{x {YLance{x of the {RArcanist{x {rAida{x rests here humming loudly~
+unknown~
+Holy Light~
+weapon ABFGHIKLMRSTYZa AN
+lance 1 1 kiss ABCDEFGHI
+91 92 4858917 P
+G none
+G none
+G none
+G none
+#28002
+holy armor body toroso~
+{WHoly{x {RArmor{x of the {rArcanist{x {RAida{x~
+{WHoly{x {RArmor{x of the {rArcanist{x {RAida{x rests here with a holy aura about it~
+unknown~
+Holy Light~
+armor ABFGHIKLMORSTYZ AD
+33 33 33 32 'none' 0
+91 92 95 P
+G none
+G none
+G none
+G none
+#28003
+leggings holy arcanist~
+{WMirror Bright{x leggings of the {RArcanist{x {rAida{x~
+{WMirror Bright{x leggings of the {RArcanist{x {rAida{x~
+unknown~
+Holy Light~
+armor ABFGHIKLMRTYZa AF
+33 33 33 32 'none' 0
+91 92 95 P
+G none
+G none
+G none
+G none
+#28004
+whip tortureing blistering snapping~
+The {DTask{x {mMistress's{x whip of pleasurable beatings~
+The {DTask{x {mMistress's{x whip of {RPleasurable{x {BBeatings{x sits here screaming for more~
+leather~
+~
+weapon ABCFGIKLMRSTYZa AN
+whip 5 13 sting ABCEGHI
+91 92 751608 P
+G none
+G none
+G none
+G none
+#28005
+halter top leather tight black shiny~
+A {wShiny{x {DBlack{x {yLeather{x {rHalter top{x~
+A {wShiny{x {DBlack{x {yLeather{x {rHalter top{x looks very revealing~
+unknown~
+Patent Leather~
+armor ABCFGHIKLMRSTYZa AD
+33 33 33 32 'none' 0
+91 92 0 P
+G none
+G none
+G none
+G none
+#28006
+strap on leather dildo huge~
+A {YHUGE{x {yLeather{x strap-on as big as your {Rforearm{x~
+A {YHUGE{x {yLeather{x strap-on as big as your arm sits here~
+leather~
+~
+treasure ABCEFGIKLRSTYa AO
+0 0 0 0 0
+91 0 0 P
+A
+6 5
+A
+5 5
+A
+4 5
+A
+3 5
+A
+2 5
+A
+1 5
+G none
+G none
+G none
+G none
+#28007
+key portal keyblade~
+A {YKEYBLADE{x~
+A {YKEYBLADE{x sits here looking usefull~
+unknown~
+puffy clouds~
+weapon RSTYa AP
+exotic 1 2 shbite ABCDEFGHI
+1 151 412899 P
+G none
+G none
+G none
+G none
+#28008
+wand benediction~
+Wand of {WBened{wiction{x~
+Wand of {WBened{wiction{x rests here~
+unknown~
+Magical Essence~
+wand GIKY AO
+100 50 50 'benediction'
+1 1 1500 P
+G none
+G none
+G none
+G none
+#28009
+potion magical resistance~
+Potion of {YMagical{x {RResistance{x~
+Potion of {YMagical{x {RResistance{x sits here bubbling~
+unknown~
+liquad~
+potion ABK AO
+100 'magic resistance' 'protective shield' 'enhanced armor' 'stone skin'
+1 0 1200 P
+G none
+G none
+G none
+G none
+#28010
+staff healing winds~
+Staff of {WHealing{x {wWinds{x~
+A Staff of {WHealing{x {wWinds{x rests here~
+unknown~
+Essence of Magic~
+staff ABGK AO
+100 50 50 'healing light'
+1 0 1100 P
+G none
+G none
+G none
+G none
+#28011
+scroll holy protection~
+Scroll of {WDivine{x {YProtection{x~
+A scroll of {WDivine{x {YProtection{x floats here glowing with a holy aura~
+unknown~
+~
+scroll BGIK AO
+100 'assist' 'restoring light' 'protection evil' 'protection good'
+1 0 900 P
+G none
+G none
+G none
+G none
+#28012
+fireplace place~
+A {RFire{yPlace{x~
+A {RFire{yPlace{x is here warming the room~
+unknown~
+~
+portal ABGRTY P
+100000 0 0 95305 0
+1 0 0 P
+E
+fire~
+As you look into the flames, you see something very strange.  It does not
+resemble any magic that you have ever known before.  These flames can only
+be described as the essense of love.  They only burn for those who have
+known the feeling of true love.  
+~
+G none
+G none
+G none
+G none
+#28013
+pit hole box chest closet cauldron pot black~
+A {DBlack Cauldron{x~
+A {DBlack Cauldron{x is here boiling over~
+unknown~
+~
+container ARTY P
+100000 0 0 100000 1 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#28014
+stew witches~
+A large bowl of {CWitches{x {BStew{x~
+a bowl of {CWitches{x {BStew{x is here boiling~
+unknown~
+magical stew~
+food A AO
+CE BEF 0 0 0 CE BEF
+1 0 146 P
+G none
+G none
+G none
+G none
+#28015
+chair~
+A plain {yWooden{x chair~
+A plain {yWooden{x chair sits here~
+unknown~
+~
+furniture KRTY P
+A FHJKPQ BEHK 0 0 A FHJKPQ
+1 0 0 P
+G none
+G none
+G none
+G none
+#28016
+vampiric whip barbarian flaying~
+{xThe {DVampiric {gWhip {xof {RBarbarian {yFlaying{x~
+{xThe {DVampiric {gWhip {xof {RBarbarian {yFlaying{x lies here, quavering.~
+unknown~
+~
+weapon CGTUY AN
+whip 5 13 whip 0
+91 92 4820 P
+G none
+G none
+G none
+G none
+#28017
+smoldering axe barbarian cleaving~
+{xThe {rSmoldering {RAxe {xof {RBarbarian {rCleaving{x~
+{xThe {rSmoldering {RAxe {xof {RBarbarian {rCleaving{x rests impatiently on the ground here.~
+unknown~
+~
+weapon CGTUY AN
+axe 5 22 cleave ADE
+91 92 1784890 P
+G none
+G none
+G none
+G none
+#28018
+icy blade barbarian freezing~
+{xThe {CI{cc{Cy {BBlade {xof {RBarbarian {CFreezing{x~
+{xThe {CI{cc{Cy {BBlade {xof {RBarbarian {CFreezing{x sits here chilling the ground beneath it.~
+unknown~
+~
+weapon CGTY AN
+exotic 4 24 slash BDE
+91 92 1286153 P
+G none
+G none
+G none
+G none
+#28020
+fireplace fire place~
+A roaring Fireplace~
+A roaring Fireplace is here lighting and warming the room~
+unknown~
+~
+light A 0
+418
+0 0 0 P
+G none
+G none
+G none
+G none
+#28021
+poisoned blade shortsword driders~
+A {DBlack{x {yIron{x shortsowrd~
+A {DBlack{x {yIron{x shortsowrd dripping with acid lies here~
+unknown~
+Black Iron~
+weapon ABGHJLMRTYZa AN
+shortsword 6 14 acbite ABCDEGH
+91 92 1974357 P
+A
+13 93
+A
+18 9
+A
+19 9
+G none
+G none
+G none
+G none
+#28022
+rothe hide steak charred~
+A charred piece of rothe meat~
+A charred piece of rothe meat sits here sizzling~
+unknown~
+~
+food 0 A
+ABCD ABCD 0 0 0 ABCD ABCD
+0 0 164 P
+G none
+G none
+G none
+G none
+#28023
+glass of chath jhinrae~
+A glass of chath jhinrae~
+A glass of chath jhinrae sits here~
+unknown~
+~
+drink 0 A
+15 15 'elvish wine' 0
+0 0 1366 P
+G none
+G none
+G none
+G none
+#28024
+symbol of lloth~
+Unholy Symbol of Lloth~
+Unholy Symbol of Lloth is here radiating an evil aura~
+unknown~
+Black Mist~
+armor ABEGJ AO
+38 38 38 37 'none' 0
+91 10 420404 P
+A
+18 12
+A
+19 15
+G none
+G none
+G none
+G none
+#28025
+blessings of lloth pill~
+A pill marked Blessings of Lloth~
+a pill marked Blessings of Lloth sits here~
+unknown~
+~
+pill ABEGJ A
+100 'black shroud' 'dragon skin' 'dragon strength' 'protection good'
+91 0 800 P
+G none
+G none
+G none
+G none
+#28026
+anger of lloth pill~
+A pill marked Anger of Lloth~
+A pill marked Anger of Lloth is here~
+unknown~
+~
+pill ABEGJ A
+100 'enhanced armor' 'magic resistance' 'protective shield' 'shield'
+91 0 1000 P
+G none
+G none
+G none
+G none
+#28027
+scourge of lloth flail~
+Scourge of Lloth ~
+A flail known as the Scourge of Lloth sits here radiating evil~
+mithril~
+~
+weapon ABEGJ AN
+flail 5 19 acbite ACDH
+91 92 1578145 P
+A
+18 12
+A
+19 15
+G none
+G none
+G none
+G none
+#28028
+villis's bed~
+Villis's bed~
+A large black bed lies here covered in small spiders~
+unknown~
+~
+furniture ABG 0
+B EIJKN BEHK CFG CFG B EIJKN
+1 0 0 P
+G none
+G none
+G none
+G none
+#28029
+portal curtain spiders~
+Curtain of living spider~
+Millions of Living spiders make up a make-shift curtain here~
+unknown~
+~
+portal ABG 0
+1000000 0 0 95325 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#28040
+large round bed~
+{DA Large {yRound {DBed{x~
+{DA Large {yRound {DBed{x looms before you.~
+unknown~
+Springs n Stuff~
+furniture R 0
+A FHJKPQ BEIL BDEFGH BDEFGH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#28041
+glistening blue gate~
+{cA {CGlistening {BBlue {cGate{x~
+{cA {CGlistening {BBlue {cGate{x shimmers mid-air.~
+ice~
+~
+portal RY 0
+0 0 0 5381 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#28042
+large table hooks chains~
+{DA Large Table with {rHooks {Dand {rChains{x~
+{DA Large Table with {rHooks {Dand {rChains{x drips {rblood{x onto the floor.~
+steel~
+~
+furniture 0 0
+AB FHJKPQ AEHK 0 0 AB FHJKPQ
+0 107 110 P
+G none
+G none
+G none
+G none
+#28043
+glistening fountain~
+{ya {CGlistening {BFountain{x~
+{yA {CGlistening {BFountain{x bubbles quietly.~
+water~
+~
+fountain R 0
+-1 -1 'water' 0
+106 0 0 P
+G none
+G none
+G none
+G none
+#28045
+everburning darkness flame~
+{mEverburning {rDarkness{x~
+{D An embering patch of flame {rscorches {Dthe floor.{x~
+unknown~
+Ember~
+light AEGNP A
+-1
+106 0 16425 P
+A
+12 118
+A
+13 100
+G none
+G none
+G none
+G none
+#28046
+armor shield glowing bone~
+{DA Shield of {MGlowing {mBone{x~
+{DA pile of {mbones{D is heaped on the floor.{x~
+unknown~
+dragon bone~
+armor AGP AJ
+26 26 26 25 'none' 0
+70 71 278784 P
+A
+13 70
+A
+19 7
+G none
+G none
+G none
+G none
+#28047
+plates bone~
+{DPlates of {mBone{x~
+{DA pile of {mbones{D is heaped on the floor.{x~
+unknown~
+dragon bone~
+armor AP AC
+32 32 32 31 'none' 0
+89 90 227086 P
+A
+5 2
+A
+13 90
+G none
+G none
+G none
+G none
+#28048
+hand spikes~
+{ySpikes {Dof {CIron{x~
+Really big spikes jut out of the ground here...~
+unknown~
+~
+weapon MPZ AN
+lance 34 2 thrust K
+107 0 2102189 P
+A
+19 74
+G none
+G none
+G none
+G none
+#28053
+fountian icy water~
+A {YFountain{x of {CIcy {BWater{x~
+A {YFountain{x of {CIcy {BWater{x~
+water~
+~
+fountain 0 0
+-1 -1 'water' 0
+0 0 0 P
+E
+fountain~
+This fountain holds water clear enough to satisfy any living creature.
+~
+G none
+G none
+G none
+G none
+#28190
+sword longsword black iron spider hilt~
+A {DSpider{x hilted sword~
+A sword with living {DSpiders{x crawling up and down the hilt lies here beckoning you~
+iron~
+~
+weapon ABCGHJLMZ AN
+longsword 5 22 slash ABCDEGH
+91 92 3516786 P
+G none
+G none
+G none
+G none
+#28191
+whip leather snakes headed~
+A {YS{Rn{ya{rk{be{x Headed whip~
+A whip with a living {YS{Rn{ya{rk{be{Cs{x Head sits here hissing at you~
+unknown~
+~
+weapon ABCGHJLMZ AN
+whip 5 13 acbite ABCEGH
+91 92 738150 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#28000
+Housing Avenue~
+This is the begining of the street of Player houseing.  You can go north
+and find the houses on the left and right side of the street.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 28001
+0 0
+S
+#28001
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28002
+0 0
+D1
+~
+~
+Z 0 28011
+0 0
+D2
+~
+~
+Z 0 28000
+0 0
+D3
+~
+~
+Z 0 28020
+0 0
+S
+#28002
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28003
+0 0
+D2
+~
+~
+Z 0 28001
+0 0
+S
+#28003
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28004
+0 0
+D2
+~
+~
+Z 0 28002
+0 0
+D3
+~
+~
+Z 0 28060
+0 0
+S
+#28004
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28005
+0 0
+D1
+~
+~
+Z 0 28070
+0 0
+D2
+~
+~
+Z 0 28003
+0 0
+D3
+~
+~
+Z 0 28080
+0 0
+S
+#28005
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28006
+0 0
+D1
+~
+~
+Z 0 28090
+0 0
+D2
+~
+~
+Z 0 28004
+0 0
+D3
+~
+~
+Z 0 28100
+0 0
+S
+#28006
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28007
+0 0
+D1
+~
+~
+Z 0 28110
+0 0
+D2
+~
+~
+Z 0 28005
+0 0
+D3
+~
+~
+Z 0 28120
+0 0
+S
+#28007
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28008
+0 0
+D1
+~
+~
+Z 0 28130
+0 0
+D2
+~
+~
+Z 0 28006
+0 0
+D3
+~
+~
+Z 0 28140
+0 0
+S
+#28008
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28009
+0 0
+D1
+~
+~
+Z 0 28150
+0 0
+D2
+~
+~
+Z 0 28007
+0 0
+D3
+~
+~
+Z 0 28160
+0 0
+S
+#28009
+Housing Avenue~
+~
+0 0 inside
+D0
+~
+~
+Z 0 28010
+0 0
+D1
+~
+~
+Z 0 28170
+0 0
+D2
+~
+~
+Z 0 28008
+0 0
+D3
+~
+~
+Z 0 28180
+0 0
+S
+#28010
+Housing Avenue~
+~
+0 0 inside
+D2
+~
+~
+Z 0 28009
+0 0
+S
+#28011
+Entrance to Aida's house of the Arcane~
+Before you stands a small home.  You also see a huge storm giant,
+guardian of the light.  Thinking to yourself, you wonder what this guardian
+could posibly be thinking about, and what it is that he is guarding so
+intently.  
+~
+0 DKNX inside
+D0
+~
+~
+Z 0 28012
+0 0
+D3
+~
+~
+Z 0 28001
+0 0
+S
+#28012
+Aida's house of the Arcane~
+This room is rather large, for the foyer of the house.  You can see a
+door going north and south.  South back to the guardian, and North into the
+house.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 28013
+0 0
+D2
+~
+~
+Z 0 28011
+0 0
+S
+#28013
+Room of {RArcane{x {WPortals{x~
+You walk through a long hall way, doors on all sides.  AS you apporach
+each door you think you hear voices, all around you.  But they are speaking
+in arcane tongues.....  What could they be saying?  
+~
+0 0 inside
+D0
+~
+~
+Z 0 28016
+0 0
+D1
+~
+~
+Z 0 28014
+0 0
+D2
+~
+~
+Z 0 28012
+0 0
+D3
+~
+~
+Z 0 28015
+0 0
+D4
+~
+~
+Z 0 28017
+0 0
+D5
+~
+~
+Z 0 28018
+0 0
+S
+#28014
+Room of {bMartial{x {YTraining{x~
+You cannot beleive how much space this is, it is large enough for
+hundrededs of troops to meet in a grand battle.  It seems like time and
+space both flow differently in this room.  As you turn to leave you notice a
+sign on the wall.  
+~
+0 CDXZ inside
+E
+sign~
+Those brave enough to challange another may do so in this room, without
+the fear of losing those things which they have gained.  A spell has been
+placed here for that protection.  
+~
+D3
+~
+~
+Z 0 28013
+0 0
+S
+#28015
+{CMagical{x {MCooking{x {BChambers{x~
+You see a table and two chairs, and a big black cauldron used for
+cooking...  You hope.  Nothing else seems of much importance in this small
+room.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 28013
+0 0
+S
+#28016
+Room of {YMagical{x Comfort~
+There is a lovely rug lieing on the ground, in front of a crackling fire.
+The rug is as erie as the rest of the place.  But as you look into the fire
+you become mesmorized by the flames.  
+~
+0 0 inside
+E
+rug~
+You see an elegantly designed rug.  You see the depiction of two persons,
+two {WHeavenly{x bodies embracing each other in true love.  You notice that
+these two persons are so in love that it affects the very room you are in,
+and your state of mind.  
+~
+E
+fire~
+As you look into the flames, you see something very strange.  It does not
+resemble any magic that you have ever known before.  These flames can only
+be described as the essense of love.  They only burn for those who have
+known the feeling of true love.  
+~
+D2
+~
+~
+Z 0 28013
+0 0
+M 400 H 400
+S
+#28017
+{RAida{x and {WUther's{x Bedroom~
+This bedroom is pretty simple.  The bed in the middle of the room looks
+awfully big for only one person.  The bed seems to radiate a magical aura. 
+But as you settle down you realize that the power is coming from the lance
+above the mantle.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 28018
+0 0
+D5
+~
+~
+Z 0 28019
+0 0
+S
+#28018
+Aida's Dungeon of fun~
+As you enter this room you are greeted by a stinging lash to your ass
+from a beautiful female ELF.  You see a large table in the center of the
+room with shackles and leather straps attached to it.  Along the walls are
+many devices and toys used by this ELF on her "Victims" for her pleasure. 
+As you leave you get another stinging lash to your ass and she smiles at you
+and Purrrr's contentedly.  
+~
+0 X inside
+E
+table~
+This table looks very comfortable and very uncomfortable at the same
+time, you notice that there are shackles for you hands,feet,waist,legs,arms
+and neck attached to this table.  You see many leather straps which are
+hooked to many metal levers that are used for spreading the "Victims" legs
+and positioning the "Victim" in many different postions.  There is a rack of
+toys and devices beside the table that look very "FUN" to experience.  
+~
+D4
+~
+~
+Z 0 28013
+0 0
+S
+#28019
+Home of Nimili and Gimili~
+As you enter this room your senses are bombarded with the smells of
+potions, ink, and parchment.  You notice two very ANCIENT draconian women
+standing behind two desks in the back of the room.  One woman is very
+skinny, and very ugly, while the other is very fat and very ugly.  One of
+the women seems to be writing magical runes upone a piece of parchment,
+while the other is mixing ingrediants for potions.  They notice you enter
+and offer you thier wares.  
+~
+0 X inside
+D4
+~
+~
+Z 0 28017
+0 0
+S
+#28020
+Entrance to the Spider Compound~
+You have arrived at the entryway to the compound.  A dull, black stone
+lines the sides of the room, carved carefully into designs mainly consisting
+of arachnids.  The wall design draw your eyes toward the single dominant
+feature of the room, a sculpture of a rearing sword spider.  The spider
+itself is limned in dark violet and red faerie fire, giving the statue a
+sense of life.  Evident beneath the rearing spider is a hole with no evident
+way to proceed aside from magic.  As one moves more fully into the room, a
+recessed alcove can be seen in which the room's guardian no doubt lives.  
+~
+0 AX air
+D1
+~
+~
+Z 0 28001
+0 0
+D5
+~
+~
+ABCFGZ 0 28021
+0 0
+S
+#28021
+Temple of the Spider - Narthex~
+Entering the room, the most noticeable feature is the large design carved
+into the floor.  The detailed relief, captures the essense of a huge spider
+preparing to strike.  Mild faerie fire accents create an eerie motion to the
+design.  A pair of sconces glow with a mild magical light, granting just
+enough illumination to move by.  A large tapestry adorns the western wall
+depicting the epic battle between the drow and their surface cousins.  A
+pair of large adamantite double-doors lead into a room to the north.  A
+smaller doorway leads east into another room, which appears to have stronger
+lighting.  A cylindrical shaft rises straight up, out of the room - leading
+into the darkness above.  
+~
+0 AX inside
+D0
+~
+~
+Z 0 28023
+0 0
+D1
+~
+~
+Z 0 28022
+0 0
+D4
+~
+~
+ABCFGZ 0 28020
+0 0
+S
+#28022
+Temple of the Spider - Guest Quarters~
+As you enter this room, your eyes take a moment to adjust to the increase
+in brightness.  A definite contrast the other locations within the compound,
+the decor and atmosphere are certainly toned to accomodate guests.  A lavish
+table rests in the center of the room, around which a series of six chairs
+rest.  Tables rest near the door and along the southern wall, usually laden
+with a modest amount of food for guests to sate their appetites.  A small
+hearth is set into the northern wall, in which a small fire provides
+additional warmth to the relatively cool room.  The eastern portion of the
+room is designed to provide a relaxation area for guests.  
+~
+0 DX inside
+D3
+~
+~
+Z 0 28021
+0 0
+S
+#28023
+Temple of the Spider - Nave~
+You have arrived at the likely the largest portion of the compound.  Row
+upon row of pews flank a long aisle leading towards the north and the rest
+of the worship area.  The nave appears to intersect with a wider section of
+the area to the north, likely the transept.  While to the south, a pair of
+double doors leads out.  Stationed every ten feet along the outer walls are
+statues depicting various demonic creatures.  A large crystalline chandelier
+dangles over the majority of pews, the crystals themselves enchanted with a
+mild azure faerie fire.  The walls themselves have small, silver threads
+running radially from a point deeper in the temple.  As you take a moment to
+gaze upon the entirety, you get the distinct impression of a large web.  The
+ceiling is shrouded in an unnatural darkness, obscuring your vision and
+preventing you from determining the height by vision alone.  
+~
+0 AX inside
+D0
+~
+~
+Z 0 28024
+0 0
+D2
+~
+~
+Z 0 28021
+0 0
+S
+#28024
+Temple of the Spider - Transept~
+You have now entered the main dividing area in the compound which
+separates the nave to the south from the sanctuary to the north.  The
+transept extends about ten feet beyond the width of the nave and sanctuary
+in both directions, creating a pair of alcoves on either side.  A rug made
+of some manner of silvery thread lays lengthwise east and west.  The modest
+amount of light you can determine comes from faerie fire which is used
+extensively to highlight decor and provide focus for the temple.  The
+ceiling remains hidden by the unnatural darkness.  
+~
+0 X inside
+D0
+~
+~
+Z 0 28025
+0 0
+D1
+~
+~
+Z 0 28029
+0 0
+D2
+~
+~
+Z 0 28023
+0 0
+D3
+~
+~
+Z 0 28028
+0 0
+S
+#28025
+Temple of the Spider - Sanctuary~
+The most sacred part of the temple is here, the sanctuary.  Resting in
+the middle of the Sanctuary is a large obsidian altar, glowing very subtlely
+with a black faerie fire.  The surface of the altar is kept very clean,
+though the floor surrounding has the occasional dark crimson stain. 
+Slightly off to the side is a font filled with water.  The font itself is
+made of the same stone and appears to be maintained with the same diligence
+as the altar.  Behind the altar itself on the northern wall is a dark
+curtain which seems to writhe of its own volition.  As if radiating from the
+center of the northern wall, a series of silvery threads shoot across the
+walls completing the web design that encompasses the temple.  The ceiling
+itself, as observed in the rest of the temple, is shrouded in darkness.  
+~
+0 AX inside
+D0
+~
+~
+ABCFGZ 0 28026
+0 0
+D2
+~
+~
+Z 0 28024
+0 0
+M 200 H 200
+S
+#28026
+Temple of the Spider - Private Quarters~
+The room before you is a stark contrast from the rest of the compound. 
+Where as most of the decor has consisted of very religious themes, this room
+is more of the arcane.  Along the western wall lies an ample bed, useful for
+relaxation.  The northern wall is covered in an array of bookcases, filled
+with books of varying origin and subject.  A pair of emerald-colored drapes
+mask the curtain of spiders that blocks the exit on the southern wall.  A
+large desk rests in the southwestern corner facing into the room, providing
+visibility of both exits.  Plush velvety carpeting lines the floor,
+obviously well taken care of.  
+~
+0 AX inside
+D1
+~
+~
+Z 0 28027
+0 0
+D2
+~
+~
+ABCFGZ 0 28025
+0 0
+M 200 H 200
+S
+#28027
+Temple of the Spider - Translocation Room~
+You have arrived at a room of intense magics.  Swirling amid the various
+radiances appear to be two distinct oval shapes.  One of these shapes
+appears to have a distinctly sapphire hue, the other a distinct amethyst
+hue.  Encircling the pair of what must be portals is a carefully drawn
+protective circle, no doubt prepared to inhibit anything from arriving
+through either gate.  An exit leads to the west into another room.  
+~
+0 AX inside
+D3
+~
+~
+Z 0 28026
+0 0
+S
+#28028
+Temple of the Spider - Western Transept~
+This portion of the transept is relatively quiet and the central feature
+is a large statue revering the Queen of Spiders.  The walls, if you look
+closely, have a clever design upon them.  Criss-crossing at various points,
+slender, almost silken, silver threads extend radially from a point near to
+the sanctuary.  Upon closer inspection, a small alcove has been cut into the
+southern potion of this wing of the transept.  A drow acolyte typically is
+stationed here to barter in various items of use for worshipers.  As in the
+rest of the temple, the ceiling is hidden from view.  
+~
+0 AX inside
+D1
+~
+~
+Z 0 28024
+0 0
+S
+#28029
+Temple of the Spider - Eastern Transept~
+You have arrived at the eastern side of the transept.  A large statue of
+a drow being transformed to a drider rests here.  A constant reminder of the
+price for continued failure to the Queen of Spiders.  Drapes cover an exit
+that leads to the east, while to the west the transept continues.  Criss-
+crossing at various points, slender, almost silken, silver threads extend
+radially from a point near to the sanctuary.  As seen in the rest of the
+temple, the ceiling is hidden from view.  
+~
+0 AX inside
+D1
+~
+~
+Z 0 28190
+0 0
+D3
+~
+~
+Z 0 28024
+0 0
+S
+#28030
+{DA Chamber of Suffering{x~
+This room appears to be where the owner of this house places monsters
+that he has no further use for.  You hear screams and moans echoing down the
+walls, and darkness cloaks what lies ahead.  
+~
+0 0 inside
+S
+#28031
+{DA Chamber of Suffering{x~
+This room appears to be where the owner of this house places monsters
+that he has no further use for.  You hear screams and moans echoing down the
+walls, and darkness cloaks what lies ahead.  
+~
+0 0 inside
+S
+#28032
+{DA Chamber of Suffering{x~
+This room appears to be where the owner of this house places monsters
+that he has no further use for.  You hear screams and moans echoing down the
+walls, and darkness cloaks what lies ahead.  
+~
+0 0 inside
+S
+#28040
+The Entrance to the House of Azureth~
+Before you stands a dark granite house.  The house has no windows and
+a large golem blocks the door.  It is impossible to see over the 
+golem's shoulder to the interior, but the house looks relatively small.
+There is a dim glow from inside, possibly from candlelight.
+~
+0 D inside
+D2
+~
+~
+Z 0 24320
+0 0
+D3
+~
+~
+ABDFGJZ 28040 28041
+0 0
+S
+#28041
+{DA Dark Entranceway{x~
+You are in an old looking house with a few dusty tables covered in
+cobwebs.  A charred, unlit torch rests in a holder on the wall.  Upon close
+examination you notice a handle on the floor with a gap around a large block
+of boarding 
+~
+0 DNX inside
+D1
+~
+~
+ABDFGJZ 28040 28040
+0 0
+D5
+~
+~
+ABZ 0 28042
+0 0
+S
+#28042
+{DA {yMusty {DCellar{x~
+You are in a very dark room.  An odor of mold and rot cause you to gasp
+for breath.  A few drips of water trickle off the wall into a puddle on the
+ground.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 28043
+0 0
+D4
+~
+~
+ABZ 0 28041
+0 0
+S
+#28043
+{yA Stone Corridor{x~
+A faintly glowing torch rests in its holder on the wall.  Eerie shadows
+are cast on every wall.  To the east you are met with more darkness.  
+~
+0 DNX inside
+D1
+~
+~
+Z 0 28044
+0 0
+D2
+~
+~
+Z 0 28042
+0 0
+S
+#28044
+{DA Dark Corridor{x~
+You are once again searching the darkness for a way out.  There is no
+moisture here, and almost no odor can be detected.  You can hear echoes and
+screams from the darkness.  To the east you can feel great warmth.  
+~
+0 DNX inside
+D1
+~
+~
+ABZ 0 28045
+0 0
+D3
+~
+~
+Z 0 28043
+0 0
+S
+#28045
+{DA {MMagical {RFlame{x~
+You seem engulfed in a ball of fire.  The flames are so warm that you
+begin to sweat uncontrollably.  The only open space you can see is directly
+above you.  
+~
+0 DNX air
+D3
+~
+~
+ABZ 0 28044
+0 0
+D4
+~
+~
+Z 0 28046
+0 0
+S
+#28046
+{BDeep Blue {cSky{x~
+You feel winds bursting around you from every direction.  There is no
+roof here and you feel quite cold.  An open passage leads east where most of
+the frigidity seems to come from.  
+~
+0 DNX air
+D1
+~
+~
+Z 0 28047
+0 0
+D5
+~
+~
+Z 0 28045
+0 0
+S
+#28047
+{CPanels {cof {CIce{x~
+This circular room seems lined with ice.  A circle of blue torches line
+the room.  Every wall glistens as the blue torches cast strange images.  A
+panel big enough to fit through lies in the center of the domed ceiling.  
+~
+0 NX inside
+D3
+~
+~
+Z 0 28046
+0 0
+D4
+~
+~
+Z 0 28048
+0 0
+S
+#28048
+{DAzurethís {rBedchambers{x~
+There is a large bed on a raised platform in the corner.  A small
+fountain trickles in the center of the room.  A door lies to the east.  
+~
+0 DNX air
+D1
+~
+~
+ABZ 0 28049
+0 0
+D5
+~
+~
+Z 0 28047
+0 0
+S
+#28049
+{DAzurethís {rExperimentation {DChamber{x~
+The floor is streaked with blood and bones.  A large table lies in the
+center of the room.  This room is clearly uses for torture and dissection of
+Azurethís enemies.  
+~
+0 DNX inside
+D3
+~
+~
+ABZ 0 28048
+0 0
+S
+#28050
+~
+~
+0 D inside
+S
+#28051
+~
+~
+0 D inside
+S
+#28052
+~
+~
+0 D inside
+S
+#28053
+~
+~
+0 D inside
+S
+#28054
+~
+~
+0 D inside
+S
+#28055
+~
+~
+0 D inside
+S
+#28056
+~
+~
+0 0 inside
+S
+#28057
+~
+~
+0 D inside
+S
+#28058
+~
+~
+0 D inside
+S
+#28059
+~
+~
+0 D inside
+S
+#28060
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28003
+0 0
+S
+#28070
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 28004
+0 0
+S
+#28080
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28004
+0 0
+S
+#28090
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 28005
+0 0
+S
+#28100
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28005
+0 0
+S
+#28110
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 28006
+0 0
+S
+#28120
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28006
+0 0
+S
+#28130
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 28007
+0 0
+S
+#28140
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28007
+0 0
+S
+#28150
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 28008
+0 0
+S
+#28160
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28008
+0 0
+S
+#28170
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 28009
+0 0
+S
+#28180
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 28009
+0 0
+S
+#28190
+The Weaponmasters room~
+The relatively plain room has but one obvious function.  Here is where
+occupants work on improving their combat skills against other opponents.  A
+few benches line the southern wall, where resting combatants may recouperate
+from their exertions.  Along the northern wall are a pair of racks upon
+which an assortment of weapons are usually stored.  The floor itself is
+covered in a painted design to aid those studying combat techniques.  A
+doorway leads to the west into a much larger room, usually covered by
+ruby-colored drapes.  
+~
+0 AX inside
+D3
+~
+~
+Z 0 28029
+0 0
+D5
+~
+~
+ABFGZ 0 28191
+0 0
+S
+#28191
+Temple of the Spider - Whips of Lloth~
+The room you have entered, while clean, leaves no doubt as to its
+purpose.  A pair of tables flank a small door leading north.  In the center
+of the room rests a large circular disc on which a series of devices are
+fastened.  The disc itself is large enough to accomodate creatures of very
+large size, though the chains would indicate usual occupants of human size. 
+Fastened to the eastern wall is a rack, upon which lay various whips, flails
+and scourges useful in extracting information from or inflicting pain upon
+the fortunate guest.  Rising from the south-western corner is a spiral
+staircase which ends at a trapdoor in the ceiling.  
+~
+0 AX inside
+D4
+~
+~
+ABFGZ 0 28190
+0 0
+M -50 H -50
+S
+#28341
+~
+~
+0 0 inside
+S
+#0
+
+#SPECIALS
+M 28001 spec_breath_any	* {mMistress{x of the {rArcanist{x {RAida{x
+M 28002 spec_breath_acid	* {BNimili{x the {GDraconian{x potion brewer
+M 28026 spec_cast_clan_cleric	* Kursa Ulkendros priestess of Lloth
+S
+
+#RESETS
+D 0 28020 5 2	* Entrance to the Spider Compound: door to the down: closed and locked
+D 0 28021 4 2	* Temple of the Spider - Narthex: door to the up: closed and locked
+D 0 28025 0 2	* Temple of the Spider - Sanctuary: door to the north: closed and locked
+D 0 28026 2 2	* Temple of the Spider - Private Quarters: door to the south: closed and locked
+D 0 28040 3 1	* The Entrance to the House of Azureth: door to the west: closed
+D 0 28041 1 1	* {DA Dark Entranceway{x: door to the east: closed
+D 0 28041 5 1	* {DA Dark Entranceway{x: door to the down: closed
+D 0 28042 4 1	* {DA {yMusty {DCellar{x: door to the up: closed
+D 0 28044 1 1	* {DA Dark Corridor{x: door to the east: closed
+D 0 28045 3 1	* {DA {MMagical {RFlame{x: door to the west: closed
+D 0 28048 1 1	* {DAzurethís {rBedchambers{x: door to the east: closed
+D 0 28049 3 1	* {DAzurethís {rExperimentation {DChamber{x: door to the west: closed
+D 0 28190 5 1	* The Weaponmasters room: door to the down: closed
+D 0 28191 4 1	* Temple of the Spider - Whips of Lloth: door to the up: closed
+M 0 28000 1 28011 1	* {WHoly{x {wGuardian{x of the {RArcane{x (Entrance to Aida's house of the Arcane)
+E 0 28001 0 16		*	{WHoly{x {YLance{x of the {RArcanist{x {rAida{x: wielded
+E 0 28002 0 5		*	{WHoly{x {RArmor{x of the {rArcanist{x {RAida{x: on the body
+E 0 28003 0 7		*	{WMirror Bright{x leggings of the {RArcanist{x {rAida{x: on the legs
+O 0 28013 0 28015	* A {DBlack Cauldron{x ({CMagical{x {MCooking{x {BChambers{x)
+P 0 28014 6 28013 6	* A {DBlack Cauldron{x: A large bowl of {CWitches{x {BStew{x
+O 0 28015 0 28015	* A plain {yWooden{x chair ({CMagical{x {MCooking{x {BChambers{x)
+O 0 28012 0 28016	* A {RFire{yPlace{x (Room of {YMagical{x Comfort)
+M 0 28001 1 28018 1	* {mMistress{x of the {rArcanist{x {RAida{x (Aida's Dungeon of fun)
+E 0 28004 0 16		*	The {DTask{x {mMistress's{x whip of pleasurable beatings: wielded
+E 0 28005 0 5		*	A {wShiny{x {DBlack{x {yLeather{x {rHalter top{x: on the body
+E 0 28006 0 17		*	A {YHUGE{x {yLeather{x strap-on as big as your {Rforearm{x: held in the hands
+M 0 28002 1 28019 1	* {BNimili{x the {GDraconian{x potion brewer (Home of Nimili and Gimili)
+G 0 28008 0		*	Wand of {WBened{wiction{x
+G 0 28009 0		*	Potion of {YMagical{x {RResistance{x
+G 0 28010 0		*	Staff of {WHealing{x {wWinds{x
+G 0 28011 0		*	Scroll of {WDivine{x {YProtection{x
+M 0 28003 1 28019 1	* {BGimili{x the {GDraconian{x Scroll maker (Home of Nimili and Gimili)
+M 0 28020 1 28020 1	* A {DDrider{x Guardian (Entrance to the Spider Compound)
+E 0 28021 0 16		*	A {DBlack{x {yIron{x shortsowrd: wielded
+E 0 28021 0 20		*	A {DBlack{x {yIron{x shortsowrd: second wielded
+O 0 28020 0 28022	* A roaring Fireplace (Temple of the Spider - Guest Quarters)
+M 0 28021 1 28022 1	* A drow servant (Temple of the Spider - Guest Quarters)
+M 0 28022 1 28023 1	* A drow acolyte (Temple of the Spider - Nave)
+M 0 28026 1 28025 1	* Kursa Ulkendros priestess of Lloth (Temple of the Spider - Sanctuary)
+O 0 28028 0 28026	* Villis's bed (Temple of the Spider - Private Quarters)
+O 0 28029 0 28027	* Curtain of living spider (Temple of the Spider - Translocation Room)
+M 0 28023 1 28028 1	* Urnzi'ith Blackshade the shopkeeper  (Temple of the Spider - Western Transept)
+G 0 28024 0		*	Unholy Symbol of Lloth
+G 0 28025 0		*	A pill marked Blessings of Lloth
+G 0 28026 0		*	A pill marked Anger of Lloth
+G 0 28027 0		*	Scourge of Lloth 
+M 0 28047 1 28032 1	*  ({DA Chamber of Suffering{x)
+M 0 28040 1 28040 1	* {CI{cr{Co{cn {DGolem{x (The Entrance to the House of Azureth)
+M 0 28043 2 28042 2	* {yLesser {DSkeleton{x ({DA {yMusty {DCellar{x)
+M 0 28041 1 28045 1	* {RF{Yi{Rr{Ye{x {RElemental{x ({DA {MMagical {RFlame{x)
+O 0 28041 0 28047	* {cA {CGlistening {BBlue {cGate{x ({CPanels {cof {CIce{x)
+M 0 28042 1 28047 1	* {BAn {CIce {BDragon{x ({CPanels {cof {CIce{x)
+O 0 28040 0 28048	* {DA Large {yRound {DBed{x ({DAzurethís {rBedchambers{x)
+O 0 28043 0 28048	* {ya {CGlistening {BFountain{x ({DAzurethís {rBedchambers{x)
+O 0 28042 0 28049	* {DA Large Table with {rHooks {Dand {rChains{x ({DAzurethís {rExperimentation {DChamber{x)
+M 0 28024 1 28190 1	* gilzn't vanliir the weaponsmaster (The Weaponmasters room)
+E 0 28190 0 16		*	A {DSpider{x hilted sword: wielded
+M 0 28025 1 28191 1	* Hezinth Azurelash Drow Torturer (Temple of the Spider - Whips of Lloth)
+E 0 28191 0 16		*	A {YS{Rn{ya{rk{be{x Headed whip: wielded
+S
+
+#SHOPS
+28002 10 2 3 4 0 100 11 0 23
+28023 9 26 5 4 0 100 13 0 23
+0
+
+#OLIMITS
+O 28042 0	* {DA Large Table with {rHooks {Dand {rChains{x
+S
+
+#MOBPROGS
+#28000
+say What business do you have in the House of Arcane?
+~
+#28001
+mob echoat $n $I Looks to the skies and begins to chant loudly.
+mob echoat $n $I {WPoints a finger at you and and a bright flare of light erupts from his finger tips.{x
+mob echoaround $n $I comes awake at $n's command.
+mob trans $n 28012
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 28011
+end
+~
+#28002
+cast nowait 'create spring
+~
+#28003
+cast nowait 'create food
+~
+#28004
+if clan $n Knight
+'Sure thing Knight of the Realms.
+mob echoat $n Gimili starts to mutter something under her breath as she points a crusty finger at you.
+mob echoaround $n A bright burst of holy light erupts from her finger tip.
+mob trans $n 95204
+end
+else
+'I can not do that for you.
+endif
+~
+#28005
+if clan $n Shalafi
+'Sure thing Arcanist of the Realms.
+mob echoat $n Gimili starts to mutter something under her breath as she points a crusty finger at you.
+mob echoaround $n A bright burst of holy light erupts from her finger tip.
+mob trans $n 95324
+end
+else
+'I can not do that for you.
+endif
+~
+#28020
+mob echoat $n Prays to Lloth for entrance to the Temple of the Spider
+mob echoat $n Points his sword at you and begins chanting in a gutteral tongue
+mob echoat $n eyes roll back in his head and he looks at you with solid white eyes
+ 
+mob trans $n 18421
+end
+~
+#28021
+say You shall not pass by me without Lloth's permission!
+~
+#28022
+mob oload 18422 room
+mob oload 18423 room
+~
+#28023
+say Greetings, and Welcome to the Temple of the Spider Queen.
+say You may worship here in peace and without fear from outsiders.
+~
+#28024
+mob echoat $n $I Looks at you and hisses loudly.
+mob echoat $n $I {DPoints a finger at you and you are suddenly surrounded by a magical darkness.{x
+mob echoaround $n $I comes awake at $n's command.
+mob trans $n 18426
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 18425
+end
+~
+#28025
+say You are not allowed past this hall.
+~
+#28040
+if name $n Azureth
+say Proceed, master!
+bow $n
+smile $n
+mob gtransfer $n 28041
+mob goto 28041
+mob echoaround $n $n has arrived.
+mob goto 28040
+else
+if clan $n ElidoDi
+say Proceed, mighty one.
+mob echoaround $n The Golem steps aside allowing $n to pass.
+bow $n
+mob gtransfer $n 28041
+mob goto 28041
+mob echoaround $n $n has arrived.
+mob goto 28040
+else
+say You are not allowed to proceed into the house of Azureth!
+say Leave now!
+tell Azureth Azureth, $n is trying to enter into your humble abode.
+growl
+end
+~
+#28041
+if name $n Azureth
+tell Azureth Greetings, venerable master.
+else
+if clan $n Barbarian
+yell Leave at once, non-believer!
+tell Azureth A Mighty Barbaraian has arrived at your house!!!
+else
+if clan $n ElidoDi
+say Greetings, venerable $n. Praise be to the New Order.
+if sex $n == 1
+tell Azureth Azureth, your brethren $n has arrived.
+else
+tell Azureth, Azureth, your sistren $n has arrived.
+endif
+else
+nod
+if religion $n Athiest
+say Greetings, enlightened one. Why are you here?
+tell Azureth Azureth, the enlightened one $n is here.
+else
+say Why are you here? Leave at once.
+tell azureth I don't know why, but $n is here.
+endif
+end
+~
+#28042
+if clan $n ElidoDi
+else
+yell I will protect my master's home!
+tell Azureth {W$n{G is in your home, and I shall smite $m in your name!{x
+murder $n
+endif
+~
+#28043
+if name $n Azureth
+if carries $n 28045
+else
+if wears $n everburning darkness
+else
+mob oload 28045
+give everburning azureth
+mob junk everburning
+endif
+endif
+if name $n Azureth
+if carries $n 28046
+else
+if wears $n 28046
+else
+if carries $i 98067
+mob junk shield
+mob oload 28046
+give bone Azureth
+endif
+endif
+endif
+if name $n Azureth
+if carries $n 28047
+else
+if wears $n 28047
+else
+if carries $i 11890
+mob junk life
+mob oload 28047
+give bone Azureth
+endif
+endif
+endif
+end
+~
+#28044
+if name $n Azureth
+say As you command, master!
+bow $n
+mob echo The {DGolem{x gets back to his post.
+mob goto 28040
+mob delay 2
+end
+endif
+~
+#28045
+if clan $n warlock
+bow
+'Hello, friend of Azureth
+end
+else
+'Die, scum!
+mob kill $n
+endif
+end
+~
+#28046
+if name $n Azureth
+bow $n
+end
+endif
+if isimmort $n
+smile $n
+end
+endif
+if clan $n Warlock
+smile
+end
+endif
+if carries $n dissecting
+growl
+else
+snarl
+murder $n
+end
+endif
+~
+#28047
+if clan $n warlock
+mob transfer $n 28045
+mob echoat $n You have arrived.
+mob echoaround $n $n has arrived.
+else
+if carries $n dissecting
+mob transfer $n 28045
+mob echoat $n You have arrived.
+mob echoaround $n $n has arrived.
+else
+mob echoat $n Your path is blocked by the demilich.
+mob echoaround $n $n's path is blocked by the demilich.
+endif
+endif
+~
+#28048
+if name $n Azureth
+mob transfer $n 28041
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 28042
+else
+say You may not pass into the chambers above.
+endif
+if wears $n Dissecting
+say $n you can't leave this place with that tool, it belongs to my master!
+say Give it to me, or to my master.
+else
+if name $n Azureth
+mob transfer $n 28041
+mob goto $n
+mob echoaround $n $n has arrived
+mob goto 28042
+end
+endif
+~
+#28049
+mob junk dissecting
+end
+~
+#28050
+if name $n 'azureth'
+end
+endif
+mob kill $n
+end
+~
+#28051
+if clan $n chaos
+growl $n
+end
+endif
+if name $n Azureth
+mob oload 28040
+give key Azureth
+say Here it is master Azureth!
+bow $n
+endif
+~
+#28052
+if clan $n chaos
+snarl
+endif
+end
+if name $n Azureth
+smile $n
+give key $n
+endif
+~
+#28053
+if clan $n Barbarian
+yell You are not welcome here Barbarian!!!!
+murder $n
+else
+if isimmort $n
+say Greetings $n the almighty!
+end
+endif
+ 
+endif
+~
+#28054
+if isimmort $n
+say Go ahead mighty one, proceed.
+mob echoaround $n The Golem steps aside allowing $n to pass.
+bow $n
+mob transfer $n 28042
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 28041
+else
+say Stop right there!
+say You are not allowed to enter Azureth's house!
+say Leave now!
+growl
+endif
+~
+#28055
+if clan $n Warlock
+say Hello $n! How are you today?
+tell Azureth Azureth, your clanmate $n has arrived at your house.
+else
+if isimmort $n
+say Hello mighty one!
+bow $n
+tell Azureth Azureth, the great $n has arrived at the door of your house.
+else
+say Who are you? What do you wish from this place?
+tell Azureth Azureth, $n has arrived at your home!
+end
+endif
+~
+#28100
+mob echoaround $n $n steps out from the cascading falls.
+~
+#0
+
+#OMPROGS
+O 28043 speech_prog speech_prog_azurethword	* `{ya {CGlistening {BFountain{x'
+S
+
+#$

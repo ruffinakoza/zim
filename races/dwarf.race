@@ -1,0 +1,33 @@
+#RACE
+Name dwarf~
+Aff infrared~
+Res poison disease~
+Vuln drowning~
+Form edible sentient biped mammal~
+Parts head arms legs heart brains guts hands feet fingers ear eye~
+End
+
+#PCRACE
+Shortname Dwarf~
+Points 250
+AgeModifier 70
+Class 'cleric' 100
+Class 'dark-knight' 100
+Class 'necromancer' 120
+Class 'ninja' 120
+Class 'paladin' 100
+Class 'ranger' 100
+Class 'samurai' 110
+Class 'warlock' 120
+Class 'witch' 120
+Class 'warrior' 100
+BonusSkills 'berserk'~
+Stats 50 50 55 35 75 50 50
+MaxStats 21 19 19 18 25 25 25
+Size medium
+HPBonus 30
+RestrictAlign good neutral~
+Slang dwarvish
+End
+
+#$

@@ -1,0 +1,12 @@
+Hey all momo here.. (guy who wrote source)
+this is Icey Mud 0.9 source.. its quite easy
+u might have to mod it a little to work on another system then linux..oh
+yeah and take out the IP binding in comm.c ... otherwise it should compile
+nicelly..accept for a few warnings and such.
+Icey has over 400 skills, 100 levels, over 120 areas totaling about 20 or
+30k rooms. can be used in russian and english.. over 8,000 items..... its
+come a long way...its ANATOLIA source code with ALL the bugs taken out and
+OLC added...and modded ALOT
+It was written by Momo (Bob Cerulli, rcerulli@optonline.net)
+and Erebus (Josh DeRidder, delamorte666@hotmail.com)
+Questions are welcome.. enjoy

@@ -1,0 +1,2205 @@
+#AREADATA
+Name Knight Clanhall~
+Builders cuthulo shaelindra~
+VNUMs 95200 95299
+Credits Thorel~
+Security 9
+LevelRange 1 100
+ResetMessage Squires can be heard in the background, blowing their horns.~
+Flags closed noquest nosummon clanhall~
+Clan Knight~
+End
+
+#MOBILES
+#95200
+clan cleric man young knight healer knightcleric~
+the knights' healer~
+A young man wearing airy white robes stands by the altar, praying.
+~
+He doesn't appear to be older than twenty, but there is a peace in his
+eyes that most never live to attain.  He wears spotless white robes, and
+holds himself with a cool collected confidence that cannot be shaken even
+when faced with impossible odds.  
+~
+human~
+ABKQaef DFHVlm 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95209 temple of life~
+M give 95221 all~
+M speech 95222 what items do we have~
+M speech 95224 give me the elidodi item~
+M speech 95225 give me the shadow item~
+M speech 95226 give me the scion item~
+M speech 95227 give me the chaos item~
+M speech 95228 give me the barbarian item~
+M speech 95229 give me the ruler item~
+M speech 95230 give me the sylvan item~
+M speech 95231 give me the sentinel item~
+C Knight~
+#95201
+clan guard sieghurd knight knightguard~
+Sieghurd~
+Sieghurd stands by the castle gates, sternly watching all who approach.
+~
+An old knight long ago wounded in battle, Sieghurd holds a special place
+of honour among his fellow knights, given the important task of guarding
+their castle with his life.  His armor is polished and gleaming in the
+light, and he holds himself with a steady confidence, ready to defeat any
+threat that arises.  
+~
+human~
+ABTef DFHclmt 1000 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 95200 100~
+M kill 95202 100~
+M exall 95201 ~
+C Knight~
+#95202
+knight shopkeeper mount stable keeper~
+the stable keeper~
+The stable keeper is selling horses.
+~
+Although his old age, he is still good enough in all martial arts. His
+bright body armor is shining upon you.
+~
+human~
+ABVWe DFHJVZ 1000 0
+92 40 2d500+25000 1d200+1600 10d40+50 none
+-90 -90 -90 -50
+ACDEFKNU AB 0 0
+stand stand male 5000
+0 0 medium flesh~
+~
+C Knight~
+#95203
+grey horse mount~
+the grey horse~
+A grey horse is standing here.
+~
+It is saddled with light tack, and has long slender limbs for speed.
+~
+horse~
+ABIWZ FHJV 1000 0
+25 10 2d100+1000 1d200+1600 6d4+9 none
+-10 -10 -10 -5
+N AB 0 0
+stand stand male 982
+0 0 medium flesh~
+~
+#95204
+white horse mount~
+the white horse~
+A white horse is standing here.
+~
+It is saddled with light tack, and has long slender limbs for speed.
+~
+horse~
+ABIWZ FHJV 1000 0
+52 20 50d10+5000 1d200+1600 6d7+20 none
+-20 -20 -20 -10
+N AB 0 0
+stand stand male 1645
+0 0 medium flesh~
+~
+#95205
+great white horse mount~
+the great white horse~
+A great white horse is standing here.
+~
+It is saddled with light tack, and has long slender limbs for speed.
+~
+horse~
+ABIWZ FHJV 1000 0
+72 30 50d10+9000 1d200+1600 12d10+40 none
+-20 -20 -20 -10
+N AB 0 0
+stand stand male 3449
+0 0 medium flesh~
+~
+#95206
+knight protector guard castle~
+Castle Guard~
+A Castle Guard stands here, protecting the Room of Understanding!
+~
+Although his old age, he is still good enough in all martial arts. His
+bright body armor is shining upon you.
+~
+human~
+ABWef DFHJVZlmt 0 0
+92 40 2d500+25000 1d200+1600 10d40+50 none
+-90 -90 -90 -50
+ACDEFKNU AB 0 0
+stand stand male 1371
+0 0 medium flesh~
+~
+M exit 95206 ØÈÂ	!~
+C Knight~
+#95207
+mpcode mob~
+mpcode mob~
+A mpcode mob made by Cuthulo so no sneaky people can get in..
+~
+~
+human~
+ABe DFJZlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 ABCD 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M exit 95210 2~
+I 100
+#95209
+sage blindobandres gnome~
+Blindobandres~
+A wizened gnome is seated upon a rickety wooden stool, poring over a manuscript.
+~
+This gnome is quite possibly the oldest gnome that you have ever seen. 
+His thin, wispy, grey beard reaches almost to his knees, and he wears a pair
+of incredibly thick bifocal spectacles.  Hunched over a manuscript, he
+ignores your entry, but hearing the clink of gold coins, his ears perk up
+and he turns toward you.  
+~
+gnome~
+ABVeh DFHlm 250 0
+92 100 50d50+29000 1d1+4999 15d15+200 none
+-100 -100 -100 -100
+FGJK BP CD 0
+stand stand male 622
+0 0 medium flesh~
+~
+#95210
+banker~
+a banker~
+The banker is here, ready to help.
+~
+He's a balding fellow, with glittering golden teeth, and expensive clothing.
+~
+human~
+ABde 0 0 0
+135 135 753d135+0 1350d11+95 46d2+97 none
+-87 -87 -87 -60
+0 0 0 0
+stand stand none 2
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+#95211
+heinrik retired ancient trainer knight~
+Heinrik~
+A long retired Knight is here replacing the leather straps on his ancient armor.
+~
+This ancient Knight has long since retired from active duty.  His bones
+wither beneath his chainmail shirt.  Pops and creeks echo in the room
+as his joints move.  And though he no longer ventures outside of the
+castle, he still serves the Knights by training new recruits in the
+ways of Knighthood.  If questions arise, you may ask this wise fellow
+to {ctell you about{x whatever clan lore or skill you are interested in.
+But for now, he sits quietly in the room, repairing his ancient armor
+in preperation for one last battle.
+~
+human~
+ABKTe DFHNV 5000 0
+90 90 460d90+0 900d11+95 31d2+67 none
+-55 -55 -55 -37
+CEKQW B E 0
+stand stand male 0
+0 0 medium flesh~
+~
+M speech 95211 about guar~
+M speech 95212 about dragonp~
+M speech 95213 about dragon~
+M speech 95214 about lanc~
+M speech 95215 about rid~
+M speech 95216 about charg~
+M speech 95217 about golden~
+M speech 95217 about holy~
+M speech 95219 about squir~
+#0
+
+#OBJECTS
+#95200
+key golden clankey knights knight_altar_key~
+{CKnights'{x {Yg{yo{Yld{ye{Yn {Wkey{x~
+{CKnights'{x {Yg{yo{Yld{ye{Yn {Wkey{x is left on the floor.~
+gold~
+~
+key RUYf AO
+0 0 0 0 0 0 0
+40 4 0 P
+G none
+G none
+G none
+G none
+#95201
+altar~
+the altar~
+There is a huge golden altar in the middle of the room.~
+gold~
+~
+container ORY P
+1000 ABCD 95200 1000 1000 0
+60 1 20 P
+C Knight~
+G none
+G none
+G none
+G none
+#95202
+large medal honor~
+Large medal of honor~
+The large medal of honor is left here.~
+gold~
+~
+treasure Uf AO
+0 0 0 0 0
+60 1 100000 P
+G none
+G none
+G none
+G none
+#95203
+blessing saint knight symbol~
+the {cblessing{x of the {Csaints{x~
+{wA feeling of peace rushes over you as you approach this holy symbol of a cross.{x~
+energy~
+~
+armor ABGIKMORTYZa AS
+25 25 25 25 'none' 0
+15 0 88774 P
+A
+20 -5
+A
+1 2
+A
+19 8
+A
+18 5
+A
+13 50
+A
+6 2
+A
+17 -25
+G none
+G none
+G none
+G none
+#95204
+fire campfire camp pit~
+a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x~
+A {Rc{Ya{Rm{Yp{Rf{Yi{Rr{Ye{x is here, glowing and crackling.~
+fire~
+~
+container AR 0
+10000 0 0 0 0 0
+5 0 0 P
+G none
+G none
+G none
+G none
+#95205
+bench~
+a long wooden oak log~
+A long wooden oak log sits in front of the fire.~
+wood~
+~
+furniture R 0
+C EIJKN EHK CFG CFG C EIJKN
+0 0 0 P
+E
+inscription bench~
+The inscription says-
+
+     "REST YE HERE YE WEARY TRAVELLER"
+~
+G none
+G none
+G none
+G none
+#95206
+bench~
+a long wooden pine bench~
+A long wooden pine bench sits beside the west side of the fire pit.~
+wood~
+~
+furniture R 0
+C EIJKN EHK CFG CFG C EIJKN
+0 0 0 P
+E
+inscription bench~
+The inscription says-
+
+     "REST YE HERE YE WEARY TRAVELLER"
+~
+G none
+G none
+G none
+G none
+#95207
+meat near boar nicely head broiled~
+a nicely broiled boars head~
+A boars head lies here, looking freshly cooked off a {Rc{Ya{Rm{Yp{Rf{Yi{Rr{Ye{x.~
+food~
+~
+food 0 A
+CE DF 0 0 0 CE DF
+0 15 174 P
+G none
+G none
+G none
+G none
+#95208
+meat near broiled boar left hind leg~
+a nicely broiled boars leg~
+A boars left hind leg lies here, looking freshly cooked off a {Rc{Ya{Rm{Yp{Rf{Yi{Rr{Ye{x.~
+food~
+~
+food 0 A
+CE DF 0 0 0 CE DF
+0 15 167 P
+G none
+G none
+G none
+G none
+#95212
+water spring fountain~
+{ba natural spring{x~
+A natural underground {bspring{x lies on the south side of this room.~
+water~
+~
+fountain R 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95213
+big stone tablet~
+a stone tablet~
+A big {DStone{x Tablet is built into the wall here.~
+unknown~
+~
+map R 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+page 9~
+Skill: {C Charge {x  
+ 
+Type: Skill      Name: Charge            Required Level: 45
+ 
+ 
+Description: This is a well-known skill known by all knights.
+This is a skill for those of the higher levels that have proven
+them worthy of the knight's powers. To use this skill you
+MUST wield either a lance or a spear. You also have to 
+be mounted on your horse and you victim must be in the
+specified direction in ordered to be attacked.
+ 
+ 
+Syntax: charge <direction> <victim>
+ 
+Example: charge east cityguard
+~
+E
+page 8~
+Skill: {C Lance {x  
+ 
+Type: Skill      Name: Lance            Required Level: 33
+ 
+ 
+Description: This is a well-known skill known by all knights
+This is a weapon type that knights learn at level 33. This is a strong
+and powerful weapon that can be used. You may find some but few 
+lances around this world or you may create once using dragonsword.
+ 
+Use:  weapon type
+~
+E
+page 7~
+Skill: {C Riding {x  
+ 
+Type: Skill      Name: Riding            Required Level: 30
+ 
+ 
+Description: This is a well-known skill known by all knights.
+Ride a horse to keep your feet from getting tired and have a
+friend follow you around.
+ 
+ 
+Syntax: mount <pet> or dismount to get off 
+~
+E
+page 6~
+Spell: {C Squire {x  
+ 
+Type: Spell      Name: Squire            Required Level: 25
+ 
+ 
+Description: This is a well-known skill known by all knights.
+This allows you too summon a squire to do your bidding when
+You advance in you level the so will your next squire will be.
+You can order him to do what you say. Remember he is your
+servant and he can were cloths on his journey with you. 
+ 
+ 
+Syntax: cast "Squire" 
+After you have summoned him you can:
+ 
+Syntax: order squire <command>
+ 
+Examples:
+Order squire kill dwarf
+Order squire rescue <players name> or <your name>
+Order squire get all
+Order squire wear all
+Order squire say hi
+ 
+ 
+These are just some of the commands you can have your 
+Squire do and say.
+~
+E
+page 5~
+Spell: {C Dragonsword {x  
+ 
+Type: Spell      Name: Dragonsword            Required Level: 25
+ 
+ 
+Description: This is a well-known skill known by all knights.
+This is a item you can create that gives you advances in your
+hitroll and damroll. The Weapon of you choice will also heal
+you in combat as well will only allow users of you alignment
+to wield your weapon. 
+ 
+ 
+Syntax: cast "Dragonsword" < weapon >
+ 
+ 
+Weapon Types that can be used: Sword, Dagger, Mace, and Lance
+~
+E
+page 3~
+Spell: {C Dragonplate {x  
+ 
+Type: Spell      Name: Dragonplate            Required Level: 15
+ 
+ 
+Description: This is a well-known skill known by all knights.
+This is a item you can create that gives you advances in your
+defense, hitroll, and damroll. 
+ 
+ 
+Syntax: cast "Dragonplate"
+~
+E
+page 4~
+Skill: {C Guard {x  
+ 
+Type: Spell      Name: Guard            Required Level: 22
+ 
+Description: This is a well-known skill known by all knights.
+Like rescue but you are always watch him/her to make sure they
+Are safe from danger. You can only guard some that is in your 
+group. 
+ 
+ 
+Syntax: guard  <Player Name>
+~
+E
+page 2~
+Spell: {C Golden Aura {x  
+ 
+Type: Spell      Name: Golden Aura    Required Level: 10
+ 
+Description: This is a well-known skill known by all knights
+the skill increases your spell-save depending on your level.
+As well effects your hitroll also depends on your level and
+adds spell protect evil to you too . 
+ 
+ 
+Syntax: cast "golden  aura"
+ 
+~
+E
+page 1~
+Spell: {CHOLY ARMOR{x
+
+
+Type: Spell      Name: Holy Armor     Required Level: 10
+ 
+Description: This is a well-known skill known by all knights
+the skill increases your defense depending on your level. 
+ 
+ 
+Syntax: cast "holy armor"
+~
+E
+stone tablet~
+You Notice a Table of contance in the middle of the tablet the folloing
+says: 
+ 
+ 
+- Please Note that you Must look at the page number to find out
+   where the skill is located on the tablet.
+ 
+ 
+The following is a List of Skills:
+ 
+<name of skill>                             <page number>
+Holy Armor                                         1
+Golden Aura                                        2
+Dragonplate                                        3
+Guard                                              4
+Dragonsword                                        5
+Squire                                             6
+Riding                                             7
+Lance                                              8
+Charge                                             9
+~
+G none
+G none
+G none
+G none
+#95214
+altar of understanding~
+the Altar of Understanding~
+Here lies the Altar of Understanding, it is humming in your presents.~
+gold~
+~
+map ART 0
+0 0 0 0 0 0 0
+0 1000 0 P
+E
+the creation of life~
+Here lies the Holy Temple of Life. Here is where one of the fist life
+forms were created by the great gods. This being was on of the kings
+of this massive world. After the great' king was created the gods gave
+him great powers. These power aloud him to create life. This is how the
+eleven race came to be. After the king learned what he must from the gods
+he learned to make a different sex name the Fe'mil. This sex was to be the 
+giver of life and creator of peace to come. After this the king create the 
+fe'mil. He then mated with her, as the gods showed him how to do such a 
+thing. After a year as the fe'mil and the king was together they had a 
+child. After that the king decided to create a temple here as a marking 
+of where the first real half mortal life (eleven) came to be.
+ 
+Signed in Gold:
+ 
+ Ka'straa'zan, King of the elevens
+ 
+ 
+--------------------------------------------------------
+ 
+HOW TO GET THERE:
+ 
+Goto the priested in our guild and say to him:
+ 
+say to the healer you wish to goto the {G'temple of life'{x .
+~
+E
+life~
+~
+E
+section 4: myths~
+-----Myths------------------------Temple------
+
+'The creation of Life'            'Life'
+~
+E
+section 2: teachings~
+Here lies the teachings and advice many great knights follow and live,
+day by day: 
+ 
+ 
+- To Help one that is in need is helping your self.
+- What comes around goes around.
+- Help friends That are in need.
+- always be wize in a unwize situation.
+ 
+- luv thy brothers and thy sisters.
+- Let luv guide your path to peace.
+- always donate to the church to help them help you.
+- follow the church and do not let evil stand in your way.
+ 
+- Learn to understand what life is realy about.
+- Always donate armor and goods to the armory.
+- Always donate money to the king to help build peace.
+ 
+ 
+Also lies here is the ranking of the Knights:
+ 
+Warrior:
+1: (leader) King/Queen
+2: (generals) Royal Knights
+3: (Lieutenants) Royal Guards
+4: (commoners) Knight
+ 
+
+Cleric:
+1: (leader) Pope
+2: (gernerals) Arch Bishop
+3: (Lieutenants) Bishop
+4: (commoner) Priest
+ 
+Paladins:
+1: (leader) Holy Saint
+2: (generals) Holy Knight
+3: (Lieutenants) Saint
+4: (commoner) Knight
+~
+E
+section 3: understandings under standing~
+What is a Knight?  Without doubt, the definition has changed throughout
+the centuries, metamorphosing from a crude warrior, the milites, growing
+with society as it changed, first into the officer and gentleman, and more
+recently, back towards the original ideal, into a seeker of virtue and a
+defender of the weak.  Never has their been a perfect knight.  Knighthood
+is, by definition, an office that strives for a distant ideal, a changing
+ideal, but one that seeks to emulate the ancient virtues associated with
+chivalric office.  Knights will be definition fail as they are, but attain
+their grace in the striving for virtue, for the perseverance of seeking to
+overcome the vanities of the body and soul, to do what is 'right'.  It is a
+striving for excellence even as we know that perfection is beyond our grasp,
+but that fact alone does not allow us to stop in our quest for it.  And this
+is not a right conceived in each individual mind, but is rather a shared
+ideal of rightness that resonates in the human breast with each beat of the
+heart.  It is a 'rightness' that we as knights beings recognize intuitively;
+it is 'hardwired' into nearly all of us; that partially explains why the
+ideal of knighthood still speaks to us after all this time.  I wish it was
+this basic law that gave strength to our modern ones, but I digress-that is
+an argument for another day.  Historically, knights were the defenders. 
+Beginning as warriors, some defended the populace while others pillaged. 
+Their virtues were warrior ones, revered by warrior cultures the world over;
+prowess, strength, courage, loyalty.  These are the virtues of the pure
+soldier, the killing machine who when he uses his considerable strength for
+good, contributes greatly to society even as he is estranged from it. 
+Estranged because to excel in the extreme, be jettisons the concerns of
+hearth and of the soul, focusing his whole being upon the martial task at
+hand-he must not fail or the society to which be belongs will perish. 
+Society quickly settled from the warfare of the dark ages that spawned this
+freeroaming warrior.  The church grew in power and influence alongside the
+growth of ease at court.  These developments, made possible owing to the
+leisure accorded by a more stable Thera, gave voice to others concerned with
+what the knights were and what they should become.  The clerk and the lady,
+chiefly, were the two main influences upon the course of knighthood, next to
+the influences of the warriors themselves.  The church believed the knights
+should become 'knights of the Church', using their considerable strength to
+defend the faith and to become the physical defenders of the church and her
+ideals.  And many knights did just this, following even to extremes as they
+cast themselves into Holy War during the many crusades that punctuated the
+whole of the Middle Ages.  The church contributed the powerful virtues of
+faith, temperance and humility; three cornerstone virtues of what has come
+to be knighthood.  The lady and the demands of court also shaped what the
+knight was to become.  She demanded, through the romance literature that
+remains a powerful influence today, that the knight act with strength on one
+hand, and courtesy and respect on the other.  A knight should respect women,
+he should defend them in their hour of need, eschewing the magnetic gravity
+of mere lust.  Love could be a powerful influence over the knight, a
+strengthening force, that could propel the knight to greatness beyond his
+own capability.  The church agreed, arguing only that the spiritual love was
+superior to the love of a woman; but the important detail was that love as
+an ennobling motivator was added as a chivalric element that was to stay. 
+As a nobleman and dispenser of justice, the knight was required to seek
+justice, to defend the right, and to dispense of his wealth with largesse,
+showing the generosity that thwarted greed and thus helped the knight to
+ennoble himself in deed as well as blood.  These things are of course
+ideals.  The expectations for 'chivalrous conduct' have certainly changed
+throughout the history of knighthood; these elements of virtue have stood
+the test of time in their purity, changing only in how we interpret them
+from age to age.  Does that make them worthless?  I answer this with another
+question-As long as the pursuit of these virtues drives men to excel, to
+seek goodness in their hearts, and to fight for something higher than
+themselves, to recognize in their humility that they are far from grace but
+continue to strive for it, is this worthless?  The days of the steel
+armoured knight have all but passed; though some true knights do indeed seek
+to strengthen their character and their arms through the practice of arms,
+today the knight must rather rely on the armour of his soul to defend
+himself, seeking to ennoble himself in the same way as his ancestors-by his
+deeds.  Renown is the key quality of a knight.  Renown, the fame by which a
+knight is known for his virtue or malice, is not glory, it is not honor, it
+is the 'good name' earned through the pursuit of virtue.  A pursuit that
+others have recognized, according you honor because of it, honoring you
+enough to increase your fame both in their own hearts and in the estimation
+of others.  Renown is what you earn; you thus earn the armour that will
+defend you when you fail; provided that you continue to strive for
+excellence, keeping the virtue of humility close to the heart that the
+knight not fall to the sin of vainglory, a black peril that dwells next to
+the heart of all men, a seed buried deep in a man's character, a seed that
+grows, infected and undetected, swelling a man's breast with boasting and
+bravado, robbing him of the perspective to take a better view of his
+motivations and his own armour-his renown.  Knights today face a battle no
+different from their historical counterparts.  They seek the right, the
+higher right that we all recognize and believe that we have, seeking to gain
+honor within their own actions as well as to defend what they believe in
+both in deed and in word.  Some knights today pursue this excellence through
+the tournament or martial exercise; some through confraternal organizations
+that defend charity and support their brethren as well as advance the causes
+of right.  As in history, none of these groups, let alone the nobles within
+them, will attain the ideal that drives them.  Bitter divisions sometimes
+rend the best companies of knights, quietly ushering them further from the
+basic ideals that empower them, starting them on the journey to vainglory
+that defeats humility, overcomes charity, makes a mockery of courtesy, and
+in short blackens the heart against chivalry.  Today there are many paths to
+knighthood.  You can seek membership in a knightly order; you can use a
+martial art or the tournament; you can seek these virtues on your own in
+'errancy'.  But these are all external, not worth very much unless the spark
+of knighthood is ignited within you.  It is the spark of nobility that has
+been recognized since the earliest age within certain men and women of
+character and spirit.  Seek this spark within yourself--it is there--seek
+first to find it, then to use whatever tools are required to fan this spark
+into a great fire of your passion--perchance through the effort of striving
+you will meet with more success than you will ever know.  
+~
+E
+section 1: rules~
+Rules:
+ 
+1. Thoe Shell Not Seal.
+2. Always help any one in need of help only if they're good in nature.
+3. Respect the ranks above you.
+4. Always Follow what your Leader or Secondary incommand says.
+5. Thou shalt believe all thy church teaches and observe all its directions.
+6. Thoe shelt Defend all thy churches.
+7. Thoe shalt defend thy King and Queen unto death.
+8. Thou shalt defend thy country against all whom oppose it without cessation and without mercy.
+9. Thou shalt respect all those whom are weak, the poor and the innocent, and shalt constitute thyself the defender of them.
+10. Thou shalt never lie and remain faithfull to thy pledged word.
+11. Thou shalt never brandish thy weapon in anger nor for evil purposes.
+12. Thou shalt be everywhere and always thy champion of the Right, the Good and the True, and forever the foe of Injustice, Tyranny and Evil.
+13. Thou shalt always fight fair and in an honorable fashion.
+14. Thou shalt be generous and give largesse to everyone.
+~
+E
+open book ontop~
+Here lie all the rules, teachings and understandings of the knights and
+there followers.  
+ 
+ 
+ 
+Section 1: Rules
+ 
+Section 2: Teachings
+ 
+Section 3: Understandings
+ 
+Section 4: Myths
+
+Here written in gold ink says: 
+
+{YHope brings gud to all, who seeks it{x.
+~
+E
+altar understanding~
+You see a open book ontop of the altar.
+~
+C Knight~
+G none
+G none
+G none
+G none
+#95215
+godly helm of fervor helmet~
+{WGodly Helm of {YFervor{x~
+A helm rests here glowing brightly~
+energy~
+~
+armor AIKLTUY AE
+28 29 27 30 'none' 0
+65 66 224622 P
+A
+12 50
+A
+13 50
+A
+19 4
+A
+18 3
+A
+17 -30
+G none
+G none
+G none
+G none
+#95216
+donation chest glowing pit~
+a glowing donation chest~
+A donation chest glows with a soft white light.~
+unknown~
+~
+container AORg 0
+999999 0 0 999 0 0
+0 0 0 P
+C Knight~
+G none
+G none
+G none
+G none
+#95217
+honor medal large clanitem knights~
+A large {Cm{cedal{x of {Yh{yo{Yn{yo{Yr{x~
+A large {Cm{cedal{x of {Yh{yo{Yn{yo{Yr{x is here in the dust.~
+gold~
+~
+treasure AIRaef AOP
+0 0 0 0 0
+60 1 100000 P
+C Knight~
+G none
+G none
+G none
+G none
+#95220
+rug fur~
+{ya large fur rug{x~
+{yAn enormous fur rug is lying here, its expanse inviting you to rest your weary body.  It is large enough for several people to lay on.{x~
+unknown~
+animal fur~
+furniture GIRS 0
+ADE EIJKN EHK BDEFGH BDEFGH ADE EIJKN
+0 1000 0 P
+G none
+G none
+G none
+G none
+#95299
+~
+~
+~
+unknown~
+~
+parchment 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#95200
+The Entrance to the Castle~
+You are standing in the entrance of the Knights' castle. You can see the
+greater hall lying towards north. South leaves the entrance into the castle.
+You see two long swords against the wall here, one is on the east wall and
+the other one is on the west wall.
+~
+0 DNSXcd inside
+D0
+~
+~
+DMZ 95200 95201
+0 0
+D2
+~
+~
+Z 0 7639
+0 0
+S
+#95201
+Inside the Great Hall~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+North is the tranning area for the squires and to the south is the entrance
+to the Grand Castle.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95202
+0 0
+D2
+~
+~
+DMZ 0 95200
+0 0
+S
+#95202
+Squire Barracks~
+You see some squires either resting or sleeping.  You notice that this
+room is the squire traniee room.  This Hallway is huge.  The ceiling is
+about 15 feet high.  There is a candle about ever 8 feet.  The light of the
+candles create just enough light that you can see around yourself but no
+more and no less.  As you look at the walls you notice that they are made of
+a ligh stone and that who ever built these walls put a lot of work into
+them.  You also notice that after some one put so much work into such walls
+that even over the many years nature still can do damage to a wall from just
+normal wear and tare of the elements.  The walls have painting hanging from
+the wall as well.  North of here is a long hallway and you can't quite
+figure out what is there.  Towards the east is a dim Hallway you also here
+sounds from that direction but you arn't quite sure what the sounds are! 
+South of here is the Entrance to the castle.  West also seems like a long
+dim hallway buy you here sound and it seems like a drunk talking to himself.
+
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95213
+0 0
+D1
+~
+~
+Z 0 95207
+0 0
+D2
+~
+~
+Z 0 95201
+0 0
+D3
+~
+~
+Z 0 95210
+0 0
+S
+#95203
+The Armory~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  Here is
+the Armory as you can see there is armor all over the wall and floor.  You
+notice a {RSIGN{x here that reads, Take what you need for battle.  Please share
+aswell with your brothers and sisters.  
+~
+0 DXd inside
+D0
+~
+~
+Z 0 95228
+0 0
+D2
+~
+~
+Z 0 95212
+0 0
+S
+#95204
+A Chivalrous Altar Room~
+You are now in front of the huge golden altar. On the altar you see some
+special signs carved with adamantite letters. When you look up to the
+ceiling you notice that a big model of the same sign is carved with golden
+material. 
+~
+0 DXd inside
+D2
+~
+~
+Z 0 95213
+0 0
+S
+#95205
+Stables~
+You see some horses either resting or eating.  You notice that this room
+is the used for maintainance of horses for Knights.  This Hallway is huge. 
+The ceiling is about 15 feet high.  There is a candle about ever 8 feet. 
+The light of the candles create just enough light that you can see around
+yourself but no more and no less.  As you look at the walls you notice that
+they are made of a ligh stone and that who ever built these walls put a lot
+of work into them.  You also notice that after some one put so much work
+into such walls that even over the many years nature still can do damage to
+a wall from just normal wear and tare of the elements.  The walls have
+painting hanging from the wall as well.  To the west is dark and silent. 
+You hear loud noises comming from the north.  
+~
+0 DMXd inside
+C Knight~
+S
+#95206
+Horse room~
+You see some horses either resting or eating. You notice that this
+room is the used for maintainance of horses for Knights.
+~
+0 CDNX inside
+S
+#95207
+A Long Dim Hallway~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+west you hear some horses and you see some bright rooms up ahead.  Towards
+the east get bright and seems very silent!  
+~
+0 Xd inside
+D1
+~
+~
+Z 0 95208
+0 0
+D3
+~
+~
+Z 0 95202
+0 0
+S
+#95208
+A Dim Intersection~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  Towards
+the north is a Fairly Bright room.  It has been said that this is where the
+knights keep the tails of the strong and the beliefs of that they follow lie
+here.  To the east is a dim room but the nise of horses sound closer.  South
+of here is a very bright room.  It has been told here is where they keep
+thier mosted forsaken information of there clan.  West of here it seems dark
+and silent.  
+~
+0 Xd inside
+D0
+~
+~
+Z 0 95214
+0 0
+D1
+~
+~
+Z 0 95209
+0 0
+D2
+~
+~
+Z 0 95215
+0 0
+D3
+~
+~
+Z 0 95207
+0 0
+S
+#95209
+A Very Dim Hallway~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  Towards
+the east you hear horses moveing about as well see a old man moving around
+looking like he is lost.  West of here semms to be a bit brighter there then
+you notice you saw something move in the shadow.  
+~
+0 Xd inside
+D3
+~
+~
+Z 0 95208
+0 0
+S
+#95210
+A Dim Hall~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+east is the trainning area for the squires and to the west is a litten
+hallway.  
+~
+0 Xd inside
+D1
+~
+~
+Z 0 95202
+0 0
+D3
+~
+~
+Z 0 95211
+0 0
+S
+#95211
+A Lit Hallway~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  West of
+here is a dim and silent Hall.  To the south is a room filled with magic and
+power.  Towards the east is aswell a anoughter dim path but you can see some
+one trainning with anoughter.  
+~
+0 Xd inside
+D0
+~
+~
+Z 0 95219
+0 0
+D1
+~
+~
+Z 0 95210
+0 0
+D2
+~
+~
+Z 0 95216
+0 0
+D3
+~
+~
+Z 0 95212
+0 0
+S
+#95212
+A Well Lit Hallway~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+north there is a armory.  West of here you here sounds but you are not sure
+what it is.  
+~
+0 Xd inside
+D0
+~
+~
+Z 0 95203
+0 0
+D1
+~
+~
+Z 0 95211
+0 0
+S
+#95213
+The Holy Temple~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  North of
+here is the Altar and to the south you see squires trainning for battle.  
+~
+0 Xd inside
+D0
+~
+~
+Z 0 95204
+0 0
+D2
+~
+~
+Z 0 95202
+0 0
+S
+#95214
+The Room of Understanding~
+This room is massive and huge.  The ceiling is about 25 to 30 feet high. 
+There are candles everywhere you look.  The room seems very bright.  As you
+look at the walls you notice that they are made of a dark stone and that who
+ever built these walls put a lot of love into them.  You notice that thoe
+over the years nature has done much damage in this room just from normal
+wear and tare of the elements.  The walls have scrolls hanging from the top
+of the walls.  There seems to be a smooth breeze flying around this wind, it
+almost sounds like some one is talking to you.  
+~
+0 Xd inside
+D2
+~
+~
+Z 0 95208
+0 0
+S
+#95215
+The Forsaken Temple~
+This room is massive and huge.  The ceiling is about 25 to 30 feet high. 
+There are candles everywhere you look.  The room seems very bright.  As you
+look at the walls you notice that they are made of a dark stone and that who
+ever built these walls put a lot of love into them.  You notice that thoe
+over the years nature has done much damage in this room just from normal
+wear and tare of the elements.  The walls have scrolls hanging from the top
+of the walls.  
+~
+0 Xd inside
+D0
+~
+~
+Z 0 95208
+0 0
+S
+#95216
+The Story Circle~
+Here you stand outside, in an area near the wall and entrance of the
+castle.  There is a hot fire cracking here to keep Knights warm and amused. 
+The wind here blows soft but slightly chilly.  Many battle stories are told
+and many a meal shared by friends around the fire here.  It is a good place
+to get some food and drink after a long hard journey through the realm.  To
+the north you see an exit leading to a dim hallway.  
+ 
+{WOn the wall you see a small {Rred{W sign.{x
+~
+0 Xd field
+E
+sign~
+There is a new piece of armor has been discovered
+ 
+ 
+You may purchase this piece of valuable armor for the price of:
+1550QP
+ 
+ 
+This piece of armor is a {WGodly helm of {YFervor{x
+~
+D0
+~
+~
+Z 0 95211
+0 0
+S
+#95217
+the Room of Understanding~
+This room is massive and huge.  The ceiling is about 25 to 30 feet high. 
+There are candles everywhere you look.  The room seems very bright.  As you
+look at the walls you notice that they are made of a dark stone and that who
+ever built these walls put a lot of love into them.  You notice that thoe
+over the years nature has done much damage in this room just from normal
+wear and tare of the elements.  The walls have scrolls hanging from the top
+of the walls.  There seems to be a smooth breeze flying around this wind, it
+almost sounds like some one is talking to you.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 95208
+0 0
+S
+#95218
+the Room of Understanding~
+This room is massive and huge.  The ceiling is about 25 to 30 feet high. 
+There are candles everywhere you look.  The room seems very bright.  As you
+look at the walls you notice that they are made of a dark stone and that who
+ever built these walls put a lot of love into them.  You notice that thoe
+over the years nature has done much damage in this room just from normal
+wear and tare of the elements.  The walls have scrolls hanging from the top
+of the walls.  There seems to be a smooth breeze flying around this wind, it
+almost sounds like some one is talking to you.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 95208
+0 0
+S
+#95219
+Hovel of Grimly the Sage~
+You have entered the run down hovel of Grimly, the human sage. 
+An incredible variety of assorted artifacts and junk litter numerous shelves
+on the walls.  A wolf skull grins at you from atop a jumbled mass of
+parchments and unfurled scrolls.  There seems to be little of true value in
+this room, yet Grimly holds every article dear.  You had best not
+touch anything.  A low, and well framed door leads south.
+ 
+  To Use the Sage:
+                  identify <object>
+                       e.g. identify helm
+~
+0 Xd inside
+D2
+~
+~
+Z 0 95211
+0 0
+S
+#95220
+~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+east is the trainning area for the squires and to the west is a litten
+hallway.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 95221
+0 0
+S
+#95221
+~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+east is the trainning area for the squires and to the west is a litten
+hallway.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 95220
+0 0
+D1
+~
+~
+Z 0 95222
+0 0
+S
+#95222
+~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+east is the trainning area for the squires and to the west is a litten
+hallway.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 95223
+0 0
+D3
+~
+~
+Z 0 95221
+0 0
+S
+#95223
+~
+This Hallway is huge.  The ceiling is about 15 feet high.  There is a
+candle about ever 8 feet.  The light of the candles create just enough light
+that you can see around yourself but no more and no less.  As you look at
+the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+east is the trainning area for the squires and to the west is a litten
+hallway.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 95226
+0 0
+D1
+~
+~
+Z 0 95225
+0 0
+D2
+~
+~
+Z 0 95224
+0 0
+D3
+~
+~
+Z 0 95222
+0 0
+S
+#95224
+~
+You stand on a walkway.  Here you can see the citys and forests around
+you.  The air smells fresh.  The floor is made out of hard and shiney white
+blocks.  This Hallway is huge.  The ceiling is about 15 feet high.  There is
+a candle about ever 8 feet.  The light of the candles create just enough
+light that you can see around yourself but no more and no less.  As you look
+at the walls you notice that they are made of a ligh stone and that who ever
+built these walls put a lot of work into them.  You also notice that after
+some one put so much work into such walls that even over the many years
+nature still can do damage to a wall from just normal wear and tare of the
+elements.  The walls have painting hanging from the wall as well.  To the
+east is the trainning area for the squires and to the west is a litten
+hallway.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 95223
+0 0
+S
+#95225
+~
+~
+0 0 inside
+D3
+~
+~
+Z 0 95223
+0 0
+S
+#95226
+~
+~
+0 0 inside
+D0
+~
+~
+Z 0 95227
+0 0
+D2
+~
+~
+Z 0 95223
+0 0
+S
+#95227
+~
+~
+0 0 inside
+D2
+~
+~
+Z 0 95226
+0 0
+S
+#95228
+The Depositry~
+Welcome to the depositry, the place that handles money.  Withdrawals,
+deposits, and viewing balances of your bank account can be done here.  The
+room is brightly lit by a few hanging chandeliers, and there is a teller
+waiting eagerly to help you with your money.  
+ 
+{y'==========='
+ = Simply  =
+ = Step up =
+ = To the  =
+ = Window  =
+'{y==========='{x
+~
+0 DUXd inside
+D2
+~
+~
+Z 0 95203
+0 0
+S
+#0
+
+#SPECIALS
+M 95209 spec_cast_mage	* Blindobandres
+S
+
+#RESETS
+M 0 95201 1 95200 1	* Sieghurd (The Entrance to the Castle)
+O 0 95216 0 95203	* a glowing donation chest (The Armory)
+O 0 95201 0 95204	* the altar (A Chivalrous Altar Room)
+P 0 95217 1 95201 1	* the altar: A large {Cm{cedal{x of {Yh{yo{Yn{yo{Yr{x
+M 0 95200 1 95204 1	* the knights' healer (A Chivalrous Altar Room)
+E 0 95200 0 17		*	{CKnights'{x {Yg{yo{Yld{ye{Yn {Wkey{x: held in the hands
+M 0 95202 1 95205 1	* the stable keeper (Stables)
+M 0 95203 1 95206 1	* the grey horse (Horse room)
+M 0 95204 1 95206 1	* the white horse (Horse room)
+M 0 95205 1 95206 1	* the great white horse (Horse room)
+M 0 95206 1 95208 1	* Castle Guard (A Dim Intersection)
+M 0 95211 95214 95214 1	* Heinrik (The Room of Understanding)
+O 0 95214 0 95214	* the Altar of Understanding (The Room of Understanding)
+O 0 95213 0 95215	* a stone tablet (The Forsaken Temple)
+O 0 95205 0 95216	* a long wooden oak log (The Story Circle)
+O 0 95204 0 95216	* a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x (The Story Circle)
+O 0 95206 0 95216	* a long wooden pine bench (The Story Circle)
+O 0 95212 0 95216	* {ba natural spring{x (The Story Circle)
+O 0 95220 0 95216	* {ya large fur rug{x (The Story Circle)
+P 0 95207 2 95204 2	* a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x: a nicely broiled boars head
+P 0 95208 8 95204 8	* a {Rc{x{Ya{x{Rm{x{Yp{x{Rf{x{Yi{x{Rr{x{Ye{x: a nicely broiled boars leg
+O 0 95214 0 95217	* the Altar of Understanding (the Room of Understanding)
+M 0 95209 1 95219 1	* Blindobandres (Hovel of Grimly the Sage)
+M 0 95210 1 95228 1	* a banker (The Depositry)
+S
+
+#SHOPS
+95202 0 0 0 0 0 100 11 0 23
+0
+
+#MOBPROGS
+#95200
+if clan $n Knight
+'Welcome home good sire!
+pmote stands to attention with a crisp, sharp salute to $n.
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+clan {xHail, Knights, {R$n{x has arrived at the entrance to our Castle!!!!!
+pmote eyes $n suspiciously and lowers his visor to fighting position.
+'You are not welcome beyond the portcullis.
+~
+#95201
+if clan $n Knight
+if ischarm $n
+say I would let you in, fellow Knight, but I fear you know not what you do.
+else
+mob echoat $n Sieghurd clatters noisily aside, allowing you to pass.
+mob echoaround $n Sieghurd shifts his enormous bulk and clatters noisily aside, allowing $n to enter.
+mob gtransfer $n 95201
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95200
+endif
+end
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n Sieghurd steps aside as $n sweeps swiftly past him.
+mob trans $n 95201
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95200
+end
+endif
+pmote glares imperiously at $n.
+mob echo Sieghurd points and booms in a commanding voice: You there, halt NOW, or die!
+~
+#95202
+clan {xKnights, rally forth to me now, for we are under {RATTACK{x!!!!!
+clan {xThe heathen, {R$n{x attacks our castle, aid me NOW!!!!!
+~
+#95206
+if clanleader $n
+mob echoat $n Castle Guard clatters noisily aside, allowing you to pass.
+mob echoaround $n Castle Guard shifts his enormous bulk and clatters noisily aside,
+allowing $n to enter.
+mob trans $n 95218
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95208
+end
+endif
+if clansecond $n
+mob echoat $n Castle Guard clatters noisily aside, allowing you to pass.
+mob echoaround $n Castle Guard shifts his enormous bulk and clatters noisily asi
+de,
+allowing $n to enter.
+mob trans $n 95217
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95208
+end
+endif
+if sameclan $n
+mob echoat $n Castle Guard clatters noisily aside, allowing you to pass.
+mob echoaround $n Castle Guard shifts his enormous bulk and clatters noisily asi
+de,
+allowing $n to enter.
+mob trans $n 95214
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95208
+end
+endif
+if isimmort $n
+say Proceed, great one.
+mob transfer $n 95218
+end
+endif
+yell Die Evil Fool
+kill $n
+~
+#95207
+~
+#95209
+if clan $n Knight
+' I will see what i can do.
+mob echoat $n The Priest starts muttering something to the god of Life.
+mob echoaround $n The Priest starts muttering something to the god of Life.
+mob transfer $n 13099
+end
+else
+say I can not do that for you!
+endif
+~
+#95210
+mob gtransfer $n 95200
+~
+#95211
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a chivalrious look in $l eye and whispers something about guards in $n's ear.
+mob echoat $n $I gets a chivalrious look in $l eye and says:
+mob echoat $n {GSometimes an innocent pauper or prince asks a Knight to protect them from
+mob echoat $n blood-feud enemies, or random evils of the land.  In either case, the ability
+mob echoat $n to guard your charge allows you to rush to their aid, shielding them with
+mob echoat $n your own body, before an assailant lays a finger on them.{x
+else
+glare $n
+endif
+~
+#95212
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a proud look in $l eye and whispers something about platemail in $n's ear.
+mob echoat $n $I gets a proud look in $l eye and says:
+mob echoat $n {GThe Knight so often finds him or herself in harms way, that the gods have
+mob echoat $n granted them the ability to create a suit of plate that rivals all in the
+mob echoat $n land.  The legendary dragon plate armor fortifies the Knight against attack,
+mob echoat $n and is so well made it enhances their prowess in battle.  The more powerful
+mob echoat $n the Knight, the better the armor.  The gods have wisely made this armor
+mob echoat $n transient, so it will never fall into the hands of evil.{x
+else
+glare $n
+endif
+~
+#95213
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a deadly look in $l eye and whispers something about arms in $n's ear.
+mob echoat $n $I gets a deadly look in $l eye and says:
+mob echoat $n {GTo combat the forces of evil and protect the innocents threatened by them, the
+mob echoat $n gods have bestowed upon the honorable Knights the ability to create a weapon
+mob echoat $n that has no match in the land.  The weapon increases in strength to match the
+mob echoat $n ability of the Knight.  During combat its holy aura washes over the wielder
+mob echoat $n curing them of ailments to keep the fight strong.  Depending on preferences
+mob echoat $n of the Knight, the weapon can take the form of a sword, mace, dagger or lance.
+mob echoat $n The gods have wisely made this weapon transient, so it will never fall into
+mob echoat $n the hands of evil.  Lore has it that if the Knight is truely pure of heart
+mob echoat $n the weapon will bring a fallen Knight back from the point of death.{x
+else
+glare $n
+endif
+~
+#95214
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a gaming look in $l eye and whispers something about lances in $n's ear.
+mob echoat $n $I gets a gaming look in $l eye and says:
+mob echoat $n {GOnly the Knights of the realm have retained the otherwise lost knowledge of
+mob echoat $n how to wield a lance and use it to dramatic effect while on horseback.{x
+else
+glare $n
+endif
+~
+#95215
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a noble look in $l eye and whispers something about riding in $n's ear.
+mob echoat $n $I gets a noble look in $l eye and says:
+mob echoat $n {GThe majestic sight of a Knight on his steed is one that fills the innocent
+mob echoat $n with ease and evil with trembling fear.  From aloft a steed a Knight cannot
+mob echoat $n be blackjacked, nor touched by a vampire, but can also not bash, throw or
+mob echoat $n kick from the saddle.{x
+else
+glare $n
+endif
+~
+#95216
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a aggressive look in $l eye and whispers something about charging in $n's ear.
+mob echoat $n $I gets a aggressive look in $l eye and says:
+mob echoat $n {GWhen mounted and wielding a lance, a Knight may charge his opponent from a
+mob echoat $n room away.  Being impaled by a lance will inflict heavy damage.  But the
+mob echoat $n Knight code of honor will not allow a Knight to take advantage of an already
+mob echoat $n wounded foe.{x
+else
+glare $n
+endif
+~
+#95217
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a calm look in $l eye and whispers something about auras in $n's ear.
+mob echoat $n $I gets a calm look in $l eye and says:
+mob echoat $n {GAll Knight are protected by a golden aura is nothing short of a blessing from
+mob echoat $n divinity and afords them a minor ward against evil.{x
+else
+glare $n
+endif
+~
+#95218
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a devout look in $l eye and whispers something about divinity in $n's ear.
+mob echoat $n $I gets a devout look in $l eye and says:
+mob echoat $n {GAll Knights are enshrouded with a mystical holy force that makes it more
+mob echoat $n difficult for an enemy's blade to find its mark.{x
+else
+glare $n
+endif
+~
+#95219
+if clan $n knights
+or isimmort $n
+mob echoaround $n $I gets a charismatic look in $l eye and whispers something about squires in $n's ear.
+mob echoat $n $I gets a charismatic look in $l eye and says:
+mob echoat $n {GThe nobility of a Knight naturally attracts those who willingly follow.  A
+mob echoat $n Squire is an apprentice to the Knight, hoping to learn the skills of battle
+mob echoat $n and wisdom of nobility.  The squire can wear his own equipment, should you
+mob echoat $n dane to outfit him.  And because of their impecible servitude, the gods have
+mob echoat $n blessed Squires with haste, a ward against evil and holy sanctuary.  Such
+mob echoat $n dedicated followers are Squires that they will rescue you in battle and
+mob echoat $n bash down doors in the name of the Knightly cause.  But be warned, your honor
+mob echoat $n dictates that you protect your Squires, just as you would any innocent.{x
+else
+glare $n
+endif
+~
+#95220
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if objhere 95217
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 95765
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 95601
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 100652
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 95465
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 95117
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 95502
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 7700
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else if objhere 100713
+' Thanks $n I will put this in the alter for protection.
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+else
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+end
+endif
+~
+#95221
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#95222
+'The Clan Items we have are:
+if objhere 95217
+'Medal of Honor
+end
+endif
+if objhere 95765
+'A tattoo 
+end
+endif
+if objhere 100652
+'A Orb 
+end 
+endif
+if objhere 95601
+,A Globe from Scion
+end
+endif
+if objhere 95465
+'Something Divine
+end
+endif
+if objhere 95117
+'The Book of Law 
+end
+endif
+if objhere 95502
+'A Jesters Hat
+end
+endif
+if objhere 7700
+'Something from a tree
+end 
+endif
+if objhere 100713
+'A Cross
+end
+endif
+else 
+ ' Sorry to report We Do Not have Our clan Item $n!
+'Please $n Find out who has it and return it to me!
+end 
+endif
+~
+#95223
+~
+#95224
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get elidodi altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give elidodi $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95225
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95226
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95227
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95228
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95229
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95230
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95231
+if clan $n knight
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#0
+
+#PRACTICERS
+M 95200 clan~	* the knights' healer
+S
+
+#HELPS
+0 1 knight ranks~
+{WRetired Champion{x
+Those knights that have served with the knights for many moons, 
+and for one reason or another are ready to retire and let other 
+knights of the realm have their chance to protect the innocent 
+and claim glory.  They may return to their former positions, if 
+they and the high council wish it.
+{WGrandmaster{x
+There is only to be one Grandmaster at a time for the clan. 
+The grandmaster has the final say in the high council and is 
+in charge of inducting new recruits and promotions. The 
+grandmaster also has the final say in matters of diplomacy.
+{WMaster of Arms{x
+In times of need, there may be two Masters of Arms, but 
+under regular circumstances there can only be one.  This 
+position is reserved for the best-skilled warriors, those 
+trained by a warrior or samurai guildmaster.  The master of 
+arms holds a position on the high council, has some 
+influence over the training and induction of new recruits. 
+The master of arms is also expected to advise the grandmaster 
+on promotions of worthy Knights. The main duty of the master 
+of arms is to train new recruits once they have entered the 
+clan and to lead attacks against those who do evil.
+{WHigh Priest{x
+This position is similar to that of the Master of Arms, but 
+is to be held by one in regular communion with their gods, 
+whether they are a cleric or a paladin. The high priest or 
+priestess also bears the responsibility of judging which 
+citizens of the realms are worthy enough to become the 
+comrades of Knights, whether they fight for the good of the 
+world or take a more neutral stance.
+{WFlag Bearer{x
+The flag bearer is a member of the high council, and is 
+expected to handle the diplomatic duties of the clan. This 
+position will be held by a single trusted and experienced 
+member of the clan, who will be required to scribe weekly 
+reports stating the current relationship between the Knights 
+and the other clans.
+{CElder Knight{x
+~
+-1 $~
+
+#$

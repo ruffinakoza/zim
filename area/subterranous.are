@@ -1,0 +1,3423 @@
+#AREADATA
+Name Subterranos~
+VNUMs 16500 16599
+Credits Thornan Tidus~
+Security 9
+LevelRange 5 35
+Flags closed noquest~
+End
+
+#MOBILES
+#16500
+drow~
+A tall slender {DDrow~
+A tall slender drow is here hiding in the shadows
+~
+~
+dark-elf~
+ACFGTc FQV -1000 0
+30 30 61d10+273 30d9+60 9d3+16 none
+-9 -9 -9 -3
+DEFHIKQR M 0 Y
+stand stand none 1000
+0 0 large flesh~
+~
+#16501
+spider~
+{Wa {ymonstrous spider{x~
+{Wa {ymonstrous spider {W scuttles about, barely noticing you.{x
+~
+This spider is about two and a half feet in length, measuring
+approximately four feet from leg to leg on either side.  It's hairy body is
+of a brownish-tan color.  It doesn't seem to notice you.  If it does, then
+it is none too interested.  
+~
+unique~
+AGLUY Z 0 0
+4 4 9d3+41 4d11+95 2d2+10 none
+5 5 5 6
+U L L H
+stand stand male 0
+P BCDEKV medium flesh~
+~
+#16502
+bat night hunter~
+{Wa {mnight hunter bat{x~
+{Wa {mnight hunter bat{W is perched here, looking for a meal.{x
+~
+This bat is velvet black in color.  It's wings spread twice the length of
+it's body, with sharp claws at the end of each.  It's eyes glow bright
+orange in the dark, and take on a very light reddish hue when exposed to
+light.  Stretching beyond the length of it's body is a long tail with a
+sharp, triangular spike at the end.  
+~
+bat~
+AGLY 0 -500 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+0 0 0 0
+stand stand male 0
+0 0 large flesh~
+~
+#16503
+horned felldrake male~
+{wa {yh{Yo{yr{Yn{ye{Yd {yf{Ye{yl{Yl{yd{Yr{ya{Yk{ye {Wmale{x~
+{Wa {yh{Yo{yr{Yn{ye{Yd {yf{Ye{yl{Yl{yd{Yr{ya{Yk{ye {Wmale bares it horrible fangs and {Rattacks!{g
+~
+~
+dragon~
+AFGY F -500 0
+25 25 51d8+253 25d10+85 8d3+17 none
+-7 -7 -7 -1
+CMN 0 0 0
+stand stand male 200
+0 0 large flesh~
+~
+F aff T
+F res H
+F vul I
+F par P
+#16504
+horned felldrake female~
+{Wa {yh{Yo{yr{Yn{ye{Yd {yf{Ye{yl{Yl{yd{Yr{ya{Yk{ye {Wfemale{x~
+{Wa {yh{Yo{yr{Yn{ye{Yd {yf{Ye{yl{Yl{yd{Yr{ya{Yk{ye {Wfemale skulks about here.{x
+~
+~
+dragon~
+AGY F -500 0
+30 30 63d11+304 30d11+95 11d2+27 none
+-12 -12 -12 -6
+CMN 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+F aff T
+F res H
+F vul I
+F par P
+#16505
+horned felldrake offspring~
+{Wa {yh{Yo{yr{Yn{ye{Yd {yf{Ye{yl{Yl{yd{Yr{ya{Yk{ye {Woffspring{g~
+{Wa {yh{Yo{yr{Yn{ye{Yd {yf{Ye{yl{Yl{yd{Yr{ya{Yk{ye {Woffspring eyes you suspiciously.{g
+~
+~
+dragon~
+AGY 0 -500 0
+10 10 21d3+102 10d10+85 3d3+10 none
+2 2 2 4
+CN 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F aff T
+F res H
+F vul I
+F par P
+#16506
+sword spider~
+A {ws{Dw{wo{Dr{wd {Ds{wp{Di{wd{De{wr{x~
+A {ws{Dw{wo{Dr{wd {Ds{wp{Di{wd{De{wr{x clings to the ceiling here, scanning for suitable prey.
+~
+~
+unique~
+AGLYe FVZ 0 0
+22 22 46d8+223 22d11+95 8d2+22 none
+-6 -6 -6 -2
+HU L BF E
+stand stand female 0
+O BCDEFK large flesh~
+~
+M greet 16506 100~
+#16507
+monstrous spider~
+{Wa {ylarge, monstrous spider{x~
+{Wa {ylarge, monstrous spider {Wis spinning her web here.{x
+~
+~
+unique~
+AGLUY Z 0 0
+8 8 17d2+81 8d10+85 2d4+9 none
+3 3 3 5
+U L L H
+stand stand female 0
+P BCDEKV large flesh~
+~
+#16508
+junior myconid worker~
+{Wa {gjunior {bm{By{Cc{co{b{Bn{Ci{cd {Wworker{x~
+{Wa {gjunior {bm{By{Cc{co{b{Bn{Ci{cd {Wworker gathers very small pieces of mushrooms here{x
+~
+A strange creature indeed, this being greatly resembles a walking
+mushroom with beady eyes and short, stalky arms and legs.  Its feet somewhat
+resemble tiny elephant feet; they are very flat and very round.  The
+creature takes on a slight hue of blue throughout its plant-like body. 
+Judging by its size, you quickly gather that this little guy is merely a
+child.  
+~
+unique~
+AGHY Z 0 0
+4 4 9d2+37 4d9+60 1d4+4 none
+7 7 7 7
+IR 0 0 0
+stand stand none 0
+M ABCDEGHIK large flesh~
+~
+#16509
+senior myconid worker~
+{Wa {csenior {bm{By{Cc{co{Bn{Ci{cd {Wworker{x~
+{Wa {csenior {bm{By{Cc{co{Bn{Ci{cd {Wworker gathers large chunks of mushrooms here.{x
+~
+A strange creature indeed, this being greatly resembles a walking
+mushroom with beady eyes and short, stalky arms and legs.  Its feet somewhat
+resemble those of an elephant's; they are very flat and very round.  The
+creature takes on shades of blue throughout it's plant-like body.  Judging
+by its size and demeanor, you quickly gather that this particular Myconid is
+an adult, and has had much experience in mushroom farming.  
+~
+unique~
+ACGTY Z 0 0
+14 14 29d4+142 14d10+85 4d3+12 none
+0 0 0 2
+CIRU 0 0 0
+stand stand none 0
+M ABCDEGHIK medium flesh~
+~
+#16510
+average myconid worker~
+{Wan {Gaverage {bm{By{Cc{co{Bn{Ci{cd {Wworker~
+{Wan {Gaverage {bm{By{Cc{co{Bn{Ci{cd {Wworker gathers fair-sized pieces of mushrooms here.{x
+~
+A strange creature indeed, this being greatly resembles a walking
+mushroom with beady eyes and short, stalky arms and legs.  Its feet somewhat
+resemble those of an elephant's; they are very flat and very round.  The
+creature takes on shades of blue throughout it's plant-like body.  Judging
+by its size and demeanor, you quickly gather that this particular Myconid is
+an adolescent, blooming into adult-hood.  
+~
+unique~
+AGY Z 0 0
+8 8 17d2+81 8d10+85 2d4+9 none
+3 3 3 5
+IR 0 0 0
+stand stand none 0
+M ABCDEGHIK medium flesh~
+~
+#16511
+myconid elder~
+{Wa {bm{By{Cc{co{Bn{Ci{cd {Celder{x~
+{Wa {bm{By{Cc{co{Bn{Ci{cd {Celder {Wsupervises the mushroom farming here.{x
+~
+A strange creature indeed, this being greatly resembles a walking
+mushroom with beady eyes and short, stalky arms and legs.  Its feet somewhat
+resemble those of an elephant's; they are very flat and very round.  The
+creature takes on shades of blue and green throughout it's plant-like body. 
+Judging by its size and demeanor, you quickly gather that this particular
+Myconid is old, and has been supervising the mushroom farming in its clan
+for quite some time.  
+~
+unique~
+ACGQY Z 0 0
+28 28 59d10+283 28d11+95 10d2+26 none
+-10 -10 -10 -5
+IRU 0 0 0
+stand stand none 0
+M ABCDEGHIK medium flesh~
+~
+#16512
+myconid leader~
+{Wthe {bm{By{Cc{co{Bn{Ci{cd {Wcircle leader{x~
+{Wthe {bm{By{Cc{co{Bn{Ci{cd {Wcircle leader sits on its mushroom throne here.{x
+~
+A strange creature indeed, this being greatly resembles a walking
+mushroom with beady eyes and short, stalky arms and legs.  Its feet somewhat
+resemble those of an elephant's; they are very flat and very round.  The
+creature takes on shades of blue and green throughout it's plant-like body. 
+This particular Myconid holds a kind of leadership aura about it, and you
+quickly gather that this Myconid is the leader of the circle.  
+~
+unique~
+ABGQY Z -100 0
+33 33 69d12+334 33d11+95 12d2+29 none
+-14 -14 -14 -7
+CIJU 0 0 0
+stand stand none 0
+M ABCDEGHIK medium flesh~
+~
+#16513
+myconid guard~
+{Wa {bm{By{Cc{co{Bn{Ci{cd {Bguard{x~
+{Wa {bm{By{Cc{co{Bn{Ci{cd {mguard{W is here, watching for unwelcome intruders.
+~
+A strange creature indeed, this being greatly resembles a walking
+mushroom with beady eyes and short, stalky arms and legs.  Its feet somewhat
+resemble those of an elephant's; they are very flat and very round.  The
+creature takes on shades of blue and magenta throughout it's plant-like
+body.  Judging by its demeanor, you quickly gather that this particular
+Myconid is a guard for the circle.  
+~
+unique~
+ABGTY Z 0 0
+25 25 52d9+253 25d11+95 9d2+24 none
+-8 -8 -8 -3
+CEIJNRU 0 0 0
+stand stand none 0
+M ABCDEGHIK medium flesh~
+~
+#16514
+bulrathi minotaur legendary legend bul~
+{WBulrathi{x~
+{WBulrathi, The {rL{be{rg{be{rn{bd{ra{br{ry {yMinotaur {Wis here, looking for a fight.{x
+~
+This minotaur is larger than any you've ever encountered before.  He
+stands at nearly ten feet tall.  His arms are large enough to double for
+tree trunks, and his hoofs make the ground thunder when he walks.  His horns
+rise high above his head, scratched and chipped from years upon years of
+fighting.  His large, muscular body is painted with scrapes and scars.  He
+is known across the lands as a Minotaur of Legend.  Draped over one shoulder
+is an axe of immense proportions, its blade stained with blood and notched a
+thousand times over.  
+~
+minotaur~
+ABFTY Z -500 0
+50 80 50d8+2600 1d1+200 2d10+270 none
+-23 -23 -23 -6
+DE 0 0 0
+stand stand male 500
+0 0 gargantuan flesh~
+~
+M fight 16514 100~
+#16515
+vicious minotaur warrior~
+{Wa vicious minotaur{x~
+{WA vicious minotaur is here, snorting angrily at you.{x
+~
+This is your average minotaur.  A large creature, standing at
+approximately eight feet tall and weighing nearly one thousand pounds.  His
+eyes are pitch black, and his nose snorts loudly with every breath.  His
+body is covered with battle marks, and you quickly get the distinction that
+he has seen his share of fights, and almost always comes out on top.  
+~
+minotaur~
+AGY Z -400 0
+33 33 69d12+334 33d11+95 12d2+29 none
+-14 -14 -14 -7
+E 0 0 0
+stand stand male 300
+0 0 large flesh~
+~
+M grall 16515 100~
+M fight 16516 100~
+#16516
+minotaur shaman~
+{WA Minotaur {MShaman{x~
+{WA large, robed minotaur is here chanting spells.{x
+~
+~
+minotaur~
+ABGY 0 0 0
+38 38 79d13+384 38d11+95 13d2+32 none
+-18 -18 -18 -12
+ERU 0 0 0
+stand stand male 100
+0 0 large flesh~
+~
+M fight 16517 100~
+#16517
+goblin greblin~
+{GGreblin {Wthe {GGoblin{x~
+{GGreblin {Wsquats by the cave wall, quivering from hunger.{x
+~
+~
+goblin~
+ABGYc 0 0 0
+15 13 13d6+105 0d0+0 0d0+0 none
+0 0 0 0
+FH 0 0 0
+stand stand male 10
+0 0 large flesh~
+~
+#16518
+stripbulrathi~
+Bulrathi's private stripper~
+Bulrathi's private stripper seductively strips Bulrathi, then runs off.
+~
+A gorgeous naked woman stands before you...
+Well ok, not exactly.  Bulrathi's stripper's only purpose is to strip
+blindness from him so that his mprogs function properly, reference mprog
+16514 to view all procedures.
+~
+human~
+AB DFJlmt 0 0
+1 0 1d1+0 1d1+0 1d1+0 none
+0 0 0 0
+0 CD 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M random 16518 100~
+I 92
+#16519
+black orc~
+{Wa tall, lanky {Dblack orc{x~
+{WA tall, lanky {Dblack orc{W is here, dipping in and out of the shadows.{x
+~
+~
+orc~
+ACGLSY 0 -750 0
+33 33 76d33+0 165d10+85 11d3+21 none
+-12 -12 -12 -8
+BEFJN 0 0 0
+stand stand none 100
+0 0 medium flesh~
+~
+F res Q
+M greet 16519 100~
+#0
+
+#OBJECTS
+#16500
+corpse~
+{wa {Wskeletal corpse{x~
+{wA {Wskeletal corpse {wleans against the cavern wall here.{x~
+bone~
+~
+container R 0
+1 0 0 1 1 0
+0 0 0 P
+E
+corpse~
+Judging by the bone structure of this skeletal form, you quickly gather
+that is was once the mortal form of a dwarf.  Scraps of old, decaying
+leather are still draped across the broken form.  No other pieces of armor
+or clothing are apparent.  One of its bony hands is clenched in a fist, as
+if it was holding on to something.  
+~
+G none
+G none
+G none
+G none
+#16501
+key~
+{Wan {Mamethyst {Wkey{x~
+{WAn {Mamethyst {Wkey lies on the ground here.{x~
+unknown~
+amathest~
+key 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+E
+key amethyst~
+Carved to perfection, this key has been crafted from a beautiful violet
+stone.  The impeccable craftsmanship of the worked stone clearly reveals its
+dwarven makers.  
+~
+G none
+G none
+G none
+G none
+#16502
+platemail hell plate~
+{yFiery Plate{z of the {RHELL Furnace{z~
+{yFiery Plate{z of the {RHell Furnace{z lies here, neglected.~
+mithril~
+~
+armor ABERab AD
+33 33 33 32 'none' 0
+90 91 892615 P
+A
+13 90
+A
+18 9
+A
+19 9
+E
+plate~
+This platemail repeatedly changes colors from hues of yellow, orange, and red as if it is continously being
+heated to searing temperatures, then cooled back down to normal.
+~
+G none
+G none
+G none
+G none
+#16503
+axe greataxe~
+{RB{ra{Rr{ra{Ru{ro{Rk{r's {DG{wr{De{wa{Dt{wa{Dx{we {Wof the {MD{ma{Dr{mk {MF{ml{Da{mm{Me.{g~
+{RB{ra{Rr{ra{Ru{ro{Rk{r's {DG{wr{De{wa{Dt{wa{Dx{we {Wof the {MD{ma{Dr{mk {MF{ml{Da{mm{Me.{g~
+adamantite~
+~
+weapon ABEGORTY AN
+axe 5 22 cleave A
+92 80 162876 P
+G none
+G none
+G none
+G none
+#16504
+torch~
+{Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x~
+{WAn {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{W illuminates brightly in it's sconce here.{x~
+unknown~
+magic~
+light AGRY 0
+0
+0 2 0 P
+G none
+G none
+G none
+G none
+#16505
+pool water~
+{wa {Bp{Coo{Bl of w{Cate{Br{x~
+{wA {Bp{Coo{Bl of w{Cate{Br{w glistens here, gathered against the north wall.{x~
+water~
+~
+fountain R 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#16506
+myconid amulet leader~
+{WAmulet of the {bm{By{Cc{co{Bn{Ci{cd {bc{ci{Br{bc{Bl{be {Wleader{x~
+{WA {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{W{C-{Mw{Ro{Bv{Ge{Cn{W amulet lies on the ground here.{x~
+unknown~
+mushroom~
+jewelry GJKS AC
+0 0 0 0 0 0 0
+30 2 25000 P
+F
+A 0 0 c
+E
+amulet~
+This shimmering amulet seems to have been crafted from multi-colored
+mushrooms.  The pieces have been woven together and bonded by magical means.
+Connected to the strand of mushroom pieces is a small pendant of a
+golden mushroom cap.
+~
+G none
+G none
+G none
+G none
+#16507
+ring myconid~
+{WRing of the {bM{By{Cc{co{Bn{Ci{cd{x~
+{WA {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{C-{Mw{Ro{Bv{Ge{Cn{W ring hums softly on the ground here.{x~
+unknown~
+mushroom~
+jewelry BGJKS AB
+0 0 0 0 0 0 0
+15 2 1000 P
+A
+20 -2
+A
+1 2
+E
+ring~
+The ring is woven from soft, multi-colored mushrooms grown within the
+Myconid circle and harvested by the Myconids themselves.  Though the ring
+has the soft texture of a fresh mushroom, it is as hard as steel, protected
+by the magic of the Myconids.  Upon the top of the band, a small mushroom
+cap serves as an emblem embedded upon the ring.  
+~
+G none
+G none
+G none
+G none
+#16508
+greataxe thundering axe~
+{WBulrathi's {CT{Dh{Cu{Dn{Cd{De{Cr{Di{Cn{Dg {wG{Dr{we{Da{wt{Da{wx{De{x~
+{WA huge, many-notched axe lies on the ground here, consumed in wickedness.{x~
+metal~
+~
+weapon AEGJ AN
+axe 2 36 cleave DEFG
+50 51 1740832 P
+A
+13 30
+A
+18 5
+A
+19 5
+A
+1 2
+E
+axe~
+This axe is extremely heavy, weighing in at nearly eighty pounds.  The
+handle is of a solid wrought iron material, adding to its stability and
+weight.  The blade is double-edged, and despite the many notches it has, it
+is still as sharp as ever.  Runes line the edge of both blades, emitting a
+faint humming noise.  
+~
+E
+greataxe~
+This axe is extremely heavy, weighing in at nearly eighty pounds.  The
+handle is of a solid wrought iron material, adding to its stability and
+weight.  The blade is double-edged, and despite the many notches it has, it
+is still as sharp as ever.  Runes line the edge of both blades, emitting a
+faint humming noise.  
+~
+G none
+G none
+G none
+G none
+#16509
+emerald key~
+{Wan {Gemerald {Wkey{x~
+{WAn {Gemerald {Wkey is here, covered in dust gathered throughout the centuries.{x~
+emerald~
+~
+key GT A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#16510
+serrated waraxe axe~
+~
+~
+iron~
+~
+weapon 0 AN
+axe 2 12 slash D
+20 21 9724 P
+A
+18 1
+A
+19 1
+G none
+G none
+G none
+G none
+#16511
+rothe leg~
+{Wa leg of {yrothe{x~
+{WA leg of {yrothe{W is here, simply begging you to take a bite.{x~
+meat~
+~
+food 0 A
+DG D 0 0 0 DG D
+0 2 784 P
+G none
+G none
+G none
+G none
+#16512
+table wooden~
+a large {ywooden{x table~
+A large {ywooden {xtable stands some six feet off the ground here.~
+wood~
+~
+container R 0
+182 0 0 100 100 0
+0 27 0 P
+G none
+G none
+G none
+G none
+#16513
+sack hay large~
+{Wa large {ysack{W of {Yhay{x~
+{WA large {ysack {Wof {Yhay{W rests against the back wall here.{x~
+unknown~
+hay~
+furniture GR 0
+B ABCGHI EHK BEF 0 B ABCGHI
+0 23 0 P
+G none
+G none
+G none
+G none
+#16514
+bracer myconid~
+{WBracer of the {bM{By{Cc{co{Bn{Ci{cd{x~
+{WA {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{W-woven bracer is glowing softly here.{x~
+unknown~
+mushroom~
+armor AGJKS AM
+3 3 3 1 'none' 0
+20 5 500 P
+F
+R 0 0 P
+G none
+G none
+G none
+G none
+#16515
+spiney spider body arachnid~
+{wa spider's corpse{x~
+{wThe large, spiney body of an arachnid is curled up here, dead as a doornail.{x~
+unknown~
+spider~
+trash 0 A
+0 0 0 0 0 0 0
+0 19 0 P
+G none
+G none
+G none
+G none
+#16517
+bronze cudgel~
+{Wa {Ybr{yon{Yze{W cudgel{x~
+{WA {Ybr{yon{Yze{W cudgel rests on the ground here.{x~
+unknown~
+~
+weapon 0 0
+mace 2 14 pound 0
+28 29 1780 P
+A
+13 10
+A
+19 3
+A
+18 3
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#16500
+{wA Non-Descript Stone Room{g~
+This small stone room is completely unadorned. The walls are bare, along
+with the floor and the ceiling. The air here is somewhat chilly, giving the
+room a slight eerie feel to it. Judging by the many cracks and splits in
+the stones of the room, one could gather that this room has been unused for
+some time. One particular crack catches your eye on the north wall.
+Stretching from floor to ceiling, the vertical split is set in the dead
+center of the wall, and you get the impression it was not put there by
+natural causes.  
+~
+0 D inside
+E
+crack~
+{xFor some reason, this particular crack seems out of place. It runs
+vertically from floor to ceiling in the center of the north wall.  Upon
+further investigation, you realize that the north wall is actually a secret
+door, though what this door is hiding is a mystery.  
+~
+D0
+{wa huge hole in the floor{g
+~
+secret door crack~
+ABZ 0 16501
+0 0
+S
+#16501
+{wA Huge Hole In The Floor!{g~
+This room is made of earth, it's walls flawed from years of corrosion. 
+There is nothing noticeable about the contents of the cavern except for a
+large hole in the floor, spanding the width of the room, and leading down,
+deeper into the earth.  There is little room to walk here without toppling
+into the darkness below.  The passage down looks rather rocky; one unskilled
+in the ways of climbing may find it difficult to get back up once they've
+descended.  
+~
+0 D inside
+D2
+{wa non-descript stone room{g
+~
+secret door crack~
+ABZ 0 16500
+0 0
+D5
+{ya steep, rocky descent{g
+~
+~
+Z 0 16503
+0 0
+S
+#16502
+{wA Small Crawlspace{g~
+Carved out of the walls of the cavern to the east, this crawlspace is
+large enough to house merely one person.  Its concealed nature gives you the
+impression that it was once used as a hiding spot, though from what, you
+have no idea. A skeleton leans against the far wall in a heap of
+lifeless, decaying bones.  The only retreat from this tiny area is the
+secret door to the east.  
+~
+0 ACDJ inside
+D1
+{ya steep, rocky descent{g
+~
+secret door~
+ABZ 0 16503
+0 0
+S
+#16503
+{yA Steep, Rocky Descent{g~
+You are standing on a small, flat area of earth that protrudes from the
+side of a rocky decline above.  There isn't much to see here.  The west wall
+is smooth, unlike the rest of the cavern.  The decline continues downward. 
+However, it is far too steep to return once one has descended.  Has
+decended.  
+~
+0 AD inside
+D3
+{wa small crawlspace{g
+~
+secret door~
+ABZ 0 16502
+0 0
+D5
+{ya dark tunnel{x
+~
+~
+Z 0 16504
+0 0
+S
+#16504
+{yA Dark Tunnel In The Underdark{g~
+The air is a bit foul here.  No light is evident from any direction.  The
+walls are natural, made from hard, solid earth.  The ground beneath your
+feet is covered with marks of all types ranging from humanoid footprints to
+large lines resembling those left by snakes.  The tunnel continues to the
+north and east.  
+~
+0 AD inside
+D0
+{yan open cavern{x
+~
+~
+Z 0 16523
+0 0
+D1
+{ya meandering path{x
+~
+~
+Z 0 16505
+0 0
+S
+#16505
+{yOn A Meandering Underdark Path{g~
+Though little wind passes through this tunnel, you still notice a foul
+smell emitting from the east. Light is absent here, and seems to remain
+absent in both visible directoins, east and west.
+~
+0 AD inside
+D1
+{ya turn in the path{x
+~
+~
+Z 0 16506
+0 0
+D3
+{ya dark tunnel{x
+~
+~
+Z 0 16504
+0 0
+S
+#16506
+{yA Turn In The Path{g~
+The path forms a curve here, spanding to the north and west.  No light
+can be seen from either direction, though a foul stench lingers here,
+seemingly emitting from the north.  Large, clawed footprints scatter the
+ground here, though there are far too many to determine what direction they
+trail off in.  
+~
+0 ACD inside
+E
+footprints~
+These footprints must have been created by a fairly large creature, as
+they are clearly more than a foot long.  Three toes are apparent at the
+front of the print, and one toe at the heel.  It is difficult to discern any
+more about them due to the vast number strewed amongst the floor.  
+~
+D0
+{ya turn in the path{x
+~
+~
+Z 0 16507
+0 0
+D3
+{ya meandering path{x
+~
+~
+Z 0 16505
+0 0
+S
+#16507
+{yA Turn In The Path{g~
+The path forms a curve here, spanding to the south and east.  No light
+can be seen from either direction.  A foul stench lingers here, growing ever
+stronger to the east.  Large, clawed footprints scatter the ground here,
+though they do not seem to lead anywhere.  Rather, they are all jumbled
+together, as if this area has been crossed a thousand times over by the
+creature who left them.  
+~
+0 AD inside
+D1
+{ynearing a small cave{x
+~
+~
+Z 0 16508
+0 0
+D2
+{ya turn in the path{x
+~
+~
+Z 0 16506
+0 0
+S
+#16508
+{yNearing A Small Cave{g~
+An immense stench of death assails your nostrils from the south.  The
+floor here is well-trampled, covered in large footprints.  The path
+continues on to the south, where you can make out the opening of a small
+cave, and to the west, where the path meanders through the Underdark.  
+~
+0 AD inside
+D2
+{ythe mouth of a cave{x
+~
+~
+Z 0 16509
+0 0
+D3
+{ya turn in the path{x
+~
+~
+Z 0 16507
+0 0
+S
+#16509
+{yThe Mouth Of A Cave{g~
+A foul stench of death and decay lingers in the air here, seeming to
+disembogue from a fairly large cave to the south.  The cave mouth rises
+about nine or ten feet in the air, and closes the tunnel off in an otherwise
+dead end.  Heading south will take you directly into the cave, while a
+serpentine tunnel stretches out to the north.  
+~
+0 AD inside
+D0
+{ya path near the cave{x
+~
+~
+Z 0 16508
+0 0
+D2
+{ythe northern part of the cave
+~
+~
+Z 0 16510
+0 0
+S
+#16510
+{yNorthern Section Of The Cave{g~
+The cave reeks of death and decay.  Old bones litter the ground, followed
+by dismembered corpses and their bodyparts, some of them fresh.  The bodies
+are those of adventurers past and of many unfortunate denizens of the
+Underdark.  Large, clawed footprints cover the floor of this cave, heading
+in every direction.  Small stalactites protrude from the ceiling, none of
+them reaching the ground.  The echo of dripping water resounds throughout
+the cave.  The grotto continues to the east, west, and south, while north
+takes you outside the cave.  
+~
+0 AD inside
+D0
+{ythe mouth of the cave{x
+~
+~
+Z 0 16509
+0 0
+D1
+{ythe northeastern part of the cave{x
+~
+~
+Z 0 16515
+0 0
+D2
+{ythe southern part of the cave{x
+~
+~
+Z 0 16513
+0 0
+D3
+{ythe northwestern part of the cave{x
+~
+~
+Z 0 16511
+0 0
+S
+#16511
+{yThe Northwest Corner Of The Cave{g~
+The cave reeks of death and decay.  Old bones litter the ground, followed
+by dismembered corpses and their bodyparts, some of them fresh.  The bodies
+are those of adventurers past, and of many unfortunate denizens of the
+Underdark.  Large, clawed footprints cover the floor of this cave, heading
+in every direction.  Small stalactites protrude from the ceiling, none of
+them reaching the ground.  The echo of dripping water resounds throughout
+the cave.  The grotto continues to the east and south.  
+~
+0 AD inside
+D1
+{ythe northern part of the cave{x
+~
+~
+Z 0 16510
+0 0
+D2
+{ythe southwestern part of the cave{x
+~
+~
+Z 0 16512
+0 0
+S
+#16512
+{yThe Southwest Corner Of The Cave{g~
+The cave reeks of death and decay.  Old bones litter the ground, followed
+by dismembered corpses and their bodyparts, some of them fresh.  The bodies
+are those of adventurers past, and of many unfortunate denizens of the
+Underdark.  Large, clawed footprints cover the floor of this cave, heading
+in every direction.  Small stalactites protrude from the ceiling, none of
+them reaching the ground.  The echo of dripping water resounds throughout
+the cave.  The grotto continues to the north and east.  
+~
+0 AD inside
+D0
+{ythe northwestern part of the cave{x
+~
+~
+Z 0 16511
+0 0
+D1
+{ythe southern part of the cave{x
+~
+~
+Z 0 16513
+0 0
+S
+#16513
+{yThe South Wall Of The Cave{g~
+The cave reeks of death and decay.  Old bones litter the ground, followed
+by dismembered corpses and their bodyparts, some of them fresh.  The bodies
+are those of adventurers past, and of many unfortunate denizens of the
+Underdark.  Large, clawed footprints cover the floor of this cave, heading
+in every direction.  Small stalactites protrude from the ceiling, none of
+them reaching the ground.  The echo of dripping water resounds throughout
+the cave.  The grotto continues to the north, east, and west.  
+~
+0 AD inside
+D0
+{ythe northern part of the cave{x
+~
+~
+Z 0 16510
+0 0
+D1
+{ythe southeastern part of the cave{x
+~
+~
+Z 0 16514
+0 0
+D3
+{ythe southwestern part of the cave{x
+~
+~
+Z 0 16512
+0 0
+S
+#16514
+{yThe Southeast Corner Of The Cave{g~
+The cave reeks of death and decay.  Old bones litter the ground,
+followed by dismembered corpses and their bodyparts, some of them fresh. 
+The bodies are those of adventurers past, and of many unfortunate denizens
+of the Underdark.  Large, clawed footprints cover the floor of this cave,
+heading in every direction.  Small stalactites protrude from the ceiling,
+none of them reaching the ground.  The echo of dripping water resounds
+throughout the cave.  The grotto continues to the north and west.  
+~
+0 AD inside
+D0
+{ythe northeastern part of the cave{x
+~
+~
+Z 0 16515
+0 0
+D1
+{ya secret passage{x
+~
+~
+ABZ 0 16516
+0 0
+D3
+{ythe southern part of the cave{x
+~
+~
+Z 0 16513
+0 0
+S
+#16515
+{yThe Northeast Corner Of The Cave{g~
+The cave reeks of death and decay.  Old bones litter the ground, followed
+by dismembered corpses and their bodyparts, some of them fresh.  The bodies
+are those of adventurers past, and of many unfortunate denizens of the
+Underdark.  Large, clawed footprints cover the floor of this cave, heading
+in every direction.  Small stalactites protrude from the ceiling, none of
+them reaching the ground.  The echo of dripping water resounds throughout
+the cave.  The grotto continues to the west and south.  
+~
+0 AD inside
+D2
+{ythe southeastern part of the cave{x
+~
+~
+Z 0 16514
+0 0
+D3
+{ythe northern part of the cave{x
+~
+~
+Z 0 16510
+0 0
+S
+#16516
+{yA Secret Passage Behind The Felldrake Cave{g~
+The atmosphere is slightly more pleasant here than the rest of the
+Underdark's dreary caverns.  Torches set in sconces line the walls,
+providing a soft light that bounces off the walls, creating shadows that
+dance around you.  The air is somewhat foul here, a strong stench of death
+emitting from the felldrake cave to the west.  The tunnel meanders off to
+the east, though, where the air seems a bit fresher.  
+~
+0 D inside
+D1
+{ya meandering secret passage{x
+~
+~
+Z 0 16517
+0 0
+D3
+{ythe southeastern section of a cave{x
+~
+~
+ABZ 0 16514
+0 0
+S
+#16517
+{yA Meandering Secret Passage{g~
+Light bounces off the tunnel walls here, setting a more pleasant tone to
+the Underdark's gloomy environment.  The tunnel holds a pacific demeanor,
+with nothing but the echo of dripping water resounding throughout.  Torches
+set in sconces line the walls, flickering softly in the darkness of the
+tunnel, and creating shadows that seem to dance around your feet.  A foul
+odor is apparent to the west, and the passage continues north, in a
+seemingly immeasurable tunnel of darkness.  
+~
+0 D inside
+D0
+{ya meandering secret passage{x
+~
+~
+Z 0 16518
+0 0
+D3
+{ya secret passage near a cave{x
+~
+~
+Z 0 16516
+0 0
+S
+#16518
+{yA Meandering Secret Passage{g~
+Light bounces off the tunnel walls here, setting a more pleasant tone to
+the Underdark's gloomy environment.  The tunnel holds a pacific demeanor,
+with nothing but the echo of dripping water resounding throughout.  Torches
+set in sconces line the walls, flickering softly in the darkness of the
+tunnel, and creating shadows that seem to dance around your feet.  The
+passage continues north and south, in a seemingly immeasurable tunnel of
+somberness.  
+~
+0 D inside
+D0
+~
+~
+Z 0 16519
+0 0
+D2
+{ya meandering secret passage{x
+~
+~
+Z 0 16517
+0 0
+S
+#16519
+{yA Meandering Secret Passage{g~
+Light bounces off the tunnel walls here, setting a more pleasant tone to
+the Underdark's gloomy environment.  The tunnel holds a pacific demeanor,
+with nothing but the echo of dripping water resounding throughout.  Torches
+set in sconces line the walls, flickering softly in the darkness of the
+tunnel, and creating shadows that seem to dance around your feet.  The
+passage continues north and south, in a seemingly immeasurable tunnel of
+somberness.  
+~
+0 D inside
+D0
+{ya meandering secret passage{x
+~
+~
+Z 0 16520
+0 0
+D2
+{ya meandering secret passage{x
+~
+~
+Z 0 16518
+0 0
+S
+#16520
+{yA Meandering Secret Passage{g~
+Light bounces off the tunnel walls here, setting a more pleasant tone to
+the Underdark's gloomy environment.  The tunnel holds a pacific demeanor,
+with nothing but the echo of dripping water resounding throughout.  Torches
+set in sconces line the walls, flickering softly in the darkness of the
+tunnel, and creating shadows that seem to dance around your feet.  The
+passage continues north and south, in a seemingly immeasurable tunnel of
+somberness.  
+~
+0 D inside
+D0
+{ya turn in the passage{x
+~
+~
+Z 0 16521
+0 0
+D2
+{ya meandering secret passage{x
+~
+~
+Z 0 16519
+0 0
+S
+#16521
+{yA Turn In The Passage{g~
+The tunnel takes a sharp turn here, heading east and south.  Light
+bounces off the walls, setting a more pleasant tone to the Underdark's
+gloomy environment.  The tunnel holds a pacific demeanor, with nothing but
+the echo of dripping water resounding throughout.  Torches set in sconces
+line the walls to the south, flickering softly in the darkness of the
+tunnel, and creating shadows that seem to dance around your feet.  The
+passage continues to the east as well, where no sign of torchlight is
+apparent.  
+~
+0 D inside
+D1
+{ya {Ddark {ytunnel{x
+~
+~
+Z 0 16522
+0 0
+D2
+{ya meandering secret passage{x
+~
+~
+Z 0 16520
+0 0
+S
+#16522
+{yA {DDark {yTunnel{g~
+The walls here are secreted in a blanket of webs, making it very
+difficult to walk safely.  Every step must be an extremely cautious one. 
+You notice several large, abstruce figures moving within the thickness of
+the webs.  Glancing to the north, you notice that the webbing continues,
+creating a tunnel of silk rather than earth.  The passage also continues to
+the west, where torch light flickers off the walls, and the webs dissipate. 
+
+~
+0 AD inside
+D0
+{ya {wweb-covered {ytunnel{x
+~
+~
+Z 0 16569
+0 0
+D3
+{ya turn in the passage{x
+~
+~
+Z 0 16521
+0 0
+S
+#16523
+{yAn Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+and stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs.{x
+{xThe ceiling extends high above your head, with a slight draft blowing in
+from somewhere above.  Hundreds of insects scuttle about the area, running
+in and out of tiny holes in the walls.  The cavern stretches to the north
+and west, while south takes you down a dark tunnel.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yan open cavern{x
+~
+~
+Z 0 16575
+0 0
+D2
+{ya dark tunnel{x
+~
+~
+Z 0 16504
+0 0
+D3
+{yan open cavern{x
+~
+~
+Z 0 16524
+0 0
+S
+#16524
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{w. One particularly
+large stalactite extends downward in the middle of the room, creating a
+circular path around the cavern.  The stalactite has several dark niches in
+it, and you can clearly see several pairs of {Rblood red eyes{x gleaming out
+from the darkness of the small caves.  The circular path continues to the
+east and west.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D1
+{yan open cavern{x
+~
+~
+Z 0 16523
+0 0
+D3
+{yan open cavern{x
+~
+~
+Z 0 16525
+0 0
+S
+#16525
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. One particularly
+large stalactite extends downwad in the middle of the room, creating a
+circular path around the cavern.  The stalactite has several dark niches in
+it, and you can clearly see several pairs of {Rblood red eyes{x gleaming out
+from the darkness of the small caves.  The circular path continues to the
+north.  To the south is a smaller tunnel, where the mushroom patches grow
+much thicker.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yan open cavern{x
+~
+~
+Z 0 16586
+0 0
+D1
+{yan open cavern{x
+~
+~
+Z 0 16524
+0 0
+D2
+{ya {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm {ylittered trail{x
+~
+~
+Z 0 16526
+0 0
+S
+#16526
+{yA {CM{Mu{Rs{Bh{Gr{Bo{Ro{Mm {yLittered Trail{x~
+You are travelling along a path full of mushrooms of all sizes and
+colors.  They line the walls of the tunnel, some even protruding from the
+sides of the walls.  Several large chunks have been carefully removed, while
+others seem as if large portions were simply knocked off with a blunt
+object.  The density of the mushroom patches only grows thicker to the
+south, while the north opens up into a wide, spacious cavern.  
+~
+0 AD inside
+D0
+{yan open cavern{x
+~
+~
+Z 0 16525
+0 0
+D2
+{ya {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm {ylittered trail{x
+~
+~
+Z 0 16527
+0 0
+S
+#16527
+{yA {CM{Mu{Rs{Bh{Gr{Bo{Ro{Mm {yLittered Trail{x~
+This mushroom-filled Underdark tunnel takes a soft turn here, heading
+west and north.  Large patches of colorful mushrooms grow along the walls
+here, covering the ground like grass in a valley.  Large chunks have been
+carefully removed from some, while others seem to have had great portions
+simply knocked off with a blunt object.  The mushroom patches seem to spread
+a bit thinner to the west, where you can see a small path branch off.  To
+the north, the trail continues, still littered with tons of mushrooms of
+varying sizes.  
+~
+0 AD inside
+D0
+{ya {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm {ylittered trail{x
+~
+~
+Z 0 16526
+0 0
+D3
+{ya circular path{x
+~
+~
+Z 0 16528
+0 0
+S
+#16528
+{yThe Start Of A Circular Path{x~
+You are standing on a T-shaped pathway, scarsely scattered with patches
+of colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. Nearly half of the mushrooms' caps have been
+completely severed, leaving many small chunks to litter the ground. The
+ground is covered in footprints of varying sizes, though not of a humanoid
+nature. The cavern walls here glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation. The path
+stretches to the north and south, while to the east, the patches of colorful
+fungi are much thicker.
+~
+0 AD inside
+D0
+{yin the {bm{By{cc{Co{Bn{bi{Cd {bc{ci{Br{bc{Bl{be{x
+~
+~
+Z 0 16530
+0 0
+D1
+{ya {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm {ylittered trail{x
+~
+~
+Z 0 16527
+0 0
+D2
+~
+~
+Z 0 16529
+0 0
+S
+#16529
+{yIn The {bM{By{cc{Co{Bn{bi{Cd {bC{ci{Br{bc{Bl{be{x~
+You are standing on a pathway scarsely scattered with patches of
+colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. Nearly half of the mushrooms' caps have been
+completely severed, leaving many small chunks to litter the ground.
+Footprints of varying sizes cover the flooring here, though not of
+a humanoid nature. The cavern walls glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation. The path
+stretches to the north and west.
+~
+0 AD inside
+D0
+~
+~
+Z 0 16528
+0 0
+D3
+~
+~
+Z 0 16536
+0 0
+S
+#16530
+{yIn The {bM{By{cc{Co{Bn{bi{Cd {bC{ci{Br{bc{Bl{be{x~
+You are standing on a pathway scarsely scattered with patches of
+colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x.  Nearly half of the mushrooms' caps
+have been completely severed, leaving many small chunks to litter the
+ground.  Footprints of varying sizes cover the flooring here, though not of
+a humanoid nature.  The cavern walls glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation.  The path
+stretches to the south and west.  
+~
+0 AD inside
+D2
+{ya circular path{x
+~
+~
+Z 0 16528
+0 0
+D3
+{ya path around the {bm{By{Cc{cc{Bn{Ci{cd {bc{ci{Br{bc{Bl{be{x
+~
+~
+Z 0 16531
+0 0
+S
+#16531
+{yIn The {bM{By{cc{Co{Bn{bi{Cd {bC{ci{Br{bc{Bl{be{x~
+You are standing on a pathway scarsely scattered with patches of
+colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. Nearly half of the mushrooms' caps have been
+completely severed, leaving many small chunks to litter the ground.
+Footprints of varying sizes cover the flooring here, though not of
+a humanoid nature. The cavern walls glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation. The path
+stretches to the east and west.
+~
+0 A inside
+D1
+~
+~
+Z 0 16530
+0 0
+D3
+~
+~
+Z 0 16532
+0 0
+S
+#16532
+{yIn The {bM{By{cc{Co{Bn{bi{Cd {bC{ci{Br{bc{Bl{be{x~
+You are standing on a pathway scarsely scattered with patches of
+colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. Nearly half of the mushrooms' caps have been
+completely severed, leaving many small chunks to litter the ground.
+Footprints of varying sizes cover the flooring here, though not of
+a humanoid nature. The cavern walls glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation. The path
+stretches to the south and east.
+~
+0 A inside
+D1
+~
+~
+Z 0 16531
+0 0
+D2
+~
+~
+Z 0 16533
+0 0
+S
+#16533
+{yOutside The Throne Room{x~
+You are standing outside of what seems to be some sort of cave set into
+the side of the cavern walls, though the opening is covered by a {mflap of
+{mdeep black velvet hide{x. There are several piles of mushroom caps set on the
+ground outside the cave.  The path around the myconid circle continues to
+the north and south, and the entrance to the cave lies east.  
+~
+0 A inside
+E
+hide~
+This flap is made from a {mjet black, velvet{x material that seems to shimmer
+with every movement. Upon closer inspection you realize that it is the hide
+of an animal. Whatever this skin once housed was a gorgeous one
+indeed, as this is the finest piece of hide you have ever seen.
+~
+E
+flap~
+This flap is made from a {mjet black, velvet{x material that seems to shimmer
+upon every movement.  Upon closer inspection you realize that it is the hide
+of an animal.  Whatever animal this skin once housed was a gorgeous one
+indeed, as this is the finest piece of hide you have ever seen.  
+~
+D0
+~
+~
+Z 0 16532
+0 0
+D1
+~
+flap~
+ABZ 0 16534
+0 0
+D2
+~
+~
+Z 0 16535
+0 0
+S
+#16534
+{yThe Throne Room{x~
+You are standing in a small room within the Myconid circle.  Set against
+the far wall directly across from the entrance is a large throne carved from
+mushrooms.  The throne consists of a plethora of colors and extends nearly
+to the eight-foot-tall ceiling.  Large piles of colorful mushroom chunks are
+scattered about the room in several places, for reasons unknown to you. 
+Nothing else of interest is in the throne room.  To the west lies the path
+around the Myconid circle.  
+~
+0 AD inside
+D3
+{youtside the throne room{x
+~
+flap door~
+ABZ 0 16533
+0 0
+S
+#16535
+{yIn The {bM{By{cc{Co{Bn{bi{Cd {bC{ci{Br{bc{Bl{be{x~
+You are standing on a pathway scarsely scattered with patches of
+colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. Nearly half of the mushrooms' caps have been
+completely severed, leaving many small chunks to litter the ground.
+Footprints of varying sizes cover the flooring here, though not of
+a humanoid nature. The cavern walls glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation. The path
+stretches to the north and east.
+~
+0 A inside
+D0
+~
+~
+Z 0 16533
+0 0
+D1
+~
+~
+Z 0 16536
+0 0
+S
+#16536
+{yIn The {bM{By{cc{Co{Bn{bi{Cd {bC{ci{Br{bc{Bl{be{x~
+You are standing on a pathway scarsely scattered with patches of
+colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. Nearly half of the mushrooms' caps have been
+completely severed, leaving many small chunks to litter the ground.
+Footprints of varying sizes cover the flooring here, though not of
+a humanoid nature. The cavern walls glisten with minerals and condensation,
+creating an intriguing display of magnificent scintillation. The path
+stretches to the east and west.
+~
+0 A inside
+D1
+~
+~
+Z 0 16529
+0 0
+D3
+~
+~
+Z 0 16535
+0 0
+S
+#16537
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the west, with no
+signs of light.  The walls are bare, carved from the earth by the element of
+water, glistening from moisture.  The ground is hard, solid rock, providing
+little comfort for the feet of the weary traveller.  The air is stale,
+without a hint of freshness to fill the nostrils.  An open cavern lies to
+the east, while this long, dark tunnel continues to the west in meandering
+endlessness.  
+~
+0 AD inside
+D1
+{yIn An Open Cavern{x
+~
+~
+Z 0 16586
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16538
+0 0
+S
+#16538
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north,
+with no signs of light.  The walls are bare, carved from the earth by the
+element of water, glistening from moisture.  The ground is hard, solid rock,
+providing little comfort for the feet of the weary traveller.  The air is
+stale, without a hint of freshness to fill the nostrils.  In the near
+distance to the east, the tunnel opens up into a cavern, while this long,
+dark tunnel continues to the north in meandering endlessness.
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16539
+0 0
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16537
+0 0
+S
+#16539
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the west and
+south, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the south and west in meandering endlessness.  
+~
+0 AD inside
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16538
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16540
+0 0
+S
+#16540
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+east, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and east in meandering endlessness.  
+~
+0 0 inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16541
+0 0
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16539
+0 0
+S
+#16541
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+south, with no signs of light. The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and south in meandering endlessness.
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16542
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16540
+0 0
+S
+#16542
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+south, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and south in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16543
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16541
+0 0
+S
+#16543
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the south and
+west, with no signs of light. The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the south and west in meandering endlessness.
+~
+0 AD inside
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16542
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16544
+0 0
+S
+#16544
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the east and
+west, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The
+air is stale, without a hint of freshness to fill the nostrils. The long,
+dark tunnel continues to the east and west in meandering endlessness.  
+~
+0 AD inside
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16543
+0 0
+D3
+{yA T-Shaped Intersection{x
+~
+~
+Z 0 16545
+0 0
+S
+#16545
+{yA T-Shaped Intersection{x~
+The Underdark seems boundless as the tunnel splits in three directions
+here.  The walls are bare, carved from the earth by the element of water,
+glistening from moisture.  The ground is hard, solid rock, providing little
+comfort for the feet of the weary traveller.  The air is stale, without a
+hint of freshness to fill the nostrils.  The long, dark tunnel continues to
+the north, south, and east in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16561
+0 0
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16544
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16546
+0 0
+S
+#16546
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+south with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and south in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA T-Shaped Intersection{x
+~
+~
+Z 0 16545
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16547
+0 0
+S
+#16547
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+west with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and west in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16546
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16548
+0 0
+S
+#16548
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the east and
+south with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the east and south in meandering endlessness.  
+~
+0 AD inside
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16547
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16549
+0 0
+S
+#16549
+{yA Tunnel Junction{x~
+This tunnel feels boundless, stretching for what seems like miles.  The
+walls are bare and rocky, carved from years of natural corrossion.  The air
+is stale, a foul stench lingering like a bad after-taste.  The lightless
+tunnel stretches out to the north, south, and west in meandering
+endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16548
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16550
+0 0
+S
+#16550
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+east with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and east in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Tunnel Junction{x
+~
+~
+Z 0 16549
+0 0
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16551
+0 0
+S
+#16551
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the south and
+west with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the south and west in meandering endlessness.  
+~
+0 AD inside
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16552
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16550
+0 0
+S
+#16552
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+south with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and south in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16551
+0 0
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16553
+0 0
+S
+#16553
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+west with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and west in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16552
+0 0
+D3
+~
+~
+Z 0 16554
+0 0
+S
+#16554
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the east and
+south with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening with moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the east and south in meandering endlessness.  
+~
+0 AD inside
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16553
+0 0
+D2
+{yA Tunnel Junction{x
+~
+~
+Z 0 16555
+0 0
+S
+#16555
+{yA Tunnel Junction{x~
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16554
+0 0
+D1
+{yA Small Underdark Pathway{x
+~
+~
+Z 0 16556
+0 0
+D2
+{yA Small {DDark {yCave{x
+~
+~
+Z 0 16560
+0 0
+D3
+{yA Small Underdark Pathway{x
+~
+~
+Z 0 16558
+0 0
+S
+#16556
+{yA Small Underdark Pathway{x~
+~
+0 0 inside
+D2
+{yA Small {DDark {yCave{x
+~
+~
+Z 0 16557
+0 0
+D3
+{yA Tunnel Junction{x
+~
+~
+Z 0 16555
+0 0
+S
+#16557
+{yA Small {DDark {yCave{x~
+~
+0 0 inside
+D0
+{yA Small Underdark Pathway{x
+~
+~
+Z 0 16556
+0 0
+S
+#16558
+{yA Small Underdark Pathway{x~
+~
+0 0 inside
+D1
+{yA Tunnel Junction{x
+~
+~
+Z 0 16555
+0 0
+D2
+{yA Small {DDark {yCave{x
+~
+~
+Z 0 16559
+0 0
+S
+#16559
+{yA Small {DDark {yCave{x~
+~
+0 0 inside
+D0
+{yA Small Underdark Pathway{x
+~
+~
+Z 0 16558
+0 0
+S
+#16560
+{yA Small {DDark {yCave{x~
+~
+0 0 inside
+D0
+{yA Tunnel Junction{x
+~
+~
+Z 0 16555
+0 0
+S
+#16561
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the east and
+south, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the east and south in meandering endlessness.  
+~
+0 AD inside
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16562
+0 0
+D2
+{yA T-Shaped Intersection{x
+~
+~
+Z 0 16545
+0 0
+S
+#16562
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the north and
+west, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the north and west in meandering endlessness.  
+~
+0 AD inside
+D0
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16563
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16561
+0 0
+S
+#16563
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the south and
+west, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the south and west in meandering endlessness.  
+~
+0 AD inside
+D2
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16562
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16564
+0 0
+S
+#16564
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the east and
+west, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the east and west in meandering endlessness.  
+~
+0 AD inside
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16563
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16565
+0 0
+S
+#16565
+{yA Long Winding Tunnel{x~
+The Underdark seems boundless as the tunnel continues to the east and
+west, with no signs of light.  The walls are bare, carved from the earth by
+the element of water, glistening from moisture.  The ground is hard, solid
+rock, providing little comfort for the feet of the weary traveller.  The air
+is stale, without a hint of freshness to fill the nostrils.  The long, dark
+tunnel continues to the east, while the passage west opens up into a cavern.
+
+~
+0 AD inside
+D1
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16564
+0 0
+D3
+{yThe Edge of a {bDark Lake{x
+~
+~
+Z 0 16566
+0 0
+S
+#16566
+{yThe Edge of a {bDark Lake{x~
+This cavern opens up wide, stretching a good thirty feet in the air.  The
+walls glisten with minerals, gemstones, and crystals of all types.  There is
+little earth to walk on before the cavern floor melds into a dark, murky
+lake.  The water is thick and caliginous.  Even in its tranquility, the
+obscurity of the lake is most unsettling.  Every so often, a black, bulbous
+shadow can be seen slinking about the depths of the water. To the east,
+an Underdark tunnel meanders aimlessly in utter darkness.  The lake spans
+far out to the west, while this open cavern continues to the north and
+south.  
+~
+0 AD inside
+D0
+{yThe Edge of a {bDark Lake{x
+~
+~
+Z 0 16568
+0 0
+D1
+~
+~
+Z 0 16565
+0 0
+D2
+{yThe Edge of a {bDark Lake{x
+~
+~
+Z 0 16567
+0 0
+S
+#16567
+{yThe Edge of a {bDark Lake{x~
+This cavern opens up wide, stretching a good thirty feet in the air.  The
+walls glisten with minerals, gemstones, and crystals of all types.  There is
+little earth to walk on before the cavern floor melds into a dark, murky
+lake.  The water is thick and caliginous.  Even in its tranquility, the
+obscurity of the lake is most unsettling.  Every so often, a black, bulbous
+shadow can be seen slinking about the depths of the water.  The lake spans
+far out to the west, while this open cavern continues to the north.  
+~
+0 AD inside
+D0
+{yThe Edge of a {bDark Lake{x
+~
+~
+Z 0 16566
+0 0
+S
+#16568
+{yThe Edge of a {bDark Lake{x~
+This cavern opens up wide, stretching a good thirty feet in the air.  The
+walls glisten with minerals, gemstones, and crystals of all types.  There is
+little earth to walk on before the cavern floor melds into a dark, murky
+lake.  The water is thick and caliginous.  Even in its tranquility, the
+obscurity of the lake is most unsettling.  Every so often, a black, bulbous
+shadow can be seen slinking about the depths of the water.  The lake spans
+far out to the west, while this open cavern continues to the south.  
+~
+0 AD inside
+D2
+{yThe Edge of a {bDark Lake{x
+~
+~
+Z 0 16566
+0 0
+S
+#16569
+{yA {wWeb-Covered {yTunnel{g~
+The walls here are secreted in a blanket of webs, making it very
+difficult to walk safely.  Only about a foot of earth is visible on the
+ground, proving it very effortful to keep your balance and not topple into
+the mass of tangled webs.  No light is apparent here, and no breeze blows in
+from any direction.  Several large, bulbous figures are prominent in the
+webbing above.  The silky tunnel continues to the north and south.  
+~
+0 AD inside
+D0
+{ya turn in the {wweb-covered {ytunnel{x
+~
+~
+Z 0 16570
+0 0
+D2
+{ya {Ddark {ytunnel{x
+~
+~
+Z 0 16522
+0 0
+S
+#16570
+{yA Turn In The {wWeb-Covered {yTunnel{g~
+You come to a sharp turn in the fluxuous tunnel.  The walls here are
+secreted in a blanket of webs, making it very difficult to walk safely. 
+Only about a foot of earth is visible on the ground, proving it very
+effortful to keep your balance and not topple into the mass of tangled webs.
+No light is apparent here, and no breeze blows in from any direction. 
+Several large, bulbous figures are prominent in the webbing above.  The
+silky tunnel continues to the west and south.  
+~
+0 AD inside
+D2
+{ya {wweb-covered {ytunnel{x
+~
+~
+Z 0 16569
+0 0
+D3
+{ya {wweb-covered {ytunnel{x
+~
+~
+Z 0 16571
+0 0
+S
+#16571
+{yA {wWeb-Covered {yTunnel{g~
+The walls here are secreted in a blanket of webs, making it very
+difficult to walk safely.  Every step must be an extremely cautious one. 
+You notice several large, abstruce figures moving within the thickness of
+the webs.  Glancing to the east, you notice that the webbing continues,
+creating a tunnel of silk rather than earth.  The passage also continues to
+the west, where torch light flickers off the walls, and the webs dissipate. 
+~
+0 AD inside
+D1
+{ya turn in the {wweb-covered {ytunnel{x
+~
+~
+Z 0 16570
+0 0
+D3
+{ya meandering secret passage{x
+~
+~
+Z 0 16572
+0 0
+S
+#16572
+{yA Meandering Secret Passage{g~
+Light bounces off the tunnel walls here, setting a more pleasant tone to
+the Underdark's gloomy environment.  The tunnel holds a pacific demeanor,
+with nothing but the echo of dripping water resounding throughout.  Torches
+set in sconces line the walls, flickering softly in the darkness of the
+tunnel, and creating shadows that seem to dance around your feet.  The
+passage continues to the east and west, in a seemingly immeasurable tunnel
+of somberness.  
+~
+0 D inside
+D1
+{ya {wweb-covered {ytunnel{x
+~
+~
+Z 0 16571
+0 0
+D3
+{ya turn in the passage{x
+~
+~
+Z 0 16573
+0 0
+S
+#16573
+{yA Turn In The Passage{g~
+The tunnel takes a sharp turn here, heading east and south.  Light
+bounces off the walls, setting a more pleasant tone to the Underdark's
+gloomy environment.  The tunnel holds a pacific demeanor, with nothing but
+the echo of dripping water resounding throughout.  Torches set in sconces
+line the walls, flickering softly in the darkness of the tunnel, and
+creating shadows that seem to dance around your feet.  
+~
+0 D inside
+D1
+{ya meandering secret passage{x
+~
+~
+Z 0 16572
+0 0
+D2
+~
+~
+Z 0 16574
+0 0
+S
+#16574
+~
+~
+0 D inside
+D0
+~
+~
+Z 0 16573
+0 0
+S
+#16575
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. To the west, a
+particularly large stalactite extends downward in the middle of the room,
+creating a circular path around the cavern.  To the east, a stalagmite of
+equal size protrudes from the floor, creating yet a second circular path
+around the northeastern section of the cavern.  The path continues to the
+north, east, and south.  
+~
+0 D inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yan open cavern{x
+~
+~
+Z 0 16583
+0 0
+D1
+{yan open cavern{x
+~
+~
+Z 0 16576
+0 0
+D2
+{yan open cavern{x
+~
+~
+Z 0 16523
+0 0
+S
+#16576
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. One particularly
+large stalagmite protrudes from the floor, creating a circular path in this
+section of the cavern.  The circular path continues to the north.  To the
+west, you see a stalactite of immense size extending downward from the
+ceiling, splitting the cavern into yet another circular pathway.  
+~
+0 D inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yA Junction Between Stalagmites{x
+~
+~
+Z 0 16577
+0 0
+D3
+{yan open cavern{x
+~
+~
+Z 0 16575
+0 0
+S
+#16577
+{yA Junction Between Stalagmites{x~
+The path here forms a junction, heading north, south, east, and west. 
+The paths to the north and east are circling around a rather large
+stalagmite that protrudes from the cavern floor.  To the west and south, the
+path splits around yet another colossal stalagmite.  Colorful
+{Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x litter the cavern floor, with large chunks of
+the caps missing, as if carefully removed for reasons unknown.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yAround A Large Stalagmite{x
+~
+~
+Z 0 16582
+0 0
+D1
+{yan open cavern{x
+~
+~
+Z 0 16578
+0 0
+D2
+{yan open cavern{x
+~
+~
+Z 0 16576
+0 0
+D3
+{yan open cavern{x
+~
+~
+Z 0 16583
+0 0
+S
+#16578
+{yAround A Large Stalagmite{x~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x.
+One particularly large stalagmite protrudes from the floor, creating a
+circular pathway in this section of the cavern.  The circular path continues
+north, while to the west lies a junction in the path, branching off to form
+a path around yet another stalagmite.  
+~
+0 AD inside
+D0
+{yAround A Large Stalagmite{x
+~
+~
+Z 0 16579
+0 0
+D3
+{yA Junction Between Stalagmites{x
+~
+~
+Z 0 16577
+0 0
+S
+#16579
+{yAround A Large Stalagmite{x~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x.
+One particularly large stalagmite protrudes from the floor, creating a
+circular pathway in this section of the cavern, which continues north and
+south.  From here, you notice several dark niches in the stalagmite,
+creating a series of tiny caves, out from which gleam many pairs of {Rblood
+red eyes{x.  
+~
+0 AD inside
+D0
+{Around A Large Stalagmite{x
+~
+~
+Z 0 16580
+0 0
+D2
+{Around A Large Stalagmite{x
+~
+~
+Z 0 16578
+0 0
+S
+#16580
+{yAround A Large Stalagmite{x~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x.
+One particularly large stalagmite protrudes from the floor, creating a
+circular pathway in this section of the cavern, which continues west and
+south.  From here, you notice several dark niches in the stalagmite,
+creating a series of tiny caves, out from which gleam many pairs of {Rblood
+red eyes{x.  A dark path stretches out to the north, in a seemingly
+immeasurable tunnel of somberness.  
+~
+0 AD inside
+D2
+{Around A Large Stalagmite{x
+~
+~
+Z 0 16579
+0 0
+D3
+{Around A Large Stalagmite{x
+~
+~
+Z 0 16581
+0 0
+S
+#16581
+{yAround A Large Stalagmite{x~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x.
+One particularly large stalagmite protrudes from the floor, creating a
+circular pathway in this section of the cavern, which continues east and
+south.  From here, several dark niches are apparent in the stalagmite,
+creating a series of tiny caves, out from which gleam many pairs of {Rblood
+red eyes{x.  
+~
+0 AD inside
+D1
+{Around A Large Stalagmite{x
+~
+~
+Z 0 16580
+0 0
+D2
+{Around A Large Stalagmite{x
+~
+~
+Z 0 16582
+0 0
+S
+#16582
+{yA Mushroom covered cavern{x~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x.
+One particularly large stalagmite protrudes from the floor, creating a
+circular pathway in this section of the cavern, which continues north and
+south.  From here, several dark niches are apparent in the stalagmite,
+creating a series of tiny caves, out from which gleam many pairs of {Rblood
+red eyes{x.  
+~
+0 AD inside
+D0
+{yAround A Large Stalagmite{x
+~
+~
+Z 0 16581
+0 0
+D2
+{yA Junction Between Stalagmites{x
+~
+~
+Z 0 16577
+0 0
+S
+#16583
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. One particularly
+large stalactite extends downward from the ceiling to the southwest, creating
+a circular path in the cavern.  To the east, a stalagmite of equal size
+protrudes from the floor, creating yet a second circular pathway in the
+northeastern section of the cavern.  The path continues to the east, west,
+and south.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D1
+{yA Junction Between Stalagmites{x
+~
+~
+Z 0 16577
+0 0
+D2
+{yan open cavern{x
+~
+~
+Z 0 16575
+0 0
+D3
+{yan open cavern{x
+~
+~
+Z 0 16584
+0 0
+S
+#16584
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. One particularly
+large stalactite extends downward in the middle of the room, creating a
+circular path around the cavern.  The stalactite has several dark niches in
+it, and you can clearly see several pairs of {Rblood red eyes{x gleaming out
+from the darkness of the small caves. A small {Bp{Coo{Bl of {Bw{Cate{Br{x has
+gathered here by the north wall.  Though not very deep, one could easily
+quench their thirst from it.  The circular path continues to the east and
+west.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D1
+{yan open cavern{x
+~
+~
+Z 0 16583
+0 0
+D3
+{yan open cavern{x
+~
+~
+Z 0 16585
+0 0
+S
+#16585
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. One particularly
+large stalactite extends downward in the middle of the room, creating a
+circular path around the caver.  The stalactite has several dark niches in
+it, and you can clearly see several pairs of {Rblood red eyes{x gleaming out
+from the darkness of the small caves.  The circular path continues east and
+south, while the path branches off to a smaller, darker tunnel to the north.
+
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yA {DDark {yNarrow Decline{x
+~
+~
+Z 0 16587
+0 0
+D1
+{yan open cavern{x
+~
+~
+Z 0 16584
+0 0
+D2
+{yan open cavern{x
+~
+~
+Z 0 16586
+0 0
+S
+#16586
+{yIn An Open Cavern{g~
+You are standing in a wide, spacious cavern filled with stalactites and
+stalagmites, and littered with large colorful {Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x. One particularly
+large stalactite extends downward in the middle of the room, creating a
+circular path around the cavern.  The stalactite has several dark niches in
+it, and you can clearly see several pairs of {Rblood red eyes{x gleaming out
+from the darkness of the small caves.  The circular path continues north and
+south, while the path branches off westward to a smaller, darker tunnel.  
+~
+0 AD inside
+E
+mushrooms~
+{WThese mushrooms range from one to three feet in height, their caps the
+same in width. They are brightly colored, with hues of {Bblue{W, {Ggreen{W,
+{Rred{W, and {Yyellow{W. They are scattered in patches about the cavern,
+and many of them have large chunks missing, as if carefully removed for
+reasons unknown to you.{g
+~
+D0
+{yan open cavern{x
+~
+~
+Z 0 16585
+0 0
+D2
+{yan open cavern{x
+~
+~
+Z 0 16525
+0 0
+D3
+{yA Long Winding Tunnel{x
+~
+~
+Z 0 16537
+0 0
+S
+#16587
+{yA {DDark {yNarrow Decline{x~
+The ceiling here is low, making it difficult for large creatures to
+venture with ease through this declining tunnel.  There are very few
+{Cm{Mu{Rs{Bh{Gr{Bo{Ro{Mm{Cs{x scattered about the ground, and you notice them gradually
+cease to exist down the decline. The air here is somewhat stale, leaving
+a bland scent in your nostrils. A very small tunnel extends to the west,
+while this decline continues downward. To the south the path opens into a 
+wide cavern.
+~
+0 AD inside
+D2
+{yAn Open Cavern{x
+~
+~
+Z 0 16585
+0 0
+D3
+{yA Small Crawlspace{x
+~
+~
+Z 0 16588
+0 0
+D5
+{yA {DDark {yNarrow Tunnel{x
+~
+~
+Z 0 16589
+0 0
+S
+#16588
+{yA Small Crawlspace{x~
+This small cave-like crawlspace is barely large enough for one person. 
+Probably used as a hiding spot from the horrible creatures of the Underdark,
+the cave is pretty bare, holding nothing but a few cobwebs and a LOT of
+dust.  The only exit is eastward, to the tunnel from which this crawlspace
+branches.  
+~
+0 ACDJ inside
+D1
+{yA {DDark {yNarrow Decline{x
+~
+~
+Z 0 16587
+0 0
+S
+#16589
+{yA {DDark {yNarrow Tunnel{x~
+The ceiling here is low, making it difficult for large creatures to
+venture with ease through this declining tunnel.  The are is rather stagnant
+here, leaving a bland scent to fill your nostrils.  The tunnel continues to
+decline to the east, while ascending upward as well.  
+~
+0 AD inside
+D1
+{yA {DDark {yNarrow Decline{x
+~
+~
+Z 0 16590
+0 0
+D4
+{yA {DDark {yNarrow Decline{x
+~
+~
+Z 0 16587
+0 0
+S
+#16590
+{yA {DDark {yNarrow Decline{x~
+The ceiling here is low, making it difficult for large creatures to
+venture with ease through this declining tunnel.  The air grows ever more
+stagnant down the decline, while it seems to ease up a bit travelling
+westward. The decline continues down, where you notice the tunnel open up
+into a cavern.  To the west, the tunnel seems to continue, possibly
+ascending to higher ground.  
+~
+0 AD inside
+D3
+{yA {DDark {yNarrow Tunnel{x
+~
+~
+Z 0 16589
+0 0
+D5
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16591
+0 0
+S
+#16591
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls.  The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground.  Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy. 
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground heading east and west.  A
+narrow tunnel ascends upward to a higher part of the Underdark.  
+~
+0 AD inside
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+D3
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16592
+0 0
+D4
+{yA {DDark {yNarrow Decline{x
+~
+~
+Z 0 16590
+0 0
+S
+#16592
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls.  The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground.  Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy. 
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground heading east and north.  
+~
+0 AD inside
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+D0
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16593
+0 0
+D1
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16591
+0 0
+S
+#16593
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls.  The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground.  Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy.
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground heading north and south.
+To the east, a path winds between rocky walls. You notice a particularly huge
+set of footprints leading down it.
+~
+0 AD inside
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+D0
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16596
+0 0
+D1
+{yThe Entrance To A HUGE Cave{x
+~
+~
+Z 0 16594
+0 0
+D2
+~
+~
+Z 0 16592
+0 0
+S
+#16594
+{yThe Entrance To A HUGE Cave{x~
+A large cave protrudes from the north wall of this pathway.  The mouth of
+the cave looks large enough to easily house an ogre.  No light emerges from
+within the cave, though the ground has been heavily trampled.  Several dark,
+dried {rblood{x stains paint the floor directly in front of the cave mouth. 
+The path continues to the west, away from the dark cave, while north leads
+directly into it.  
+~
+0 AD inside
+D0
+{yA HUGE Cave Den{x
+~
+~
+Z 0 16595
+0 0
+D3
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16593
+0 0
+S
+#16595
+{yA HUGE Cave Den{x~
+A large {ysack{x of {Yhay{x rests against the wall in the back of this large
+cave.  Two giant leg bones full of meat, probably from one of the many Rothe
+that roam the surrounding caverns, lay on a wooden table that stands nearly
+six feet off the ground.  Scattered randomly across the floor are several
+piles of bones, some humanoid and others from the many inhabitants of the
+Underdark.  This cave is obviously home to something large, judging by it's
+size.  And judging by the remains of past travellers, you get the feeling
+you are unwanted here.  
+~
+0 AD inside
+E
+sack~
+This sack is about six feet in length, and judging by its size, you can
+tell it weighs nearly two-hundred pounds.  The sack is terribly bent out of
+shape, as if something large has been resting against it.  Perhaps it serves
+as someone's bedding?  
+~
+D2
+{yThe Entrance To A HUGE Cave{x
+~
+~
+Z 0 16594
+0 0
+S
+#16596
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls.  The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground. Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy. 
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground in the cavern to the
+north and south.  They also lead off to the west, down a smaller, but still
+quite large rocky Underdark tunnel.  
+~
+0 AD inside
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+D0
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16597
+0 0
+D2
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16593
+0 0
+S
+#16597
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls. The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground.  Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy. 
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground heading east and south,
+where the cavern continues.  
+~
+0 AD inside
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+D1
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16598
+0 0
+D2
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16596
+0 0
+S
+#16598
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls.  The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground. Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy. 
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground heading east and west. 
+To the north, a much smaller tunnel branches out from the cavern, littered
+with tiny {wfootprints{x.  
+~
+0 AD inside
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+E
+footprints~
+These footprints are as small as a human child's palm.  They scatter the
+ground to the north, but stop abruptly before the cavern begins.  Upon
+closer inspection, you notice that these prints were made by goblinoid
+creatures.  
+~
+D1
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16599
+0 0
+D3
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16597
+0 0
+S
+#16599
+{yA HUGE Open Cavern{x~
+You are standing in a huge, open cavern filled with jagged rocks that
+protrude from the earthen walls.  The air is extremely stagnant here,
+probably due to the vast amount of decaying {ybody parts{x strewn about the
+ground.  Very little of the brown, earthen color of the cavern floor shows
+through the dried blood that has painted the ground a tone of burgundy. 
+Large caves are scattered about the cavern, extending almost to the height
+of the ceiling, which you perceive to be some thirty feet high.  Several
+large, hooved footprints can be seen on the ground heading east and west. 
+To the north, a much smaller tunnel branches out from the cavern, littered
+with tiny {wfootprints{x.  
+~
+0 AD inside
+E
+footprints~
+These footprints are as small as a human child's palm.  They scatter the
+ground to the north, but stop abruptly before the cavern begins.  Upon
+closer inspection, you notice that these prints were made by goblinoid
+creatures.  
+~
+E
+body parts~
+These body parts are not from a human.  Rather, they are from some sort
+of large, hairy creature greatly resembling a buffalo.  Mainly smaller parts
+of the animal are strewn about, though you notice a few heads covered in
+dried blood and dirt, gathering dust and insects on the cavern floor.  The
+stench emitting from them is unbearable, nearly knocking you off your feet. 
+
+~
+D3
+{yA HUGE Open Cavern{x
+~
+~
+Z 0 16598
+0 0
+S
+#0
+
+#SPECIALS
+M 16500 spec_nasty	* A tall slender {DDrow
+S
+
+#RESETS
+D 0 16500 0 1	* {wA Non-Descript Stone Room{g: door to the north: closed
+D 0 16501 2 1	* {wA Huge Hole In The Floor!{g: door to the south: closed
+D 0 16502 1 1	* {wA Small Crawlspace{g: door to the east: closed
+D 0 16503 3 1	* {yA Steep, Rocky Descent{g: door to the west: closed
+D 0 16514 1 1	* {yThe Southeast Corner Of The Cave{g: door to the east: closed
+D 0 16516 3 1	* {yA Secret Passage Behind The Felldrake Cave{g: door to the west: closed
+D 0 16533 1 1	* {yOutside The Throne Room{x: door to the east: closed
+D 0 16534 3 1	* {yThe Throne Room{x: door to the west: closed
+O 0 16500 0 16502	* {wa {Wskeletal corpse{x ({wA Small Crawlspace{g)
+P 0 16501 1 16500 1	* {wa {Wskeletal corpse{x: {Wan {Mamethyst {Wkey{x
+O 0 16504 0 16516	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Secret Passage Behind The Felldrake Cave{g)
+O 0 16504 0 16517	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Meandering Secret Passage{g)
+O 0 16504 0 16518	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Meandering Secret Passage{g)
+O 0 16504 0 16519	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Meandering Secret Passage{g)
+O 0 16504 0 16520	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Meandering Secret Passage{g)
+O 0 16504 0 16521	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Turn In The Passage{g)
+M 0 16512 1 16534 1	* {Wthe {bm{By{Cc{co{Bn{Ci{cd {Wcircle leader{x ({yThe Throne Room{x)
+E 0 16506 0 3		*	{WAmulet of the {bm{By{Cc{co{Bn{Ci{cd {bc{ci{Br{bc{Bl{be {Wleader{x: around the neck (1)
+M 0 16506 2 16569 1	* A {ws{Dw{wo{Dr{wd {Ds{wp{Di{wd{De{wr{x ({yA {wWeb-Covered {yTunnel{g)
+M 0 16507 2 16570 1	* {Wa {ylarge, monstrous spider{x ({yA Turn In The {wWeb-Covered {yTunnel{g)
+M 0 16506 2 16571 1	* A {ws{Dw{wo{Dr{wd {Ds{wp{Di{wd{De{wr{x ({yA {wWeb-Covered {yTunnel{g)
+O 0 16504 0 16572	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Meandering Secret Passage{g)
+O 0 16504 0 16573	* {Wan {re{Rv{re{Rr {rb{Ru{rr{Rn{ri{Rn{rg {Yt{ro{yr{rc{Yh{x ({yA Turn In The Passage{g)
+O 0 16505 0 16584	* {wa {Bp{Coo{Bl of w{Cate{Br{x ({yIn An Open Cavern{g)
+O 0 16509 0 16588	* {Wan {Gemerald {Wkey{x ({yA Small Crawlspace{x)
+P 0 16511 2 16512 2	* a large {ywooden{x table: {Wa leg of {yrothe{x
+O 0 16512 0 16595	* a large {ywooden{x table ({yA HUGE Cave Den{x)
+P 0 16511 2 16512 2	* a large {ywooden{x table: {Wa leg of {yrothe{x
+O 0 16513 0 16595	* {Wa large {ysack{W of {Yhay{x ({yA HUGE Cave Den{x)
+M 0 16514 1 16595 1	* {WBulrathi{x ({yA HUGE Cave Den{x)
+E 0 16508 0 16		*	{WBulrathi's {CT{Dh{Cu{Dn{Cd{De{Cr{Di{Cn{Dg {wG{Dr{we{Da{wt{Da{wx{De{x: wielded
+S
+
+#MOBPROGS
+#16502
+if rand 70
+mob echoat $n $I {YSWOOPS down with incredible speed, {R*SLASHING*{Y you with its tail!!{x
+mob echoaround $n $I {Yswoops in with lightning speed and slashes{x $n {Ywith its spiked tail!!.{x
+mob damage $n 20 50 lethal
+mob echoat $n {RBlood streams from the freshly opened gash.{x
+end
+endif
+~
+#16506
+if race $n drow
+pmote casts a many-eyed glance at $n, and goes about its business.
+end
+endif
+if isimmort $n
+emote cowers in your presence, quickly scuttling into its webbing.
+end
+endif
+mob echoat $n $I LEAPS at you viciously, six of its spiney legs puncturing you deeply!!!
+mob echoaround $n $I LEAPS at $n viciously, six of its spiney legs puncturing them deeply!!!
+mob damage $n 70 100 lethal
+mob echoat $n {RBlood flows freely from your freshly opened wounds!{x
+k $n
+end
+endif
+~
+#16514
+if affected $I blind
+mob mload 16518
+mob echo Bulrathi blinks as the milky whiteness of his eyes fades, and his vision is restored.
+end
+endif
+if wears $I greataxe
+if rand 99
+mob echoat $n Bulrathi's Great Axe swings in a wide arc lopping {ROFF YOUR HEAD!!!{x
+mob echoaround $n Bulrathi swings his axe with incredible power, instantly {RDECAPITATING $n{x!!!!!
+mob damage $n 30000 30001 lethal
+end
+endif
+if rand 75
+mob echoat $n Froth spatters off $I's lips as he lurches toward you and takes a MIGHTY swing!!!!!
+mob echoaround $n WHOOOSH!  $I takes a mighty swing at $n with his enormous axe!!!!!
+mob damage $n 300 1000 lethal
+mob echoat $n {R                              OUCH!!!{x
+end
+endif
+if rand 60
+mob echoat $n Nostrils flaring, eyes ablaze, $I charges, {MS{YL{GA{RM{CM{YI{MN{GG{x bodily into you!!!
+mob echoaround $n $I charges powerfully into $n, goring them with his horns!!!
+mob damage $n 400 800 lethal
+mob echoat $n {R                              OUCH!!!{x
+end
+endif
+if rand 95
+pmote snarls menacingly at you.
+'I shall eat your disgusting corpse for dinner, FOOL!
+emote flares his nostrils, his eyes going blood {Rred{x with rage as he moves in for another attack.
+end
+endif
+else
+if rand 60
+mob echoat $n Nostrils flaring, eyes ablaze, $I charges, {MS{YL{GA{RM{CM{YI{MN{GG{x bodily into you!!!
+mob echoaround $n $I charges powerfully into $n, GORING them with his horns!
+mob damage $n 400 800 lethal
+mob echoat $n {R                              OUCH!!!{x
+end
+endif
+if rand 95
+pmote snarls menacingly at $n.
+'I shall eat your disgusting corpse for dinner, FOOL!
+emote flares his nostrils, eyes going blood {Rred{x with rage as he moves in for another attack.
+end
+endif
+if rand 80
+mob echoat $n $I SLAMS a pie-plated sized fist directly into your face!!!
+mob echoaround $n $I SLAMS $n in the face with a huge fist!
+mob damage $n 300 700 lethal
+mob echoat $n {R                               OUCH!!!{x
+end
+endif
+~
+#16515
+if rand 100
+pmote glares icily at $n, flares its nostrils and CHARGES!
+kill $n
+end
+endif
+~
+#16516
+if rand 60
+mob echoat $n {YNostrils flaring, eyes ablaze, {x$I {Ycharges, {MS{YL{GA{RM{CM{YI{MN{GG {Ybodily into you!!!{x
+mob echoaround $n $I {Ycharges powerfully into {x$n{Y, goring $e with his horns!{x
+mob damage $n 100 300 lethal
+mob echoat $n {yThe minotaur's horns skewer you, causing {rblood{y to flow heavily, soaking your clothes.{x
+end
+endif
+~
+#16517
+if rand 80
+mob echoat $n $I {Ysnarls angrily, hurling its arm in a devastating backswing that connects to your face!{x
+mob echoaround $n $I {Yswipes {x$n{Y HARD with a powerful backswing of its gigantic arm!{x
+mob damage $n 80 120 lethal
+mob echoat $n {yThe minotaur's powerful backhand leaves you feeling disoriented, but you quickly regain your bearings.{x
+mob echoaround $n $n {ysways a bit from the blow, but quickly regains $s bearings.{x
+end
+endif
+if rand 80
+mob echoat $n $I {Ygrunts and charges toward you, {RSLAMMING{Y into you with its horns!!!{x
+mob echoaround $n $I {Ygrunts and charges toward {x$n{Y, ramming its horns into $m hard!{x
+mob damage $n 100 300 lethal
+mob echoat $n {yThe minotaur's horns skewer you, causing {rblood{y to flow heavily, soaking your clothes.{x
+mob echoaround $n {yThat looked like it REALLY hurt!!{x
+end
+endif
+if rand 95
+mob echoat $n $I {Ctakes a quick step backward to observe its wounds, and immediately begins chanting in a strange tongue.{x
+mob echoaround $n $I {Ctakes a quick step backward to observe its wounds, and immediately begins chanting in a strange tongue.{x
+cast 'heal' self
+mob echoat $n {CThe minotaur, feeling refreshed, quickly springs back at you, arms flailing wildly.{x
+mob echoaround $n {CThe minotaur, feeling refreshed, quickly springs back at $n, arms flailing wildly.{x
+end
+endif
+if hpcnt $I == 50
+cast 'cure serious' self
+end
+endif
+if objhere 16517
+get cudgel
+wield cudgel
+end
+endif
+~
+#16518
+if mobhere bulrathi
+mob remember bulrathi
+mob affstrip $q blind
+mob purge $i
+~
+#16519
+if race $n drow
+hide
+sneak
+end
+endif
+hide
+backstab $n
+end
+endif
+~
+#0
+
+#$

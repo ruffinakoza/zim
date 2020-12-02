@@ -1,0 +1,15 @@
+#RACE
+Name avoral~
+Dodge 70
+Align 1000
+Sex either
+Size medium
+DamType claw
+Aff dark_vision flying~
+Imm lightning~
+Res poison~
+Form animal sentient biped mammal bird~
+Parts head legs heart brains guts hands feet fingers ear eye wings claws~
+End
+
+#$

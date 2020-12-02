@@ -1,0 +1,1712 @@
+#AREADATA
+Name The Lost Temples~
+VNUMs 10919 10950
+Credits Nalaeya~
+Security 1
+LevelRange 0 0
+ResetMessage Soft whispers suddenly seem to come from all around, then are gone just as quickly.~
+Flags noquest~
+End
+
+#MOBILES
+#10919
+man priest ancient~
+the ancient priest~
+A man clad in red robes stands by the altar, resting his hand upon it.
+~
+Clad in red robes that flow down to his ankles, with a red hood that
+hides most of his face, this man is quite a mysterious figure.  There is
+something oddly insubstantial about him; if you look carefully you can
+almost see through him to the ruins beyond, though it’s difficult to say for
+certain.  
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+0 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 10919 100~
+M death 10920 100~
+#10921
+temple priestess beautiful woman~
+the temple priestess~
+A beautiful woman kneels at the altar, praying quietly.
+~
+Dressed in an exquisite gown that shimmers whenever she moves, the woman
+is quite simply among the most beautiful creatures to have ever graced this
+world.  Her dark hair is tied back in a long braid, falling to her waist,
+and threaded with countless small jewels that glitter in the light.  Her
+skin is a rich brown, free of any imperfections and likely as soft as silk. 
+
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+0 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 10921 100~
+M death 10922 100~
+#10923
+mysterious woman priestess ancient~
+the ancient priestess~
+A mysterious-looking woman stands behind the altar, watching you calmly.
+~
+Standing behind the altar is a woman, her face young-seeming but her hair
+as white as snow.  She watches you with eyes so blue their colour can be
+seen without even standing inside the temple.  She wears a flowing white
+gown, ending at her ankles and somehow untouched by the breeze that breaks
+through the temple walls.  
+~
+ghost~
+ABe DHc 0 0
+45 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 10923 100~
+M death 10924 100~
+#10925
+small figure child ghost spirit~
+the small figure~
+A small figure is huddled next to the tree, guarding the altar.
+~
+At first glance the figure appears to be that of a child, but there is
+something unnatural about it, though it is hard to tell what at first
+glance.  It seems as though you can see right through it to the tree beyond,
+and every now and then it seems to blink out of existence, only to return a
+moment later.  
+~
+ghost~
+ABe DHc 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M kill 10925 100~
+M death 10926 100~
+#10927
+tall man priest spirit~
+the priest's spirit~
+A tall man walks among the ruins, watching you but saying nothing.
+~
+Wearing a tight brown shirt and worn trousers, the man still somehow
+looks as if he belongs in this place, and he certainly walks around as if he
+feels at home.  There is a look of sadness on his face as he gazes at the
+ruins, and he eyes you as though watching every move you make.  There is
+something oddly insubstantial about him; if you look carefully, you can
+almost see through him to the ruins beyond.  
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+0 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 10927 100~
+M death 10928 100~
+#10929
+misty figure priestess ghost spirit~
+the misty figure~
+A misty figure stands beside the pool, gazing down into the water.
+~
+The figure is human-shaped, and appears to be a young woman, though it is
+difficult to tell, since it fades in and out of sight before you can get a
+clear look.  The clothes that it wears are nothing like any fashion you have
+ever seen, seeming to be all elaborate ribbons of every colour imaginable.  
+~
+ghost~
+ABe DHc 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 AB 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 10929 100~
+M death 10930 100~
+#10931
+young man priest ghost spirit ancient~
+the spirit of the young priest~
+A young man with shoulder-length blond hair watches you quietly.
+~
+Wearing long white robes that trail behind him, and a peaceful smile on
+his face, this young man somehow seems at home among the ruins, as if he
+belongs here and nowhere else.  He stands beside the altar, seeming to stand
+guard over it, though he makes no threatening moves towards you.  
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+0 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 AB 0 E
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 10931 100~
+M death 10932 100~
+#10933
+dark mist figure ghost priest~
+the dark figure~
+A dark mist hangs above the altar, perfectly still.
+~
+What appears to be a cloud of dark mist hangs directly above the altar,
+unmoving.  It appears to be guarding the altar, if such a thing is possible,
+but it doesn’t react in any way that you can see as you approach.  
+~
+ghost~
+ABe DHc 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 AB 0 E
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 10933 100~
+M death 10934 100~
+#10935
+priestess ghost spirit woman~
+the priestess' spirit~
+A dark-haired woman stands behind the altar, lips moving as if in prayer.
+~
+With her short dark hair and her loose shirt and tight trousers, this
+woman doesn’t wear the traditional dress of a priestess, but there can be no
+doubt that that is what she is—or once was.  There is a holy aura about her,
+even as she seems insubstantial, the ruins in the thick swamp clearly
+visible behind her as if she wasn’t there at all.  
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+0 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 ABK 0 J
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 10935 100~
+M death 10936 100~
+#10937
+wind priest figure spirit~
+the spirit of the ancient priest~
+A strong gust of wind threatens to knock down anyone who approaches the altar.
+~
+There is something strange about the wind, as if it is a conscious and
+living thing, trying to keep you away from the altar.  Every now and again
+you can almost see a ghostly figure standing behind it, eyeing you with a
+look of fear and rage.  The wind is unceasing, threatening to knock down
+anyone who gets too close.  
+~
+ghost~
+AB DHc 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 K 0 J
+stand stand male 0
+0 0 medium flesh~
+~
+M death 10938 100~
+M kill 10937 100~
+#10939
+ghost tall woman high priestess~
+the ghost of the high priestess~
+A tall woman stands by the altar, running her hands along its length.
+~
+She appears to be singing softly to herself, her white gown seeming
+untouched by the wind as she moves around the altar, running her hands along
+the edge, tracing the strange symbols that cover it.  Her hair flows down
+her back, kept under a small net covered with moonstones.  There is
+something insubstantial about her, as if she’s not quite real, though its
+difficult to say just what.  
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+0 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M death 10940 100~
+M kill 10939 100~
+#10941
+mist figure living~
+the living mist~
+A strange mist flows around the altar, tendrils slowly spreading out towards you.
+~
+The mist seems to be centered around the altar, flowing around it,
+reaching towards you, then retreating back.  Its difficult to tell if the
+movements are conscious or not, but the mist seems to be guarding the altar,
+if such a thing is possible.  The closer you look, the more you get the
+unsettling feeling that the mist really is alive, protecting some ancient
+secret.  
+~
+ghost~
+ABe DHc 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 AB 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M kill 10941 100~
+M death 10942 100~
+#10943
+figure man priest flame~
+the ancient priest~
+The figure of a man stands by the altar, watching you silently.
+~
+Dressed in orange robes that trail along the ground, with an elaborate
+headpiece that covers most of his head and falls half-way down his back,
+this man looks like no priest you have every seen, but there is an aura of
+holiness about him that leaves no doubt of what he is...  or was.  His form
+now is insubstantial, allowing you to see past him as if he weren’t even
+there.  He stands by the altar, watching you in silence, waiting for you to
+make your move.  
+~
+ghost~
+ABe DHc 0 0
+91 300 465d91+5000 910d11+95 20d20+100 none
+-56 -56 -56 -37
+0 ABH 0 I
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 10943 100~
+M death 10944 100~
+#10945
+flame priest man figure~
+the spirit of the priest~
+A small flame seems to dance about in midair.
+~
+The flame flitters back and forth, moving as if it has a will of its own.
+Every now and then it expands and forms an almost human figure, then
+retreats back into a small flame no bigger than a candle’s.  It hovers above
+the altar as if guarding it, though it’s difficult to tell if there is any
+sense to its movements.  
+~
+ghost~
+ABe DHc 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 ABH 0 I
+stand stand male 0
+0 0 medium flesh~
+~
+M kill 10945 100~
+M death 10946 100~
+#10947
+ghost high priestess figure~
+the ghost of a high priestess~
+A ghostly figure stands by the altar, watching you calmly.
+~
+The figure before you is clearly visible, from the long blond hair that
+curls down her back, to the beautiful white dress she wears, covered with
+sigils and charms, reaching down to her ankles.  There is a look of serenity
+in her eyes, and a small smile on her face.  Despite all this, something
+about her seems insubstantial.  As your eyes gaze upon her, you begin to
+notice what seemed so strange about her.  The walls of the cavern behind her
+are clearly visible through her, as if she is only made of mist.  
+~
+ghost~
+ABQe DHc 0 0
+91 300 465d91+5000 910d11+95 20d20+100 none
+-56 -56 -56 -37
+A ABI 0 H
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 10948 100~
+M death 10947 100~
+#10949
+mist ghost priestess~
+the ghost of an ancient priestess~
+A strange mist moves about the altar, its source a mystery.
+~
+There is something unnerving about the mist, as if it has a life of its
+own.  Every now and then it coalesces into an almost solid figure, moving
+threateningly forward before retreating back to the altar and dispersing,
+only to repeat the process again moments later.  
+~
+ghost~
+ABe DH 0 0
+45 45 165d45+0 450d11+95 16d2+37 none
+-23 -23 -23 -14
+0 ABI 0 H
+stand stand female 0
+0 0 medium flesh~
+~
+M kill 10949 100~
+M death 10950 100~
+#0
+
+#OBJECTS
+#10919
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10921
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10923
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10925
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10927
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10929
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10930
+clear pool water~
+a clear pool of water~
+~
+unknown~
+~
+fountain OR 0
+0 0 'water' 0
+0 0 0 P
+E
+clear pool water~
+The pool of water is not very large, but its surface is clear and blue,
+clearly reflecting the ruins of the shrine.  
+~
+G none
+G none
+G none
+G none
+#10931
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10933
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10935
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10937
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10939
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10941
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10943
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10945
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10947
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10949
+holy oil flask blessed~
+a blessed flask of oil~
+A large golden flask lies here, weathered by the elements.~
+gold~
+~
+treasure 0 A
+0 0 0 0 0
+0 50 0 P
+E
+flask blessed oil~
+The flask is filled with a clear, pleasant smelling oil, used in ancient
+rituals for gods long since forgotten.  
+~
+G none
+G none
+G none
+G none
+#10950
+nalaeya healing rug~
+Nalaeya's magic rug of healing~
+A beautiful rug lies here.~
+unknown~
+~
+furniture 0 A
+BD EIJKN EHK BCDFGHJ BFGHK BD EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#10919
+The Ruins Among the Trees~
+The ruins of what once appears to have been a temple lie in a small
+forest clearing.  The roof has long since collapsed, and the ground around
+the temple is littered with the remains of the fallen columns that once held
+it up.  Even the foundation is crumbling, the marble floors cracked with
+weeds poking out in various places.  The only thing that remains intact is a
+small altar at the corner of the temple, somehow surviving amidst all the
+ruins.  
+~
+0 TX forest
+E
+altar~
+Religious symbols seem to be carved along the altar’s length, though
+their meanings elude you.  
+~
+D0
+A small path goes through the trees.
+~
+~
+Z 0 10920
+0 0
+S
+#10920
+A Path Off the Road~
+A narrow path branches off from the road, narrow and overgrown with weeds
+and bushes.  It seems as though this path was once well-traveled, though few
+people have made their way through it in recent years.  The thorny plants
+that have grown over the road make passage along the path slow and
+difficult, though the few cobblestones that can be seen along the path show
+that this was not always the case.  
+~
+0 TX forest
+D0
+~
+~
+Z 0 98901
+0 0
+D2
+Ruins are barely visible through the trees.
+~
+~
+Z 0 10919
+0 0
+S
+#10921
+The Temple of Wind~
+After passing through a skin-tingling field of magic, the wind ceases,
+and an unearthly temple is suddenly revealed, seemingly floating through the
+air unsupported.  The temple is made of a beautiful white stone that
+glistens and glitters under light that finds its walls.  Hundreds of tiny
+wind chimes are placed all around the temple, hanging from the roof and
+ceiling on small hooks, ringing softly every time a light breeze passes
+through.  Their gentle chiming combines to create a constant song of
+unparalleled beauty.  At the very center of the temple stands a beautiful
+altar, made of a pure white stone that reflects any light cast upon it,
+creating tiny rainbows all along the temple walls and floor.  
+~
+0 DTX inside
+E
+altar~
+The altar looks almost magical under the light, casting rainbows all
+across the temple, though that is purely the effect of the stone from which
+it was created.  
+~
+D5
+Strong winds blow below.
+~
+~
+Z 0 10922
+0 0
+S
+#10922
+Flying Above the Temple of Midgaard~
+The wind at this height is incredibly strong, whipping fiercely around
+from every direction at once.  The roar of the wind drowns out any other
+noise, making it difficult to tell exactly what is going on.  Directly below
+lies the temple of Midgaard, it’s spire reaching high up into the sky, but
+still no where near this height.  A strange glimmer flashes across the sky
+above, there one moment but gone the next, a gentle sound accompanying it,
+almost like soft music, though it’s difficult to hear anything above the
+roar of the wind.  
+~
+0 TX air
+E
+glimmer~
+It's difficult to tell from here what might be resposible for the strange
+glimmer of light.  
+~
+D4
+A strange glimmer of light is visible above.
+~
+~
+Z 0 10921
+0 0
+D5
+~
+~
+Z 0 1036
+0 0
+S
+#10923
+An Ancient Shrine in the Hills~
+The land here seems to be all hills, some of them rising quite high with
+sides that are almost too steep to climb.  The hills are covered with grass
+and wildflowers, untouched by the hand of civilization.  Through it all runs
+the ancient remains of the cobblestone path, curving around the hills too
+tall to climb and cutting through the smaller ones.  The path itself ends in
+a small valley, where an ancient-looking shrine stands.  Somehow it has
+survived years of neglect to remain mostly intact.  The roof still stands,
+though it appears to be leaking water, and none of the tall stone pillars
+holding it up seem to be leaning or ready to crumble.  At the center of the
+shrine, next to a puddle of water from a recent rainstorm, stands a tall
+altar, religious symbols decorating its plain stone surface.  
+~
+0 TX hills
+E
+pillars~
+They seem rather delicately carved, but their strength has held true
+through all the years this shrine has been abandoned.  
+~
+E
+altar symbols~
+It’s difficult to say what the symbols mean.  One is of a snake wrapped
+around the branch of an ancient-looking tree, while others seem to be
+written in a script and language long lost.  
+~
+D0
+Beyond the hills lies a wide plain, an ancient cobblestone path running
+through it.  
+~
+~
+Z 0 10924
+0 0
+S
+#10924
+An Ancient Path Through the Plains~
+The ancient path continues, its cobblestones barely visible beneath the
+dirt that has covered it after long years of neglect.  A few trees line the
+road, though most of the land here is flat plains, tall grasses swaying
+gently in the wind.  Far to the south, the land begins to slope upwards,
+creating rolling hills that hide whatever lies beyond them.  
+~
+0 TX field
+E
+tall trees grasses~
+A few ancient-looking trees line the path, tall grass growing all around
+them, with a few patches of wildflowers here and there across the plains.  
+~
+D0
+~
+~
+Z 0 337
+0 0
+D2
+The cobblestone path continues through rolling hills.
+~
+~
+Z 0 10923
+0 0
+S
+#10925
+A Large Tree Amidst the Ruins~
+A thick tree grows right in the center of what appears to have once been
+a temple.  The foundation is all that remains standing now, and even that is
+threatened by the tree’s great roots, leaning precariously and looking ready
+to fall at any moment.  Crumbled columns, a collapsed roof and the remains
+of steps that once led up to the temple litter the ground with large piles
+of rubble, making it difficult to walk across.  At the center of the temple,
+right beside the tree, a tall altar stands intact, somehow surviving the
+centuries of neglect that ruined the rest of the building, and untouched by
+the roots of the tree.  
+~
+0 TX forest
+E
+altar~
+The altar is of white marble stone, somehow untouched by the passage of time.
+~
+E
+tree roots~
+The tree appears to be centuries old, its roots thick and strong,
+threatening to destroy what remains of the foundation.  
+~
+D1
+A small cobblestone path leads east.
+~
+~
+Z 0 10926
+0 0
+S
+#10926
+A Path Through the Thorn Bushes~
+A small path leads between the thick trees and thorn bushes of the
+forest, the remains of old cobblestones rising to the surface every few
+steps.  The forest here is filled with life, birds singing and small animals
+running about, stopping every now and then to watch you curiously as if they
+aren’t used to people passing through.  Far in the distance, through the
+trees to the west, the remains of an old building can be seen, though its
+difficult to see from here what it once was.  
+~
+0 TX forest
+E
+building~
+It’s difficult to see anything more about the building from this vantage
+point than that it lies in ruins.  
+~
+D1
+~
+~
+Z 0 1895
+0 0
+D3
+The ruins of a building can be seen.
+~
+~
+Z 0 10925
+0 0
+S
+#10927
+The Ruins in the Clearing~
+The forest suddenly opens into a large clearing, and the cobblestone path
+comes to an end.  The crumbling remains of a large temple dominate the
+surroundings, littering the ground with rubble.  All that truly remains
+standing of the temple is its foundation, and most of that looks ready to
+fall at any moment.  Tall columns with delicate carvings lie crushed all
+over the clearing, and the remains of the temple roof makes passage through
+the area slow and dangerous.  At the very edge of the temple stands a small
+altar, somehow in perfect condition despite the ruins around it.  
+~
+0 TX forest
+E
+columns carvings~
+These columns must once have been lovely examples of fine architecture,
+but they now lie crushed and broken into thousands of pieces.  
+~
+E
+altar~
+The altar is small but quite lovely, made of many different kinds of
+stones placed together, and somehow in perfect shape after the temple around
+it fell into ruin.  
+~
+D0
+A worn cobblestone path is barely visible leading through the trees.
+~
+~
+Z 0 10928
+0 0
+S
+#10928
+An Old Cobblestone Road~
+The remains of an old cobblestone road breaks through the thick forest. 
+Most of the stones are gone, or broken and upturned, but there is no
+mistaking that there was once a well-traveled path here, probably centuries
+ago.  Much of the path has become overgrown with weeds and bushes, as well
+as the enormous trunks of the trees, but it is still possible to follow
+where it goes, although passage is slow.  
+~
+0 TX forest
+D2
+The remains of the path lead south through the trees.
+~
+~
+Z 0 10927
+0 0
+D3
+~
+~
+Z 0 6118
+0 0
+S
+#10929
+The Clear Water by the Ruined Shrine~
+A large shrine stands next to a clear pool of water, its ruins perfectly
+reflected upon the water’s surface.  Almost nothing of the shrine remains
+standing, save for the altar at its center, which has somehow survived years
+of abandonment and exposure to the elements intact.  The shrine itself seems
+to have been made of a variety of stones, probably brought in from every
+corner of the lands.  Somehow through it all a beautiful shrine was created,
+if the ruins left behind are anything like its former beauty.  
+~
+0 TX forest
+E
+altar~
+The altar is made of many small stones stacked together, their varied
+colours giving it an unusual but lovely look.  
+~
+E
+pool water~
+The pool of water is not very large, but its surface is clear and blue,
+clearly reflecting the ruins of the shrine.  
+~
+D2
+Thick trees block your view of what lies to the south.
+~
+~
+Z 0 10930
+0 0
+S
+#10930
+A Faded Path Through the Forest~
+The trees here seem to have more life in them than those in the rest of
+the forest, as if some force has extended its protection over them.  The
+plants and trees are vibrant and green, swaying gently under a soft breeze. 
+A small cobblestone path is barely visible beneath the growth of the forest,
+most of its stones broken or sunk into the ground out of sight.  It leads
+deeper into the forest to the north, while to the south the forest seems to
+be dying, out of the reach of whatever force protects the trees here.  
+~
+0 TX forest
+E
+cobblestone path~
+Most of the path has been destroyed, only a few cobblestones remaining
+intact.  
+~
+E
+trees plants~
+Filled with life and swaying gently under the breeze, these trees are
+untouched by the devestation that has ruined the rest of the forest.  
+~
+D0
+Nothing can be seen through the thick forest.
+~
+~
+Z 0 10929
+0 0
+D2
+~
+~
+Z 0 24334
+0 0
+S
+#10931
+The Ruins on a Misty Island~
+The island’s beach is a long strip covered with rocky sand, crushing
+under any feet passing through.  A strange blue mist flows about the island,
+covering everything, except for a small temple that rises above it.  Much of
+the temple is in ruins, the roof long since collapsed, but somehow the altar
+at its center has survived almost intact.  The roar of a waterfall can be
+heard coming from close by, but the mist obscures anything beyond the ruins.
+
+~
+0 TX field
+E
+altar~
+The altar is plain, no symbols adorning it, though the fact that it has
+survived intact for so long is remarkable in and of itself.  
+~
+D0
+A small stream flows to the north.
+~
+~
+Z 0 10932
+0 0
+S
+#10932
+A Small Stream Flowing Out of the River~
+A small stream branches off from the main river, flowing south.  The
+current here is strong, making travel by boat very difficult.  There is a
+loud roar further off, as if a waterfall is nearby, though it seems to be a
+safe distance away.  To the south a small island is visible, shrouded in
+mist.  
+~
+0 TX noswim
+E
+island mist~
+Nothing can be seen of the island, except for the mist that covers it.  
+~
+D0
+~
+~
+Z 0 9915
+0 0
+D2
+A small mist-covered island lies there.
+~
+~
+Z 0 10931
+0 0
+S
+#10933
+The Ruins on a Rocky Island~
+The island here is covered with rock, making it impossible for more than
+a few stray patches of grass to grow everywhere.  Despite this fact, all
+around the island are the remains of what appears to have once been a
+village, with a half-crumbling temple at its very center.  Though most of
+the temple’s roof has long since collapsed to litter the ground with rubble,
+part of it remains intact, though it doesn’t look as if that will be the
+case for much longer.  A tall altar stands intact amidst the ruins of the
+temple, somehow untouched by the passage of time.  
+~
+0 TX hills
+E
+altar~
+Covered in religious symbols whose meanings have long since been
+forgotten, the altar has survived intact through centuries of neglect, while
+the rest of the temple decayed around it.  
+~
+E
+village~
+The remains of small houses and a larger building that might have been a
+community meeting place or a small tavern is all that remains of the people
+who once lived here.  
+~
+D3
+A river connects back with the ocean.
+~
+~
+Z 0 10934
+0 0
+S
+#10934
+A River Between the Mountains~
+A small river branches off from the ocean here, flowing between steep
+cliffs that rise up to block out the light from the sky.  The water here is
+peaceful, flowing gently to the east, where a rocky island can be seen. 
+Though it is difficult to properly judge from this vantage point, there seem
+to be tall ruins covering the rocky island, and what appears to be a
+half-destroyed temple.  
+~
+0 TX noswim
+E
+rocky island temple~
+Very little can be seen of the island from here, except for the ruins of
+a small village and a half-destroyed temple at its center.  
+~
+D1
+A rocky island lies to the east.
+~
+~
+Z 0 10933
+0 0
+D3
+~
+~
+Z 0 29514
+0 0
+S
+#10935
+The Ruined Temple at the Center of the Swamp~
+Overgrown with weeds and trees that have broken through its foundation,
+the temple retains none of the beauty it once must have possessed.  Almost
+nothing remains standing, and what does looks likely to fall at any moment,
+already suffocated by thick vines climbing along what were once tall
+majestic columns and a sturdy foundation.  An altar lies at the center of
+the temple, untouched by the vines and seemingly unaffected by the passage
+of time that has laid waste to the rest of the temple.  
+~
+0 0 inside
+E
+altar~
+A small altar has somehow survived as the temple collapsed around it.  
+~
+E
+vines~
+Thick vines cover what is left of the ruins, threatening to pull down the
+few parts of the temple that remain standing.  
+~
+D0
+A desolate, cold swamp lies to the north.
+~
+~
+Z 0 10936
+0 0
+S
+#10936
+The Ruined Bridge~
+The remains of an old stone bridge can be seen beneath the freezing
+waters of the swamp.  Strange creatures swim around your feet, every now and
+then sticking sharp teeth into you before swimming away to safety.  The
+smell here is terrible, as if there are half-rotted corpses all around. 
+Every step forward is through deep and muddy swamp water, slimy and cold. 
+To the south the faint outline of a temple is visible through the trees on a
+small island, adding a touch of beauty to the desolate surroundings.  
+~
+0 TX mountain
+E
+temple~
+It's difficult to make anything out from here.
+~
+E
+remains stone bridge~
+The bridge seems to have crumbled years ago, and is now completely
+submerged in the swamp waters.  
+~
+E
+creatures~
+They never stay long enough for you to get a good look, always darking
+out of the depths to attack before swimming away just as quickly.  
+~
+D0
+~
+~
+Z 0 10018
+0 0
+D2
+The ruined remains of a temple are just barely visible to the south.
+~
+~
+Z 0 10935
+0 0
+S
+#10937
+Amidst the Ruins of a Lost Temple~
+Half of the temple’s roof has collapsed, making it difficult to move
+through all the rubble it has left on the floor.  What remains standing
+looks precarious, as if a single gust of wind would be enough to send the
+whole structure toppling down.  The temple is constructed of sandstone,
+using the beauty of the island to complement its own.  Though most of it
+lies in ruins, what remains gives a hint of the awe-inspiring beauty it must
+have once possessed.  Amazingly, amongst all the rubble, a small sandstone
+altar stands intact, having somehow made it through the centuries of neglect
+that brought the rest of the temple down.  
+~
+0 TX hills
+E
+altar~
+A few carvings are etched into its side, but other than that it seems to
+be of rather simple construction.  
+~
+D0
+A lovely beach of white sand lies to the north.
+~
+~
+Z 0 10938
+0 0
+S
+#10938
+An Island Surrounded By Shallow Water~
+This island is small, but the shallow water extending all around its
+edges, and the strange ruins that can be glimpsed beneath it hint that it
+might have been much larger long ago.  Most of the island consists of white
+sand beaches, a few stray weeds poking out here and there, and a few trees
+growing next to a rocky cliff, but at the very center of the island a tall
+temple, half in ruins, rises up towards the sky, dominating the view.  
+~
+0 TX hills
+E
+ruins~
+Strange ruins, difficult to identify, are visible poking out from under
+the sand in the shallow water.  
+~
+E
+trees weeds~
+A few trees and weeds poke through the white sandy beach.
+~
+E
+temple~
+The temple is the dominating feature of the island, rising up towards the sky.
+~
+D0
+~
+~
+Z 0 17223
+0 0
+D2
+A large temple can be seen at the center of the island.
+~
+~
+Z 0 10937
+0 0
+S
+#10939
+The Remains of a Lost Temple Complex~
+The remains of what once must have been a vast temple complex lies
+amongst the tall forest trees.  What once must have been an impressive
+series of buildings now consists of a few crumbling foundations, their
+fallen pillars and collapsed roofs littering the forest floor with rubble. 
+At what must have been close to the center of the complex stands the remains
+of a tall building, its ceiling long since collapsed, leaving it open to the
+sky.  Amidst the rubble of the building lies an altar, still in surprisingly
+good condition.  
+~
+0 0 inside
+D0
+A misty forest lies to the north beyond the temple.
+~
+~
+Z 0 10940
+0 0
+S
+#10940
+A Dark, Misty Forest~
+Tall trees rise up from every side, their thick tree-covered branches
+blocking out any light and plunging the forest into darkness.  A strange,
+blue mist flows through the trees, obscuring the forest floor and making it
+difficult to see if there are roots or rocks in the way, or even if there is
+anything there at all.  Despite the eerie atmosphere, there is a sense of
+peace about this place, and the forest is filled with the sounds of life.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 2201
+0 0
+D2
+Ancient ruins can barely been seen through the trees.
+~
+~
+Z 0 10939
+0 0
+S
+#10941
+A Ruined Temple in the Clearing~
+The overgrown forest suddenly gives way, opening up into a large clearing
+where crumbling ruins are all that remains of a once magnificent temple. 
+The roof of the temple has long since collapsed, littering its marble floor
+with rubble.  Several of the columns that once held up the roof have
+collapsed, lying broken on the ground, overgrown with weeds.  A thick layer
+of dirt and grime covers the entire temple, the result of centuries under
+the open sky.  At the very center of the temple, surprisingly untouched,
+stands a white marble altar, religious symbols carved along its edge.  
+~
+0 TX forest
+E
+altar~
+The altar is made of pure white marble, somehow untouched by the elements
+even after all these years.  Religious symbols border the very edge, their
+meanings long lost.  
+~
+D3
+~
+~
+Z 0 10942
+0 0
+S
+#10942
+An Ancient Path Through the Thick Brush~
+Thick, overgrown brush is all around here, making any movement forward
+incredibly difficult.  Now and again an overturned cobblestone can be seen
+beneath the ferns and bushes, evidence that a long time ago this path was
+quite well traveled.  Tall trees grow thickly all around, making it
+impossible to see what lies beyond them, if anything.  To the west the brush
+becomes more spaced out, making travel easier.  
+~
+0 0 forest
+E
+cobblestone~
+Beneath the thick brush the remnants of an ancient road can be seen,
+weathered by time and barely recognizable.
+~
+D1
+~
+~
+Z 0 10941
+0 0
+D3
+~
+~
+Z 0 224
+0 0
+S
+#10943
+An Ancient Temple with Burning Torches~
+After a sharp plunge downward, the cave opens up into a large chamber,
+quite obviously shaped by mortal hands.  The natural stone of the cave has
+been worked to create a temple, complete with benches, wall carvings, and an
+altar.  Though the benches have all crumbled into rubble, and the wall art
+is faded and unreadable, the altar at the center of the chamber seems to
+have survived remarkably intact.  Even more impressive are the countless
+torches and candles that line the chamber, their magical flames still
+burning despite the passage of time that has laid waste to the rest of the
+temple.  
+~
+0 DT inside
+E
+benches~
+The stone benches rise from the stone floor of the chamber, all of them
+long since crumbled, probably by the earthquake that are frequent in this
+area.  
+~
+E
+wall carvings art~
+Most of them are faded or crumbled beyond recognition, but a few have
+survived well enough to give an idea of what they were like originally. 
+Though vibrant colours have faded and grown dull, the scenes of saints and
+gods still retain a great sense of power, though none live who remember
+their names.  
+~
+E
+torches candles~
+Some of them are set into the walls, others stand alone all around the
+room.  Though most of the torches have gone out, a few still burn as if they
+were just lit, their magic feeding the flames and bringing a bright glow to
+the large chamber.  
+~
+E
+altar~
+A simple stone altar, with a single candle burning at its center.  The
+stone of the altar is smooth, free of any carvings or religious symbols, and
+it has survived the years in remarkably good condition.  
+~
+D0
+The cave to the north is plunged in darkness.
+~
+~
+Z 0 10944
+0 0
+S
+#10944
+A Dark Cave in the Mountain~
+This small cave is plunged in darkness, letting in no light from outside.
+There is only a narrow space between the walls, and the ceiling hangs low,
+giving this place a claustrophobic feel.  The air has the stench of some
+wild animal that has made this cave its home, though there doesn’t appear to
+be anything threatening nearby.  The cave to the south is plunged in
+darkness, while to the north the faint outline of the cave entrance can be
+seen.  
+~
+0 ADT mountain
+D0
+~
+~
+Z 0 9202
+0 0
+D2
+No light can be seen coming from the south.
+~
+~
+Z 0 10943
+0 0
+S
+#10945
+The Walkway Above the Lava Flows~
+The cavern widens here, opening up into an enormous chamber.  The source
+of the roar is evident now; a large pit of molten lava slowly flows along
+the bottom of the chamber.  The heat here is almost unbearable, and the air
+is painful to breathe, every breath threatening to sear a lung..  A narrow
+walkway leads from the entrance of the chamber to its center, the only place
+untouched by the lava flow.  At the end of the walkway stands an ancient
+looking altar, looking as if it hasn’t been disturbed for centuries.  
+~
+0 DT inside
+E
+altar~
+The altar is made of dark stone, completely intact after centuries of
+abandonment. Religious symbols have been drawn across the top, though
+their meaning is lost.
+~
+D3
+The cavern narrows drastically to the west.
+~
+~
+Z 0 10946
+0 0
+S
+#10946
+A Passage Through the Cavern~
+The rough stone wall of the cavern is smoother here, as if carved by
+living hands.  A fiery glow seems to come from the east, though it’s
+difficult to tell what the source is from here.  A strange noise can also be
+heard from that direction, like a soft roar.  The air here is stiflingly
+hot, making it difficult to breathe.  
+~
+0 DT mountain
+D1
+The cavern widens to the east.
+~
+~
+Z 0 10945
+0 0
+D3
+~
+~
+Z 0 22020
+0 0
+S
+#10947
+The Temple Beneath the Ice~
+The crack in the wall suddenly widens into an enormous chamber, carved
+out of the ice.  The air here is strangely warm, and the ice underfoot feels
+as if it were solid ground.  The walls glisten brightly, though the ice
+seems to be in no danger of melting any time soon.  There is no sign
+anywhere of those responsible for carving the chamber, though something
+about it makes it feel very ancient.  At the very center of the cavern
+stands a tall altar, carved directly from the ice, covered in the religious
+symbols of a long-lost goddess.  
+~
+0 DT inside
+E
+altar~
+Strange symbols cover the altar, seeming to be of a religious nature. 
+Even after years of abandonment a strong power seems to remain in the altar,
+filling the air with a strange humming sound.  
+~
+D2
+~
+~
+Z 0 10948
+0 0
+S
+#10948
+A Crack in the Ice Wall~
+A crack has formed in the ice here, just large enough for a storm giant
+to crouch through.  The air is frigid here, and every breath brings agony as
+the little warmth left in your body seeps away.  Strange sounds can be heard
+all around, as if the wall of ice is constantly shifting.  The wall opens
+back up to the south, while to the north all that can be seen is darkness.  
+~
+0 DT inside
+D0
+~
+~
+Z 0 10947
+0 0
+D2
+~
+~
+Z 0 17278
+0 0
+S
+#10949
+The Ruined Foundation of an Ancient Shrine~
+What appeared to be a snowy mound from a distance is actually the remains
+of an ancient shrine, its roof long since toppled and only the foundation
+remaining.  Amazingly, through all the stone and rubble and the ravages of
+time, an altar has survived almost intact, standing at the very center of
+the shrine.  A strange mist seems to hang about the altar, swirling
+chaotically, its tendrils slowly inching closer to you.  
+~
+0 T mountain
+E
+altar~
+Though chipped at the edges, the altar remains mostly intact, carved
+symbols still clearly visible along its sides.  
+~
+E
+shrine stone foundation~
+Nothing remains of this shrine but rubble and a crumbling foundation. 
+Miraculously, a stone altar rises from the ruins, almost intact.  
+~
+D3
+A small path runs through the snow, leading away from the shrine.
+~
+~
+Z 0 10950
+0 0
+S
+#10950
+A Snowy Path to a Forgotten Shrine~
+The wind here is brutal, lifting up the pure white snow from the ground
+to blow it mercilessly into the eyes of any trying to make their way through
+this frigid wasteland.  A path seems to wind its way through the snow,
+somehow kept clear though no footprints are visible anywhere.  The path
+disappears to the west, fading back into the snow, while to the east it
+continues towards a large snow-covered mound.  The biting wind is strong,
+making any progress difficult, and draining what little warmth can still be
+found among those who travel the path.  
+~
+0 T mountain
+D1
+A large, snowy mound rises to the east.
+~
+~
+Z 0 10949
+0 0
+D3
+~
+~
+Z 0 2353
+0 0
+S
+#0
+
+#SPECIALS
+M 10919 spec_breath_gas	* the ancient priest
+M 10921 spec_breath_lightning	* the temple priestess
+M 10923 spec_breath_lightning	* the ancient priestess
+M 10925 spec_breath_gas	* the small figure
+M 10927 spec_breath_gas	* the priest's spirit
+M 10929 spec_breath_gas	* the misty figure
+M 10933 spec_breath_lightning	* the dark figure
+M 10935 spec_breath_acid	* the priestess' spirit
+M 10937 spec_breath_acid	* the spirit of the ancient priest
+M 10939 spec_breath_gas	* the ghost of the high priestess
+M 10941 spec_breath_gas	* the living mist
+M 10943 spec_breath_fire	* the ancient priest
+M 10945 spec_breath_fire	* the spirit of the priest
+M 10947 spec_breath_frost	* the ghost of a high priestess
+M 10949 spec_breath_frost	* the ghost of an ancient priestess
+S
+
+#RESETS
+M 0 10919 1 10919 1	* the ancient priest (The Ruins Among the Trees)
+M 0 10921 1 10921 1	* the temple priestess (The Temple of Wind)
+M 0 10923 1 10923 1	* the ancient priestess (An Ancient Shrine in the Hills)
+M 0 10925 1 10925 1	* the small figure (A Large Tree Amidst the Ruins)
+M 0 10927 1 10927 1	* the priest's spirit (The Ruins in the Clearing)
+M 0 10929 1 10929 1	* the misty figure (The Clear Water by the Ruined Shrine)
+O 0 10930 0 10929	* a clear pool of water (The Clear Water by the Ruined Shrine)
+M 0 10931 1 10931 1	* the spirit of the young priest (The Ruins on a Misty Island)
+M 0 10933 1 10933 1	* the dark figure (The Ruins on a Rocky Island)
+M 0 10935 1 10935 1	* the priestess' spirit (The Ruined Temple at the Center of the Swamp)
+M 0 10937 1 10937 1	* the spirit of the ancient priest (Amidst the Ruins of a Lost Temple)
+M 0 10939 1 10939 1	* the ghost of the high priestess (The Remains of a Lost Temple Complex)
+M 0 10941 1 10941 1	* the living mist (A Ruined Temple in the Clearing)
+M 0 10943 1 10943 1	* the ancient priest (An Ancient Temple with Burning Torches)
+M 0 10945 1 10945 1	* the spirit of the priest (The Walkway Above the Lava Flows)
+M 0 10947 1 10947 1	* the ghost of a high priestess (The Temple Beneath the Ice)
+M 0 10949 1 10949 1	* the ghost of an ancient priestess (The Ruined Foundation of an Ancient Shrine)
+S
+
+#MOBPROGS
+#10919
+mob echo The priest draws back his hood and scowls, preparing himself to attack.
+~
+#10920
+mob echo With a sudden cry, the priest falls, dropping to his knees before vanishing altogether, leaving behind a golden flask.
+mob oload 10919
+drop flask
+~
+#10921
+mob echo The priestess stands from the altar calmly, and summons up a globe of pure light, preparing to defend herself.
+~
+#10922
+mob echo The priestess looks you in the eye as she falls backwards, vanishing the moment she hits the ground. In her place, a beautiful golden flask has appeared, the only proof that she was ever there.
+mob oload 10921
+drop flask
+~
+#10923
+mob echo Maintaining her look of serenity, the woman summons up a pale magical globe to defend herself.
+mob oload 10921
+drop flask
+~
+#10924
+mob echo The globe winks out of existence, and the woman falls to her knees, gasping breathlessly, and falling out of sight behind the altar. By the time you can run over, all that remains to prove she was there is a beautiful golden flask.
+mob oload 10923
+drop flask
+~
+#10925
+mob echo The figure jumps to its feet, and produces a small dagger from a fold in its cloak.
+~
+#10926
+mob echo Letting out a loud cry, the figure falls to its knees, panting heavily, and then it vanishes completely, a golden flask appearing where it rested a moment earlier.
+mob oload 10925
+drop flask
+~
+#10927
+mob echo The man lets out a cry, and prepares to defend the ruins.
+~
+#10928
+mob echo Falling backwards, the man disappears before he even hits the ground, leaving behind a golden flask next to the altar.
+mob oload 10927
+drop flask
+~
+#10929
+mob echo Looking up from the water, the figure scowls, turning to defend itself.
+~
+#10930
+mob echo The figure falls to its knees, then disperses into mist, leaving nothing behind but a golden flask by the altar.
+mob oload 10929
+drop flask
+~
+#10931
+mob echo The young man draws himself up and enters a defensive stance.
+~
+#10932
+mob echo Crying out softly, the young man sinks to his knees, then vanishes, leaving behind a golden flask.
+mob oload 10931
+drop flask
+~
+#10933
+mob echo The mist suddenly forms into a dark figure, clutching a tiny dagger.
+~
+#10934
+mob echo With a soundless cry, the figure suddenly vanishes, a golden flask dropping down to hit the ground where it stood.
+mob oload 10933
+drop flask
+~
+#10935
+mob echo The priestess ceases her prayers and summons a mace made of mist.
+~
+#10936
+mob echo Letting out a final cry, the priestess begins to fall, vanishing before she hits the ground. All that remains to prove her existence is a golden flask left behind on the altar.
+mob oload 10935
+drop flask
+~
+#10937
+mob echo Wind whips violently about you, until suddenly a figure appears by the altar, gripping a sword of air. 
+~
+#10938
+mob echo Letting out a cry of rage, the figure collapses, and the wind around you suddenly ceases. All that is left behind is a golden flask, placed atop the altar.
+mob oload 10937
+drop flask
+~
+#10939
+mob echo The priestess stops her singing, and turns to defend herself.
+~
+#10940
+mob echo With a loud cry, the priestess collapses, fading out of existence before she hits the ground. All that is left behind to prove she ever existed is a golden flask by the altar.
+mob oload 10939
+drop flask
+~
+#10941
+mob echo The mist suddenly forms into a human-shaped figure, and whips forward to attack.
+~
+#10942
+mob echo The mist suddenly disperses, disappearing into nothingness. All that is left to ever show that it was there is a golden flask by the altar.
+mob oload 10941
+drop flask
+~
+#10943
+mob echo The priest’s eyes begin to glow with an inner fire as he enters a fighting stance.
+~
+#10944
+mob echo A large flame suddenly engulfs the priest. It is gone in an instant, leaving no sign that the priest was ever there, except for a golden flask placed upon the altar.
+mob oload 10943
+drop flask
+~
+#10945
+mob echo The flame rapidly expands, forming into a human-sized figure wielding a flaming sword.
+~
+#10946
+mob echo The priest lets out a roar, and flames suddenly surround him, glowing brightly before suddenly being extinguished, leaving nothing behind but a golden flask on the altar.
+mob oload 10945
+drop flask
+~
+#10947
+mob echo With a last cry of rage and terror, the ghost of the high priestess dissipates, leaving behind a golden flask.
+mob oload 10947
+drop flask
+~
+#10948
+mob echo The ancient priestess loses her serene smile, and her face becomes a mask of rage as she defends against the attack.
+~
+#10949
+mob echo The mist coalesces into an almost human-looking figure, then lashes out.
+~
+#10950
+mob echo The priestess begins to dissipate, fading back into a formless mist.
+mob echo A glint of gold catches your eye, and you spot a golden flask resting on the altar.
+mob oload 10949
+drop flask
+~
+#0
+
+#$

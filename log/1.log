@@ -1,0 +1,180 @@
+Mon May 12 22:19:11 2008 :: load_info: added '127.0.0.1' to trusted list
+Mon May 12 22:19:11 2008 :: loading: languages
+Mon May 12 22:19:11 2008 :: loading: socials
+Mon May 12 22:19:11 2008 :: loading: materials
+Mon May 12 22:19:11 2008 :: loading: skills
+Mon May 12 22:19:11 2008 :: loading: races
+Mon May 12 22:19:11 2008 :: loading: classes
+Mon May 12 22:19:11 2008 :: loading: clans
+Mon May 12 22:19:11 2008 :: loading: areas
+Mon May 12 22:19:11 2008 ::  Groups Helps                        0 -     0 group.are
+Mon May 12 22:19:11 2008 ::  Generic Helps                       0 -     0 help.are
+Mon May 12 22:19:11 2008 ::  Icey Helps                          0 -     0 help4.are
+Mon May 12 22:19:11 2008 ::  Limbo                               1 -   199 limbo.are
+Mon May 12 22:19:11 2008 ::  Emerald Forest                    200 -   299 emerald.are
+Mon May 12 22:19:11 2008 ::  Plains                            300 -   399 plains.are
+Mon May 12 22:19:11 2008 ::  The Museum                        400 -   499 zoology.are
+Mon May 12 22:19:11 2008 ::  Zsuzsu Workshop                   500 -   699 zsuzsu.are
+Mon May 12 22:19:11 2008 ::  Olympus                           900 -   999 olympus.are
+Mon May 12 22:19:11 2008 ::  In the Air                       1000 -  1099 air.are
+Mon May 12 22:19:11 2008 ::  Shire                            1100 -  1199 shire.are
+Mon May 12 22:19:11 2008 ::  Valhalla                         1200 -  1299 immort.are
+Mon May 12 22:19:11 2008 ::  High Tower of Sorcery            1300 -  1499 hitower.are
+Mon May 12 22:19:11 2008 ::  Gnome Village                    1500 -  1599 gnome.are
+Mon May 12 22:19:11 2008 ::  Wyvern's Tower                   1600 -  1799 wyvern.are
+Mon May 12 22:19:11 2008 ::  Magic Forest                     1800 -  1899 magicfor.are
+Mon May 12 22:19:11 2008 ::  The ShadowKing's Lair            2000 -  2099 catacomb.are
+Mon May 12 22:19:11 2008 ::  Dangerous Neighborhood           2100 -  2199 hood.are
+Mon May 12 22:19:11 2008 ::  Dragon Tower                     2200 -  2299 draconia.are
+Mon May 12 22:19:11 2008 ::  Mahn-Tor                         2300 -  2399 mahntor.are
+Mon May 12 22:19:11 2008 ::  Dragon Spyre                     2400 -  2501 dragon2.are
+Mon May 12 22:19:11 2008 ::  Felar Grotto                     2502 -  2799 felargrotto.are
+Mon May 12 22:19:11 2008 ::  Elven Fortress                   2800 -  2899 elvenfort.are
+Mon May 12 22:19:11 2008 ::  Midgaard                         3000 -  3399 midgaard.are
+Mon May 12 22:19:11 2008 ::  Chapel                           3400 -  3499 chapel.are
+Mon May 12 22:19:11 2008 ::  Miden'nir                        3500 -  3599 midennir.are
+Mon May 12 22:19:11 2008 ::  Graveyard                        3600 -  3699 grave.are
+Mon May 12 22:19:11 2008 ::  MUD School                       3700 -  3799 school.are
+Mon May 12 22:19:11 2008 ::  Moria                            3900 -  4199 moria.are
+Mon May 12 22:19:11 2008 ::  Chess Master Tower               4200 -  4299 chesstower.are
+Mon May 12 22:19:12 2008 ::  Mausoleum                        4600 -  4699 mausoleum.are
+Mon May 12 22:19:12 2008 ::  Sands of Sorrow                  5000 -  5099 eastern.are
+Mon May 12 22:19:12 2008 ::  Drow City                        5100 -  5199 drow.are
+Mon May 12 22:19:12 2008 ::  Thalos                           5200 -  5299 thalos.are
+Mon May 12 22:19:12 2008 ::  Old Midgaard                     5300 -  5499 oldmidg.are
+Mon May 12 22:19:12 2008 ::  Aarakocran City                  5600 -  5699 aarak2.are
+Mon May 12 22:19:12 2008 ::  Firetop Mountain                 5700 -  5849 firetop2.are
+Mon May 12 22:19:12 2008 ::  Forest of Nowhere                6000 -  6199 nowhere.are
+Mon May 12 22:19:12 2008 ::  Dwarven Kingdom                  6500 -  6599 dwarven.are
+Mon May 12 22:19:12 2008 ::  Dwarven Daycare                  6600 -  6699 daycare.are
+Mon May 12 22:19:12 2008 ::  Sewers                           7000 -  7499 sewer.are
+Mon May 12 22:19:12 2008 ::  Fayten Keep                      7500 -  7699 fayten.are
+Mon May 12 22:19:12 2008 ::  Sylvan clan hall                 7700 -  7799 clan_sylvan.are
+Mon May 12 22:19:12 2008 ::  Valley of the Elves              7800 -  7899 valley.are
+Mon May 12 22:19:12 2008 ::  Redferne's                       7900 -  7999 redferne.are
+Mon May 12 22:19:12 2008 ::  Sentua                           8000 -  8099 sentua.are
+Mon May 12 22:19:12 2008 ::  Ghost Town                       8100 -  8199 ghosttown.are
+Mon May 12 22:19:12 2008 ::  Wildlife Sanctuary               8200 -  8299 wildsanctuary.are
+Mon May 12 22:19:12 2008 ::  Marsh                            8300 -  8399 marsh.are
+Mon May 12 22:19:12 2008 ::  Fortress of Meradriel            8400 -  8599 fortmerad.are
+Mon May 12 22:19:12 2008 ::  Pyramid                          8700 -  8799 pyramid.are
+Mon May 12 22:19:12 2008 ::  Mirkwood                         8800 -  8899 mirkwd2.are
+Mon May 12 22:19:12 2008 ::  Holy Grove                       8900 -  8999 grove.are
+Mon May 12 22:19:12 2008 ::  Nirvana                          9000 -  9099 nirvana.are
+Mon May 12 22:19:12 2008 ::  Dylan's Area                     9100 -  9199 dylan.are
+Mon May 12 22:19:12 2008 ::  Elemental Canyon                 9200 -  9299 canyon.are
+Mon May 12 22:19:12 2008 ::  Galaxy                           9300 -  9399 galaxy.are
+Mon May 12 22:19:12 2008 ::  Coliseum of Midgaard             9400 -  9499 coliseum.are
+Mon May 12 22:19:12 2008 ::  New Thalos                       9500 -  9800 newthalos.are
+Mon May 12 22:19:12 2008 ::  Goblin Nation                    9901 -  9999 nation.are
+Mon May 12 22:19:12 2008 ::  Westland                        10000 - 10099 westland.are
+Mon May 12 22:19:12 2008 ::  Solace                          10200 - 10399 solace.are
+Mon May 12 22:19:12 2008 ::  Hell                            10400 - 10599 tohell.are
+Mon May 12 22:19:12 2008 ::  Caerlon                         10600 - 10782 caerlon.are
+Mon May 12 22:19:12 2008 ::  Southern New Thalos Road        10860 - 10880 southntroad.are
+Mon May 12 22:19:12 2008 ::  The Road to Caerlon             10881 - 10897 caerlon1.are
+Mon May 12 22:19:12 2008 ::  Windswept Plains                10898 - 10908 caerlon2.are
+Mon May 12 22:19:12 2008 ::  The Forest of Caerlon           10909 - 10918 caerlon3.are
+Mon May 12 22:19:12 2008 ::  The Lost Temples                10919 - 10950 caerlon4.are
+Mon May 12 22:19:12 2008 ::  The Ruined Arena                10951 - 11050 kaeriarena.are
+Mon May 12 22:19:12 2008 ::  Divided Souls                   11600 - 11799 divsouls.are
+Mon May 12 22:19:12 2008 ::  Drakyri Isle                    11800 - 11899 drakyri.are
+Mon May 12 22:19:12 2008 ::  Arcadia                         12000 - 12199 arcadia.are
+Mon May 12 22:19:12 2008 ::  Antharia                        12300 - 12399 antharia.are
+Mon May 12 22:19:12 2008 ::  Castle of Giants                13000 - 13110 giant.are
+Mon May 12 22:19:12 2008 ::  Cloudy Mountain                 13200 - 13399 cloudymt.are
+Mon May 12 22:19:12 2008 ::  Ciquala's Lair                  13400 - 13499 ciquala2.are
+Mon May 12 22:19:12 2008 ::  Armageddon                      14001 - 14199 armagddn.are
+Mon May 12 22:19:12 2008 ::  Dark Continent                  14500 - 14599 darkcont.are
+Mon May 12 22:19:12 2008 ::  Kurgan Mount Doom               14700 - 14849 mtdoom.are
+Mon May 12 22:19:12 2008 ::  Imm Planning Area               15000 - 15199 mudstuff.are
+Mon May 12 22:19:12 2008 ::  The Keep of the Warlock         15700 - 15749 warkeep.are
+Mon May 12 22:19:12 2008 ::  UnderDark                       16000 - 16499 underdark.are
+Mon May 12 22:19:13 2008 ::  Subterranos                     16500 - 16599 subterranous.are
+Mon May 12 22:19:13 2008 ::  Pirate Isles                    17000 - 17299 isles.are
+Mon May 12 22:19:13 2008 ::  Camelot                         17300 - 17399 camelot.are
+Mon May 12 22:19:13 2008 ::  Newsouls Acadamy                17600 - 17750 newsouls.are
+Mon May 12 22:19:13 2008 ::  Valley of the Titans            18000 - 18250 titan.are
+Mon May 12 22:19:13 2008 ::  Windy Forest                    18251 - 18500 windyforest.are
+Mon May 12 22:19:13 2008 ::  Mirror of Realm                 19000 - 19199 mirror2.are
+Mon May 12 22:19:13 2008 ::  Mist Covered Forest             19411 - 19549 mistshroudedforest.are
+Mon May 12 22:19:13 2008 ::  The White Desert                19550 - 19699 whitedesert.are
+Mon May 12 22:19:13 2008 ::  Caerlon's Graveyard             19700 - 19750 caerlongrave.are
+Mon May 12 22:19:13 2008 ::  The Village of Sirel            19751 - 19850 sirel.are
+Mon May 12 22:19:13 2008 ::  The Darkside of Sirel           19851 - 19950 darksidesirel.are
+Mon May 12 22:19:13 2008 ::  Shaolin Temple                  20100 - 20199 shaolin.are
+Mon May 12 22:19:13 2008 ::  Wonderland                      21000 - 21199 alice.are
+Mon May 12 22:19:13 2008 ::  Caverns                         22000 - 22049 caverns.are
+Mon May 12 22:19:13 2008 ::  Blight                          23000 - 24099 blight.are
+Mon May 12 22:19:13 2008 ::  The Village of Anon             24100 - 24199 anon_village.are
+Mon May 12 22:19:13 2008 ::  Dying Forest                    24300 - 24399 dying.are
+Mon May 12 22:19:13 2008 ::  Shodar Haran                    25000 - 25500 abyss2.are
+Mon May 12 22:19:13 2008 ::  Player Houses                   28000 - 28999 house_players.are
+Mon May 12 22:19:13 2008 ::  Goblin Stronghold               29000 - 29099 goblinstronghold.are
+Mon May 12 22:19:13 2008 ::  Everlasting Silence             29100 - 29119 everlastingsilence.are
+Mon May 12 22:19:13 2008 ::  Coven                           29120 - 29199 coven.are
+Mon May 12 22:19:13 2008 ::  Freeport                        29200 - 29349 freeport.are
+Mon May 12 22:19:13 2008 ::  Lich Tower                      29350 - 29399 lich.are
+Mon May 12 22:19:13 2008 ::  Old Troya                       29500 - 29599 troy.are
+Mon May 12 22:19:13 2008 ::  Winyar Woods                    30100 - 30399 winyar.are
+Mon May 12 22:19:13 2008 ::  The Unholy Abbey                30800 - 30899 unholy.are
+Mon May 12 22:19:13 2008 ::  The City of Anon                30900 - 31199 tcwnn.are
+Mon May 12 22:19:13 2008 ::  The Walls of Anon               31200 - 31400 tcwnn2.are
+Mon May 12 22:19:13 2008 ::  Prison                          32000 - 32100 prison.are
+Mon May 12 22:19:13 2008 ::  Lair of Jher                    32700 - 32725 jher.are
+Mon May 12 22:19:13 2008 ::  Arryndail                       40100 - 40999 arryndail.are
+Mon May 12 22:19:13 2008 ::  Drako Village                   51100 - 51415 drako.are
+Mon May 12 22:19:13 2008 ::  Horde Clanhall                  51420 - 51520 clan_horde.are
+Mon May 12 22:19:13 2008 ::  Malakai's House                 62301 - 62330 house_malakai.are
+Mon May 12 22:19:13 2008 ::  The Vincitori (Gerad's House)   62331 - 62371 house_gerad.are
+Mon May 12 22:19:13 2008 ::  Ruler Clanhall                  95100 - 95199 clan_rule.are
+Mon May 12 22:19:13 2008 ::  Knight Clanhall                 95200 - 95299 clan_knight.are
+Mon May 12 22:19:13 2008 ::  Barbarian Clan Hall             95400 - 95499 clan_barbarian.are
+Mon May 12 22:19:13 2008 ::  Chaos Clanhall                  95500 - 95599 clan_chaos.are
+Mon May 12 22:19:13 2008 ::  Scion Clanhall                  95600 - 95699 clan_scion.are
+Mon May 12 22:19:13 2008 ::  Shadow Stalkers Clanhall        95700 - 95799 clan_shadow.are
+Mon May 12 22:19:13 2008 ::  Virgin Forest                   97401 - 97600 virginforest.are
+Mon May 12 22:19:14 2008 ::  The Sky Highway                 97900 - 97999 skyhighway.are
+Mon May 12 22:19:14 2008 ::  Skyflash Domain                 98000 - 98099 skyflashdomain.are
+Mon May 12 22:19:14 2008 ::  Mortorn                         98201 - 98400 mortorn.are
+Mon May 12 22:19:14 2008 ::  Rotting Spine Village           98700 - 98900 rottingspine.are
+Mon May 12 22:19:14 2008 ::  Darknight Castle                98901 - 99100 darknight.are
+Mon May 12 22:19:14 2008 ::  Chronomancers Tower             99200 - 99700 chrono.are
+Mon May 12 22:19:14 2008 ::  Plains of Aydindril            100000 -100050 aydindrilplains.are
+Mon May 12 22:19:14 2008 ::  Lom'tak Prison                 100100 -100125 lomtakprison.are
+Mon May 12 22:19:14 2008 ::  Tainted Oasis                  100200 -100499 tainted.are
+Mon May 12 22:19:14 2008 ::  Daleforn Valley                100500 -100599 dalforn.are
+Mon May 12 22:19:14 2008 ::  ElidoDi High Tower             100600 -100700 clan_elidodi.are
+Mon May 12 22:19:14 2008 ::  Sentinel Clan Hall             100701 -100800 clan_sentinel.are
+Mon May 12 22:19:14 2008 ::  Nalaeya's Palace               100801 -100820 nalaeya.are
+Mon May 12 22:19:14 2008 ::  Aamons Area                    100830 -100860 aamon.are
+Mon May 12 22:19:14 2008 ::  Mistvale                       100861 -100920 mistvale.are
+Mon May 12 22:19:14 2008 ::  Iona's House                   100930 -100950 house_iona.are
+Mon May 12 22:19:14 2008 ::  Nouflic house                  100951 -100970 house_nouflic.are
+Mon May 12 22:19:14 2008 ::  Prakus House                   100971 -100990 house_prakus.are
+Mon May 12 22:19:14 2008 ::  Drunken Zealot(Finn's House)   100991 -101019 house_finn.are
+Mon May 12 22:19:14 2008 ::  Classified Area #1             101066 -101077 temple_enki.are
+Mon May 12 22:19:14 2008 ::  Classified Area #2             101078 -101090 temple_seth.are
+Mon May 12 22:19:14 2008 ::  Daggerwood                     101800 -101899 daggerwood.are
+Mon May 12 22:19:14 2008 ::  Slaughter House                110000 -110099 slaught.are
+Mon May 12 22:19:14 2008 ::  Freeport Harbor                110300 -110399 freeharbor.are
+Mon May 12 22:19:14 2008 ::  Shadas' House                   10130 - 10159 house_shadas.are
+Mon May 12 22:19:14 2008 ::  Forest of Confusion             11100 - 11199 confusion.are
+Mon May 12 22:19:14 2008 ::  Cradlenook                       2900 -  2999 cradlenook.are
+Mon May 12 22:19:14 2008 ::  Planes of Hell                  33000 - 33099 adieren.are
+Mon May 12 22:19:14 2008 ::  Enchanted Acres                  8600 -  8649 kira4.are
+Mon May 12 22:19:14 2008 ::  The Unfinished Temple           10100 - 10115 unfinishedtemple.are
+Mon May 12 22:19:14 2008 ::  Hrothar's Home                  12400 - 12449 imm_hrothar.are
+Mon May 12 22:19:14 2008 :: loading: hometowns
+Mon May 12 22:19:14 2008 :: fixing exits
+Mon May 12 22:19:14 2008 :: checking mprogs
+Mon May 12 22:19:14 2008 :: : line 1736: check_mob_progs: code vnum 799 not found.
+Mon May 12 22:19:14 2008 :: loading: character persistant data
+Mon May 12 22:19:14 2008 :: loading: server usage
+Mon May 12 22:19:14 2008 :: converting old ROM objects
+Mon May 12 22:19:14 2008 :: updating areas
+Mon May 12 22:19:15 2008 :: loading: notes
+Mon May 12 22:19:15 2008 :: loading: bans
+Mon May 12 22:19:15 2008 :: loaded 2 world affects
+Mon May 12 22:19:15 2008 :: now listening for user logins on port 7777
+Mon May 12 22:19:15 2008 :: info service started on port 7778

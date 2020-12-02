@@ -1,0 +1,223 @@
+#AREADATA
+Name Hrothar's Home~
+Builders hrothar~
+VNUMs 12400 12449
+Security 1
+LevelRange 0 0
+End
+
+#MOBILES
+#12400
+thief sneak young man~
+a young {Dthief{x~
+a {Dthief{x is hiding here.
+~
+A young man stands here.  His coinpurse is bulging, and his dagger is
+gleaming.  
+~
+human~
+AS FQV -1000 0
+20 20 37d20+0 100d10+85 6d3+15 stab
+-3 -3 -3 0
+BEFIJKNUV 0 0 0
+stand stand male 1500
+0 0 medium flesh~
+~
+F attr+ AB
+F for HV
+#0
+
+#OBJECTS
+#12400
+a adamantine axe frost mist enormous~
+The {BF{brosty{x {RG{rreataxe{x of {YH{yrothar{x~
+an enormous adamantine axe rests here, a mist enshrouding it.~
+unknown~
+adamantine~
+weapon GIKY AN
+axe 6 53 chop BDF
+107 108 16031273 P
+A
+2 5
+A
+1 5
+A
+13 1200
+A
+19 40
+A
+18 40
+G none
+G none
+G none
+G none
+#12401
+platinum chip hunk chunk~
+a hunk of platinum~
+A valuable chunk of platinum lies here.~
+platinum~
+~
+award RTacjk AO
+0 ADE 0 0 0 0 ADE
+0 1 10 P
+G none
+G none
+G none
+G none
+#12402
+large platinum chip chunk piece hrothar breastplate~
+a very large piece of platinum~
+A large chunk of Hrothar's breastplate.~
+platinum~
+~
+award Rc A
+0 BD 0 0 0 0 BD
+0 1 35 P
+A
+18 0
+A
+19 0
+A
+5 0
+A
+2 0
+G none
+G none
+G none
+G none
+#12403
+enormous shimmering helmet hrothar~
+The {YG{yolden{x helmet of {BH{brothar{x~
+An enormous helm lies here, glimmering.~
+platinum~
+~
+armor AG AE
+39 39 39 38 'none' 0
+107 108 1081795 P
+A
+3 2
+A
+5 4
+A
+6 -10
+A
+2 5
+G none
+G none
+G none
+G none
+#12404
+pair hrothar boots feet~
+the {YG{yolden{x boots of {DH{wrothar{x~
+An enormous pair of boots lie here, glimmering in the sun.~
+platinum~
+~
+armor AG AG
+39 39 39 38 'none' 0
+107 108 467565 P
+A
+19 20
+A
+2 3
+G none
+G none
+G none
+G none
+#12405
+head blade axe hrothar immense~
+The {RH{read{x of {GH{grothars{x {BG{breataxe{x~
+the head of an immense axe lies here, partially buried.~
+unknown~
+obsidian~
+trash IRTj A
+0 0 0 0 0 0 0
+107 50 1200 P
+G none
+G none
+G none
+G none
+#12406
+shaft axe hrothar immense~
+The {DS{whaft{x of {YH{yrothars{x {RG{rreataxe{x~
+the shaft of an immense axe lies here, partially buried.~
+unknown~
+pine~
+trash IRTj A
+0 0 0 0 0 0 0
+107 50 1200 P
+G none
+G none
+G none
+G none
+#12407
+boots plate hrothar enormous~
+The {RP{rlate{w-{Rb{roots{x of {BH{brothar{x~
+An immense pair of plate-boots lie here.~
+platinum~
+~
+trash IRTj A
+0 0 0 0 0 0 0
+107 50 1400 P
+G none
+G none
+G none
+G none
+#12408
+plate leggings hrothar immense~
+The {CL{cegplates{x of {MH{mrothar{x~
+an immense pair of legplates rest here.~
+platinum~
+~
+trash ITYj A
+0 0 0 0 0 0 0
+107 50 1000 P
+G none
+G none
+G none
+G none
+#12409
+armplates immense hrothar pair~
+The {YA{yrmplates{x of {cH{grothar{x~
+An immense pair of armplates lie here.~
+platinum~
+~
+trash IRTj A
+0 0 0 0 0 0 0
+107 50 1500 P
+G none
+G none
+G none
+G none
+#12410
+bag jago~
+An immense bag of {Ddark cloth{x~
+An enormous bag of {Ddark cloth{x lies here, with the name Jago stitched into it.~
+unknown~
+Drow dark-cloth~
+container EIY A
+100000 0 0 10000 1 0
+0 0 5564662 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#12400
+A {RS{rweltering {Dforge{x~
+You are standing inside a {RBlazing {rhot{x forge.  A large furnace is set off
+to the corner, and an anvil sits next to it.  Weapons and armor are all over
+this place.  The floor is covered with {wmetal scraps{x and {Dsoot{x.  The walls are
+pure {wgranite{x.  Many different kinds of metals, stones and hides are also
+strewn about.  
+~
+0 DNXc inside
+S
+#0
+
+#SPECIALS
+M 12400 spec_thief	* a young {Dthief{x
+S
+
+#$

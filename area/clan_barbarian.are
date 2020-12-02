@@ -1,0 +1,3796 @@
+#AREADATA
+Name Barbarian Clan Hall~
+Builders nalaeya shaelindra~
+VNUMs 95400 95499
+Credits Thornan Battlehammer~
+Security 9
+LevelRange 90 100
+ResetMessage Sounds of laughter can be heard coming from the huts, as villagers go about their lives.~
+Flags closed noquest nosummon clanhall~
+Clan Barbarian~
+End
+
+#MOBILES
+#95400
+clan guard guardian barbarianguard grishnak tall warrior~
+Grishnak~
+A tall, heavily-muscled warrior stands by the village gates, guarding it closely.
+~
+This old warrior has spent his entire life in the study of martial arts
+and armed combat.  He never believed, nor trusted in the power of magic,
+never used potions or pills to heal himself, and never associated with any
+of those involved with magic.  His intense hatred of magic surrounds him
+like a shield, warding off any spells directed towards him.  
+~
+human~
+ABTef DFHclm 0 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M greet 95400 100~
+M kill 95402 100~
+M exall 95401 2~
+C Barbarian~
+#95401
+smithy gordall weaponsmith barbarian~
+Smithy~
+Gordall the weaponsmith is here to supply you with weapons.
+~
+Gordall has been a Barbarian since he was a child. His entire life has
+been dedicated to the study of weaponcrafting to aid his clan in the
+destruction of all magicusers.  As you survey his magnificent weapons, he
+smiles grimly, truly proud of the killing edge that he has placed on them. 
+
+~
+human~
+ABTVe DFV 800 0
+80 30 3d300+17000 1d1+2000 15d30+80 none
+-80 -80 -80 -60
+CDEFIJKN AB CD P
+stand stand male 0
+0 0 large flesh~
+~
+#95402
+barbariantrainer wiseman~
+the wiseman~
+The Wiseman waits here to teach the Barbarians the secret abilities of the clan.
+~
+Though he is too old travel and fight, the wiseman is knowledgeable in
+all of the Barbarian abilities, and will train young Barbarians in their
+use. If you have any questions on them just ask him to {Gtell you about{x
+the clan skill you are interested in.
+~
+human~
+ABJKQVae DF 1000 0
+91 91 465d91+2000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+FHIK ABCQ CD 0
+stand stand male 4472
+0 0 medium flesh~
+~
+M speech 95421 about spell~
+M speech 95422 about mortal~
+M speech 95423 about deadly~
+M speech 95424 about resist~
+M speech 95425 about true~
+M speech 95426 about band~
+M speech 95427 about troph~
+M speech 95428 about clan recal~
+M speech 95429 fly~
+M speech 95402 about blood~
+M speech 95492 awareness~
+C Barbarian~
+#95403
+informant battle rager brager battlerager~
+Battlerager Informant~
+A tall human fighter stands here silently
+~
+~
+human~
+ABTUcef DEFVcmt 0 0
+150 150 851d150+30000 1500d11+95 51d2+107 none
+-98 -98 -98 -67
+ACDEFHIJKNO ABCDEFGHIJKLMNOPQRTUXYZ 0 0
+stand stand male 0
+0 0 large flesh~
+~
+M speech 95407 Quest 1 Good.~
+M speech 95408 Quest 2 Good.~
+M speech 95409 Quest 3 Good.~
+M speech 95410 Quest 4 Good.~
+M speech 95411 Quest 1 Evil.~
+M speech 95412 Quest 2 Evil.~
+M speech 95413 Quest 3 Evil.~
+M speech 95414 Quest 4 Evil.~
+C Barbarian~
+#95404
+jakop halfling mercenary~
+Jakop~
+A halfling is here signing up mercenaries to the Barbarian cause.
+~
+This halfing is running around the room kicking knees, trying to organize
+the mercenaries to hire them out to worthy Barbarians.
+~
+halfling~
+ABSe 0 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+FH AB 0 0
+stand stand male 634
+0 0 large flesh~
+~
+C Barbarian~
+#95405
+guardian barbarian kuwok~
+Kuwok~
+Standing in front of the gate stands a broad chested warrior.
+~
+A giant warrior with chains surrounding his fists eyes you suspiciously.  
+~
+giant~
+ABTVcef DFlmt 0 0
+30 99 518d99+5000 990d11+95 34d2+73 none
+-62 -62 -62 -41
+ACDEFHIJK AB CD 0
+stand stand male 0
+0 0 unknown flesh~
+~
+M grall 95488 100~
+C Barbarian~
+#95406
+guardian barbarian durgethan~
+Durgethan~
+A robed giant stands in front of the door
+~
+Wearing a white robe with a hood that covers his head, you can't see his
+face except for some white glowing eyes.
+~
+giant~
+ABTVcef DFlmt 0 0
+40 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+ACDEFHIJK AB CD 0
+stand stand male 0
+0 0 unknown flesh~
+~
+M greet 95487 100~
+C Barbarian~
+#95407
+barbarian warrior female guard~
+a {yBarbarian{x guard~
+A {yBarbarian{x stands here ever vigilant.
+~
+A tall female warrior wearing leather clothing is fully aware of her surroundings.
+~
+human~
+ABGLTUc DFZaclmt -1000 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+CDEFHJKNT 0 C 0
+stand stand male 0
+0 0 large flesh~
+~
+M grall 95486 100~
+C Barbarian~
+#95408
+dwarf bartender deln~
+Deln the barkeep~
+A gruff dwarf greets you from behind a makeshift bar.
+~
+Even at the spry young age of 90-something, Deln features many a scar
+obviously from battling mages in the past.  He has a gut that's as big
+around as the barrels of ale he sells, demonstrating his love for his trade,
+in more ways than one.  Although his gut is rather round, he still features
+bulging biceps that seem as big around as his belly, with a rather large
+burn-scar on his right shoulder.  '{GFrom one a dem mages' fireballs{x,' he
+explains.  He offers to take you on in an ale-drinking contest...  
+~
+dwarf~
+ABe 0 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M act 95460 drinks ale~
+#95409
+human hired brute~
+a {yhired brute{x~
+A muscle-bound {ybrute{x waist for issued orders.
+~
+With scars lacing every bulging muscle over his body, he seems a force to
+be reckoned with.  
+~
+human~
+AITUc 0 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+L B 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+F attr+ DE
+#95410
+follower faith~
+a {cdevotee{x of the {yfaith{x~
+A cleric stands here, silently, waiting to be bid an order.
+~
+A cleric, drapped in the vestments of the Barbarian clan, is mulling over
+some prayer beads.
+~
+human~
+AIQ DTw 500 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+FIL 0 A 0
+stand stand either 0
+0 0 medium flesh~
+~
+F attr+ C
+C Barbarian~
+#95411
+veteran battlescared~
+a {yveteran{x~
+A battlescarred {yveteran{x eyes the room with a thousand-yard stare.
+~
+A warrior with many battlescars looks off into the distance, hearing the
+clashing of swords and the cries of fallen foes in the in her mind.
+~
+halfling~
+AITU DVc 0 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+DEFHIJL 0 C P
+stand stand female 0
+0 0 large flesh~
+~
+F attr+ C
+C Barbarian~
+#95412
+berserker giant~
+a giant {yberserker{x~
+A {cwar{x-{cpainted {ygiant{x with a wild eye flexes his muscles.
+~
+A giant with light blue war-paint all over his body looks around with
+blood-shot eyes, eager to rush into battle.
+~
+giant~
+AIT DVa 0 0
+90 90 400d90+0 450d10+85 30d3+50 none
+-51 -51 -51 -32
+DEFHIKL 0 AB 0
+stand stand male 0
+0 0 large flesh~
+~
+F attr+ CDE
+F res H
+#95413
+donkey pack animal~
+a {ydonkey{x~
+A sturdy {ypack animal{x.
+~
+A donkey is here, laden with satches and other items.
+~
+horse~
+AHIUZ Jd 0 0
+20 20 37d20+0 100d10+85 6d3+15 none
+-3 -3 -3 0
+J 0 AQ 0
+stand stand none 0
+0 0 medium flesh~
+~
+#95414
+mpcode mob~
+mpcode mob door-pusher~
+Mpcode mob here that lets people out.
+~
+~
+human~
+ABe DFJZlmt 0 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+H AB 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+M exit 95417 ~
+I 100
+#95415
+destructor barbarian dwarf humangutter grundal~
+Grundal HumanGutter~
+A giant of a dwarf stands here ever vigilant and watchful.
+~
+An enormous dwarf, surely among the largest dwarves the realm has ever seen.
+He looks you over for any sign of recent magic use, and growls at the thought
+of mages in his mountain.
+~
+dwarf~
+ABLTUcef DFaclmt 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFHIJKNO AB CD 0
+stand stand male 0
+0 0 large flesh~
+~
+M grall 95489 100~
+M exall 95491 2~
+#95436
+watchful mob~
+a watchful mob~
+An invisible mob
+~
+~
+human~
+ABUef DFlm 0 0
+106 106 563d106+0 1060d11+95 36d2+78 none
+-66 -66 -66 -45
+0 ABCDE 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+M exall 95436 1~
+I 92
+#95444
+a barbarian shaman~
+a {yBarbarian {cShaman{x~
+A {yBarbarian {cShaman{x is here, patrolling the sacred caves.
+~
+Dressed in short animal skins, this shaman looks like he can take care
+of himself, and even the skins can do little to cover his bulging muscles.
+~
+human~
+AGQ DFlm 0 0
+30 30 59d30+0 150d10+85 10d3+20 none
+-10 -10 -10 -4
+E AB C 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 95435 100~
+C Barbarian~
+#95449
+barbarian trap~
+The barbarians guarding the trap.~
+A barbarian death trap
+~
+A barbarian death trap
+~
+human~
+ABe DFlm 0 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+J AB 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 95449 100~
+C Barbarian~
+I 92
+#95469
+clan cleric healer woman shamaness beautiful barbariancleric~
+a beautiful {cShaman{x~
+A beautiful {cShaman{x is here, performing a prayer dance. 
+~
+With long black hair that runs wildly down her waist, and wide, luminous
+brown eyes, she is a lovely sight to behold.  Her skin is brown, and as
+smooth as a child's, though she appears to be nearing her middle years.  She
+has a wild look on her face, lost in communication with her gods.  
+~
+human~
+ABQaef DFHVlm 0 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ C 0
+stand stand female 0
+0 0 medium flesh~
+~
+M give 95430 all~
+M speech 95437 give me the warlock item~
+M speech 95438 give me the shadow item~
+M speech 95439 give me the scion item~
+M speech 95440 give me the chaos item~
+M speech 95441 give me the knight item~
+M speech 95442 give me the ruler item~
+M speech 95443 give me the sylvan item~
+M speech 95444 give me the sentinel item~
+C Barbarian~
+#0
+
+#OBJECTS
+#95400
+key clankey barbarian stone ruby barbarian_altar_key~
+{yBarbarian's{x {Dstone{x key with a giant {Rruby{x~
+The {yBarbarian's{x {Dstone{x key with a giant {Rruby{x lies on the ground.~
+bone~
+~
+key UVYf AO
+0 0 0 0 0 0 0
+40 4 0 P
+C Barbarian~
+G none
+G none
+G none
+G none
+#95401
+skull~
+a faded flag~
+A faded flag is planted in the ground.~
+unknown~
+cloth~
+trash Pf AO
+0 0 0 0 0 0 0
+60 1 10 P
+E
+descrip healer~
+The battlerager clan healer includes the trigger phrase 'aid me wiseman',
+which is SUPPOSED to remove poison/disease from the battlerager.  
+~
+G none
+G none
+G none
+G none
+#95402
+white altar~
+a stone altar~
+A large stone altar emanates a warm {wli{Wght{x.~
+bone~
+~
+container ORY P
+10 ABCD 95400 15 100 0
+60 1 20 P
+C Barbarian~
+G none
+G none
+G none
+G none
+#95403
+chest pit~
+a sturdy chest~
+A large, sturdy wooden chest has been placed at the far end of the wall.~
+unknown~
+~
+container OR 0
+10000 0 0 1000 100 0
+0 0 0 P
+E
+pit chest sturdy wooden~
+This chest is used to hold supplies donated to the warriors of the
+village.  
+~
+G none
+G none
+G none
+G none
+#95404
+large pot~
+a large pot~
+A large pot is placed by the fire, containing thick vegetable stew ready to be eaten.~
+metal~
+~
+container R 0
+100 0 0 100 0 0
+0 0 0 P
+E
+pot~
+It looks to be cool enough to touch, though appearances could be
+deceiving.  
+~
+G none
+G none
+G none
+G none
+#95405
+vegetable stew bowl~
+a bowl of vegetable stew~
+A bowl of thick, mouth-watering vegetable stew has been left here.~
+unknown~
+vegetables~
+food 0 A
+CE CE 0 0 0 CE CE
+1 10 207 P
+E
+bowl vegetable stew~
+It smells delicious, and is freshly made.
+~
+G none
+G none
+G none
+G none
+#95406
+ladle barrel water~
+the bucket with a ladle~
+A barrel has been placed by the wall, filled with fresh water from the stream.~
+wood~
+~
+fountain R 0
+-1 0 'water' 0
+0 0 0 P
+E
+barrel water ladle~
+The water in the barrel is fresh and cool, recently gathered from the
+street by a villager.  
+~
+G none
+G none
+G none
+G none
+#95407
+animal skins bed~
+an animal skin~
+Animal {yskins{x are streached out across the floor, offering a soft place to sleep.~
+unknown~
+animal skins~
+furniture R 0
+BEF FHJKPQ EHK BDEFGH BDEFGH BEF FHJKPQ
+0 0 0 P
+E
+animal skin bed~
+The animal skins are actually quite comfortable, and do a great job of
+keeping the warmth in on a cold night.  
+~
+G none
+G none
+G none
+G none
+#95409
+scars initiation battlerager symbol~
+{Rscars of initiation{x~
+{rBlood stains the floor, an aura of rage surrounding this symbol.{x~
+energy~
+~
+armor MTYZ AS
+25 25 25 25 'none' 0
+15 0 128184 P
+A
+20 -5
+A
+3 -3
+A
+18 5
+A
+19 10
+A
+5 2
+A
+1 2
+A
+13 100
+A
+12 -100
+A
+17 -50
+G none
+G none
+G none
+G none
+#95410
+battlerager portal~
+a portal to Battlerager's~
+A portal to Battlerager's lies here.~
+energy~
+~
+portal 0 A
+1000 D BC 95401 0
+1 0 0 P
+G none
+G none
+G none
+G none
+#95411
+jar blood~
+A small jar of Mages blood~
+A small jar of mages blood lies here about to run over~
+flesh~
+~
+drink A AO
+500 500 'blood' 0
+0 0 28571 P
+G none
+G none
+G none
+G none
+#95412
+magic magical mush mushroom~
+A magical Mushroom~
+A mushroom sits here humming~
+unknown~
+~
+pill ABGT AO
+1 'reserved' 'reserved' 'reserved' 'reserved'
+19 0 0 P
+G none
+G none
+G none
+G none
+#95413
+toad stool toadstool magic magical~
+magical Toadstool~
+A magical Toadstool sits here grinning at you~
+unknown~
+toadstool stuff~
+pill AB A
+1 'reserved' 'reserved' 'reserved' 'reserved'
+1 0 0 P
+G none
+G none
+G none
+G none
+#95414
+spear sky scorcher~
+{CSky{RScorcher{x~
+An incredibly long, {Dblack{x spear decorated with {Rfl{Yam{yes{x rests on the ground here.~
+wood~
+~
+weapon PSU AN
+spear 3 36 pierce DF
+80 150 299905 P
+A
+19 9
+A
+18 6
+G none
+G none
+G none
+G none
+#95415
+sword iron~
+Iron Sword~
+A sword forged from iron rests here, with hand prints imbedded in the blade.~
+iron~
+~
+weapon PU AN
+longsword 5 22 slice 0
+91 92 208634 P
+A
+19 8
+A
+18 8
+C Barbarian~
+G none
+G none
+G none
+G none
+#95416
+hammer kai~
+{yHammer {xof {GKai{x~
+A pole that ends with a wicked hammer-blade sits here menacingly.~
+unknown~
+~
+weapon PU AN
+polearm 1 111 thrust F
+70 71 193354 P
+A
+19 8
+A
+18 5
+G none
+G none
+G none
+G none
+#95417
+mace adamantine sturdy spiked~
+an adamantine mace~
+A rather sturdy-looking spiked mace sticks out of the ground.~
+titanium~
+~
+weapon PU AN
+mace 4 15 crush K
+60 200 65699 P
+A
+19 5
+A
+18 5
+G none
+G none
+G none
+G none
+#95418
+staff~
+a mahogany staff~
+{yDark {xand {Ylight{x-shaded mahogany twist up the length of a longstaff leaning here.~
+unknown~
+mahogany~
+weapon PU AO
+staff 2 25 beating F
+40 100 32090 P
+A
+19 5
+A
+18 3
+G none
+G none
+G none
+G none
+#95419
+breath thornan pocket air~
+a pocket of {RThornan's {yBreath{x~
+A pocket of air has an uplifting feeling here.~
+air~
+~
+treasure APVYa AO
+0 0 0 0 0
+0 0 0 P
+F
+A 20 -4 T
+G none
+G none
+G none
+G none
+#95420
+dagger~
+~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95433
+throne hide-covered~
+The hide-covered throne~
+A large throne rests on a pedestal here, covered in hides.~
+unknown~
+~
+furniture OR 0
+A EIJKN EH BDEFGH BDEFGH A EIJKN
+0 0 0 P
+E
+hide-covered throne~
+A large throne rests on a pedestal, covered in animal hides.
+~
+G none
+G none
+G none
+G none
+#95434
+pedestal steps~
+the steps at the throne~
+{~
+unknown~
+~
+furniture OR 0
+ADE FJKLO EH BDEFGH BDEFGH ADE FJKLO
+0 0 0 P
+E
+pedestal~
+The throne rests on a pedestal, the steps of which offer a perfect place
+to sit.
+~
+G none
+G none
+G none
+G none
+#95439
+wooden weapon racks~
+a wooden weapon rack~
+Wooden racks have been placed around the room, holding weapons.~
+wood~
+~
+container OR 0
+10000 E 0 10000 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95440
+key clankey barbarian stone ruby~
+the {Dstone{x key of the {yBarbarians{x.~
+A Stone key lies on the ground.~
+bone~
+~
+key UYf AO
+0 0 0 0 0 0 0
+40 4 0 P
+C Barbarian~
+G none
+G none
+G none
+G none
+#95443
+large bloody axe~
+a large, {rbloody{x axe~
+A large axe has been left here, wet blood shining on its blade.~
+steel~
+~
+weapon 0 AN
+exotic 2 26 slash E
+50 125 75651 P
+A
+19 3
+A
+18 3
+E
+bloody axe~
+Dried blood covers the wide blade, though it still looks sharp and
+strong.
+~
+G none
+G none
+G none
+G none
+#95444
+portal out front entrance~
+a portal to the entrance~
+~
+unknown~
+~
+portal 0 0
+0 0 A 95402 0
+0 0 0 P
+C Barbarian~
+G none
+G none
+G none
+G none
+#95445
+portal out front entrance~
+a portal to the entrance~
+~
+unknown~
+~
+portal 0 0
+0 0 A 95431 0
+0 0 0 P
+C Barbarian~
+G none
+G none
+G none
+G none
+#95460
+barrels furniture~
+wooden barrels~
+A line of stacked wooden barrels form a makeshift bar here.~
+unknown~
+wooden barrels~
+furniture R 0
+ABCD EIJKN BEHK CFG CFG ABCD EIJKN
+0 0 0 P
+G none
+G none
+G none
+G none
+#95461
+pint dwarven ale~
+a pint of dwarven ale~
+A small tankard of foamy amber liquid sits here.~
+unknown~
+~
+drink 0 AO
+25 25 'ale' 0
+0 0 1793 P
+G none
+G none
+G none
+G none
+#95462
+dragon breath cup~
+Dragon's breath~
+A tin cup {Ggreen{x liquid vaporizes under your nose, making your eyes water.~
+unknown~
+~
+drink 0 AO
+10 10 'firebreather' 0
+0 0 1679 P
+G none
+G none
+G none
+G none
+#95463
+really big barrel dwarven dark ale~
+a really BIG barrel of dwarven dark ale~
+A really {yBIG{x tapped barrel towers here.~
+unknown~
+~
+drink 0 AO
+1000 1000 'dark ale' 0
+0 0 73858 P
+G none
+G none
+G none
+G none
+#95464
+~
+~
+~
+unknown~
+~
+trash 0 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#95465
+covenant divine clanitem barbarian~
+a {ycovenant{x with the {Cd{ci{Cv{ci{Cn{ce{x~
+A {ycovenant{x with the {Cd{ci{Cv{ci{Cn{ce{x is rolled up on the ground.~
+paper~
+~
+treasure IRUYaef AO
+0 0 0 0 0
+60 1 10000 P
+C Barbarian~
+G none
+G none
+G none
+G none
+#95499
+boolean object~
+boolean object~
+A strange little sphere begs you to sacrifice it.~
+unknown~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#95400
+The Gates of the Village~
+A small village lies to the south, nestled in the mountains and
+well-hidden from view until anyone approaching it is almost upon it.  A tall
+wall of sharpened wooden stakes surrounds the village, blocking the view of
+everything but the roofs of its huts and the tall mountain peaks just beyond
+it.  A reinforced wooden gate appears to be the only way in, providing a
+good place for the villagers to gather and defend their homes in the case of
+an attack.  
+~
+0 Xcd mountain
+D0
+~
+~
+Z 0 4039
+0 0
+D2
+~
+~
+ADFMZ 95400 95401
+0 0
+C Barbarian~
+S
+#95401
+The Entrance to the Village~
+The village of the Barbarians is spread out before you.  Tiny huts
+constructed of wood, straw and animal skins stand side by side with larger
+structures obviously intended for communal living.  A tall wall of sharpened
+wooden stakes surrounds the village, keeping out predators wishing to run
+off with the villagers' crops or herds while also providing a good defense
+against those seeking to destroy the village itself.  The only road through
+the village runs to the south, right up to the foot of the tall mountain
+peaks that rise up to the south.  
+~
+0 Xd city
+D0
+~
+~
+ADFMZ 0 95400
+0 0
+D1
+~
+~
+Z 0 95402
+0 0
+D2
+~
+~
+Z 0 95417
+0 0
+D3
+~
+~
+Z 0 95416
+0 0
+C Barbarian~
+S
+#95402
+The Northern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  To the north the mountains can be
+seen to narrow drastically, keeping the village well-hidden from anyone on
+the other side.  
+~
+0 Xd mountain
+D1
+~
+~
+Z 0 95403
+0 0
+D3
+~
+~
+Z 0 95401
+0 0
+C Barbarian~
+S
+#95403
+The Northeastern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  A few flowers grow by the corner of
+the wall, pink and white blossoms almost scentless but adding a spark of
+beauty to this section of the wall.  
+~
+0 Xd city
+E
+flowers blossoms pink white~
+Small wildflowers grow by the wall, with bright pink and pure white
+blossoms.  
+~
+D2
+~
+~
+Z 0 95404
+0 0
+D3
+~
+~
+Z 0 95402
+0 0
+C Barbarian~
+S
+#95404
+The Eastern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  This section of the wall seems to
+have been recently repaired.  The wood appears to be freshly cut, and isn't
+as weathered as the stakes next to it.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95403
+0 0
+D2
+~
+~
+Z 0 95418
+0 0
+C Barbarian~
+S
+#95405
+The Village Square~
+The very center of the village is where everyone typically gathers
+together, whether to celebrate a special event or just to relax by the large
+bonfire that is lit every night.  During the day, villagers allow their
+cattle to graze on the thick grass all around the square, where they stay
+until evening when they are returned to their pens on the eastern side of
+the village.  A large pit at the center of the square contains logs and
+branches, ready to be burned at scion.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95417
+0 0
+D1
+~
+~
+Z 0 95422
+0 0
+D2
+~
+~
+Z 0 95419
+0 0
+D3
+~
+~
+Z 0 95420
+0 0
+C Barbarian~
+S
+#95406
+The Eastern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  A tall oak tree grows to the east,
+somehow thriving in the mountain's harsh surroundings.  
+~
+0 Xd city
+E
+oak tree~
+It grows tall and thick, and has probably been here longer than the
+village itself.  
+~
+D0
+~
+~
+Z 0 95418
+0 0
+D2
+~
+~
+Z 0 95407
+0 0
+C Barbarian~
+S
+#95407
+The Southeastern Village Wall~
+The row of sharpened wooden stakes continues right up to the wall of the
+mountain, ending with a thick wooden post pushed deep into the ground,
+unmovable.  Tall mountain walls of nearly black stone rise up steeply to the
+south, smooth and far too high to climb.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95406
+0 0
+D3
+~
+~
+Z 0 95408
+0 0
+C Barbarian~
+S
+#95408
+Before the Sacred Mountains~
+The black stone mountain wall rises straight up from here, standing over
+a hundred feet tall and leaving the southern end of the village under its
+cool shadow.  The stone is smooth and clear, providing few footholds for any
+foolish enough to attempt to climb it.  Every few feet, veins of gold and
+silver can be seen running across the stone, shining brightly under the
+light, but the villagers wouldn't dare defile their sacred mountain for the
+sake of profit.  
+~
+0 Xd city
+E
+veins gold silver~
+Veins of gold and silver sparkle as the light hits them, hinting at the
+riches the sacred mountain contains.  
+~
+D1
+~
+~
+Z 0 95407
+0 0
+D3
+~
+~
+Z 0 95409
+0 0
+S
+#95409
+The Entrance to the Cave~
+The mountain opens up into a wide cave entrance here, the stone as smooth
+as if it was carved by living hands, rather than countless centuries of wind
+and water.  Flickering torchlight can be seen coming from inside, lighting
+the way forward into the cave.  An intense silence seems to hang over the
+cave, making the sounds of the village seem far off, though the nearest hut
+is only several feet away.  The mountain cave seems to have a strange and
+holy aura radiating from it, and it isn't difficult to see why the villagers
+consider it so sacred.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95419
+0 0
+D1
+~
+~
+Z 0 95408
+0 0
+D2
+~
+~
+Z 0 95425
+0 0
+D3
+~
+~
+Z 0 95410
+0 0
+C Barbarian~
+S
+#95410
+Before the Sacred Mountains~
+The tall mountain rises straight up from this point, spreading its shadow
+over the village, and giving relief from the blaring sun at the height of
+the day.  The stone is smooth and nearly black, offering no footholds for
+any wishing to climb the hundreds of feet it would take to reach the peak. 
+Thick veins of silver and gold are visible running across the rock, making
+it seem to glow from afar.  
+~
+0 Xd city
+E
+veins silver gold~
+Veins of gold and silver sparkle as the light hits them, hinting at the
+riches the sacred mountain contains.  
+~
+D1
+~
+~
+Z 0 95409
+0 0
+D3
+~
+~
+Z 0 95411
+0 0
+S
+#95411
+The Southwestern Village Wall~
+The wall of tall wooden stakes comes to an end here, reaching right up to
+the mountain wall, right beside which a thick wooden post has been erected,
+pushed so deep into the ground so that nothing can knock it over, short of
+breaking it.  The mountain wall rises up to the south, its stone nearly
+black and so smooth that it is impossible for anyone to climb even a few
+feet up its length.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95412
+0 0
+D1
+~
+~
+Z 0 95410
+0 0
+C Barbarian~
+S
+#95412
+The Western Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  A small stream flows to the west of
+the wall, allowing a convenient place for the villagers to bathe and gather
+water.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95413
+0 0
+D2
+~
+~
+Z 0 95411
+0 0
+C Barbarian~
+S
+#95413
+The Western Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  Several crops have been planted
+just beyond the wall to the west, providing some good variety for the
+villagers' diet.  
+~
+0 Xd city
+E
+crops~
+A few corn stalks are visible, as well as what appear to be carrots,
+potatoes, and cucumbers, though they are out of reach from here.  
+~
+D0
+~
+~
+Z 0 95414
+0 0
+D2
+~
+~
+Z 0 95412
+0 0
+C Barbarian~
+S
+#95414
+The Western Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  Vines grow along the wall here,
+bearing beautiful purple bell-shaped flowers that fill the air with a lovely
+scent.  
+~
+0 Xd city
+E
+vines~
+The vines appear to be delicate, with no risk of them causing damage to
+the stakes.  They add a soft beauty to the otherwise plain wooden stakes.  
+~
+E
+purple bell-shaped flowers~
+The vines appear to be delicate, with no risk of them causing damage to
+the stakes.  They add a soft beauty to the otherwise plain wooden stakes.  
+~
+D0
+~
+~
+Z 0 95415
+0 0
+D2
+~
+~
+Z 0 95413
+0 0
+C Barbarian~
+S
+#95415
+The Northwestern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  A thick, thorn-covered bush grows
+just on the other side of the wall, providing a natural barrier against any
+wishing to attempt to scale it.  
+~
+0 Xd city
+E
+bush thorns~
+The bush is green and leafy, but flowerless, with thick, sharp thorns
+covering the branches.  
+~
+D1
+~
+~
+Z 0 95416
+0 0
+D2
+~
+~
+Z 0 95414
+0 0
+C Barbarian~
+S
+#95416
+The Northern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  Birds call out to each other in the
+distance, their peaceful song drifting down over the village and blending in
+with the sounds of daily life as the villagers go about their business.  
+~
+0 Xd city
+D1
+~
+~
+Z 0 95401
+0 0
+D3
+~
+~
+Z 0 95415
+0 0
+C Barbarian~
+S
+#95417
+The Main Road through the Village~
+A small dirt road runs through the center of the village, leading
+straight from the gates to the mouth of a large cave directly to the south. 
+Small huts are scattered all about, covered with straw and animal skins to
+keep out the rain and cold wind that blows down from the mountains at night.
+A small hole at the top of the huts allows smoke to blow out, and can easily
+be covered when necessary.  The sounds of village life are all around, as
+children play and run among the huts, and parents call out to each other as
+they go about their daily chores.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95401
+0 0
+D2
+~
+~
+Z 0 95405
+0 0
+C Barbarian~
+S
+#95418
+The Eastern Village Wall~
+A wall of tall wooden stakes surrounds the village, their tips sharpened
+to a deadly point, meant to keep out would-be intruders.  Soft grass grows
+underfoot, covering most of the village except for the simple dirt road that
+runs down its center from the entrance.  A child's wooden doll has been left
+by the wall, half buried in mud and forgotten.  
+~
+0 Xd city
+E
+child doll wooden~
+It appears to be a little wooden soldier, dressed in the clothes of the
+villagers.  
+~
+D0
+~
+~
+Z 0 95404
+0 0
+D2
+~
+~
+Z 0 95406
+0 0
+C Barbarian~
+S
+#95419
+The Main Road through the Village~
+The dirt road continues through the village, weaving among small huts
+that have been put up wherever the ground is level enough to hold them. 
+Most of the huts don't appear to be very big, though there is a surprising
+amount of room when they are seen from the inside.  Despite their small
+size, however, the villagers seem to be content, having everything they need
+and able to live their lives in a relatively peaceful way, with a few
+exceptions here and there.  
+~
+0 Xd city
+D0
+~
+~
+Z 0 95405
+0 0
+D2
+~
+~
+Z 0 95409
+0 0
+C Barbarian~
+S
+#95420
+A Large Hut~
+This hut appears to be one of the biggest structures in the village.  It
+seems to be much sturdier than the other huts, constructed mainly of wood
+draped with animal skins to protect the interior from outside elements.  The
+hut appears to be divided into three separate rooms, sectioned off from each
+other by heavy fabrics that can be moved aside when entering and exiting the
+rooms.  Soft chanting can occasionally be heard coming from the south.  
+~
+0 DXd city
+D0
+~
+~
+Z 0 95439
+0 0
+D1
+~
+~
+Z 0 95405
+0 0
+D2
+~
+~
+Z 0 95421
+0 0
+C Barbarian~
+S
+#95421
+The Wiseman's Hut~
+Strange-looking animal bones are placed around this small, stuffy room. 
+Some appear to belong to bears, cougars, and other animals commonly found in
+the mountains, who sometimes dare to attack the village when lack of food
+makes them desperate enough.  Sweet-smelling herbs have been hung along the
+walls of the hut, carefully dried and arranged by type, though only the
+Wiseman knows the secrets of their use.  A small part of the ceiling has
+been left uncovered by animal skins, allowing light to filter through and
+illuminate the section of the hut where the Wiseman waits to help any
+villagers seeking his aid.  
+~
+0 DXd city
+D0
+~
+~
+Z 0 95420
+0 0
+C Barbarian~
+S
+#95422
+The Warriors' Hut~
+This structure is the largest one found in the village.  It is the
+communal area, where warriors who have not yet settled down with their
+families sleep and eat.  To the north is where villagers come to prepare
+food for the warriors, ensuring that there is always enough to eat.  To the
+south is the sleeping area, where wearing warriors can rest and forget the
+day's troubles.  This area of the structure is sparsely decorated, and
+doesn't appear to be used for much more than meetings between the villagers.
+
+~
+0 DXd city
+D0
+~
+~
+Z 0 95423
+0 0
+D1
+~
+~
+Z 0 95427
+0 0
+D2
+~
+~
+Z 0 95424
+0 0
+D3
+~
+~
+Z 0 95405
+0 0
+C Barbarian~
+S
+#95423
+The Cooking Fires~
+A fire pit is at the center of the room, the fire lit and currently
+cooking a pot of delicious-looking vegetable stew.  A small wooden table has
+been placed at the far end of the room, filled with dishes brought in by
+villagers for the warriors to eat.  Everyone in the village shares the
+responsibility of providing food for the warriors and making sure they are
+well-fed, for they are the ones responsible for keeping the village safe,
+and spend too much time away from the village to be able to supply their own
+food.  
+~
+0 DXd city
+D2
+~
+~
+Z 0 95422
+0 0
+C Barbarian~
+S
+#95424
+The Resting Hut~
+Thick animal skins have been placed around the room, providing bedding
+for warriors returning from their travels.  A small fire pit at the center
+of the room provides heat and a source of light to bring some relief during
+the cold nights.  A small hole in the roof of the structure allows the smoke
+from the fire to escape, keeping the air in the room relatively fresh,
+except for the scent of sweat coming from the sleeping warriors.  
+~
+0 DXd city
+D0
+~
+~
+Z 0 95422
+0 0
+C Barbarian~
+S
+#95425
+Within the Sacred Caves~
+The cave walls are smooth, made of nearly black stone that shines under
+the light.  Veins of gold and silver run across the stone, hinting at the
+vast riches of the mountain.  Torches have been placed at regular intervals,
+providing light to brighten the path through the cave, which would otherwise
+be plunged into total darkness.  
+~
+0 DXd mountain
+D0
+~
+~
+Z 0 95409
+0 0
+D3
+~
+~
+Z 0 95426
+0 0
+S
+#95426
+Within the Sacred Caves~
+The air is pleasantly cool this deep in the cave, and surprisingly fresh.
+Torches line the cave wall, placed on tall stands.  An almost unnatural
+silence fills the passageway, making the flickering of the flames and the
+footfalls of those passing through seem much louder than they should be. 
+The cave widens to the west, opening up into a large chamber brightly lit by
+torches and candles.  
+~
+0 DXd mountain
+D1
+~
+~
+Z 0 95425
+0 0
+D3
+~
+~
+Z 0 95469
+0 0
+C Barbarian~
+S
+#95427
+Mercenary Hangout~
+Unlike the rest of the village this area is nosy and full of commotion.  At
+several tables mercenaries and followers of the faith are arguing over religion
+and women.  In the center of the room two muscled-bound women are arm wrestling
+while a short dwarf in the corner is making book on the event.
+~
+0 DM city
+D3
+~
+~
+Z 0 95422
+0 0
+C Barbarian~
+S
+#95428
+{DPET STORAGE{x~
+~
+0 NTX city
+C Barbarian~
+S
+#95429
+empty~
+~
+0 0 city
+C Barbarian~
+S
+#95430
+empty~
+~
+0 0 city
+C Barbarian~
+S
+#95431
+empty~
+~
+0 X city
+E
+spears skulls~
+Many of the spears are bloody, and the mouths of the skulls seem to be
+fixed into a permanent scream.
+~
+E
+pole flag~
+A red and black flag bearing the symbols of the Barbarians hangs from the pole.
+~
+C Barbarian~
+S
+#95432
+empty~
+~
+0 X inside
+E
+runes~
+They look to be from some ancient language, though you can't guess what
+they mean.
+~
+C Barbarian~
+S
+#95433
+{yBarbarian{x Meeting Room~
+The cavern suddenly opens up into a wide room with a ceiling that reaches
+over a hundred feet up in the air. The walls here are smoother than the
+rest of the caverns, but still a little rough. At the center of the room
+lies a large throne, placed on a pedestal and covered in animal hides. The
+pedestal has several steps where people can rest and look up towards the
+throne.
+~
+0 X inside
+D1
+~
+~
+Z 0 95438
+0 0
+D2
+~
+~
+Z 0 95434
+0 0
+C Barbarian~
+S
+#95434
+The Entrance to the {DSacred Caves{W of Mount {RRu'Wak{x~
+The cavern here narrows so that only a few people can pass through at
+once. This part seems to have been dug more recently, as the cave walls
+are even rougher than the rest. A single torch provides the only light
+here, though there really isn't much to see aside from the cavern walls,
+and a large iron door set into the stone to the south.
+~
+0 X inside
+D0
+~
+~
+Z 0 95433
+0 0
+D2
+~
+~
+ABDFGJZ 0 95435
+0 0
+C Barbarian~
+S
+#95435
+At the entrance to the {DCaves{x of Mount {RRu'Wak{x~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+ABDFGJZ 0 95434
+0 0
+D1
+~
+~
+Z 0 95476
+0 0
+D3
+~
+~
+Z 0 95444
+0 0
+C Barbarian~
+S
+#95436
+Inside the {DFort {xof {RRu'Wak{x~
+The cavern here has the same rough stone walls found everywhere else inside
+the fortress. A few torches are placed in brackets against the wall, but they
+do little to dispel the darkness. The sound of hammering comes from the east,
+echoing along the cavern walls. A door lies to the east, above which hangs a
+sign depicting a hammer and anvil.
+~
+0 X inside
+D1
+~
+~
+ABZ 0 95443
+0 0
+D2
+~
+~
+Z 0 95437
+0 0
+C Barbarian~
+S
+#95437
+Inside the {DFort {xof {RRu'Wak{x~
+Here the cavern splits into three different directions. To the west, faint
+light from outside can be seen streaming through the portcullis, the only
+natural light to be found in these caverns. The faint sound of metal on
+metal can be heard coming from the north, while to the south the cavern
+continues, torches lighting the way.
+~
+0 X inside
+D0
+~
+~
+Z 0 95436
+0 0
+D2
+~
+~
+Z 0 95438
+0 0
+C Barbarian~
+S
+#95438
+The {yBarbarian{x Barroom~
+The cavern takes a turn here, heading to the north and west.  The walls
+have been flushed out and smoothened here since they were dug.  There are no
+torches here - only lanterns with the flames enclosed so as to not to damage
+the precious wares being sold here: Booze.  
+~
+0 X inside
+D0
+~
+~
+Z 0 95437
+0 0
+D3
+~
+~
+Z 0 95433
+0 0
+C Barbarian~
+S
+#95439
+The War Room~
+War trophies have been placed around the room, ranging from animal horns
+and claws to more disturbing items that appear to have been gained from the
+Barbarians' various wars with other clans and peoples.  This is where the
+warriors of the village gather to discuss the tactics to be used in battle
+against their enemies.  There are no chairs or tables; thick animal skins
+have been placed on the floor, around a small pit used for fire when the
+meetings grow long.  
+~
+0 DXd inside
+D2
+~
+~
+Z 0 95420
+0 0
+C Barbarian~
+S
+#95440
+Inside the {DFort {xof {RRu'Wak{x~
+You've come to an intersection in the hall. The walls here are rough
+like in the rest of the cavern, and the only light comes from flickering
+torches placed into brackets set against the wall. To the north, the
+faint sound of chanting can be heard, while to the south seems to lie
+a room filled with supplies.
+~
+0 X inside
+D0
+~
+~
+Z 0 95441
+0 0
+C Barbarian~
+S
+#95441
+Inside the {DFort {xof {RRu'Wak{x~
+As you approach the end of the hallway, a strange glow emanates from the
+western door.  Through it comes a strange {gherbal{x scent, as well as the   
+sounds of chanting. There seem to be more torches here than the rest
+of the cavern, dispelling every last shadow.
+~
+0 X inside
+D2
+~
+~
+Z 0 95440
+0 0
+D3
+~
+~
+ABZ 0 95442
+0 0
+C Barbarian~
+S
+#95442
+Dusty old Storage room~
+Small open cabinets hang on the walls filled with jars of many sorts with
+strange looking herbs and spices.  A cauldron lies in the middle of the room
+and next to it, on a pedestal, lies an open book.  
+~
+0 X inside
+E
+book~
+As you glimpse over the book you can read "{gHerbal Lore{x" at the top of
+the page.  
+~
+E
+cauldron~
+An herbal scent emanates from the cauldron.  
+~
+D1
+~
+~
+ABZ 0 95441
+0 0
+C Barbarian~
+S
+#95443
+{yBarbarian{x Weaponsmith~
+A huge forge lies at the southeastern corner of the room, its fires
+burning hot, filling the cavern with waves of heat. A rune-covered
+hammer rests on an anvil next to the forge. At the southern wall lies
+a long counter, behind which stands Gordall, the Barbarian smith.
+~
+0 X inside
+D1
+~
+~
+Z 0 95491
+0 0
+D3
+~
+~
+ABZ 0 95436
+0 0
+C Barbarian~
+S
+#95444
+A hallway in the {Dcaves{x.~
+The passage continues here, branching off in all directions. The dim
+torchlight makes it difficult to see far ahead, preventing you from
+seeing what lies beyond. A few torches are placed in brackets against
+the walls, but they fail to dispel all the shadows in the tunnels.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95448
+0 0
+D1
+~
+~
+Z 0 95435
+0 0
+D2
+~
+~
+Z 0 95462
+0 0
+D3
+~
+~
+Z 0 95445
+0 0
+C Barbarian~
+S
+#95445
+A hallway in the {Dcaves{x.~
+The passage continues here, branching off in all directions. The dim
+torchlight makes it difficult to see far ahead, preventing you from
+seeing what lies beyond. A few torches are placed in brackets against
+the walls, but they fail to dispel all the shadows in the tunnels.
+In the distance, footsteps echo across the cavern floors, but it's
+difficult to tell where they're coming from.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95450
+0 0
+D1
+~
+~
+Z 0 95444
+0 0
+D2
+~
+~
+Z 0 95458
+0 0
+D3
+~
+~
+Z 0 95446
+0 0
+C Barbarian~
+S
+#95446
+A hallway in the {Dcaves{x.~
+The passage continues here, branching off in all directions. The dim
+torchlight makes it difficult to see far ahead, preventing you from
+seeing what lies beyond. A few torches are placed in brackets against
+the walls, but they fail to dispel all the shadows in the tunnels.
+In the distance, footsteps echo across the cavern floors, but it's
+difficult to tell where they're coming from.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95452
+0 0
+D1
+~
+~
+Z 0 95445
+0 0
+D2
+~
+~
+Z 0 95455
+0 0
+D3
+~
+~
+Z 0 95447
+0 0
+C Barbarian~
+S
+#95447
+A tunnel through the {Dcaves{x.~
+This part of the cavern looks like it is still being dug. Rubble and
+dust fill the tunnel, blocking any further passage.
+~
+0 X mountain
+D1
+~
+~
+Z 0 95446
+0 0
+C Barbarian~
+S
+#95448
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95449
+0 0
+D2
+~
+~
+Z 0 95444
+0 0
+C Barbarian~
+S
+#95449
+A dead end in the {Dcaves{x.~
+The passage here suddenly ends, with no way out except for the way you
+came.
+~
+0 X mountain
+D2
+~
+~
+Z 0 95448
+0 0
+C Barbarian~
+S
+#95450
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away. Faint footsteps can be heard coming from the south.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95451
+0 0
+D2
+~
+~
+Z 0 95445
+0 0
+C Barbarian~
+S
+#95451
+A dead end in the {Dcaves{x.~
+The hallway suddenly ends and there is no way out except from where you
+came.  
+~
+0 X mountain
+D2
+~
+~
+Z 0 95450
+0 0
+C Barbarian~
+S
+#95452
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95453
+0 0
+D2
+~
+~
+Z 0 95446
+0 0
+C Barbarian~
+S
+#95453
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away. The passage takes a turn to the west and south.
+~
+0 X mountain
+D2
+~
+~
+Z 0 95452
+0 0
+D3
+~
+~
+Z 0 95454
+0 0
+C Barbarian~
+S
+#95454
+A tunnel through the {Dcaves{x.~
+This part of the cave looks like it is still being dug.  Rubble and dust
+fill the tunnel, blocking any further passage.  To the west lies a dark and
+mysterious tunnel.  
+~
+0 X mountain
+D1
+~
+~
+Z 0 95453
+0 0
+C Barbarian~
+S
+#95455
+A hallway in the {Dcaves{x.~
+The passage continues here, branching off in all directions. The dim
+torchlight makes it difficult to see far ahead, preventing you from
+seeing what lies beyond. A few torches are placed in brackets against
+the walls, but they fail to dispel all the shadows in the tunnels.
+In the distance, footsteps echo across the cavern floors, but it's
+difficult to tell where they're coming from.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95446
+0 0
+D2
+~
+~
+Z 0 95456
+0 0
+C Barbarian~
+S
+#95456
+A hallway in the {Dcaves{x.~
+The stone along the passage looks as though it has been dug through
+recently, rather than forming these naturally. Though the ceiling isn't
+very high and the walls are close together, there is a loud echo
+~
+0 X mountain
+D0
+~
+~
+Z 0 95455
+0 0
+D3
+~
+~
+Z 0 95457
+0 0
+C Barbarian~
+S
+#95457
+A tunnel through the {Dcaves{x.~
+This part of the cave looks like it is still being digged.  Ruble and
+dust fill the surroundings.  
+~
+0 X mountain
+D1
+~
+~
+Z 0 95456
+0 0
+C Barbarian~
+S
+#95458
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95445
+0 0
+D2
+~
+~
+Z 0 95459
+0 0
+C Barbarian~
+S
+#95459
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95458
+0 0
+D2
+~
+~
+Z 0 95460
+0 0
+C Barbarian~
+S
+#95460
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95459
+0 0
+D2
+~
+~
+Z 0 95461
+0 0
+C Barbarian~
+S
+#95461
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls. The passage takes a turn here, heading
+north and east.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95460
+0 0
+D1
+~
+~
+Z 0 95464
+0 0
+C Barbarian~
+S
+#95462
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95444
+0 0
+D2
+~
+~
+Z 0 95463
+0 0
+C Barbarian~
+S
+#95463
+A dead end in the {Dcaves{x.~
+The hallway suddenly ends and there is no way out except from where you
+came.  
+~
+0 X mountain
+D0
+~
+~
+Z 0 95462
+0 0
+C Barbarian~
+S
+#95464
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D1
+~
+~
+Z 0 95465
+0 0
+D3
+~
+~
+Z 0 95461
+0 0
+C Barbarian~
+S
+#95465
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls. The walls to the south seem to suddenly
+smooth out.
+~
+0 X mountain
+D1
+~
+~
+Z 0 95466
+0 0
+D2
+~
+~
+Z 0 95468
+0 0
+D3
+~
+~
+Z 0 95464
+0 0
+C Barbarian~
+S
+#95466
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D1
+~
+~
+Z 0 95467
+0 0
+D3
+~
+~
+Z 0 95465
+0 0
+C Barbarian~
+S
+#95467
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls. The passage takes a turn here, heading
+north and west.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95470
+0 0
+D3
+~
+~
+Z 0 95466
+0 0
+C Barbarian~
+S
+#95468
+Before a huge door~
+The dark cave walls here are smooth to the touch, as if someone has
+carved the stone to make it so. The passage south is barred by a
+huge door to the south. An inscription on the door reads:
+ 
+This is a place of worship for the followers of the god
+{WThornan {DBattlehammer{x, {RForger of Justice{x
+~
+0 X mountain
+D0
+~
+~
+Z 0 95465
+0 0
+C Barbarian~
+S
+#95469
+Within the Sacred Mountain Chamber~
+The cave opens up into a wide chamber here, lit up by so many torches and
+candles that it is almost as bright as if it were midday and it was open to
+the sun.  The torchlight reveals a stunning view; countless cave paintings
+adorn the wall, some of them painted with fading colours, others carved into
+the very rock itself.  There is a sense of history here, though the original
+artists are long dead and forgotten.  There is also a very deep sense of
+holiness, and of dignity, making it obvious why the villagers have decided
+to leave its sacred depths untouched, rather than take advantage of the
+obvious riches waiting to be found within.  
+~
+0 DXd mountain
+E
+cave paintings carvings~
+Faded colours do little to dull the beauty of the paintings.  Most seem
+to represent hunt scenes, with warriors closing in on the kill.  A few
+represent more mundane tasks of daily life; women washing clothes in a
+stream, food cooking over a fire, and other such things.  One in particular
+has been painted bright red, the colour still amazingly vivid.  It appears
+to be a scene of initiation, where ancient warriors were scarred to announce
+their worthiness in battle for all to see.  
+~
+D1
+~
+~
+Z 0 95426
+0 0
+C Barbarian~
+S
+#95470
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95471
+0 0
+D2
+~
+~
+Z 0 95467
+0 0
+C Barbarian~
+S
+#95471
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95472
+0 0
+D2
+~
+~
+Z 0 95470
+0 0
+C Barbarian~
+S
+#95472
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95473
+0 0
+D2
+~
+~
+Z 0 95471
+0 0
+C Barbarian~
+S
+#95473
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95483
+0 0
+D1
+~
+~
+Z 0 95477
+0 0
+D2
+~
+~
+Z 0 95472
+0 0
+D3
+~
+~
+Z 0 95476
+0 0
+C Barbarian~
+S
+#95474
+cave hallway~
+~
+0 0 inside
+D0
+~
+~
+Z 0 95475
+0 0
+D2
+~
+~
+Z 0 95473
+0 0
+S
+#95475
+cave hallway~
+~
+0 0 inside
+D2
+~
+~
+Z 0 95474
+0 0
+S
+#95476
+A hallway in the {Dcaves{x.~
+Walls of natural stone form tunnels throughout the passage. It doesn't
+seem as if the tunnels are natural, but rather carved by mortal hands.
+The passage continues to the east and west, lit only by a few solitary
+torches placed along the walls.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95481
+0 0
+D1
+~
+~
+Z 0 95473
+0 0
+D2
+~
+~
+Z 0 95479
+0 0
+D3
+~
+~
+Z 0 95435
+0 0
+C Barbarian~
+S
+#95477
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95485
+0 0
+D1
+~
+~
+Z 0 95478
+0 0
+D2
+~
+~
+Z 0 95488
+0 0
+D3
+~
+~
+Z 0 95473
+0 0
+C Barbarian~
+S
+#95478
+A tunnel through the {Dcaves{x.~
+This part of the cave looks as if it is still being dug. Rubble and
+dust fill the tunnel, blocking any further passage.
+~
+0 X mountain
+D3
+~
+~
+Z 0 95477
+0 0
+C Barbarian~
+S
+#95479
+A hallway in the {Dcaves{x.~
+The hallway continues.  
+~
+0 X mountain
+D0
+~
+~
+Z 0 95476
+0 0
+D2
+~
+~
+Z 0 95480
+0 0
+C Barbarian~
+S
+#95480
+A dead end in the {Dcaves{x.~
+The passage suddenly ends, and there is no way out other than the way you came.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95479
+0 0
+C Barbarian~
+S
+#95481
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95482
+0 0
+D2
+~
+~
+Z 0 95476
+0 0
+C Barbarian~
+S
+#95482
+A dead end in the {Dcaves{x.~
+The passage suddenly ends, and there is no way out other than the way you came.
+~
+0 X mountain
+D2
+~
+~
+Z 0 95481
+0 0
+C Barbarian~
+S
+#95483
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95484
+0 0
+D2
+~
+~
+Z 0 95473
+0 0
+C Barbarian~
+S
+#95484
+A dead end in the {Dcaves{x.~
+The passage suddenly ends, and there is no way out other than the way you came.
+~
+0 X mountain
+D2
+~
+~
+Z 0 95483
+0 0
+C Barbarian~
+S
+#95485
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95486
+0 0
+D2
+~
+~
+Z 0 95477
+0 0
+C Barbarian~
+S
+#95486
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D1
+~
+~
+Z 0 95487
+0 0
+D2
+~
+~
+Z 0 95485
+0 0
+C Barbarian~
+S
+#95487
+A tunnel through the {Dcaves{x.~
+This part of the cave looks as if it is still being dug. Rubble and
+dust fill the tunnels, blocking any further passage.
+~
+0 X mountain
+D3
+~
+~
+Z 0 95486
+0 0
+C Barbarian~
+S
+#95488
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95477
+0 0
+D2
+~
+~
+Z 0 95489
+0 0
+C Barbarian~
+S
+#95489
+A hallway in the {Dcaves{x.~
+The passage continues here, the dark stone of the cave seeming to be
+becoming narrower and narrower, giving the passage a claustrophobic
+feel. It's difficult to see what lies ahead; only a few torches line
+the walls, and they fail to illuminate anything more than a few feet
+away.
+~
+0 X mountain
+D0
+~
+~
+Z 0 95488
+0 0
+D1
+~
+~
+Z 0 95490
+0 0
+C Barbarian~
+S
+#95490
+A tunnel through the {Dcaves{x.~
+This part of the cave looks as if it is still being dug. Rubble and
+dust fill the surroundings.
+~
+0 X mountain
+D3
+~
+~
+Z 0 95489
+0 0
+C Barbarian~
+S
+#95491
+{yBarbarian{x Armorer~
+Armored soldiers stand motionlessly in rank here.  No...  Not soldiers. 
+Just well-crafted dummies.  They bring back memories of the story where
+dummies were lined up on the parapets of the fort, fooling the would-be
+attackers into thinking that the fort was well-manned, causing them to flee
+in terror.  The sound of a throat clearing itself brings you out of fond
+memories, raising the question if you see something you'd like to buy.  You
+notice some strange cages and jars behind the counter, where Mjilnyor the
+armorer, tailor, and animal trainer stands.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 95443
+0 0
+S
+#95492
+Path to Azgemoin~
+~
+0 0 inside
+D1
+~
+~
+Z 0 95493
+0 0
+S
+#95493
+Gate of Azgemoin~
+~
+0 0 inside
+D1
+~
+~
+Z 0 95494
+0 0
+D3
+~
+~
+Z 0 95492
+0 0
+S
+#95494
+Western Road~
+~
+0 0 inside
+D1
+~
+~
+Z 0 95495
+0 0
+D3
+~
+~
+Z 0 95493
+0 0
+S
+#95495
+Western Road~
+~
+0 0 inside
+D1
+~
+~
+Z 0 95496
+0 0
+D3
+~
+~
+Z 0 95494
+0 0
+S
+#95496
+Azgemoin Center Square~
+~
+0 0 inside
+D1
+~
+~
+Z 0 95497
+0 0
+D2
+~
+~
+Z 0 95499
+0 0
+D3
+~
+~
+Z 0 95495
+0 0
+S
+#95497
+Eastern Road~
+~
+0 0 inside
+D1
+~
+~
+Z 0 95498
+0 0
+D3
+~
+~
+Z 0 95496
+0 0
+S
+#95498
+Eastern Road~
+~
+0 0 inside
+D3
+~
+~
+Z 0 95497
+0 0
+S
+#95499
+Southern Street~
+~
+0 0 inside
+D0
+~
+~
+Z 0 95496
+0 0
+S
+#0
+
+#RESETS
+D 0 95434 2 1	* The Entrance to the {DSacred Caves{W of Mount {RRu'Wak{x: door to the south: closed
+D 0 95435 0 1	* At the entrance to the {DCaves{x of Mount {RRu'Wak{x: door to the north: closed
+D 0 95436 1 1	* Inside the {DFort {xof {RRu'Wak{x: door to the east: closed
+D 0 95441 3 1	* Inside the {DFort {xof {RRu'Wak{x: door to the west: closed
+D 0 95442 1 1	* Dusty old Storage room: door to the east: closed
+D 0 95443 3 1	* {yBarbarian{x Weaponsmith: door to the west: closed
+M 0 95400 1 95400 1	* Grishnak (The Gates of the Village)
+M 0 95402 1 95421 1	* the wiseman (The Wiseman's Hut)
+O 0 95404 0 95423	* a large pot (The Cooking Fires)
+P 0 95405 8 95404 8	* a large pot: a bowl of vegetable stew
+O 0 95406 0 95423	* the bucket with a ladle (The Cooking Fires)
+O 0 95407 0 95424	* an animal skin (The Resting Hut)
+M 0 95404 1 95427 1	* Jakop (Mercenary Hangout)
+M 0 95413 1 95428 10	* a {ydonkey{x ({DPET STORAGE{x)
+M 0 95409 1 95428 10	* a {yhired brute{x ({DPET STORAGE{x)
+M 0 95410 1 95428 5	* a {cdevotee{x of the {yfaith{x ({DPET STORAGE{x)
+M 0 95411 1 95428 5	* a {yveteran{x ({DPET STORAGE{x)
+M 0 95412 1 95428 5	* a giant {yberserker{x ({DPET STORAGE{x)
+O 0 95434 0 95433	* the steps at the throne ({yBarbarian{x Meeting Room)
+O 0 95460 0 95438	* wooden barrels (The {yBarbarian{x Barroom)
+O 0 95403 0 95439	* a sturdy chest (The War Room)
+O 0 95402 0 95469	* a stone altar (Within the Sacred Mountain Chamber)
+P 0 95465 1 95402 1	* a stone altar: a {ycovenant{x with the {Cd{ci{Cv{ci{Cn{ce{x
+M 0 95469 1 95469 1	* a beautiful {cShaman{x (Within the Sacred Mountain Chamber)
+E 0 95400 0 17		*	{yBarbarian's{x {Dstone{x key with a giant {Rruby{x: held in the hands
+S
+
+#SHOPS
+95401 1 5 9 11 0 150 14 0 23
+95404 0 0 0 0 0 100 15 4 22
+95408 0 0 0 0 0 100 14 0 23
+0
+
+#MOBPROGS
+#95400
+if clan $n Barbarian
+if sex $n == 1
+'Hail, brother!
+else
+'Hail, Sister!
+endif
+mob echoat $n $I snaps to attention, sharply saluting you.
+mob echoaround $n $I snaps to attention, sharply saluting $n.
+else
+if isimmort $n
+bow $n
+else
+clan Villagers, be warned that {R$n{x stands at the entrance to our village!
+'YOU are not welcome here, leave while you may!
+pmote scowls at $n.
+endif
+endif
+~
+#95401
+if clan $n barbarian
+mob echoat $n $I steps aside, allowing you to pass.
+mob echoaround $n $I watches as $n proceeds into the cave.
+mob gtransfer $n 95401
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95400
+else
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n $I steps aside, allowing $n to pass.
+mob echoat $n $I steps aside, allowing you to pass.
+mob gtransfer $n 95401
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 95400
+else
+mob echoat $n Grishnak draws himself to his full height, brandishing an enormous hammer.
+mob echoaround $n Grishnak raises his hammer, prepared to destroy $n.
+'You will not enter this fort while a breath is left in my body.
+endif
+endif
+~
+#95402
+clan The village is under {RATTACK{x!!!
+clan {CThe villain {R$n{C attacks us now, come join in our defense!{x
+~
+#95403
+~
+#95404
+if clan $n Barbarian
+if affected $n blind
+mob echoat $n The Wiseman swiftly mixes a blend of herbs and clay, applying it to your eyes.
+mob echoaround $n The Wiseman swiftly mixes a blend of herbs and clay, applying it to $n's eyes.
+mob affstrip $n blind
+mob echoat $n Your vision clears, and you are able to see again.
+end
+endif
+if affected $n plague
+mob echoat $n $i applies an evil smelling poultice to your sores.
+mob echoaround $n The Wiseman applies an evil smelling poultice to $n's sores.
+mob affstrip $n plague
+mob echoat $n The sores on your skin dry up, and you feel much better.
+end
+endif
+if affected $n poison
+mob echoat $n $i grinds together several herbs and smears the paste on your tongue.
+mob echoaround $n $i grinds together several herbs and smears the paste on $n's tongue.
+mob affstrip $n poison
+mob echoat $n The pain in your body subsides, as the poison runs its course.
+end
+endif
+if affected $n curse
+mob echoat $n The Wiseman stares at you hard, then grabs you violently by both arms, eyes ablaze, squeezing so tightly that drops of blood form under his fingernails.
+mob echoaround $n The Wiseman grabs $n by the arms and squeezes HARD.  The air grows perceptibly warmer.
+mob affstrip $n curse
+mob echoat $n The room grows perceptibly warmer, but you feel much more at ease.
+end
+endif
+emote examines you over carefully.
+'There is nothing that I can help you with, my child.
+else
+emote laughs mirthlessly, and then frowns.
+'Begone fool 'afore I unleash the wrath of my Barbarians upon you.
+end
+endif
+~
+#95405
+if clan $n Barbarian
+if affected $n curse
+mob echoat $n $i The wiseman swiftly mixes some herbal liquads and applies them, which evaporate on contact.
+mob echoaround $n $i The wiseman swiftly mixes some herbal liquads and applies them, which evaporate on contact.
+mob affstrip $n curse
+mob echoat $n You feel more comfortable about hings in general.
+end
+end if
+~
+#95406
+~
+#95407
+mob goto 1347
+mob mload 95404
+mob goto 95406
+~
+#95408
+mob goto 1348
+mob mload 95405
+mob goto 95406
+~
+#95409
+mob goto 1347
+mob mload 95406
+mob goto 95406
+' Your request is done commander!
+~
+#95410
+mob goto 1348
+mob mload 95407
+mob goto 95406
+'Your request is done commander!!!!
+
+~
+#95411
+mob goto 1349
+mob mload 95408
+mob goto 95406
+'Your request is done Commander!!!!
+~
+#95412
+mob goto 1347
+mob mload 95409
+mob goto 95406
+'Your request is done Commander!!!!
+~
+#95413
+mob goto 1348
+mob mload 95410
+mob goto 95406
+'Your request is done Commander!!!!
+~
+#95414
+mob goto 1350
+mob mload 95411
+mob goto 95406
+'Your request is done Commander!!!!
+~
+#95415
+if clan $n battlerager
+'Welcome home $n'
+end
+endif
+if isimmort $n
+bow $n
+end
+endif
+clan $n is attacking the wiseman, help me protect him from these foul mages!!!
+ 
+~
+#95416
+mob mload 95413
+'Finish my work and bring forth the dead to this fool!
+end
+~
+#95417
+mob gtransfer $n 95400
+~
+#95418
+if uses $n sword
+mob echo The Destructor creates a sword with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n axe
+mob echo The Destructor creates an axe with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n spear
+mob echo The Destructor creates a spear with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n dagger
+mob echo The Destructor creates a pair of daggers with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n mace
+mob echo The Destructor creates a mighty mace with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n polearm
+mob echo The Destructor creates a massive polearm with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n staff
+mob echo The Destructor creates a sturdy iron staff with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n whip
+mob echo The Destructor creates a multi thonged, iron tipped whip with his bare hands from a solid bar of iron.
+endif
+end
+if uses $n flail
+mobecho The Destructor creates an iron flail with his bare hands from a solid bar of iron.
+endif
+end
+~
+#95419
+if clan $n battlerager
+say Be weary of the foul mages brothers and sisters.
+else
+end
+endif
+If class $n witch
+Murder $n
+End
+Endif
+If class $n warlock
+Murder $n
+End
+Endif
+If class $n anti-paladin
+Murder $n
+End
+Endif
+If class $n cleric
+Say Leave this place and do no put your supplications upon my Villagers
+End
+Endif
+If class $n paladin
+Say Leave this place and do not put your supplications upon my Villagers.
+Endif
+End
+If class $n vampire
+Murder $n
+End
+Endif
+If class $n ranger
+Say Leave this place and do not put your supplications upon my Villagers
+End
+endif
+if class $n samurai
+say Leave this place and do not use your foul magics
+end
+endif
+if class $n warrior
+say Begone from my Vilage
+end
+endif
+~
+#95420
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets an intense look in $l eye and mumbles something about rage in $n's ear.
+mob echoat $n $I gets an intense look in $l eye and says:
+mob echoat $n {GThe Barbarian fanaticism can be channeled into a frenzy during combat 
+mob echoat $n drasticly increasing their battle strength and prowess.  However, the
+mob echoat $n frenzy often overwhelms the Barbarian, and their lust for combat is not
+mob echoat $n quelled with the falling of their foe.  Occationally a Barbarian has been
+mob echoat $n knowned to be so overcome with rage as to attack on of their own.{x
+else
+glare $n
+endif
+~
+#95421
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a repuslive look in $l eye and mumbles something about spells in $n's ear.
+mob echoat $n $I gets a repuslive look in $l eye and says:
+mob echoat $n {GThe burden of unflagging faith is crushing at times, but not without its
+mob echoat $n rewards.  The gods reward mortals who champion their divinity with the power
+mob echoat $n to repel the twisted magic stolen from the heavens.{x
+else
+glare $n
+endif
+~
+#95422
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a deadly look in $l eye and mumbles something about mortal blows in $n's ear.
+mob echoat $n $I gets a deadly look in $l eye and says:
+mob echoat $n {GThe greatest of the Barbarian clan are able to perfect the deadly blow into
+mob echoat $n an initial attack of mortal strength.  In one blow they can lay waste to
+mob echoat $n any lesser foe with ease.  This skill is performed whenever the Barbarian
+mob echoat $n initiates a traditional attack against a foe.{x
+else
+glare $n
+endif
+~
+#95423
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a forceful look in $l eye and mumbles something about deadly blows in $n's ear.
+mob echoat $n $I gets a forceful look in $l eye and says:
+mob echoat $n {GEarly in their training, Barbarians are taught a method of striking with
+mob echoat $n the maximum amount of damage.  Deadly blows are performed whenever the
+mob echoat $n opertunity presents itself.{x
+else
+glare $n
+endif
+~
+#95424
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a resiliant look in $l eye and mumbles something about resistance in $n's ear.
+mob echoat $n $I gets a resiliant look in $l eye and says:
+mob echoat $n {GThe spartan lifestyle and long nomadic existance of the Barbarian clan has
+mob echoat $n fostered a resistance to the elements.  This rough hide serves to reduce
+mob echoat $n damage of all kinds taken in combat.{x
+else
+glare $n
+endif
+~
+#95425
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a vigilant look in $l eye and mumbles something about awareness in $n's ear.
+mob echoat $n $I gets a vigilant look in $l eye and says:
+mob echoat $n {GBecause Barbarians have pledged their life to the service of the gods in
+mob echoat $n returning the stolen magic to their heavens, the gods have granted the
+mob echoat $n members of the clan the ability to see those who use magic to conceal
+mob echoat $n themselves.{x
+else
+glare $n
+endif
+~
+#95426
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a wounded look in $l eye and mumbles something about wounds in $n's ear.
+mob echoat $n $I gets a wounded look in $l eye and says:
+mob echoat $n {GBarbarian ancestors wrongly shunned the Clerics of the realm, mistaking their
+mob echoat $n communing with gods with the mystical mumblings of mages.  Durning that era
+mob echoat $n the clan developed a rudimentary medical practice which allows them to
+mob echoat $n accelerate the healing process, much like a troll's natural regeneration.{x
+else
+glare $n
+endif
+~
+#95427
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a rewarding look in $l eye and mumbles something about trophies in $n's ear.
+mob echoat $n $I gets a rewarding look in $l eye and says:
+mob echoat $n {GWith so many pretenders to the one true magic, the Barbarians have taken to
+mob echoat $n fashioning a trophy-poncho from the remains of those who fall before them.
+mob echoat $n Entrails, arms, legs and brains can all be used for this.  The poncho grants
+mob echoat $n the wearer greater strength in battle and inspires fear in mages across the
+mob echoat $n land.  It is against Barbarian code to share a poncho with any non-Barbarian.{x
+else
+glare $n
+endif
+~
+#95428
+if clan $n barbarian
+or isimmort $n
+mob echoaround $n $I gets a sentimental look in $l eye and mumbles something about recollections in $n's ear.
+mob echoat $n $I gets a sentimental look in $l eye and says:
+mob echoat $n {GAbstaining from quaffing the foul brews concocted by charlatans leaves most
+mob echoat $n Barbarians without a way to return home if they become lost in one of the
+mob echoat $n urban mazes of the realm.  The gods have granted their chosen the singular
+mob echoat $n ability to pray for transportation directly into the Barbarian village.{x
+else
+glare $n
+endif
+~
+#95429
+if clan $n barbarian
+' go with the air of the gods under your feet.
+com fly $n
+~
+#95430
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+ 
+ 
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#95435
+if clan $n barbarian
+if sex $n == 1
+'Greetings, Brother.
+else
+'Greetings, Sister.
+endif
+else
+if isimmort $n
+bow
+else
+clan $n has entered the Sacred Caves. Come to me, brothers and sisters!
+say How dare you desecrate our {DSacred Caves{x! You are unworthy of walking these passages!
+murder $n
+endif
+endif
+~
+#95436
+if clan $n barbarian
+mob transfer $n 95443
+else
+if isimmort $n
+mob transfer $n 95443
+endif
+~
+#95437
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get warlock altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give warlock $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95438
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95439
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95440
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95441
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95442
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95443
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95444
+if clan $n barbarian
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#95449
+if isimmort $n
+else
+if clan $n barbarian
+mob echoat $n You walk carefully as you enter the room, mindful of the traps that have been set for intruders.
+else
+clan $n has fallen into our trap, brothers and sisters.
+mob echoaround $n $n screams as $e steps into the trap.
+mob echoat $n You realize too late that you've walked into a trap, and before you know it, it has sprung and everything turns black...
+mob damage $n 30000 30001
+mob echoat $n You're barely aware as you're roughly dragged away to a faroff place.
+mob transfer $n 95400
+endif
+endif
+~
+#95460
+if rand 99
+emote takes one final swig of dwarven ale, before passing out on his bar of barrels.
+sl barrel
+sl
+else
+if rand 95
+mob oload 95463
+emote tries to take a drink of his dwarven ale, but misses his mouth.
+say [drunkenese] Ahrgh kay. Khannae buhleeve sssomewun elssse beat me. Ah'll letcha have thisss.
+give barrel $n
+else
+say Hah! I can do better than that!
+emote takes a swig of his dwarven ale.
+say See! Beat that, $N!
+endif
+~
+#95485
+if clan $n Barbarian
+if sex $n male
+nod $n
+end
+else
+wink $n
+endif
+end
+~
+#95486
+if isimmort $n
+else
+if clan $n Barbarian
+if rand 70
+if sex $n == 1
+wink $n
+else
+nod $n
+endif
+endif
+else
+say Die trespasser!
+murder $n
+endif
+endif
+end
+~
+#95487
+if isimmort $n
+else
+if clan $n Barbarian
+else
+yell {R$n{x, DIE!!!
+clan Barbarians! {R$n{x has managed to get past Kuwok! Come! Protect our relic!
+murder $n
+endif
+endif
+endif
+~
+#95488
+if clan $n Barbarian
+else
+if isimmort $n
+else
+yell {R$n{x, DIE!!!
+clan Barbarians! {R$n{x has managed to get past Grundal! Don't let {R$n{x enter the caves!
+murder $n
+endif
+endif
+~
+#95489
+if isimmort $n
+say Greetings Blessed one!
+else
+if clan $n Barbarian
+Say Be wary of the foul mages brother Barbarian.
+else
+murder $n
+yell {R$n{x Die!!!
+Clan Barbarians!, {R$n{x has managed to get past Kuru!. Aid me now before {R$n{x enters the Alatar Chambers!!!
+end
+endif
+endif
+~
+#95490
+if isimmort $n
+else
+if clan $n barbarian
+if rand 70
+nod $n
+endif
+else
+yell {R$n{x, DIE!!!
+clan Barbarians! {R$n{x has managed to get past Grishnak! Aid me now!!!
+murder $n
+endif
+endif
+~
+#95491
+if clan $n barbarian
+mob trans $n 95432
+else
+emote blocks your path.
+~
+#95492
+if carries $n 'awareness pill'
+' Awareness is gained only through true sacrifice!
+mob echo $I takes the pill from you and raises the {DA{Gwarenes{Ds{x to the sky.  It ignights in a divine fire that flashes brightly before your eyes!
+mob remove $n 41
+mob affbestow $n 'detect fade'
+else
+' Yes, we all seek greater awareness.
+endif
+~
+#0
+
+#PRACTICERS
+M 95402 clan~	* the wiseman
+M 95469 clan~	* a beautiful {cShaman{x
+S
+
+#HELPS
+1 0 'CHAOS'~
+CLan Requirements: 
+                            
+     Align - any
+     Ethos - Chaotic only
+     Class - no restrictions
+               
+Though not necessarily evil, CHAOS abhors harmony and is continuously
+seeking to disrupt the lives of .. well everyone.  If it doesn't make
+sense, has no structure or logical form, then it most likely appeals 
+to a member of clan CHAOS.  Though widely believed, Chaos does not 
+neccessarly hate the law. Of course they have no use for it, other than
+to help them spread chaos, but nor do they seek to destroy it. Where
+there is law there is chaos. (Though, It is also widely known that some
+of this clans members put in much effort to ruin a Ruler's day, and to
+ultimately destroy the law...)
+                                                
+Chaos's main goal is to spread that which the love most dearly... Chaos.
+In order to do so they often use manipulation and open deceit. So if 
+you are looking to join this.. clan .. you should be willing to lie, 
+manipulate, and take care of your own battles.
+                         
+Note:  You must become one of CHAOS to realize the power of our abilities.
+                 
+                      
+Current leader of chaos is: Saruviel
+~
+-1 $~
+
+#$

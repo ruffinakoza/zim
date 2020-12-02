@@ -1,0 +1,3245 @@
+#AREADATA
+Name Chess Master Tower~
+Builders shaelindra~
+VNUMs 4200 4299
+Credits Tidus~
+Security 9
+LevelRange 15 45
+Flags noquest~
+End
+
+#MOBILES
+#4200
+red dragon demonic~
+The Demonic Red Dragon ~
+You see a Demonic Red Dragon here waiting for orders.
+~
+The Red Dragon looks quite small for a dragon but looks like he can hurt
+you.  His scales are blood red and very shiny.  He stands ready to give his
+life for his leader.  
+~
+red dragon~
+ABFe 0 -400 4200
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+0 0 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4201
+holy squire~
+The Holy Squire of Heaven~
+You see a Holy Squire of the heavens standing here waiting for orders.
+~
+The Holy Squire looks like a small knight without a steed.  His armor is
+spotless and as white as his short wings.  He stands ready to give his life
+for his leader.  
+~
+arial~
+A 0 400 4201
+10 10 21d10+0 10d9+60 2d5+7 none
+3 3 3 5
+0 0 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4202
+black rook castle~
+the Black Rook~
+In the corner you see a large, black, stone castle on wheels.
+~
+The Black Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
+~
+human~
+ABFe 0 -600 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+CEI A 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4203
+white rook castle~
+the White Rook~
+In the corner you see a large, white, stone castle on wheels.
+~
+The White Rook is a very large man-made tomb on wheels.  Just
+from the looks of it, it will probably be YOUR tomb.
+~
+human~
+ABe D 600 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+CEI 0 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4204
+black knight~
+the Black Knight~
+Here stands a magnificent knight of the dark realm.
+~
+The Black Knight is here, riding his ebony black war horse.  His eyes
+flash behind his visor in vengence.
+~
+human~
+ABFe 0 -400 0
+18 18 35d18+0 90d10+85 6d3+14 none
+-2 -2 -2 0
+EF A 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4205
+white knight holy angel~
+The Holy White Angel~
+Here stands a magnificently beautiful white angel.
+~
+The Angel is here, flying with his magnificent wings.  His eyes seem to
+glow of purity behind his white visor.  
+~
+arial~
+ABe 0 400 0
+18 18 35d18+0 90d10+85 6d3+14 none
+-2 -2 -2 0
+0 0 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4206
+black bishop priest~
+the Black Bishop~
+A dark priest stands here.
+~
+The Black Bishop seems willing to help you straight into your grave so
+he can bless you properly.
+~
+human~
+ABFe 0 -500 0
+24 24 42d24+0 120d10+85 8d3+17 none
+-6 -6 -6 -1
+CDEF A 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4207
+white bishop priest~
+the White Bishop~
+A light priest stands here.
+~
+The White Bishop seems willing to help you in any possible so that he can
+attain a higher spirituality.
+~
+human~
+ABe DN 500 0
+24 24 42d24+0 120d10+85 8d3+17 none
+-6 -6 -6 -1
+CDEF A 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4208
+black queen~
+the Black Queen~
+The Black Queen stands here.
+~
+The Black Queen is a strikingly beautiful woman with pale skin and a mass of
+dark hair that crowns her head like a black cloud.  If looks could kill, you
+would already be dead.
+~
+human~
+ABFe DFu -750 4210
+37 37 113d37+0 370d11+95 13d2+32 none
+-17 -17 -17 -9
+FJK A 0 0
+stand stand female 2
+0 0 medium flesh~
+~
+#4209
+white queen~
+the White Queen~
+The White Queen stands here.
+~
+The White Queen is a stunningly beautiful woman with dark skin and a mass
+of light hair that frames her head like the sun.  This is surely love at
+first sight for you.
+~
+human~
+ABe DFHN 750 2411
+37 37 113d37+0 370d11+95 13d2+32 none
+-17 -17 -17 -9
+FJK 0 0 0
+stand stand female 2
+0 0 medium flesh~
+~
+#4210
+black king~
+the Black King~
+The Black King stands here.
+~
+The Black King is a menacing figure.  You can easily understand why he
+is the king and you are not.
+~
+human~
+ABFe DFUu -999 0
+36 36 106d36+0 360d11+95 13d2+31 none
+-16 -16 -16 -9
+CDEF A 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4211
+white king~
+the White King~
+The White King stands here.
+~
+The White King is a stately figure.  You can easily understand why he
+is the king and you are not.
+~
+human~
+ABe DFHNU 999 0
+36 36 106d36+0 360d11+95 13d2+31 none
+-16 -16 -16 -9
+CDEF 0 0 0
+stand stand male 2
+0 0 medium flesh~
+~
+#4212
+ghost of awareness caretaker~
+a Caretaker~
+The Ghost of a Caretaker is floating here.
+~
+Caliph Omar was person who sanctions chess for islamic people. 
+His ghost is here small, and looks like made from smoke.
+~
+human~
+ABHTe BDFHPTUV 0 0
+1 1 9d1+0 10d11+95 2d2+8 none
+7 7 7 8
+FK 0 0 HIJK
+stand stand male 0
+0 0 large flesh~
+~
+M grall 4205 100~
+#4213
+mummy black rags pissed off~
+A Black Mummy covered in rotting bandages~
+A black mummy covered in rotting bandages is here looking for his next meal
+~
+~
+undead~
+ABFOce 0 -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+AEFHKO 0 0 0
+stand stand none 0
+0 0 large flesh~
+~
+M death 4201 5~
+#4214
+angel white good pissed off~
+An Angel of the Purest white~
+An Angel of the Purest White hovers here wondering who has disrupted him
+~
+~
+elf~
+ABFTce CDFNUlmt 1000 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+AEFHKO ABKLQ DMY FXa
+stand stand none 0
+0 0 large flesh~
+~
+M death 4202 5~
+#4215
+oldstyle guard cityguard tower imperial~
+an Imperial Tower Guard~
+An Imperial Tower Guard Is here defending the Tower.
+~
+He is dressed in plate, and he looks quite formidable.  At the moment,
+he is watching the children play with amusement.
+~
+human~
+ABFGTe 0 0 0
+17 17 37d17+0 170d11+95 6d2+18 none
+-3 -3 -3 0
+CDEIKL 0 0 0
+stand stand male 75
+0 0 medium flesh~
+~
+#4216
+oldstyle guard cityguard tower imperial~
+an Imperial Tower Guard~
+An Imperial Tower Guard is here defending the tower.
+~
+He is dressed in plate, and he looks quite formidable.  At the moment,
+he is watching the children play with amusement.
+~
+human~
+ABFGTe 0 0 0
+15 15 31d15+0 75d10+85 5d3+12 none
+0 0 0 2
+CDEIKL 0 0 0
+stand stand male 1
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#4200
+rotting bandages black rare~
+Black Rotting Bandages~
+A pile of Black and disease infested bandages lie here rotting into the ground~
+unknown~
+Rotting Bandage~
+protect CQSTh AH
+0 0 0 0 0 0 0
+40 10 15 P
+A
+1 2
+A
+18 4
+A
+19 4
+A
+5 -1
+A
+20 -4
+G none
+G none
+G none
+G none
+#4201
+shield of holy flames rare~
+Shield of Holy Flames~
+A shield of the holiest flames lies here burning all around it~
+energy~
+~
+armor ABGQSTh AJ
+15 15 15 14 'none' 0
+40 41 315136 P
+A
+12 55
+A
+20 -4
+A
+4 1
+A
+3 1
+G none
+G none
+G none
+G none
+#4202
+ring of the king~
+{Da black ring{x~
+The black ring of the black king lies here.~
+iron~
+~
+jewelry CKL AB
+ACD ACD ACD CD 0 ACD ACD
+36 37 32 P
+A
+19 3
+A
+18 3
+A
+12 20
+G none
+G none
+G none
+G none
+#4203
+bracer of king~
+{Wa white bracer{x~
+The white bracer of the White King sits here.~
+iron~
+~
+armor KL AM
+13 13 13 12 'none' 0
+36 37 22458 P
+A
+18 1
+A
+12 25
+A
+19 3
+G none
+G none
+G none
+G none
+#4204
+dagger of the white queen~
+{Wa white dagger{x~
+The white dagger of the White Queen lies before you.~
+iron~
+~
+weapon KL AN
+dagger 3 9 pierce 0
+36 40 9991 P
+A
+19 2
+A
+18 4
+G none
+G none
+G none
+G none
+#4205
+leggings of the black queen~
+{Dblack leggings{x~
+The black leggings of the Black Queen have been carelessly left here.~
+iron~
+~
+armor JL AF
+13 13 13 12 'none' 0
+36 37 38631 P
+A
+13 10
+A
+19 3
+A
+12 13
+G none
+G none
+G none
+G none
+#4206
+mace of the black bishop~
+{Da black mace{x~
+The black mace of the black bishop has been abandoned here.~
+iron~
+~
+weapon JL AN
+mace 2 15 pound 0
+30 60 13036 P
+A
+19 2
+A
+18 3
+G none
+G none
+G none
+G none
+#4207
+axe of the white angel holy~
+Axe of the {WHoly White Angel{x~
+The axe of the Holy White Angel rests here~
+iron~
+~
+weapon 0 AN
+axe 2 12 slash 0
+20 100 11537 P
+A
+19 2
+A
+13 10
+G none
+G none
+G none
+G none
+#4208
+key white~
+a white key~
+A white key lies in the dust.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+40 1 5 P
+A
+4 2
+G none
+G none
+G none
+G none
+#4209
+black key~
+a black key~
+A black key has been dropped here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+40 1 5 P
+A
+5 2
+G none
+G none
+G none
+G none
+#4210
+white key of the queen~
+the Queen's treasury key~
+The key to the Queen's treasury has been left here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+40 1 5 P
+G none
+G none
+G none
+G none
+#4211
+key of the black queen~
+the Queen's treasury key~
+The key to the Queen's treasury has been left here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+40 1 5 P
+G none
+G none
+G none
+G none
+#4212
+golden key~
+a golden key~
+A golden key lies here.~
+iron~
+~
+key 0 AO
+0 0 0 0 0 0 0
+15 1 5 P
+G none
+G none
+G none
+G none
+#4230
+holy water tear of a immortal vial thorel~
+a vial full of a shiny liquid~
+a vial full of shiny liquid with a tag saying thorel's tear~
+unknown~
+~
+potion BFNPQTUa AO
+60 'refresh' 'cure critical' 'armor' 'refresh'
+70 0 0 P
+E
+vial full shiny liquid~
+You see here a vial full of shiny liquid with a tag saying thorel's tear 
+ 
+*note if you find and get ahold of this item *
+*report it to thorel so he may reqard you of your find*
+ 
+signed
+{YThorel{x
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#4200
+The Entrance to Purgatory~
+You are standing here at the entrance to Purgatory.  It lies at the top
+of the castle.  The floor is made of up a combination of Heaven's peaceful
+glory and Hell's sinful deceit.  Great marble arches stand exhaultingly to
+the west, from which cries of battle sound.  
+~
+0 C city
+D3
+The huge chessboard opens up to the west.
+~
+~
+Z -1 4232
+0 0
+D5
+~
+~
+ABCFGZ 4212 4290
+0 0
+S
+#4201
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A black square lies to the east.
+~
+~
+Z -1 4202
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4209
+0 0
+S
+#4202
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A white square lies to the east.
+~
+~
+Z -1 4203
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4210
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4201
+0 0
+S
+#4203
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A black square lies to the east.
+~
+~
+Z -1 4204
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4211
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4202
+0 0
+S
+#4204
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A white square lies to the east.
+~
+~
+Z -1 4205
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4212
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4203
+0 0
+D5
+~
+marble square~
+ABCFGZ 4211 4265
+0 0
+S
+#4205
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A black square lies to the east.
+~
+~
+Z -1 4206
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4213
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4204
+0 0
+S
+#4206
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A white square lies to the east.
+~
+~
+Z -1 4207
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4214
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4205
+0 0
+S
+#4207
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D1
+A black square lies to the east.
+~
+~
+Z -1 4208
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4215
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4206
+0 0
+S
+#4208
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D2
+A white square lies to the south.
+~
+~
+Z -1 4216
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4207
+0 0
+S
+#4209
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory. You feel like the dark lord is there to aid you in every battle.
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4201
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4210
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4217
+0 0
+S
+#4210
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4202
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4211
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4218
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4209
+0 0
+S
+#4211
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4203
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4212
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4219
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4210
+0 0
+S
+#4212
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4204
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4213
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4220
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4211
+0 0
+S
+#4213
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4205
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4214
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4221
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4212
+0 0
+S
+#4214
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4206
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4215
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4222
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4213
+0 0
+S
+#4215
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4207
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4216
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4223
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4214
+0 0
+S
+#4216
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4208
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4224
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4215
+0 0
+S
+#4217
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory. You feel light spirted.
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4209
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4218
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4225
+0 0
+S
+#4218
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4210
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4219
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4226
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4217
+0 0
+S
+#4219
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4211
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4220
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4227
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4218
+0 0
+S
+#4220
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory. You feel light spirted.
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4212
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4221
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4228
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4219
+0 0
+S
+#4221
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4213
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4222
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4229
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4220
+0 0
+S
+#4222
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4214
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4223
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4230
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4221
+0 0
+S
+#4223
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4215
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4224
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4231
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4222
+0 0
+S
+#4224
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted and you can see the marble arches to the south east.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4216
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4232
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4223
+0 0
+S
+#4225
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4217
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4226
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4233
+0 0
+S
+#4226
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4218
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4227
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4234
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4225
+0 0
+S
+#4227
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4219
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4228
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4235
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4226
+0 0
+S
+#4228
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4220
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4229
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4236
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4227
+0 0
+S
+#4229
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4221
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4230
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4237
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4228
+0 0
+S
+#4230
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4222
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4231
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4238
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4229
+0 0
+S
+#4231
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4223
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4232
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4239
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4230
+0 0
+S
+#4232
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted and you can see the marble arches to the east.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4224
+0 0
+D1
+The gate to the chessboard is just to the east.
+~
+~
+Z -1 4200
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4240
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4231
+0 0
+S
+#4233
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4225
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4234
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4241
+0 0
+S
+#4234
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4226
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4235
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4242
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4233
+0 0
+S
+#4235
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4227
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4236
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4243
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4234
+0 0
+S
+#4236
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4228
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4237
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4244
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4235
+0 0
+S
+#4237
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4229
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4238
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4245
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4236
+0 0
+S
+#4238
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4230
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4239
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4246
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4237
+0 0
+S
+#4239
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4231
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4240
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4247
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4238
+0 0
+S
+#4240
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  You can see
+marble arches to the northeast.
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4232
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4248
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4239
+0 0
+S
+#4241
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4233
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4242
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4249
+0 0
+S
+#4242
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4234
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4243
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4250
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4241
+0 0
+S
+#4243
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4235
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4244
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4251
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4242
+0 0
+S
+#4244
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4236
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4245
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4252
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4243
+0 0
+S
+#4245
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4237
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4246
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4253
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4244
+0 0
+S
+#4246
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4238
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4247
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4254
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4245
+0 0
+S
+#4247
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4239
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4248
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4255
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4246
+0 0
+S
+#4248
+A Demonic Square in Purgatory~
+You are standing on one of the demonic spaces in purgatory.  You feel
+like the dark lord is there to aid you in your every battle.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4240
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4256
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4247
+0 0
+S
+#4249
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4241
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4250
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4257
+0 0
+S
+#4250
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4242
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4251
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4258
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4249
+0 0
+S
+#4251
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4243
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4252
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4259
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4250
+0 0
+S
+#4252
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4244
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4253
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4260
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4251
+0 0
+S
+#4253
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4245
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4254
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4261
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4252
+0 0
+S
+#4254
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4246
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4255
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4262
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4253
+0 0
+S
+#4255
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4247
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4256
+0 0
+D2
+A black square lies to the south.
+~
+~
+Z -1 4263
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4254
+0 0
+S
+#4256
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4248
+0 0
+D2
+A white square lies to the south.
+~
+~
+Z -1 4264
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4255
+0 0
+S
+#4257
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4249
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4258
+0 0
+S
+#4258
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4250
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4259
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4257
+0 0
+S
+#4259
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4251
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4260
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4258
+0 0
+S
+#4260
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4252
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4261
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4259
+0 0
+D5
+~
+marble square~
+ABCFGZ 4210 4266
+0 0
+S
+#4261
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4253
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4262
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4260
+0 0
+S
+#4262
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4254
+0 0
+D1
+A black square lies to the east.
+~
+~
+Z -1 4263
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4261
+0 0
+S
+#4263
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A white square lies to the north.
+~
+~
+Z -1 4255
+0 0
+D1
+A white square lies to the east.
+~
+~
+Z -1 4264
+0 0
+D3
+A white square lies to the west.
+~
+~
+Z -1 4262
+0 0
+S
+#4264
+A Heavenly Square in Purgatory~
+You are standing on one of the heavenly spaces in purgatory.  You feel
+light spirted.  
+~
+0 0 city
+D0
+A black square lies to the north.
+~
+~
+Z -1 4256
+0 0
+D3
+A black square lies to the west.
+~
+~
+Z -1 4263
+0 0
+S
+#4265
+Depths of Hell~
+You have gone now into the depths of hell where all the gold and silver
+is kept by the dark lord.  It seems the longer you stay here the better it
+feels and the harder it is to move.  
+~
+0 ADJ inside
+D4
+A small staircase rises above you.
+~
+marble square~
+ABCFGZ 4209 4204
+0 0
+S
+#4266
+The Highest Part of Heaven~
+You are standing in the highest part of heaven where only the gods
+themselves live.  You are lucky to see such a room.  It is filled with great
+silks and moneys.  It is quite a marvoleus sight.  
+~
+0 ADJ inside
+D4
+A small staircase rises above you.
+~
+marble square~
+ABCFGZ 4208 4260
+0 0
+S
+#4267
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 forest
+D0
+~
+~
+Z 0 4268
+0 0
+D2
+~
+~
+Z 0 6002
+0 0
+S
+#4268
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D0
+~
+~
+Z 0 100000
+0 0
+D2
+~
+~
+Z 0 4267
+0 0
+D3
+~
+~
+Z 0 4269
+0 0
+S
+#4269
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D1
+~
+~
+Z 0 4268
+0 0
+D3
+~
+~
+Z 0 4270
+0 0
+S
+#4270
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D1
+~
+~
+Z 0 4269
+0 0
+D3
+~
+~
+Z 0 4271
+0 0
+S
+#4271
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D1
+~
+~
+Z 0 4270
+0 0
+D3
+~
+~
+Z 0 4272
+0 0
+S
+#4272
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D0
+~
+~
+Z 0 4293
+0 0
+D1
+~
+~
+Z 0 4271
+0 0
+D2
+~
+~
+Z 0 4273
+0 0
+D3
+~
+~
+Z 0 4299
+0 0
+S
+#4273
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D0
+~
+~
+Z 0 4272
+0 0
+D2
+~
+~
+Z 0 4274
+0 0
+S
+#4274
+Outside the Entrance to the Chess Tower~
+You are standing in front of a massive tower.  It seems to be covered in
+moss and long thin vines.  The walls are old and have massive cracks
+everywhere.  You can still hear the animals scurrying around and the birds
+chirping.  The ground is warm to the touch and the earth is soft and light. 
+There is more bush to the east and west of you.  You also notice the bush
+and trees are no more than inches away from the tower.  This makes the base
+of the tower impossible to walk around.  As you look closely at the tower
+you notice it is made of thick slabs of marble.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 4273
+0 0
+D2
+~
+~
+Z 0 4275
+0 0
+S
+#4275
+At the Entrance of the Chess Tower~
+You are standing in front of a massive tower.  It seems to be covered in
+moss and long thin vines.  The walls are old and have massive cracks
+everywhere.  You can still here the animal's scurrying around and the birds
+chirping.  The ground is worm to the touch and the earth is soft and light. 
+There is more bush to the east and west of you.  You also notice the bush
+and trees are no more then inches away from the tower.  This makes the base
+of the tower impossible to walk around.  As you look closely at the tower
+you notice it is made of thick slabs of marble.  
+ 
+There is a sign here.
+~
+0 0 forest
+E
+sign~
+******************************************************************
+*             {c      The Chess Master Tower  {x                     *
+******************************************************************
+
+
+Welcome young and old, this sign has been put here to alert all that walk
+threw here.  This area has been built for those have you have reached
+fifteenth level of their guild.  Those lower should not pass and those that
+are higher may.  If you have become half a hero or more this area is nothing
+but a waste of time for you to learn in.  
+ 
+Signed
+ 
+The Caretaker
+~
+D0
+~
+~
+Z 0 4274
+0 0
+D3
+~
+~
+Z 0 4276
+0 0
+S
+#4276
+Inside the Chess Tower~
+You are standing inside the marble tower. The walls and ceiling are made
+out of marble.  There are black cracks in the marble leading up and down the
+walls and floor of this room.  There are small torches hinged to the walls. 
+All of these torches seem to be lit.  You hear dripping water somewhere and
+little feet scurrying around the floor.  There seem to be little cobwebs on
+the ceiling.  The air smells sweet from the forest outside.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4275
+0 0
+D3
+~
+~
+Z 0 4277
+0 0
+S
+#4277
+A dark hallway~
+You are standing in a dark marble hallway. The walls and ceiling are made
+out of marble.  There are black cracks in the marble leading up and down the
+walls.  The floor of this room seems to be made out of marble as well. 
+There are small torches hinged to the walls.  All of these torches seem to
+be lit.  You hear dripping water somewhere and little feet scurrying around
+the floor.  There seem to be little cobwebs on the ceiling.  The air smells
+sweet from the forest outside.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4276
+0 0
+D2
+~
+~
+ABZ 0 4292
+0 0
+D3
+~
+~
+Z 0 4278
+0 0
+S
+#4278
+A dark hallway~
+You are standing in a dark marble hallway. The walls and ceiling are made
+out of marble.  There are black cracks in the marble leading up and down the
+walls.  The floor of this room seems to be made out of marble as well. 
+There are small torches hinged to the walls.  All of these torches seem to
+be lit.  You hear dripping water somewhere and little feet scurrying around
+the floor.  There seem to be little cobwebs on the ceiling.  The air smells
+sweet from the forest outside.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 4291
+0 0
+D1
+~
+~
+Z 0 4277
+0 0
+D3
+~
+~
+Z 0 4279
+0 0
+S
+#4279
+An entrance to the Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4278
+0 0
+D4
+~
+~
+Z 0 4280
+0 0
+S
+#4280
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 4281
+0 0
+D5
+~
+~
+Z 0 4279
+0 0
+S
+#4281
+A dark hallway~
+You are standing in a dark marble hallway. The walls and ceiling are made
+out of marble.  There are black cracks in the marble leading up and down the
+walls.  The floor of this room seems to be made out of marble as well. 
+There are small torches hinged to the walls.  All of these torches seem to
+be lit.  You hear dripping water somewhere and little feet scurrying around
+the floor.  There seem to be little cobwebs on the ceiling.  The air smells
+sweet from the forest outside.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 4282
+0 0
+D2
+~
+~
+Z 0 4280
+0 0
+S
+#4282
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 4281
+0 0
+D4
+~
+~
+Z 0 4283
+0 0
+S
+#4283
+A Spiral Staircase~
+You are standing in a dark marble stairway. The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4284
+0 0
+D5
+~
+~
+Z 0 4282
+0 0
+S
+#4284
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 4283
+0 0
+D4
+~
+~
+Z 0 4285
+0 0
+S
+#4285
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 4286
+0 0
+D5
+~
+~
+Z 0 4284
+0 0
+S
+#4286
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 4285
+0 0
+D4
+~
+~
+Z 0 4287
+0 0
+S
+#4287
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 4288
+0 0
+D5
+~
+~
+Z 0 4286
+0 0
+S
+#4288
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 4287
+0 0
+D4
+~
+~
+Z 0 4289
+0 0
+S
+#4289
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 4290
+0 0
+D5
+~
+~
+Z 0 4288
+0 0
+S
+#4290
+A Spiral Staircase~
+You are standing in a dark marble stairway.  The walls and ceiling are
+made out of marble.  There are black cracks in the marble leading up and
+down the walls.  The floor of this stairway seems to be made out of marble
+as well.  There are small torches hinged to the walls.  All of these torches
+seem to be lit.  You hear dripping water somewhere and little feet scurrying
+around the floor.  There seem to be little cobwebs on the ceiling.  The air
+smells sweet from the forest outside.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 4289
+0 0
+D4
+~
+~
+ABCFGZ 4212 4200
+0 0
+S
+#4291
+A guards keep~
+After exiting the black marble hallway you have entered into a
+guards keep.  In here there is an assortment of armor and weapons lining the
+walls.  You can see through the bowman's slots on the walls out to the
+outside of the tower.  Along the inside of the walls there are torches
+lining the walls to light the room.  You see a small table and two chairs in
+the center of the room where the guards sit to rest their weary feet.  
+~
+0 0 inside
+D2
+~
+~
+ABZ 0 4278
+0 0
+S
+#4292
+A guards keep~
+After exiting the black marble hallway you have entered into one of the
+guards keep. In here there is an assortment of armor and weapons lining
+the walls.  You can see through the bowman's slots on the walls out to the
+outside of the tower.  Along the inside of the walls there are torches
+lining the walls to light the room.  You see a small table and two chairs in
+the center of the room where the guards sit to rest their weary feet.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 4277
+0 0
+S
+#4293
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D0
+~
+~
+Z 0 4294
+0 0
+D2
+~
+~
+Z 0 4272
+0 0
+S
+#4294
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D2
+~
+~
+Z 0 4293
+0 0
+D3
+~
+~
+Z 0 4295
+0 0
+S
+#4295
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D1
+~
+~
+Z 0 4294
+0 0
+D3
+~
+~
+Z 0 4296
+0 0
+S
+#4296
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D1
+~
+~
+Z 0 4295
+0 0
+D2
+~
+~
+Z 0 4297
+0 0
+S
+#4297
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D0
+~
+~
+Z 0 4296
+0 0
+D2
+~
+~
+Z 0 4298
+0 0
+S
+#4298
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D0
+~
+~
+Z 0 4297
+0 0
+D1
+~
+~
+Z 0 4299
+0 0
+S
+#4299
+A Dirt Path in a Forest~
+You are standing in a very young forest.  Most trees stand about 7 feet
+tall and the grass is long and takes the color of a light green.  As you
+look around you see dew everywhere.  The air smells sweet and beautiful
+flowers are growing everywhere you look.  As you look around you see new and
+interesting creatures all around you scurrying out of sight.  You hear the
+birds chirping and the owls hooting.
+~
+0 0 inside
+D1
+~
+~
+Z 0 4272
+0 0
+D3
+~
+~
+Z 0 4298
+0 0
+S
+#0
+
+#SPECIALS
+M 4215 spec_guard	* an Imperial Tower Guard
+S
+
+#RESETS
+D 0 4200 5 2	* The Entrance to Purgatory: door to the down: closed and locked
+D 0 4204 5 2	* A Demonic Square in Purgatory: door to the down: closed and locked
+D 0 4260 5 2	* A Heavenly Square in Purgatory: door to the down: closed and locked
+D 0 4265 4 2	* Depths of Hell: door to the up: closed and locked
+D 0 4266 4 2	* The Highest Part of Heaven: door to the up: closed and locked
+D 0 4277 2 1	* A dark hallway: door to the south: closed
+D 0 4278 0 1	* A dark hallway: door to the north: closed
+D 0 4290 4 2	* A Spiral Staircase: door to the up: closed and locked
+D 0 4291 2 1	* A guards keep: door to the south: closed
+D 0 4292 0 1	* A guards keep: door to the north: closed
+M 0 4202 2 4201 1	* the Black Rook (A Demonic Square in Purgatory)
+M 0 4204 2 4202 1	* the Black Knight (A Demonic Square in Purgatory)
+M 0 4206 2 4203 1	* the Black Bishop (A Demonic Square in Purgatory)
+M 0 4208 1 4204 1	* the Black Queen (A Demonic Square in Purgatory)
+E 0 4205 0 7		*	{Dblack leggings{x: on the legs
+E 0 4211 0 17		*	the Queen's treasury key: held in the hands
+M 0 4210 1 4205 1	* the Black King (A Demonic Square in Purgatory)
+E 0 4202 0 1		*	{Da black ring{x: on the left finger
+M 0 4206 2 4206 1	* the Black Bishop (A Demonic Square in Purgatory)
+E 0 4206 0 16		*	{Da black mace{x: wielded
+M 0 4204 2 4207 1	* the Black Knight (A Demonic Square in Purgatory)
+M 0 4202 2 4208 1	* the Black Rook (A Demonic Square in Purgatory)
+M 0 4200 1 4209 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4200 1 4210 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4200 1 4211 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4200 1 4212 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4200 8 4213 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+G 0 4230 0		*	a vial full of a shiny liquid
+M 0 4200 8 4214 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4200 8 4215 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4200 8 4216 1	* The Demonic Red Dragon  (A Demonic Square in Purgatory)
+M 0 4201 8 4249 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4250 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4251 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4252 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4253 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4254 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4255 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4201 8 4256 1	* The Holy Squire of Heaven (A Heavenly Square in Purgatory)
+M 0 4203 2 4257 1	* the White Rook (A Heavenly Square in Purgatory)
+M 0 4205 2 4258 1	* The Holy White Angel (A Heavenly Square in Purgatory)
+E 0 4207 0 16		*	Axe of the {WHoly White Angel{x: wielded
+M 0 4207 2 4259 1	* the White Bishop (A Heavenly Square in Purgatory)
+M 0 4209 1 4260 1	* the White Queen (A Heavenly Square in Purgatory)
+E 0 4204 0 16		*	{Wa white dagger{x: wielded
+E 0 4210 0 17		*	the Queen's treasury key: held in the hands
+M 0 4211 1 4261 1	* the White King (A Heavenly Square in Purgatory)
+E 0 4203 0 15		*	{Wa white bracer{x: on the right wrist
+M 0 4207 2 4262 1	* the White Bishop (A Heavenly Square in Purgatory)
+M 0 4205 2 4263 1	* The Holy White Angel (A Heavenly Square in Purgatory)
+E 0 4207 0 16		*	Axe of the {WHoly White Angel{x: wielded
+M 0 4203 2 4264 1	* the White Rook (A Heavenly Square in Purgatory)
+M 0 4213 1 4265 1	* A Black Mummy covered in rotting bandages (Depths of Hell)
+E 0 4209 0 17		*	a black key: held in the hands
+M 0 4214 1 4266 1	* An Angel of the Purest white (The Highest Part of Heaven)
+E 0 4208 0 17		*	a white key: held in the hands
+M 0 4212 1 4275 1	* a Caretaker (At the Entrance of the Chess Tower)
+M 0 4215 1 4281 1	* an Imperial Tower Guard (A dark hallway)
+G 0 4212 0		*	a golden key
+M 0 4216 2 4291 1	* an Imperial Tower Guard (A guards keep)
+M 0 4216 2 4292 1	* an Imperial Tower Guard (A guards keep)
+S
+
+#OLIMITS
+O 4200 1	* Black Rotting Bandages
+O 4201 1	* Shield of Holy Flames
+O 4207 0	* Axe of the {WHoly White Angel{x
+S
+
+#MOBPROGS
+#4200
+if mobhere white
+say And WHAT are you doing here ?
+kill white
+endif
+~
+#4201
+mob oload 4200
+~
+#4202
+mob oload 4201
+~
+#4205
+say You may enter, but be careful!
+emote points at a sign.
+say You shouldn't go in alone, and be at least rank 15.
+Farewell. I hope you survive longer than I did.
+~
+#0
+
+#HELPS
+-1 0 'POISON SMOKE'~
+Syntax: poison smoke
+
+A ninja is capable of creating a wall of poisonous smoke vapors to settle
+over his enemies.  The vapors dissipate as quickly as they appear, however,
+he is able to create them anew to further weaken the strength of his already
+poisoned enemies.  No target need be specified, this skill affects the
+entire room.
+~
+-1 $~
+
+#$

@@ -1,0 +1,124 @@
+-=[ ZiM 2.0 BETA ]=-
+
+ZiM is derived from the Icey Depths 0.9 codebase.  Development started
+in 2002.  In 2005 it evolved to version 2.0 with major changes to 
+class balance, code stability, debugging, immortal commands and 
+communications commands.  Many new skills and spells have been added.
+
+Coding:
+       Chiefly by Zsuzsu
+       contributions by Thornan, Thorel, Alamor, Daphais,
+                        Fronz, Alcerion, & Loren
+
+New Areas:
+       Thornan, Nalaeya, Sadin, Kira, Alamor, Daphais, Shaelindra, Thorel
+
+Play Testing thanks to:
+       Lucian, Uther, Sunian, Elial, Serion, Aram, Azureth, Raek
+       Rathmine, Tevesh and others.
+
+	
+-=[ Feature Highlights ]=-
+ * World / Zone affects
+ 	Can be limited to certain player levels, or a selected zone.
+	Free For All, PvP & PvM damage modifiers, Double Exp, Double
+	Gold drops, World Peace and more.  These persist through
+	reboots.  Also, global configurations of the system at boot time.
+
+ * True Lifer 
+	Hardcore mode (no resurrection).  This can be a personal
+	choice, or the entire world can be set up this way for a
+	pretty interesting environment or event.
+
+ * Record of Time On-line
+ 	The server records time online for each character and uses
+	this to calculate certain benefits for the character as well
+	as status in their clan.
+
+ * Artifact restrictions based on time-online
+ 	So you don't have mule characters keeping your best limited
+	items in pdata files.
+
+ * Awards, Medals and Scalps
+ 	Rewards for contests and quests.  Scalps show off PvP kills.
+
+ * Clans
+ 	Clan warfare fixed.  Items now control clan powers.  Lots of 
+	rules regarding clan invasions to counter cheap-defense
+	and offense tactics.
+
+ * Gods / Reputation
+ 	Cleric and Paladin skills grow more powerful as their
+	reputation increases.  Also, Good, Neutral and Evil clerics
+	have differing skillsets.
+
+ * Lots of new skills
+ 	Delve, Drunkeness, Condemn, Intoxicate, Sobriety, Enslavement,
+	Double Grip, Paranoia, Summon Zombie, Scalp, Undead flesh,
+	Devour (heal undead), Prismic Beam, and Pollen, Bush sense, 
+	Poison Bolt, Clairvoyance, Traps, Lash, Sakura and more
+	New rogue commands (unfinished class)
+	   - rummage - take a peek into someone's container
+	   - furtive_riffle - look into a worn container
+	   - pilfer - steal items from someone's worn container
+	   - switcheroo - swapped worn items on someone
+	   - PK-ok - if a lower level player harasses a higher level
+	   	player in PK range (or steals from their corpse killed
+		by another, the will always be PKable by that higher
+		level player until he kills them)
+	   - plant - an item on a character
+
+ * Enslavement
+	Public shame, if you can't kill your enslaver.  The Nightfall
+	clan dominates Ruler in this way.
+
+ * New affects
+ 	Paranoia - so you can't be KOed twice in 30 seconds
+	Dessent - charmies revolt against their owners
+	Dishonor - dishonored samuria have it rough
+	Arial - funny language
+
+ * Characters
+ 	Hero is lvl 60.  Ethos by reputation.  Any race = any class.
+	Stats are based on 100.  No upper limit.  Rolled stats
+	are relative to your race.  Level gains look at what you've
+	been wearing the whole level, rather than at DING.  Skills
+	have requirements, some races need magic to help them
+	learn some skills (Troll Necros, for instance).  Encumberance
+	also matters for dodge and movement.
+
+ * OLC
+ 	Improved OLC editor.  Editors for materials.  Different
+	weapon types have different stats.
+
+ * Rework of Channels & Communication
+
+ * IMM commands
+ 	Lots of new WIZNET notifications so you can tell what's going 
+	on in the realm.  Who got PKilled, Who looted what from whom,
+	Who took out the best mob in the game, Who is alt-dropping
+	items between their multies to cheat.  Monitor the economy.
+
+	Pdata - review player data when they are off-line
+	Sign - sign notes with different NPC names for Quests
+	Reposess - reclaim limiteds from deadbeat player files
+	slang - you can now speak the native PC tongues
+	gtrans - transfer whole groups
+	award - prizes, quest points, etc
+	anoncolor - IMMs stay anonymous but keep a random color
+		per their session so PCs can follow debates
+	ofind - to find specific items on characters
+	scatter - items or mobs for quests
+	pload & puload - I think these have severe bugs in them.  Do
+		not use them unless you've fixed the code
+
+ * Lots of bugs fixed and stability improvements.  Lots.
+
+Zsuzsu spent two years coding and designing most of these changes.
+Unfortunately, she never finished the Rogue class that was to replace
+the Thief class.  Nor the consecrate weapon idea.  Most of the code is
+complete, though.  Her additions and work are hereby contributed to
+the Public Domain.  She would appreciate if you gave her due credit for 
+her work, but realizes you probably won't.
+
+For a more specific list of features, check out doc/changes.txt

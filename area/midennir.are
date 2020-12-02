@@ -1,0 +1,1628 @@
+#AREADATA
+Name Miden'nir~
+Builders deckard~
+VNUMs 3500 3599
+Credits Copper~
+Security 9
+LevelRange 5 15
+End
+
+#MOBILES
+#3500
+wyvern~
+the wyvern~
+A monstrous wyvern slowly circles just above your head.
+~
+This huge winged creature looks really menacing.  You are happy it doesn't
+APPEAR to be very hungry ... yet.
+~
+wyvern~
+AG J -200 0
+8 8 21d8+0 40d10+85 2d4+9 none
+3 3 3 5
+DNR 0 0 0
+stand stand either 0
+0 0 gargantuan flesh~
+~
+#3501
+goblin mountain~
+the goblin~
+A mountain goblin is wandering about, mumbling to himself.
+~
+You see before you a small and twisted creature with knotted muscles.
+~
+goblin~
+AFGT 0 -500 0
+6 6 17d6+0 30d10+85 2d3+8 none
+5 5 5 6
+KR 0 0 0
+stand stand male 25
+0 0 large flesh~
+~
+#3502
+boy small~
+the small boy~
+A small boy sits here, licking his wounds.
+~
+The poor boy has numerous cuts and scratches, but appears to be all right.
+He is apparently the only survivor of the ambush.
+~
+human~
+ABH 0 500 0
+4 4 13d4+0 20d10+85 1d4+7 none
+6 6 6 7
+I 0 0 C
+rest rest male 0
+0 0 large flesh~
+~
+#3503
+innkeeper~
+the Innkeeper~
+The Innkeeper stands here, cleaning glasses.
+~
+The Innkeeper now spends most of his days waiting for customers, while the
+nights are spent watching out for goblins.  His inn is no longer the happy
+place that is used to be in days past.
+~
+human~
+ABT 0 500 0
+10 10 25d10+0 50d10+85 3d3+10 none
+2 2 2 4
+BFKQ AB CD 0
+stand stand male 350
+0 0 medium flesh~
+~
+#3504
+bard~
+the bard~
+A sullen bard is here, drinking away his problems.
+~
+You can smell the alcohol on his breath from across the room.  This poor bard
+has been sitting here quite a while, drinking himself into oblivion.
+~
+human~
+ABST D 600 0
+8 8 21d8+0 40d10+85 2d4+9 none
+3 3 3 5
+FIJKNQ 0 0 0
+sit sit male 260
+0 0 medium flesh~
+~
+#3505
+horseman dark~
+the dark horseman~
+A dark horseman is here, mounted on his black steed.
+~
+The man is obviously an outlaw, and has no qualms about slashing you into
+little bits.
+~
+human~
+AGHS P -900 0
+8 8 21d8+0 40d10+85 2d4+9 none
+3 3 3 5
+BFJKQ 0 0 0
+stand stand male 400
+0 0 medium flesh~
+~
+#3506
+goblin lieutenant~
+the goblin lieutenant~
+A goblin lieutenant stands here, attempting to get his men in order.
+~
+The goblin lieutenant is rather angry, and looking for one of his men to
+beat up upon, but maybe you will do just fine ...
+~
+goblin~
+AFGT 0 -600 0
+7 7 19d7+0 35d10+85 2d3+8 none
+4 4 4 6
+DKNR 0 0 0
+stand stand male 55
+0 0 medium flesh~
+~
+#3507
+goblin leader~
+the goblin leader~
+The goblin leader surveys the room.
+~
+The leader doesn't look too happy that you have found him here.  He grabs
+for his shortsword and lunges for your neck.
+~
+goblin~
+ACFGT 0 -900 0
+9 9 23d9+0 45d10+85 3d3+9 none
+3 3 3 5
+DJKNR 0 0 0
+stand stand male 221
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#3500
+sword short~
+a goblin's short sword~
+A rusted sword lies on the ground.~
+iron~
+~
+weapon 0 AN
+shortsword 2 5 stab 0
+10 11 1915 A
+A
+19 1
+A
+18 -1
+E
+sword~
+It looks heavier than your average short sword, but it could use some oiling.
+~
+G none
+G none
+G none
+G none
+#3501
+spear long~
+a long spear~
+A blackened spear with an evil-looking blade lies here.~
+iron~
+~
+weapon 0 AN
+spear 1 7 thrust F
+6 30 4638 A
+A
+19 2
+A
+17 2
+E
+spear~
+This used to be a boar spear, but it has been used for more dangerous game.
+~
+G none
+G none
+G none
+G none
+#3502
+helmet horned black~
+a black horned helmet~
+A helmet with sharp black horns sits here.~
+iron~
+~
+armor 0 AE
+2 2 2 1 'cloth' 0
+5 6 4850 A
+A
+18 1
+A
+19 1
+A
+13 5
+G none
+G none
+G none
+G none
+#3503
+cloak stained~
+a stained travelling cloak~
+A worn and stained cloak is crumpled up on the floor.~
+unknown~
+cloth~
+clothing 0 AK
+B B B A A B B
+3 4 3014 A
+A
+18 1
+A
+13 5
+A
+17 -5
+G none
+G none
+G none
+G none
+#3504
+bracer leather enchanted~
+an enchanted leather bracer~
+A leather bracer with mystic symbols sits here.~
+leather~
+~
+armor 0 AM
+3 3 3 2 'none' 0
+7 8 1248 G
+A
+18 1
+E
+bracer~
+This bracer is covered with runes of protection and luck in combat.
+~
+G none
+G none
+G none
+G none
+#3505
+knife dagger~
+a rune-covered knife~
+A wide-bladed knife sits undisturbed on the floor.~
+mithril~
+~
+weapon GK AN
+dagger 2 4 stab 0
+10 11 1420 P
+A
+18 1
+E
+knife dagger~
+It's very sharp, you suspect this knife is more effective than many swords.
+It appears to be of elvish origins, and is made of finely crafted mithril,
+with a stylized ivory hilt.
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#3500
+The Plains~
+You are standing on the plains. This is a vast desolate place where the
+wind can howl undisturbed since nothing but you bars its way. However you
+are not the first to wander here. Before you somebody has left a small path.
+The path looks rather bewildered and is not the kind of path to lead to
+anywhere significant or important but it seems to have made up its mind to
+enter the hills far away north.
+~
+0 0 city
+D0
+~
+~
+Z 0 4000
+0 0
+D1
+~
+~
+Z -1 19001
+0 0
+D2
+~
+~
+Z 0 3501
+0 0
+S
+#3501
+The Lane~
+You are strolling along a pleasant, shady lane. The road is lined on both
+sides by tall, stately trees which lend the scene with a sense of quiet
+serenity. You can follow the road north or south.
+~
+0 0 city
+D0
+~
+~
+Z 0 3500
+0 0
+D2
+~
+~
+Z 0 3502
+0 0
+S
+#3502
+{&The {8Cross Roads{x~
+Here, the great eastern road intersects with an older road between the
+mines of Moria and the ruined city of Thalos.  The outskirts of Midgaard lie
+to your west, and the highway continues the east.  An old northern road
+leads to the dwarven kingdom and the abandoned mines of Moria, while the
+southern road shows the scars of the war which destroyed Thalos.  
+~
+0 0 city
+D0
+An old road leads towards the abandoned mines of Moria and the Dwarven Kingom.
+~
+~
+Z 0 3501
+0 0
+D1
+The road continues east, where you hear faint singing.
+~
+~
+Z 0 3525
+0 0
+D2
+A once mighty road leads through the dwarf forest towards ruined Thalos.
+~
+~
+Z 0 5261
+0 0
+D3
+The road leads west towards Midgaard.
+~
+~
+Z 0 3503
+0 0
+S
+#3503
+{bC{Bity {8Entrance{x~
+You stand on the outskirts of a large city - Midgaard; the capital of
+this land.  The road leads east into the peace and quiet - and dangers - of
+the forest; and to the west it becomes the main street of the town;
+surrounded by a confusion of shops, bars, and market places.  To the north,
+there is a grand building, which seems to be a tavern of sorts; a large sign
+hangs outside the front, proclaiming it to be "The Vincitori."  Perhaps this
+is Gerad's bar you've heard about.  
+~
+0 C city
+D0
+~
+~
+Z 62332 62331
+0 0
+D1
+~
+~
+Z 0 3502
+0 0
+D3
+~
+~
+Z 0 3053
+0 0
+S
+#3505
+The Trail to Miden'nir~
+You are in a light forest. A path leads south, but the passage to the
+east is easy enough. To the west, smoke can be seen rising above the
+treetops. The sprawl of Midgaard lies north of here.
+~
+0 0 forest
+E
+credits credit author~
++-------------------------------------------------+
+| This area originally written for Copper II DIKU |
+|   by ?                                          |
+| Modifications and alterations for MERCmud DIKU  |
+|   by VampLestat                        1 JAN 93 |
++-------------------------------------------------+
+~
+D0
+To the north, you see the southern gates of Midgaard.
+~
+~
+Z 0 3256
+0 0
+D1
+More light forest.
+~
+~
+Z 0 3506
+0 0
+D2
+This path cuts through the darkness of the Miden'nir.
+~
+~
+Z 0 3507
+0 0
+D3
+The Woodsman's Inn.
+~
+~
+Z 0 3570
+0 0
+S
+#3506
+The Miden'nir~
+You are in a dark forest. To the east, mountains block passage. From
+here, only the lighter forest to the west or south offer a way to travel.
+~
+0 0 forest
+D1
+~
+~
+Z -1 3550
+0 0
+D2
+The forest is darker to the south.
+~
+~
+Z 0 3509
+0 0
+D3
+The forest gets lighter as you go west.
+~
+~
+Z 0 3505
+0 0
+S
+#3507
+The Miden'nir~
+The forest is deep here and the wind blows through the trees and
+through your hair. To the north, the forest gets lighter. However, the
+southern and western paths place you even deeper in the wood.
+~
+0 0 forest
+D0
+The forest is lighter in this direction.
+~
+~
+Z 0 3505
+0 0
+D2
+More and darker woods.
+~
+~
+Z 0 3510
+0 0
+D3
+There is a small path leading west.
+~
+~
+Z 0 3508
+0 0
+S
+#3508
+On a Small Path~
+A path is here, leading east and south through the dark woods of
+Miden'nir. Mountains slash the scenery to the west of here.
+~
+0 0 forest
+D1
+Wind-swept forest.
+~
+~
+Z 0 3507
+0 0
+D2
+To the south, the trail continues.
+~
+~
+Z 0 3511
+0 0
+S
+#3509
+The Miden'nir~
+The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods. The trees become too thick to the west, but you may go
+north, south or travel toward the mountains that lie east of here.
+~
+0 0 forest
+D0
+The trees lighten up a bit this way.
+~
+~
+Z 0 3506
+0 0
+D1
+Huge grey mountains lie in this direction.
+~
+~
+Z 0 3512
+0 0
+D2
+The forest continues.
+~
+~
+Z 0 3514
+0 0
+S
+#3510
+A Crossroads~
+Here footworn paths meet leading north, south and east. The trees seem to
+be closing in on you at this point, and you can barely see the sky
+through the thick branches above your head.
+~
+0 0 forest
+D0
+Trees as far as the eye can see.
+~
+~
+Z 0 3507
+0 0
+D1
+There is an especially dark part of the forest this way.
+~
+~
+Z 0 3514
+0 0
+D2
+There is an especially dark section of forest this way.
+~
+~
+Z 0 3516
+0 0
+S
+#3511
+The Trail~
+You are on a north-south trail through the woods. To the west, impassable
+mountains glare at you, and the thick woods and undergrowth prevent any
+movement westward.
+~
+0 0 forest
+D0
+The trail bends to the north.
+~
+~
+Z 0 3508
+0 0
+D2
+To the south, the path re-enters the forest.
+~
+~
+Z 0 3515
+0 0
+D3
+~
+~
+Z 0 201
+0 0
+S
+#3512
+The Miden'nir~
+The trees of Miden'nir are lush and green, hiding the evil that lurks
+in these woods. You can go north toward the mountains, or west to the
+forest, but the steep mountains prevent any movement east.
+~
+0 0 forest
+D0
+~
+~
+Z -1 3550
+0 0
+D2
+A light section of forest.
+~
+~
+Z 0 3513
+0 0
+D3
+The forest continues here.
+~
+~
+Z 0 3509
+0 0
+S
+#3513
+The Miden'nir~
+The forest is dark, and becomes even darker west.  You sense
+that there is something evil hidden in these woods.  The forest gets
+lighter to the north.  The wind kicks up as you ponder your options.
+~
+0 0 forest
+D0
+There is a small clearing to the north.
+~
+~
+Z 0 3512
+0 0
+D3
+It gets darker and thicker this way.
+~
+~
+Z 0 3514
+0 0
+S
+#3514
+Deep Forest~
+It is quite dark here, forest surrounds you. With each step, the forest
+seems to close around you, and get darker and more foreboding.  It might just
+be time to head back to somewhere safe.
+~
+0 0 forest
+D0
+More forest.
+~
+~
+Z 0 3509
+0 0
+D1
+Lighter forest and mountains in the distance.
+~
+~
+Z 0 3513
+0 0
+D2
+More trees.
+~
+~
+Z 0 3517
+0 0
+D3
+The forest continues.
+~
+~
+Z 0 3510
+0 0
+S
+#3515
+Light Forest~
+The forest is light here and you can easily pick your way through the 
+trail.  To the east, the forest becomes thick and darker. South, the trail
+continues.
+~
+0 0 forest
+D0
+A trail leading north-south.
+~
+~
+Z 0 3511
+0 0
+D1
+The trees get thicker as you go east.
+~
+~
+Z 0 3516
+0 0
+D2
+More trees and some small hills.
+~
+~
+Z 0 3518
+0 0
+S
+#3516
+Muddy Ground~
+The ground is quite muddy here and puddles are all around. Your boots
+make a disgusting SQUISH as you walk here. You can go in any of the
+four cardinal directions from here. Hopefully, it will be dryer.
+~
+0 0 forest
+D0
+The Miden'nir continues.
+~
+~
+Z 0 3510
+0 0
+D1
+More trees.
+~
+~
+Z 0 3517
+0 0
+D2
+The trees get VERY thick to the south. You can barely see...
+~
+~
+Z 0 3519
+0 0
+D3
+Some light trees and daylight.
+~
+~
+Z 0 3515
+0 0
+S
+#3517
+Near the Mountains~
+The most prominent feature here is the mountains that lie to the east.
+You can only go north and west from here as the rocks stop all other
+movement.
+~
+0 0 forest
+D0
+Many trees to the north.
+~
+~
+Z 0 3514
+0 0
+D3
+There is a bit of a slope downward to the west.
+~
+~
+Z 0 3516
+0 0
+S
+#3518
+The Fading Trail~
+The trail becomes nearly unpassable here. You can go north
+as the forest is relatively light. To the south, you can see a path.
+~
+0 0 forest
+D0
+You can see a trail this way.
+~
+~
+Z 0 3515
+0 0
+D2
+Dark forests.
+~
+~
+Z 0 3522
+0 0
+S
+#3519
+The Dark Path~
+You are hemmed in by trees on either side of you.  The path
+continues north and south, and while is much to thick to explore west,
+you can head off into the woods to the east.
+~
+0 0 forest
+D0
+The forest gets lighter this way.
+~
+~
+Z 0 3516
+0 0
+D1
+The forest continues.
+~
+~
+Z 0 3520
+0 0
+D2
+There is a strong stench coming from this direction.
+~
+~
+Z 0 3521
+0 0
+S
+#3520
+The Dark Forest~
+You stomp your way through the underbrush.  The dark forest of Miden'nir
+get pretty thick here, and the branches high above your head are so thick that
+they block out all direct sunlight.  While it is much too thick to go
+further east, you might be able to make your way though the forest to the
+south and west.
+~
+0 0 forest
+D2
+The thick forest continues.
+~
+~
+Z 0 3523
+0 0
+D3
+The thick forest continues.
+~
+~
+Z 0 3519
+0 0
+S
+#3521
+Carnage~
+Here, you see a gruesome sight. Blood is everywhere... on the trees and
+soaked into the ground. Two carcasses lie in front of you, seeming to look
+up at you. The forest is impassible to the south, but the other directions
+look ok.
+~
+0 A forest
+E
+carcass body corpse carcasses bodies corpses~
+The corpses looked as if they have been pierced by a large, jagged
+spear. The damage these people sustained is simply amazing. Worse, the
+lips on the bodies are a light shade of blue, hinting at poison in
+their systems.
+~
+D0
+Darkness...
+~
+~
+Z 0 3519
+0 0
+D1
+Your light does not extend that far.
+~
+~
+Z 0 3523
+0 0
+D3
+More dark forest.
+~
+~
+Z 0 3522
+0 0
+S
+#3522
+Deep in the Forest of Miden'nir~
+There is a sickening stench here. It smells of blood and death.
+To the north, you catch glimpses of daylight. To the east, you
+simply cannot see. The trees are close and stifling.
+~
+0 0 forest
+D0
+You see daylight and a trail to follow.
+~
+~
+Z 0 3518
+0 0
+D1
+The stench seems to becoming from this direction.
+~
+~
+Z 0 3521
+0 0
+S
+#3523
+The Dark Forest~
+The branches above you block out all direct sunlight, making the forest
+in this area rather dark.  The forest continues east, where it meets the
+mountains. The air is still and stuffy - a stench comes from the west and an
+ugly feeling causes the hair to rise on the back of your neck!
+~
+0 0 forest
+D0
+It appears to get much darker that direction.
+~
+~
+Z 0 3520
+0 0
+D1
+~
+~
+Z -1 3551
+0 0
+D3
+The sky becomes lighter in this direction.
+~
+~
+Z 0 3521
+0 0
+S
+#3525
+{#A{3long {#t{3he {2Eastern Road{x~
+You are walking along a well-travelled road between Midgaard and lands
+east.  A northern road crosses this one to the west, towards Midgaard.  You
+hear faint, happy singing to the north.
+~
+0 0 city
+D0
+~
+~
+Z 0 8281
+0 0
+D1
+The road continues to the east.
+~
+~
+Z -1 3526
+0 0
+D3
+You can see the crossroads.
+~
+~
+Z -1 3502
+0 0
+S
+#3526
+{#A{3long {#t{3he {2Eastern Road{x~
+You are travelling down the eastern road between Midgaard and the eastern
+lands.  The road back to Midgaard is west of you, and a heavily guarded
+checkpoint is east.  A beautiful grove of trees is north, and a dirt path 
+wanders off to the south.
+~
+0 0 city
+D0
+You see a beautiful, shady grove -- it looks like a peaceful place to relax.
+~
+~
+Z -1 8950
+0 0
+D1
+The road continues west towards a guarded checkpoint.
+~
+~
+Z -1 3527
+0 0
+D2
+A dirt path leads to the gnome village.
+~
+~
+Z -1 1501
+0 0
+D3
+The road continues west towards midgaard.
+~
+~
+Z -1 3525
+0 0
+S
+#3527
+{&The {5C{%h{5eckp{%o{5int{x~
+You are met by a group of heavily armored knights.  They check you over
+for contraband, and then allow you to pass on.  One of the knights cautions to
+not stray into the desert, lest you lose your way.
+~
+0 0 city
+D1
+The continues east towards New Thalos.
+~
+~
+Z -1 3528
+0 0
+D3
+The road continues west towards midgaard.
+~
+~
+Z -1 3526
+0 0
+S
+#3528
+{#A{3long {#t{3he {2Eastern Road{x~
+You are walking along a well-travelled road, just east of a heavily
+guarded checkpoint.  You have covered about half the distance between the
+city of Midgaard and New Thalos.  The air is getting drier and the heat more
+oppressive as you near the the barren wastes of the Sands of Sorrow.  A
+small gate is to the north, beyond which a path leads towards some worn
+buildings.  
+~
+0 0 city
+E
+north~
+{gYou see a small pathway leading through some bushes here.
+{x
+~
+D1
+The road continues ahead, growing more arid as you near the desert.
+~
+~
+Z -1 3529
+0 0
+D3
+You see a heavily guarded checkpoint to the west.
+~
+~
+Z -1 3527
+0 0
+S
+#3529
+{#A{3long {#t{3he {2Eastern Road{x~
+The tempatures are climbing as you near the Sands of Sorrow, a barren
+wasteland blasted by arcane powers.  Ahead of you, the road is partially
+buried by the creeping sands, and the air grows even hotter.
+~
+0 0 city
+D1
+You see the Sands of Sorrow spilling over the road.
+~
+~
+Z -1 3530
+0 0
+D3
+The road continues to the west, towards distant Midgaard.
+~
+~
+Z -1 3528
+0 0
+S
+#3530
+{&Near the {#Sands of Sorrow{x~
+The eastern road is losing ground to the creeping desert here.  You stagger
+in the growing heat, and wonder if you have enough water.  The endless waste
+of the Sands of Sorrows is south, and the road continues east and west.  The 
+sun paints illusions at the edge of your vision, one of them looks like a far 
+off city...
+~
+0 0 desert
+D1
+The road ahead is almost lost in the desert.
+~
+~
+Z -1 3531
+0 0
+D3
+You see a clearer section of road. 
+~
+~
+Z -1 3529
+0 0
+S
+#3531
+{&Near the {#Sands of Sorrow{x~
+The road is almost completely swallowed by the desert here.  The heat is
+sucking the life from your body, you wonder if it will ever end.  To your
+south, the Sands of Sorrow stretch on for miles, and to the east you think
+you see the towers of a magnificent city...or is it just a mirage?
+~
+0 0 desert
+D0
+~
+~
+Z 0 3585
+0 0
+D1
+You can barely make out enough road to follow.
+~
+~
+Z -1 3532
+0 0
+D3
+The desert thins a little to the west.
+~
+~
+Z -1 3530
+0 0
+S
+#3532
+{&On the {^O{6utskirts {&of {^N{6ew {^T{6halos{x~
+The sun is hot enough to melt your armor, but salvation is at hand.  To the
+east, you see the mighty gates of New Thalos, one of the most prosperous cities
+of all of Muddy.  To the south, you see the endless wasteland of the Sands
+of Sorrows, and to the west you can barely make out a faint, but well-used,
+road leading to the City of Midgaard. 
+~
+0 0 desert
+D1
+You see the west gate of New Thalos.
+~
+~
+Z -1 9669
+0 0
+D3
+You see the road to Midgaard, covered with sand.
+~
+~
+Z -1 3531
+0 0
+S
+#3539
+~
+~
+0 0 inside
+D1
+~
+~
+Z 0 2534
+0 0
+S
+#3550
+At The Foot of The Mountains~
+You find yourself at the foot of the mountains, where it is much to steep
+to continue north or east.  You see the lush, green forest of Miden'nir to the
+south and west.
+~
+0 0 mountain
+D2
+The forest of Miden'nir spreads out before you.
+~
+~
+Z -1 3512
+0 0
+D3
+The forest of Miden'nir spreads out before you.
+~
+~
+Z -1 3506
+0 0
+S
+#3551
+The Deep in the Forest of Miden'nir~
+The branches above you block out all direct sunlight, making the forest
+in this area very dark.  The forest continues west, but mountains block
+further exploration in all other directions, except south, where you notice a
+small tunnel dug into the mountainside.
+~
+0 A forest
+D2
+~
+~
+Z -1 3552
+0 0
+D3
+~
+~
+Z -1 3523
+0 0
+S
+#3552
+A Tunnel in the Mountains~
+The walls of this tunnel were carved out many years ago by the goblins of
+this forest.  The floor is well worn, and continues south, into the
+mountain, or back north out into the forest.
+~
+0 A city
+D0
+Outside, you see the forest of Miden'nir.
+~
+~
+Z -1 3551
+0 0
+D2
+The tunnel continues to the south.
+~
+~
+Z -1 3553
+0 0
+S
+#3553
+A Tunnel in the Mountains~
+The tunnel gets lighter to the north, presumably leading out, while to
+the south the passage gets smaller and smaller.  A small alcove has been
+carved into the east wall.
+~
+0 A city
+D0
+The tunnel gets wider in this direction.
+~
+~
+Z -1 3552
+0 0
+D1
+You see a small alcove.
+~
+~
+Z -1 3554
+0 0
+D2
+The tunnel gets smaller in this direction.
+~
+~
+Z -1 3555
+0 0
+S
+#3554
+A Small Alcove~
+A small alcove has been carved out here.  There are a bunch of twigs
+and leaves thrown into a pile here, probably serving as a bed.
+~
+0 A city
+E
+twigs leaves bead~
+The twigs and leaves have all been piled together as a makeshift bed for
+some small humanoid.
+~
+D3
+You see the main passageway.
+~
+~
+Z -1 3553
+0 0
+S
+#3555
+A Tunnel in the Mountains~
+As you explore further into the mountainside, the tunnel gets smaller and
+smaller to the south.  You almost have to hunch over to make your way thru
+this area.  A small archway to the south leads into a large chamber.
+~
+0 A city
+D0
+The tunnel continues north.
+~
+~
+Z -1 3553
+0 0
+D2
+You see a small cavern.
+~
+~
+Z -1 3556
+0 0
+S
+#3556
+The Goblin Headquarters~
+The tunnel widens into a large (well, large for goblins) cavern that
+serves as the living quarters for the goblins of Miden'nir.  The bones of
+numbers woodland creatures are strewn about the room, the remanents of a
+recent meal.
+~
+0 A city
+D0
+The tunnel heads north.
+~
+~
+Z -1 3555
+0 0
+D4
+~
+~
+Z 0 29001
+0 0
+S
+#3570
+The Front of the Inn~
+You are standing on a well-worn path which opens into a clearing.
+An old, wooden building is here with smoke billowing from its
+chimney. A painted sign is visible on the porch to the west. You
+could go north or south around the building or leave this place and
+return to the forest.
+~
+0 0 forest
+E
+credits credit author~
++-------------------------------------------------+
+| This zone originally written for Copper II DIKU |
+|   by ?                                          |
+| Modification and alterations for MERCmud DIKU   |
+|   by VampLestat                        1 JAN 93 |
++-------------------------------------------------+
+~
+E
+sign~
+The sign reads:
+   The Woodsman
+~
+D0
+You can go north around the inn.
+~
+~
+Z 0 3571
+0 0
+D1
+Back through the trees to the Miden'nir.
+~
+~
+Z 0 3505
+0 0
+D2
+You can go south around the inn.
+~
+~
+Z 0 3572
+0 0
+D3
+The front door of the inn beckons.
+~
+~
+Z 0 3574
+0 0
+S
+#3571
+North of the Inn~
+You are standing north of the inn. Things don't look much different
+from this angle.  The air here is filled with smells of smoke and cooking.
+South, the front porch is waiting for you... or you can see if there is
+a back door.
+~
+0 0 forest
+D2
+You see the front of the Inn.
+~
+~
+Z -1 3570
+0 0
+S
+#3572
+South of the Inn~
+You are standing south of the inn.  You could easily go north and enter
+through the front door, or west and to the rear of the establishment.  You
+here some muffled cries from a tiny trail leading south of here.
+~
+0 0 forest
+D0
+This way leads to the front of the inn.
+~
+~
+Z 0 3570
+0 0
+D2
+The trail heads south.
+~
+~
+Z 0 3575
+0 0
+D3
+This way leads to the back of the inn.
+~
+~
+Z 0 3573
+0 0
+S
+#3573
+Behind the Inn~
+You now stand behind the inn. The smell here is not so pleasant as
+the keeper and his help throw a good deal of garbage here. A couple of
+piles of rubbish are to the west, but you will smell the worse for
+meddling there. As a clean alternative, you can go north or east around
+the inn.
+~
+0 0 forest
+D1
+You can go around the inn this way.
+~
+~
+Z 0 3572
+0 0
+D3
+Only rats and fool adventurers play in garbage.
+~
+~
+Z 0 3578
+0 0
+S
+#3574
+The Woodsman Inn~
+You are in the common room of the Woodsman Inn. A thin haze of smoke sits
+in the air here. The Inn is often empty, as the forest has become overrun by
+goblins as of late, and it is no longer safe in these parts. The bar is just
+north of here. If you'd rather have your own table, one is empty to the
+south.
+~
+0 CD city
+D0
+The bar is here, manned by the innkeeper.
+~
+~
+Z 0 3576
+0 0
+D1
+You can leave now and return to fresher air.
+~
+~
+Z 0 3570
+0 0
+D2
+An empty table is a rare commodity.
+~
+~
+Z 0 3579
+0 0
+D3
+~
+~
+Z 0 3577
+0 0
+S
+#3575
+The Ambush Point~
+This is a overgrown foot-trail south of the inn. It leads west, but you
+would be hard pressed to follow it far. A number of bushes are trampled on
+and some medium sized branches have been knocked down.  Obviously there has
+been a battle here rather recently.
+~
+0 0 forest
+D0
+The inn lies to the north.
+~
+~
+Z 0 3572
+0 0
+D3
+A trail thru the woods.
+~
+~
+Z 0 3581
+0 0
+S
+#3576
+The Bar~
+This is where people use to come and enjoy the food, drink and hospitality
+of the innkeeper, but as of late, he only serves the few adventurers that
+manage to survive a trip thru the forest. You can leave south and return to the
+common room.
+~
+0 0 city
+D2
+You may retreat south back to the common room.
+~
+~
+Z 0 3574
+0 0
+S
+#3577
+The Bard's Table~
+You are in a darker corner in the Inn.  A large round table with a few
+wooden chairs sits here.  There is a large stain on the table, the remnants
+of a spilled drink.
+~
+0 D city
+D1
+You see the main floor of the Inn to the east.
+~
+~
+Z 0 3574
+0 0
+S
+#3578
+Garbage dump~
+You stand knee deep in garbage.  YECCH!!! It smells terrible and who knows
+what vermin live in these piles of filth ...
+~
+0 0 forest
+D1
+You can return to cleaner lands this way.
+~
+~
+Z 0 3573
+0 0
+S
+#3579
+A Quieter Section of the Inn~
+There seems to be no one in this end of the Woodsman, probably a safe place
+to rest and lick your wounds ...
+~
+0 D inside
+D0
+You see the common room.
+~
+~
+Z 0 3574
+0 0
+S
+#3581
+On the Trail of the Horsemen~
+The path continues east and west of here.  You notice fresh tracks in
+the soft ground that show the horsemen fled to the west.
+~
+0 0 forest
+D1
+Back to ambush point.
+~
+~
+Z 0 3575
+0 0
+D3
+The trail continues.
+~
+~
+Z -1 3582
+0 0
+S
+#3582
+On the Trail of the Horsemen~
+The path continues east and south.  You notice fresh tracks in
+the soft ground that show the horsemen turned, and fled south.
+~
+0 0 forest
+D1
+The trail continues.
+~
+~
+Z 0 3581
+0 0
+D2
+The tracks lead south.
+~
+~
+Z -1 3583
+0 0
+S
+#3583
+On the Trail of the Horsemen~
+The trail of the horsemen continues east and north along this path through
+the forest.  The tracks are still fresh, so they must be near.
+~
+0 0 forest
+D0
+The trail continues.
+~
+~
+Z -1 3582
+0 0
+D3
+The tracks lead east.
+~
+~
+Z -1 3584
+0 0
+S
+#3584
+A Dead End Trail~
+The path comes to an abrupt end here, as the trees close around you and
+make any further exploration impossible.  Fresh tracks cover the ground, and
+end right here.  The horsemen must be nearby.
+~
+0 0 forest
+D1
+Back to along the trail.
+~
+~
+Z 0 3583
+0 0
+S
+#3585
+A Jagged Rocky Path~
+You step onto a path of jagged and sharp rocks.  You make your way along
+the path to the north where the foliage seems to get less and less abundant.
+You notice the surrounding {GGreenery{x seems to be dieing off and turning
+{yBrown{x and {DBlack{x.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 3586
+0 0
+D2
+~
+~
+Z 0 3531
+0 0
+S
+#3586
+A Jagged Rock Path~
+You step onto a path of jagged and sharp rocks.  You make your way along
+the path to the north where the foliage seems to get less and less abundant.
+You notice the surrounding {GGreenery{x seems to be dieing off and turning
+{yBrown{x and {DBlack.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 3587
+0 0
+D2
+~
+~
+Z 0 3585
+0 0
+S
+#3587
+A Jagged Rock Path~
+You step onto a path of jagged and sharp rocks.  You make your way along
+the path to the north where the foliage seems to get less and less abundant.
+You notice the surrounding {GGreenery{x seems to be dieing off and turning
+{yBrown{x and {DBlack.{x
+~
+0 0 inside
+D0
+~
+~
+Z 0 3588
+0 0
+D2
+~
+~
+Z 0 3586
+0 0
+S
+#3588
+A Jagged Rock Path~
+You step onto a path of jagged and sharp rocks.  You make your way along
+the path to the north where the foliage seems to get less and less abundant.
+You notice the surrounding {GGreenery{x seems to be dieing off and turning
+{yBrown{x and {DBlack.  {x To the east you notice the path turns and heads
+along a more Grizzly path, one of Carnage and Destruction.
+~
+0 0 inside
+D1
+~
+~
+Z 0 98700
+0 0
+D2
+~
+~
+Z 0 3587
+0 0
+S
+#0
+
+#SPECIALS
+M 3500 spec_poison	* the wyvern
+S
+
+#RESETS
+M 0 3501 10 3506 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3074 0 7		*	a long scale mail skirt: on the legs
+M 0 3501 10 3509 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+M 0 3501 8 3512 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3045 0 5		*	a {&scale mail {#jacket{x: on the body
+M 0 3501 10 3512 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3502 0 6		*	a black horned helmet: over the head
+E 0 3075 0 8		*	a pair of reinforced boots: on the feet
+M 0 3501 10 3513 2	* the goblin (The Miden'nir)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3077 0 10		*	a pair of scale mail sleeves: on the arms
+M 0 3500 2 3521 2	* the wyvern (Carnage)
+M 0 3500 2 3521 2	* the wyvern (Carnage)
+M 0 3506 4 3551 2	* the goblin lieutenant (The Deep in the Forest of Miden'nir)
+E 0 3502 0 6		*	a black horned helmet: over the head
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+M 0 3501 10 3556 2	* the goblin (The Goblin Headquarters)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3076 0 9		*	a pair of reinforced gloves: on the hands
+M 0 3506 4 3556 2	* the goblin lieutenant (The Goblin Headquarters)
+E 0 3500 0 16		*	a goblin's short sword: wielded
+E 0 3502 0 6		*	a black horned helmet: over the head
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+M 0 3507 1 3556 1	* the goblin leader (The Goblin Headquarters)
+E 0 3072 0 5		*	a scale mail jerkin: on the body
+E 0 3501 0 16		*	a long spear: wielded
+E 0 3502 0 6		*	a black horned helmet: over the head
+M 0 3502 1 3575 1	* the small boy (The Ambush Point)
+M 0 3503 1 3576 1	* the Innkeeper (The Bar)
+M 0 3504 1 3577 1	* the bard (The Bard's Table)
+E 0 3505 0 16		*	a rune-covered knife: wielded
+M 0 3505 4 3583 2	* the dark horseman (On the Trail of the Horsemen)
+E 0 3503 0 3		*	a stained travelling cloak: around the neck (1)
+E 0 3022 0 16		*	a long sword: wielded
+M 0 3505 4 3584 2	* the dark horseman (A Dead End Trail)
+E 0 3504 0 14		*	an enchanted leather bracer: on the left wrist
+E 0 3022 0 16		*	a long sword: wielded
+S
+
+#$

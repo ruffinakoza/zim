@@ -1,0 +1,303 @@
+#AREADATA
+Name Nouflic house~
+Builders sadin~
+VNUMs 100951 100970
+Credits Sadin~
+Security 9
+LevelRange 1 91
+Flags noquest playerhouse~
+End
+
+#MOBILES
+#100951
+hulking ominous imp~
+A hulking ominous imp~
+A giant hunchback monster is here.
+~
+A giant hunchback monster is here, with red pinpoints of light for eyes
+and long spindley hands full of blood red nails.  It's spine portrays spikes
+as if from an iguana, it has a tail of a scorpion, and its skin is
+reptilian, and blacked and the scales are miniscule.  
+~
+undead~
+ABef x -1000 0
+91 91 465d91+0 910d11+95 40d2+70 none
+-56 -56 -56 -37
+CEIJNQ 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F aff F
+M greet 100951 100~
+#0
+
+#OBJECTS
+#100951
+crunchy spider~
+A crunchy spider~
+A plump spider with a hard shell is resting on the floor here.~
+flesh~
+~
+food 0 A
+CE AC 0 0 0 CE AC
+0 20 211 P
+G none
+G none
+G none
+G none
+#100952
+fountain symbol~
+the fountain~
+This fountain looks polluted, however one can detect that it is water that has not been poisoned.....~
+stone~
+~
+fountain A 0
+-1 -1 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100953
+bed death~
+Nouflic's Bed of Death~
+Before you stands the most grotesque thing you have ever seen, a monstrous bed that seems to be made out of the innards of thousands of creatures, burned into the side of the bed you see the words "Nouflic's Bed of Death".~
+unknown~
+Bones~
+furniture B 0
+AC EGIJOP EHK BCEH BCEH AC EGIJOP
+0 0 0 P
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100951
+Northwest Room of The House of Death~
+Littered around the room are mangled and dismembered bodies of many
+races, monsters, and animals, they seem to have been collected for dark
+purposes, most likely necromantic research.  
+~
+0 D inside
+D1
+~
+~
+Z 0 100952
+0 0
+D2
+~
+~
+Z 0 100956
+0 0
+S
+#100952
+Northern Room of the House of Death~
+A great bookshelve is here, "How to Raise from Death", "Of the
+Fragileness of the Body", and "Why the Imps are not Worthy of Trust", and
+"Pain, Death, and Agony" are the titles seen if you scan the bookshelf.  
+~
+0 D inside
+D1
+~
+~
+Z 0 100953
+0 0
+D2
+~
+~
+Z 0 100955
+0 0
+D3
+~
+~
+Z 0 100951
+0 0
+S
+#100953
+Northeast Room of the House of Death~
+You see nothing but cobwebs, and many thousands of spiders line the walls
+as a blanket of darkness here.  
+~
+0 D inside
+D2
+~
+~
+Z 0 100954
+0 0
+D3
+~
+~
+Z 0 100952
+0 0
+S
+#100954
+Eastern Room of The House of Death~
+You hear many small ticking noises in the room north of you.  A lone
+symbol is etched on the wall here, it is unintelligible to you, and you
+think it may have been written in human or elven blood....  Speaking of
+blood a strange thin red liquid pours from the symbol into the floor below. 
+
+~
+0 D inside
+D0
+~
+~
+Z 0 100953
+0 0
+D2
+~
+~
+Z 0 100959
+0 0
+D3
+~
+~
+Z 0 100955
+0 0
+S
+#100955
+Middle Room of The House of Death~
+There is nothing here, but a little sewer grate covering a sewer hole and
+a broken lamp hanging from the ceiling.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100952
+0 0
+D1
+~
+~
+Z 0 100954
+0 0
+D2
+~
+~
+Z 0 100958
+0 0
+D3
+~
+~
+Z 0 100956
+0 0
+S
+#100956
+Western Room in the House of Death~
+The smell of rotting flesh hovers in this room, don't get nauseous....  
+~
+0 D inside
+D0
+~
+~
+Z 0 100951
+0 0
+D1
+~
+~
+Z 0 100955
+0 0
+D2
+~
+~
+Z 0 100957
+0 0
+S
+#100957
+Southwest Room of the House of Death~
+Trash and various objects of zull value are strewn about the floor, as if
+a rageful demon made of garbage had entered here and had melted on the
+floor.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100956
+0 0
+D1
+~
+~
+Z 0 100958
+0 0
+S
+#100958
+Entrance Hall to the House of Death~
+There is no welcome mat for you, there is no one and nothing to greet
+you.  Watch your step.  Also do not get creeped out....  
+~
+0 D inside
+D0
+~
+~
+Z 0 100955
+0 0
+D1
+~
+~
+Z 0 100959
+0 0
+D2
+~
+~
+Z 0 100960
+0 0
+D3
+~
+~
+Z 0 100957
+0 0
+S
+#100959
+Southeast Room in the House of Death~
+The only warm room in this place, it has a large number of bones and
+random body parts, and it seems that the imprint of someone's body is on
+this Bed of Death.  
+~
+0 D inside
+D0
+~
+~
+Z 0 100954
+0 0
+D3
+~
+~
+Z 0 100958
+0 0
+S
+#100960
+A tunnel into Nouflic's House of Death~
+A giant bent over creature is here, you can actually feel its evilness, like a prick on your neck.
+~
+0 D inside
+D0
+~
+~
+Z 0 100958
+0 0
+D2
+~
+~
+Z 0 3314
+0 0
+S
+#0
+
+#RESETS
+O 0 100951 0 100953	* A crunchy spider (Northeast Room of the House of Death)
+O 0 100952 0 100954	* the fountain (Eastern Room of The House of Death)
+O 0 100953 0 100959	* Nouflic's Bed of Death (Southeast Room in the House of Death)
+M 0 100951 1 100960 1	* A hulking ominous imp (A tunnel into Nouflic's House of Death)
+S
+
+#MOBPROGS
+#100951
+say Welcome, Lost Soul, to Nouflic's House of Death
+tell nouflic $n has entered your house, Master Nouflic!
+~
+#0
+
+#$

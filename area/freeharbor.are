@@ -1,0 +1,3034 @@
+#AREADATA
+Name Freeport Harbor~
+Builders sadin~
+VNUMs 110300 110399
+Credits Sadin~
+Security 9
+LevelRange 30 91
+ResetMessage The ringing of a large brass bell echoes across the harbor, marking the start of a new day.~
+End
+
+#MOBILES
+#110300
+gull sea seagull bird white small~
+a seagull~
+A small white bird, flies nearby.
+~
+This bird seems to hug the shores, looking for food from passing ships
+from the channel.  
+~
+song bird~
+ACHWi t 0 0
+27 27 46d27+0 135d10+85 9d3+18 none
+-8 -8 -8 -2
+0 R 0 H
+stand stand either 0
+0 0 large flesh~
+~
+#110301
+captian harbor guard nydoannor patrol~
+Nydoannor~
+The captain of the Harbor Patrol sits at his desk.
+~
+Nydoannor is a water elemental, making him the perfect Captian, since he
+can travel easily in the harbor without waiting for a boat.  He face is kind
+yet his eyes glowing a warning that violence shall not be allowed.  
+~
+water elemental~
+ABT Ncw 600 0
+75 75 315d75+0 375d10+85 25d3+42 none
+-41 -41 -41 -25
+DEFIKNO 0 0 0
+stand stand male 1240
+0 X medium flesh~
+~
+F attr+ E
+#110302
+harbor patrol guard~
+the Harbor Patrol guard~
+One of the patrol guards eyes the ships for illegal activity.
+~
+The guard seem very intent making sure Freeport is safe from violence. 
+The guard seems well trained and able to stop most criminal from doing much
+damage.  
+~
+human~
+ABT N 300 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+EFIK 0 0 0
+stand stand either 500
+0 0 medium flesh~
+~
+#110303
+harbor patrol guard~
+the Harbor Patrol guard~
+One of the patrol guards eyes the ships for illegal activity.
+~
+The guard seem very intent making sure Freeport is safe from violence. 
+The guard seems well trained and able to stop most criminal from doing much
+damage.  
+~
+elf~
+ABT N 600 0
+42 42 127d42+0 210d10+85 14d3+26 none
+-19 -19 -19 -10
+CDIN 0 0 0
+stand stand either 500
+0 0 medium flesh~
+~
+#110304
+harbor patrol guard~
+the Harbor Patrol guard~
+One of the patrol guards eyes the ships for illegal activity.
+~
+The guard seem very intent making sure Freeport is safe from violence. 
+The guard seems well trained and able to stop most criminal from doing much
+damage.  
+~
+arial~
+AT N 600 0
+46 46 150d46+0 230d10+85 15d3+28 none
+-21 -21 -21 -12
+0 0 0 0
+stand stand either 500
+0 0 medium flesh~
+~
+#110305
+fish gutter frost giant burly female fish-gutter cleaner~
+the fish cleaner~
+A burly looking female is here, gutting and cleaning the fish.
+~
+This frost giant is well suited to work in the ice filled room, cleaning
+and sorting the fish for sale at the local market.  
+~
+frost giant~
+AB U 0 0
+55 55 231d55+0 550d11+95 19d2+44 none
+-30 -30 -30 -19
+CDIKO 0 0 0
+stand stand female 0
+0 0 large flesh~
+~
+#110306
+harbor patrol guard~
+the Harbor Patrol guard~
+A harbor patrol guards is taking a short break, resting at the table.
+~
+The guard seem very intent making sure Freeport is safe from violence. 
+The guard seems well trained and able to stop most crimainal from doing much
+damage.  
+~
+dwarf~
+ABT N 200 0
+44 44 139d44+0 220d10+85 14d3+27 none
+-20 -20 -20 -11
+CDIO 0 0 0
+stand stand either 500
+0 0 medium flesh~
+~
+#110307
+local boy fishing~
+a local boy~
+One of the local schoolboys is playing hooky, fishing on the side of the channel.
+~
+A small and dirty boy glances at you and waves.
+~
+human~
+ABCS 0 0 0
+32 32 71d32+0 160d10+85 10d3+21 none
+-11 -11 -11 -5
+IJN 0 0 0
+stand stand male 4
+0 0 medium flesh~
+~
+#110308
+moemas captain half-elf elf~
+Moemas~
+The captian of the Alaxis sit at the table, plotting her next fishing trip.
+~
+Moemas took over the family fishing trade after Lord Mouning killed her
+father.  She seems quite able to care for herself and her ship.  
+~
+half-elf~
+AB FHN 150 0
+87 87 383d87+5000 435d10+85 29d3+48 none
+-49 -49 -49 -31
+HIN 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#110309
+pet furry cat tabby girl female yellow~
+the ships cat~
+A {yyellow{x and {Wwhite{x striped cat sleeps in the sunlight.
+~
+This furry little cat looks quite comfy dozing in the warm sunlight.  
+~
+cat~
+ABCYij P 0 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+0 Q I H
+stand stand female 0
+0 0 medium flesh~
+~
+#110310
+bear grizzly huge scary large~
+a black grizzly bear~
+A large and scary looking black bear lumbers toward you.
+~
+This large and scary looking bear(a grizzly, according to a nearby sign)
+look unhappy you are here.  
+~
+bear~
+ABHYj ai 0 0
+55 55 201d55+0 275d10+85 18d3+32 none
+-27 -27 -27 -16
+CR 0 0 H
+stand stand either 0
+0 0 medium flesh~
+~
+#110311
+giant boa snake large~
+a boa~
+A large snake is hiding in the grasses.
+~
+A giant snake, capable of crush you to death stares at you with
+unblinking eyes.  
+~
+snake~
+ABCF Pces -150 0
+75 120 315d75+0 375d10+85 25d5+100 none
+-41 -41 -41 -25
+FHMO 0 0 0
+stand stand either 0
+0 0 large flesh~
+~
+#110312
+sleeping guard kobald lazy snoring male ugly~
+the sleepy guard~
+A ugly kobald is here guarding the pirates treasure, rather poorly however.
+~
+The lazy guard is sleeping on the job, maybe you can steal some of the
+loot without waking him up.  
+~
+kobold~
+ABH I -500 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+EFHINU 0 0 0
+sleep sleep male 500
+0 0 medium flesh~
+~
+#110313
+pirate fishing resting~
+a pirate~
+A pirate is here fishing.
+~
+This pirate has been granted some time off from work, and is having a
+good time fishing; until you disturbed him.  
+~
+human~
+AB 0 -400 0
+45 60 144d45+0 225d10+85 15d3+27 none
+-21 -21 -21 -11
+INV 0 J Q
+stand stand male 845
+0 0 medium flesh~
+~
+#110314
+ghost woman beautiful young~
+the {CGhost{x of the Mourning Star~
+A beautiful young woman looks out over the bow, lost in her own thoughts.
+~
+This young woman was once a captive of the pirates, killed in a horriable
+way.  Now her ghost wanders the ship waiting for her revenge to come true.  
+~
+ghost~
+ABj U -1000 0
+75 75 315d75+5000 375d10+85 25d3+42 none
+-41 -41 -41 -25
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+#110315
+watchman lookout point dwarf rockseer~
+the lookout point guard~
+A greyish dwarf rests against a large boulder, tending the fire.
+~
+This dwarf, charged with keeping the fire bright and glowing, appears to be one with the boulder.
+~
+rockseer~
+ABT w 0 0
+65 65 258d65+7000 325d10+85 21d3+37 none
+-34 -34 -34 -20
+CDEI 0 E 0
+stand stand male 100
+0 0 medium flesh~
+~
+#110316
+pirate lord first dreaded red-fang githyanki~
+Red-Fang~
+The dreaded 1st Pirate Lord is here, plotting his next plunder.
+~
+The 1st Pirate Lord, Red-Fang, is a unnatural being; a Githyanaki.  He is
+supposed to be able to poison his victims while acid flows from his bite. 
+Might wish to let him alone.  
+~
+githyanki~
+AB Ou -1000 0
+96 91 405d91+10000 455d10+85 32d5+95 none
+-52 -52 -52 -33
+CDEFIJKN L Q 0
+stand stand male 262
+0 0 medium flesh~
+~
+#110317
+first mate troll astash ugly~
+Astash~
+Red-Fang's first mate stands here, overseeing the crew.
+~
+This ugly troll answers only to Red-Fang, and no other pirate dares challenge her for power.
+~
+troll~
+AB x -760 0
+85 85 371d85+2500 425d10+85 28d3+47 none
+-48 -48 -48 -30
+CIJNOW 0 0 0
+stand stand female 500
+0 0 medium flesh~
+~
+#110318
+shark shape dark large~
+a flesh-eating {Dshark{x~
+A {Ddark{x shape swims rapidly toward you, {Wteeth {Cgleaming{x in the light.
+~
+This sharks look rather hungry, and you get to be the main course.
+~
+fish~
+A Z 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand either 0
+0 0 medium flesh~
+~
+#110319
+zsazsa gnome shopkeeper little cute~
+ZsaZsa~
+A cute little gnome rushes about the shop, trying to help everyone at once.
+~
+Although this gnome looks rather small, she seems to hold some inner
+power.  She also seems to remind you of someone, but you can't quite place
+who.  
+~
+gnome~
+ABe H 0 0
+110 110 589d110+30000 1100d11+95 37d2+80 none
+-69 -69 -69 -47
+IJN CU 0 0
+stand stand female 5000
+0 0 large flesh~
+~
+#110320
+plumpy fat man male~
+Plumpy~
+A rather large half-elf is sobbing behind the counter.
+~
+Plumpy is staring at a letter in his hand and sobbing, and does not even seem to notice you arrival.
+~
+half-elf~
+AB Xw 400 0
+80 80 343d80+0 400d10+85 26d3+45 none
+-44 -44 -44 -28
+CIN 0 0 0
+stand stand male 5
+0 0 medium flesh~
+~
+#110321
+astaen drow male samurai elf~
+Astaen~
+A dark skinned elf watches you with slanted eyes.
+~
+This powerful looking drow, unlike most of his kin, has made a point to remain neutral in his beliefs to help better his shop.  Don't be fooled however, he can still slice you to ribbons at will.
+~
+drow~
+ABT 0 0 0
+110 110 589d110+25000 1100d11+95 40d5+110 none
+-69 -69 -69 -47
+DEFIKN 0 0 0
+stand stand male 2500
+0 0 medium flesh~
+~
+#110322
+cigolin dwarf stout powerful~
+Cigolin~
+A stout looking dwarf waddles around, keeping an eye on all his goods.
+~
+~
+dwarf~
+ABT w 300 0
+95 95 428d95+0 475d10+85 31d3+52 none
+-54 -54 -54 -35
+CFIJKNO 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#110323
+dwarf guard lone bored~
+a dwarf guard~
+A dwarf wanders about the room, looking bored.
+~
+This bored looking dwarf has locked all the items up, to help make his job easier.  Too bad for you.
+~
+dwarf~
+ABT 0 -200 0
+50 50 173d50+0 250d10+85 16d3+30 none
+-24 -24 -24 -14
+CIO 0 0 0
+stand stand male 1200
+0 0 medium flesh~
+~
+#110329
+small boy frantic running confused~
+a small boy~
+A small boy appears to be searching for somehthing.
+~
+This small boy is frantic, he appears to have lost something of great
+value.  Maybe if you ask him "Do you need some help?"  He can explain his
+problem to you.  
+~
+human~
+AB w 0 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+FHI 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#110330
+tired sailor resting sleeping form~
+a tired sailor~
+A sleeping form lies on a rumpled bed.
+~
+After a hard days labor, this sailor is getting some badly needed rest.  
+~
+half-elf~
+AB PZ -50 0
+60 60 230d60+0 300d10+85 20d3+35 none
+-30 -30 -30 -18
+EIN 0 0 0
+sleep sleep either 200
+0 0 medium flesh~
+~
+#110331
+wisp-o-willy willy mist floating colored colorful cloud~
+a {GWisp{x-{DO{x-{BWilly{x~
+A {GMu{Blti{x-{RCol{Wored{x mist hover here.
+~
+This colorful looking cloud of mist seems to follow you about the room,
+as if it is testing your defences.  
+~
+ghost~
+ABf HUVZ 0 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+FH T ABC 0
+stand stand none 3749
+CIL 0 medium flesh~
+~
+F attr+ B
+F vul N
+F for MV
+#110332
+ancient silver dragon huge~
+an ancient {Csilver{x dragon~
+A huge {Csilver{x dragon peers at you, wondering how dumb you really are.
+~
+This massive dragon has been wondering Thera long before you, or even before your grandparents, were even born.  It might be your wisest choice to just leave it in peace, lest you die a rather quick death.
+~
+silver dragon~
+AB PUZcw 0 0
+110 110 589d110+30000 1100d11+95 37d2+80 none
+-69 -69 -69 -47
+ACDEFHIMNO A C 0
+stand stand female 4000
+0 0 gargantuan flesh~
+~
+F attr+ AB
+#110333
+elf cleric solem wise holy father priesthood hood priest~
+a {Choly{x father~
+A solem cleric stands here, staring out over the desert.
+~
+The slender looking elf has set up a small camp here, and beckons you over as you approach.
+~
+elf~
+ABQe DFHNTU 1000 0
+106 106 490d106+0 530d10+85 35d3+58 none
+-62 -62 -62 -39
+FIJN A 0 0
+stand stand male 1000
+0 0 medium flesh~
+~
+#0
+
+#OBJECTS
+#110300
+alaxis fishing vessel boat~
+the Alaxis~
+The Alaxis, a great fishing vessel, float just offshore.~
+wood~
+~
+portal RY 0
+0 0 A 110310 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110301
+a fish tasty yummy~
+a tasty fish~
+A yummy looking fish lies here.~
+flesh~
+~
+food 0 A
+ABC AB 0 0 0 ABC AB
+0 2 71 P
+G none
+G none
+G none
+G none
+#110302
+a fish tasty yummy~
+a tasty fish~
+A yummy looking fish lies here.~
+flesh~
+~
+food 0 A
+ABC AB 0 A 0 ABC AB
+0 2 77 P
+G none
+G none
+G none
+G none
+#110303
+vessel ship mourning star pirate~
+The Mourning Star~
+The vessel, Mourning Star, floats gently on the water. ~
+wood~
+~
+portal 0 0
+0 0 A 110328 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110304
+door cage cages~
+the cages~
+The door to the cages is unlocked if you wish to enter them.~
+metal~
+~
+portal R 0
+0 A A 110337 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110305
+liquid sword clear water blade waterblade~
+the {CWater{Dblade{x~
+A clear blade made of water, glimmers on the floor.~
+water~
+~
+weapon AKSij AN
+bastardsword 4 25 slash BF
+70 60 244574 P
+A
+3 1
+A
+20 -5
+A
+19 4
+G none
+G none
+G none
+G none
+#110306
+sword simple steel patrol~
+a steel longsword~
+A simple steel sword lies here.~
+steel~
+~
+weapon 0 AN
+longsword 4 11 stab D
+37 38 36222 P
+A
+18 3
+A
+19 3
+G none
+G none
+G none
+G none
+#110307
+guard axe steel patrol~
+a steel axe~
+A shiney steel axe leans on the wall.~
+steel~
+~
+weapon 0 AN
+axe 5 9 cleave E
+40 41 51254 P
+A
+5 1
+A
+19 3
+G none
+G none
+G none
+G none
+#110308
+green gem emerald pendant~
+a sparkling {Gemerald{x pendant~
+A bright {Ggreen{x stone hanging from a chain, lies on the ground.~
+emerald~
+~
+jewelry 0 AC
+0 0 0 0 0 0 0
+30 4 1000 P
+A
+18 1
+A
+2 2
+G none
+G none
+G none
+G none
+#110309
+fish-gutter ice covered blade jagged gutter~
+an {Cice{x covered fish gutter~
+A small but heavy jagged blade lies here, covered in ice and blood.~
+ice~
+~
+weapon S AN
+exotic 6 12 slice BF
+55 55 113749 P
+A
+19 3
+G none
+G none
+G none
+G none
+#110310
+sash enlightenment silk blue~
+Sash of {BE{cn{Bl{ci{Bg{ch{Bt{ce{Bn{cm{B{ce{bn{ct{x~
+A {Bblue{x silken sash emblazed with a flying fish hangs on a hook.~
+silk~
+~
+armor BS AL
+32 32 32 31 'none' 0
+80 5 238143 P
+A
+3 2
+A
+4 2
+A
+12 90
+G none
+G none
+G none
+G none
+#110311
+ship log alaxis small book~
+The Alaxis ships log~
+A small book, with the word ALAXIS on the spine, lies here.~
+paper~
+~
+trash 0 A
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110312
+barrel water clean~
+a barrel~
+A barrel filled with fresh clean water sits here.~
+wood~
+~
+fountain 0 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110313
+slab beef salted~
+a salted beef slab~
+A slab of beef is here, perserved in salt.~
+unknown~
+beef~
+food 0 A
+BC B 0 0 0 BC B
+0 2 70 P
+G none
+G none
+G none
+G none
+#110314
+snake skin cloak~
+Snake-Skin Cloak~
+A cloak made of sturdy scales lies rumpled on the ground.~
+unknown~
+Snake Skin~
+clothing MSYi AK
+ACDE ACDE ACDE CDE 0 ACDE ACDE
+80 20 247044 P
+A
+13 110
+A
+3 -1
+A
+5 1
+A
+12 -150
+A
+2 -1
+G none
+G none
+G none
+G none
+#110315
+treasure chest glowing large~
+a sturdy wooden chest~
+A {Yglowing{x chest sits in the center of the room.~
+wood~
+~
+container A 0
+700 ACD 110316 20 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110316
+small iron key rusty rusted~
+a rusty key~
+A small rusted key sits here.~
+iron~
+~
+key 0 A
+0 0 0 0 0 0 0
+0 2 0 P
+G none
+G none
+G none
+G none
+#110317
+humming {mmagenta{x potion speckled gold~
+a speckled potion~
+A vial filled with a {mmagenta{x liquid speckled with {Ygold{x flakes lies here.~
+unknown~
+liquid~
+potion BSTj A
+0 'sobriety' 'master healing' 'cure blindness' 'reserved'
+55 0 0 P
+G none
+G none
+G none
+G none
+#110318
+glossy armplates plates onyx black~
+Onyx Armplates~
+A pair of glossy black armplates hang here.~
+onyx~
+~
+armor CSY AI
+30 28 18 23 'none' 0
+65 40 191326 P
+A
+13 35
+A
+20 -6
+G none
+G none
+G none
+G none
+#110319
+crackling shortsword~
+a {CC{wr{Ca{wc{Ck{wl{Ci{wn{Cg{x Shortsword~
+A shortsword made of powerful energy, equipped with a wooden handle, sits here.~
+energy~
+~
+weapon ABSY AN
+shortsword 10 9 shock G
+100 30 215769 P
+A
+18 6
+A
+19 10
+G none
+G none
+G none
+G none
+#110320
+mithril chainmail shirt light~
+{CMithril{x Chainmail~
+A light-weight, yet very sturdy, chainmail shirt lies in a pile.~
+mithril~
+~
+armor Ih AD
+40 40 40 40 'none' 0
+100 10 2374679 P
+A
+18 6
+A
+2 2
+A
+14 75
+A
+17 -100
+G none
+G none
+G none
+G none
+#110321
+scroll earthern animal skin powers~
+a scroll of earthern powers~
+A scroll made of animal skin is here.~
+unknown~
+animal skin~
+scroll Y A
+40 'earthquake' 'iceball' 'chain lightning' 'create spring'
+70 3 13000 P
+G none
+G none
+G none
+G none
+#110322
+gauntlets striking pulsating gloves pair~
+{WGauntlets{x of {rStriking{x~
+A pulsating pair of gloves hover above the ground.~
+iron~
+~
+armor C AH
+38 38 38 37 'none' 0
+100 75 1448113 P
+A
+19 20
+A
+17 -25
+A
+1 4
+A
+18 -10
+G none
+G none
+G none
+G none
+#110323
+bamboo glowing staff wooden dark~
+a bamboo staff~
+A stout wooden staff {Yglows{x with a {Ddark{x power.~
+bamboo~
+~
+weapon ACJ AN
+staff 4 24 thwack CF
+75 25 150026 P
+A
+19 7
+A
+18 4
+G none
+G none
+G none
+G none
+#110324
+amulet trust confidence ruby red~
+Amulet of {CTrust{x and {GConfidence{x~
+An amulet, made of a silver, of a dragons claw grasping a large {Rruby{x sits here.~
+silver~
+~
+jewelry AI AC
+0 0 0 0 0 0 0
+60 0 0 P
+A
+13 25
+A
+17 -20
+A
+6 3
+G none
+G none
+G none
+G none
+#110325
+bonfire fire huge bright glowing~
+Lookout Point Bonfire.~
+The roaring fire warns ships of the point, ensuring no accidents happen.~
+fire~
+~
+light A 0
+-1
+0 0 0 P
+G none
+G none
+G none
+G none
+#110326
+skin animal pill flesh colored~
+a {cflesh{x colored pill~
+A pill made of various kinds of animal skin sits here.~
+flesh~
+~
+pill Y A
+40 'bone armor' 'stone skin' 'dragon skin' 'bark skin'
+80 1 95000 P
+G none
+G none
+G none
+G none
+#110327
+vial liquid gas multi-colored vaporized potion~
+a vaporized liquid~
+A vial of multi-colored gas and liquid floats here.~
+unknown~
+liquid~
+potion B A
+55 'gas breath' 'fire breath' 'frost breath' 'acid breath'
+91 0 750000 P
+G none
+G none
+G none
+G none
+#110328
+holy scroll glowing~
+a {Wholy{x scroll~
+A tightly rolled scroll {Yglows{x with a {Wbright{x light.~
+paper~
+~
+scroll AI A
+35 'protection negative' 'protection evil' 'detect evil' 'bless'
+70 2 60000 P
+G none
+G none
+G none
+G none
+#110329
+misty glowing staff~
+a {Cmisty{x staff~
+A {Yglowing{x staff of {Cmist{x leans on the wall.~
+unknown~
+mist~
+staff A AO
+20 10 10 'faerie fire'
+40 5 10000 P
+A
+20 -2
+A
+4 1
+A
+3 1
+G none
+G none
+G none
+G none
+#110330
+black wand glossy~
+a {Ddark{x glossy wand~
+A flowing wand seems to ripple with power.~
+water~
+~
+wand G AO
+30 5 5 'colour spray'
+60 2 45000 P
+G none
+G none
+G none
+G none
+#110331
+letter freeport business board offical looking folded~
+an offical looking letter~
+A neatly folded letter lies here, waiting to be read.~
+paper~
+~
+trash MS AO
+0 0 0 0 0 0 0
+0 1 0 P
+E
+letter~
+Dear Mr. Plumpy,
+ 
+This letter is to inform you that you food is unsuitable for sale to contamination.  Please destroy your entire stock, or you shall be arrested.
+ 
+Thank you,
+Freeport Business Board
+~
+G none
+G none
+G none
+G none
+#110332
+katana legendary sword~
+a {WLegendary Katana{x~
+A {Wkatana{x with ancient markings lies here forgotten.~
+steel~
+~
+weapon Bh AN
+katana 14 10 slash D
+106 30 5506074 P
+A
+18 19
+A
+19 19
+E
+katana~
+The letters 'Astaen' are carved onto the ivory handle.
+~
+G none
+G none
+G none
+G none
+#110333
+glaive double bladed curved~
+double-bladed glaive~
+A huge curved blade, sharpened on both sides, sit atop a stout wooden pole.~
+steel~
+~
+weapon 0 AN
+polearm 2 39 cleave EF
+50 80 115013 P
+A
+19 6
+G none
+G none
+G none
+G none
+#110334
+bone dragon hammer~
+a {DDragon {WBone{x Hammer~
+A highly polished {Wbone{x hammer lies on the ground, sucking life from all around it.~
+bone~
+~
+weapon C AN
+hammer 4 18 smash CH
+65 30 91451 P
+A
+19 2
+A
+18 2
+A
+13 30
+G none
+G none
+G none
+G none
+#110335
+bow red cupid heart carved~
+Cupids Bow~
+A ornately carved bow, covered in {Rred{x hearts, lies on the ground.~
+wood~
+~
+weapon ASY AN
+bow 4 19 blast F
+60 45 127457 P
+A
+19 2
+A
+6 1
+A
+2 1
+A
+18 6
+G none
+G none
+G none
+G none
+#110336
+ring protection golden~
+{YGolden{x Ring of {CProtection{x~
+A shiny {Ygolden{x rings lies in the dirt.~
+gold~
+~
+jewelry AY AB
+0 0 0 0 0 0 0
+50 2 80000 P
+A
+17 -50
+G none
+G none
+G none
+G none
+#110337
+wisp-o-willy essence light~
+{GWisp{x-{DO{x-{BWilly{x {CEssence{x~
+A {Csparkling{x misty light hovers above the ground.~
+unknown~
+mist~
+light A AO
+3000
+65 2 8261 P
+A
+19 6
+A
+13 50
+G none
+G none
+G none
+G none
+#110338
+sea turtle green hard shell dark shield~
+A {ggreen{x sea turtle shell~
+A dark shell of sea turtle rocks gently on the ground.~
+shell~
+~
+armor Ci AJ
+35 40 20 10 'none' 0
+80 70 413397 P
+A
+13 45
+A
+19 6
+A
+5 3
+A
+17 -30
+A
+14 -100
+G none
+G none
+G none
+G none
+#110339
+legplate dark plate onyx black glossy~
+{DOnyx{x Legplates~
+A pair of {Ddark glossy{x legplates shine in the dim light.~
+onyx~
+~
+armor C AF
+22 22 22 21 'none' 0
+60 50 187638 P
+A
+20 -5
+A
+19 6
+G none
+G none
+G none
+G none
+#110340
+ring protection golden~
+{WPlatinum{x Ring of {CProtection{x~
+A shiny {Wsilver{x rings lies in the dirt.~
+platinum~
+~
+jewelry AY AB
+0 0 0 0 0 0 0
+80 2 130000 P
+A
+20 -5
+A
+17 -76
+G none
+G none
+G none
+G none
+#110341
+two-handed handed huge copper axe~
+a huge two-handed {ycopper{x axe~
+A dull {ycopper{x axe sits on the ground.~
+copper~
+~
+weapon HY AN
+axe 2 36 cleave EF
+50 70 127103 P
+A
+19 5
+G none
+G none
+G none
+G none
+#110342
+pot hanging clad-iron black iron~
+a pot~
+An {Diron{x pot hangs over the fire.~
+iron~
+~
+container 0 0
+40 0 0 10 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110343
+stew warm tasty~
+warm stew~
+A serving of warm stew is here, filling the air with pleasant smells.~
+flesh~
+~
+food 0 0
+BD C 0 0 0 BD C
+0 2 100 P
+G none
+G none
+G none
+G none
+#110344
+wooden large chest dark aura~
+the {Dchest{x~
+A {Dwooden{x chest glows with a dark aura.~
+wood~
+~
+container C 0
+13000 ACD 110345 700 40 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110345
+shiny copper key~
+a {ycopper{x key~
+A shiny {ycopper{x keys sparkles in the sun.~
+copper~
+~
+key A A
+0 0 0 0 0 0 0
+0 1 0 P
+G none
+G none
+G none
+G none
+#110346
+pile gold coins~
+a pile of {Ygold{x coins~
+A pile of {Ygold{x coins beckons you to collect them.~
+gold~
+~
+money 0 A
+0 400
+0 0 0 P
+G none
+G none
+G none
+G none
+#110347
+peridot green pendant glowing~
+a {GPeridot{x pendant~
+A glowing {Ggreen{x pendant dangles from a simple silver chain.~
+unknown~
+peridot~
+jewelry FJSY AC
+0 0 0 0 0 0 0
+106 2 95000 P
+A
+20 -15
+A
+19 15
+A
+18 15
+A
+12 -200
+A
+13 -200
+G none
+G none
+G none
+G none
+#110348
+cloak shimmering~
+A shimmering cloak~
+~
+unknown~
+~
+armor 0 AC
+0 0 0 0 'none' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#110349
+robe holy white pure guardian~
+{WHoly{x Robe of the {BGuardian{x~
+A white robe, shimmering with holy power, lies on the ground.~
+unknown~
+~
+armor GISY AD
+33 33 33 32 'none' 0
+90 10 642165 P
+A
+13 -30
+A
+12 150
+A
+18 5
+A
+4 2
+G none
+G none
+G none
+G none
+#110350
+emerald green sparkling gem jewel~
+a {Csparkling {Gemerald{x~
+A large {Gemerald{x lies on the ground, reflecting the light.~
+emerald~
+~
+gem AG AO
+0 0 0 0 0 0 0
+65 2 1000 P
+A
+13 75
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#110300
+The Dragon Sea~
+The sea cover all you can see, although to the north you can just make
+out where it turns eastward into a large protected area near Freeport.  A
+large ship can be seen leaving a long channel before it turns northward and
+vanishes from sight.  
+~
+0 0 swim
+D0
+~
+~
+Z 0 110301
+0 0
+D2
+~
+~
+Z 0 9788
+0 0
+S
+#110301
+Inlet to the Harbor~
+The Dragon Sea starts to narrow into a long channel which leads into
+Freeport Harbor.  A large building that stretches over the channel, bearing
+the mark of Freeport, lies further ahead.  A small walking path runs
+parallel to the channel for the locals to stroll along.  Small shapes swim
+under the surface of the water, bobbing up once in a while to nibble on
+bugs.  
+~
+0 c swim
+D1
+~
+~
+Z 0 110302
+0 0
+D2
+~
+~
+Z 0 110300
+0 0
+S
+#110302
+Freeport Harbor Security Checkpoint~
+A large formal building towers over the channel, with a rope ladder
+leading down to a small dock along side the bank.  A large window facing
+toward the Dragon Sea allows the guards to watch all incoming ships.  As
+your vessel reaches the perimeter, a voice echoes down from above.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110306
+0 0
+D3
+~
+~
+Z 0 110301
+0 0
+D4
+~
+~
+Z 0 110303
+0 0
+S
+#110303
+Inside the Security Building~
+A large room with doorways to the north and south greets you.  The large
+window you saw below allows fresh air and natural light to fill the room,
+making it seem more peaceful.  Several people rush about, delivering
+messages and assisting the guards.  A large map on the far walls shows the
+layout of the harbor and locations of the various docking areas within.  
+~
+0 DS city
+D1
+~
+~
+Z 0 110305
+0 0
+D3
+~
+~
+Z 0 110304
+0 0
+D5
+~
+~
+Z 0 110302
+0 0
+S
+#110304
+Captain of the Guard's Quarters~
+Although the space is limited, it is well utilized.  A small desk sits in
+one corner while a small storage unit takes up most of the opposite wall.  A
+small sofa faces the door with a stained-glass coffee table in front of it. 
+An enclosed lamp burns brightly, filling the room with ample light.  
+~
+0 CDS inside
+D1
+~
+~
+Z 0 110303
+0 0
+S
+#110305
+Guards Break Room~
+A simple table with six chairs around it is the only thing in the room. 
+A large barrel filled with water sits in a corner and several mugs are
+scattered about the table.  A hanging lamp gives off enough light to see by,
+although it lacks to brightness of the main room.  
+~
+0 DS inside
+D3
+~
+~
+Z 0 110303
+0 0
+S
+#110306
+Freeport Channel~
+Ships of all sizes and types navigate the channel along with you, some
+heading into port while other head out to the open sea.  Several of the
+local boys sit along the bank, fishing or playing in the shallows.  Further
+up the channel, it widens into a huge harbor filled with ships and many
+docks of various sizes.  
+~
+0 0 road
+D1
+~
+~
+Z 0 110307
+0 0
+D3
+~
+~
+Z 0 110302
+0 0
+S
+#110307
+Mouth of the Harbor~
+The channel opens out into a large body of water, protected from the
+savages of the open seas.  There are channel markers leading east with small
+glowing balls, green on one side and red on the other.  Further up the
+channel, you can make out large areas of docks, separated based on the size
+of the ships they will be used for.  
+~
+0 0 swim
+D1
+~
+~
+Z 0 110308
+0 0
+D3
+~
+~
+Z 0 110306
+0 0
+S
+#110308
+In the Channel~
+The channel braches off to the north here, leading to a series of small
+docks for sailboats and fishing vessels.  A large building can be seen on
+the shore, which appears to have a large crowd around it, milling about in
+waiting.  Several flocks of seagulls circle the building and the various
+fishing ships as they dock, hoping for a free meal.  
+~
+0 0 swim
+D0
+~
+~
+Z 0 110309
+0 0
+D1
+~
+~
+Z 0 110326
+0 0
+D3
+~
+~
+Z 0 110307
+0 0
+S
+#110309
+The Fishing Docks~
+Although most of the docked ships belong to local fisherman, therefore
+being rather small, there is one large ship floating in the water near the
+building.  Large nets hang over the sides and back of the large fishing
+vessel, and a few crewmembers wander the deck.  A small path leads toward to
+town to Freeport to the east.  
+~
+0 0 city
+D1
+~
+~
+Z 0 29204
+0 0
+D2
+~
+~
+Z 0 110308
+0 0
+S
+#110310
+Main Deck of the Alaxis~
+Crew members of various ages run around, cleaning the ship or making sure
+the nets are secured.  On either side of the main deck, huge nets dangle of
+the water, waiting to be filled with fish.  The scent of fish hangs heavy in
+the air, making you slightly nauseous.  You appear able to move free about
+the ship, if you care to explore it more fully.  
+~
+0 0 road
+D0
+~
+~
+Z 0 110314
+0 0
+D1
+~
+~
+Z 0 110309
+0 0
+D2
+~
+~
+Z 0 110312
+0 0
+D4
+~
+~
+Z 0 110311
+0 0
+S
+#110311
+Climbing the Mast~
+Halfway up the mast, your path is blocked by large pulley systems that
+seem to operate the large nets hanging over the sides.  From this viewpoint,
+you can see many other ship docked further along the shore.  At the front of
+the ship, a large door leads down into a dark hole while the aft of the
+vessels houses the crews living quarters.  
+~
+0 0 city
+D5
+~
+~
+Z 0 110310
+0 0
+S
+#110312
+Bow of the Alaxis~
+Small piles of dead fish sit scattered about the bow of the ship and the
+smell is over-powering.  A large opening leads down into the bowels of the
+ship; most likely where they store the fish they catch while at sea. 
+Perched upon the very front of the bow is an ornate carving in the shape of
+a naked woman, blessing the waters ahead and protecting the ship.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110310
+0 0
+D5
+~
+~
+Z 0 110313
+0 0
+S
+#110313
+Fish Storage Hold~
+This room is most unusual in the fact that the floor, walls and ceiling
+are covered in a deep {ggreen{x moss.  Large blocks of ice are scattered
+throughout the area and the room is remarkably cool, considering the weather
+outside.  There are large piles of fish everywhere, and the floor is almost
+impossible to see through all the fish.  
+~
+0 AD arctic
+D4
+~
+~
+Z 0 110312
+0 0
+S
+#110314
+Main Deck of the Alaxis~
+You stand before a large square box-like outbuilding, which towers above
+the main deck.  A ladder leads upward into the area above, while a hatch
+heads down into the lower decks for the crew to sleep and live in.  A small
+outcropping hangs over the water to the north, allowing you to peer down
+into the waters below.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110325
+0 0
+D2
+~
+~
+Z 0 110310
+0 0
+D4
+~
+~
+Z 0 110315
+0 0
+D5
+~
+~
+Z 0 110316
+0 0
+S
+#110315
+Bridge of the Alaxis~
+A simple room with a large bay windows looking out over the bow of the
+ship.  An oversized wheel stands in the center of the room with a large
+compass mounted off to one side.  There is a small table covered in various
+maps outlining to coast and deeper waters of the Dragon Sea, each with small
+X's being used to show good fishing locations.  
+~
+0 D inside
+D5
+~
+~
+Z 0 110314
+0 0
+S
+#110316
+Oak Lined Passageway~
+Fine oak planks line the passage as it leads toward the crew quarters. 
+Doors are located to the east and west and while a fancy door lies at the
+northern end of the corridor.  Small lanterns line the walls filling the
+area with a soft and relaxing light.  The aroma of roasted meat drifts from
+the southern end of the passage.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110321
+0 0
+D2
+~
+~
+Z 0 110317
+0 0
+D4
+~
+~
+Z 0 110314
+0 0
+S
+#110317
+Oak Lined Passageway~
+The passage ends at a swinging door with a small window in it.  Peering
+through the pane, you see a large cooking area with many pans on it.  A
+locked door to the east is marked as "Storage" while an opening leads
+westward into the dining hall.  A loud bellowing can be heard from the
+kitchen as a load crashing echoes down the hall.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110316
+0 0
+D1
+~
+~
+ABCGIZ 0 110319
+0 0
+D2
+~
+~
+ABZ 0 110318
+0 0
+D3
+~
+~
+Z 0 110320
+0 0
+S
+#110318
+The Galley~
+Several large stoves and a fire pit fill the room.  A large man is
+running around stirring pots and tasting various sauces.  Several shelves
+are lined with jar filled with pickled meats and eggs while a large
+container holds wheat for making bread.  Pots hang from a large beam above
+your head and silverware is scattered all over a nearby table, waiting to be
+washed.  
+~
+0 D inside
+D0
+~
+~
+ABZ 0 110317
+0 0
+S
+#110319
+Storage Room~
+This room is stuffed full of extra everything from food to bedding. 
+Shelves are lined with spare pillows, sheets and blankets; while several
+large open-faced cabinets are filled with swords, axes and spears.  A few
+large containers hold wheat flour and several days' worth of extra water,
+for the long trips at sea.  Several jars sit on the far shelves filled with
+oil for the many lamps that lines the halls of the ship.  
+~
+0 AD inside
+D3
+~
+~
+ABCGIZ 0 110317
+0 0
+S
+#110320
+Dining Hall~
+Two long tables sit along opposite walls with eight chairs surrounding
+each table.  A large crystal chandelier hangs from the ceiling filling the
+room with ample light.  A few dirty dish sit on the table, waiting for the
+galley boys to come collecting them.  
+~
+0 D inside
+D1
+~
+~
+Z 0 110317
+0 0
+S
+#110321
+Oak Lined Passageway~
+The lamps cast a flicking light upon the three doors located at the end
+of the hall, each with a small plaque attached to them.  The east and west
+doors are simple and plain, with Day Shift on one end and Night Shift on the
+other.  The northern door is ornately carved and has "Captain" engraved into
+the wood.  
+~
+0 D inside
+D0
+~
+~
+ABCFGZ 0 110322
+0 0
+D1
+~
+~
+ABZ 0 110324
+0 0
+D2
+~
+~
+Z 0 110316
+0 0
+D3
+~
+~
+ABZ 0 110323
+0 0
+S
+#110322
+Captains Quarters~
+A rather plush room, considering it is on a ship, with a soft carpet and
+large bay window overlooking the water at the stern of the ship.  A
+comfortable looking bed with fine silk sheet takes up one corner of the
+cabin; and a fair sized table sits overlooking the window.  A small books
+sit on the pillow of the bed, it appears to be the ships log.  
+~
+0 D inside
+D2
+~
+~
+ABCFGZ 0 110321
+0 0
+S
+#110323
+Day Shift Sleeping Quarters~
+A very simple room with five beds along the wall, each with a chest for
+personal belongs, is lined up along the wall.  The porthole has been painted
+over with black paint to prevent the sun from entering the room, filling the
+area with darkness.  A small barrel sit in one corner, filled with fresh
+water, for the cleaning needs of the crew.  
+~
+0 AD inside
+D1
+~
+~
+ABZ 0 110321
+0 0
+S
+#110324
+Night Shift Sleeping Quarters~
+A very simple room with five beds along the wall, each with a chest for
+personal belongs, is lined up along the wall.  The porthole has been painted
+over with black paint to prevent the sun from entering the room, filling the
+area with darkness.  A small barrel sit in one corner, filled with fresh
+water, for the cleaning needs of the crew.  
+~
+0 AD inside
+D3
+~
+~
+ABZ 0 110321
+0 0
+S
+#110325
+Stern of the Alaxis~
+The decks narrow into a balcony that hangs over the end of the ship, with
+nothing but the waters of the harbor below you.  A tall railing has been
+placed along the outer rim of the balcony to prevent an accidental fall over
+into the icy waters below.  A large swinging lantern dangles from the
+railing, alerting ship that may come from behind of the ships presence.  
+~
+0 0 city
+D2
+~
+~
+Z 0 110314
+0 0
+S
+#110326
+In the Channel~
+The waterway continues past several large yachts, which are deserted, and
+leads toward a large outcropping of land due east.  To the south lies a very
+large ship with a black flag bearing the dreaded {WSKULLS{x and {WCROSSBONES{x of
+the Pirates.  A small school of flying fish dart and soar out of the water,
+creating ripples around your craft.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110340
+0 0
+D2
+~
+~
+Z 0 110327
+0 0
+D3
+~
+~
+Z 0 110308
+0 0
+S
+#110327
+Private Dock~
+Not so much as a dock, but a floating area of wood for a skiff to tie up
+to.  A long rope ladder dangles from above leading on to the deck of the
+pirate vessel.  The sound of voices can be heard from above, and they don't
+seem friendly in the least.  Those of the weakest heart can scurry back
+northward toward the safety of the main channel.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110326
+0 0
+S
+#110328
+Main Deck of the Mourning Star~
+Just standing on this deck makes you feel special yet foolish all at the
+same time, considering what you have heard about pirates.  The ship appears
+to be appears to be about eighty feet across and over four hundred feet long
+and has three sailing masts.  A very long rope leads upward to a
+bucket-looking thing located at the top of the tallest mast.  
+~
+0 0 city
+D1
+~
+~
+Z 0 110332
+0 0
+D3
+~
+~
+Z 0 110329
+0 0
+D5
+~
+~
+Z 0 110327
+0 0
+S
+#110329
+Aft-Midsection of the Mourning Star~
+A large closed hatch takes up most of the space in this area of the ship,
+although a long wooden plank extends out of the water to the north.  A
+couple of rough looking characters wander around the deck, cleaning and
+polishing the wood to a brilliant shine.  A series of long poles appears to
+be located at the aft end of the ship, just to the west.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110331
+0 0
+D1
+~
+~
+Z 0 110328
+0 0
+D3
+~
+~
+Z 0 110330
+0 0
+D5
+~
+~
+ABZ 0 110334
+0 0
+S
+#110330
+Aft Section of the Mourning Star~
+Several of the crew have set up a row of fishing lines, which hang over
+the back of the ship.  A large iron chain is would a huge wooden spindle,
+which has a huge steel anchor attached to it.  A large plaque on the
+outfacing boards reads "Mourning Star" engraved on a bright bronze plate.  
+~
+0 0 city
+D1
+~
+~
+Z 0 110329
+0 0
+S
+#110331
+Walking the Plank~
+Having angered the pirates, you now get the privileged view from the
+dreaded {Dplank{x.  The easiest way off is down into the dark shark infected
+water below, not really the safest thing to do.  If you wish to try your
+luck, you can attempt to re-board the ship to the south and hope to find a
+safer way off.  
+~
+0 0 city
+D2
+~
+~
+Z 0 110329
+0 0
+D5
+~
+~
+Z 0 110339
+0 0
+S
+#110332
+Foreword-Midsection of the Mourning Star~
+The deck is highly polished and small cabin boy runs around with a cloth
+shining any dull spots.  A small ladder leads upward toward a small enclosed
+area above the main deck.  A strange figure can be seen at the bow of the
+ship, it seems oddly out of place on this rough pirate ship.  
+~
+0 0 city
+D1
+~
+~
+Z 0 110333
+0 0
+D3
+~
+~
+Z 0 110328
+0 0
+D4
+~
+~
+Z 0 110376
+0 0
+S
+#110333
+Bow of the Mourning Star~
+The winds blows briskly here, unblocked by the various other parts of the
+ship, making you feel free and alive.  Unlike most ship, this vessel has a
+snarling demon mounted at the front, an omen used to frighten merchant
+vessels into surrendering.  A large anchor hangs over the side, keeping the
+ship in place while in the harbor.  
+~
+0 0 city
+D3
+~
+~
+Z 0 110332
+0 0
+S
+#110334
+Between the Holds~
+A lone torch burns at the end of the corridor, casting strange shadows on
+the golden panels of the walls.  Two massive sliding doors are to the north
+and south, each with a large turning lock on them.  The sound of muffled
+movement can be heard from within the northern hold, as if something is
+stirring.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110335
+0 0
+D2
+~
+~
+Z 0 110336
+0 0
+D4
+~
+~
+ABZ 0 110329
+0 0
+S
+#110335
+Northern Hold~
+As you enter the hold, the smell of filth and wild animals fills your
+nose.  Cages line the walls and are stacked three or four high, with board
+separating each layer from the one above and below it.  Several of the
+bottom cages seem to be linked together, creating a larger space for the
+animals to wander about in.  A long trough is filled with feed, which runs
+parallel to the cages, so they may eat at will.  
+~
+0 D inside
+D2
+~
+~
+Z 0 110334
+0 0
+S
+#110336
+Southern Hold~
+This hold is filled from floor to ceiling with crates and barrel from
+plundered merchant ships.  There are also several chests, locked with a huge
+padlock, in the middle of the floor while a snoring guard sits next to them.
+A golden chandelier hangs from the wooden rafters, casting a gentle light
+around the room.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110334
+0 0
+S
+#110337
+The Animal Cages~
+Straw covers the floor of the cage and a large bowl in one corner is
+filled with water for the occupant of the cage.  The smell of fetus and
+urine is evident, although not potent.  A large pile of rags and torn furs
+lies in the middle of the room, most likely the bed of the animal living
+here now.  There is a small door leading north to yet another cage while to
+the south is the exit back into the main hold.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110338
+0 0
+D2
+~
+~
+Z 0 110335
+0 0
+S
+#110338
+The Animal Cages~
+Unlike the first cage, this one is barren save for a large tree branch
+lying in the middle of the floor and large mats of grass surrounding it.  It
+seems as if a slight wind blows through the grass, although you don't seem
+to feel it.  A large animal lies dead in one corner, still fresh and safe to
+eat.  
+~
+0 D inside
+D2
+~
+~
+Z 0 110337
+0 0
+S
+#110339
+Swimming in the Harbor~
+Landing with a splash, you start trending water to keep from sinking. 
+Dark shapes can be seen swimming towards, with a fin breaking the water
+surface.  There is no way to reboard the ship and the shapes seem to keep
+you from swimming toward shore.  
+~
+0 0 arctic
+S
+#110340
+In the Channel~
+The waterway continues to lead east toward a large outcropping of land
+which stretches in the channel.  A series of floating buoys string along out
+past the point of rock, marking the border of the Harbor Patrols.  A small
+raft floats along side of you, just big enough for three passengers and their
+catches.  A large light can be seen burning on the rocky point.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110341
+0 0
+D3
+~
+~
+Z 0 110326
+0 0
+S
+#110341
+Lookout Point~
+Rocky shores greet the crashing waves of this isolated point of land. 
+The only sign of life is a burning fire to the north, nestled behind a
+couple of large boulders.  You can go back to sea to the south and west, or
+follow a narrow path eastward toward a dying land.  
+~
+0 0 hills
+D0
+~
+~
+Z 0 110342
+0 0
+D2
+~
+~
+Z 0 110343
+0 0
+D3
+~
+~
+Z 0 110340
+0 0
+S
+#110342
+Lookout Point Bonfire~
+A massive fire burning is here, burning so brightly you must shield your
+eyes.  A large pile of wood sits off to one side, ready to be burned for the
+coming nights and days.  A small makeshift camp has been setup, complete
+with cooking area and a sleep roll.  A soulful call echoes off the nearby
+boulders, sending a chill down your spine.  
+~
+0 0 hills
+D2
+~
+~
+Z 0 110341
+0 0
+S
+#110343
+Border of Freeport Harbor~
+The harbor is met with a large river which seems to flow out of the land
+to east.  A large ship sits anchored  just to the south of the massive
+river delta.  A line of floating bouys marking the bountry of the Freeport
+Harbor protection, once you cross over they will not assist you.
+~
+0 0 noswim
+D0
+~
+~
+Z 0 110341
+0 0
+D1
+~
+~
+Z 0 110344
+0 0
+D2
+~
+~
+Z 0 110345
+0 0
+S
+#110344
+Freeport Harbor River Delta~
+The wide and deep channel of the harbor leads into a sightly marshy area
+leading eastward.  Large stalks of plants seem to grow from the very bottom
+of the river floor, towering over you.  The river seems to flow downward
+into a deep canyon to the east, or you can head back to the safety of the
+harbor to the west.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110366
+0 0
+D3
+~
+~
+Z 0 110343
+0 0
+S
+#110345
+Floating Alongside the Plenipo~
+A huge merhcant ship, the Plenipo, rests right next to you.  A long rope
+ladder dangles down from the deck, several giants heads above you, waiting
+for you to climb aboard.  Rumor has it this vessel has been to MaGog and Gog
+and beyond....  Who know what kind of treasure they may have found to sell
+you.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 110343
+0 0
+D4
+~
+~
+Z 0 110346
+0 0
+S
+#110346
+Main Deck of the Phenipo~
+The deck is clean and tidy, leading east and west, toward shops and small
+stands set-up along the way.  The sounds of trading can be heard from the
+various cabins that fill this deck.  At either end of the ship, stairs lead
+downward into the belly of the vessel.  A loud bell rings with the wind,
+signaling a good time to set sail, if needed.  
+~
+0 0 city
+D1
+~
+~
+Z 0 110347
+0 0
+D3
+~
+~
+Z 0 110349
+0 0
+D5
+~
+~
+Z 0 110345
+0 0
+S
+#110347
+Walking Along the Promenade~
+A gentle breeze blows in off the harbor, putting a slight salty smell in
+the air.  A simple wooden railing keeps you from falling off the deck and a
+small door lead north into a cabin, turned into a store.  A seagull caws
+from the water belows as it searches for a fish, making you realize how
+hungry you are.  
+ 
+~
+0 0 city
+D0
+~
+~
+Z 0 110351
+0 0
+D1
+~
+~
+Z 0 110348
+0 0
+D3
+~
+~
+Z 0 110346
+0 0
+S
+#110348
+Walking Along the Promenade~
+The crashing waves upon the bow sends a spray of sea and salt misting
+over you.  There is a loud rumbling from the stairs leading down and a
+gentle bellow from the shop to the north.  Several sailor run about thier
+business, pretty much ignoring your presence.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110352
+0 0
+D3
+~
+~
+Z 0 110347
+0 0
+D5
+~
+~
+Z 0 110355
+0 0
+S
+#110349
+Walking Along the Promenade~
+The brisk sea wind blows swifty along the deck, putting a slight chill in
+the air.  A small slashing can be heard from below as some kind of sea
+creature swims along the boat, hoping for some food.  An odor of sulfur and
+other magical powders wafts from the shop, just to the north of you.  A
+small boat dangles over the water, to be used in case the ship should start
+to sink at sea.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110353
+0 0
+D1
+~
+~
+Z 0 110346
+0 0
+D3
+~
+~
+Z 0 110350
+0 0
+S
+#110350
+Walking Along the Promenade~
+Several large barrels fill this part of the deck, making it hard to gain
+access to the shop to the north.  A large stairwell leads down, deeper into
+the ship; however a small sign says: {CAuthorized personal only{x.  Many sailors
+rush about, complaining how tourist are always in the way.  
+~
+0 0 city
+D0
+~
+~
+Z 0 110354
+0 0
+D1
+~
+~
+Z 0 110349
+0 0
+D5
+~
+~
+Z 0 110356
+0 0
+S
+#110351
+Exotic Foods~
+Glass cases line the walls, each filled with a variety of foods from far
+off lands.  The storekeeper, a large plump man, seems to enjoy eating his
+ware a bit too much; which makes you think they are worth the price he may
+ask.  A small fan above you, keep the room from getting too hot and ruining
+the food.  
+A sign has been taped to the counter, near the gold exchange point(read it).
+~
+0 CD inside
+E
+sign~
+Due to contamination to my entire food supply while traveling over the plagued lands, the Freeport business board has banned any sale of the goods.  Sorry for the inconvenience.
+ 
+Signed,
+ 
+Plumpy, Master of the Exotic Foods
+~
+D2
+~
+~
+Z 0 110347
+0 0
+S
+#110352
+Armory of the Unknown~
+Full suit of body armor line the walls, and various parts rest on shelves
+or hang from the ceiling.  Several cases line the back of the store, each
+filled with rare and exotic pieces of armor from great warrior and smiths
+alike.  A small noisy monkey runs about the store, chatting up a storm when
+ever somebody gets to close to the door without paying for something.  
+~
+0 D inside
+D2
+~
+~
+Z 0 110348
+0 0
+S
+#110353
+Objects of Mystery and Magik~
+Objects of various kinds fill the store, almost as if you have stumbled
+upon Zsuzsu secret workshop.  Wands, staff, vials, scrolls, rings and many
+more fill the cases that threathen to overflow out onto deck.  A faint scent
+of magik fills the air and a sense of amazement surrounds most of the
+"mudane" items.  
+~
+0 D inside
+D2
+~
+~
+Z 0 110349
+0 0
+S
+#110354
+Weapons of the Unknown~
+Exotic weapons of all kinds, as well as normal looking sword, daggers and
+axes line the walls of this small shop.  There are no cases filled with
+objects but everything hangs from the walls or ceiling.  A slender looking
+drow stands in one corner, hands resting on a Katana which hangs from his
+side; it would be unwise to attempt to steal from this shopkeeper.
+~
+0 D inside
+D2
+~
+~
+Z 0 110350
+0 0
+S
+#110355
+Crew's Passages~
+The dim light from above is the only way to view the surrounding area. 
+The passage leads north toward a set of door that line the hallway.  A small
+boy rushes around in frantic circles, looking for an item on the ground.  
+~
+0 AD inside
+D0
+~
+~
+Z 0 110357
+0 0
+D4
+~
+~
+Z 0 110348
+0 0
+S
+#110356
+Corridor to the Storage Holds~
+Dim burning candles puff small clouds of black smoke into the cramped
+corridor.  Several doors line either side of the passages, although they are
+all locked.  A large burly dwarf stands at the end of the corridor and seems
+rather unhappy to see you here.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110365
+0 0
+D4
+~
+~
+Z 0 110350
+0 0
+S
+#110357
+Dark Passageway~
+The passage ends at a large door, with two more on either side of the
+passage.  A small note on the main door, northward, reads: No Entry, under
+theeat of {RDEATH{x.  There are various sound coming from the east and west
+doors, although it is hard to tell what they are.  
+ 
+~
+0 AD inside
+D0
+~
+~
+Z 0 110358
+0 0
+D1
+~
+~
+Z 0 110359
+0 0
+D2
+~
+~
+Z 0 110355
+0 0
+D3
+~
+~
+Z 0 110360
+0 0
+S
+#110358
+An Empty Room~
+Nothing.....  That is what occupies this room.  There is no table, chairs
+or even a light.  The only thing that seems out of place is the odd shaped
+design of the floor.  
+~
+0 AD inside
+E
+floor~
+Upon closer inspection, you notice a small trapdoor hidden in the design.  
+~
+D2
+~
+~
+Z 0 110357
+0 0
+D5
+~
+~
+ABZ 0 110362
+0 0
+S
+#110359
+Ships Crews Quarters~
+A large room with a large overheard lamp greets your eyes.  A large table
+sits in the center of the room, surrounded by six chairs.  A smaller room,
+shrouded in darkness, lies to the north; from which snoring can be heard.  A
+large pot of stew hangs over a fair-sized fire in one corner while a small
+sink and water basin rest on the other side.  
+~
+0 D inside
+D0
+~
+~
+Z 0 110361
+0 0
+D3
+~
+~
+Z 0 110357
+0 0
+S
+#110360
+Officers Dining Hall~
+A long table, set for six, takes up the center of the room.  Each place
+setting has fine china and polished silverware.  Gleaming cystal glass
+complete the settings.  A large roasted pig, its mouth stuffed with a large
+red apple, sit steaming in the table; waiting for the dinner bell.  
+~
+0 D inside
+D1
+~
+~
+Z 0 110357
+0 0
+S
+#110361
+Ship Crew Sleeping Area~
+Bunk beds line both side of the room, each with a small chest located at
+the end of each.  The only light is from the main room to the south, making
+this room very dim and it is hard to make out much without your own light. 
+There are several large shape in some of the bed, indicating they are being
+used.  
+~
+0 AD inside
+D2
+~
+~
+Z 0 110359
+0 0
+S
+#110362
+Secret Passage~
+A large passage way leads westward into the deeper bowels of the ship. 
+There is a lingering odor of sweat and blood in the air, which seem to
+intentisfy further west as well.  There is a faint sound echoing along the
+wooden walls of the passage, but you are unable to make out any of the
+words.  
+~
+0 AD inside
+D3
+~
+~
+Z 0 110364
+0 0
+D4
+~
+~
+ABZ 0 110358
+0 0
+S
+#110364
+Captians Secret Chambers~
+A large chest sits in the center of the small square room.  A bright
+glowing ball of light hovers over the chest, filling the room with a bright,
+almost blinding, light.  There are no other objects to be seen, and it seems
+the lights pulsates the closer you get to it.  
+~
+0 DJ inside
+D1
+~
+~
+Z 0 110362
+0 0
+S
+#110365
+Main Storage Hold~
+It seems the merchant have a lot of trust in each other, as they all
+share one big storage area for thier items.  There are piles of scroll,
+weapons, armor, staffs and potions scattered through the room; which is
+quite large.  A lone guard; the big scary looking dwarf, patrols the hold
+making sure nothing is taken out unless aprroved by the captain.  
+~
+0 D inside
+D2
+~
+~
+Z 0 110356
+0 0
+S
+#110366
+Freeport River~
+A large river flows eastward, out of the harbor and into a land of rock
+and desolation.  A few lone rapids quickly decend you into a large canyon,
+wiht great walls rising to heights above you.  To the east, the river
+continues to rush over boulders and leads you deeper into the canyon floor;
+or you may try and head west to the soothing harbor.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110367
+0 0
+D3
+~
+~
+Z 0 110344
+0 0
+S
+#110367
+Freeport River~
+Life seems to becoming more and more sparse as you continue eastward
+along the rapidly flowing river.  You can hear a faint, although getting
+louder, rumbling noise; as if a great waterfall awaits you around the next
+bend.  Several large vultures soar over head, as if waiting for thier next
+meal; knowing something you do not.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110368
+0 0
+D3
+~
+~
+Z 0 110366
+0 0
+S
+#110368
+Split in the River~
+The river suddenly splits off, with the main river flowing eastward and a
+small branch heading northward.  A faint winds blows from the east, with a
+odor of death and decay within it.  A sudden howling makes you wonder in
+your sanity to remaining to this course of action.  
+~
+0 0 noswim
+D0
+~
+~
+Z 0 110370
+0 0
+D1
+~
+~
+Z 0 110369
+0 0
+D3
+~
+~
+Z 0 110367
+0 0
+S
+#110369
+Freeport River~
+The river, although still quite large and powerful, seems to be getting
+shallower the further east you go.  You also notice that the amount of fish
+and other waterlife has also gotten sparse.  Plants are turning brown and
+wilted and the scent of decay grows ever stonger, making your stomach churn
+in sickness.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110371
+0 0
+D3
+~
+~
+Z 0 110368
+0 0
+S
+#110370
+A Secluded Cove~
+A small hidden cove is nestled in a large rock formation.  There appears
+to be no exit, other then to the south from which you came; although a small
+cave can be seen on the western bank.  A small skiff is tied up at a dock,
+just outside the cave, indicating that somebody must live there.  A few
+small animals wander along the banks, foraging for food.  
+~
+0 0 noswim
+D2
+~
+~
+Z 0 110368
+0 0
+D3
+~
+~
+Z 0 110373
+0 0
+S
+#110371
+Freeport River~
+The river has dropped in water level rapidly and this is as far as you
+can go on a boat.  Although it continues to the east, it is only a small and
+shallow stream; which can be walked along, not in.  As you peer further
+eastward, you think you can make out beings riding along on horseback, but
+you can not be sure.  
+~
+0 0 noswim
+D1
+~
+~
+Z 0 110372
+0 0
+D3
+~
+~
+Z 0 110369
+0 0
+S
+#110372
+Deserted River Delta~
+The stream has vanished into a deep hole leading to depths unknown;
+however you can not follow as the hole is quite small.  The now dry river
+bed continues east, toward a once great rivers headwater, making you wonder
+how such a place has ruin two great river in such a quick time.  A scream
+echos along the great rocks, making your blood chill slighty, despite the
+great heat.  
+~
+0 0 desert
+D1
+~
+~
+Z 0 14099
+0 0
+D2
+~
+~
+Z 0 110377
+0 0
+D3
+~
+~
+Z 0 110371
+0 0
+S
+#110373
+A Dark Cave~
+The cave is quite small, as it appeared to be from outside.  A small
+firepit glows weakly, not giving off enough light to really see by.  A dead
+deer hangs from the ceiling, still being skined and dried.  A rope has been
+tied off to a large iron ring, then dropped into a large hole on the far
+side of the cave.  There is a faint echoing of voices coming from down the
+hole, but you can't make out what they are saying.  
+~
+0 AD inside
+D1
+~
+~
+Z 0 110370
+0 0
+D5
+~
+~
+Z 0 110374
+0 0
+S
+#110374
+Decending into the Hole~
+The hole while dark is well designed for allowing rapid decent; with foot
+holds chisled into the rock for use along with the rope.  Along with the
+voices from below, the sound of splashing water can also be heard, as if
+lapping up against a ship of pier.  The light from above is getting quite
+faint and there is no visable light to be seen from below.  
+ 
+~
+0 AD inside
+D4
+~
+~
+Z 0 110373
+0 0
+D5
+~
+~
+Z 0 110375
+0 0
+S
+#110375
+Decending Deeper into the Hole~
+Suddenly the rope is not there, and you have a sickening feeling as you
+slip and fall down the rest of the shaft.  You land with a splash in a small
+pool of water, striking you head on a long rock and as you slip into a
+forced sleep, you feel your body rushed along a small underground river,
+leading deeper into the earth.  
+~
+0 AD inside
+D4
+~
+~
+Z 0 110374
+0 0
+S
+#110376
+Wheel House~
+A small sheltered area houses the largest wheel you have ever seen, used
+to steer the ship while at sea.  It spans almost 6 feet across and has
+handles all along the outer rim; and it shines brightly as if glowing with
+some inner magic.  A loud bellowing can be heard from the far corner.  
+~
+0 D inside
+D5
+~
+~
+Z 0 110332
+0 0
+S
+#110377
+Walking the Wastelands~
+The desert seems to get drier the further into the drifting sands you go.
+What little life did exisist near the riverway has all be vanished, much
+like your desire to continue upon this path.  The gentle lapping of the life
+giving river can be heard from the north, and to the south lies nothing but
+death and desert.  
+~
+0 X desert
+D0
+~
+~
+Z 0 110372
+0 0
+D2
+~
+~
+ABZ 0 110378
+0 0
+S
+#110378
+The Fabled Caves of Ancient Death~
+Towering pillars of carved stone fill the ancient caves which seems to
+lead downward into a deeper and less transformed section of the cave system.
+The many torches that line the walls throw sparkling lights, which bounces
+off the mounds of gold and gems that seem to fill the room.  A small voice
+in your heads heeds that although no guard is visable; one must be about
+somewhere.  
+~
+0 NTX mountain
+D0
+~
+~
+ABZ 0 110377
+0 0
+D5
+~
+~
+Z 0 110379
+0 0
+S
+#110379
+Deeper into the Caverns~
+The polished walls and shined stone has started to fade, the further into
+the caves you go.  A few torchs burn, not really giving off enough light to
+see by, but more to point the way deeper into the earth.  A faint hissing
+noise can be heard from the east, as if a giant breath of air was being
+released.  
+~
+0 ADT inside
+D1
+~
+~
+Z 0 110380
+0 0
+D4
+~
+~
+Z 0 110378
+0 0
+S
+#110380
+A Rough Earthern Passageway~
+The passage has turned into a dark and rubble-covered dirt path.  Small roots stick out from the ceiling, while other grow from the floor attempting to trip you up.  Ahead you can make out a small light and the rushing of hot air is getting more intense.
+~
+0 ADT inside
+D2
+~
+~
+Z 0 110381
+0 0
+D3
+~
+~
+Z 0 110379
+0 0
+S
+#110381
+Lair of the {CSilver{x Dragon~
+You have stumbled into a large cavern, carved right out of the earth. 
+The floor, walls and ceiling are smooth as silk and have a brilliant
+mirror-like shine to them.  Resting in the middle of the chamber lies an
+ancient dragon, snoring loudly as hot air rushs out with each exhale.  A
+large mound of treasure and gold lies below the dragons great armored
+scales, just out of your reach.  
+~
+0 DT inside
+D0
+~
+~
+Z 0 110380
+0 0
+S
+#0
+
+#SPECIALS
+M 110307 spec_thief	* a local boy
+M 110314 spec_cast_undead	* the {CGhost{x of the Mourning Star
+M 110316 spec_poison	* Red-Fang
+M 110331 spec_cast_undead	* a {GWisp{x-{DO{x-{BWilly{x
+M 110332 spec_breath_lightning	* an ancient {Csilver{x dragon
+M 110333 spec_cast_cleric	* a {Choly{x father
+S
+
+#RESETS
+D 0 110317 1 2	* Oak Lined Passageway: door to the east: closed and locked
+D 0 110317 2 1	* Oak Lined Passageway: door to the south: closed
+D 0 110318 0 1	* The Galley: door to the north: closed
+D 0 110319 3 2	* Storage Room: door to the west: closed and locked
+D 0 110321 0 2	* Oak Lined Passageway: door to the north: closed and locked
+D 0 110321 1 1	* Oak Lined Passageway: door to the east: closed
+D 0 110321 3 1	* Oak Lined Passageway: door to the west: closed
+D 0 110322 2 2	* Captains Quarters: door to the south: closed and locked
+D 0 110323 1 1	* Day Shift Sleeping Quarters: door to the east: closed
+D 0 110324 3 1	* Night Shift Sleeping Quarters: door to the west: closed
+D 0 110329 5 1	* Aft-Midsection of the Mourning Star: door to the down: closed
+D 0 110334 4 1	* Between the Holds: door to the up: closed
+D 0 110358 5 1	* An Empty Room: door to the down: closed
+D 0 110362 4 1	* Secret Passage: door to the up: closed
+D 0 110377 2 1	* Walking the Wastelands: door to the south: closed
+D 0 110378 0 1	* The Fabled Caves of Ancient Death: door to the north: closed
+M 0 110300 4 110300 4	* a seagull (The Dragon Sea)
+M 0 110300 4 110301 4	* a seagull (Inlet to the Harbor)
+M 0 110302 1 110303 1	* the Harbor Patrol guard (Inside the Security Building)
+E 0 110306 0 16		*	a steel longsword: wielded
+M 0 110303 1 110303 1	* the Harbor Patrol guard (Inside the Security Building)
+E 0 110306 0 16		*	a steel longsword: wielded
+M 0 110304 1 110303 1	* the Harbor Patrol guard (Inside the Security Building)
+E 0 110306 0 16		*	a steel longsword: wielded
+M 0 110301 1 110304 1	* Nydoannor (Captain of the Guard's Quarters)
+E 0 110305 0 16		*	the {CWater{Dblade{x: wielded
+M 0 110306 1 110305 1	* the Harbor Patrol guard (Guards Break Room)
+E 0 110307 0 16		*	a steel axe: wielded
+M 0 110307 1 110306 1	* a local boy (Freeport Channel)
+E 0 110308 0 3		*	a sparkling {Gemerald{x pendant: around the neck (1)
+O 0 110300 0 110309	* the Alaxis (The Fishing Docks)
+M 0 110305 1 110313 1	* the fish cleaner (Fish Storage Hold)
+E 0 110309 0 16		*	an {Cice{x covered fish gutter: wielded
+O 0 110301 0 110313	* a tasty fish (Fish Storage Hold)
+O 0 110301 0 110313	* a tasty fish (Fish Storage Hold)
+O 0 110302 0 110313	* a tasty fish (Fish Storage Hold)
+O 0 110301 0 110313	* a tasty fish (Fish Storage Hold)
+O 0 110302 0 110313	* a tasty fish (Fish Storage Hold)
+M 0 110308 1 110315 1	* Moemas (Bridge of the Alaxis)
+E 0 110310 0 13		*	Sash of {BE{cn{Bl{ci{Bg{ch{Bt{ce{Bn{cm{B{ce{bn{ct{x: around the waist
+O 0 110313 0 110318	* a salted beef slab (The Galley)
+O 0 110313 0 110318	* a salted beef slab (The Galley)
+M 0 110309 1 110322 1	* the ships cat (Captains Quarters)
+O 0 110312 0 110323	* a barrel (Day Shift Sleeping Quarters)
+O 0 110311 0 110324	* The Alaxis ships log (Night Shift Sleeping Quarters)
+O 0 110303 0 110327	* The Mourning Star (Private Dock)
+M 0 110313 2 110330 2	* a pirate (Aft Section of the Mourning Star)
+M 0 110317 1 110332 1	* Astash (Foreword-Midsection of the Mourning Star)
+E 0 110323 0 16		*	a bamboo staff: wielded
+M 0 110314 1 110333 1	* the {CGhost{x of the Mourning Star (Bow of the Mourning Star)
+E 0 110324 0 3		*	Amulet of {CTrust{x and {GConfidence{x: around the neck (1)
+O 0 110304 0 110335	* the cages (Northern Hold)
+M 0 110312 2 110336 2	* the sleepy guard (Southern Hold)
+O 0 110315 0 110336	* a sturdy wooden chest (Southern Hold)
+P 0 110317 1 110315 1	* a sturdy wooden chest: a speckled potion
+M 0 110310 2 110337 2	* a black grizzly bear (The Animal Cages)
+M 0 110311 1 110338 1	* a boa (The Animal Cages)
+E 0 110314 0 12		*	Snake-Skin Cloak: about the shoulders
+M 0 110318 3 110339 3	* a flesh-eating {Dshark{x (Swimming in the Harbor)
+M 0 110315 1 110342 1	* the lookout point guard (Lookout Point Bonfire)
+E 0 110318 0 10		*	Onyx Armplates: on the arms
+M 0 110320 1 110351 1	* Plumpy (Exotic Foods)
+E 0 110331 0 17		*	an offical looking letter: held in the hands
+M 0 110322 1 110352 1	* Cigolin (Armory of the Unknown)
+G 0 110336 0		*	{YGolden{x Ring of {CProtection{x
+G 0 110338 0		*	A {ggreen{x sea turtle shell
+G 0 110339 0		*	{DOnyx{x Legplates
+G 0 110340 0		*	{WPlatinum{x Ring of {CProtection{x
+M 0 110319 1 110353 1	* ZsaZsa (Objects of Mystery and Magik)
+G 0 110326 0		*	a {cflesh{x colored pill
+G 0 110327 0		*	a vaporized liquid
+G 0 110328 0		*	a {Wholy{x scroll
+G 0 110329 0		*	a {Cmisty{x staff
+G 0 110330 0		*	a {Ddark{x glossy wand
+M 0 110321 1 110354 1	* Astaen (Weapons of the Unknown)
+E 0 110332 0 16		*	a {WLegendary Katana{x: wielded
+G 0 110333 0		*	double-bladed glaive
+G 0 110334 0		*	a {DDragon {WBone{x Hammer
+G 0 110335 0		*	Cupids Bow
+G 0 110306 0		*	a steel longsword
+M 0 110329 1 110355 1	* a small boy (Crew's Passages)
+O 0 110342 0 110359	* a pot (Ships Crews Quarters)
+P 0 110343 1 110342 1	* a pot: warm stew
+P 0 110343 5 110342 5	* a pot: warm stew
+M 0 110330 3 110361 3	* a tired sailor (Ship Crew Sleeping Area)
+O 0 110344 0 110364	* the {Dchest{x (Captians Secret Chambers)
+P 0 110346 1 110344 1	* the {Dchest{x: a pile of {Ygold{x coins
+M 0 110331 1 110364 1	* a {GWisp{x-{DO{x-{BWilly{x (Captians Secret Chambers)
+E 0 110337 0 17		*	{GWisp{x-{DO{x-{BWilly{x {CEssence{x: held in the hands
+M 0 110323 1 110365 1	* a dwarf guard (Main Storage Hold)
+E 0 110341 0 16		*	a huge two-handed {ycopper{x axe: wielded
+M 0 110333 1 110372 1	* a {Choly{x father (Deserted River Delta)
+E 0 110349 0 5		*	{WHoly{x Robe of the {BGuardian{x: on the body
+M 0 110316 1 110376 1	* Red-Fang (Wheel House)
+E 0 110319 0 16		*	a {CC{wr{Ca{wc{Ck{wl{Ci{wn{Cg{x Shortsword: wielded
+E 0 110320 0 5		*	{CMithril{x Chainmail: on the body
+G 0 110321 0		*	a scroll of earthern powers
+E 0 110322 0 9		*	{WGauntlets{x of {rStriking{x: on the hands
+O 0 110350 0 110378	* a {Csparkling {Gemerald{x (The Fabled Caves of Ancient Death)
+M 0 110332 1 110381 1	* an ancient {Csilver{x dragon (Lair of the {CSilver{x Dragon)
+E 0 110347 0 3		*	a {GPeridot{x pendant: around the neck (1)
+S
+
+#SHOPS
+110319 0 0 0 0 0 100 15 0 23
+110321 0 0 0 0 0 100 15 0 23
+110322 0 0 0 0 0 100 11 0 23
+0
+
+#OLIMITS
+O 110320 1	* {CMithril{x Chainmail
+O 110322 1	* {WGauntlets{x of {rStriking{x
+O 110332 1	* a {WLegendary Katana{x
+O 110347 1	* a {GPeridot{x pendant
+O 110350 1	* a {Csparkling {Gemerald{x
+S
+
+#$

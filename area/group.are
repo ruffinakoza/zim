@@ -1,0 +1,687 @@
+#AREADATA
+Name Groups Helps~
+VNUMs 0 0
+Credits Diku~
+Security 9
+LevelRange 0 0
+End
+
+#HELPS
+-1 0 WANDS STAVES SCROLLS~
+Magical items require training to use properly.  If your character lacks the
+necessary skill to use an item, he will fail, possibly destroying it.  The
+item skills are as follows:
+
+scrolls		The reading of magical scrolls and books (see 'help recite')
+staves		The use of staves and similar devices (see 'help brandish')
+wands		The use of wands and similar items (see 'help zap') 
+~
+-1 0 WEAPON WEAPONS AXE DAGGER FLAIL MACE POLEARM SPEAR SWORD WHIP EXOTIC~
+Each weapon skill applies to a specific group of armaments, and determines how
+well a character fights with a particular weapon.
+If the character has the parry skill as well, he can parry incoming attacks.
+The chance of parrying is best if the character in question is skilled at 
+both his weapon and his opponent's.
+
+The weapon skills consist of the following:
+
+axe		the use of axes, ranging from hand to great (but not halberds)
+{D                    Bonus for parry, penalty for dodge.{x
+dagger		the use of knives and daggers, and other stabbing weapons
+{D                    Bonus for dodge, penalty for parry. Penalty to enemy evade{x
+flail		skill in ball-and-chain type weapons
+{D                    Penalty to enemy parry{x
+mace		this skill includes clubs and hammers as well as maces
+{D                    Higher chance of damaging equipment.{x
+polearm		the use of pole weapons (except spears), including halberds
+{D                    Bonus to haft block, bonus to enemy evade.{x
+spear		this skill covers both spears and staves, but not polearms
+{D                    Bonus to haft block.{x
+sword		the warrior's standby, from rapier to claymore
+{D                    Average, shortswords give bonus to parry.{x
+whip		the use of whips, chains, and bullwhips
+{D                    Bonus to disarm, penalty to enemy shield block.{x
+exotic          the use of strange magical weapons
+ 
+The exotic skill can neither be known nor practiced, and is dependent solely
+upon level. 
+~
+-1 0 'SHIELD BLOCK'~
+Shield block is the art of parrying attacks with a shield.  While those
+who have not learned this skill are also crudely able to block attacks with
+a shield, their attempts are no where near as effective as one who has. 
+
+NOTE: Flexible whips and flails are able to swing around the edge of a
+shield to strike the wearer.
+~
+-1 0 KNIFE~
+Syntax: knife <victim>
+
+With a swift, lunging stab, a thief can slip his blade into the back of
+his victim more swiftly than they can react to defend themselves.  Since it
+is not carefully placed, knifing is not nearly as accurate, or as likely to
+cause damage as great as backstab.  However, since the attack is executed
+with such swiftness, it can be used on victims who are close to death and
+are too wary to be snuck up on for a carefully placed backstab.  
+ 
+See Also: HELP BACKSTAB
+~
+-1 0 BASH CRUSH~
+The bash skill is a warrior talent, a brute-force attack designed to knock
+your foe to his knees.  Its success depends on many factors, including the
+bash rating, your weight, and the size of your opponent, so bashing a dragon
+is not generally a wise idea.
+ 
+Every now and then, you'll see a mob CRUSH you. This is a skill some monsters
+have that is very similar to bash.
+~
+-1 0 BERSERK~
+Only powerful warriors can master berserking, the ability to enter insane rage
+in combat.  Its effects are not altogether unlike the frenzy spell -- a huge
+surge of combat prowess, coupled with a disregard for personal safety.  
+Berserking warriors are more resistant to the effects of magic.
+~
+-1 0 DIRT 'DIRT KICKING'~
+Considered by some to be a cowardly skill, dirt kicking casts a blinding
+spray of sand and grit into the eyes of an opponent.  Though it doesn't last
+long, it provides a distinct edge in combat.  Dexterity helps in avoiding or
+landing a dirt kick.  It is useful to note that one can not dirt kick while
+flying, though one may have dirt kicked at them though they are flying. 
+
+~
+-1 0 DISARM~
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when
+you are skilled with both your own and your opponent's weapon types. 
+
+~
+-1 0 DODGE~
+In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honors this tradition, by improving the
+character's natural agility to the point where many blows will miss the 
+target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.  Nearly all classes may learn dodging.
+~
+-1 0 'ENHANCED DAMAGE'~
+Through practice and training a fighter learns where and how to strike
+his opponent to inflict the greatest amount of damage.  This skill is
+automatically checked every hit landed with a weapon, and stands a greater
+chance of success the higher the learned percentage on the skill.  
+~
+-1 0 ENVENOM~
+Syntax: envenom <object>
+
+Envenom is a cowardly skill practiced only by thieves.  Using their
+knowledge of debilitating and lethal poisons, a thief is able to poison
+food, drink, or weapons with varying effects.  Poisoned Food or drink is
+poisoned with a mild venom that usually weakens rather than kills the
+victim.  A poisoned weapon, on the other hand, can inflict serious damage on
+an opponent as the poison burns through his bloodstream.  The poison on
+weapons tends to evaporate and is rendered powerless relatively quickly. 
+
+~
+-1 0 'HAND TO HAND'~
+Hand to hand is a skill that everyone possesses.  This style is fighting
+allows an adventurer to deal damage while unarmed.  Some classes are more
+adept at using this ability than others, while some have specialized
+augmentation.  
+~
+-1 0 KICK~
+Kick gives an adventurer an extra attack in combat.  This skill may be
+used once each round.  
+~
+-1 0 PARRY~
+If at first you fail to dodge, block it.  Parry is useful for deflecting
+attacks, and is successful more often than dodge.  Parry requires a weapon
+for full success, the hand-to-hand skill may also be used, but results in
+reduced damage instead of no damage.  The best chance of parrying occurs
+when the defender is skilled in both his own and his opponent's weapon
+types.  Warriors and samurai stand a greater chance at parrying attacks than
+other classes 
+~
+-1 0 RESCUE~
+A friend in need is a friend indeed.  And when in combat, a warrior with
+the rescue skill is just the friend you need.  Rescue allows you to intercede
+in combat, protecting weaker characters from bodily harm. Hopefully the
+favor will be returned.  Success in rescuing depends on the skill rating, as
+well as a comparision of level, dexterity, and speed between the character and
+the target. (note: you rescue a friend, not the monster)
+~
+-1 0 TRIP~
+To successfully trip an opponent, one must have quick reflexes and good
+timing.  This skill is very quick to execute and can be used once every
+round.  You can not be tripped while flying, nor can you trip while you are
+flying.  
+~
+-1 0 'SECOND ATTACK'~
+Second attack gives an adventurer a chance at an additional attack in
+combat per round.  2 attacks are never guaranteed every round, even with the
+skill at 100%, however the chances are much greater.  All classes may learn
+this skill, but magicusers have difficulty in mastering and using it. 
+
+~
+-1 0 'THIRD ATTACK'~
+Training in third attack allows an adventurer a chance at a third attack
+per round of combat.  Three attacks is not guaranteed, even having attained
+perfection in this skill, the chances are simply increased.  
+~
+-1 0 'HIDE'~
+Syntax: hide
+
+A thief can attempt to hide in the shadows so that he will be unnoticed. 
+Thieves originally learned this skill to help them stand unseen in the
+shadows of a back alleyway, waiting for unwary victims to pass by.  Though
+it was intended for use in the city, a thief is able to find shadows to hide
+in, in many different locales, and is similar to the ranger camouflage
+skill.  His hidden status is cancelled as soon as he moves.  
+ 
+Note: A thief is never sure if he is fully hidden in the shadows. He always
+THINKS that he is, but is never entirely sure.
+ 
+     See also HELP CAMOUFLAGE
+~
+-1 0 'FAST HEALING'~
+Fast healing improves hitpoint regeneration rates whether standing,
+resting, or sleeping.  It is checked every tick for success or failure. 
+Failure occurs more often with a lower % on the skill.  All classes may
+learn this skill, but magicusers find it very difficult to master, due to
+their low stamina and bookish lifestyles.  
+~
+-1 0 LORE~
+Syntax: lore <object>
+
+Lore is a general skill, consisting of knowledge of myths and legends
+about items and artifacts.  Use of the lore skill gives a chance of
+obtaining information on an object concerning its power and uses.  The
+harder you practice lore, the more information you will be able to discover
+about an item.  
+~
+-1 0 HAGGLE HAGGLING~
+Haggling is an indispensable skill to the trader.  It allows a character to
+match wits with a merchant, seeking to get a better price for merchandise,
+or to buy at the lowest possible cost.  Unfortunately, most merchants are 
+already very skilled at haggling, so the untrainined adventurer had best 
+guard his treasure closely.  Thieves are natural masters at haggling, 
+although other classes may learn it as well.
+~
+-1 0 PEEK~
+A thief is able to peek into the inventory of any mob or player to see
+what they are carrying.  This has obvious applications for use in
+conjunction with STEAL, and it automatic once practiced.  It is harder to
+peek at more intelligent characters.  
+~
+-1 0 'PICK LOCK' PICK~
+Syntax: pick <object>  {Ror{x pick <direction>
+
+Lock picking is one of the prime skills a thief relies on to ply his
+trade, as it allows him to gain access to many secured areas, and to unlock
+vaults, chests, and safes.  Chances of success are improved with a higher
+intelligence, and hampered by the difficulty of the lock.  Ninjas also learn
+to pick locks, but never attain the expertise of a thief.  
+~
+-1 0 PERCEPTION~
+With his keen eyesight, and a little practice, a thief can pick out
+hidden exits.  This skill is automatically used once practiced, and all
+closed doors will be seen with a * .  
+~
+-1 0 'MEDITATION'~
+This skill is similar to fast healing, but relies on the concentration and
+mantras to increase mana recovery when the character is sleeping or resting.
+Thieves and warriors, with their troubled minds and violent attitudes, have
+great difficulty learning to meditate effectively.
+~
+-1 0 STEAL~
+Syntax: steal coins <victim>
+{Ror{x
+Syntax: steal <object> <victim>
+
+The ability to steal is a class defining skill for thieves.  No other
+class may learn this ability.  It allows the thief to try to relieve their
+fellow adventurers, and any other creatures they may encounter, of gold or
+other items they may possess.  
+~
+-1 0 'DETECT GOOD'~
+Syntax: cast 'detect good'
+
+ This spell enables the caster to detect characters of good moral
+standing, and he will see them surrounded by a ({YGolden Aura{x).  
+~
+-1 0 'DISPEL GOOD'~
+Syntax: cast 'dispel good' <victim>
+ 
+Dispel good brings forth evil energies that inflict horrific torment on 
+the pure of heart.  Good-aligned characters use this dark magic at their
+peril.
+~
+-1 0 'RECHARGE'~
+Syntax: cast 'recharge' <item>
+
+The recharge spell is used to restore energy to depleted wands and staves.
+Fully exhausted items cannot be recharged, and the difficulty of the spell
+is proportional to the number of charges used.  Magic items can only be
+recharged one time successfully.
+~
+-1 0 'DEMONFIRE'~
+Syntax: cast 'demonfire' <target>
+
+Demonfire is a spell of blackest evil, and as such can only be used by those
+who follow the paths of darkness.  It conjures forth demonic spirits to 
+inflict terrible wounds on the enemies of the caster.
+~
+-1 0 'BLUEFIRE'~
+Syntax: cast 'bluefire' <target>
+ 
+Bluefire is a spell of neutral clerics, and as such can only be used by
+those who have a neutral alignment. It conjures forth spirits from the
+neutral planes to inflict terrible wounds on the enemies of the caster.
+ 
+~
+-1 0 'RAY OF TRUTH'~
+Syntax: cast 'ray of truth' <target>
+
+Ray of truth opens a portal to the planes of positive energy, bringing forth
+a beam of light of sufficient purity to harm or annihilate the servants
+of evil.  It cannot harm the pure of heart, and will turn and strike 
+casters who are tainted by evil.
+~
+-1 0 'PORTAL'~
+Syntax: cast 'portal' <target>
+
+The portal spell is similar to gate, but creates a lasting one-way portal
+to the target creature, instead of transporting the caster.  Portals are
+entered using 'enter' or 'go' command, as in 'go portal'.  Portals cannot
+be made to certain destinations, nor used to escape from gate-proof rooms.
+Portal requires a special source of power to be used, unfortunately the
+secret of this material component has been lost...
+~
+-1 0 'NEXUS'~
+Syntax: cast 'nexus' <target>
+
+This spell is virtually identical to portal (see 'help portal'), with the
+only difference being that while portal creates a one-way gate, a nexus 
+spell makes a two-sided gate.  It also lasts longer than the lower-powered
+portal spell.  Both spells require an additional power source, the secret
+of which has been lost...
+~
+-1 0 'HEAT METAL'~
+Syntax: cast 'heat metal' <target>
+
+Heat metal is a powerful clerical attack spell, with effects that vary 
+according to the armor of the victim.  It heats up the metal equipment
+(assumed to be all weapons and armor at this point in time) on the target,
+causing him or her to drop them if possible, taking serious burns in the
+process (possibly fatal if the equipment is too heavy to remove easily).
+This spell does no damage to creatures who are immune to fire.
+~
+-1 0 'HOLY WORD'~
+Syntax: cast 'holy word'
+
+Holy word involves the invocation of the full power of a cleric's god, with
+disasterous effects upon the enemies of the priest coupled with powerful
+blessings on the priest's allies.  All creatures of like alignment in the
+room are blessed and filled with righteous divine wrath, while those of
+opposite morals (or both good and evil in the case of neutral priests)
+are struck down by holy (or unholy might) and cursed.  The cleric suffers
+greatly from the strain of this spell, being left unable to move and 
+drained of vitality.  Experience loss is no longer associated with the spell.
+~
+-1 0 FRENZY~
+Syntax: cast 'frenzy' <target>
+
+The frenzy spell fills the target with righteous fury, greatly increasing
+his or her attack skill and damaging capacity.  Unfortunately, this divine
+wrath is coupled with a tendency to ignore threats to personal safety, 
+making the character easier to hit.  Frenzy provides immunity to the calm
+spell (see 'help calm'), and may only be used on those of the caster's 
+alignment.
+~
+-1 0 'CALM'~
+Syntax: cast 'calm'
+
+One of the most useful and often overlooked spells a master cleric
+possesses is the calm spell, which can put an end to all violence in a room.
+Calmed creatures will not attack of their own volition, and are at a
+disadvantage in combat as long as the spell soothes their minds.  Either it
+fails or succeeds, ending all combat in the room.  
+~
+-1 0 HASTE~
+Syntax: cast 'haste' <target>
+
+The haste spell increases the speed and agility of the recipient, allowing
+an extra attack (or even a backstab) in combat, and improving evasive
+abilities in combat.  However, it produces a great strain on the system,
+such that recuperative abilities are halved.  Haste is capable of negating
+the slow spell. (see 'help slow').
+~
+-1 0 SLOW~
+Syntax: cast 'slow' <target>
+
+Despite popular mythology, slow is not the opposite of haste, but is a spell
+with it's own unique set of effects.  When cast on an unfortunate victim,
+it slows its movements, making it easier to hit and reducing its rate
+of attack.  The effect of slow also double movement costs and halve healing
+rates, due to reduced metabolism.
+~
+-1 0 PLAGUE~
+Syntax: cast 'plague' <target>
+
+The plague spell infests the target with a magical disease of great virulence,
+sapping its strength and causing horrific suffering, and generally leading to
+death.  It is a risky spell to use, as the contagion can spread like
+wildfire if the victim makes it to a populated area.
+~
+-1 0 'CREATE ROSE'~
+Syntax: cast 'create rose'
+
+A romantic spell that creates a fragrant red rose, with utterly no game
+use whatsoever.
+~
+1 0 'PROTECTION GOOD' 'PROTECTION EVIL'~
+Syntax: cast 'protection evil'     {Ror{x     cast 'protection good'
+
+These protection spells reduce damage, of any type, taken from attackers
+of the appropriate alignment, be they evil or good.  Saving throw is also
+slightly improved, though they may not be cast on another person, and they
+also may not both be cast at the same time.  
+~
+0 0 'GIANT STRENGTH'~
+Syntax: cast 'giant strength' <character>
+ 
+This spell increases the strength of the target character.
+~
+-1 0 'CHAIN LIGHTNING'~
+Syntax : cast 'chain lightning' <target>
+
+Chain lightning is a deadly spell, producing a powerful bolt of lightning
+that arcs from target to target in the room, until its force is fully
+expended.  Allies of the caster may be hit by this spell if they are members 
+of a clan, while the caster himself will not be struck unless no other
+viable target remains.  Chain lightning is most effective when used on
+groups of creatures.
+~
+0 0 FARSIGHT~
+Syntax: cast 'farsight' <direction>
+Example: c far up
+
+The farsight spell expands the caster's consciousness, allowing him or her
+to see far away beings like they were in the same room.  It takes intense
+concentration, often leaving the caster helpless for several minutes.
+The spell may be used for a general scan that reaches a short distance in
+all directions, or with a directional component to see creatures much
+farther away.
+~
+-1 0 MASS HEALING~
+Syntax: cast 'mass healing' 
+
+The mass healing spell, as its name might suggest, performs a healing spell
+on all players in the room.  It also throws in a refresh spell for good
+measure.
+~
+-1 0 'FLOATING DISC'~
+Syntax: cast 'floating disc'
+
+This useful spell creates a floating field of force which follows the caser
+around, allowing him or her to pile treasure high with no fear of weight
+penalties.  It lasts no more than twice the casters level in hours, and
+usually less.  It can hold 10 pounds per level of the caster, with a 
+maximum of five pounds per item.  The spell requires an open float location
+on the character, and the only way to remove the disc is to die or allow it
+to run out of energy.
+~
+-1 0 FIREPROOF~
+The fireproof spell creates a imbunes an item with a protective aura that
+protects it from the harmful effects of acid and flame.  Items protected
+by this enchantment are not harmed by acid, fire nor intense heat.  The
+duration of this enchantment depends on the level of the caster, but
+typically ranges from a few days to almost a month.
+ 
+Syntax: cast 'fireproof' <object>
+~
+-1 0 ALIAS UNALIAS~
+Syntax: alias
+	alias <word>
+	alias <word> <substitution>
+	unalias <word>
+
+The alias command allows limited shortening of command names.  At this time,
+aliases cannot call other aliases, and cannot generate more than one command.
+Alias by itself lists your current aliases, Alias <word> lists the alias with 
+that name (if such exist), and alias with both a word and and argument 
+produces a new alias.  You cannot alias either alias or unalias to a new
+command.  Examples of use:
+
+alias gc get all corpse --> typing gc will equal typing 'get all corpse'
+alias ff cast 'fireball' --> ff orc will equal 'cast 'fireball' orc'
+
+Only the first word on the line will be subsituted at this time.
+~
+-1 0 'BARKSKIN' 'BARK SKIN'~
+Syntax: cast 'bark skin'
+
+It is said that the ancient druids were capable of transforming their
+bodies into giant oak trees, sending their roots deep into the healing soil
+of the earth.  A great ranger in ages long past was granted the secret to a
+minor enchantment of similar nature, whereby he was able to harden his flesh
+into a protective barklike armor.  
+
+This secret has been passed on, and rangers now are capable of learning it.
+As a ranger grows in power, the protective strength of his barkskin grows.
+~
+-1 0 'IMPROVED MALADICTION'~
+This unholy technique was developed by the Shilobazuth Mal'eus, a council
+of necromancers rumoured to exist somewhere in the bowels of the Underdark. 
+Combining the raw energy of the Negative Plane with the necromancer's
+intense hatred for life, any maladictive spells he casts are focused and
+greatly intensified in power.  Anti-paladins have also learned the secret of
+this skill, which is automatic once learned.  
+~
+-1 0 GOSSIP~
+Gossip is a global channel, it may be used by anyone who has reached or
+surpassed level 3.  Please limit the use of foul language on this channel.  
+ 
+To insert an adverb in your gossip, such as:
+"Alamor gossips angrily, '{RGive my shoe back!!{x'"
+One would type "gossip angrily ^Give my shoe back!!"
+~
+0 0 PETITION~
+Syntax: Petition (clan) (your name)
+ 
+Petition Accept ( Imm's and clan leaders only)
+ 
+Petition Decline (imm's and clan leaders only)
+ 
+When you petition for a clan you must have met the clan requirments.
+You must also have a good RP desc made or your petition will be declined.
+When you log off you must petition each time you log back on and off again.
+Make sure you have met the requirements before you petition.
+ 
+Petition Accept allows the Clan Leader or imm to induct a player into that clan.
+ 
+Petition Decline allows a clan leader or imm to decline the petition of the player.
+~
+-1 0 BOW~
+Rangers are well known for their skill in archery.  With training, a
+ranger is even able to fletch his own arrows, and make his own bow.  The
+ability to use bows is not limited to rangers, warriors may also learn their
+use, but they never will never attain the level mastery that a ranger is
+able to.  
+ 
+Also see helps: 'SHOOT' {Rand{x 'MAKE BOW' , 'MAKE ARROW'
+~
+0 0 BACKSTAB 'DUAL BACKSTAB'~
+Syntax: backstab <victim>
+
+A thief approaches an unwary victim from behind and attempts a viscious
+stab to the unprotected small of their back.  It is capable of inflicting a
+tremendous amount of damage, and will kill some opponents instantly.  A
+master thief eventually learns to land a second backstab before his target
+can even react to the first.  Once 'dual backstab' is learned, a second
+backstab is automatically attempted.  
+ 
+The damage done on a backstab is based on the thief's skill with the weapon
+he is wielding, his skill at backstab, and his current level; increasing in
+power as his level increases.  Backstab can only be attempted while using
+some type of piercing weapon.
+ 
+See Also:  HELP KNIFE
+~
+0 0 'DRAGON STRENGTH'~
+Syntax: cast 'dragon strength' <target>
+ 
+This spell bestows the strength of a dragon, making things easier to hit, 
+making you hit things harder, and making your strength score increase; however,
+your AC becomes worse, as does your dexterity.
+~
+0 0 DELVE~
+Syntax: commune 'delve' <target>
+
+The delve spell is used by Clerics to gain an overview of the
+health of their target.  As well as getting a rough idea of the
+overhall health a target has, it will also allow the Cleric to
+ascertain certain other ill effects the target might be suffering
+from.
+~
+92 0 'IMMORTAL RANK'~
+Avatar (92):
+An avatar is a newly-inducted immortal, one who is still in the process of
+learning what is expected of them, and how to go about doing the job they've
+been hired to do. They will largely be unseen, as they are probably not yet
+ready to handle the situations of Immortal intervention in Mortal affairs.
+When they've proven they've been trained enough and are ready to begin their
+job, they will be advanced to Angel (93).
+
+Angel (93):
+An angel is a relatively new immortal who's been trained in what they're to
+do in their job, and is just beginning to do it. After someone of this rank
+has accomplished something noteworthy in the course of their job (for example,
+if a builder finishes their first area), they should be promoted to the next
+tier of rank, Demigod (94).
+
+Demigod (94):
+A demigod is a somewhat experienced immortal who's finished a decent amount
+of work, thus proving his capability and commitment. At this point, the need
+for direction and help is less than it was before, but some guidance is still
+recommended to make sure there is consistancy in the work, and the immortal's
+first accomplishment was not a fluke. After a demigod has demonstrated to his
+superiors that he can largely work independantly, he should be promoted to the
+next rank, Immortal (95).
+
+Immortal (95):
+An Immortal is a moderately experienced member of the staff that has shown he
+can largely work independantly, i.e. without much help. These immortals will
+typically pitch their ideas to their higher-ups, and once fleshed-out and
+approved, will go to work on them themselves, without a whole lot of guidance
+from a higher staffmember. After the idea is completed, the higher staff should
+be informed, so that the changes can be checked, and pending final approval,
+implemented. When a staffmember of this rank shows the desire and the talent
+to help guide others in their projects, they should be tested and subsequently
+promoted to the next tier, God (96).
+
+God (96):
+A god is an immortal that has proven his skill and commitment, and has shown
+interest in (and capability of) teaching and/or guiding new staffmembers in
+their projects, as well as continuing their own. A god would serve as a teacher
+to Avatars when they are newly created, acquanting them with what is expected
+of them and teaching them how to do it. They would still be expected to fulfill
+the duties of their own jobs as well. When a god has proven himself a good
+teacher and guide, he can be promoted to the rank of Deity (97).
+
+Deity (97):
+A deity is an experienced member of the staff who has shown himself capable in
+both his own work, and teaching others how to do their work. At this point,
+the immortal has proven themselves capable and committed to the work he's
+doing as well as capable of relating information to a younger, more
+inexperienced member of the staff. His new role is now to help guide those
+who have been taught the basics as they begin to do their jobs, those of rank
+Angel (93). As a deity shows they are capable of good, solid work as well as
+solid judgement in the guidance of others in their work, they can be promoted
+to the next rank of Supremacy (98).
+
+Supremacy (98):
+A supremacy is one who has shown they are capable of making good decisions
+about gameplay mechanics, creativity, and leadership. They have shown they
+are very capable of finishing good work as well as helping others finish
+good work, through friendly guidance and constructive criticism. A hot-tempered
+or overly-bossy immortal will not make it this far. A Supremacy is now placed
+in charge of guiding the more experienced (but still young) immortals of the
+rank Demigod (94) in their continuing work after they've made their first mark.
+When a supremacy shows they are capable of good decision-making as well as
+solid leadership, and have accomplished a significant amount of work to show
+their experience, they can be promoted to the rank of Creator (99).
+
+Creator (99):
+A creator is a very experienced immortal who has shown (s)he is capable of
+sound decision-making, good leadership, and excellent work. The role of a
+creator largely revolves around approving ideas pitched by immortals of rank
+Immortal (95) or higher, who don't need nearly as much help and guidance in
+their work as immortals of the lower levels. They are responsible for evaluating
+and testing the work these immortals, and making sure any changes that need
+to be made are made before the work is finally implemented into the mud. As a
+whole, creators are the managers of those capable of independant work, and are
+responsible for making sure the work being done on is creative, balanced, and
+of good quality.
+
+Dungeon Master (100):
+They're the bosses. They hold the final say in any given dispute, matter, or
+decision. Few are offered this rank, because of the responsibility involved.
+A Dungeon Master has to be someone who has shown they are capable of great
+creativity, solid quality work, excellent decisions, and impeccable leadership.
+They are the wisest and most experienced members of the staff.
+~
+92 0 IMMORTAL OFFICER~
+Your {ROFFICER{z is the person you report to when proposing, working on, and
+implementing your projects to improve the mud.
+ 
+Currently, a staff-member's officer is assigned to him on a case-by-case basis.
+This will hopefully change to a hierarchy-based system as our immstaff grows.
+
+{W-----
+
+
+Aoth ---> Sadin ---> Daphais
+(Nobody yet) ---> Nalaeya ---> Daphais
+Pyriel ---> Zsuzsu ---> Angelo
+Kira ---> Angelo
+Alamor ---> Daphais
+
+
+-----{z
+
+The hoped-for model of report should be something like this:
+ 
+{R100, 99, 98 :: Administrative Staff, Report to Eachother to Stay Informed{z
+
+An IMM of Rank --- reports to ---> An IMM of Rank
+ 
+97 --> 100
+96 --> 100
+95 --> 99
+94 --> 98
+93 --> 97 --> 100
+92 --> 96 --> 100
+~
+99 0 'howto howto'~
+{WHowto Howto{x: Written by Daphais
+                                
+{DSyntax: {mhelp{x '{chowto howto{x'
+{DExample: {mhelp {x'{chowto mpcode{x'
+               
+I decided to create this helpfile so that all the staff
+will know about my 'Howto' helps. I am going through 
+and creating a 'howto' help for everything one can do
+with OLC. Some example are: 
+                      
+"{cHowto Create a room{x"
+"{cHowto Create a Mpcode{x"
+"{cHowto Create a Mob{x"
+"{cHowto Create an Area{x"
+                  
+This is an on going process so bear with me. If you can't find
+a help you are looking for, let me know. And I will write a help
+up as fast as I can. Keep in mind though. I will also be writing
+helps for OLC commands and give examples, Expecially for MPCODES.
+So, if it takes me to long feel free to lend a hand!
+~
+-1 $~
+
+#$

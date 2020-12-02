@@ -1,0 +1,122 @@
+Nouflic's last days and "The Deal"
+
+During this era, the Barbarian clan had a few followers lead by the 
+perpetually drunk and grumpy dwarven cleric named Finn (me), and the 
+Warlocks still held status has the largest clan run by Azureth and his 
+overpowered house gear.
+
+Nouflic's rise to Hero, had been pretty rough.  Daily he'd lament on OOC 
+about his low constitution.  Even so, he'd spend a lot of time earning 
+money and quest points for a house that Sadin was making for him on Clan 
+Road in Midgaard.  I'm not clear what was taking Nouflic so long in 
+building his house.  I'm pretty sure he had the money/qps.  But maybe he 
+hadn't decided what color the wallpaper was suppose to be yet.
+
+All though Finn's life he was hunting magic users.  His policy was 
+notably different than those who followed Sunian's clan lead.  Finn only 
+attacked people he actually saw using magic.  Might not have been right 
+on the spot, but usually w/in the day he'd make them answer for their 
+lack of divine respect.  People such as Pfigliano often had extended 
+and cordial conversations with Finn at MSM.  Of course, one time Finn 
+walked by MSM while Pfig was casting, and so was compelled to strike him 
+down.
+
+Lorath too, a then Shadow Anti-Paladin, was known to group with Finn 
+when the two battled side by side.  But when once Lorath twittled his 
+thumbs with arcane intention, Finn turned on him right in the middle of 
+battle and planted him on the spot.
+
+Finn was a rather adept mage killer when assigned that job.  I think 
+the hero Azureth killed him about 4 times while Finn at level 40 was 
+trying to defend his sacred clan hall.  Then, once hero they met again 
+and Finn went 0-6-1 against Azureth.  (at the time there was a bug in 
+spellbane where Azureth could cast 'dispel magic' about 8 times each 
+round.  So I died because I forgot to turn off spellup triggers and got 
+dispelled, ah well.  All other fights were stalemates, where Az was 
+getting the best of me usually (acid blast, +2xHPs, +super-gear, +6pets) 
+ The battle spam alone was killer).
+
+Anyway, Finn was making it his mission to take out the more vocal 
+opponents of the Barbarian cause.  And Nouflic fit the bill.  But 
+Azureth started asking people OOC to not kill Nouflic until he finished 
+his house (which seemed to be taking a month already).  Most people had 
+agreed, I guess.  But after I killed Nouflic he asked Finn to do the 
+same.  It was kinda a hard position to be in.  There wasn't really an RP 
+way I could justify letting Nouflic run around like that, and he had a 
+tendency to open his mouth and snipe at the Barbarian cause.
+
+I talked the situation over with Sadin, asking him what options were
+viable for Finn.  Sadin said I could let Nouflic slide for a while if I
+wanted and he wouldn't look down on my RP.  But the OOC way this was
+handled was grating on me.  Finn, as with all my characters with one
+exception, always kept OOC and RP strictly seperate.  Only two IMMs ever
+knew Finn was Iona, even though they can see IP addresses.  No players
+ever knew.  OOC I liked Nouflic and Az, since they were part of Iona's
+Warlock family (also me).  But as Finn, I couldn't stand them.
+
+So, in the end I found an RP solution to the problem, and introduced it 
+with the following note (sorry if I missed some color codes):
+
+--cut--
+
+To: barbarian warlock imm
+Subject: Nouflic the enfeebled
+.
+{yBarbarian{x Brothers & Blasphemous {MWereLucks{x,
+.
+   Many of the Barbarians have been approached via back-channels to ignore 
+the feeble WereLuck named Nouflic as he builds his retirement home in the 
+middle of Midgaard.  His necrotic brain has made him so weak it is rumored
+even his god has grown tired of resurrecting his soul.  This is a fate
+we all will eventually face, as we are, alas, {Rmortal{x.  And seeing this 
+happen to one who mocks the true gods does nothing but delight the ranks of 
+the Barbarian clan.
+.
+   Though we have been approached to not meet out his final death, this is not
+the way of Barbarian.  We will not abstain from slaying a fool who does not
+repent.
+.
+   However, the journeymen helping furnish the Barbarian village do not come 
+cheap.  And the Barbarian coffers could use replenishment.  Thus, I am forced
+to make pragmatic decisions.  And I, as Leader of the Barbarians, offer the
+following:
+.
+   The Barbarian clan will not hunt you for the next {Ctwo weeks{x, allowing 
+you to build your retirement home, provided Nouflic do the following:
+.
+   1) deliver to the Barbarian clan {Y500,000{x gold
+   2) publicly renounce your affiliation with the {mWarlock{x Clan
+      (ooc: declan and post an RP note to all about it)
+   3) {ggive up{x your blashemous ways by never casting a spell, 
+      nor walking around with ungodly minons.
+.
+   These terms are {rnon-negociable{x.  Any violation of the terms by you
+nullifies the contract.  This offer expires in {Rtwo days{x.  We grant you
+no refugue durning this time.
+.
+the Finn
+
+--cut--
+
+Yeah, it was a hard deal to swollow.  But I figured if Nouflic was 
+really on his last two deaths, and really wanted to complete his house, 
+this would be a way to do it.  Prolly better than just sitting in the 
+Warlock tower afraid to step outside.  And it was an RP way of dealing 
+with the problem.  But I didn't really expect him to take it.
+
+I gave him 3 days to respond, and he logged in on the first day but 
+never replied.  So I sent out another message, a death warrant.  I help 
+Elial hero and set him on the task to help the Barbarian CON delete 
+Nouflic.
+
+I killed Nouflic and I guess put him 2 deaths from deletion.
+
+Elial caught up with him a day or so later and killed him once.  Before 
+death, while strangled, Nouflic illegally logged onto another character 
+to loot his eq after death (so Elial wouldn't have it -- Elial was 
+prolly the major cause of Nouflic's poor CON in the first place).  Elial 
+saw this and so PKed Nouflic again in a sort of vigilanty MUD justice 
+way.  This of course was completely illegal, and he was eaten for it, 
+but it caused Nouflic's second death which caused his deletion.
+
+the Finn (aka Zz)

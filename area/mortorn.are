@@ -1,0 +1,4697 @@
+#AREADATA
+Name Mortorn~
+Builders thornan~
+VNUMs 98201 98400
+Credits Thornan Battlehammer~
+Security 9
+LevelRange 35 91
+ResetMessage Suddenly the Mountain groans and rumbles as the dwarves restart their gigantic forges to create new things.~
+Flags noquest~
+End
+
+#MOBILES
+#98201
+cloaked human ranger~
+A cloaked human ranger~
+A staunch cloaked man stands here half hidden by the woodland
+~
+~
+human~
+ABTU JPVcet 0 0
+91 91 465d91+5000 910d11+95 31d2+68 none
+-56 -56 -56 -37
+ACDEFHKO XYZ CDHIJLMQ KOP
+stand stand male 0
+0 0 large flesh~
+~
+#98202
+tiago~
+Tiago~
+Tiago
+~
+~
+human~
+AB 0 0 0
+1 1 9d1+0 10d11+95 2d2+8 none
+7 7 7 8
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 98201 100~
+#98203
+жрец guildmaster universal~
+the Universal Teacher~
+The universal teacher stands here, teaching all who enter anything they desire to learn.
+~
+~
+human~
+ABJKQTVb CH 1000 0
+1 1 8d1+0 5d10+85 1d2+5 none
+8 8 8 8
+ACEFHIKN ABCDLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+I 92
+#98204
+gokdor healer~
+Gokdor the dwarven healer~
+Here stands Gokdor the dwarven healer waiting for someone to heal.
+~
+As you look to Gokdor the Healer you can notice in his forehead.  It
+looks like he had a fight and that one sword or one dagger made this scar he
+has on his forehead.  
+~
+dwarf~
+ABa H 0 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98205
+moon guardian~
+The Moon Guardian~
+The Moon Guardian is here, guarding the most precious treasure of all.
+~
+The moon guardian is an old paladin dwarf that lives only with one
+purpose.  To protect the Moon Sword.  The most powerful sword forged in
+Mortorn.  
+~
+dwarf~
+ABF H 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98206
+guardian sun~
+The Sun Guardian~
+The Sun Guardian is here, guarding the most precious treasure of all.
+~
+The sun guardian is an old paladin dwarf that lives only with one
+purpose.  To protect the Sun Dagger.  The most powerful dagger forged in
+Mortorn.  
+~
+dwarf~
+ABF H 1000 0
+100 100 524d100+0 1000d11+95 34d2+74 none
+-62 -62 -62 -42
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98207
+drow soldie~
+A Drow Soldier~
+Here is a soldier ready to kill anyone who stands in his way.
+~
+~
+dark-elf~
+ABF 0 -1000 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+EFIKNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98208
+drow soldie soldier captain~
+A Drow Captain~
+Here is a captain ready to kill all dwarves he sees.
+~
+~
+dark-elf~
+ABF 0 -1000 0
+73 73 348d73+0 730d11+95 25d2+56 none
+-43 -43 -43 -28
+EFIKNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98209
+drow fighter~
+A Drow Fighter~
+Here is a fighter ready to assist his fellow drows.
+~
+~
+dark-elf~
+ABF 0 -1000 0
+73 73 348d73+0 730d11+95 25d2+56 none
+-43 -43 -43 -28
+EFIKNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98210
+duergar militia~
+A Duergar Militia~
+A duergar militia stands here looking for some dwarfs to kill.
+~
+~
+duergar~
+ABF 0 -1000 0
+50 50 198d50+0 500d11+95 17d2+40 none
+-27 -27 -27 -16
+DFKNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98211
+duergar~
+A Duergar~
+A duergar stands here looking for some dwarves to kill.
+~
+~
+duergar~
+ABF 0 -1000 0
+51 51 204d51+0 510d11+95 18d2+41 none
+-27 -27 -27 -17
+DFKNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98212
+weapon smith dwarf master~
+The Weapon Master~
+A strange looking dwarf is here to sell you some weapons.
+~
+~
+dwarf~
+AB 0 500 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98208 100~
+#98213
+dwarf leather smith~
+The Leather Smith~
+The Leather Smith stands here with a sword on his hand.
+~
+~
+dwarf~
+AB 0 500 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98205 100~
+#98214
+dwarf armorer~
+The Dwarven Armorer~
+There is a little dwarf behind you looking and waiting for you to do something.
+~
+~
+dwarf~
+AB 0 500 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98207 100~
+#98215
+king golda third dwarf~
+Golda The Third, The Dwarven King~
+Here is Golda the Third, the king of all dwarves of Mortorn sitting on his throne.
+~
+~
+dwarf~
+AB H 750 0
+91 130 465d91+0 910d11+95 31d2+68 punch
+-56 -56 -56 -37
+ACDEFHKO 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98216
+dwarf~
+A Dwarf~
+A dwarf is walking through Mortorn looking for something to do.
+~
+~
+dwarf~
+AG 0 500 0
+35 35 74d35+0 35d9+60 10d3+19 none
+-12 -12 -12 -5
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98217
+dwarf worker~
+A Dwarven Worker~
+A dwarven worker is here digging to find raw materials.
+~
+~
+dwarf~
+ABG 0 500 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98218
+guard dwarf~
+A Dwarven Guard~
+Here stands a strong dwarf patrolling the Hall of Kings to protect his King.
+~
+~
+dwarf~
+ABT 0 750 0
+45 45 165d45+0 450d11+95 16d2+37 punch
+-23 -23 -23 -14
+CDFKRT 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98219
+dwarf berseker~
+A Dwarven Berseker~
+Here stands a really strong looking dwarf.
+~
+~
+dwarf~
+AT a 0 0
+60 60 264d60+0 600d11+95 21d2+47 punch
+-33 -33 -33 -21
+CDFKR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98220
+dwarf berseker~
+A Dwarven Berseker~
+Here stands a really strong looking dwarf.
+~
+~
+dwarf~
+A 0 -1000 0
+60 60 264d60+0 600d11+95 21d2+47 none
+-33 -33 -33 -21
+R 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98221
+dwarf forge master~
+The Forge Master~
+The forge master is here waiting for some new apprentices.
+~
+~
+dwarf~
+AB 0 1000 0
+65 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+R 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98222
+dwarf forge apprentice~
+An Apprentice~
+An apprentice stands here looking serious.
+~
+~
+dwarf~
+AB 0 1000 0
+55 55 231d55+0 550d11+95 19d2+44 none
+-30 -30 -30 -19
+R 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98223
+dwarf foreman dwarven~
+Forge maintenance foreman~
+The foreman for the forge maintenance crew is here looking over some of the blueprints
+~
+~
+dwarf~
+AB a 0 0
+88 100 446d88+1000 880d11+95 40d2+90 punch
+-54 -54 -54 -36
+DEFK 0 I 0
+stand stand male 100
+0 0 medium flesh~
+~
+M grall 98202 50~
+#98224
+dwarf dwarven stable master~
+Dwarven stable master~
+The stable master is here tending the stables
+~
+~
+dwarf~
+AB a 0 0
+88 88 446d88+1000 880d11+95 30d2+66 punch
+-54 -54 -54 -36
+0 0 I 0
+stand stand female 0
+0 0 medium flesh~
+~
+M greet 98203 100~
+I 92
+#98225
+dwarf food vendor shop shopkeeper shoppe shopee~
+Dwarven food vendor~
+A dwarf stands here cutting some meat and preparing bread for the miners
+~
+~
+dwarf~
+AB a 0 0
+91 91 465d91+0 910d11+95 31d2+68 punch
+-56 -56 -56 -37
+E B 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98226
+mining forge master~
+Forge Master~
+The forge master of the mining camp is standing here.
+~
+You see the Forge Master in front of you.  He is working on his forge,
+forging one object that looks like a weapon.  This is a strong, old dwarf
+that looks like to be very focused on what he is doing.  Better keep your
+distance!  
+~
+dwarf~
+AB 0 500 0
+65 65 258d65+0 325d10+85 21d3+37 none
+-34 -34 -34 -20
+0 0 0 0
+stand stand male 100
+0 0 medium flesh~
+~
+#98227
+dwarven cook lady~
+Dwarven Cooking Lady~
+Here stands a dwarven cooking lady with a toasted chicken on her hands.
+~
+~
+dwarf~
+AB 0 500 0
+49 49 192d49+0 490d11+95 17d2+40 none
+-26 -26 -26 -16
+0 0 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 98209 100~
+#98228
+dwarf~
+a dwarf~
+A dwarf
+~
+~
+dwarf~
+AB 0 1000 0
+1 1 9d1+0 10d11+95 2d2+8 none
+7 7 7 8
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M grall 98210 100~
+I 92
+#98229
+dwarf worker~
+A Dwarven Worker~
+A dwarven worker is here figthing a drow.
+~
+~
+dwarf~
+ABG 0 500 0
+40 40 116d40+0 200d10+85 13d3+25 none
+-17 -17 -17 -9
+0 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98230
+drow soldie~
+A Drow Soldier~
+Here is a drow soldier fighting a dwarven worker.
+~
+~
+dark-elf~
+ABF 0 -1000 0
+70 70 328d70+0 700d11+95 24d2+54 none
+-41 -41 -41 -26
+EFIKNR 0 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+#98231
+dwarf dwarven guard guardian mortorn cleric tornak~
+Tornak the Gate Guardian~
+A dwarven guardian garbed in the armor of the Order of Battlehammer stands here
+~
+Standing at three feet nine inches tall, this dwarf must weight atleast
+two hundred and eighty pounds.  His beard is long and neatly trimmed, he
+keeps it in a type of twist design and tucked into his belt so he doesn't
+step on it.  His skin is pock marked and dark from years under the sun.  He
+wears very thick and very heavy armor etched with the symbols of Thornan
+Battlehammer.  He carries a single hammer in his grip, which he uses to
+defend the mountain city of Mortorn.  
+~
+dwarf~
+ABSTUce Na 0 0
+91 91 465d91+0 910d11+95 31d2+68 crush
+-56 -56 -56 -37
+ADEFIJKOR ABLQ CD 0
+stand stand male 30
+0 0 medium flesh~
+~
+F res LQ
+F vul R
+M exit 98212 3~
+M speech 98211 I have come to praise the Ageless One.~
+#0
+
+#OBJECTS
+#98201
+dwarven breastplate mithril~
+Dwarven Breastplate~
+A breastplate made of mithril lies here gleaming in the light~
+mithril~
+~
+armor 0 AD
+33 33 33 32 'none' 0
+91 92 552976 P
+A
+19 5
+A
+18 5
+A
+20 -6
+G none
+G none
+G none
+G none
+#98202
+dwarven steel leggings~
+Dwarven Steel Leggings~
+A set of steel leggings of dwarven craftsmenship rest here~
+iron~
+~
+armor 0 AF
+33 33 33 32 'none' 0
+91 92 377526 P
+A
+2 1
+A
+19 9
+A
+18 9
+G none
+G dwarf
+G none
+G none
+#98203
+iron spiked wristguards~
+Iron Spiked WristGuards~
+Some wristguards with 3 large spikes rest here looking very dangerous~
+mithril~
+~
+armor 0 AM
+33 33 33 32 'none' 0
+91 92 211067 P
+A
+19 9
+A
+18 9
+G none
+G dwarf
+G none
+G none
+#98204
+razor rimmed mithril ring~
+Razor Rimmed Mithril Ring~
+A glinting circle of Mithril lined with Razors rests here in the dirt~
+mithril~
+~
+jewelry 0 AB
+AF AF AF F 0 AF AF
+91 92 95 P
+A
+19 11
+A
+18 7
+G none
+G none
+G none
+G none
+#98205
+chain mithril sleeves~
+Mithril Chain Sleeves~
+Some chain sleeves shining very brightly lie on the ground waiting for an owner.~
+mithril~
+~
+armor 0 AI
+33 33 33 32 'none' 0
+91 92 343913 P
+A
+17 -10
+A
+19 13
+A
+18 5
+G none
+G none
+G none
+G none
+#98206
+crack~
+~
+~
+unknown~
+Dark Matter~
+portal R P
+0 D A 16000 0
+0 0 0 P
+E
+crack~
+This crack is pretty big, it has rough edges like it was just ripped into
+the wall and not carved to look like a crack.  Something made this crack,
+something very angry.  
+~
+G none
+G none
+G none
+G none
+#98208
+desk~
+a desk~
+In the centre of the room there is a desk with many mining tools on it.~
+unknown~
+~
+container R 0
+100 AC 0 200 2 0
+0 0 0 P
+E
+desk~
+This is a desk 
+~
+G none
+G none
+G none
+G none
+#98209
+commander~
+the commander~
+The corpse of the mining commander is here on the floor.~
+unknown~
+~
+npc_corpse R 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#98214
+feather glow glowing paper~
+A Lightly glowing piece of paper~
+A lightly glowing piece of paper floats here in midair~
+unknown~
+~
+boat ABG AO
+0 0 0 0 0 0 0
+1 0 190970 P
+E
+feather~
+Lines of {yTan{x {DBlack{x {WWhite{x {wGrey{x cover this magical feather.
+You wonder what kind of bird this feather came from.  It is obviously from
+some large magical bird, for the feather is as long as your forearm.  
+~
+G none
+G none
+G none
+G none
+#98215
+forge~
+~
+~
+unknown~
+~
+container R 0
+1000 A 0 1000 2 0
+0 1000 0 P
+G none
+G none
+G none
+G none
+#98216
+throne~
+The Throne of Golda~
+Here is the throne of the Golda Dinasty.~
+unknown~
+~
+furniture 0 0
+A CFG 0 0 0 A CFG
+0 0 0 P
+G none
+G none
+G none
+G none
+#98217
+corpse duergar~
+a little duergar~
+A corpse of a little duergar lies on the floor dead.~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+E
+duergar~
+This is a little duergar and he has his chest opened, you see closer and
+his heart is gone.  Someone removed it from his corpse.  
+~
+G none
+G none
+G none
+G none
+#98218
+corpse duergar~
+a duergar militia~
+A corpse of a duergar militia lies on the floor dead!~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+E
+duergar~
+This was a duergar warrior that was fighting with these dwarves.  He died
+with a deep cut on his neck.  
+~
+G none
+G none
+G none
+G none
+#98219
+corpse duergar~
+a duergar~
+A duergar corpse is here on the floor.~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+E
+duergar~
+This duergar, with eyes wide opened has a sword on his left chest going
+through his evil heart.  
+~
+G none
+G none
+G none
+G none
+#98220
+corpse vendor dwarf~
+The food vendor~
+The food vendor corpse lies here on the floor dead!~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+E
+corpse~
+The headless corpse of the food vendor is here on the floor gushing blood.  
+~
+G none
+G none
+G none
+G none
+#98221
+corpse dwarven woman~
+A dwarven woman~
+A corpse from a dwarven woman is here mutilated under the clothes filled with blood.~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+G none
+G none
+G none
+G none
+#98222
+breastplate dwarven~
+Dwarven Breastplate~
+A breastplate has been left here on the floor.~
+unknown~
+~
+armor 0 AD
+4 4 4 3 'none' 0
+10 11 14 P
+G none
+G none
+G none
+G none
+#98223
+leggings dwarven~
+Dwarven Leggigngs~
+Some leggings were left here on the floor.~
+unknown~
+~
+armor 0 AF
+2 2 2 1 'none' 0
+5 6 1 P
+G none
+G none
+G none
+G none
+#98224
+dwarven sleeves~
+Dwarven Sleeves~
+A pair of sleeves has been left here.~
+unknown~
+~
+armor 0 AH
+6 6 6 5 'none' 0
+15 16 11 P
+G none
+G none
+G none
+G none
+#98225
+helmet dwarven~
+Dwarven Helmet~
+A helmet has been left here on the floor.~
+unknown~
+~
+armor 0 AE
+5 5 5 4 'none' 0
+13 14 9 P
+G none
+G none
+G none
+G none
+#98226
+sword dwarven~
+Dwarven Sword~
+A strange sword was left here on the floor.~
+unknown~
+~
+weapon 0 AN
+longsword 1 18 pierce 0
+15 16 1050 P
+G none
+G none
+G none
+G none
+#98227
+dwarven mace~
+Dwarven Mace~
+A strange mace was left here on the floor.~
+unknown~
+~
+weapon 0 AN
+mace 1 15 grep 0
+15 16 975 P
+G none
+G none
+G none
+G none
+#98228
+dwarven axe~
+Dwarven Axe~
+An axe has been left here on the floor.~
+unknown~
+~
+weapon 0 AN
+axe 1 18 crush 0
+15 16 975 P
+G none
+G none
+G none
+G none
+#98229
+dwarven hammer~
+Dwarven Hammer~
+A dwarven hammer has been left here on the floor.~
+unknown~
+~
+weapon 0 AN
+hammer 1 17 smash 0
+15 16 2180 P
+G none
+G none
+G none
+G none
+#98230
+pick dwarven~
+Dwarven Pick~
+A dwarven pick has been left here on the floor.~
+unknown~
+~
+weapon 0 AN
+axe 1 18 crush 0
+15 16 975 P
+G none
+G none
+G none
+G none
+#98231
+breastplate dwarven leather~
+Leather Breastplate~
+A breastplate has been left here on the floor.~
+unknown~
+~
+armor 0 AD
+6 6 6 5 'none' 0
+15 16 11 P
+G none
+G none
+G none
+G none
+#98232
+leggings dwarven~
+Leather Leggings~
+Some leggings were left here on the floor.~
+unknown~
+~
+armor 0 AF
+6 6 6 5 'none' 0
+14 15 10 P
+G none
+G none
+G none
+G none
+#98233
+water canteen~
+Water Canteen~
+A water canteen has been left here.~
+unknown~
+~
+drink 0 AO
+1000 1000 'water' 0
+5 60 61516 P
+G none
+G none
+G none
+G none
+#98234
+stone desk~
+stone desk~
+A stone desk is on the corner of the room.~
+stone~
+~
+container R 0
+600 A 0 100 2 0
+0 600 100 P
+G none
+G none
+G none
+G none
+#98235
+axe foreman~
+Foreman's Axe~
+An axe with an inscription has been left here on the floor.~
+unknown~
+~
+weapon 0 AN
+axe 1 5 crush 0
+5 6 350 P
+G none
+G none
+G none
+G none
+#98236
+toasted chicken~
+Toasted Chicken~
+A toasted chicken has been left here on the floor.~
+unknown~
+~
+food 0 AO
+AC AC 0 0 0 AC AC
+0 5 52 P
+G none
+G none
+G none
+G none
+#98237
+dwarf corpse~
+a little dwarf~
+A little dwarf is sitting on the corner of this cell.~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+G none
+G none
+G none
+G none
+#98238
+dwarf corpse~
+a little dwarf~
+A red beard little dwarf lies on the floor dead.~
+unknown~
+~
+npc_corpse a 0
+0 0 0 0 0 0 0
+20 0 0 P
+G none
+G none
+G none
+G none
+#98239
+desk~
+a desk~
+In the middle of the room there's the Jailor's desk. ~
+unknown~
+~
+container R 0
+100 AC 0 200 2 0
+0 0 0 P
+E
+desk~
+This is a desk 
+~
+G none
+G none
+G none
+G none
+#98240
+jailor keys~
+Jailor's Keys~
+Some keys have been left here on the floor.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 6 10 P
+G none
+G none
+G none
+G none
+#98241
+pick~
+a pick~
+A pick has been left here on the floor.~
+unknown~
+~
+weapon 0 AN
+axe 2 18 crush 0
+30 31 1725 P
+G none
+G none
+G none
+G none
+#98242
+mining helmet~
+a mining helmet~
+A mining helmet has been left here on the floor.~
+unknown~
+~
+armor 0 AE
+15 15 15 14 'none' 0
+40 41 44 P
+G none
+G none
+G none
+G none
+#98243
+gate key~
+Gigantic key depicting a burning forge~
+A gigantic key depicting a burning forge lies here waiting to be used.~
+mithril~
+~
+key PUf AO
+0 0 0 0 0 0 0
+107 0 0 P
+G none
+G none
+G none
+G none
+#98244
+warhammer holy destruction~
+holy runed Warhammer of Destruction~
+A Holy runed Warhammer lies here waiting to be picked up~
+mithril~
+~
+weapon IKRa AN
+mace 5 19 wrath IK
+91 92 153339 P
+A
+19 5
+A
+18 4
+G none
+G none
+G none
+G none
+#98245
+shield mortorn holy defenders~
+holy defenders' shield of Mortorn~
+A shield depicting a great battle of the gods lies here pulsing with energy~
+unknown~
+~
+armor AIKRa AJ
+33 33 33 32 'none' 0
+91 35 386280 P
+A
+17 -15
+A
+20 -2
+A
+19 5
+A
+18 3
+A
+13 50
+G none
+G none
+G none
+G none
+#98246
+loaf of bread~
+Loaf of bread~
+A loaf of bread sits here~
+unknown~
+~
+food 0 AO
+DE CD 0 0 0 DE CD
+0 0 266 P
+G none
+G none
+G none
+G none
+#98247
+crown hat jeweled~
+{cMithril {Wcrown{x~
+A crown made from Mithril and inlaid with jewels lies here~
+unknown~
+~
+armor ABhi AE
+15 15 15 14 'none' 0
+40 41 78733 P
+A
+20 -2
+A
+19 3
+A
+18 2
+G none
+G none
+G none
+G none
+#98248
+mithril wrist guard wristguard dwarven~
+{cMithril {WWristguard{x~
+A mithril wristguard lies here on the ground~
+mithril~
+~
+armor AB AM
+15 15 15 14 'none' 0
+40 41 33788 P
+A
+20 -1
+A
+19 3
+A
+18 2
+G none
+G none
+G none
+G none
+#98249
+mithril leggings chain dwarven~
+{cMithril {Wleggings{x~
+A set of mithril chain leggings lie here.~
+mithril~
+~
+armor AB AF
+15 15 15 14 'none' 0
+40 41 62685 P
+A
+18 3
+A
+2 2
+G none
+G none
+G none
+G none
+#98250
+cloak forge ash ashes~
+{yForge {Dash {Wcloak{x~
+A pile of ashes lies here with a small mithril chain in the center.~
+mithril~
+~
+armor ABG AC
+15 15 15 14 'none' 0
+40 41 18852 P
+A
+3 1
+A
+17 -15
+G none
+G none
+G none
+G none
+#98251
+longsword sword long~
+{cMithril {Wlongsword{x~
+A mithril longsword lies here waiting to be picked up.~
+mithril~
+~
+weapon ABG AN
+longsword 3 16 slash D
+40 41 59277 P
+A
+19 4
+A
+18 3
+G none
+G none
+G none
+G none
+#98252
+mithril short sword shortsword~
+{cMithril {Wshortsword{x~
+A mithril shortsword lies here glinting in the light~
+unknown~
+~
+weapon ABG AN
+shortsword 4 9 slice I
+40 30 22063 P
+A
+2 1
+A
+18 4
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#98201
+Begining of a Small Forest Path~
+A cool breeze blows through the land, as you walk though what now appears
+to be the start of a rough path.  From this point there is no telling where
+it may lead you to, off in the distance you see a great mountain.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 6563
+0 0
+D5
+~
+~
+Z 0 98202
+0 0
+S
+#98202
+Lightly Wooded Rough Path~
+Each step you take you feel the twigs snaping below your feet.  You
+realize that only the most stealthy of people will be able to move silently
+through this area.  You also notice something very strange, the branches are
+not cleared very high.  They start to become fairly thick at about 5 feet
+off the ground.  You think to yourself that this is wierd, but u manage to
+push through with some ease.  
+~
+0 0 forest
+D3
+~
+~
+Z 0 98203
+0 0
+D4
+~
+~
+Z 0 98201
+0 0
+S
+#98203
+Westward path~
+The path veers to the west, as it continues onward toward the mountain. 
+The path is still very poorly cared for, as it still appears to be covered
+with underbrush.  You wonder where it will lead or if it actully leads
+anywhere at all.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98202
+0 0
+D3
+~
+~
+Z 0 98204
+0 0
+S
+#98204
+Westward Path~
+The path veers to the west, as it continues onward toward the mountain. 
+The path is still very poorly cared for, as it still appears to be covered
+with underbrush.  You wonder where it will lead or if it actully leads
+anywhere at all.  
+~
+0 0 forest
+D1
+~
+~
+Z 0 98203
+0 0
+D3
+~
+~
+Z 0 98205
+0 0
+S
+#98205
+Bend in the Trail~
+The path becomes almost impassible to the west, and as you look farther
+west you realize that their is no way that you can continue onward much
+farther to the west.  Realizing that the path must not lead anywhere you
+turn around.  Just then you notice some interesting footprints on the
+ground.  The footprints lead to the north.  They are not that long, but they
+appear as though they were made on wet ground, because they sink in far. 
+The area however shows no sign of rain.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98206
+0 0
+D1
+~
+~
+Z 0 98204
+0 0
+S
+#98206
+Deer Trail~
+The clearing to the north is far more dense than you first believed. 
+Struggling through the underbrush, you slowly make your way along the trail,
+which appears to be nothing more than a simple deer trail.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98207
+0 0
+D2
+~
+~
+Z 0 98205
+0 0
+S
+#98207
+Deer Trail~
+The clearing to the north is far more dense than you first believed. 
+Struggling through the underbrush, you slowly make your way along the trail,
+which appears to be nothing more than a simple deer trail.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98208
+0 0
+D2
+~
+~
+Z 0 98206
+0 0
+S
+#98208
+Deer Trail~
+The clearing to the north is far more dense than you first believed. 
+Struggling through the underbrush, you slowly make your way along the trail,
+which appears to be nothing more than a simple deer trail.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98209
+0 0
+D2
+~
+~
+Z 0 98207
+0 0
+S
+#98209
+Deer Trail~
+The clearing to the westis far more dense than you first believed. 
+Struggling through the underbrush, you slowly make your way along the trail,
+which appears to be nothing more than a simple deer trail.  
+~
+0 0 forest
+D2
+~
+~
+Z 0 98208
+0 0
+D3
+~
+~
+Z 0 98210
+0 0
+S
+#98210
+Deer Trail~
+The clearing to the north is far more dense than you first believed. 
+Struggling through the underbrush, you slowly make your way along the trail,
+which appears to be nothing more than a simple deer trail.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98211
+0 0
+D1
+~
+~
+Z 0 98209
+0 0
+S
+#98211
+Deer Trail~
+The clearing to the north is far more dense than you first believed. 
+Struggling through the underbrush, you slowly make your way along the trail,
+which appears to be nothing more than a simple deer trail.  To the west you
+notice a small guard shack made from the mountain side itself.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98215
+0 0
+D2
+~
+~
+Z 0 98210
+0 0
+D3
+~
+~
+Z 0 98212
+0 0
+S
+#98212
+Front Porch of the Guard Shack~
+You have stepped onto the front porch of the small Guard Shack.  This
+shack has been masterfully carved from the mountain side itself, which makes
+it a very defensable position.  On the porch you see a small rocking chair
+and above that chair you see a small Archer's Slot for firing arrows at the
+enemy.  You see an open door leading inside the guard shack.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98211
+0 0
+D3
+~
+~
+Z 0 98213
+0 0
+S
+#98213
+First Room of the Guard Shack~
+This guard shack is rather plain.  A single window beside the door
+leading in.  A single map on the wall.  And a table with a chair in front of
+the fireplace.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98212
+0 0
+D3
+~
+~
+ABZ 0 98214
+0 0
+S
+#98214
+Behind the Fire Place~
+You have stepped behind the fireplace into a room that is covered in ash.
+It's very hard to breathe or see in this room.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98213
+0 0
+S
+#98215
+Deer Trail~
+As the clearing to the north becomes less dense you notice some stone
+stairs in the north.  Struggling through the underbrush, you slowly make
+your way along the trail to get into those stairs.  
+~
+0 0 forest
+D0
+~
+~
+Z 0 98216
+0 0
+D2
+~
+~
+Z 0 98211
+0 0
+S
+#98216
+Stone Stairs Ascending Up the Mountain Side~
+You are finally here, at the stones.  You notice that these stones were
+clearly made to to reach the upper side of this mountain.  You look up and
+you can't see where it ends.  Tired because of the deer trail you decide to
+continue your way up the mountain.  
+~
+0 0 mountain
+D2
+~
+~
+Z 0 98215
+0 0
+D4
+~
+~
+Z 0 98217
+0 0
+S
+#98217
+Stone Stair Case~
+This stone stair case leads up to the gates of Mortorn.  The steps were
+carved right out of the side of the mountain.  There is a hand rail of sorts
+that was also carved out of the mountain side.  
+~
+0 0 mountain
+D4
+~
+~
+Z 0 98218
+0 0
+D5
+~
+~
+Z 0 98216
+0 0
+S
+#98218
+Before the Gates of the Dwarven Mining City~
+This is almost the end of the stone stairs in this mountain.  It's very
+windy here, and you feel that you are going to fall at any minute, you grab
+in some roots and balance yourself again.  By looking up you see a huge gate
+that goes into the mountain.  It has a name written, but it is still too far
+for you to read it.  
+~
+0 0 mountain
+D4
+~
+~
+Z 0 98219
+0 0
+D5
+~
+~
+Z 0 98217
+0 0
+S
+#98219
+Gates to Mortorn~
+Before the gates of the mining city Mortorn.  Upon the stone gates a
+mural has been carved depicting a great battle between the dwarves and their
+enemies the drow and the dark dwarves.  Near the bottom of the mural you see
+a dwarf speaking a phrase to the guardian asking for entrance into the city.
+The dwarf depicted in the mural is holding a scroll with some writing on it.
+
+~
+0 0 mountain
+E
+scroll~
+Greetings Tornak, You are brave for delivering this missive to the second
+king of Mortorn.  You will not be allowed entrance into the halls though
+unless you speak this phrase exactly as I have written it.  
+ 
+You must say:
+ 
+I have come to praise the Ageless One.
+
+When you speak these words you will be recognized as a friend of the Ageless One and be
+allowed entrance into the mines. Please give the second king of Mortorn the sealed chest.
+~
+D3
+~
+~
+ABCFGZ 98243 98220
+0 0
+D5
+~
+~
+Z 0 98218
+0 0
+S
+#98220
+Inside the Gates of Mortorn~
+Passing through the giant gates of Mortorn you have stepped inside the
+undermountain city of the dwarven forgers.  Oddly enough it is warm inside
+this mountain instead of cold and damp like you would expect from a cave. 
+To the north is a huge wooden door, there seems to be an even warmer breeze
+blowing in from around the cracks of the door.  Further to the west you can
+walk deeper into the mining camp of the dwarves.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98221
+0 0
+D1
+~
+~
+ABCFGZ 0 98219
+0 0
+D3
+~
+~
+Z 0 98247
+0 0
+S
+#98221
+Storage Room Hall~
+You have entered in a rocky tunnel, filled with dust everywhere. 
+Strangely this tunnel is dry.  With no water, no corpses, no blood,
+nothing...  Totally dry.  As you look north you get fronted with the reality
+that this tunnel is big, this tunnel is huge.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98222
+0 0
+D2
+~
+~
+ABZ 0 98220
+0 0
+S
+#98222
+Storage Room Hall~
+As you continue this rocky tunnel you see that it continues down.  You
+still have the strange feeling that this is apart from everything you have
+seen in here before.  There's is still no blood and no corpses on the floor,
+but somehow you feel strangely frightened.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98221
+0 0
+D5
+~
+~
+Z 0 98223
+0 0
+S
+#98223
+Storage Room Hall~
+The storage room hall continues down here.  You still don't see anything
+looking to a liquid in here.  No blood, no water, no dwarfs, no corpses of
+drow or whatsoever.  You try to see a dwarven worker but you can't see them.
+Where are them?  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98224
+0 0
+D4
+~
+~
+Z 0 98222
+0 0
+S
+#98224
+Storage Room Hall~
+You still don't see anything looking to a liquid in here.  No blood, no
+water, no dwarfs, no corpses of drow or whatsoever.  You try to see a
+dwarven worker but you can't see them.  Where are them?  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98223
+0 0
+D2
+~
+~
+Z 0 98232
+0 0
+D3
+~
+~
+ABZ 0 98225
+0 0
+S
+#98225
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98231
+0 0
+D1
+~
+~
+ABZ 0 98224
+0 0
+D3
+~
+~
+Z 0 98226
+0 0
+S
+#98226
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98225
+0 0
+D3
+~
+~
+Z 0 98227
+0 0
+S
+#98227
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98228
+0 0
+D1
+~
+~
+Z 0 98226
+0 0
+S
+#98228
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98229
+0 0
+D2
+~
+~
+Z 0 98227
+0 0
+S
+#98229
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98230
+0 0
+D2
+~
+~
+Z 0 98228
+0 0
+S
+#98230
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98231
+0 0
+D3
+~
+~
+Z 0 98229
+0 0
+S
+#98231
+Small Moss Garden~
+You are in a small moss garden.  You look everywhere and you can only see
+small weed growing on the floor of this stony room.  Opposing the storage
+hall room this is a wet place.  Right now you understand how these little
+white flowers that you see grow in this place.  It is because of the water
+that is in the stone walls, making this place wet and warm.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98225
+0 0
+D3
+~
+~
+Z 0 98230
+0 0
+S
+#98232
+Storage Room Hall~
+You still don't see anything looking to a liquid in here.  No blood, no
+water, no dwarfs, no corpses of drow or whatsoever.  You try to see a
+dwarven worker but you can't see them.  Where are them?  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98224
+0 0
+D1
+~
+~
+ABZ 0 98233
+0 0
+D2
+~
+~
+Z 0 98235
+0 0
+S
+#98233
+Storage Room~
+This is a storage room.  By looking at this room you can see that it is
+where the darven workers keep their things before going home.  You look to
+the wall and you see a name, Telki, and another in the opposite side,
+Goldar.  Where are their things?!?  Maybe they are working on the mines
+right on the bottom of where you are...  On the far depts of this rocky
+mountain.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98234
+0 0
+D3
+~
+~
+ABZ 0 98232
+0 0
+S
+#98234
+Storage Room~
+This is a storage room.  By looking at this room you can see that it is
+where the darven workers keep their things before going home.  You look to
+the wall and you see a name, Galmi, and another in the opposite side,
+Goldir.  Where are their things?!?  Maybe they are working on the mines
+right on the bottom of where you are...  On the far depts of this rocky
+mountain.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98207
+0 0
+D3
+~
+~
+Z 0 98233
+0 0
+S
+#98235
+Storage Room Hall~
+You still don't see anything looking to a liquid in here.  No blood, no
+water, no dwarfs, no corpses of drow or whatsoever.  You try to see a
+dwarven worker but you can't see them.  Where are them?  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98232
+0 0
+D1
+~
+~
+Z 0 98238
+0 0
+D2
+~
+~
+ABCZ 0 98237
+0 0
+D3
+~
+~
+Z 0 98236
+0 0
+S
+#98236
+Entrance to the Forge Rooms~
+You feel the heat of the forge when you enter in here.  This is the
+entrance to the forge rooms.  This is the entrance to where the dwarves
+create their things.  Amazing things!  Can someone sleep with this heat?!? 
+Find out by yourself!  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98235
+0 0
+D3
+~
+~
+Z 0 98270
+0 0
+S
+#98237
+Gates to the Barracks~
+These are the Gates to the Barracks.  The barracks is where some workers
+sleep.  You see A large wooden door south of you.  This door seems to be
+guarding and to be preventing strangers to enter it.  
+~
+0 0 inside
+D0
+~
+~
+ABCZ 0 98235
+0 0
+D2
+~
+~
+Z 0 98241
+0 0
+S
+#98238
+Barracks Kitchen~
+This is the Barracks Kitchen.  You smell the air and it looks like
+someone has been cooking not a long time ago...  It smells like meat... 
+Toasted meat.  You better follow the smell if you want some of that meat! 
+The kitchen continues south.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98239
+0 0
+D3
+~
+~
+Z 0 98235
+0 0
+S
+#98239
+Barracks Kitchen~
+This is the Barracks Kitchen.  You smell the air and it looks like
+someone has been cooking not a long time ago...  It smells like meat... 
+Toasted meat.  You better follow the smell if you want some of that meat! 
+The kitchen continues west.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98238
+0 0
+D3
+~
+~
+Z 0 98240
+0 0
+S
+#98240
+Barracks Kitchen~
+This is the Barracks Kitchen.  You see a large table on the middle of the
+room.  It has twenty chairs around it.  Both table and chairs look like they
+were made with rotten wood.  They seem very fragile, and they look like they
+can break at any moment.  Suddenly the smell of meat catches your sense
+again and you look to your left, and there it is.  A toasted chicken, that a
+dwarven woman holds in her hands.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98239
+0 0
+S
+#98241
+Barracks Hall~
+You are now on the Barracks Hall.  This is a rocky, dry hall.  You can
+see rooms east and west of you.  Try to go there to see if you discover
+something more about the mutilated dwarven corpses on the first level of
+Mortorn.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98237
+0 0
+D1
+~
+~
+Z 0 98242
+0 0
+D2
+~
+~
+Z 0 98244
+0 0
+D3
+~
+~
+Z 0 98243
+0 0
+S
+#98242
+Barracks Room~
+This is a room in the barracks.  This is a dusty room that have two beds
+on the corners.  You see 2 names above it.  And a sign too.  Suddenly you
+notice in a little stain of blood on the sheets of the bed on the left
+corner.  You look closer and you see that the sheets were covering a small
+arm.  You feel in danger.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98241
+0 0
+S
+#98243
+Barracks Room~
+This is a room in the barracks.  This is a dusty room that have two beds
+on the corners.  You see 2 names above it.  And a sign too.  Suddenly you
+notice in a little stain of blood on the sheets of the bed on the left
+corner.  You look closer and you see that the sheets were covering an head. 
+You feel in danger.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98241
+0 0
+S
+#98244
+Barracks Hall~
+You continue on the Barracks Hall.  This is a rocky, dry hall.  You can
+see rooms east and west of you.  Try to go there to see if you discover
+something more about the mutilated dwarven corpses on the first level of
+Mortorn.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98241
+0 0
+D1
+~
+~
+Z 0 98245
+0 0
+D3
+~
+~
+Z 0 98246
+0 0
+S
+#98245
+Barracks Room~
+This is a room in the barracks.  This is a dusty room that have two beds
+on the corners.  You see 2 names above it.  And a sign too.  Suddenly you
+notice in a little stain of blood on the sheets of the bed on the left
+corner.  You look closer and you see that the sheets were covering a small
+leg.  You feel in danger.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98244
+0 0
+S
+#98246
+Barracks Room~
+This is a room in the barracks.  This is a dusty room that have two beds
+on the corners.  You see 2 names above it.  And a sign too.  Suddenly you
+notice in a little stain of blood on the sheets of the bed on the left
+corner.  You look closer and you see that the sheets were covering an eye. 
+You feel in danger.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98244
+0 0
+S
+#98247
+Path through the Mining Camp~
+As you walk along the path you notice that the walls and ceilings are
+extremely well built.  The craftsmanship that chiseled out this hallway is
+beyond that of any you have ever seen before.  The path leads east and west
+from here.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98220
+0 0
+D3
+~
+~
+Z 0 98248
+0 0
+S
+#98248
+Path through the Mining Camp~
+As the path through the mining camp continues you feel as if the air is
+getting thicker, making it a little harder to breath.  You notice that there
+are lamps along the walls to light your path so you don't stumble and fall. 
+To the north are the mining stables where they keep all of their animals
+they use for hauling mining cars.  To the south is the smithy who makes and
+sells the mining tools.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98249
+0 0
+D1
+~
+~
+Z 0 98247
+0 0
+D2
+~
+~
+Z 0 98251
+0 0
+D3
+~
+~
+Z 0 98253
+0 0
+S
+#98249
+Mining stable Entrance~
+This is the entrance to the mining stables.  On the walls are the
+stirrups, sadles, bags, etc.  You can see a door in front of you to the
+north.  Upon closer inspection of the door you can hear water running from
+somewhere behind the door.  You try to open the door to inspect this new
+sound but it won't budge, you notice a lock in the center of the door.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98250
+0 0
+D2
+~
+~
+Z 0 98248
+0 0
+S
+#98250
+Mining Stables~
+There is a large crack in the back wall of this room, large enough for an
+avg sized man to fit through.  You can hear the rusing of water from inside
+this crack.  The room is completely bare, there is nothing in here except
+the burnt remains of a mules corpse and some burnt hay.  Something seems to
+be trying to pull you toward the crack in the back wall.  
+~
+0 0 inside
+E
+crack~
+This crack is pretty big, it has rough edges like it was just ripped into
+the wall and not carved to look like a crack.  Something made this crack,
+something very angry.  
+~
+D2
+~
+~
+ABZ 0 98249
+0 0
+S
+#98251
+Forge maintenance room~
+Upon entering the small room you notice that it was carved right out of
+the mountain itself.  The walls, floor, and ceiling are all stone.  You look
+around studying the carftsmanship and don't even notice the smithy walk in
+carrying a freshly crafted pick of steel.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98248
+0 0
+D2
+~
+~
+Z 0 98252
+0 0
+S
+#98252
+Back room of forge mantenance~
+Upon entering this room you are hit by a blast of heat from the forge
+that nearly takes up the entire back wall.  You bare the heat and look
+around noticing all the fine mining equipment being made here by this
+solitary smithy.  He must love his work to do it all by himself and still
+produce so much stuff as quickly as he does.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98251
+0 0
+S
+#98253
+Path through the Mining Camp~
+As the path through the mining camp continues you feel that the air
+getting thicker and thicker and you can't breath.  You look to your right
+and to your left and see little lamps on the walls that permit you to
+see where you put your feet.  On the south stays the mining foremans'
+quarters and to the north stays the mining commander's Room.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98254
+0 0
+D1
+~
+~
+Z 0 98248
+0 0
+D2
+~
+~
+Z 0 98255
+0 0
+D3
+~
+~
+Z 0 98256
+0 0
+S
+#98254
+Forge maintenance foreman's quarters~
+The walls of this room are covered in plans and blueprints for creating
+forges and new ideas for forge creation.  Along the walls on the floors are
+tools of all kinds, some you recognize most you don't.  In the center of the
+room is a small table covered in blueprints with a small chair.  On one side
+of the room there is a small bed that is normally used for sleeping but the
+foreman seems to be useing it to stack more tools.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98253
+0 0
+S
+#98255
+Mining Foremans' Quarters~
+This is the mining foremans' quarters.  There's no one here.  The walls
+of this room are wet.  In the northwest corner of this room there's a little
+bed and in the other corner there's a desk, a stone desk with an axe on the
+top of it.  Where is the foreman?!?  He's not here...  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98253
+0 0
+S
+#98256
+Path through the Mining Camp~
+As the path through the mining camp continues you feel that the air
+getting thicker and thicker and you can't breath.  You look to your right
+and to your left and you see little lamps on the walls that permit you to
+see where you put your feet.  On the south stays the mining camp stables and
+to the north stays the mining food vendor.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98257
+0 0
+D1
+~
+~
+Z 0 98253
+0 0
+D2
+~
+~
+Z 0 98258
+0 0
+D3
+~
+~
+Z 0 98259
+0 0
+S
+#98257
+Mining Camp Stables~
+In this room the walls are filled with blood and as you look all around
+you, you hear a scream, a powerful scream and the fear fills your heart. 
+This scream was made by someone in pain...  Many ideas pass in your head and
+the only thing you think is to help the dwarfs.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98256
+0 0
+S
+#98258
+Mining camp cook~
+As you enter this room you see a food vendor that is standing close to a
+wall, looking at it.  You call him but he doesn't respond.  You come closer
+and pat him on his shoulder when suddenly his head rolls from his shoulders
+and makes a soft thud on the floor A feeling of shock roles over you as
+blood gurgles from the gapping hole in his neck where hs head used to be. 
+You feel disgusted.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98256
+0 0
+S
+#98259
+Path through the Mining Camp~
+You have come to a bend in the path.  Here the air continues getting
+thicker and thicker and you can't breath.  You look to your right and to
+your left and you see little lamps on the walls that permit you to see
+where you put your feet.  To the south stays a shop that sells leather stuff
+and to the west stays the seller of weapons.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98260
+0 0
+D1
+~
+~
+Z 0 98256
+0 0
+D2
+~
+~
+Z 0 98263
+0 0
+D3
+~
+~
+Z 0 98267
+0 0
+S
+#98260
+Path Through the Mining Camp~
+The air continues getting thicker and thicker and you can't breath.  You
+look to your right and to your left and you see little lamps on the walls
+that permite you to see where you put your feet.  On the west stays the
+mining camp armorer.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98261
+0 0
+D2
+~
+~
+Z 0 98259
+0 0
+D3
+~
+~
+Z 0 98268
+0 0
+S
+#98261
+Path through the Mining Camp~
+You have arrived at the end of the path that lead you through the mining
+city, you can't breath.  You look to your right and to your left and you see
+the same little lamps on the walls that permitted you to see where you put
+your feet.  On the west stays the mining camp taylor and to on the north
+stays the mining camp forge master.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98262
+0 0
+D2
+~
+~
+Z 0 98260
+0 0
+D3
+~
+~
+Z 0 98269
+0 0
+S
+#98262
+Mining Camp Forge Master~
+The heat that the forge immanates makes you feel dizzy and you start to
+sweat.  You look everywhere and you notice that one dwarf is here forging
+many objects on the forge.  This is the Forge Master.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98261
+0 0
+S
+#98263
+Mining Leather Smiths Shop~
+This is where the leather smith sells him objects to the mining dwarfs. 
+As you enter the room you notice in a little dwarf standing on the other
+side of a stone desk that contains a sword with blood on top of it.  Whose
+blood is it!?  Suddenly you look down and you see a drow lying on the floor
+with his face totally transfigurated and with a hole in his left chest.  Now
+you understand from who is that blood.  With a quick move the leather smith
+takes his sword and talks to you.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98259
+0 0
+D2
+~
+~
+ABZ 0 98264
+0 0
+D3
+~
+~
+ABZ 0 98266
+0 0
+S
+#98264
+Mining Leather Smiths Stitching Room~
+You have entered the stitching room.  Where the leather smith stitches
+his objects with leather.  There is a mont of leather in the corner of the
+room waiting to be transformed into something else than normal leather.  On
+the other corner of the room you notice in another desk, this is a smaller
+one but it is made with leather too.  
+~
+0 0 inside
+D0
+~
+~
+ABZ 0 98263
+0 0
+D1
+~
+~
+ABZ 0 98265
+0 0
+S
+#98265
+Mining Leather Smiths Sleeping quarters~
+The sleeping quarters of the leather smith.  This is where that little
+dwarf you saw on the shop rests and sleeps to gain the necessary streight to
+do more and more leather objects to the workers.  You notice in another
+little dwarf, but this appearantly is younger than the leather smith.  This
+is an aprendice.  Suddenly he talks to you.  
+~
+0 0 inside
+D3
+~
+~
+ABZ 0 98264
+0 0
+S
+#98266
+Mining Leather Smiths Storage Room~
+The Storage room of the Leather Smith's shop.  This is where he keeps the
+objects that he will sell to the dwarven workers.  All of his objects that
+are not sold, end up in here with dust.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98263
+0 0
+S
+#98267
+Mining Camp Weapon Smith~
+This is the mining camp weapon smith.  The walls are filled with axes,
+swords, flails, daggers, all kind of weapons are on these walls, and as you
+look at them you feel amazed.  A strong dwarf is behind behind you.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98259
+0 0
+S
+#98268
+Mining Camp Armorer~
+This is the Mining Camp Armorer.  You look all around you and you see a
+little table in the middle of the room with many pieces of armor on it. 
+Helms, shields, leggings.  Everything that you need to be a good warrior,
+well protected against all things.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98260
+0 0
+S
+#98269
+Mining Camp Taylor~
+The mining camp taylor.  As you enter this place you understand what it
+is done in here.  Clothes.  All the clothes that the dwarfs in Mortorn wear
+is made and bought in here.  But something is wrong...  Some pieces of
+clothes are destroyed, with blood all over them.  You see in front of you a
+mountain of clothes.  You try to remove all the bloody clothes and you see
+with your own eyes a mutilated corpse of a dwarven woman.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98261
+0 0
+S
+#98270
+Forge Hall Entrance~
+It's getting warmer and warmer and you start to sweet.  You are in a
+dusty place with water falling from the top of this hall.  By looking west
+you can see the rest of this hall.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98236
+0 0
+D3
+~
+~
+Z 0 98271
+0 0
+S
+#98271
+Sweltering Forge Hall~
+The heat is almost impossible in here.  Your skin seems to be melting. 
+The dwarven workers seem to work on some dificult conditions.  How can they
+work in here?!?  You notice in some stairs leading down.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98270
+0 0
+D5
+~
+~
+Z 0 98272
+0 0
+S
+#98272
+Sweltering Forge Hall~
+The heat is almost impossible in here.  Your skin seems to be melting. 
+The dwarven workers seem to work on some dificult conditions.  How can they
+work in here?!?  You notice in two rooms.  One on your left and another one
+in your right.  There's a door leading down too.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98274
+0 0
+D3
+~
+~
+Z 0 98273
+0 0
+D4
+~
+~
+Z 0 98271
+0 0
+D5
+~
+~
+Z 0 98275
+0 0
+S
+#98273
+Forge Apprentices Room~
+This room is where the master of the forge's apprentices rest before
+learning how to use the forge and what top make in it.  The room has four
+little beds.  You try to think about the apprentices' shapes and you assume
+that they are little young dwarves looking for some knowledge.  Is that
+right?!?  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98272
+0 0
+S
+#98274
+Forge Masters Room~
+As you enter this room you see a dwarven looking shadow on the wall.  You
+come closer and you see a dwarf with a red beard, with strange dark eyes
+looking at you.  This is his room.  But who is he?!?  Suddenly he speaks and
+he says "Get out of my propriety!"  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98272
+0 0
+S
+#98275
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+ABCZ 0 98276
+0 0
+D3
+~
+~
+Z 0 98277
+0 0
+D4
+~
+~
+Z 0 98272
+0 0
+S
+#98276
+The Moon Forge~
+This is the Moon Forge.  A great room in a shape of a moon.  You feel
+cold, your bones seem to be breaking with this cold air.  What is made in
+here?!?  This is a totally different room from the others you saw!  This is
+where the moon blade rests.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98361
+0 0
+D3
+~
+~
+ABCZ 0 98275
+0 0
+S
+#98277
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98275
+0 0
+D3
+~
+~
+Z 0 98278
+0 0
+S
+#98278
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98277
+0 0
+D3
+~
+~
+Z 0 98279
+0 0
+S
+#98279
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98278
+0 0
+D5
+~
+~
+Z 0 98280
+0 0
+S
+#98280
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98281
+0 0
+D4
+~
+~
+Z 0 98279
+0 0
+S
+#98281
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98280
+0 0
+D3
+~
+~
+Z 0 98282
+0 0
+S
+#98282
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98281
+0 0
+D3
+~
+~
+Z 0 98283
+0 0
+S
+#98283
+Sweltering Forge Hall~
+You still proceed your journey on the forge hall.  The heat is almost
+unberable down here.  These dwarves are crazy to work in this conditions. 
+The hall is clean, dry and it has many tiny rocks on the floor.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98282
+0 0
+D3
+~
+~
+Z 0 98284
+0 0
+S
+#98284
+Sweltering Forge Hall~
+Down here it's really hot.  The heat that comes from the forges is
+getting stronger and stroger and you feel like your skin is melting.  It the
+west stay the mine jail cells.  The forge hall continues north through the
+closed door.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98293
+0 0
+D1
+~
+~
+Z 0 98283
+0 0
+D3
+~
+~
+Z 0 98285
+0 0
+S
+#98285
+Entrance to the Mine Jail Cells~
+This is the entrance to the Mine Jail Cells.  These cells are to dwarves
+who don't obey the orders given by their superiors.  This is where dwarves
+that didn't obey the dwarven laws stay till they understand what they did
+and till they are forgiven.  Some of them don't ever leave these cells.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98284
+0 0
+D3
+~
+~
+ABZ 0 98286
+0 0
+S
+#98286
+Mine Jail Hall~
+This is the hall of this jail.  It has a dust everywhere.  It is a dirty
+place.  By looking to your right and left you see two cells.  Who is in
+there?!?  Make sure you decide if you really want to know.  
+~
+0 0 inside
+D0
+~
+~
+ABCFGZ 98240 98291
+0 0
+D1
+~
+~
+ABZ 0 98285
+0 0
+D2
+~
+~
+ABCFGZ 98240 98292
+0 0
+D3
+~
+~
+Z 0 98287
+0 0
+S
+#98287
+Mine Jail Hall~
+This is the hall of this jail.  It has a dust everywhere.  It is a dirty
+place.  By looking to your right and left you see two cells.  Who is in
+there?!?  Make sure you decide if you really want to know.  
+~
+0 0 inside
+D0
+~
+~
+ABCFGZ 98240 98289
+0 0
+D1
+~
+~
+Z 0 98286
+0 0
+D2
+~
+~
+ABCFGZ 98240 98290
+0 0
+D3
+~
+~
+ABZ 0 98288
+0 0
+S
+#98288
+Jailors Office~
+You have entered in the Jailors Office.  This is where a strong dwarf
+stays almost all his life to preserve the unique treasure he has.  The keys
+to all the cells in this jail.  As you look to the middle of the room you
+notice that there is a large desk and a chair behind it.  The walls are
+filled with strange marks and you can see some blood on the floor.  
+~
+0 0 inside
+D1
+~
+~
+ABZ 0 98287
+0 0
+S
+#98289
+Jail Cell~
+This is a jail cell.  There's nothing inside this cell, only dust.  But
+you feel that there are souls trapped in here.  Souls that didn't succeed
+asking for forgiveness.  Souls that will always remain on this place.  
+~
+0 0 inside
+D2
+~
+~
+ABCFGZ 0 98287
+0 0
+S
+#98290
+Jail Cell~
+A jail cell.  A little dwarf with a long red beard lies on the floor,
+dying of thirst and hunger.  Suddenly he screams: "Please!!  Forgiveness... 
+Mercy!!!!"  And then he dies.  You feel confused...  
+~
+0 0 inside
+D0
+~
+~
+ABCFGZ 0 98287
+0 0
+S
+#98291
+Jail Cell~
+This is a jail cell.  There's nothing inside this cell, only dust.  But
+you feel that there are souls trapped in here.  Souls that didn't succeed
+asking for forgiveness.  Souls that will always remain on this place.  
+~
+0 0 inside
+D2
+~
+~
+ABCFGZ 0 98286
+0 0
+S
+#98292
+Jail Cell~
+This is a jail cell.  This room has nothing besides dust and some water
+falling from the ceiling.  You look everywhere and you see a little dwarf
+sitting in a corner of this cell.  You try to go and talk to him.  You touch
+him but he falls dead on the floor.  You wonder: "What happened to this
+one?!?"  
+~
+0 0 inside
+D0
+~
+~
+ABCFGZ 0 98286
+0 0
+S
+#98293
+Sweltering Forge Hall~
+As you enter this part of the hall you notice that there is an entrance
+to the mines north of you.  The heat is getting less powerful and your warm
+skin starts to be colder again.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98294
+0 0
+D2
+~
+~
+Z 0 98284
+0 0
+S
+#98294
+Sweltering Forge Hall~
+The entrance to the mines is right in front of you.  You notice that it
+is a dark place and almost anyone would adveture himself to enter in those
+mines.  Dwarves don't like to be bothered by strangers, specially when they
+are working.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98295
+0 0
+D2
+~
+~
+Z 0 98293
+0 0
+S
+#98295
+Entrance to the Mines~
+This is the entrance to the Mines of Mortorn.  The sound of dwarves
+working seems to be higher and higher as you move towards them.  The mines
+are a dark place where only the dwarves can be working.  These dwarves
+showed resistance to heat and now the resistance to dark places.  They work
+on any circumstances.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98296
+0 0
+S
+#98296
+Before the Mine Gates~
+The Mine Gates stand east of you.  These Gates are big wooden gates, that
+exist to prevent any attacks that might jeapeardise the dwarven work. 
+Adventure yourself into this dwarven world and see what they do to outsiders
+that put their work in danger.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98297
+0 0
+D2
+~
+~
+Z 0 98295
+0 0
+S
+#98297
+Inside the Mines of Mortorn~
+You are finnaly on the Mines of Mortorn.  This is where the dwarven
+workers dig to find new things in the dirty depths of this mountain.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98298
+0 0
+D3
+~
+~
+Z 0 98296
+0 0
+S
+#98298
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98299
+0 0
+D3
+~
+~
+Z 0 98297
+0 0
+S
+#98299
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98298
+0 0
+D5
+~
+~
+Z 0 98300
+0 0
+S
+#98300
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98301
+0 0
+D4
+~
+~
+Z 0 98299
+0 0
+S
+#98301
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98319
+0 0
+D1
+~
+~
+Z 0 98302
+0 0
+D2
+~
+~
+Z 0 98303
+0 0
+D3
+~
+~
+Z 0 98300
+0 0
+D4
+~
+~
+Z 0 3014
+0 0
+S
+#98302
+Mine Clerics Quarters~
+You have entered in the Mine Cleric's Quarters.  This is where the healer
+of all the dwarven workers stand to heal all of those dwarves in need.  If
+you need anything from this healer ask him, and he will heal you
+completely...  But be careful he never healed strangers before.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98301
+0 0
+S
+#98303
+Mines of Mortorn Barracks~
+Welcome to the Barracks of the mines of Mortorn.  Some dwarves live on
+these barracks.  The most hardworking, those who earn one place in these
+barracks only.  As you look everywhere around you, you notice on some blood
+that is on the floor.  It's trace continues south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98301
+0 0
+D2
+~
+~
+Z 0 98304
+0 0
+S
+#98304
+Mines of Mortorn Barracks~
+Welcome to the Barracks of the mines of Mortorn.  Some dwarves live on
+these barracks.  The most hardworking, those who earn one place in these
+barracks only.  As you look everywhere around you, you that the blood trace
+continues to the south.  What is this?!?!?  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98303
+0 0
+D1
+~
+~
+Z 0 98316
+0 0
+D2
+~
+~
+Z 0 98305
+0 0
+D3
+~
+~
+Z 0 98315
+0 0
+S
+#98305
+Mines of Mortorn Barracks~
+The blood trace leaves you here.  There are three corpses on floor.  They
+are dwarves, but different ones.  They are grey!  They look like druergars,
+the race of dwarves that live on the depths.  Why are three duergar corpses
+in here?!?  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98304
+0 0
+D1
+~
+~
+Z 0 98313
+0 0
+D2
+~
+~
+Z 0 98306
+0 0
+D3
+~
+~
+Z 0 98312
+0 0
+S
+#98306
+Mines of Mortorn Barracks~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98305
+0 0
+D1
+~
+~
+Z 0 98308
+0 0
+D3
+~
+~
+Z 0 98307
+0 0
+S
+#98307
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98306
+0 0
+S
+#98308
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98309
+0 0
+D3
+~
+~
+Z 0 98306
+0 0
+S
+#98309
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98310
+0 0
+D3
+~
+~
+Z 0 98308
+0 0
+S
+#98310
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98309
+0 0
+D1
+~
+~
+Z 0 98311
+0 0
+S
+#98311
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98310
+0 0
+S
+#98312
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98305
+0 0
+S
+#98313
+Hall of Kings~
+This is the Hall of Kings.  It is like a huge corridor with names of all
+kings that passed through these old mines.  By looking to the wall you may
+see names like Saradel - The Mining King and Mardoc - The Mining Queen. 
+There is a history of this king and this queen written below their names.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98314
+0 0
+D3
+~
+~
+Z 0 98305
+0 0
+S
+#98314
+Hall of Kings~
+This is the Hall of Kings.  It is like a huge corridor with names of all
+kings that passed through these old mines.  By looking to the wall you may
+see names like Golda The First and Handine The Third.  There is a history of
+this king and this queen written below their names.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98318
+0 0
+D3
+~
+~
+Z 0 98313
+0 0
+S
+#98315
+Berserkers Quarters~
+These are the Bersekers Quarters.  This is where the Berseker dwarven
+warriors rest.  These dwarves only live to protect the mines of Mortorn from
+outsiders and from enemies.  Be careful with them they are strangely
+powerful dwarves.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98304
+0 0
+S
+#98316
+Hall of Kings~
+This is the Hall of Kings.  It is like a huge corridor with names of all
+kings that passed through these old mines.  By looking to the wall you may
+see names like Golda The Third and Erlmidge The Second.  There is a history
+of this king and this queen written below their names.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98317
+0 0
+D3
+~
+~
+Z 0 98304
+0 0
+S
+#98317
+Hall of Kings~
+This is the Hall of Kings.  It is like a huge corridor with names of all
+kings that passed through these old mines.  By looking to the wall you may
+see names like Golda The Second and Erlmidge The First.  There is a history
+of this king and this queen written below their names.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98318
+0 0
+D3
+~
+~
+Z 0 98316
+0 0
+S
+#98318
+Mining King's Bedroom~
+This is the Mining King's Bedroom.  This is where the ruling king of
+Mortorn sleeps and sends orders to his workers.  In front of you there's a
+throne with a name craved on top of it.  You can read Golda The Third, The
+Mining King.  Now you start thinking that this king is the grand-children of
+the first Golda King.  
+~
+0 D mountain
+D2
+~
+~
+Z 0 98314
+0 0
+D3
+~
+~
+Z 0 98317
+0 0
+S
+#98319
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98323
+0 0
+D1
+~
+~
+Z 0 98320
+0 0
+D2
+~
+~
+Z 0 98301
+0 0
+D3
+~
+~
+Z 0 98321
+0 0
+S
+#98320
+Unfinished Mithril Mine~
+This is an unfinished Mithril Vein mine.  This was dug out by dwarves but
+they never finished their work.  Looking everywhere you notice in some
+pieces of mithril on the floor.  Then you look to the corner of this vein
+and you notice in a corpse lying there.  A dwarven corpse.  What is
+happening here?!?  Corpses everywhere!!  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98319
+0 0
+S
+#98321
+Mithril Mine~
+This is a Mithril Vein Mine.  A little change of course tooke you here. 
+This place is filled with pieces of mithril, small pieces, big pieces, huge
+pieces.  All sort of mithril sizes are in here.  Suddenly you wonder to
+yourself "And if I took all of these pieces of Mithril with me and create
+one weapon myself?!?"  Don't do it.  The dwarven race is always vigilant
+about their work and they would notice in one single missing stone or a
+piece of mithril.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98319
+0 0
+D3
+~
+~
+Z 0 98322
+0 0
+S
+#98322
+Mithril Vein Mine~
+This is a Mithril Vein Mine.  A little change of course tooke you here. 
+This place is filled with pieces of mithril, small pieces, big pieces, huge
+pieces.  All sort of mithril sizes are in here.  Suddenly you wonder to
+yourself "And if I took all of these pieces of Mithril with me and create
+one weapon myself?!?"  Don't do it.  The dwarven race is always vigilant
+about their work and they would notice in one single missing stone or a
+piece of mithril.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98321
+0 0
+S
+#98323
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98326
+0 0
+D1
+~
+~
+Z 0 98324
+0 0
+D2
+~
+~
+Z 0 98319
+0 0
+D3
+~
+~
+Z 0 98325
+0 0
+S
+#98324
+Unfinished Iron Mine~
+This is an unfinished Iron Vein mine.  This was dug out by dwarves but
+they never finished their work.  Looking everywhere you notice in some
+pieces of Iron on the floor.  Then you look to the corner of this unfinished
+vein and you notice in another corpse lying there.  Another dwarven corpse. 
+What is happening here?!?  There are corpses everywhere!!  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98323
+0 0
+S
+#98325
+Unfinished Copper Mine~
+This is an unfinished Copper Vein mine.  This was dug out by dwarves but
+they never finished their work.  Looking everywhere you notice in some
+pieces of copper on the floor.  Then you look to the corner of this
+unfinished vein and you notice in another corpse lying there.  Another
+dwarven corpse.  What is happening here?!?  There are corpses everywhere!!  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98323
+0 0
+S
+#98326
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98332
+0 0
+D1
+~
+~
+Z 0 98327
+0 0
+D2
+~
+~
+Z 0 98323
+0 0
+D3
+~
+~
+Z 0 98330
+0 0
+S
+#98327
+Diamond Vein Mine~
+This is a Diamond Vein Mine.  A little change of course tooke you here. 
+This place is filled with diamonds, small diamonds, big diamonds, huge
+diamonds.  All sort of diamonds are in here.  Suddenly you wonder to
+yourself "And if I took all of these diamonds with me?!?"  Don't do it.  The
+dwarven race is always vigilant about their work and they would notice in
+one single missing stone or diamond.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98328
+0 0
+D3
+~
+~
+Z 0 98326
+0 0
+S
+#98328
+Diamond Vein Mine~
+This is a Diamond Vein Mine.  A little change of course tooke you here. 
+This place is filled with diamonds, small diamonds, big diamonds, huge
+diamonds.  All sort of diamonds are in here.  Suddenly you wonder to
+yourself "And if I took all of these diamonds with me?!?"  Don't do it.  The
+dwarven race is always vigilant about their work and they would notice in
+one single missing stone or diamond.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98329
+0 0
+D3
+~
+~
+Z 0 98327
+0 0
+S
+#98329
+Diamond Vein Mine~
+This is a Diamond Vein Mine.  A little change of course tooke you here. 
+This place is filled with diamonds, small diamonds, big diamonds, huge
+diamonds.  All sort of diamonds are in here.  Suddenly you wonder to
+yourself "And if I took all of these diamonds with me?!?"  Don't do it.  The
+dwarven race is always vigilant about their work and they would notice in
+one single missing stone or diamond.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98328
+0 0
+S
+#98330
+Diamond Vein Mine~
+This is a Diamond Vein Mine.  A little change of course tooke you here. 
+This place is filled with diamonds, small diamonds, big diamonds, huge
+diamonds.  All sort of diamonds are in here.  Suddenly you wonder to
+yourself "And if I took all of these diamonds with me?!?"  Don't do it.  The
+dwarven race is always vigilant about their work and they would notice in
+one single missing stone or diamond.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98326
+0 0
+D3
+~
+~
+Z 0 98331
+0 0
+S
+#98331
+Diamond Vein Mine~
+This is a Diamond Vein Mine.  A little change of course tooke you here. 
+This place is filled with diamonds, small diamonds, big diamonds, huge
+diamonds.  All sort of diamonds are in here.  Suddenly you wonder to
+yourself "And if I took all of these diamonds with me?!?"  Don't do it.  The
+dwarven race is always vigilant about their work and they would notice in
+one single missing stone or diamond.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98330
+0 0
+S
+#98332
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98333
+0 0
+D2
+~
+~
+Z 0 98326
+0 0
+S
+#98333
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98334
+0 0
+D2
+~
+~
+Z 0 98332
+0 0
+S
+#98334
+Mines of Mortorn~
+These are the mines of mortorn.  The sound of dwarves working makes your
+head start to hurt.  You feel like your head is almost falling from your
+body.  The sound of the forges, the smell of dirt, the noises of dwarves
+speaking make you feel that you are in another world, completely different
+from what you have seen till this day.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98333
+0 0
+D3
+~
+~
+Z 0 98335
+0 0
+S
+#98335
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98336
+0 0
+D1
+~
+~
+Z 0 98334
+0 0
+D3
+~
+~
+Z 0 98337
+0 0
+S
+#98336
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98335
+0 0
+S
+#98337
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98335
+0 0
+D2
+~
+~
+Z 0 98338
+0 0
+D3
+~
+~
+Z 0 98339
+0 0
+S
+#98338
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98337
+0 0
+S
+#98339
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98340
+0 0
+D1
+~
+~
+Z 0 98337
+0 0
+D3
+~
+~
+Z 0 98341
+0 0
+S
+#98340
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98339
+0 0
+S
+#98341
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98342
+0 0
+D1
+~
+~
+Z 0 98339
+0 0
+D2
+~
+~
+Z 0 98343
+0 0
+D3
+~
+~
+Z 0 98344
+0 0
+S
+#98342
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 98341
+0 0
+S
+#98343
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98341
+0 0
+S
+#98344
+Ruby Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98341
+0 0
+D3
+~
+~
+Z 0 98345
+0 0
+S
+#98345
+Ruby Vein Mine Shaft~
+The ruby vein shaft is coming to an end.  By looking south you can see
+another group of beautiful stones.  These stones are different that these
+rubys.  They look like Sapphires.  You feel amazed with such beauty.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98344
+0 0
+D2
+~
+~
+Z 0 98346
+0 0
+S
+#98346
+Sapphire Vein Mine Shaft~
+You are in a sapphire vein mine shaft.  This is another long passage and
+you can't seem to find an end to it.  This place is filled with dwarves
+working on the walls getting a lot sapphire stones from them.  This is where
+dwarven workers spend their entire day digging and extracting these raw
+materials to do weapons, shields, armor, all the stuff that good warriors
+need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98345
+0 0
+D1
+~
+~
+Z 0 98347
+0 0
+D2
+~
+~
+Z 0 98350
+0 0
+D3
+~
+~
+Z 0 98348
+0 0
+S
+#98347
+Sapphire Vein Mine Shaft~
+You are in a sapphire vein mine shaft.  This is another long passage and
+you can't seem to find an end to it.  This place is filled with dwarves
+working on the walls getting a lot sapphire stones from them.  This is where
+dwarven workers spend their entire day digging and extracting these raw
+materials to do weapons, shields, armor, all the stuff that good warriors
+need.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98346
+0 0
+S
+#98348
+Sapphire Vein Mine Shaft~
+You are in a ruby vein mine shaft.  This is a long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot ruby stones from them.  This is where dwarven workers
+spend their entire day digging and extracting these raw materials to do
+weapons, shields, armor, all the stuff that good warriors need.  You are in
+a sapphire vein mine shaft.  This is another long passage and you can't seem
+to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot sapphire stones from them.  This is where dwarven
+workers spend their entire day digging and extracting these raw materials to
+do weapons, shields, armor, all the stuff that good warriors need.  You are
+in a sapphire vein mine shaft.  This is another long passage and you can't
+seem to find an end to it.  This place is filled with dwarves working on the
+walls getting a lot sapphire stones from them.  This is where dwarven
+workers spend their entire day digging and extracting these raw materials to
+do weapons, shields, armor, all the stuff that good warriors need.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98346
+0 0
+D3
+~
+~
+Z 0 98349
+0 0
+S
+#98349
+Caved in Sapphire Vein Mine Shaft~
+The shaft leading to the Sapphire vein has caved in here making a hole in
+the bottom of the shaft.  The hole leads into total darkness.  You think you
+can make out many sets of glowing red eyes.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98348
+0 0
+D5
+~
+~
+Z 0 5122
+0 0
+S
+#98350
+Sapphire Vein Mine Shaft~
+You are in a sapphire vein mine shaft.  This is another long passage and
+you can't seem to find an end to it.  This place is filled with dwarves
+working on the walls getting a lot sapphire stones from them.  This is where
+dwarven workers spend their entire day digging and extracting these raw
+materials to do weapons, shields, armor, all the stuff that good warriors
+need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98346
+0 0
+D2
+~
+~
+Z 0 98351
+0 0
+S
+#98351
+Sapphire Vein Mine Shaft~
+You are in a sapphire vein mine shaft.  This is another long passage and
+you can't seem to find an end to it.  This place is filled with dwarves
+working on the walls getting a lot sapphire stones from them.  This is where
+dwarven workers spend their entire day digging and extracting these raw
+materials to do weapons, shields, armor, all the stuff that good warriors
+need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98350
+0 0
+D3
+~
+~
+Z 0 98352
+0 0
+S
+#98352
+Sapphire Vein Mine Shaft~
+You are in a sapphire vein mine shaft.  This is another long passage and
+you can't seem to find an end to it.  This place is filled with dwarves
+working on the walls getting a lot sapphire stones from them.  This is where
+dwarven workers spend their entire day digging and extracting these raw
+materials to do weapons, shields, armor, all the stuff that good warriors
+need.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98351
+0 0
+D2
+~
+~
+Z 0 98353
+0 0
+S
+#98353
+Sapphire Vein Mine Shaft~
+This is the end of the mine shaft filled with saphires.  Now, by looking
+south you can see a glowing metal on the walls.  You really don't know what
+that is.  Maybe a discovery dwarves made while they dug in here?!?  Check it
+out.  This room is filled with dust and dwarves digging the walls extracting
+the last pieces of ruby stones on the wall.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98352
+0 0
+D2
+~
+~
+Z 0 98354
+0 0
+S
+#98354
+Mithril Vein Mine Shaft~
+By entering this room you notice in one big sign that says "Danger! 
+Mithril Mines!"  .  Now you understand what metal was the one you saw. 
+Mithril.  This is where the dwarves extract the mithril, this powerful,
+light as a feather, metal.  That allows anyone to kill without any mercy.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98353
+0 0
+D2
+~
+~
+Z 0 98356
+0 0
+D4
+~
+~
+Z 0 98355
+0 0
+D5
+~
+~
+Z 0 98355
+0 0
+S
+#98355
+Mithril Vein Mine Shaft~
+You are in a mithril vein mine shaft.  This is another long passage as
+the others you have seen before in Mortorn mines.  This place is filled with
+dwarves working on the walls getting a lot mithril stones from them.  This
+is where dwarven workers spend their entire day digging and extracting these
+raw materials to do weapons, shields, armor, all the stuff that good
+warriors need.  
+~
+0 0 inside
+D4
+~
+~
+Z 0 98354
+0 0
+D5
+~
+~
+Z 0 98354
+0 0
+S
+#98356
+Mithril Vein Mine Shaft~
+You are in a mithril vein mine shaft.  This is another long passage as
+the others you have seen before in Mortorn mines.  This place is filled with
+dwarves working on the walls getting a lot mithril stones from them.  This
+is where dwarven workers spend their entire day digging and extracting these
+raw materials to do weapons, shields, armor, all the stuff that good
+warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98354
+0 0
+D2
+~
+~
+Z 0 98357
+0 0
+S
+#98357
+Mithril Vein Mine Shaft~
+You are in a mithril vein mine shaft.  This is another long passage as
+the others you have seen before in Mortorn mines.  This place is filled with
+dwarves working on the walls getting a lot mithril stones from them.  This
+is where dwarven workers spend their entire day digging and extracting these
+raw materials to do weapons, shields, armor, all the stuff that good
+warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98356
+0 0
+D1
+~
+~
+Z 0 98358
+0 0
+D2
+~
+~
+Z 0 98360
+0 0
+D3
+~
+~
+Z 0 98359
+0 0
+S
+#98358
+Mithril Vein Mine Shaft~
+You are in a mithril vein mine shaft.  This is another long passage as
+the others you have seen before in Mortorn mines.  This place is filled with
+dwarves working on the walls getting a lot mithril stones from them.  This
+is where dwarven workers spend their entire day digging and extracting these
+raw materials to do weapons, shields, armor, all the stuff that good
+warriors need.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98357
+0 0
+S
+#98359
+Mithril Vein Mine Shaft~
+You are in a mithril vein mine shaft.  This is another long passage as
+the others you have seen before in Mortorn mines.  This place is filled with
+dwarves working on the walls getting a lot mithril stones from them.  This
+is where dwarven workers spend their entire day digging and extracting these
+raw materials to do weapons, shields, armor, all the stuff that good
+warriors need.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 98357
+0 0
+S
+#98360
+Mithril Vein Mine Shaft~
+You are in a mithril vein mine shaft.  This is another long passage as
+the others you have seen before in Mortorn mines.  This place is filled with
+dwarves working on the walls getting a lot mithril stones from them.  This
+is where dwarven workers spend their entire day digging and extracting these
+raw materials to do weapons, shields, armor, all the stuff that good
+warriors need.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 98357
+0 0
+S
+#98361
+The Sun Forge~
+You have entered in a hot room.  You feel like your skin is melting and
+you can't stand it.  This is the Sun Room, where the sun dagger rests in
+peace.  The sun dagger was forged a long time ago by a dwarf called
+Gok'terum.  It is an incredible piece of art and it has an incredible power.
+Who finds this sword will have a power that he never dreamed of.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 98276
+0 0
+S
+#0
+
+#RESETS
+D 0 98213 3 1	* First Room of the Guard Shack: door to the west: closed
+D 0 98214 1 1	* Behind the Fire Place: door to the east: closed
+D 0 98219 3 2	* Gates to Mortorn: door to the west: closed and locked
+D 0 98220 0 1	* Inside the Gates of Mortorn: door to the north: closed
+D 0 98220 1 2	* Inside the Gates of Mortorn: door to the east: closed and locked
+D 0 98221 2 1	* Storage Room Hall: door to the south: closed
+D 0 98224 3 1	* Storage Room Hall: door to the west: closed
+D 0 98225 1 1	* Small Moss Garden: door to the east: closed
+D 0 98232 1 1	* Storage Room Hall: door to the east: closed
+D 0 98233 3 1	* Storage Room: door to the west: closed
+D 0 98235 2 2	* Storage Room Hall: door to the south: closed and locked
+D 0 98237 0 2	* Gates to the Barracks: door to the north: closed and locked
+D 0 98249 0 1	* Mining stable Entrance: door to the north: closed
+D 0 98250 2 1	* Mining Stables: door to the south: closed
+D 0 98263 2 1	* Mining Leather Smiths Shop: door to the south: closed
+D 0 98263 3 1	* Mining Leather Smiths Shop: door to the west: closed
+D 0 98264 0 1	* Mining Leather Smiths Stitching Room: door to the north: closed
+D 0 98264 1 1	* Mining Leather Smiths Stitching Room: door to the east: closed
+D 0 98265 3 1	* Mining Leather Smiths Sleeping quarters: door to the west: closed
+D 0 98266 1 1	* Mining Leather Smiths Storage Room: door to the east: closed
+D 0 98275 1 2	* Sweltering Forge Hall: door to the east: closed and locked
+D 0 98276 3 2	* The Moon Forge: door to the west: closed and locked
+D 0 98285 3 1	* Entrance to the Mine Jail Cells: door to the west: closed
+D 0 98286 0 2	* Mine Jail Hall: door to the north: closed and locked
+D 0 98286 1 1	* Mine Jail Hall: door to the east: closed
+D 0 98286 2 2	* Mine Jail Hall: door to the south: closed and locked
+D 0 98287 0 2	* Mine Jail Hall: door to the north: closed and locked
+D 0 98287 2 2	* Mine Jail Hall: door to the south: closed and locked
+D 0 98287 3 1	* Mine Jail Hall: door to the west: closed
+D 0 98288 1 1	* Jailors Office: door to the east: closed
+D 0 98289 2 2	* Jail Cell: door to the south: closed and locked
+D 0 98290 0 2	* Jail Cell: door to the north: closed and locked
+D 0 98291 2 2	* Jail Cell: door to the south: closed and locked
+D 0 98292 0 2	* Jail Cell: door to the north: closed and locked
+O 0 98214 0 98214	* A Lightly glowing piece of paper (Behind the Fire Place)
+M 0 98231 1 98219 1	* Tornak the Gate Guardian (Gates to Mortorn)
+E 0 98203 0 15		*	Iron Spiked WristGuards: on the right wrist
+E 0 98203 0 14		*	Iron Spiked WristGuards: on the left wrist
+E 0 98202 0 7		*	Dwarven Steel Leggings: on the legs
+E 0 98201 0 5		*	Dwarven Breastplate: on the body
+E 0 98204 0 2		*	Razor Rimmed Mithril Ring: on the right finger
+E 0 98205 0 10		*	Mithril Chain Sleeves: on the arms
+E 0 98204 0 1		*	Razor Rimmed Mithril Ring: on the left finger
+E 0 98244 0 16		*	holy runed Warhammer of Destruction: wielded
+E 0 98245 0 11		*	holy defenders' shield of Mortorn: as a shield
+M 0 98227 1 98240 1	* Dwarven Cooking Lady (Barracks Kitchen)
+G 0 98236 0		*	Toasted Chicken
+O 0 98206 0 98250	*  (Mining Stables)
+M 0 98223 1 98254 1	* Forge maintenance foreman (Forge maintenance foreman's quarters)
+O 0 98208 0 98254	* a desk (Forge maintenance foreman's quarters)
+O 0 98234 0 98255	* stone desk (Mining Foremans' Quarters)
+P 0 98235 1 98234 1	* stone desk: Foreman's Axe
+M 0 98224 1 98257 1	* Dwarven stable master (Mining Camp Stables)
+M 0 98225 1 98258 1	* Dwarven food vendor (Mining camp cook)
+G 0 98246 0		*	Loaf of bread
+M 0 98226 1 98262 1	* Forge Master (Mining Camp Forge Master)
+M 0 98213 1 98263 1	* The Leather Smith (Mining Leather Smiths Shop)
+G 0 98233 0		*	Water Canteen
+G 0 98232 0		*	Leather Leggings
+G 0 98231 0		*	Leather Breastplate
+M 0 98212 1 98267 1	* The Weapon Master (Mining Camp Weapon Smith)
+G 0 98226 0		*	Dwarven Sword
+G 0 98230 0		*	Dwarven Pick
+G 0 98229 0		*	Dwarven Hammer
+G 0 98228 0		*	Dwarven Axe
+G 0 98227 0		*	Dwarven Mace
+M 0 98214 1 98268 1	* The Dwarven Armorer (Mining Camp Armorer)
+G 0 98225 0		*	Dwarven Helmet
+G 0 98224 0		*	Dwarven Sleeves
+G 0 98223 0		*	Dwarven Leggigngs
+G 0 98222 0		*	Dwarven Breastplate
+M 0 98222 3 98273 1	* An Apprentice (Forge Apprentices Room)
+M 0 98221 1 98274 1	* The Forge Master (Forge Masters Room)
+M 0 98205 1 98276 1	* The Moon Guardian (The Moon Forge)
+O 0 98215 0 98276	*  (The Moon Forge)
+O 0 98239 0 98288	* a desk (Jailors Office)
+P 0 98240 1 98239 1	* a desk: Jailor's Keys
+O 0 98238 0 98290	* a little dwarf (Jail Cell)
+M 0 98228 1 98290 1	* a dwarf (Jail Cell)
+O 0 98237 0 98292	* a little dwarf (Jail Cell)
+M 0 98216 1 98295 1	* A Dwarf (Entrance to the Mines)
+M 0 98217 1 98295 1	* A Dwarven Worker (Entrance to the Mines)
+M 0 98216 1 98296 1	* A Dwarf (Before the Mine Gates)
+M 0 98216 1 98297 1	* A Dwarf (Inside the Mines of Mortorn)
+M 0 98216 1 98298 1	* A Dwarf (Mines of Mortorn)
+M 0 98217 1 98298 1	* A Dwarven Worker (Mines of Mortorn)
+M 0 98216 1 98299 1	* A Dwarf (Mines of Mortorn)
+M 0 98204 1 98302 1	* Gokdor the dwarven healer (Mine Clerics Quarters)
+O 0 98219 0 98305	* a duergar (Mines of Mortorn Barracks)
+O 0 98218 0 98305	* a duergar militia (Mines of Mortorn Barracks)
+O 0 98217 0 98305	* a little duergar (Mines of Mortorn Barracks)
+M 0 98219 20 98307 2	* A Dwarven Berseker (Berserkers Quarters)
+M 0 98219 20 98308 2	* A Dwarven Berseker (Berserkers Quarters)
+M 0 98219 20 98309 2	* A Dwarven Berseker (Berserkers Quarters)
+M 0 98219 20 98310 2	* A Dwarven Berseker (Berserkers Quarters)
+M 0 98219 20 98311 2	* A Dwarven Berseker (Berserkers Quarters)
+M 0 98219 20 98312 2	* A Dwarven Berseker (Berserkers Quarters)
+E 0 98228 0 16		*	Dwarven Axe: wielded
+E 0 98225 0 6		*	Dwarven Helmet: over the head
+E 0 98223 0 7		*	Dwarven Leggigngs: on the legs
+E 0 98222 0 5		*	Dwarven Breastplate: on the body
+E 0 98224 0 10		*	Dwarven Sleeves: on the arms
+E 0 98204 0 2		*	Razor Rimmed Mithril Ring: on the right finger
+E 0 98204 0 1		*	Razor Rimmed Mithril Ring: on the left finger
+M 0 98218 8 98313 2	* A Dwarven Guard (Hall of Kings)
+M 0 98218 8 98314 2	* A Dwarven Guard (Hall of Kings)
+M 0 98219 20 98315 2	* A Dwarven Berseker (Berserkers Quarters)
+M 0 98218 8 98316 2	* A Dwarven Guard (Hall of Kings)
+M 0 98218 8 98317 2	* A Dwarven Guard (Hall of Kings)
+M 0 98215 1 98318 1	* Golda The Third, The Dwarven King (Mining King's Bedroom)
+E 0 98252 0 20		*	{cMithril {Wshortsword{x: second wielded
+E 0 98251 0 16		*	{cMithril {Wlongsword{x: wielded
+E 0 98250 0 4		*	{yForge {Dash {Wcloak{x: around the neck (2)
+E 0 98250 0 3		*	{yForge {Dash {Wcloak{x: around the neck (1)
+E 0 98249 0 7		*	{cMithril {Wleggings{x: on the legs
+E 0 98248 0 15		*	{cMithril {WWristguard{x: on the right wrist
+E 0 98248 0 14		*	{cMithril {WWristguard{x: on the left wrist
+E 0 98247 0 6		*	{cMithril {Wcrown{x: over the head
+O 0 98216 0 98318	* The Throne of Golda (Mining King's Bedroom)
+M 0 98216 1 98319 1	* A Dwarf (Mines of Mortorn)
+M 0 98216 1 98323 1	* A Dwarf (Mines of Mortorn)
+M 0 98216 1 98326 1	* A Dwarf (Mines of Mortorn)
+M 0 98216 1 98332 1	* A Dwarf (Mines of Mortorn)
+M 0 98216 3 98333 2	* A Dwarf (Mines of Mortorn)
+M 0 98217 30 98335 1	* A Dwarven Worker (Ruby Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98210 30 98335 2	* A Duergar Militia (Ruby Vein Mine Shaft)
+M 0 98209 30 98335 2	* A Drow Fighter (Ruby Vein Mine Shaft)
+M 0 98208 30 98335 2	* A Drow Captain (Ruby Vein Mine Shaft)
+M 0 98217 30 98337 1	* A Dwarven Worker (Ruby Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98208 30 98337 2	* A Drow Captain (Ruby Vein Mine Shaft)
+M 0 98207 30 98337 2	* A Drow Soldier (Ruby Vein Mine Shaft)
+M 0 98217 30 98339 1	* A Dwarven Worker (Ruby Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98229 30 98339 2	* A Dwarven Worker (Ruby Vein Mine Shaft)
+M 0 98230 30 98339 2	* A Drow Soldier (Ruby Vein Mine Shaft)
+M 0 98217 30 98341 1	* A Dwarven Worker (Ruby Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98230 30 98341 2	* A Drow Soldier (Ruby Vein Mine Shaft)
+M 0 98229 30 98341 2	* A Dwarven Worker (Ruby Vein Mine Shaft)
+M 0 98211 30 98341 2	* A Duergar (Ruby Vein Mine Shaft)
+M 0 98210 30 98341 2	* A Duergar Militia (Ruby Vein Mine Shaft)
+M 0 98217 30 98344 1	* A Dwarven Worker (Ruby Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98210 30 98344 2	* A Duergar Militia (Ruby Vein Mine Shaft)
+M 0 98229 30 98344 2	* A Dwarven Worker (Ruby Vein Mine Shaft)
+M 0 98230 30 98344 2	* A Drow Soldier (Ruby Vein Mine Shaft)
+M 0 98229 30 98345 2	* A Dwarven Worker (Ruby Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98230 30 98345 2	* A Drow Soldier (Ruby Vein Mine Shaft)
+M 0 98217 30 98346 1	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98229 30 98346 2	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+M 0 98230 30 98346 2	* A Drow Soldier (Sapphire Vein Mine Shaft)
+M 0 98217 30 98350 1	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98229 20 98350 1	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+M 0 98230 20 98350 1	* A Drow Soldier (Sapphire Vein Mine Shaft)
+M 0 98217 30 98351 1	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98211 30 98351 2	* A Duergar (Sapphire Vein Mine Shaft)
+M 0 98207 30 98351 2	* A Drow Soldier (Sapphire Vein Mine Shaft)
+M 0 98217 30 98352 1	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98208 30 98352 2	* A Drow Captain (Sapphire Vein Mine Shaft)
+M 0 98209 30 98352 2	* A Drow Fighter (Sapphire Vein Mine Shaft)
+M 0 98217 30 98353 1	* A Dwarven Worker (Sapphire Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98211 30 98353 2	* A Duergar (Sapphire Vein Mine Shaft)
+M 0 98217 30 98354 1	* A Dwarven Worker (Mithril Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98210 30 98354 2	* A Duergar Militia (Mithril Vein Mine Shaft)
+M 0 98217 30 98356 1	* A Dwarven Worker (Mithril Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98209 30 98356 2	* A Drow Fighter (Mithril Vein Mine Shaft)
+M 0 98217 30 98357 1	* A Dwarven Worker (Mithril Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98208 30 98357 2	* A Drow Captain (Mithril Vein Mine Shaft)
+M 0 98207 30 98357 2	* A Drow Soldier (Mithril Vein Mine Shaft)
+M 0 98217 30 98358 1	* A Dwarven Worker (Mithril Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98217 30 98359 1	* A Dwarven Worker (Mithril Vein Mine Shaft)
+E 0 98242 0 6		*	a mining helmet: over the head
+E 0 98241 0 16		*	a pick: wielded
+M 0 98217 30 98360 1	* A Dwarven Worker (Mithril Vein Mine Shaft)
+E 0 98241 0 16		*	a pick: wielded
+E 0 98242 0 6		*	a mining helmet: over the head
+M 0 98229 30 98360 2	* A Dwarven Worker (Mithril Vein Mine Shaft)
+M 0 98230 30 98360 2	* A Drow Soldier (Mithril Vein Mine Shaft)
+M 0 98206 1 98361 1	* The Sun Guardian (The Sun Forge)
+O 0 98215 0 98361	*  (The Sun Forge)
+S
+
+#SHOPS
+98212 5 0 0 0 0 100 17 0 23
+98213 9 19 15 0 0 100 12 0 23
+98214 9 0 0 0 0 100 17 0 23
+98225 0 19 0 0 0 110 14 6 22
+98227 19 0 0 0 0 100 10 0 23
+0
+
+#MOBPROGS
+#98201
+if $n affected haste
+say hey you're fast!!
+else
+say you're slow!!
+~
+#98202
+say These blueprints look promising.
+emote picks up a set of blueprints as he looks them over.
+emote begins looking over another set of blueprints when he suddenly screams and tears them up
+say Why ken des idiots get it through dey skulls dat dis not a place fer dey dirty pictures.
+end
+~
+#98203
+say Damn them stupid animals. Always maken a bigger mess den before.
+end
+~
+#98204
+mob echo The food vendor's head rolls from his shoulder hitting the floor.
+~
+#98205
+say Hey! What do you want?!? Are you one of those attackers?!?
+mob echo The Leather Smith points the sword at your neck, making you to talk.
+~
+#98206
+mob echo The Leather Smith points the sword at your neck, making you to talk.
+~
+#98207
+say Are ye goin to be lookin at me all day or are ye goin to ask me fer som'tin?!?
+~
+#98208
+say Hey... what do you want?!?!?
+~
+#98209
+say Hmmmm.... It smells good!! Want some?!? I made it myself!!
+mob echo Dwarven Cooking Lady shows you the toasted chicken and almost forces you to eat it!
+~
+#98210
+say Please.... forgive me sir... have mercy... WATER..!
+mob echo The red beard dwarf dies lying on the floor.
+~
+#98211
+say Greetings $n and Welcome to Mortorn.
+mob gtransfer $n 98220
+mob goto $n
+mob echoaround $n $n has arrived from the east
+mob goto 98219
+end
+~
+#98212
+say What business do you have in these halls $n?
+end
+~
+#98213
+cast blind $n
+~
+#98214
+mob peace
+~
+#0
+
+#PRACTICERS
+M 98203 weaponsmaster attack beguiling benedictions combat creation curative detection draconian enchantment enhancement harmful healing illusion maladictions protective transportation weather fightmaster suddendeath meditation defensive wizard~	* the Universal Teacher
+S
+
+#$

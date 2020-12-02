@@ -1,0 +1,1235 @@
+#AREADATA
+Name TombLeaf~
+Builders yselio~
+VNUMs 110100 110199
+Credits yselio~
+Security 1
+LevelRange 0 0
+Flags closed noquest~
+End
+
+#MOBILES
+#110100
+~
+~
+~
+~
+dwarf~
+A 0 0 0
+70 70 286d70+0 350d10+85 23d3+40 none
+-37 -37 -37 -22
+0 0 0 0
+stand stand male 0
+0 0 medium unknown
+#0
+
+#ROOMS
+#110100
+Meadow of TombLeaf~
+A lush green meadow surrounds the eastern border of the forest of
+TombLeaf.  The meadow is a large flat land that appears well watered and
+well protected by the animals that make their home here.  There is a
+solitary stream that seems to be running to the east, out of the forest. 
+The wildlife live in peace on this meadow without fear of predators or being
+hunted by the races of the realm.  It is rumored a small satyr tribe secures
+and quarantines the borders of TombLeaf to protect their home from
+adventurers.  The meadow stretches on in the north, south and west to the
+east would follow the path of the stream.  In the western horizon the
+eastern border of TombLeaf can been seen.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110102
+0 0
+D1
+~
+~
+Z 0 110110
+0 0
+D2
+~
+~
+Z 0 110101
+0 0
+D3
+~
+~
+Z 0 110105
+0 0
+S
+#110101
+Meadow of TombLeaf~
+A lush green meadow surrounds the eastern border of the forest of
+TombLeaf.  The meadow is a large flat land that appears well watered and
+well protected by the animals that make their home here.  There is a
+solitary stream that seems to be running to the east, out of the forest. 
+The wildlife live in peace on this meadow without fear of predators or being
+hunted by the races of the realm.  It is rumored a small satyr tribe secures
+and quarantines the borders of TombLeaf to protect their home from
+adventurers.  A stone wall blocks passage to the east and south, the meadow
+continues in the north and west.  On the western horizon the eastern borders
+of TombLeaf can be seen.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110100
+0 0
+D3
+~
+~
+Z 0 110103
+0 0
+S
+#110102
+Meadow of TombLeaf~
+A lush green meadow surrounds the eastern border of the forest of
+TombLeaf.  The meadow is a large flat land that appears well watered and
+well protected by the animals that make their home here.  There is a
+solitary stream that seems to be running to the east, out of the forest. 
+The wildlife live in peace on this meadow without fear of predators or being
+hunted by the races of the realm.  It is rumored a small satyr tribe secures
+and quarantines the borders of TombLeaf to protect their home from
+adventurers.  A rock wall forms a ninety degree blocking passage to the
+north and east.  The meadow continues to the south and west while on the
+western horizon the eastern border of TombLeaf can be seen.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 110100
+0 0
+D3
+~
+~
+Z 0 110106
+0 0
+S
+#110103
+Meadow of TombLeaf~
+A lush green meadow surrounds the eastern border of the forest of
+TombLeaf.  The meadow is a large flat land that appears well watered and
+well protected by the animals that make their home here.  There is a
+solitary stream that seems to be running to the east, out of the forest. 
+The wildlife live in peace on this meadow without fear of predators or being
+hunted by the races of the realm.  It is rumored a small satyr tribe secures
+and quarantines the borders of TombLeaf to protect their home from
+adventurers.  In the north, east and west the meadow continues, the south is
+blocked by a stone wall.  On the western horizon the eastern border of
+TombLeaf can be seen.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110105
+0 0
+D1
+~
+~
+Z 0 110101
+0 0
+D3
+~
+~
+Z 0 110104
+0 0
+S
+#110104
+Meadow of TombLeaf~
+TombLeaf comes closer with each step, individual trees can now been seen
+clearly as a western approach continues.  The Meadow seems less lively with
+small animals, the tracks seen in the eastern area do not appear as often
+here.  In their place there are heavy hoof marks that always move into the
+forest.  What made these tracks has yet to show themselves.  The eastern
+border of the forest can be seen clearly now and stream runs with more
+energy, it's source must be closer.  The meadow continies to the north, east
+and west.  A stone wall blocks passage to the south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110108
+0 0
+D1
+~
+~
+Z 0 110103
+0 0
+D3
+~
+~
+Z 0 110113
+0 0
+S
+#110105
+Meadow of TombLeaf~
+A lush green meadow surrounds the eastern border of the forest of
+TombLeaf.  The meadow is a large flat land that appears well watered and
+well protected by the animals that make their home here.  There is a
+solitary stream that seems to be running to the east, out of the forest. 
+The wildlife live in peace on this meadow without fear of predators or being
+hunted by the races of the realm.  It is rumored a small satyr tribe secures
+and quarantines the borders of TombLeaf to protect their home from
+adventurers.  The meadow continues in all directions on the western horizon
+the eastern border of TombLeaf can be seen.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110106
+0 0
+D1
+~
+~
+Z 0 110100
+0 0
+D2
+~
+~
+Z 0 110103
+0 0
+D3
+~
+~
+Z 0 110108
+0 0
+S
+#110106
+Meadow of TombLeaf~
+A lush green meadow surrounds the eastern border of the forest of
+TombLeaf.  The meadow is a large flat land that appears well watered and
+well protected by the animals that make their home here.  There is a
+solitary stream that seems to be running to the east, out of the forest. 
+The wildlife live in peace on this meadow without fear of predators or being
+hunted by the races of the realm.  It is rumored a small satyr tribe secures
+and quarantines the borders of TombLeaf to protect their home from
+adventurers.  The meadow continues to the east, south and west a stone wall
+blocks passage to the north.  On the western horizon the eastern borders of
+TombLeaf can be seen.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110102
+0 0
+D2
+~
+~
+Z 0 110105
+0 0
+D3
+~
+~
+Z 0 110107
+0 0
+S
+#110107
+Meadow of TombLeaf~
+TombLeaf comes closer with each step, individual trees can now been seen
+clearly as a western approach continues.  The Meadow seems less lively with
+small animals, the tracks seen in the eastern area do not appear as often
+here.  In their place there are heavy hoof marks that always move into the
+forest.  What made these tracks has yet to show themselves.  The eastern
+border of the forest can be seen clearly now and stream runs with more
+energy, it's source must be closer.  The meadow continues in the west, east
+and south.  The north is blocked by a stone wall 
+~
+0 0 inside
+D1
+~
+~
+Z 0 110106
+0 0
+D2
+~
+~
+Z 0 110108
+0 0
+D3
+~
+~
+Z 0 110112
+0 0
+S
+#110108
+Meadow of TombLeaf~
+TombLeaf comes closer with each step, individual trees can now been seen
+clearly as a western approach continues.  The Meadow seems less lively with
+small animals, the tracks seen in the eastern area do not appear as often
+here.  In their place there are heavy hoof marks that always move into the
+forest.  What made these tracks has yet to show themselves.  The eastern
+border of the forest can be seen clearly now and stream runs with more
+energy, it's source must be closer.  The meadow continues in all directions.
+~
+0 0 inside
+D0
+~
+~
+Z 0 110107
+0 0
+D1
+~
+~
+Z 0 110105
+0 0
+D2
+~
+~
+Z 0 110104
+0 0
+D3
+~
+~
+Z 0 110111
+0 0
+S
+#110110
+Watering Hole~
+In the center of this clearing is a small pond that connects to a stream
+that is flowing out of the west.  A few tall trees stand nearby that house
+several different kinds of birds all of which seem to be singing with all
+their strength.  The ground seems fairly wet and overturned as though it has
+seen the traffic of many animals lately.  The pond waters and cools the
+majority of the wildlife that live in TombLeaf's vast meadow, though the
+presence of a traveler seems to have frightened most of them away. 
+Following the stream to the west would lead to a large meadow.  
+~
+0 0 inside
+D3
+~
+~
+Z 0 110100
+0 0
+S
+#110111
+Converging Point~
+The ground is no longer covered in grass, it has all been torn away by
+the frequent traffic of heavy hooves that crossed over it.  The dirt is
+unsettled and some remains in the air, suggesting whatever made the trail
+has passed by recently.  All the tracks from the meadow seem to converge on
+this the only path that enters TombLeaf's eastern border.  The trail itself
+is small but has been widened immensely by it's frequent use.  The great
+trees of TombLeaf now seem to reach to the heavens.  Their leafs are dark
+green, dry and easily broken as though the tree itself is dying.  The bark
+of the trees is dark as well and is easily removed from the shaft of the
+tree, the roots make the ground uneven and hard to walk across as they
+desperately search for nourishment.  In the west soft inquisitive voices can
+be heard but are quickly droned out but the movement of hasty hooves.  The
+meadow continues in the north, east and south, to the west lies the entrance
+of TombLeaf.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110112
+0 0
+D1
+~
+~
+Z 0 110108
+0 0
+D2
+~
+~
+Z 0 110113
+0 0
+D3
+~
+~
+Z 0 110114
+0 0
+S
+#110112
+TombLeaf's Treeline~
+The grass here is completely matted to the ground, the only tracks seen
+are the repeated hoof prints.  No other animal from the meadow seems to want
+anything to do with the forest and no noises and be heard from within
+TombLeaf.  The trees look far taller and less healthy at a closer view,
+their leafs are wilting and there are small piles of bark around each tree's
+base where the bark has fallen off completely.  To the south is the
+beginning of the main trail of TombLeaf, in the east the meadow continues. 
+The north and blocked by a large stone wall and to the west is TombLeaf's
+treeline.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110107
+0 0
+D2
+~
+~
+Z 0 110111
+0 0
+S
+#110113
+TombLeaf's Treeline~
+The grass here is completely matted to the ground, the only tracks seen
+are the repeated hoof prints.  No other animal from the meadow seems to want
+anything to do with the forest and no noises and be heard from within
+TombLeaf.  The trees look far taller and less healthy at a closer view,
+their leafs are wilting and there are small piles of bark around each tree's
+base where the bark has fallen off completely.  To the north is beginning of
+the main path of TombLeaf, in the east the meadow continues.  The west is
+blocked by TombLeaf's treeline and the south is barred by a large stone
+wall.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110111
+0 0
+D1
+~
+~
+Z 0 110104
+0 0
+S
+#110114
+Widening Path~
+The only grass that can been seen on the forest floor is beneath the
+trees on either side of the path but that grass seems to be withering
+slowly.  The path was once narrow and winding but no longer, it now is
+easily the width of several wagons if they were lined side by side.  The
+path is covered in hoof prints the imprints ranging in depth.  While the
+trees on the meadow border appeared to be dying, the trees that line the
+path look on the verge of collapse.  Decayed cores of leaves litter the
+ground and drift eerily in the soft, dead smelling breeze coming from the
+west.  The north and south are blocked by a wall of trees, to the east lies
+TombLeaf's eastern entrance and to the west the path continues.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110111
+0 0
+D3
+~
+~
+Z 0 110115
+0 0
+S
+#110115
+Widening Path~
+The only grass that can been seen on the forest floor is beneath the
+trees on either side of the path but that grass seems to be withering
+slowly.  The path was once narrow and winding but no longer, it now is
+easily the width of several wagons if they were lined side by side.  The
+path is covered in hoof prints the imprints ranging in depth.  While the
+trees on the meadow border appeared to be dying, the trees that line the
+path look on the verge of collapse.  Decayed cores of leaves litter the
+ground and drift eerily in the soft, dead smelling breeze coming from the
+west.  The north and south are blocked by a wall of trees, to the east lies
+TombLeaf's eastern entrance and to the west the path continues.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110114
+0 0
+D3
+~
+~
+Z 0 110116
+0 0
+S
+#110116
+Widening Path~
+The only grass that can been seen on the forest floor is beneath the
+trees on either side of the path but that grass seems to be withering
+slowly.  The path was once narrow and winding but no longer, it now is
+easily the width of several wagons if they were lined side by side.  The
+path is covered in hoof prints the imprints ranging in depth.  While the
+trees on the meadow border appeared to be dying, the trees that line the
+path look on the verge of collapse.  Decayed cores of leaves litter the
+ground and drift eerily in the soft, dead smelling breeze coming from the
+west.  The north and west are blocked by a wall of trees, to the east lies
+TombLeaf's eastern entrance and to the south the path continues.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110115
+0 0
+D2
+~
+~
+Z 0 110117
+0 0
+S
+#110117
+Deeper In~
+The only grass that can been seen on the forest floor is beneath the
+trees on either side of the path but that grass seems to be withering
+slowly.  The path was once narrow and winding but no longer, it now is
+easily the width of several wagons if they were lined side by side.  The
+path is covered in hoof prints the imprints ranging in depth.  While the
+trees on the meadow border appeared to be dying, the trees that line the
+path look on the verge of collapse.  Decayed cores of leaves litter the
+ground and drift eerily in the soft, dead smelling breeze coming from the
+west.  The east and south are blocked by a wall of trees, to the north lies
+the beginning of TombLeaf's main path and to the west the path continues.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110116
+0 0
+D3
+~
+~
+Z 0 110118
+0 0
+S
+#110118
+Deeper In~
+The only grass that can been seen on the forest floor is beneath the
+trees on either side of the path but that grass seems to be withering
+slowly.  The path was once narrow and winding but no longer, it now is
+easily the width of several wagons if they were lined side by side.  The
+path is covered in hoof prints the imprints ranging in depth.  While the
+trees on the meadow border appeared to be dying, the trees that line the
+path look on the verge of collapse.  Decayed cores of leaves litter the
+ground and drift eerily in the soft, dead smelling breeze coming from the
+west.  The west and south are blocked by a wall of trees, to the east and
+north the path continues.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110119
+0 0
+D1
+~
+~
+Z 0 110117
+0 0
+S
+#110119
+Concealed Hut~
+A small hut rests to the side of the path, though it seems long since
+abandoned.  The subtlety used in concealing it from the path would suggest
+it was once a sentry post, it is impossible to see it from any point until
+right in front of it.  The roof has been smashed in and two of the walls
+have fallen to the ground.  Oddly enough no moss or plant life has grown on
+top of it and the exterior has suffered little to no decay, though it is
+obvious it has been a few years since the hut was last in use.  The east and
+west are blocked by the forest depths, to the south lies the loneliness of
+the path and to the north appears to be a small clearing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110120
+0 0
+D2
+~
+~
+Z 0 110118
+0 0
+S
+#110120
+Clearing Gates~
+The path has led to a small clearing that looks as though it had once
+been a gathering place of a sort.  A large gate sits at the southern
+entrance to the clearing though it's doors are ajar and seem ready to fall
+to the ground due to the large amount of rust on the hinges.  There is a
+small water pool in the center of the clearing and where was once clear
+waters now is dry, barren and abandoned.  There are a few trees here that
+appear to have once been fruit bearing but now judging from their drained
+appearance it has been long since they last nourished any life on their
+branches.  The ground here is as torn up as the rest of the path, hoof
+prints can be seen all over ranging in size.  To the north and east the
+clearing continues, the west is blocked by the tree line and the path is to
+the south.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110121
+0 0
+D1
+~
+~
+Z 0 110122
+0 0
+D2
+~
+~
+Z 0 110119
+0 0
+S
+#110121
+Small Clearing~
+There is a small water pool in the center of the clearing and where was
+once clear waters now is dry, barren and abandoned.  There are a few trees
+here that appear to have once been fruit bearing but now judging from their
+drained appearance it has been long since they last nourished any life on
+their branches.  On the shaft of the trees much of the bark has been torn
+off and now rests on the ground.  It is almost as if something continually
+hit the tree in anger.  The ground here is as torn up as the rest of the
+path, hoof prints can be seen all over ranging in size.  To the south and
+east the clearing continues, the north and west are blocked by the tree
+line.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110123
+0 0
+D2
+~
+~
+Z 0 110120
+0 0
+S
+#110122
+Small Clearing~
+There is a small water pool in the center of the clearing and where was
+once clear waters now is dry, barren and abandoned.  There are a few trees
+here that appear to have once been fruit bearing but now judging from their
+drained appearance it has been long since they last nourished any life on
+their branches.  On the shaft of the trees much of the bark has been torn
+off and now rests on the ground.  It is almost as if something continually
+hit the tree in anger.  The ground here is as torn up as the rest of the
+path, hoof prints can be seen all over ranging in size.  To the north and
+west the clearing continues, the east and south are blocked by the tree
+line.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110123
+0 0
+D3
+~
+~
+Z 0 110120
+0 0
+S
+#110123
+Refound Path~
+There is a small water pool in the center of the clearing and where was
+once clear waters now is dry, barren and abandoned.  There are a few trees
+here that appear to have once been fruit bearing but now judging from their
+drained appearance it has been long since they last nourished any life on
+their branches.  On the shaft of the trees much of the bark has been torn
+off and now rests on the ground.  It is almost as if something continually
+hit the tree in anger.  The ground here is as torn up as the rest of the
+path, hoof prints can be seen all over ranging in size.  The path leading
+out of the clearing heads into the north where the forest appears less
+dense, to the south and west the clearing continues, the east is blocked by
+the tree line.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110124
+0 0
+D2
+~
+~
+Z 0 110122
+0 0
+D3
+~
+~
+Z 0 110121
+0 0
+S
+#110124
+Refound Path~
+The forest is far less dense then at the southern entrance to the
+clearing.  Though there are still no leaves, the trees themselves are less
+overgrown and seem to have once been looked after and trimmed.  There has
+been no change to the path, still far wider then it's original base and
+still hoof prints litter the forest floor.  Movement can heard to the north
+and some shapes that blur together seem to be moving away.  To the east and
+west are the forest depths, to the south lies a small clearing 
+~
+0 0 inside
+D0
+~
+~
+Z 0 110125
+0 0
+D2
+~
+~
+Z 0 110123
+0 0
+S
+#110125
+Before the Satyr Village~
+The forest is far less dense then at the southern entrance to the
+clearing.  Though there are still no leaves, the trees themselves are less
+overgrown and seem to have once been looked after and trimmed.  There has
+been no change to the path, still far wider then it's original base and
+still hoof prints litter the forest floor.  Movement can heard to the north
+and an encampment of some kind can be seen.  To the east and west are the
+forest depths, to the south lies a small clearing 
+~
+0 0 inside
+D0
+~
+~
+Z 0 110126
+0 0
+D2
+~
+~
+Z 0 110124
+0 0
+S
+#110126
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  Two large gates hang
+on either side of the entrance and though once maintained now seem to have
+rusted open and the wood has splintered with age.  The ground is covered in
+hoof prints making it un-level and difficult to walk on.  There is obvious
+sorrow in this place.  To the north, east and west is the satyr village, to
+the south is a small clearing.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110132
+0 0
+D1
+~
+~
+Z 0 110128
+0 0
+D2
+~
+~
+Z 0 110125
+0 0
+D3
+~
+~
+Z 0 110127
+0 0
+S
+#110127
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110131
+0 0
+D1
+~
+~
+Z 0 110126
+0 0
+D3
+~
+~
+Z 0 110129
+0 0
+S
+#110128
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110133
+0 0
+D3
+~
+~
+Z 0 110126
+0 0
+S
+#110129
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110130
+0 0
+D1
+~
+~
+Z 0 110127
+0 0
+S
+#110130
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110137
+0 0
+D1
+~
+~
+Z 0 110131
+0 0
+D2
+~
+~
+Z 0 110129
+0 0
+D3
+~
+~
+Z 0 110138
+0 0
+S
+#110131
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110136
+0 0
+D1
+~
+~
+Z 0 110132
+0 0
+D2
+~
+~
+Z 0 110127
+0 0
+D3
+~
+~
+Z 0 110130
+0 0
+S
+#110132
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110135
+0 0
+D1
+~
+~
+Z 0 110133
+0 0
+D2
+~
+~
+Z 0 110126
+0 0
+D3
+~
+~
+Z 0 110131
+0 0
+S
+#110133
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D0
+~
+~
+Z 0 110134
+0 0
+D2
+~
+~
+Z 0 110128
+0 0
+D3
+~
+~
+Z 0 110132
+0 0
+S
+#110134
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D2
+~
+~
+Z 0 110133
+0 0
+D3
+~
+~
+Z 0 110135
+0 0
+S
+#110135
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110134
+0 0
+D2
+~
+~
+Z 0 110132
+0 0
+D3
+~
+~
+Z 0 110136
+0 0
+S
+#110136
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110135
+0 0
+D2
+~
+~
+Z 0 110131
+0 0
+D3
+~
+~
+Z 0 110137
+0 0
+S
+#110137
+Satyr Village~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110136
+0 0
+D2
+~
+~
+Z 0 110130
+0 0
+S
+#110138
+Satyr Village: West Gate Interior~
+A small grim village rests all around that echos the drained appearance
+of the entire forest.  The small huts are covered in dirt from the obvious
+stampede of hooves that pass by often.  Oddly there was no clearing made for
+the buildings constructed, the satyrs seem content to live amongst the plant
+life though it has been long since anything grew here.  The ground is
+covered in hoof prints making it un-level and difficult to walk on.  There
+is obvious sorrow in this place.  A large gate made of wood reaches near
+fifteen feet in height and ten feet in width barely stands in the west side
+of town.  The gate is ajar and it's hinges groan in agony from not being
+properly maintained for a long time.  A narrow, unused path begins outside
+the western gate.  
+~
+0 0 inside
+D1
+~
+~
+Z 0 110130
+0 0
+D3
+~
+~
+Z 0 110139
+0 0
+S
+#110139
+Satyr Village: West Gate Exterior~
+~
+0 0 inside
+D1
+~
+~
+Z 0 110138
+0 0
+D3
+~
+~
+Z 0 110140
+0 0
+S
+#110140
+Narrow Path~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110142
+0 0
+D1
+~
+~
+Z 0 110139
+0 0
+D3
+~
+~
+Z 0 110141
+0 0
+S
+#110141
+Broken Tree~
+~
+0 0 inside
+D1
+~
+~
+Z 0 110140
+0 0
+S
+#110142
+Narrow Path~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110143
+0 0
+D2
+~
+~
+Z 0 110140
+0 0
+S
+#110143
+Stream of TombLeaf~
+~
+0 0 inside
+D2
+~
+~
+Z 0 110142
+0 0
+D3
+~
+~
+Z 0 110144
+0 0
+S
+#110144
+Stream of TombLeaf~
+~
+0 0 inside
+D1
+~
+~
+Z 0 110143
+0 0
+D3
+~
+~
+Z 0 110145
+0 0
+S
+#110145
+Stream of TombLeaf~
+~
+0 0 inside
+D1
+~
+~
+Z 0 110144
+0 0
+D2
+~
+~
+Z 0 110146
+0 0
+S
+#110146
+Stream of TombLeaf~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110145
+0 0
+D2
+~
+~
+Z 0 110147
+0 0
+S
+#110147
+Stream of TombLeaf~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110146
+0 0
+D3
+~
+~
+Z 0 110148
+0 0
+S
+#110148
+The Dam~
+~
+0 0 inside
+D1
+~
+~
+Z 0 110147
+0 0
+D3
+~
+~
+Z 0 110149
+0 0
+S
+#110149
+Past the Dam~
+~
+0 0 inside
+D1
+~
+~
+Z 0 110148
+0 0
+D2
+~
+~
+Z 0 110150
+0 0
+S
+#110150
+The Green River~
+~
+0 0 inside
+D0
+~
+~
+Z 0 110149
+0 0
+S
+#0
+
+#$

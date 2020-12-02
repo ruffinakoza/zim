@@ -1,0 +1,1442 @@
+#AREADATA
+Name Sentinel Clan Hall~
+Builders malakai~
+VNUMs 100701 100800
+Credits Malakai~
+Security 1
+LevelRange 0 0
+ResetMessage {WThe cavern darkens for a bit, then it gets even brighter!{x~
+Flags closed noquest nosummon clanhall~
+Clan Sentinel~
+End
+
+#MOBILES
+#100701
+clan guard guardian sentinel vanessa woman sentinelguard~
+Vanessa~
+A strong-looking woman stands guard at the entrance to the cave.
+~
+She is heavily muscled, and scars criss-crossing her face have taken her
+beauty away from her long ago, but she is well-respected among her
+clanmates, and has been given the important task of protecting the home of
+the Sentinels with her life.  
+~
+human~
+ABTef DFHVclm 1000 0
+100 100 6d1+25000 1250d11+95 42d2+75 none
+-80 -80 -80 -55
+ACEFHK ABLQT 0 0
+stand stand female 0
+0 0 medium flesh~
+~
+M grall 100703 100~
+M kill 100702 100~
+M exall 100701 ~
+C Sentinel~
+#100702
+clan cleric healer sentinel guardian nathaniel sentinelcleric~
+Nathaniel~
+Nathaniel stands here, ready to heal the wounds of Sentinel.
+~
+Nothing but a clan cleric, human again.
+~
+human~
+ABKQaef DFHVlm 1000 0
+100 100 6d1+20000 1d9+60 34d2+74 none
+9 9 9 9
+FI ABLQ 0 0
+stand stand male 0
+0 0 medium flesh~
+~
+M give 100720 all~
+M speech 100713 give me the elidodi item~
+M speech 100714 give me the shadow item~
+M speech 100715 give me the scion item~
+M speech 100716 give me the chaos item~
+M speech 100717 give me the barbarian item~
+M speech 100718 give me the knight item~
+M speech 100719 give me the ruler item~
+M speech 100721 give me the sylvan item~
+C Sentinel~
+#100703
+solar~
+the Solar~
+An immense {Ygolden{x being with {Wgleaming white wings{x glares at you.
+~
+Floating along either side of this being are 8 foot greatswords that move
+on their own accord.  An extremely powerful longbow with a glowing arrow
+already nocked rests in his right hand.  You stand in awe of the incredibly
+powerful being before you.  
+~
+arial~
+AITg DNS 1000 0
+91 91 465d91+0 910d11+95 31d2+68 none
+-56 -56 -56 -37
+EFKL 0 FH M
+stand stand none 0
+0 0 unknown flesh~
+~
+F aff T
+C Sentinel~
+#100704
+silas~
+Silas, the devout priest~
+Silas waits here to call forth another defender of the light.
+~
+A short human man dressed in white robes is here.  His long robes are
+immaculate and almost seem to glow.  A bright yellow sun is emblazoned on
+the chest of his robes.  Two soft blue-grey eyes attract you to his kind
+face.  Smooth pale skin covers the top of his bald head.  Thin grey hair
+crowns his head in a semi-circle meeting at each temple.  
+~
+human~
+ABQe DFHNVl 0 0
+107 107 496d107+0 535d10+85 35d3+58 none
+-62 -62 -62 -40
+DEFHIKOQV AB KLMPQ N
+stand stand male 0
+0 0 large flesh~
+~
+C Sentinel~
+#100705
+guardian shop~
+Guardian of Truth~
+Devoted guardian of truth stands guard to true power.
+~
+~
+human~
+ABef 0 1000 0
+91 -200 0d0+50000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABEMNO 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 100704 ~
+C Sentinel~
+I 92
+#100706
+lantern archon~
+the Lantern Archon~
+A small globe of {Wlight{x darts around the room.
+~
+This floating ball of light glows about as brightly as a torch.  As you
+peer closer, you realize that the ball of light is actually a gaseous globe.
+It doesn't seem qutie capable of rendering any material aid.  
+~
+unique~
+AIR DNT 1000 0
+35 35 88d35+0 175d10+85 11d3+22 none
+-13 -13 -13 -6
+KL O 0 M
+stand stand none 0
+0 0 large flesh~
+~
+C Sentinel~
+#100707
+dummy~
+a dummy~
+A dummy is here for you to practice your skills.
+~
+~
+human~
+ABTe AH 0 0
+30 30 50d30+0 30d9+60 9d3+16 none
+-9 -9 -9 -3
+0 ABNQ 0 0
+incap incap none 0
+0 0 medium flesh~
+~
+C Sentinel~
+#100708
+ghaele~
+the Ghaele~
+A {Wradiantly {xshining elf stands before you.
+~
+Waving an impossibly large glowing greatsword with the greatest of ease,
+the radiantly shining elf before you proves to be an extremely capable and
+deadly warrior.  It sizes you up with opalescent eyes that lack pupils,
+sending chills down your spine.  
+~
+elf~
+AIT D 1000 0
+55 55 231d55+0 550d11+95 19d2+44 none
+-30 -30 -30 -19
+KL 0 K M
+stand stand none 0
+0 0 medium flesh~
+~
+C Sentinel~
+#100709
+planetar~
+the Planetar~
+An extremely tall, {Wwinged{x human with {Gemerald skin{x stands here.
+~
+At 9 feet, the massively muscular human with white feathered wings and
+smooth emerald skin looks down upon you, judging your righteousness.  He
+carries a 7 foot greatsword as if it were no more than a plaything.  
+~
+human~
+AIT DT 1000 0
+75 75 362d75+0 750d11+95 26d2+57 none
+-44 -44 -44 -29
+KL 0 I H
+stand stand either 0
+0 0 large flesh~
+~
+C Sentinel~
+#100710
+transfer mob~
+Transfer Mob~
+A Transfer Mob is here, to lead people out.
+~
+~
+human~
+ABVei DFlt 0 0
+1 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium flesh~
+~
+F for AHMV
+F par ABCDEFGHIJK
+M exit 100723 2~
+I 92
+#0
+
+#OBJECTS
+#100701
+vault_room key~
+a small meaningless key~
+Here lies a small insignificant copper key.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100702
+tania plush chair~
+a plush chair~
+{cTania's{x plush chair invites all to rest.~
+unknown~
+plush~
+furniture KR 0
+A HJKMPTUX EHK BDEFGH BDEFGH A HJKMPTUX
+1 0 0 P
+G none
+G none
+G none
+G none
+#100703
+malakai throne~
+a godly throne~
+{WLord Malakai's{x throne hovers here looking towards the table.~
+wood~
+~
+furniture FKR 0
+A GJOQRST EHK 0 0 A GJOQRST
+107 0 0 P
+G none
+G none
+G none
+G none
+#100704
+bucaran log light~
+Roger~
+{DBucaran's {yGreat Log {xof {YLight {xlies here at one end of the table.~
+unknown~
+~
+furniture AKR 0
+A GJOQRST BEHK BDEFGH BDEFGH A GJOQRST
+1 0 0 P
+G none
+G none
+G none
+G none
+#100705
+kandaiya wood chair~
+a simple wooden chair~
+{cKandaiya's {ysimple wooden chair {xis here at one end of the table.~
+wood~
+~
+furniture KR 0
+A INOPQSUVWXYa EHK BDEFGH BDEFGH A INOPQSUVWXYa
+0 0 0 P
+G none
+G none
+G none
+G none
+#100706
+tearawa cushion~
+a purple cushion~
+{WTearawa's{x stuffed {mcushion{x lies here.~
+unknown~
+~
+furniture KR 0
+A GJOQRST BEHK BDEFGH BDEFGH A GJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#100707
+soumon cast iron~
+a cast-iron chair~
+{rSoumon's {Dcast-iron {wchair awaits him.~
+unknown~
+~
+furniture KR 0
+A FHJKPQ EHK BDEFGH BDEFGH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#100708
+elgar bamboo~
+a {yb{ga{ym{gb{yo{go{x chair~
+{wA {yb{ga{ym{gb{yo{go {wwood chair lies here with {WElgar's {xname engraved on it.~
+unknown~
+bamboo wood~
+furniture KR 0
+A FHJKPQ EHK BDEFGH BDEFGH A FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#100709
+table~
+long rectangular table~
+A long table lies here in the middle of the room.~
+wood~
+~
+trash R 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100710
+chairs~
+a wooden chair~
+Several wooden chairs surround the table.~
+wood~
+~
+furniture R 0
+CE FHJKPQ EHK DGH DGH CE FHJKPQ
+0 0 0 P
+G none
+G none
+G none
+G none
+#100711
+fountain spring~
+a natural spring~
+A natural spring runs through the caverns here.~
+unknown~
+~
+fountain R 0
+0 0 'water' 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100712
+eternal cross vigilance~
+{cEternal {WCross of {CVigilance{x~
+As you approach this symbol all evil around you seems to vanish.~
+energy~
+~
+armor ABGHMSYZ AS
+11 11 11 10 'none' 0
+30 31 129956 P
+A
+1 2
+F
+A 0 0 C
+F
+A 0 0 N
+A
+19 8
+A
+18 8
+A
+13 30
+G none
+G none
+G none
+G none
+#100713
+iron cross sentinel clanitem~
+A {WCross {xof {cIron{x~
+An {ciron {Wcross{x encrusted with {Yc{Ro{Bl{Go{Mr{Wf{Cu{Dl{x gems {Yglows{x in the dirt.~
+iron~
+~
+treasure ARaef AOP
+0 0 0 0 0
+60 45 100000 P
+C Sentinel~
+G none
+G none
+G none
+G none
+#100714
+vault sentinel altar sentinel_altar_key~
+a stone altar~
+A {Dstone{x altar disguised as a vault sits here.~
+stone~
+~
+container ORY 0
+1000 ABCD 100715 15 100 0
+60 0 20 P
+E
+vault~
+A stone made vault disguised as an altar sits here.
+~
+C Sentinel~
+G none
+G none
+G none
+G none
+#100715
+key cross clankey sentinel~
+a small {WSentinel{x cross~
+A small {Wcross{x lies here.~
+stone~
+~
+key IUf AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100716
+vault_room key~
+a small meaningless key~
+Here lies a small insignificant copper key.~
+unknown~
+~
+key 0 AO
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100717
+bedrolls~
+a bedroll~
+A few bedrolls lie here on the floor.~
+leather~
+~
+furniture R 0
+CE HJKMPTUX EHK BDEFGH BDEFGH CE HJKMPTUX
+0 0 0 P
+G none
+G none
+G none
+G none
+#100718
+stew~
+some stew~
+Some stew lies here, cooking over the fire.~
+food~
+~
+food 0 A
+CE DF 0 0 0 CE DF
+0 15 158 P
+G none
+G none
+G none
+G none
+#100719
+fire campfire camp pit~
+a campfire~
+Some stew is here cooking over the fire.~
+fire~
+~
+container AR 0
+10000 0 0 0 0 0
+5 0 0 P
+G none
+G none
+G none
+G none
+#100720
+chest pit~
+the donation chest~
+A donation chest lies here.~
+unknown~
+~
+container ORg 0
+100000 0 0 100000 100 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100721
+midgaard tunnel~
+Midgaard Tunnel~
+A large tunnel leads to the city of Midgaard.~
+unknown~
+rock~
+portal GKR 0
+0 D A 7030 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100722
+pot~
+~
+{x~
+clay~
+~
+container R 0
+100 ACE 0 1000 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100723
+map sentinel clanhall~
+A paper scroll~
+A somewhat ragged scroll written in black ink.~
+paper~
+~
+map 0 A
+0 0 0 0 0 0 0
+0 5 10000 P
+E
+map~
+~
+G none
+G none
+G none
+G none
+#100724
+small table~
+a small table~
+Here stands a small table.~
+metal~
+~
+furniture RY 0
+0 0 0 0 0 0 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100725
+tunnel emerald~
+{gEmerald{x Tunnel~
+A dark tunnel leads to a grotto in {gEmerald Forest{x.~
+unknown~
+rock~
+portal GKR 0
+0 D A 240 0
+0 0 0 P
+G none
+G none
+G none
+G none
+#100726
+malakai statue~
+Malakai statue~
+An immense statue of {WLord Malakai{x keeps vigil upon its dais.~
+stone~
+~
+trash AR 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+statue~
+Malakai, the Patron Deity of Sentinel, has his sword raised in a
+permanent salute, greeting the clan members as they enter the Halls of
+Honor.  He clutches a tome in his other hand, leading you to wonder its
+significance.  Surrounding its dais is a variety of candles and various
+offerings.  
+~
+G none
+G none
+G none
+G none
+#100727
+tome sentinel~
+malakai's tome~
+A tome is held by the statue.~
+unknown~
+~
+map AR 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+tome~
+Carved in stone with magical glowing letters, you can read:
+ 
+-==>> These are the fine members of our clan <<==--
+
+Kandaiya, the ninja
+Elgar, the samurai
+Bucaran, the ranger
+Tania, the witch
+Tearawa, the samurai
+Soumon, the ranger
+
+"May they all live their life to the full and erradicate evil from our land"
+~
+E
+tome~
+~
+G none
+G none
+G none
+G none
+#100728
+black practice mat~
+a {Dblack {gpractice mat{x~
+A {Dblack {gpractice mat{x lies here imprinted with its master's name.~
+unknown~
+~
+furniture 0 0
+B GIKLQR BEHK BDEFGH BDEFGH B GIKLQR
+0 2 0 P
+E
+imprinted~
+You see a name imprinted on the mat: Arakin Featherwind,
+{DAs{re{Rs{ri{Dno {Wde Santidad{x 
+~
+E
+mat~
+You see a name imprinted on the mat: Arakin Featherwind,
+{DAs{re{Rs{ri{Dno {Wde Santidad{x 
+~
+E
+practice~
+You see a name imprinted on the mat: Arakin Featherwind,
+{DAs{re{Rs{ri{Dno {Wde Santidad{x 
+~
+E
+black~
+You see a name imprinted on the mat: Arakin Featherwind,
+{DAs{re{Rs{ri{Dno {Wde Santidad{x 
+~
+G none
+G none
+G none
+G none
+#100729
+william hammock~
+{wa {Wsilver lined {yhammock chair{x~
+{wA {Wsilver lined {yhammock chair {whangs from the ceiling.{x~
+wood~
+~
+furniture AKR 0
+A GJOQRST FIL 0 0 A GJOQRST
+0 0 0 P
+G none
+G none
+G none
+G none
+#100730
+soumon statue~
+soumon's statue~
+~
+stone~
+~
+trash R 0
+0 0 0 0 0 0 0
+0 0 0 P
+E
+soumon~
+Here is a statue of Soumon Varou, the Ironhand of light, it stands a
+little over six foot tall with an ornate talisman around his neck and a
+noble unflinching complexion about his face.  Hair flows from his head down
+to his mid-back covering parts of his open robe.  His left hand is extended
+out from the body with a clenched fist, and the right hand grasping a
+double-edged Bastard sword at his other side.  Under his robe is what looks
+to be a sturdy leather vest that goes down to his waist where apon his vest
+and robe are fastened together with a medium-sized belt.  
+~
+G none
+G none
+G none
+G none
+#100800
+sentinel clanhall key~
+the key to the clanhall of {WSentinel{x~
+A small, simple {wcross{x with notches cut into the end lies here.~
+unknown~
+purity~
+key AIVY AO
+0 0 0 0 0 0 0
+0 0 0 P
+E
+sentinel clanhall key~
+{W
+     __
+    |  |
+    |  |
+ ___|  |___________________
+|                          |
+|___    ___________   ___  |
+    |  |           |_|   \_|
+    |  |
+    |__|
+{x
+~
+G none
+G none
+G none
+G none
+#0
+
+#ROOMS
+#100701
+Cave Entrance~
+Before you is the entrance to a large cave, hidden from the sight of
+anyone who does not know to look for it.  From what can be seen here, it
+looks as if the cave is inhabited by several people, as personal belongings
+and various everyday objects are visible close by.  The entrance seems to be
+well-guarded, and it seems that none who do not belong will enter without a
+fight.  
+~
+0 NSX forest
+D0
+~
+the~
+ADFGMZ 100800 100702
+0 0
+D1
+~
+~
+Z 0 5279
+0 0
+S
+#100702
+Inside the Hall~
+After passing through a short tunnel the cavern itself comes into view. 
+It seems to be a fairly large cave, which branches off to several smaller
+areas inside the cavern.  A group of tunnels are visible off to one side,
+leading further into the cavern’s depths.  
+~
+0 DNX inside
+D2
+~
+~
+ADFGMZ 0 100701
+0 0
+D5
+~
+~
+Z 0 100703
+0 0
+C Sentinel~
+S
+#100703
+Central Room~
+Standing inside the hall, you can see that this cave has been converted
+into both a headquarters and a home for those who use it.  Maps and battle
+plans are strewn about one corner of the cavern, along with swords, spears,
+and any other weapon you can think of.  In another part of the cavern
+everyday objects like pots, pans, kettles and bedrolls are visible, in what
+seems to be the living area.  The cavern’s ceiling is just high enough for a
+giant to feel comfortable, and off to the side several tunnels are visible,
+leading even deeper into the cave.  At one corner lies a red pot.  
+~
+0 DNX inside
+E
+pot~
+A small red pot made of clay lies here surrounded in spider webs.  
+~
+D0
+~
+~
+Z 0 100708
+0 0
+D1
+~
+~
+Z 0 100705
+0 0
+D2
+~
+~
+Z 0 100707
+0 0
+D3
+~
+~
+Z 0 100706
+0 0
+D4
+~
+~
+Z 0 100702
+0 0
+D5
+~
+~
+Z 0 100704
+0 0
+C Sentinel~
+S
+#100704
+Underground Passages~
+Here at the far end of the cave, several tunnels branch off into the
+darkness.  Unlike the rest of the caves, these are not lit up by torches,
+and what lays beyond the light is still a mystery.  
+~
+0 DNX inside
+D4
+~
+~
+Z 0 100703
+0 0
+D5
+~
+vault~
+Z 100716 100714
+0 0
+C Sentinel~
+S
+#100705
+Meeting Room~
+From the looks of it, this is the room where everyone gets together to
+discuss their tasks and strategize on how to accomplish their goals.  A
+large wooden table placed in the center and the simple wooden chairs that
+surround it are the only pieces of furniture in this room.  The entire area
+is brightly lit by several torches placed on the cavern walls, dispelling
+any shadows.  The table is covered with maps and notes, seeming to be plans
+of nearby cities with special marks around certain guild halls.  
+~
+0 DNX inside
+D3
+~
+~
+Z 0 100703
+0 0
+C Sentinel~
+S
+#100706
+A Darkend Room~
+In this small room in the corner of the cave, a makeshift altar has been
+set up and covered with religious symbols.  This is where the inhabitants of
+these caverns come to fulfill their spiritual needs and seek guidance from
+the healer.  The lighting is dim but what little light there is dances
+around the room, touching the many symbols of the gods that are worshipped
+by the members of the clan.  A feeling of peace permeates the room, and the
+air here is cool and refreshing.  
+~
+0 DNX inside
+D1
+~
+~
+Z 0 100703
+0 0
+C Sentinel~
+S
+#100707
+Clan Warehouse~
+This is the room where everyone seems to keep their war supplies. 
+Spears, swords, knives, and weapons of many kinds are propped up against the
+walls or placed on large shelves.  Armor of every shape and size has been
+left here to help those who need it.  A large chest in the middle of the
+room holds items of particular importance, available to all who wish to take
+them.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 100703
+0 0
+C Sentinel~
+S
+#100708
+Resting Place~
+This part of the cave seems to be the living area.  A small fire burns in
+a bit, giving this area a bit more warmth than the rest of the caves. 
+Various pans and cooking implements lay near to the pit, and a warm stew
+seems to be cooking in a pot suspended above the fire.  Several bedrolls are
+placed close together nearby, and here and there books, clothing, and other
+personal items can be seen.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 100709
+0 0
+D1
+~
+~
+Z 0 100711
+0 0
+D2
+~
+~
+Z 0 100703
+0 0
+D3
+~
+~
+Z 0 100712
+0 0
+C Sentinel~
+S
+#100709
+Doorway to the Gods~
+The walls of this room are white.  A pearl altar and bench lie in one
+corner.  The ceiling glows with a fantastic light, basking the room in a
+warm, holy glow.  The ceiling itself seems to have no substance.  It appears
+to be more an open doorway to a place of unbelievable light.  
+~
+0 DMNX inside
+D2
+~
+~
+Z 0 100708
+0 0
+C Sentinel~
+S
+#100710
+Pet Shop Storeroom~
+~
+0 DNX inside
+S
+#100711
+Training Grounds~
+This part of the cave is filled with training dummies and targets hanging
+on the walls.  At one corner you notice some punching bags hanging from the
+top of the cave and on the other some ropes are hanging from above.  
+~
+0 DNX inside
+D3
+~
+~
+Z 0 100708
+0 0
+C Sentinel~
+S
+#100712
+{WEntrance to the Halls of Honor{x~
+You enter a cavernous, dome-shaped room with an immense, glowing statue
+of {WMalakai{x standing in the center, providing much of the light of the
+room.  As you gaze upwards, you see the ceiling served as a gigantic canvas,
+depicting various scenes or armies wearing shields emblazoned with a {cBlue
+{CCross{x.  Each of the cardinal directions contains an archway, leading to
+the different {WHalls of Honor{x.  
+~
+0 DJNX inside
+E
+ceiling~
+Two immense archways cross eachother at the epicenter, dividing the
+ceiling into four equal parts.  The western portion depicts a handsome
+being, seated upon a simple throne, with a simple platinum circlet resting
+on his brow.  To either side of the throne stand a variety of
+powerful-looking humans, elves, and dwarves, each wearing a {cBlue {CCross{x
+on their armor.  The northern quarter of the ceiling depicts these very same
+beings holding at bay entire armies of Orcs, Trolls, Undead Creatures, and
+even indescribable {DShadows{x with {Rcrimson eyes{x, preventing them from
+entering some sort of gate.  The southern quarter of the ceiling illustrates
+a mass of people with downcast gazes, and a precession with people carrying
+a casket, that are obviously mourning for the loss of a comrade.  The
+eastern quarter shows an army of those bearing the {CCross{x, charging in
+the direction of the exit, with one man at the front, his sword raised high,
+and his other arm pointing ahead, all the while, eternally shouting what
+appears to be "Charge!"  
+~
+D0
+~
+~
+Z 0 100713
+0 0
+D1
+~
+~
+Z 0 100708
+0 0
+D2
+~
+~
+Z 0 100716
+0 0
+D3
+~
+~
+Z 0 100715
+0 0
+C Sentinel~
+S
+#100713
+Hall of Heroes~
+Warm, flickering candlelight greets you upon your entrance to a long
+corridor that possesses an ethereal glow of its own, beyond the low- hanging
+candlelight chandeliers.  Along either side of you, you see pedestals of
+heroes of the clan {WSentinel{x, trailing down the length of the tunnel. 
+You notice that most of the granite pedestals are empty, but large
+rectangular boulders rest on many of them, waiting to be carved into
+statues.  
+~
+0 DNX inside
+D2
+~
+~
+Z 0 100712
+0 0
+C Sentinel~
+S
+#100714
+Vault Room~
+This stone room is filled with empty shelves being noticed here and there
+a casual spider's web.  Each step that you take produces a small echo.  The
+only thing that captures your glance is an altar done entirely of stone in
+the middle of the room.  
+~
+0 DNX inside
+D4
+~
+~
+Z 100716 100704
+0 0
+C Sentinel~
+S
+#100715
+Hall of Leadership~
+A series of life-size canvases neatly aligned run the length of the right
+wall, with a corresponding display cases alongside the length of the left
+wall.  This portion of the hall contains a painting with an engraved
+inscription below it, that simply states: 
+ 
+                 "{WBucaran, {cthe Strider of {CVigilance{x"
+~
+0 DNX inside
+E
+painting~
+The scene depicted is that of a forest.  A tall, broad-shouldered man is
+crouched on the first limbs of a tree.  Long, blonde hair flows down his
+back.  The man's face is covered by a long beard, and two bright green eyes
+shine out in contrast to his dark, tanned skin.  Clutched in his hand is a
+long, wooden bow.  He is pulling the bow back, and all his concentration is
+focused below him.  Just below the tree is a small horde of trolls.  The
+beasts' focus seems to be on a young elven girl who is encircled by the vile
+gang.  Saliva drips from their lips as they hungrily look at the girl.  The
+girl's face is a picture of serenity.  Her green eyes are cast up at the
+ranger in the tree.  Their eyes are almost the same color, though the
+ranger's seem to be a shade darker and colder.  
+~
+D1
+~
+~
+Z 0 100712
+0 0
+C Sentinel~
+S
+#100716
+Hall of Remembering~
+Everywhere you look you see nothing but dust and spider webs.  Nothing
+worth noticing here.  
+~
+0 DNX inside
+D0
+~
+~
+Z 0 100712
+0 0
+C Sentinel~
+S
+#0
+
+#RESETS
+M 0 100701 1 100701 1	* Vanessa (Cave Entrance)
+E 0 100800 0 17		*	the key to the clanhall of {WSentinel{x: held in the hands
+O 0 100722 0 100703	*  (Central Room)
+P 0 100716 1 100722 1	* : a small meaningless key
+O 0 100721 0 100704	* Midgaard Tunnel (Underground Passages)
+O 0 100725 0 100704	* {gEmerald{x Tunnel (Underground Passages)
+O 0 100709 0 100705	* long rectangular table (Meeting Room)
+O 0 100720 0 100707	* the donation chest (Clan Warehouse)
+O 0 100717 0 100708	* a bedroll (Resting Place)
+O 0 100711 0 100708	* a natural spring (Resting Place)
+O 0 100719 0 100708	* a campfire (Resting Place)
+P 0 100718 10 100719 10	* a campfire: some stew
+M 0 100705 1 100708 1	* Guardian of Truth (Resting Place)
+M 0 100704 1 100709 1	* Silas, the devout priest (Doorway to the Gods)
+M 0 100703 1 100710 1	* the Solar (Pet Shop Storeroom)
+M 0 100709 1 100710 1	* the Planetar (Pet Shop Storeroom)
+M 0 100708 1 100710 1	* the Ghaele (Pet Shop Storeroom)
+M 0 100706 1 100710 1	* the Lantern Archon (Pet Shop Storeroom)
+O 0 100726 0 100712	* Malakai statue ({WEntrance to the Halls of Honor{x)
+O 0 100727 0 100712	* malakai's tome ({WEntrance to the Halls of Honor{x)
+O 0 100714 0 100714	* a stone altar (Vault Room)
+P 0 100713 1 100714 1	* a stone altar: A {WCross {xof {cIron{x
+M 0 100702 1 100714 1	* Nathaniel (Vault Room)
+E 0 100715 0 17		*	a small {WSentinel{x cross: held in the hands
+S
+
+#SHOPS
+100704 0 0 0 0 0 100 17 0 23
+0
+
+#OLIMITS
+O 100710 0	* a wooden chair
+S
+
+#MOBPROGS
+#100701
+if clan $n Sentinel
+if ischarm $n
+say My apologies. I fear I cannot let you enter, not in this state you're in.
+else
+mob echoat $n Vanessa opens the secret entrance for you.
+mob echoaround $n Vanessa opens the secret entrance for $n, allowing $m in.
+mob gtransfer $n 100702
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100701
+endif
+end
+endif
+if isimmort $n
+'Proceed within, Great One.
+mob echoaround $n Vanessa steps aside as $n sweeps swiftly past him.
+mob gtransfer $n 100702
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100701
+end
+endif
+mob echoat $n Vanessa stands forth, forbidding your entrance.
+mob echoaround $n Vanessa stands high before $n, forbidding $m entrance.
+'Beyond this entrance lies the secret cave of the Sentinels. Only the righteous shall pass.
+~
+#100702
+clan {WWe are under {RATTACK{x!!!!
+clan {WSentinels, come to my aid! {R$n{W seeks to break into our hall!{x
+~
+#100703
+if isimmort $n
+break
+endif
+if clan $n Sentinel
+'Welcome Shield Bearer of the Righteous justice!
+pmote kneels deeply before $n.
+else
+'Walk back from where you came, $n, for you may meet your last day here!
+clan Sentinels, let it be known that {R$n {Cis at the entrance of the hall!{x
+end
+endif
+~
+#100704
+if isimmort $n
+'Welcome to our humble hall $n!
+mob echoat $n You pass by...
+mob echoaround $n A God passes by the hidden guardian...
+mob trans $n 100709
+end
+endif
+if clan $n Sentinel
+mob trans $n 100709
+mob goto $n
+mob echoaround $n $n has arrived.
+mob goto 100708
+end
+endif
+mob echoat $n Entrance to that place is forbidden by the gods.
+mob echoaround $n The gods forbid $n to go further.
+~
+#100705
+if isevil $q
+say Evil, begone from here!
+cast 'faerie fire' $q
+endif
+if isneutral $q
+cast 'faerie fire' $q
+endif
+if isgood $q
+smile $q
+endif
+mob forget
+~
+#100706
+mob oload 100715
+~
+#100713
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get elidodi altar
+close altar
+lock altar
+if carries $i 100652
+say Here you go.
+give elidodi $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100714
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get shadow altar
+close altar
+lock altar
+if carries $i 95765
+say Here you go.
+give shadow $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100715
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get scion altar
+close altar
+lock altar
+if carries $i 95601
+say Here you go.
+give scion $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100716
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get chaos altar
+close altar
+lock altar
+if carries $i 95502
+say Here you go.
+give chaos $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100717
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get barbarian altar
+close altar
+lock altar
+if carries $i 95465
+say Here you go.
+give barbarian $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100718
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get knight altar
+close altar
+lock altar
+if carries $i 95217
+say Here you go.
+give knight $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100719
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get ruler altar
+close altar
+lock altar
+if carries $i 95117
+say Here you go.
+give ruler $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100720
+if isvisible $n
+else
+say sorry I do not trust you because I can not see you!
+drop $o
+end
+endif
+if carries $i 95217
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95765
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95601
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100652
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95465
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95117
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 95502
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 7700
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+if carries $i 100713
+' Thanks, $n. I will put this in the altar for protection.
+unlock altar
+open altar
+put $o in altar
+close altar
+lock altar
+say There it is safe $n!
+end
+endif
+' I don't want a $o!
+give $o $n
+' Here is your $o back!
+~
+#100721
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get sylvan altar
+close altar
+lock altar
+if carries $i 7700
+say Here you go.
+give sylvan $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100722
+if clan $n sentinel
+or isimmort $n
+unlock altar
+open altar
+get sentinel altar
+close altar
+lock altar
+if carries $i 100713
+say Here you go.
+give sentinel $n
+else
+say We are not in possession of that item.
+endif
+else
+say You'll have to kill me, first!
+~
+#100723
+mob gtransfer $n 100701
+~
+#0
+
+#PRACTICERS
+M 100702 clan~	* Nathaniel
+S
+
+#$
