@@ -18,7 +18,7 @@ docker build . -t zim
 ```
 * Run the container, mapping your `/home/zim` folder as a volume and exposing MUD ports 7777 (game), 7778 (info service):
 ```bash
-docker run -v /home/margo/cpp/muds/zim:/home/zim -p 7777:7777 -p 7778:7778 --name zim -it zim
+docker run -v /home/zim:/home/zim -p 7777:7777 -p 7778:7778 --name zim -it zim
 cd /home/zim/src
 make
 make run
