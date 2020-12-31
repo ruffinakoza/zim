@@ -473,7 +473,7 @@ const char *string_lineadd(const char *string, char *newstr, int line)
 /*
  * getline -- copy str to buf up to '\n', len is buf size
  */
-const char *getline(const char *str, char *buf, size_t len)
+const char *zim_getline(const char *str, char *buf, size_t len)
 {
 	const char *p;
 
@@ -501,7 +501,7 @@ char *numlines(const char *string)
 	buf[0] = '\0';
 
 	while (*string) {
-		string = getline(string, tmpb, sizeof(tmpb));
+		string = zim_getline(string, tmpb, sizeof(tmpb));
 		snprintf(buf2, sizeof(buf2),
 			 "%2d. %s\n", cnt++, tmpb);
 		strnzcat(buf, sizeof(buf), buf2);

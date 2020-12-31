@@ -9,8 +9,9 @@ INCLUDES	= -I .
 #WFLAGS		= -Wall 
 WFLAGS		= -Wall -Wformat-security -Wpointer-arith -Wcast-align
 
-CFLAGS		= -g $(WFLAGS) -O -pipe $(INCLUDES)
-LFLAGS		= -g
+CFLAGS		= -g $(WFLAGS) -O -pipe $(INCLUDES) -m32 -Wl,-melf_i386
+LFLAGS		= -g -m32 -Wl,-melf_i386 -L/lib32 -L/lib/i386-linux-gnu -L/usr/lib/i386-linux-gnu -L/usr/lib32 -L/usr/lib/gcc/x86_64-linux-gnu/7/32
+
 LIBS		=
 INSTALL_PATH	= ..
 
