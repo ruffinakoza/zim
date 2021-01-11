@@ -73,8 +73,11 @@ CFILES = act_comm.c act_info.c act_move.c act_obj.c act_wiz.c auction.c\
 
 OFILES := $(patsubst %.c,o/%.o,$(CFILES))
 
-zim: $(OFILES)
+zim: build $(OFILES)
 	$(LD) $(LFLAGS) -o zim $(OFILES) $(LIBS)
+
+build:
+	@mkdir -p o/comm o/db o/olc
 
 run: zim 
 	./startup
